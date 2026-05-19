@@ -13,11 +13,11 @@ export function SettingsPanel({ onClose }: SettingsPanelProps) {
 const [activeTab, setActiveTab] = useState('general');
   const tabs = [
     { id: 'general', label: t("general") },
-    { id: 'account', label: "Compte" },
+    { id: 'account', label: t("account") },
     { id: 'privacy', label: t("privacy") },
-    { id: 'billing', label: "Facturation" },
+    { id: 'billing', label: t("billing") },
     { id: 'capabilities', label: t("capabilities") },
-    { id: 'connectors', label: "Connecteurs" },
+    { id: 'connectors', label: t("connectors") },
     { id: 'claude_code', label: "Claude Code" },
   ];
 
@@ -86,8 +86,8 @@ const [activeTab, setActiveTab] = useState('general');
                     Instructions pour Claude
                   </h3>
                   <p className="text-[12.5px] text-[#666] mb-4">
-                    Claude gardera ces éléments à l'esprit dans les chats et
-                    Cowork, conformément aux directives d'Anthropic.{" "}
+                    Claude gardera ces éléments à l&apos;esprit dans les chats et
+                    Cowork, conformément aux directives d&apos;Anthropic.{" "}
                     <a href="#" className="underline">
                       En savoir plus
                     </a>
@@ -137,21 +137,21 @@ const [activeTab, setActiveTab] = useState('general');
                   </h3>
                   <div className="space-y-4">
                     <button className="bg-[#242424] hover:bg-[#2a2a2a] text-[#ccc] border border-[#333] rounded-lg px-4 py-2 text-[13px] font-medium transition-colors w-full text-left">
-                      Se déconnecter de tous les appareils
+                      {t("logout_all")}
                     </button>
                     <button className="bg-red-500/10 hover:bg-red-500/20 text-red-500 border border-red-500/20 rounded-lg px-4 py-2 text-[13px] font-medium transition-colors w-full text-left">
-                      Supprimer votre compte
+                      {t("delete_account")}
                     </button>
                   </div>
                 </div>
 
                 <div>
                   <h3 className="font-serif text-[18px] text-[#e8e6e3] font-medium mb-4">
-                    Détails de l'organisation
+                    Détails de l&apos;organisation
                   </h3>
                   <div className="flex items-center justify-between py-3 border-b border-[#222]/50">
                     <span className="text-[13.5px] text-[#bbb]">
-                      ID d'organisation
+                      ID d&apos;organisation
                     </span>
                     <span className="text-[13px] text-[#888] font-mono">
                       org_8b9...f2a
@@ -159,7 +159,7 @@ const [activeTab, setActiveTab] = useState('general');
                   </div>
                   <div className="flex items-center justify-between py-3 border-b border-[#222]/50">
                     <span className="text-[13.5px] text-[#bbb]">
-                      Explications rapides aux questions d'informations
+                      Explications rapides aux questions d&apos;informations
                     </span>
                     <span className="text-[13px] text-[#888]">{t("disabled")}</span>
                   </div>
@@ -193,7 +193,7 @@ const [activeTab, setActiveTab] = useState('general');
                     Confidentialité
                   </h3>
                   <p className="text-[13px] text-[#aaa] max-w-[85%] relative z-10 leading-relaxed">
-                    Anthropic s'engage à protéger les données. Nous ne formons
+                    Anthropic s&apos;engage à protéger les données. Nous ne formons
                     jamais nos modèles avec les données avec lesquelles vous
                     discutez.
                   </p>
@@ -210,8 +210,8 @@ const [activeTab, setActiveTab] = useState('general');
                           Métadonnées de localisation
                         </div>
                         <div className="text-[12px] text-[#888] mt-1">
-                          Autoriser l'envoi de l'emplacement approximatif lors
-                          de l'utilisation de Claude.
+                          Autoriser l&apos;envoi de l&apos;emplacement approximatif lors
+                          de l&apos;utilisation de Claude.
                         </div>
                       </div>
                       <div className="w-10 h-6 bg-[#3a7bd5] rounded-full relative cursor-pointer">
@@ -225,7 +225,7 @@ const [activeTab, setActiveTab] = useState('general');
                           Aider à améliorer Claude
                         </div>
                         <div className="text-[12px] text-[#888] mt-1">
-                          Autoriser l'utilisation des données de discussion pour
+                          Autoriser l&apos;utilisation des données de discussion pour
                           améliorer directement les modèles.
                         </div>
                       </div>
@@ -242,13 +242,13 @@ const [activeTab, setActiveTab] = useState('general');
                   </h3>
                   <div className="space-y-4">
                     <button className="bg-[#242424] hover:bg-[#2a2a2a] text-[#ccc] border border-[#333] rounded-lg px-4 py-2 text-[13px] font-medium transition-colors w-full text-left">
-                      Exporter les données
+                      {t("export_data")}
                     </button>
                     <button className="bg-[#242424] hover:bg-[#2a2a2a] text-[#ccc] border border-[#333] rounded-lg px-4 py-2 text-[13px] font-medium transition-colors w-full text-left">
-                      Conversations partagées
+                      {t("shared_chats")}
                     </button>
                     <button className="bg-red-500/10 hover:bg-red-500/20 text-red-500 border border-red-500/20 rounded-lg px-4 py-2 text-[13px] font-medium transition-colors w-full text-left">
-                      Supprimer les données
+                      {t("delete_data")}
                     </button>
                   </div>
                 </div>
@@ -291,7 +291,7 @@ const [activeTab, setActiveTab] = useState('general');
                         </div>
                         <div className="text-[12.5px] text-[#888] mt-1">
                           Autorisez Claude à écrire, exécuter et stocker des
-                          fichiers de code dans un environnement d'exécution
+                          fichiers de code dans un environnement d&apos;exécution
                           pour répondre de manière experte à des commandes
                           complexes.
                         </div>
@@ -304,7 +304,7 @@ const [activeTab, setActiveTab] = useState('general');
                     <div className="flex items-start justify-between py-4 border-b border-[#222]/50 gap-4">
                       <div className="max-w-md">
                         <div className="text-[14px] text-[#e8e6e3] font-medium">
-                          Artéfacts propulsés par l'IA
+                          Artéfacts propulsés par l&apos;IA
                         </div>
                         <div className="text-[12.5px] text-[#888] mt-1">
                           Laissez Claude créer des extraits de code interactifs,

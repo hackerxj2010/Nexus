@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
+import { useI18n } from "@/lib/i18n";
 import { Sidebar } from "@/components/Sidebar";
 import { HomeView } from "@/components/views/HomeView";
 import { ChatView } from "@/components/views/ChatView";
@@ -9,20 +10,83 @@ import { ProjectsView } from "@/components/views/ProjectsView";
 import { SearchModal } from "@/components/SearchModal";
 import { SettingsPanel } from "@/components/SettingsPanel";
 import { CustomizeView } from "@/components/views/CustomizeView";
-import { conversations, dummyMessages } from "@/lib/data";
+import { conversations as staticConversations, dummyMessages, favorites as staticFavorites } from "@/lib/data";
 
 import { ArtifactsView } from "@/components/views/ArtifactsView";
 
+interface ChatMessage {
+  id: number;
+  role: "user" | "model" | "assistant";
+  content: string;
+}
+
+interface Conversation {
+  id: number;
+  title: string;
+  time: string;
+  isFavorite?: boolean;
+  messages: ChatMessage[];
+}
+
 export default function Page() {
+  const { t } = useI18n();
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
   const [currentView, setCurrentView] = useState("home"); // home, chat, discussions, projects
   const [activeConvId, setActiveConvId] = useState<number | null>(null);
 
   const [showSearch, setShowSearch] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
-  const [artifactPanel, setArtifactPanel] = useState<{ code: string; title: string; language: string; } | null>(null);
+  const [artifactPanel, setArtifactPanelState] = useState<{ code: string; title: string; language: string; } | null>(null);
 
-  const [chatMessages, setChatMessages] = useState<any[]>([]);
+  const setArtifactPanel = useCallback((newPanel: { code: string; title: string; language: string; } | null) => {
+    setArtifactPanelState((prev) => {
+      if (!prev && !newPanel) return null;
+      if (prev && newPanel) {
+        if (
+          prev.code === newPanel.code &&
+          prev.language === newPanel.language &&
+          prev.title === newPanel.title
+        ) {
+          return prev;
+        }
+      }
+      return newPanel;
+    });
+  }, []);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 1024) {
+        setIsSidebarCollapsed(true);
+      }
+    };
+    handleResize(); // trigger on mount
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Dynamic conversations state, preloaded with a mix of favorites and recent chats from data.ts
+  const [conversationsList, setConversationsList] = useState<Conversation[]>(() => {
+    const favoriteItems = staticFavorites.map((f) => ({
+      id: f.id,
+      title: f.title,
+      time: t("two_days_ago"),
+      isFavorite: true,
+      messages: [] as ChatMessage[]
+    }));
+
+    const recentItems = staticConversations.map((c) => ({
+      id: c.id,
+      title: c.title,
+      time: c.time,
+      isFavorite: false,
+      messages: c.id === 1 ? (dummyMessages as ChatMessage[]) : [] as ChatMessage[]
+    }));
+
+    return [...favoriteItems, ...recentItems];
+  });
+
+  const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
 
   useEffect(() => {
     const handleSwitch = (e: any) => {
@@ -48,7 +112,7 @@ export default function Page() {
     window.addEventListener("open-artifact", handleOpenArtifact);
     return () =>
       window.removeEventListener("open-artifact", handleOpenArtifact);
-  }, []);
+  }, [setArtifactPanel]);
 
   const handleNewChat = () => {
     setActiveConvId(null);
@@ -58,9 +122,22 @@ export default function Page() {
 
   const handleSelectConversation = (conv: any) => {
     setActiveConvId(conv.id);
-    // Load some dummy messages if present, or fallback
-    setChatMessages(dummyMessages);
+    const target = conversationsList.find((c) => c.id === conv.id);
+    if (target) {
+      setChatMessages(target.messages || []);
+    } else {
+      setChatMessages([]);
+    }
     setCurrentView("chat");
+  };
+
+  const handleDeleteConversation = (id: number) => {
+    setConversationsList((prev) => prev.filter((c) => c.id !== id));
+    if (activeConvId === id) {
+      setActiveConvId(null);
+      setChatMessages([]);
+      setCurrentView("home");
+    }
   };
 
   const handleSearchResult = (item: any) => {
@@ -77,23 +154,50 @@ export default function Page() {
   const handleSendMessage = async (text: string) => {
     if (!text.trim()) return;
 
-    // Add user message
-    const newMsg = { id: Date.now(), role: "user", content: text };
-    setChatMessages((prev) => [...prev, newMsg]);
+    let currentConvId = activeConvId;
+    let fallbackUpdatedConvs = [...conversationsList];
 
-    // Switch to chat view if in home
+    // Auto create a conversation if none is active
+    if (currentConvId === null) {
+      const newId = Date.now();
+      const cleanTitle = text.length > 35 ? text.substring(0, 35) + "..." : text;
+      const newConv: Conversation = {
+        id: newId,
+        title: cleanTitle,
+        time: "à l'instant",
+        isFavorite: false,
+        messages: []
+      };
+      fallbackUpdatedConvs.unshift(newConv);
+      currentConvId = newId;
+      setActiveConvId(newId);
+    }
+
+    const userMsg: ChatMessage = { id: Date.now(), role: "user", content: text };
+    const nextMessages = [...chatMessages, userMsg];
+    
+    setChatMessages(nextMessages);
+    setConversationsList(
+      fallbackUpdatedConvs.map((c) =>
+        c.id === currentConvId ? { ...c, messages: nextMessages } : c
+      )
+    );
+
     if (currentView === "home") {
       setCurrentView("chat");
     }
 
-    try {
-      // Create a simulated AI stream feeling, but eventually replacing by real api call
-      setChatMessages((prev) => [
-        ...prev,
-        { id: Date.now() + 1, role: "model", content: "..." },
-      ]);
+    const thinkingId = Date.now() + 1;
+    // Append loading placeholder
+    const nextWithThinking = [
+      ...nextMessages,
+      { id: thinkingId, role: "model" as const, content: "..." }
+    ];
+    setChatMessages(nextWithThinking);
 
-      const res = await fetch("/api/gemini/generate", {
+    try {
+      const baseUrl = typeof window !== "undefined" ? window.location.origin : "";
+      const res = await fetch(`${baseUrl}/api/gemini/generate`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prompt: text }),
@@ -104,25 +208,99 @@ export default function Page() {
       }
 
       const data = await res.json();
+      const generatedText = data.text || t("no_response_error");
 
-      setChatMessages((prev) =>
-        prev.map((msg) =>
-          msg.content === "..." ? { ...msg, content: data.text } : msg,
-        ),
-      );
+      setChatMessages((prev) => {
+        const finalMsgs = prev.map((msg) =>
+          msg.id === thinkingId ? { ...msg, content: generatedText } : msg
+        );
+        setConversationsList((currentList) =>
+          currentList.map((c) =>
+            c.id === currentConvId ? { ...c, messages: finalMsgs } : c
+          )
+        );
+        return finalMsgs;
+      });
     } catch (err) {
       console.error(err);
-      setChatMessages((prev) =>
-        prev.map((msg) =>
-          msg.content === "..."
+      setChatMessages((prev) => {
+        const finalErrorMsgs = prev.map((msg) =>
+          msg.id === thinkingId
             ? {
                 ...msg,
-                content:
-                  "Désolé, une erreur s'est produite lors de la connexion au modèle.",
+                content: t("connection_error"),
               }
-            : msg,
-        ),
-      );
+            : msg
+        );
+        setConversationsList((currentList) =>
+          currentList.map((c) =>
+            c.id === currentConvId ? { ...c, messages: finalErrorMsgs } : c
+          )
+        );
+        return finalErrorMsgs;
+      });
+    }
+  };
+
+  const handleRegenerateMessage = async (messageIndex: number) => {
+    if (messageIndex === 0) return;
+    
+    // Find the prompt associated with the message before this index
+    const userMsg = chatMessages[messageIndex - 1];
+    if (!userMsg || userMsg.role !== "user") return;
+
+    const promptText = userMsg.content;
+    const prefixMessages = chatMessages.slice(0, messageIndex);
+    const thinkingId = Date.now();
+
+    const nextMessages = [
+      ...prefixMessages,
+      { id: thinkingId, role: "model" as const, content: "..." }
+    ];
+
+    setChatMessages(nextMessages);
+    setConversationsList((currentList) =>
+      currentList.map((c) =>
+        c.id === activeConvId ? { ...c, messages: nextMessages } : c
+      )
+    );
+
+    try {
+      const baseUrl = typeof window !== "undefined" ? window.location.origin : "";
+      const res = await fetch(`${baseUrl}/api/gemini/generate`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt: promptText }),
+      });
+
+      if (!res.ok) throw new Error("Erreur");
+      const data = await res.json();
+      const generatedText = data.text || t("no_response_error");
+
+      setChatMessages((prev) => {
+        const finalMsgs = prev.map((msg) =>
+          msg.id === thinkingId ? { ...msg, content: generatedText } : msg
+        );
+        setConversationsList((currentList) =>
+          currentList.map((c) =>
+            c.id === activeConvId ? { ...c, messages: finalMsgs } : c
+          )
+        );
+        return finalMsgs;
+      });
+    } catch (err) {
+      console.error(err);
+      setChatMessages((prev) => {
+        const finalErrorMsgs = prev.map((msg) =>
+          msg.id === thinkingId ? { ...msg, content: t("generation_error") } : msg
+        );
+        setConversationsList((currentList) =>
+          currentList.map((c) =>
+            c.id === activeConvId ? { ...c, messages: finalErrorMsgs } : c
+          )
+        );
+        return finalErrorMsgs;
+      });
     }
   };
 
@@ -138,6 +316,8 @@ export default function Page() {
         onSelectConversation={handleSelectConversation}
         activeConvId={activeConvId}
         onOpenSettings={() => setShowSettings(true)}
+        conversationsList={conversationsList}
+        onDeleteConversation={handleDeleteConversation}
       />
 
       <main className="flex-1 flex flex-col min-w-0 bg-[#141414] overflow-hidden relative selection:bg-[#444] selection:text-white">
@@ -149,9 +329,10 @@ export default function Page() {
           <ChatView
             messages={chatMessages}
             onSendMessage={handleSendMessage}
+            onRegenerate={handleRegenerateMessage}
             activeConv={
               activeConvId
-                ? conversations.find((c) => c.id === activeConvId) || {
+                ? conversationsList.find((c) => c.id === activeConvId) || {
                     id: activeConvId,
                     title: "Nouvelle conversation",
                   }
@@ -166,6 +347,7 @@ export default function Page() {
           <DiscussionsView
             onSelectConv={handleSelectConversation}
             onNewConv={handleNewChat}
+            conversationsList={conversationsList}
           />
         )}
 

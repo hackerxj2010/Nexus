@@ -168,11 +168,11 @@ const [input, setInput] = useState("");
               onClick={() => setActiveSubMenu(null)}
               className="px-3.5 py-2 flex items-center gap-2 text-[#ccc] hover:text-white transition-colors text-[13px] border-b border-[#2a2a2a] bg-[#1a1a1a]"
             >
-              <ChevronLeft size={14} /> Retour
+              <ChevronLeft size={14} /> {t("go_back_short")}
             </button>
             <div className="p-1">
               <div className="text-[11px] text-[#555] font-semibold uppercase tracking-wider px-2.5 py-2">
-                Vos compétences
+                {t("your_skills")}
               </div>
               <button className="w-full flex items-center px-2.5 py-2 text-[13px] text-[#ccc] hover:bg-[#2a2a2a] rounded-lg transition-colors justify-between">
                 <span className="flex items-center gap-3">
@@ -182,7 +182,7 @@ const [input, setInput] = useState("");
               </button>
               <div className="h-px bg-[#2a2a2a] my-1"></div>
               <button className="w-full flex items-center px-2.5 py-2 text-[13px] text-[#ccc] hover:bg-[#2a2a2a] rounded-lg transition-colors">
-                <Grid size={14} className="mr-3 text-[#555]" /> Gérer
+                <Grid size={14} className="mr-3 text-[#555]" /> {t("manage")}
               </button>
             </div>
           </div>
@@ -194,11 +194,11 @@ const [input, setInput] = useState("");
               onClick={() => setActiveSubMenu(null)}
               className="px-3.5 py-2 flex items-center gap-2 text-[#ccc] hover:text-white transition-colors text-[13px] border-b border-[#2a2a2a] bg-[#1a1a1a]"
             >
-              <ChevronLeft size={14} /> Retour
+              <ChevronLeft size={14} /> {t("go_back_short")}
             </button>
             <div className="p-1">
               <div className="text-[11px] text-[#555] font-semibold uppercase tracking-wider px-2.5 py-2">
-                Vos connecteurs
+                {t("your_connectors")}
               </div>
               <button className="w-full flex items-center px-2.5 py-2 text-[13px] text-[#ccc] hover:bg-[#2a2a2a] rounded-lg transition-colors justify-between">
                 <span className="flex items-center gap-3">

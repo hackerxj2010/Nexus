@@ -18,6 +18,7 @@ import {
   Upload,
   ChevronRight,
   ArrowLeft,
+  Trash2,
 } from "lucide-react";
 import { ClaudeLogo } from "./icons/ClaudeLogo";
 import { favorites, conversations } from "@/lib/data";
@@ -32,6 +33,8 @@ interface SidebarProps {
   onSelectConversation: (conv: any) => void;
   activeConvId: number | null;
   onOpenSettings: () => void;
+  conversationsList?: any[];
+  onDeleteConversation?: (id: number) => void;
 }
 
 export function Sidebar({
@@ -44,6 +47,8 @@ export function Sidebar({
   onSelectConversation,
   activeConvId,
   onOpenSettings,
+  conversationsList,
+  onDeleteConversation,
 }: SidebarProps) {
   const [showUserMenu, setShowUserMenu] = useState(false);
   const [showLanguageMenu, setShowLanguageMenu] = useState(false);
@@ -166,35 +171,67 @@ export function Sidebar({
           <div className="text-[11px] text-[#555] px-2 py-1.5 uppercase tracking-wider font-semibold">
             {t("favorites")}
           </div>
-          {favorites.map((f) => (
-            <button
+          {(conversationsList ? conversationsList.filter(c => c.isFavorite) : favorites).map((f) => (
+            <div
               key={f.id}
-              onClick={() => onSelectConversation(f)}
-              className={`w-full text-left px-2.5 py-1.5 rounded-lg text-[13px] truncate transition-colors ${
+              className={`w-full group/item flex items-center justify-between px-2.5 py-1.5 rounded-lg text-[13px] transition-all ${
                 activeConvId === f.id
                   ? "bg-[#242424] text-[#e8e6e3]"
                   : "text-[#888] hover:bg-[#242424] hover:text-[#ccc]"
               }`}
             >
-              {f.title}
-            </button>
+              <button
+                onClick={() => onSelectConversation(f)}
+                className="text-left truncate flex-1 block"
+              >
+                {f.title}
+              </button>
+              {onDeleteConversation && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onDeleteConversation(f.id);
+                  }}
+                  className="opacity-0 group-hover/item:opacity-100 p-1 rounded hover:bg-[#333] hover:text-[#da7756] transition-opacity duration-150 shrink-0 ml-1.5"
+                  title="Supprimer la conversation"
+                >
+                  <Trash2 size={12} />
+                </button>
+              )}
+            </div>
           ))}
 
           <div className="text-[11px] text-[#555] px-2 pt-3 pb-1.5 uppercase tracking-wider font-semibold">
             {t("recent")}
           </div>
-          {conversations.map((c) => (
-            <button
+          {(conversationsList ? conversationsList.filter(c => !c.isFavorite) : conversations).map((c) => (
+            <div
               key={c.id}
-              onClick={() => onSelectConversation(c)}
-              className={`w-full text-left px-2.5 py-1.5 rounded-lg text-[13px] truncate transition-colors ${
+              className={`w-full group/item flex items-center justify-between px-2.5 py-1.5 rounded-lg text-[13px] transition-all ${
                 activeConvId === c.id
                   ? "bg-[#242424] text-[#e8e6e3]"
                   : "text-[#888] hover:bg-[#242424] hover:text-[#ccc]"
               }`}
             >
-              {c.title}
-            </button>
+              <button
+                onClick={() => onSelectConversation(c)}
+                className="text-left truncate flex-1 block"
+              >
+                {c.title}
+              </button>
+              {onDeleteConversation && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onDeleteConversation(c.id);
+                  }}
+                  className="opacity-0 group-hover/item:opacity-100 p-1 rounded hover:bg-[#333] hover:text-[#da7756] transition-opacity duration-150 shrink-0 ml-1.5"
+                  title="Supprimer la conversation"
+                >
+                  <Trash2 size={12} />
+                </button>
+              )}
+            </div>
           ))}
         </div>
       )}

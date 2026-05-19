@@ -10,12 +10,14 @@ import {
   RefreshCcw,
   X,
   Grid,
+  Check,
 } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useMemo } from "react";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import { useI18n } from "@/lib/i18n";
+import { CodeBlock } from "@/components/CodeBlock";
 
 interface Message {
   role: "user" | "assistant" | "model";
@@ -28,6 +30,7 @@ interface ChatViewProps {
   artifactPanel: { code: string; title: string; language: string; } | null;
   setArtifactPanel: (panel: { code: string; title: string; language: string; } | null) => void;
   onSendMessage: (msg: string) => void;
+  onRegenerate?: (index: number) => void;
 }
 
 export function ChatView({
@@ -36,6 +39,7 @@ export function ChatView({
   artifactPanel,
   setArtifactPanel,
   onSendMessage,
+  onRegenerate,
 }: ChatViewProps) {
   const { t } = useI18n();
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -47,11 +51,11 @@ export function ChatView({
 
   useEffect(() => {
     if (artifactPanel) {
-      if (artifactPanel.language === 'html' || artifactPanel.language === 'svg') {
-        setActiveTab('preview');
-      } else {
-        setActiveTab('code');
-      }
+      const preferredTab = (artifactPanel.language === 'html' || artifactPanel.language === 'svg') ? 'preview' : 'code';
+      const timer = setTimeout(() => {
+        setActiveTab(preferredTab);
+      }, 0);
+      return () => clearTimeout(timer);
     }
   }, [artifactPanel]);
 
@@ -77,7 +81,7 @@ export function ChatView({
         <div className="flex-1 overflow-y-auto px-4 md:px-10 py-8 scrollbar-hide">
           <div className="max-w-3xl mx-auto flex flex-col gap-10 pb-8">
             {messages.map((msg, i) => (
-              <MessageBubble key={i} msg={msg} />
+              <MessageBubble key={i} msg={msg} index={i} onRegenerate={onRegenerate} setArtifactPanel={setArtifactPanel} />
             ))}
             <div ref={messagesEndRef} />
           </div>
@@ -88,8 +92,7 @@ export function ChatView({
           <div className="max-w-3xl w-full">
             <InputBox onSend={onSendMessage} compact={true} />
             <p className="text-[12px] text-[#666] mt-3 text-center tracking-wide">
-              Claude est une IA et peut faire des erreurs. Veuillez vérifier les
-              réponses.
+              {t("claude_warning")}
             </p>
           </div>
         </div>
@@ -97,7 +100,13 @@ export function ChatView({
 
       {/* Artifact panel */}
       {artifactPanel && (
-        <div className="w-[420px] lg:w-[500px] xl:w-[600px] border-l border-[#1f1f1f] flex flex-col bg-[#141414] animate-in slide-in-from-right-2 duration-300 shadow-2xl relative z-40">
+        <>
+          {/* Mobile overlay backdrop */}
+          <div 
+            className="fixed inset-0 bg-black/60 backdrop-blur-xs z-30 lg:hidden animate-in fade-in duration-300"
+            onClick={() => setArtifactPanel(null)}
+          />
+          <div className="w-full sm:w-[500px] lg:w-[500px] xl:w-[600px] fixed lg:relative inset-y-0 right-0 z-40 border-l border-[#1f1f1f] flex flex-col bg-[#141414] animate-in slide-in-from-right-2 duration-300 shadow-2xl shrink-0">
           <div className="flex items-center px-4 py-2 border-b border-[#1f1f1f] bg-[#1a1a1a]">
             <div className="flex gap-2">
               <button 
@@ -167,7 +176,7 @@ export function ChatView({
                         onClick={() => setActiveTab('code')}
                         className="bg-blue-600 text-white px-5 py-2.5 rounded-xl font-medium shadow-md shadow-blue-500/20 hover:bg-blue-700 transition-colors"
                       >
-                        Voir le code
+                        {t("voir_le_code")}
                       </button>
                     </div>
                   </div>
@@ -186,13 +195,70 @@ export function ChatView({
             </div>
           </div>
         </div>
-      )}
+      </>
+    )}
     </div>
   );
 }
 
-function MessageBubble({ msg }: { msg: Message | any }) {
+function MessageBubble({ msg, index, onRegenerate, setArtifactPanel }: { msg: Message | any; index?: number; onRegenerate?: (index: number) => void; setArtifactPanel?: (panel: any) => void }) {
+  const { t } = useI18n();
   const isUser = msg.role === "user";
+  const [copied, setCopied] = useState(false);
+  const [liked, setLiked] = useState(false);
+  const [disliked, setDisliked] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(msg.content);
+    setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 2000);
+  };
+
+  const markdownComponents = useMemo(() => ({
+    code: (props: any) => (
+      <CodeBlock 
+        {...props} 
+        onOpenInArtifact={(code: string, language: string) => {
+          if (setArtifactPanel) {
+            setArtifactPanel({
+              code,
+              title: t("fichier_genere"),
+              language
+            });
+          }
+        }} 
+      />
+    ),
+    p: ({ children }: any) => <div className="mb-4 text-[15.5px] leading-relaxed last:mb-0 text-[#d4d4d4] font-sans">{children}</div>,
+    a: ({ children, href }: any) => <a href={href} className="text-[#3a7bd5] hover:underline underline-offset-2">{children}</a>,
+    ul: ({ children }: any) => <ul className="list-disc pl-5 mb-4 text-[#d4d4d4] space-y-1">{children}</ul>,
+    ol: ({ children }: any) => <ol className="list-decimal pl-5 mb-4 text-[#d4d4d4] space-y-1">{children}</ol>,
+    li: ({ children }: any) => <li className="pl-1 text-[15.5px] leading-relaxed">{children}</li>,
+    h1: ({ children }: any) => <h1 className="text-2xl font-serif font-bold text-[#e8e6e3] mb-4 mt-6">{children}</h1>,
+    h2: ({ children }: any) => <h2 className="text-xl font-serif font-semibold text-[#e8e6e3] mb-3 mt-5">{children}</h2>,
+    h3: ({ children }: any) => <h3 className="text-lg font-serif font-medium text-[#e8e6e3] mb-2 mt-4">{children}</h3>,
+    div: ({ children, className, ...rest }: any) => {
+      const cleanRest = { ...rest };
+      delete cleanRest.onClick;
+      delete cleanRest.onClickCapture;
+      return <div className={className} {...cleanRest}>{children}</div>;
+    },
+    button: ({ children, className, ...rest }: any) => {
+      const cleanRest = { ...rest };
+      delete cleanRest.onClick;
+      delete cleanRest.onClickCapture;
+      return <button className={className} {...cleanRest}>{children}</button>;
+    },
+    span: ({ children, className, ...rest }: any) => {
+      const cleanRest = { ...rest };
+      delete cleanRest.onClick;
+      delete cleanRest.onClickCapture;
+      return <span className={className} {...cleanRest}>{children}</span>;
+    },
+  }), [setArtifactPanel, t]);
+
   return (
     <div
       className={`flex w-full group ${
@@ -228,73 +294,7 @@ function MessageBubble({ msg }: { msg: Message | any }) {
               <Markdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeRaw]}
-                components={{
-                  code(props) {
-                    const { children, className, node, ...rawRest } = props;
-                    const rest = { ...rawRest } as any;
-                    delete rest.onClick;
-                    delete rest.onClickCapture;
-                    const match = /language-(\w+)/.exec(className || "");
-                    return className ? (
-                      <div className="rounded-xl overflow-hidden bg-[#1a1a1a] border border-[#2a2a2a] my-4 shadow-md font-mono text-[13px]">
-                        <div className="flex items-center justify-between px-4 py-2 bg-[#1e1e1e] border-b border-[#2a2a2a]">
-                          <span className="text-[#888] font-medium lowercase tracking-wide">{match?.[1] || "code"}</span>
-                          <div className="flex gap-3">
-                            <button 
-                              className="text-[#888] hover:text-[#ccc] transition-colors flex items-center gap-1.5 text-[12px] open-artifact-btn"
-                              data-code={String(children).replace(/"/g, '&quot;')}
-                              onClick={() => {
-                                window.dispatchEvent(new CustomEvent('open-artifact', {
-                                  detail: { code: String(children), language: match?.[1] || "code" }
-                                }));
-                              }}
-                            >
-                              <Grid size={12} /> Preview
-                            </button>
-                            <button className="text-[#888] hover:text-[#ccc] transition-colors flex items-center gap-1.5 text-[12px]">
-                              <Copy size={12} /> Copy
-                            </button>
-                          </div>
-                        </div>
-                        <div className="p-4 overflow-x-auto text-[#d4d4d4]">
-                          <code {...rest} className={className}>
-                            {children}
-                          </code>
-                        </div>
-                      </div>
-                    ) : (
-                      <code {...rest} className="bg-[#2a2a2a] text-[#e8e6e3] px-1.5 py-0.5 rounded-md font-mono text-[13.5px]">
-                        {children}
-                      </code>
-                    );
-                  },
-                  p: ({ children }) => <div className="mb-4 text-[15.5px] leading-relaxed last:mb-0 text-[#d4d4d4] font-sans">{children}</div>,
-                  a: ({ children, href }) => <a href={href} className="text-[#3a7bd5] hover:underline underline-offset-2">{children}</a>,
-                  ul: ({ children }) => <ul className="list-disc pl-5 mb-4 text-[#d4d4d4] space-y-1">{children}</ul>,
-                  ol: ({ children }) => <ol className="list-decimal pl-5 mb-4 text-[#d4d4d4] space-y-1">{children}</ol>,
-                  li: ({ children }) => <li className="pl-1 text-[15.5px] leading-relaxed">{children}</li>,
-                  h1: ({ children }) => <h1 className="text-2xl font-serif font-bold text-[#e8e6e3] mb-4 mt-6">{children}</h1>,
-                  h2: ({ children }) => <h2 className="text-xl font-serif font-semibold text-[#e8e6e3] mb-3 mt-5">{children}</h2>,
-                  h3: ({ children }) => <h3 className="text-lg font-serif font-medium text-[#e8e6e3] mb-2 mt-4">{children}</h3>,
-                  div: ({ children, className, ...rest }: any) => {
-                    const cleanRest = { ...rest };
-                    delete cleanRest.onClick;
-                    delete cleanRest.onClickCapture;
-                    return <div className={className} {...cleanRest}>{children}</div>;
-                  },
-                  button: ({ children, className, ...rest }: any) => {
-                    const cleanRest = { ...rest };
-                    delete cleanRest.onClick;
-                    delete cleanRest.onClickCapture;
-                    return <button className={className} {...cleanRest}>{children}</button>;
-                  },
-                  span: ({ children, className, ...rest }: any) => {
-                    const cleanRest = { ...rest };
-                    delete cleanRest.onClick;
-                    delete cleanRest.onClickCapture;
-                    return <span className={className} {...cleanRest}>{children}</span>;
-                  },
-                }}
+                components={markdownComponents}
               >
                 {msg.content}
               </Markdown>
@@ -303,14 +303,55 @@ function MessageBubble({ msg }: { msg: Message | any }) {
         </div>
         {!isUser && (
           <div className="flex gap-2 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pl-[46px]">
-            {[Copy, ThumbsUp, ThumbsDown, RefreshCcw].map((Icon, i) => (
+            {/* Copier */}
+            <button
+              onClick={handleCopy}
+              className={`p-1.5 rounded-lg transition-colors border border-transparent hover:border-[#333] flex items-center gap-1 ${
+                copied ? "text-green-500 bg-[#2a2a2a]/40" : "text-[#666] hover:text-[#ccc] hover:bg-[#2a2a2a]"
+              }`}
+              title={t("copier_message")}
+            >
+              {copied ? <Check size={14} /> : <Copy size={14} />}
+            </button>
+
+            {/* Aimer */}
+            <button
+              onClick={() => {
+                setLiked(!liked);
+                setDisliked(false);
+              }}
+              className={`p-1.5 rounded-lg transition-colors border border-transparent hover:border-[#333] flex items-center gap-1 ${
+                liked ? "text-green-500 bg-[#2a2a2a]/60 font-semibold" : "text-[#666] hover:text-[#ccc] hover:bg-[#2a2a2a]"
+              }`}
+              title={t("aimer_reponse")}
+            >
+              <ThumbsUp size={14} fill={liked ? "currentColor" : "none"} />
+            </button>
+
+            {/* Désaimer */}
+            <button
+              onClick={() => {
+                setDisliked(!disliked);
+                setLiked(false);
+              }}
+              className={`p-1.5 rounded-lg transition-colors border border-transparent hover:border-[#333] flex items-center gap-1 ${
+                disliked ? "text-orange-400 bg-[#2a2a2a]/60 font-semibold" : "text-[#666] hover:text-[#ccc] hover:bg-[#2a2a2a]"
+              }`}
+              title={t("desaimer_reponse")}
+            >
+              <ThumbsDown size={14} fill={disliked ? "currentColor" : "none"} />
+            </button>
+
+            {/* Régénérer */}
+            {onRegenerate && index !== undefined && (
               <button
-                key={i}
-                className="text-[#666] hover:text-[#ccc] hover:bg-[#2a2a2a] p-1.5 rounded-lg transition-colors border border-transparent hover:border-[#333]"
+                onClick={() => onRegenerate(index)}
+                className="text-[#666] hover:text-[#ccc] hover:bg-[#2a2a2a] p-1.5 rounded-lg transition-on-hover border border-transparent hover:border-[#333]"
+                title={t("regenerer_reponse")}
               >
-                <Icon size={14} />
+                <RefreshCcw size={14} />
               </button>
-            ))}
+            )}
           </div>
         )}
       </div>

@@ -53,7 +53,7 @@ const [activeTab, setActiveTab] = useState<"skills" | "connectors">("skills");
                   : "text-[#888] hover:bg-[#242424] hover:text-[#ccc]"
               }`}
             >
-              Compétences
+              {t("skills")}
             </button>
             <button
               onClick={() => setActiveTab("connectors")}
@@ -63,7 +63,7 @@ const [activeTab, setActiveTab] = useState<"skills" | "connectors">("skills");
                   : "text-[#888] hover:bg-[#242424] hover:text-[#ccc]"
               }`}
             >
-              Connecteurs
+              {t("connectors")}
             </button>
           </div>
         </div>
@@ -125,10 +125,10 @@ const [activeTab, setActiveTab] = useState<"skills" | "connectors">("skills");
 
             <div className="mt-12">
               <h3 className="text-[20px] font-medium text-[#e8e6e3] mb-6">
-                Compétences partagées par d'autres
+                Compétences partagées par d&apos;autres
               </h3>
               <div className="text-[#888] text-[14px] bg-[#1a1a1a] p-8 rounded-xl border border-[#242424] text-center">
-                Vous n'avez pas encore ajouté de compétences partagées
+                Vous n&apos;avez pas encore ajouté de compétences partagées
               </div>
             </div>
           </div>
@@ -300,6 +300,7 @@ function ConnectorDetail({
   connector: any;
   onBack: () => void;
 }) {
+  const { t } = useI18n();
   return (
     <div className="flex-1 flex flex-col h-full bg-[#141414] animate-in slide-in-from-right-4 duration-300 w-full">
       <div className="flex items-center px-6 py-4 border-b border-[#1f1f1f] bg-[#1a1a1a] gap-4">
@@ -342,17 +343,17 @@ function ConnectorDetail({
 
         <div>
           <h3 className="text-[18px] font-medium text-[#e8e6e3] mb-4">
-            Autorisations
+            {t("permissions")}
           </h3>
           <div className="bg-[#1a1a1a] border border-[#242424] rounded-xl divide-y divide-[#242424]">
             <div className="p-4 flex gap-4">
               <Search className="text-[#888] shrink-0" size={20} />
               <div>
                 <div className="text-[14px] text-[#ccc] font-medium mb-1">
-                  Afficher et télécharger
+                  {t("view_and_download_title")}
                 </div>
                 <div className="text-[13px] text-[#888]">
-                  Permet d'afficher, rechercher et télécharger des fichiers.
+                  {t("view_and_download_desc")}
                 </div>
               </div>
             </div>
@@ -360,11 +361,10 @@ function ConnectorDetail({
               <Upload className="text-[#888] shrink-0" size={20} />
               <div>
                 <div className="text-[14px] text-[#ccc] font-medium mb-1">
-                  Modifier et créer
+                  {t("edit_and_create_title")}
                 </div>
                 <div className="text-[13px] text-[#888]">
-                  Permet de créer de nouveaux fichiers et d'apporter des
-                  modifications.
+                  {t("edit_and_create_desc")}
                 </div>
               </div>
             </div>
