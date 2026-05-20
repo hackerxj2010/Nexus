@@ -118,7 +118,7 @@ export function Sidebar({
   return (
     <div
       className={`bg-[#171717] h-screen flex flex-col border-r border-[#1f1f1f] transition-all duration-200 overflow-hidden relative z-20 ${
-        isCollapsed ? "w-[52px] min-w-[52px]" : "w-[260px] min-w-[260px]"
+        isCollapsed ? "w-[52px] min-w-[52px]" : "w-full min-w-full md:w-[260px] md:min-w-[260px]"
       }`}
     >
       {/* Header */}
