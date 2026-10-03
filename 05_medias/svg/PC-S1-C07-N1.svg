@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Cycle du cuivre : conservation de l'élément</title>
+<rect x="0" y="0" width="400" height="300" rx="18" fill="#fffdf8"/>
+<rect x="148.0" y="36.2" width="104.0" height="48.0" rx="10" stroke="#b45309" stroke-width="2" fill="#fed7aa"/>
+<text x="200.0" y="58.2" font-size="16" text-anchor="middle" fill="#b45309" font-weight="bold">Cu</text>
+<text x="200.0" y="76.2" font-size="11" text-anchor="middle" fill="#1f2937" font-weight="normal">métal rouge</text>
+<rect x="279.2" y="136.0" width="104.0" height="48.0" rx="10" stroke="#1d4ed8" stroke-width="2" fill="#bfdbfe"/>
+<text x="331.2" y="158.0" font-size="16" text-anchor="middle" fill="#1e3a8a" font-weight="bold">Cu²⁺</text>
+<text x="331.2" y="176.0" font-size="11" text-anchor="middle" fill="#1f2937" font-weight="normal">solution bleue</text>
+<rect x="148.0" y="235.8" width="104.0" height="48.0" rx="10" stroke="#1d4ed8" stroke-width="2" fill="#93c5fd"/>
+<text x="200.0" y="257.8" font-size="16" text-anchor="middle" fill="#1e3a8a" font-weight="bold">Cu(OH)₂</text>
+<text x="200.0" y="275.8" font-size="11" text-anchor="middle" fill="#1f2937" font-weight="normal">précipité bleu</text>
+<rect x="16.8" y="136.0" width="104.0" height="48.0" rx="10" stroke="#1f2937" stroke-width="2" fill="#d1d5db"/>
+<text x="68.8" y="158.0" font-size="16" text-anchor="middle" fill="#1f2937" font-weight="bold">CuO</text>
+<text x="68.8" y="176.0" font-size="11" text-anchor="middle" fill="#1f2937" font-weight="normal">solide noir</text>
+<path d="M 237.4 76.7 Q 283.1 96.8 309.6 131.6" stroke="#15803d" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="312.0,134.7 308.1,121.4 300.2,127.4" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="254.5" y="122.6" font-size="11" text-anchor="middle" fill="#15803d" font-weight="normal">acide nitrique</text>
+<path d="M 309.6 188.4 Q 283.1 223.2 237.4 243.3" stroke="#15803d" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="233.8,244.9 247.7,244.3 243.6,235.1" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="254.5" y="205.4" font-size="11" text-anchor="middle" fill="#15803d" font-weight="normal">soude</text>
+<path d="M 162.6 243.3 Q 116.9 223.2 90.4 188.4" stroke="#15803d" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="88.0,185.3 91.9,198.6 99.8,192.6" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="145.5" y="205.4" font-size="11" text-anchor="middle" fill="#15803d" font-weight="normal">chauffage</text>
+<path d="M 90.4 131.6 Q 116.9 96.8 162.6 76.7" stroke="#15803d" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="166.2,75.1 152.3,75.7 156.4,84.9" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="161.5" y="122.6" font-size="11" text-anchor="middle" fill="#15803d" font-weight="normal">carbone + chauffage</text>
+<text x="200.0" y="156.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="bold">l'élément cuivre</text>
+<text x="200.0" y="174.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="bold">se conserve</text>
+</svg>

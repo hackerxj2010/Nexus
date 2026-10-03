@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 525" width="600" height="525" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">L'absorption racinaire</title>
+<desc id="desc">À gauche : racine avec coiffe, zone de croissance, zone pilifère couverte de poils absorbants et zone de ramification. À droite : trajet de l'eau et des ions du sol vers le poil absorbant, l'écorce, l'endoderme puis le xylème (sève brute) qui monte vers les feuilles ; l'eau entre par osmose, les ions surtout par transport actif.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker></defs>
+<rect x="0" y="0" width="600" height="525" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">L'absorption racinaire</text>
+<text x="150" y="66" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">Racine (vue externe)</text>
+<path d="M178 80 L202 80 L200 470 Q190 505 180 470 Z" fill="#fef3c7" stroke="#92400e" stroke-width="2"/>
+<path d="M190 105 q -27.5 4 -55 30" fill="none" stroke="#92400e" stroke-width="5" stroke-linecap="round"/>
+<path d="M190 125 q 25.0 4 50 30" fill="none" stroke="#92400e" stroke-width="5" stroke-linecap="round"/>
+<path d="M190 155 q -22.5 4 -45 30" fill="none" stroke="#92400e" stroke-width="5" stroke-linecap="round"/>
+<path d="M190 180 q 21.0 4 42 30" fill="none" stroke="#92400e" stroke-width="5" stroke-linecap="round"/>
+<line x1="178" y1="245" x2="160" y2="239" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="245" x2="220" y2="239" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="253" x2="156" y2="247" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="253" x2="224" y2="247" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="261" x2="152" y2="255" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="261" x2="228" y2="255" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="269" x2="160" y2="263" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="269" x2="220" y2="263" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="277" x2="156" y2="271" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="277" x2="224" y2="271" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="285" x2="152" y2="279" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="285" x2="228" y2="279" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="293" x2="160" y2="287" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="293" x2="220" y2="287" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="301" x2="156" y2="295" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="301" x2="224" y2="295" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="309" x2="152" y2="303" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="309" x2="228" y2="303" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="317" x2="160" y2="311" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="317" x2="220" y2="311" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="325" x2="156" y2="319" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="325" x2="224" y2="319" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="333" x2="152" y2="327" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="333" x2="228" y2="327" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="341" x2="160" y2="335" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="341" x2="220" y2="335" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="349" x2="156" y2="343" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="349" x2="224" y2="343" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="357" x2="152" y2="351" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="357" x2="228" y2="351" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="365" x2="160" y2="359" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="365" x2="220" y2="359" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="373" x2="156" y2="367" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="373" x2="224" y2="367" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="381" x2="152" y2="375" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="381" x2="228" y2="375" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="389" x2="160" y2="383" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="389" x2="220" y2="383" stroke="#a16207" stroke-width="1.6"/>
+<line x1="178" y1="397" x2="156" y2="391" stroke="#a16207" stroke-width="1.6"/>
+<line x1="201" y1="397" x2="224" y2="391" stroke="#a16207" stroke-width="1.6"/>
+<path d="M180 470 Q190 520 200 470 Z" fill="#fca5a5" stroke="#b91c1c" stroke-width="1.5"/>
+<path d="M120 237 L112 237 L112 403 L120 403" fill="none" stroke="#374151" stroke-width="2"/>
+<text x="106" y="316" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">zone</text>
+<text x="106" y="334" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">pilifère</text>
+<line x1="145" y1="128" x2="110" y2="100" stroke="#374151" stroke-width="1.6"/><circle cx="145" cy="128" r="2.6" fill="#374151"/><text x="104" y="106" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">zone de</text>
+<text x="104" y="124" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">ramification</text>
+<line x1="180" y1="440" x2="125" y2="440" stroke="#374151" stroke-width="1.6"/><circle cx="180" cy="440" r="2.6" fill="#374151"/><text x="119" y="446" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">zone de</text>
+<text x="119" y="464" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">croissance</text>
+<line x1="184" y1="492" x2="125" y2="495" stroke="#374151" stroke-width="1.6"/><circle cx="184" cy="492" r="2.6" fill="#374151"/><text x="119" y="501" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">coiffe</text>
+<line x1="222" y1="300" x2="232" y2="268" stroke="#374151" stroke-width="1.6"/><circle cx="222" cy="300" r="2.6" fill="#374151"/><text x="238" y="274" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">poils</text>
+<text x="238" y="290" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">absorbants</text>
+<text x="455" y="66" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">Trajet de la sève brute</text>
+<text x="455" y="88" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937" font-style="italic">(coupe transversale simplifiée)</text>
+<rect x="320" y="110" width="270" height="250" rx="10" fill="#fefce8" stroke="#a16207" stroke-width="1.5"/>
+<rect x="320" y="110" width="36" height="250" fill="#d6b88a"/>
+<text x="338" y="380" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">sol</text>
+<rect x="352" y="215" width="60" height="22" rx="10" fill="#fef3c7" stroke="#92400e" stroke-width="2"/>
+<rect x="412" y="200" width="28" height="50" rx="6" fill="#fff7ed" stroke="#92400e" stroke-width="1.5"/>
+<rect x="442" y="200" width="28" height="50" rx="6" fill="#fff7ed" stroke="#92400e" stroke-width="1.5"/>
+<rect x="472" y="200" width="28" height="50" rx="6" fill="#fff7ed" stroke="#92400e" stroke-width="1.5"/>
+<rect x="502" y="200" width="28" height="50" rx="6" fill="#fff7ed" stroke="#92400e" stroke-width="1.5"/>
+<rect x="532" y="200" width="14" height="50" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+<rect x="550" y="185" width="30" height="80" rx="4" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2.5"/>
+<line x1="338" y1="226" x2="560" y2="226" stroke="#1d4ed8" stroke-width="3" marker-end="url(#flb)"/>
+<line x1="565" y1="195" x2="565" y2="128" stroke="#1d4ed8" stroke-width="3" marker-end="url(#flb)"/>
+<text x="558" y="124" font-size="14" text-anchor="end" font-weight="bold" fill="#1d4ed8">vers les feuilles</text>
+<line x1="385" y1="215" x2="375" y2="165" stroke="#374151" stroke-width="1.6"/><circle cx="385" cy="215" r="2.6" fill="#374151"/><text x="381" y="171" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">poil absorbant</text>
+<line x1="455" y1="250" x2="440" y2="285" stroke="#374151" stroke-width="1.6"/><circle cx="455" cy="250" r="2.6" fill="#374151"/><text x="440" y="303" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">écorce</text>
+<line x1="539" y1="250" x2="500" y2="320" stroke="#374151" stroke-width="1.6"/><circle cx="539" cy="250" r="2.6" fill="#374151"/><text x="500" y="338" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">endoderme</text>
+<line x1="575" y1="265" x2="586" y2="296" stroke="#374151" stroke-width="1.6"/><circle cx="575" cy="265" r="2.6" fill="#374151"/><text x="580" y="302" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">xylème</text>
+<rect x="320" y="380" width="270" height="120" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.6"/><text x="455.0" y="418.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">eau : par osmose</text>
+<text x="455.0" y="436.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">ions : surtout transport actif</text>
+<text x="455.0" y="454.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">(besoin de O₂ et d'ATP)</text>
+<text x="455.0" y="472.25" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">sève brute = eau + ions</text>
+</svg>

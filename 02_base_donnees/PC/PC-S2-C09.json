@@ -1,0 +1,795 @@
+{
+ "id": "PC-S2-C09",
+ "matiere": "PC",
+ "semestre": 2,
+ "ordre": 9,
+ "titre": "Électrisation et courant électrique",
+ "objectifs": [
+  "Interpréter l'électrisation par frottement, contact et influence en termes de transfert d'électrons.",
+  "Prévoir l'interaction (attraction ou répulsion) entre deux corps chargés.",
+  "Utiliser la charge élémentaire : $q = \\pm n e$.",
+  "Décrire la nature du courant dans les métaux et dans les solutions ioniques et indiquer son sens conventionnel.",
+  "Définir l'intensité $I = Q/\\Delta t$ et la mesurer avec un ampèremètre (branchement, calibre, lecture).",
+  "Appliquer la loi d'unicité de l'intensité (série) et la loi des nœuds (dérivation)."
+ ],
+ "prerequis": [
+  "PC-3e-ELECTRICITE",
+  "PC-3e-CIRCUIT",
+  "PC-S1-C06",
+  "PC-S1-C08"
+ ],
+ "notions": [
+  {
+   "id": "PC-S2-C09-N1",
+   "titre": "Électrisation et charges électriques",
+   "prerequis_notions": [
+    "PC-3e-ELECTRICITE",
+    "PC-S1-C06"
+   ],
+   "cours_md": "## 1. Mettre en évidence l'électrisation\nFrotte une règle en plastique avec un chiffon de laine (ou sur tes cheveux secs) puis approche-la de petits morceaux de papier : ils sont **attirés**. La règle a été **électrisée** : elle porte une **charge électrique**.\n\nOn peut électriser un corps de trois façons :\n- par **frottement** (règle frottée, ballon frotté sur un pull) ;\n- par **contact** avec un corps déjà électrisé (la charge se partage) ;\n- par **influence** : un corps chargé approché d'un corps neutre, **sans le toucher**, attire ce corps neutre (les petits papiers, la boule d'un pendule).\n\n## 2. Deux sortes de charges\n:::propriete Interactions entre charges\nIl existe deux sortes de charges électriques, appelées par convention **positive (+)** et **négative (−)**.\n- Deux corps portant des charges de **même signe** se **repoussent**.\n- Deux corps portant des charges de **signes contraires** s'**attirent**.\n:::\nPar convention : le **verre frotté avec de la soie** se charge **positivement** ; l'**ébonite** ou le **plastique** frotté avec de la laine se charge **négativement**.\n\n## 3. Interprétation électronique\nTu as vu au 1er semestre que l'atome est formé d'un noyau (protons positifs et neutrons) et d'électrons négatifs. Un atome est **électriquement neutre** : il a autant d'électrons que de protons.\n\n:::definition Électrisation\nÉlectriser un corps, c'est lui faire **gagner** ou **perdre** des **électrons** (les protons, liés au noyau, ne se déplacent pas).\n- Un corps qui **gagne** des électrons se charge **négativement**.\n- Un corps qui **perd** des électrons se charge **positivement**.\n:::\nLors d'un frottement, les électrons passent d'un corps à l'autre : les deux corps prennent des charges **opposées** (la charge totale se conserve).\n\n## 4. Charge élémentaire et quantification\n:::propriete Charge élémentaire\nLa charge électrique se mesure en **coulombs (C)**. La plus petite charge que l'on puisse isoler est la **charge élémentaire** :\n$$e = 1{,}6 \\times 10^{-19}\\ \\text{C}$$\nCharge d'un électron : $-e$ ; charge d'un proton : $+e$. La charge $q$ d'un corps est toujours un multiple entier de $e$ :\n$$q = \\pm\\, n\\,e \\quad (n \\text{ entier})$$\n:::\n\n## 5. Conducteurs et isolants\n- **Conducteurs** : la charge s'y répartit et peut circuler. Exemples : métaux (cuivre, aluminium, fer), graphite (mine de crayon), corps humain, eau salée.\n- **Isolants** : la charge reste là où elle a été déposée. Exemples : verre, plastique, caoutchouc, bois sec, air sec.\n\n:::remarque Pourquoi les métaux conduisent-ils ?\nDans un métal, certains électrons, appelés **électrons libres**, ne sont liés à aucun atome particulier : ils peuvent se déplacer dans tout le métal.\n:::\n\n:::methode Calculer un nombre d'électrons transférés\n1. Écrire la relation $|q| = n\\,e$, donc $n = \\dfrac{|q|}{e}$.\n2. Remplacer avec $q$ en coulombs et $e = 1{,}6 \\times 10^{-19}\\ \\text{C}$.\n3. Donner $n$ en écriture scientifique ; préciser **gain** (si $q < 0$) ou **perte** (si $q > 0$).\n:::\n\n## Exemple résolu\nUne tige d'ébonite frottée porte la charge $q = -3{,}2 \\times 10^{-9}\\ \\text{C}$. Combien d'électrons a-t-elle gagnés ?\n- Formule : $n = \\dfrac{|q|}{e}$.\n- Application numérique : $n = \\dfrac{3{,}2 \\times 10^{-9}}{1{,}6 \\times 10^{-19}}$.\n- Résultat : $n = 2{,}0 \\times 10^{10}$ électrons **gagnés** (car $q < 0$).",
+   "definition": "L'électrisation est le gain ou la perte d'électrons par un corps ; un corps chargé porte une charge $q = \\pm n e$ avec $e = 1{,}6 \\times 10^{-19}$ C.",
+   "formules": [
+    "$e = 1{,}6 \\times 10^{-19}\\ \\text{C}$",
+    "$q = \\pm\\, n\\,e$",
+    "$n = \\dfrac{|q|}{e}$"
+   ],
+   "niveaux": {
+    "phrase": "Un corps s'électrise en gagnant des électrons (charge −) ou en en perdant (charge +).",
+    "simple": "Quand tu frottes la règle sur tes cheveux, des électrons sautent des cheveux vers la règle : la règle devient négative, tes cheveux positifs, et ils s'attirent.",
+    "complete": "L'électrisation (par frottement, contact ou influence) résulte d'un transfert d'électrons ; les protons restent liés aux noyaux. Il existe deux types de charges : les charges de même signe se repoussent, celles de signes contraires s'attirent. La charge d'un corps est quantifiée : $q = \\pm n e$ avec $e = 1{,}6 \\times 10^{-19}$ C. Dans un conducteur, des porteurs de charge peuvent se déplacer (électrons libres des métaux) ; dans un isolant, non."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Une sphère métallique isolée, initialement neutre, gagne $5{,}0 \\times 10^{11}$ électrons. Quelle est sa charge ?",
+     "etapes": [
+      "Formule : $q = -n\\,e$ (signe − car elle gagne des électrons).",
+      "Application numérique : $q = -5{,}0 \\times 10^{11} \\times 1{,}6 \\times 10^{-19}$.",
+      "Résultat : $q = -8{,}0 \\times 10^{-8}\\ \\text{C}$."
+     ]
+    },
+    {
+     "enonce": "On approche une baguette de verre frottée avec de la soie (charge +) d'un pendule chargé : le pendule est repoussé. Quel est le signe de la charge du pendule ?",
+     "etapes": [
+      "Le verre frotté avec de la soie est chargé positivement.",
+      "Il y a répulsion, donc les deux charges sont de même signe.",
+      "Le pendule porte une charge positive."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que des **protons** se déplacent lors d'un frottement : seuls les électrons passent d'un corps à l'autre.",
+    "Croire qu'un corps qui gagne des électrons devient positif.",
+    "Oublier le signe de la charge ou écrire $n$ négatif (un nombre d'électrons est toujours positif).",
+    "Croire qu'une attraction prouve que les deux corps sont chargés : un corps neutre est aussi attiré par influence."
+   ],
+   "astuces": [
+    "Pour trouver un signe, cherche une **répulsion** : seule la répulsion prouve que les deux corps sont chargés de même signe.",
+    "Calculatrice : tape 3.2E-9 ÷ 1.6E-19 avec la touche « ×10ˣ » (ou EXP)."
+   ],
+   "mnemo": "« Gagner des électrons, c'est gagner du moins. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens du chapitre sur l'atome ? Le noyau contient des protons (+e) et des neutrons, autour gravitent des électrons (−e) ; l'atome est neutre. Ce sont ces électrons, et eux seuls, qui passent d'un corps à l'autre lors d'une électrisation."
+   },
+   "methode_redaction": "Écris la relation littérale ($n = |q|/e$), l'application numérique avec les puissances de 10, puis le résultat avec « électrons gagnés » ou « perdus ». Pour une interaction, justifie : « répulsion, donc charges de même signe ».",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'électriser un corps ?",
+     "r": "Lui faire gagner ou perdre des électrons."
+    },
+    {
+     "q": "Valeur de la charge élémentaire ?",
+     "r": "$e = 1{,}6 \\times 10^{-19}$ C."
+    },
+    {
+     "q": "Deux corps chargés négativement : attraction ou répulsion ?",
+     "r": "Répulsion (charges de même signe)."
+    },
+    {
+     "q": "Un corps perd des électrons : quel est le signe de sa charge ?",
+     "r": "Positif."
+    },
+    {
+     "q": "Cite trois modes d'électrisation.",
+     "r": "Par frottement, par contact, par influence."
+    },
+    {
+     "q": "Pourquoi un métal est-il conducteur ?",
+     "r": "Il contient des électrons libres qui peuvent se déplacer."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C09-N1.svg",
+    "alt": "À gauche : deux charges + se repoussent, deux charges − se repoussent, une charge + et une charge − s'attirent. À droite : une boule légère suspendue à un fil est attirée vers une règle chargée négativement.",
+    "legende": "Charges de même signe : répulsion ; de signes contraires : attraction. Un corps neutre est attiré par influence.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C09-N2",
+   "titre": "Le courant électrique : nature, sens et effets",
+   "prerequis_notions": [
+    "PC-S2-C09-N1",
+    "PC-3e-CIRCUIT"
+   ],
+   "cours_md": "## 1. Le circuit électrique\nUn **circuit électrique** comprend au moins un **générateur** (pile, batterie, alimentation) et des **récepteurs** (lampe, moteur, résistance…) reliés par des fils conducteurs. Le courant ne circule que si le circuit est **fermé** (boucle continue de conducteurs).\n\nVocabulaire :\n- **dipôle** : composant à deux bornes ;\n- **nœud** : point où se rejoignent au moins trois fils ;\n- **branche** : portion de circuit entre deux nœuds consécutifs ;\n- **maille** : boucle fermée de branches.\n\n## 2. Nature du courant électrique\n:::definition Courant électrique\nLe **courant électrique** est un **déplacement d'ensemble de porteurs de charge** électrique.\n- Dans les **métaux** (fils de cuivre), les porteurs sont les **électrons libres**.\n- Dans les **solutions ioniques** (électrolytes), les porteurs sont les **ions** : cations (+) et anions (−).\n:::\n\n## 3. Sens du courant\n:::propriete Sens conventionnel\nPar convention, **à l'extérieur du générateur**, le courant circule de la **borne +** vers la **borne −** du générateur. On le représente par une flèche sur un fil.\n:::\n:::attention Électrons et sens conventionnel\nLes électrons, chargés négativement, se déplacent **en sens inverse** du sens conventionnel : de la borne − vers la borne + à l'extérieur du générateur. La convention a été choisie avant la découverte de l'électron (fin du XIXe siècle).\n:::\n\n## 4. Le courant dans une solution : l'électrolyse\nOn plonge deux électrodes dans une solution ionique (par exemple de sulfate de cuivre $\\ce{Cu^2+ + SO4^2-}$) reliées à un générateur :\n- l'**anode** est l'électrode reliée à la borne **+** ; la **cathode** est reliée à la borne **−** ;\n- les **cations** ($\\ce{Cu^2+}$) se déplacent vers la **cathode**, dans le sens conventionnel du courant ;\n- les **anions** ($\\ce{SO4^2-}$) se déplacent vers l'**anode**, en sens inverse.\n\nOn le vérifie avec une solution colorée : la couleur bleue des ions $\\ce{Cu^2+}$ migre vers la cathode, où du cuivre se dépose.\n\n## 5. Les effets du courant électrique\n| Effet | Exemple |\n|---|---|\n| thermique (calorifique) | fer à repasser, chauffe-eau, fusible |\n| lumineux | lampe à incandescence, DEL (diode électroluminescente) |\n| chimique | électrolyse, charge d'une batterie de moto |\n| magnétique | électroaimant, déviation d'une aiguille aimantée |\n| mécanique | moteur du ventilateur, du moulin à maïs |\n\n:::remarque Vitesse des électrons\nLes électrons avancent très lentement dans un fil (moins d'un millimètre par seconde), mais tout le fil en est déjà rempli : dès qu'on ferme l'interrupteur, ils se mettent en mouvement **partout en même temps**, comme l'eau d'un tuyau déjà plein qui sort dès qu'on ouvre le robinet.\n:::\n\n## Exemple résolu\nDans le circuit d'une lampe torche, la pile a sa borne + en haut. Indique le sens du courant et le sens de déplacement des électrons dans le fil qui va de la borne + à la lampe.\n- Sens conventionnel : à l'extérieur de la pile, de la borne + vers la borne − ; dans ce fil, le courant va donc **de la pile vers la lampe**.\n- Électrons : sens inverse, donc **de la lampe vers la borne +** de la pile.",
+   "definition": "Le courant électrique est un déplacement d'ensemble de porteurs de charge (électrons libres dans les métaux, ions dans les solutions) ; son sens conventionnel va de la borne + vers la borne − à l'extérieur du générateur.",
+   "formules": [
+    "Sens conventionnel : $+ \\to -$ à l'extérieur du générateur",
+    "Électrons : $- \\to +$ à l'extérieur du générateur"
+   ],
+   "niveaux": {
+    "phrase": "Le courant, ce sont des charges qui se déplacent ensemble ; on le fait aller du + vers le − hors du générateur.",
+    "simple": "Imagine les électrons comme des billes déjà rangées dans un tuyau : la pile les pousse toutes en même temps. Les électrons vont du − vers le +, mais on dessine la flèche du courant dans l'autre sens, par habitude historique.",
+    "complete": "Le courant électrique est un mouvement d'ensemble de porteurs de charge : électrons libres dans les conducteurs métalliques, cations et anions (en sens opposés) dans les électrolytes. Le sens conventionnel du courant est, à l'extérieur du générateur, de la borne + vers la borne − ; il coïncide avec le sens de déplacement des charges positives et est opposé à celui des électrons. Le courant produit des effets thermique, lumineux, chimique, magnétique et mécanique."
+   },
+   "analogie": "Comme l'eau de la Togolaise des Eaux dans un tuyau déjà rempli : l'eau sort au robinet dès l'ouverture, même si chaque goutte avance lentement.",
+   "exemples_resolus": [
+    {
+     "enonce": "Électrolyse d'une solution de chlorure de sodium ($\\ce{Na+ + Cl-}$) : vers quelle électrode se dirigent les ions $\\ce{Na+}$ et les ions $\\ce{Cl-}$ ?",
+     "etapes": [
+      "$\\ce{Na+}$ est un cation : il se déplace dans le sens conventionnel du courant, vers la cathode (reliée à la borne −).",
+      "$\\ce{Cl-}$ est un anion : il se déplace en sens inverse, vers l'anode (reliée à la borne +)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que le courant sort par la borne − du générateur (à l'extérieur, il sort par la borne +).",
+    "Confondre le sens des électrons et le sens conventionnel du courant.",
+    "Croire que le courant « s'use » ou diminue après chaque lampe d'un circuit série.",
+    "Inverser anode (reliée au +) et cathode (reliée au −)."
+   ],
+   "astuces": [
+    "Pour l'électrolyse : **C**ations vers la **C**athode.",
+    "Dessine toujours la flèche du courant sur un fil, à l'extérieur du générateur, partant de la borne +."
+   ],
+   "mnemo": "« Cations → Cathode » (deux C) ; « Anions → Anode » (deux A).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Un circuit doit être fermé pour qu'une lampe brille, et le courant va du + vers le − à l'extérieur de la pile. En Seconde, on explique ce qui se déplace vraiment : électrons dans les fils, ions dans les solutions."
+   },
+   "methode_redaction": "Précise toujours le milieu (« dans les fils métalliques… », « dans la solution… »), nomme les porteurs de charge et indique leur sens par rapport au sens conventionnel du courant.",
+   "flash": [
+    {
+     "q": "Qu'est-ce que le courant électrique ?",
+     "r": "Un déplacement d'ensemble de porteurs de charge."
+    },
+    {
+     "q": "Porteurs de charge dans un métal ?",
+     "r": "Les électrons libres."
+    },
+    {
+     "q": "Porteurs de charge dans une solution ionique ?",
+     "r": "Les ions (cations et anions)."
+    },
+    {
+     "q": "Sens conventionnel du courant à l'extérieur du générateur ?",
+     "r": "De la borne + vers la borne −."
+    },
+    {
+     "q": "Vers quelle électrode vont les cations ?",
+     "r": "Vers la cathode (reliée à la borne −)."
+    },
+    {
+     "q": "Cite trois effets du courant électrique.",
+     "r": "Thermique, lumineux, chimique (aussi magnétique et mécanique)."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C09-N2.svg",
+    "alt": "À gauche : circuit avec pile, interrupteur fermé et lampe ; la flèche rouge du courant va de la borne + vers la borne − à l'extérieur de la pile, la flèche bleue des électrons va en sens inverse. À droite : cuve à électrolyse, les cations vont vers la cathode, les anions vers l'anode.",
+    "legende": "Le sens conventionnel du courant est opposé au mouvement des électrons ; dans une solution, cations et anions migrent en sens opposés.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C09-N3",
+   "titre": "Intensité du courant et mesure à l'ampèremètre",
+   "prerequis_notions": [
+    "PC-S2-C09-N2"
+   ],
+   "cours_md": "## 1. Définition de l'intensité\n:::definition Intensité du courant\nL'**intensité** $I$ d'un courant continu est la **quantité d'électricité** (charge) $Q$ qui traverse une section du conducteur par unité de temps :\n$$I = \\frac{Q}{\\Delta t}$$\nUnités SI : $Q$ en coulombs (C), $\\Delta t$ en secondes (s), $I$ en **ampères (A)**. Donc $1\\ \\text{A} = 1\\ \\text{C/s}$.\n:::\nSi $N$ électrons traversent la section pendant $\\Delta t$ : $Q = N\\,e$, donc $I = \\dfrac{N\\,e}{\\Delta t}$.\n\nSous-multiples : $1\\ \\text{mA} = 10^{-3}\\ \\text{A}$ ; $1\\ \\mu\\text{A} = 10^{-6}\\ \\text{A}$.\n\n| Appareil | Intensité (ordre de grandeur) |\n|---|---|\n| calculatrice | $0{,}1\\ \\text{mA}$ |\n| lampe de torche | $0{,}3\\ \\text{A}$ |\n| ventilateur | $0{,}3\\ \\text{A}$ à $0{,}5\\ \\text{A}$ |\n| fer à repasser | $5\\ \\text{A}$ |\n| démarreur d'une voiture | $100\\ \\text{A}$ à $200\\ \\text{A}$ |\n\n:::remarque Capacité d'une batterie\nLa charge d'une batterie s'exprime souvent en **ampère-heure** (A·h) ou milliampère-heure (mA·h) : $1\\ \\text{A·h} = 1\\ \\text{A} \\times 3600\\ \\text{s} = 3600\\ \\text{C}$.\n:::\n\n## 2. Mesurer une intensité : l'ampèremètre\n:::methode Brancher un ampèremètre\n1. L'ampèremètre se branche **en série** dans la branche où l'on veut mesurer l'intensité (on ouvre le circuit pour l'y insérer).\n2. Le courant **entre** par la borne **A** (ou mA, ou +) et **sort** par la borne **COM** (ou −).\n3. On commence par le **plus grand calibre**, puis on descend jusqu'au **plus petit calibre supérieur** à la valeur mesurée (meilleure précision).\n:::\nSymbole : un cercle contenant la lettre A.\n\n:::methode Lire un ampèremètre à aiguille\n$$I = \\frac{C \\times n}{N}$$\n$C$ : calibre utilisé ; $n$ : nombre de divisions indiqué par l'aiguille ; $N$ : nombre total de divisions de l'échelle lue.\n:::\n\n:::attention Jamais en dérivation\nUn ampèremètre a une résistance très faible : branché **en dérivation** (aux bornes d'une lampe), il la court-circuite, la lampe s'éteint et un courant trop intense peut détériorer l'appareil (fusible grillé).\n:::\n\n## Exemples résolus\n**Exemple 1.** Une charge $Q = 36\\ \\text{C}$ traverse un fil en $2\\ \\text{min}$. Calcule $I$.\n- Formule : $I = \\dfrac{Q}{\\Delta t}$, avec $\\Delta t = 2 \\times 60 = 120\\ \\text{s}$.\n- Application numérique : $I = \\dfrac{36}{120}$.\n- Résultat : $I = 0{,}30\\ \\text{A}$.\n\n**Exemple 2.** Combien d'électrons traversent chaque seconde une section de ce fil ?\n- Formule : $N = \\dfrac{Q}{e} = \\dfrac{I\\,\\Delta t}{e}$ avec $\\Delta t = 1\\ \\text{s}$.\n- Application numérique : $N = \\dfrac{0{,}30 \\times 1}{1{,}6 \\times 10^{-19}}$.\n- Résultat : $N \\approx 1{,}9 \\times 10^{18}$ électrons par seconde.\n\n**Exemple 3.** Ampèremètre sur le calibre $1\\ \\text{A}$, échelle de 100 divisions, aiguille sur 35 : $I = \\dfrac{1 \\times 35}{100} = 0{,}35\\ \\text{A}$.",
+   "definition": "L'intensité $I$ est la charge qui traverse une section du circuit par seconde : $I = Q/\\Delta t$, en ampères ; elle se mesure avec un ampèremètre branché en série.",
+   "formules": [
+    "$I = \\dfrac{Q}{\\Delta t}$",
+    "$Q = N\\,e$",
+    "$I = \\dfrac{C \\times n}{N}$ (lecture d'un appareil à aiguille)",
+    "$1\\ \\text{A·h} = 3600\\ \\text{C}$"
+   ],
+   "niveaux": {
+    "phrase": "L'intensité, c'est le « débit » de charges : combien de coulombs passent chaque seconde.",
+    "simple": "Au robinet, le débit dit combien de litres passent par seconde ; l'intensité dit combien de coulombs passent par seconde dans le fil. L'ampèremètre est le « compteur » placé sur le tuyau, donc dans le circuit (en série).",
+    "complete": "L'intensité d'un courant continu est $I = Q/\\Delta t$ (A = C/s) ; si $N$ électrons traversent une section, $Q = Ne$. Elle se mesure avec un ampèremètre inséré en série, le courant entrant par la borne A (ou mA) et sortant par COM ; on choisit le plus petit calibre supérieur à la valeur à mesurer. Pour un appareil à aiguille, $I = C n / N$."
+   },
+   "analogie": "L'intensité ressemble au débit d'eau d'un robinet de la TdE : plus le débit est grand, plus il passe d'eau par seconde ; l'ampèremètre est comme un compteur d'eau, placé sur le tuyau lui-même.",
+   "exemples_resolus": [
+    {
+     "enonce": "Une batterie de téléphone porte l'indication 1500 mA·h. Quelle charge (en coulombs) peut-elle débiter ?",
+     "etapes": [
+      "Formule : $Q = I \\times \\Delta t$ avec $1500\\ \\text{mA·h} = 1{,}5\\ \\text{A} \\times 1\\ \\text{h}$.",
+      "Application numérique : $Q = 1{,}5 \\times 3600$.",
+      "Résultat : $Q = 5{,}4 \\times 10^{3}\\ \\text{C}$."
+     ]
+    },
+    {
+     "enonce": "Un ampèremètre est sur le calibre 300 mA ; on lit sur l'échelle de 30 divisions : aiguille sur 18. Intensité ?",
+     "etapes": [
+      "Formule : $I = \\dfrac{C \\times n}{N}$.",
+      "Application numérique : $I = \\dfrac{300 \\times 18}{30}$.",
+      "Résultat : $I = 180\\ \\text{mA} = 0{,}180\\ \\text{A}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Laisser la durée en minutes dans $I = Q/\\Delta t$.",
+    "Lire l'aiguille sur une échelle et diviser par le nombre de divisions d'une autre échelle.",
+    "Brancher l'ampèremètre en dérivation.",
+    "Choisir un calibre plus petit que l'intensité à mesurer (l'aiguille bute, l'appareil peut griller)."
+   ],
+   "astuces": [
+    "Commence toujours par le plus grand calibre, puis descends.",
+    "Vérifie l'ordre de grandeur : quelques dixièmes d'ampère pour une petite lampe."
+   ],
+   "mnemo": "« Ampèremètre : en série, comme un péage sur la route. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu mesurais déjà l'intensité en ampères avec un ampèremètre branché en série. En Seconde, on définit l'intensité par la charge qui passe par seconde : $I = Q/\\Delta t$."
+   },
+   "methode_redaction": "Écris : « Formule : $I = Q/\\Delta t$ » ; convertis les durées en secondes ; puis application numérique et résultat avec l'unité (A ou mA). Pour une lecture, écris $I = Cn/N$ avec les valeurs.",
+   "flash": [
+    {
+     "q": "Définition de l'intensité ?",
+     "r": "$I = Q/\\Delta t$ : charge qui traverse une section par seconde."
+    },
+    {
+     "q": "Unité de l'intensité ?",
+     "r": "L'ampère (A) : 1 A = 1 C/s."
+    },
+    {
+     "q": "Comment branche-t-on un ampèremètre ?",
+     "r": "En série ; le courant entre par A (ou mA) et sort par COM."
+    },
+    {
+     "q": "Quel calibre choisir ?",
+     "r": "Le plus petit calibre supérieur à la valeur mesurée."
+    },
+    {
+     "q": "Lecture d'un appareil à aiguille ?",
+     "r": "$I = C \\times n / N$."
+    },
+    {
+     "q": "1 A·h vaut combien de coulombs ?",
+     "r": "3600 C."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C09-N3.svg",
+    "alt": "Cadran d'ampèremètre à aiguille gradué de 0 à 100, aiguille sur 35, calibre 1 A ; le calcul I = 1 × 35/100 = 0,35 A ; à droite, l'ampèremètre branché en série avec une lampe.",
+    "legende": "Lecture d'un ampèremètre à aiguille : I = C × n / N.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C09-N4",
+   "titre": "Lois des intensités : circuit série et loi des nœuds",
+   "prerequis_notions": [
+    "PC-S2-C09-N3"
+   ],
+   "cours_md": "## 1. Circuit série : unicité de l'intensité\n:::propriete Loi d'unicité\nDans un circuit **série** (une seule boucle, sans nœud), l'intensité du courant est **la même en tout point** du circuit, quel que soit l'ordre des dipôles.\n:::\nLe courant ne « s'use » pas en traversant une lampe : ce qui est consommé, c'est de l'énergie, pas des charges.\n\n## 2. Circuit avec dérivations : loi des nœuds\n:::propriete Loi des nœuds\nEn un nœud, la **somme des intensités des courants qui arrivent** est égale à la **somme des intensités des courants qui en repartent** :\n$$\\sum I_{\\text{arrivent}} = \\sum I_{\\text{repartent}}$$\nPour deux branches en dérivation alimentées par le courant principal $I$ : $I = I_1 + I_2$.\n:::\nCette loi traduit la **conservation de la charge électrique** : les charges ne s'accumulent pas au nœud et ne disparaissent pas.\n\n:::methode Appliquer la loi des nœuds\n1. Repérer les nœuds et flécher le sens du courant dans chaque branche (le courant part de la borne + du générateur).\n2. Pour chaque nœud, écrire « courants qui arrivent = courants qui repartent ».\n3. Résoudre ; vérifier que chaque intensité de branche est **inférieure** à l'intensité principale.\n:::\n\n:::remarque Dans une installation domestique\nLes appareils d'une maison sont branchés **en dérivation** : chacun reçoit son propre courant, et l'intensité dans le fil principal (au compteur) est la **somme** des intensités de tous les appareils allumés. C'est pourquoi un disjoncteur « saute » quand trop d'appareils fonctionnent en même temps.\n:::\n\n## Exemples résolus\n**Exemple 1.** Deux lampes en dérivation : l'ampèremètre principal indique $I = 0{,}80\\ \\text{A}$ et celui de la lampe $L_1$ indique $I_1 = 0{,}30\\ \\text{A}$. Calcule $I_2$.\n- Loi des nœuds : $I = I_1 + I_2$, donc $I_2 = I - I_1$.\n- Application numérique : $I_2 = 0{,}80 - 0{,}30$.\n- Résultat : $I_2 = 0{,}50\\ \\text{A}$.\n\n**Exemple 2.** Trois lampes en série sont traversées par un courant de $0{,}25\\ \\text{A}$. Que vaut l'intensité entre la 2e et la 3e lampe ?\n- Circuit série : intensité identique partout.\n- Résultat : $0{,}25\\ \\text{A}$.",
+   "definition": "Dans un circuit série, l'intensité est la même partout ; en un nœud, la somme des intensités qui arrivent est égale à la somme des intensités qui repartent.",
+   "formules": [
+    "Série : $I_1 = I_2 = \\dots = I$",
+    "Nœud : $\\sum I_{\\text{arrivent}} = \\sum I_{\\text{repartent}}$",
+    "$I = I_1 + I_2$ (deux branches en dérivation)"
+   ],
+   "niveaux": {
+    "phrase": "Au carrefour, ce qui arrive repart : les charges ne disparaissent pas.",
+    "simple": "Dans un circuit série, c'est une seule route : tous les zémidjans passent partout. À un rond-point (nœud), le nombre de motos qui arrivent par minute est égal au nombre de motos qui repartent par minute.",
+    "complete": "La conservation de la charge électrique impose qu'en régime permanent aucune charge ne s'accumule : dans une branche, l'intensité est la même en tout point (loi d'unicité) et, en un nœud, $\\sum I_{\\text{entrantes}} = \\sum I_{\\text{sortantes}}$ (loi des nœuds). Le courant principal se partage entre les branches dérivées, chaque intensité de branche étant inférieure à l'intensité principale."
+   },
+   "analogie": "Au rond-point de la Colombe de la paix à Lomé, autant de motos sortent qu'il en entre chaque minute : c'est la loi des nœuds.",
+   "exemples_resolus": [
+    {
+     "enonce": "En un nœud arrivent $I_1 = 2{,}0\\ \\text{A}$ et $I_2 = 0{,}5\\ \\text{A}$ ; en repartent $I_3 = 1{,}2\\ \\text{A}$ et $I_4$. Calcule $I_4$.",
+     "etapes": [
+      "Loi des nœuds : $I_1 + I_2 = I_3 + I_4$, donc $I_4 = I_1 + I_2 - I_3$.",
+      "Application numérique : $I_4 = 2{,}0 + 0{,}5 - 1{,}2$.",
+      "Résultat : $I_4 = 1{,}3\\ \\text{A}$ (positif : il repart bien du nœud)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que l'intensité diminue après chaque lampe d'un circuit série.",
+    "Additionner toutes les intensités sans distinguer celles qui arrivent et celles qui repartent.",
+    "Appliquer la loi des nœuds à un point qui n'est pas un nœud (un simple coude de fil).",
+    "Trouver une intensité de branche supérieure à l'intensité principale sans se méfier."
+   ],
+   "astuces": [
+    "Fléche d'abord tous les courants sur le schéma : la loi des nœuds devient une simple addition.",
+    "Si tu trouves une intensité négative, c'est que le courant circule dans l'autre sens que ta flèche."
+   ],
+   "mnemo": "« Ce qui entre au nœud en ressort. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans un circuit en série, l'intensité est la même partout ; dans un circuit en dérivation, l'intensité dans la branche principale est la somme des intensités des branches. En Seconde, on l'écrit pour n'importe quel nœud."
+   },
+   "methode_redaction": "Nomme le nœud, écris la loi littérale (« au nœud N : $I = I_1 + I_2$ »), isole l'inconnue, puis fais l'application numérique avec l'unité.",
+   "flash": [
+    {
+     "q": "Intensité dans un circuit série ?",
+     "r": "La même en tout point."
+    },
+    {
+     "q": "Énonce la loi des nœuds.",
+     "r": "La somme des intensités qui arrivent à un nœud est égale à la somme des intensités qui en repartent."
+    },
+    {
+     "q": "Que traduit la loi des nœuds ?",
+     "r": "La conservation de la charge électrique."
+    },
+    {
+     "q": "$I = 1{,}0$ A et $I_1 = 0{,}4$ A dans deux branches : $I_2$ ?",
+     "r": "$I_2 = 0{,}6$ A."
+    },
+    {
+     "q": "Qu'est-ce qu'un nœud ?",
+     "r": "Un point du circuit où se rejoignent au moins trois fils."
+    },
+    {
+     "q": "Comment sont branchés les appareils d'une maison ?",
+     "r": "En dérivation."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C09-N4.svg",
+    "alt": "Circuit : une pile, un ampèremètre A dans la branche principale, puis un nœud N d'où partent deux branches contenant chacune une lampe (L1, L2) et un ampèremètre (A1, A2). Les flèches montrent I qui se partage en I1 et I2.",
+    "legende": "Loi des nœuds : au nœud N, I = I₁ + I₂.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S2-C09-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C09-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Deux boules légères, toutes deux chargées négativement, sont suspendues côte à côte. Que se passe-t-il ?",
+   "choix": [
+    "Elles s'attirent",
+    "Elles se repoussent",
+    "Il ne se passe rien",
+    "Elles se déchargent"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Les deux charges sont de même signe (négatives).",
+    "Des charges de même signe se repoussent : les boules s'écartent l'une de l'autre."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Confondre avec la règle « signes contraires → attraction ».",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C09-N2"
+   ],
+   "format": "qcm",
+   "enonce": "À l'extérieur du générateur, le sens conventionnel du courant est :",
+   "choix": [
+    "de la borne − vers la borne +",
+    "de la borne + vers la borne −",
+    "le sens de déplacement des électrons",
+    "variable selon les lampes"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Par convention, à l'extérieur du générateur, le courant va de la borne + vers la borne −.",
+    "Les électrons, eux, vont en sens inverse."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Le sens des électrons est l'inverse du sens conventionnel.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C09-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Convertis $250\\ \\text{mA}$ en ampères (donne seulement le nombre).",
+   "reponses_acceptees": [
+    "0,25",
+    "0,250",
+    "0,25A",
+    "0,250A",
+    "2,5e-1"
+   ],
+   "indices": [
+    "Milli = millième."
+   ],
+   "corrige": [
+    "$1\\ \\text{mA} = 10^{-3}\\ \\text{A}$.",
+    "$250\\ \\text{mA} = 250 \\times 10^{-3} = 0{,}25\\ \\text{A}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Multiplier par 1000 au lieu de diviser.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C09-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une règle en plastique frottée porte la charge $q = -4{,}8 \\times 10^{-8}\\ \\text{C}$. Combien d'électrons a-t-elle gagnés ? ($e = 1{,}6 \\times 10^{-19}\\ \\text{C}$ ; écriture scientifique.)",
+   "reponses_acceptees": [
+    "3,0e11",
+    "3e11",
+    "3,0×10^11",
+    "3×10^11",
+    "3,0x10^11",
+    "3x10^11",
+    "300000000000",
+    "3,0.10^11",
+    "3.10^11"
+   ],
+   "indices": [
+    "$4{,}8 / 1{,}6 = 3$ ; puis soustrais les exposants : $-8 - (-19)$."
+   ],
+   "corrige": [
+    "Formule : $n = \\dfrac{|q|}{e}$.",
+    "Application numérique : $n = \\dfrac{4{,}8 \\times 10^{-8}}{1{,}6 \\times 10^{-19}}$.",
+    "Résultat : $n = 3{,}0 \\times 10^{11}$ électrons gagnés."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    1
+   ],
+   "piege": "Écrire un nombre d'électrons négatif, ou se tromper dans les exposants ($10^{-27}$).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C09-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un courant d'intensité $I = 0{,}40\\ \\text{A}$ circule pendant $5\\ \\text{min}$. Quelle charge $Q$ (en coulombs) a traversé une section du fil ?",
+   "reponses_acceptees": [
+    "120",
+    "120C",
+    "1,2e2",
+    "1,2×10^2"
+   ],
+   "indices": [
+    "Durée en secondes."
+   ],
+   "corrige": [
+    "Formule : $Q = I \\times \\Delta t$.",
+    "Conversion : $\\Delta t = 5 \\times 60 = 300\\ \\text{s}$.",
+    "$Q = 0{,}40 \\times 300 = 120\\ \\text{C}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    1
+   ],
+   "piege": "Calculer $0{,}40 \\times 5 = 2$ (durée laissée en minutes).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C09-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un ampèremètre à aiguille est réglé sur le calibre $3\\ \\text{A}$. Son échelle comporte 100 divisions et l'aiguille s'arrête sur la division 42. Quelle est l'intensité mesurée (en A) ?",
+   "reponses_acceptees": [
+    "1,26",
+    "1,26A",
+    "1,3",
+    "1,3A"
+   ],
+   "indices": [
+    "C = 3 A, n = 42, N = 100."
+   ],
+   "corrige": [
+    "Formule : $I = \\dfrac{C \\times n}{N}$.",
+    "$I = \\dfrac{3 \\times 42}{100} = 1{,}26\\ \\text{A}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Lire directement 42 A ou 0,42 A.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C09-N3"
+   ],
+   "format": "qcm",
+   "enonce": "On veut mesurer une intensité d'environ $150\\ \\text{mA}$. Le multimètre propose les calibres $20\\ \\text{mA}$, $200\\ \\text{mA}$, $2\\ \\text{A}$ et $10\\ \\text{A}$. Quel calibre donne la mesure la plus précise sans danger ?",
+   "choix": [
+    "20 mA",
+    "200 mA",
+    "2 A",
+    "10 A"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le calibre doit être supérieur à la valeur mesurée : 20 mA est exclu.",
+    "Parmi les calibres possibles (200 mA, 2 A, 10 A), le plus petit donne la meilleure précision : 200 mA."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Choisir 20 mA « parce que c'est le plus précis » : l'appareil serait en surcharge.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C09-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Deux lampes $L_1$ et $L_2$ sont montées en dérivation. L'intensité dans la branche principale vaut $I = 1{,}2\\ \\text{A}$ et celle qui traverse $L_1$ vaut $I_1 = 0{,}45\\ \\text{A}$. Calcule $I_2$ (en A).",
+   "reponses_acceptees": [
+    "0,75",
+    "0,75A",
+    "750mA"
+   ],
+   "indices": [
+    "Les deux branches se partagent le courant principal."
+   ],
+   "corrige": [
+    "Loi des nœuds : $I = I_1 + I_2$, donc $I_2 = I - I_1$.",
+    "$I_2 = 1{,}2 - 0{,}45 = 0{,}75\\ \\text{A}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Additionner : $1{,}2 + 0{,}45 = 1{,}65$ A.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C09-N2"
+   ],
+   "format": "qcm",
+   "enonce": "On réalise l'électrolyse d'une solution bleue de sulfate de cuivre ($\\ce{Cu^2+ + SO4^2-}$). Vers quelle électrode se déplacent les ions $\\ce{Cu^2+}$ ?",
+   "choix": [
+    "Vers l'anode, reliée à la borne +",
+    "Vers la cathode, reliée à la borne −",
+    "Ils restent immobiles",
+    "Vers les deux électrodes"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Cations → Cathode."
+   ],
+   "corrige": [
+    "$\\ce{Cu^2+}$ est un cation : il se déplace dans le sens conventionnel du courant.",
+    "Dans la solution, le courant va de l'anode (reliée au +) vers la cathode (reliée au −) : les ions $\\ce{Cu^2+}$ vont vers la cathode."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Penser que les ions positifs vont vers la borne + du générateur.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C09-N4",
+    "PC-S2-C09-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Un générateur alimente une lampe $L_1$ placée dans la branche principale ; ensuite le circuit se divise en deux branches dérivées : l'une contient la lampe $L_2$, l'autre les lampes $L_3$ et $L_4$ en série. L'ampèremètre de la branche principale indique $0{,}60\\ \\text{A}$, celui de la branche de $L_2$ indique $0{,}25\\ \\text{A}$.\n1. Quelle est l'intensité du courant qui traverse $L_1$ ?\n2. Calcule l'intensité qui traverse $L_3$, puis celle qui traverse $L_4$.\n3. Combien d'électrons traversent $L_1$ en une minute ? ($e = 1{,}6 \\times 10^{-19}\\ \\text{C}$)",
+   "indices": [
+    "Dessine le schéma et fléche les courants.",
+    "Dans une même branche, l'intensité ne change pas."
+   ],
+   "corrige": [
+    "$L_1$ est dans la branche principale : $I_{L_1} = 0{,}60\\ \\text{A}$.",
+    "Loi des nœuds : $0{,}60 = 0{,}25 + I_{34}$, donc $I_{34} = 0{,}35\\ \\text{A}$.",
+    "$L_3$ et $L_4$ sont en série dans la même branche : $I_{L_3} = I_{L_4} = 0{,}35\\ \\text{A}$.",
+    "Charge en 1 min : $Q = I\\,\\Delta t = 0{,}60 \\times 60 = 36\\ \\text{C}$.",
+    "$N = \\dfrac{Q}{e} = \\dfrac{36}{1{,}6 \\times 10^{-19}} = 2{,}25 \\times 10^{20}$ électrons (environ $2{,}3 \\times 10^{20}$)."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Partager 0,35 A entre $L_3$ et $L_4$ (0,175 A chacune) : elles sont en série, pas en dérivation.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C09-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C09-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Akou frotte une règle en plastique avec un chiffon de laine. La règle se charge négativement : $q = -6{,}4 \\times 10^{-9}\\ \\text{C}$.\n1. Quelles particules ont été transférées, et dans quel sens ?\n2. Calcule le nombre de particules transférées.\n3. Quelle est la charge du chiffon (on suppose qu'il était neutre et qu'il n'y a pas de perte) ?\n4. La règle attire de petits morceaux de papier neutres. Explique pourquoi.",
+   "indices": [
+    "Seuls les électrons se déplacent.",
+    "La charge totale se conserve."
+   ],
+   "corrige": [
+    "Des électrons sont passés du chiffon vers la règle (la règle a gagné des électrons, elle est devenue négative).",
+    "$n = \\dfrac{|q|}{e} = \\dfrac{6{,}4 \\times 10^{-9}}{1{,}6 \\times 10^{-19}} = 4{,}0 \\times 10^{10}$ électrons.",
+    "Conservation de la charge : le chiffon a perdu autant d'électrons, sa charge est $+6{,}4 \\times 10^{-9}\\ \\text{C}$.",
+    "Électrisation par influence : la règle négative repousse les électrons du papier vers le côté éloigné ; le côté proche devient positif et est attiré plus fortement que le côté éloigné n'est repoussé (il est plus près)."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "Dire que la règle a reçu des charges négatives « du chiffon négatif » : le chiffon devient positif.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C09-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C09-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "La batterie d'un téléphone porte l'indication « 3000 mAh ».\n1. Calcule la charge $Q$ qu'elle peut débiter, en coulombs.\n2. Le téléphone consomme en moyenne un courant de $0{,}25\\ \\text{A}$. Combien de temps (en heures) dure la batterie ?\n3. Combien d'électrons la batterie fait-elle circuler pendant une décharge complète ?\n4. Le chargeur fournit un courant constant de $1{,}5\\ \\text{A}$. Durée minimale de la recharge complète ?",
+   "indices": [
+    "mAh = milliampère × heure.",
+    "Contrôle : 3,0 A·h ÷ 0,25 A = 12 h."
+   ],
+   "corrige": [
+    "$3000\\ \\text{mAh} = 3{,}0\\ \\text{A} \\times 3600\\ \\text{s}$, donc $Q = 1{,}08 \\times 10^{4}\\ \\text{C}$.",
+    "$\\Delta t = \\dfrac{Q}{I} = \\dfrac{10\\,800}{0{,}25} = 43\\,200\\ \\text{s} = 12\\ \\text{h}$.",
+    "$N = \\dfrac{Q}{e} = \\dfrac{10\\,800}{1{,}6 \\times 10^{-19}} = 6{,}75 \\times 10^{22}$ électrons (environ $6{,}8 \\times 10^{22}$).",
+    "$\\Delta t' = \\dfrac{Q}{I'} = \\dfrac{10\\,800}{1{,}5} = 7200\\ \\text{s} = 2{,}0\\ \\text{h}$."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Oublier de convertir les mA en A ou les heures en secondes.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C09-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C09-N3",
+    "PC-S2-C09-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Pendant l'électrolyse d'une solution de sulfate de cuivre, $3{,}0 \\times 10^{20}$ ions $\\ce{Cu^2+}$ arrivent à la cathode en $10\\ \\text{min}$. Chaque ion porte la charge $2e$. Calcule l'intensité du courant (en A). ($e = 1{,}6 \\times 10^{-19}\\ \\text{C}$)",
+   "reponses_acceptees": [
+    "0,16",
+    "0,16A",
+    "160mA",
+    "1,6e-1"
+   ],
+   "indices": [
+    "Un ion $\\ce{Cu^2+}$ porte deux charges élémentaires."
+   ],
+   "corrige": [
+    "Charge transportée : $Q = N \\times 2e = 3{,}0 \\times 10^{20} \\times 2 \\times 1{,}6 \\times 10^{-19} = 96\\ \\text{C}$.",
+    "Durée : $\\Delta t = 10 \\times 60 = 600\\ \\text{s}$.",
+    "$I = \\dfrac{Q}{\\Delta t} = \\dfrac{96}{600} = 0{,}16\\ \\text{A}$."
+   ],
+   "bareme": [
+    1.5,
+    0.5,
+    1
+   ],
+   "piege": "Oublier le facteur 2 (on trouverait 0,080 A).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C09-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C09-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Un élève branche par erreur un ampèremètre **en dérivation** aux bornes d'une lampe allumée. Que se passe-t-il ?",
+   "choix": [
+    "La lampe brille plus fort",
+    "La lampe s'éteint car l'ampèremètre la court-circuite",
+    "Rien, la mesure est correcte",
+    "L'ampèremètre indique zéro"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "L'ampèremètre a une résistance très faible : il court-circuite la lampe.",
+    "Presque tout le courant passe par l'ampèremètre : la lampe s'éteint et l'intensité devient grande (risque pour l'appareil)."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Croire qu'un ampèremètre se branche comme un voltmètre.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Signe de la charge inversé : un corps qui **gagne** des électrons est **négatif**.",
+  "Dire que des protons (ou des « charges positives ») se déplacent dans un métal : seuls les électrons libres bougent.",
+  "Sens du courant confondu avec le sens des électrons ; flèche du courant dessinée sortant par la borne −.",
+  "Durée non convertie en secondes dans $I = Q/\\Delta t$ ; mA·h non converti en coulombs.",
+  "Lecture d'un appareil à aiguille sans la formule $I = Cn/N$, ou avec le mauvais nombre total de divisions.",
+  "Loi des nœuds mal orientée (courants qui arrivent et qui repartent mélangés) ; intensité partagée entre deux dipôles qui sont en série."
+ ]
+}

@@ -1,0 +1,626 @@
+{
+ "id": "SVT-S1-C06",
+ "matiere": "SVT",
+ "semestre": 1,
+ "ordre": 6,
+ "titre": "La nutrition minérale des plantes vertes et le rendement agricole",
+ "objectifs": [
+  "L'élève doit être capable de déterminer la composition d'une plante (eau, matière organique, minéraux) et d'interpréter l'expérience de Van Helmont.",
+  "L'élève doit être capable d'interpréter des cultures hydroponiques et des expériences de carence.",
+  "L'élève doit être capable de localiser l'absorption racinaire et d'expliquer l'entrée de l'eau (osmose) et des ions (transport actif) et la montée de la sève brute.",
+  "L'élève doit être capable de calculer les apports d'un engrais et d'appliquer la loi du minimum et la loi des rendements décroissants pour proposer une fertilisation raisonnée."
+ ],
+ "prerequis": [
+  "SVT-S1-C02",
+  "SVT-S1-C04",
+  "SVT-S1-C05"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S1-C06-N1",
+   "titre": "Les besoins nutritifs de la plante verte",
+   "prerequis_notions": [
+    "SVT-S1-C02-N3",
+    "SVT-3e-NUTRITION-PLANTE"
+   ],
+   "cours_md": "### 1. De quoi est faite une plante ?\nOn pèse une plante fraîche, on la sèche à l'étuve (105 °C) jusqu'à masse constante, puis on brûle (calcine) la matière sèche.\n- La perte de masse au séchage correspond à l'**eau** : 70 à 95 % de la masse fraîche des organes verts (environ 95 % pour une laitue).\n- La **matière sèche** est surtout **organique** (glucides, protéines, lipides) : elle brûle en libérant $\\ce{CO2}$ et eau.\n- Il reste des **cendres** : ce sont les **éléments minéraux** (K, Ca, Mg, P, S, Fe…), quelques % de la matière sèche.\n\n:::remarque\nL'**azote** (N), pourtant indispensable (protéines, chlorophylle), ne se retrouve pas dans les cendres : il part en gaz lors de la combustion.\n:::\n\n### 2. Une expérience historique : le saule de Van Helmont (vers 1648)\nJan Baptist Van Helmont plante un saule de **2,25 kg** dans un bac contenant **90 kg** de terre séchée, qu'il arrose uniquement d'eau de pluie. Cinq ans plus tard, le saule pèse **76,7 kg** ; la terre, séchée et pesée, n'a perdu qu'environ **57 g**.\n- **Sa conclusion** : la matière du saule vient de l'eau.\n- **Interprétation actuelle** : la quasi-totalité de la matière organique ne vient pas du sol ; elle est fabriquée à partir de l'eau **et du $\\ce{CO2}$ de l'air** (photosynthèse, découverte plus tard). Les 57 g perdus par la terre représentent les **sels minéraux** absorbés : peu en masse, mais indispensables.\n\n### 3. Les cultures hydroponiques\nVers 1860, Julius Sachs et Wilhelm Knop cultivent des plantes **sans sol**, les racines plongées dans une solution aqueuse de sels minéraux (**solution de Knop** : nitrate de calcium, nitrate de potassium, phosphate de potassium, sulfate de magnésium, traces de fer). À la lumière, les plantes se développent normalement et produisent des graines.\n\n:::propriete\nLa plante verte est **autotrophe** : elle fabrique toute sa matière organique à partir de **matière minérale** uniquement — eau, ions minéraux, $\\ce{CO2}$ — en utilisant l'énergie de la **lumière**. Les animaux, eux, sont **hétérotrophes** : ils ont besoin de matière organique.\n:::\n\n### 4. Les éléments indispensables et les carences\nEn supprimant un seul élément de la solution de Knop, on obtient des **carences** :\n\n| Élément absent | Rôle principal | Symptômes typiques |\n|---|---|---|\n| Azote N (nitrates) | protéines, chlorophylle | plante chétive, vieilles feuilles jaunes (chlorose) |\n| Phosphore P (phosphates) | ADN, ATP, racines, floraison | racines peu développées, feuilles rougeâtres ou violacées |\n| Potassium K | équilibre de l'eau, transport des sucres | bords des feuilles jaunes puis bruns, tiges fragiles |\n| Magnésium Mg | atome central de la chlorophylle | jaunissement entre les nervures |\n| Fer Fe | fabrication de la chlorophylle | jeunes feuilles jaunes |\n\n:::definition\n**Macroéléments** : éléments nécessaires en grande quantité (N, P, K, Ca, Mg, S).\n**Oligoéléments** : éléments nécessaires en très petite quantité mais indispensables (Fe, Mn, Zn, Cu, B, Mo…).\n:::\n\n:::methode\n**Interpréter une expérience de carence** : 1) comparer chaque lot au **témoin** (solution complète) ; 2) relier la différence à l'élément absent (seul facteur variable) ; 3) conclure que cet élément est indispensable (et préciser son rôle si le document le permet).\n:::",
+   "definition": "La plante verte est autotrophe : à la lumière, elle fabrique sa matière organique à partir d'eau, de CO2 et d'ions minéraux puisés dans le sol ; chaque élément indispensable (N, P, K, Mg…) manquant provoque une carence.",
+   "formules": [
+    "$\\%\\ \\text{eau} = \\dfrac{m_{\\text{fraîche}} - m_{\\text{sèche}}}{m_{\\text{fraîche}}} \\times 100$"
+   ],
+   "niveaux": {
+    "phrase": "La plante vit d'eau, d'air, de lumière et de quelques sels minéraux.",
+    "simple": "La plante est une cuisinière qui prépare tout elle-même : l'eau du sol, le CO2 de l'air, les sels minéraux comme assaisonnement indispensable, et le soleil comme feu de cuisine. Il suffit qu'il manque le sel (un seul ingrédient) pour que le plat soit raté : c'est la carence.",
+    "complete": "Une plante est composée surtout d'eau (70 à 95 %) ; sa matière sèche est organique avec quelques % de matière minérale (cendres). L'expérience de Van Helmont montre que la masse de la plante ne vient presque pas du sol ; les cultures hydroponiques (Sachs, Knop) prouvent qu'eau, ions minéraux, CO2 et lumière suffisent : la plante verte est autotrophe. Les expériences de carence identifient les macroéléments (N, P, K, Ca, Mg, S) et les oligoéléments (Fe, Mn, Zn…) indispensables, chacun ayant des rôles et des symptômes de carence caractéristiques."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : un pied de gboma de 500 g (matière fraîche) donne 60 g de matière sèche après séchage, puis 5 g de cendres après calcination. Calcule le pourcentage d'eau de la plante et la part des cendres dans la matière sèche.",
+     "etapes": [
+      "Masse d'eau : $500 - 60 = 440$ g ; pourcentage d'eau : $\\frac{440}{500} \\times 100 = 88\\ \\%$.",
+      "Part des cendres dans la matière sèche : $\\frac{5}{60} \\times 100 \\approx 8{,}3\\ \\%$.",
+      "J'interprète : la plante est surtout faite d'eau ; sa matière sèche est surtout organique, les minéraux n'en représentent qu'une petite part.",
+      "Conclusion : peu abondants en masse, les éléments minéraux restent indispensables (voir les carences)."
+     ]
+    },
+    {
+     "enonce": "Document : jeunes plants de maïs cultivés 6 semaines en hydroponie. Lot A (solution complète) : 45 g, feuilles vertes. Lot B (sans N) : 8 g, feuilles jaunes. Lot C (sans K) : 20 g, bords des feuilles bruns. Interprète.",
+     "etapes": [
+      "Je compare au témoin A : sans N, la masse est divisée par plus de 5 et les feuilles jaunissent ; sans K, elle est plus que divisée par 2 et les bords des feuilles brunissent.",
+      "J'interprète : seul l'élément supprimé diffère du témoin ; son absence provoque la carence observée.",
+      "Conclusion : l'azote et le potassium sont des éléments indispensables ; l'azote est nécessaire à la chlorophylle (jaunissement) et à la croissance."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que la plante « mange » la terre (Van Helmont montre le contraire).",
+    "Oublier le CO₂ de l'air parmi les besoins de la plante.",
+    "Chercher l'azote dans les cendres.",
+    "Conclure d'une expérience de carence sans la comparer au témoin.",
+    "Penser qu'un oligoélément est facultatif parce qu'il est en petite quantité."
+   ],
+   "astuces": [
+    "Besoins de la plante verte : « EAU, AIR, LUMIÈRE, MINÉRAUX ».",
+    "Symptôme « jaune » : pense à N (vieilles feuilles), Mg (entre les nervures) ou Fe (jeunes feuilles)."
+   ],
+   "mnemo": "« Plante verte = E.A.L.M. » : Eau, Air (CO₂), Lumière, Minéraux.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que les plantes vertes ont besoin d'eau, de sels minéraux, de lumière et de dioxyde de carbone pour produire leur matière. En seconde, on démontre ces besoins par des expériences et on précise le rôle de chaque élément minéral."
+   },
+   "methode_redaction": "Pour une expérience historique : décrire le protocole, donner les résultats chiffrés, la conclusion de l'auteur, puis l'interprétation actuelle si elle diffère. Pour une carence : témoin, variable unique, résultat, conclusion « l'élément X est indispensable ».",
+   "flash": [
+    {
+     "q": "Pourquoi dit-on que la plante verte est autotrophe ?",
+     "r": "Elle fabrique sa matière organique à partir de matière minérale (eau, ions, CO₂) et de lumière."
+    },
+    {
+     "q": "Résultat de Van Helmont ?",
+     "r": "Saule : 2,25 → 76,7 kg en 5 ans ; terre : perte d'environ 57 g seulement."
+    },
+    {
+     "q": "Qu'est-ce que la solution de Knop ?",
+     "r": "Une solution de sels minéraux permettant la culture sans sol (hydroponie)."
+    },
+    {
+     "q": "Symptôme de la carence en azote ?",
+     "r": "Plante chétive, vieilles feuilles jaunes (chlorose)."
+    },
+    {
+     "q": "Six macroéléments ?",
+     "r": "N, P, K, Ca, Mg, S."
+    },
+    {
+     "q": "Pourquoi l'azote n'est-il pas dans les cendres ?",
+     "r": "Il part sous forme de gaz lors de la combustion."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C06-N1.svg",
+    "alt": "Cultures hydroponiques avec carences et composition d'une laitue",
+    "legende": "Cultures en solution de Knop complète, sans azote et sans potassium ; composition approximative d'une laitue.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C06-N2",
+   "titre": "L'absorption de l'eau et des ions par la racine",
+   "prerequis_notions": [
+    "SVT-S1-C06-N1",
+    "SVT-S1-C02-N2",
+    "SVT-S1-C02-N3"
+   ],
+   "cours_md": "### 1. Où la racine absorbe-t-elle ?\nUne jeune racine présente, de l'extrémité vers la base :\n- la **coiffe**, qui protège la pointe ;\n- la **zone de croissance** (cellules qui se divisent puis s'allongent) ;\n- la **zone pilifère**, couverte de **poils absorbants** ;\n- la **zone de ramification** (racines secondaires).\n\n**Expérience** : on place de jeunes plants de radis de façon que seule la pointe (coiffe et zone de croissance) trempe dans l'eau, ou que seule la zone pilifère y trempe (la pointe étant maintenue au sec ou sous une couche d'huile). Seuls les plants dont la **zone pilifère** est dans l'eau restent turgescents.\n**Conclusion** : l'absorption se fait essentiellement au niveau des **poils absorbants**.\n\n:::definition\n**Poil absorbant** : cellule de l'épiderme de la racine prolongée par un long tube (jusqu'à environ 1 mm) à paroi mince, avec une grande vacuole. Les poils absorbants multiplient énormément la **surface de contact** avec la solution du sol. Un seul pied de seigle étudié par Dittmer (1937) en portait environ 14 milliards, soit plus de 400 m² de surface.\n:::\n\n### 2. Comment l'eau et les ions entrent-ils ?\n- **L'eau** entre par **osmose** : le suc vacuolaire du poil absorbant est plus concentré (hypertonique) que la solution du sol (hypotonique).\n- **Les ions minéraux** entrent en grande partie par **transport actif**, contre leur gradient, grâce à des protéines membranaires et à l'ATP produit par la **respiration** des cellules de la racine. L'absorption est donc **sélective** et exige du **dioxygène** dans le sol.\n\n:::attention\nSi la solution du sol devient plus concentrée que les cellules (sol salé, excès d'engrais au contact des racines), l'eau n'entre plus et peut même sortir : la plante se fane (plasmolyse). Dans un sol gorgé d'eau, les racines manquent de $\\ce{O2}$ : l'absorption des ions chute.\n:::\n\n### 3. Le trajet jusqu'aux feuilles : la sève brute\nPoil absorbant → cellules de l'**écorce** → **endoderme** (barrière qui contrôle le passage) → **cylindre central** → vaisseaux du **xylème** (bois).\n:::definition\n**Sève brute** : solution d'eau et d'ions minéraux qui circule dans les vaisseaux du xylème, des racines vers les feuilles.\n:::\n\nDeux « moteurs » font monter la sève brute :\n- l'**aspiration foliaire** due à la **transpiration** : l'eau s'évapore par les **stomates** des feuilles, ce qui « tire » la colonne d'eau dans les vaisseaux ;\n- la **poussée racinaire** : la racine pousse la sève vers le haut ; on l'observe quand une tige coupée près du sol laisse suinter de la sève (« pleurs »), mise en évidence par Stephen Hales (1727) avec un manomètre.\n\n:::remarque\n**Le potomètre** mesure l'eau absorbée par une tige feuillée. L'absorption augmente avec la lumière (stomates ouverts), la chaleur, le vent et la sécheresse de l'air, qui accélèrent la transpiration.\n:::\n\n### 4. Aides naturelles\nLes **mycorhizes** (association symbiotique entre racines et champignons du sol) augmentent l'absorption, surtout du phosphore ; les nodosités des légumineuses fournissent l'azote (chapitre 4).\n\n:::methode\n**Exploiter des mesures de potomètre** : 1) décrire les volumes absorbés dans chaque condition ; 2) calculer des rapports par rapport au témoin ; 3) relier à la transpiration (ouverture des stomates, évaporation) ; 4) conclure sur le moteur de la montée de sève.\n:::",
+   "definition": "La racine absorbe l'eau (par osmose) et les ions minéraux (surtout par transport actif) au niveau des poils absorbants de la zone pilifère ; cette solution, la sève brute, monte par les vaisseaux du xylème jusqu'aux feuilles, tirée par la transpiration et poussée par la racine.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Les poils absorbants boivent la solution du sol, les vaisseaux la font monter jusqu'aux feuilles.",
+    "simple": "Les poils absorbants sont comme des milliers de petites pailles plongées dans le sol ; la transpiration des feuilles est la bouche qui aspire en haut ; les vaisseaux du bois sont les tuyaux qui relient les deux.",
+    "complete": "L'absorption racinaire se fait au niveau de la zone pilifère, dont les poils absorbants (cellules épidermiques à paroi mince et grande vacuole) offrent une surface d'échange immense. L'eau entre par osmose (suc vacuolaire hypertonique par rapport à la solution du sol) ; les ions sont absorbés sélectivement, surtout par transport actif consommateur d'ATP, ce qui exige un sol aéré. L'eau et les ions traversent l'écorce et l'endoderme jusqu'au xylème, où la sève brute monte grâce à l'aspiration foliaire (transpiration par les stomates) et à la poussée racinaire (Hales). Mycorhizes et nodosités améliorent la nutrition minérale."
+   },
+   "analogie": "Le système de pompage d'un château d'eau de quartier : les puits (poils absorbants), la canalisation (xylème) et le robinet ouvert en haut (stomates) qui fait couler l'eau.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : expérience sur des plants de radis. Lot 1 : seule la pointe de la racine trempe dans l'eau → plants fanés après 2 h. Lot 2 : seule la zone pilifère trempe (pointe sous une couche d'huile) → plants turgescents. Interprète.",
+     "etapes": [
+      "Je décris : les plants ne restent turgescents que si la zone pilifère est en contact avec l'eau.",
+      "J'interprète : la pointe (coiffe, zone de croissance) n'absorbe pas assez d'eau pour compenser la transpiration ; la zone pilifère, elle, absorbe l'eau.",
+      "Conclusion : l'absorption de l'eau se fait au niveau de la zone pilifère, grâce aux poils absorbants."
+     ]
+    },
+    {
+     "enonce": "Document : eau absorbée par une tige feuillée en 1 h (potomètre) : à l'ombre 1,2 mL ; au soleil 3,6 mL ; au soleil avec ventilateur 5,4 mL. Analyse.",
+     "etapes": [
+      "Je décris : l'absorption est 3 fois plus forte au soleil (3,6 ÷ 1,2) et 4,5 fois plus forte au soleil avec vent (5,4 ÷ 1,2) qu'à l'ombre.",
+      "J'interprète : la lumière ouvre les stomates et la chaleur et le vent accélèrent l'évaporation de l'eau des feuilles (transpiration) ; plus la plante transpire, plus elle aspire d'eau.",
+      "Conclusion : la transpiration est le principal moteur de l'absorption de l'eau et de la montée de la sève brute."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que les ions entrent tous par osmose (l'osmose concerne l'eau).",
+    "Placer l'absorption au niveau de la coiffe ou de la pointe.",
+    "Confondre sève brute (eau + ions, xylème, montante) et sève élaborée (sucres, phloème).",
+    "Oublier que l'absorption des ions consomme de l'énergie (respiration, O₂)."
+   ],
+   "astuces": [
+    "Trajet à réciter : poil absorbant → écorce → endoderme → xylème → feuilles.",
+    "Eau = osmose (passif) ; ions = transport actif (ATP) : deux mécanismes différents."
+   ],
+   "mnemo": "« Poil – Écorce – Endoderme – Xylème » : « Pour Être En Xcellente santé ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que les racines absorbent l'eau et les sels minéraux du sol et que la sève circule dans la plante. En seconde, on explique comment ils entrent (osmose, transport actif) et ce qui fait monter la sève."
+   },
+   "methode_redaction": "Pour expliquer l'absorption : nommer la structure (poils absorbants de la zone pilifère), le mécanisme pour l'eau (osmose) et pour les ions (transport actif avec ATP), puis le trajet jusqu'au xylème. Un schéma légendé de la racine avec ses zones rapporte des points.",
+   "flash": [
+    {
+     "q": "Où se fait l'essentiel de l'absorption racinaire ?",
+     "r": "Au niveau des poils absorbants de la zone pilifère."
+    },
+    {
+     "q": "Comment l'eau entre-t-elle dans le poil absorbant ?",
+     "r": "Par osmose (suc vacuolaire hypertonique)."
+    },
+    {
+     "q": "Comment entrent la plupart des ions ?",
+     "r": "Par transport actif, avec dépense d'ATP."
+    },
+    {
+     "q": "Qu'est-ce que la sève brute ?",
+     "r": "Eau + ions minéraux circulant dans le xylème des racines vers les feuilles."
+    },
+    {
+     "q": "Deux moteurs de la montée de sève brute ?",
+     "r": "L'aspiration foliaire (transpiration) et la poussée racinaire."
+    },
+    {
+     "q": "Pourquoi un sol inondé nourrit-il mal la plante ?",
+     "r": "Manque de O₂ : respiration racinaire et transport actif des ions diminuent."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C06-N2.svg",
+    "alt": "Zones de la racine et trajet de la sève brute",
+    "legende": "La racine : zones, poils absorbants et trajet de l'eau et des ions jusqu'au xylème.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C06-N3",
+   "titre": "Fertilisation et amélioration du rendement agricole",
+   "prerequis_notions": [
+    "SVT-S1-C06-N1",
+    "SVT-S1-C06-N2",
+    "SVT-S1-C04-N3",
+    "SVT-S1-C05-N2"
+   ],
+   "cours_md": "### 1. Pourquoi fertiliser ?\nDans un écosystème naturel, les éléments minéraux retournent au sol (feuilles mortes, cadavres, décomposeurs). Dans un champ, la **récolte exporte** ces éléments : grains, tiges et tubercules emportés vident peu à peu le sol de son azote, de son phosphore et de son potassium. Pour garder un bon **rendement** (production par hectare, en t/ha), il faut **restituer** ces éléments : c'est la **fertilisation**.\n\n### 2. Les engrais\n- **Engrais minéraux** : sels solubles, vite disponibles. Leur **formule** indique les pourcentages de N, de $\\ce{P2O5}$ et de $\\ce{K2O}$. Exemples : **NPK 15-15-15** (15 % de N, 15 % de $\\ce{P2O5}$, 15 % de $\\ce{K2O}$) ; **urée** (46 % de N).\n- **Fumure organique** : fumier, compost, ordures ménagères compostées, engrais verts (légumineuses enfouies). Elle libère lentement ses éléments après minéralisation et améliore aussi la **structure** du sol, sa rétention en eau et sa vie biologique.\n- **Phosphate naturel** : le Togo exploite d'importants gisements de phosphate (Hahotoé-Kpogamé) ; broyé, il peut servir d'amendement phosphaté à action lente.\n\n:::methode\n**Calculer une quantité d'élément apportée** : masse d'engrais × pourcentage.\nExemple : 200 kg de NPK 15-15-15 apportent $200 \\times 0{,}15 = 30$ kg de N, 30 kg de $\\ce{P2O5}$ et 30 kg de $\\ce{K2O}$. 100 kg d'urée apportent $100 \\times 0{,}46 = 46$ kg de N. Total : $30 + 46 = 76$ kg de N par hectare.\n:::\n\n:::remarque\nPratique courante pour le maïs : épandre l'engrais NPK au semis ou peu après, puis l'urée en couverture vers le **buttage** (environ un mois et demi après le semis), quand la plante a le plus besoin d'azote. **Fractionner** limite les pertes par lessivage.\n:::\n\n### 3. La loi du minimum\n:::propriete\n**Loi du minimum** (Justus von Liebig, 1840) : le rendement est limité par l'élément nutritif disponible en plus faible quantité par rapport aux besoins de la plante (le **facteur limitant**), même si tous les autres sont abondants. On l'illustre par un **tonneau** dont la planche la plus courte fixe le niveau de l'eau.\n:::\nConséquence : ajouter de l'azote à un sol qui manque surtout de phosphore n'augmente presque pas la récolte.\n\n### 4. La loi des rendements décroissants\nRendement du maïs selon la dose d'azote (données simplifiées, autres éléments non limitants) :\n\n| N apporté (kg/ha) | 0 | 30 | 60 | 90 | 120 | 150 | 180 |\n|---|---|---|---|---|---|---|---|\n| Rendement (t/ha) | 1,5 | 2,4 | 3,1 | 3,5 | 3,7 | 3,75 | 3,6 |\n\nChaque tranche de 30 kg rapporte de moins en moins : +0,9 ; +0,7 ; +0,4 ; +0,2 ; +0,05 puis −0,15 t/ha.\n\n:::propriete\n**Loi des rendements décroissants** (Mitscherlich) : quand on augmente la dose d'un engrais, le rendement augmente de moins en moins, atteint un maximum, puis peut diminuer (excès toxique, verse, déséquilibre). La **dose économique** optimale est atteinte quand le gain de récolte ne paie plus le coût de l'engrais ; elle est inférieure à la dose du rendement maximal.\n:::\n\n### 5. Les risques d'une fertilisation excessive\n- **Eutrophisation** des rivières et lagunes (chapitre 5), nitrates dans l'eau des puits ;\n- **effet osmotique** : trop d'engrais au contact des racines rend la solution du sol hypertonique, la plante se fane (« l'engrais brûle ») ;\n- acidification des sols, gaspillage d'argent.\n\n:::attention\nLe rendement dépend aussi de l'eau, de la variété, de la densité de semis, du désherbage (*Striga*), des ravageurs et de la date de semis : l'engrais ne compense pas une mauvaise conduite de la culture.\n:::\n\n**Une fertilisation raisonnée** : analyser le sol, apporter la bonne dose au bon moment, associer fumure organique et engrais minéraux (fumure **organo-minérale**), pratiquer la rotation avec des légumineuses.",
+   "definition": "Les récoltes exportent les éléments minéraux du sol ; la fertilisation (engrais minéraux, fumure organique) les restitue, mais le rendement reste limité par l'élément le moins disponible (loi du minimum) et augmente de moins en moins avec la dose d'engrais (rendements décroissants).",
+   "formules": [
+    "$m_{\\text{élément}} = m_{\\text{engrais}} \\times \\dfrac{\\%}{100}$"
+   ],
+   "niveaux": {
+    "phrase": "Il faut rendre au sol ce que la récolte emporte, à la bonne dose : ni trop peu, ni trop.",
+    "simple": "Le sol est comme un compte en banque : chaque récolte est un retrait. Les engrais et le compost sont des dépôts. Mais déposer beaucoup d'argent sur un seul poste (l'azote) ne sert à rien si un autre est à zéro (le phosphore) : c'est la planche la plus courte du tonneau qui décide.",
+    "complete": "La récolte exporte N, P et K, qu'il faut restituer pour maintenir le rendement. Les engrais minéraux (formule N-P2O5-K2O, ex. NPK 15-15-15, urée à 46 % N) agissent vite ; la fumure organique agit lentement et améliore la structure et la vie du sol ; le phosphate naturel du Togo est un amendement phosphaté lent. Selon la loi du minimum (Liebig), le facteur le plus limitant fixe le rendement ; selon la loi des rendements décroissants (Mitscherlich), chaque dose supplémentaire rapporte moins, et la dose économique est inférieure à la dose du rendement maximal. Les excès provoquent eutrophisation, nitrates dans l'eau et stress osmotique ; la fertilisation doit être raisonnée et fractionnée."
+   },
+   "analogie": "La loi du minimum, c'est comme une équipe de football : la défense la plus faible fixe le nombre de buts encaissés, même si l'attaque est excellente.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : un cultivateur de Notsè épand 200 kg/ha de NPK 15-15-15 au semis et 100 kg/ha d'urée (46 % N) au buttage. Calcule les quantités de N, $\\ce{P2O5}$ et $\\ce{K2O}$ apportées par hectare.",
+     "etapes": [
+      "NPK : $200 \\times 0{,}15 = 30$ kg de N, 30 kg de $\\ce{P2O5}$, 30 kg de $\\ce{K2O}$.",
+      "Urée : $100 \\times 0{,}46 = 46$ kg de N.",
+      "Total : N = $30 + 46 = 76$ kg/ha ; $\\ce{P2O5}$ = 30 kg/ha ; $\\ce{K2O}$ = 30 kg/ha.",
+      "Conclusion : l'apport est riche en azote ; il faut vérifier que P et K suffisent, sinon ils deviendront limitants (loi du minimum)."
+     ]
+    },
+    {
+     "enonce": "Document : rendement du maïs selon la dose d'azote (tableau du cours). Décris l'évolution et nomme la loi illustrée.",
+     "etapes": [
+      "Je décris : le rendement passe de 1,5 t/ha sans azote à un maximum de 3,75 t/ha avec 150 kg N/ha, puis baisse à 3,6 t/ha avec 180 kg.",
+      "Je calcule les gains par tranche de 30 kg : +0,9 ; +0,7 ; +0,4 ; +0,2 ; +0,05 ; −0,15 t/ha : ils diminuent.",
+      "J'interprète : chaque kilo d'azote supplémentaire est de moins en moins efficace ; au-delà de 150 kg, l'excès nuit.",
+      "Conclusion : c'est la loi des rendements décroissants ; la dose rentable est bien inférieure à 150 kg N/ha."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que plus on met d'engrais, plus on récolte, sans limite.",
+    "Lire « 15-15-15 » comme 15 kg de chaque élément (ce sont des pourcentages de la masse d'engrais).",
+    "Oublier la loi du minimum : apporter de l'azote quand c'est le phosphore qui manque.",
+    "Ignorer la fumure organique et les risques (eutrophisation, plantes « brûlées »)."
+   ],
+   "astuces": [
+    "Quantité d'élément = masse d'engrais × pourcentage ÷ 100.",
+    "Pour trouver le facteur limitant : calcule pour chaque élément besoin − disponible ; le plus grand déficit non couvert limite le rendement."
+   ],
+   "mnemo": "« Liebig = la plus petite planche ; Mitscherlich = de moins en moins ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que les agriculteurs apportent des engrais pour améliorer les récoltes et que les décomposeurs fabriquent de l'humus. En seconde, on calcule les doses et on comprend pourquoi trop d'engrais ne sert à rien et pollue."
+   },
+   "methode_redaction": "Pour un calcul de fertilisation : poser chaque calcul (masse × %), additionner par élément, comparer aux besoins, identifier le facteur limitant, proposer une correction chiffrée. Pour une courbe dose/rendement : décrire, calculer les gains successifs, nommer la loi, conclure sur la dose conseillée.",
+   "flash": [
+    {
+     "q": "Que signifie NPK 15-15-15 ?",
+     "r": "15 % de N, 15 % de P₂O₅ et 15 % de K₂O dans la masse d'engrais."
+    },
+    {
+     "q": "Teneur en azote de l'urée ?",
+     "r": "46 %."
+    },
+    {
+     "q": "Loi du minimum (Liebig) ?",
+     "r": "Le rendement est limité par l'élément le moins disponible par rapport aux besoins."
+    },
+    {
+     "q": "Loi des rendements décroissants ?",
+     "r": "Chaque dose supplémentaire d'engrais augmente de moins en moins le rendement."
+    },
+    {
+     "q": "Avantages de la fumure organique ?",
+     "r": "Libération lente des éléments, meilleure structure, rétention d'eau et vie du sol."
+    },
+    {
+     "q": "Deux risques d'un excès d'engrais ?",
+     "r": "Eutrophisation des eaux, plantes fanées par effet osmotique (aussi : coût, acidification)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C06-N3.svg",
+    "alt": "Courbe du rendement du maïs selon la dose d'azote et tonneau de Liebig",
+    "legende": "Loi des rendements décroissants et loi du minimum (données simplifiées).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S1-C06-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C06-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Une plante verte cultivée à la lumière a besoin, pour fabriquer sa matière organique :",
+   "choix": [
+    "d'humus et d'eau seulement",
+    "de sucres puisés dans le sol",
+    "d'eau, d'ions minéraux et de dioxyde de carbone",
+    "de terre, sans lumière"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "La plante verte est autotrophe : elle n'a besoin que de matière minérale et de lumière.",
+    "Eau, ions minéraux et CO₂ (réponse C)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Croire que la plante se nourrit d'humus ou de sucres du sol.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C06-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C06-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Dans quelle zone de la racine se fait l'essentiel de l'absorption de l'eau et des sels minéraux ?",
+   "choix": [
+    "La coiffe",
+    "La zone pilifère",
+    "La zone de croissance",
+    "Le collet"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Les poils absorbants augmentent la surface d'échange.",
+    "Ils se trouvent dans la zone pilifère (réponse B)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser que la pointe (coiffe) absorbe.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C06-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C06-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un sac d'engrais porte la formule NPK 15-15-15. Quel pourcentage de sa masse correspond à l'azote (N) ? Nombre seul.",
+   "reponses_acceptees": [
+    "15",
+    "15%"
+   ],
+   "indices": [],
+   "corrige": [
+    "Le premier nombre de la formule indique le % de N.",
+    "Réponse : 15 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 45 en additionnant les trois nombres.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C06-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C06-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un plant de laitue frais pèse 400 g ; après séchage à l'étuve, il ne pèse plus que 48 g. Calcule le pourcentage d'eau de la plante (nombre seul).",
+   "reponses_acceptees": [
+    "88",
+    "88%"
+   ],
+   "indices": [],
+   "corrige": [
+    "Masse d'eau = 400 − 48 = 352 g.",
+    "% d'eau = 352 ÷ 400 × 100 = 88 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 48 ÷ 400 (c'est le % de matière sèche, 12 %).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C06-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C06-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quelle masse d'azote (en kg) apportent 150 kg d'urée à 46 % de N ? Nombre seul.",
+   "reponses_acceptees": [
+    "69",
+    "69kg",
+    "69 kg"
+   ],
+   "indices": [],
+   "corrige": [
+    "Masse de N = 150 × 46 ÷ 100.",
+    "Masse de N = 69 kg."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser 150 par 46.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C06-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C06-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Des plants cultivés dans une solution de Knop privée de magnésium présentent un jaunissement des feuilles entre les nervures. Quelle est l'explication la plus juste ?",
+   "choix": [
+    "Le magnésium est nécessaire à la fabrication de la chlorophylle",
+    "Le magnésium est un sucre",
+    "Le magnésium sert à fixer le diazote de l'air",
+    "Le magnésium empêche l'osmose"
+   ],
+   "bonne_reponse": 0,
+   "indices": [],
+   "corrige": [
+    "Le magnésium est l'atome central de la molécule de chlorophylle.",
+    "Sans Mg, la chlorophylle est moins fabriquée : les feuilles jaunissent (chlorose) — réponse A."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre avec la carence en azote, qui jaunit surtout les vieilles feuilles entières.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C06-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C06-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution des connaissances. Explique comment l'eau et les ions minéraux passent du sol jusqu'aux feuilles d'un plant de maïs : structures traversées, mécanismes d'entrée, forces qui font monter la sève brute. Un schéma de la racine légendé peut accompagner ta réponse.",
+   "indices": [],
+   "corrige": [
+    "Structures : poils absorbants de la zone pilifère → écorce → endoderme → vaisseaux du xylème → feuilles.",
+    "Eau : entre par osmose, car le suc vacuolaire du poil absorbant est plus concentré que la solution du sol.",
+    "Ions : entrent surtout par transport actif, contre leur gradient, grâce à des protéines et à l'ATP de la respiration racinaire (d'où le besoin de O₂).",
+    "La solution (sève brute) monte dans le xylème grâce à l'aspiration foliaire (transpiration par les stomates) et à la poussée racinaire."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5,
+    2
+   ],
+   "piege": "Dire que les ions entrent par osmose.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C06-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C06-N1",
+    "SVT-S1-C06-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de document. Des plants de sorgho sont cultivés 6 semaines en hydroponie (masse sèche moyenne par plant).\n\n| Lot | Solution | Masse sèche (g) | Aspect |\n|---|---|---|---|\n| 1 | complète (Knop) | 40 | vert, vigoureux |\n| 2 | sans azote | 7 | petit, vieilles feuilles jaunes |\n| 3 | sans phosphore | 12 | racines courtes, feuilles violacées |\n| 4 | eau distillée | 3 | meurt après germination |\n\n1) Quel lot sert de témoin ? Pourquoi ? 2) Interprète les lots 2, 3 et 4. 3) Le lot 2 reçoit ensuite de l'azote mais pas de phosphore : sa croissance reprend-elle pleinement ? Justifie avec une loi.",
+   "indices": [],
+   "corrige": [
+    "1) Le lot 1 (solution complète) est le témoin : il contient tous les éléments ; on compare chaque lot à lui pour qu'un seul facteur varie.",
+    "2) Lot 2 : sans N, croissance très réduite (40 → 7 g) et jaunissement : N indispensable (protéines, chlorophylle). Lot 3 : sans P, racines courtes, feuilles violacées : P indispensable. Lot 4 : sans aucun élément minéral, la plante meurt après avoir épuisé les réserves de la graine : les ions minéraux sont indispensables.",
+    "3) Non, pas pleinement : s'il manque du phosphore, c'est lui qui devient le facteur limitant ; selon la loi du minimum (Liebig), le rendement est limité par l'élément le moins disponible, même si l'azote est abondant."
+   ],
+   "bareme": [
+    1,
+    3,
+    2
+   ],
+   "piege": "Oublier de désigner le témoin ou de justifier son rôle.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C06-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C06-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un cultivateur apporte par hectare 200 kg de NPK 15-15-15 puis 100 kg d'urée (46 % N). Quelle masse totale d'azote (kg/ha) a-t-il apportée ? Nombre seul.",
+   "reponses_acceptees": [
+    "76",
+    "76kg",
+    "76 kg"
+   ],
+   "indices": [],
+   "corrige": [
+    "NPK : 200 × 0,15 = 30 kg de N ; urée : 100 × 0,46 = 46 kg de N.",
+    "Total : 30 + 46 = 76 kg de N/ha."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier l'azote contenu dans le NPK.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C06-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C06-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données. Essai de fertilisation azotée du maïs (autres éléments non limitants).\n\n| N apporté (kg/ha) | 0 | 30 | 60 | 90 | 120 | 150 | 180 |\n|---|---|---|---|---|---|---|---|\n| Rendement (t/ha) | 1,5 | 2,4 | 3,1 | 3,5 | 3,7 | 3,75 | 3,6 |\n\n1) Calcule le gain de rendement obtenu par chaque tranche de 30 kg d'azote. 2) Quelle loi ces résultats illustrent-ils ? 3) Apporter 30 kg de N avec de l'urée (46 % N) nécessite environ 65 kg d'urée, qui coûtent 22 750 F CFA ; le maïs se vend 150 F CFA le kg. Jusqu'à quelle dose l'apport d'azote reste-t-il rentable ?",
+   "indices": [
+    "Convertis les tonnes en kg avant de multiplier par le prix."
+   ],
+   "corrige": [
+    "1) Gains : +0,9 ; +0,7 ; +0,4 ; +0,2 ; +0,05 ; −0,15 t/ha.",
+    "2) Loi des rendements décroissants : chaque tranche d'azote rapporte de moins en moins, puis l'excès fait baisser le rendement.",
+    "3) Valeur des gains : 0,9 t = 900 kg × 150 = 135 000 F ; 0,7 t → 105 000 F ; 0,4 t → 60 000 F ; 0,2 t → 30 000 F ; 0,05 t → 7 500 F.",
+    "Chaque tranche coûte 22 750 F : elle est rentable tant que le gain dépasse ce coût, donc jusqu'à 120 kg N/ha (gain 30 000 F > 22 750 F) ; la tranche de 120 à 150 kg (7 500 F) ne l'est plus.",
+    "Conclusion : la dose économique (environ 120 kg N/ha) est inférieure à la dose du rendement maximal (150 kg N/ha)."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5,
+    1.5,
+    0.5
+   ],
+   "piege": "Choisir la dose du rendement maximal comme dose conseillée.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C06-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S1-C06-N3",
+    "SVT-S1-C06-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Synthèse. Pour produire 4 t/ha de maïs, il faut environ 90 kg de N, 40 kg de $\\ce{P2O5}$ et 60 kg de $\\ce{K2O}$ par hectare. L'analyse du sol d'un champ de la région des Savanes indique que le sol peut fournir 30 kg de N, 5 kg de $\\ce{P2O5}$ et 50 kg de $\\ce{K2O}$. Le cultivateur n'apporte que 130 kg d'urée (46 % N) et récolte seulement 1,8 t/ha.\n1) Calcule les déficits du sol pour chaque élément. 2) Calcule l'azote apporté par l'urée et explique, avec la loi du minimum, pourquoi le rendement reste faible. 3) Propose un plan de fertilisation chiffré avec du NPK 15-15-15 et de l'urée, et indique ce qu'il faudrait ajouter. 4) Cite deux précautions pour éviter qu'un excès d'engrais nuise à la plante ou à l'environnement.",
+   "indices": [
+    "Déficit = besoin − fourni par le sol.",
+    "Quel élément reste le moins couvert ?"
+   ],
+   "corrige": [
+    "1) Déficits : N = 90 − 30 = 60 kg ; P₂O₅ = 40 − 5 = 35 kg ; K₂O = 60 − 50 = 10 kg.",
+    "2) Urée : 130 × 0,46 ≈ 60 kg de N : le déficit en azote est couvert, mais pas celui en phosphore (35 kg manquants). Selon la loi du minimum, le phosphore devient le facteur limitant : le rendement reste faible malgré l'azote.",
+    "3) Exemple : 200 kg/ha de NPK 15-15-15 = 30 kg N + 30 kg P₂O₅ + 30 kg K₂O ; plus 65 kg d'urée ≈ 30 kg N ; total ≈ 60 kg N, 30 kg P₂O₅, 30 kg K₂O. Le potassium est couvert ; il manque encore environ 5 kg de P₂O₅ : ajouter du compost ou du phosphate naturel (gisements togolais).",
+    "4) Fractionner les apports (NPK au semis, urée au buttage) et ne pas mettre l'engrais au contact direct des racines (effet osmotique) ; respecter les doses pour éviter le lessivage des nitrates et l'eutrophisation des cours d'eau ; associer fumure organique."
+   ],
+   "bareme": [
+    1.5,
+    2,
+    2.5,
+    1
+   ],
+   "piege": "Conclure qu'il faut encore plus d'urée.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C06-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C06-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Van Helmont plante un saule de 2,25 kg dans 90 kg de terre ; 5 ans plus tard, le saule pèse 76,7 kg et la terre n'a perdu qu'environ 57 g. Quelle interprétation actuelle est correcte ?",
+   "choix": [
+    "La matière du saule vient presque entièrement de la terre",
+    "La matière du saule vient surtout de l'eau et du CO₂ de l'air ; la terre n'a fourni que des sels minéraux",
+    "Le saule a fabriqué de la matière sans rien absorber",
+    "La terre a été mal pesée, l'expérience ne prouve rien"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le saule a gagné environ 74,45 kg alors que la terre n'a perdu que 57 g : sa matière ne vient presque pas du sol.",
+    "Elle vient de l'eau et surtout du CO₂ de l'air (photosynthèse) ; les 57 g sont les sels minéraux absorbés (réponse B)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Retenir seulement la conclusion de Van Helmont (« l'eau »), incomplète.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Dire que les ions entrent dans la racine par osmose (l'osmose concerne l'eau).",
+  "Oublier le témoin (solution complète) dans l'interprétation d'une expérience de carence.",
+  "Lire « 15-15-15 » comme des kilogrammes au lieu de pourcentages.",
+  "Croire que l'augmentation de la dose d'engrais augmente le rendement sans limite.",
+  "Ne pas identifier le facteur limitant (loi du minimum) dans une analyse de sol.",
+  "Retenir la conclusion de Van Helmont (« tout vient de l'eau ») sans l'interprétation actuelle (CO₂)."
+ ]
+}

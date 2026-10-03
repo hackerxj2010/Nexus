@@ -1,0 +1,662 @@
+{
+ "id": "PC-S1-C07",
+ "matiere": "PC",
+ "semestre": 1,
+ "ordre": 7,
+ "titre": "Élément chimique et classification périodique",
+ "objectifs": [
+  "Définir un élément chimique et montrer sa conservation au cours des transformations.",
+  "Connaître les symboles des 20 premiers éléments et de quelques métaux courants.",
+  "Décrire le principe de la classification périodique (périodes, groupes, familles).",
+  "Situer un élément à partir de sa formule électronique et réciproquement.",
+  "Énoncer les règles du duet et de l'octet et prévoir la formule des ions monoatomiques."
+ ],
+ "prerequis": [
+  "PC-S1-C06"
+ ],
+ "notions": [
+  {
+   "id": "PC-S1-C07-N1",
+   "titre": "L'élément chimique et sa conservation",
+   "prerequis_notions": [
+    "PC-S1-C06-N2"
+   ],
+   "cours_md": "## 1. Définition\n:::definition Élément chimique\nUn **élément chimique** est l'ensemble des entités (atomes, ions) qui ont le **même numéro atomique $Z$**, c'est-à-dire le même nombre de protons dans leur noyau.\n:::\nExemples : l'atome de cuivre $\\ce{Cu}$, l'ion cuivre(II) $\\ce{Cu^2+}$, les isotopes $^{63}\\text{Cu}$ et $^{65}\\text{Cu}$ appartiennent tous à l'**élément cuivre** ($Z = 29$).\n\n## 2. Symbole d'un élément\nChaque élément est représenté par un **symbole** : une lettre **majuscule** (C, H, O, N), parfois suivie d'une lettre **minuscule** (Ca, Cl, Na, Fe). Le symbole vient souvent du nom latin : Na (natrium) pour le sodium, K (kalium) pour le potassium, Fe (ferrum), Cu (cuprum), Ag (argentum), Au (aurum), Pb (plumbum).\n\n| Z | 1 | 2 | 6 | 7 | 8 | 11 | 12 | 13 | 16 | 17 | 20 | 26 | 29 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| symbole | H | He | C | N | O | Na | Mg | Al | S | Cl | Ca | Fe | Cu |\n\nOn connaît aujourd'hui 118 éléments, dont environ 90 existent dans la nature.\n\n## 3. Conservation de l'élément chimique\n:::methode Expérience : le « cycle du cuivre »\n1. Du **cuivre métal** (rouge) est attaqué par l'acide nitrique : il disparaît, la solution devient **bleue** (ions $\\ce{Cu^2+}$).\n2. On ajoute de la soude : il se forme un **précipité bleu** d'hydroxyde de cuivre $\\ce{Cu(OH)2}$.\n3. On chauffe le précipité : il devient **noir** (oxyde de cuivre $\\ce{CuO}$).\n4. On chauffe l'oxyde de cuivre avec du carbone : on récupère du **cuivre métal** rouge.\n:::\n:::propriete Conservation des éléments\nAu cours d'une transformation chimique, les éléments chimiques se **conservent** : ils changent de forme (atome, ion, corps composé) mais ne disparaissent pas et n'apparaissent pas. Le noyau n'est pas modifié par une réaction chimique.\n:::\nC'est le fondement de la loi de Lavoisier : « Rien ne se perd, rien ne se crée, tout se transforme. »\n\n## Exemples résolus\n**Exemple 1.** Les entités suivantes appartiennent-elles au même élément : $^{35}_{17}\\text{Cl}$, $^{37}_{17}\\text{Cl}$, $\\ce{Cl-}$ ($Z = 17$) ?\n- Toutes ont $Z = 17$ : oui, ce sont trois formes de l'**élément chlore** (deux isotopes et un ion).\n\n**Exemple 2.** Dans le cycle du cuivre, on part de 0,64 g de cuivre et on récupère à la fin 0,63 g de cuivre. Commente.\n- L'élément cuivre s'est conservé à travers toutes les transformations.\n- La petite perte (0,01 g) vient des manipulations (transvasements, filtrations), pas d'une disparition de l'élément.",
+   "definition": "Un élément chimique est l'ensemble des atomes et des ions de même numéro atomique Z ; il se conserve au cours des transformations chimiques.",
+   "formules": [
+    "élément $\\Leftrightarrow$ même $Z$",
+    "$\\ce{Cu -> Cu^2+ -> Cu(OH)2 -> CuO -> Cu}$"
+   ],
+   "niveaux": {
+    "phrase": "Un élément, c'est une « famille » d'atomes et d'ions qui ont tous le même nombre de protons.",
+    "simple": "Que tu le voies sous forme de fil électrique rouge, de solution bleue ou de poudre noire, le cuivre est toujours là : comme un même élève qui change de tenue (uniforme, tenue de sport, tenue de fête) reste la même personne.",
+    "complete": "Élément chimique : ensemble des entités de même $Z$ (atomes, ions, isotopes). Symbole : majuscule (+ minuscule). Conservation des éléments au cours des réactions (le noyau n'est pas modifié) : cycle du cuivre $\\ce{Cu -> Cu^2+ -> Cu(OH)2 -> CuO -> Cu}$ ; base de la conservation de la masse (Lavoisier)."
+   },
+   "analogie": "Les forgerons de Bassar fondaient le minerai de fer : l'élément fer était déjà dans la roche, ils l'ont seulement libéré sous forme de métal.",
+   "exemples_resolus": [
+    {
+     "enonce": "³⁵₁₇Cl, ³⁷₁₇Cl et Cl⁻ : même élément ?",
+     "etapes": [
+      "Tous ont Z = 17.",
+      "Ce sont des formes de l'élément chlore (isotopes et ion)."
+     ]
+    },
+    {
+     "enonce": "Cycle du cuivre : 0,64 g au départ, 0,63 g récupéré. Commente.",
+     "etapes": [
+      "L'élément cuivre s'est conservé.",
+      "L'écart est dû aux pertes de manipulation."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire les symboles avec deux majuscules (CL, NA) ou en minuscule (fe).",
+    "Croire qu'un ion ou un isotope est un élément différent.",
+    "Dire que le cuivre « disparaît » dans l'acide nitrique : il passe sous forme d'ions."
+   ],
+   "astuces": [
+    "L'élément se reconnaît à Z, jamais à A ni à la charge.",
+    "Retiens les symboles latins : Na, K, Fe, Cu, Ag, Au, Pb."
+   ],
+   "mnemo": "« Z est la carte d'identité de l'élément. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que lors d'une combustion les atomes se conservent : le carbone du charbon se retrouve dans le dioxyde de carbone."
+   },
+   "methode_redaction": "Pour justifier qu'il s'agit du même élément, écris : « ces entités ont le même numéro atomique Z = … ; elles appartiennent donc au même élément … ».",
+   "flash": [
+    {
+     "q": "Définis un élément chimique.",
+     "r": "L'ensemble des entités (atomes, ions) de même numéro atomique Z."
+    },
+    {
+     "q": "Symbole du sodium ? du potassium ?",
+     "r": "Na et K."
+    },
+    {
+     "q": "Le cuivre se conserve-t-il dans le cycle du cuivre ?",
+     "r": "Oui, l'élément cuivre se conserve."
+    },
+    {
+     "q": "Une réaction chimique modifie-t-elle le noyau ?",
+     "r": "Non."
+    },
+    {
+     "q": "Cu²⁺ et Cu : même élément ?",
+     "r": "Oui (Z = 29)."
+    },
+    {
+     "q": "Couleur des ions Cu²⁺ en solution ?",
+     "r": "Bleue."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C07-N1.svg",
+    "alt": "Le cycle du cuivre : cuivre métal rouge, puis solution bleue d'ions Cu²⁺ (acide nitrique), puis précipité bleu Cu(OH)₂ (soude), puis oxyde noir CuO (chauffage), puis de nouveau cuivre métal (carbone, chauffage). Au centre : l'élément cuivre se conserve.",
+    "legende": "Cycle du cuivre : l'élément cuivre change de forme mais se conserve.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C07-N2",
+   "titre": "La classification périodique des éléments",
+   "prerequis_notions": [
+    "PC-S1-C07-N1",
+    "PC-S1-C06-N3"
+   ],
+   "cours_md": "## 1. Un peu d'histoire\nEn **1869**, le chimiste russe **Mendeleïev** range les 63 éléments connus par masse croissante et regroupe ceux qui ont des propriétés semblables. Il laisse des **cases vides** et prédit les propriétés d'éléments encore inconnus (gallium, germanium), découverts ensuite.\n\n## 2. Principe de la classification actuelle\n:::propriete Construction\n- Les éléments sont rangés par **numéro atomique $Z$ croissant**.\n- Une **ligne** (ou **période**) regroupe les éléments dont les atomes ont le **même nombre de couches électroniques occupées** : 1re période → couche $K$ ; 2e → $K$, $L$ ; 3e → $K$, $L$, $M$.\n- Une **colonne** (ou **groupe**) regroupe les éléments dont les atomes ont le **même nombre d'électrons de valence** (pour les 3 premières périodes) : ils ont des **propriétés chimiques semblables** et forment une **famille**.\n:::\n\nLe tableau complet a 18 colonnes. Pour les trois premières périodes, on utilise souvent un tableau simplifié à 8 colonnes : colonnes 1, 2, puis 13 à 18.\n\n| Colonne | 1 | 2 | 13 | 14 | 15 | 16 | 17 | 18 |\n|---|---|---|---|---|---|---|---|---|\n| électrons de valence | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 (2 pour He) |\n| période 1 | H | | | | | | | He |\n| période 2 | Li | Be | B | C | N | O | F | Ne |\n| période 3 | Na | Mg | Al | Si | P | S | Cl | Ar |\n\n## 3. Les familles à connaître\n- **Alcalins** (colonne 1, sauf H) : Li, Na, K. Métaux mous, très réactifs : ils réagissent vivement avec l'eau (on les conserve dans l'huile).\n- **Alcalino-terreux** (colonne 2) : Be, Mg, Ca.\n- **Halogènes** (colonne 17) : F, Cl, Br, I. Non-métaux, molécules diatomiques ($\\ce{Cl2}$ : gaz jaune-vert toxique ; $\\ce{I2}$ : solide violet).\n- **Gaz nobles** (ou gaz rares, colonne 18) : He, Ne, Ar. Couche externe **saturée** : ils sont chimiquement **très stables** (presque aucune réaction).\n- Les **métaux** sont à gauche et au centre ; les **non-métaux** à droite.\n\n:::methode Situer un élément à partir de Z\n1. Écrire la formule électronique.\n2. Nombre de couches occupées → numéro de la **période**.\n3. Nombre d'électrons de valence → **colonne** (1, 2, puis 13 + (valence − 3) pour 3 à 8 électrons).\n:::\n\n## Exemples résolus\n**Exemple 1.** Situe le phosphore ($Z = 15$).\n- $(K)^{2}(L)^{8}(M)^{5}$ : 3 couches → **3e période**.\n- 5 électrons de valence → **colonne 15** (5e colonne du tableau simplifié), sous l'azote.\n\n**Exemple 2.** Un élément X est dans la 2e période et la colonne 17. Trouve Z et identifie X.\n- 2e période : couches $K$ et $L$ ; colonne 17 : 7 électrons de valence.\n- $(K)^{2}(L)^{7}$ : $Z = 2 + 7 = 9$. C'est le **fluor** F, un halogène.",
+   "definition": "La classification périodique range les éléments par Z croissant : une ligne = même nombre de couches, une colonne = même nombre d'électrons de valence et propriétés chimiques voisines.",
+   "formules": [
+    "période = nombre de couches occupées",
+    "colonne ↔ nombre d'électrons de valence"
+   ],
+   "niveaux": {
+    "phrase": "Le tableau périodique est rangé comme une grille : la ligne dit combien de couches, la colonne dit combien d'électrons de valence.",
+    "simple": "Comme les élèves rangés dans la cour : par ordre de taille (Z croissant) sur chaque rangée, et les élèves d'une même colonne ont le même « caractère » (mêmes propriétés chimiques).",
+    "complete": "Classement par $Z$ croissant. Période $n$ : couches $K \\dots$ jusqu'à la $n$-ième occupées. Groupe : même nombre d'électrons de valence → même réactivité (familles : alcalins, alcalino-terreux, halogènes, gaz nobles). Métaux à gauche, non-métaux à droite. Situation d'un élément : formule électronique → période et colonne."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Situe le phosphore (Z = 15).",
+     "etapes": [
+      "$(K)^2(L)^8(M)^5$.",
+      "3 couches : 3e période.",
+      "5 électrons de valence : colonne 15."
+     ]
+    },
+    {
+     "enonce": "X : 2e période, colonne 17. Z ?",
+     "etapes": [
+      "Couches K et L ; 7 électrons de valence.",
+      "$(K)^2(L)^7$ : $Z = 9$.",
+      "Fluor (halogène)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre période (ligne) et groupe (colonne).",
+    "Ranger les éléments par masse au lieu de Z.",
+    "Oublier que l'hélium (2 électrons) est dans la colonne des gaz nobles.",
+    "Croire que l'hydrogène est un alcalin."
+   ],
+   "astuces": [
+    "Période = nombre de couches ; colonne = électrons de valence.",
+    "Même colonne → même type d'ion (Li⁺, Na⁺, K⁺ ; F⁻, Cl⁻, Br⁻)."
+   ],
+   "mnemo": "Halogènes : « Fais Cl Brillamment Ici » (F, Cl, Br, I).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as peut-être vu le tableau périodique accroché au labo ; maintenant tu sais pourquoi il a cette forme : ce sont les couches électroniques."
+   },
+   "methode_redaction": "Justifie toujours avec la formule électronique : « (K)²(L)⁸(M)⁵ : trois couches occupées, donc 3e période ; cinq électrons de valence, donc colonne 15 ».",
+   "flash": [
+    {
+     "q": "Comment sont rangés les éléments ?",
+     "r": "Par numéro atomique Z croissant."
+    },
+    {
+     "q": "Que représente une période ?",
+     "r": "Les éléments dont les atomes ont le même nombre de couches occupées."
+    },
+    {
+     "q": "Point commun des éléments d'une même colonne ?",
+     "r": "Le même nombre d'électrons de valence, donc des propriétés chimiques voisines."
+    },
+    {
+     "q": "Famille de Li, Na, K ?",
+     "r": "Les alcalins."
+    },
+    {
+     "q": "Famille de F, Cl, Br, I ?",
+     "r": "Les halogènes."
+    },
+    {
+     "q": "Pourquoi les gaz nobles sont-ils stables ?",
+     "r": "Leur couche externe est saturée."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C07-N2.svg",
+    "alt": "Tableau périodique simplifié des 20 premiers éléments : périodes 1 à 4 en lignes, colonnes 1, 2, 13 à 18 ; alcalins, alcalino-terreux, halogènes et gaz nobles colorés différemment ; numéro atomique au-dessus de chaque symbole.",
+    "legende": "Les 20 premiers éléments : ligne = nombre de couches, colonne = électrons de valence.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C07-N3",
+   "titre": "Règles du duet et de l'octet ; ions monoatomiques",
+   "prerequis_notions": [
+    "PC-S1-C07-N2"
+   ],
+   "cours_md": "## 1. La stabilité des gaz nobles\nLes gaz nobles (He, Ne, Ar) ne réagissent presque pas : leur couche externe est **saturée** ($2$ électrons pour He, $8$ pour Ne et Ar). Les autres atomes vont chercher à obtenir une structure semblable.\n\n:::propriete Règles du duet et de l'octet\nAu cours des transformations chimiques, les atomes des éléments de $Z \\leq 18$ évoluent de façon à acquérir la structure électronique du **gaz noble le plus proche** dans la classification :\n- **règle du duet** : 2 électrons sur la couche externe $K$ (structure de l'hélium) pour les éléments proches de He ($\\ce{H}$, $\\ce{Li}$, $\\ce{Be}$) ;\n- **règle de l'octet** : 8 électrons sur la couche externe (structure du néon ou de l'argon) pour les autres.\n:::\n\n## 2. Les ions monoatomiques\n:::definition Ion monoatomique\nUn **ion monoatomique** est un atome qui a **perdu** ou **gagné** un ou plusieurs électrons. Le noyau ne change pas.\n- **Cation** : ion positif (perte d'électrons) ; exemple $\\ce{Na+}$.\n- **Anion** : ion négatif (gain d'électrons) ; exemple $\\ce{Cl-}$.\nCharge d'un ion : $q = (Z - n_{e})\\,e$, où $n_e$ est le nombre d'électrons de l'ion.\n:::\n\n:::methode Prévoir l'ion formé par un atome\n1. Écrire la formule électronique de l'atome.\n2. Si l'atome a **1, 2 ou 3** électrons de valence, il les **perd** (c'est plus « facile ») : cation $\\ce{X^{+}}$, $\\ce{X^{2+}}$, $\\ce{X^{3+}}$ (métaux).\n3. S'il a **5, 6 ou 7** électrons de valence, il **gagne** $8 - v$ électrons : anion $\\ce{X^{3-}}$, $\\ce{X^{2-}}$, $\\ce{X^{-}}$ (non-métaux).\n4. Vérifier que l'ion a la structure du gaz noble voisin.\n:::\n\n| Atome | Formule électronique | Ion formé | Structure de l'ion |\n|---|---|---|---|\n| Li ($Z = 3$) | $(K)^{2}(L)^{1}$ | $\\ce{Li+}$ | $(K)^{2}$ : comme He (duet) |\n| Na ($Z = 11$) | $(K)^{2}(L)^{8}(M)^{1}$ | $\\ce{Na+}$ | $(K)^{2}(L)^{8}$ : comme Ne |\n| Mg ($Z = 12$) | $(K)^{2}(L)^{8}(M)^{2}$ | $\\ce{Mg^2+}$ | comme Ne |\n| Al ($Z = 13$) | $(K)^{2}(L)^{8}(M)^{3}$ | $\\ce{Al^3+}$ | comme Ne |\n| O ($Z = 8$) | $(K)^{2}(L)^{6}$ | $\\ce{O^2-}$ | $(K)^{2}(L)^{8}$ : comme Ne |\n| S ($Z = 16$) | $(K)^{2}(L)^{8}(M)^{6}$ | $\\ce{S^2-}$ | comme Ar |\n| Cl ($Z = 17$) | $(K)^{2}(L)^{8}(M)^{7}$ | $\\ce{Cl-}$ | $(K)^{2}(L)^{8}(M)^{8}$ : comme Ar |\n\nÉcriture de la formation d'un ion : $\\ce{Na -> Na+ + e-}$ ; $\\ce{Cl + e- -> Cl-}$.\n\n:::remarque Les éléments de la colonne 14\nLe carbone et le silicium (4 électrons de valence) forment difficilement des ions : ils préfèrent mettre des électrons **en commun** (liaison covalente, chapitre suivant). L'hydrogène, lui, forme surtout des liaisons covalentes ; en solution aqueuse on rencontre l'ion $\\ce{H+}$ (sous la forme $\\ce{H3O+}$).\n:::\n\n## Exemples résolus\n**Exemple 1.** Quel ion forme l'atome de magnésium ($Z = 12$) ? Combien d'électrons possède cet ion ?\n- $(K)^{2}(L)^{8}(M)^{2}$ : 2 électrons de valence, il les perd → $\\ce{Mg^2+}$.\n- Électrons : $12 - 2 = 10$ ; structure $(K)^{2}(L)^{8}$ du néon.\n\n**Exemple 2.** Un ion porte la charge $-2e$ et possède 18 électrons. Identifie-le.\n- $q = (Z - n_e)\\,e = -2e \\Rightarrow Z = 18 - 2 = 16$ : soufre.\n- C'est l'ion sulfure $\\ce{S^2-}$, de structure $(K)^{2}(L)^{8}(M)^{8}$ comme l'argon.",
+   "definition": "Les atomes tendent à acquérir la structure électronique du gaz noble le plus proche (duet ou octet) ; pour cela ils perdent ou gagnent des électrons et forment des ions monoatomiques.",
+   "formules": [
+    "$q_{ion} = (Z - n_e)\\,e$",
+    "$\\ce{Na -> Na+ + e-}$",
+    "$\\ce{Cl + e- -> Cl-}$"
+   ],
+   "niveaux": {
+    "phrase": "Chaque atome veut ressembler au gaz noble le plus proche : il perd ou gagne des électrons pour avoir 2 ou 8 électrons sur sa dernière couche.",
+    "simple": "Le sodium a un seul électron « en trop » sur sa couche M : il s'en débarrasse facilement, comme un élève qui donne volontiers la seule bille qui dépasse de sa poche pour fermer son sac.",
+    "complete": "Duet (He) pour H, Li, Be ; octet (Ne, Ar) sinon. Métaux (1 à 3 électrons de valence) → cations $\\ce{X^{n+}}$ ; non-métaux (5 à 7) → anions $\\ce{X^{(8-v)-}}$. Charge $q = (Z - n_e)e$. Le noyau est inchangé : un ion appartient au même élément que l'atome."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Ion formé par Mg (Z = 12) et nombre d'électrons ?",
+     "etapes": [
+      "$(K)^2(L)^8(M)^2$ : 2 électrons de valence.",
+      "Perte de 2 électrons : $\\ce{Mg^2+}$.",
+      "10 électrons, structure du néon."
+     ]
+    },
+    {
+     "enonce": "Ion de charge −2e avec 18 électrons ?",
+     "etapes": [
+      "$Z - 18 = -2 \\Rightarrow Z = 16$.",
+      "Soufre : ion sulfure $\\ce{S^2-}$.",
+      "Structure de l'argon."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire Na⁻ ou Cl⁺ : un métal donne un cation, un non-métal un anion.",
+    "Dire que le noyau perd des protons pour former un ion positif.",
+    "Écrire la charge avant le chiffre (Mg⁺² au lieu de Mg²⁺).",
+    "Oublier que l'ion a la structure d'un gaz noble : vérification à faire."
+   ],
+   "astuces": [
+    "Un ion positif a MOINS d'électrons que de protons ; un ion négatif en a PLUS.",
+    "Colonne 1 → X⁺ ; colonne 2 → X²⁺ ; colonne 13 → X³⁺ ; colonne 16 → X²⁻ ; colonne 17 → X⁻."
+   ],
+   "mnemo": "« Le Métal Met des électrons dehors (cation), le Non-métal Nourrit sa couche (anion). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu les ions Na⁺, Cl⁻, Cu²⁺, Fe²⁺, Fe³⁺ dans les tests d'ions avec la soude. Tu sais maintenant pourquoi ils ont ces charges."
+   },
+   "methode_redaction": "Écris la formule électronique de l'atome, indique le nombre d'électrons de valence, applique la règle (duet/octet), donne l'ion avec sa charge et la formule électronique de l'ion.",
+   "flash": [
+    {
+     "q": "Énonce la règle de l'octet.",
+     "r": "Les atomes tendent à avoir 8 électrons sur leur couche externe, comme le gaz noble le plus proche."
+    },
+    {
+     "q": "Quels atomes suivent la règle du duet ?",
+     "r": "H, Li, Be (proches de l'hélium)."
+    },
+    {
+     "q": "Ion formé par Al (Z = 13) ?",
+     "r": "$\\ce{Al^3+}$."
+    },
+    {
+     "q": "Ion formé par O (Z = 8) ?",
+     "r": "$\\ce{O^2-}$."
+    },
+    {
+     "q": "Qu'est-ce qu'un cation ?",
+     "r": "Un ion positif (atome qui a perdu des électrons)."
+    },
+    {
+     "q": "Nombre d'électrons de Cl⁻ ?",
+     "r": "18."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C07-N3.svg",
+    "alt": "Formation de deux ions : le sodium (2, 8, 1) perd son électron de la couche M et devient Na⁺ (2, 8), structure du néon ; le chlore (2, 8, 7) gagne un électron et devient Cl⁻ (2, 8, 8), structure de l'argon.",
+    "legende": "Na perd un électron, Cl en gagne un : chacun obtient la structure d'un gaz noble.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S1-C07-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C07-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Ce qui caractérise un élément chimique, c'est :",
+   "choix": [
+    "son nombre de masse A",
+    "son numéro atomique Z",
+    "son nombre de neutrons",
+    "sa charge électrique"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Les entités d'un même élément ont le même nombre de protons.",
+    "C'est le numéro atomique Z."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C07-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C07-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Les éléments d'une même **colonne** de la classification ont :",
+   "choix": [
+    "le même nombre de couches",
+    "le même nombre d'électrons de valence",
+    "le même nombre de neutrons",
+    "la même masse"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Une colonne regroupe les atomes de même nombre d'électrons de valence.",
+    "Ils ont donc des propriétés chimiques voisines."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C07-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C07-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quel est le symbole de l'élément sodium ?",
+   "reponses_acceptees": [
+    "Na"
+   ],
+   "indices": [],
+   "corrige": [
+    "Le symbole vient du latin natrium.",
+    "Na (N majuscule, a minuscule)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Écrire So ou NA.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C07-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C07-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans quelle période (numéro) se trouve le phosphore ($Z = 15$) ?",
+   "reponses_acceptees": [
+    "3",
+    "3e",
+    "troisième",
+    "3ème"
+   ],
+   "indices": [],
+   "corrige": [
+    "$(K)^2(L)^8(M)^5$.",
+    "3 couches occupées : 3e période."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C07-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C07-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien d'électrons de valence possède l'oxygène ($Z = 8$) ? (Il est dans la colonne 16.)",
+   "reponses_acceptees": [
+    "6"
+   ],
+   "indices": [],
+   "corrige": [
+    "$(K)^2(L)^6$.",
+    "6 électrons de valence."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C07-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C07-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quel ion forme l'atome de magnésium ($Z = 12$) ? Écris-le sous la forme Mg2+.",
+   "reponses_acceptees": [
+    "Mg2+",
+    "Mg^2+",
+    "Mg²⁺",
+    "Mg++"
+   ],
+   "indices": [],
+   "corrige": [
+    "$(K)^2(L)^8(M)^2$ : 2 électrons de valence perdus.",
+    "$\\ce{Mg^2+}$, structure du néon."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C07-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C07-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quel ion forme l'atome de soufre ($Z = 16$) ? Écris-le sous la forme S2-.",
+   "reponses_acceptees": [
+    "S2-",
+    "S^2-",
+    "S²⁻",
+    "S--"
+   ],
+   "indices": [],
+   "corrige": [
+    "$(K)^2(L)^8(M)^6$ : il gagne 2 électrons (octet).",
+    "$\\ce{S^2-}$, structure de l'argon."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C07-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C07-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Le chlore, le brome et l'iode appartiennent à la famille des :",
+   "choix": [
+    "alcalins",
+    "gaz nobles",
+    "halogènes",
+    "alcalino-terreux"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Ils sont dans la colonne 17.",
+    "Ce sont les halogènes."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C07-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C07-N2",
+    "PC-S1-C07-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "L'élément X est situé dans la 2e période et la 17e colonne de la classification.\n1. Donne la formule électronique de l'atome X et son numéro atomique.\n2. Identifie X et sa famille.\n3. Quel ion X donne-t-il ? Justifie avec la règle de l'octet.",
+   "indices": [],
+   "corrige": [
+    "2e période : couches K et L ; colonne 17 : 7 électrons de valence ; $(K)^2(L)^7$.",
+    "$Z = 2 + 7 = 9$ : fluor, famille des halogènes.",
+    "Il lui manque 1 électron pour avoir 8 électrons sur L : il gagne 1 électron → $\\ce{F-}$, de structure $(K)^2(L)^8$ comme le néon."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C07-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C07-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "On réalise le « cycle du cuivre » : cuivre métal → solution bleue (acide nitrique) → précipité bleu (soude) → solide noir (chauffage) → cuivre métal (chauffage avec du carbone).\n1. Nomme les espèces contenant du cuivre à chaque étape.\n2. Quelle loi ce cycle illustre-t-il ?\n3. On part de 1,27 g de cuivre et on récupère 1,20 g. Comment expliquer l'écart ?",
+   "indices": [],
+   "corrige": [
+    "Cuivre $\\ce{Cu}$ ; ions cuivre(II) $\\ce{Cu^2+}$ ; hydroxyde de cuivre $\\ce{Cu(OH)2}$ ; oxyde de cuivre $\\ce{CuO}$ ; cuivre $\\ce{Cu}$.",
+    "La conservation de l'élément chimique : le cuivre change de forme mais ne disparaît pas.",
+    "L'écart de 0,07 g vient des pertes lors des manipulations (filtration, transvasement), pas d'une disparition de l'élément."
+   ],
+   "bareme": [
+    2,
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C07-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C07-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien d'électrons possède l'ion aluminium $\\ce{Al^3+}$ ($Z = 13$) ?",
+   "reponses_acceptees": [
+    "10"
+   ],
+   "indices": [],
+   "corrige": [
+    "L'atome a 13 électrons ; l'ion en a perdu 3.",
+    "$13 - 3 = 10$ électrons."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C07-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C07-N2",
+    "PC-S1-C07-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Un ion monoatomique $\\ce{X^2-}$ possède 18 électrons. Son noyau contient 16 neutrons ($e = 1{,}60 \\times 10^{-19}\\ \\text{C}$).\n1. Détermine Z et A ; identifie X et écris le symbole du noyau.\n2. Situe X dans la classification.\n3. Calcule la charge de l'ion en coulombs.\n4. Écris la formule électronique de l'ion ; à quel gaz noble ressemble-t-il ?",
+   "indices": [],
+   "corrige": [
+    "Ion $\\ce{X^2-}$ : 2 électrons de plus que de protons ; $Z = 18 - 2 = 16$ ; $A = Z + N = 16 + 16 = 32$ : soufre $^{32}_{16}\\text{S}$.",
+    "Atome : $(K)^2(L)^8(M)^6$ : 3e période, colonne 16.",
+    "$q = -2e = -2 \\times 1{,}60 \\times 10^{-19} = -3{,}20 \\times 10^{-19}\\ \\text{C}$.",
+    "Ion : $(K)^2(L)^8(M)^8$, structure de l'argon (octet)."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C07-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C07-N2",
+    "PC-S1-C07-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "On donne le lithium ($Z = 3$) et le potassium ($Z = 19$).\n1. Écris leurs formules électroniques.\n2. Pourquoi sont-ils dans la même colonne ? Quelle est leur famille ?\n3. Quel ion chacun forme-t-il ? Quelle règle suit le lithium ? le potassium ?",
+   "indices": [],
+   "corrige": [
+    "Li : $(K)^2(L)^1$ ; K : $(K)^2(L)^8(M)^8(N)^1$.",
+    "Tous deux ont 1 électron de valence : même colonne (colonne 1), famille des alcalins.",
+    "Ils perdent cet électron : $\\ce{Li+}$ et $\\ce{K+}$. $\\ce{Li+}$ a la structure $(K)^2$ de l'hélium (règle du duet) ; $\\ce{K+}$ a la structure $(K)^2(L)^8(M)^8$ de l'argon (règle de l'octet)."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C07-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C07-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Une entité possède 11 protons et 10 électrons. C'est :",
+   "choix": [
+    "l'atome de néon",
+    "l'ion Na⁺",
+    "l'ion Na⁻",
+    "l'atome de sodium"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Z = 11 : sodium ; il manque un électron.",
+    "Charge $(11 - 10)e = +e$ : ion $\\ce{Na+}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre période et colonne, ou les numéroter mal (colonnes 13 à 18 pour 3 à 8 électrons de valence).",
+  "Symboles mal écrits (CL, NA, mg).",
+  "Charge d'ion mal placée (Mg⁺² au lieu de Mg²⁺) ou signe inversé (Na⁻).",
+  "Dire qu'un ion positif a gagné des protons.",
+  "Oublier le cas du duet (Li⁺ a 2 électrons, structure de He).",
+  "Pour le potassium et le calcium, mettre 9 ou 10 électrons sur M."
+ ]
+}

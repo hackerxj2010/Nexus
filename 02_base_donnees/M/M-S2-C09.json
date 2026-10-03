@@ -1,0 +1,776 @@
+{
+ "id": "M-S2-C09",
+ "matiere": "M",
+ "semestre": 2,
+ "ordre": 9,
+ "titre": "Équations et inéquations dans ℝ×ℝ (systèmes)",
+ "objectifs": [
+  "Reconnaître une équation du premier degré à deux inconnues et représenter ses solutions par une droite.",
+  "Résoudre un système de deux équations à deux inconnues par substitution, par combinaison ou par la méthode des déterminants, et interpréter graphiquement le résultat.",
+  "Discuter le nombre de solutions d'un système selon son déterminant (y compris avec un paramètre).",
+  "Résoudre graphiquement une inéquation ou un système d'inéquations du premier degré à deux inconnues.",
+  "Résoudre un système de trois équations à trois inconnues par la méthode du pivot de Gauss.",
+  "Mettre en équation un problème concret et interpréter la solution."
+ ],
+ "prerequis": [
+  "M-3e-SYSTEMES",
+  "M-3e-FONCTIONS-AFFINES",
+  "M-S1-C02",
+  "M-S1-C05"
+ ],
+ "notions": [
+  {
+   "id": "M-S2-C09-N1",
+   "titre": "Équations du premier degré à deux inconnues",
+   "prerequis_notions": [
+    "M-3e-FONCTIONS-AFFINES",
+    "M-S1-C02-N3"
+   ],
+   "cours_md": "## 1. Équation linéaire à deux inconnues\n\n:::definition\nOn appelle **équation du premier degré dans $\\mathbb{R}\\times\\mathbb{R}$** (à deux inconnues $x$ et $y$) toute équation de la forme\n$$ax+by+c=0$$\noù $a$, $b$, $c$ sont des réels donnés, avec $a$ et $b$ **non tous les deux nuls**. Une **solution** est un **couple** $(x_0\\,;y_0)$ de réels tel que $ax_0+by_0+c=0$.\n:::\n\n:::propriete Interprétation graphique\nDans un repère du plan, l'ensemble des points $M(x\\,;y)$ dont les coordonnées vérifient $ax+by+c=0$ est une **droite** $(D)$, de vecteur directeur $\\vec u(-b\\,;a)$.\n- Si $b\\neq0$ : l'équation équivaut à $y=-\\dfrac ab x-\\dfrac cb$ (droite de coefficient directeur $-\\dfrac ab$).\n- Si $b=0$ : l'équation équivaut à $x=-\\dfrac ca$ (droite parallèle à l'axe des ordonnées).\n:::\n\n:::remarque\nUne telle équation a une **infinité** de solutions : les coordonnées de tous les points de la droite. On les décrit en exprimant une inconnue en fonction de l'autre. Pour $2x+3y-6=0$ : $y=\\dfrac{6-2x}{3}$, donc\n$$S=\\left\\{\\left(x\\,;\\dfrac{6-2x}{3}\\right),\\ x\\in\\mathbb{R}\\right\\}.$$\n:::\n\n:::methode Tracer la droite $ax+by+c=0$\n1. Chercher deux couples solutions simples, par exemple avec $x=0$ puis avec $y=0$.\n2. Placer les deux points et tracer la droite.\n3. Contrôler avec un troisième couple.\n:::\n\n:::attention\nUn couple est **ordonné** : $(2\\,;1)$ signifie $x=2$ et $y=1$, ce n'est pas le couple $(1\\,;2)$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nOn considère l'équation $(E) : 2x+3y-6=0$. Les couples $(3\\,;0)$ et $(1\\,;2)$ sont-ils solutions ? Tracer la droite $(D)$ associée.\n\n1. $2\\times3+3\\times0-6=0$ : $(3\\,;0)$ est solution.\n2. $2\\times1+3\\times2-6=2\\neq0$ : $(1\\,;2)$ n'est pas solution.\n3. Pour $x=0$ : $3y=6$, $y=2$, d'où $A(0\\,;2)$. Pour $y=0$ : $2x=6$, $x=3$, d'où $B(3\\,;0)$.\n4. On trace la droite $(AB)$. Contrôle : $C(6\\,;-2)$ convient car $12-6-6=0$.\n:::\n\n:::exemple Exemple 2\nDéterminer le réel $m$ pour que le couple $(2\\,;-1)$ soit solution de $mx+4y-6=0$.\n\n1. On remplace $x$ par $2$ et $y$ par $-1$ : $2m+4\\times(-1)-6=0$.\n2. $2m-10=0$, donc $m=5$.\n:::",
+   "definition": "Une équation $ax+by+c=0$ ($a$ et $b$ non tous deux nuls) a pour solutions des couples $(x\\,;y)$ : ce sont les coordonnées des points d'une droite.",
+   "formules": [
+    "$ax+by+c=0,\\ (a\\,;b)\\neq(0\\,;0)$",
+    "$\\vec u(-b\\,;a)$ dirige la droite $ax+by+c=0$",
+    "$b\\neq0 :\\ y=-\\dfrac ab x-\\dfrac cb$"
+   ],
+   "niveaux": {
+    "phrase": "Une équation du premier degré à deux inconnues a une infinité de solutions : les points d'une droite.",
+    "simple": "Si un tas de tomates coûte 200 F et un tas de piment 100 F, toutes les façons de dépenser exactement 1 000 F vérifient 200x + 100y = 1 000. Il y en a plusieurs, et tous ces couples (x ; y) sont alignés sur une même droite.",
+    "complete": "L'ensemble des solutions de $ax+by+c=0$, $(a\\,;b)\\neq(0\\,;0)$, est l'ensemble des couples de coordonnées des points d'une droite de vecteur directeur $\\vec u(-b\\,;a)$. Si $b\\neq0$, $S=\\left\\{\\left(x\\,;-\\frac ab x-\\frac cb\\right),\\ x\\in\\mathbb{R}\\right\\}$ ; si $b=0$, $S=\\left\\{\\left(-\\frac ca\\,;y\\right),\\ y\\in\\mathbb{R}\\right\\}$."
+   },
+   "analogie": "Au marché de Kara, un tas de tomates coûte 200 F et un tas de piment 100 F. Dépenser exactement 1 000 F, c'est choisir (x ; y) avec 200x + 100y = 1 000 : (5 ; 0), (4 ; 2), (3 ; 4)… Tous ces achats sont des points d'une même droite.",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre dans $\\mathbb{R}\\times\\mathbb{R}$ l'équation $3x-y+2=0$ et donner trois couples solutions.",
+     "etapes": [
+      "On isole $y$ : $y=3x+2$.",
+      "$S=\\{(x\\,;3x+2),\\ x\\in\\mathbb{R}\\}$.",
+      "$x=0$ donne $(0\\,;2)$ ; $x=1$ donne $(1\\,;5)$ ; $x=-1$ donne $(-1\\,;-1)$."
+     ]
+    },
+    {
+     "enonce": "Le point $A(-1\\,;4)$ appartient-il à la droite $(D) : x+2y-7=0$ ?",
+     "etapes": [
+      "On remplace : $-1+2\\times4-7=-1+8-7=0$.",
+      "Les coordonnées de $A$ vérifient l'équation : $A\\in(D)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire qu'une équation à deux inconnues a « une » solution : elle en a une infinité.",
+    "Inverser x et y dans un couple.",
+    "Prendre $(a\\,;b)$ comme vecteur directeur de $ax+by+c=0$ : un vecteur directeur est $(-b\\,;a)$.",
+    "Oublier le cas $b=0$ : la droite est alors parallèle à l'axe des ordonnées ($x=$ constante)."
+   ],
+   "astuces": [
+    "Pour tracer vite : x = 0 donne le point sur l'axe des ordonnées, y = 0 celui sur l'axe des abscisses.",
+    "Pour tester un couple, remplace et calcule : si tu trouves 0, il est solution.",
+    "Contrôle toujours ta droite avec un troisième point."
+   ],
+   "mnemo": "« Moins b, a » : le vecteur directeur de ax + by + c = 0 est (−b ; a).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? La représentation graphique de la fonction affine $x\\mapsto 2x+1$ est une droite. L'égalité $y=2x+1$ s'écrit aussi $2x-y+1=0$ : c'est une équation du premier degré à deux inconnues."
+   },
+   "methode_redaction": "Pour montrer qu'un couple est solution, écris le calcul complet : « 2×3 + 3×0 − 6 = 0, donc (3 ; 0) est solution ». Pour décrire toutes les solutions, isole une inconnue et écris S = {(x ; …), x ∈ ℝ}. Sur un graphique, nomme la droite et marque les points utilisés.",
+   "flash": [
+    {
+     "q": "Le couple $(1\\,;1)$ est-il solution de $2x+3y-5=0$ ?",
+     "r": "Oui : $2+3-5=0$."
+    },
+    {
+     "q": "Un vecteur directeur de la droite $3x-2y+1=0$ ?",
+     "r": "$\\vec u(2\\,;3)$, c'est-à-dire $(-b\\,;a)$."
+    },
+    {
+     "q": "Combien de solutions a $x+y=4$ dans $\\mathbb{R}\\times\\mathbb{R}$ ?",
+     "r": "Une infinité : les points d'une droite."
+    },
+    {
+     "q": "Écrire $2x-y+3=0$ sous forme réduite.",
+     "r": "$y=2x+3$"
+    },
+    {
+     "q": "Que représente l'équation $x=2$ dans le plan ?",
+     "r": "Une droite parallèle à l'axe des ordonnées."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C09-N1.svg",
+    "alt": "Repère avec la droite d'équation 2x + 3y − 6 = 0 passant par A(0 ; 2), B(3 ; 0) et C(6 ; −2), un vecteur directeur u(−3 ; 2) et le point (1 ; 2) qui n'est pas sur la droite.",
+    "legende": "Les solutions de 2x + 3y − 6 = 0 sont les coordonnées des points de la droite (D).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C09-N2",
+   "titre": "Systèmes de deux équations à deux inconnues",
+   "prerequis_notions": [
+    "M-S2-C09-N1",
+    "M-3e-SYSTEMES",
+    "M-S1-C02-N3"
+   ],
+   "cours_md": "## 1. Système et déterminant\n\n:::definition\nUn **système de deux équations du premier degré à deux inconnues** s'écrit\n$$(S) : \\begin{cases}ax+by=c\\\\ a'x+b'y=c'\\end{cases}$$\nRésoudre $(S)$, c'est trouver **tous** les couples $(x\\,;y)$ qui vérifient **les deux** équations à la fois.\n:::\n\n:::definition Déterminant du système\nLe **déterminant** de $(S)$ est le réel\n$$D=\\begin{vmatrix}a&b\\\\a'&b'\\end{vmatrix}=ab'-a'b.$$\n:::\n\n:::propriete Théorème (formules de Cramer)\n- Si $D\\neq0$, le système admet une **unique** solution $(x_0\\,;y_0)$ :\n$$x_0=\\frac{D_x}{D}=\\frac{\\begin{vmatrix}c&b\\\\c'&b'\\end{vmatrix}}{D}=\\frac{cb'-c'b}{D}\\qquad y_0=\\frac{D_y}{D}=\\frac{\\begin{vmatrix}a&c\\\\a'&c'\\end{vmatrix}}{D}=\\frac{ac'-a'c}{D}$$\n- Si $D=0$, le système a **soit aucune solution, soit une infinité** de solutions.\n:::\n\n:::propriete Interprétation graphique\nChaque équation est celle d'une droite ; $D$ est le déterminant de leurs vecteurs directeurs $(-b\\,;a)$ et $(-b'\\,;a')$.\n- $D\\neq0$ : les droites sont **sécantes** ; la solution donne les coordonnées du point d'intersection.\n- $D=0$ : les droites sont **parallèles** : strictement parallèles ($S=\\varnothing$) ou confondues (infinité de solutions).\n:::\n\n## 2. Trois méthodes de résolution\n\n:::methode Substitution\nExprimer une inconnue en fonction de l'autre dans l'équation la plus simple (coefficient $1$ ou $-1$), puis remplacer dans l'autre équation.\n:::\n\n:::methode Combinaison (ou addition)\nMultiplier les équations par des nombres bien choisis pour qu'en les additionnant une inconnue disparaisse.\n:::\n\n:::methode Déterminants (Cramer)\nÉcrire le système sous la forme $ax+by=c$. Calculer $D$ ; s'il est non nul, calculer $D_x$ (colonne des $x$ remplacée par les seconds membres) et $D_y$ (colonne des $y$ remplacée), puis $x=\\dfrac{D_x}{D}$ et $y=\\dfrac{D_y}{D}$.\n:::\n\n:::attention\nSi $D=0$, on ne divise pas par $0$ : on revient à la substitution ou à la combinaison pour savoir s'il y a aucune solution ou une infinité. Dans tous les cas, **vérifier** la solution dans les **deux** équations.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1 (méthode des déterminants)\nRésoudre $\\begin{cases}2x+3y=7\\\\ 5x-y=9\\end{cases}$.\n\n1. $D=2\\times(-1)-5\\times3=-2-15=-17\\neq0$ : le système a une unique solution.\n2. $D_x=\\begin{vmatrix}7&3\\\\9&-1\\end{vmatrix}=7\\times(-1)-9\\times3=-34$, donc $x=\\dfrac{-34}{-17}=2$.\n3. $D_y=\\begin{vmatrix}2&7\\\\5&9\\end{vmatrix}=2\\times9-5\\times7=-17$, donc $y=\\dfrac{-17}{-17}=1$.\n4. Vérification : $4+3=7$ et $10-1=9$. Donc $S=\\{(2\\,;1)\\}$.\n:::\n\n:::exemple Exemple 2 (déterminant nul)\nRésoudre $\\begin{cases}x-2y=3\\\\ -2x+4y=1\\end{cases}$.\n\n1. $D=1\\times4-(-2)\\times(-2)=4-4=0$ : pas de solution unique.\n2. On multiplie la première équation par $2$ : $2x-4y=6$, puis on l'ajoute à la seconde : $0=7$, ce qui est impossible.\n3. $S=\\varnothing$ : les deux droites sont strictement parallèles.\n:::",
+   "definition": "Un système de deux équations linéaires à deux inconnues a une unique solution si son déterminant $D=ab'-a'b$ est non nul ; sinon il n'en a aucune ou une infinité.",
+   "formules": [
+    "$D=\\begin{vmatrix}a&b\\\\a'&b'\\end{vmatrix}=ab'-a'b$",
+    "$x=\\dfrac{cb'-c'b}{D}$",
+    "$y=\\dfrac{ac'-a'c}{D}$"
+   ],
+   "niveaux": {
+    "phrase": "Résoudre un système de deux équations, c'est trouver le point commun à deux droites.",
+    "simple": "Deux routes droites se croisent en un seul carrefour (D ≠ 0), ou bien elles sont parallèles et ne se croisent jamais (aucune solution), ou bien c'est la même route (une infinité de solutions).",
+    "complete": "Le système $\\begin{cases}ax+by=c\\\\a'x+b'y=c'\\end{cases}$ a pour déterminant $D=ab'-a'b$. Si $D\\neq0$, il admet l'unique solution $\\left(\\frac{cb'-c'b}{D}\\,;\\frac{ac'-a'c}{D}\\right)$ (formules de Cramer) et les deux droites sont sécantes. Si $D=0$, les droites sont parallèles : $S=\\varnothing$ (strictement parallèles) ou $S$ est infini (confondues)."
+   },
+   "analogie": "Sur la carte de Lomé, deux grandes avenues rectilignes qui ne sont pas parallèles se coupent en un seul carrefour : c'est la solution unique du système.",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre par substitution $\\begin{cases}x+2y=4\\\\ 3x-y=5\\end{cases}$.",
+     "etapes": [
+      "Dans la première équation : $x=4-2y$.",
+      "On remplace dans la seconde : $3(4-2y)-y=5$, soit $12-7y=5$, donc $y=1$.",
+      "Alors $x=4-2\\times1=2$.",
+      "Vérification : $2+2=4$ et $6-1=5$. $S=\\{(2\\,;1)\\}$."
+     ]
+    },
+    {
+     "enonce": "Résoudre par combinaison $\\begin{cases}3x+2y=12\\\\ 2x-3y=-5\\end{cases}$.",
+     "etapes": [
+      "On multiplie la 1re équation par $3$ et la 2e par $2$ : $9x+6y=36$ et $4x-6y=-10$.",
+      "On additionne : $13x=26$, donc $x=2$.",
+      "Dans la 1re : $6+2y=12$, donc $y=3$.",
+      "Vérification : $4-9=-5$. $S=\\{(2\\,;3)\\}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Se tromper d'ordre dans le déterminant : c'est $ab'-a'b$ (diagonale descendante moins diagonale montante).",
+    "Pour $D_x$, remplacer la mauvaise colonne : on remplace la colonne des coefficients de $x$ par les seconds membres.",
+    "Conclure « aucune solution » dès que $D=0$ : il peut y en avoir une infinité.",
+    "Oublier de vérifier la solution dans les deux équations.",
+    "Ne pas mettre le système sous la forme ax + by = c avant d'appliquer les formules."
+   ],
+   "astuces": [
+    "Avant Cramer, range bien chaque équation : les termes en x, puis en y, puis la constante à droite.",
+    "Choisis la substitution quand un coefficient vaut 1 ou −1 ; sinon la combinaison ou les déterminants.",
+    "La vérification prend 20 secondes et sauve des points."
+   ],
+   "mnemo": "« Pour Dx, la colonne des x s'en va : on la remplace par les seconds membres. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu résolvais déjà $\\begin{cases}x+y=10\\\\x-y=2\\end{cases}$ par substitution ou par combinaison. En Seconde S, on ajoute le **déterminant**, qui annonce à l'avance s'il y a une solution unique."
+   },
+   "methode_redaction": "Écris le système sous la forme ax + by = c, calcule D en posant le calcul (« D = 2×(−1) − 5×3 = −17 ≠ 0 »), puis écris la phrase « le système admet une unique solution ». Calcule Dx, Dy, x et y. Termine par la vérification et S = {(2 ; 1)} avec les accolades et l'ordre (x ; y).",
+   "flash": [
+    {
+     "q": "Déterminant de $\\begin{cases}x+2y=1\\\\3x+4y=2\\end{cases}$ ?",
+     "r": "$D=1\\times4-3\\times2=-2$"
+    },
+    {
+     "q": "Si $D\\neq0$, combien de solutions ?",
+     "r": "Exactement une."
+    },
+    {
+     "q": "Si $D=0$, combien de solutions ?",
+     "r": "Aucune ou une infinité (droites parallèles)."
+    },
+    {
+     "q": "Formule de $x$ (Cramer) ?",
+     "r": "$x=\\dfrac{cb'-c'b}{ab'-a'b}$"
+    },
+    {
+     "q": "Interprétation graphique de la solution unique ?",
+     "r": "Les coordonnées du point d'intersection des deux droites."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C09-N2.svg",
+    "alt": "Trois cadres : deux droites sécantes en un point rouge (D ≠ 0, une solution), deux droites parallèles (D = 0, aucune solution), deux droites confondues (D = 0, une infinité de solutions).",
+    "legende": "Selon le déterminant, les deux droites sont sécantes, strictement parallèles ou confondues.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C09-N3",
+   "titre": "Inéquations et systèmes d'inéquations dans ℝ×ℝ",
+   "prerequis_notions": [
+    "M-S2-C09-N1",
+    "M-S1-C05-N2"
+   ],
+   "cours_md": "## 1. Demi-plans\n\n:::propriete Une droite partage le plan en deux demi-plans\nSoit $(D) : ax+by+c=0$. L'ensemble des points $M(x\\,;y)$ tels que $ax+by+c>0$ est un **demi-plan ouvert** de frontière $(D)$ ; l'ensemble des points tels que $ax+by+c<0$ est l'autre demi-plan ouvert.\nPour une inégalité **large** ($\\ge$ ou $\\le$), on ajoute la droite : on parle de demi-plan **fermé**.\n:::\n\n:::methode Résoudre graphiquement $ax+by+c\\le0$ (ou $\\ge$, $<$, $>$)\n1. Tracer $(D) : ax+by+c=0$, en **trait plein** si l'inégalité est large, en **pointillés** si elle est stricte (frontière exclue).\n2. Choisir un **point test** qui n'est pas sur $(D)$ (souvent $O(0\\,;0)$) et calculer $ax+by+c$ en ce point.\n3. Si l'inégalité est vraie au point test, le demi-plan qui le contient est solution ; sinon, c'est l'autre.\n4. **Hachurer la partie rejetée** : la solution est la partie **non hachurée**. Le préciser en légende.\n:::\n\n:::methode Système d'inéquations\nRésoudre chaque inéquation sur le **même** graphique en hachurant à chaque fois la partie rejetée. L'ensemble des solutions est la région restée **blanche** : c'est l'intersection des demi-plans solutions. Ses sommets s'obtiennent en résolvant des systèmes de deux équations.\n:::\n\n:::remarque Cas particuliers\n- $x\\ge2$ : demi-plan fermé à droite de la droite verticale $x=2$.\n- $y<-1$ : demi-plan ouvert en dessous de la droite horizontale $y=-1$.\n- Si $b>0$ : $ax+by+c>0\\iff y>-\\frac ab x-\\frac cb$ : c'est le demi-plan **au-dessus** de $(D)$.\n:::\n\n:::attention\nLe point test ne doit **jamais** être sur la droite. Si $(D)$ passe par $O$, prendre par exemple $(1\\,;0)$ ou $(0\\,;1)$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nRésoudre graphiquement $2x+y-4\\le0$.\n\n1. On trace $(D) : 2x+y-4=0$ en trait plein ; elle passe par $(0\\,;4)$ et $(2\\,;0)$.\n2. Point test $O(0\\,;0)$ : $2\\times0+0-4=-4\\le0$ : vrai.\n3. La solution est le demi-plan fermé de frontière $(D)$ qui contient $O$ ; on hachure l'autre.\n:::\n\n:::exemple Exemple 2\nRésoudre graphiquement $\\begin{cases}x\\ge0\\\\ y\\ge0\\\\ x+y\\le5\\\\ x-y\\le1\\end{cases}$.\n\n1. $x\\ge0$ : on hachure à gauche de l'axe des ordonnées ; $y\\ge0$ : on hachure sous l'axe des abscisses.\n2. $(D_1) : x+y=5$ passe par $(0\\,;5)$ et $(5\\,;0)$. Test en $O$ : $0\\le5$ vrai, on hachure le côté opposé à $O$.\n3. $(D_2) : x-y=1$ passe par $(1\\,;0)$ et $(0\\,;-1)$. Test en $O$ : $0\\le1$ vrai, on hachure le côté opposé à $O$.\n4. Le sommet commun à $(D_1)$ et $(D_2)$ vérifie $x+y=5$ et $x-y=1$, soit $(3\\,;2)$.\n5. La solution est le quadrilatère non hachuré de sommets $(0\\,;0)$, $(1\\,;0)$, $(3\\,;2)$, $(0\\,;5)$, bords compris.\n:::",
+   "definition": "Une droite $ax+by+c=0$ partage le plan en deux demi-plans où $ax+by+c$ garde un signe constant ; un point test indique lequel est solution.",
+   "formules": [
+    "$ax+by+c>0$ : demi-plan ouvert de frontière $(D)$",
+    "$b>0 :\\ ax+by+c>0\\iff M$ au-dessus de $(D)$",
+    "Point test : $O(0\\,;0)$ si $(D)$ ne passe pas par $O$"
+   ],
+   "niveaux": {
+    "phrase": "Une droite coupe le plan en deux moitiés : d'un côté l'expression est positive, de l'autre négative.",
+    "simple": "La droite est comme une clôture au milieu d'un champ : on se place d'un côté (le point test), on regarde si la condition est vraie, et on sait quelle moitié du champ est la bonne.",
+    "complete": "Pour $(a\\,;b)\\neq(0\\,;0)$, l'ensemble des $M(x\\,;y)$ tels que $ax+by+c>0$ est un demi-plan ouvert de frontière $(D) : ax+by+c=0$ ; l'autre demi-plan correspond à $ax+by+c<0$. Un système d'inéquations a pour ensemble de solutions l'intersection des demi-plans : une région du plan, dont les sommets sont des intersections de droites frontières."
+   },
+   "analogie": "Un champ de maïs est coupé par une clôture rectiligne : d'un côté le champ de Koffi, de l'autre celui d'Ama. Pour savoir de quel côté se trouve un piquet, il suffit de regarder un repère connu : c'est le point test.",
+   "exemples_resolus": [
+    {
+     "enonce": "Le point $A(1\\,;-3)$ est-il solution de l'inéquation $3x-2y+1>0$ ? Et le point $B(-2\\,;1)$ ?",
+     "etapes": [
+      "En $A$ : $3\\times1-2\\times(-3)+1=3+6+1=10>0$ : $A$ est solution.",
+      "En $B$ : $3\\times(-2)-2\\times1+1=-7<0$ : $B$ n'est pas solution."
+     ]
+    },
+    {
+     "enonce": "Résoudre graphiquement $y>x+1$.",
+     "etapes": [
+      "On trace la droite $y=x+1$ en **pointillés** (inégalité stricte).",
+      "Point test $O(0\\,;0)$ : $0>0+1$ est faux.",
+      "La solution est le demi-plan ouvert qui ne contient pas $O$, c'est-à-dire au-dessus de la droite ; on hachure le demi-plan contenant $O$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Prendre un point test situé sur la droite.",
+    "Hachurer la partie solution alors que la convention est de hachurer la partie rejetée (toujours écrire une légende).",
+    "Tracer en trait plein une frontière exclue (inégalité stricte).",
+    "Croire que « $>$ » veut toujours dire « au-dessus » : c'est vrai seulement si le coefficient de $y$ est positif."
+   ],
+   "astuces": [
+    "Si la droite ne passe pas par O, prends O comme point test : le calcul est immédiat.",
+    "Pour un système, vérifie à la fin avec un point de la région blanche : il doit vérifier toutes les inéquations.",
+    "Les sommets de la région se calculent avec des systèmes de deux équations."
+   ],
+   "mnemo": "« Je teste, je hachure ce qui est faux : le blanc, c'est la solution. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Pour $2x-3<5$, tu représentais les solutions sur une droite graduée en hachurant la partie rejetée. Ici c'est la même idée dans le plan : la frontière est une droite au lieu d'un point."
+   },
+   "methode_redaction": "Écris : « Traçons (D) : 2x + y − 4 = 0, en trait plein car l'inégalité est large. Point test O(0 ; 0) : 2×0 + 0 − 4 = −4 ≤ 0, vrai. La solution est le demi-plan fermé de frontière (D) contenant O. » Ajoute la légende « partie hachurée = partie rejetée ».",
+   "flash": [
+    {
+     "q": "Quel point test choisir si la droite ne passe pas par O ?",
+     "r": "Le point O(0 ; 0)."
+    },
+    {
+     "q": "Frontière de $x+y<3$ : trait plein ou pointillés ?",
+     "r": "Pointillés : l'inégalité est stricte, la droite est exclue."
+    },
+    {
+     "q": "$O$ vérifie-t-il $x-2y+3>0$ ?",
+     "r": "Oui : $0-0+3=3>0$."
+    },
+    {
+     "q": "Solution d'un système d'inéquations ?",
+     "r": "L'intersection des demi-plans solutions (la zone non hachurée)."
+    },
+    {
+     "q": "Quelle région représente $y\\ge1$ ?",
+     "r": "Le demi-plan fermé au-dessus de la droite horizontale $y=1$."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C09-N3.svg",
+    "alt": "Repère : les parties rejetées sont hachurées en gris ; la région solution du système x ≥ 0, y ≥ 0, x + y ≤ 5, x − y ≤ 1 est un quadrilatère vert de sommets (0 ; 0), (1 ; 0), (3 ; 2), (0 ; 5).",
+    "legende": "On hachure ce qui est rejeté : la région blanche (ici en vert) est l'ensemble des solutions.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C09-N4",
+   "titre": "Systèmes de trois équations et mise en équation de problèmes",
+   "prerequis_notions": [
+    "M-S2-C09-N2"
+   ],
+   "cours_md": "## 1. Systèmes de trois équations à trois inconnues\n\n:::definition\nUn système de trois équations du premier degré à trois inconnues s'écrit\n$$\\begin{cases}ax+by+cz=d\\\\ a'x+b'y+c'z=d'\\\\ a''x+b''y+c''z=d''\\end{cases}$$\nUne solution est un **triplet** $(x\\,;y\\,;z)$ qui vérifie les trois équations.\n:::\n\n:::propriete Opérations autorisées\nOn obtient un système **équivalent** (mêmes solutions) en remplaçant une ligne $L_i$ par $\\alpha L_i+\\beta L_j$ avec $\\alpha\\neq0$ (on garde l'autre ligne $L_j$). On note par exemple $L_2\\leftarrow L_2-2L_1$.\n:::\n\n:::methode Méthode du pivot de Gauss\n1. Placer en première ligne une équation où le coefficient de $x$ est simple ($1$ ou $-1$) : c'est le **pivot**.\n2. Éliminer $x$ des lignes 2 et 3 par combinaison avec $L_1$.\n3. Éliminer $y$ de la ligne 3 par combinaison avec la nouvelle $L_2$ : le système est **triangulaire**.\n4. **Remonter** : calculer $z$, puis $y$, puis $x$. Vérifier dans les trois équations de départ.\n:::\n\n## 2. Mise en équation d'un problème\n\n:::methode Les cinq étapes\n1. **Choisir les inconnues** et écrire ce qu'elles représentent (avec l'unité).\n2. **Traduire** chaque information de l'énoncé par une équation.\n3. **Résoudre** le système.\n4. **Vérifier** que la solution a un sens (nombre d'objets entier et positif, etc.).\n5. **Conclure** par une phrase qui répond à la question.\n:::\n\n:::remarque Changement d'inconnues\nCertains systèmes deviennent linéaires avec de nouvelles inconnues : avec des termes $\\dfrac1x$ et $\\dfrac1y$, on pose $X=\\dfrac1x$ et $Y=\\dfrac1y$ (avec $x\\neq0$ et $y\\neq0$), on résout en $X$ et $Y$, puis on revient à $x$ et $y$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1 (pivot de Gauss)\nRésoudre $\\begin{cases}x+y+z=6\\\\ 2x-y+z=3\\\\ x+2y-z=2\\end{cases}$.\n\n1. $L_2\\leftarrow L_2-2L_1$ : $-3y-z=-9$. $L_3\\leftarrow L_3-L_1$ : $y-2z=-4$.\n2. $L_3\\leftarrow 3L_3+L_2$ : $3y-6z-3y-z=-12-9$, soit $-7z=-21$.\n3. Système triangulaire : $\\begin{cases}x+y+z=6\\\\ -3y-z=-9\\\\ -7z=-21\\end{cases}$.\n4. Remontée : $z=3$ ; $-3y-3=-9$ donc $y=2$ ; $x=6-2-3=1$.\n5. Vérification : $2-2+3=3$ et $1+4-3=2$. $S=\\{(1\\,;2\\,;3)\\}$.\n:::\n\n:::exemple Exemple 2 (changement d'inconnues)\nRésoudre $\\begin{cases}\\dfrac2x+\\dfrac3y=2\\\\[2mm] \\dfrac1x-\\dfrac1y=-\\dfrac14\\end{cases}$ avec $x\\neq0$, $y\\neq0$.\n\n1. On pose $X=\\dfrac1x$ et $Y=\\dfrac1y$ : $\\begin{cases}2X+3Y=2\\\\ X-Y=-\\frac14\\end{cases}$.\n2. De la seconde : $X=Y-\\dfrac14$. Dans la première : $2Y-\\dfrac12+3Y=2$, donc $5Y=\\dfrac52$, $Y=\\dfrac12$ et $X=\\dfrac14$.\n3. Retour : $x=\\dfrac1X=4$ et $y=\\dfrac1Y=2$.\n4. Vérification : $\\dfrac24+\\dfrac32=2$ et $\\dfrac14-\\dfrac12=-\\dfrac14$. $S=\\{(4\\,;2)\\}$.\n:::",
+   "definition": "Un système de trois équations linéaires à trois inconnues se résout en éliminant les inconnues une à une (pivot de Gauss) jusqu'à un système triangulaire ; un problème se résout en choisissant des inconnues et en traduisant l'énoncé en système.",
+   "formules": [
+    "$L_2\\leftarrow L_2-2L_1$ : on élimine $x$ de la ligne 2",
+    "Système triangulaire : $z$, puis $y$, puis $x$",
+    "$X=\\dfrac1x,\\ Y=\\dfrac1y$ (changement d'inconnues)"
+   ],
+   "niveaux": {
+    "phrase": "On élimine une inconnue à la fois, jusqu'à n'en avoir plus qu'une, puis on remonte.",
+    "simple": "C'est comme défaire des nœuds : on défait d'abord celui de x, puis celui de y ; le dernier (z) se défait tout seul, et on remonte pour retrouver les autres.",
+    "complete": "Les opérations $L_i\\leftarrow\\alpha L_i+\\beta L_j$ ($\\alpha\\neq0$) transforment un système en un système équivalent. La méthode du pivot de Gauss le rend triangulaire ; la remontée donne la solution. La mise en équation d'un problème exige de définir les inconnues, de traduire chaque information, puis d'interpréter et de vérifier la solution."
+   },
+   "analogie": "Au marché de Tsévié, si l'on connaît le prix de deux paniers différents contenant du riz et de l'huile, on retrouve le prix de chaque produit : chaque panier donne une équation.",
+   "exemples_resolus": [
+    {
+     "enonce": "Au marché de Tsévié, Ama achète 3 kg de riz et 2 L d'huile pour 3 400 F ; Kossi achète 2 kg de riz et 3 L d'huile pour 4 100 F. Quel est le prix d'un kilogramme de riz et celui d'un litre d'huile ?",
+     "etapes": [
+      "Soit $r$ le prix d'un kg de riz et $h$ celui d'un litre d'huile (en F) : $\\begin{cases}3r+2h=3400\\\\ 2r+3h=4100\\end{cases}$.",
+      "$D=3\\times3-2\\times2=5$ ; $D_r=3400\\times3-4100\\times2=2000$ ; $D_h=3\\times4100-2\\times3400=5500$.",
+      "$r=\\dfrac{2000}{5}=400$ et $h=\\dfrac{5500}{5}=1100$.",
+      "Vérification : $1200+2200=3400$ et $800+3300=4100$.",
+      "Le riz coûte 400 F le kilogramme et l'huile 1 100 F le litre."
+     ]
+    },
+    {
+     "enonce": "Résoudre $\\begin{cases}x+y-z=0\\\\ x-y+2z=7\\\\ 2x+y+z=8\\end{cases}$.",
+     "etapes": [
+      "$L_2\\leftarrow L_2-L_1$ : $-2y+3z=7$. $L_3\\leftarrow L_3-2L_1$ : $-y+3z=8$.",
+      "$L_3\\leftarrow 2L_3-L_2$ : $3z=9$, donc $z=3$.",
+      "Dans $-y+3z=8$ : $y=1$. Dans $L_1$ : $x=z-y=2$.",
+      "Vérification : $2-1+6=7$ et $4+1+3=8$. $S=\\{(2\\,;1\\,;3)\\}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Ne transformer qu'un seul membre d'une équation pendant une combinaison.",
+    "Remplacer une ligne par une combinaison qui ne la contient plus (on perd une équation).",
+    "Oublier de préciser ce que représentent les inconnues dans un problème.",
+    "Garder une solution absurde (nombre de personnes négatif ou décimal) sans réagir."
+   ],
+   "astuces": [
+    "Prends comme pivot l'équation où le coefficient de x vaut 1 : tu évites les fractions.",
+    "Écris à côté de chaque ligne l'opération faite (L₂ ← L₂ − 2L₁) : le correcteur suit ton raisonnement.",
+    "Dans un problème, relis l'énoncé avec ta solution : chaque phrase doit devenir vraie."
+   ],
+   "mnemo": "« Choisir, Traduire, Résoudre, Vérifier, Conclure. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Les problèmes du type « dans une basse-cour, on compte des poules et des lapins, des têtes et des pattes » se résolvaient avec un système de deux équations. Avec trois inconnues, on applique la même idée deux fois."
+   },
+   "methode_redaction": "Commence par « Soit r le prix d'un kilogramme de riz (en F) et h … ». Écris le système, puis chaque opération sur les lignes. Termine par la vérification et une phrase complète avec les unités.",
+   "flash": [
+    {
+     "q": "Que signifie $L_2\\leftarrow L_2-3L_1$ ?",
+     "r": "On remplace la ligne 2 par (ligne 2) − 3 × (ligne 1)."
+    },
+    {
+     "q": "Système triangulaire : dans quel ordre calcule-t-on les inconnues ?",
+     "r": "D'abord $z$ (dernière ligne), puis $y$, puis $x$."
+    },
+    {
+     "q": "Changement d'inconnues pour $\\frac1x+\\frac2y=3$ ?",
+     "r": "$X=\\frac1x$ et $Y=\\frac1y$, avec $x\\neq0$ et $y\\neq0$."
+    },
+    {
+     "q": "Première étape d'un problème ?",
+     "r": "Choisir les inconnues et dire ce qu'elles représentent."
+    },
+    {
+     "q": "La solution d'un système à trois inconnues est-elle un couple ?",
+     "r": "Non, c'est un triplet $(x\\,;y\\,;z)$."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C09-N4.svg",
+    "alt": "Trois cadres reliés par des flèches : le système de départ, puis le système après L₂ ← L₂ − 2L₁ et L₃ ← L₃ − L₁, puis le système triangulaire après L₃ ← 3L₃ + L₂, et la remontée z = 3, y = 2, x = 1.",
+    "legende": "Pivot de Gauss : on élimine x, puis y, et on remonte.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S2-C09-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C09-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel de ces couples est solution de l'équation $3x-2y=4$ ?",
+   "choix": [
+    "$(2\\,;1)$",
+    "$(1\\,;2)$",
+    "$(0\\,;2)$",
+    "$(2\\,;-1)$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Remplace x par le premier nombre du couple et y par le second."
+   ],
+   "corrige": [
+    "$3\\times2-2\\times1=6-2=4$ : $(2\\,;1)$ est solution.",
+    "Les autres donnent $-1$, $-4$ et $8$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Inverser x et y : (1 ; 2) donne −1 et non 4.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C09-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C09-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer le déterminant $D$ du système $\\begin{cases}3x+2y=5\\\\ x-4y=4\\end{cases}$.",
+   "reponses_acceptees": [
+    "-14",
+    "D=-14",
+    "−14"
+   ],
+   "indices": [
+    "D = ab' − a'b : diagonale descendante moins diagonale montante."
+   ],
+   "corrige": [
+    "$D=ab'-a'b=3\\times(-4)-1\\times2$.",
+    "$D=-12-2=-14$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 1×2 − 3×(−4) = 14 : c'est l'opposé.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C09-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C09-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Déterminer le réel $m$ pour que le couple $(1\\,;3)$ soit solution de l'équation $2x+my=11$.",
+   "reponses_acceptees": [
+    "3",
+    "m=3"
+   ],
+   "indices": [
+    "Remplace x par 1 et y par 3."
+   ],
+   "corrige": [
+    "On remplace : $2\\times1+m\\times3=11$.",
+    "$3m=9$, donc $m=3$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Remplacer x par 3 et y par 1.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C09-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C09-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre dans $\\mathbb{R}\\times\\mathbb{R}$ le système $\\begin{cases}x+y=7\\\\ x-y=1\\end{cases}$. Donner la solution sous la forme $(x\\,;y)$.",
+   "reponses_acceptees": [
+    "(4;3)",
+    "{(4;3)}",
+    "S={(4;3)}",
+    "(4,3)"
+   ],
+   "indices": [
+    "Additionne les deux équations : y disparaît."
+   ],
+   "corrige": [
+    "On additionne les deux équations : $2x=8$, donc $x=4$.",
+    "Alors $y=7-4=3$. Vérification : $4-3=1$. $S=\\{(4\\,;3)\\}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire (3 ; 4) : l'ordre du couple est (x ; y).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C09-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C09-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Le système $\\begin{cases}2x-6y=4\\\\ -x+3y=-2\\end{cases}$ admet :",
+   "choix": [
+    "une unique solution",
+    "aucune solution",
+    "une infinité de solutions",
+    "exactement deux solutions"
+   ],
+   "bonne_reponse": 2,
+   "indices": [
+    "Calcule D, puis compare les deux équations."
+   ],
+   "corrige": [
+    "$D=2\\times3-(-1)\\times(-6)=6-6=0$ : pas de solution unique.",
+    "La première équation est la seconde multipliée par $-2$ : les deux droites sont confondues.",
+    "Il y a donc une infinité de solutions."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Conclure « aucune solution » dès que D = 0.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C09-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C09-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Quel point appartient au demi-plan solution de l'inéquation $x+2y-4>0$ ?",
+   "choix": [
+    "$O(0\\,;0)$",
+    "$A(1\\,;1)$",
+    "$B(2\\,;2)$",
+    "$C(4\\,;0)$"
+   ],
+   "bonne_reponse": 2,
+   "indices": [
+    "Calcule x + 2y − 4 pour chaque point."
+   ],
+   "corrige": [
+    "$O$ : $-4$ ; $A(1\\,;1)$ : $-1$ ; $C(4\\,;0)$ : $0$ ; aucun n'est strictement positif.",
+    "$B(2\\,;2)$ : $2+4-4=2>0$ : $B$ est solution."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "C(4 ; 0) est sur la frontière : il ne vérifie pas l'inégalité stricte.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C09-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C09-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre par la méthode des déterminants $\\begin{cases}2x+3y=1\\\\ 3x+5y=2\\end{cases}$. Donner la solution $(x\\,;y)$.",
+   "reponses_acceptees": [
+    "(-1;1)",
+    "{(-1;1)}",
+    "S={(-1;1)}",
+    "(−1;1)",
+    "(-1,1)"
+   ],
+   "indices": [
+    "Dx : remplace la colonne (2 ; 3) par (1 ; 2)."
+   ],
+   "corrige": [
+    "$D=2\\times5-3\\times3=1\\neq0$.",
+    "$D_x=1\\times5-2\\times3=-1$ et $D_y=2\\times2-3\\times1=1$.",
+    "$x=-1$, $y=1$. Vérification : $-2+3=1$ et $-3+5=2$. $S=\\{(-1\\,;1)\\}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Se tromper de colonne dans Dx ou Dy.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C09-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C09-N4",
+    "M-S2-C09-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Au stade de Kégué, pour un match, un billet « tribune » coûte 2 000 F et un billet « pelouse » 500 F. On a vendu 1 200 billets pour une recette de 1 050 000 F. Combien de billets de chaque sorte a-t-on vendus ?",
+   "indices": [
+    "Une équation pour le nombre de billets, une pour l'argent.",
+    "Simplifie la deuxième équation par 500."
+   ],
+   "corrige": [
+    "Soit $t$ le nombre de billets tribune et $p$ le nombre de billets pelouse.",
+    "$\\begin{cases}t+p=1200\\\\ 2000t+500p=1\\,050\\,000\\end{cases}$ ; la seconde équation divisée par $500$ donne $4t+p=2100$.",
+    "En soustrayant la première : $3t=900$, donc $t=300$ et $p=900$.",
+    "Vérification : $300+900=1200$ et $600\\,000+450\\,000=1\\,050\\,000$. On a vendu 300 billets tribune et 900 billets pelouse."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Oublier de définir les inconnues ou de conclure par une phrase.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C09-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C09-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "On considère le système $(S) : \\begin{cases}x\\ge0\\\\ y\\ge0\\\\ 2x+y\\le8\\\\ x+2y\\le10\\end{cases}$.\n\n1. Résoudre graphiquement $(S)$ dans un repère orthonormé (hachurer les parties rejetées).\n2. Calculer les coordonnées des sommets de la région solution.\n3. Les points $E(1\\,;3)$ et $F(3\\,;3)$ sont-ils solutions ?",
+   "indices": [
+    "Point test O pour les deux droites obliques.",
+    "Le 4e sommet est l'intersection des deux droites obliques."
+   ],
+   "corrige": [
+    "1. On trace $(D_1) : 2x+y=8$ (par $(0\\,;8)$ et $(4\\,;0)$) et $(D_2) : x+2y=10$ (par $(0\\,;5)$ et $(10\\,;0)$), en trait plein. Avec le point test $O$ ($0\\le8$ et $0\\le10$ vrais), on hachure les côtés opposés à $O$, ainsi que $x<0$ et $y<0$.",
+    "2. Sommets : $O(0\\,;0)$, $(4\\,;0)$, $(0\\,;5)$ et l'intersection de $(D_1)$ et $(D_2)$ : $D=4-1=3$, $x=\\dfrac{8\\times2-10\\times1}{3}=2$, $y=\\dfrac{2\\times10-1\\times8}{3}=4$, soit $(2\\,;4)$.",
+    "3. $E$ : $2+3=5\\le8$ et $1+6=7\\le10$, avec $x\\ge0$, $y\\ge0$ : $E$ est solution.",
+    "$F$ : $6+3=9>8$ : $F$ n'est pas solution."
+   ],
+   "bareme": [
+    2,
+    1.5,
+    1,
+    0.5
+   ],
+   "piege": "Oublier les contraintes x ≥ 0 et y ≥ 0, ou oublier la légende des hachures.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C09-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C09-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Résoudre par la méthode du pivot de Gauss : $\\begin{cases}x+2y-z=2\\\\ 2x-y+z=3\\\\ 3x+y+2z=11\\end{cases}$.",
+   "indices": [
+    "Le coefficient de x dans L₁ vaut 1 : c'est le pivot.",
+    "Après élimination de x, les deux lignes contiennent −5y."
+   ],
+   "corrige": [
+    "$L_2\\leftarrow L_2-2L_1$ : $-5y+3z=-1$.",
+    "$L_3\\leftarrow L_3-3L_1$ : $-5y+5z=5$.",
+    "$L_3\\leftarrow L_3-L_2$ : $2z=6$, donc $z=3$.",
+    "Remontée : $-5y+9=-1$, donc $y=2$ ; puis $x=2-2y+z=2-4+3=1$.",
+    "Vérification : $2-2+3=3$ et $3+2+6=11$. $S=\\{(1\\,;2\\,;3)\\}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "Se tromper de signe en calculant 3 − 3×(−1) dans L₃ − 3L₁ (on obtient +5z).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C09-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C09-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $m$ un réel. On considère le système $(S_m) : \\begin{cases}mx+y=1\\\\ x+my=1\\end{cases}$.\n\n1. Calculer le déterminant de $(S_m)$ en fonction de $m$.\n2. Pour quelles valeurs de $m$ le système a-t-il une unique solution ? La calculer.\n3. Résoudre $(S_m)$ pour $m=1$, puis pour $m=-1$.",
+   "indices": [
+    "Factorise D avec une identité remarquable.",
+    "Pour m = ±1, remplace m dans le système et regarde les deux droites."
+   ],
+   "corrige": [
+    "1. $D=m\\times m-1\\times1=m^2-1=(m-1)(m+1)$.",
+    "2. Unique solution si et seulement si $D\\neq0$, c'est-à-dire $m\\neq1$ et $m\\neq-1$.",
+    "$D_x=1\\times m-1\\times1=m-1$ et $D_y=m\\times1-1\\times1=m-1$, donc $x=y=\\dfrac{m-1}{(m-1)(m+1)}=\\dfrac{1}{m+1}$.",
+    "3. $m=1$ : les deux équations sont $x+y=1$ : une infinité de solutions, $S=\\{(x\\,;1-x),\\ x\\in\\mathbb{R}\\}$.",
+    "$m=-1$ : $-x+y=1$ et $x-y=1$ ; en additionnant, $0=2$ : impossible, $S=\\varnothing$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "Simplifier par m − 1 sans avoir supposé m ≠ 1.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C09-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C09-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "On veut résoudre le système $(S) : \\begin{cases}\\dfrac{2}{x-1}+\\dfrac{3}{y+1}=2\\\\[2mm] \\dfrac{4}{x-1}-\\dfrac{3}{y+1}=1\\end{cases}$.\n\n1. Préciser les conditions sur $x$ et $y$.\n2. Résoudre $(S)$ en posant $X=\\dfrac{1}{x-1}$ et $Y=\\dfrac{1}{y+1}$.",
+   "indices": [
+    "Le système en X et Y est linéaire : additionne les deux équations."
+   ],
+   "corrige": [
+    "1. Il faut $x\\neq1$ et $y\\neq-1$.",
+    "2. Le système devient $\\begin{cases}2X+3Y=2\\\\ 4X-3Y=1\\end{cases}$. En additionnant : $6X=3$, donc $X=\\dfrac12$.",
+    "Puis $3Y=2-2X=1$, donc $Y=\\dfrac13$.",
+    "$\\dfrac{1}{x-1}=\\dfrac12$ donne $x-1=2$, $x=3$ ; $\\dfrac1{y+1}=\\dfrac13$ donne $y+1=3$, $y=2$.",
+    "Ces valeurs respectent les conditions. Vérification : $\\dfrac22+\\dfrac33=2$ et $\\dfrac42-\\dfrac33=1$. $S=\\{(3\\,;2)\\}$."
+   ],
+   "bareme": [
+    0.5,
+    1.5,
+    1,
+    1.5,
+    0.5
+   ],
+   "piege": "Oublier de revenir à x et y (répondre X = 1/2) ou oublier les conditions d'existence.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C09-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C09-N3",
+    "M-S2-C09-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Une couturière de Kpalimé fabrique des chemises et des robes. Une chemise demande 1 h de coupe et 2 h de couture ; une robe demande 2 h de coupe et 2 h de couture. Chaque semaine, elle dispose d'au plus 12 h de coupe et 16 h de couture. Elle gagne 3 000 F par chemise et 4 000 F par robe. On note $x$ le nombre de chemises et $y$ le nombre de robes.\n\n1. Montrer que les contraintes s'écrivent $x\\ge0$, $y\\ge0$, $x+2y\\le12$, $x+y\\le8$.\n2. Représenter la région des couples possibles et donner ses sommets.\n3. On admet que le bénéfice $B=3000x+4000y$ est maximal en un sommet de cette région. Quelle production conseiller ? Quel est le bénéfice maximal ?",
+   "indices": [
+    "Une inégalité par atelier (coupe, couture).",
+    "Le sommet intérieur est l'intersection des deux droites obliques."
+   ],
+   "corrige": [
+    "1. Coupe : $1\\times x+2\\times y\\le12$. Couture : $2x+2y\\le16$, soit $x+y\\le8$. Et $x\\ge0$, $y\\ge0$ (nombres de vêtements).",
+    "2. On trace $x+2y=12$ (par $(0\\,;6)$ et $(12\\,;0)$) et $x+y=8$ (par $(0\\,;8)$ et $(8\\,;0)$) ; $O$ vérifie les deux inégalités, on hachure les côtés opposés à $O$.",
+    "Sommets : $O(0\\,;0)$, $(8\\,;0)$, $(0\\,;6)$, et l'intersection : $x+2y=12$ et $x+y=8$ donnent $y=4$, $x=4$, soit $(4\\,;4)$.",
+    "3. $B(0\\,;0)=0$ ; $B(8\\,;0)=24\\,000$ ; $B(0\\,;6)=24\\,000$ ; $B(4\\,;4)=12\\,000+16\\,000=28\\,000$.",
+    "Il faut conseiller 4 chemises et 4 robes par semaine, pour un bénéfice maximal de 28 000 F."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1,
+    0.5
+   ],
+   "piege": "Calculer le bénéfice en un point qui ne respecte pas toutes les contraintes, ou oublier x ≥ 0 et y ≥ 0.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Calculer le déterminant dans le mauvais ordre ($a'b-ab'$) : $x$ et $y$ changent de signe.",
+  "Oublier de mettre le système sous la forme ax + by = c avant d'appliquer les formules de Cramer.",
+  "Conclure « aucune solution » dès que $D=0$ sans tester si les droites sont confondues.",
+  "Donner x = 2 et y = 1 sans écrire S = {(2 ; 1)}, ou inverser l'ordre du couple.",
+  "Régionnement : point test pris sur la droite, frontière en trait plein alors que l'inégalité est stricte, pas de légende pour les hachures.",
+  "Problème : inconnues non définies, pas de vérification, pas de phrase de conclusion avec l'unité.",
+  "Discussion avec paramètre : diviser par une expression qui peut être nulle."
+ ]
+}
