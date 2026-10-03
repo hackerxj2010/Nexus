@@ -7,7 +7,6 @@
 <text x="150" y="72" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">A. Feuille en partie masquée</text>
 <path d="M85,245.0 Q155,170 85,95.0 Q15,170 85,245.0 Z" fill="#4ade80" stroke="#166534" stroke-width="2.5"/><line x1="85" y1="245.0" x2="85" y2="267.0" stroke="#166534" stroke-width="3"/>
 <rect x="38" y="152" width="94" height="34" fill="#111827" rx="3"/>
-<line x1="132" y1="169" x2="140" y2="225" stroke="#374151" stroke-width="1.5"/><circle cx="132" cy="169" r="2.6" fill="#374151"/><text x="145" y="230" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">cache opaque</text>
 <line x1="130" y1="120" x2="180" y2="120" stroke="#374151" stroke-width="2.5" marker-end="url(#fl)"/>
 <text x="155" y="108" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">test</text>
 <clipPath id="cpA"><path d="M225,245.0 Q295,170 225,95.0 Q155,170 225,245.0 Z"/></clipPath>
@@ -15,18 +14,17 @@
 <rect x="150" y="152" width="150" height="34" fill="#e9c46a" clip-path="url(#cpA)"/>
 <line x1="225" y1="125" x2="268" y2="108" stroke="#374151" stroke-width="1.5"/><circle cx="225" cy="125" r="2.6" fill="#374151"/><text x="273" y="113" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">bleu-noir</text>
 <line x1="232" y1="172" x2="270" y2="205" stroke="#374151" stroke-width="1.5"/><circle cx="232" cy="172" r="2.6" fill="#374151"/><text x="275" y="210" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">jaune-brun</text>
-<text x="150" y="290.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Seule la partie éclairée</text>
-<text x="150" y="308.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">contient de l'amidon.</text>
+<text x="150" y="290.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Sous le cache noir : pas d'amidon.</text>
+<text x="150" y="308.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Partie éclairée : amidon.</text>
 <text x="450" y="72" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">B. Feuille panachée (croton)</text>
 <path d="M385,245.0 Q455,170 385,95.0 Q315,170 385,245.0 Z" fill="#f5ecc8" stroke="#a16207" stroke-width="2.5"/><line x1="385" y1="245.0" x2="385" y2="267.0" stroke="#a16207" stroke-width="3"/>
 <path d="M385,227.0 Q425,172 385,117.0 Q345,172 385,227.0 Z" fill="#4ade80" stroke="none"/>
-<line x1="410" y1="225" x2="345" y2="262" stroke="#374151" stroke-width="1.5"/><circle cx="410" cy="225" r="2.6" fill="#374151"/><text x="345" y="279" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">bord sans chlorophylle</text>
 <line x1="430" y1="120" x2="480" y2="120" stroke="#374151" stroke-width="2.5" marker-end="url(#fl)"/>
 <text x="455" y="108" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">test</text>
 <path d="M525,245.0 Q595,170 525,95.0 Q455,170 525,245.0 Z" fill="#e9c46a" stroke="#a16207" stroke-width="2.5"/><line x1="525" y1="245.0" x2="525" y2="267.0" stroke="#a16207" stroke-width="3"/>
 <path d="M525,227.0 Q565,172 525,117.0 Q485,172 525,227.0 Z" fill="#1e2a5a" stroke="none"/>
-<text x="450" y="290.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Seule la partie verte</text>
-<text x="450" y="308.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">contient de l'amidon.</text>
+<text x="450" y="290.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Bord sans chlorophylle : pas d'amidon.</text>
+<text x="450" y="308.75" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Partie verte : amidon.</text>
 <line x1="30" y1="325" x2="570" y2="325" stroke="#d1d5db" stroke-width="1.5"/>
 <text x="300" y="356" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">Le test de l'amidon sur une feuille (après 24 h de lumière)</text>
 <rect x="30" y="378" width="160" height="92" rx="10" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.5"/>

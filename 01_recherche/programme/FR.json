@@ -1,0 +1,243 @@
+{
+ "matiere": "FR",
+ "annee_scolaire_reference": "2026-2027",
+ "decoupage": "trimestres pour le calendrier officiel 2026-2027 (T1 : 14 sept.-23 déc. 2026 ; T2 : 4 janv.-9 avril 2027 ; T3 : 19 avril-16 juillet 2027), mais compositions régionales du lycée organisées par semestre (DRE) ; la plateforme découpe donc l'année en 2 semestres",
+ "volume_horaire_hebdo": "4 h (seconde scientifique, réforme annoncée en 2022 ; non confirmé par un texte officiel consulté)",
+ "coefficient_seconde_S": 2,
+ "statut": "reconstitue",
+ "sources": [
+  {
+   "titre": "Togo First / republiquetogolaise.com : « Secteur éducatif : un big bang de réformes dès la prochaine rentrée » et « Matières, coefficients, chapitres, anglais… : des réformes annoncées dans l'enseignement secondaire » (sept. 2022) — français en seconde scientifique : 4 h/semaine, coefficient 2 ; APC en seconde",
+   "url": "https://www.togofirst.com/fr/education/1209-10585-secteur-educatif-un-big-bang-de-reformes-des-la-prochaine-rentree-scolaire",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3,
+   "note": "Page bloquée par le proxy : information lue uniquement dans l'extrait du moteur de recherche."
+  },
+  {
+   "titre": "Edunews.tg : « TOGO/Education : les professeurs de lycée s'approprient les nouveaux programmes APC » (2022) — APC effective en seconde depuis 2022-2023 ; évaluation en français : 60 % situations complexes, 20 % questions objectives, 20 % exercices traditionnels",
+   "url": "https://edunews.tg/togo-education-les-professeurs-de-lycee-simpregnent-des-nouveaux-programmes-apc/",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3,
+   "note": "Lu via extraits de recherche ; la répartition 60/20/20 provient d'un extrait qui mêle plusieurs sources (dont un document Studocu)."
+  },
+  {
+   "titre": "YOP L-FRII : « Togo / BAC I 2024 : la première épreuve APC en français est tombée » — partie A (8 pts, 7 questions) obligatoire ; partie B (12 pts) au choix : contraction de texte (résumé + 2 mots à expliquer + discussion), dissertation, commentaire",
+   "url": "https://yop.l-frii.com/togo-bac-i-2024-la-premiere-epreuve-apc-en-francais-est-tombee-elle-est/",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3,
+   "note": "Format du BAC I (classe de première), utilisé comme cible pour la seconde ; lu via extrait de recherche."
+  },
+  {
+   "titre": "Edusocialnews : « DRE-GL / Composition régionale et chronogramme organisationnel : premier semestre 2025-2026 » — compositions régionales semestrielles en seconde, français de 7 h à 11 h (4 h) en seconde A4",
+   "url": "https://edusocialnews.com/articles/dre-gl-composition-regionale-et-chronogramme-organisationnel-premier-semestre-2025-2026",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3,
+   "note": "Lu via extrait de recherche."
+  },
+  {
+   "titre": "allAfrica / republicoftogo.com : « Togo : calendrier scolaire 2026-2027 — ce qu'il faut retenir » (juillet 2026) — année en trois trimestres",
+   "url": "https://fr.allafrica.com/stories/202607310464.html",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 4,
+   "note": "Lu via extrait de recherche."
+  },
+  {
+   "titre": "Global Voices (fr) : « Le Togo met enfin ses auteurs à l'honneur dans ses programmes scolaires » (26 juin 2023) — œuvres citées pour la seconde : Le Trône royal (Mgr Nicodème Barrigah-Benissan), Le Cauchemar d'un immigré (Ruben Atayi), Le chien qui parle (Charles Olince), L'Arbre fétiche (Jean Pliya)",
+   "url": "https://fr.globalvoices.org/2023/06/26/279663/",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2,
+   "note": "Liste lue dans un résumé de moteur de recherche, non vérifiée sur la page (bloquée) ; série (A ou S) et année d'application inconnues."
+  },
+  {
+   "titre": "Épreuves et corrigés (catégorie Togo / Seconde) — compositions semestrielles de seconde (dont « 2nde S ») publiées par établissements et DRE",
+   "url": "https://epreuvesetcorriges.com/categories/togo/colleges/seconde",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2,
+   "note": "Existence des documents vue dans les résultats de recherche ; contenu non consulté (site bloqué)."
+  },
+  {
+   "titre": "Méthodologie classique du second cycle francophone (résumé/contraction + discussion, commentaire, dissertation) et progression usuelle des manuels de seconde",
+   "url": "",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2,
+   "note": "Reconstitution par l'agent à partir des formats d'épreuves ci-dessus ; à confronter à la progression officielle de la DPC/MEPSTA."
+  }
+ ],
+ "format_epreuve_vise": "Épreuve de 4 h. Partie A (environ 8 pts) : questions de compréhension et de langue sur un texte. Partie B (environ 12 pts) : un sujet au choix parmi contraction de texte (résumé au quart ± 10 %, explication de 2 mots, discussion), commentaire, dissertation. D'après les comptes rendus de presse du BAC I 2024 (APC) ; à confirmer pour les compositions de seconde.",
+ "oeuvres_signalees": [
+  {
+   "titre": "Le Trône royal",
+   "auteur": "Mgr Nicodème Barrigah-Benissan",
+   "genre": "théâtre",
+   "source_id": 5,
+   "statut": "non vérifié"
+  },
+  {
+   "titre": "Le Cauchemar d'un immigré",
+   "auteur": "Ruben Atayi",
+   "genre": "témoignages / récit",
+   "source_id": 5,
+   "statut": "non vérifié"
+  },
+  {
+   "titre": "Le chien qui parle",
+   "auteur": "Charles Olince",
+   "genre": "inconnu",
+   "source_id": 5,
+   "statut": "non vérifié"
+  },
+  {
+   "titre": "L'Arbre fétiche",
+   "auteur": "Jean Pliya (Bénin)",
+   "genre": "nouvelles",
+   "source_id": 5,
+   "statut": "non vérifié"
+  }
+ ],
+ "chapitres": [
+  {
+   "id": "FR-S1-C01",
+   "semestre": 1,
+   "ordre": 1,
+   "titre": "Communication et énonciation",
+   "duree_semaines": 2,
+   "source_ids": [
+    2,
+    7
+   ]
+  },
+  {
+   "id": "FR-S1-C02",
+   "semestre": 1,
+   "ordre": 2,
+   "titre": "Les figures de style",
+   "duree_semaines": 2,
+   "source_ids": [
+    2,
+    7
+   ]
+  },
+  {
+   "id": "FR-S1-C03",
+   "semestre": 1,
+   "ordre": 3,
+   "titre": "Le texte argumentatif",
+   "duree_semaines": 2,
+   "source_ids": [
+    2,
+    7
+   ]
+  },
+  {
+   "id": "FR-S1-C04",
+   "semestre": 1,
+   "ordre": 4,
+   "titre": "Le résumé de texte (contraction)",
+   "duree_semaines": 3,
+   "source_ids": [
+    2,
+    7
+   ]
+  },
+  {
+   "id": "FR-S1-C05",
+   "semestre": 1,
+   "ordre": 5,
+   "titre": "La discussion",
+   "duree_semaines": 3,
+   "source_ids": [
+    2,
+    7
+   ]
+  },
+  {
+   "id": "FR-S1-C06",
+   "semestre": 1,
+   "ordre": 6,
+   "titre": "Le récit et le roman",
+   "duree_semaines": 3,
+   "source_ids": [
+    7
+   ]
+  },
+  {
+   "id": "FR-S1-C07",
+   "semestre": 1,
+   "ordre": 7,
+   "titre": "Grammaire et vocabulaire au service de l'étude de texte",
+   "duree_semaines": 2,
+   "source_ids": [
+    1,
+    2,
+    7
+   ]
+  },
+  {
+   "id": "FR-S2-C08",
+   "semestre": 2,
+   "ordre": 8,
+   "titre": "La poésie",
+   "duree_semaines": 3,
+   "source_ids": [
+    7
+   ]
+  },
+  {
+   "id": "FR-S2-C09",
+   "semestre": 2,
+   "ordre": 9,
+   "titre": "Histoire littéraire : littérature africaine, Négritude et grands mouvements",
+   "duree_semaines": 3,
+   "source_ids": [
+    5,
+    7
+   ]
+  },
+  {
+   "id": "FR-S2-C10",
+   "semestre": 2,
+   "ordre": 10,
+   "titre": "Le théâtre",
+   "duree_semaines": 3,
+   "source_ids": [
+    5,
+    7
+   ]
+  },
+  {
+   "id": "FR-S2-C11",
+   "semestre": 2,
+   "ordre": 11,
+   "titre": "Le commentaire de texte",
+   "duree_semaines": 3,
+   "source_ids": [
+    2,
+    7
+   ]
+  },
+  {
+   "id": "FR-S2-C12",
+   "semestre": 2,
+   "ordre": 12,
+   "titre": "La dissertation littéraire",
+   "duree_semaines": 3,
+   "source_ids": [
+    2,
+    7
+   ]
+  },
+  {
+   "id": "FR-S2-C13",
+   "semestre": 2,
+   "ordre": 13,
+   "titre": "Œuvre intégrale et méthode de l'épreuve de français",
+   "duree_semaines": 2,
+   "source_ids": [
+    1,
+    2,
+    5,
+    7
+   ]
+  }
+ ]
+}

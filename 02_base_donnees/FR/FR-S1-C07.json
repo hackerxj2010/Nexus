@@ -1,0 +1,660 @@
+{
+ "id": "FR-S1-C07",
+ "matiere": "FR",
+ "semestre": 1,
+ "ordre": 7,
+ "titre": "Grammaire et vocabulaire au service de l'étude de texte",
+ "objectifs": [
+  "L'élève doit être capable d'analyser une phrase complexe : nature et fonction des subordonnées, mode du verbe.",
+  "L'élève doit être capable d'identifier la valeur des temps et des modes dans un texte.",
+  "L'élève doit être capable d'étudier le lexique : champ lexical, dénotation et connotation, polysémie, paronymes.",
+  "L'élève doit être capable de reconnaître la formation des mots, les registres de langue, les types et formes de phrases, et d'en interpréter les effets."
+ ],
+ "prerequis": [
+  "FR-3e-PHRASE-COMPLEXE",
+  "FR-3e-VOCABULAIRE",
+  "FR-S1-C01"
+ ],
+ "notions": [
+  {
+   "id": "FR-S1-C07-N1",
+   "titre": "La phrase complexe et les propositions subordonnées",
+   "prerequis_notions": [
+    "FR-3e-PHRASE-COMPLEXE"
+   ],
+   "cours_md": "## 1. Phrase simple, phrase complexe\n\n:::definition\nUne **phrase simple** contient **un seul verbe conjugué** (une proposition). Une **phrase complexe** en contient **plusieurs** : elle compte autant de propositions que de verbes conjugués.\n:::\n\nLes propositions peuvent être reliées de trois façons :\n- **juxtaposition** (virgule, point-virgule, deux-points) : « Il pleut, la route est coupée. »\n- **coordination** (mais, ou, et, donc, or, ni, car) : « Il pleut, donc la route est coupée. »\n- **subordination** : une proposition **principale** et une proposition **subordonnée** qui dépend d'elle : « La route est coupée **parce qu'il pleut**. »\n\n## 2. Les trois grandes familles de subordonnées\n\n| Subordonnée | Introduite par | Fonction | Exemple |\n|---|---|---|---|\n| **Relative** | pronom relatif : qui, que, dont, où, lequel… | complément de l'antécédent (comme un adjectif) | « Le livre **que tu m'as prêté** est passionnant. » |\n| **Complétive** (conjonctive) | que | COD, sujet, attribut… (comme un nom) | « Je pense **que tu réussiras**. » |\n| **Interrogative indirecte** | si, qui, où, quand, pourquoi, comment, ce que… | COD d'un verbe de question | « Je me demande **s'il viendra**. » |\n| **Circonstancielle** | conjonction de subordination | complément circonstanciel (comme un adverbe) | « Je viendrai **quand j'aurai fini**. » |\n\n## 3. Les circonstancielles\n\n| Rapport | Conjonctions | Mode |\n|---|---|---|\n| **Temps** | quand, lorsque, dès que, pendant que, après que / avant que, jusqu'à ce que | indicatif / subjonctif |\n| **Cause** | parce que, puisque, comme, étant donné que | indicatif |\n| **Conséquence** | si bien que, de sorte que, si… que, tellement… que | indicatif |\n| **But** | pour que, afin que, de peur que | subjonctif |\n| **Concession / opposition** | bien que, quoique / même si, alors que, tandis que | subjonctif / indicatif |\n| **Condition / hypothèse** | si, à condition que, pourvu que, au cas où | indicatif / subjonctif / conditionnel |\n| **Comparaison** | comme, ainsi que, plus… que, autant que | indicatif |\n\n:::propriete\n- « **Après que** » se construit avec l'**indicatif** (« après qu'il est parti »), « **avant que** » avec le **subjonctif** (« avant qu'il parte »).\n- Après « **si** » de condition, jamais de futur ni de conditionnel : « Si tu **travailles**, tu réussiras » ; « Si tu **travaillais**, tu réussirais ».\n:::\n\n:::methode\n**Analyser une phrase complexe**\n1. Souligne les verbes conjugués : leur nombre = le nombre de propositions.\n2. Délimite chaque proposition (encadre-la).\n3. Repère le mot qui introduit chaque subordonnée (pronom relatif, conjonction, mot interrogatif).\n4. Donne sa **nature** (relative, complétive, circonstancielle de…) et sa **fonction**.\n:::\n\n:::attention\n« **Que** » n'est pas toujours le même mot : pronom relatif (« le livre **que** je lis » : il a un antécédent) ou conjonction (« je pense **que** tu lis » : pas d'antécédent). Cherche l'antécédent !\n:::",
+   "definition": "Une phrase complexe contient plusieurs propositions (autant que de verbes conjugués), reliées par juxtaposition, coordination ou subordination ; les subordonnées sont relatives, complétives, interrogatives indirectes ou circonstancielles (temps, cause, conséquence, but, concession, condition, comparaison).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Un verbe conjugué = une proposition ; la subordonnée dépend de la principale.",
+    "simple": "La principale, c'est le chef de famille ; la subordonnée, l'enfant qui ne peut pas vivre seul : « parce qu'il pleut » n'a pas de sens sans « la route est coupée ».",
+    "complete": "La phrase complexe articule plusieurs propositions par parataxe (juxtaposition, coordination) ou hypotaxe (subordination). Les subordonnées se classent selon leur mot introducteur et leur fonction : relatives (expansion du nom antécédent), conjonctives complétives (fonctions nominales), interrogatives indirectes, circonstancielles (fonctions adverbiales exprimant temps, cause, conséquence, but, concession, condition, comparaison). Le mode de la subordonnée dépend de la conjonction et du rapport logique."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Analyse : « Bien que la pluie soit tardive, les paysans qui ont semé tôt espèrent une bonne récolte. »",
+     "etapes": [
+      "Verbes conjugués : soit, ont semé, espèrent → 3 propositions.",
+      "« Bien que la pluie soit tardive » : subordonnée circonstancielle de concession (subjonctif).",
+      "« qui ont semé tôt » : subordonnée relative, complément de l'antécédent « paysans ».",
+      "« les paysans… espèrent une bonne récolte » : proposition principale."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre « que » pronom relatif et « que » conjonction.",
+    "Mettre le conditionnel après « si » (« si j'aurais »).",
+    "Employer le subjonctif après « après que ».",
+    "Donner la nature sans la fonction (ou l'inverse)."
+   ],
+   "astuces": [
+    "Pour trouver le rapport d'une circonstancielle, remplace la conjonction par un équivalent : « parce que » → cause ; « pour que » → but.",
+    "« Les si n'aiment pas les -rais » : jamais de conditionnel après si."
+   ],
+   "mnemo": "« Les si n'aiment pas les -rais. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as étudié les propositions relatives et circonstancielles. En seconde, ces analyses servent dans les questions de langue de la composition et pour bien construire tes propres phrases."
+   },
+   "methode_redaction": "Réponse attendue à une question de grammaire : « \"qui ont semé tôt\" est une proposition subordonnée relative introduite par le pronom relatif \"qui\" ; elle est complément de l'antécédent \"paysans\". »",
+   "flash": [
+    {
+     "q": "Combien de propositions dans une phrase ?",
+     "r": "Autant que de verbes conjugués."
+    },
+    {
+     "q": "Mode après « bien que » ?",
+     "r": "Le subjonctif."
+    },
+    {
+     "q": "Mode après « après que » ?",
+     "r": "L'indicatif."
+    },
+    {
+     "q": "Fonction d'une subordonnée relative ?",
+     "r": "Complément de l'antécédent."
+    },
+    {
+     "q": "« Je pense que tu réussiras » : nature de la subordonnée ?",
+     "r": "Subordonnée conjonctive complétive, COD de « pense »."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C07-N1.svg",
+    "alt": "Tableau des subordonnées circonstancielles : rapport logique, conjonctions et mode du verbe.",
+    "legende": "Les sept rapports des subordonnées circonstancielles.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C07-N2",
+   "titre": "Les valeurs des temps et des modes",
+   "prerequis_notions": [
+    "FR-S1-C07-N1",
+    "FR-S1-C06-N2"
+   ],
+   "cours_md": "## 1. Les valeurs du présent\n\n| Valeur | Exemple |\n|---|---|\n| **D'énonciation** (moment où l'on parle) | « Je t'écris de Kara. » |\n| **De vérité générale** | « L'eau bout à 100 °C. » ; proverbes |\n| **D'habitude** | « Chaque samedi, il joue au football. » |\n| **De narration** (historique) | « En 1960, le Togo devient indépendant. » |\n| **Futur proche / passé proche** | « Je pars demain. » / « Il sort à l'instant. » |\n\n## 2. Les temps du passé\n\n- **Imparfait** : description, habitude, action en cours (arrière-plan) ; aussi hypothèse après « si » (« si j'étais riche »).\n- **Passé simple** : action ponctuelle, achevée, de premier plan dans un récit.\n- **Passé composé** : action passée dont le résultat touche le présent (discours).\n- **Plus-que-parfait** : action antérieure à une autre action passée.\n\n## 3. Le futur et le conditionnel\n\n- **Futur** : action à venir ; ordre atténué (« Tu feras tes exercices ») ; promesse.\n- **Conditionnel** :\n  - **hypothèse** (avec si + imparfait) : « Si je pouvais, je viendrais. »\n  - **politesse** : « Je voudrais un renseignement. »\n  - **information non vérifiée** : « Le ministre serait malade. »\n  - **futur dans le passé** : « Il disait qu'il viendrait. »\n  - **souhait ou regret** : « J'aimerais tant revoir mon village. »\n\n## 4. Les modes personnels\n\n:::definition\nLe **mode** indique comment l'énonciateur présente l'action : **indicatif** (réelle), **subjonctif** (envisagée, souhaitée, douteuse), **impératif** (ordre, conseil), **conditionnel** (hypothétique, atténuée).\n:::\n\n- **Subjonctif** : après les verbes de volonté (« Je veux **que tu viennes** »), de sentiment (« Je crains **qu'il pleuve** »), de doute, d'obligation (« Il faut **que nous partions** »), et après certaines conjonctions (bien que, pour que, avant que).\n- **Impératif** : ordre (« Sors ! »), conseil (« Révise chaque soir »), prière (« Aidez-nous »).\n\n:::methode\n**Répondre à une question « Quelle est la valeur de… ? »**\n1. Identifie le temps et le mode (« présent de l'indicatif »).\n2. Donne sa valeur précise dans la phrase (« présent de vérité générale »).\n3. Justifie par le contexte (« car l'énoncé est valable en tout temps, comme un proverbe »).\n4. Si on le demande, dis l'effet (« donne à l'argument une force incontestable »).\n:::\n\n:::attention\nNe confonds pas le **futur** (« je **chanterai** ») et le **conditionnel présent** (« je **chanterais** ») : à la 1re personne du singulier, seule la lettre **s** les distingue. Astuce : remplace par « nous » (nous chanterons / nous chanterions).\n:::",
+   "definition": "Chaque temps a plusieurs valeurs selon le contexte (présent d'énonciation, de vérité générale, d'habitude, de narration ; conditionnel d'hypothèse, de politesse, d'information non vérifiée, de futur dans le passé…) ; le mode indique si l'action est présentée comme réelle (indicatif), envisagée (subjonctif), ordonnée (impératif) ou hypothétique (conditionnel).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Le même temps peut dire des choses différentes : il faut trouver ce qu'il veut dire dans la phrase.",
+    "simple": "Le même pagne se porte au marché, à l'église ou à une fête : selon l'occasion, il n'a pas le même sens. Un temps verbal change aussi de sens selon le contexte.",
+    "complete": "La valeur d'un temps résulte de l'interaction entre sa morphologie (temps, aspect) et le contexte énonciatif : le présent peut être déictique, gnomique, itératif, historique ou prospectif ; le conditionnel peut être temporel (futur du passé) ou modal (hypothèse, atténuation, conjecture, souhait). Les modes personnels traduisent l'attitude de l'énonciateur à l'égard du procès : actualisé (indicatif), virtuel (subjonctif), injonctif (impératif)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Valeur du présent : « Qui sème le vent récolte la tempête. »",
+     "etapes": [
+      "Présent de l'indicatif.",
+      "Proverbe valable en tout temps : présent de vérité générale (gnomique)."
+     ]
+    },
+    {
+     "enonce": "Valeur du conditionnel : « Selon un témoin, l'accident aurait fait trois blessés. »",
+     "etapes": [
+      "Conditionnel passé.",
+      "« Selon un témoin » : l'information n'est pas confirmée : conditionnel d'information non vérifiée (journalistique)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Donner le temps sans la valeur, ou la valeur sans le temps.",
+    "Confondre futur et conditionnel à la 1re personne.",
+    "Employer l'indicatif après « il faut que » ou « bien que ».",
+    "Oublier de justifier par le contexte."
+   ],
+   "astuces": [
+    "Pour distinguer futur/conditionnel, passe à « nous » : -rons (futur), -rions (conditionnel).",
+    "Les proverbes sont presque toujours au présent de vérité générale."
+   ],
+   "mnemo": "« Présent : Énonciation, Vérité, Habitude, Narration » : EVHN, « En Vérité, Hier N'existe pas » (le présent sert à tout !).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris la conjugaison des temps et des modes. En seconde, on te demande surtout leurs valeurs dans un texte et leur effet."
+   },
+   "methode_redaction": "Réponse type : « \"aurait fait\" est au conditionnel passé ; il présente une information non vérifiée, comme l'indique \"selon un témoin\". »",
+   "flash": [
+    {
+     "q": "Valeur du présent dans un proverbe ?",
+     "r": "Vérité générale."
+    },
+    {
+     "q": "Valeur du conditionnel dans « Je voudrais un renseignement » ?",
+     "r": "Politesse (atténuation)."
+    },
+    {
+     "q": "Mode après « il faut que » ?",
+     "r": "Le subjonctif."
+    },
+    {
+     "q": "Futur ou conditionnel : « je viendrais » ?",
+     "r": "Conditionnel (nous viendrions)."
+    },
+    {
+     "q": "Qu'est-ce que le futur dans le passé ?",
+     "r": "Le conditionnel qui exprime un fait à venir par rapport à un moment passé : « Il disait qu'il viendrait. »"
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C07-N2.svg",
+    "alt": "Carte mentale des valeurs des temps et modes : présent, imparfait, passé simple, futur, conditionnel, subjonctif.",
+    "legende": "Les principales valeurs des temps et des modes.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C07-N3",
+   "titre": "Le sens des mots : champ lexical, connotation, polysémie",
+   "prerequis_notions": [
+    "FR-3e-VOCABULAIRE"
+   ],
+   "cours_md": "## 1. Champ lexical et champ sémantique\n\n:::definition\n- Le **champ lexical** est l'ensemble des mots d'un texte qui se rapportent à **un même thème** : « pirogue, filets, vagues, rivage, pêcheurs » forment le champ lexical de la **mer** (ou de la pêche).\n- Le **champ sémantique** est l'ensemble des **sens d'un même mot** : « feuille » (d'arbre, de papier, de paie, de route…).\n:::\n\n:::propriete\nUn champ lexical dominant révèle le **thème** et souvent l'**atmosphère** d'un texte. Deux champs lexicaux opposés (la vie / la mort, la lumière / l'ombre) révèlent une **opposition** au cœur du texte.\n:::\n\n## 2. Dénotation et connotation\n\n:::definition\n- La **dénotation** est le sens **objectif**, celui du dictionnaire : « rouge » = une couleur.\n- La **connotation** est l'ensemble des **valeurs et images associées** à un mot selon le contexte ou la culture : « rouge » peut évoquer le sang, la violence, la passion, le danger.\n:::\n\n> « La **terre rouge** de la piste » : dénotation = couleur de la latérite ; connotation possible = chaleur, poussière, enracinement, Afrique.\n\n## 3. Polysémie, sens propre et sens figuré\n\n- Un mot **polysémique** a plusieurs sens : « opération » (chirurgicale, mathématique, militaire, bancaire).\n- **Sens propre** : sens premier, concret (« une **source** d'eau ») ; **sens figuré** : sens imagé, abstrait (« la **source** du problème »).\n\n## 4. Homonymes et paronymes\n\n- **Homonymes** : même prononciation, sens différent : « vert, verre, ver, vers, vair ».\n- **Paronymes** : mots presque identiques, souvent confondus : **éminent** (remarquable) / **imminent** (tout proche) ; **conjecture** (supposition) / **conjoncture** (situation) ; **infliger** (une peine) / **affliger** (attrister) ; **prolongation** (dans le temps) / **prolongement** (dans l'espace).\n\n:::methode\n**Étudier le lexique d'un texte**\n1. Repère les mots qui se rattachent à un même thème : nomme le champ lexical (« champ lexical de la souffrance »).\n2. Cite 3 à 5 mots du champ, entre guillemets.\n3. Observe les connotations (mélioratives ou péjoratives).\n4. Interprète : que révèle ce lexique sur le thème, l'atmosphère, le point de vue ?\n:::\n\n:::attention\nUn champ lexical se nomme par un **nom** (« le champ lexical de la **mort** »), pas par un adjectif ni par un mot du texte isolé. Et il faut **plusieurs** mots pour former un champ lexical.\n:::",
+   "definition": "Le champ lexical regroupe les mots d'un texte liés à un même thème ; le champ sémantique, les sens d'un même mot ; la dénotation est le sens objectif, la connotation les valeurs associées ; un mot polysémique a plusieurs sens (propre, figuré).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Les mots ont un sens de dictionnaire et des sens « en plus » qui créent une atmosphère.",
+    "simple": "Le mot « harmattan » désigne un vent sec (dénotation) ; mais pour un Togolais, il évoque aussi la poussière, les lèvres gercées, les matins frais de décembre (connotations).",
+    "complete": "L'analyse lexicale distingue la relation thématique entre unités d'un texte (champ lexical, isotopie) et la structure polysémique d'une unité (champ sémantique). La dénotation correspond au signifié stable ; la connotation aux valeurs secondaires, culturelles, affectives ou stylistiques actualisées en contexte. Les relations formelles (homonymie, paronymie) et les glissements de sens (propre/figuré) sont sources d'erreurs comme d'effets de style."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Nomme le champ lexical : « Le ciel s'obscurcit, les nuages roulaient, un éclair déchira l'horizon, puis le tonnerre gronda. »",
+     "etapes": [
+      "Mots : ciel, nuages, éclair, tonnerre (et « s'obscurcit », « gronda »).",
+      "Champ lexical de l'orage."
+     ]
+    },
+    {
+     "enonce": "Éminent ou imminent ? « Le départ du car est ___ : montez vite ! »",
+     "etapes": [
+      "Le départ est tout proche.",
+      "Réponse : imminent."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre champ lexical (un thème, plusieurs mots) et champ sémantique (un mot, plusieurs sens).",
+    "Nommer un champ lexical avec un seul mot relevé.",
+    "Confondre éminent/imminent, conjecture/conjoncture.",
+    "Relever un champ lexical sans l'interpréter."
+   ],
+   "astuces": [
+    "Pour nommer un champ lexical, trouve le nom qui englobe tous les mots relevés.",
+    "Connotation : demande-toi « À quoi ce mot me fait-il penser ? »."
+   ],
+   "mnemo": "« Lexical = Liste de mots d'un thème ; Sémantique = Sens d'un seul mot. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu relevais déjà des champs lexicaux. En seconde, on t'attend sur la connotation et l'interprétation : que révèle ce vocabulaire ?"
+   },
+   "methode_redaction": "Rédige : « Le champ lexical de l'orage (\"nuages\", \"éclair\", \"tonnerre\") crée une atmosphère menaçante qui annonce le drame. »",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un champ lexical ?",
+     "r": "L'ensemble des mots d'un texte liés à un même thème."
+    },
+    {
+     "q": "Qu'est-ce qu'un champ sémantique ?",
+     "r": "L'ensemble des sens d'un même mot."
+    },
+    {
+     "q": "Dénotation ou connotation : « rouge » évoque la passion ?",
+     "r": "Connotation."
+    },
+    {
+     "q": "Éminent ou imminent : « un danger tout proche » ?",
+     "r": "Imminent."
+    },
+    {
+     "q": "Sens propre ou figuré : « la source du problème » ?",
+     "r": "Figuré."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C07-N3.svg",
+    "alt": "Carte mentale du sens des mots : champ lexical, champ sémantique, dénotation, connotation, polysémie, paronymes, avec exemples.",
+    "legende": "Les outils pour étudier le lexique d'un texte.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C07-N4",
+   "titre": "La formation des mots et les registres de langue",
+   "prerequis_notions": [
+    "FR-S1-C07-N3"
+   ],
+   "cours_md": "## 1. Comment se forment les mots ?\n\n:::definition\n- La **dérivation** ajoute un **préfixe** (avant le radical) et/ou un **suffixe** (après) : *in*-juste, juste-*ment*, *in*-just-*ice*.\n- La **composition** assemble des mots existants : porte-monnaie, chemin de fer, taxi-moto.\n- L'**emprunt** prend un mot à une autre langue : « zémidjan » (taxi-moto, mot emprunté au fon du Bénin), « football » (anglais), « algèbre » (arabe).\n- Une **famille de mots** regroupe les mots formés sur le même radical : terre, terrain, terrestre, enterrer, atterrir.\n:::\n\n| Préfixe | Sens | Exemple | Suffixe | Sens | Exemple |\n|---|---|---|---|---|---|\n| in-, im-, il-, ir- | contraire | inutile, illégal | -age, -ment, -tion | action | lavage, jugement |\n| dé-, dés- | privation, inverse | défaire | -eur, -ier | agent, métier | vendeur, potier |\n| re-, r- | répétition | refaire | -able, -ible | possibilité | lisible |\n| pré- | avant | prévoir | -âtre, -ard | péjoratif | rougeâtre, chauffard |\n| anti- | contre | antipaludique | -ette, -et | diminutif | maisonnette |\n\n## 2. Synonymes et antonymes\n\n- **Synonymes** : sens proche (rarement identique) : maison, demeure, logis, case.\n- **Antonymes** : sens contraire : riche / pauvre ; avancer / reculer.\n\n:::propriete\nDeux synonymes diffèrent souvent par le **registre** ou la **nuance** : « demeure » est soutenu, « case » désigne un type d'habitation précis. Choisis le synonyme qui convient au contexte.\n:::\n\n## 3. Les registres (ou niveaux) de langue\n\n| Familier | Courant | Soutenu |\n|---|---|---|\n| bouquin | livre | ouvrage |\n| bagnole | voiture | automobile |\n| bouffer | manger | se restaurer |\n| ça me plaît pas | cela ne me plaît pas | cela ne m'agrée point |\n| Tu viens ? | Est-ce que tu viens ? | Viens-tu ? |\n\n:::methode\n**Adapter son registre**\n1. À l'**écrit scolaire** (résumé, discussion, commentaire, dissertation) : registre **courant ou soutenu**, jamais familier.\n2. Évite les **abréviations**, le langage SMS, « ça », la négation sans « ne ».\n3. Dans l'étude d'un texte, le registre d'un personnage **révèle** son milieu, son émotion ou l'intention de l'auteur (comique, réalisme).\n:::\n\n:::attention\n« Registre de langue » (familier, courant, soutenu) et « registre littéraire » (comique, tragique, lyrique, pathétique…) sont deux notions différentes.\n:::",
+   "definition": "Les mots se forment par dérivation (préfixes, suffixes), composition et emprunt ; ils s'organisent en familles, synonymes et antonymes ; le registre de langue (familier, courant, soutenu) s'adapte à la situation de communication.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Préfixe devant, suffixe derrière ; à l'écrit scolaire, jamais de familier.",
+    "simple": "On ne parle pas au proviseur comme à son copain du quartier : c'est la même chose à l'écrit, chaque situation a son registre.",
+    "complete": "La morphologie lexicale décrit la formation des unités par affixation (dérivation préfixale, suffixale, parasynthétique), composition, emprunt, et l'organisation des familles autour d'un radical. Les relations sémantiques (synonymie, antonymie) se doublent de variations diastratiques et diaphasiques : les registres de langue, marqués lexicalement et syntaxiquement, dépendent de la situation d'énonciation et, en littérature, caractérisent personnages et tonalités."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Décompose « inoubliable ».",
+     "etapes": [
+      "Préfixe in- (contraire) + radical « oubli » + suffixe -able (possibilité).",
+      "Sens : qu'on ne peut pas oublier."
+     ]
+    },
+    {
+     "enonce": "Transforme en registre courant : « J'ai pas capté ce que le prof a dit. »",
+     "etapes": [
+      "« pas » sans « ne », « capté », « prof » : familier.",
+      "Courant : « Je n'ai pas compris ce que le professeur a dit. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire en registre familier dans une copie.",
+    "Confondre registre de langue et registre littéraire.",
+    "Choisir un synonyme qui ne convient pas au contexte.",
+    "Oublier « ne » dans la négation à l'écrit."
+   ],
+   "astuces": [
+    "Les préfixes in-/dé- et les suffixes -able/-tion t'aident à deviner le sens d'un mot inconnu.",
+    "Relis ta copie en traquant « ça », « pas » sans « ne » et les abréviations."
+   ],
+   "mnemo": "« Préfixe = Précède ; Suffixe = Suit. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu connaissais les préfixes, les suffixes et les registres de langue. En seconde, ces outils servent à expliquer les mots en contexte et à analyser la parole des personnages."
+   },
+   "methode_redaction": "Dans une question de vocabulaire : décompose le mot (préfixe, radical, suffixe), puis donne son sens en contexte. Dans tes copies : registre courant ou soutenu.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un préfixe ?",
+     "r": "Un élément placé avant le radical (in-, dé-, re-, pré-)."
+    },
+    {
+     "q": "Sens du suffixe -able ?",
+     "r": "La possibilité (lisible, faisable)."
+    },
+    {
+     "q": "Registre de « bouquin » ?",
+     "r": "Familier."
+    },
+    {
+     "q": "Qu'est-ce qu'un emprunt ?",
+     "r": "Un mot pris à une autre langue (zémidjan, football)."
+    },
+    {
+     "q": "Registre attendu dans une copie ?",
+     "r": "Courant ou soutenu."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C07-N4.svg",
+    "alt": "Tableau des registres de langue : cinq exemples en version familière, courante et soutenue.",
+    "legende": "Familier, courant, soutenu.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C07-N5",
+   "titre": "Les types et les formes de phrases",
+   "prerequis_notions": [
+    "FR-S1-C07-N1"
+   ],
+   "cours_md": "## 1. Les quatre types de phrases\n\n:::definition\nToute phrase appartient à **un type** (et un seul) selon l'intention de l'énonciateur :\n:::\n\n| Type | Intention | Ponctuation | Exemple |\n|---|---|---|---|\n| **Déclaratif** | affirmer, informer | point | « Le marché ouvre à six heures. » |\n| **Interrogatif** | questionner | point d'interrogation | « Le marché ouvre-t-il à six heures ? » |\n| **Exclamatif** | exprimer un sentiment | point d'exclamation | « Que ce marché est animé ! » |\n| **Injonctif** (impératif) | ordonner, conseiller | point ou point d'exclamation | « Allez au marché avant six heures. » |\n\n- Interrogation **totale** (réponse oui/non) : « Viens-tu ? » ; **partielle** (porte sur un élément) : « Quand viens-tu ? »\n- Trois tournures : intonation (« Tu viens ? »), « est-ce que » (courant), inversion du sujet (« Viens-tu ? », soutenu).\n\n## 2. Les formes de phrases\n\nUne phrase peut combiner plusieurs **formes** :\n- **affirmative / négative** : « Il viendra. » / « Il ne viendra pas. » (ne… pas, ne… jamais, ne… plus, ne… rien, ne… personne, ne… que = restriction) ;\n- **active / passive** : « Le maire inaugure l'école. » / « L'école est inaugurée par le maire. » ;\n- **neutre / emphatique** (mise en relief) : « **C'est** le maire **qui** inaugure l'école. » ; « L'école, le maire l'inaugure demain. »\n- **personnelle / impersonnelle** : « Il pleut », « Il faut partir » (le « il » ne désigne personne).\n\n## 3. La voix passive\n\n:::methode\n**Passer de l'actif au passif**\n1. Le **COD** de la phrase active devient **sujet**.\n2. Le verbe se met à la forme **être + participe passé** (au même temps que le verbe actif).\n3. L'ancien sujet devient **complément d'agent** introduit par « par » (ou « de »).\n:::\n\n> Actif : « Les élèves **ont planté** cent arbres. » → Passif : « Cent arbres **ont été plantés** par les élèves. »\n\n:::propriete\n**Effet du passif** : il met en valeur celui qui **subit** l'action et permet d'**effacer** l'auteur de l'action : « Des mesures ont été prises » (par qui ? on ne le dit pas). C'est un procédé fréquent dans les discours officiels.\n:::\n\n:::attention\nSeuls les verbes qui ont un **COD** peuvent se mettre au passif. « Il est parti » n'est pas un passif (c'est le passé composé de « partir », construit avec « être »).\n:::",
+   "definition": "Une phrase a un type (déclaratif, interrogatif, exclamatif, injonctif) selon l'intention de l'énonciateur, et des formes (affirmative/négative, active/passive, neutre/emphatique, personnelle/impersonnelle).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Le type dit pourquoi on parle (informer, questionner, s'exclamer, ordonner) ; la forme dit comment la phrase est construite.",
+    "simple": "Le type, c'est le but du message (comme le but d'un appel téléphonique) ; la forme, c'est la manière de le dire (gentiment, en mettant un mot en avant…).",
+    "complete": "Les types de phrase, mutuellement exclusifs, correspondent à des actes de langage (assertion, question, exclamation, injonction) ; les formes, combinables, relèvent de transformations (négation, passivation, emphase par extraction ou dislocation, tournure impersonnelle). La passivation permet une redistribution de l'information (thématisation du patient, effacement de l'agent) aux effets stylistiques et argumentatifs notables."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Mets au passif : « Le vent a arraché le toit de l'école. »",
+     "etapes": [
+      "COD « le toit de l'école » → sujet.",
+      "« a arraché » (passé composé) → « a été arraché ».",
+      "Sujet « le vent » → complément d'agent « par le vent ».",
+      "Résultat : « Le toit de l'école a été arraché par le vent. »"
+     ]
+    },
+    {
+     "enonce": "Type et formes : « N'est-ce pas toi qui as cassé la vitre ? »",
+     "etapes": [
+      "Type : interrogatif.",
+      "Formes : négative (« ne… pas »), emphatique (« c'est… qui »)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire qu'une phrase est « exclamative et déclarative » : un seul type par phrase.",
+    "Confondre un passif et un passé composé avec « être » (« il est parti »).",
+    "Changer le temps du verbe en passant au passif.",
+    "Oublier « ne » dans la négation."
+   ],
+   "astuces": [
+    "Pour vérifier un passif, cherche « par » + l'agent (même sous-entendu) et une action subie.",
+    "Le temps du passif se lit sur l'auxiliaire « être » : « a été plantés » = passé composé."
+   ],
+   "mnemo": "« Un type, plusieurs formes : le type c'est le but, la forme c'est la façon. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu connaissais les types de phrases et la voix passive. En seconde, on te demande d'interpréter leurs effets : pourquoi un passif ? pourquoi une question rhétorique ?"
+   },
+   "methode_redaction": "Réponse type : « La phrase est de type interrogatif et de forme négative et emphatique ; la question rhétorique attend la réponse \"oui\" et accuse l'interlocuteur. »",
+   "flash": [
+    {
+     "q": "Combien de types de phrases ?",
+     "r": "Quatre : déclaratif, interrogatif, exclamatif, injonctif."
+    },
+    {
+     "q": "Une phrase peut-elle avoir plusieurs formes ?",
+     "r": "Oui (négative et passive, par exemple)."
+    },
+    {
+     "q": "Que devient le COD au passif ?",
+     "r": "Le sujet."
+    },
+    {
+     "q": "Effet possible du passif ?",
+     "r": "Mettre en valeur celui qui subit l'action, effacer l'auteur."
+    },
+    {
+     "q": "Interrogation totale ?",
+     "r": "Une question à laquelle on répond par oui ou non."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C07-N5.svg",
+    "alt": "Tableau : les quatre types de phrases avec un exemple, et les quatre couples de formes de phrases.",
+    "legende": "Types et formes de phrases.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S1-C07-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C07-N4"
+   ],
+   "format": "qcm",
+   "enonce": "À quel registre de langue appartient le mot « bouquin » ?",
+   "indices": [
+    "Comment le dirais-tu dans une lettre officielle ?"
+   ],
+   "corrige": [
+    "« bouquin » est l'équivalent familier de « livre » (courant) et d'« ouvrage » (soutenu)."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "« Littéraire » n'est pas un registre de langue.",
+   "verification": "double_resolution",
+   "choix": [
+    "Soutenu",
+    "Courant",
+    "Familier",
+    "Littéraire"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S1-C07-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C07-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "« Je pense que tu réussiras. » Quelle est la nature de la proposition « que tu réussiras » ? (réponds par un ou deux mots)",
+   "indices": [
+    "« que » a-t-il un antécédent ?"
+   ],
+   "corrige": [
+    "Elle est introduite par la conjonction « que » (sans antécédent) et complète le verbe « pense » (COD) : subordonnée conjonctive complétive."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Ce n'est pas une relative : « que » n'a pas d'antécédent.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "complétive",
+    "subordonnée complétive",
+    "conjonctive complétive",
+    "conjonctive",
+    "subordonnée conjonctive complétive",
+    "complétive conjonctive"
+   ]
+  },
+  {
+   "id": "FR-S1-C07-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C07-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle est la valeur du présent dans : « La Terre tourne autour du Soleil » ?",
+   "indices": [
+    "Cette phrase était-elle vraie il y a cent ans ? Le sera-t-elle demain ?"
+   ],
+   "corrige": [
+    "L'énoncé est vrai en tout temps, indépendamment du moment où l'on parle.",
+    "Présent de vérité générale."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Ce n'est pas un présent d'énonciation : ce n'est pas vrai seulement « maintenant ».",
+   "verification": "double_resolution",
+   "choix": [
+    "Présent d'énonciation",
+    "Présent de vérité générale",
+    "Présent de narration",
+    "Présent d'habitude"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C07-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C07-N1"
+   ],
+   "format": "qcm",
+   "enonce": "« Bien qu'il pleuve, le match aura lieu. » Quelle est la nature de « Bien qu'il pleuve » ?",
+   "indices": [
+    "Le match a-t-il lieu à cause de la pluie ou malgré la pluie ?"
+   ],
+   "corrige": [
+    "« Bien que » introduit une concession : le match a lieu malgré la pluie.",
+    "Subordonnée circonstancielle de concession, au subjonctif."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Ne confonds pas cause (parce que) et concession (bien que).",
+   "verification": "double_resolution",
+   "choix": [
+    "Subordonnée circonstancielle de cause",
+    "Subordonnée circonstancielle de concession",
+    "Subordonnée relative",
+    "Subordonnée circonstancielle de but"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C07-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C07-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quel est le champ lexical dominant : « La pirogue glissait sur les vagues ; les pêcheurs lançaient leurs filets vers le large, loin du rivage. » (un nom, éventuellement précédé de « la »)",
+   "indices": [
+    "Trouve le nom qui englobe tous ces mots."
+   ],
+   "corrige": [
+    "Mots : pirogue, vagues, pêcheurs, filets, large, rivage.",
+    "Champ lexical de la mer (ou de la pêche)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Un champ lexical se nomme par un nom général, pas par un mot recopié du texte.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "la mer",
+    "mer",
+    "la pêche",
+    "pêche",
+    "la mer et la pêche"
+   ]
+  },
+  {
+   "id": "FR-S1-C07-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C07-N5"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Mets à la voix passive : « Les élèves ont planté cent arbres. »",
+   "indices": [
+    "Que devient le COD ? À quel temps est le verbe ?"
+   ],
+   "corrige": [
+    "Le COD « cent arbres » devient sujet ; « ont planté » (passé composé) devient « ont été plantés » (accord au masculin pluriel).",
+    "Le sujet devient complément d'agent : « par les élèves »."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Garde le passé composé : « ont été plantés » et non « sont plantés ».",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "Cent arbres ont été plantés par les élèves.",
+    "Cent arbres ont été plantés par les élèves"
+   ]
+  },
+  {
+   "id": "FR-S1-C07-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S1-C07-N1",
+    "FR-S1-C07-N2",
+    "FR-S1-C07-N3",
+    "FR-S1-C07-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis ce passage, puis réponds.\n\n« Si les pluies revenaient à temps, nous pourrions sauver la récolte. Mais le ciel, qui reste désespérément bleu, ne promet rien. Chaque matin, les femmes scrutent l'horizon avant qu'elles ne partent aux champs. Quelle angoisse ! On raconte que les puits du village voisin seraient déjà à sec. » (texte d'exemple)\n\n1. Donne la nature et la fonction de « qui reste désespérément bleu ».\n2. Donne la nature de « avant qu'elles ne partent aux champs » et justifie le mode du verbe.\n3. Quelle est la valeur du conditionnel dans « pourrions » ? et dans « seraient » ?\n4. Quel est le type de la phrase « Quelle angoisse ! » et que traduit-elle ?\n5. Quelle connotation a l'adverbe « désespérément » appliqué au ciel bleu ?",
+   "indices": [
+    "Cherche l'antécédent de « qui ».",
+    "« avant que » + quel mode ?",
+    "« On raconte que » : l'information est-elle sûre ?"
+   ],
+   "corrige": [
+    "1. Proposition subordonnée relative introduite par le pronom relatif « qui » ; complément de l'antécédent « le ciel ».",
+    "2. Subordonnée circonstancielle de temps (antériorité) introduite par « avant que » ; le verbe « partent » est au subjonctif car « avant que » exige le subjonctif (le « ne » est explétif, sans valeur négative).",
+    "3. « pourrions » : conditionnel d'hypothèse (système « si + imparfait → conditionnel présent ») ; « seraient » : conditionnel d'information non vérifiée (« On raconte que » : rumeur).",
+    "4. Type exclamatif : il exprime l'inquiétude et l'émotion collective du village face à la sécheresse.",
+    "5. Le ciel bleu, d'ordinaire positif (beau temps), prend ici une connotation négative : « désespérément » montre qu'il signifie l'absence de pluie, donc la menace de famine ; il traduit le désespoir des villageois."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    2,
+    1,
+    2
+   ],
+   "piege": "Le « ne » de « avant qu'elles ne partent » n'est pas une négation : c'est un « ne » explétif.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S1-C07-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S1-C07-N4",
+    "FR-S1-C07-N5",
+    "FR-S1-C07-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Réécris ce message en registre courant (ou soutenu) adapté à une lettre au proviseur, puis justifie trois transformations que tu as faites.\n\n« Salut ! Ça va ? Moi, j'peux pas venir demain au cours parce que ma mère, elle est malade. Faut que j'reste avec elle. Le prof, il a dit qu'on aurait un contrôle, j'sais pas c'est quand. »",
+   "indices": [
+    "Repère toutes les marques familières : élisions (j'peux), « ça », « faut », négation sans « ne », dislocations.",
+    "Pense aux formules d'une lettre officielle."
+   ],
+   "corrige": [
+    "Réécriture (formule d'appel et première phrase) : « Monsieur le Proviseur, je vous informe que je ne pourrai pas assister au cours de demain, car ma mère est malade. »",
+    "Réécriture (suite) : « Je dois rester auprès d'elle. Notre professeur nous a annoncé un contrôle ; je souhaiterais savoir à quelle date il aura lieu afin de m'y préparer. Veuillez agréer, Monsieur le Proviseur, l'expression de mes salutations respectueuses. »",
+    "Justification 1 : suppression du registre familier (« Salut ! Ça va ? », « j'peux », « Faut ») et rétablissement de la négation complète (« je ne pourrai pas »).",
+    "Justification 2 : suppression des dislocations familières « ma mère, elle est malade », « Le prof, il a dit » → « ma mère est malade », « Notre professeur nous a annoncé » (phrase neutre, mot « professeur » au lieu de « prof »).",
+    "Justification 3 : l'interrogation indirecte incorrecte « j'sais pas c'est quand » devient une subordonnée correcte « savoir à quelle date il aura lieu », et le conditionnel de politesse « je souhaiterais » adoucit la demande ; formules de lettre adaptées au destinataire."
+   ],
+   "bareme": [
+    2,
+    2,
+    1,
+    1,
+    2
+   ],
+   "piege": "Ne pas garder « c'est quand » : l'interrogation indirecte se construit sans inversion ni « est-ce que ».",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Donner la nature d'une proposition sans sa fonction (ou l'inverse).",
+  "Confondre « que » pronom relatif (avec antécédent) et « que » conjonction.",
+  "Nommer un temps sans sa valeur, ou confondre futur et conditionnel.",
+  "Écrire en registre familier dans les réponses rédigées.",
+  "Relever un champ lexical sans l'interpréter ou le nommer par un mot du texte."
+ ]
+}
