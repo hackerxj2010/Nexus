@@ -7,6 +7,10 @@ import { Riche } from '../Riche'
 import { BoutonAudio } from './communs'
 import { contexteTuteur } from './Tuteur'
 
+/** Évite d'afficher deux fois un exemple déjà rédigé dans le cours. */
+const sansEspaces = (s: string) => s.replace(/\s+/g, '').toLowerCase()
+const dejaDansCours = (cours: string, enonce: string) => sansEspaces(cours).includes(sansEspaces(enonce).slice(0, 40))
+
 const NIVEAUX = [['phrase', 'En 1 phrase'], ['simple', 'Simplement'], ['complete', 'En entier']] as const
 
 export function VueNotion({ d, id }: { d: DonneesMatiere; id: string }) {
@@ -47,7 +51,7 @@ export function VueNotion({ d, id }: { d: DonneesMatiere; id: string }) {
 
     {n.formules?.length ? <div className="encadre propriete"><b className="etiquette">Formules à retenir</b><ul className="formules">{n.formules.map(f => <li key={f}><Riche texte={f} enLigne /></li>)}</ul></div> : null}
 
-    {n.exemples_resolus?.map((x, i) => <ExempleResolu key={i} num={i + 1} enonce={x.enonce} etapes={x.etapes} estompe={i > 0} />)}
+    {n.exemples_resolus?.filter(x => !dejaDansCours(n.cours_md, x.enonce)).map((x, i) => <ExempleResolu key={i} num={i + 1} enonce={x.enonce} etapes={x.etapes} estompe={i > 0} />)}
 
     <Rappel n={n} />
     {n.analogie ? <div className="encadre analogie"><b className="etiquette">🌍 Pour bien voir</b><Riche texte={n.analogie} /></div> : null}
@@ -101,7 +105,7 @@ function Rappel({ n }: { n: Notion }) {
   const r = typeof n.rappel_anterieur === 'string' ? { classe: '', texte: n.rappel_anterieur } : n.rappel_anterieur
   const prerequis = (n.prerequis_notions ?? []).filter(p => titreNotion(p) !== p)
   return <div className="encadre rappel"><b className="etiquette">🔙 Tu te souviens{r.classe ? ` de la ${r.classe}` : ''} ?</b>
-    <Riche texte={r.texte} />
+    <Riche texte={r.texte.replace(/^\s*Tu te souviens[^?]*\?\s*/i, '')} />
     {prerequis.length > 0 && <p className="note">Revoir : {prerequis.map(p => <a key={p} href={lien('n', p)}>{titreNotion(p)}</a>).reduce<React.ReactNode[]>((a, x, i) => i ? [...a, ' · ', x] : [x], [])}</p>}
   </div>
 }

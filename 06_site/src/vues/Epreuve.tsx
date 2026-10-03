@@ -78,7 +78,10 @@ function Composition({ ep, d }: { ep: Epreuve; d: DonneesMatiere }) {
   </section>
 
   if (phase === 'en_cours') return <section>
-    <div className={`minuteur ${reste < 600 ? 'alerte' : ''}`} role="timer" aria-live="off">⏱️ {Math.floor(reste / 3600)}:{String(Math.floor(reste % 3600 / 60)).padStart(2, '0')}:{String(reste % 60).padStart(2, '0')}{reste < 600 && ' — relis-toi !'}</div>
+    <div className={`minuteur ${reste < 600 ? 'alerte' : ''}`}>
+      <span role="timer" aria-live="off">⏱️ {Math.floor(reste / 3600)}:{String(Math.floor(reste % 3600 / 60)).padStart(2, '0')}:{String(reste % 60).padStart(2, '0')}{reste < 600 && ' · relis-toi !'}</span>
+      <button className="petit" onClick={() => setPhase('correction')}>Rendre</button>
+    </div>
     <div className="carte sujet"><Riche texte={ep.enonce_md} /></div>
     <label htmlFor="brouillon">Brouillon</label>
     <textarea id="brouillon" rows={8} value={brouillon} onChange={x => setBrouillon(x.target.value)} />

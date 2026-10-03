@@ -11,7 +11,7 @@ const pub = path.join(site, 'public')
 const MATS = [
   { id: 'M', nom: 'Mathématiques', couleur: '#2563eb', icone: '📐' },
   { id: 'PC', nom: 'Physique-Chimie', couleur: '#dc2626', icone: '⚗️' },
-  { id: 'SVT', nom: 'SVT', couleur: '#16a34a', icone: '🌿' },
+  { id: 'SVT', nom: 'SVT', couleur: '#15803d', icone: '🌿' },
   { id: 'FR', nom: 'Français', couleur: '#9333ea', icone: '📖' },
 ]
 

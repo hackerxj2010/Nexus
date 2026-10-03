@@ -31,6 +31,17 @@
   --ombre: 0 2px 0 #0a0c12, 0 6px 18px rgb(0 0 0 / 0.3); color-scheme: dark;
 }
 
+
+/* Texte aux couleurs de matière : assombri en clair, éclairci en sombre (contraste AA) */
+:root, [style*="--mat"] { --mat-txt: color-mix(in srgb, var(--mat) 80%, #000) }
+.encadre { --c-txt: color-mix(in srgb, var(--c, var(--mat)) 80%, #000) }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-mode="clair"]):not([data-theme="light"]), :root:not([data-mode="clair"]):not([data-theme="light"]) [style*="--mat"] { --mat-txt: color-mix(in srgb, var(--mat) 50%, #fff) }
+  :root:not([data-mode="clair"]):not([data-theme="light"]) .encadre { --c-txt: color-mix(in srgb, var(--c, var(--mat)) 50%, #fff) }
+}
+:root[data-mode="sombre"], :root[data-mode="sombre"] [style*="--mat"] { --mat-txt: color-mix(in srgb, var(--mat) 50%, #fff) }
+:root[data-mode="sombre"] .encadre { --c-txt: color-mix(in srgb, var(--c, var(--mat)) 50%, #fff) }
+
 * { box-sizing: border-box }
 html { -webkit-text-size-adjust: 100% }
 body {
@@ -43,7 +54,7 @@ h1, h2, h3, h4 { font-family: var(--police-titre); line-height: 1.15; text-wrap:
 h1 { font-size: 1.9rem } h2 { font-size: 1.35rem } h3 { font-size: 1.15rem }
 h1 small, h2 small, h3 small { font-family: var(--police-texte); font-size: 0.7em; font-weight: 400; color: var(--encre-douce) }
 a { color: inherit; text-underline-offset: 3px }
-p a, li a, .note a { color: var(--mat); font-weight: 600 }
+p a, li a, .note a { color: var(--mat-txt); font-weight: 600 }
 img { max-width: 100% }
 :focus-visible { outline: 3px solid var(--soleil); outline-offset: 2px; border-radius: 6px }
 .visuellement-cache { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0) }
@@ -112,7 +123,7 @@ legend { font-weight: 700; padding: 0 6px }
 .erreur { color: var(--ko) }
 .fil { font-size: 0.85rem; color: var(--encre-douce); margin-top: 8px }
 .fil a { text-decoration: none; font-weight: 600 }
-.numero { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mat); font-weight: 700 }
+.numero { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--mat-txt); font-weight: 700 }
 .chargement { display: flex; gap: 10px; align-items: center; padding: 40px 0; justify-content: center; color: var(--encre-douce) }
 .rond { width: 18px; height: 18px; border-radius: 50%; border: 3px solid var(--trait); border-top-color: var(--soleil); animation: tourne 0.8s linear infinite }
 @keyframes tourne { to { transform: rotate(360deg) } }
@@ -185,7 +196,7 @@ legend { font-weight: 700; padding: 0 6px }
 /* ---------- Matière : chemin des chapitres ---------- */
 .titre-matiere { display: flex; align-items: center; gap: 12px }
 .titre-matiere span { font-size: 2.4rem }
-.titre-matiere h1 { color: var(--mat); margin: 0.3em 0 }
+.titre-matiere h1 { color: var(--mat-txt); margin: 0.3em 0 }
 .onglets { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; margin: 10px 0 }
 .onglets button { flex: none; border-radius: 99px; min-height: 40px }
 .onglets button.actif { background: var(--mat); border-color: var(--mat); color: #fff }
@@ -200,7 +211,7 @@ legend { font-weight: 700; padding: 0 6px }
 .pion { flex: none; width: 46px; height: 46px; border-radius: 50%; display: grid; place-items: center; background: var(--mat); color: #fff; font-family: var(--police-titre); font-weight: 800; font-size: 1.3rem; box-shadow: 0 3px 0 color-mix(in srgb, var(--mat) 55%, #000) }
 .etape-texte { display: flex; flex-direction: column; min-width: 0 }
 .etape-texte small { color: var(--encre-douce) }
-.badge-conseil { font-style: normal; font-size: 0.75rem; font-weight: 700; color: var(--mat) }
+.badge-conseil { font-style: normal; font-size: 0.75rem; font-weight: 700; color: var(--mat-txt) }
 .etoiles { color: var(--soleil); letter-spacing: 1px; white-space: nowrap }
 @media (max-width: 520px) { .etape { transform: none } .chemin::before { left: 35px } }
 
@@ -209,7 +220,7 @@ legend { font-weight: 700; padding: 0 6px }
 .ligne-epreuve span:first-child { display: flex; flex-direction: column; min-width: 0 }
 .ligne-epreuve small { color: var(--encre-douce) }
 .fleche { font-size: 1.6rem; color: var(--encre-douce) }
-.note-obtenue { font-weight: 800; color: var(--mat); white-space: nowrap }
+.note-obtenue { font-weight: 800; color: var(--mat-txt); white-space: nowrap }
 .vide p:first-child { margin-top: 0 }
 
 /* ---------- Chapitre ---------- */
@@ -219,11 +230,11 @@ legend { font-weight: 700; padding: 0 6px }
 .ligne-notion, .ligne-exo { display: flex; align-items: center; gap: 12px; text-decoration: none; background: var(--carte); border: 2px solid var(--trait); border-radius: 14px; padding: 10px 12px; min-width: 0 }
 .ligne-notion span:last-child { display: flex; flex-direction: column }
 .ligne-notion small { color: var(--encre-douce) }
-.pion-notion, .exo-num { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; border: 2px solid var(--mat); color: var(--mat); font-weight: 800 }
+.pion-notion, .exo-num { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; border: 2px solid var(--mat); color: var(--mat-txt); font-weight: 800 }
 .ligne-notion.lue .pion-notion, .reussi .exo-num { background: var(--mat); color: #fff }
 .exo-texte { flex: 1; min-width: 0; font-size: 0.92rem }
 .exo-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; font-size: 0.75rem; color: var(--encre-douce) }
-.difficulte { color: var(--mat); letter-spacing: 1px; font-size: 0.8rem }
+.difficulte { color: var(--mat-txt); letter-spacing: 1px; font-size: 0.8rem }
 .difficulte .vide { color: var(--trait) }
 .boss { border: 2px dashed var(--mat); background: color-mix(in srgb, var(--mat) 5%, var(--carte)) }
 .pastille-texte { background: var(--trait); border-radius: 6px; padding: 0 6px; font-size: 0.85em }
@@ -232,16 +243,16 @@ legend { font-weight: 700; padding: 0 6px }
 .livre { font-size: 1.02rem }
 .titre-notion { display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 0 10px; border-bottom: 3px solid var(--mat); padding-bottom: 8px; margin-bottom: 12px }
 .titre-notion .numero { grid-column: 1 / -1 }
-.riche { overflow-wrap: anywhere }
+.riche { overflow-wrap: break-word }
 .riche p { margin: 0.5em 0 }
 .riche table { border-collapse: collapse; display: block; overflow-x: auto; max-width: 100% }
-.riche th, .riche td { border: 1px solid var(--trait); padding: 4px 8px; text-align: left }
+.riche th, .riche td { border: 1px solid var(--trait); padding: 4px 8px; text-align: left; overflow-wrap: normal; hyphens: manual }
 .riche th { background: color-mix(in srgb, var(--mat) 10%, var(--carte)) }
 .katex-display { overflow-x: auto; overflow-y: hidden; padding: 4px 0 }
 .katex { font-size: 1.08em }
 .encadre { border-radius: 12px; padding: 10px 14px; margin: 14px 0; border-left: 6px solid var(--c, var(--mat)); background: color-mix(in srgb, var(--c, var(--mat)) 9%, var(--carte)); min-width: 0 }
 .encadre > ul, .encadre > ol { padding-left: 1.2em; margin: 0.4em 0 }
-.etiquette { display: inline-block; font-family: var(--police-titre); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--c, var(--mat)) }
+.etiquette { display: inline-block; font-family: var(--police-titre); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--c-txt) }
 .encadre.definition { --c: #2563eb }
 .encadre.propriete, .encadre.theoreme { --c: #7c3aed }
 .encadre.methode { --c: #15803d }
@@ -276,7 +287,7 @@ legend { font-weight: 700; padding: 0 6px }
 .exo-entete { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap }
 .enonce { font-size: 1.05rem }
 .chrono, .minuteur { font-family: var(--police-titre); font-size: 1.3rem; font-weight: 800; font-variant-numeric: tabular-nums }
-.minuteur { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 58px); z-index: 4; background: var(--carte); border: 2px solid var(--trait); border-radius: 12px; padding: 6px 12px; text-align: center }
+.minuteur { display: flex; justify-content: space-between; align-items: center; gap: 10px; position: sticky; top: calc(env(safe-area-inset-top, 0px) + 58px); z-index: 4; background: var(--carte); border: 2px solid var(--trait); border-radius: 12px; padding: 6px 12px; text-align: center }
 .minuteur.alerte { border-color: var(--ko); color: var(--ko) }
 .choix { display: grid; gap: 8px; margin: 10px 0 }
 .choix button { justify-content: flex-start; text-align: left; font-weight: 500 }
@@ -289,7 +300,7 @@ legend { font-weight: 700; padding: 0 6px }
 .corrige li { margin: 6px 0 }
 .ligne-bareme { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: start; cursor: pointer }
 .ligne-bareme input { margin-top: 0.35em }
-.pts { font-size: 0.8rem; font-weight: 700; color: var(--mat); white-space: nowrap }
+.pts { font-size: 0.8rem; font-weight: 700; color: var(--mat-txt); white-space: nowrap }
 .resultat { margin-top: 12px; animation: monte 0.35s }
 .resultat.bravo h3 { color: var(--ok) }
 .resultat.rate h3 { color: var(--ko) }
@@ -313,7 +324,7 @@ legend { font-weight: 700; padding: 0 6px }
 .fiche { background: var(--carte); border: 2px solid var(--mat); border-radius: 20px; padding: 28px 18px; text-align: center; box-shadow: 0 6px 0 color-mix(in srgb, var(--mat) 35%, var(--trait)); margin: 14px 0; min-height: 200px; display: flex; flex-direction: column; justify-content: center; transition: transform 0.3s }
 .fiche.retournee { animation: retourne 0.35s }
 @keyframes retourne { 50% { transform: rotateX(70deg) } }
-.fiche-matiere { color: var(--mat); font-weight: 700; font-size: 0.85rem; margin: 0 }
+.fiche-matiere { color: var(--mat-txt); font-weight: 700; font-size: 0.85rem; margin: 0 }
 .fiche-q { font-size: 1.25rem; font-family: var(--police-titre); margin: 0.4em 0 }
 .fiche-r { font-size: 1.15rem; font-weight: 700; color: var(--ok); border-top: 2px dashed var(--trait); padding-top: 10px }
 
@@ -324,7 +335,7 @@ legend { font-weight: 700; padding: 0 6px }
 .grille-suivi { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px }
 .matiere-suivi { border-top: 6px solid var(--mat); margin: 0 }
 .matiere-suivi h3 { margin-top: 0 }
-.prevision b { font-family: var(--police-titre); font-size: 2rem; color: var(--mat) }
+.prevision b { font-family: var(--police-titre); font-size: 2rem; color: var(--mat-txt) }
 .chiffres { padding-left: 1.1em; font-size: 0.9rem; margin: 6px 0 }
 .courbe { width: 100%; height: auto; max-width: 100% }
 .courbe .grille { stroke: var(--trait); stroke-width: 1 }
@@ -363,7 +374,7 @@ legend { font-weight: 700; padding: 0 6px }
 .saisie-chat textarea { flex: 1; min-width: 0 }
 
 /* ---------- Remédiation ---------- */
-.sous-titre-page { font-family: var(--police-titre); font-size: 1.3rem; color: var(--mat); margin: 0 }
+.sous-titre-page { font-family: var(--police-titre); font-size: 1.3rem; color: var(--mat-txt); margin: 0 }
 .etapes-remediation { list-style: none; display: flex; gap: 4px; padding: 0; overflow-x: auto; margin: 12px 0 }
 .etapes-remediation li { flex: 1 0 auto; font-size: 0.75rem; font-weight: 700; padding: 6px 8px; border-radius: 99px; background: var(--trait); color: var(--encre-douce); text-align: center }
 .etapes-remediation li.actif { background: var(--mat); color: #fff }

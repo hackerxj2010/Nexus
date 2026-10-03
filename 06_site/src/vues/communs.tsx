@@ -9,7 +9,7 @@ export function Chargement() {
 export function Toasts() {
   const [liste, setListe] = useState<Toast[]>([])
   useEffect(() => surToast(t => {
-    setListe(l => [...l, t])
+    setListe(l => [...l, t].slice(-2))
     setTimeout(() => setListe(l => l.filter(x => x.id !== t.id)), 3500)
   }), [])
   return <div className="toasts" aria-live="polite">{liste.map(t => <div key={t.id} className={`toast ${t.type}`}>{t.texte}</div>)}</div>
