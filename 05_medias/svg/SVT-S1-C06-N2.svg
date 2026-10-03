@@ -6,10 +6,10 @@
 <text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">L'absorption racinaire</text>
 <text x="150" y="66" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">Racine (vue externe)</text>
 <path d="M178 80 L202 80 L200 470 Q190 505 180 470 Z" fill="#fef3c7" stroke="#92400e" stroke-width="2"/>
-<path d="M190 105 q -27.5 4 -55 30" fill="none" stroke="#92400e" stroke-width="5" stroke-linecap="round"/>
-<path d="M190 125 q 25.0 4 50 30" fill="none" stroke="#92400e" stroke-width="5" stroke-linecap="round"/>
-<path d="M190 155 q -22.5 4 -45 30" fill="none" stroke="#92400e" stroke-width="5" stroke-linecap="round"/>
-<path d="M190 180 q 21.0 4 42 30" fill="none" stroke="#92400e" stroke-width="5" stroke-linecap="round"/>
+<path d="M179 105 q -28 2 -55 36" fill="none" stroke="#92400e" stroke-width="4" stroke-linecap="round"/>
+<path d="M201 125 q 25 2 50 36" fill="none" stroke="#92400e" stroke-width="4" stroke-linecap="round"/>
+<path d="M179 155 q -22 2 -45 36" fill="none" stroke="#92400e" stroke-width="4" stroke-linecap="round"/>
+<path d="M201 180 q 21 2 42 36" fill="none" stroke="#92400e" stroke-width="4" stroke-linecap="round"/>
 <line x1="178" y1="245" x2="160" y2="239" stroke="#a16207" stroke-width="1.6"/>
 <line x1="201" y1="245" x2="220" y2="239" stroke="#a16207" stroke-width="1.6"/>
 <line x1="178" y1="253" x2="156" y2="247" stroke="#a16207" stroke-width="1.6"/>

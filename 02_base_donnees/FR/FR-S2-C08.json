@@ -1,0 +1,536 @@
+{
+ "id": "FR-S2-C08",
+ "matiere": "FR",
+ "semestre": 2,
+ "ordre": 8,
+ "titre": "La poésie",
+ "objectifs": [
+  "L'élève doit être capable de compter les syllabes d'un vers, de nommer le mètre et de repérer césure, enjambement et rejet.",
+  "L'élève doit être capable d'identifier la disposition et la richesse des rimes, les strophes et les formes poétiques (sonnet, vers libre, poème en prose).",
+  "L'élève doit être capable d'analyser le rythme, les sonorités et les images d'un poème et de les relier à une émotion.",
+  "L'élève doit être capable de reconnaître les registres poétiques et les fonctions de la poésie, y compris dans la poésie africaine francophone."
+ ],
+ "prerequis": [
+  "FR-3e-POESIE",
+  "FR-S1-C02"
+ ],
+ "notions": [
+  {
+   "id": "FR-S2-C08-N1",
+   "titre": "La versification : compter les syllabes, les vers, la césure",
+   "prerequis_notions": [
+    "FR-3e-POESIE"
+   ],
+   "cours_md": "## 1. Le vers et la syllabe\n\n:::definition\nUn **vers** est une ligne de poème ; il commence en général par une majuscule. En poésie régulière, on mesure le vers en **syllabes** prononcées (on dit aussi « pieds »).\n:::\n\n| Nombre de syllabes | Nom du vers |\n|---|---|\n| 12 | **alexandrin** |\n| 10 | **décasyllabe** |\n| 8 | **octosyllabe** |\n| 6 | hexasyllabe |\n| impair (5, 7, 9) | pentasyllabe, heptasyllabe, ennéasyllabe |\n\n## 2. Les règles pour compter\n\n1. **Le « e » muet se prononce devant une consonne** : « Il / pleu / re / dans / mon / cœur » = 6 syllabes.\n2. **Le « e » muet s'élide devant une voyelle** (ou un h muet) : « Com / m(e) il / pleut / sur / la / ville » = 6 syllabes.\n3. **Le « e » muet en fin de vers ne compte pas** : « vil / l(e) ».\n4. **Diérèse** : on sépare deux voyelles qui se prononcent d'habitude ensemble, pour allonger le mot et le mettre en valeur : « na / ti / on » (3 syllabes au lieu de 2), « li / on ».\n5. **Synérèse** : on les prononce en une seule syllabe : « pied », « nuit ».\n\n> Exemple : « Demain, dès l'aube, à l'heure où blanchit la campagne » (Victor Hugo, *Les Contemplations*, 1856)\n> De (1) main (2) dès (3) l'au (4) b(e) à (5) l'heu (6) // r(e) où (7) blan (8) chit (9) la (10) cam (11) pa (12) gn(e)\n> → **12 syllabes : un alexandrin** (« aube » et « heure » s'élident devant « à » et « où » ; le « e » final de « campagne » ne compte pas).\n\n## 3. Césure, hémistiche, coupes\n\n- Dans l'alexandrin classique, la **césure** est une pause au milieu du vers, après la 6e syllabe ; elle partage le vers en deux **hémistiches** de 6 syllabes (noté //).\n- Les **coupes** sont des pauses secondaires, marquées par le sens et la ponctuation.\n\n## 4. Vers et phrase : enjambement, rejet, contre-rejet\n\n:::definition\n- **Enjambement** : la phrase déborde d'un vers sur le suivant sans pause.\n- **Rejet** : un mot ou un court groupe de mots est **rejeté** au début du vers suivant, ce qui le met en valeur.\n- **Contre-rejet** : un mot ou un court groupe placé à la **fin** d'un vers annonce la phrase qui continue au vers suivant.\n:::\n\n> « Serait-ce déjà lui ? C'est bien à l'escalier\n> Dérobé. » (Victor Hugo, *Hernani*, 1830) : « Dérobé » est un **rejet** célèbre, qui a fait scandale car il brisait l'alexandrin classique.\n\n:::methode\n**Analyser la versification d'un vers**\n1. Compte les syllabes (applique les règles du e muet).\n2. Nomme le vers (alexandrin, octosyllabe…).\n3. Repère césure et coupes, enjambements, rejets.\n4. Interprète : rythme ample ou heurté, mot mis en valeur, effet de lenteur ou d'élan.\n:::\n\n:::attention\nCompter les syllabes n'est pas un but en soi : on ne le fait que pour **interpréter** (pourquoi un vers court ? pourquoi ce rejet ?).\n:::",
+   "definition": "La versification mesure les vers en syllabes prononcées (alexandrin = 12, décasyllabe = 10, octosyllabe = 8) selon les règles du e muet, de la diérèse et de la synérèse ; elle étudie la césure, les coupes et les décalages entre vers et phrase (enjambement, rejet, contre-rejet).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Un vers se mesure en syllabes prononcées ; l'alexandrin en a 12, coupé en deux moitiés de 6.",
+    "simple": "Comme les pas d'une danse au son du tam-tam : chaque vers a son nombre de pas, et un pas déplacé (le rejet) attire tous les regards.",
+    "complete": "Le mètre français repose sur le décompte syllabique : le e caduc compte devant consonne, s'élide devant voyelle et ne compte pas en fin de vers ; les groupes vocaliques admettent diérèse ou synérèse selon la tradition et l'effet recherché. L'alexandrin classique est scandé par une césure médiane (6//6) ; les discordances entre mètre et syntaxe (enjambement, rejet, contre-rejet) produisent des effets de mise en relief."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Compte les syllabes : « Comme il pleut sur la ville ».",
+     "etapes": [
+      "Com / m(e) il : le e de « Comme » s'élide devant « il ».",
+      "pleut / sur / la / vil / l(e) : le e final ne compte pas.",
+      "Total : Com (1) mil (2) pleut (3) sur (4) la (5) ville (6) = 6 syllabes (hexasyllabe)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Compter le e muet devant une voyelle ou en fin de vers.",
+    "Oublier de compter le e muet devant une consonne.",
+    "Confondre enjambement (débordement sans pause) et rejet (mot isolé au début du vers suivant).",
+    "Compter les syllabes sans interpréter."
+   ],
+   "astuces": [
+    "Lis le vers à voix haute en tapant chaque syllabe du doigt sur la table.",
+    "Souligne au crayon tous les e muets avant de compter : décide pour chacun (compte / élidé / fin de vers)."
+   ],
+   "mnemo": "« Douze pour l'alexandrin (comme les douze mois), dix pour le décasyllabe (comme les dix doigts), huit pour l'octosyllabe (comme les huit pattes de l'araignée). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu comptais déjà les syllabes et tu connaissais l'alexandrin. En seconde, il faut maîtriser l'élision, la diérèse, la césure et le rejet, et surtout les interpréter."
+   },
+   "methode_redaction": "Dans un commentaire, écris : « L'alexandrin régulier (6//6) donne au vers une ampleur solennelle ; le rejet de \"Dérobé\" isole le mot et crée la surprise. » N'écris jamais le découpage complet sauf si on te le demande.",
+   "flash": [
+    {
+     "q": "Combien de syllabes dans un alexandrin ?",
+     "r": "Douze."
+    },
+    {
+     "q": "Combien dans un octosyllabe ?",
+     "r": "Huit."
+    },
+    {
+     "q": "Le e muet devant une voyelle compte-t-il ?",
+     "r": "Non, il s'élide."
+    },
+    {
+     "q": "Qu'est-ce qu'une diérèse ?",
+     "r": "Prononcer en deux syllabes deux voyelles habituellement prononcées en une (na-ti-on)."
+    },
+    {
+     "q": "Qu'est-ce qu'un rejet ?",
+     "r": "Un mot ou court groupe rejeté au début du vers suivant, mis en valeur."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C08-N1.svg",
+    "alt": "Schéma en cinq étapes pour compter les syllabes : repérer les e muets, les compter devant consonne, les élider devant voyelle, les ignorer en fin de vers, puis nommer le vers.",
+    "legende": "Méthode de décompte des syllabes.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C08-N2",
+   "titre": "Les rimes, les strophes et les formes poétiques",
+   "prerequis_notions": [
+    "FR-S2-C08-N1"
+   ],
+   "cours_md": "## 1. La rime\n\n:::definition\nLa **rime** est le retour d'un même son (au moins la dernière voyelle prononcée) à la fin de deux vers ou plus.\n:::\n\n**Disposition** (on note chaque rime par une lettre) :\n- **suivies** (ou plates) : AABB ;\n- **croisées** : ABAB ;\n- **embrassées** : ABBA.\n\n**Richesse** (nombre de sons communs) :\n- **pauvre** : un seul son commun (*ami / fini* : [i]) ;\n- **suffisante** : deux sons (*bonté / été* : [t] + [e]) ;\n- **riche** : trois sons ou plus (*charmant / dormant* : [ʁ] + [m] + [ɑ̃]).\n\n**Genre** : rime **féminine** si le mot se termine par un e muet (*ville, voyage*) ; **masculine** sinon (*cœur, raison*). La poésie classique alterne les deux.\n\n## 2. Les strophes\n\n| Nombre de vers | Strophe |\n|---|---|\n| 2 | distique |\n| 3 | tercet |\n| 4 | **quatrain** |\n| 5 | quintil |\n| 6 | sizain |\n\n## 3. Les formes poétiques\n\n- **Le sonnet** : **14 vers** répartis en **deux quatrains et deux tercets**, souvent en alexandrins ; dans le sonnet français, les quatrains riment souvent ABBA ABBA et les tercets CCD EED (ou CCD EDE). Le dernier vers (la **chute**) est souvent frappant. Exemple : Du Bellay, « Heureux qui, comme Ulysse… » (*Les Regrets*, 1558).\n- **La fable** : récit en vers suivi d'une morale (La Fontaine, *Fables*, 1668-1694).\n- **Le vers libre** : vers de longueurs variées, sans rime régulière ; la musicalité repose sur le rythme, les répétitions, les images (Apollinaire, *Alcools*, 1913 ; de nombreux poètes de la Négritude).\n- **Le poème en prose** : pas de vers, mais un texte court, dense, musical, riche en images (Baudelaire, *Petits Poèmes en prose*, publiés en 1869).\n\n:::propriete\nLa forme n'est jamais gratuite : la contrainte du sonnet concentre la pensée et prépare une chute ; le vers libre traduit souvent un élan, une révolte ou le refus des modèles imposés.\n:::\n\n:::methode\n**Étudier la forme d'un poème**\n1. Compte les strophes et les vers : forme fixe (sonnet) ou libre ?\n2. Note le schéma des rimes avec des lettres.\n3. Observe la richesse et l'alternance masculine/féminine si c'est utile.\n4. Interprète : que met en valeur la rime (mots rapprochés par le son et par le sens) ?\n:::\n\n:::attention\nDeux mots qui riment sont souvent liés par le **sens** (rapprochement ou opposition) : « voyage / âge », « toison / raison » chez Du Bellay. C'est cela qu'il faut commenter, plus que l'étiquette « rime suffisante ».\n:::",
+   "definition": "La rime est le retour d'un même son en fin de vers ; elle peut être suivie (AABB), croisée (ABAB) ou embrassée (ABBA), pauvre, suffisante ou riche ; les vers se regroupent en strophes (distique, tercet, quatrain…) et en formes (sonnet, fable, vers libre, poème en prose).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "La rime fait chanter la fin des vers ; le sonnet, c'est 14 vers : deux quatrains et deux tercets.",
+    "simple": "Les rimes croisées ABAB, c'est comme deux chanteurs qui se répondent ; les rimes embrassées ABBA, c'est comme deux bras qui en entourent deux autres.",
+    "complete": "La rime, homophonie de la dernière voyelle tonique et des sons qui la suivent, se décrit par sa disposition, sa richesse et son genre. Les strophes se nomment selon leur nombre de vers ; les formes fixes (sonnet, ballade, rondeau) imposent une architecture, tandis que le vers libre et le poème en prose, développés à partir du XIXe siècle, déplacent la poéticité vers le rythme et l'image."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Schéma des rimes : voyage / toison / raison / âge (Du Bellay).",
+     "etapes": [
+      "voyage (A), toison (B), raison (B), âge (A).",
+      "Schéma ABBA : rimes embrassées."
+     ]
+    },
+    {
+     "enonce": "Quelle forme : un poème de 14 vers en deux quatrains et deux tercets ?",
+     "etapes": [
+      "14 vers, 4 + 4 + 3 + 3.",
+      "C'est un sonnet."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre rimes croisées (ABAB) et embrassées (ABBA).",
+    "Appeler « strophe » chaque vers.",
+    "Croire qu'un poème sans rimes n'est pas un poème.",
+    "Étiqueter les rimes sans commenter les mots rapprochés."
+   ],
+   "astuces": [
+    "Écris les lettres A, B, C au bout de chaque vers au brouillon : le schéma apparaît tout seul.",
+    "Sonnet = « 4-4-3-3 = 14 »."
+   ],
+   "mnemo": "« Suivies : AABB comme deux paires de chaussures ; Croisées : ABAB comme des doigts croisés ; Embrassées : ABBA comme un câlin. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu connaissais les rimes suivies, croisées et embrassées. En seconde, tu étudies aussi leur richesse, les formes fixes comme le sonnet et la poésie libre."
+   },
+   "methode_redaction": "Dans ta copie, intègre la forme à l'analyse : « Le sonnet enferme la nostalgie du poète dans une forme stricte, et la chute du dernier tercet… »",
+   "flash": [
+    {
+     "q": "Schéma des rimes croisées ?",
+     "r": "ABAB."
+    },
+    {
+     "q": "Schéma des rimes embrassées ?",
+     "r": "ABBA."
+    },
+    {
+     "q": "Combien de vers dans un sonnet ?",
+     "r": "Quatorze (deux quatrains, deux tercets)."
+    },
+    {
+     "q": "Qu'est-ce qu'une rime féminine ?",
+     "r": "Une rime terminée par un e muet."
+    },
+    {
+     "q": "Qu'est-ce qu'un poème en prose ?",
+     "r": "Un poème sans vers, court, dense et musical (Baudelaire)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C08-N2.svg",
+    "alt": "Tableau récapitulatif : dispositions des rimes, richesse, noms des strophes, sonnet, vers libre et poème en prose.",
+    "legende": "Rimes, strophes et formes poétiques.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C08-N3",
+   "titre": "Le rythme, les sonorités et les images en poésie",
+   "prerequis_notions": [
+    "FR-S2-C08-N1",
+    "FR-S1-C02-N5"
+   ],
+   "cours_md": "## 1. Le rythme\n\n:::definition\nLe **rythme** d'un vers est créé par la place des **accents** (sur la dernière syllabe prononcée de chaque groupe de mots), des **coupes** et de la **césure**. On le note par le nombre de syllabes de chaque segment : 3/3//3/3, 6//6, 4/4/4…\n:::\n\n- **Rythme binaire** (6//6) : équilibre, harmonie, opposition de deux idées.\n- **Rythme ternaire** (4/4/4) : élan, insistance, progression. Exemple : « Toujours aimer, toujours souffrir, toujours mourir. » (Corneille, *Suréna*, 1674) : trois groupes de 4 syllabes, une anaphore de « toujours » et une gradation vers la mort.\n- **Rythme heurté** (segments inégaux, nombreuses ponctuations) : émotion, agitation, désordre.\n- **Vers courts** : légèreté, rapidité, ou au contraire sanglot ; **vers longs** : ampleur, solennité.\n\n## 2. Les sonorités\n\nRappel (chapitre des figures de style) : **allitération** (consonnes), **assonance** (voyelles).\n- Sons **doux** et **liquides** ([l], [m], [n], voyelles nasales) : douceur, langueur, tristesse.\n- Sons **durs** ([k], [t], [p], [r]) : violence, dureté, bruit.\n- **Harmonie imitative** : les sons imitent ce qu'ils évoquent.\n\n> « Il pleure dans mon cœur / Comme il pleut sur la ville » (Verlaine, 1874) : le rapprochement « pleure / pleut » associe les larmes et la pluie ; le son [l] et les sons sourds créent une musique mélancolique.\n\n## 3. Les images poétiques\n\nLes images (comparaisons, métaphores, personnifications, allégories) sont au cœur de la poésie : elles **transforment** le regard sur le monde. On repère souvent un **réseau d'images** (une métaphore filée, des images de la lumière et de l'ombre…).\n\n:::methode\n**Analyser le rythme et la musique d'un vers**\n1. Lis le vers à voix haute, marque les accents et les pauses.\n2. Note le découpage (6//6, 4/4/4…).\n3. Repère les sons répétés.\n4. Repère les images.\n5. Relie rythme + sons + images à une **émotion** ou une **idée** : c'est la seule étape qui rapporte vraiment des points.\n:::\n\n:::attention\nÉvite les interprétations mécaniques (« le son [r] montre toujours la colère ») : l'effet d'un son dépend du **sens des mots** qui le portent.\n:::\n\n:::remarque\nEn **poésie africaine**, le rythme est souvent lié au **chant**, à la **danse** et aux **instruments** : Senghor indique pour certains poèmes l'accompagnement musical (kôras, balafong, tam-tam). Les répétitions et les énumérations y rappellent la parole du griot.\n:::",
+   "definition": "Le rythme d'un vers naît des accents, des coupes et de la césure (binaire, ternaire, heurté) ; avec les sonorités (allitérations, assonances) et les images, il crée la musique et le sens du poème.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Rythme + sons + images = la musique du poème, qui exprime une émotion.",
+    "simple": "Un même message dit d'un ton calme ou d'un ton haché ne produit pas le même effet : le rythme d'un vers, c'est le ton de sa voix.",
+    "complete": "Le rythme résulte de la distribution des accents toniques en fin de groupes syntaxiques et de leur articulation avec la structure métrique (césure, coupes). Il se combine avec la matière phonique (récurrences consonantiques et vocaliques, harmonie imitative) et avec les réseaux d'images pour produire un sens qui excède le contenu notionnel des énoncés."
+   },
+   "analogie": "Au tam-tam, deux coups réguliers donnent un rythme calme (binaire), trois coups qui s'accélèrent appellent la danse (ternaire) : le poète fait de même avec les syllabes.",
+   "exemples_resolus": [
+    {
+     "enonce": "Découpe et interprète : « Toujours aimer, toujours souffrir, toujours mourir. »",
+     "etapes": [
+      "Toujours aimer (4) / toujours souffrir (4) / toujours mourir (4) : rythme ternaire 4/4/4.",
+      "Anaphore de « toujours » et gradation aimer → souffrir → mourir.",
+      "Effet : une marche fatale et implacable, de l'amour à la mort."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Découper un vers au hasard sans tenir compte de la syntaxe.",
+    "Attribuer un sens fixe à un son.",
+    "Oublier de relier rythme et sons au sens.",
+    "Ignorer les images, cœur du poème."
+   ],
+   "astuces": [
+    "Lis toujours le poème à voix haute (ou à voix basse) au moins deux fois.",
+    "Cherche d'abord l'émotion du poème, puis les procédés qui la produisent."
+   ],
+   "mnemo": "« R-S-I » : Rythme, Sonorités, Images, au service d'une émotion.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris l'allitération, l'assonance et les images. En seconde, on ajoute le rythme (binaire, ternaire) et on combine tous ces outils pour interpréter."
+   },
+   "methode_redaction": "Rédige : « Le rythme ternaire, renforcé par l'anaphore de \"toujours\", fait entendre une marche fatale qui mène de l'amour à la mort. »",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un rythme ternaire ?",
+     "r": "Un vers découpé en trois groupes (souvent 4/4/4)."
+    },
+    {
+     "q": "Effet fréquent du rythme binaire 6//6 ?",
+     "r": "Équilibre, harmonie ou opposition de deux idées."
+    },
+    {
+     "q": "Sur quelle syllabe tombe l'accent ?",
+     "r": "Sur la dernière syllabe prononcée d'un groupe de mots."
+    },
+    {
+     "q": "Un son [r] exprime-t-il toujours la colère ?",
+     "r": "Non, l'effet dépend du sens des mots."
+    },
+    {
+     "q": "À quoi est lié le rythme dans la poésie africaine ?",
+     "r": "Au chant, à la danse et aux instruments (kôras, balafong, tam-tam)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C08-N3.svg",
+    "alt": "Carte mentale de la musique du poème : rythme binaire, ternaire, heurté, sonorités et images, au service d'une émotion.",
+    "legende": "Rythme, sonorités et images.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C08-N4",
+   "titre": "Les registres et les fonctions de la poésie",
+   "prerequis_notions": [
+    "FR-S2-C08-N3"
+   ],
+   "cours_md": "## 1. Les grands registres poétiques\n\n:::definition\nLe **registre** (ou tonalité) est l'**effet dominant** qu'un texte cherche à produire sur le lecteur (émotion, admiration, rire, indignation…).\n:::\n\n| Registre | Effet / thèmes | Procédés | Exemple |\n|---|---|---|---|\n| **Lyrique** | expression des sentiments personnels (amour, nostalgie, fuite du temps, mort) | « je », exclamations, apostrophes, musicalité | Lamartine, « Le Lac » (1820) |\n| **Élégiaque** | plainte, deuil, mélancolie | vocabulaire de la tristesse, rythme lent | Hugo, « Demain, dès l'aube… » (1856), écrit après la mort de sa fille Léopoldine |\n| **Épique** | exploits héroïques, combats, grandeur | hyperboles, accumulations, héros collectifs | Hugo, *La Légende des siècles* ; les épopées africaines (Soundjata) |\n| **Satirique / polémique** | critique, dénonciation, moquerie | ironie, caricature, vocabulaire péjoratif | Hugo, *Les Châtiments* (1853), contre Napoléon III |\n| **Engagé** | défense d'une cause (liberté, dignité, justice) | apostrophes, impératifs, « nous » | poésie de la Négritude |\n\n## 2. Les fonctions de la poésie\n\n1. **Exprimer** les émotions (fonction lyrique) : le poète dit « je » mais parle souvent pour tous.\n2. **Célébrer** : la beauté, la nature, la femme, la terre natale.\n3. **Dénoncer et combattre** (poésie engagée) : l'injustice, la colonisation, la tyrannie.\n4. **Transmettre la mémoire** : les épopées et les chants des griots conservent l'histoire des peuples.\n5. **Réinventer le langage** : la poésie joue avec les mots, crée des images neuves.\n\n## 3. La poésie africaine francophone\n\n- Héritière de l'**oralité** (chant, rythme, répétitions, interpellation de l'auditoire).\n- Souvent **engagée** : la Négritude (Senghor, Césaire, Damas) célèbre l'Afrique et dénonce la colonisation. Exemple très bref : « Femme nue, femme noire » (Senghor, « Femme noire », *Chants d'ombre*, 1945) : l'anaphore célèbre la beauté africaine.\n- David Diop (*Coups de pilon*, 1956) : « Afrique mon Afrique » ouvre un poème qui interpelle le continent et évoque sa souffrance et son avenir.\n\n:::methode\n**Identifier le registre d'un poème**\n1. Quelle émotion domine (tristesse, admiration, colère, joie) ?\n2. Relève les procédés qui la produisent (vocabulaire, ponctuation, figures, rythme).\n3. Nomme le registre et justifie.\n4. Dis la fonction du poème (exprimer, célébrer, dénoncer, transmettre).\n:::\n\n:::attention\nUn poème peut combiner plusieurs registres (lyrique et engagé, par exemple). Nomme le registre **dominant** et nuance.\n:::",
+   "definition": "Le registre est l'effet dominant d'un poème : lyrique (sentiments), élégiaque (plainte, deuil), épique (exploits), satirique ou polémique (critique), engagé (défense d'une cause) ; la poésie exprime, célèbre, dénonce, transmet la mémoire et réinvente le langage.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Le registre, c'est l'émotion que le poème veut te faire ressentir.",
+    "simple": "Le griot qui chante les exploits d'un ancêtre est dans le registre épique ; la chanson de deuil chantée aux funérailles relève de l'élégiaque.",
+    "complete": "Les registres désignent des catégories de réception (tonalités) transversales aux genres : le lyrisme exprime la subjectivité, l'élégie la plainte, l'épopée la grandeur héroïque, la satire et la polémique la critique, la poésie engagée une prise de position éthique ou politique. La poésie africaine francophone articule souvent lyrisme et engagement, en puisant dans les formes de l'oralité."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Registre de : « Ô temps ! suspends ton vol » (Lamartine) ?",
+     "etapes": [
+      "« Ô temps » : apostrophe ; exclamation ; thème de la fuite du temps et du bonheur perdu.",
+      "Registre lyrique (avec une dimension élégiaque)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre registre de langue (familier, courant, soutenu) et registre littéraire (lyrique, épique…).",
+    "Nommer un registre sans procédés à l'appui.",
+    "Réduire la poésie engagée à de la colère : elle peut aussi célébrer.",
+    "Citer des vers d'auteurs africains contemporains de manière approximative : cite peu, mais exactement."
+   ],
+   "astuces": [
+    "Lyrique : cherche le « je » et l'émotion ; épique : cherche le héros et l'exagération.",
+    "Quand tu hésites, nomme deux registres et dis lequel domine."
+   ],
+   "mnemo": "« LÉÉSE » : Lyrique, Élégiaque, Épique, Satirique, Engagé.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as étudié la poésie lyrique et peut-être la poésie engagée (la Résistance, la Négritude). En seconde, tu nommes précisément les registres et les fonctions."
+   },
+   "methode_redaction": "Rédige : « Le registre élégiaque domine : le vocabulaire du deuil et le rythme lent traduisent la douleur du père. »",
+   "flash": [
+    {
+     "q": "Registre lyrique ?",
+     "r": "L'expression des sentiments personnels."
+    },
+    {
+     "q": "Registre élégiaque ?",
+     "r": "La plainte, le deuil, la mélancolie."
+    },
+    {
+     "q": "Registre épique ?",
+     "r": "Les exploits héroïques, la grandeur."
+    },
+    {
+     "q": "Qu'est-ce qu'un poème engagé ?",
+     "r": "Un poème qui défend une cause (liberté, dignité, justice)."
+    },
+    {
+     "q": "Cite un recueil de Senghor.",
+     "r": "Chants d'ombre (1945)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C08-N4.svg",
+    "alt": "Tableau des registres poétiques (lyrique, élégiaque, épique, satirique, engagé) avec leur effet et un exemple.",
+    "legende": "Les grands registres de la poésie.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S2-C08-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C08-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien de syllabes compte le vers de Verlaine : « Il pleure dans mon cœur » ? (réponds par un nombre)",
+   "indices": [
+    "Le e de « pleure » est-il suivi d'une voyelle ou d'une consonne ?"
+   ],
+   "corrige": [
+    "Il (1) pleu (2) re (3) dans (4) mon (5) cœur (6) : le e de « pleure » se prononce car il est suivi d'une consonne (« dans »).",
+    "Total : 6 syllabes (hexasyllabe)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Ne supprime pas le e de « pleure » : devant une consonne, il compte.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "6",
+    "six",
+    "6 syllabes",
+    "six syllabes"
+   ]
+  },
+  {
+   "id": "FR-S2-C08-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C08-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Comment appelle-t-on un vers de douze syllabes ?",
+   "indices": [
+    "Pense au vers le plus utilisé dans la poésie classique et le théâtre de Racine."
+   ],
+   "corrige": [
+    "Le vers de 12 syllabes est l'alexandrin."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "L'hémistiche est la moitié d'un alexandrin (6 syllabes).",
+   "verification": "double_resolution",
+   "choix": [
+    "Un octosyllabe",
+    "Un décasyllabe",
+    "Un alexandrin",
+    "Un hémistiche"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S2-C08-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C08-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Les quatre premiers vers d'un poème se terminent par : voyage / toison / raison / âge. Quel est le schéma des rimes ?",
+   "indices": [
+    "Écris une lettre au bout de chaque vers."
+   ],
+   "corrige": [
+    "voyage (A), toison (B), raison (B), âge (A) : ABBA.",
+    "Ce sont des rimes embrassées."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "voyage et âge riment (son [aʒ]), même s'ils sont éloignés.",
+   "verification": "double_resolution",
+   "choix": [
+    "Rimes suivies (AABB)",
+    "Rimes croisées (ABAB)",
+    "Rimes embrassées (ABBA)",
+    "Pas de rimes"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S2-C08-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C08-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien de syllabes compte ce vers de Victor Hugo : « Demain, dès l'aube, à l'heure où blanchit la campagne » ? (un nombre)",
+   "indices": [
+    "Repère les e muets devant une voyelle.",
+    "Le e final ne compte pas."
+   ],
+   "corrige": [
+    "« aube » et « heure » s'élident devant « à » et « où » ; le e final de « campagne » ne compte pas.",
+    "De (1) main (2) dès (3) l'au (4) b'à (5) l'heu (6) r'où (7) blan (8) chit (9) la (10) cam (11) pagne (12) : 12 syllabes, un alexandrin."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Ne compte pas « au-be » et « heu-re » en deux syllabes : leur e s'élide devant la voyelle suivante.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "12",
+    "douze",
+    "12 syllabes",
+    "douze syllabes"
+   ]
+  },
+  {
+   "id": "FR-S2-C08-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C08-N1"
+   ],
+   "format": "qcm",
+   "enonce": "« Serait-ce déjà lui ? C'est bien à l'escalier / Dérobé. » (Hugo, Hernani). Comment s'appelle la mise en valeur de « Dérobé » au début du vers suivant ?",
+   "indices": [
+    "Le mot est-il à la fin du premier vers ou au début du second ?"
+   ],
+   "corrige": [
+    "Le groupe de mots appartient à la phrase du vers précédent mais est renvoyé, isolé, au début du vers suivant.",
+    "C'est un rejet."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Le contre-rejet se trouve à la fin d'un vers, pas au début.",
+   "verification": "double_resolution",
+   "choix": [
+    "Un contre-rejet",
+    "Un rejet",
+    "Une césure",
+    "Une diérèse"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S2-C08-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C08-N1",
+    "FR-S2-C08-N2",
+    "FR-S2-C08-N3",
+    "FR-S2-C08-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis cette strophe, puis réponds.\n\n« Il pleure dans mon cœur\nComme il pleut sur la ville ;\nQuelle est cette langueur\nQui pénètre mon cœur ? »\n(Paul Verlaine, « Ariettes oubliées », III, *Romances sans paroles*, 1874)\n\n1. Quel est le mètre (nombre de syllabes) des vers ? Justifie pour le vers 2.\n2. Donne le schéma des rimes et commente le retour du mot « cœur ».\n3. Analyse le rapprochement « Il pleure » / « il pleut ».\n4. Quelle émotion domine et quel est le registre ?",
+   "indices": [
+    "Compare la construction de « Il pleure » et de « il pleut ».",
+    "Écris une lettre au bout de chaque vers."
+   ],
+   "corrige": [
+    "1. Hexasyllabes (6 syllabes). Vers 2 : Com (1) m'il (2) pleut (3) sur (4) la (5) vil (6) le : le e de « Comme » s'élide devant « il », le e final de « ville » ne compte pas. Ces vers courts donnent une musique légère, comme une chanson (« ariette »).",
+    "2. cœur (A), ville (B), langueur (A), cœur (A) : schéma ABAA. Le mot « cœur » rime avec lui-même et encadre la strophe : la tristesse revient sans cesse, le poète est enfermé dans son émotion.",
+    "3. « Il pleure » est construit comme un verbe impersonnel (comme « il pleut ») : la tristesse arrive sans cause, comme la pluie. Les deux verbes se ressemblent par le son (paronomase) : les larmes et la pluie se confondent, le paysage reflète l'état d'âme (correspondance entre le dedans et le dehors).",
+    "4. Émotion : la mélancolie, une tristesse vague et inexpliquée (« Quelle est cette langueur… ? » : question sans réponse). Registre lyrique (le « je » du poète : « mon cœur ») teinté d'élégie ; sonorités douces en [l] et nasales qui créent une musique plaintive."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    2,
+    2
+   ],
+   "piege": "Ne pas dire que le poète pleure « parce qu'il pleut » : le texte présente une tristesse sans raison (« Quelle est cette langueur ? »).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S2-C08-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S2-C08-N1",
+    "FR-S2-C08-N2",
+    "FR-S2-C08-N3",
+    "FR-S2-C08-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis ces deux quatrains, puis rédige un paragraphe d'analyse (12 à 15 lignes) qui montre comment Du Bellay exprime la nostalgie du pays natal. Tu t'appuieras sur la forme, le rythme, les images et l'énonciation.\n\n« Heureux qui, comme Ulysse, a fait un beau voyage,\nOu comme cestui-là qui conquit la toison,\nEt puis est retourné, plein d'usage et raison,\nVivre entre ses parents le reste de son âge !\n\nQuand reverrai-je, hélas, de mon petit village\nFumer la cheminée, et en quelle saison\nReverrai-je le clos de ma pauvre maison,\nQui m'est une province, et beaucoup davantage ? »\n(Joachim Du Bellay, *Les Regrets*, sonnet XXXI, 1558, deux quatrains ; « cestui-là » = celui-là ; « usage » = expérience)",
+   "indices": [
+    "Compare le premier quatrain (des héros) et le second (le « je »).",
+    "Observe les adjectifs « petit », « pauvre » et la dernière comparaison avec une province."
+   ],
+   "corrige": [
+    "Phrase d'idée : « Dans ces deux quatrains, Du Bellay, alors à Rome, exprime la nostalgie de son pays natal en opposant la gloire des héros voyageurs au simple bonheur du retour chez soi. »",
+    "Forme et versification : deux quatrains d'alexandrins (« Heu-reux-qui-com-m'U-lys-s'a-fait-un-beau-vo-ya-ge » = 12) aux rimes embrassées ABBA (voyage/toison/raison/âge) ; la rime « voyage / âge » relie le départ et le retour à la fin de la vie, « maison » rime avec « raison » et « saison » : le foyer est présenté comme sagesse.",
+    "Premier quatrain : les références mythologiques (Ulysse, et Jason désigné par la périphrase « cestui-là qui conquit la toison ») valorisent ceux qui reviennent ; mais l'exclamation finale montre que leur vrai bonheur est de « Vivre entre ses parents le reste de son âge » : le retour vaut plus que l'exploit.",
+    "Second quatrain : passage au « je » lyrique, interrogations (« Quand reverrai-je… ? », « en quelle saison… ? ») et interjection « hélas » : le poète ignore quand il rentrera, d'où l'angoisse. Le vocabulaire modeste et affectif (« mon petit village », « ma pauvre maison », « le clos ») s'oppose aux héros grandioses.",
+    "Image finale et conclusion : l'hyperbole « Qui m'est une province, et beaucoup davantage » donne à la petite maison la valeur d'un royaume. Ainsi, la forme rigoureuse du sonnet et le passage du général (« Heureux qui… ») au personnel (« Quand reverrai-je… ? ») font entendre une nostalgie universelle, celle de tout exilé (comme l'étudiant togolais loin de Lomé ou de Kara)."
+   ],
+   "bareme": [
+    1,
+    2,
+    2,
+    2.5,
+    2.5
+   ],
+   "piege": "Ne pas paraphraser vers par vers : chaque remarque doit nommer un procédé et l'interpréter au service de l'idée de nostalgie.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Mal compter les syllabes (e muet devant voyelle compté, e muet devant consonne oublié, e final compté).",
+  "Faire un relevé technique (mètre, rimes) sans l'interpréter.",
+  "Confondre rimes croisées et embrassées, rejet et contre-rejet.",
+  "Paraphraser le poème vers par vers au lieu de l'analyser.",
+  "Confondre registre de langue et registre littéraire ; citer des vers de mémoire de façon inexacte."
+ ]
+}
