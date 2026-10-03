@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Bilan de la photosynthèse</title>
+<desc id="desc">Une feuille éclairée absorbe le CO2 de l'air par les stomates et reçoit l'eau et les ions de la sève brute ; dans les chloroplastes, l'énergie lumineuse est convertie en énergie chimique ; la feuille rejette du dioxygène et exporte du saccharose par la sève élaborée vers les organes de réserve. Équation : 6 CO2 + 12 H2O donnent C6H12O6 + 6 O2 + 6 H2O.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker><marker id="flm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<rect x="0" y="0" width="600" height="600" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Bilan de la photosynthèse</text>
+<circle cx="70" cy="95" r="28" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+<line x1="104.0" y1="95.0" x2="116.0" y2="95.0" stroke="#ca8a04" stroke-width="3"/>
+<line x1="94.0" y1="119.0" x2="102.5" y2="127.5" stroke="#ca8a04" stroke-width="3"/>
+<line x1="70.0" y1="129.0" x2="70.0" y2="141.0" stroke="#ca8a04" stroke-width="3"/>
+<line x1="46.0" y1="119.0" x2="37.5" y2="127.5" stroke="#ca8a04" stroke-width="3"/>
+<line x1="36.0" y1="95.0" x2="24.0" y2="95.0" stroke="#ca8a04" stroke-width="3"/>
+<line x1="46.0" y1="71.0" x2="37.5" y2="62.5" stroke="#ca8a04" stroke-width="3"/>
+<line x1="70.0" y1="61.0" x2="70.0" y2="49.0" stroke="#ca8a04" stroke-width="3"/>
+<line x1="94.0" y1="71.0" x2="102.5" y2="62.5" stroke="#ca8a04" stroke-width="3"/>
+<text x="70" y="160" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">lumière</text>
+<path d="M150 300 Q300 120 470 190 Q330 360 150 300 Z" fill="#86efac" stroke="#166534" stroke-width="3"/>
+<path d="M150 300 Q310 240 470 190" fill="none" stroke="#166534" stroke-width="2"/>
+<line x1="110" y1="120" x2="230" y2="205" stroke="#ca8a04" stroke-width="3" marker-end="url(#fl)"/>
+<ellipse cx="320" cy="245" rx="92" ry="40" fill="#dcfce7" stroke="#14532d" stroke-width="2"/>
+<rect x="258" y="230" width="24" height="5" rx="2" fill="#16a34a"/>
+<rect x="258" y="236" width="24" height="5" rx="2" fill="#16a34a"/>
+<rect x="258" y="242" width="24" height="5" rx="2" fill="#16a34a"/>
+<rect x="258" y="248" width="24" height="5" rx="2" fill="#16a34a"/>
+<rect x="288" y="230" width="24" height="5" rx="2" fill="#16a34a"/>
+<rect x="288" y="236" width="24" height="5" rx="2" fill="#16a34a"/>
+<rect x="288" y="242" width="24" height="5" rx="2" fill="#16a34a"/>
+<rect x="288" y="248" width="24" height="5" rx="2" fill="#16a34a"/>
+<text x="285" y="225" font-size="13" text-anchor="middle" font-weight="normal" fill="#14532d">thylakoïdes</text>
+<text x="365" y="250" font-size="13" text-anchor="middle" font-weight="normal" fill="#14532d">stroma</text>
+<line x1="560" y1="120" x2="455" y2="175" stroke="#2a78d6" stroke-width="3" marker-end="url(#flb)"/>
+<text x="560" y="108" font-size="16" text-anchor="end" font-weight="normal" fill="#1f2937"><tspan>CO</tspan><tspan dy="5" font-size="11">2</tspan><tspan dy="-5"> de l'air</tspan></text>
+<text x="560" y="92" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">par les stomates</text>
+<line x1="380" y1="175" x2="470" y2="80" stroke="#15803d" stroke-width="3" marker-end="url(#flv)"/>
+<text x="478" y="70" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937"><tspan>O</tspan><tspan dy="5" font-size="11">2</tspan><tspan dy="-5"> rejeté</tspan></text>
+<path d="M150 300 Q120 360 125 430" fill="none" stroke="#166534" stroke-width="6"/>
+<path d="M125 430 l-30 40 M125 430 l0 50 M125 430 l30 40" stroke="#92400e" stroke-width="3" fill="none"/>
+<rect x="30" y="430" width="230" height="4" fill="#92400e" opacity="0.5"/>
+<line x1="100" y1="470" x2="112" y2="360" stroke="#2a78d6" stroke-width="2.5" marker-end="url(#flb)" stroke-dasharray="6 4"/>
+<text x="90" y="505" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937"><tspan>H</tspan><tspan dy="5" font-size="10">2</tspan><tspan dy="-5">O + ions</tspan></text>
+<text x="90" y="524" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">(sève brute)</text>
+<line x1="150" y1="320" x2="210" y2="420" stroke="#c2410c" stroke-width="2.5" marker-end="url(#flo)" stroke-dasharray="6 4"/>
+<text x="215" y="440" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">sève élaborée (saccharose)</text>
+<text x="215" y="458" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">→ réserves : amidon des tubercules</text>
+<text x="215" y="476" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">(igname, manioc), grains de maïs…</text>
+<text x="470" y="300" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">énergie lumineuse</text>
+<text x="470" y="318" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">→ énergie chimique</text>
+<text x="470" y="336" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">(matière organique)</text>
+<rect x="20" y="530" width="560" height="54" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="1.5"/>
+<text x="300" y="565" font-size="19" text-anchor="middle" font-weight="bold" fill="#1f2937"><tspan>6 CO</tspan><tspan dy="5" font-size="13">2</tspan><tspan dy="-5"> + 12 H</tspan><tspan dy="5" font-size="13">2</tspan><tspan dy="-5">O  →  C</tspan><tspan dy="5" font-size="13">6</tspan><tspan dy="-5">H</tspan><tspan dy="5" font-size="13">12</tspan><tspan dy="-5">O</tspan><tspan dy="5" font-size="13">6</tspan><tspan dy="-5"> + 6 O</tspan><tspan dy="5" font-size="13">2</tspan><tspan dy="-5"> + 6 H</tspan><tspan dy="5" font-size="13">2</tspan><tspan dy="-5">O</tspan></text>
+</svg>
