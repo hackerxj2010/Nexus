@@ -51,14 +51,14 @@ export function VueMatiere({ mat, onglet }: { mat: string; onglet?: string }) {
         {['tous', ...new Set(m.epreuves.map(x => x.type))].map(t =>
           <button key={t} className={`puce ${filtre === t ? 'actif' : ''}`} onClick={() => setFiltre(t)}>{t === 'tous' ? 'Tous' : TYPES_EPREUVE[t] ?? t}</button>)}
       </div>
-      {m.epreuves.length === 0 && <div className="carte vide">
-        <p><b>Pas encore d'épreuve réelle pour cette matière.</b></p>
+      {!m.epreuves.some(x => x.type !== 'concours_entree') && <div className="carte vide">
+        <p><b>Pas encore de devoir ni de composition de Seconde pour cette matière.</b></p>
         <p>Les devoirs et compositions de lycées togolais seront ajoutés dès qu'ils auront été retrouvés avec leur source. En attendant, entraîne-toi avec les exercices de chaque chapitre et le mode « Mélange ».</p>
       </div>}
-      {[1, 2].map(s => {
-        const liste = m.epreuves.filter(x => x.semestre === s && (filtre === 'tous' || x.type === filtre))
+      {([[1, 'Semestre 1'], [2, 'Semestre 2'], [0, "Concours d'entrée en Seconde S (révision des acquis de 3e)"]] as const).map(([s, titre]) => {
+        const liste = m.epreuves.filter(x => (s === 0 ? x.type === 'concours_entree' : x.semestre === s && x.type !== 'concours_entree') && (filtre === 'tous' || x.type === filtre))
         if (!liste.length) return null
-        return <div key={s}><h2 className="sous-titre">Semestre {s}</h2>
+        return <div key={s}><h2 className="sous-titre">{titre}</h2>
           <ul className="liste-epreuves">{liste.map(x => {
             const faite = e.compositions.filter(c => c.epreuve === x.id).at(-1)
             return <li key={x.id}><a href={lien('e', x.id)} className="ligne-epreuve">

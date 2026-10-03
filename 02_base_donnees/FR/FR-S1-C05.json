@@ -1,0 +1,614 @@
+{
+ "id": "FR-S1-C05",
+ "matiere": "FR",
+ "semestre": 1,
+ "ordre": 5,
+ "titre": "La discussion",
+ "objectifs": [
+  "L'élève doit être capable d'analyser un sujet de discussion et d'en formuler la problématique.",
+  "L'élève doit être capable de rechercher des arguments et des exemples précis et variés.",
+  "L'élève doit être capable de choisir et de construire un plan (dialectique, analytique, thématique).",
+  "L'élève doit être capable de rédiger une introduction, des paragraphes argumentatifs, des transitions et une conclusion."
+ ],
+ "prerequis": [
+  "FR-S1-C03",
+  "FR-S1-C04"
+ ],
+ "notions": [
+  {
+   "id": "FR-S1-C05-N1",
+   "titre": "Analyser le sujet de discussion et formuler la problématique",
+   "prerequis_notions": [
+    "FR-S1-C03-N1",
+    "FR-S1-C04-N2"
+   ],
+   "cours_md": "## 1. Qu'est-ce que la discussion ?\n\n:::definition\nLa **discussion** est un exercice d'argumentation qui suit le résumé : à partir d'une idée du texte (souvent une phrase citée), l'élève **donne et justifie son point de vue** dans un devoir organisé (introduction, développement en parties, conclusion), avec des **arguments** et des **exemples précis**.\n:::\n\n## 2. Lire le sujet : les trois éléments\n\nUn sujet de discussion contient en général :\n1. une **citation** ou une idée du texte (« L'auteur affirme que… ») ;\n2. une **consigne** (« Partagez-vous ce point de vue ? », « Discutez », « Dans quelle mesure… ? », « Qu'en pensez-vous ? ») ;\n3. parfois une **précision** : « Vous appuierez votre réflexion sur des exemples précis tirés de votre expérience, de l'actualité ou de vos lectures ».\n\n:::methode\n**Analyser le sujet en 5 étapes**\n1. **Recopie** le sujet au brouillon et **souligne les mots-clés**.\n2. **Définis** chaque mot-clé (sens précis, nuances : « peut-être », « toujours », « seulement »).\n3. **Reformule** l'idée avec tes mots.\n4. **Repère le type de consigne** : sujet fermé (« Partagez-vous… ? ») qui appelle un oui/non nuancé ; sujet ouvert (« Dans quelle mesure… ? ») qui appelle une évaluation.\n5. **Formule la problématique** : la vraie question que pose le sujet, sous forme d'interrogation directe ou indirecte.\n:::\n\n## 3. La problématique\n\n:::definition\nLa **problématique** est la question centrale à laquelle ton devoir va répondre. Elle reformule le sujet en faisant apparaître une **tension** (deux réponses possibles).\n:::\n\n> Sujet : « \"Nourrir son pays n'est pas un métier du passé : c'est peut-être le métier le plus important de demain.\" Partagez-vous ce point de vue ? »\n> - Mots-clés : « nourrir son pays » (l'agriculture), « métier du passé » (dépassé, sans avenir), « peut-être » (nuance), « le plus important de demain ».\n> - Problématique : **L'agriculture est-elle un métier d'avenir essentiel au développement, ou reste-t-elle une activité dépassée que les jeunes ont raison de fuir ?**\n\n:::attention\n- Ne **pas** recopier le sujet comme problématique : reformule-le.\n- Ne **pas** oublier un mot-clé (ici « peut-être » invite à nuancer).\n- Ne **pas** sortir du sujet : on discute l'idée proposée, pas tout le thème en général.\n:::",
+   "definition": "La discussion est un devoir argumenté où l'élève justifie son point de vue sur une idée du texte ; on commence par analyser le sujet (mots-clés, consigne) puis par formuler une problématique, question centrale qui fait apparaître une tension.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Avant de répondre, comprends exactement la question et transforme-la en vrai problème.",
+    "simple": "Avant de creuser un puits, on sonde le sol : l'analyse du sujet, c'est le sondage qui dit où creuser.",
+    "complete": "Le sujet de discussion articule une thèse (citation ou idée du texte) et une consigne qui détermine la démarche (adhésion, réfutation, évaluation nuancée). L'analyse sémantique des mots-clés, la reformulation et l'identification des présupposés permettent de dégager une problématique, c'est-à-dire une interrogation qui met en tension deux réponses plausibles et commande l'organisation du développement."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Formule une problématique pour : « Le téléphone portable est-il un danger pour les élèves ? Discutez. »",
+     "etapes": [
+      "Mots-clés : « téléphone portable », « danger », « élèves ».",
+      "Tension : outil utile pour apprendre / source de distraction et de risques.",
+      "Problématique : « Le téléphone portable menace-t-il la réussite et l'équilibre des élèves, ou peut-il devenir un véritable outil d'apprentissage ? »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Recopier le sujet au lieu de formuler une problématique.",
+    "Négliger un mot-clé ou une nuance (« toujours », « seulement », « peut-être »).",
+    "Traiter le thème en général (« les réseaux sociaux ») au lieu de l'idée précise du sujet.",
+    "Commencer à rédiger sans avoir analysé le sujet."
+   ],
+   "astuces": [
+    "Une bonne problématique contient souvent « ou » : elle montre les deux réponses possibles.",
+    "Les petits mots (toujours, seulement, vraiment, peut-être) sont souvent la clé du sujet."
+   ],
+   "mnemo": "« Souligne, Définis, Reformule, Questionne » : les 4 verbes de l'analyse du sujet.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? En rédaction argumentative, tu répondais déjà à une question en donnant ton avis. En seconde, tu dois d'abord analyser précisément le sujet et poser une problématique."
+   },
+   "methode_redaction": "La problématique apparaît dans l'introduction, juste avant l'annonce du plan, sous forme de question directe (« … ? ») ou indirecte (« Il s'agit de savoir si… »).",
+   "flash": [
+    {
+     "q": "Qu'est-ce que la discussion ?",
+     "r": "Un devoir argumenté où l'on justifie son point de vue sur une idée du texte."
+    },
+    {
+     "q": "Qu'est-ce que la problématique ?",
+     "r": "La question centrale du devoir, qui fait apparaître une tension entre deux réponses."
+    },
+    {
+     "q": "Que fait-on des mots-clés du sujet ?",
+     "r": "On les souligne et on les définit."
+    },
+    {
+     "q": "Sujet fermé : exemple de consigne ?",
+     "r": "« Partagez-vous ce point de vue ? »"
+    },
+    {
+     "q": "Peut-on recopier le sujet comme problématique ?",
+     "r": "Non, il faut le reformuler."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C05-N1.svg",
+    "alt": "Schéma en cinq étapes : souligner les mots-clés, les définir, reformuler, identifier la consigne, formuler la problématique.",
+    "legende": "Méthode d'analyse d'un sujet de discussion.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C05-N2",
+   "titre": "Chercher les idées et les exemples",
+   "prerequis_notions": [
+    "FR-S1-C05-N1"
+   ],
+   "cours_md": "## 1. La recherche d'idées (au brouillon)\n\n:::methode\n**Le remue-méninges en 3 colonnes**\n1. Trace un tableau : **Pour** | **Contre** | **Nuances / solutions**.\n2. Note **toutes** les idées qui te viennent, sans trier, en te posant des questions : **Qui ?** (les jeunes, les parents, l'État) ; **Quoi ?** ; **Pourquoi ?** (causes) ; **Conséquences ?** ; **Dans quels domaines ?** (économique, social, culturel, moral, environnemental, individuel/collectif).\n3. **Trie** : regroupe les idées proches, élimine les plus faibles, garde 2 ou 3 arguments solides par partie.\n4. Associe **un exemple précis** à chaque argument.\n:::\n\n## 2. Où trouver des exemples ?\n\n| Source | Exemples possibles |\n|---|---|\n| Vie quotidienne et expérience | la vie au lycée, au quartier, au marché, dans la famille |\n| Actualité | événements récents au Togo, en Afrique, dans le monde (avec prudence sur les chiffres) |\n| Histoire | indépendances africaines (1960 pour le Togo), luttes pour les droits |\n| Littérature | romans, poèmes, pièces étudiés en classe (titre souligné ou en italique, auteur) |\n| Sciences et techniques | découvertes, innovations, santé, environnement |\n\n:::propriete\nUn **bon exemple** est **précis** (un lieu, une date, un nom, une œuvre), **pertinent** (il prouve vraiment l'argument) et **expliqué** (on dit en une phrase pourquoi il prouve l'argument).\n:::\n\n> Exemple faible : « De nos jours, beaucoup de gens utilisent le téléphone. »\n> Exemple efficace : « Dans plusieurs villages, des cultivateurs reçoivent par SMS des informations sur la météo et les prix du maïs : ils savent ainsi quand semer et où vendre. »\n\n:::attention\n- **N'invente pas** de chiffres ou de faits précis dont tu n'es pas sûr : un exemple faux discrédite tout le devoir. Préfère un exemple vécu ou une œuvre que tu connais bien.\n- Évite les exemples **vagues** (« certaines personnes », « beaucoup de pays »).\n- **Varie** les sources : pas trois exemples tirés de ta famille.\n:::\n\n:::remarque\nPrépare-toi pendant l'année : tiens un **carnet d'exemples** classés par thèmes (école, famille, environnement, technologie, tradition et modernité, travail, ville et campagne, femme et société). Ces thèmes reviennent très souvent dans les sujets.\n:::",
+   "definition": "Chercher les idées, c'est noter au brouillon tous les arguments pour, contre et les nuances, puis les trier et associer à chacun un exemple précis, pertinent et expliqué, tiré de l'expérience, de l'actualité, de l'histoire ou de la littérature.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Beaucoup d'idées au brouillon, puis on garde les meilleures, chacune avec sa preuve.",
+    "simple": "C'est comme trier les haricots au marché : on étale tout, on enlève les grains abîmés, on garde les meilleurs.",
+    "complete": "La recherche d'idées procède par exploration méthodique du sujet (questions de type qui/quoi/pourquoi/conséquences, domaines d'analyse, points de vue des acteurs) puis par sélection et hiérarchisation des arguments. Chaque argument doit être étayé par un exemple vérifiable, pertinent et commenté ; la diversité des références (expérience, actualité, histoire, littérature) renforce la crédibilité du devoir."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Trouve deux arguments pour et deux contre : « L'uniforme scolaire doit-il être obligatoire ? »",
+     "etapes": [
+      "Pour : il efface les inégalités sociales visibles ; il renforce le sentiment d'appartenance au lycée.",
+      "Contre : il coûte cher à certaines familles ; il limite l'expression de la personnalité.",
+      "Nuance : un uniforme simple et bon marché concilie égalité et coût."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Commencer à rédiger avant d'avoir trouvé ses idées.",
+    "Donner des exemples vagues ou inventés.",
+    "Répéter le même argument avec d'autres mots.",
+    "Oublier d'expliquer en quoi l'exemple prouve l'argument."
+   ],
+   "astuces": [
+    "Les domaines (économique, social, culturel, environnemental, moral) t'aident à trouver des arguments variés.",
+    "Pour chaque argument, demande-toi : « Peux-tu me donner un exemple ? »"
+   ],
+   "mnemo": "« QQPC » : Qui ? Quoi ? Pourquoi ? Conséquences ?",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu cherchais déjà des arguments pour et contre. En seconde, on attend des exemples plus précis et plus variés, notamment littéraires."
+   },
+   "methode_redaction": "Au brouillon seulement : le tableau d'idées n'apparaît pas sur la copie. Garde 10 à 15 minutes pour cette étape.",
+   "flash": [
+    {
+     "q": "Quelles colonnes pour le remue-méninges ?",
+     "r": "Pour, Contre, Nuances/solutions."
+    },
+    {
+     "q": "Qu'est-ce qu'un bon exemple ?",
+     "r": "Un exemple précis, pertinent et expliqué."
+    },
+    {
+     "q": "Peut-on inventer un chiffre ?",
+     "r": "Non : un fait faux discrédite le devoir."
+    },
+    {
+     "q": "Cite trois sources d'exemples.",
+     "r": "L'expérience, l'actualité, la littérature (aussi : histoire, sciences)."
+    },
+    {
+     "q": "À quoi sert le carnet d'exemples ?",
+     "r": "À avoir des exemples précis classés par thèmes, prêts pour les devoirs."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C05-N2.svg",
+    "alt": "Carte mentale des sources d'exemples : expérience, actualité, histoire, littérature, sciences, et les domaines d'analyse pour trouver des arguments.",
+    "legende": "Où trouver des exemples pour la discussion.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C05-N3",
+   "titre": "Construire le plan de la discussion",
+   "prerequis_notions": [
+    "FR-S1-C05-N2"
+   ],
+   "cours_md": "## 1. Pourquoi un plan ?\n\n:::definition\nLe **plan** organise les arguments en **parties** (généralement deux, parfois trois) et en **sous-parties** (2 ou 3 arguments par partie), dans un ordre logique et **progressif** (du plus faible au plus fort).\n:::\n\n## 2. Les trois types de plans\n\n| Plan | Quand l'utiliser ? | Structure |\n|---|---|---|\n| **Dialectique** | sujet qui invite à discuter (« Partagez-vous… ? », « Discutez ») | I. Oui, en partie (thèse) – II. Mais… (antithèse) – (III. Dépassement / synthèse) |\n| **Analytique** | sujet qui demande d'expliquer un problème | I. Constat / causes – II. Conséquences – III. Solutions |\n| **Thématique** | sujet qui demande d'énumérer (« Quels sont les avantages… ? ») | I. Aspect 1 – II. Aspect 2 – III. Aspect 3 |\n\n:::propriete\nEn seconde, le plan **dialectique en deux parties** est le plus fréquent : **I. On peut admettre que…** / **II. Cependant…** Termine par la partie qui correspond **à ton opinion**, pour finir sur ta position.\n:::\n\n## 3. Exemple de plan détaillé\n\n> Sujet : « Nourrir son pays n'est pas un métier du passé : c'est peut-être le métier le plus important de demain. » Partagez-vous ce point de vue ?\n>\n> **I. L'agriculture, un métier essentiel pour l'avenir**\n> 1. Elle garantit la sécurité alimentaire d'une population qui augmente (moins d'importations de riz et de farine).\n> 2. Elle crée des emplois et des richesses grâce à la transformation (gari, jus, beurre de karité).\n> 3. Elle peut protéger l'environnement (agroforesterie, lutte contre l'érosion).\n>\n> **II. Mais un métier qui doit se transformer, et qui n'est pas le seul essentiel**\n> 1. Aujourd'hui, il reste pénible et peu rémunérateur (houe, pas de mécanisation).\n> 2. Les jeunes manquent de terres, de crédit et de formation.\n> 3. D'autres métiers sont tout aussi vitaux (santé, enseignement, numérique) : le « peut-être » de l'auteur est justifié.\n>\n> **Conclusion** : un métier d'avenir, à condition d'être modernisé et valorisé.\n\n:::methode\n**Construire le plan au brouillon**\n1. Choisis le type de plan selon la consigne.\n2. Range tes idées du tableau dans les parties.\n3. Ordonne les arguments du moins convaincant au plus convaincant.\n4. Vérifie que chaque argument a son exemple et qu'il n'y a pas de répétition entre les parties.\n5. Écris un **titre-phrase** pour chaque partie (au brouillon seulement).\n:::\n\n:::attention\n- Les titres des parties **n'apparaissent pas** sur la copie : on rédige tout.\n- Un plan « oui / non » sans nuance donne l'impression d'une contradiction : la seconde partie doit **nuancer** ou **dépasser**, pas simplement dire le contraire.\n:::",
+   "definition": "Le plan organise les arguments en deux ou trois parties progressives : dialectique (oui / mais / dépassement), analytique (causes / conséquences / solutions) ou thématique (aspects successifs), selon la consigne.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Ranger ses idées en parties, de la plus faible à la plus forte, pour arriver à son opinion.",
+    "simple": "Comme on monte une maison à Lomé : les fondations (partie I), puis les murs (partie II), puis le toit (conclusion) ; on ne pose pas le toit en premier.",
+    "complete": "Le plan dialectique confronte une thèse, son antithèse et, éventuellement, une synthèse qui dépasse l'opposition ; le plan analytique décompose un phénomène (constat, causes, conséquences, remèdes) ; le plan thématique explore successivement les aspects d'une question. Le choix dépend de la consigne. La progression doit être argumentative (gradation) et aboutir à la position de l'élève, sans redondance ni contradiction non assumée."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Quel plan pour : « Quelles sont les causes et les conséquences de l'exode rural ? »",
+     "etapes": [
+      "La consigne demande d'expliquer un phénomène, pas de prendre position.",
+      "Plan analytique : I. Les causes – II. Les conséquences (– III. Les solutions)."
+     ]
+    },
+    {
+     "enonce": "Quel plan pour : « Pensez-vous que l'école prépare bien à la vie ? »",
+     "etapes": [
+      "La consigne invite à discuter (oui / non).",
+      "Plan dialectique : I. L'école prépare à la vie (savoirs, discipline) – II. Mais elle ne prépare pas à tout (vie pratique, métiers)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Choisir un plan qui ne correspond pas à la consigne.",
+    "Faire deux parties qui se contredisent sans nuance.",
+    "Répéter le même argument dans les deux parties.",
+    "Écrire les titres des parties sur la copie."
+   ],
+   "astuces": [
+    "Pour la partie II, commence par « Cependant », « Toutefois », « Néanmoins » : cela t'oblige à nuancer.",
+    "Mets ton meilleur argument en dernier dans chaque partie."
+   ],
+   "mnemo": "« DAT » : Dialectique (discuter), Analytique (expliquer), Thématique (énumérer).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Ta rédaction avait déjà une introduction, un développement et une conclusion. En seconde, le développement se découpe en parties et sous-parties organisées selon un type de plan."
+   },
+   "methode_redaction": "Sur la copie : une partie = un bloc de paragraphes ; une sous-partie = un paragraphe avec alinéa ; saute une ligne entre l'introduction, chaque partie et la conclusion.",
+   "flash": [
+    {
+     "q": "Quels sont les trois types de plans ?",
+     "r": "Dialectique, analytique, thématique."
+    },
+    {
+     "q": "Plan pour « Partagez-vous ce point de vue ? »",
+     "r": "Plan dialectique."
+    },
+    {
+     "q": "Plan pour « Causes et conséquences de… »",
+     "r": "Plan analytique."
+    },
+    {
+     "q": "Dans quel ordre placer les arguments ?",
+     "r": "Du moins convaincant au plus convaincant."
+    },
+    {
+     "q": "Écrit-on les titres des parties sur la copie ?",
+     "r": "Non, tout est rédigé."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C05-N3.svg",
+    "alt": "Tableau des trois types de plans (dialectique, analytique, thématique) avec la consigne qui les appelle et leur structure.",
+    "legende": "Choisir le bon plan selon la consigne.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C05-N4",
+   "titre": "Rédiger l'introduction et la conclusion",
+   "prerequis_notions": [
+    "FR-S1-C05-N3"
+   ],
+   "cours_md": "## 1. L'introduction en 4 temps\n\n:::methode\n1. **L'amorce** (ou phrase d'accroche) : une idée générale, un fait d'actualité, une citation, un constat qui mène au sujet. Pas de banalité du type « Depuis la nuit des temps ».\n2. **La présentation du sujet** : on cite ou reformule la phrase à discuter (avec le nom de l'auteur du texte s'il est donné).\n3. **La problématique** : la question centrale.\n4. **L'annonce du plan** : les grandes parties, en une ou deux phrases (« Nous verrons d'abord…, puis… »).\n:::\n\n> **Exemple** (sujet : « Les réseaux sociaux rapprochent-ils les jeunes ? »)\n> Au lycée comme dans les quartiers, rares sont les jeunes qui n'ont pas de compte WhatsApp, Facebook ou TikTok. Présentés comme des outils de communication, ces réseaux suscitent pourtant un débat : certains estiment qu'ils rapprochent les jeunes, d'autres qu'ils les enferment dans la solitude. Les réseaux sociaux créent-ils de véritables liens, ou n'en donnent-ils que l'illusion ? Nous verrons d'abord qu'ils favorisent incontestablement les échanges, puis qu'ils peuvent aussi isoler et appauvrir les relations.\n\n## 2. La conclusion en 2 ou 3 temps\n\n:::methode\n1. **Le bilan** : on rappelle brièvement les étapes du raisonnement.\n2. **La réponse** nette à la problématique (ta position).\n3. **L'ouverture** (facultative mais appréciée) : un prolongement vers une question voisine, sans relancer un nouveau débat entier.\n:::\n\n> **Exemple** : Ainsi, les réseaux sociaux facilitent les échanges et maintiennent des liens malgré la distance, mais ils peuvent aussi isoler ceux qui confondent amitié virtuelle et amitié réelle. Ils rapprochent donc les jeunes à condition de prolonger des relations vivantes au lieu de les remplacer. Reste à savoir si l'école ne devrait pas apprendre à les utiliser avec discernement.\n\n:::propriete\nL'introduction et la conclusion sont **les parties lues en premier et en dernier** par le correcteur : elles donnent la première et la dernière impression. Rédige-les **au brouillon** avec soin.\n:::\n\n:::attention\n- Pas de « je vais parler de… », pas d'annonce maladroite (« Dans une première partie nous allons voir… dans une deuxième partie nous allons voir… » répétitif).\n- La conclusion ne contient **pas d'argument nouveau**.\n- L'ouverture ne doit pas être une simple question vague (« Et vous, qu'en pensez-vous ? »).\n:::\n\n:::remarque\nLe « nous » de modestie (« Nous verrons… ») est d'usage dans les devoirs. Le « je » est accepté avec modération dans la discussion, surtout pour exprimer sa position finale.\n:::",
+   "definition": "L'introduction comprend l'amorce, la présentation du sujet, la problématique et l'annonce du plan ; la conclusion fait le bilan, répond nettement à la problématique et peut ouvrir sur une question voisine.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Intro : on amène, on pose, on questionne, on annonce. Conclusion : on résume, on répond, on ouvre.",
+    "simple": "L'introduction, c'est l'entrée d'une maison : le visiteur juge tout de suite si elle est accueillante ; la conclusion, c'est la porte de sortie : elle laisse le dernier souvenir.",
+    "complete": "L'introduction conduit du général au particulier : amorce contextualisante, énoncé du sujet, problématisation, annonce de la démarche. La conclusion opère le mouvement inverse : synthèse du raisonnement, réponse explicite à la problématique, élargissement maîtrisé. Ces deux moments, rédigés au brouillon, conditionnent la lisibilité et l'évaluation globale du devoir."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Corrige cette amorce : « Depuis la nuit des temps, l'homme utilise des téléphones. »",
+     "etapes": [
+      "Fausse (les téléphones n'existent pas depuis toujours) et banale.",
+      "Correction : « En quelques années, le téléphone portable est devenu l'objet inséparable de nombreux lycéens. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Commencer par « Depuis la nuit des temps » ou une généralité fausse.",
+    "Oublier la problématique ou l'annonce du plan.",
+    "Ajouter un argument nouveau dans la conclusion.",
+    "Ouvrir sur une question sans rapport avec le sujet."
+   ],
+   "astuces": [
+    "Rédige l'introduction au brouillon, mais la conclusion aussi : en fin d'épreuve, on bâcle souvent la conclusion faute de temps.",
+    "Ton annonce du plan doit reprendre exactement les idées directrices de tes parties."
+   ],
+   "mnemo": "Introduction = « APPA » : Amorce, Présentation, Problématique, Annonce. Conclusion = « BRO » : Bilan, Réponse, Ouverture.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Ton introduction présentait le sujet et ta conclusion donnait ton avis. En seconde, on ajoute la problématique et l'annonce du plan, et l'ouverture en conclusion."
+   },
+   "methode_redaction": "Sur la copie : l'introduction forme un seul paragraphe (avec alinéa), la conclusion aussi ; saute une ligne avant et après chacune.",
+   "flash": [
+    {
+     "q": "Les 4 étapes de l'introduction ?",
+     "r": "Amorce, présentation du sujet, problématique, annonce du plan."
+    },
+    {
+     "q": "Les étapes de la conclusion ?",
+     "r": "Bilan, réponse à la problématique, ouverture."
+    },
+    {
+     "q": "Peut-on ajouter un argument dans la conclusion ?",
+     "r": "Non."
+    },
+    {
+     "q": "Quelle amorce éviter ?",
+     "r": "« Depuis la nuit des temps » et les généralités vagues ou fausses."
+    },
+    {
+     "q": "Combien de paragraphes pour l'introduction ?",
+     "r": "Un seul."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C05-N4.svg",
+    "alt": "Schéma en cinq étapes : amorce, présentation du sujet, problématique, annonce du plan, puis conclusion (bilan, réponse, ouverture).",
+    "legende": "Structure de l'introduction et de la conclusion.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C05-N5",
+   "titre": "Rédiger le développement : paragraphe argumentatif et transitions",
+   "prerequis_notions": [
+    "FR-S1-C05-N3"
+   ],
+   "cours_md": "## 1. Le paragraphe argumentatif\n\n:::definition\nChaque **sous-partie** du développement est un **paragraphe argumentatif** qui défend **une seule idée**. Il commence par un **alinéa** et suit la structure **I-A-E-C** : **I**dée, **A**rgument (explication), **E**xemple (analysé), **C**onclusion partielle.\n:::\n\n> **Idée** : D'abord, l'agriculture garantit la sécurité alimentaire du pays.\n> **Argument** : En effet, une population qui augmente doit être nourrie ; si elle dépend des importations, elle subit les hausses de prix venues de l'étranger.\n> **Exemple** : Ainsi, lorsque le prix du riz importé augmente sur les marchés mondiaux, les familles les plus pauvres de nos villes sont aussitôt touchées, alors qu'un riz produit localement serait moins soumis à ces variations.\n> **Conclusion partielle** : Produire soi-même sa nourriture est donc une condition de l'indépendance d'un pays.\n\n## 2. Les transitions\n\n:::definition\nLa **transition** est une phrase (ou deux) placée entre deux parties : elle **résume** la partie qui s'achève et **annonce** la suivante.\n:::\n\n> Exemple : « Si l'agriculture apparaît ainsi comme un métier essentiel pour l'avenir, elle ne pourra attirer les jeunes que si elle se transforme profondément. »\n\n## 3. La langue de la discussion\n\n- Des **connecteurs** variés pour ouvrir les paragraphes : d'abord, ensuite, de plus, par ailleurs, enfin ; cependant, toutefois, néanmoins ; ainsi, c'est pourquoi.\n- Un registre **courant ou soutenu** : pas d'abréviations, pas de langage SMS, pas de mots familiers.\n- Des phrases **complètes et pas trop longues** (une idée par phrase).\n- Le **présent** de vérité générale pour les arguments.\n\n:::propriete\nUn développement solide en seconde : **2 parties × 2 ou 3 paragraphes**, chacun de 8 à 12 lignes, reliés par une transition.\n:::\n\n:::attention\n- Un paragraphe = une idée : si tu changes d'idée, change de paragraphe.\n- Ne laisse pas un exemple « tout seul » : explique toujours en quoi il prouve l'argument.\n- Évite le « je pense que » répété : une affirmation bien argumentée suffit.\n:::\n\n:::methode\n**Vérifier un paragraphe avant de le recopier**\n1. Ma première phrase annonce-t-elle clairement l'idée ?\n2. Ai-je expliqué pourquoi (argument) ?\n3. Ai-je un exemple précis, expliqué ?\n4. Ma dernière phrase ramène-t-elle au sujet ?\n:::",
+   "definition": "Le développement se compose de paragraphes argumentatifs (Idée, Argument, Exemple, Conclusion partielle), regroupés en parties reliées par des transitions qui résument la partie achevée et annoncent la suivante.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Un paragraphe = une idée prouvée ; une transition = un pont entre deux parties.",
+    "simple": "Le paragraphe IAEC, c'est une passe bien construite au football : contrôle (idée), conduite (argument), passe décisive (exemple), but (conclusion).",
+    "complete": "Le paragraphe argumentatif est l'unité de base du développement : il énonce une idée directrice, la justifie par une explication logique, l'étaye par un exemple commenté et se clôt sur une conclusion partielle qui la rattache à la problématique. Les transitions assurent la cohérence globale en articulant les parties ; la correction de la langue et la variété des connecteurs conditionnent la clarté."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Remets dans l'ordre IAEC : (a) « Ainsi, au lycée de Tsévié, les élèves du club de lecture ont amélioré leurs notes de français. » (b) « La lecture est donc un atout scolaire. » (c) « De plus, lire améliore l'expression écrite. » (d) « En effet, le lecteur rencontre de nombreux mots et tournures qu'il réutilise. »",
+     "etapes": [
+      "Idée : (c).",
+      "Argument : (d).",
+      "Exemple : (a).",
+      "Conclusion partielle : (b). Ordre : c, d, a, b."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Mettre plusieurs idées dans le même paragraphe.",
+    "Oublier l'alinéa au début de chaque paragraphe.",
+    "Passer d'une partie à l'autre sans transition.",
+    "Écrire en langage familier ou SMS."
+   ],
+   "astuces": [
+    "Commence chaque paragraphe par un connecteur : le correcteur voit immédiatement ton plan.",
+    "Relis la dernière phrase de chaque paragraphe : elle doit répondre au sujet."
+   ],
+   "mnemo": "« IAEC » : Idée, Argument, Exemple, Conclusion partielle (« Il Aime En Classe »).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu écrivais des paragraphes avec une idée et un exemple. En seconde, on ajoute l'explication de l'argument, la conclusion partielle et la transition entre parties."
+   },
+   "methode_redaction": "Présentation : alinéa à chaque paragraphe ; une ligne sautée entre les parties ; la transition peut former un court paragraphe à part ou terminer la partie I.",
+   "flash": [
+    {
+     "q": "Que signifie IAEC ?",
+     "r": "Idée, Argument, Exemple, Conclusion partielle."
+    },
+    {
+     "q": "Qu'est-ce qu'une transition ?",
+     "r": "Une phrase qui résume la partie achevée et annonce la suivante."
+    },
+    {
+     "q": "Combien d'idées par paragraphe ?",
+     "r": "Une seule."
+    },
+    {
+     "q": "Quel temps pour les arguments ?",
+     "r": "Le présent de vérité générale."
+    },
+    {
+     "q": "Que faire après un exemple ?",
+     "r": "Expliquer en quoi il prouve l'argument."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C05-N5.svg",
+    "alt": "Schéma en quatre étapes d'un paragraphe argumentatif : idée, argument, exemple, conclusion partielle, avec une phrase modèle pour chaque étape.",
+    "legende": "La structure IAEC du paragraphe argumentatif.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S1-C05-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C05-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Quel type de plan convient au sujet : « Partagez-vous l'opinion selon laquelle la télévision rend les enfants paresseux ? »",
+   "indices": [
+    "La consigne demande-t-elle d'énumérer, d'expliquer ou de discuter ?"
+   ],
+   "corrige": [
+    "La consigne « Partagez-vous… ? » invite à discuter (oui / mais).",
+    "Le plan dialectique convient."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Un plan thématique ne permet pas de nuancer une opinion.",
+   "verification": "double_resolution",
+   "choix": [
+    "Plan thématique",
+    "Plan dialectique",
+    "Plan analytique",
+    "Plan chronologique"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C05-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C05-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quelle est la dernière étape de l'introduction d'une discussion ? (réponds en trois mots maximum)",
+   "indices": [
+    "APPA : Amorce, Présentation, Problématique, …"
+   ],
+   "corrige": [
+    "L'introduction se termine par l'annonce du plan, après la problématique."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "La problématique vient juste avant l'annonce du plan.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "annonce du plan",
+    "l'annonce du plan",
+    "l’annonce du plan",
+    "annonce",
+    "l'annonce",
+    "le plan"
+   ]
+  },
+  {
+   "id": "FR-S1-C05-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C05-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Sujet : « Selon l'auteur, la ville réserve souvent la précarité aux jeunes venus des villages. Partagez-vous ce point de vue ? » Quelle problématique est la meilleure ?",
+   "indices": [
+    "Laquelle fait apparaître deux réponses possibles sans recopier le sujet ?"
+   ],
+   "corrige": [
+    "Une problématique reformule le sujet et fait apparaître une tension (deux réponses possibles).",
+    "La réponse B oppose « piège de précarité » et « lieu de réussite », sans recopier le sujet."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "La réponse A recopie le sujet ; la C est hors sujet ; la D est une annonce maladroite, pas une question.",
+   "verification": "double_resolution",
+   "choix": [
+    "A. Selon l'auteur, la ville réserve souvent la précarité aux jeunes. Partagez-vous ce point de vue ?",
+    "B. La ville est-elle surtout, pour les jeunes venus des villages, un piège de précarité, ou peut-elle devenir un lieu de réussite ?",
+    "C. Qu'est-ce qu'une ville ?",
+    "D. Je vais parler de la ville et des jeunes."
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C05-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C05-N5"
+   ],
+   "format": "qcm",
+   "enonce": "Dans ce paragraphe, quelle phrase est l'exemple ? (1) « De plus, le sport forme le caractère. » (2) « En effet, il apprend à accepter la défaite et à respecter les règles. » (3) « Ainsi, lors du tournoi inter-lycées de Kara, notre équipe battue en demi-finale a félicité les vainqueurs avant de se remettre au travail. » (4) « Le sport est donc une école de la vie. »",
+   "indices": [
+    "L'exemple est un fait concret et précis."
+   ],
+   "corrige": [
+    "(1) idée, (2) argument, (3) exemple précis (lieu, événement), (4) conclusion partielle."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "La phrase 2 commence par « En effet » : c'est l'explication (argument), pas l'exemple.",
+   "verification": "double_resolution",
+   "choix": [
+    "Phrase 1",
+    "Phrase 2",
+    "Phrase 3",
+    "Phrase 4"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S1-C05-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S1-C05-N1",
+    "FR-S1-C05-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Rédige l'introduction complète de la discussion suivante : « Selon certains, les réseaux sociaux rapprochent les jeunes ; selon d'autres, ils les isolent. Qu'en pensez-vous ? »",
+   "indices": [
+    "APPA : Amorce, Présentation, Problématique, Annonce.",
+    "La problématique contient souvent « ou »."
+   ],
+   "corrige": [
+    "Amorce : « Au lycée comme dans les quartiers, rares sont les jeunes qui n'ont pas de compte WhatsApp, Facebook ou TikTok. » (fait actuel, précis, qui mène au sujet)",
+    "Présentation du sujet : « Présentés comme des outils de communication, ces réseaux suscitent pourtant un débat : certains estiment qu'ils rapprochent les jeunes, d'autres qu'ils les enferment dans la solitude. »",
+    "Problématique : « Les réseaux sociaux créent-ils de véritables liens entre les jeunes, ou n'en donnent-ils que l'illusion ? »",
+    "Annonce du plan : « Nous verrons d'abord qu'ils favorisent incontestablement les échanges, puis qu'ils peuvent aussi isoler et appauvrir les relations. »",
+    "Forme : un seul paragraphe avec alinéa, phrases correctes, pas de « je vais parler de », pas de « depuis la nuit des temps »."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1,
+    0.5
+   ],
+   "piege": "Ne pas donner ta réponse dès l'introduction : elle vient dans la conclusion.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S1-C05-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S1-C05-N2",
+    "FR-S1-C05-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Construis le plan détaillé (deux parties, au moins deux arguments par partie, chacun avec un exemple) du sujet : « L'auteur affirme que \"nourrir son pays n'est pas un métier du passé : c'est peut-être le métier le plus important de demain\". Partagez-vous ce point de vue ? »",
+   "indices": [
+    "Le mot « peut-être » invite à nuancer dans la deuxième partie.",
+    "Chaque argument doit avoir un exemple précis."
+   ],
+   "corrige": [
+    "Problématique : « L'agriculture est-elle un métier d'avenir essentiel, ou une activité dépassée que les jeunes ont raison de fuir ? » Type de plan : dialectique (consigne « Partagez-vous… ? »).",
+    "I. L'agriculture, un métier essentiel pour l'avenir. 1. Elle assure la sécurité alimentaire d'une population croissante (exemple : la dépendance au riz importé expose les familles aux hausses de prix). 2. Elle crée des emplois et de la valeur grâce à la transformation (exemple : coopératives de femmes qui produisent du gari ou du beurre de karité). 3. (bonus) Elle peut protéger l'environnement (agroforesterie contre l'érosion).",
+    "Transition : « Si l'agriculture est donc indispensable, elle ne séduira les jeunes que si elle change de visage. »",
+    "II. Un métier qui doit se transformer, et qui n'est pas le seul essentiel. 1. Il reste pénible et peu rémunérateur (exemple : travail à la houe, récoltes perdues faute de stockage). 2. Les jeunes manquent de terres, de crédit et de formation (exemple : difficulté à obtenir un prêt sans garantie). 3. D'autres métiers sont aussi vitaux : santé, enseignement, numérique, ce qui justifie le « peut-être » de l'auteur.",
+    "Conclusion prévue : oui, l'agriculture est un métier d'avenir, à condition d'être modernisée et valorisée par l'État, les banques et les familles ; ouverture possible : le rôle des écoles d'agriculture ou du numérique dans les campagnes."
+   ],
+   "bareme": [
+    1.5,
+    3,
+    0.5,
+    3,
+    1
+   ],
+   "piege": "Ne pas faire une partie II qui dit simplement « non, l'agriculture est inutile » : elle doit nuancer.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S1-C05-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S1-C05-N1",
+    "FR-S1-C05-N2",
+    "FR-S1-C05-N3",
+    "FR-S1-C05-N4",
+    "FR-S1-C05-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Rédige une discussion complète (environ une page et demie à deux pages) sur le sujet suivant : « L'auteur affirme qu'un enfant \"apprend mieux dans la langue qu'il comprend\". Pensez-vous qu'il faille commencer l'école dans les langues nationales ? » Tu t'appuieras sur des exemples précis.",
+   "indices": [
+    "Commence par analyser le sujet et formuler la problématique.",
+    "Plan dialectique : I. Avantages – II. Difficultés et conditions.",
+    "Chaque paragraphe : Idée, Argument, Exemple, Conclusion partielle."
+   ],
+   "corrige": [
+    "Introduction (modèle) : « Au Togo, beaucoup d'enfants entendent leurs premiers mots de français le jour où ils entrent à l'école. Partant de ce constat, l'auteur affirme qu'un enfant \"apprend mieux dans la langue qu'il comprend\" et plaide pour un début de scolarité dans les langues nationales. Faut-il donc commencer l'école dans la langue maternelle, au risque de retarder l'apprentissage du français, ou garder le français dès le premier jour ? Nous montrerons d'abord les avantages d'un début dans les langues nationales, avant d'examiner les difficultés de ce choix. »",
+    "Partie I, paragraphe 1 (IAEC) : « D'abord, l'enfant comprend ce qu'il apprend. En effet, apprendre à lire dans la langue qu'il parle à la maison lui permet d'associer les sons aux lettres et de donner du sens à ce qu'il déchiffre. Ainsi, un enfant qui lit en éwé ou en kabiyè des mots qu'il connaît (le marché, la pluie, sa mère) comprend immédiatement le texte, alors qu'il récite sans comprendre une phrase en français. Comprendre avant de répéter est donc la base de tout apprentissage. »",
+    "Partie I, paragraphe 2 : « De plus, la langue maternelle donne confiance et valorise la culture de l'enfant. Celui qui voit sa langue écrite au tableau sent que ce qu'il apporte de chez lui a de la valeur ; il ose parler et participer. Les contes, proverbes et chants appris en famille deviennent alors des supports de lecture. L'école cesse ainsi d'être un lieu étranger. » Transition : « Ces avantages sont réels ; pourtant, leur mise en œuvre soulève de sérieuses difficultés. »",
+    "Partie II, paragraphes 1 et 2 : « Cependant, nos langues sont nombreuses : former des maîtres et produire des manuels pour chacune coûte cher, et un enseignant affecté loin de sa région ne parle pas toujours la langue de ses élèves. Par ailleurs, le français reste la langue des examens, de l'administration et des études supérieures ; de nombreux parents craignent donc que leurs enfants prennent du retard. Ces inquiétudes montrent qu'il faut un passage progressif : commencer dans la langue la plus parlée de la région, puis introduire le français oral, enfin écrit, dès les premières années. »",
+    "Conclusion : « En définitive, commencer l'école dans la langue que l'enfant comprend favorise la compréhension et la confiance, mais ce choix exige des moyens et un passage organisé vers le français. Je pense donc qu'il faut le faire, progressivement, en commençant par les langues les plus parlées. Plus largement, se pose la question de la place de nos langues dans la vie publique, au-delà de l'école. »",
+    "Langue et présentation : orthographe, syntaxe, connecteurs variés, paragraphes avec alinéas, lignes sautées entre les parties, aucun titre apparent."
+   ],
+   "bareme": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "piege": "Ne pas résumer à nouveau le texte : la discussion exprime ton point de vue argumenté, avec des exemples personnels.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Résumer à nouveau le texte au lieu de discuter l'idée proposée.",
+  "Oublier la problématique ou recopier le sujet à sa place.",
+  "Faire deux parties contradictoires sans nuance, ou répéter les mêmes arguments.",
+  "Donner des exemples vagues (« de nos jours », « certaines personnes ») ou inventés.",
+  "Écrire les titres des parties sur la copie, oublier les alinéas et les transitions.",
+  "Bâcler la conclusion faute de temps : gère ton temps et prépare-la au brouillon."
+ ]
+}

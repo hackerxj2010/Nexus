@@ -1,0 +1,396 @@
+{
+ "id": "EP-M-S1-0007",
+ "matiere": "M",
+ "semestre": 1,
+ "type": "concours_entree",
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques (Lomé / Kara)",
+  "ville": "Lomé / Kara",
+  "annee_scolaire": "2016-2017",
+  "session": "Septembre 2016",
+  "document": "« Epreuves Concours lycée scientifique.pdf » (scan CamScanner, 12,4 Mo, Google Drive de l'utilisateur, ajouté le 2026-07-03)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Sujet officiel d'examen ; copie privée dans le Google Drive de l'utilisateur ; usage personnel d'apprentissage",
+  "fiabilite": 3
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "chapitres_titres": [
+  "Ensemble des nombres réels et calcul dans ℝ",
+  "Polynômes et fractions rationnelles",
+  "Équations et inéquations dans ℝ",
+  "Généralités sur les fonctions",
+  "Vecteurs et points du plan",
+  "Barycentre"
+ ],
+ "chapitres": [
+  "M-S1-C01",
+  "M-S1-C03",
+  "M-S1-C05",
+  "M-S1-C07",
+  "M-S1-C02",
+  "M-S1-C04"
+ ],
+ "enonce_md": "> **Transcription reconstituée** à partir du texte OCR (Google Drive) d'un scan CamScanner du sujet officiel. Les formules ont été remises en forme ; **[illisible]** signale un passage absent ou inexploitable dans l'OCR ; *(lecture probable)* signale un symbole reconstitué d'après le contexte et la cohérence des questions. Les figures du sujet ne sont pas disponibles. À relire sur le scan original avant usage en composition blanche.\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE (SEPTEMBRE 2016)**\n\n**Mathématiques** — Durée : 2 h — Coefficient : 2\n\n### Exercice 1 (4 pts)\n1. Écrire plus simplement (3 pts) :\n\n   $A = 12^{100} \\times (1{,}5)^{50} \\times 6^{-149}$ *(lecture probable)* ; $B = \\sqrt{512} - 3\\sqrt{98} + \\sqrt{50}$ ; $C = $ **[illisible]** ; $D = $ **[illisible]** ; $E = \\dfrac{8^{10} + 4^{10}}{8^{4} + 4^{11}}$ *(lecture probable)* ; $F = \\sqrt{2015 \\times 2016 - 2015}$ *(lecture probable)*.\n2. a) Montrer que $(999\\,999)^2 + (2\\,000)^2 = (1\\,000\\,001)^2$. (0,5 pt)\n\n   b) Calculer ou écrire plus simplement $80\\,001^2 - 160\\,001$. (0,5 pt)\n\n### Exercice 2 (4,5 pts)\nOn considère les polynômes $H = 4(x + \\sqrt{3})^2 - 4\\sqrt{3}(x + \\sqrt{3}) + 3$ et $G = (2x + \\sqrt{3})^2$.\n1. Développer, réduire et ordonner $H$ et $G$ suivant les puissances croissantes de $x$. (0,75 pt)\n2. Déduire une factorisation de $H$. (0,5 pt)\n3. On pose $Q = \\sqrt{H}$.\n\n   a) Résoudre l'équation $Q = 2\\sqrt{3}$. (1 pt)\n\n   b) Résoudre l'équation $Q = $ **[illisible]**. (1 pt)\n\n   c) Dans le plan muni d'un repère orthonormé $(O, I, J)$, représenter la fonction $f$ définie par $f(x) = Q$. (1,25 pt)\n\n### Exercice 3 (4,5 pts)\nOn considère un carré $ABCD$. $I$ et $J$ sont les milieux respectifs des côtés $[AB]$ et $[BC]$ et $K$ le point d'intersection des droites $(AD)$ et $(IJ)$. Faire une figure qu'on complètera au fur et à mesure.\n1. a) Montrer que $KA = BJ = JC$.\n\n   b) En déduire la nature des quadrilatères $AKBJ$ et $AKJC$.\n2. Montrer que $(DB)$ est orthogonale à $(KJ)$.\n3. a) Que représente le point $I$ pour le triangle $BDK$ ?\n\n   b) En déduire la position relative des droites $(DI)$ et $(AJ)$.\n\n*(Barème lu dans l'OCR : 1 pt ; 1 pt ; 0,75 pt ; 0,75 pt ; 0,5 pt ; 0,5 pt.)*\n\n### Exercice 4 (7 pts)\nConstruire un triangle $IJK$ quelconque (angle $\\widehat{K}$ obtus). On note $A$ le symétrique de $K$ par rapport à $J$, $B$ le symétrique de $I$ par rapport à $K$ et enfin $C$ le symétrique de $J$ par rapport à $I$.\n1. a) Exprimer le vecteur $\\overrightarrow{AK}$ en fonction des vecteurs $\\overrightarrow{AB}$ et $\\overrightarrow{AI}$, puis le vecteur $\\overrightarrow{AI}$ en fonction des vecteurs $\\overrightarrow{AJ}$ et $\\overrightarrow{AC}$, et enfin le vecteur $\\overrightarrow{AJ}$ en fonction du vecteur $\\overrightarrow{AK}$. (0,75 pt + 0,75 pt)\n\n   b) En déduire de tout cela que $\\overrightarrow{AK} = $ **[illisible]** $(2\\overrightarrow{AB} + \\overrightarrow{AC})$. (1 pt)\n2. Soit $P$ le point défini par $\\overrightarrow{BP} = $ **[illisible]** $\\overrightarrow{BC}$. Exprimer $\\overrightarrow{AP}$ en fonction de $\\overrightarrow{AB}$ et $\\overrightarrow{AC}$. (1 pt)\n3. En déduire de 1° et 2° la position relative des points $A$, $K$, $J$ et $P$, puis des points $B$, $K$, $I$, $Q$ et enfin $C$, $I$, $J$, $R$ ; $Q$ et $R$ étant définis par : $\\overrightarrow{CQ} = $ **[illisible]** $\\overrightarrow{CA}$ et $\\overrightarrow{AR} = $ **[illisible]** $\\overrightarrow{AB}$. (2 pts)\n4. Le triangle $ABC$ est donné. Trouver $I$, $J$ et $K$ de façon que $I$ soit le milieu de $[CJ]$, $J$ celui de $[AK]$ et $K$ celui de $[BI]$. (1,5 pt)\n",
+ "questions": [
+  {
+   "numero": "Ex1-1A",
+   "enonce": "Écrire plus simplement $A = 12^{100} \\times (1{,}5)^{50} \\times 6^{-149}$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$12^{100} = 2^{200} \\times 3^{100}$, $(1{,}5)^{50} = \\dfrac{3^{50}}{2^{50}}$, $6^{-149} = 2^{-149} \\times 3^{-149}$.",
+    "$A = 2^{200 - 50 - 149} \\times 3^{100 + 50 - 149} = 2^1 \\times 3^1 = 6$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$A = 6$",
+   "piege": "",
+   "astuce": "Tout décomposer en puissances de 2 et de 3."
+  },
+  {
+   "numero": "Ex1-1B",
+   "enonce": "Écrire plus simplement $B = \\sqrt{512} - 3\\sqrt{98} + \\sqrt{50}$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$\\sqrt{512} = \\sqrt{256 \\times 2} = 16\\sqrt{2}$ ; $\\sqrt{98} = 7\\sqrt{2}$ ; $\\sqrt{50} = 5\\sqrt{2}$.",
+    "$B = 16\\sqrt{2} - 21\\sqrt{2} + 5\\sqrt{2} = 0$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$B = 0$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-1E",
+   "enonce": "Écrire plus simplement $E = \\dfrac{8^{10} + 4^{10}}{8^4 + 4^{11}}$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$8^{10} + 4^{10} = 2^{30} + 2^{20} = 2^{20}(2^{10} + 1)$ et $8^4 + 4^{11} = 2^{12} + 2^{22} = 2^{12}(1 + 2^{10})$.",
+    "$E = \\dfrac{2^{20}}{2^{12}} = 2^8 = 256$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$E = 256$",
+   "piege": "$2^{30} + 2^{20} \\neq 2^{50}$ : on ne peut pas additionner les exposants d'une somme.",
+   "astuce": "Mettre en facteur la plus petite puissance."
+  },
+  {
+   "numero": "Ex1-1F",
+   "enonce": "Écrire plus simplement $F = \\sqrt{2015 \\times 2016 - 2015}$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$2015 \\times 2016 - 2015 = 2015 \\times (2016 - 1) = 2015^2$.",
+    "$F = \\sqrt{2015^2} = 2015$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$F = 2015$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2a",
+   "enonce": "Montrer que $(999\\,999)^2 + (2\\,000)^2 = (1\\,000\\,001)^2$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "Avec $n = 10^6$ : $(n - 1)^2 + (2 \\times 10^3)^2 = n^2 - 2n + 1 + 4 \\times 10^6 = n^2 - 2n + 1 + 4n = n^2 + 2n + 1$.",
+    "$n^2 + 2n + 1 = (n + 1)^2 = (1\\,000\\,001)^2$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "égalité vérifiée",
+   "piege": "",
+   "astuce": "Poser n = 10⁶ et utiliser les identités remarquables."
+  },
+  {
+   "numero": "Ex1-2b",
+   "enonce": "Calculer $80\\,001^2 - 160\\,001$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$160\\,001 = 2 \\times 80\\,001 - 1$, donc $80\\,001^2 - 160\\,001 = 80\\,001^2 - 2 \\times 80\\,001 + 1 = (80\\,001 - 1)^2$.",
+    "$= 80\\,000^2 = 6\\,400\\,000\\,000$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$80\\,000^2 = 6\\,400\\,000\\,000$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-1",
+   "enonce": "Développer, réduire, ordonner $H$ et $G$.",
+   "points": 0.75,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$H = 4(x^2 + 2\\sqrt{3}x + 3) - 4\\sqrt{3}x - 12 + 3 = 3 + 4\\sqrt{3}x + 4x^2$.",
+    "$G = 4x^2 + 4\\sqrt{3}x + 3 = 3 + 4\\sqrt{3}x + 4x^2$."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "$H = G = 3 + 4\\sqrt{3}x + 4x^2$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-2",
+   "enonce": "Factorisation de $H$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$H$ et $G$ ont le même développement, donc $H = G = (2x + \\sqrt{3})^2$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$H = (2x + \\sqrt{3})^2$",
+   "piege": "",
+   "astuce": "Autre voie : $H = [2(x+\\sqrt{3}) - \\sqrt{3}]^2$."
+  },
+  {
+   "numero": "Ex2-3a",
+   "enonce": "Résoudre $Q = \\sqrt{H} = 2\\sqrt{3}$.",
+   "points": 1,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ"
+   ],
+   "corrige": [
+    "$Q = \\sqrt{(2x + \\sqrt{3})^2} = |2x + \\sqrt{3}|$.",
+    "$|2x + \\sqrt{3}| = 2\\sqrt{3} \\Leftrightarrow 2x + \\sqrt{3} = 2\\sqrt{3}$ ou $2x + \\sqrt{3} = -2\\sqrt{3}$.",
+    "$x = \\dfrac{\\sqrt{3}}{2}$ ou $x = -\\dfrac{3\\sqrt{3}}{2}$ : $S = \\left\\{-\\dfrac{3\\sqrt{3}}{2}\\,;\\,\\dfrac{\\sqrt{3}}{2}\\right\\}$."
+   ],
+   "bareme": [
+    0.25,
+    0.5,
+    0.25
+   ],
+   "resultat_final": "$S = \\left\\{-\\frac{3\\sqrt{3}}{2}\\,;\\frac{\\sqrt{3}}{2}\\right\\}$",
+   "piege": "$\\sqrt{u^2} = |u|$ : ne pas oublier la solution négative.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-3c",
+   "enonce": "Représenter $f(x) = Q = |2x + \\sqrt{3}|$.",
+   "points": 1.25,
+   "notions_titres": [
+    "Généralités sur les fonctions"
+   ],
+   "corrige": [
+    "Pour $x \\ge -\\dfrac{\\sqrt{3}}{2}$ : $f(x) = 2x + \\sqrt{3}$ ; pour $x \\le -\\dfrac{\\sqrt{3}}{2}$ : $f(x) = -2x - \\sqrt{3}$.",
+    "La courbe est formée de deux demi-droites issues du point $\\left(-\\dfrac{\\sqrt{3}}{2}\\,;0\\right) \\approx (-0{,}87\\,;0)$ : l'une passe par $(0\\,;\\sqrt{3}) \\approx (0\\,;1{,}73)$, l'autre par $(-\\sqrt{3}\\,;\\sqrt{3})$. Elle est symétrique par rapport à la droite $x = -\\dfrac{\\sqrt{3}}{2}$."
+   ],
+   "bareme": [
+    0.5,
+    0.75
+   ],
+   "resultat_final": "courbe en V de sommet $(-\\frac{\\sqrt{3}}{2}\\,;0)$",
+   "piege": "",
+   "astuce": "Toujours placer le sommet puis un point de chaque côté."
+  },
+  {
+   "numero": "Ex3-1a",
+   "enonce": "Montrer que $KA = BJ = JC$.",
+   "points": 1,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$J$ est le milieu de $[BC]$, donc $BJ = JC$.",
+    "$(AK) \\parallel (BJ)$ (côtés opposés du carré, $K \\in (AD)$) ; dans les triangles $IAK$ et $IBJ$ : $IA = IB$, $\\widehat{AIK} = \\widehat{BIJ}$ (opposés par le sommet) et $\\widehat{IAK} = \\widehat{IBJ} = 90^\\circ$. Ils sont isométriques, donc $KA = BJ$."
+   ],
+   "bareme": [
+    0.25,
+    0.75
+   ],
+   "resultat_final": "$KA = BJ = JC = \\frac{1}{2}$ côté",
+   "piege": "",
+   "astuce": "Ou : symétrie de centre I, qui échange A et B, et les droites (AD) et (BC)."
+  },
+  {
+   "numero": "Ex3-1b",
+   "enonce": "Nature de $AKBJ$ et de $AKJC$.",
+   "points": 0.75,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$I$ est le milieu de $[AB]$ et de $[KJ]$ (car $IK = IJ$ d'après les triangles isométriques) : les diagonales de $AKBJ$ ont le même milieu, c'est un **parallélogramme**.",
+    "$\\overrightarrow{AK} = \\overrightarrow{CJ}$ (même direction, même sens, même longueur $KA = JC$) : $AKJC$ est un **parallélogramme**."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "AKBJ et AKJC sont des parallélogrammes",
+   "piege": "Attention à l'ordre des sommets pour écrire l'égalité de vecteurs.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-2",
+   "enonce": "Montrer que $(DB) \\perp (KJ)$.",
+   "points": 0.75,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$AKJC$ est un parallélogramme, donc $(KJ) \\parallel (AC)$.",
+    "Les diagonales du carré sont perpendiculaires : $(AC) \\perp (DB)$. Donc $(KJ) \\perp (DB)$."
+   ],
+   "bareme": [
+    0.25,
+    0.5
+   ],
+   "resultat_final": "$(DB) \\perp (KJ)$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3a",
+   "enonce": "Que représente $I$ pour le triangle $BDK$ ?",
+   "points": 0.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$(KJ)$ passe par $K$ et est perpendiculaire à $(DB)$ : c'est la hauteur issue de $K$, et elle contient $I$. $(BA)$ passe par $B$ et est perpendiculaire à $(DK) = (AD)$ : c'est la hauteur issue de $B$, et elle contient $I$. Donc $I$ est l'**orthocentre** de $BDK$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "I est l'orthocentre de BDK",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3b",
+   "enonce": "Position relative de $(DI)$ et $(AJ)$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$(DI)$ est la troisième hauteur de $BDK$ : $(DI) \\perp (BK)$. Or $AKBJ$ est un parallélogramme, donc $(BK) \\parallel (AJ)$. Donc $(DI) \\perp (AJ)$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$(DI) \\perp (AJ)$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1a",
+   "enonce": "Exprimer $\\overrightarrow{AK}$, $\\overrightarrow{AI}$, $\\overrightarrow{AJ}$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$K$ est le milieu de $[BI]$ ($B$ symétrique de $I$ par rapport à $K$) : $\\overrightarrow{AK} = \\dfrac{1}{2}(\\overrightarrow{AB} + \\overrightarrow{AI})$.",
+    "$I$ est le milieu de $[JC]$ : $\\overrightarrow{AI} = \\dfrac{1}{2}(\\overrightarrow{AJ} + \\overrightarrow{AC})$.",
+    "$J$ est le milieu de $[AK]$ : $\\overrightarrow{AJ} = \\dfrac{1}{2}\\overrightarrow{AK}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\overrightarrow{AK} = \\frac{1}{2}(\\overrightarrow{AB} + \\overrightarrow{AI})$ ; $\\overrightarrow{AI} = \\frac{1}{2}(\\overrightarrow{AJ} + \\overrightarrow{AC})$ ; $\\overrightarrow{AJ} = \\frac{1}{2}\\overrightarrow{AK}$",
+   "piege": "",
+   "astuce": "Si M est le milieu de [XY], alors pour tout point A : $\\overrightarrow{AM} = \\frac{1}{2}(\\overrightarrow{AX} + \\overrightarrow{AY})$."
+  },
+  {
+   "numero": "Ex4-1b",
+   "enonce": "En déduire $\\overrightarrow{AK}$ en fonction de $\\overrightarrow{AB}$ et $\\overrightarrow{AC}$ (coefficient illisible dans le scan).",
+   "points": 1,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "On remplace : $\\overrightarrow{AK} = \\dfrac{1}{2}\\overrightarrow{AB} + \\dfrac{1}{2}\\left(\\dfrac{1}{4}\\overrightarrow{AK} + \\dfrac{1}{2}\\overrightarrow{AC}\\right) = \\dfrac{1}{2}\\overrightarrow{AB} + \\dfrac{1}{8}\\overrightarrow{AK} + \\dfrac{1}{4}\\overrightarrow{AC}$.",
+    "$\\dfrac{7}{8}\\overrightarrow{AK} = \\dfrac{1}{2}\\overrightarrow{AB} + \\dfrac{1}{4}\\overrightarrow{AC}$, donc $\\overrightarrow{AK} = \\dfrac{4}{7}\\overrightarrow{AB} + \\dfrac{2}{7}\\overrightarrow{AC} = \\dfrac{2}{7}(2\\overrightarrow{AB} + \\overrightarrow{AC})$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\overrightarrow{AK} = \\dfrac{2}{7}(2\\overrightarrow{AB} + \\overrightarrow{AC})$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-4",
+   "enonce": "$ABC$ donné : construire $I$, $J$, $K$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Vecteurs et points du plan",
+    "Barycentre"
+   ],
+   "corrige": [
+    "D'après 1b, $K$ est le point tel que $\\overrightarrow{AK} = \\dfrac{2}{7}(2\\overrightarrow{AB} + \\overrightarrow{AC})$ : on le construit.",
+    "$J$ est le milieu de $[AK]$, et $I$ est le symétrique de $B$ par rapport à $K$ ($\\overrightarrow{BI} = 2\\overrightarrow{BK}$).",
+    "Contrôle : on vérifie (calcul vectoriel) que $I$ est alors bien le milieu de $[CJ]$. Par permutation circulaire, on a aussi $\\overrightarrow{BI} = \\dfrac{2}{7}(2\\overrightarrow{BC} + \\overrightarrow{BA})$ et $\\overrightarrow{CJ} = \\dfrac{2}{7}(2\\overrightarrow{CA} + \\overrightarrow{CB})$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "K tel que $\\overrightarrow{AK} = \\frac{2}{7}(2\\overrightarrow{AB} + \\overrightarrow{AC})$, J milieu de [AK], I symétrique de B par rapport à K",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Résolution manuelle : A=6, B=0, E=256, F=2015 ; identité 999 999 vérifiée ; 80 001²−160 001=80 000²=6 400 000 000 ; H=G=(2x+√3)² ; Q=|2x+√3|=2√3 ⇔ x∈{−3√3/2 ; √3/2} ; KA=BJ=JC, AKBJ et AKJC parallélogrammes, (DB)⊥(KJ), I orthocentre de BDK, (DI)⊥(AJ) ; AK=(2/7)(2AB+AC).",
+  "passe2": "Résolution indépendante (sympy) : puissances calculées exactement, carré de côté 2 en coordonnées pour l'Ex3, triangle IJK générique pour l'Ex4 (AK − (2/7)(2AB+AC) = 0, et I milieu de [CJ] dans la construction de la Q4) : mêmes résultats.",
+  "code": "oui : script verif.py (sympy) et contrôle de la construction de l'Ex4 Q4, 21 vérifications pour ce sujet, toutes OK",
+  "desaccords": [
+   "Aucun désaccord entre les deux passes.",
+   "Ex1 : A, E et F sont des lectures probables (exposants reconstitués) ; chacune donne un résultat entier (6, 256, 2015), ce qui les confirme. C et D illisibles, non corrigés.",
+   "Ex2 Q3b : second membre illisible, non corrigée.",
+   "Ex4 : coefficients illisibles en Q1b (retrouvé par le calcul : 2/7), Q2 et Q3 (définitions de P, Q, R), donc Q2 et Q3 non corrigées. Si BP = (1/3)BC, alors AP = (2AB+AC)/3 et AK = (6/7)AP, et A, K, J, P sont alignés. Hypothèse cohérente mais non vérifiée.",
+   "Barème de l'Ex1 Q1 : 3 pts pour 6 calculs, soit 0,5 pt chacun (proposé, non officiel). Barème de l'Ex4 Q1a : 0,75 + 0,75, réparti en 0,5 × 3 (proposé).",
+   "Semestre : concours d'entrée en Seconde S (septembre), rangé en S1 comme révision des prérequis."
+  ]
+ }
+}
