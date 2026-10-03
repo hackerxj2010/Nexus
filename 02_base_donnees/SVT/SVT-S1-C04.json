@@ -1,0 +1,588 @@
+{
+ "id": "SVT-S1-C04",
+ "matiere": "SVT",
+ "semestre": 1,
+ "ordre": 4,
+ "titre": "Les relations entre les êtres vivants et la circulation de la matière et de l'énergie",
+ "objectifs": [
+  "L'élève doit être capable d'identifier et de caractériser (+, −, 0) les relations entre êtres vivants à partir d'un document.",
+  "L'élève doit être capable de construire une chaîne et un réseau trophiques et d'indiquer les niveaux trophiques.",
+  "L'élève doit être capable de construire et d'interpréter une pyramide écologique.",
+  "L'élève doit être capable de calculer un rendement écologique et d'expliquer le flux d'énergie à sens unique.",
+  "L'élève doit être capable d'expliquer le rôle des décomposeurs dans le recyclage de la matière (cycles du carbone et de l'azote)."
+ ],
+ "prerequis": [
+  "SVT-S1-C03",
+  "SVT-3e-CHAINE-ALIMENTAIRE"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S1-C04-N1",
+   "titre": "Les relations entre les êtres vivants",
+   "prerequis_notions": [
+    "SVT-S1-C03-N1"
+   ],
+   "cours_md": "### 1. Relations au sein d'une même espèce (intraspécifiques)\n- **Compétition intraspécifique** : les individus d'une même espèce se disputent la nourriture, l'eau, la lumière, le territoire ou les partenaires. Des plants de maïs semés trop serrés restent petits.\n- **Coopération** : vie en groupe ou en société avec partage des tâches (termites, fourmis, abeilles), chasse en groupe, protection des jeunes.\n\n### 2. Relations entre espèces différentes (interspécifiques)\nOn note **+** si l'espèce en profite, **−** si elle est désavantagée, **0** si elle n'est pas affectée.\n\n| Relation | Effets | Définition | Exemples |\n|---|---|---|---|\n| **Prédation** | + / − | le prédateur tue et mange sa proie | rapace et rat, mante religieuse et criquet |\n| **Parasitisme** | + / − | le parasite vit aux dépens d'un hôte, sans le tuer en général rapidement | *Striga* (« herbe sorcière ») sur les racines du sorgho et du maïs ; *Plasmodium* chez l'Homme ; tiques des bovins |\n| **Compétition** | − / − | deux espèces exploitent la même ressource limitée | mauvaises herbes et maïs (lumière, eau, sels minéraux) |\n| **Mutualisme (symbiose)** | + / + | association à bénéfice réciproque (obligatoire dans la symbiose) | bactérie *Rhizobium* et légumineuses (arachide, soja, niébé) ; lichen = algue + champignon ; abeilles et fleurs |\n| **Commensalisme** | + / 0 | une espèce profite de l'autre sans lui nuire | héron garde-bœufs qui suit les bovins pour attraper les insectes dérangés ; plantes épiphytes (orchidées) sur les arbres |\n\n:::definition\n**Symbiose** : association durable et obligatoire entre deux espèces, bénéfique aux deux. Exemple : dans les **nodosités** des racines d'arachide, la bactérie *Rhizobium* fixe le diazote ($\\ce{N2}$) de l'air et le transforme en composés azotés utilisables par la plante ; la plante lui fournit des sucres issus de la photosynthèse.\n:::\n\n### 3. Un exemple togolais : le *Striga*\nLe *Striga* est une petite plante à fleurs roses qui infeste les champs de sorgho, de mil et de maïs du nord du Togo. Ses racines se fixent sur celles de la céréale et y prélèvent eau, sels minéraux et sucres. La céréale reste chétive et le rendement peut chuter fortement : c'est du **parasitisme**. Les rotations avec des légumineuses et l'apport de fumure organique aident à le combattre.\n\n:::remarque\n**Expérience sur la symbiose** : on cultive du soja dans un sol pauvre en azote, avec ou sans *Rhizobium*. Avec la bactérie, les plants forment des nodosités et pèsent environ 3 fois plus ; dans un sol riche en azote, la différence disparaît. La bactérie apporte donc l'**azote** à la plante.\n:::\n\n### 4. Relations et équilibre des populations\nLes relations régulent les effectifs : quand les proies abondent, les prédateurs se multiplient ; ils consomment alors davantage de proies, dont l'effectif diminue, puis le nombre de prédateurs baisse à son tour. Les deux populations **oscillent** avec un décalage. Supprimer un prédateur (chasse des rapaces ou des serpents) peut provoquer une **pullulation** de rongeurs nuisibles aux récoltes.\n\n:::methode\nPour **identifier une relation** dans un texte : 1) repérer les deux espèces ; 2) se demander pour chacune si elle gagne (+), perd (−) ou n'est pas touchée (0) ; 3) nommer la relation d'après le couple de signes ; 4) justifier par une phrase du texte.\n:::",
+   "definition": "Les êtres vivants d'un écosystème entretiennent des relations intraspécifiques (compétition, coopération) et interspécifiques (prédation, parasitisme, compétition, mutualisme ou symbiose, commensalisme) qui règlent leurs effectifs.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Dans la nature, on se mange, on se dispute, on s'aide ou on profite des autres.",
+    "simple": "Prédation : le chat attrape la souris. Parasitisme : le moustique pique et transmet le paludisme. Compétition : deux marchandes qui veulent la même place au marché. Mutualisme : le cultivateur et son bœuf de labour qui s'entraident. Commensalisme : le héron garde-bœufs qui suit le troupeau pour manger les insectes dérangés, sans gêner les bœufs.",
+    "complete": "Les relations intraspécifiques (compétition, coopération) et interspécifiques se caractérisent par leurs effets (+, −, 0) sur chaque partenaire : prédation (+/−), parasitisme (+/−), compétition (−/−), mutualisme et symbiose (+/+, ex. Rhizobium-légumineuses fixant le N2), commensalisme (+/0). Ces interactions régulent les populations (oscillations proies-prédateurs) ; les perturber peut entraîner des pullulations. Le Striga, parasite des céréales du nord du Togo, illustre l'importance agronomique de ces relations."
+   },
+   "analogie": "Le marché de Lomé : deux vendeuses de tomates côte à côte sont en compétition ; le grossiste et la revendeuse qui se rendent service sont en mutualisme ; le pickpocket qui vit aux dépens des clients est un parasite.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : « Le Striga germe seulement près des racines de sorgho ; ses suçoirs pénètrent dans les racines de la céréale et y puisent eau, sels minéraux et sucres. Les pieds de sorgho atteints restent petits et produisent peu de grains. » Identifie la relation.",
+     "etapes": [
+      "Je repère les espèces : le Striga et le sorgho.",
+      "Effets : le Striga se nourrit aux dépens du sorgho (+) ; le sorgho est affaibli, son rendement baisse (−).",
+      "Le Striga ne tue pas immédiatement le sorgho et vit fixé sur lui.",
+      "Conclusion : c'est une relation de parasitisme (+/−) ; le Striga est un parasite, le sorgho son hôte."
+     ]
+    },
+    {
+     "enonce": "Document : masse sèche moyenne de plants de soja après 8 semaines. Sol pauvre en azote : sans Rhizobium 4 g, avec Rhizobium 12 g (nodosités présentes). Sol riche en azote : 13 g dans les deux cas. Interprète.",
+     "etapes": [
+      "Je décris : en sol pauvre en azote, les plants avec Rhizobium sont 3 fois plus lourds (12 ÷ 4 = 3) ; en sol riche, la bactérie ne change rien.",
+      "J'interprète : la bactérie compense le manque d'azote du sol : elle fournit de l'azote à la plante (fixation du N2 de l'air dans les nodosités) ; en échange, elle reçoit des sucres.",
+      "Conclusion : l'association soja-Rhizobium est une symbiose (+/+), particulièrement utile dans les sols pauvres."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre parasitisme (l'hôte reste en vie, longtemps) et prédation (la proie est tuée).",
+    "Appeler « symbiose » toute relation où deux espèces vivent ensemble (le commensalisme n'est pas une symbiose).",
+    "Oublier la compétition entre individus de la même espèce (semis trop serrés).",
+    "Donner les signes sans justifier à partir du document."
+   ],
+   "astuces": [
+    "Retiens le tableau des signes : P+−, P+−, C−−, M++, C+0.",
+    "Les légumineuses (arachide, soja, niébé, haricot) = nodosités = Rhizobium = azote gratuit pour le sol."
+   ],
+   "mnemo": "« Pré-Para-Compé-Mutu-Commen » : +−, +−, −−, ++, +0.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu les chaînes alimentaires (« qui mange qui ») et que certains microbes provoquent des maladies. Ici, on classe toutes les relations entre êtres vivants, pas seulement la nourriture."
+   },
+   "methode_redaction": "Pour une question « nommer et justifier une relation » : 1) nommer la relation ; 2) donner les effets sur chaque espèce (+, −, 0) ; 3) citer l'indice du document qui le prouve. Pour une expérience : décrire, comparer au témoin, conclure.",
+   "flash": [
+    {
+     "q": "Prédation : effets ?",
+     "r": "+ pour le prédateur, − pour la proie (qui est tuée)."
+    },
+    {
+     "q": "Parasitisme : exemple togolais en agriculture ?",
+     "r": "Le Striga sur le sorgho, le mil ou le maïs."
+    },
+    {
+     "q": "Mutualisme : effets ?",
+     "r": "+ / + (bénéfice réciproque)."
+    },
+    {
+     "q": "Rôle de Rhizobium dans les nodosités ?",
+     "r": "Il fixe le N₂ de l'air et fournit de l'azote à la légumineuse."
+    },
+    {
+     "q": "Commensalisme : exemple ?",
+     "r": "Le héron garde-bœufs et les bovins (+/0)."
+    },
+    {
+     "q": "Compétition interspécifique : effets ?",
+     "r": "− / − (ressource partagée)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C04-N1.svg",
+    "alt": "Tableau des relations interspécifiques avec leurs signes et des exemples togolais",
+    "legende": "Les relations entre espèces : prédation, parasitisme, compétition, mutualisme et commensalisme.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C04-N2",
+   "titre": "Chaînes, réseaux trophiques et pyramides écologiques",
+   "prerequis_notions": [
+    "SVT-S1-C04-N1",
+    "SVT-3e-CHAINE-ALIMENTAIRE"
+   ],
+   "cours_md": "### 1. La chaîne alimentaire\n:::definition\n**Chaîne alimentaire** (chaîne trophique) : suite d'êtres vivants dans laquelle chacun mange celui qui le précède. La flèche signifie « **est mangé par** » et indique le sens du transfert de la matière et de l'énergie.\n:::\n\nExemples :\n- Savane : graminée → criquet → margouillat → serpent → rapace.\n- Lagune de Lomé : algues microscopiques (phytoplancton) → petits crustacés (zooplancton) → tilapia → héron.\n\n### 2. Les niveaux trophiques\n- **Producteurs (P)** : végétaux chlorophylliens, premier maillon de toute chaîne.\n- **Consommateurs primaires (C I)** : herbivores (criquet, antilope, chenille).\n- **Consommateurs secondaires (C II)** : carnivores qui mangent des herbivores (margouillat, araignée).\n- **Consommateurs tertiaires (C III)** : carnivores qui mangent d'autres carnivores (serpent, rapace) ; les derniers maillons sont les **super-prédateurs**.\n- **Décomposeurs** : ils interviennent à tous les niveaux (cadavres, excréments, feuilles mortes).\n\n:::remarque\nUn même animal peut occuper plusieurs niveaux : la pintade mange des graines (C I) et des criquets (C II) ; l'Homme est omnivore.\n:::\n\n### 3. Le réseau trophique\n:::definition\n**Réseau trophique** : ensemble des chaînes alimentaires d'un écosystème, reliées entre elles parce que la plupart des espèces ont plusieurs proies et plusieurs prédateurs.\n:::\nPlus un réseau est **diversifié**, plus l'écosystème est **stable** : si une espèce disparaît, ses prédateurs peuvent se reporter sur d'autres proies.\n\n### 4. Les pyramides écologiques\nOn représente chaque niveau trophique par un rectangle de longueur proportionnelle à une grandeur :\n- **Pyramide des nombres** (nombre d'individus) : elle peut être **inversée** (un seul manguier nourrit des milliers de chenilles).\n- **Pyramide des biomasses** (masse de matière vivante, en kg/ha ou g/m²) : en général régulière, mais parfois inversée à un instant donné en milieu aquatique (le phytoplancton se renouvelle très vite).\n- **Pyramide des énergies** (énergie produite par chaque niveau, en kJ/m²/an) : **toujours régulière**, car chaque niveau ne reçoit qu'une partie de l'énergie du niveau précédent.\n\n:::propriete\nD'un niveau trophique au suivant, la biomasse et l'énergie diminuent fortement (environ 90 % sont perdues). C'est pourquoi les chaînes alimentaires dépassent rarement **4 ou 5 maillons**, et les super-prédateurs sont toujours peu nombreux.\n:::\n\n:::methode\nPour **construire une chaîne à partir d'un texte** : 1) repérer le producteur et le placer en premier ; 2) chercher qui le mange, puis qui mange ce consommateur… ; 3) relier par des flèches orientées vers le mangeur ; 4) indiquer sous chaque maillon son niveau trophique.\n:::",
+   "definition": "Une chaîne alimentaire relie des êtres vivants dont chacun mange le précédent ; les chaînes s'entrecroisent en réseaux trophiques, et les pyramides écologiques montrent la diminution des nombres, biomasses et énergies d'un niveau trophique au suivant.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Qui mange qui : de la plante au super-prédateur, avec de moins en moins de matière à chaque étage.",
+    "simple": "La chaîne alimentaire est comme une file de passation de plats : chaque convive garde l'essentiel pour lui et ne passe qu'un petit reste au suivant. Au bout de 4 ou 5 personnes, il ne reste presque rien : c'est pour cela que les rapaces sont rares.",
+    "complete": "Les chaînes alimentaires commencent toujours par un producteur et se poursuivent par des consommateurs de rangs successifs (C I herbivores, C II, C III) ; les décomposeurs agissent à tous les niveaux. Les chaînes s'interconnectent en réseaux trophiques, d'autant plus stables qu'ils sont diversifiés. Les pyramides des nombres et des biomasses peuvent être inversées, mais la pyramide des énergies est toujours régulière, la perte d'environ 90 % à chaque transfert limitant la longueur des chaînes."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : « Dans un champ de maïs de la région des Plateaux, les chenilles dévorent les feuilles ; les guêpes et les araignées capturent les chenilles ; les margouillats mangent les araignées et les guêpes ; les couleuvres chassent les margouillats. » Construis la chaîne la plus longue et précise les niveaux.",
+     "etapes": [
+      "Producteur : le maïs (P).",
+      "Chaîne la plus longue : maïs → chenille → araignée (ou guêpe) → margouillat → couleuvre.",
+      "Niveaux : maïs (P), chenille (C I), araignée (C II), margouillat (C III), couleuvre (C IV, super-prédateur ici).",
+      "Conclusion : cette chaîne compte 5 maillons ; avec la guêpe à la place de l'araignée, on obtient une deuxième chaîne : c'est déjà un petit réseau."
+     ]
+    },
+    {
+     "enonce": "Document : biomasses dans une savane (kg/ha) — producteurs 10 000 ; C I 1 000 ; C II 90 ; C III 8. Décris la pyramide et calcule la part de biomasse conservée de P à C I et de C I à C II.",
+     "etapes": [
+      "Je décris : la biomasse diminue à chaque niveau, la pyramide est régulière (base large, sommet étroit).",
+      "De P à C I : $\\frac{1\\,000}{10\\,000} = 0{,}1$, soit 10 %.",
+      "De C I à C II : $\\frac{90}{1\\,000} = 0{,}09$, soit 9 %.",
+      "Conclusion : environ 90 % de la biomasse ne passe pas au niveau suivant ; cela explique le petit nombre de grands carnivores."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Orienter les flèches dans le sens « mange » (rapace → serpent) au lieu de « est mangé par ».",
+    "Commencer une chaîne par un animal ou oublier le producteur.",
+    "Dire que la pyramide des nombres est toujours régulière.",
+    "Oublier les décomposeurs dans un réseau trophique complet."
+   ],
+   "astuces": [
+    "La flèche va de l'aliment vers le mangeur : elle suit la nourriture qui « voyage ».",
+    "Toujours écrire le niveau trophique sous chaque maillon : c'est souvent noté."
+   ],
+   "mnemo": "« P, puis C1, C2, C3 : chaque étage garde 90 % et ne passe que 10 % ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as construit des chaînes alimentaires avec des flèches « est mangé par » et tu as vu que les végétaux sont au début de toutes les chaînes. En seconde, on ajoute les niveaux trophiques, les réseaux et les pyramides."
+   },
+   "methode_redaction": "Pour une chaîne ou un réseau : flèches orientées vers le mangeur, producteur en bas ou à gauche, niveaux trophiques indiqués, titre. Pour une pyramide : rectangles centrés, longueurs proportionnelles aux valeurs (échelle indiquée), niveaux nommés, titre avec l'unité.",
+   "flash": [
+    {
+     "q": "Que signifie la flèche dans une chaîne alimentaire ?",
+     "r": "« Est mangé par » (sens du transfert de matière)."
+    },
+    {
+     "q": "Premier maillon de toute chaîne ?",
+     "r": "Un producteur (végétal chlorophyllien)."
+    },
+    {
+     "q": "Qu'est-ce qu'un réseau trophique ?",
+     "r": "L'ensemble des chaînes alimentaires reliées d'un écosystème."
+    },
+    {
+     "q": "Quelle pyramide est toujours régulière ?",
+     "r": "La pyramide des énergies."
+    },
+    {
+     "q": "Pourquoi les chaînes ont-elles rarement plus de 5 maillons ?",
+     "r": "Environ 90 % de l'énergie est perdue à chaque niveau."
+    },
+    {
+     "q": "Exemple de pyramide des nombres inversée ?",
+     "r": "Un arbre nourrissant des milliers de chenilles."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C04-N2.svg",
+    "alt": "Réseau trophique d'une savane togolaise et pyramide des énergies",
+    "legende": "Réseau trophique simplifié d'une savane et pyramide des énergies (données simplifiées).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C04-N3",
+   "titre": "Flux d'énergie et cycle de la matière",
+   "prerequis_notions": [
+    "SVT-S1-C04-N2"
+   ],
+   "cours_md": "### 1. L'énergie entre par les producteurs\nLa source d'énergie de presque tous les écosystèmes est la **lumière solaire**. Les producteurs n'en captent qu'une faible fraction (souvent moins de 2 %) et la transforment en énergie chimique contenue dans la matière organique (photosynthèse, chapitre 7).\n\n### 2. Le devenir de l'énergie à chaque niveau\nPour un consommateur :\n$$\\text{énergie ingérée} = \\text{énergie assimilée} + \\text{énergie des excréments}$$\n$$\\text{énergie assimilée} = \\text{énergie perdue par la respiration (chaleur)} + \\text{production (croissance, reproduction)}$$\nSeule la **production** est disponible pour le niveau suivant.\n\n:::definition\n**Rendement écologique** entre deux niveaux trophiques :\n$$R = \\frac{\\text{énergie (ou production) du niveau } n+1}{\\text{énergie (ou production) du niveau } n} \\times 100$$\nIl est en moyenne d'environ **10 %** (souvent entre 5 et 20 %).\n:::\n\nExemple (données simplifiées) : un bœuf ingère 100 kJ de fourrage ; 60 kJ sont rejetés dans les bouses ; 36 kJ sont dissipés par la respiration ; 4 kJ seulement deviennent de la viande : rendement de production de **4 %**.\n\n:::propriete\nL'énergie suit un **flux à sens unique** : elle entre par les producteurs, passe de niveau en niveau en diminuant, et sort de l'écosystème sous forme de **chaleur**. Elle **ne se recycle pas**. L'écosystème a donc besoin d'un apport permanent d'énergie solaire.\n:::\n\n### 3. La matière, elle, se recycle\nLes **décomposeurs** (bactéries, champignons) aidés des animaux du sol (vers de terre, termites, cloportes, mille-pattes) fragmentent puis transforment la matière organique morte en **matière minérale** ($\\ce{CO2}$, eau, ions minéraux) : c'est la **minéralisation**. Ces éléments minéraux sont réabsorbés par les végétaux.\n\n**Le cycle du carbone (simplifié)** :\n- les producteurs fixent le $\\ce{CO2}$ de l'air par **photosynthèse** et fabriquent de la matière organique ;\n- le carbone passe aux consommateurs par l'alimentation ;\n- tous les êtres vivants rejettent du $\\ce{CO2}$ par **respiration** ;\n- les décomposeurs minéralisent cadavres et excréments en $\\ce{CO2}$ ;\n- la **combustion** (bois, charbon de bois, pétrole) libère aussi du $\\ce{CO2}$ ; une partie du carbone peut rester stockée longtemps (bois, humus, roches carbonées, pétrole).\n\n**Le cycle de l'azote (simplifié)** : $\\ce{N2}$ de l'air → fixé par les bactéries (*Rhizobium*) → protéines végétales → protéines animales → cadavres et excréments → décomposeurs (ammonium $\\ce{NH4+}$) → bactéries nitrifiantes (nitrates $\\ce{NO3-}$) → absorbés par les racines.\n\n:::remarque\n**Expérience des sacs de litière** : des feuilles mortes de teck sont enfermées dans des sacs à mailles fines (les animaux du sol ne peuvent pas entrer) ou larges, puis enterrées. Après 3 mois, elles ont perdu environ 20 % de leur masse dans les sacs à mailles fines et 60 % dans les sacs à mailles larges. La décomposition est donc réalisée par les micro-organismes, mais elle est **3 fois plus importante** avec la petite faune du sol, qui fragmente les feuilles.\n:::\n\n:::methode\nPour **calculer un rendement** : 1) identifier les deux niveaux ; 2) diviser la valeur du niveau supérieur par celle du niveau inférieur ; 3) multiplier par 100 ; 4) interpréter (où est passé le reste ? respiration, déchets, parties non consommées).\n:::",
+   "definition": "L'énergie solaire captée par les producteurs traverse l'écosystème à sens unique en se perdant surtout sous forme de chaleur (rendement d'environ 10 % par niveau), tandis que la matière est recyclée grâce aux décomposeurs (cycles du carbone et de l'azote).",
+   "formules": [
+    "$R = \\dfrac{E_{n+1}}{E_n} \\times 100$",
+    "$E_{\\text{ingérée}} = E_{\\text{assimilée}} + E_{\\text{excréments}}$",
+    "$E_{\\text{assimilée}} = E_{\\text{respiration}} + \\text{production}$"
+   ],
+   "niveaux": {
+    "phrase": "L'énergie traverse et se perd ; la matière tourne en rond et se recycle.",
+    "simple": "L'énergie est comme l'argent d'un salaire qu'on dépense : une fois dépensé (chaleur), il ne revient pas, il faut un nouveau salaire (le soleil chaque jour). La matière est comme les bouteilles consignées : on les rapporte (décomposeurs) et elles servent à nouveau.",
+    "complete": "Les producteurs convertissent une faible fraction de l'énergie lumineuse en énergie chimique. À chaque niveau, l'énergie ingérée se répartit entre excréments, respiration (chaleur) et production ; seule la production est transmise, d'où un rendement écologique moyen d'environ 10 %. Le flux d'énergie est unidirectionnel, alors que les éléments chimiques (C, N…) circulent en cycles : photosynthèse, alimentation, respiration, minéralisation par les décomposeurs et la faune du sol, fixation et nitrification pour l'azote."
+   },
+   "analogie": "L'énergie est comme le carburant d'un zémidjan : une fois brûlé, il part en chaleur et en fumée, il faut refaire le plein. La matière est comme les pièces détachées d'une vieille moto récupérées par le mécanicien pour en réparer une autre.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : énergie (kJ/m²/an) — producteurs 20 000, herbivores 2 000, carnivores 180. Calcule les rendements et explique la différence.",
+     "etapes": [
+      "Rendement producteurs → herbivores : $\\frac{2\\,000}{20\\,000} \\times 100 = 10\\ \\%$.",
+      "Rendement herbivores → carnivores : $\\frac{180}{2\\,000} \\times 100 = 9\\ \\%$.",
+      "J'interprète : environ 90 % de l'énergie de chaque niveau n'est pas transmise : parties non mangées, excréments, et surtout chaleur dégagée par la respiration.",
+      "Conclusion : l'énergie diminue d'un niveau à l'autre ; ce flux est à sens unique."
+     ]
+    },
+    {
+     "enonce": "Document : feuilles de teck enterrées 3 mois dans des sacs. Mailles fines : perte de masse 20 % ; mailles larges : 60 %. Interprète.",
+     "etapes": [
+      "Je décris : la perte de masse est 3 fois plus forte avec les mailles larges (60 ÷ 20 = 3).",
+      "J'interprète : avec les mailles fines, seuls les micro-organismes (bactéries, champignons) agissent ; avec les mailles larges, la petite faune du sol (termites, vers, cloportes) entre aussi et fragmente les feuilles.",
+      "Conclusion : la décomposition de la litière est réalisée par les micro-organismes et fortement accélérée par la faune du sol ; elle permet le recyclage de la matière."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que l'énergie est recyclée par les décomposeurs (c'est la matière qui est recyclée).",
+    "Croire que les animaux transforment toute leur nourriture en chair.",
+    "Oublier la respiration (perte de chaleur) dans le devenir de l'énergie.",
+    "Calculer un rendement en divisant le petit niveau par le grand dans le mauvais ordre et trouver plus de 100 %."
+   ],
+   "astuces": [
+    "Un rendement écologique est presque toujours inférieur à 20 % : si tu trouves 1 000 %, tu as inversé la division.",
+    "Retiens : « l'énergie coule, la matière roule »."
+   ],
+   "mnemo": "« L'énergie coule, la matière roule. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que les décomposeurs transforment les feuilles mortes en éléments minéraux et que les végétaux ont besoin de lumière. On relie ici ces idées : le soleil fournit l'énergie, les décomposeurs recyclent la matière."
+   },
+   "methode_redaction": "Pour un calcul de rendement : formule, application numérique avec unités, résultat en %, interprétation des pertes. Pour un cycle : schéma fléché avec les réservoirs (air, producteurs, consommateurs, sol) et le nom de chaque processus sur les flèches (photosynthèse, respiration, minéralisation, combustion).",
+   "flash": [
+    {
+     "q": "Source d'énergie des écosystèmes ?",
+     "r": "La lumière solaire, captée par les producteurs."
+    },
+    {
+     "q": "Rendement écologique moyen entre deux niveaux ?",
+     "r": "Environ 10 %."
+    },
+    {
+     "q": "Énergie assimilée = ?",
+     "r": "Énergie de la respiration (chaleur) + production."
+    },
+    {
+     "q": "L'énergie se recycle-t-elle ?",
+     "r": "Non : flux à sens unique, elle sort sous forme de chaleur."
+    },
+    {
+     "q": "Qu'est-ce que la minéralisation ?",
+     "r": "Transformation de la matière organique morte en matière minérale par les décomposeurs."
+    },
+    {
+     "q": "Processus qui retirent le CO₂ de l'air ?",
+     "r": "La photosynthèse (et le stockage dans le bois, l'humus…)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C04-N3.svg",
+    "alt": "Flux d'énergie entre niveaux trophiques et cycle simplifié du carbone",
+    "legende": "L'énergie traverse l'écosystème (flux) tandis que le carbone circule en cycle.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S1-C04-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C04-N1"
+   ],
+   "format": "qcm",
+   "enonce": "La bactérie *Rhizobium* vit dans les nodosités des racines d'arachide : elle fournit de l'azote à la plante et reçoit des sucres. Cette relation est :",
+   "choix": [
+    "une prédation",
+    "un parasitisme",
+    "un commensalisme",
+    "une symbiose"
+   ],
+   "bonne_reponse": 3,
+   "indices": [],
+   "corrige": [
+    "Les deux partenaires en profitent (+/+).",
+    "C'est une symbiose (mutualisme obligatoire) : réponse D."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Croire qu'une bactérie dans une plante est forcément un parasite.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C04-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C04-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Dans la chaîne : maïs → criquet → margouillat → serpent, le margouillat est :",
+   "choix": [
+    "un producteur",
+    "un consommateur primaire",
+    "un consommateur secondaire",
+    "un décomposeur"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Le maïs est producteur, le criquet consommateur primaire.",
+    "Le margouillat mange un herbivore : consommateur secondaire (réponse C)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Compter le maïs comme consommateur primaire.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C04-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C04-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un niveau d'herbivores dispose de 5 000 kJ/m²/an et le niveau des carnivores qui les mangent de 450 kJ/m²/an. Calcule le rendement écologique en % (nombre seul).",
+   "reponses_acceptees": [
+    "9",
+    "9%"
+   ],
+   "indices": [],
+   "corrige": [
+    "R = (450 ÷ 5 000) × 100.",
+    "R = 9 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser 5 000 par 450.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C04-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C04-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Le *Striga* fixe ses suçoirs sur les racines du sorgho et y prélève eau, sels minéraux et sucres ; le sorgho reste chétif. Il s'agit :",
+   "choix": [
+    "de compétition",
+    "de parasitisme",
+    "de mutualisme",
+    "de commensalisme"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le Striga profite (+), le sorgho est affaibli sans être tué rapidement (−).",
+    "C'est du parasitisme (réponse B)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre « compétition » parce que les deux plantes sont dans le même champ.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C04-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C04-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un criquet ingère 200 kJ de feuilles ; 120 kJ sont rejetés dans ses excréments et 70 kJ sont dissipés par la respiration. Quelle quantité d'énergie (en kJ) sert à sa production (croissance) ? Nombre seul.",
+   "reponses_acceptees": [
+    "10",
+    "10kJ",
+    "10 kJ"
+   ],
+   "indices": [],
+   "corrige": [
+    "Énergie assimilée = 200 − 120 = 80 kJ.",
+    "Production = 80 − 70 = 10 kJ."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier de retirer les excréments.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C04-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C04-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle pyramide écologique est toujours régulière (jamais inversée) ?",
+   "choix": [
+    "La pyramide des nombres",
+    "La pyramide des biomasses",
+    "La pyramide des énergies",
+    "Aucune"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Nombres et biomasses peuvent s'inverser (arbre et chenilles ; plancton).",
+    "Chaque niveau reçoit moins d'énergie que le précédent : la pyramide des énergies est toujours régulière (réponse C)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Choisir la pyramide des nombres.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C04-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C04-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution et application. 1) Définis : chaîne alimentaire, réseau trophique, niveau trophique. 2) À partir du texte suivant, construis le réseau trophique et indique le niveau trophique de chaque être vivant : « Dans la lagune, le phytoplancton est consommé par le zooplancton et par les tilapias ; le zooplancton est mangé par les crevettes et les tilapias ; les hérons pêchent les tilapias et les crevettes. »",
+   "indices": [],
+   "corrige": [
+    "Chaîne alimentaire : suite d'êtres vivants dont chacun mange le précédent ; réseau trophique : ensemble des chaînes reliées d'un écosystème.",
+    "Niveau trophique : place d'un être vivant dans la chaîne (producteur, consommateur primaire, secondaire…).",
+    "Réseau : phytoplancton → zooplancton ; phytoplancton → tilapia ; zooplancton → crevette ; zooplancton → tilapia ; tilapia → héron ; crevette → héron (flèches « est mangé par »).",
+    "Niveaux : phytoplancton = producteur ; zooplancton = C I ; crevette = C II ; tilapia = C I et C II (omnivore) ; héron = C II et C III."
+   ],
+   "bareme": [
+    1,
+    1,
+    2,
+    2
+   ],
+   "piege": "Donner un seul niveau au tilapia alors qu'il mange à deux niveaux.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C04-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C04-N1",
+    "SVT-S1-C04-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation d'expérience. On cultive du niébé dans deux sols stérilisés pauvres en azote : sol A sans bactéries, sol B ensemencé avec *Rhizobium*. Après 8 semaines : sol A, plants jaunâtres, masse sèche 4 g, pas de nodosités ; sol B, plants verts, masse sèche 12 g, nombreuses nodosités. 1) Compare les résultats (calcule le rapport des masses). 2) Interprète. 3) Explique pourquoi les agriculteurs du Togo alternent maïs et niébé (ou arachide) sur une même parcelle.",
+   "indices": [],
+   "corrige": [
+    "1) Les plants du sol B sont verts, portent des nodosités et ont une masse 3 fois plus grande (12 ÷ 4 = 3).",
+    "2) Dans les nodosités, Rhizobium fixe le diazote de l'air et fournit à la plante l'azote qui manque au sol (plants verts, croissance) ; la plante lui fournit des sucres : symbiose (+/+).",
+    "3) Les résidus du niébé (racines, nodosités, feuilles) sont minéralisés par les décomposeurs et enrichissent le sol en azote, qui profite ensuite au maïs : la rotation réduit les besoins en engrais azotés."
+   ],
+   "bareme": [
+    1.5,
+    2,
+    2
+   ],
+   "piege": "Dire que la plante fixe elle-même le N2.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C04-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C04-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Les producteurs d'un écosystème produisent 100 000 kJ/m²/an. En admettant un rendement de 10 % à chaque transfert, quelle énergie (en kJ/m²/an) atteint les consommateurs tertiaires ? Nombre seul.",
+   "reponses_acceptees": [
+    "100"
+   ],
+   "indices": [],
+   "corrige": [
+    "C I : 100 000 × 0,1 = 10 000 ; C II : 10 000 × 0,1 = 1 000.",
+    "C III : 1 000 × 0,1 = 100 kJ/m²/an."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "S'arrêter aux consommateurs secondaires (1 000).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C04-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C04-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données. Des feuilles mortes (20 g par sac) sont enterrées dans le sol d'une forêt des Plateaux, dans des sacs à mailles fines (0,1 mm) ou larges (5 mm). Après 3 mois, il reste 16 g dans les sacs à mailles fines et 8 g dans les sacs à mailles larges. 1) Calcule la perte de masse en % dans chaque cas. 2) Interprète la différence. 3) Que deviennent les éléments chimiques de ces feuilles ? Situe ce phénomène dans le cycle du carbone.",
+   "indices": [],
+   "corrige": [
+    "1) Mailles fines : (20 − 16) ÷ 20 × 100 = 20 % ; mailles larges : (20 − 8) ÷ 20 × 100 = 60 %.",
+    "2) Les mailles fines ne laissent passer que les micro-organismes ; les larges laissent aussi entrer la petite faune du sol (termites, vers, cloportes) qui fragmente les feuilles : la décomposition est 3 fois plus rapide.",
+    "3) Les décomposeurs minéralisent la matière organique : le carbone retourne à l'air sous forme de CO₂ (respiration des décomposeurs), les ions minéraux retournent au sol et seront réabsorbés par les végétaux : la matière est recyclée."
+   ],
+   "bareme": [
+    2,
+    2,
+    2
+   ],
+   "piege": "Dire que les feuilles « disparaissent » sans parler de minéralisation.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C04-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S1-C04-N2",
+    "SVT-S1-C04-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Synthèse. Dans une savane, on mesure la production d'énergie de chaque niveau (kJ/m²/an) : producteurs 30 000 ; consommateurs I : 3 000 ; consommateurs II : 270 ; consommateurs III : 24.\n1) Construis (décris) la pyramide des énergies et calcule les rendements entre niveaux successifs (arrondis à l'unité).\n2) Explique où passe l'énergie « perdue ».\n3) Un champ de maïs fournit 1 000 000 kJ d'aliments. Un adulte a besoin d'environ 10 000 kJ par jour. Combien de journées de nourriture ce maïs fournit-il s'il est mangé directement ? Et s'il sert à nourrir des poulets (rendement de 10 %) que l'on mange ensuite ? Conclus.",
+   "indices": [
+    "Rendement = niveau supérieur ÷ niveau inférieur × 100."
+   ],
+   "corrige": [
+    "1) Pyramide régulière : base 30 000 (P), puis 3 000 (C I), 270 (C II), 24 (C III). Rendements : 3 000 ÷ 30 000 = 10 % ; 270 ÷ 3 000 = 9 % ; 24 ÷ 270 ≈ 9 %.",
+    "2) À chaque niveau, une grande partie de l'énergie n'est pas transmise : parties non consommées (racines, os), excréments, et surtout chaleur dissipée par la respiration ; l'énergie sort de l'écosystème sous forme de chaleur.",
+    "3a) Maïs mangé directement : 1 000 000 ÷ 10 000 = 100 journées.",
+    "3b) Via les poulets : 1 000 000 × 0,10 = 100 000 kJ, soit 100 000 ÷ 10 000 = 10 journées.",
+    "Conclusion : se nourrir au plus près des producteurs (céréales, légumineuses) permet de nourrir environ 10 fois plus de personnes avec la même surface cultivée."
+   ],
+   "bareme": [
+    2,
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Oublier d'appliquer le rendement de 10 % pour les poulets.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Flèches de chaîne alimentaire orientées dans le sens « mange » au lieu de « est mangé par ».",
+  "Confondre parasitisme et prédation, ou appeler symbiose un simple commensalisme.",
+  "Oublier les décomposeurs ou les placer comme dernier maillon d'une chaîne de prédateurs.",
+  "Dire que l'énergie est recyclée : seule la matière se recycle.",
+  "Inverser la division dans le calcul du rendement écologique.",
+  "Affirmer que toutes les pyramides sont régulières."
+ ]
+}

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 625" width="600" height="625" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Les relations entre espèces</title>
+<desc id="desc">Tableau illustré des relations interspécifiques avec leurs effets (+, −, 0) sur chaque espèce : prédation (+/−), parasitisme (+/−), compétition (−/−), mutualisme (+/+), commensalisme (+/0), avec des exemples togolais.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker></defs>
+<rect x="0" y="0" width="600" height="625" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Les relations entre espèces</text>
+<text x="150" y="72" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">Relation</text>
+<text x="330" y="72" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">Esp. 1</text>
+<text x="410" y="72" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">Esp. 2</text>
+<rect x="25" y="90" width="550" height="86" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="40" y="124" font-size="18" text-anchor="start" font-weight="bold" fill="#1f2937">Prédation</text>
+<circle cx="330" cy="118" r="19" fill="#dcfce7" stroke="#15803d" stroke-width="2.5"/>
+<text x="330" y="126" font-size="24" text-anchor="middle" font-weight="bold" fill="#15803d">+</text>
+<circle cx="410" cy="118" r="19" fill="#fee2e2" stroke="#b91c1c" stroke-width="2.5"/>
+<text x="410" y="126" font-size="24" text-anchor="middle" font-weight="bold" fill="#b91c1c">−</text>
+<text x="40" y="160" font-size="16" text-anchor="start" font-weight="normal" fill="#374151">ex. : rapace / rat ; lion / antilope</text>
+<rect x="25" y="188" width="550" height="86" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="40" y="222" font-size="18" text-anchor="start" font-weight="bold" fill="#1f2937">Parasitisme</text>
+<circle cx="330" cy="216" r="19" fill="#dcfce7" stroke="#15803d" stroke-width="2.5"/>
+<text x="330" y="224" font-size="24" text-anchor="middle" font-weight="bold" fill="#15803d">+</text>
+<circle cx="410" cy="216" r="19" fill="#fee2e2" stroke="#b91c1c" stroke-width="2.5"/>
+<text x="410" y="224" font-size="24" text-anchor="middle" font-weight="bold" fill="#b91c1c">−</text>
+<text x="40" y="258" font-size="16" text-anchor="start" font-weight="normal" fill="#374151">ex. : Striga / sorgho ; Plasmodium / Homme</text>
+<rect x="25" y="286" width="550" height="86" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="40" y="320" font-size="18" text-anchor="start" font-weight="bold" fill="#1f2937">Compétition</text>
+<circle cx="330" cy="314" r="19" fill="#fee2e2" stroke="#b91c1c" stroke-width="2.5"/>
+<text x="330" y="322" font-size="24" text-anchor="middle" font-weight="bold" fill="#b91c1c">−</text>
+<circle cx="410" cy="314" r="19" fill="#fee2e2" stroke="#b91c1c" stroke-width="2.5"/>
+<text x="410" y="322" font-size="24" text-anchor="middle" font-weight="bold" fill="#b91c1c">−</text>
+<text x="40" y="356" font-size="16" text-anchor="start" font-weight="normal" fill="#374151">ex. : mauvaises herbes / maïs</text>
+<rect x="25" y="384" width="550" height="86" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="40" y="418" font-size="18" text-anchor="start" font-weight="bold" fill="#1f2937">Mutualisme (symbiose)</text>
+<circle cx="330" cy="412" r="19" fill="#dcfce7" stroke="#15803d" stroke-width="2.5"/>
+<text x="330" y="420" font-size="24" text-anchor="middle" font-weight="bold" fill="#15803d">+</text>
+<circle cx="410" cy="412" r="19" fill="#dcfce7" stroke="#15803d" stroke-width="2.5"/>
+<text x="410" y="420" font-size="24" text-anchor="middle" font-weight="bold" fill="#15803d">+</text>
+<text x="40" y="454" font-size="16" text-anchor="start" font-weight="normal" fill="#374151">ex. : Rhizobium / arachide ; abeille / fleur</text>
+<rect x="25" y="482" width="550" height="86" rx="12" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="40" y="516" font-size="18" text-anchor="start" font-weight="bold" fill="#1f2937">Commensalisme</text>
+<circle cx="330" cy="510" r="19" fill="#dcfce7" stroke="#15803d" stroke-width="2.5"/>
+<text x="330" y="518" font-size="24" text-anchor="middle" font-weight="bold" fill="#15803d">+</text>
+<circle cx="410" cy="510" r="19" fill="#f3f4f6" stroke="#4b5563" stroke-width="2.5"/>
+<text x="410" y="518" font-size="24" text-anchor="middle" font-weight="bold" fill="#4b5563">0</text>
+<text x="40" y="552" font-size="16" text-anchor="start" font-weight="normal" fill="#374151">ex. : héron garde-bœufs / bovins</text>
+<text x="300" y="602" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">+ : l'espèce profite   − : l'espèce est désavantagée   0 : sans effet</text>
+</svg>
