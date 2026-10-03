@@ -34,7 +34,7 @@
 <text x="390" y="70" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">O₂ rejeté</text>
 <path d="M150 300 Q120 360 125 430" fill="none" stroke="#166534" stroke-width="6"/>
 <path d="M125 430 l-30 40 M125 430 l0 50 M125 430 l30 40" stroke="#92400e" stroke-width="3" fill="none"/>
-<rect x="30" y="430" width="230" height="4" fill="#92400e" opacity="0.5"/>
+<rect x="30" y="430" width="175" height="4" fill="#92400e" opacity="0.5"/>
 <line x1="100" y1="470" x2="112" y2="360" stroke="#2a78d6" stroke-width="2.5" marker-end="url(#flb)" stroke-dasharray="6 4"/>
 <text x="90" y="505" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">H₂O + ions</text>
 <text x="90" y="524" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">(sève brute)</text>

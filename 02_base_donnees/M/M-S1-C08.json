@@ -1,0 +1,637 @@
+{
+ "id": "M-S1-C08",
+ "matiere": "M",
+ "semestre": 1,
+ "ordre": 8,
+ "titre": "Géométrie dans l'espace",
+ "objectifs": [
+  "Utiliser les règles d'incidence de l'espace et représenter un solide en perspective cavalière.",
+  "Reconnaître les positions relatives de droites et de plans ; déterminer l'intersection de deux plans.",
+  "Démontrer le parallélisme d'une droite et d'un plan, de deux plans ; utiliser le théorème du toit.",
+  "Démontrer l'orthogonalité d'une droite et d'un plan ; calculer des longueurs et des volumes."
+ ],
+ "prerequis": [
+  "M-3e-SOLIDES",
+  "M-3e-PYTHAGORE",
+  "M-3e-THALES"
+ ],
+ "notions": [
+  {
+   "id": "M-S1-C08-N1",
+   "titre": "Règles d'incidence et positions relatives",
+   "prerequis_notions": [
+    "M-3e-SOLIDES",
+    "M-3e-PERSPECTIVE"
+   ],
+   "cours_md": ":::propriete Règles de base (axiomes d'incidence)\n1. Par deux points distincts passe **une et une seule droite**.\n2. Par trois points **non alignés** passe **un et un seul plan**.\n3. Si deux points distincts d'une droite appartiennent à un plan, **toute la droite** est contenue dans ce plan.\n4. Si deux plans distincts ont un point commun, leur intersection est **une droite** passant par ce point.\n5. Dans chaque plan de l'espace, tous les théorèmes de géométrie plane s'appliquent (Pythagore, Thalès...).\n:::\n\n:::propriete Un plan est déterminé par\n- trois points non alignés ;\n- une droite et un point extérieur à cette droite ;\n- deux droites sécantes ;\n- deux droites strictement parallèles.\n:::\n\n:::definition Positions relatives de deux droites\n- **Coplanaires** (dans un même plan) : elles sont soit **sécantes** (un seul point commun), soit **parallèles** (strictement parallèles ou confondues).\n- **Non coplanaires** : aucun plan ne les contient ; elles n'ont aucun point commun et ne sont pas parallèles.\n:::\n\n:::definition Positions relatives d'une droite $(d)$ et d'un plan $(P)$\n- $(d)$ est **contenue** dans $(P)$ ;\n- $(d)$ et $(P)$ sont **sécants** : un seul point commun ;\n- $(d)$ est **strictement parallèle** à $(P)$ : aucun point commun.\n:::\n\n:::definition Positions relatives de deux plans\n- **Sécants** : leur intersection est une droite ;\n- **Parallèles** : strictement parallèles (aucun point commun) ou confondus.\n:::\n\n:::methode Représenter en perspective cavalière\nLes arêtes cachées sont en **pointillés** ; des droites parallèles restent parallèles sur le dessin ; le milieu d'un segment reste le milieu ; mais les angles droits et les longueurs « en profondeur » ne sont pas conservés.\n:::\n\n:::methode Trouver l'intersection de deux plans\nChercher **deux points communs** aux deux plans : l'intersection est la droite qui les joint.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDans le cube $ABCDEFGH$ (face $ABCD$ en bas, $E$ au-dessus de $A$...), déterminer l'intersection des plans $(ABC)$ et $(BCG)$.\n\n1. $B$ et $C$ appartiennent aux deux plans.\n2. Les plans sont distincts (le point $G$ n'est pas dans $(ABC)$).\n3. Leur intersection est donc la droite $(BC)$.\n:::\n\n:::exemple Exemple 2\nDans le cube $ABCDEFGH$, les droites $(AG)$ et $(BH)$ sont-elles sécantes ?\n\n1. $(AB)\\parallel(HG)$ (arêtes opposées d'une face ou parallèles à $(DC)$) : les points $A$, $B$, $G$, $H$ sont coplanaires et $ABGH$ est un rectangle.\n2. $(AG)$ et $(BH)$ sont les diagonales de ce rectangle.\n3. Elles sont donc sécantes, en leur milieu commun, qui est le centre du cube.\n:::\n",
+   "definition": "Dans l'espace, deux droites peuvent être sécantes, parallèles ou non coplanaires ; deux plans distincts sont soit parallèles, soit sécants selon une droite.",
+   "formules": [
+    "3 points non alignés → 1 plan",
+    "2 plans sécants → 1 droite",
+    "droites : sécantes, parallèles ou non coplanaires"
+   ],
+   "niveaux": {
+    "phrase": "Dans l'espace, deux droites qui ne se coupent pas ne sont pas forcément parallèles.",
+    "simple": "Pense à une salle de classe : le bord du tableau et un pied de table du fond ne se touchent jamais et ne sont pas parallèles : ils sont non coplanaires. Deux murs voisins se coupent selon une arête : l'intersection de deux plans est une droite.",
+    "complete": "La géométrie de l'espace repose sur des règles d'incidence (droite par deux points, plan par trois points non alignés, intersection de deux plans). Elles conduisent à la classification des positions relatives : droites coplanaires (sécantes ou parallèles) ou non coplanaires ; droite et plan (incluse, sécante, parallèle) ; deux plans (sécants ou parallèles)."
+   },
+   "analogie": "Une case en briques au village : deux murs se coupent selon une arête verticale (intersection de deux plans), et une poutre du toit peut passer au-dessus d'une arête du sol sans la croiser ni lui être parallèle (droites non coplanaires).",
+   "exemples_resolus": [
+    {
+     "enonce": "Dans le cube $ABCDEFGH$ (face $ABCD$ en bas, $E$ au-dessus de $A$...), déterminer l'intersection des plans $(ABC)$ et $(BCG)$.",
+     "etapes": [
+      "$B$ et $C$ appartiennent aux deux plans.",
+      "Les plans sont distincts (le point $G$ n'est pas dans $(ABC)$).",
+      "Leur intersection est donc la droite $(BC)$."
+     ]
+    },
+    {
+     "enonce": "Dans le cube $ABCDEFGH$, les droites $(AG)$ et $(BH)$ sont-elles sécantes ?",
+     "etapes": [
+      "$(AB)\\parallel(HG)$ (arêtes opposées d'une face ou parallèles à $(DC)$) : les points $A$, $B$, $G$, $H$ sont coplanaires et $ABGH$ est un rectangle.",
+      "$(AG)$ et $(BH)$ sont les diagonales de ce rectangle.",
+      "Elles sont donc sécantes, en leur milieu commun, qui est le centre du cube."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que deux droites sans point commun sont forcément parallèles.",
+    "Lire des angles droits ou des longueurs « en profondeur » directement sur le dessin en perspective.",
+    "Dire que deux droites qui se croisent sur le dessin sont sécantes dans l'espace.",
+    "Oublier qu'une droite a deux points dans un plan pour conclure qu'elle y est contenue."
+   ],
+   "astuces": [
+    "Pour prouver que deux droites sont coplanaires, cherche un plan (une face, une section) qui les contient toutes les deux.",
+    "Repasse en couleur les droites étudiées sur la figure.",
+    "Pour l'intersection de deux plans, deux points communs suffisent."
+   ],
+   "mnemo": "« Dans l'espace : se croiser, être parallèles, ou s'ignorer (non coplanaires). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 4e-3e ? Tu as étudié le cube, le pavé, la pyramide et leurs représentations en perspective cavalière. En Seconde, on raisonne sur les droites et les plans de ces solides."
+   },
+   "methode_redaction": "Cite la règle utilisée (« par trois points non alignés passe un unique plan », « deux plans distincts qui ont deux points communs se coupent selon la droite passant par ces points »). Nomme toujours les plans avec trois points : (ABC).",
+   "flash": [
+    {
+     "q": "Par trois points non alignés, combien de plans ?",
+     "r": "Un seul."
+    },
+    {
+     "q": "Intersection de deux plans sécants ?",
+     "r": "Une droite."
+    },
+    {
+     "q": "Deux droites sans point commun sont-elles parallèles ?",
+     "r": "Pas forcément : elles peuvent être non coplanaires."
+    },
+    {
+     "q": "Positions d'une droite et d'un plan ?",
+     "r": "Contenue, sécante ou strictement parallèle."
+    },
+    {
+     "q": "Comment dessine-t-on une arête cachée ?",
+     "r": "En pointillés."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C08-N1.svg",
+    "alt": "Cube ABCDEFGH en perspective cavalière ; (AB) et (HG) en bleu sont parallèles, (AE) en rouge et (BC) en vert sont non coplanaires.",
+    "legende": "Dans le cube : (AB) // (HG) ; (AE) et (BC) sont non coplanaires.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C08-N2",
+   "titre": "Parallélisme dans l'espace",
+   "prerequis_notions": [
+    "M-S1-C08-N1",
+    "M-3e-THALES"
+   ],
+   "cours_md": ":::propriete Droites parallèles\n- Deux droites parallèles à une même troisième sont parallèles entre elles.\n- Si deux droites sont parallèles, tout plan qui coupe l'une coupe l'autre.\n:::\n\n:::propriete Droite parallèle à un plan\nUne droite $(d)$ est parallèle à un plan $(P)$ si et seulement si elle est **parallèle à une droite de $(P)$**.\n:::\n\n:::propriete Plans parallèles\n- Si deux droites **sécantes** d'un plan $(P)$ sont parallèles à un plan $(Q)$ (ou à deux droites de $(Q)$), alors $(P)\\parallel(Q)$.\n- Si deux plans sont parallèles, tout plan qui coupe l'un coupe l'autre, et les deux **droites d'intersection sont parallèles**.\n- Deux plans parallèles à un même troisième sont parallèles entre eux.\n:::\n\n:::propriete Théorème du toit\nSi $(d_1)\\subset(P_1)$ et $(d_2)\\subset(P_2)$ sont deux droites **parallèles**, et si les plans $(P_1)$ et $(P_2)$ sont **sécants** selon une droite $(\\Delta)$, alors $(\\Delta)$ est **parallèle** à $(d_1)$ et à $(d_2)$.\n:::\n\n:::methode Démontrer qu'une droite est parallèle à un plan\nTrouver dans le plan une droite parallèle à la droite donnée (souvent grâce au **théorème des milieux** ou à la réciproque de Thalès dans une face).\n:::\n\n:::methode Construire la section d'un solide par un plan\n1. Repérer les points du plan de coupe situés sur les arêtes.\n2. Dans chaque face, relier deux points de la section situés **dans cette face**.\n3. Utiliser : « deux faces parallèles sont coupées selon deux segments parallèles ».\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$ABCD$ est un tétraèdre ; $I$ et $J$ sont les milieux de $[AB]$ et $[AC]$. Démontrer que $(IJ)$ est parallèle au plan $(BCD)$.\n\n1. Dans le triangle $ABC$ (une face), $I$ et $J$ sont les milieux de $[AB]$ et $[AC]$.\n2. D'après le théorème des milieux, $(IJ)\\parallel(BC)$.\n3. Or $(BC)$ est contenue dans le plan $(BCD)$, donc $(IJ)\\parallel(BCD)$.\n:::\n\n:::exemple Exemple 2\nAvec la même figure, déterminer l'intersection des plans $(IJD)$ et $(BCD)$.\n\n1. $D$ est commun aux deux plans, qui sont distincts.\n2. $(IJ)\\subset(IJD)$, $(BC)\\subset(BCD)$ et $(IJ)\\parallel(BC)$.\n3. Théorème du toit : l'intersection est la droite passant par $D$ et parallèle à $(BC)$.\n:::\n",
+   "definition": "Une droite est parallèle à un plan si elle est parallèle à une droite de ce plan ; deux plans sont parallèles si deux droites sécantes de l'un sont parallèles à l'autre.",
+   "formules": [
+    "$(d)\\parallel(\\delta)$, $(\\delta)\\subset(P)\\Rightarrow(d)\\parallel(P)$",
+    "plans parallèles coupés par un 3e plan : intersections parallèles",
+    "théorème du toit"
+   ],
+   "niveaux": {
+    "phrase": "Le parallélisme dans l'espace se ramène toujours au parallélisme de deux droites.",
+    "simple": "Une étagère : chaque planche est parallèle au sol. Si une planche contient deux bords qui se croisent, tous deux parallèles au sol, alors toute la planche est parallèle au sol.",
+    "complete": "La caractérisation du parallélisme droite-plan (parallèle à une droite du plan) et plan-plan (deux droites sécantes parallèles à l'autre plan) ramène l'espace à la géométrie plane. Le théorème du toit et le théorème sur les plans parallèles coupés par un troisième permettent de construire des intersections et des sections."
+   },
+   "analogie": "Le toit d'une case à deux pentes : la panne faîtière (le sommet du toit) est parallèle aux bords inférieurs des deux pans. C'est le théorème du toit !",
+   "exemples_resolus": [
+    {
+     "enonce": "$ABCD$ est un tétraèdre ; $I$ et $J$ sont les milieux de $[AB]$ et $[AC]$. Démontrer que $(IJ)$ est parallèle au plan $(BCD)$.",
+     "etapes": [
+      "Dans le triangle $ABC$ (une face), $I$ et $J$ sont les milieux de $[AB]$ et $[AC]$.",
+      "D'après le théorème des milieux, $(IJ)\\parallel(BC)$.",
+      "Or $(BC)$ est contenue dans le plan $(BCD)$, donc $(IJ)\\parallel(BCD)$."
+     ]
+    },
+    {
+     "enonce": "Avec la même figure, déterminer l'intersection des plans $(IJD)$ et $(BCD)$.",
+     "etapes": [
+      "$D$ est commun aux deux plans, qui sont distincts.",
+      "$(IJ)\\subset(IJD)$, $(BC)\\subset(BCD)$ et $(IJ)\\parallel(BC)$.",
+      "Théorème du toit : l'intersection est la droite passant par $D$ et parallèle à $(BC)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Conclure qu'une droite est parallèle à un plan parce qu'elle « semble » ne pas le couper sur le dessin.",
+    "Pour deux plans parallèles, utiliser deux droites parallèles entre elles (il faut deux droites SÉCANTES).",
+    "Relier deux points de la section qui ne sont pas dans une même face."
+   ],
+   "astuces": [
+    "Les milieux sont tes meilleurs amis : théorème des milieux dans une face.",
+    "Dans un cube, chaque face est parallèle à la face opposée : la section y laisse des segments parallèles.",
+    "Pour le théorème du toit, cherche deux droites parallèles dans deux plans qui se coupent."
+   ],
+   "mnemo": "« Le toit : deux pans, deux bords parallèles, une faîtière parallèle. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 4e ? Le théorème des milieux : dans un triangle, la droite qui joint les milieux de deux côtés est parallèle au troisième côté. Dans l'espace, on l'applique dans une face."
+   },
+   "methode_redaction": "Rédige en deux temps : (1) le parallélisme de deux droites dans une face, avec le théorème utilisé ; (2) la propriété de l'espace (« une droite parallèle à une droite d'un plan est parallèle à ce plan »).",
+   "flash": [
+    {
+     "q": "Droite parallèle à un plan : condition ?",
+     "r": "Être parallèle à une droite de ce plan."
+    },
+    {
+     "q": "Deux plans parallèles : quelle condition avec des droites ?",
+     "r": "Deux droites sécantes de l'un parallèles à l'autre."
+    },
+    {
+     "q": "Deux plans parallèles coupés par un troisième ?",
+     "r": "Les droites d'intersection sont parallèles."
+    },
+    {
+     "q": "Énoncer le théorème du toit.",
+     "r": "Deux droites parallèles dans deux plans sécants : l'intersection des plans leur est parallèle."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C08-N2.svg",
+    "alt": "Tétraèdre ABCD : I, J, K milieux de [AB], [AC], [AD] ; le triangle IJK (orange) est parallèle à la face BCD (verte) et (IJ) est parallèle à (BC).",
+    "legende": "Théorème des milieux : (IJ) // (BC), donc (IJ) // (BCD).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C08-N3",
+   "titre": "Orthogonalité et calculs dans l'espace",
+   "prerequis_notions": [
+    "M-S1-C08-N2",
+    "M-3e-PYTHAGORE"
+   ],
+   "cours_md": ":::definition Droites orthogonales\nDeux droites $(d)$ et $(d')$ de l'espace sont **orthogonales** si leurs parallèles menées par un même point sont **perpendiculaires**. Deux droites orthogonales ne sont pas forcément sécantes (perpendiculaire = orthogonales **et** sécantes).\n:::\n\n:::propriete Droite orthogonale à un plan\nUne droite $(d)$ est orthogonale à un plan $(P)$ si et seulement si elle est orthogonale à **deux droites sécantes** de $(P)$. Elle est alors orthogonale à **toutes** les droites de $(P)$.\n:::\n\n:::propriete Conséquences\n- Deux droites orthogonales à un même plan sont parallèles.\n- Deux plans orthogonaux à une même droite sont parallèles.\n:::\n\n:::propriete Longueurs utiles (à redémontrer avec Pythagore)\n- Diagonale d'une face d'un cube d'arête $a$ : $a\\sqrt2$ ; diagonale du cube : $a\\sqrt3$.\n- Diagonale d'un pavé de dimensions $a$, $b$, $c$ : $\\sqrt{a^2+b^2+c^2}$.\n:::\n\n:::propriete Volumes\n| Solide | Volume |\n|---|---|\n| Pavé droit | $a\\times b\\times c$ |\n| Prisme droit, cylindre | aire de base $\\times$ hauteur |\n| Pyramide, cône | $\\dfrac13\\times$ aire de base $\\times$ hauteur |\n| Boule de rayon $r$ | $\\dfrac43\\pi r^3$ |\n:::\n\n:::methode Calculer une longueur dans l'espace\n1. Trouver un **triangle rectangle** contenant la longueur cherchée (souvent un triangle dont un côté est orthogonal à un plan).\n2. **Justifier** l'angle droit par l'orthogonalité droite-plan.\n3. Appliquer Pythagore (ou la trigonométrie) dans ce triangle, qui est dans un plan.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nUn cube a pour arête $a=4$ cm. Calculer la diagonale d'une face $AC$ et la diagonale du cube $AG$.\n\n1. Dans le carré $ABCD$, le triangle $ABC$ est rectangle en $B$ : $AC^2=4^2+4^2=32$, donc $AC=4\\sqrt2$ cm.\n2. $(CG)$ est orthogonale au plan $(ABC)$ donc à $(AC)$ : le triangle $ACG$ est rectangle en $C$.\n3. $AG^2=AC^2+CG^2=32+16=48$, donc $AG=\\sqrt{48}=4\\sqrt3$ cm.\n:::\n\n:::exemple Exemple 2\nDans le cube $ABCDEFGH$, démontrer que les droites $(AE)$ et $(BD)$ sont orthogonales.\n\n1. $(AE)\\perp(AB)$ et $(AE)\\perp(AD)$ (faces carrées).\n2. $(AB)$ et $(AD)$ sont deux droites sécantes du plan $(ABD)$ : donc $(AE)$ est orthogonale au plan $(ABD)$.\n3. $(BD)$ est contenue dans ce plan, donc $(AE)$ est orthogonale à $(BD)$ (sans la couper).\n:::\n",
+   "definition": "Une droite est orthogonale à un plan si elle est orthogonale à deux droites sécantes de ce plan ; elle est alors orthogonale à toutes ses droites.",
+   "formules": [
+    "$(d)\\perp(P)\\iff(d)$ orthogonale à deux droites sécantes de $(P)$",
+    "diagonale du cube $=a\\sqrt3$",
+    "$\\sqrt{a^2+b^2+c^2}$",
+    "$V_{\\text{pyramide}}=\\dfrac13Bh$"
+   ],
+   "niveaux": {
+    "phrase": "Pour calculer dans l'espace, on cherche un triangle rectangle et on applique Pythagore.",
+    "simple": "Un poteau planté bien droit dans la cour est orthogonal au sol : il fait un angle droit avec toutes les lignes tracées au sol, même celles qui ne passent pas par son pied.",
+    "complete": "L'orthogonalité de deux droites ne suppose pas qu'elles se coupent. Le critère « orthogonale à deux droites sécantes du plan » donne l'orthogonalité à tout le plan, ce qui fournit les angles droits nécessaires aux calculs (Pythagore dans un plan bien choisi) : diagonales, hauteurs, volumes."
+   },
+   "analogie": "Le poteau d'une antenne de radio à Lomé est vertical : il est orthogonal à toutes les droites du sol. Les câbles qui le tiennent forment avec lui et le sol des triangles rectangles.",
+   "exemples_resolus": [
+    {
+     "enonce": "Un cube a pour arête $a=4$ cm. Calculer la diagonale d'une face $AC$ et la diagonale du cube $AG$.",
+     "etapes": [
+      "Dans le carré $ABCD$, le triangle $ABC$ est rectangle en $B$ : $AC^2=4^2+4^2=32$, donc $AC=4\\sqrt2$ cm.",
+      "$(CG)$ est orthogonale au plan $(ABC)$ donc à $(AC)$ : le triangle $ACG$ est rectangle en $C$.",
+      "$AG^2=AC^2+CG^2=32+16=48$, donc $AG=\\sqrt{48}=4\\sqrt3$ cm."
+     ]
+    },
+    {
+     "enonce": "Dans le cube $ABCDEFGH$, démontrer que les droites $(AE)$ et $(BD)$ sont orthogonales.",
+     "etapes": [
+      "$(AE)\\perp(AB)$ et $(AE)\\perp(AD)$ (faces carrées).",
+      "$(AB)$ et $(AD)$ sont deux droites sécantes du plan $(ABD)$ : donc $(AE)$ est orthogonale au plan $(ABD)$.",
+      "$(BD)$ est contenue dans ce plan, donc $(AE)$ est orthogonale à $(BD)$ (sans la couper)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Utiliser une seule droite du plan pour prouver l'orthogonalité à un plan.",
+    "Dire « perpendiculaires » pour deux droites orthogonales qui ne se coupent pas.",
+    "Appliquer Pythagore dans un triangle dont l'angle droit n'est pas justifié.",
+    "Oublier le facteur 1/3 dans le volume d'une pyramide ou d'un cône."
+   ],
+   "astuces": [
+    "Dans un cube, chaque arête est orthogonale aux deux faces qu'elle ne fait que traverser à ses extrémités.",
+    "Dessine à part, en vraie grandeur, le triangle rectangle dans lequel tu calcules.",
+    "Garde les valeurs exactes (racines) jusqu'au bout, puis donne l'arrondi demandé."
+   ],
+   "mnemo": "« Deux sécantes du plan suffisent pour tout le plan. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu calculais la diagonale d'un pavé en appliquant deux fois Pythagore, et le volume d'une pyramide avec $\\frac13\\times B\\times h$. C'est exactement ce qu'on justifie maintenant avec l'orthogonalité."
+   },
+   "methode_redaction": "Justifie chaque angle droit : « (CG) est orthogonale au plan (ABC), donc à toute droite de ce plan, en particulier à (AC). Le triangle ACG est donc rectangle en C. » Puis Pythagore avec valeur exacte et arrondi.",
+   "flash": [
+    {
+     "q": "Diagonale d'un cube d'arête a ?",
+     "r": "$a\\sqrt3$"
+    },
+    {
+     "q": "Diagonale d'un pavé 2 × 3 × 6 ?",
+     "r": "$\\sqrt{4+9+36}=7$"
+    },
+    {
+     "q": "Droite orthogonale à un plan : combien de droites sécantes vérifier ?",
+     "r": "Deux."
+    },
+    {
+     "q": "Orthogonales = perpendiculaires ?",
+     "r": "Non : perpendiculaires = orthogonales ET sécantes."
+    },
+    {
+     "q": "Volume d'une pyramide ?",
+     "r": "$\\frac13\\times$ aire de base $\\times$ hauteur"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C08-N3.svg",
+    "alt": "Cube ABCDEFGH : triangle ACG rectangle en C, avec AC diagonale d'une face et AG diagonale du cube.",
+    "legende": "AG² = AC² + CG² = 2a² + a² = 3a², donc AG = a√3.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S1-C08-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C08-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Par trois points non alignés de l'espace, il passe :",
+   "choix": [
+    "aucun plan",
+    "un seul plan",
+    "deux plans",
+    "une infinité de plans"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Pense à un tabouret à trois pieds : il ne boite jamais."
+   ],
+   "corrige": [
+    "C'est une règle d'incidence : trois points non alignés déterminent un unique plan."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Confondre avec deux points (une infinité de plans contiennent une droite).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C08-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C08-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Dans le cube $ABCDEFGH$, les droites $(AB)$ et $(HG)$ sont :",
+   "choix": [
+    "sécantes",
+    "parallèles",
+    "non coplanaires",
+    "perpendiculaires"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Passe par l'arête (DC)."
+   ],
+   "corrige": [
+    "$(AB)\\parallel(DC)$ (face $ABCD$) et $(DC)\\parallel(HG)$ (face $DCGH$).",
+    "Donc $(AB)\\parallel(HG)$ : elles sont parallèles (et coplanaires dans le plan $ABGH$)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Dire « non coplanaires » parce qu'elles sont sur des faces différentes.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C08-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C08-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer la longueur exacte de la diagonale d'un cube d'arête $3$ cm.",
+   "reponses_acceptees": [
+    "3√3",
+    "3racine3",
+    "3sqrt(3)",
+    "√27",
+    "3sqrt3"
+   ],
+   "indices": [
+    "Pythagore deux fois : 9 + 9 + 9 = 27."
+   ],
+   "corrige": [
+    "Diagonale du cube : $a\\sqrt3$.",
+    "$3\\sqrt3$ cm ($\\approx5{,}20$ cm)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Donner $3\\sqrt2$ (diagonale d'une face).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C08-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C08-N1",
+    "M-S1-C08-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Dans le cube $ABCDEFGH$, les droites $(AE)$ et $(BC)$ sont :",
+   "choix": [
+    "parallèles",
+    "sécantes et perpendiculaires",
+    "non coplanaires et orthogonales",
+    "confondues"
+   ],
+   "bonne_reponse": 2,
+   "indices": [
+    "Elles ne se coupent pas, mais sont-elles parallèles ?"
+   ],
+   "corrige": [
+    "Elles n'ont pas de point commun et ne sont pas parallèles : elles sont **non coplanaires**.",
+    "De plus $(BC)\\parallel(AD)$ et $(AE)\\perp(AD)$ : elles sont **orthogonales**."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Dire « perpendiculaires » alors qu'elles ne se coupent pas.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C08-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C08-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un pavé droit a pour dimensions $3$ cm, $4$ cm et $12$ cm. Calculer la longueur de sa diagonale (en cm).",
+   "reponses_acceptees": [
+    "13",
+    "13cm"
+   ],
+   "indices": [
+    "√(a² + b² + c²)."
+   ],
+   "corrige": [
+    "$d=\\sqrt{3^2+4^2+12^2}=\\sqrt{9+16+144}$.",
+    "$d=\\sqrt{169}=13$ cm."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier une des trois dimensions.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C08-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C08-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Dans le cube $ABCDEFGH$, la droite $(EF)$ et le plan $(ABC)$ sont :",
+   "choix": [
+    "sécants",
+    "strictement parallèles",
+    "(EF) est contenue dans (ABC)",
+    "orthogonaux"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Cherche une droite du plan (ABC) parallèle à (EF)."
+   ],
+   "corrige": [
+    "$(EF)\\parallel(AB)$ et $(AB)\\subset(ABC)$.",
+    "Donc $(EF)$ est parallèle au plan $(ABC)$ ; comme $E\\notin(ABC)$, elle est strictement parallèle."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Dire « sécants » à cause du dessin.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C08-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C08-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une pyramide a pour base un carré de côté $6$ cm et pour hauteur $5$ cm. Calculer son volume (en cm³).",
+   "reponses_acceptees": [
+    "60",
+    "60cm³",
+    "60cm3"
+   ],
+   "indices": [
+    "N'oublie pas le tiers."
+   ],
+   "corrige": [
+    "$V=\\dfrac13\\times6^2\\times5$.",
+    "$V=\\dfrac{180}{3}=60$ cm³."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier le facteur 1/3 (réponse 180).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C08-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C08-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABCD$ est un tétraèdre. $I$, $J$, $K$ sont les milieux respectifs de $[AB]$, $[AC]$ et $[AD]$.\n\n1. Démontrer que $(IJ)$ est parallèle au plan $(BCD)$.\n2. Démontrer que les plans $(IJK)$ et $(BCD)$ sont parallèles.",
+   "indices": [
+    "Théorème des milieux dans les faces ABC et ABD.",
+    "Il faut deux droites sécantes."
+   ],
+   "corrige": [
+    "1. Dans le triangle $ABC$, $I$ et $J$ sont les milieux de $[AB]$ et $[AC]$ : par le théorème des milieux, $(IJ)\\parallel(BC)$.",
+    "Comme $(BC)\\subset(BCD)$, la droite $(IJ)$ est parallèle au plan $(BCD)$.",
+    "2. De même, dans le triangle $ABD$ : $(IK)\\parallel(BD)$, donc $(IK)\\parallel(BCD)$.",
+    "$(IJ)$ et $(IK)$ sont deux droites **sécantes** (en $I$) du plan $(IJK)$, toutes deux parallèles à $(BCD)$ : les plans $(IJK)$ et $(BCD)$ sont parallèles."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Conclure avec une seule droite parallèle.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C08-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C08-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABCDEFGH$ est un cube.\n\n1. Justifier que $(BD)\\perp(AC)$.\n2. Justifier que $(AE)$ est orthogonale au plan $(ABC)$, puis que $(BD)\\perp(AE)$.\n3. En déduire que $(BD)$ est orthogonale au plan $(ACE)$, puis que $(BD)$ et $(AG)$ sont orthogonales.",
+   "indices": [
+    "Deux droites sécantes du plan suffisent."
+   ],
+   "corrige": [
+    "1. $ABCD$ est un carré : ses diagonales sont perpendiculaires, $(BD)\\perp(AC)$.",
+    "2. $(AE)\\perp(AB)$ et $(AE)\\perp(AD)$, deux droites sécantes du plan $(ABC)$ : $(AE)\\perp(ABC)$. Comme $(BD)\\subset(ABC)$, $(BD)\\perp(AE)$.",
+    "3. $(BD)$ est orthogonale à $(AC)$ et à $(AE)$, deux droites sécantes du plan $(ACE)$ : $(BD)\\perp(ACE)$.",
+    "$G$ appartient au plan $(ACE)$ (car $(CG)\\parallel(AE)$, donc $ACGE$ est un rectangle), donc $(AG)\\subset(ACE)$ et $(BD)\\perp(AG)$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Oublier de justifier que G est dans le plan (ACE).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C08-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C08-N1",
+    "M-S1-C08-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABCDEFGH$ est un cube.\n\n1. Justifier que $A$, $B$, $G$, $H$ sont coplanaires et que $D$, $C$, $F$, $E$ sont coplanaires.\n2. On note $O_1$ le centre de la face $BCGF$ et $O_2$ celui de la face $ADHE$. Démontrer que $O_1$ et $O_2$ appartiennent aux deux plans $(ABG)$ et $(DCF)$.\n3. En déduire l'intersection de ces deux plans et justifier qu'elle est parallèle à $(AB)$.",
+   "indices": [
+    "Les diagonales d'un carré se coupent en leur milieu.",
+    "Théorème du toit."
+   ],
+   "corrige": [
+    "1. $(AB)\\parallel(HG)$ : deux droites parallèles déterminent un plan, donc $A$, $B$, $G$, $H$ sont coplanaires. De même $(DC)\\parallel(EF)$ donne $D$, $C$, $F$, $E$ coplanaires.",
+    "2. $O_1$ est le milieu de $[BG]$ et de $[CF]$ : $O_1\\in(BG)\\subset(ABG)$ et $O_1\\in(CF)\\subset(DCF)$. De même $O_2$ est le milieu de $[AH]$ et de $[DE]$ : il est dans les deux plans.",
+    "3. Les plans sont distincts et ont deux points communs : leur intersection est la droite $(O_1O_2)$.",
+    "Théorème du toit : $(AB)\\subset(ABG)$, $(DC)\\subset(DCF)$ et $(AB)\\parallel(DC)$, donc $(O_1O_2)\\parallel(AB)$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Chercher un seul point commun et conclure.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C08-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C08-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "$SABC$ est un tétraèdre régulier d'arête $6$ cm (toutes les arêtes mesurent 6 cm). On note $G$ le centre de gravité du triangle $ABC$ et $I$ le milieu de $[BC]$. On admet que $(SG)$ est orthogonale au plan $(ABC)$.\n\n1. Calculer $AI$, puis $AG$.\n2. Calculer la hauteur $SG$ du tétraèdre.\n3. Calculer le volume exact du tétraèdre, puis une valeur approchée au centième.",
+   "indices": [
+    "Le centre de gravité est aux 2/3 de la médiane.",
+    "√3 × √6 = √18 = 3√2."
+   ],
+   "corrige": [
+    "1. $ABC$ est équilatéral : $AI^2=AB^2-BI^2=36-9=27$, donc $AI=3\\sqrt3$ cm. $G$ est aux deux tiers de la médiane : $AG=\\dfrac23\\times3\\sqrt3=2\\sqrt3$ cm.",
+    "2. $(SG)\\perp(ABC)$ donc $(SG)\\perp(AG)$ : $SAG$ est rectangle en $G$. $SG^2=SA^2-AG^2=36-12=24$, donc $SG=2\\sqrt6$ cm.",
+    "3. Aire de $ABC$ : $\\dfrac{6\\times3\\sqrt3}{2}=9\\sqrt3$ cm².",
+    "$V=\\dfrac13\\times9\\sqrt3\\times2\\sqrt6=6\\sqrt{18}=18\\sqrt2\\approx25{,}46$ cm³."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Utiliser AI au lieu de AG dans Pythagore.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C08-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C08-N3",
+    "M-S1-C08-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "$SABCD$ est une pyramide régulière : sa base $ABCD$ est un carré de centre $O$ et de côté $4$ cm, $(SO)$ est orthogonale au plan de la base et $SA=6$ cm.\n\n1. Calculer $AC$ puis $OA$.\n2. Calculer la hauteur $SO$.\n3. Calculer le volume exact de la pyramide, puis une valeur approchée au centième.\n4. On coupe la pyramide par le plan parallèle à la base passant par le milieu de $[SO]$. Quelle est la nature de la section et son aire ?",
+   "indices": [
+    "Triangle SOA rectangle en O.",
+    "Plans parallèles coupés par les faces : segments parallèles."
+   ],
+   "corrige": [
+    "1. $AC=4\\sqrt2$ (diagonale du carré), $OA=\\dfrac{AC}2=2\\sqrt2$ cm.",
+    "2. $(SO)\\perp(ABC)$ donc $SOA$ est rectangle en $O$ : $SO^2=36-8=28$, $SO=2\\sqrt7$ cm.",
+    "3. $V=\\dfrac13\\times16\\times2\\sqrt7=\\dfrac{32\\sqrt7}{3}\\approx28{,}22$ cm³.",
+    "4. La section est une réduction de la base de rapport $\\dfrac12$ (théorème des milieux dans les faces) : c'est un carré de côté $2$ cm, d'aire $4$ cm²."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Prendre OA = 2 (moitié du côté) au lieu de la demi-diagonale.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre « sans point commun » et « parallèles » (droites non coplanaires).",
+  "Lire des angles droits sur le dessin en perspective sans les justifier.",
+  "Prouver le parallélisme de deux plans avec deux droites parallèles au lieu de deux droites sécantes.",
+  "Prouver l'orthogonalité à un plan avec une seule droite.",
+  "Oublier le facteur 1/3 du volume d'une pyramide."
+ ]
+}
