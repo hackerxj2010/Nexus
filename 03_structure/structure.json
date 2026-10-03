@@ -1,0 +1,360 @@
+[
+ {
+  "matiere": "M",
+  "semestre": 1,
+  "chapitre": "M-S1-C01",
+  "titre": "Ensemble des nombres réels et calcul dans ℝ",
+  "ordre": 1,
+  "parcours": [
+   {
+    "notion": "M-S1-C01-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C01-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C01-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C01-N4",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S1-C01-E01",
+     "M-S1-C01-E02",
+     "M-S1-C01-E03",
+     "M-S1-C01-E04",
+     "M-S1-C01-E05",
+     "M-S1-C01-E06",
+     "M-S1-C01-E07",
+     "M-S1-C01-E08",
+     "M-S1-C01-E09",
+     "M-S1-C01-E10",
+     "M-S1-C01-E11",
+     "M-S1-C01-E12"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "M",
+  "semestre": 1,
+  "chapitre": "M-S1-C02",
+  "titre": "Vecteurs et points du plan",
+  "ordre": 2,
+  "parcours": [
+   {
+    "notion": "M-S1-C02-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C02-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C02-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S1-C02-E01",
+     "M-S1-C02-E02",
+     "M-S1-C02-E03",
+     "M-S1-C02-E04",
+     "M-S1-C02-E05",
+     "M-S1-C02-E06",
+     "M-S1-C02-E07",
+     "M-S1-C02-E08",
+     "M-S1-C02-E09",
+     "M-S1-C02-E10",
+     "M-S1-C02-E11",
+     "M-S1-C02-E12"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "M",
+  "semestre": 1,
+  "chapitre": "M-S1-C03",
+  "titre": "Polynômes et fractions rationnelles",
+  "ordre": 3,
+  "parcours": [
+   {
+    "notion": "M-S1-C03-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C03-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C03-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S1-C03-E01",
+     "M-S1-C03-E02",
+     "M-S1-C03-E03",
+     "M-S1-C03-E04",
+     "M-S1-C03-E05",
+     "M-S1-C03-E06",
+     "M-S1-C03-E07",
+     "M-S1-C03-E08",
+     "M-S1-C03-E09",
+     "M-S1-C03-E10",
+     "M-S1-C03-E11",
+     "M-S1-C03-E12"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 1,
+  "chapitre": "PC-S1-C01",
+  "titre": "Généralités sur le mouvement",
+  "ordre": 1,
+  "parcours": [
+   {
+    "notion": "PC-S1-C01-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C01-N2",
+    "cours": true,
+    "exemples": 3
+   },
+   {
+    "notion": "PC-S1-C01-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "PC-S1-C01-E01",
+     "PC-S1-C01-E02",
+     "PC-S1-C01-E03",
+     "PC-S1-C01-E04",
+     "PC-S1-C01-E05",
+     "PC-S1-C01-E06",
+     "PC-S1-C01-E07",
+     "PC-S1-C01-E13",
+     "PC-S1-C01-E08",
+     "PC-S1-C01-E09",
+     "PC-S1-C01-E10",
+     "PC-S1-C01-E11",
+     "PC-S1-C01-E12"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 1,
+  "chapitre": "PC-S1-C02",
+  "titre": "Les forces (actions mécaniques, poids, forces usuelles)",
+  "ordre": 2,
+  "parcours": [
+   {
+    "notion": "PC-S1-C02-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C02-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C02-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "PC-S1-C02-E01",
+     "PC-S1-C02-E02",
+     "PC-S1-C02-E03",
+     "PC-S1-C02-E04",
+     "PC-S1-C02-E05",
+     "PC-S1-C02-E06",
+     "PC-S1-C02-E07",
+     "PC-S1-C02-E12",
+     "PC-S1-C02-E08",
+     "PC-S1-C02-E09",
+     "PC-S1-C02-E10",
+     "PC-S1-C02-E14",
+     "PC-S1-C02-E11",
+     "PC-S1-C02-E13"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-PC-S1-0002"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "SVT",
+  "semestre": 1,
+  "chapitre": "SVT-S1-C01",
+  "titre": "La cellule, unité structurale et fonctionnelle du vivant",
+  "ordre": 1,
+  "parcours": [
+   {
+    "notion": "SVT-S1-C01-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C01-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C01-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "SVT-S1-C01-E01",
+     "SVT-S1-C01-E02",
+     "SVT-S1-C01-E03",
+     "SVT-S1-C01-E04",
+     "SVT-S1-C01-E05",
+     "SVT-S1-C01-E06",
+     "SVT-S1-C01-E09",
+     "SVT-S1-C01-E07",
+     "SVT-S1-C01-E08",
+     "SVT-S1-C01-E10"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 1,
+  "chapitre": "FR-S1-C01",
+  "titre": "Communication et énonciation",
+  "ordre": 1,
+  "parcours": [
+   {
+    "notion": "FR-S1-C01-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C01-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C01-N3",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C01-N4",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "FR-S1-C01-E01",
+     "FR-S1-C01-E02",
+     "FR-S1-C01-E03",
+     "FR-S1-C01-E04",
+     "FR-S1-C01-E05",
+     "FR-S1-C01-E06",
+     "FR-S1-C01-E07"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 1,
+  "chapitre": "FR-S1-C02",
+  "titre": "Les figures de style",
+  "ordre": 2,
+  "parcours": [
+   {
+    "notion": "FR-S1-C02-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C02-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C02-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C02-N4",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C02-N5",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "FR-S1-C02-E01",
+     "FR-S1-C02-E02",
+     "FR-S1-C02-E03",
+     "FR-S1-C02-E04",
+     "FR-S1-C02-E05",
+     "FR-S1-C02-E06",
+     "FR-S1-C02-E07",
+     "FR-S1-C02-E08"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ }
+]

@@ -1,28 +1,25 @@
 import type { Etat } from './store'
 import { lacunes } from './store'
-import type { Base } from './types'
+import { titreNotion } from './donnees'
+import tuteur from '../../08_ia_suivi/prompts/tuteur.md?raw'
+import remediation from '../../08_ia_suivi/prompts/remediation.md?raw'
+import chat from '../../08_ia_suivi/prompts/chat.md?raw'
 
-export const PROMPT_TUTEUR = `Tu es le tuteur d'un élève de Seconde S au Togo qui vise 20/20.
-Ton : bienveillant et exigeant. Réponds en français, niveau Seconde, vocabulaire togolais (composition, devoir surveillé, semestre).
-Règles : ne donne jamais la réponse finale avant que l'élève ait tenté ; guide par questions et indices.
-Appuie-toi sur le cours fourni en contexte plutôt que d'inventer. Si la question sort du programme de Seconde S, dis-le.`
-
-export const PROMPT_REMEDIATION = `${PROMPT_TUTEUR}
-Tâche : séance de récupération. Structure obligatoire :
-1. Diagnostic en une phrase (« Tu confonds X et Y »).
-2. Réexplication sous 3 angles : intuitif/imagé, formel, exemple résolu pas à pas (plus un contre-exemple si utile).
-3. Si la vraie cause est un prérequis de 3e/4e, reviens dessus.
-4. Termine par UN exercice de preuve active : l'élève doit le résoudre ET expliquer son raisonnement. N'en donne pas la solution.`
+export const PROMPT_TUTEUR = tuteur.trim()
+export const PROMPT_REMEDIATION = `${PROMPT_TUTEUR}\n\n${remediation.trim()}`
+export const PROMPT_CHAT = `${PROMPT_TUTEUR}\n\n${chat.trim()}`
 
 /** Résumé compact envoyé à l'IA (jamais l'historique brut). */
-export function resumeEleve(e: Etat, base: Base): string {
-  const nom = (id: string) => base.matieres.flatMap(m => m.chapitres).flatMap(c => c.notions).find(n => n.id === id)?.titre ?? id
-  const erreurs = e.tentatives.filter(t => !t.juste).slice(-20).map(t => `${t.exo} (${t.notions.map(nom).join(', ')})`)
+export function resumeEleve(e: Etat, prerequisFaibles: string[] = []): string {
+  const echecs = new Map<string, number>()
+  for (const t of e.tentatives) if (!t.juste) for (const n of t.notions) echecs.set(n, (echecs.get(n) ?? 0) + 1)
   return JSON.stringify({
-    profil: e.profil && { moyennes: e.profil.moyennes, faibles: e.profil.faibles, objectif: 20, style: e.profil.style },
-    dernieres_erreurs: erreurs,
-    commentaires: e.commentaires.slice(-10).map(c => `${nom(c.cible)} : ${c.texte}`),
-    lacunes: lacunes(e).slice(0, 8).map(l => ({ notion: nom(l.notion), score: l.score })),
+    profil: e.profil && { moyennes: e.profil.moyennes, matieres_faibles: e.profil.faibles, objectif: 20, style: e.profil.style },
+    dernieres_erreurs: e.tentatives.filter(t => !t.juste).slice(-20).map(t => ({ exercice: t.exo, notions: t.notions.map(titreNotion) })),
+    commentaires_eleve: e.commentaires.slice(-10).map(c => `${titreNotion(c.cible)} : ${c.texte}`),
+    notions_en_echec_repete: [...echecs].filter(([, n]) => n >= 3).map(([id, n]) => `${titreNotion(id)} (${n} échecs)`),
+    lacunes_principales: lacunes(e).slice(0, 8).map(l => titreNotion(l.notion)),
+    prerequis_faibles: prerequisFaibles,
   })
 }
 
@@ -35,9 +32,9 @@ export async function appelerIA(cfg: NonNullable<Etat['ia']>, systeme: string, m
     const r = await fetch(`${base}/v1/messages`, {
       method: 'POST',
       headers: { 'content-type': 'application/json', 'x-api-key': cfg.cle, 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true' },
-      body: JSON.stringify({ model: cfg.modele, max_tokens: 1500, system: systeme, messages: msgs }),
+      body: JSON.stringify({ model: cfg.modele, max_tokens: 2000, system: systeme, messages: msgs }),
     })
-    if (!r.ok) throw new Error(`Erreur ${r.status} : ${await r.text()}`)
+    if (!r.ok) throw new Error(`Le fournisseur a répondu ${r.status}. Vérifie l'URL, la clé et le nom du modèle. ${(await r.text()).slice(0, 200)}`)
     const j = await r.json()
     return j.content.map((b: { text?: string }) => b.text ?? '').join('')
   }
@@ -46,7 +43,7 @@ export async function appelerIA(cfg: NonNullable<Etat['ia']>, systeme: string, m
     headers: { 'content-type': 'application/json', authorization: `Bearer ${cfg.cle}` },
     body: JSON.stringify({ model: cfg.modele, messages: [{ role: 'system', content: systeme }, ...msgs] }),
   })
-  if (!r.ok) throw new Error(`Erreur ${r.status} : ${await r.text()}`)
+  if (!r.ok) throw new Error(`Le fournisseur a répondu ${r.status}. Vérifie l'URL, la clé et le nom du modèle. ${(await r.text()).slice(0, 200)}`)
   const j = await r.json()
   return j.choices[0].message.content
 }

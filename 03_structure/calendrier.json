@@ -1,0 +1,26 @@
+{
+  "annee_scolaire": "2026-2027",
+  "decoupage": "trimestres",
+  "source": {
+    "titre": "Togo : Calendrier scolaire 2026-2027 (décision n°125/2026/MEN/CAB/SG), d'après les extraits de recherche (allafrica.com, koaci.com) ; pages non consultables depuis l'environnement de développement",
+    "urls": ["https://fr.allafrica.com/stories/202607310464.html", "https://www.koaci.com/article/2026/09/14/togo/societe/togo-rentree-scolaire-2026-2027-les-eleves-reprennent-les-cours_200508.html"],
+    "date_consultation": "2026-10-03",
+    "fiabilite": 3
+  },
+  "periodes": [
+    {"id": "T1", "titre": "1er trimestre", "debut": "2026-09-14", "fin": "2026-12-23"},
+    {"id": "V1", "titre": "Congés de Noël", "debut": "2026-12-24", "fin": "2027-01-03", "conge": true},
+    {"id": "T2", "titre": "2e trimestre", "debut": "2027-01-04", "fin": "2027-04-09"},
+    {"id": "V2", "titre": "Congé de détente", "debut": "2027-02-13", "fin": "2027-02-21", "conge": true},
+    {"id": "V3", "titre": "Congés de Pâques", "debut": "2027-04-10", "fin": "2027-04-18", "conge": true},
+    {"id": "T3", "titre": "3e trimestre", "debut": "2027-04-19", "fin": "2027-07-16"},
+    {"id": "V4", "titre": "Grandes vacances", "debut": "2027-07-17", "fin": "2027-09-12", "conge": true}
+  ],
+  "compositions_estimees": [
+    {"titre": "Compositions du 1er trimestre (estimation)", "date": "2026-12-07", "approximatif": true},
+    {"titre": "Compositions du 2e trimestre (estimation)", "date": "2027-03-29", "approximatif": true},
+    {"titre": "Compositions du 3e trimestre (estimation)", "date": "2027-06-21", "approximatif": true}
+  ],
+  "correspondance_semestres": "Le contenu est rangé en « semestre 1 » (chapitres prévus de septembre à janvier) et « semestre 2 » (février à juillet). Les dates de composition sont des estimations à remplacer par celles de ton établissement (modifiables dans le site).",
+  "repetition_espacee_jours": [1, 3, 7, 14, 30]
+}

@@ -1,15 +1,21 @@
 {
-  "name": "06_site",
+  "name": "seconde-s-objectif-20",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node scripts/assembler.mjs && vite",
+    "build": "node scripts/assembler.mjs && tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "donnees": "node scripts/assembler.mjs",
+    "valider": "node ../02_base_donnees/valider.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/baloo-2": "^5.3.0",
+    "@fontsource-variable/lexend": "^5.3.0",
+    "katex": "^0.19.0",
+    "marked": "^18.0.14",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
@@ -19,7 +25,6 @@
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
-    "playwright": "^1.63.0",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"
   }

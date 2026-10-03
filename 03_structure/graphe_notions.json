@@ -1,0 +1,450 @@
+{
+ "noeuds": [
+  {
+   "id": "M-S1-C01",
+   "type": "chapitre",
+   "titre": "Ensemble des nombres réels et calcul dans ℝ"
+  },
+  {
+   "id": "M-S1-C01-N1",
+   "type": "notion",
+   "titre": "Ensembles de nombres et intervalles",
+   "chapitre": "M-S1-C01"
+  },
+  {
+   "id": "M-S1-C01-N2",
+   "type": "notion",
+   "titre": "Puissances et racines carrées",
+   "chapitre": "M-S1-C01"
+  },
+  {
+   "id": "M-S1-C01-N3",
+   "type": "notion",
+   "titre": "Valeur absolue et distance",
+   "chapitre": "M-S1-C01"
+  },
+  {
+   "id": "M-S1-C01-N4",
+   "type": "notion",
+   "titre": "Ordre, encadrements et valeurs approchées",
+   "chapitre": "M-S1-C01"
+  },
+  {
+   "id": "M-S1-C02",
+   "type": "chapitre",
+   "titre": "Vecteurs et points du plan"
+  },
+  {
+   "id": "M-S1-C02-N1",
+   "type": "notion",
+   "titre": "Vecteurs : égalité, somme et relation de Chasles",
+   "chapitre": "M-S1-C02"
+  },
+  {
+   "id": "M-S1-C02-N2",
+   "type": "notion",
+   "titre": "Produit d'un vecteur par un réel, colinéarité",
+   "chapitre": "M-S1-C02"
+  },
+  {
+   "id": "M-S1-C02-N3",
+   "type": "notion",
+   "titre": "Repère, coordonnées et déterminant",
+   "chapitre": "M-S1-C02"
+  },
+  {
+   "id": "M-S1-C03",
+   "type": "chapitre",
+   "titre": "Polynômes et fractions rationnelles"
+  },
+  {
+   "id": "M-S1-C03-N1",
+   "type": "notion",
+   "titre": "Polynômes et identités remarquables",
+   "chapitre": "M-S1-C03"
+  },
+  {
+   "id": "M-S1-C03-N2",
+   "type": "notion",
+   "titre": "Racines et factorisation d'un polynôme",
+   "chapitre": "M-S1-C03"
+  },
+  {
+   "id": "M-S1-C03-N3",
+   "type": "notion",
+   "titre": "Fractions rationnelles",
+   "chapitre": "M-S1-C03"
+  },
+  {
+   "id": "PC-S1-C01",
+   "type": "chapitre",
+   "titre": "Généralités sur le mouvement"
+  },
+  {
+   "id": "PC-S1-C01-N1",
+   "type": "notion",
+   "titre": "Relativité du mouvement : référentiel et trajectoire",
+   "chapitre": "PC-S1-C01"
+  },
+  {
+   "id": "PC-S1-C01-N2",
+   "type": "notion",
+   "titre": "Vitesse moyenne et vitesse instantanée",
+   "chapitre": "PC-S1-C01"
+  },
+  {
+   "id": "PC-S1-C01-N3",
+   "type": "notion",
+   "titre": "Mouvement rectiligne uniforme et mouvement circulaire uniforme",
+   "chapitre": "PC-S1-C01"
+  },
+  {
+   "id": "PC-S1-C02",
+   "type": "chapitre",
+   "titre": "Les forces (actions mécaniques, poids, forces usuelles)"
+  },
+  {
+   "id": "PC-S1-C02-N1",
+   "type": "notion",
+   "titre": "Actions mécaniques et notion de force",
+   "chapitre": "PC-S1-C02"
+  },
+  {
+   "id": "PC-S1-C02-N2",
+   "type": "notion",
+   "titre": "Poids, masse et interaction gravitationnelle",
+   "chapitre": "PC-S1-C02"
+  },
+  {
+   "id": "PC-S1-C02-N3",
+   "type": "notion",
+   "titre": "Forces de contact usuelles : réaction, tension, poussée d'Archimède",
+   "chapitre": "PC-S1-C02"
+  },
+  {
+   "id": "SVT-S1-C01",
+   "type": "chapitre",
+   "titre": "La cellule, unité structurale et fonctionnelle du vivant"
+  },
+  {
+   "id": "SVT-S1-C01-N1",
+   "type": "notion",
+   "titre": "Observer les cellules : le microscope optique et la mesure",
+   "chapitre": "SVT-S1-C01"
+  },
+  {
+   "id": "SVT-S1-C01-N2",
+   "type": "notion",
+   "titre": "Organisation de la cellule eucaryote : cellule animale et cellule végétale",
+   "chapitre": "SVT-S1-C01"
+  },
+  {
+   "id": "SVT-S1-C01-N3",
+   "type": "notion",
+   "titre": "Unité et diversité des cellules : théorie cellulaire, procaryotes et eucaryotes",
+   "chapitre": "SVT-S1-C01"
+  },
+  {
+   "id": "FR-S1-C01",
+   "type": "chapitre",
+   "titre": "Communication et énonciation"
+  },
+  {
+   "id": "FR-S1-C01-N1",
+   "type": "notion",
+   "titre": "Le schéma de la communication et les fonctions du langage",
+   "chapitre": "FR-S1-C01"
+  },
+  {
+   "id": "FR-S1-C01-N2",
+   "type": "notion",
+   "titre": "La situation d'énonciation : énoncé ancré et énoncé coupé",
+   "chapitre": "FR-S1-C01"
+  },
+  {
+   "id": "FR-S1-C01-N3",
+   "type": "notion",
+   "titre": "La modalisation et le point de vue de l'énonciateur",
+   "chapitre": "FR-S1-C01"
+  },
+  {
+   "id": "FR-S1-C01-N4",
+   "type": "notion",
+   "titre": "Le discours rapporté",
+   "chapitre": "FR-S1-C01"
+  },
+  {
+   "id": "FR-S1-C02",
+   "type": "chapitre",
+   "titre": "Les figures de style"
+  },
+  {
+   "id": "FR-S1-C02-N1",
+   "type": "notion",
+   "titre": "Les figures d'analogie : comparaison, métaphore, personnification, allégorie",
+   "chapitre": "FR-S1-C02"
+  },
+  {
+   "id": "FR-S1-C02-N2",
+   "type": "notion",
+   "titre": "Les figures d'opposition : antithèse, oxymore, chiasme, paradoxe, antiphrase",
+   "chapitre": "FR-S1-C02"
+  },
+  {
+   "id": "FR-S1-C02-N3",
+   "type": "notion",
+   "titre": "Les figures d'insistance et d'atténuation",
+   "chapitre": "FR-S1-C02"
+  },
+  {
+   "id": "FR-S1-C02-N4",
+   "type": "notion",
+   "titre": "Les figures de substitution : métonymie, synecdoque, périphrase",
+   "chapitre": "FR-S1-C02"
+  },
+  {
+   "id": "FR-S1-C02-N5",
+   "type": "notion",
+   "titre": "Les figures de sonorité et la méthode d'analyse d'une figure",
+   "chapitre": "FR-S1-C02"
+  }
+ ],
+ "aretes": [
+  {
+   "de": "M-3e-RACINES",
+   "vers": "M-S1-C01"
+  },
+  {
+   "de": "M-3e-PUISSANCES",
+   "vers": "M-S1-C01"
+  },
+  {
+   "de": "M-3e-INEQUATIONS",
+   "vers": "M-S1-C01"
+  },
+  {
+   "de": "M-3e-NOMBRES-RATIONNELS",
+   "vers": "M-S1-C01-N1"
+  },
+  {
+   "de": "M-3e-INEQUATIONS",
+   "vers": "M-S1-C01-N1"
+  },
+  {
+   "de": "M-3e-PUISSANCES",
+   "vers": "M-S1-C01-N2"
+  },
+  {
+   "de": "M-3e-RACINES",
+   "vers": "M-S1-C01-N2"
+  },
+  {
+   "de": "M-S1-C01-N1",
+   "vers": "M-S1-C01-N3"
+  },
+  {
+   "de": "M-S1-C01-N1",
+   "vers": "M-S1-C01-N4"
+  },
+  {
+   "de": "M-S1-C01-N2",
+   "vers": "M-S1-C01-N4"
+  },
+  {
+   "de": "M-3e-TRANSLATION",
+   "vers": "M-S1-C02"
+  },
+  {
+   "de": "M-3e-REPERE",
+   "vers": "M-S1-C02"
+  },
+  {
+   "de": "M-3e-THALES",
+   "vers": "M-S1-C02"
+  },
+  {
+   "de": "M-3e-TRANSLATION",
+   "vers": "M-S1-C02-N1"
+  },
+  {
+   "de": "M-3e-PARALLELOGRAMME",
+   "vers": "M-S1-C02-N1"
+  },
+  {
+   "de": "M-S1-C02-N1",
+   "vers": "M-S1-C02-N2"
+  },
+  {
+   "de": "M-S1-C02-N2",
+   "vers": "M-S1-C02-N3"
+  },
+  {
+   "de": "M-3e-REPERE",
+   "vers": "M-S1-C02-N3"
+  },
+  {
+   "de": "M-3e-CALCUL-LITTERAL",
+   "vers": "M-S1-C03"
+  },
+  {
+   "de": "M-3e-IDENTITES",
+   "vers": "M-S1-C03"
+  },
+  {
+   "de": "M-S1-C01",
+   "vers": "M-S1-C03"
+  },
+  {
+   "de": "M-3e-CALCUL-LITTERAL",
+   "vers": "M-S1-C03-N1"
+  },
+  {
+   "de": "M-3e-IDENTITES",
+   "vers": "M-S1-C03-N1"
+  },
+  {
+   "de": "M-S1-C03-N1",
+   "vers": "M-S1-C03-N2"
+  },
+  {
+   "de": "M-S1-C03-N2",
+   "vers": "M-S1-C03-N3"
+  },
+  {
+   "de": "PC-3e-MOUVEMENT",
+   "vers": "PC-S1-C01"
+  },
+  {
+   "de": "M-3e-PROPORTIONNALITE",
+   "vers": "PC-S1-C01"
+  },
+  {
+   "de": "PC-3e-MOUVEMENT",
+   "vers": "PC-S1-C01-N1"
+  },
+  {
+   "de": "PC-S1-C01-N1",
+   "vers": "PC-S1-C01-N2"
+  },
+  {
+   "de": "PC-S1-C01-N2",
+   "vers": "PC-S1-C01-N3"
+  },
+  {
+   "de": "PC-3e-FORCES",
+   "vers": "PC-S1-C02"
+  },
+  {
+   "de": "PC-3e-POIDS",
+   "vers": "PC-S1-C02"
+  },
+  {
+   "de": "PC-S1-C01",
+   "vers": "PC-S1-C02"
+  },
+  {
+   "de": "PC-3e-FORCES",
+   "vers": "PC-S1-C02-N1"
+  },
+  {
+   "de": "PC-S1-C02-N1",
+   "vers": "PC-S1-C02-N2"
+  },
+  {
+   "de": "PC-S1-C02-N2",
+   "vers": "PC-S1-C02-N3"
+  },
+  {
+   "de": "SVT-3e-CELLULE",
+   "vers": "SVT-S1-C01"
+  },
+  {
+   "de": "SVT-3e-MICROSCOPE",
+   "vers": "SVT-S1-C01"
+  },
+  {
+   "de": "SVT-3e-CELLULE",
+   "vers": "SVT-S1-C01-N1"
+  },
+  {
+   "de": "SVT-S1-C01-N1",
+   "vers": "SVT-S1-C01-N2"
+  },
+  {
+   "de": "SVT-3e-CELLULE",
+   "vers": "SVT-S1-C01-N2"
+  },
+  {
+   "de": "SVT-S1-C01-N2",
+   "vers": "SVT-S1-C01-N3"
+  },
+  {
+   "de": "FR-3e-COMMUNICATION",
+   "vers": "FR-S1-C01"
+  },
+  {
+   "de": "FR-3e-ENONCIATION",
+   "vers": "FR-S1-C01"
+  },
+  {
+   "de": "FR-3e-DISCOURS-RAPPORTE",
+   "vers": "FR-S1-C01"
+  },
+  {
+   "de": "FR-3e-COMMUNICATION",
+   "vers": "FR-S1-C01-N1"
+  },
+  {
+   "de": "FR-3e-ENONCIATION",
+   "vers": "FR-S1-C01-N2"
+  },
+  {
+   "de": "FR-S1-C01-N1",
+   "vers": "FR-S1-C01-N2"
+  },
+  {
+   "de": "FR-S1-C01-N2",
+   "vers": "FR-S1-C01-N3"
+  },
+  {
+   "de": "FR-S1-C01-N2",
+   "vers": "FR-S1-C01-N4"
+  },
+  {
+   "de": "FR-3e-FIGURES",
+   "vers": "FR-S1-C02"
+  },
+  {
+   "de": "FR-S1-C01",
+   "vers": "FR-S1-C02"
+  },
+  {
+   "de": "FR-3e-FIGURES",
+   "vers": "FR-S1-C02-N1"
+  },
+  {
+   "de": "FR-S1-C02-N1",
+   "vers": "FR-S1-C02-N2"
+  },
+  {
+   "de": "FR-S1-C02-N1",
+   "vers": "FR-S1-C02-N3"
+  },
+  {
+   "de": "FR-S1-C02-N1",
+   "vers": "FR-S1-C02-N4"
+  },
+  {
+   "de": "FR-S1-C02-N1",
+   "vers": "FR-S1-C02-N5"
+  },
+  {
+   "de": "FR-S1-C02-N2",
+   "vers": "FR-S1-C02-N5"
+  },
+  {
+   "de": "FR-S1-C02-N3",
+   "vers": "FR-S1-C02-N5"
+  }
+ ]
+}

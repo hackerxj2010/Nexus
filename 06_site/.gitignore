@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Généré par scripts/assembler.mjs
+public/data
+public/medias
+public/precache.json
