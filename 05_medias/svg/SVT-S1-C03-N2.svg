@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 560" width="600" height="560" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Loi de tolérance : effet de la température</title>
+<desc id="desc">Courbe du pourcentage de graines de maïs germées en fonction de la température : 5 % à 10 °C, maximum de 98 % à 30 °C (optimum), 0 % à 45 °C ; zones de mort aux extrémités et zone optimale entre 25 et 35 °C.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker></defs>
+<rect x="0" y="0" width="600" height="560" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Loi de tolérance : effet de la température</text>
+<rect x="85.0" y="100.0" width="52.22222222222223" height="330" fill="#fee2e2"/>
+<rect x="502.77777777777777" y="100.0" width="52.22222222222223" height="330" fill="#fee2e2"/>
+<rect x="293.8888888888889" y="100.0" width="104.4444444444444" height="330" fill="#dcfce7"/>
+<line x1="85" y1="430.0" x2="555" y2="430.0" stroke="#e5e7eb"/>
+<text x="77" y="436.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">0</text>
+<line x1="85" y1="364.0" x2="555" y2="364.0" stroke="#e5e7eb"/>
+<text x="77" y="370.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">20</text>
+<line x1="85" y1="298.0" x2="555" y2="298.0" stroke="#e5e7eb"/>
+<text x="77" y="304.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">40</text>
+<line x1="85" y1="232.0" x2="555" y2="232.0" stroke="#e5e7eb"/>
+<text x="77" y="238.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">60</text>
+<line x1="85" y1="166.0" x2="555" y2="166.0" stroke="#e5e7eb"/>
+<text x="77" y="172.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">80</text>
+<line x1="85" y1="100.0" x2="555" y2="100.0" stroke="#e5e7eb"/>
+<text x="77" y="106.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">100</text>
+<line x1="85.0" y1="430" x2="85.0" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="85.0" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">5</text>
+<line x1="137.22222222222223" y1="430" x2="137.22222222222223" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="137.22222222222223" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">10</text>
+<line x1="189.44444444444446" y1="430" x2="189.44444444444446" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="189.44444444444446" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">15</text>
+<line x1="241.66666666666666" y1="430" x2="241.66666666666666" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="241.66666666666666" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">20</text>
+<line x1="293.8888888888889" y1="430" x2="293.8888888888889" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="293.8888888888889" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">25</text>
+<line x1="346.11111111111114" y1="430" x2="346.11111111111114" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="346.11111111111114" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">30</text>
+<line x1="398.3333333333333" y1="430" x2="398.3333333333333" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="398.3333333333333" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">35</text>
+<line x1="450.55555555555554" y1="430" x2="450.55555555555554" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="450.55555555555554" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">40</text>
+<line x1="502.77777777777777" y1="430" x2="502.77777777777777" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="502.77777777777777" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">45</text>
+<line x1="555.0" y1="430" x2="555.0" y2="436" stroke="#1f2937" stroke-width="2"/>
+<text x="555.0" y="456" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">50</text>
+<line x1="85" y1="430" x2="555" y2="430" stroke="#1f2937" stroke-width="2"/>
+<line x1="85" y1="430" x2="85" y2="90" stroke="#1f2937" stroke-width="2"/>
+<polyline points="137.2,413.5 189.4,298.0 241.7,182.5 293.9,126.4 346.1,106.6 398.3,133.0 450.6,281.5 502.8,430.0" fill="none" stroke="#b91c1c" stroke-width="3"/>
+<circle cx="137.2" cy="413.5" r="4.5" fill="#b91c1c"/>
+<circle cx="189.4" cy="298.0" r="4.5" fill="#b91c1c"/>
+<circle cx="241.7" cy="182.5" r="4.5" fill="#b91c1c"/>
+<circle cx="293.9" cy="126.4" r="4.5" fill="#b91c1c"/>
+<circle cx="346.1" cy="106.6" r="4.5" fill="#b91c1c"/>
+<circle cx="398.3" cy="133.0" r="4.5" fill="#b91c1c"/>
+<circle cx="450.6" cy="281.5" r="4.5" fill="#b91c1c"/>
+<circle cx="502.8" cy="430.0" r="4.5" fill="#b91c1c"/>
+<text x="320.0" y="482" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Température (°C)</text>
+<text x="28" y="265.0" font-size="16" font-weight="bold" fill="#1f2937" text-anchor="middle" transform="rotate(-90 28 265.0)">Graines germées (%)</text>
+<text x="111.11111111111111" y="122.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">mort</text>
+<text x="346.11111111111114" y="418.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#15803d">zone optimale</text>
+<text x="528.8888888888889" y="122.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">mort</text>
+<line x1="137.22222222222223" y1="413.5" x2="147.22222222222223" y2="248.49999999999997" stroke="#374151" stroke-width="1.6"/><circle cx="137.22222222222223" cy="413.5" r="2.6" fill="#374151"/><text x="153.22222222222223" y="254.49999999999997" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">minimum</text>
+<text x="153.22222222222223" y="272.5" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">≈ 10 °C</text>
+<line x1="346.11111111111114" y1="106.60000000000002" x2="316.11111111111114" y2="199.00000000000003" stroke="#374151" stroke-width="1.6"/><circle cx="346.11111111111114" cy="106.60000000000002" r="2.6" fill="#374151"/><text x="310.11111111111114" y="205.00000000000003" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">optimum</text>
+<text x="310.11111111111114" y="223.00000000000003" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">30 °C</text>
+<line x1="502.77777777777777" y1="430.0" x2="492.77777777777777" y2="298.0" stroke="#374151" stroke-width="1.6"/><circle cx="502.77777777777777" cy="430.0" r="2.6" fill="#374151"/><text x="486.77777777777777" y="304.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">maximum</text>
+<text x="486.77777777777777" y="322.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">≈ 45 °C</text>
+<text x="300" y="520" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Germination de graines de maïs en 5 jours (données simplifiées) :</text>
+<text x="300" y="538" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">chaque espèce a un minimum, un optimum et un maximum.</text>
+</svg>

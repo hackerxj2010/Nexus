@@ -1,0 +1,661 @@
+{
+ "id": "FR-S1-C02",
+ "matiere": "FR",
+ "semestre": 1,
+ "ordre": 2,
+ "titre": "Les figures de style",
+ "objectifs": [
+  "L'élève doit être capable de reconnaître et de nommer les principales figures d'analogie, d'opposition, d'insistance, d'atténuation, de substitution et de sonorité.",
+  "L'élève doit être capable de distinguer les figures proches (comparaison/métaphore, antithèse/oxymore, litote/euphémisme, métaphore/métonymie).",
+  "L'élève doit être capable d'analyser une figure en quatre temps : repérer, nommer, montrer le mécanisme, interpréter l'effet."
+ ],
+ "prerequis": [
+  "FR-3e-FIGURES",
+  "FR-S1-C01"
+ ],
+ "notions": [
+  {
+   "id": "FR-S1-C02-N1",
+   "titre": "Les figures d'analogie : comparaison, métaphore, personnification, allégorie",
+   "prerequis_notions": [
+    "FR-3e-FIGURES"
+   ],
+   "cours_md": "## 1. Rapprocher deux réalités\n\n:::definition\nUne **figure d'analogie** rapproche deux réalités qui ont un point commun : le **comparé** (ce dont on parle) et le **comparant** (l'image utilisée).\n:::\n\n## 2. La comparaison\n\n:::definition\nLa **comparaison** rapproche le comparé et le comparant grâce à un **outil de comparaison** : comme, tel, ainsi que, pareil à, semblable à, ressembler à, sembler…\n:::\n\n> « Le Poète est semblable au prince des nuées » (Baudelaire, « L'Albatros », *Les Fleurs du mal*, édition de 1861).\n> Comparé : le Poète ; outil : « semblable à » ; comparant : le prince des nuées (l'albatros) ; point commun : la grandeur, la liberté dans le ciel.\n\n## 3. La métaphore\n\n:::definition\nLa **métaphore** rapproche deux réalités **sans outil de comparaison**. Elle est plus forte et plus surprenante que la comparaison.\n:::\n\n- **Métaphore *in praesentia*** (comparé exprimé) : « La Nature est un temple » (Baudelaire, « Correspondances »).\n- **Métaphore *in absentia*** (comparé sous-entendu) : « Cette faucille d'or dans le champ des étoiles » (Hugo, « Booz endormi ») : la faucille désigne la lune, qui n'est pas nommée.\n- **Métaphore filée** : la même image se prolonge sur plusieurs mots ou phrases. Exemple : « Le soleil de midi est un forgeron : il frappe sans relâche l'enclume des toits de tôle. » (forgeron → frappe → enclume).\n\n## 4. La personnification et l'allégorie\n\n:::definition\nLa **personnification** attribue des caractéristiques humaines (actions, sentiments, parole) à un animal, un objet ou une idée : « Le vent hurle dans les rôniers. »\nL'**allégorie** représente une **idée abstraite** sous une forme concrète et vivante, souvent avec une majuscule : la Mort en faucheuse, la Justice avec une balance.\n:::\n\n> « l'Espoir, / Vaincu, pleure, et l'Angoisse atroce, despotique, / Sur mon crâne incliné plante son drapeau noir. » (Baudelaire, « Spleen ») : l'Espoir et l'Angoisse deviennent des combattants : ce sont des **allégories**.\n\n:::methode\n**Distinguer les figures d'analogie**\n1. Y a-t-il un outil (comme, tel, semblable à) ? → **comparaison**.\n2. Pas d'outil, mais une image ? → **métaphore** (filée si elle se prolonge).\n3. Une chose agit ou ressent comme un humain ? → **personnification**.\n4. Une idée abstraite prend un corps (souvent avec majuscule) ? → **allégorie**.\n:::\n\n:::attention\n« Comme » n'introduit pas toujours une comparaison : « Comme il pleuvait, je suis resté » exprime la **cause**. Il faut deux réalités rapprochées pour parler de comparaison.\n:::\n\n## 5. Interpréter\n\nUne image n'est jamais là par hasard. Demande-toi **ce que le comparant apporte** au comparé : ici, le « forgeron » rend le soleil violent, brutal, bruyant ; le lecteur ressent la chaleur comme une agression.",
+   "definition": "Les figures d'analogie rapprochent un comparé et un comparant : avec outil (comparaison), sans outil (métaphore, éventuellement filée), en donnant des traits humains (personnification) ou un corps à une idée (allégorie).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Une figure d'analogie dit : « ceci ressemble à cela ».",
+    "simple": "Quand on dit d'un footballeur qu'il est « une gazelle », on le voit courir vite et léger : l'image (la gazelle) colle au joueur ses qualités.",
+    "complete": "La comparaison explicite le rapprochement par un outil grammatical ; la métaphore l'opère directement (in praesentia ou in absentia) et peut se filer sur un réseau lexical cohérent. La personnification attribue des propriétés humaines à un non-humain ; l'allégorie incarne une abstraction dans une figure concrète animée. L'analyse porte sur le point commun (motif) et sur les connotations que le comparant transfère au comparé."
+   },
+   "analogie": "Au Togo, on dit d'un enfant très rusé qu'il est « l'araignée du quartier » : c'est une métaphore qui lui donne la ruse du héros des contes.",
+   "exemples_resolus": [
+    {
+     "enonce": "Identifie la figure : « Ses yeux étaient deux étoiles. »",
+     "etapes": [
+      "Comparé : ses yeux ; comparant : deux étoiles.",
+      "Aucun outil de comparaison.",
+      "C'est une métaphore in praesentia : les yeux brillent, ils sont lumineux et précieux."
+     ]
+    },
+    {
+     "enonce": "Identifie la figure : « La ville, épuisée, ferme les yeux. »",
+     "etapes": [
+      "La ville (un lieu) est fatiguée et ferme les yeux (actions humaines).",
+      "C'est une personnification : la chaleur ou la nuit rend toute la ville somnolente."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Prendre tout « comme » pour une comparaison (« comme » peut exprimer la cause).",
+    "Confondre métaphore et comparaison parce que « être » ressemble à un outil.",
+    "Nommer la figure sans expliquer le point commun ni l'effet.",
+    "Confondre personnification (un objet agit en humain) et allégorie (une idée abstraite incarnée)."
+   ],
+   "astuces": [
+    "Cherche d'abord l'outil de comparaison : c'est le critère le plus simple.",
+    "Pour une métaphore filée, relève au moins trois mots du même réseau d'images.",
+    "Une majuscule sur un nom abstrait (la Mort, l'Espoir) signale souvent une allégorie."
+   ],
+   "mnemo": "« Comparaison = Comme ; Métaphore = Mot seul ; Personnification = Personne ; Allégorie = Abstrait animé. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu connaissais déjà la comparaison et la métaphore. En seconde, tu dois savoir distinguer métaphore in absentia, métaphore filée et allégorie, et surtout interpréter l'image."
+   },
+   "methode_redaction": "Sur la copie, une figure s'analyse en trois temps : citation entre guillemets, nom précis de la figure, interprétation (« La métaphore filée du forgeron transforme le soleil en ennemi brutal et souligne la violence de la chaleur »).",
+   "flash": [
+    {
+     "q": "Différence entre comparaison et métaphore ?",
+     "r": "La comparaison a un outil (comme, tel…), la métaphore n'en a pas."
+    },
+    {
+     "q": "Qu'est-ce qu'une métaphore filée ?",
+     "r": "Une métaphore prolongée sur plusieurs mots ou phrases du même réseau d'images."
+    },
+    {
+     "q": "Métaphore in absentia ?",
+     "r": "Le comparé n'est pas exprimé (la « faucille d'or » pour la lune)."
+    },
+    {
+     "q": "Personnification ou allégorie : « la Mort frappe à la porte » ?",
+     "r": "Allégorie : une idée abstraite (la Mort) prend la forme d'un personnage."
+    },
+    {
+     "q": "« Comme il pleuvait, je suis resté » contient-il une comparaison ?",
+     "r": "Non, « comme » exprime ici la cause."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C02-N1.svg",
+    "alt": "Tableau des figures d'analogie : comparaison, métaphore, métaphore filée, personnification, allégorie, avec principe et exemple.",
+    "legende": "Les cinq figures d'analogie à connaître.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C02-N2",
+   "titre": "Les figures d'opposition : antithèse, oxymore, chiasme, paradoxe, antiphrase",
+   "prerequis_notions": [
+    "FR-S1-C02-N1"
+   ],
+   "cours_md": "## 1. Opposer pour frapper l'esprit\n\n:::definition\nLes **figures d'opposition** rapprochent des termes ou des idées **contraires** pour créer un contraste, une tension ou une surprise.\n:::\n\n## 2. Les cinq figures à connaître\n\n**L'antithèse** oppose deux termes ou deux idées dans une même phrase ou un même passage.\n> « Je vis, je meurs ; je me brûle et me noie » (Louise Labé, *Sonnets*, VIII, 1555) : vie/mort, feu/eau traduisent le désordre de la passion amoureuse.\n\n**L'oxymore** (ou oxymoron) réunit deux termes contradictoires **dans le même groupe de mots**, souvent un nom et un adjectif.\n> « Cette obscure clarté qui tombe des étoiles » (Corneille, *Le Cid*, 1637) ; « boucherie héroïque » (Voltaire, *Candide*, 1759, chapitre 3) : l'oxymore dénonce la guerre en associant l'horreur (boucherie) à la gloire (héroïque).\n\n**Le chiasme** dispose deux groupes de mots en ordre inversé (structure **A B / B A**).\n> « Il faut manger pour vivre, et non pas vivre pour manger » (Molière, *L'Avare*, 1668) : manger (A) vivre (B) / vivre (B) manger (A).\n\n**Le paradoxe** affirme une idée qui va contre l'opinion commune ou semble absurde, mais qui cache une vérité.\n> « Je meurs de soif auprès de la fontaine » (François Villon, « Ballade du concours de Blois ») ; « Qui veut aller loin ménage sa monture » (proverbe).\n\n**L'antiphrase** (ironie) dit **le contraire** de ce que l'on pense, pour se moquer ou critiquer.\n> « Bravo ! Quelle intelligence ! » à quelqu'un qui vient de faire une bêtise.\n> Chez Voltaire : « Rien n'était si beau, si leste, si brillant, si bien ordonné que les deux armées » juste avant de décrire un massacre.\n\n:::propriete\n**Antithèse** : les contraires peuvent être éloignés dans la phrase. **Oxymore** : ils sont collés dans un même groupe (« obscure clarté »). C'est la différence essentielle.\n:::\n\n:::methode\n**Repérer et interpréter une opposition**\n1. Souligne les deux termes opposés.\n2. Regarde leur place : même groupe (oxymore), même phrase ou passage (antithèse), ordre inversé ABBA (chiasme).\n3. Dis ce que l'opposition révèle : un déchirement, une critique, une surprise, une vérité cachée.\n:::\n\n:::attention\nL'ironie ne se repère que grâce au **contexte** : il faut montrer pourquoi le sens réel est l'inverse du sens littéral (décalage avec les faits racontés).\n:::",
+   "definition": "Les figures d'opposition rapprochent des contraires : antithèse (opposition dans une phrase ou un passage), oxymore (contraires dans un même groupe), chiasme (ordre ABBA), paradoxe (idée contraire à l'opinion commune), antiphrase (dire l'inverse de ce qu'on pense).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Opposer deux contraires fait réfléchir ou sourire le lecteur.",
+    "simple": "Comme sur un terrain de football, deux équipes opposées rendent le match intéressant : deux mots opposés rendent la phrase vivante.",
+    "complete": "L'antithèse met en tension deux termes ou propositions de sens contraire ; l'oxymore les fusionne dans un syntagme ; le chiasme croise deux paires de termes selon une symétrie ABBA, souvent combinée à l'antithèse ; le paradoxe heurte la doxa ; l'antiphrase, procédé de l'ironie, exprime le contraire de la pensée et suppose un décalage perceptible par le contexte."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Identifie : « un silence assourdissant ».",
+     "etapes": [
+      "« silence » et « assourdissant » (très bruyant) sont contraires.",
+      "Ils sont dans le même groupe nominal.",
+      "C'est un oxymore : le silence est si lourd qu'il devient presque bruyant, insupportable."
+     ]
+    },
+    {
+     "enonce": "Identifie : « Les jours sont longs, mais les années sont courtes. »",
+     "etapes": [
+      "Deux oppositions : longs/courtes, jours/années, dans deux propositions parallèles.",
+      "C'est une antithèse (avec parallélisme) : la vie paraît lente au quotidien mais passe vite."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre antithèse et oxymore.",
+    "Voir un chiasme sans vérifier l'ordre inversé A B / B A.",
+    "Ne pas expliquer le contexte qui permet de dire qu'il y a ironie.",
+    "Appeler « paradoxe » n'importe quelle opposition."
+   ],
+   "astuces": [
+    "Oxymore = « deux ennemis dans le même lit » : les contraires sont collés.",
+    "Pour le chiasme, écris A et B au-dessus des mots : tu verras la croix (le X grec « chi »)."
+   ],
+   "mnemo": "Le chiasme tire son nom de la lettre grecque χ (chi), qui a la forme d'une croix : A B × B A.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as rencontré l'antithèse. En seconde, il faut distinguer finement antithèse, oxymore et chiasme, et repérer l'ironie, très présente dans les textes argumentatifs (Voltaire)."
+   },
+   "methode_redaction": "Pour l'ironie, rédige : « Le narrateur feint d'admirer… alors que la suite du texte montre… ; ce décalage révèle une critique de… ». Cite toujours les deux éléments qui se contredisent.",
+   "flash": [
+    {
+     "q": "Différence entre antithèse et oxymore ?",
+     "r": "Oxymore : contraires dans le même groupe de mots ; antithèse : contraires dans une phrase ou un passage."
+    },
+    {
+     "q": "Structure du chiasme ?",
+     "r": "A B / B A (ordre inversé)."
+    },
+    {
+     "q": "« Boucherie héroïque » (Voltaire) : quelle figure ?",
+     "r": "Un oxymore."
+    },
+    {
+     "q": "Qu'est-ce qu'une antiphrase ?",
+     "r": "Dire le contraire de ce que l'on pense, pour se moquer (ironie)."
+    },
+    {
+     "q": "« Je meurs de soif auprès de la fontaine » : quelle figure ?",
+     "r": "Un paradoxe (Villon)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C02-N2.svg",
+    "alt": "Carte mentale des figures d'opposition : antithèse, oxymore, chiasme, paradoxe et antiphrase, avec une définition courte et un exemple chacune.",
+    "legende": "Cinq façons d'opposer des contraires.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C02-N3",
+   "titre": "Les figures d'insistance et d'atténuation",
+   "prerequis_notions": [
+    "FR-S1-C02-N1"
+   ],
+   "cours_md": "## 1. Insister, amplifier\n\n:::definition\nLes **figures d'insistance** amplifient une idée pour la mettre en valeur ; les **figures d'atténuation** disent moins pour suggérer plus ou pour adoucir une réalité.\n:::\n\n| Figure | Définition | Exemple |\n|---|---|---|\n| **Hyperbole** | exagération | « Je meurs de faim » ; « Un seul être vous manque, et tout est dépeuplé » (Lamartine, « L'Isolement », 1820) |\n| **Gradation** | suite de termes d'intensité croissante (ou décroissante) | « Va, cours, vole, et nous venge » (Corneille, *Le Cid*) |\n| **Accumulation** (énumération) | suite de mots de même nature | « Les zémidjans vrombissent, klaxonnent, se faufilent, disparaissent. » |\n| **Anaphore** | même mot ou groupe en **début** de vers, de phrase ou de proposition | « Heureux ceux qui sont morts… / Heureux ceux qui sont morts… » (Péguy, *Ève*, 1913) |\n| **Répétition** | reprise d'un mot | « Waterloo ! Waterloo ! Waterloo ! morne plaine ! » (Hugo, *Les Châtiments*, 1853) |\n| **Parallélisme** | même construction syntaxique répétée | « Je suis venu, j'ai vu, j'ai vaincu. » |\n\n:::propriete\nL'**anaphore** se repère à la **place** du mot répété : toujours en tête de vers ou de phrase. Une simple répétition peut être n'importe où.\n:::\n\n## 2. Atténuer\n\n**La litote** dit **moins** pour faire entendre **plus**, souvent en niant le contraire.\n> « Va, je ne te hais point » (Corneille, *Le Cid*, 1637) : Chimène fait comprendre qu'elle aime encore Rodrigue. « Ce n'est pas mauvais » = c'est très bon.\n\n**L'euphémisme** **adoucit** une réalité pénible, choquante ou triste.\n> « Il nous a quittés » pour « il est mort » ; « les personnes à mobilité réduite » ; dans « Le Dormeur du val » (Rimbaud, 1870), le soldat semble dormir alors qu'il est mort : « Il a deux trous rouges au côté droit. »\n\n:::remarque\n**Litote ou euphémisme ?** Les deux disent « moins ». La **litote** veut **renforcer** l'idée (dire moins pour dire plus) ; l'**euphémisme** veut **adoucir** (dire moins pour choquer moins).\n:::\n\n:::methode\n**Interpréter une figure d'insistance**\n1. Repère la figure et nomme-la précisément.\n2. Décris son mouvement : montée en intensité (gradation), effet de masse (accumulation), martèlement (anaphore).\n3. Dis ce qu'elle produit : urgence, émotion, colère, abondance, obsession, solennité.\n:::\n\n:::attention\nNe confonds pas **gradation** et **accumulation** : dans la gradation, il faut une progression d'intensité (va → cours → vole). Sans progression, c'est une accumulation.\n:::",
+   "definition": "Les figures d'insistance amplifient (hyperbole, gradation, accumulation, anaphore, répétition, parallélisme) ; les figures d'atténuation disent moins, soit pour suggérer plus (litote), soit pour adoucir (euphémisme).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Certaines figures crient (hyperbole, gradation), d'autres chuchotent (litote, euphémisme).",
+    "simple": "Le tam-tam qui répète le même rythme de plus en plus fort, c'est une anaphore et une gradation sonores : on ne peut plus l'ignorer.",
+    "complete": "L'hyperbole exagère l'expression au-delà du réel ; la gradation ordonne une série selon une intensité croissante ou décroissante ; l'accumulation juxtapose des termes de même catégorie pour un effet de profusion ; l'anaphore reprend un même segment en tête d'unités successives ; le parallélisme reproduit une structure syntaxique. À l'inverse, la litote atténue l'expression pour renforcer le sens (souvent par la négation du contraire), tandis que l'euphémisme atténue une réalité désagréable."
+   },
+   "analogie": "Quand quelqu'un dit au marché « Ce n'est pas cher, hein ! » en montrant une belle pièce de pagne, c'est une litote : il veut dire « c'est une excellente affaire ».",
+   "exemples_resolus": [
+    {
+     "enonce": "« Ce n'est pas bête, ce que tu proposes. » Quelle figure ?",
+     "etapes": [
+      "On nie le contraire (« pas bête ») pour dire « c'est très intelligent ».",
+      "C'est une litote : dire moins pour suggérer plus."
+     ]
+    },
+    {
+     "enonce": "« Je te l'ai dit cent fois, mille fois, un million de fois ! »",
+     "etapes": [
+      "Nombres de plus en plus grands : gradation ascendante.",
+      "Chaque nombre est impossible : hyperboles.",
+      "Effet : exaspération de l'énonciateur."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Appeler « anaphore » une répétition qui n'est pas en début de phrase ou de vers.",
+    "Confondre litote et euphémisme.",
+    "Parler de gradation sans montrer la progression d'intensité.",
+    "Ne pas dire l'effet produit (émotion, urgence, ironie)."
+   ],
+   "astuces": [
+    "Anaphore = « ana » (de nouveau) : le même début revient.",
+    "Pour la litote, cherche une négation + le contraire de ce qu'on pense (« pas mal », « pas idiot »)."
+   ],
+   "mnemo": "« Litote : dire Less pour dire pLus ; Euphémisme : Enlever la douleur. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? L'hyperbole et la répétition te sont familières. En seconde, il faut distinguer anaphore, gradation et accumulation, et repérer les figures d'atténuation dans les dialogues de théâtre (Corneille) et la poésie."
+   },
+   "methode_redaction": "Dans un commentaire, associe chaque figure à un effet : « L'anaphore de \"Heureux\" martèle la célébration et donne au poème la solennité d'une prière. »",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'une anaphore ?",
+     "r": "La reprise d'un mot ou groupe en début de vers, de phrase ou de proposition."
+    },
+    {
+     "q": "« Va, cours, vole, et nous venge » : quelle figure ?",
+     "r": "Une gradation (ascendante)."
+    },
+    {
+     "q": "Différence entre litote et euphémisme ?",
+     "r": "Litote : dire moins pour suggérer plus ; euphémisme : dire moins pour adoucir."
+    },
+    {
+     "q": "« Il nous a quittés » pour « il est mort » ?",
+     "r": "Un euphémisme."
+    },
+    {
+     "q": "Différence entre gradation et accumulation ?",
+     "r": "La gradation a une progression d'intensité ; l'accumulation non."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C02-N3.svg",
+    "alt": "Carte mentale : quatre figures d'insistance (hyperbole, gradation, accumulation, anaphore) et deux figures d'atténuation (litote, euphémisme), avec un exemple chacune.",
+    "legende": "Figures d'insistance et figures d'atténuation.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C02-N4",
+   "titre": "Les figures de substitution : métonymie, synecdoque, périphrase",
+   "prerequis_notions": [
+    "FR-S1-C02-N1"
+   ],
+   "cours_md": "## 1. Remplacer un mot par un autre\n\n:::definition\nLes **figures de substitution** remplacent le mot attendu par un autre mot ou une expression qui a un **lien logique** avec lui (et non un rapport de ressemblance, comme la métaphore).\n:::\n\n## 2. La métonymie\n\n:::definition\nLa **métonymie** désigne une réalité par une autre qui lui est **liée** : le contenant pour le contenu, le lieu pour les habitants ou l'institution, l'auteur pour l'œuvre, la cause pour l'effet, le symbole pour la chose.\n:::\n\n- Contenant pour le contenu : « boire un **verre** » (le contenu du verre).\n- Lieu pour les habitants : « **Lomé** a voté » (les habitants de Lomé).\n- Auteur pour l'œuvre : « lire un **Hugo** ».\n- Symbole pour la chose : « la **couronne** » pour la royauté ; « prendre la **plume** » pour écrire.\n\n## 3. La synecdoque\n\n:::definition\nLa **synecdoque** est une sorte de métonymie qui désigne **le tout par la partie** (ou la partie par le tout), ou l'espèce par le genre.\n:::\n\n- « Une **voile** à l'horizon » : la voile pour le bateau entier.\n- « Avoir un **toit** » : le toit pour la maison.\n- « Nourrir cinq **bouches** » : les bouches pour les personnes.\n\n## 4. La périphrase\n\n:::definition\nLa **périphrase** remplace un mot par une **expression de plusieurs mots** qui le définit ou le caractérise.\n:::\n\n- « le roi des animaux » = le lion ; « l'astre du jour » = le soleil ;\n- « la Ville Lumière » = Paris ; « le pays de l'or noir » = un pays producteur de pétrole ;\n- « la capitale des Plateaux » = Atakpamé.\n\n:::propriete\nLa périphrase sert à **éviter une répétition**, à **valoriser** (« l'astre du jour ») ou à **critiquer** (« ces messieurs du gouvernement »). Elle est très utile dans tes propres copies pour varier le vocabulaire.\n:::\n\n:::methode\n**Métaphore ou métonymie ?**\n1. Le lien est-il une **ressemblance** (les yeux brillent comme des étoiles) ? → **métaphore**.\n2. Le lien est-il **logique** (contenant/contenu, partie/tout, lieu/habitants) ? → **métonymie** ou **synecdoque**.\n3. Le mot est-il remplacé par une **expression explicative** ? → **périphrase**.\n:::\n\n:::attention\n« Lomé a voté » n'est pas une personnification : la ville ne vote pas comme une personne, ce sont ses **habitants** qui votent. Le lien est logique (lieu → habitants) : c'est une métonymie.\n:::",
+   "definition": "Les figures de substitution remplacent un mot par un autre lié logiquement : métonymie (contenant/contenu, lieu/habitants, auteur/œuvre…), synecdoque (partie/tout) et périphrase (une expression qui définit le mot).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Au lieu de dire le mot exact, on dit une chose qui lui est liée.",
+    "simple": "Quand on dit « la mairie a décidé », tout le monde comprend qu'il s'agit du maire et des conseillers : le bâtiment remplace les personnes.",
+    "complete": "La métonymie opère un transfert de dénomination fondé sur une relation de contiguïté (contenant/contenu, cause/effet, lieu/institution, auteur/œuvre, symbole/chose) ; la synecdoque, souvent rangée parmi les métonymies, repose sur une relation d'inclusion (partie/tout, espèce/genre, matière/objet). La périphrase substitue au terme propre une expression descriptive qui en souligne une qualité. Ces figures se distinguent de la métaphore, fondée sur l'analogie."
+   },
+   "analogie": "Dire « j'ai pris un Lomé-Kpalimé » pour parler du taxi-brousse qui fait ce trajet, c'est une métonymie : le trajet remplace le véhicule.",
+   "exemples_resolus": [
+    {
+     "enonce": "« Toute la classe a applaudi. » Quelle figure ?",
+     "etapes": [
+      "« la classe » (le groupe, voire la salle) désigne les élèves.",
+      "Lien logique, pas de ressemblance : métonymie."
+     ]
+    },
+    {
+     "enonce": "« Le continent noir » pour l'Afrique.",
+     "etapes": [
+      "Une expression de plusieurs mots remplace le nom « Afrique ».",
+      "C'est une périphrase (aujourd'hui jugée réductrice et à éviter)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre métonymie (lien logique) et métaphore (ressemblance).",
+    "Voir une personnification dans « Lomé a voté ».",
+    "Oublier que la périphrase peut être péjorative.",
+    "Ne pas préciser le type de lien (contenant/contenu, partie/tout…)."
+   ],
+   "astuces": [
+    "Pour une métonymie, nomme toujours le lien : « le contenant pour le contenu ».",
+    "Utilise des périphrases dans tes résumés et dissertations pour éviter les répétitions."
+   ],
+   "mnemo": "« MéTONymie = lien de TON voisin (contiguïté) ; MéTAPHore = TA PHOtocopie (ressemblance). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu utilisais déjà des périphrases pour éviter les répétitions dans tes rédactions. En seconde, tu dois savoir les nommer et les distinguer de la métonymie et de la synecdoque."
+   },
+   "methode_redaction": "Quand tu analyses une métonymie, écris : « La métonymie \"la couronne\" (le symbole pour la chose) désigne le pouvoir royal et lui donne un caractère solennel. »",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'une métonymie ?",
+     "r": "Désigner une réalité par une autre qui lui est liée logiquement (contenant/contenu, lieu/habitants…)."
+    },
+    {
+     "q": "« Une voile à l'horizon » ?",
+     "r": "Synecdoque : la partie (voile) pour le tout (bateau)."
+    },
+    {
+     "q": "« L'astre du jour » ?",
+     "r": "Périphrase pour le soleil."
+    },
+    {
+     "q": "« Lomé a voté » : personnification ou métonymie ?",
+     "r": "Métonymie (le lieu pour les habitants)."
+    },
+    {
+     "q": "Métaphore ou métonymie : sur quel critère choisir ?",
+     "r": "Ressemblance → métaphore ; lien logique → métonymie."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C02-N4.svg",
+    "alt": "Tableau des figures de substitution : trois métonymies (contenant/contenu, lieu/habitants, auteur/œuvre), une synecdoque et une périphrase.",
+    "legende": "Métonymie, synecdoque et périphrase.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C02-N5",
+   "titre": "Les figures de sonorité et la méthode d'analyse d'une figure",
+   "prerequis_notions": [
+    "FR-S1-C02-N1",
+    "FR-S1-C02-N2",
+    "FR-S1-C02-N3"
+   ],
+   "cours_md": "## 1. Les jeux de sons\n\n:::definition\nL'**allitération** est la répétition d'un même **son consonne** ; l'**assonance** est la répétition d'un même **son voyelle** ; la **paronomase** rapproche des mots aux sons proches mais au sens différent.\n:::\n\n- Allitération en [s] : « Pour qui sont ces serpents qui sifflent sur vos têtes ? » (Racine, *Andromaque*, 1667) : le son imite le sifflement des serpents (**harmonie imitative**).\n- Assonance en [ɔ̃] (« on ») : « Les sanglots longs / Des violons / De l'automne » (Verlaine, « Chanson d'automne », 1866) : sonorité sourde et plaintive, mélancolie.\n- Paronomase : « Qui vole un œuf vole un bœuf » (proverbe) : œuf / bœuf, facile à retenir.\n\n:::propriete\nOn parle de **sons**, pas de lettres : « ces », « sont », « sifflent » et « serpents » donnent tous le son [s], même avec des lettres différentes (c, s). On note le son entre crochets : [s], [r], [a].\n:::\n\n## 2. Interpeller le lecteur\n\n- **L'apostrophe** : on s'adresse directement à quelqu'un ou à quelque chose : « Ô temps ! suspends ton vol » (Lamartine, « Le Lac », 1820).\n- **La question rhétorique** : fausse question dont la réponse est évidente, utilisée pour convaincre : « Peut-on accepter qu'un enfant ne mange pas à sa faim ? » (réponse sous-entendue : non).\n\n## 3. Méthode générale : analyser une figure de style\n\n:::methode\n**Les 4 étapes R-N-M-I**\n1. **Repérer** : cite le passage exact entre guillemets.\n2. **Nommer** la figure avec le mot juste (pas « une image » mais « une métaphore filée »).\n3. **Montrer le mécanisme** : comparé/comparant, termes opposés, son répété, mots en gradation…\n4. **Interpréter** : quel effet sur le lecteur ? Quel sens pour le texte (émotion, critique, beauté, ironie) ?\n:::\n\n**Exemple rédigé** : « Dans le vers \"Pour qui sont ces serpents qui sifflent sur vos têtes ?\", Racine emploie une **allitération en [s]**. La répétition de ce son imite le sifflement des serpents : le lecteur entend presque les créatures qui hantent Oreste. Cette harmonie imitative traduit la folie et la terreur du personnage. »\n\n:::attention\n**Nommer ne suffit jamais.** Une figure seulement nommée rapporte peu de points ; c'est l'**interprétation** qui fait la note. Évite aussi les interprétations « passe-partout » (« pour faire beau », « pour attirer l'attention ») : sois précis.\n:::\n\n:::remarque\nNe cherche pas à repérer toutes les figures d'un texte : choisis celles qui **servent ton idée** (ton axe de lecture dans un commentaire).\n:::",
+   "definition": "L'allitération (son consonne répété), l'assonance (son voyelle répété) et la paronomase (sons proches) jouent sur la musique des mots ; toute figure s'analyse en quatre temps : repérer, nommer, montrer le mécanisme, interpréter.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "On repère la figure, on la nomme, on explique comment elle marche et ce qu'elle produit.",
+    "simple": "Comme un médecin : il observe le symptôme (repérer), pose le diagnostic (nommer), explique la maladie (mécanisme) et dit ce que cela change pour le patient (interpréter).",
+    "complete": "Les figures phoniques (allitération, assonance, paronomase, harmonie imitative) exploitent la matière sonore du langage ; l'apostrophe et la question rhétorique relèvent de l'interpellation. L'analyse stylistique d'une figure exige la citation exacte, la désignation technique, la description du mécanisme et l'interprétation de l'effet de sens en lien avec la visée du texte."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Analyse : « Ô temps ! suspends ton vol » (Lamartine).",
+     "etapes": [
+      "Repérer : « Ô temps ! » et l'impératif « suspends ».",
+      "Nommer : apostrophe et personnification du temps.",
+      "Mécanisme : le poète parle au temps comme à une personne qui pourrait lui obéir.",
+      "Interpréter : le désir impossible d'arrêter le bonheur exprime la mélancolie face à la fuite du temps."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Parler de « lettres » répétées au lieu de « sons ».",
+    "Confondre allitération (consonnes) et assonance (voyelles).",
+    "S'arrêter à « il y a une allitération » sans interpréter.",
+    "Donner un effet vague (« pour faire joli »)."
+   ],
+   "astuces": [
+    "Lis le vers à voix basse : les sons répétés s'entendent mieux qu'ils ne se voient.",
+    "Allitération : A comme « Articulation » des consonnes ; Assonance : voyelles qui « résonnent »."
+   ],
+   "mnemo": "R-N-M-I : « Regarde, Nomme, Montre, Interprète ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu nommais déjà des figures. En seconde, on attend une analyse complète : le nom, le mécanisme et surtout l'effet sur le sens."
+   },
+   "methode_redaction": "Une figure bien analysée tient en 3 ou 4 phrases : citation + nom + mécanisme + effet. C'est la brique de base du commentaire de texte.",
+   "flash": [
+    {
+     "q": "Allitération ou assonance : répétition d'un son voyelle ?",
+     "r": "Assonance."
+    },
+    {
+     "q": "Qu'est-ce que l'harmonie imitative ?",
+     "r": "Des sons répétés qui imitent le bruit évoqué (le sifflement des serpents en [s])."
+    },
+    {
+     "q": "Quelles sont les 4 étapes d'analyse d'une figure ?",
+     "r": "Repérer, Nommer, Montrer le mécanisme, Interpréter."
+    },
+    {
+     "q": "Qu'est-ce qu'une question rhétorique ?",
+     "r": "Une fausse question dont la réponse est évidente, pour convaincre."
+    },
+    {
+     "q": "« Qui vole un œuf vole un bœuf » : quelle figure ?",
+     "r": "Une paronomase (œuf / bœuf)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C02-N5.svg",
+    "alt": "Schéma en quatre étapes numérotées : repérer, nommer, montrer le mécanisme, interpréter.",
+    "legende": "La méthode R-N-M-I pour analyser une figure de style.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S1-C02-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C02-N1"
+   ],
+   "format": "qcm",
+   "enonce": "« Le Poète est semblable au prince des nuées » (Baudelaire). Quelle est cette figure ?",
+   "indices": [
+    "Cherche un outil de comparaison."
+   ],
+   "corrige": [
+    "Il y a un outil de comparaison : « semblable à ».",
+    "C'est donc une comparaison (comparé : le Poète ; comparant : le prince des nuées)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Pas d'outil « comme », mais « semblable à » en est un.",
+   "verification": "double_resolution",
+   "choix": [
+    "Une métaphore",
+    "Une comparaison",
+    "Une personnification",
+    "Une périphrase"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C02-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C02-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "« Cette obscure clarté qui tombe des étoiles » (Corneille). Quelle figure se trouve dans « obscure clarté » ? (un mot)",
+   "indices": [
+    "Les deux mots sont-ils séparés ou collés ?"
+   ],
+   "corrige": [
+    "« obscure » et « clarté » sont contraires et réunis dans le même groupe nominal : c'est un oxymore."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Ce n'est pas une antithèse : les contraires sont dans le même groupe.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "oxymore",
+    "un oxymore",
+    "l'oxymore",
+    "oxymoron",
+    "un oxymoron"
+   ]
+  },
+  {
+   "id": "FR-S1-C02-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C02-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Chimène dit à Rodrigue : « Va, je ne te hais point. » (Corneille, Le Cid). Quelle figure emploie-t-elle ?",
+   "indices": [
+    "Que veut-elle vraiment dire ? Le dit-elle plus fort ou moins fort ?"
+   ],
+   "corrige": [
+    "Elle nie le contraire (« je ne te hais point ») pour faire entendre « je t'aime encore ».",
+    "Dire moins pour suggérer plus : c'est une litote."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "L'euphémisme adoucit une réalité pénible ; ici, il s'agit de renforcer un sentiment qu'on ne peut avouer.",
+   "verification": "double_resolution",
+   "choix": [
+    "Un euphémisme",
+    "Une hyperbole",
+    "Une litote",
+    "Une antiphrase"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S1-C02-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C02-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "« Il faut manger pour vivre, et non pas vivre pour manger » (Molière, L'Avare). Nomme la figure de construction (un mot).",
+   "indices": [
+    "Écris A et B au-dessus des mots répétés."
+   ],
+   "corrige": [
+    "manger (A) – vivre (B) / vivre (B) – manger (A) : ordre inversé.",
+    "C'est un chiasme."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Il y a aussi une opposition, mais la figure de construction attendue est le chiasme.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "chiasme",
+    "un chiasme",
+    "le chiasme"
+   ]
+  },
+  {
+   "id": "FR-S1-C02-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C02-N4"
+   ],
+   "format": "qcm",
+   "enonce": "« Toute la ville de Lomé est descendue dans la rue pour fêter la victoire des Éperviers. » Dans « Toute la ville… est descendue », il y a :",
+   "indices": [
+    "La ville elle-même peut-elle descendre dans la rue ? Qui le fait réellement ?"
+   ],
+   "corrige": [
+    "« la ville » désigne ses habitants : lien logique (le lieu pour les habitants).",
+    "C'est une métonymie."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Ce n'est pas une personnification : le lien est logique (lieu → habitants), pas une attribution de traits humains.",
+   "verification": "double_resolution",
+   "choix": [
+    "une métaphore",
+    "une personnification",
+    "une métonymie",
+    "une allégorie"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S1-C02-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S1-C02-N5"
+   ],
+   "format": "qcm",
+   "enonce": "« Pour qui sont ces serpents qui sifflent sur vos têtes ? » (Racine, Andromaque). Quelle analyse est la plus juste ?",
+   "indices": [
+    "Le [s] est-il une voyelle ou une consonne ?"
+   ],
+   "corrige": [
+    "Le son [s] est répété (sont, ces, serpents, sifflent, sur) : allitération.",
+    "Ce son imite le sifflement des serpents : harmonie imitative qui traduit l'hallucination terrifiante d'Oreste."
+   ],
+   "bareme": [
+    1,
+    2
+   ],
+   "piege": "« Assonance » concerne les voyelles ; et « pour faire joli » n'est jamais une interprétation.",
+   "verification": "double_resolution",
+   "choix": [
+    "Une assonance en [s] pour faire joli",
+    "Une allitération en [s] qui imite le sifflement des serpents et traduit la terreur d'Oreste",
+    "Une anaphore de « s » qui insiste sur les têtes",
+    "Une allitération en [t] qui montre la colère"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C02-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S1-C02-N1",
+    "FR-S1-C02-N2",
+    "FR-S1-C02-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis ce texte, puis relève quatre figures de style différentes. Pour chacune : cite, nomme, explique l'effet.\n\n« Le soleil de midi est un forgeron impitoyable : il frappe sans relâche l'enclume des toits de tôle. Sur la route de Tsévié, mille zémidjans vrombissent, klaxonnent, se faufilent, disparaissent. Le goudron fond, la poussière danse, et la ville, épuisée, ferme les yeux. Pourtant, dans cette fournaise, un vieil homme sourit doucement à l'ombre d'un manguier : il n'est pas pressé, lui. » (texte d'exemple)",
+   "indices": [
+    "Cherche une image qui se prolonge dans la première phrase.",
+    "Le mot « Pourtant » annonce un contraste."
+   ],
+   "corrige": [
+    "Métaphore filée : « Le soleil de midi est un forgeron impitoyable : il frappe sans relâche l'enclume des toits de tôle » (forgeron → frappe → enclume). Le soleil devient un ouvrier brutal : la chaleur est vécue comme une agression bruyante.",
+    "Hyperbole : « mille zémidjans » : l'exagération donne l'impression d'une circulation envahissante.",
+    "Accumulation (avec gradation vers la disparition) : « vrombissent, klaxonnent, se faufilent, disparaissent » : le rythme rapide imite l'agitation et la vitesse des motos.",
+    "Personnifications : « la poussière danse », « la ville, épuisée, ferme les yeux » : la ville entière semble accablée et s'endort sous la chaleur.",
+    "Antithèse (bonus) : l'agitation de la ville s'oppose au calme du vieil homme qui « sourit doucement » (« Pourtant ») : le texte valorise la sagesse et la patience."
+   ],
+   "bareme": [
+    2,
+    1,
+    2,
+    2,
+    1
+   ],
+   "piege": "Ne relève pas quatre fois la même figure : la consigne demande quatre figures différentes, chacune interprétée.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S1-C02-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S1-C02-N5",
+    "FR-S1-C02-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Rédige un paragraphe d'analyse (8 à 12 lignes) sur ces vers de Lamartine (« Le Lac », 1820). Tu dois analyser au moins trois procédés et conclure sur le sentiment du poète.\n\n« Ô temps ! suspends ton vol, et vous, heures propices !\nSuspendez votre cours :\nLaissez-nous savourer les rapides délices\nDes plus beaux de nos jours ! »",
+   "indices": [
+    "Repère à qui parle le poète.",
+    "Quel mode verbal domine ?",
+    "Que signifie l'association « rapides délices » ?"
+   ],
+   "corrige": [
+    "Phrase d'idée : « Dans cette strophe, le poète supplie le temps de s'arrêter pour prolonger son bonheur. »",
+    "Procédé 1 : l'apostrophe « Ô temps ! » et « vous, heures propices ! » s'adresse au temps comme à une personne : c'est une personnification qui donne au temps le pouvoir d'obéir.",
+    "Procédé 2 : les impératifs « suspends », « Suspendez », « Laissez-nous » (fonction conative) font de la strophe une prière ; la reprise du verbe « suspendre » insiste sur ce désir.",
+    "Procédé 3 : les exclamations et l'association « rapides délices » (le bonheur est déjà en train de fuir) traduisent l'urgence et la fragilité du bonheur ; le superlatif « Des plus beaux de nos jours » valorise ce moment unique.",
+    "Conclusion du paragraphe : « Ainsi, la supplication lyrique révèle l'angoisse du poète face à la fuite du temps, thème central du romantisme. »"
+   ],
+   "bareme": [
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "piege": "Ne te contente pas de lister les procédés : chaque procédé doit être relié à l'idée du paragraphe (la fuite du temps).",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Nommer une figure sans l'interpréter : c'est l'effet sur le sens qui rapporte les points.",
+  "Confondre antithèse et oxymore, litote et euphémisme, métaphore et métonymie.",
+  "Parler de « lettres » au lieu de « sons » pour l'allitération et l'assonance.",
+  "Voir une comparaison dans tout « comme » (il peut exprimer la cause).",
+  "Accumuler les figures sans lien avec une idée directrice du texte."
+ ]
+}

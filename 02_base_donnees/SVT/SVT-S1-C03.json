@@ -1,0 +1,593 @@
+{
+ "id": "SVT-S1-C03",
+ "matiere": "SVT",
+ "semestre": 1,
+ "ordre": 3,
+ "titre": "L'écosystème : composantes et facteurs écologiques",
+ "objectifs": [
+  "L'élève doit être capable de définir écosystème, biotope, biocénose, population et de les identifier dans un exemple togolais.",
+  "L'élève doit être capable de classer les facteurs écologiques et d'exploiter une courbe de tolérance (minimum, optimum, maximum).",
+  "L'élève doit être capable de relier une adaptation à un facteur du milieu.",
+  "L'élève doit être capable de décrire les méthodes d'étude d'un milieu et de calculer densité, fréquence et effectif par capture-recapture.",
+  "L'élève doit être capable de lire un diagramme ombrothermique (critère P < 2T)."
+ ],
+ "prerequis": [
+  "SVT-3e-MILIEU",
+  "SVT-3e-CHAINE-ALIMENTAIRE"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S1-C03-N1",
+   "titre": "Les composantes d'un écosystème",
+   "prerequis_notions": [
+    "SVT-3e-MILIEU"
+   ],
+   "cours_md": "### 1. Définitions\n:::definition\n**Écologie** : science qui étudie les relations des êtres vivants entre eux et avec leur milieu (terme créé par Ernst Haeckel en 1866).\n**Biotope** : milieu physique et chimique où vivent les êtres vivants (sol, eau, air, climat, lumière…). C'est la partie **non vivante** (abiotique).\n**Biocénose** : ensemble des êtres vivants (végétaux, animaux, champignons, micro-organismes) qui peuplent un biotope. C'est la partie **vivante** (biotique).\n**Écosystème** (terme proposé par Arthur Tansley en 1935) : ensemble formé par un biotope, la biocénose qui l'occupe, et toutes les **interactions** entre eux.\n:::\n\n$$\\text{écosystème} = \\text{biotope} + \\text{biocénose} + \\text{interactions}$$\n\n:::definition\n**Espèce** : ensemble d'individus semblables, capables de se reproduire entre eux et d'avoir une descendance fertile.\n**Population** : ensemble des individus d'une même espèce vivant dans un même milieu au même moment (par exemple, les palmiers à huile d'une palmeraie de Tsévié).\n**Habitat** : endroit précis où vit une espèce (le tronc d'un arbre, la vase de la mangrove…).\n:::\n\n### 2. Les rôles des êtres vivants dans l'écosystème\n- **Producteurs** : végétaux chlorophylliens (et algues) qui fabriquent leur matière organique à partir de matière minérale et de lumière.\n- **Consommateurs** : animaux qui se nourrissent d'autres êtres vivants (herbivores = consommateurs primaires, carnivores = consommateurs secondaires…).\n- **Décomposeurs** : champignons, bactéries et petits animaux du sol (vers de terre, termites, cloportes) qui transforment les cadavres, excréments et feuilles mortes en matière minérale.\n\n### 3. Les écosystèmes du Togo\nLe Togo présente, du sud au nord, une grande variété d'écosystèmes :\n- **Le littoral, les lagunes et les mangroves** (lagune de Lomé, lac Togo, Aného) : eau saumâtre, vase ; palétuviers, poissons (tilapias), crabes, crevettes, oiseaux d'eau.\n- **Les forêts semi-décidues des Plateaux** (Kloto près de Kpalimé, Badou, Danyi) : climat humide ; grands arbres comme l'iroko et le fromager, cacaoyers et caféiers sous ombrage, nombreux papillons, oiseaux et singes.\n- **Les savanes** (régions Centrale, de la Kara et des Savanes) : tapis de graminées, arbres dispersés comme le karité, le néré et le baobab ; antilopes, rongeurs, termites dont les termitières marquent le paysage.\n- **Les agrosystèmes** : champs de maïs, de sorgho, de manioc, plantations de palmiers ou de teck, où l'Homme contrôle la biocénose.\n\n:::remarque\nUn écosystème n'a pas de taille imposée : une mare temporaire, un tronc mort ou une forêt entière sont des écosystèmes. Un **aquarium** équilibré est un écosystème artificiel.\n:::\n\n### 4. Les interactions\n- Le **biotope agit sur la biocénose** : la quantité de pluie détermine le type de végétation (forêt au sud-ouest humide, savane au nord plus sec).\n- La **biocénose agit sur le biotope** : la forêt crée un microclimat (ombre, humidité), les racines et les vers de terre modifient le sol, les végétaux enrichissent l'air en dioxygène.\n- Les **êtres vivants agissent entre eux** : nutrition, compétition, coopération (voir chapitre suivant).\n\n:::methode\nPour **analyser un écosystème** décrit dans un texte : 1) relever les éléments non vivants (biotope) ; 2) relever les êtres vivants (biocénose) et les classer en producteurs, consommateurs, décomposeurs ; 3) relever au moins une interaction et préciser son sens (milieu → vivant, vivant → milieu, vivant ↔ vivant).\n:::",
+   "definition": "Un écosystème est formé d'un biotope (milieu physique et chimique) et d'une biocénose (ensemble des êtres vivants), unis par des interactions.",
+   "formules": [
+    "$\\text{écosystème} = \\text{biotope} + \\text{biocénose} + \\text{interactions}$"
+   ],
+   "niveaux": {
+    "phrase": "Écosystème = un lieu + tous ceux qui y vivent + tout ce qu'ils se font les uns aux autres.",
+    "simple": "La mare du village : l'eau, la vase, la chaleur du soleil, c'est le biotope ; les nénuphars, les têtards, les poissons, les moustiques et les bactéries, c'est la biocénose. Ensemble, avec leurs échanges, c'est un écosystème.",
+    "complete": "L'écosystème (Tansley, 1935) associe un biotope (facteurs abiotiques : climat, sol, eau) et une biocénose (populations de producteurs, consommateurs et décomposeurs) en interaction permanente. Le biotope conditionne la biocénose et la biocénose modifie le biotope. Au Togo, on distingue notamment les écosystèmes lagunaires et de mangrove, les forêts semi-décidues des Plateaux, les savanes du centre et du nord, et les agrosystèmes."
+   },
+   "analogie": "Un écosystème, c'est comme un quartier : les rues, les maisons, l'eau courante et le climat sont le biotope ; les habitants sont la biocénose ; leurs échanges (commerce, entraide, disputes) sont les interactions.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : liste d'éléments observés au bord du lac Togo — eau saumâtre, palétuviers, vase, crabes, température de 28 °C, tilapias, bactéries de la vase, aigrettes, lumière solaire. Classe ces éléments.",
+     "etapes": [
+      "Biotope (non vivant) : eau saumâtre, vase, température de 28 °C, lumière solaire.",
+      "Biocénose (vivant) : palétuviers, crabes, tilapias, bactéries de la vase, aigrettes.",
+      "Je précise les rôles : palétuviers = producteurs ; crabes, tilapias, aigrettes = consommateurs ; bactéries = décomposeurs.",
+      "Conclusion : ces deux ensembles en interaction forment l'écosystème de la mangrove du lac Togo."
+     ]
+    },
+    {
+     "enonce": "Document : « Dans la forêt de Kloto, sous le couvert des grands arbres, l'air reste humide et frais même en saison sèche, alors qu'il fait plus chaud et plus sec dans les champs voisins. » Quelle interaction ce texte met-il en évidence ?",
+     "etapes": [
+      "Je décris : la température et l'humidité sous les arbres diffèrent de celles des champs voisins.",
+      "J'interprète : ce sont les arbres (biocénose) qui créent l'ombre et retiennent l'humidité ; ils modifient donc le climat local (biotope).",
+      "Conclusion : le texte montre une action de la biocénose sur le biotope (création d'un microclimat forestier)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Placer les bactéries ou les champignons dans le biotope : ils sont vivants, donc dans la biocénose.",
+    "Confondre biotope (le milieu non vivant) et habitat (l'endroit où vit une espèce).",
+    "Oublier les interactions dans la définition de l'écosystème.",
+    "Confondre population (une seule espèce) et biocénose (toutes les espèces)."
+   ],
+   "astuces": [
+    "« Bio-TOPE » : *topos* = lieu en grec ; « bio-CÉNOSE » : *koinos* = en commun, la communauté des vivants.",
+    "Dans un texte, souligne en bleu le non-vivant et en vert le vivant avant de répondre."
+   ],
+   "mnemo": "« B + B + I » : Biotope + Biocénose + Interactions.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as étudié les êtres vivants de ton milieu et les chaînes alimentaires (« qui mange qui »). En seconde, on organise ces connaissances avec les mots biotope, biocénose et écosystème."
+   },
+   "methode_redaction": "Pour une définition demandée : donner la définition exacte puis un exemple précis (de préférence togolais). Pour un classement : faire un tableau à deux colonnes biotope / biocénose, puis conclure en nommant l'écosystème.",
+   "flash": [
+    {
+     "q": "Écosystème = ?",
+     "r": "Biotope + biocénose + interactions."
+    },
+    {
+     "q": "Biotope ?",
+     "r": "Milieu physique et chimique (non vivant) : sol, eau, air, climat."
+    },
+    {
+     "q": "Biocénose ?",
+     "r": "Ensemble des êtres vivants d'un biotope."
+    },
+    {
+     "q": "Population ?",
+     "r": "Individus d'une même espèce vivant dans un même milieu au même moment."
+    },
+    {
+     "q": "Les trois catégories d'êtres vivants selon leur rôle ?",
+     "r": "Producteurs, consommateurs, décomposeurs."
+    },
+    {
+     "q": "Qui a proposé le mot « écosystème » ?",
+     "r": "Arthur Tansley, en 1935."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C03-N1.svg",
+    "alt": "Schéma : biotope et biocénose en interaction forment l'écosystème",
+    "legende": "Les composantes d'un écosystème, avec des exemples d'écosystèmes togolais.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C03-N2",
+   "titre": "Les facteurs écologiques et les adaptations",
+   "prerequis_notions": [
+    "SVT-S1-C03-N1"
+   ],
+   "cours_md": "### 1. Les facteurs écologiques\n:::definition\n**Facteur écologique** : tout élément du milieu qui agit sur les êtres vivants.\n- **Facteurs abiotiques** : climatiques (température, lumière, eau/précipitations, humidité de l'air, vent), **édaphiques** (liés au sol : texture, pH, teneur en eau, salinité), topographiques (altitude, pente, exposition).\n- **Facteurs biotiques** : actions exercées par les autres êtres vivants (nourriture, prédation, compétition, parasitisme…), y compris l'action de l'Homme.\n:::\n\n### 2. Le climat du Togo, un facteur décisif\n- **Au sud** : climat de type **subéquatorial (guinéen)** avec **deux saisons des pluies** (environ avril-juillet et septembre-novembre) et deux saisons sèches. Le littoral est relativement peu arrosé (environ 800 à 900 mm par an à Lomé).\n- **Au centre-ouest (Plateaux)** : pluies plus abondantes (souvent plus de 1 300 mm par an) : forêts semi-décidues.\n- **Au nord** : climat **tropical soudanien** avec **une seule saison des pluies** (environ mai à octobre) et une longue saison sèche marquée par l'**harmattan** (vent sec du nord-est, de décembre à février) : savanes.\n\n### 3. La loi de tolérance\nExpérience : on fait germer des lots de 100 graines de maïs à différentes températures pendant 5 jours.\n\n| Température (°C) | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 |\n|---|---|---|---|---|---|---|---|---|\n| Graines germées (%) | 5 | 40 | 75 | 92 | 98 | 90 | 45 | 0 |\n\n**Interprétation** : la germination est maximale vers 30 °C (**optimum**). Elle diminue de part et d'autre et devient presque nulle vers 10 °C (**minimum**) et nulle à 45 °C (**maximum**).\n\n:::propriete\n**Loi de tolérance** (Shelford, 1913) : pour chaque facteur écologique, une espèce ne peut vivre qu'entre une valeur **minimale** et une valeur **maximale** ; entre les deux se trouve un **optimum** où ses performances sont les meilleures. L'intervalle entre minimum et maximum est l'**intervalle de tolérance**.\n- Espèce **sténoèce** (préfixe *sténo-* = étroit) : intervalle de tolérance étroit (ex. coraux, sténothermes).\n- Espèce **euryèce** (préfixe *eury-* = large) : intervalle large (ex. le rat, euryèce).\n:::\n\n:::propriete\n**Facteur limitant** : facteur dont la valeur, trop proche du minimum ou du maximum, limite le développement d'une espèce, même si les autres facteurs sont favorables (dans la savane du nord, c'est souvent l'eau en saison sèche).\n:::\n\n### 4. Les adaptations\n:::definition\n**Adaptation** : caractère (de forme, de fonctionnement ou de comportement) qui permet à un être vivant de survivre et de se reproduire dans son milieu.\n:::\n- **Arbres de savane** (karité, néré) : écorce épaisse qui résiste aux feux de brousse, chute des feuilles en saison sèche, racines profondes. Le **baobab** stocke de l'eau dans son tronc.\n- **Mangrove** : les palétuviers vivent dans une vase salée et pauvre en dioxygène ; certains ont des **racines-échasses** (*Rhizophora*), d'autres des **pneumatophores**, racines dressées hors de la vase qui assurent les échanges gazeux (*Avicennia*).\n- **Plantes héliophiles** (aimant la lumière : maïs, graminées de savane) et **sciaphiles** (supportant l'ombre : plantes du sous-bois, cacaoyer jeune).\n- **Animaux** : vie nocturne de nombreux animaux de savane pour éviter la chaleur, enfouissement de certains poissons et grenouilles dans la vase en saison sèche, migrations d'oiseaux.\n\n:::methode\n**Expérience de choix (cloportes)** : on place 10 cloportes dans une boîte dont une moitié est humide et l'autre sèche, à l'obscurité ; après 15 min, on compte les animaux de chaque côté. On ne fait varier qu'**un seul facteur** à la fois (l'humidité), on répète l'expérience plusieurs fois et on calcule un pourcentage moyen.\n:::",
+   "definition": "Un facteur écologique est un élément du milieu (abiotique ou biotique) qui agit sur les êtres vivants ; chaque espèce le tolère entre un minimum et un maximum, avec un optimum, et présente des adaptations à son milieu.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Chaque être vivant a « sa zone de confort » pour la chaleur, l'eau, la lumière… et il est équipé pour son milieu.",
+    "simple": "Le maïs, c'est comme toi au soleil de midi : trop froid, il ne pousse pas ; trop chaud, il souffre ; vers 30 °C, il est dans son élément. Le baobab, lui, a son propre « bidon d'eau » dans son tronc pour passer la saison sèche.",
+    "complete": "Les facteurs écologiques sont abiotiques (climatiques, édaphiques, topographiques) ou biotiques. Selon la loi de tolérance (Shelford), chaque espèce présente pour chaque facteur un minimum, un optimum et un maximum ; un facteur proche d'une limite devient limitant. L'intervalle de tolérance est étroit chez les espèces sténoèces et large chez les euryèces. Les adaptations morphologiques (écorce épaisse, pneumatophores), physiologiques (chute des feuilles) et comportementales (vie nocturne) permettent aux espèces de vivre dans des milieux contrastés, comme les savanes, forêts et mangroves du Togo."
+   },
+   "analogie": "Le maïs et la température, c'est comme toi avec l'eau du bain : trop froide ou trop chaude, tu ne restes pas ; il existe une température idéale (optimum).",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : tableau de germination du maïs (10 °C : 5 % ; 20 °C : 75 % ; 30 °C : 98 % ; 40 °C : 45 % ; 45 °C : 0 %). Détermine l'optimum et les limites, puis conclus.",
+     "etapes": [
+      "Je décris : le pourcentage augmente de 5 % à 10 °C jusqu'à 98 % à 30 °C, puis diminue jusqu'à 0 % à 45 °C.",
+      "J'en déduis : optimum vers 30 °C ; minimum un peu en dessous de 10 °C ; maximum vers 45 °C.",
+      "J'interprète : la température est un facteur écologique ; le maïs a un intervalle de tolérance d'environ 10 à 45 °C pour la germination.",
+      "Conclusion : la germination du maïs obéit à la loi de tolérance ; semer quand le sol est chaud (vers 25-35 °C) donne la meilleure levée."
+     ]
+    },
+    {
+     "enonce": "Document : expérience de choix répétée 6 fois avec 10 cloportes ; au total, 54 cloportes sur 60 se trouvent du côté humide après 15 min. Calcule le pourcentage et conclus.",
+     "etapes": [
+      "Pourcentage côté humide : $\\frac{54}{60} \\times 100 = 90\\ \\%$.",
+      "J'interprète : la grande majorité des cloportes choisit le côté humide, et le résultat est confirmé par les répétitions.",
+      "Conclusion : l'humidité est un facteur écologique qui attire les cloportes ; ils vivent dans les milieux humides (sous les pierres, dans la litière)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Classer l'action de l'Homme ou la présence de prédateurs parmi les facteurs abiotiques.",
+    "Confondre optimum (meilleure valeur) et maximum (valeur limite au-delà de laquelle l'espèce ne survit pas).",
+    "Faire varier deux facteurs à la fois dans une expérience (humidité ET lumière) : on ne peut plus conclure.",
+    "Dire « la plante s'adapte volontairement » : une adaptation est un caractère hérité, sélectionné au cours des générations."
+   ],
+   "astuces": [
+    "Sur une courbe de tolérance, lis l'optimum au sommet, le minimum et le maximum là où la courbe touche l'axe horizontal.",
+    "*Sténo* = étroit (sténographie = écriture serrée) ; *eury* = large."
+   ],
+   "mnemo": "« MOM » : Minimum, Optimum, Maximum, dans cet ordre sur l'axe.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que les êtres vivants ne se répartissent pas au hasard : on trouve des espèces différentes à l'ombre et au soleil, en saison sèche et en saison des pluies. On donne ici des noms précis à ces observations."
+   },
+   "methode_redaction": "Pour exploiter une courbe ou un tableau : 1) décrire en citant les valeurs (« de … à … ») ; 2) relever optimum et limites ; 3) interpréter avec le vocabulaire (facteur écologique, loi de tolérance) ; 4) conclure par une phrase. Pour une expérience : préciser le facteur testé, le témoin et la nécessité des répétitions.",
+   "flash": [
+    {
+     "q": "Deux types de facteurs écologiques ?",
+     "r": "Abiotiques (climat, sol, relief) et biotiques (êtres vivants)."
+    },
+    {
+     "q": "Qu'est-ce qu'un facteur édaphique ?",
+     "r": "Un facteur lié au sol (texture, pH, eau, salinité)."
+    },
+    {
+     "q": "Loi de tolérance ?",
+     "r": "Une espèce vit entre un minimum et un maximum d'un facteur, avec un optimum (Shelford)."
+    },
+    {
+     "q": "Rôle des pneumatophores des palétuviers ?",
+     "r": "Assurer les échanges gazeux des racines dans une vase pauvre en O₂."
+    },
+    {
+     "q": "Climat du nord du Togo ?",
+     "r": "Tropical soudanien : une saison des pluies, une longue saison sèche avec harmattan."
+    },
+    {
+     "q": "Sténoèce ou euryèce : intervalle large ?",
+     "r": "Euryèce."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C03-N2.svg",
+    "alt": "Courbe de germination du maïs selon la température avec minimum, optimum et maximum",
+    "legende": "La loi de tolérance illustrée par la germination du maïs (données simplifiées).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C03-N3",
+   "titre": "Les méthodes d'étude d'un écosystème",
+   "prerequis_notions": [
+    "SVT-S1-C03-N1",
+    "SVT-S1-C03-N2"
+   ],
+   "cours_md": "### 1. Inventorier les êtres vivants\n- **Flore** : on délimite des **quadrats** (carrés de 1 m² pour les herbacées, plus grands pour les arbres) et on note les espèces et le nombre d'individus.\n- **Transect** : on tend une corde le long d'une ligne (de la lagune vers la terre ferme, par exemple) et on relève les espèces tous les mètres ; on voit ainsi les changements de végétation avec les facteurs du milieu.\n- **Petite faune du sol** : **appareil de Berlèse** (un échantillon de sol est chauffé et éclairé par une lampe ; les animaux, fuyant chaleur, lumière et sécheresse, traversent un tamis et tombent dans de l'alcool) ; **piège de Barber** (pot enterré au ras du sol qui capture les animaux qui marchent).\n- **Animaux mobiles** : observation directe, jumelles, traces, captures au filet.\n\n### 2. Mesurer les facteurs du milieu\n| Facteur | Instrument |\n|---|---|\n| Température | thermomètre |\n| Précipitations | pluviomètre |\n| Humidité de l'air | hygromètre |\n| Lumière | luxmètre |\n| Vent | anémomètre (vitesse), girouette (direction) |\n| pH du sol ou de l'eau | papier pH, pH-mètre |\n\n### 3. Calculer des indices\n:::definition\n**Densité** d'une espèce : nombre d'individus par unité de surface.\n$$D = \\frac{\\text{nombre d'individus}}{\\text{surface étudiée}}$$\n**Fréquence** d'une espèce : pourcentage des relevés (quadrats) dans lesquels elle est présente.\n$$F = \\frac{\\text{nombre de quadrats où l'espèce est présente}}{\\text{nombre total de quadrats}} \\times 100$$\n:::\n\n:::methode\n**Méthode de capture-marquage-recapture** (animaux mobiles) : on capture $M$ animaux, on les marque sans les blesser et on les relâche ; plus tard, on capture $C$ animaux dont $R$ sont marqués. Si les marqués se sont bien mélangés, la proportion est la même dans l'échantillon et dans la population :\n$$\\frac{R}{C} = \\frac{M}{N} \\quad \\Rightarrow \\quad N = \\frac{M \\times C}{R}$$\n:::\n\n### 4. Le diagramme ombrothermique\n:::methode\nOn trace, mois par mois, les précipitations $P$ (mm) et la température moyenne $T$ (°C) avec une échelle où **1 °C correspond à 2 mm**. Un mois est **sec** quand $P < 2T$ (la courbe des pluies passe sous celle des températures) : c'est le critère de Gaussen. On compte ainsi la durée de la saison sèche.\n:::\n\nExemple : en janvier à Dapaong, $T \\approx 26$ °C et $P \\approx 0$ mm ; $2T = 52 > 0$ : le mois est sec. En août, $T \\approx 25$ °C et $P \\approx 240$ mm ; $240 > 50$ : le mois est humide.\n\n:::attention\nUn résultat obtenu sur un seul quadrat ou une seule capture n'est pas fiable : il faut **plusieurs relevés** répartis au hasard et calculer une moyenne.\n:::",
+   "definition": "Pour étudier un écosystème, on inventorie les êtres vivants (quadrats, transects, Berlèse, pièges, capture-recapture), on mesure les facteurs du milieu avec des instruments, et on calcule des indices comme la densité et la fréquence.",
+   "formules": [
+    "$D = \\dfrac{\\text{individus}}{\\text{surface}}$",
+    "$F = \\dfrac{n_{\\text{présence}}}{n_{\\text{total}}} \\times 100$",
+    "$N = \\dfrac{M \\times C}{R}$",
+    "$\\text{mois sec si } P < 2T$"
+   ],
+   "niveaux": {
+    "phrase": "Étudier un écosystème, c'est compter qui vit là et mesurer comment est le milieu.",
+    "simple": "C'est comme faire le recensement d'un village : on découpe en quartiers (quadrats), on compte les habitants (densité), on note dans combien de quartiers vit chaque famille (fréquence) et on relève la météo (instruments).",
+    "complete": "L'étude d'un écosystème combine l'inventaire de la biocénose (quadrats et aire minimale pour la flore, transects, appareil de Berlèse et piège de Barber pour la faune du sol, capture-marquage-recapture avec $N = MC/R$) et la mesure des facteurs abiotiques (thermomètre, pluviomètre, hygromètre, luxmètre, pH-mètre). On en tire des indices quantitatifs (densité, fréquence) et des représentations comme le diagramme ombrothermique (mois sec si $P < 2T$). La fiabilité exige des relevés répétés et répartis au hasard."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : dans 5 quadrats de 1 m² d'une savane près de Kara, on compte les pieds d'une graminée : 4 ; 0 ; 6 ; 2 ; 3. Calcule la densité et la fréquence de cette espèce.",
+     "etapes": [
+      "Nombre total d'individus : $4 + 0 + 6 + 2 + 3 = 15$ pieds sur $5\\ \\text{m}^2$.",
+      "Densité : $15 \\div 5 = 3$ pieds par m².",
+      "Fréquence : l'espèce est présente dans 4 quadrats sur 5, soit $\\frac{4}{5} \\times 100 = 80\\ \\%$.",
+      "Conclusion : la graminée a une densité de 3 pieds/m² et une fréquence de 80 % : elle est très répandue dans cette savane."
+     ]
+    },
+    {
+     "enonce": "Document : pour estimer la population de margouillats (agames) d'un quartier, on en capture et marque 40 ; une semaine plus tard, on en capture 50 dont 10 marqués. Estime l'effectif.",
+     "etapes": [
+      "J'écris la relation : $\\frac{R}{C} = \\frac{M}{N}$, soit $N = \\frac{M \\times C}{R}$.",
+      "Je remplace : $N = \\frac{40 \\times 50}{10} = 200$.",
+      "Conclusion : la population est estimée à environ 200 margouillats (si les animaux marqués se sont bien mélangés et qu'il n'y a eu ni naissances ni morts importantes)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre densité (individus par m²) et fréquence (pourcentage de quadrats).",
+    "Inverser la formule de capture-recapture ($N = M \\times C / R$, et non $M \\times R / C$).",
+    "Dans le diagramme ombrothermique, comparer $P$ à $T$ au lieu de $P$ à $2T$.",
+    "Oublier l'unité de la densité (individus/m²)."
+   ],
+   "astuces": [
+    "Pour la capture-recapture, vérifie : N doit être plus grand que M et que C.",
+    "Fréquence : seulement présent/absent dans chaque quadrat, on ne compte pas les individus."
+   ],
+   "mnemo": "« MaCaRoN » : N = M × C ÷ R (Marqués × Capturés ÷ Recapturés marqués).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as réalisé des sorties pour observer les êtres vivants de ton environnement et tu as utilisé un thermomètre. En seconde, on rend ces observations chiffrées (densité, fréquence) pour pouvoir comparer des milieux."
+   },
+   "methode_redaction": "Pour un calcul d'indice : 1) écrire la formule ; 2) remplacer par les valeurs ; 3) donner le résultat avec son unité ; 4) interpréter (espèce abondante, rare, répandue…). Pour un diagramme ombrothermique : citer le critère $P < 2T$, lister les mois secs, conclure sur la durée de la saison sèche.",
+   "flash": [
+    {
+     "q": "Formule de la densité ?",
+     "r": "D = nombre d'individus / surface étudiée."
+    },
+    {
+     "q": "Formule de la fréquence ?",
+     "r": "F = (quadrats où l'espèce est présente / quadrats totaux) × 100."
+    },
+    {
+     "q": "À quoi sert l'appareil de Berlèse ?",
+     "r": "À récolter la petite faune du sol (elle fuit chaleur et lumière et tombe dans l'alcool)."
+    },
+    {
+     "q": "Capture-recapture : formule ?",
+     "r": "N = (M × C) / R."
+    },
+    {
+     "q": "Critère d'un mois sec (Gaussen) ?",
+     "r": "P < 2T (P en mm, T en °C)."
+    },
+    {
+     "q": "Instrument pour mesurer les pluies ?",
+     "r": "Le pluviomètre."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C03-N3.svg",
+    "alt": "Appareil de Berlèse et quadrat de 1 m² avec deux espèces",
+    "legende": "Méthodes d'étude : appareil de Berlèse pour la faune du sol et quadrat pour la végétation.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S1-C03-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C03-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Le biotope est :",
+   "choix": [
+    "l'ensemble des êtres vivants d'un milieu",
+    "l'ensemble des individus d'une espèce",
+    "le milieu physique et chimique où vivent les êtres vivants",
+    "un être vivant décomposeur"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Le biotope est le milieu physique et chimique, non vivant.",
+    "Réponse C."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre biotope et biocénose.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C03-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C03-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel de ces facteurs écologiques est un facteur biotique ?",
+   "choix": [
+    "La température de l'air",
+    "Le pH du sol",
+    "L'harmattan",
+    "La présence de chenilles qui dévorent les feuilles"
+   ],
+   "bonne_reponse": 3,
+   "indices": [],
+   "corrige": [
+    "Température, pH du sol et harmattan sont des facteurs abiotiques.",
+    "La présence de chenilles qui mangent les feuilles est une action d'un être vivant : facteur biotique (réponse D)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Classer le vent parmi les facteurs biotiques parce qu'il « bouge ».",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C03-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C03-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Complète : écosystème = biotope + … (un mot).",
+   "reponses_acceptees": [
+    "biocénose",
+    "biocenose",
+    "la biocénose",
+    "la biocenose"
+   ],
+   "indices": [],
+   "corrige": [
+    "L'écosystème associe le biotope et la biocénose (avec leurs interactions).",
+    "Réponse : biocénose."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre « population ».",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C03-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans 4 quadrats de 1 m² d'une savane, on compte au total 36 touffes d'une graminée. Quelle est la densité de cette graminée (en touffes par m², nombre seul) ?",
+   "reponses_acceptees": [
+    "9",
+    "9/m²",
+    "9 touffes/m²"
+   ],
+   "indices": [],
+   "corrige": [
+    "Surface étudiée : 4 × 1 m² = 4 m².",
+    "Densité = 36 ÷ 4 = 9 touffes/m²."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par 36 ou oublier que chaque quadrat mesure 1 m².",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C03-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C03-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Les pneumatophores de certains palétuviers de la mangrove sont des racines dressées hors de la vase. Leur rôle principal est :",
+   "choix": [
+    "d'absorber le sel de l'eau de mer",
+    "d'assurer les échanges gazeux (respiration) des racines",
+    "de stocker de l'amidon",
+    "de capturer des insectes"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "La vase de la mangrove est gorgée d'eau et pauvre en dioxygène.",
+    "Les pneumatophores, à l'air libre, permettent les échanges gazeux des racines (réponse B) : c'est une adaptation."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser que toute racine sert d'abord à absorber l'eau.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C03-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une espèce de plante est présente dans 6 quadrats sur les 20 étudiés. Calcule sa fréquence en % (nombre seul).",
+   "reponses_acceptees": [
+    "30",
+    "30%"
+   ],
+   "indices": [],
+   "corrige": [
+    "F = (6 ÷ 20) × 100.",
+    "F = 30 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 20 ÷ 6.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C03-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C03-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution des connaissances. 1) Définis : écosystème, biotope, biocénose, population. 2) Choisis un écosystème du Togo et cite trois éléments de son biotope et trois êtres vivants de sa biocénose, en précisant le rôle (producteur, consommateur, décomposeur) de chacun.",
+   "indices": [],
+   "corrige": [
+    "Écosystème : ensemble formé par un biotope, sa biocénose et leurs interactions. Biotope : milieu physique et chimique (non vivant).",
+    "Biocénose : ensemble des êtres vivants d'un biotope. Population : individus d'une même espèce vivant au même endroit au même moment.",
+    "Exemple accepté : la savane du nord du Togo. Biotope : sol ferrugineux, saison sèche avec harmattan, forte lumière (ou température élevée, pluies de mai à octobre).",
+    "Biocénose : karité (producteur), antilope ou criquet (consommateur primaire), termites ou champignons (décomposeurs). Tout autre exemple juste et cohérent est accepté."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "piege": "Donner des êtres vivants qui n'existent pas dans l'écosystème choisi.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C03-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C03-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de document. On fait germer des lots de 100 graines de niébé (haricot) à différentes températures (données simplifiées).\n\n| Température (°C) | 10 | 15 | 20 | 25 | 30 | 35 | 40 | 45 |\n|---|---|---|---|---|---|---|---|---|\n| Graines germées | 0 | 20 | 60 | 85 | 95 | 80 | 30 | 0 |\n\n1) Décris l'évolution de la germination. 2) Détermine l'optimum, le minimum et le maximum. 3) Quelle loi ces résultats illustrent-ils ? Énonce-la. 4) Un agriculteur de Dapaong peut-il semer le niébé en décembre, quand l'harmattan fait chuter la température nocturne vers 15 °C ? Discute.",
+   "indices": [],
+   "corrige": [
+    "1) La germination augmente de 0 (10 °C) à 95 graines (30 °C), puis diminue jusqu'à 0 à 45 °C.",
+    "2) Optimum : 30 °C ; minimum : entre 10 et 15 °C ; maximum : entre 40 et 45 °C.",
+    "3) Loi de tolérance (Shelford) : une espèce ne peut vivre (ici germer) qu'entre un minimum et un maximum d'un facteur, avec un optimum.",
+    "4) À 15 °C, seulement 20 % des graines germent : la température est un facteur limitant ; de plus, en décembre la saison sèche prive les graines d'eau. Il vaut mieux semer en début de saison des pluies (mai-juin), quand il fait chaud et humide."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    2
+   ],
+   "piege": "Oublier l'eau, autre facteur limitant en saison sèche.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C03-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Pour estimer la population de margouillats d'un lycée, on en capture et marque 60. Quelques jours plus tard, on en capture 45, dont 9 sont marqués. Estime l'effectif de la population (nombre seul).",
+   "reponses_acceptees": [
+    "300"
+   ],
+   "indices": [
+    "N = M × C / R."
+   ],
+   "corrige": [
+    "N = (M × C) / R = (60 × 45) / 9.",
+    "N = 2700 / 9 = 300 margouillats."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 60 × 9 / 45 = 12.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C03-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C03-N3",
+    "SVT-S1-C03-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données climatiques (données simplifiées pour une ville du nord du Togo).\n\n| Mois | J | F | M | A | M | J | J | A | S | O | N | D |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| T (°C) | 26 | 29 | 31 | 31 | 29 | 27 | 26 | 25 | 26 | 27 | 27 | 26 |\n| P (mm) | 0 | 2 | 10 | 45 | 110 | 140 | 190 | 240 | 180 | 50 | 3 | 0 |\n\n1) Calcule le total annuel des précipitations. 2) En utilisant le critère de Gaussen, détermine les mois secs. 3) Quel type de climat et quelle végétation cela suggère-t-il ?",
+   "indices": [
+    "Compare P à 2T pour chaque mois."
+   ],
+   "corrige": [
+    "1) Total : 0 + 2 + 10 + 45 + 110 + 140 + 190 + 240 + 180 + 50 + 3 + 0 = 970 mm.",
+    "2) Un mois est sec si $P < 2T$. Mois secs : janvier (0 < 52), février (2 < 58), mars (10 < 62), avril (45 < 62), octobre (50 < 54), novembre (3 < 54), décembre (0 < 52), soit 7 mois secs ; mai à septembre sont humides (5 mois).",
+    "3) Une seule saison des pluies (mai-septembre) et une longue saison sèche de 7 mois : climat tropical soudanien, favorable à une savane (graminées et arbres résistants à la sécheresse et au feu)."
+   ],
+   "bareme": [
+    1,
+    2.5,
+    1.5
+   ],
+   "piege": "Comparer P à T : on trouverait trop peu de mois secs.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C03-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S1-C03-N2",
+    "SVT-S1-C03-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Démarche expérimentale. Un élève veut montrer que les cloportes préfèrent les milieux humides. Il place 10 cloportes dans une boîte dont la moitié gauche contient du papier mouillé et la moitié droite du papier sec, la moitié gauche étant à l'ombre et la droite éclairée par une lampe. Après 15 min, 9 cloportes sont du côté gauche.\n1) Calcule le pourcentage de cloportes du côté humide. 2) L'élève conclut que « les cloportes recherchent l'humidité ». Critique sa conclusion. 3) Propose un protocole correct. 4) Les résultats obtenus avec ton protocole (3 essais) sont 18, 17 et 19 cloportes du côté humide sur 20 à chaque fois. Calcule le pourcentage moyen et conclus.",
+   "indices": [
+    "Combien de facteurs différents entre les deux moitiés ?"
+   ],
+   "corrige": [
+    "1) $\\frac{9}{10} \\times 100 = 90\\ \\%$.",
+    "2) Deux facteurs varient en même temps (humidité et lumière) : les cloportes ont peut-être fui la lumière et non la sécheresse. De plus, un seul essai avec 10 animaux est peu fiable. La conclusion n'est pas justifiée.",
+    "3) Garder toute la boîte à l'obscurité (même lumière, même température), ne faire varier que l'humidité ; utiliser plus d'animaux, répéter plusieurs fois ; éventuellement inverser les côtés humide/sec.",
+    "4) Moyenne : $\\frac{18 + 17 + 19}{60} \\times 100 = 90\\ \\%$ ; les cloportes choisissent nettement le côté humide quand seule l'humidité varie : l'humidité est un facteur écologique recherché par les cloportes."
+   ],
+   "bareme": [
+    1,
+    2,
+    2,
+    1
+   ],
+   "piege": "Accepter la conclusion sans voir la lumière.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Mettre les bactéries ou champignons dans le biotope.",
+  "Oublier les interactions dans la définition de l'écosystème.",
+  "Confondre optimum et maximum sur une courbe de tolérance.",
+  "Diagramme ombrothermique : comparer P à T au lieu de P à 2T.",
+  "Inverser la formule de capture-recapture ou oublier l'unité de la densité.",
+  "Critiquer une expérience sans repérer qu'elle fait varier deux facteurs à la fois."
+ ]
+}

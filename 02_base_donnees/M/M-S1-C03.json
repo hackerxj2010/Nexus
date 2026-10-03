@@ -1,0 +1,647 @@
+{
+ "id": "M-S1-C03",
+ "matiere": "M",
+ "semestre": 1,
+ "ordre": 3,
+ "titre": "Polynômes et fractions rationnelles",
+ "objectifs": [
+  "Reconnaître un polynôme, son degré et ses coefficients ; utiliser l'identification.",
+  "Développer et factoriser avec les identités remarquables (y compris d'ordre 3).",
+  "Trouver une racine et factoriser un polynôme par (x − α) ; poser une division euclidienne.",
+  "Déterminer l'ensemble de définition d'une fraction rationnelle, la simplifier et la décomposer."
+ ],
+ "prerequis": [
+  "M-3e-CALCUL-LITTERAL",
+  "M-3e-IDENTITES",
+  "M-S1-C01"
+ ],
+ "notions": [
+  {
+   "id": "M-S1-C03-N1",
+   "titre": "Polynômes et identités remarquables",
+   "prerequis_notions": [
+    "M-3e-CALCUL-LITTERAL",
+    "M-3e-IDENTITES"
+   ],
+   "cours_md": ":::definition Polynôme\nUn **monôme** est une expression $ax^n$ ($a$ réel, $n$ entier naturel). Un **polynôme** est une somme de monômes :\n$$P(x)=a_nx^n+a_{n-1}x^{n-1}+\\dots+a_1x+a_0$$\nLes $a_k$ sont les **coefficients**. Si $a_n\\neq0$, $n$ est le **degré** de $P$ (noté $\\deg P$) et $a_nx^n$ son terme de plus haut degré. Le polynôme nul n'a pas de degré.\n:::\n\n:::propriete Égalité de deux polynômes (identification)\nDeux polynômes sont égaux (pour tout réel $x$) si et seulement s'ils ont le même degré et **les mêmes coefficients** pour chaque puissance de $x$.\n:::\n\n:::propriete Degré d'un produit et d'une somme\n$\\deg(P\\times Q)=\\deg P+\\deg Q$ ; $\\deg(P+Q)\\le\\max(\\deg P,\\deg Q)$.\n:::\n\n:::propriete Identités remarquables\n$$(a+b)^2=a^2+2ab+b^2\\qquad(a-b)^2=a^2-2ab+b^2\\qquad(a+b)(a-b)=a^2-b^2$$\n$$(a+b)^3=a^3+3a^2b+3ab^2+b^3\\qquad(a-b)^3=a^3-3a^2b+3ab^2-b^3$$\n$$a^3-b^3=(a-b)(a^2+ab+b^2)\\qquad a^3+b^3=(a+b)(a^2-ab+b^2)$$\n:::\n\n:::methode Développer, réduire, ordonner\n1. Développer chaque produit (distributivité ou identité remarquable).\n2. Attention au signe « − » devant une parenthèse : il change tous les signes.\n3. Regrouper les termes de même degré et ordonner selon les puissances décroissantes.\n:::\n\n:::methode Factoriser\nDans l'ordre : chercher un **facteur commun** ; sinon reconnaître une **identité remarquable** ; sinon chercher une **racine** (voir notion suivante).\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDévelopper, réduire et ordonner $A(x)=(x+3)(2x-1)-(x-2)^2$. Préciser son degré.\n\n1. $(x+3)(2x-1)=2x^2-x+6x-3=2x^2+5x-3$.\n2. $(x-2)^2=x^2-4x+4$.\n3. $A(x)=2x^2+5x-3-(x^2-4x+4)=2x^2+5x-3-x^2+4x-4$.\n4. $A(x)=x^2+9x-7$ : polynôme de degré 2.\n:::\n\n:::exemple Exemple 2\nDéterminer les réels $a$, $b$, $c$ pour que $P(x)=(a+1)x^2+(b-2)x+c$ soit égal à $Q(x)=3x^2-x+5$ pour tout $x$. Puis développer $(x-1)^3$.\n\n1. Par identification des coefficients : $a+1=3$, $b-2=-1$, $c=5$.\n2. Donc $a=2$, $b=1$, $c=5$.\n3. $(x-1)^3=x^3-3x^2\\times1+3x\\times1^2-1^3=x^3-3x^2+3x-1$.\n:::\n",
+   "definition": "Un polynôme est une somme de monômes $a_kx^k$ ; son degré est la plus grande puissance de $x$ de coefficient non nul.",
+   "formules": [
+    "$(a+b)^2=a^2+2ab+b^2$",
+    "$(a-b)^2=a^2-2ab+b^2$",
+    "$a^2-b^2=(a-b)(a+b)$",
+    "$(a+b)^3=a^3+3a^2b+3ab^2+b^3$",
+    "$a^3-b^3=(a-b)(a^2+ab+b^2)$"
+   ],
+   "niveaux": {
+    "phrase": "Un polynôme, c'est une somme de puissances de x multipliées par des nombres.",
+    "simple": "Comme une recette où chaque ingrédient (x³, x², x, nombre seul) a sa quantité : le coefficient. Deux recettes sont identiques si chaque ingrédient a la même quantité.",
+    "complete": "Un polynôme de degré $n$ s'écrit $\\sum_{k=0}^n a_kx^k$ avec $a_n\\neq0$. Deux polynômes sont égaux si et seulement si leurs coefficients sont égaux (principe d'identification). Les identités remarquables d'ordre 2 et 3 servent à développer et à factoriser."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Développer, réduire et ordonner $A(x)=(x+3)(2x-1)-(x-2)^2$. Préciser son degré.",
+     "etapes": [
+      "$(x+3)(2x-1)=2x^2-x+6x-3=2x^2+5x-3$.",
+      "$(x-2)^2=x^2-4x+4$.",
+      "$A(x)=2x^2+5x-3-(x^2-4x+4)=2x^2+5x-3-x^2+4x-4$.",
+      "$A(x)=x^2+9x-7$ : polynôme de degré 2."
+     ]
+    },
+    {
+     "enonce": "Déterminer les réels $a$, $b$, $c$ pour que $P(x)=(a+1)x^2+(b-2)x+c$ soit égal à $Q(x)=3x^2-x+5$ pour tout $x$. Puis développer $(x-1)^3$.",
+     "etapes": [
+      "Par identification des coefficients : $a+1=3$, $b-2=-1$, $c=5$.",
+      "Donc $a=2$, $b=1$, $c=5$.",
+      "$(x-1)^3=x^3-3x^2\\times1+3x\\times1^2-1^3=x^3-3x^2+3x-1$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $(a+b)^2=a^2+b^2$ (on oublie le double produit).",
+    "Oublier de changer tous les signes après un « − » devant une parenthèse.",
+    "Écrire $(a-b)^3=a^3-b^3$.",
+    "Dire que $(2x^2-1)(3x+4)$ est de degré 2 : les degrés s'additionnent, il est de degré 3."
+   ],
+   "astuces": [
+    "Mets des parenthèses autour du développement d'une expression précédée d'un « − » avant de les enlever.",
+    "Vérifie un développement en remplaçant x par 1 ou 2 dans les deux écritures.",
+    "Pour le cube : coefficients 1, 3, 3, 1 (et signes alternés pour a − b)."
+   ],
+   "mnemo": "« Carré d'une somme : le premier au carré, deux fois le premier par le second, le second au carré. » — Cube : « 1-3-3-1 ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu connaissais les trois identités $(a+b)^2$, $(a-b)^2$ et $(a+b)(a-b)$. En Seconde, on ajoute les cubes et on parle de « degré » et de « coefficients »."
+   },
+   "methode_redaction": "Présente chaque développement sur une ligne séparée, puis la ligne réduite. Pour une identification, écris clairement le système (« par identification : a + 1 = 3, ... ») avant de le résoudre.",
+   "flash": [
+    {
+     "q": "Degré de $5x^3-x+2$ ?",
+     "r": "3"
+    },
+    {
+     "q": "$(x-5)^2=\\,?$",
+     "r": "$x^2-10x+25$"
+    },
+    {
+     "q": "Factoriser $x^2-49$.",
+     "r": "$(x-7)(x+7)$"
+    },
+    {
+     "q": "$(a+b)^3=\\,?$",
+     "r": "$a^3+3a^2b+3ab^2+b^3$"
+    },
+    {
+     "q": "$x^3-1=\\,?$",
+     "r": "$(x-1)(x^2+x+1)$"
+    },
+    {
+     "q": "Quand deux polynômes sont-ils égaux ?",
+     "r": "Quand ils ont les mêmes coefficients pour chaque puissance de x."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C03-N1.svg",
+    "alt": "Carré de côté a + b découpé en un carré a², un carré b² et deux rectangles ab.",
+    "legende": "Preuve par les aires : (a + b)² = a² + 2ab + b².",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C03-N2",
+   "titre": "Racines et factorisation d'un polynôme",
+   "prerequis_notions": [
+    "M-S1-C03-N1"
+   ],
+   "cours_md": ":::definition Racine\nUn réel $\\alpha$ est une **racine** (ou un zéro) du polynôme $P$ si $P(\\alpha)=0$.\n:::\n\n:::propriete Théorème de factorisation\n$\\alpha$ est racine de $P$ si et seulement si on peut écrire $P(x)=(x-\\alpha)\\,Q(x)$, où $Q$ est un polynôme de degré $\\deg P-1$.\n:::\n\n:::remarque\nUn polynôme de degré $n$ a **au plus $n$ racines**. Pour trouver une racine « évidente », on essaie $0$, $1$, $-1$, $2$, $-2$... Astuce : si la somme des coefficients est nulle, $1$ est racine.\n:::\n\n:::methode Trouver $Q$ par identification (coefficients indéterminés)\nPour $P(x)=x^3-2x^2-5x+6$ et $\\alpha=1$ : on pose $P(x)=(x-1)(ax^2+bx+c)$. On développe : $ax^3+(b-a)x^2+(c-b)x-c$. On identifie : $a=1$, $b-a=-2$, $c-b=-5$, $-c=6$, d'où $a=1$, $b=-1$, $c=-6$.\n:::\n\n:::methode Division euclidienne\nPour deux polynômes $A$ et $B$ ($B\\neq0$), il existe un unique couple $(Q,R)$ tel que $A=B\\times Q+R$ avec $\\deg R<\\deg B$. On pose la division comme pour les nombres : on divise le terme de plus haut degré, on multiplie, on soustrait, on recommence. Si $B=x-\\alpha$, le reste est le nombre $R=A(\\alpha)$.\n:::\n\n:::methode Factoriser complètement\n1. Chercher une racine évidente $\\alpha$.\n2. Écrire $P(x)=(x-\\alpha)Q(x)$ (identification ou division).\n3. Factoriser $Q$ (identité remarquable, autre racine, discriminant au chapitre « Équations »).\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nSoit $P(x)=2x^3-3x^2-3x+2$. Vérifier que $2$ est racine, puis factoriser $P(x)$ en produit de trois facteurs du premier degré.\n\n1. $P(2)=2\\times8-3\\times4-3\\times2+2=16-12-6+2=0$ : $2$ est racine.\n2. On pose $P(x)=(x-2)(ax^2+bx+c)=ax^3+(b-2a)x^2+(c-2b)x-2c$.\n3. Identification : $a=2$ ; $b-4=-3$ donc $b=1$ ; $-2c=2$ donc $c=-1$. Vérification : $c-2b=-3$ ✔.\n4. $P(x)=(x-2)(2x^2+x-1)$. Or $2x^2+x-1=(2x-1)(x+1)$ (racine évidente $-1$).\n5. Donc $P(x)=(x-2)(2x-1)(x+1)$.\n:::\n\n:::exemple Exemple 2\nEffectuer la division euclidienne de $A(x)=x^3+2x^2-x+3$ par $B(x)=x-1$.\n\n1. $x^3\\div x=x^2$ ; $x^2(x-1)=x^3-x^2$ ; reste partiel : $3x^2-x+3$.\n2. $3x^2\\div x=3x$ ; $3x(x-1)=3x^2-3x$ ; reste partiel : $2x+3$.\n3. $2x\\div x=2$ ; $2(x-1)=2x-2$ ; reste : $5$.\n4. $A(x)=(x-1)(x^2+3x+2)+5$. Contrôle : $A(1)=1+2-1+3=5$ ✔.\n:::\n",
+   "definition": "$\\alpha$ est racine de $P$ si $P(\\alpha)=0$ ; alors $P(x)=(x-\\alpha)Q(x)$ avec $\\deg Q=\\deg P-1$.",
+   "formules": [
+    "$P(\\alpha)=0\\iff P(x)=(x-\\alpha)Q(x)$",
+    "$A=BQ+R,\\ \\deg R<\\deg B$",
+    "Reste de la division par $x-\\alpha$ : $A(\\alpha)$"
+   ],
+   "niveaux": {
+    "phrase": "Si P(α) = 0, alors (x − α) est un facteur de P(x).",
+    "simple": "Trouver une racine, c'est trouver une « porte d'entrée » : dès qu'on sait que P(1) = 0, on peut sortir le facteur (x − 1) et il reste un polynôme plus petit à étudier.",
+    "complete": "Le théorème de factorisation dit que $P(\\alpha)=0$ équivaut à la divisibilité de $P$ par $x-\\alpha$. Le quotient s'obtient par identification ou par division euclidienne ; on itère pour factoriser complètement. Un polynôme de degré $n$ admet au plus $n$ racines."
+   },
+   "analogie": "C'est comme partager équitablement un tas d'ignames : si le partage « tombe juste » (reste nul), le nombre de parts est un facteur du tas.",
+   "exemples_resolus": [
+    {
+     "enonce": "Soit $P(x)=2x^3-3x^2-3x+2$. Vérifier que $2$ est racine, puis factoriser $P(x)$ en produit de trois facteurs du premier degré.",
+     "etapes": [
+      "$P(2)=2\\times8-3\\times4-3\\times2+2=16-12-6+2=0$ : $2$ est racine.",
+      "On pose $P(x)=(x-2)(ax^2+bx+c)=ax^3+(b-2a)x^2+(c-2b)x-2c$.",
+      "Identification : $a=2$ ; $b-4=-3$ donc $b=1$ ; $-2c=2$ donc $c=-1$. Vérification : $c-2b=-3$ ✔.",
+      "$P(x)=(x-2)(2x^2+x-1)$. Or $2x^2+x-1=(2x-1)(x+1)$ (racine évidente $-1$).",
+      "Donc $P(x)=(x-2)(2x-1)(x+1)$."
+     ]
+    },
+    {
+     "enonce": "Effectuer la division euclidienne de $A(x)=x^3+2x^2-x+3$ par $B(x)=x-1$.",
+     "etapes": [
+      "$x^3\\div x=x^2$ ; $x^2(x-1)=x^3-x^2$ ; reste partiel : $3x^2-x+3$.",
+      "$3x^2\\div x=3x$ ; $3x(x-1)=3x^2-3x$ ; reste partiel : $2x+3$.",
+      "$2x\\div x=2$ ; $2(x-1)=2x-2$ ; reste : $5$.",
+      "$A(x)=(x-1)(x^2+3x+2)+5$. Contrôle : $A(1)=1+2-1+3=5$ ✔."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $P(x)=(x+\\alpha)Q(x)$ au lieu de $(x-\\alpha)Q(x)$ : si $-2$ est racine, le facteur est $(x+2)$.",
+    "Oublier un coefficient nul dans la division posée (écrire x³ + 0x² − 4x + 1).",
+    "S'arrêter après le premier facteur alors qu'on demande une factorisation complète.",
+    "Se tromper de signe en soustrayant dans la division posée."
+   ],
+   "astuces": [
+    "Somme des coefficients nulle ⇒ 1 est racine. Somme alternée nulle ⇒ −1 est racine.",
+    "Vérifie toujours ta factorisation en redéveloppant ou en calculant une valeur.",
+    "Avec l'identification, la dernière équation non utilisée sert de vérification."
+   ],
+   "mnemo": "« Racine α ⇒ facteur (x MOINS α). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Pour résoudre une équation-produit $(x-2)(x+1)=0$, tu disais : « un produit est nul si l'un des facteurs est nul ». Factoriser un polynôme sert exactement à se ramener à ce cas."
+   },
+   "methode_redaction": "Écris « P(2) = ... = 0, donc 2 est une racine de P », puis « il existe un polynôme Q tel que P(x) = (x − 2)Q(x) ». Détaille l'identification ou la division, et termine par la factorisation complète encadrée.",
+   "flash": [
+    {
+     "q": "Que signifie « α est racine de P » ?",
+     "r": "$P(\\alpha)=0$"
+    },
+    {
+     "q": "$-3$ est racine de $P$ : quel facteur ?",
+     "r": "$(x+3)$"
+    },
+    {
+     "q": "Combien de racines au plus pour un polynôme de degré 3 ?",
+     "r": "3"
+    },
+    {
+     "q": "Reste de la division de $A(x)$ par $x-2$ ?",
+     "r": "$A(2)$"
+    },
+    {
+     "q": "$P(x)=x^3-6x^2+11x-6$ : racine évidente ?",
+     "r": "$1$ (somme des coefficients nulle)."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C03-N2.svg",
+    "alt": "Courbe du polynôme P(x) = (x − 1)(x + 2)(x − 3) qui coupe l'axe des abscisses en −2, 1 et 3.",
+    "legende": "Les racines de P sont les abscisses des points où la courbe coupe l'axe (Ox).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C03-N3",
+   "titre": "Fractions rationnelles",
+   "prerequis_notions": [
+    "M-S1-C03-N2"
+   ],
+   "cours_md": ":::definition Fraction rationnelle\nUne **fraction rationnelle** est un quotient $F(x)=\\dfrac{P(x)}{Q(x)}$ de deux polynômes, $Q$ non nul. Elle est définie pour les réels $x$ tels que $Q(x)\\neq0$. Les réels qui annulent $Q$ sont les **valeurs interdites**.\n$$D_F=\\{x\\in\\mathbb{R}\\ /\\ Q(x)\\neq0\\}$$\n:::\n\n:::methode Ensemble de définition\n1. Résoudre $Q(x)=0$ (factoriser le dénominateur).\n2. Retirer ces valeurs de $\\mathbb{R}$ : par exemple $D_F=\\mathbb{R}\\setminus\\{-2\\,;2\\}$.\n:::\n\n:::propriete Simplification\nSi $P(x)=(x-a)P_1(x)$ et $Q(x)=(x-a)Q_1(x)$, alors pour tout $x\\in D_F$ : $F(x)=\\dfrac{P_1(x)}{Q_1(x)}$.\nOn ne simplifie que des **facteurs**, jamais des termes d'une somme. La valeur interdite $a$ **reste interdite** même après simplification.\n:::\n\n:::propriete Opérations\nComme pour les fractions de nombres : on réduit au même dénominateur pour additionner ; on multiplie numérateurs et dénominateurs entre eux ; diviser revient à multiplier par l'inverse.\n:::\n\n:::methode Écrire $F(x)=ax+b+\\dfrac{c}{x-d}$ (décomposition)\nRéduire au même dénominateur le membre de droite, puis identifier les coefficients des numérateurs (ou effectuer la division euclidienne du numérateur par $x-d$).\n:::\n\n:::attention\n$\\dfrac{x+3}{x+5}\\neq\\dfrac35$ : on ne « barre » pas les $x$ d'une somme !\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDéterminer l'ensemble de définition de $F(x)=\\dfrac{x^2-1}{x^2+x}$ puis simplifier $F(x)$.\n\n1. $x^2+x=x(x+1)=0\\iff x=0$ ou $x=-1$ : $D_F=\\mathbb{R}\\setminus\\{-1\\,;0\\}$.\n2. $x^2-1=(x-1)(x+1)$.\n3. Pour $x\\in D_F$ : $F(x)=\\dfrac{(x-1)(x+1)}{x(x+1)}=\\dfrac{x-1}{x}$ (et $-1$ reste interdit).\n:::\n\n:::exemple Exemple 2\nÉcrire $G(x)=\\dfrac1{x-1}-\\dfrac2{x+1}$ sous la forme d'une seule fraction.\n\n1. Valeurs interdites : $1$ et $-1$. Dénominateur commun : $(x-1)(x+1)=x^2-1$.\n2. $G(x)=\\dfrac{(x+1)-2(x-1)}{(x-1)(x+1)}=\\dfrac{x+1-2x+2}{x^2-1}$.\n3. $G(x)=\\dfrac{-x+3}{x^2-1}$ pour $x\\neq\\pm1$.\n:::\n",
+   "definition": "Une fraction rationnelle est un quotient de deux polynômes $\\dfrac{P(x)}{Q(x)}$ ; elle n'est définie que si $Q(x)\\neq0$.",
+   "formules": [
+    "$F(x)=\\dfrac{P(x)}{Q(x)}$ définie si $Q(x)\\neq0$",
+    "$\\dfrac{(x-a)P_1}{(x-a)Q_1}=\\dfrac{P_1}{Q_1}$ pour $x\\neq a$",
+    "$\\dfrac AB+\\dfrac CD=\\dfrac{AD+BC}{BD}$"
+   ],
+   "niveaux": {
+    "phrase": "Une fraction rationnelle est une « fraction de polynômes » ; on ne divise jamais par zéro.",
+    "simple": "C'est une fraction comme 3/4, mais avec des x en haut et en bas. Les valeurs de x qui rendent le bas nul sont interdites, comme une route barrée.",
+    "complete": "$F=P/Q$ est définie sur $\\mathbb{R}$ privé des racines de $Q$. On simplifie par un facteur commun (sur $D_F$), on calcule comme avec des fractions numériques, et on peut écrire $F$ comme somme d'un polynôme et d'une fraction plus simple par identification."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Déterminer l'ensemble de définition de $F(x)=\\dfrac{x^2-1}{x^2+x}$ puis simplifier $F(x)$.",
+     "etapes": [
+      "$x^2+x=x(x+1)=0\\iff x=0$ ou $x=-1$ : $D_F=\\mathbb{R}\\setminus\\{-1\\,;0\\}$.",
+      "$x^2-1=(x-1)(x+1)$.",
+      "Pour $x\\in D_F$ : $F(x)=\\dfrac{(x-1)(x+1)}{x(x+1)}=\\dfrac{x-1}{x}$ (et $-1$ reste interdit)."
+     ]
+    },
+    {
+     "enonce": "Écrire $G(x)=\\dfrac1{x-1}-\\dfrac2{x+1}$ sous la forme d'une seule fraction.",
+     "etapes": [
+      "Valeurs interdites : $1$ et $-1$. Dénominateur commun : $(x-1)(x+1)=x^2-1$.",
+      "$G(x)=\\dfrac{(x+1)-2(x-1)}{(x-1)(x+1)}=\\dfrac{x+1-2x+2}{x^2-1}$.",
+      "$G(x)=\\dfrac{-x+3}{x^2-1}$ pour $x\\neq\\pm1$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Simplifier des termes au lieu de facteurs : (x + 3)/(x + 5) n'est pas 3/5.",
+    "Oublier qu'une valeur interdite le reste après simplification.",
+    "Oublier les parenthèses en réduisant au même dénominateur : −2(x − 1) = −2x + 2.",
+    "Chercher le domaine en résolvant P(x) = 0 (numérateur) au lieu de Q(x) = 0."
+   ],
+   "astuces": [
+    "Factorise d'abord numérateur et dénominateur, puis simplifie.",
+    "Écris toujours D_F en premier : c'est souvent 0,5 point à lui seul.",
+    "Pour vérifier une décomposition, remplace x par une valeur simple (0 par exemple)."
+   ],
+   "mnemo": "« On ne barre que ce qui multiplie. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 4e ? $\\dfrac{12}{18}=\\dfrac{6\\times2}{6\\times3}=\\dfrac23$ : on simplifie par un facteur commun. Avec les fractions rationnelles, c'est pareil, en factorisant d'abord."
+   },
+   "methode_redaction": "Commence toujours par « F(x) existe si et seulement si ... ≠ 0 » et donne D_F. Puis « pour tout x de D_F, F(x) = ... ». Montre la factorisation avant de simplifier.",
+   "flash": [
+    {
+     "q": "Valeurs interdites de $\\dfrac{3}{x^2-9}$ ?",
+     "r": "$-3$ et $3$"
+    },
+    {
+     "q": "Simplifier $\\dfrac{x^2-4}{x+2}$ pour $x\\neq-2$.",
+     "r": "$x-2$"
+    },
+    {
+     "q": "$\\dfrac{x+3}{x+5}=\\dfrac35$ ?",
+     "r": "Faux : on ne simplifie que des facteurs."
+    },
+    {
+     "q": "$\\dfrac1x+\\dfrac1{x+1}=\\,?$",
+     "r": "$\\dfrac{2x+1}{x(x+1)}$"
+    },
+    {
+     "q": "Domaine de $\\dfrac{x}{x^2+1}$ ?",
+     "r": "$\\mathbb{R}$ ($x^2+1>0$)"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C03-N3.svg",
+    "alt": "Courbe de F(x) = (2x + 1)/(x − 1) en deux morceaux séparés par la droite verticale x = 1 en pointillés rouges.",
+    "legende": "La valeur interdite x = 1 coupe la courbe en deux branches.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S1-C03-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C03-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Quel est le degré du polynôme $P(x)=(2x^2-1)(3x+4)$ ?",
+   "choix": [
+    "1",
+    "2",
+    "3",
+    "6"
+   ],
+   "bonne_reponse": 2,
+   "indices": [
+    "Les degrés s'additionnent dans un produit."
+   ],
+   "corrige": [
+    "Le terme de plus haut degré est $2x^2\\times3x=6x^3$.",
+    "$P$ est de degré $3$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 2 en ne regardant que le premier facteur.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C03-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C03-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Développer et réduire $(2x-3)^2$.",
+   "reponses_acceptees": [
+    "4x^2-12x+9",
+    "4x²-12x+9",
+    "4x2-12x+9"
+   ],
+   "indices": [
+    "Identité (a − b)²."
+   ],
+   "corrige": [
+    "$(a-b)^2=a^2-2ab+b^2$ avec $a=2x$, $b=3$.",
+    "$(2x)^2-2\\times2x\\times3+3^2=4x^2-12x+9$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire $2x^2$ au lieu de $(2x)^2=4x^2$.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C03-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C03-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Factoriser $9x^2-25$.",
+   "reponses_acceptees": [
+    "(3x-5)(3x+5)",
+    "(3x+5)(3x-5)"
+   ],
+   "indices": [
+    "Différence de deux carrés."
+   ],
+   "corrige": [
+    "$9x^2-25=(3x)^2-5^2$.",
+    "$a^2-b^2=(a-b)(a+b)$ donc $9x^2-25=(3x-5)(3x+5)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire (9x − 25)(9x + 25).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C03-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C03-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Soit $P(x)=x^3-2x^2-5x+6$. Calculer $P(1)$.",
+   "reponses_acceptees": [
+    "0",
+    "P(1)=0"
+   ],
+   "indices": [
+    "Remplace x par 1."
+   ],
+   "corrige": [
+    "$P(1)=1-2-5+6$.",
+    "$P(1)=0$ : $1$ est une racine de $P$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Erreur de signe sur −5 × 1.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C03-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C03-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Le développement de $(x+2)^3$ est :",
+   "choix": [
+    "$x^3+8$",
+    "$x^3+6x^2+12x+8$",
+    "$x^3+3x^2+3x+8$",
+    "$x^3+6x^2+6x+8$"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Coefficients 1, 3, 3, 1."
+   ],
+   "corrige": [
+    "$(a+b)^3=a^3+3a^2b+3ab^2+b^3$ avec $a=x$, $b=2$.",
+    "$x^3+3\\times2x^2+3\\times4x+8=x^3+6x^2+12x+8$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre $x^3+8$ en oubliant les termes du milieu.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C03-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Donner l'ensemble de définition de $F(x)=\\dfrac{x+1}{x^2-4}$ (écrire par exemple R\\{a;b}).",
+   "reponses_acceptees": [
+    "R\\{-2;2}",
+    "ℝ\\{-2;2}",
+    "R-{-2;2}",
+    "ℝ-{-2;2}",
+    "R\\{2;-2}",
+    "ℝ\\{2;-2}"
+   ],
+   "indices": [
+    "Cherche les x qui annulent le dénominateur."
+   ],
+   "corrige": [
+    "$F(x)$ existe si $x^2-4\\neq0$, soit $(x-2)(x+2)\\neq0$.",
+    "$D_F=\\mathbb{R}\\setminus\\{-2\\,;2\\}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Retirer −1 (qui annule le numérateur) : il n'est pas interdit.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C03-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C03-N1",
+    "M-S1-C03-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Déterminer les réels $a$ et $b$ tels que, pour tout $x$, $(x-1)(ax+b)=2x^2+x-3$. Répondre sous la forme a=...;b=...",
+   "reponses_acceptees": [
+    "a=2;b=3",
+    "a=2,b=3",
+    "2;3",
+    "a=2etb=3"
+   ],
+   "indices": [
+    "Développe puis compare les coefficients."
+   ],
+   "corrige": [
+    "$(x-1)(ax+b)=ax^2+(b-a)x-b$.",
+    "Identification : $a=2$ ; $-b=-3$ donc $b=3$ ; contrôle : $b-a=1$ ✔."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier de vérifier la 3e équation.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C03-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C03-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $P(x)=x^3-2x^2-5x+6$.\n\n1. Vérifier que $1$ est une racine de $P$.\n2. Déterminer les réels $a$, $b$, $c$ tels que $P(x)=(x-1)(ax^2+bx+c)$.\n3. Factoriser $ax^2+bx+c$ puis $P(x)$ complètement.\n4. Résoudre dans $\\mathbb{R}$ l'équation $P(x)=0$.",
+   "indices": [
+    "Identifie les coefficients de x³, x², x et la constante.",
+    "Cherche une racine évidente de x² − x − 6."
+   ],
+   "corrige": [
+    "1. $P(1)=1-2-5+6=0$, donc $1$ est racine de $P$.",
+    "2. $(x-1)(ax^2+bx+c)=ax^3+(b-a)x^2+(c-b)x-c$. Identification : $a=1$, $b-a=-2$, $c-b=-5$, $-c=6$. Donc $a=1$, $b=-1$, $c=-6$.",
+    "3. $x^2-x-6$ : $3$ est racine ($9-3-6=0$), donc $x^2-x-6=(x-3)(x+2)$. Ainsi $P(x)=(x-1)(x-3)(x+2)$.",
+    "4. Produit nul : $x=1$ ou $x=3$ ou $x=-2$. $S=\\{-2\\,;1\\,;3\\}$."
+   ],
+   "bareme": [
+    0.5,
+    2,
+    1.5,
+    1
+   ],
+   "piege": "Oublier une des quatre équations de l'identification ou une solution.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C03-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C03-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "On considère $F(x)=\\dfrac{x^2-9}{x^2+6x+9}$.\n\n1. Déterminer l'ensemble de définition $D_F$.\n2. Simplifier $F(x)$ sur $D_F$.\n3. Calculer $F(0)$ et résoudre $F(x)=0$.",
+   "indices": [
+    "Reconnais deux identités remarquables."
+   ],
+   "corrige": [
+    "1. $x^2+6x+9=(x+3)^2$ s'annule pour $x=-3$ : $D_F=\\mathbb{R}\\setminus\\{-3\\}$.",
+    "2. $x^2-9=(x-3)(x+3)$, donc pour $x\\neq-3$ : $F(x)=\\dfrac{(x-3)(x+3)}{(x+3)^2}=\\dfrac{x-3}{x+3}$.",
+    "3. $F(0)=\\dfrac{-3}{3}=-1$. $F(x)=0\\iff x-3=0$ et $x\\neq-3$, donc $S=\\{3\\}$."
+   ],
+   "bareme": [
+    1,
+    2,
+    2
+   ],
+   "piege": "Donner −3 comme solution de F(x) = 0 alors que c'est une valeur interdite.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C03-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C03-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Effectuer la division euclidienne de $A(x)=2x^3+3x^2-5x+1$ par $B(x)=x+2$. Vérifier le reste en calculant $A(-2)$.",
+   "indices": [
+    "Pose la division comme avec des nombres."
+   ],
+   "corrige": [
+    "$2x^3\\div x=2x^2$ ; $2x^2(x+2)=2x^3+4x^2$ ; on soustrait : $-x^2-5x+1$.",
+    "$-x^2\\div x=-x$ ; $-x(x+2)=-x^2-2x$ ; on soustrait : $-3x+1$.",
+    "$-3x\\div x=-3$ ; $-3(x+2)=-3x-6$ ; on soustrait : reste $7$.",
+    "$A(x)=(x+2)(2x^2-x-3)+7$. Contrôle : $A(-2)=-16+12+10+1=7$ ✔."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "Erreur de signe en soustrayant (−x² − 2x) : −5x − (−2x) = −3x.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C03-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C03-N1",
+    "M-S1-C03-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "1. Développer $(x-2)(x^2+2x+4)$.\n2. Montrer que pour tout réel $x$, $x^2+2x+4=(x+1)^2+3$. En déduire que $x^2+2x+4>0$.\n3. Résoudre dans $\\mathbb{R}$ l'équation $x^3=8$.\n4. Factoriser $A(x)=x^3-8-(x-2)(x+6)$ en produit de trois facteurs du premier degré, puis résoudre $A(x)=0$.",
+   "indices": [
+    "x³ − 8 = x³ − 2³.",
+    "Mets (x − 2) en facteur commun."
+   ],
+   "corrige": [
+    "1. $(x-2)(x^2+2x+4)=x^3+2x^2+4x-2x^2-4x-8=x^3-8$.",
+    "2. $(x+1)^2+3=x^2+2x+1+3=x^2+2x+4$. Un carré est positif, donc $(x+1)^2+3\\ge3>0$.",
+    "3. $x^3=8\\iff(x-2)(x^2+2x+4)=0$. Le second facteur n'est jamais nul, donc $x=2$ : $S=\\{2\\}$.",
+    "4. $A(x)=(x-2)(x^2+2x+4)-(x-2)(x+6)=(x-2)(x^2+2x+4-x-6)=(x-2)(x^2+x-2)$.",
+    "$x^2+x-2$ a pour racine évidente $1$ : $x^2+x-2=(x-1)(x+2)$. Donc $A(x)=(x-2)(x-1)(x+2)$ et $S=\\{-2\\,;1\\,;2\\}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1.5,
+    1.5
+   ],
+   "piege": "Oublier de changer les signes en développant −(x − 2)(x + 6) après la mise en facteur.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C03-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C03-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $F(x)=\\dfrac{2x^2-3x-1}{x-2}$.\n\n1. Donner $D_F$.\n2. Déterminer les réels $a$, $b$, $c$ tels que pour tout $x\\in D_F$ : $F(x)=ax+b+\\dfrac{c}{x-2}$.\n3. En déduire que pour tout $x>2$, $F(x)>2x+1$.",
+   "indices": [
+    "Réduis au même dénominateur puis identifie les numérateurs.",
+    "Étudie le signe de F(x) − (2x + 1)."
+   ],
+   "corrige": [
+    "1. $x-2\\neq0$ : $D_F=\\mathbb{R}\\setminus\\{2\\}$.",
+    "2. $ax+b+\\dfrac c{x-2}=\\dfrac{(ax+b)(x-2)+c}{x-2}=\\dfrac{ax^2+(b-2a)x+c-2b}{x-2}$.",
+    "Identification avec $2x^2-3x-1$ : $a=2$ ; $b-2a=-3$ donc $b=1$ ; $c-2b=-1$ donc $c=1$. Ainsi $F(x)=2x+1+\\dfrac1{x-2}$.",
+    "3. $F(x)-(2x+1)=\\dfrac1{x-2}$. Si $x>2$, alors $x-2>0$, donc $\\dfrac1{x-2}>0$ et $F(x)>2x+1$."
+   ],
+   "bareme": [
+    0.5,
+    1.5,
+    2,
+    1
+   ],
+   "piege": "Mal développer (ax + b)(x − 2) : le terme en x est (b − 2a)x.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Oublier le double produit : $(a+b)^2\\neq a^2+b^2$.",
+  "Facteur (x + α) au lieu de (x − α) pour la racine α.",
+  "Simplifier des termes au lieu de facteurs dans une fraction rationnelle.",
+  "Oublier de donner l'ensemble de définition avant de simplifier.",
+  "Garder comme solution une valeur interdite.",
+  "Erreurs de signe en soustrayant dans la division euclidienne."
+ ]
+}

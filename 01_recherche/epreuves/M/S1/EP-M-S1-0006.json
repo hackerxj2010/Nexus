@@ -1,0 +1,434 @@
+{
+ "id": "EP-M-S1-0006",
+ "matiere": "M",
+ "semestre": 1,
+ "type": "concours_entree",
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques (Lomé / Kara)",
+  "ville": "Lomé / Kara",
+  "annee_scolaire": "2013-2014",
+  "session": "Octobre 2013",
+  "document": "« Epreuves Concours lycée scientifique.pdf » (scan CamScanner, 12,4 Mo, Google Drive de l'utilisateur, ajouté le 2026-07-03)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Sujet officiel d'examen ; copie privée dans le Google Drive de l'utilisateur ; usage personnel d'apprentissage",
+  "fiabilite": 3
+ },
+ "total_points": 20,
+ "chapitres_titres": [
+  "Ensemble des nombres réels et calcul dans ℝ",
+  "Polynômes et fractions rationnelles",
+  "Équations et inéquations dans ℝ",
+  "Vecteurs et points du plan",
+  "Angles inscrits",
+  "Géométrie dans l'espace",
+  "Équations et inéquations dans ℝ×ℝ (systèmes)",
+  "Angles orientés et trigonométrie",
+  "Droites et cercles dans le plan"
+ ],
+ "chapitres": [
+  "M-S1-C01",
+  "M-S1-C03",
+  "M-S1-C05",
+  "M-S1-C02",
+  "M-S1-C06",
+  "M-S1-C08",
+  "M-S2-C09",
+  "M-S2-C10",
+  "M-S2-C13"
+ ],
+ "enonce_md": "> **Transcription reconstituée** à partir du texte OCR (Google Drive) d'un scan CamScanner du sujet officiel. Les formules ont été remises en forme ; **[illisible]** signale un passage absent ou inexploitable dans l'OCR ; *(lecture probable)* signale un symbole reconstitué d'après le contexte et la cohérence des questions. Les figures du sujet ne sont pas disponibles. À relire sur le scan original avant usage en composition blanche.\n\n**Concours d'entrée au lycée scientifique — Octobre 2013**\n\n**Épreuve de mathématiques** *(durée et coefficient non visibles dans l'OCR)*\n\n### Exercice 1 (5,5 pts)\nOn considère les polynômes suivants : $A = (3x+5)(x-5) - (x^2 - 10x + 25) - (3x - 15)$ ; $B = x^2 - 3x - 10$ et $C = x^2 + 54x + 730$ *(lecture probable ; OCR : « x+54x +730 »)*.\n1. a) Décompose $729$ en produit de facteurs premiers puis prouve que ce nombre est le carré d'un entier naturel. (0,75 pt)\n\n   b) Factorise $C - 1$. (0,75 pt)\n2. a) Développe, réduis et ordonne $A$ suivant les puissances croissantes de $x$. (0,75 pt)\n\n   b) Montre que les nombres réels $5$ et $-2$ sont solutions de l'équation $B = 0$. (1 pt)\n\n   c) Déduis-en une factorisation de $B$. (0,5 pt)\n3. Écris $A$ sous forme d'un produit de facteurs du premier degré. (0,75 pt)\n4. Résous les équations $(E_1) : x \\in \\mathbb{R}$, $B = -10$ ; $(E_2) : x \\in \\mathbb{R}$, $5B = 3A$ *(lecture probable ; OCR : « SB=3A »)*. (1 pt)\n\n### Exercice 2 (3 pts)\n1. Écris simplement **[illisible]** (OCR : « (2012X2013 1 2013) »). (0,75 pt)\n2. Soit $D = $ **[illisible]** (OCR : « [(a+√3)2-a²] (2+√3) »). Détermine la condition d'existence de $D$ et simplifie $D$. (1 pt)\n3. On considère deux nombres réels $E = \\dfrac{-1 + \\sqrt{3}}{\\sqrt{2}}$ et $F = \\dfrac{1 + \\sqrt{3}}{\\sqrt{2}}$ *(lecture probable)*.\n\n   a) Calcule $E \\times F$. Que peux-tu en déduire ?\n\n   b) Calcule $F^2$ et **[illisible]**. Que constates-tu ? (question 3 : 1,25 pt)\n\n### Exercice 3 (4,5 pts)\nOn considère dans le plan un triangle $ABC$ tel que $BC = 6$ cm ; $\\widehat{ACB} = 45^\\circ$ et $\\widehat{BAC} = 60^\\circ$. $E$ et $F$ sont les pieds des hauteurs issues respectivement de $B$ et $C$.\n1. a) Fais une figure. (1 pt)\n\n   b) Démontre que les points $B$, $F$, $E$ et $C$ appartiennent à un même cercle de centre $I$. (1 pt)\n2. Détermine $\\widehat{FBE}$ puis déduis-en **[illisible]** (OCR : « mes FIB »). (1 pt)\n3. Calcule les distances $EB$, $EC$ puis $AB$. (0,75 pt)\n4. $K$ est le point d'intersection de $(FC)$ et $(BE)$. Démontre que les triangles $KFB$ et **[illisible]** (OCR : « KCB ») sont semblables. (0,75 pt)\n\n### Exercice 4 (7 pts)\nLe plan est muni d'un repère orthonormé $(O\\,;I, J)$. On donne les points $A(-5\\,;1)$, $B(1\\,;7)$ et $D(1\\,;1)$.\n1. a) Fais une figure que tu complèteras au fur et à mesure. (1 pt)\n\n   b) Calcule les coordonnées du point $C$ pour que $ABCD$ soit un parallélogramme. (0,75 pt)\n\n   c) Calcule les coordonnées du centre $M$ du parallélogramme. (0,75 pt)\n2. a) Détermine une équation de la droite $(AB)$. (0,5 pt)\n\n   b) Déduis-en le coefficient directeur de la droite $(CD)$. (0,5 pt)\n3. Soit $(\\Delta)$ la perpendiculaire à $(AC)$ passant par $D$. $(\\Delta)$ coupe $(AC)$ en $G$.\n\n   a) Détermine une équation de $(\\Delta)$. (0,5 pt)\n\n   b) Détermine les coordonnées de $G$. (0,5 pt)\n4. On fait tourner le triangle $ABD$ autour de la droite $(BD)$. Dans cette rotation, le triangle $ABD$ engendre un cône de révolution.\n\n   a) Donne les caractéristiques de ce cône. (1 pt)\n\n   b) Détermine l'aire totale et le volume de ce cône. (0,5 pt)\n\n   c) On coupe le cône par un plan parallèle à sa base et passant par $I$ tel que $BI = $ **[illisible]** $BA$. Calcule l'aire latérale $S'$ du cône tronqué ainsi obtenu et le rapport $\\dfrac{S'}{S}$ ($S$ étant l'aire latérale du cône initial). (1 pt)\n",
+ "questions": [
+  {
+   "numero": "Ex1-1a",
+   "enonce": "Décompose $729$ en facteurs premiers ; prouve que c'est un carré.",
+   "points": 0.75,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$729 = 3 \\times 243 = 3 \\times 3 \\times 81 = 3^6$.",
+    "$3^6 = (3^3)^2 = 27^2$ : $729$ est le carré de l'entier naturel $27$."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "$729 = 3^6 = 27^2$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-1b",
+   "enonce": "Factorise $C - 1$ avec $C = x^2 + 54x + 730$ (lecture probable).",
+   "points": 0.75,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$C - 1 = x^2 + 54x + 729 = x^2 + 2 \\times 27 \\times x + 27^2$.",
+    "$C - 1 = (x + 27)^2$."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "$C - 1 = (x+27)^2$",
+   "piege": "",
+   "astuce": "Reconnaître $a^2 + 2ab + b^2$ avec $b = 27$ (question a)."
+  },
+  {
+   "numero": "Ex1-2a",
+   "enonce": "Développe, réduis et ordonne $A$ suivant les puissances croissantes.",
+   "points": 0.75,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$(3x+5)(x-5) = 3x^2 - 10x - 25$.",
+    "$A = 3x^2 - 10x - 25 - x^2 + 10x - 25 - 3x + 15 = 2x^2 - 3x - 35$.",
+    "Ordonné : $A = -35 - 3x + 2x^2$."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$A = -35 - 3x + 2x^2$",
+   "piege": "Le signe « − » devant les parenthèses change tous les signes.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2b",
+   "enonce": "Montre que $5$ et $-2$ sont solutions de $B = 0$.",
+   "points": 1,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ"
+   ],
+   "corrige": [
+    "$B(5) = 25 - 15 - 10 = 0$.",
+    "$B(-2) = 4 + 6 - 10 = 0$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$B(5) = B(-2) = 0$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2c",
+   "enonce": "Déduis-en une factorisation de $B$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$B$ est un polynôme du second degré de coefficient dominant 1 qui s'annule en $5$ et $-2$ : $B = (x - 5)(x + 2)$ (contrôle : $x^2 - 3x - 10$)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$B = (x-5)(x+2)$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-3",
+   "enonce": "Écris $A$ comme produit de facteurs du premier degré.",
+   "points": 0.75,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$x^2 - 10x + 25 = (x - 5)^2$ et $3x - 15 = 3(x - 5)$ : $(x - 5)$ est facteur commun.",
+    "$A = (x-5)[(3x+5) - (x-5) - 3] = (x - 5)(2x + 7)$."
+   ],
+   "bareme": [
+    0.25,
+    0.5
+   ],
+   "resultat_final": "$A = (x-5)(2x+7)$",
+   "piege": "",
+   "astuce": "Contrôle : $(x-5)(2x+7) = 2x^2 - 3x - 35$."
+  },
+  {
+   "numero": "Ex1-4",
+   "enonce": "Résous $(E_1) : B = -10$ et $(E_2) : 5B = 3A$ (lecture probable).",
+   "points": 1,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ"
+   ],
+   "corrige": [
+    "$(E_1)$ : $x^2 - 3x - 10 = -10 \\Leftrightarrow x(x - 3) = 0$ : $S_1 = \\{0\\,;\\,3\\}$.",
+    "$(E_2)$ : $5(x-5)(x+2) - 3(x-5)(2x+7) = 0 \\Leftrightarrow (x - 5)(5x + 10 - 6x - 21) = 0 \\Leftrightarrow (x - 5)(-x - 11) = 0$ : $S_2 = \\{-11\\,;\\,5\\}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$S_1 = \\{0\\,;3\\}$ ; $S_2 = \\{-11\\,;5\\}$",
+   "piege": "Ne jamais diviser par (x − 5) : on perdrait la solution 5.",
+   "astuce": "Mettre tout dans un membre et factoriser."
+  },
+  {
+   "numero": "Ex2-3a",
+   "enonce": "Calcule $E \\times F$ ; que peux-tu en déduire ?",
+   "points": 0.75,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$E \\times F = \\dfrac{(\\sqrt{3} - 1)(\\sqrt{3} + 1)}{\\sqrt{2} \\times \\sqrt{2}} = \\dfrac{3 - 1}{2} = 1$.",
+    "$E \\times F = 1$ : $E$ et $F$ sont inverses l'un de l'autre ($E = \\dfrac{1}{F}$)."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "$E \\times F = 1$ : E et F sont inverses",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-3b",
+   "enonce": "Calcule $F^2$ (la suite de la question est illisible).",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$F^2 = \\dfrac{(1 + \\sqrt{3})^2}{2} = \\dfrac{4 + 2\\sqrt{3}}{2} = 2 + \\sqrt{3}$ (de même $E^2 = 2 - \\sqrt{3}$)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$F^2 = 2 + \\sqrt{3}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-1b",
+   "enonce": "Démontre que $B$, $F$, $E$, $C$ sont sur un même cercle de centre $I$.",
+   "points": 1,
+   "notions_titres": [
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "$E$ est le pied de la hauteur issue de $B$ : $\\widehat{BEC} = 90^\\circ$, donc $E$ est sur le cercle de diamètre $[BC]$.",
+    "$F$ est le pied de la hauteur issue de $C$ : $\\widehat{BFC} = 90^\\circ$, donc $F$ est sur ce même cercle. $B$, $F$, $E$, $C$ sont sur le cercle de centre $I$, milieu de $[BC]$, et de rayon $3$ cm."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "cercle de diamètre [BC], centre I milieu de [BC]",
+   "piege": "",
+   "astuce": "Angle droit ⇔ point sur le cercle de diamètre l'hypoténuse."
+  },
+  {
+   "numero": "Ex3-2",
+   "enonce": "Détermine $\\widehat{FBE}$, puis l'angle au centre associé.",
+   "points": 1,
+   "notions_titres": [
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "Les angles du triangle sont aigus ($60^\\circ$, $45^\\circ$, $75^\\circ$), donc $F \\in [AB]$ et $E \\in [AC]$. Dans $ABE$ rectangle en $E$ : $\\widehat{ABE} = 90^\\circ - 60^\\circ = 30^\\circ$, soit $\\widehat{FBE} = 30^\\circ$.",
+    "$\\widehat{FBE}$ est un angle inscrit dans le cercle de centre $I$ qui intercepte l'arc $\\overset{\\frown}{FE}$ ; l'angle au centre associé mesure le double : $\\widehat{FIE} = 60^\\circ$. *(Si l'énoncé original demande $\\widehat{FIB}$ : le triangle $FIB$ est isocèle en $I$ avec $\\widehat{FBI} = 75^\\circ$, donc $\\widehat{FIB} = 30^\\circ$.)*"
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\widehat{FBE} = 30^\\circ$ ; $\\widehat{FIE} = 60^\\circ$",
+   "piege": "L'angle demandé est illisible dans le scan : vérifier sur l'original (FIE ou FIB).",
+   "astuce": "Angle au centre = 2 × angle inscrit interceptant le même arc."
+  },
+  {
+   "numero": "Ex3-3",
+   "enonce": "Calcule $EB$, $EC$ puis $AB$.",
+   "points": 0.75,
+   "notions_titres": [
+    "Angles orientés et trigonométrie"
+   ],
+   "corrige": [
+    "Dans $BEC$ rectangle en $E$ : $EB = BC \\sin 45^\\circ = 6 \\times \\dfrac{\\sqrt{2}}{2} = 3\\sqrt{2}$ cm et $EC = BC\\cos 45^\\circ = 3\\sqrt{2}$ cm.",
+    "Dans $ABE$ rectangle en $E$ : $\\sin 60^\\circ = \\dfrac{EB}{AB}$, donc $AB = \\dfrac{3\\sqrt{2}}{\\sqrt{3}/2} = \\dfrac{6\\sqrt{2}}{\\sqrt{3}} = 2\\sqrt{6}$ cm (environ 4,90 cm)."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "$EB = EC = 3\\sqrt{2}$ cm ; $AB = 2\\sqrt{6}$ cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1b",
+   "enonce": "Coordonnées de $C$ ($ABCD$ parallélogramme).",
+   "points": 0.75,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$\\overrightarrow{DC} = \\overrightarrow{AB}(6\\,;6)$.",
+    "$C(1 + 6\\,;\\,1 + 6) = C(7\\,;7)$."
+   ],
+   "bareme": [
+    0.25,
+    0.5
+   ],
+   "resultat_final": "$C(7\\,;7)$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1c",
+   "enonce": "Coordonnées du centre $M$.",
+   "points": 0.75,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$M$ milieu de $[AC]$ : $M\\left(\\dfrac{-5 + 7}{2}\\,;\\,\\dfrac{1 + 7}{2}\\right) = M(1\\,;4)$ (c'est aussi le milieu de $[BD]$)."
+   ],
+   "bareme": [
+    0.75
+   ],
+   "resultat_final": "$M(1\\,;4)$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2a",
+   "enonce": "Équation de $(AB)$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "Coefficient directeur $\\dfrac{7 - 1}{1 + 5} = 1$ ; $(AB) : y = x + 6$ (contrôle avec $A$ : $-5 + 6 = 1$)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$(AB) : y = x + 6$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2b",
+   "enonce": "Coefficient directeur de $(CD)$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "$(CD) \\parallel (AB)$ (côtés opposés du parallélogramme) : même coefficient directeur, $1$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "1",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-3a",
+   "enonce": "Équation de $(\\Delta)$, perpendiculaire à $(AC)$ passant par $D$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "Coefficient directeur de $(AC)$ : $\\dfrac{7 - 1}{7 + 5} = \\dfrac{1}{2}$ ; celui de $(\\Delta)$ est $-2$ (produit $= -1$).",
+    "$(\\Delta) : y - 1 = -2(x - 1)$, soit $y = -2x + 3$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$(\\Delta) : y = -2x + 3$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-3b",
+   "enonce": "Coordonnées de $G = (\\Delta) \\cap (AC)$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Droites et cercles dans le plan",
+    "Équations et inéquations dans ℝ×ℝ (systèmes)"
+   ],
+   "corrige": [
+    "$(AC) : y = \\dfrac{1}{2}x + \\dfrac{7}{2}$. On résout $-2x + 3 = \\dfrac{1}{2}x + \\dfrac{7}{2}$, soit $-\\dfrac{5}{2}x = \\dfrac{1}{2}$ : $x = -\\dfrac{1}{5}$.",
+    "$y = -2 \\times \\left(-\\dfrac{1}{5}\\right) + 3 = \\dfrac{17}{5}$ : $G\\left(-\\dfrac{1}{5}\\,;\\,\\dfrac{17}{5}\\right)$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$G\\left(-\\frac{1}{5}\\,;\\frac{17}{5}\\right)$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-4a",
+   "enonce": "Caractéristiques du cône engendré par $ABD$ tournant autour de $(BD)$.",
+   "points": 1,
+   "notions_titres": [
+    "Géométrie dans l'espace"
+   ],
+   "corrige": [
+    "$\\overrightarrow{DA}(-6\\,;0)$ et $\\overrightarrow{DB}(0\\,;6)$ : $ABD$ est rectangle en $D$ avec $DA = DB = 6$.",
+    "Cône de sommet $B$, d'axe $(BD)$, de hauteur $BD = 6$, de base le disque de centre $D$ et de rayon $DA = 6$, de génératrice $BA = 6\\sqrt{2}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "sommet B, hauteur 6, rayon 6, génératrice $6\\sqrt{2}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-4b",
+   "enonce": "Aire totale et volume du cône.",
+   "points": 0.5,
+   "notions_titres": [
+    "Géométrie dans l'espace"
+   ],
+   "corrige": [
+    "Aire totale $= \\pi r^2 + \\pi r g = 36\\pi + 36\\sqrt{2}\\pi = 36\\pi(1 + \\sqrt{2}) \\approx 273{,}0$ (unités d'aire).",
+    "Volume $= \\dfrac{1}{3}\\pi r^2 h = \\dfrac{1}{3}\\pi \\times 36 \\times 6 = 72\\pi \\approx 226{,}2$ (unités de volume)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$\\mathcal{A} = 36\\pi(1+\\sqrt{2})$ ; $V = 72\\pi$",
+   "piege": "Aire latérale du cône : π × r × génératrice (pas × hauteur).",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Résolution manuelle : 729=3⁶=27², C−1=(x+27)² ; A=−35−3x+2x²=(x−5)(2x+7), B=(x−5)(x+2) ; S1={0;3}, S2={−11;5} ; E×F=1, F²=2+√3 ; cercle de diamètre [BC], FBE=30°, FIE=60° (FIB=30°) ; EB=EC=3√2, AB=2√6 ; C(7;7), M(1;4), (AB): y=x+6, pente (CD)=1, (Δ): y=−2x+3, G(−1/5;17/5) ; cône de rayon 6, hauteur 6, génératrice 6√2, aire 36π(1+√2), volume 72π.",
+  "passe2": "Résolution indépendante (sympy) : factorint(729), factor() des polynômes, solve() des équations, AB vérifié aussi par la loi des sinus, G par résolution du système : mêmes résultats.",
+  "code": "oui : script verif.py (sympy), 27 vérifications pour ce sujet, toutes OK",
+  "desaccords": [
+   "Aucun désaccord entre les deux passes.",
+   "Durée et coefficient absents de l'OCR : duree_min non renseignée.",
+   "Ex1 : C lu x²+54x+730 (lecture probable, cohérente avec 729 = 27² en Q1a). E2 lue 5B=3A (« SB » dans l'OCR). Si l'original porte B=3A, les solutions seraient 5 et −19/5.",
+   "Ex2 Q1 et Q2 illisibles, non corrigées. Ex2 Q3 : E et F lus (√3−1)/√2 et (√3+1)/√2 (lecture probable) ; la fin de la Q3b est illisible.",
+   "Ex3 Q2 : l'OCR porte « FIB ». L'angle au centre associé à FBE est FIE = 60°. Les deux valeurs sont données (FIB = 30°) ; c'est à vérifier sur l'original.",
+   "Ex3 Q4 non corrigée : « KFB et KCB » ne sont pas semblables en général. La lecture probable est KFB et KEC (deux triangles rectangles avec des angles en K opposés par le sommet), mais elle n'est pas confirmée.",
+   "Ex4 Q4c : le rapport BI/BA est illisible, non corrigée.",
+   "Barème de l'Ex2 : 0,75 / 1 / 1,25 d'après l'OCR ; la répartition entre 3a et 3b est proposée, non officielle.",
+   "Semestre : concours d'entrée en Seconde S (octobre), rangé en S1 comme révision des prérequis."
+  ]
+ }
+}

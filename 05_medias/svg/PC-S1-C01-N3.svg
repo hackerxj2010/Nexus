@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Graphe x(t) d'un MRU et vecteurs vitesse d'un MCU</title>
+<rect x="0" y="0" width="400" height="250" rx="18" fill="#fffdf8"/>
+<line x1="35.0" y1="200.0" x2="177.0" y2="200.0" stroke="#1f2937" stroke-width="2" stroke-linecap="butt"/>
+<polygon points="185.0,200.0 177.0,204.0 177.0,196.0" stroke="#1f2937" stroke-width="1" fill="#1f2937" stroke-linejoin="round"/>
+<line x1="35.0" y1="200.0" x2="35.0" y2="48.0" stroke="#1f2937" stroke-width="2" stroke-linecap="butt"/>
+<polygon points="35.0,40.0 39.0,48.0 31.0,48.0" stroke="#1f2937" stroke-width="1" fill="#1f2937" stroke-linejoin="round"/>
+<text x="192.0" y="205.0" font-size="15" text-anchor="start" fill="#1f2937" font-weight="normal">t</text>
+<text x="43.0" y="46.0" font-size="15" text-anchor="start" fill="#1f2937" font-weight="normal">x</text>
+<line x1="35.0" y1="170.0" x2="170.0" y2="70.0" stroke="#1d4ed8" stroke-width="3" stroke-linecap="round"/>
+<line x1="80.0" y1="136.7" x2="140.0" y2="136.7" stroke="#6b7280" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="140.0" y1="136.7" x2="140.0" y2="92.2" stroke="#6b7280" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="150.0" y="120.0" font-size="14" text-anchor="start" fill="#1d4ed8" font-weight="normal">pente = v</text>
+<text x="30.0" y="175.0" font-size="14" text-anchor="end" fill="#1f2937" font-weight="normal">x₀</text>
+<text x="110.0" y="232.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="bold">MRU : x = v t + x₀</text>
+<circle cx="290.0" cy="125.0" r="62.0" stroke="#1f2937" stroke-width="2" fill="none"/>
+<circle cx="290.0" cy="125.0" r="3.0" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<line x1="290.0" y1="125.0" x2="231.7" y2="146.2" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="258.0" y="127.0" font-size="14" text-anchor="middle" fill="#6b7280" font-weight="normal">R</text>
+<circle cx="290.0" cy="63.0" r="4.0" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<line x1="290.0" y1="63.0" x2="256.0" y2="63.0" stroke="#c0262d" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="245.0,63.0 256.0,57.5 256.0,68.5" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<circle cx="343.7" cy="156.0" r="4.0" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<line x1="343.7" y1="156.0" x2="360.7" y2="126.6" stroke="#c0262d" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="366.2,117.0 365.5,129.3 355.9,123.8" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<circle cx="236.3" cy="156.0" r="4.0" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<line x1="236.3" y1="156.0" x2="253.3" y2="185.4" stroke="#c0262d" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="258.8,195.0 248.5,188.2 258.1,182.7" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<text x="290.0" y="232.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="bold">MCU : même valeur v</text>
+<text x="290.0" y="30.0" font-size="13" text-anchor="middle" fill="#c0262d" font-weight="normal">direction qui change</text>
+</svg>

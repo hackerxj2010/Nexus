@@ -1,0 +1,436 @@
+{
+ "id": "EP-PC-S1-0005",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (septembre 2017)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2017-2018 (concours de septembre 2017)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Ions et tests d'identification — 3e",
+  "Puissance et énergie électriques — 3e",
+  "Lentilles convergentes — 3e",
+  "Poussée d'Archimède — 3e"
+ ],
+ "chapitres": [
+  "PC-S1-C02",
+  "PC-S1-C03",
+  "PC-S1-C08",
+  "PC-S2-C11",
+  "PC-S2-C13"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE (SEPTEMBRE 2017)**\n**ÉPREUVE DE SCIENCES PHYSIQUES** — Durée : 2 heures — Coeff : 2\n\n### EXERCICE 1 (5 pts)\n1. Écris la formule de chacun des ions suivants : ion chlorure ; ion ferreux ; ion sulfate ; ion zinc. (1 pt)\n2. a) Relève les cations puis les anions. (1 pt)\n   b) Lequel parmi ces ions réagit avec l'ion argent $\\ce{Ag+}$ pour donner un produit qui noircit à la lumière ? (0,5 pt)\n   c) Écris l'équation-bilan de cette réaction. (0,5 pt)\n3. Voici deux équations-bilans de deux réactions chimiques d'identification d'ions :\n   a) $\\ce{CO3^2- + 2H3O+ -> CO2 + 3H2O}$ ; b) $\\ce{Ba^2+ + SO4^2- -> BaSO4}$\n   Pour chaque équation, précise le nom du réactif utilisé, le nom de la solution testée et le nom du ou des produits obtenus. (2 pts)\n\n### EXERCICE 2 (4,5 pts)\n**A-** Ali dispose de deux lampes à incandescence L₁ et L₂. La lampe L₁ porte les indications « NARVA 40 W – 230 V » alors que sur le culot de la lampe L₂ est écrit « CLAUDE 60 W – 230 V ».\n1. Ali peut-il brancher ces deux lampes sur la tension du secteur (réseau électrique domestique) ? Justifie ta réponse. (1 pt)\n2. Les deux lampes étant correctement branchées, laquelle des deux lampes éclaire le plus ? Justifie ta réponse. (1 pt)\n\n**B-** Recopier les phrases suivantes en choisissant chaque fois la bonne réponse. (2,5 pts)\n- a) Le watt / watt-heure est une unité d'énergie électrique.\n- b) L'énergie consommée par un appareil électrique dépend / ne dépend pas de sa durée de fonctionnement.\n- c) L'énergie consommée par un appareil électrique diminue / augmente avec la durée d'utilisation.\n- d) L'énergie consommée par un appareil électrique dépend / ne dépend pas de sa puissance nominale.\n- e) Deux appareils électriques de puissances nominales identiques consomment / ne consomment pas la même énergie pendant la même durée de fonctionnement.\n\n### EXERCICE 3 (5,5 pts)\nLors d'une séance de TP, des élèves de la classe de troisième disposent sur un banc d'optique les éléments suivants :\n- un objet lumineux AB de 20 cm de hauteur (AB est perpendiculaire à l'axe optique avec A sur l'axe et B au-dessus) ;\n- une lentille convergente L de vergence C = 5 dioptries placée à 50 cm de l'objet ;\n- un écran E placé à 80 cm de l'objet AB.\n1. Calculer la distance focale de la lentille L. (0,5 pt)\n2. Représenter à l'échelle de 1/10 l'objet AB, la lentille L, l'écran E ainsi que les foyers objet (F) et image (F'). (1,5 pt)\n3. Construire l'image A'B' de l'objet AB. (1 pt)\n4. Déterminer la hauteur réelle de l'image A'B'. (1 pt)\n5. Calculer le grandissement G de la lentille. (0,5 pt)\n6. L'image A'B' est-elle nette sur l'écran ? Justifier. (1 pt)\n\n### EXERCICE 4 (5 pts)\nUn élève de la classe de 3e désire déterminer la nature d'un liquide X. Au cours d'un TP au laboratoire, il plonge un pavé homogène en bois de dimensions L = 20 cm ; l = 15 cm et h = 10 cm dans le liquide X. Ce pavé flotte. [Figure non disponible.]\n1. Que signifie « un pavé homogène » ? (0,25 pt)\n1'. Quand est-ce que le centre de gravité et le centre de poussée sont confondus ? (0,25 pt) [numéroté « 1- » deux fois dans le sujet]\n2. Calculer : a) le volume du pavé ; b) la masse m du pavé ; c) le poids P du pavé. (1,5 pt)\n3. Déterminer la poussée d'Archimède $P_A$ qui s'exerce sur le pavé. (0,5 pt)\n4. Calculer la masse volumique du liquide X. En déduire la nature du liquide. (1 pt)\n5. Reproduire le schéma et représenter le poids $\\vec P$ et la poussée d'Archimède $\\vec{P_A}$ à l'échelle 1 cm pour 7,5 N. (1,5 pt)\n\nDonnées : $\\rho_{bois} = 0{,}5\\ \\text{kg/dm}^3$ ; $g = 10\\ \\text{N/kg}$.\n\n| Substance | bois | eau | huile | alcool |\n|---|---|---|---|---|\n| Masse volumique (kg/dm³) | 0,5 | 1 | 0,92 | [illisible, probablement 0,8] |\n",
+ "questions": [
+  {
+   "numero": "Ex1-1",
+   "enonce": "Formules des ions.",
+   "points": 1,
+   "notions_titres": [
+    "Ions"
+   ],
+   "corrige": [
+    "Chlorure $\\ce{Cl-}$ ; ferreux (fer II) $\\ce{Fe^2+}$.",
+    "Sulfate $\\ce{SO4^2-}$ ; zinc $\\ce{Zn^2+}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Cl⁻, Fe²⁺, SO₄²⁻, Zn²⁺",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2.a",
+   "enonce": "Cations et anions.",
+   "points": 1,
+   "notions_titres": [
+    "Ions"
+   ],
+   "corrige": [
+    "Cations (charge +) : $\\ce{Fe^2+}$, $\\ce{Zn^2+}$.",
+    "Anions (charge −) : $\\ce{Cl-}$, $\\ce{SO4^2-}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Cations Fe²⁺, Zn²⁺ ; anions Cl⁻, SO₄²⁻",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2.b",
+   "enonce": "Ion qui réagit avec Ag⁺ (produit noircissant à la lumière).",
+   "points": 0.5,
+   "notions_titres": [
+    "Tests d'identification des ions"
+   ],
+   "corrige": [
+    "L'ion chlorure $\\ce{Cl-}$ (précipité blanc de chlorure d'argent qui noircit à la lumière)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Cl⁻",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2.c",
+   "enonce": "Équation de précipitation.",
+   "points": 0.5,
+   "notions_titres": [
+    "Tests d'identification des ions"
+   ],
+   "corrige": [
+    "$\\ce{Ag+ + Cl- -> AgCl}$"
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\ce{Ag+ + Cl- -> AgCl}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-3",
+   "enonce": "Réactif, solution testée, produits pour les deux équations.",
+   "points": 2,
+   "notions_titres": [
+    "Tests d'identification des ions"
+   ],
+   "corrige": [
+    "a) Réactif : une solution acide (acide chlorhydrique, ions H₃O⁺) ; solution testée : solution contenant des ions carbonate (ex. carbonate de sodium) ; produits : dioxyde de carbone (effervescence) et eau.",
+    "b) Réactif : solution de chlorure de baryum (ions Ba²⁺) ; solution testée : solution contenant des ions sulfate (ex. sulfate de cuivre) ; produit : sulfate de baryum (précipité blanc)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "resultat_final": "a) acide / carbonate / CO₂ + eau ; b) chlorure de baryum / sulfate / BaSO₄",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-A.1",
+   "enonce": "Peut-on brancher les lampes sur le secteur ?",
+   "points": 1,
+   "notions_titres": [
+    "Tension nominale"
+   ],
+   "corrige": [
+    "Les deux lampes ont une tension nominale de 230 V, égale (aux tolérances près) à la tension efficace du secteur (220-230 V).",
+    "Oui, Ali peut les brancher (en dérivation)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Oui",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-A.2",
+   "enonce": "Quelle lampe éclaire le plus ?",
+   "points": 1,
+   "notions_titres": [
+    "Puissance nominale"
+   ],
+   "corrige": [
+    "Sous la même tension, la lampe de plus grande puissance consomme et rayonne plus d'énergie par seconde.",
+    "L₂ (60 W) éclaire le plus."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "L₂ (60 W)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-B",
+   "enonce": "Choix des bonnes réponses a) à e).",
+   "points": 2.5,
+   "notions_titres": [
+    "Énergie électrique"
+   ],
+   "corrige": [
+    "a) Le **watt-heure** est une unité d'énergie électrique.",
+    "b) **dépend** de sa durée de fonctionnement.",
+    "c) **augmente** avec la durée d'utilisation.",
+    "d) **dépend** de sa puissance nominale.",
+    "e) **consomment** la même énergie."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "a) watt-heure ; b) dépend ; c) augmente ; d) dépend ; e) consomment",
+   "piege": "Le watt est une unité de puissance, pas d'énergie.",
+   "astuce": "E = P × t."
+  },
+  {
+   "numero": "Ex3-1",
+   "enonce": "Distance focale.",
+   "points": 0.5,
+   "notions_titres": [
+    "Vergence"
+   ],
+   "corrige": [
+    "$f = \\frac{1}{C} = \\frac{1}{5} = 0{,}20\\ \\text{m} = 20\\ \\text{cm}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "f = 20 cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-2",
+   "enonce": "Représentation à l'échelle 1/10.",
+   "points": 1.5,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "AB : 2 cm ; lentille à 5 cm de AB ; écran à 8 cm de AB (3 cm après la lentille).",
+    "Foyers F et F' à 2 cm de part et d'autre de O.",
+    "Soin, symboles et légendes."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "AB 2 cm, OA 5 cm, OF = OF' 2 cm, écran à 3 cm de O",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3",
+   "enonce": "Construction de l'image.",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "Rayon issu de B parallèle à l'axe : émerge en passant par F'.",
+    "Rayon passant par O : non dévié ; B' à l'intersection, A' sur l'axe."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Image réelle, renversée, à 3,3 cm de O sur le dessin",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-4",
+   "enonce": "Hauteur réelle de l'image.",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "$\\frac{1}{\\overline{OA'}} = \\frac{1}{20} - \\frac{1}{50} = \\frac{3}{100} \\Rightarrow \\overline{OA'} \\approx 33{,}3\\ \\text{cm}$.",
+    "$A'B' = AB \\times \\frac{OA'}{OA} = 20 \\times \\frac{33{,}3}{50} \\approx 13{,}3\\ \\text{cm}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "A'B' ≈ 13,3 cm",
+   "piege": "",
+   "astuce": "Sur le dessin à 1/10 on mesure ≈ 1,3 cm."
+  },
+  {
+   "numero": "Ex3-5",
+   "enonce": "Grandissement.",
+   "points": 0.5,
+   "notions_titres": [
+    "Grandissement"
+   ],
+   "corrige": [
+    "$G = \\frac{A'B'}{AB} = \\frac{13{,}3}{20} \\approx 0{,}67$ (image renversée : $\\gamma = -0{,}67$ en valeur algébrique)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "G ≈ 0,67",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-6",
+   "enonce": "L'image est-elle nette sur l'écran ?",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "L'écran est à 80 − 50 = 30 cm de la lentille alors que l'image se forme à 33,3 cm.",
+    "L'image **n'est pas nette** sur l'écran (il faut le reculer de 3,3 cm)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Non (écran à 30 cm, image à 33,3 cm)",
+   "piege": "Comparer 80 cm à 33,3 cm sans retrancher la distance objet-lentille.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1",
+   "enonce": "Signification de « pavé homogène ».",
+   "points": 0.25,
+   "notions_titres": [
+    "Masse volumique"
+   ],
+   "corrige": [
+    "Pavé fait d'une seule matière, de même masse volumique en tout point."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "Même matière / même masse volumique partout",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1'",
+   "enonce": "Quand centre de gravité et centre de poussée sont-ils confondus ?",
+   "points": 0.25,
+   "notions_titres": [
+    "Poussée d'Archimède"
+   ],
+   "corrige": [
+    "Quand le corps homogène est **entièrement immergé**."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "Corps homogène totalement immergé",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2",
+   "enonce": "Volume, masse et poids du pavé.",
+   "points": 1.5,
+   "notions_titres": [
+    "Masse volumique",
+    "Poids"
+   ],
+   "corrige": [
+    "$V = 2 \\times 1{,}5 \\times 1 = 3\\ \\text{dm}^3$.",
+    "$m = \\rho V = 0{,}5 \\times 3 = 1{,}5\\ \\text{kg}$.",
+    "$P = m g = 15\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "V = 3 dm³ ; m = 1,5 kg ; P = 15 N",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-3",
+   "enonce": "Poussée d'Archimède.",
+   "points": 0.5,
+   "notions_titres": [
+    "Flottaison"
+   ],
+   "corrige": [
+    "Le pavé flotte (équilibre sous deux forces) : $P_A = P = 15\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "PA = 15 N",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-4",
+   "enonce": "Masse volumique du liquide X et nature.",
+   "points": 1,
+   "notions_titres": [
+    "Poussée d'Archimède"
+   ],
+   "corrige": [
+    "$P_A = \\rho_X V_i g \\Rightarrow \\rho_X = \\frac{P_A}{V_i g}$ : il faut le volume immergé, donné par la figure (non disponible).",
+    "Si le pavé est **à moitié immergé** (cas de la version 2014 du même exercice) : $V_i = 1{,}5\\ \\text{dm}^3$, $\\rho_X = \\frac{15}{1{,}5 \\times 10} = 1\\ \\text{kg/dm}^3$ : le liquide est de l'**eau**."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "ρ = 1 kg/dm³ (eau) si le pavé est à moitié immergé",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-5",
+   "enonce": "Représentation des forces (1 cm pour 7,5 N).",
+   "points": 1.5,
+   "notions_titres": [
+    "Représentation d'une force"
+   ],
+   "corrige": [
+    "Poids : vertical vers le bas, au centre de gravité, 15/7,5 = 2 cm.",
+    "Poussée : verticale vers le haut, au centre de poussée (centre de la partie immergée), 2 cm.",
+    "Même droite d'action, sens opposés."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Deux vecteurs opposés de 2 cm",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Ions Cl⁻, Fe²⁺, SO₄²⁻, Zn²⁺ ; AgCl ; tests carbonate et sulfate ; lampes 230 V OK, L₂ plus lumineuse ; watt-heure/dépend/augmente/dépend/consomment ; f = 20 cm, OA' = 33,3 cm, A'B' = 13,3 cm, G = 0,67, image non nette ; V = 3 dm³, m = 1,5 kg, P = PA = 15 N.",
+  "passe2": "OA' recalculé par 50f/(50 − f) ; hauteur par 20f/(50 − f) ; ρX par V_i = V/2 (hypothèse). Identique.",
+  "code": "oui (verif.py)",
+  "desaccords": [
+   "Ex4-4 : l'énoncé OCR ne donne pas la fraction immergée (sans doute visible sur la figure) ; corrigé donné sous l'hypothèse « à moitié immergé » reprise de l'exercice identique de 2014.",
+   "Tableau des masses volumiques : valeur de l'alcool illisible (OCR « በ ደ ») ; 0,83 dans la version 2014.",
+   "Barème interne aux questions proposé, non officiel.",
+   "Fragment « EXERCICE IV (3 pts) photorésistance-transistor / EXERCICE V (4,5 pts) indicateurs colorés » placé après ce sujet dans le recueil : non rattaché (le sujet 2017 totalise déjà 20 points)."
+  ]
+ },
+ "notes_transcription": [
+  "Sujet complet (20 points).",
+  "Figure de l'exercice 4 non disponible."
+ ],
+ "points_transcrits": 20.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

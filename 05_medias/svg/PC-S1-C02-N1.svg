@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Représentation d'une force et actions réciproques</title>
+<rect x="0" y="0" width="400" height="300" rx="18" fill="#fffdf8"/>
+<text x="200.0" y="24.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="bold">1. Représenter une force (1 cm ↔ 10 N)</text>
+<line x1="20.0" y1="110.0" x2="380.0" y2="110.0" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+<line x1="25.0" y1="111.0" x2="17.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="55.0" y1="111.0" x2="47.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="85.0" y1="111.0" x2="77.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="115.0" y1="111.0" x2="107.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="145.0" y1="111.0" x2="137.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="175.0" y1="111.0" x2="167.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="205.0" y1="111.0" x2="197.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="235.0" y1="111.0" x2="227.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="265.0" y1="111.0" x2="257.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="295.0" y1="111.0" x2="287.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="325.0" y1="111.0" x2="317.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="355.0" y1="111.0" x2="347.0" y2="119.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<rect x="40.0" y="60.0" width="90.0" height="50.0" rx="4" stroke="#1f2937" stroke-width="2" fill="#f3e8d6"/>
+<text x="85.0" y="90.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="normal">chariot</text>
+<circle cx="130.0" cy="80.0" r="4.0" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<text x="124.0" y="72.0" font-size="14" text-anchor="end" fill="#1f2937" font-weight="bold">A</text>
+<line x1="130.0" y1="80.0" x2="370.0" y2="80.0" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="372.0" y="72.0" font-size="12" text-anchor="end" fill="#6b7280" font-weight="normal">droite d'action</text>
+<line x1="130.0" y1="80.0" x2="239.0" y2="80.0" stroke="#c0262d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="250.0,80.0 239.0,85.5 239.0,74.5" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<text x="258.0" y="100.0" font-size="14" text-anchor="start" fill="#c0262d" font-weight="normal">F = 30 N  →  3,0 cm</text>
+<text x="200.0" y="150.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="bold">2. Actions réciproques (livre / table)</text>
+<rect x="150.0" y="200.0" width="100.0" height="26.0" rx="3" stroke="#1f2937" stroke-width="2" fill="#dbeafe"/>
+<text x="232.0" y="218.0" font-size="13" text-anchor="middle" fill="#1d4ed8" font-weight="normal">livre</text>
+<rect x="60.0" y="226.0" width="280.0" height="14.0" rx="0" stroke="#1f2937" stroke-width="2" fill="#f3e8d6"/>
+<line x1="80.0" y1="240.0" x2="80.0" y2="290.0" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+<line x1="320.0" y1="240.0" x2="320.0" y2="290.0" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+<line x1="185.0" y1="226.0" x2="185.0" y2="181.0" stroke="#15803d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="185.0,170.0 190.5,181.0 179.5,181.0" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="178.0" y="182.0" font-size="13" text-anchor="end" fill="#15803d" font-weight="normal">table / livre</text>
+<line x1="215.0" y1="226.0" x2="215.0" y2="271.0" stroke="#c2410c" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="215.0,282.0 209.5,271.0 220.5,271.0" stroke="#c2410c" stroke-width="1" fill="#c2410c" stroke-linejoin="round"/>
+<text x="222.0" y="278.0" font-size="13" text-anchor="start" fill="#c2410c" font-weight="normal">livre / table</text>
+<text x="200.0" y="296.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal">même intensité, sens opposés</text>
+</svg>

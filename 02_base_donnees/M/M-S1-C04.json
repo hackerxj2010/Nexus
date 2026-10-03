@@ -1,0 +1,624 @@
+{
+ "id": "M-S1-C04",
+ "matiere": "M",
+ "semestre": 1,
+ "ordre": 4,
+ "titre": "Barycentre",
+ "objectifs": [
+  "Définir et construire le barycentre de deux ou trois points pondérés.",
+  "Calculer les coordonnées d'un barycentre.",
+  "Utiliser l'associativité pour construire un barycentre ou démontrer un alignement, un concours de droites.",
+  "Réduire une somme de vecteurs et déterminer des ensembles de points (cercles, médiatrices)."
+ ],
+ "prerequis": [
+  "M-S1-C02"
+ ],
+ "notions": [
+  {
+   "id": "M-S1-C04-N1",
+   "titre": "Barycentre de deux points pondérés",
+   "prerequis_notions": [
+    "M-S1-C02-N1",
+    "M-S1-C02-N2"
+   ],
+   "cours_md": ":::definition Point pondéré et barycentre\nUn **point pondéré** $(A\\,;\\alpha)$ est un point $A$ affecté d'un réel $\\alpha$ (son **poids** ou coefficient).\nSi $\\alpha+\\beta\\neq0$, il existe un **unique** point $G$ tel que\n$$\\alpha\\overrightarrow{GA}+\\beta\\overrightarrow{GB}=\\vec0.$$\n$G$ est le **barycentre** des points pondérés $(A\\,;\\alpha)$ et $(B\\,;\\beta)$. On note $G=\\mathrm{bar}\\{(A\\,;\\alpha),(B\\,;\\beta)\\}$.\n:::\n\n:::propriete Construction (démonstration)\nEn écrivant $\\overrightarrow{GB}=\\overrightarrow{GA}+\\overrightarrow{AB}$ : $\\alpha\\overrightarrow{GA}+\\beta\\overrightarrow{GA}+\\beta\\overrightarrow{AB}=\\vec0$, donc $(\\alpha+\\beta)\\overrightarrow{AG}=\\beta\\overrightarrow{AB}$ :\n$$\\overrightarrow{AG}=\\frac{\\beta}{\\alpha+\\beta}\\overrightarrow{AB}$$\nCeci prouve l'existence et l'unicité de $G$ quand $\\alpha+\\beta\\neq0$. Si $\\alpha+\\beta=0$ (avec $A\\neq B$), il n'y a **pas** de barycentre.\n:::\n\n:::propriete Propriétés\n- **Isobarycentre** : si $\\alpha=\\beta\\neq0$, $G$ est le **milieu** de $[AB]$.\n- **Homogénéité** : on ne change pas le barycentre en multipliant tous les poids par un même réel $k\\neq0$.\n- $G$ appartient à la droite $(AB)$ ; si $\\alpha$ et $\\beta$ sont de **même signe**, $G\\in[AB]$, plus près du point de plus grand poids (en valeur absolue).\n:::\n\n:::propriete Coordonnées\nDans un repère, si $G=\\mathrm{bar}\\{(A\\,;\\alpha),(B\\,;\\beta)\\}$ :\n$$x_G=\\frac{\\alpha x_A+\\beta x_B}{\\alpha+\\beta}\\qquad y_G=\\frac{\\alpha y_A+\\beta y_B}{\\alpha+\\beta}$$\n:::\n\n:::methode Placer un barycentre\n1. Vérifier que $\\alpha+\\beta\\neq0$.\n2. Calculer $\\dfrac{\\beta}{\\alpha+\\beta}$ et écrire $\\overrightarrow{AG}=\\dfrac{\\beta}{\\alpha+\\beta}\\overrightarrow{AB}$.\n3. Placer $G$ sur $(AB)$ à partir de $A$ (si le coefficient est négatif, on va dans le sens opposé à $B$).\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$AB=5$ cm. Construire $G=\\mathrm{bar}\\{(A\\,;2),(B\\,;3)\\}$.\n\n1. $2+3=5\\neq0$ : le barycentre existe.\n2. $\\overrightarrow{AG}=\\dfrac{3}{2+3}\\overrightarrow{AB}=\\dfrac35\\overrightarrow{AB}$.\n3. $AG=\\dfrac35\\times5=3$ cm : on place $G$ sur $[AB]$ à 3 cm de $A$ (plus près de $B$, qui a le plus grand poids).\n:::\n\n:::exemple Exemple 2\nDans un repère, $A(1\\,;4)$ et $B(7\\,;1)$. Calculer les coordonnées de $G=\\mathrm{bar}\\{(A\\,;2),(B\\,;1)\\}$.\n\n1. $x_G=\\dfrac{2\\times1+1\\times7}{2+1}=\\dfrac93=3$.\n2. $y_G=\\dfrac{2\\times4+1\\times1}{3}=\\dfrac93=3$.\n3. $G(3\\,;3)$.\n:::\n",
+   "definition": "Le barycentre de $(A;\\alpha)$ et $(B;\\beta)$ ($\\alpha+\\beta\\neq0$) est l'unique point $G$ tel que $\\alpha\\overrightarrow{GA}+\\beta\\overrightarrow{GB}=\\vec0$.",
+   "formules": [
+    "$\\alpha\\overrightarrow{GA}+\\beta\\overrightarrow{GB}=\\vec0$",
+    "$\\overrightarrow{AG}=\\dfrac{\\beta}{\\alpha+\\beta}\\overrightarrow{AB}$",
+    "$x_G=\\dfrac{\\alpha x_A+\\beta x_B}{\\alpha+\\beta}$"
+   ],
+   "niveaux": {
+    "phrase": "Le barycentre est le point d'équilibre de deux masses placées en A et en B.",
+    "simple": "Imagine une planche avec un enfant de 30 kg en A et un adulte de 90 kg en B : le point d'appui qui équilibre la balançoire est beaucoup plus près de l'adulte. C'est le barycentre de (A ; 30) et (B ; 90), ou de (A ; 1) et (B ; 3).",
+    "complete": "Pour $\\alpha+\\beta\\neq0$, l'égalité $\\alpha\\overrightarrow{GA}+\\beta\\overrightarrow{GB}=\\vec0$ équivaut à $\\overrightarrow{AG}=\\frac{\\beta}{\\alpha+\\beta}\\overrightarrow{AB}$ : existence et unicité. Le barycentre est invariant par multiplication des poids par $k\\neq0$ ; ses coordonnées sont les moyennes pondérées de celles de $A$ et $B$."
+   },
+   "analogie": "Deux vendeuses portent un long bambou chargé de régimes de bananes. Si le chargement pèse trois fois plus du côté de B, il faut le soulever aux trois quarts de la longueur à partir de A pour qu'il reste en équilibre.",
+   "exemples_resolus": [
+    {
+     "enonce": "$AB=5$ cm. Construire $G=\\mathrm{bar}\\{(A\\,;2),(B\\,;3)\\}$.",
+     "etapes": [
+      "$2+3=5\\neq0$ : le barycentre existe.",
+      "$\\overrightarrow{AG}=\\dfrac{3}{2+3}\\overrightarrow{AB}=\\dfrac35\\overrightarrow{AB}$.",
+      "$AG=\\dfrac35\\times5=3$ cm : on place $G$ sur $[AB]$ à 3 cm de $A$ (plus près de $B$, qui a le plus grand poids)."
+     ]
+    },
+    {
+     "enonce": "Dans un repère, $A(1\\,;4)$ et $B(7\\,;1)$. Calculer les coordonnées de $G=\\mathrm{bar}\\{(A\\,;2),(B\\,;1)\\}$.",
+     "etapes": [
+      "$x_G=\\dfrac{2\\times1+1\\times7}{2+1}=\\dfrac93=3$.",
+      "$y_G=\\dfrac{2\\times4+1\\times1}{3}=\\dfrac93=3$.",
+      "$G(3\\,;3)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $\\overrightarrow{AG}=\\dfrac{\\alpha}{\\alpha+\\beta}\\overrightarrow{AB}$ (c'est le poids de $B$, $\\beta$, qui est au numérateur).",
+    "Oublier de vérifier que la somme des poids n'est pas nulle.",
+    "Diviser par $\\alpha$ au lieu de $\\alpha+\\beta$ dans les coordonnées.",
+    "Placer G plus près du point le plus léger."
+   ],
+   "astuces": [
+    "Contrôle visuel : G est toujours du côté du poids le plus fort.",
+    "Simplifie les poids avant de calculer (homogénéité) : (A ; 4), (B ; 6) ⇔ (A ; 2), (B ; 3).",
+    "Le barycentre de (A ; 1), (B ; 1) est le milieu : sers-t'en pour vérifier tes formules."
+   ],
+   "mnemo": "« Le poids de B tire G vers B : AG = (poids de B / poids total) AB. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Le milieu $I$ de $[AB]$ a pour coordonnées $\\left(\\frac{x_A+x_B}2\\,;\\frac{y_A+y_B}2\\right)$ : c'est le barycentre avec des poids égaux. Le barycentre généralise le milieu avec des poids différents."
+   },
+   "methode_redaction": "Commence par « Comme α + β = ... ≠ 0, le barycentre G existe ». Écris la relation de définition, puis la relation de construction AG = ... AB. Fais une figure soignée à l'échelle.",
+   "flash": [
+    {
+     "q": "$\\mathrm{bar}\\{(A;1),(B;1)\\}$ ?",
+     "r": "Le milieu de [AB]."
+    },
+    {
+     "q": "Condition d'existence de $\\mathrm{bar}\\{(A;\\alpha),(B;\\beta)\\}$ ?",
+     "r": "$\\alpha+\\beta\\neq0$"
+    },
+    {
+     "q": "$G=\\mathrm{bar}\\{(A;1),(B;3)\\}$ : $\\overrightarrow{AG}=\\,?$",
+     "r": "$\\dfrac34\\overrightarrow{AB}$"
+    },
+    {
+     "q": "$(A;4),(B;6)$ a le même barycentre que ?",
+     "r": "$(A;2),(B;3)$"
+    },
+    {
+     "q": "$x_G$ pour $\\mathrm{bar}\\{(A;\\alpha),(B;\\beta)\\}$ ?",
+     "r": "$\\dfrac{\\alpha x_A+\\beta x_B}{\\alpha+\\beta}$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C04-N1.svg",
+    "alt": "Segment AB gradué en quarts ; G est aux trois quarts à partir de A, du côté de B qui a le poids 3.",
+    "legende": "G = bar{(A ; 1), (B ; 3)} : AG = 3/4 AB.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C04-N2",
+   "titre": "Barycentre de trois points et associativité",
+   "prerequis_notions": [
+    "M-S1-C04-N1"
+   ],
+   "cours_md": ":::definition Barycentre de trois points\nSi $\\alpha+\\beta+\\gamma\\neq0$, il existe un unique point $G$ tel que\n$$\\alpha\\overrightarrow{GA}+\\beta\\overrightarrow{GB}+\\gamma\\overrightarrow{GC}=\\vec0$$\net on a : $\\overrightarrow{AG}=\\dfrac{\\beta\\overrightarrow{AB}+\\gamma\\overrightarrow{AC}}{\\alpha+\\beta+\\gamma}$.\nCoordonnées : $x_G=\\dfrac{\\alpha x_A+\\beta x_B+\\gamma x_C}{\\alpha+\\beta+\\gamma}$ (de même pour $y_G$).\n:::\n\n:::propriete Associativité (barycentre partiel)\nSi $\\alpha+\\beta\\neq0$ et $H=\\mathrm{bar}\\{(A\\,;\\alpha),(B\\,;\\beta)\\}$, alors\n$$G=\\mathrm{bar}\\{(H\\,;\\alpha+\\beta),(C\\,;\\gamma)\\}.$$\nOn peut donc remplacer deux points par leur barycentre partiel, affecté de la **somme** de leurs poids.\n:::\n\n:::propriete Isobarycentre de trois points\n$\\mathrm{bar}\\{(A\\,;1),(B\\,;1),(C\\,;1)\\}$ est le **centre de gravité** du triangle $ABC$ : il est sur chaque médiane, aux $\\dfrac23$ à partir du sommet.\n:::\n\n:::methode Construire un barycentre de trois points\n1. Choisir deux points dont la somme des poids est non nulle (de préférence des poids « simples »).\n2. Construire leur barycentre partiel $H$.\n3. Construire $G=\\mathrm{bar}\\{(H\\,;\\alpha+\\beta),(C\\,;\\gamma)\\}$ comme un barycentre de deux points.\n:::\n\n:::methode Démontrer que des droites sont concourantes\nMontrer qu'un même point $G$ (barycentre bien choisi) appartient à chacune des droites, grâce à l'associativité en groupant les points de différentes façons.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$ABC$ est un triangle, $I$ le milieu de $[BC]$ et $G$ l'isobarycentre de $A$, $B$, $C$. Exprimer $\\overrightarrow{AG}$ en fonction de $\\overrightarrow{AI}$.\n\n1. $I=\\mathrm{bar}\\{(B\\,;1),(C\\,;1)\\}$ (milieu).\n2. Associativité : $G=\\mathrm{bar}\\{(A\\,;1),(I\\,;2)\\}$.\n3. Donc $\\overrightarrow{AG}=\\dfrac{2}{1+2}\\overrightarrow{AI}=\\dfrac23\\overrightarrow{AI}$ : $G$ est le centre de gravité.\n:::\n\n:::exemple Exemple 2\nConstruire $G=\\mathrm{bar}\\{(A\\,;1),(B\\,;3),(C\\,;2)\\}$.\n\n1. Barycentre partiel $H=\\mathrm{bar}\\{(A\\,;1),(B\\,;3)\\}$ : $\\overrightarrow{AH}=\\dfrac34\\overrightarrow{AB}$.\n2. Associativité : $G=\\mathrm{bar}\\{(H\\,;4),(C\\,;2)\\}$.\n3. $\\overrightarrow{HG}=\\dfrac{2}{4+2}\\overrightarrow{HC}=\\dfrac13\\overrightarrow{HC}$ : on place $G$ au tiers de $[HC]$ à partir de $H$.\n:::\n",
+   "definition": "Le barycentre de trois points pondérés se construit en remplaçant deux d'entre eux par leur barycentre partiel affecté de la somme de leurs poids.",
+   "formules": [
+    "$\\alpha\\overrightarrow{GA}+\\beta\\overrightarrow{GB}+\\gamma\\overrightarrow{GC}=\\vec0$",
+    "$\\overrightarrow{AG}=\\dfrac{\\beta\\overrightarrow{AB}+\\gamma\\overrightarrow{AC}}{\\alpha+\\beta+\\gamma}$",
+    "$G=\\mathrm{bar}\\{(H;\\alpha+\\beta),(C;\\gamma)\\}$"
+   ],
+   "niveaux": {
+    "phrase": "Avec trois points, on regroupe deux points en un seul (associativité) et on se ramène à deux points.",
+    "simple": "Pour trouver le point d'équilibre de trois paniers, on remplace d'abord deux paniers par un seul panier placé à leur point d'équilibre, qui pèse autant que les deux réunis.",
+    "complete": "Pour $\\alpha+\\beta+\\gamma\\neq0$ le barycentre existe et est unique. Le théorème d'associativité permet de le construire à partir d'un barycentre partiel et sert à démontrer des alignements et des concours de droites ; l'isobarycentre est le centre de gravité."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "$ABC$ est un triangle, $I$ le milieu de $[BC]$ et $G$ l'isobarycentre de $A$, $B$, $C$. Exprimer $\\overrightarrow{AG}$ en fonction de $\\overrightarrow{AI}$.",
+     "etapes": [
+      "$I=\\mathrm{bar}\\{(B\\,;1),(C\\,;1)\\}$ (milieu).",
+      "Associativité : $G=\\mathrm{bar}\\{(A\\,;1),(I\\,;2)\\}$.",
+      "Donc $\\overrightarrow{AG}=\\dfrac{2}{1+2}\\overrightarrow{AI}=\\dfrac23\\overrightarrow{AI}$ : $G$ est le centre de gravité."
+     ]
+    },
+    {
+     "enonce": "Construire $G=\\mathrm{bar}\\{(A\\,;1),(B\\,;3),(C\\,;2)\\}$.",
+     "etapes": [
+      "Barycentre partiel $H=\\mathrm{bar}\\{(A\\,;1),(B\\,;3)\\}$ : $\\overrightarrow{AH}=\\dfrac34\\overrightarrow{AB}$.",
+      "Associativité : $G=\\mathrm{bar}\\{(H\\,;4),(C\\,;2)\\}$.",
+      "$\\overrightarrow{HG}=\\dfrac{2}{4+2}\\overrightarrow{HC}=\\dfrac13\\overrightarrow{HC}$ : on place $G$ au tiers de $[HC]$ à partir de $H$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Affecter au barycentre partiel un poids autre que la somme des poids regroupés.",
+    "Regrouper deux points dont la somme des poids est nulle (le barycentre partiel n'existe pas).",
+    "Oublier de diviser par la somme totale α + β + γ dans les coordonnées."
+   ],
+   "astuces": [
+    "Groupe en priorité deux points de même poids : leur barycentre partiel est un milieu.",
+    "Pour prouver que G est sur une droite (MN), montre que G est barycentre de M et N.",
+    "Vérifie avec les coordonnées si un repère est donné."
+   ],
+   "mnemo": "« Deux points s'unissent, leurs poids s'additionnent. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 4e ? Les trois médianes d'un triangle sont concourantes en un point $G$, situé aux deux tiers de chaque médiane à partir du sommet : c'est l'isobarycentre des trois sommets."
+   },
+   "methode_redaction": "Annonce clairement le barycentre partiel (« Soit H le barycentre de (A ; 1) et (B ; 3) ; il existe car 1 + 3 ≠ 0 »), puis cite « d'après le théorème d'associativité ». Conclus par la position de G.",
+   "flash": [
+    {
+     "q": "Poids du barycentre partiel de (A ; 2) et (B ; 5) ?",
+     "r": "7"
+    },
+    {
+     "q": "Isobarycentre de $A$, $B$, $C$ ?",
+     "r": "Le centre de gravité du triangle ABC."
+    },
+    {
+     "q": "Condition d'existence de $\\mathrm{bar}\\{(A;\\alpha),(B;\\beta),(C;\\gamma)\\}$ ?",
+     "r": "$\\alpha+\\beta+\\gamma\\neq0$"
+    },
+    {
+     "q": "$G=\\mathrm{bar}\\{(A;1),(I;2)\\}$ : $\\overrightarrow{AG}=\\,?$",
+     "r": "$\\dfrac23\\overrightarrow{AI}$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C04-N2.svg",
+    "alt": "Triangle ABC avec I milieu de [AB] (poids 2) et G milieu de [IC].",
+    "legende": "Associativité : G = bar{(I ; 2), (C ; 2)} est le milieu de [IC].",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C04-N3",
+   "titre": "Réduction vectorielle et ensembles de points",
+   "prerequis_notions": [
+    "M-S1-C04-N1",
+    "M-S1-C04-N2"
+   ],
+   "cours_md": ":::propriete Réduction d'une somme $\\alpha\\overrightarrow{MA}+\\beta\\overrightarrow{MB}$\nPour tout point $M$ :\n- si $\\alpha+\\beta\\neq0$ et $G=\\mathrm{bar}\\{(A\\,;\\alpha),(B\\,;\\beta)\\}$ : $$\\alpha\\overrightarrow{MA}+\\beta\\overrightarrow{MB}=(\\alpha+\\beta)\\overrightarrow{MG}$$\n- si $\\alpha+\\beta=0$ : $\\alpha\\overrightarrow{MA}-\\alpha\\overrightarrow{MB}=\\alpha\\overrightarrow{BA}$, vecteur **constant** (indépendant de $M$).\n\nMême chose avec trois points : $\\alpha\\overrightarrow{MA}+\\beta\\overrightarrow{MB}+\\gamma\\overrightarrow{MC}=(\\alpha+\\beta+\\gamma)\\overrightarrow{MG}$.\n:::\n\n**Démonstration** (cas $\\alpha+\\beta\\neq0$) : $\\alpha\\overrightarrow{MA}+\\beta\\overrightarrow{MB}=\\alpha(\\overrightarrow{MG}+\\overrightarrow{GA})+\\beta(\\overrightarrow{MG}+\\overrightarrow{GB})=(\\alpha+\\beta)\\overrightarrow{MG}+\\underbrace{\\alpha\\overrightarrow{GA}+\\beta\\overrightarrow{GB}}_{=\\vec0}$.\n\n:::propriete Ensembles de points classiques\n- $MG=r$ ($r>0$) : **cercle** de centre $G$ et de rayon $r$.\n- $MG_1=MG_2$ : **médiatrice** du segment $[G_1G_2]$.\n- $\\overrightarrow{MG}$ colinéaire à un vecteur fixe $\\vec u\\neq\\vec0$ : **droite** passant par $G$ de direction $\\vec u$.\n:::\n\n:::methode Déterminer l'ensemble des points $M$ tels que $\\|\\alpha\\overrightarrow{MA}+\\beta\\overrightarrow{MB}\\|=k$\n1. Introduire le barycentre $G$ (vérifier $\\alpha+\\beta\\neq0$).\n2. Réduire : $\\|(\\alpha+\\beta)\\overrightarrow{MG}\\|=|\\alpha+\\beta|\\,MG=k$.\n3. En déduire $MG=\\dfrac{k}{|\\alpha+\\beta|}$ et reconnaître un cercle (ou un point, ou l'ensemble vide).\n:::\n\n:::attention\n$\\|(\\alpha+\\beta)\\overrightarrow{MG}\\|=|\\alpha+\\beta|\\times MG$ : n'oublie pas la **valeur absolue** quand la somme des poids est négative.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nRéduire $\\vec u=3\\overrightarrow{MA}-\\overrightarrow{MB}$ pour tout point $M$.\n\n1. $3+(-1)=2\\neq0$ : soit $G=\\mathrm{bar}\\{(A\\,;3),(B\\,;-1)\\}$.\n2. Alors $\\vec u=2\\overrightarrow{MG}$ pour tout point $M$.\n3. Position de $G$ : $\\overrightarrow{AG}=\\dfrac{-1}{2}\\overrightarrow{AB}$ : $G$ est sur $(AB)$, à la distance $\\dfrac{AB}2$ de $A$, du côté opposé à $B$ (c'est le symétrique du milieu $I$ de $[AB]$ par rapport à $A$).\n:::\n\n:::exemple Exemple 2\nDéterminer l'ensemble $\\mathcal{E}$ des points $M$ tels que $\\|\\overrightarrow{MA}+\\overrightarrow{MB}\\|=AB$.\n\n1. Soit $I$ le milieu de $[AB]$ : $\\overrightarrow{MA}+\\overrightarrow{MB}=2\\overrightarrow{MI}$.\n2. La condition devient $2MI=AB$, soit $MI=\\dfrac{AB}{2}$.\n3. $\\mathcal{E}$ est le cercle de centre $I$ et de rayon $\\dfrac{AB}2$, c'est-à-dire le **cercle de diamètre $[AB]$**.\n:::\n",
+   "definition": "Si $\\alpha+\\beta\\neq0$, $\\alpha\\overrightarrow{MA}+\\beta\\overrightarrow{MB}=(\\alpha+\\beta)\\overrightarrow{MG}$ où $G$ est le barycentre : une somme de vecteurs devient un seul vecteur.",
+   "formules": [
+    "$\\alpha\\overrightarrow{MA}+\\beta\\overrightarrow{MB}=(\\alpha+\\beta)\\overrightarrow{MG}$",
+    "$\\overrightarrow{MA}+\\overrightarrow{MB}=2\\overrightarrow{MI}$",
+    "$\\overrightarrow{MA}-\\overrightarrow{MB}=\\overrightarrow{BA}$"
+   ],
+   "niveaux": {
+    "phrase": "Le barycentre permet de remplacer une somme de vecteurs issus de M par un seul vecteur MG.",
+    "simple": "Au lieu de tirer une charrette avec deux cordes attachées en A et B, on peut tirer avec une seule corde attachée au bon point G, avec une force égale à la somme : c'est la réduction.",
+    "complete": "La réduction $\\sum\\alpha_i\\overrightarrow{MA_i}=(\\sum\\alpha_i)\\overrightarrow{MG}$ (si $\\sum\\alpha_i\\neq0$) transforme des conditions sur des sommes vectorielles en conditions sur la seule distance $MG$ : on obtient des cercles, des médiatrices ou des droites. Si $\\sum\\alpha_i=0$, la somme est un vecteur constant."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Réduire $\\vec u=3\\overrightarrow{MA}-\\overrightarrow{MB}$ pour tout point $M$.",
+     "etapes": [
+      "$3+(-1)=2\\neq0$ : soit $G=\\mathrm{bar}\\{(A\\,;3),(B\\,;-1)\\}$.",
+      "Alors $\\vec u=2\\overrightarrow{MG}$ pour tout point $M$.",
+      "Position de $G$ : $\\overrightarrow{AG}=\\dfrac{-1}{2}\\overrightarrow{AB}$ : $G$ est sur $(AB)$, à la distance $\\dfrac{AB}2$ de $A$, du côté opposé à $B$ (c'est le symétrique du milieu $I$ de $[AB]$ par rapport à $A$)."
+     ]
+    },
+    {
+     "enonce": "Déterminer l'ensemble $\\mathcal{E}$ des points $M$ tels que $\\|\\overrightarrow{MA}+\\overrightarrow{MB}\\|=AB$.",
+     "etapes": [
+      "Soit $I$ le milieu de $[AB]$ : $\\overrightarrow{MA}+\\overrightarrow{MB}=2\\overrightarrow{MI}$.",
+      "La condition devient $2MI=AB$, soit $MI=\\dfrac{AB}{2}$.",
+      "$\\mathcal{E}$ est le cercle de centre $I$ et de rayon $\\dfrac{AB}2$, c'est-à-dire le **cercle de diamètre $[AB]$**."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $\\|3\\overrightarrow{MG}\\|=3\\overrightarrow{MG}$ : une norme est un nombre, c'est $3MG$.",
+    "Oublier la valeur absolue : $\\|-2\\overrightarrow{MG}\\|=2MG$.",
+    "Appliquer la réduction quand la somme des poids est nulle.",
+    "Donner « un cercle » sans préciser son centre et son rayon."
+   ],
+   "astuces": [
+    "Repère les coefficients devant MA, MB, MC : ce sont les poids du barycentre à introduire.",
+    "Si la somme des poids est nulle, utilise Chasles : la somme ne dépend pas de M.",
+    "Fais une figure : place G et trace l'ensemble trouvé."
+   ],
+   "mnemo": "« Réduire, c'est remplacer l'équipe par son capitaine G, qui porte le poids total. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 4e ? Le cercle de centre $O$ et de rayon $r$ est l'ensemble des points $M$ tels que $OM=r$, et la médiatrice de $[AB]$ est l'ensemble des points équidistants de $A$ et $B$. Ce sont les ensembles que l'on retrouve après réduction."
+   },
+   "methode_redaction": "Rédige en trois temps : (1) « Soit G le barycentre de ..., il existe car ... ≠ 0 » ; (2) « Pour tout point M, ... = ...MG » ; (3) « M ∈ E ⇔ MG = ... ; donc E est le cercle de centre G et de rayon ... ».",
+   "flash": [
+    {
+     "q": "Réduire $\\overrightarrow{MA}+\\overrightarrow{MB}$.",
+     "r": "$2\\overrightarrow{MI}$, $I$ milieu de $[AB]$."
+    },
+    {
+     "q": "$\\overrightarrow{MA}-\\overrightarrow{MB}=\\,?$",
+     "r": "$\\overrightarrow{BA}$ (constant)"
+    },
+    {
+     "q": "Ensemble des $M$ tels que $MG=3$ ?",
+     "r": "Cercle de centre G, rayon 3."
+    },
+    {
+     "q": "Ensemble des $M$ tels que $MG_1=MG_2$ ?",
+     "r": "Médiatrice de $[G_1G_2]$."
+    },
+    {
+     "q": "$\\|-3\\overrightarrow{MG}\\|=\\,?$",
+     "r": "$3MG$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C04-N3.svg",
+    "alt": "Cercle de centre G (barycentre de A ; 1 et B ; 3) et de rayon 2 : ensemble des points M tels que la norme de MA + 3MB vaut 8.",
+    "legende": "‖MA + 3MB‖ = 8 ⇔ MG = 2 : cercle de centre G et de rayon 2.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S1-C04-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C04-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Le barycentre des points pondérés $(A\\,;5)$ et $(B\\,;5)$ est :",
+   "choix": [
+    "le point $A$",
+    "le milieu de $[AB]$",
+    "le point $B$",
+    "il n'existe pas"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Homogénéité : (A ; 5), (B ; 5) ⇔ (A ; 1), (B ; 1)."
+   ],
+   "corrige": [
+    "Les poids sont égaux et non nuls : c'est l'isobarycentre, donc le milieu de $[AB]$."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Croire que le barycentre n'existe pas.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C04-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C04-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "$G=\\mathrm{bar}\\{(A\\,;1),(B\\,;3)\\}$. Donner le réel $k$ tel que $\\overrightarrow{AG}=k\\overrightarrow{AB}$.",
+   "reponses_acceptees": [
+    "3/4",
+    "0,75",
+    "k=3/4",
+    "0.75"
+   ],
+   "indices": [
+    "Le poids de B est au numérateur."
+   ],
+   "corrige": [
+    "$\\overrightarrow{AG}=\\dfrac{\\beta}{\\alpha+\\beta}\\overrightarrow{AB}=\\dfrac{3}{1+3}\\overrightarrow{AB}$.",
+    "$k=\\dfrac34$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 1/4 (poids de A au numérateur).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C04-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C04-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère, $A(2\\,;-1)$ et $B(6\\,;3)$. Donner les coordonnées de $G=\\mathrm{bar}\\{(A\\,;3),(B\\,;1)\\}$ sous la forme $(x;y)$.",
+   "reponses_acceptees": [
+    "(3;0)",
+    "G(3;0)",
+    "3;0"
+   ],
+   "indices": [
+    "Moyenne pondérée des coordonnées."
+   ],
+   "corrige": [
+    "$x_G=\\dfrac{3\\times2+1\\times6}{4}=3$ ; $y_G=\\dfrac{3\\times(-1)+1\\times3}{4}=0$.",
+    "$G(3\\,;0)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par 3 au lieu de 4.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C04-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C04-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Le barycentre de $(A\\,;2)$ et $(B\\,;-2)$, avec $A\\neq B$ :",
+   "choix": [
+    "est le milieu de $[AB]$",
+    "n'existe pas",
+    "est le point $A$",
+    "est le symétrique de $A$ par rapport à $B$"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Calcule la somme des poids."
+   ],
+   "corrige": [
+    "$2+(-2)=0$ : la somme des poids est nulle.",
+    "Le barycentre n'existe pas ($2\\overrightarrow{MA}-2\\overrightarrow{MB}=2\\overrightarrow{BA}\\neq\\vec0$ pour tout $M$)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser que c'est le milieu.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C04-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C04-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "$G=\\mathrm{bar}\\{(A\\,;2),(B\\,;-1)\\}$. Donner le réel $k$ tel que $\\overrightarrow{AG}=k\\overrightarrow{AB}$.",
+   "reponses_acceptees": [
+    "-1",
+    "k=-1",
+    "−1"
+   ],
+   "indices": [
+    "β/(α + β) avec β = −1."
+   ],
+   "corrige": [
+    "$2+(-1)=1\\neq0$. $\\overrightarrow{AG}=\\dfrac{-1}{2-1}\\overrightarrow{AB}$.",
+    "$k=-1$ : $G$ est le symétrique de $B$ par rapport à $A$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier le signe moins.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C04-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C04-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère, $A(1\\,;2)$, $B(4\\,;-1)$, $C(-2\\,;5)$. Donner les coordonnées de $G=\\mathrm{bar}\\{(A\\,;1),(B\\,;2),(C\\,;-1)\\}$ sous la forme $(x;y)$.",
+   "reponses_acceptees": [
+    "(11/2;-5/2)",
+    "(5,5;-2,5)",
+    "(5.5;-2.5)"
+   ],
+   "indices": [
+    "Attention au poids négatif de C : −1 × (−2) = +2."
+   ],
+   "corrige": [
+    "Somme des poids : $1+2-1=2$.",
+    "$x_G=\\dfrac{1+8+2}{2}=\\dfrac{11}2$ ; $y_G=\\dfrac{2-2-5}{2}=-\\dfrac52$.",
+    "$G\\left(\\dfrac{11}2\\,;-\\dfrac52\\right)$."
+   ],
+   "bareme": [
+    0.5,
+    1,
+    0.5
+   ],
+   "piege": "Erreur de signe avec le poids −1.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C04-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C04-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "$G=\\mathrm{bar}\\{(A\\,;2),(B\\,;3)\\}$. Pour tout point $M$, $2\\overrightarrow{MA}+3\\overrightarrow{MB}=k\\overrightarrow{MG}$. Donner $k$.",
+   "reponses_acceptees": [
+    "5",
+    "k=5"
+   ],
+   "indices": [
+    "Somme des poids."
+   ],
+   "corrige": [
+    "Réduction : $\\alpha\\overrightarrow{MA}+\\beta\\overrightarrow{MB}=(\\alpha+\\beta)\\overrightarrow{MG}$.",
+    "$k=2+3=5$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 6 (produit) ou 1.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C04-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C04-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABC$ est un triangle. On considère $G=\\mathrm{bar}\\{(A\\,;1),(B\\,;1),(C\\,;2)\\}$ et $I$ le milieu de $[AB]$.\n\n1. Justifier l'existence de $G$.\n2. Démontrer que $G$ est le milieu de $[IC]$.\n3. Exprimer $\\overrightarrow{AG}$ en fonction de $\\overrightarrow{AB}$ et $\\overrightarrow{AC}$.",
+   "indices": [
+    "Regroupe A et B qui ont le même poids."
+   ],
+   "corrige": [
+    "1. $1+1+2=4\\neq0$ : $G$ existe.",
+    "2. $I=\\mathrm{bar}\\{(A\\,;1),(B\\,;1)\\}$. Par associativité, $G=\\mathrm{bar}\\{(I\\,;2),(C\\,;2)\\}$ : les poids sont égaux, donc $G$ est le milieu de $[IC]$.",
+    "3. $\\overrightarrow{AG}=\\dfrac{1\\times\\overrightarrow{AB}+2\\overrightarrow{AC}}{4}=\\dfrac14\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AC}$."
+   ],
+   "bareme": [
+    0.5,
+    2,
+    1.5
+   ],
+   "piege": "Affecter à I le poids 1 au lieu de 2.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C04-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C04-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "$A$ et $B$ sont deux points tels que $AB=4$ cm.\n\n1. Construire $G=\\mathrm{bar}\\{(A\\,;1),(B\\,;3)\\}$.\n2. Démontrer que pour tout point $M$ : $\\overrightarrow{MA}+3\\overrightarrow{MB}=4\\overrightarrow{MG}$.\n3. Déterminer et construire l'ensemble $\\mathcal{C}$ des points $M$ tels que $\\|\\overrightarrow{MA}+3\\overrightarrow{MB}\\|=8$.",
+   "indices": [
+    "Insère G avec Chasles.",
+    "Une norme d'un multiple : ‖kv‖ = |k| ‖v‖."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{AG}=\\dfrac34\\overrightarrow{AB}$ : $G\\in[AB]$ avec $AG=3$ cm.",
+    "2. $\\overrightarrow{MA}+3\\overrightarrow{MB}=(\\overrightarrow{MG}+\\overrightarrow{GA})+3(\\overrightarrow{MG}+\\overrightarrow{GB})=4\\overrightarrow{MG}+(\\overrightarrow{GA}+3\\overrightarrow{GB})=4\\overrightarrow{MG}$ car $\\overrightarrow{GA}+3\\overrightarrow{GB}=\\vec0$.",
+    "3. $M\\in\\mathcal{C}\\iff\\|4\\overrightarrow{MG}\\|=8\\iff4MG=8\\iff MG=2$.",
+    "$\\mathcal{C}$ est le cercle de centre $G$ et de rayon $2$ cm."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Conclure « un cercle » sans donner son centre et son rayon.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C04-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C04-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "$A$ et $B$ sont deux points distincts.\n\n1. Déterminer l'ensemble $\\mathcal{E}_1$ des points $M$ tels que $\\|\\overrightarrow{MA}+\\overrightarrow{MB}\\|=\\|\\overrightarrow{MA}-\\overrightarrow{MB}\\|$.\n2. On note $G_1=\\mathrm{bar}\\{(A\\,;1),(B\\,;2)\\}$ et $G_2=\\mathrm{bar}\\{(A\\,;2),(B\\,;1)\\}$. Déterminer l'ensemble $\\mathcal{E}_2$ des points $M$ tels que $\\|\\overrightarrow{MA}+2\\overrightarrow{MB}\\|=\\|2\\overrightarrow{MA}+\\overrightarrow{MB}\\|$.",
+   "indices": [
+    "Quand la somme des poids est nulle, la somme est un vecteur constant."
+   ],
+   "corrige": [
+    "1. Avec $I$ milieu de $[AB]$ : $\\overrightarrow{MA}+\\overrightarrow{MB}=2\\overrightarrow{MI}$ et $\\overrightarrow{MA}-\\overrightarrow{MB}=\\overrightarrow{BA}$.",
+    "$M\\in\\mathcal{E}_1\\iff2MI=AB\\iff MI=\\dfrac{AB}2$ : $\\mathcal{E}_1$ est le cercle de diamètre $[AB]$.",
+    "2. $\\overrightarrow{MA}+2\\overrightarrow{MB}=3\\overrightarrow{MG_1}$ et $2\\overrightarrow{MA}+\\overrightarrow{MB}=3\\overrightarrow{MG_2}$.",
+    "$M\\in\\mathcal{E}_2\\iff3MG_1=3MG_2\\iff MG_1=MG_2$ : $\\mathcal{E}_2$ est la médiatrice de $[G_1G_2]$ (c'est aussi la médiatrice de $[AB]$, car $G_1$ et $G_2$ sont symétriques par rapport au milieu $I$)."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "Introduire un barycentre pour MA − MB (somme des poids nulle).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C04-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C04-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABC$ est un triangle. $G=\\mathrm{bar}\\{(A\\,;2),(B\\,;1),(C\\,;1)\\}$. On note $I$ le milieu de $[BC]$, $J=\\mathrm{bar}\\{(A\\,;2),(B\\,;1)\\}$ et $K=\\mathrm{bar}\\{(A\\,;2),(C\\,;1)\\}$.\n\n1. Démontrer que $G$ est le milieu de $[AI]$.\n2. Démontrer que $G$ appartient aux droites $(CJ)$ et $(BK)$.\n3. Que peut-on dire des droites $(AI)$, $(CJ)$ et $(BK)$ ?",
+   "indices": [
+    "Regroupe les points de trois façons différentes."
+   ],
+   "corrige": [
+    "1. $I=\\mathrm{bar}\\{(B\\,;1),(C\\,;1)\\}$ ; associativité : $G=\\mathrm{bar}\\{(A\\,;2),(I\\,;2)\\}$, donc $G$ est le milieu de $[AI]$.",
+    "2. $J$ existe ($2+1\\neq0$) et $G=\\mathrm{bar}\\{(J\\,;3),(C\\,;1)\\}$ : $G\\in(CJ)$.",
+    "De même $G=\\mathrm{bar}\\{(K\\,;3),(B\\,;1)\\}$ : $G\\in(BK)$.",
+    "3. Les trois droites passent par $G$ : elles sont **concourantes** en $G$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Oublier de justifier l'existence des barycentres partiels.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C04-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C04-N2",
+    "M-S1-C04-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, $A(-1\\,;2)$, $B(3\\,;0)$ et $C(1\\,;4)$.\n\n1. Calculer les coordonnées de $G=\\mathrm{bar}\\{(A\\,;1),(B\\,;1),(C\\,;2)\\}$.\n2. Déterminer l'ensemble $\\Gamma$ des points $M$ tels que $\\|\\overrightarrow{MA}+\\overrightarrow{MB}+2\\overrightarrow{MC}\\|=2$.\n3. Le point $E(1\\,;3)$ appartient-il à $\\Gamma$ ?",
+   "indices": [
+    "Réduis la somme avec G.",
+    "Calcule GE."
+   ],
+   "corrige": [
+    "1. Somme des poids $4$ : $x_G=\\dfrac{-1+3+2}{4}=1$ et $y_G=\\dfrac{2+0+8}{4}=\\dfrac52$. $G\\left(1\\,;\\dfrac52\\right)$.",
+    "2. Pour tout $M$ : $\\overrightarrow{MA}+\\overrightarrow{MB}+2\\overrightarrow{MC}=4\\overrightarrow{MG}$. Donc $M\\in\\Gamma\\iff4MG=2\\iff MG=\\dfrac12$.",
+    "$\\Gamma$ est le cercle de centre $G\\left(1\\,;\\dfrac52\\right)$ et de rayon $\\dfrac12$.",
+    "3. $\\overrightarrow{GE}\\left(0\\,;\\dfrac12\\right)$, $GE=\\dfrac12$ : $E\\in\\Gamma$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Diviser par 3 (nombre de points) au lieu de 4 (somme des poids).",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Oublier de vérifier que la somme des poids est non nulle.",
+  "Mettre le mauvais poids au numérateur dans $\\overrightarrow{AG}=\\frac{\\beta}{\\alpha+\\beta}\\overrightarrow{AB}$.",
+  "Affecter au barycentre partiel un poids différent de la somme.",
+  "Écrire une norme égale à un vecteur, ou oublier la valeur absolue de la somme des poids.",
+  "Donner un ensemble de points sans son centre ni son rayon."
+ ]
+}

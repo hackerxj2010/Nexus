@@ -1,0 +1,521 @@
+{
+ "id": "EP-PC-S1-0006",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (septembre 2016)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2016-2017 (concours de septembre 2016)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Énergies renouvelables, puissance et énergie électriques — 3e",
+  "Tension alternative du secteur — 3e",
+  "Combustion du fer, ions fer II, corrosion — 3e",
+  "Miroir plan, lentilles convergentes — 3e",
+  "Vitesse moyenne, nature d'un mouvement — 3e"
+ ],
+ "chapitres": [
+  "PC-S1-C01",
+  "PC-S1-C08",
+  "PC-S2-C10",
+  "PC-S2-C12",
+  "PC-S2-C13",
+  "PC-S2-C15",
+  "PC-S2-C16"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE (SEPTEMBRE 2016)**\n**Sciences Physiques** — Durée : 2 h\n\n### Exercice I (5,5 points)\nUne centrale photovoltaïque domestique transforme l'énergie lumineuse rayonnée par le soleil en énergie électrique.\n1. La tension délivrée par le panneau solaire est-elle continue ou alternative ? (0,5 pt)\n2. Quel type de conversion énergétique réalise le panneau ? (0,5 pt)\n3. L'énergie reçue par le panneau est-elle renouvelable ? (0,5 pt)\n4. Citer deux autres sources d'énergie renouvelables. (1 pt)\n5. Pour un panneau solaire de puissance maximale 200 W, la tension de sortie est 28,5 V.\n   - a) Donner la relation reliant la puissance à l'intensité délivrée par le panneau et la tension aux bornes de ce panneau en précisant les unités utilisées. (0,5 pt)\n   - b) Calculer l'intensité du courant délivré par le panneau. (0,5 pt)\n6. Dans la liste ci-dessous, choisir deux caractéristiques de la tension du secteur : sinusoïdale, continue, alternative, triangulaire. (0,5 pt)\n7. Quelle est la fréquence de la tension du secteur ? (0,5 pt)\n8. Un téléviseur de 200 watts fonctionne pendant 2 heures. Calculez l'énergie en joules que doit fournir le panneau. (1 pt)\n\n### Exercice II (6,5 points)\n**A-** La poudre de fer brûle dans l'air. Cette transformation donne de l'oxyde de fer.\n1. Avec quel gaz le fer réagit-il lors de cette combustion ? Préciser son nom et sa formule. (1 pt)\n2. Quels sont les réactifs de cette combustion ? (1 pt)\n3. L'oxyde de fer formé lors de la combustion du fer a pour formule $\\ce{Fe3O4}$. Écrire et équilibrer l'équation bilan de cette transformation. (1 pt)\n\n**B-** On veut faire réagir sur cette poudre de fer de l'acide chlorhydrique.\n1. Quelle serait la valeur du pH de cette solution d'acide chlorhydrique : pH = 1,5 ou pH = 12,5 ? Justifier votre réponse. (1 pt)\n2. Il se forme un gaz et des ions fer II lors de cette transformation.\n   - a) Quel est le test de reconnaissance de l'ion fer II ? Préciser le résultat de ce test. (1 point)\n   - b) Quel est le gaz qui se produit ? Préciser comment l'identifier. (1 point)\n\n**C-** Une éraflure (écorchure) sur une carrosserie en acier (alliage contenant du fer) provoque l'apparition de rouille. Quels facteurs accélèrent cette oxydation de l'acier dans l'air ? (0,5 pt)\n\n### Exercice III (4 pts)\n1. Un objet lumineux MN de 2 cm de hauteur est placé à 5 cm en face d'un miroir plan vertical.\n   - 1.1 Construis son image M'N' donnée par le miroir. (1 pt)\n   - 1.2 Quelles sont les caractéristiques de l'image M'N' ? (1 pt)\n2. Une lentille convergente donne d'un objet de 20 cm de haut une image 4 fois plus grande. Cette image est formée sur un écran situé à 1,80 m de l'objet.\n   - 2.1 Représente sur une figure à l'échelle de 1/20 l'objet et l'image. (1 pt)\n   - 2.2 Sur la même figure, représente le foyer objet F et le foyer image F'. (0,5 pt)\n   - 2.3 Détermine graphiquement la distance focale f puis calcule la vergence C de la lentille. (0,5 pt)\n\n### Exercice 4 (4 points)\nUn « Zémidjan » parcourt 10 km en 15 minutes. Il roule en ville, où la vitesse est limitée à 50 km/h.\n1. Calculer la vitesse moyenne de ce Zémidjan sur ce trajet. Exprimer votre résultat en km/h et en m/s. (2 pts)\n2. Il reçoit quelques mois plus tard une contravention pour excès de vitesse. Les gendarmes lui expliquent alors son erreur en lui présentant le graphique ci-dessous. Il représente la vitesse en fonction du temps d'un automobiliste ayant lui aussi commis une infraction.\n\n   T.S.V.P — [suite rattachée par déduction, voir notes]\n\n   [Graphique non disponible : vitesse V (km/h, graduations 50 et 100) en fonction du temps t (min, graduations 2 à 10).]\n   - a) Quelle est la nature du mouvement entre 0 et 4 minutes ? (0,5 pt)\n   - b) Quelle est la nature du mouvement entre 4 et 6 minutes ? (0,5 pt)\n   - c) Quelle est la nature du mouvement entre 8 et 10 minutes ? (0,5 pt)\n   - d) À quel moment est-il en infraction ? (0,5 pt)\n",
+ "questions": [
+  {
+   "numero": "ExI-1",
+   "enonce": "Tension du panneau : continue ou alternative ?",
+   "points": 0.5,
+   "notions_titres": [
+    "Tensions continue et alternative"
+   ],
+   "corrige": [
+    "Un panneau photovoltaïque délivre une tension **continue**."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Continue",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-2",
+   "enonce": "Conversion réalisée.",
+   "points": 0.5,
+   "notions_titres": [
+    "Conversions d'énergie"
+   ],
+   "corrige": [
+    "Énergie **lumineuse** (rayonnante) → énergie **électrique**."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Lumineuse → électrique",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-3",
+   "enonce": "Énergie renouvelable ?",
+   "points": 0.5,
+   "notions_titres": [
+    "Énergies renouvelables"
+   ],
+   "corrige": [
+    "Oui, l'énergie solaire est renouvelable (inépuisable à notre échelle)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Oui",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-4",
+   "enonce": "Deux autres sources renouvelables.",
+   "points": 1,
+   "notions_titres": [
+    "Énergies renouvelables"
+   ],
+   "corrige": [
+    "Énergie hydraulique (barrage de Nangbéto).",
+    "Énergie éolienne (ou biomasse, géothermie)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Hydraulique, éolienne",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-5.a",
+   "enonce": "Relation puissance–tension–intensité.",
+   "points": 0.5,
+   "notions_titres": [
+    "Puissance électrique"
+   ],
+   "corrige": [
+    "$P = U \\times I$ avec P en watts (W), U en volts (V), I en ampères (A)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "P = U·I (W, V, A)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-5.b",
+   "enonce": "Intensité délivrée par le panneau.",
+   "points": 0.5,
+   "notions_titres": [
+    "Puissance électrique"
+   ],
+   "corrige": [
+    "$I = \\frac{P}{U} = \\frac{200}{28{,}5} \\approx 7{,}0\\ \\text{A}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "I ≈ 7,0 A",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-6",
+   "enonce": "Deux caractéristiques de la tension du secteur.",
+   "points": 0.5,
+   "notions_titres": [
+    "Tension alternative"
+   ],
+   "corrige": [
+    "**Alternative** et **sinusoïdale**."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Alternative, sinusoïdale",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-7",
+   "enonce": "Fréquence du secteur.",
+   "points": 0.5,
+   "notions_titres": [
+    "Tension alternative"
+   ],
+   "corrige": [
+    "f = **50 Hz**."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "50 Hz",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-8",
+   "enonce": "Énergie pour un téléviseur de 200 W pendant 2 h.",
+   "points": 1,
+   "notions_titres": [
+    "Énergie électrique"
+   ],
+   "corrige": [
+    "$E = P \\times t$ avec $t = 2 \\times 3600 = 7200\\ \\text{s}$.",
+    "$E = 200 \\times 7200 = 1{,}44 \\times 10^6\\ \\text{J}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "E = 1,44 × 10⁶ J",
+   "piege": "Laisser t en heures (on obtiendrait des Wh).",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-A.1",
+   "enonce": "Gaz qui réagit avec le fer.",
+   "points": 1,
+   "notions_titres": [
+    "Combustion du fer"
+   ],
+   "corrige": [
+    "Le **dioxygène** de l'air, de formule $\\ce{O2}$."
+   ],
+   "bareme": [
+    1
+   ],
+   "resultat_final": "Dioxygène O₂",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-A.2",
+   "enonce": "Réactifs de la combustion.",
+   "points": 1,
+   "notions_titres": [
+    "Combustion du fer"
+   ],
+   "corrige": [
+    "Le fer et le dioxygène."
+   ],
+   "bareme": [
+    1
+   ],
+   "resultat_final": "Fer et dioxygène",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-A.3",
+   "enonce": "Équation bilan.",
+   "points": 1,
+   "notions_titres": [
+    "Combustion du fer"
+   ],
+   "corrige": [
+    "$\\ce{3Fe + 2O2 -> Fe3O4}$."
+   ],
+   "bareme": [
+    1
+   ],
+   "resultat_final": "$\\ce{3Fe + 2O2 -> Fe3O4}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-B.1",
+   "enonce": "pH de la solution d'acide chlorhydrique.",
+   "points": 1,
+   "notions_titres": [
+    "pH"
+   ],
+   "corrige": [
+    "Une solution acide a un pH < 7.",
+    "Donc **pH = 1,5** (12,5 correspondrait à une solution basique)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "pH = 1,5",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-B.2.a",
+   "enonce": "Test de l'ion fer II.",
+   "points": 1,
+   "notions_titres": [
+    "Tests d'identification des ions"
+   ],
+   "corrige": [
+    "Ajouter quelques gouttes de soude (hydroxyde de sodium).",
+    "Résultat : **précipité vert** d'hydroxyde de fer II."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Soude → précipité vert",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-B.2.b",
+   "enonce": "Gaz produit et identification.",
+   "points": 1,
+   "notions_titres": [
+    "Tests des gaz"
+   ],
+   "corrige": [
+    "Le **dihydrogène** H₂.",
+    "Approché d'une flamme, il produit une légère détonation."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "H₂, détonation",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-C",
+   "enonce": "Facteurs accélérant la rouille.",
+   "points": 0.5,
+   "notions_titres": [
+    "Corrosion"
+   ],
+   "corrige": [
+    "L'humidité (eau) et le dioxygène de l'air ; l'air salin (bord de mer) et la chaleur accélèrent encore la corrosion."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Humidité, dioxygène, sel",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-1.1",
+   "enonce": "Construction de l'image par un miroir plan.",
+   "points": 1,
+   "notions_titres": [
+    "Miroir plan"
+   ],
+   "corrige": [
+    "M' et N' sont les symétriques de M et N par rapport au plan du miroir.",
+    "Image tracée en pointillés derrière le miroir, à 5 cm."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Image symétrique à 5 cm derrière le miroir",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-1.2",
+   "enonce": "Caractéristiques de l'image.",
+   "points": 1,
+   "notions_titres": [
+    "Miroir plan"
+   ],
+   "corrige": [
+    "Image **virtuelle**, **droite**,",
+    "de même taille (2 cm), à 5 cm derrière le miroir (symétrique de l'objet)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Virtuelle, droite, 2 cm, à 5 cm derrière",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-2.1",
+   "enonce": "Figure à l'échelle 1/20.",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "Image réelle 4 fois plus grande : $OA' = 4\\,OA$ et $OA + OA' = 180\\ \\text{cm} \\Rightarrow OA = 36\\ \\text{cm}$, $OA' = 144\\ \\text{cm}$.",
+    "À l'échelle 1/20 : objet 1 cm à 1,8 cm de la lentille, image renversée de 4 cm à 7,2 cm derrière."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "OA = 36 cm, OA' = 144 cm, A'B' = 80 cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-2.2",
+   "enonce": "Foyers sur la figure.",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "Le rayon issu du haut de l'objet parallèle à l'axe émerge en passant par le haut de l'image : il coupe l'axe en F' ; F est le symétrique de F' par rapport à O (≈ 1,44 cm de O sur la figure)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "F et F' à ≈ 1,44 cm de O (figure)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-2.3",
+   "enonce": "Distance focale et vergence.",
+   "points": 0.5,
+   "notions_titres": [
+    "Vergence"
+   ],
+   "corrige": [
+    "$f = \\frac{OA \\cdot OA'}{OA + OA'} = \\frac{36 \\times 144}{180} = 28{,}8\\ \\text{cm}$ (≈ 1,44 cm × 20 sur la figure).",
+    "$C = \\frac{1}{0{,}288} \\approx 3{,}5\\ \\delta$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "f ≈ 28,8 cm ; C ≈ 3,5 δ",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1",
+   "enonce": "Vitesse moyenne du Zémidjan.",
+   "points": 2,
+   "notions_titres": [
+    "Vitesse moyenne"
+   ],
+   "corrige": [
+    "$v = \\frac{d}{t} = \\frac{10\\ \\text{km}}{0{,}25\\ \\text{h}} = 40\\ \\text{km/h}$.",
+    "$v = \\frac{10\\,000\\ \\text{m}}{900\\ \\text{s}} \\approx 11{,}1\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "resultat_final": "40 km/h ≈ 11,1 m/s",
+   "piege": "Diviser par 15 sans convertir les minutes.",
+   "astuce": "Pour passer de km/h à m/s : diviser par 3,6."
+  },
+  {
+   "numero": "Ex4-2.a",
+   "enonce": "Nature du mouvement entre 0 et 4 min.",
+   "points": 0.5,
+   "notions_titres": [
+    "Mouvements"
+   ],
+   "corrige": [
+    "[Graphique non disponible] Méthode : vitesse croissante ⇒ mouvement accéléré ; constante ⇒ uniforme ; décroissante ⇒ ralenti (décéléré)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Non déterminable sans le graphique",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.b",
+   "enonce": "Nature du mouvement entre 4 et 6 min.",
+   "points": 0.5,
+   "notions_titres": [
+    "Mouvements"
+   ],
+   "corrige": [
+    "[Graphique non disponible] Même méthode (pente de la courbe v(t))."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Non déterminable sans le graphique",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.c",
+   "enonce": "Nature du mouvement entre 8 et 10 min.",
+   "points": 0.5,
+   "notions_titres": [
+    "Mouvements"
+   ],
+   "corrige": [
+    "[Graphique non disponible] Même méthode."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Non déterminable sans le graphique",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.d",
+   "enonce": "Moment de l'infraction.",
+   "points": 0.5,
+   "notions_titres": [
+    "Vitesse"
+   ],
+   "corrige": [
+    "[Graphique non disponible] Il est en infraction pendant les intervalles où la courbe dépasse 50 km/h (limite en ville)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Quand v > 50 km/h (lecture graphique impossible ici)",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Continue ; lumineuse → électrique ; renouvelable ; I ≈ 7,0 A ; alternative sinusoïdale 50 Hz ; 1,44 × 10⁶ J ; O₂ ; 3Fe + 2O₂ → Fe₃O₄ ; pH 1,5 ; précipité vert ; H₂ ; miroir : image virtuelle droite ; OA = 36 cm, OA' = 144 cm, f = 28,8 cm, C ≈ 3,5 δ ; 40 km/h = 11,1 m/s.",
+  "passe2": "f recalculé par 1/f = 1/OA + 1/OA' ; E = 0,4 kWh × 3,6 × 10⁶ ; v = 40/3,6. Identique.",
+  "code": "oui (verif.py)",
+  "desaccords": [
+   "Ex4-2 : graphique absent ; seules les méthodes sont données.",
+   "La page « V(km/h) ... a) b) c) d) » est rattachée à ce sujet par déduction : le sujet s'interrompt à « T.S.V.P » juste avant le graphique annoncé, et 2 + 4 × 0,5 = 4 points = total de l'exercice 4.",
+   "Barème interne aux questions proposé, non officiel."
+  ]
+ },
+ "notes_transcription": [
+  "Sujet complet (20 points), fin de l'exercice 4 rattachée par déduction ; graphique non disponible.",
+  "Coefficient non indiqué dans la partie OCR de ce sujet (2 pour les autres sessions)."
+ ],
+ "points_transcrits": 20.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

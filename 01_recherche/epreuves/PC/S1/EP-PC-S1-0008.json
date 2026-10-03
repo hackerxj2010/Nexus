@@ -1,0 +1,494 @@
+{
+ "id": "EP-PC-S1-0008",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (session d'octobre 2013)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2013-2014 (concours d'octobre 2013)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Lentilles convergentes, loupe — 3e",
+  "Équations chimiques (alcanes, métaux, acides) — 3e",
+  "Puissance électrique, grandeurs nominales — 3e",
+  "Propagation de la lumière et du son — 3e",
+  "Alcanes, isomérie, combustion — 3e"
+ ],
+ "chapitres": [
+  "PC-S2-C10",
+  "PC-S2-C11",
+  "PC-S2-C13",
+  "PC-S2-C15"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE — SESSION Oct 2013**\n**SCIENCES PHYSIQUES** — Durée : 2 h\n\n### Exercice 1 (4,5 pts)\nOn utilise une lentille convergente de distance focale 6 cm. Un objet réel AB est placé devant la lentille à une distance OA = 5 cm de celle-ci. On appelle A'B' l'image de AB donnée par cette lentille.\n1. Construire l'image A'B' de AB. (1 pt)\n2. Répondre par VRAI ou FAUX aux affirmations suivantes en justifiant. (6 × 0,25 pt)\n   - a) La vergence de la lentille vaut 20 dioptries.\n   - b) Un rayon lumineux passant par le centre optique émerge en passant par le foyer image.\n   - c) L'image A'B' se forme du même côté que l'objet par rapport à la lentille.\n   - d) L'image est réelle et renversée.\n   - e) L'image est plus grande que l'objet.\n   - f) Ce montage modélise une loupe. [OCR : la lettre de cette 6e affirmation est illisible]\n3. Qu'est-ce qui différencie les lentilles convergentes des lentilles divergentes ? (0,5 pt)\n4. Citer quatre objets familiers dans lesquels on retrouve des lentilles. (1 pt)\n5. Comment déterminer expérimentalement la distance focale d'une lentille convergente ? (0,5 pt)\n\n### Exercice 2 (3,75 pts)\nReprendre les formules des composés soulignés, compléter puis équilibrer les équations suivantes. (3,75 pts)\n[L'OCR a mélangé les termes de ces équations ; lecture la plus probable :]\n1. Butane + $\\ce{O2}$ → $\\ce{CO2}$ + ...\n2. Aluminium + dioxygène → alumine\n3. Acide chlorhydrique + zinc → ... + $\\ce{H2}$\n4. Fer + ... → $\\ce{Fe3O4}$ [OCR : « Fau + ... →Fe₂04 »]\n\n### Exercice 3 (4,25 pts)\nLa plaque signalétique d'un four porte les indications suivantes : 2500 W, 220 V, 50 Hz.\n1. a) Quelles grandeurs indiquent ces nombres ? b) Dans quelles unités ces grandeurs sont-elles exprimées ? (2,25 pts)\n2. Avec quel appareil peut-on mesurer la valeur 220 V ? (Choisir parmi les suivants et justifier.) (1 pt)\n   A - Voltmètre sur position continue ; B - Voltmètre sur position alternative ; C - Ampèremètre sur position continue ; D - Ampèremètre sur position alternative. [la 4e lettre est lue « C » dans l'OCR]\n3. a) Quelle relation existe-t-il entre la puissance consommée par un dipôle, la tension à ses bornes et l'intensité du courant qui le traverse ? (0,5 pt)\n   b) Calculer l'intensité nécessaire au fonctionnement normal du four. (0,5 pt)\n\n### Exercice 4 (3,5 pts)\nLors d'un orage, la foudre tombe à 5,0 km d'un promeneur. L'éclair et le tonnerre sont émis simultanément au moment où la foudre tombe.\n1. Donner la vitesse de propagation de la lumière dans l'air. (0,5 pt)\n2. Donner la vitesse de propagation du son dans l'air. (0,5 pt)\n3. Lequel du tonnerre ou de l'éclair le promeneur perçoit-il en premier ? (0,5 pt)\n4. Au bout de combien de temps entendra-t-il le tonnerre ? (0,5 pt)\n5. Au bout de combien de temps le promeneur verra-t-il l'éclair ? (0,5 pt)\n6. Ta réponse du 1) est-elle cohérente avec celles trouvées au 4) et 5) ? (0,5 pt)\n7. Justifier la technique qui consiste à compter les secondes entre l'éclair et le tonnerre et à diviser par 3 pour obtenir la distance (en kilomètres) à laquelle la foudre est tombée. (0,5 pt)\n\n### Exercice 5 (4 pts) [OCR : « Exercices (4pts) »]\n1. Trouve deux raisons pour lesquelles les combustibles sont brûlés dans les ménages. (0,5 pt) Qu'est-ce qu'une réaction exothermique ? (0,5 pt)\n2. 1 m³ d'air est nécessaire pour brûler complètement un volume V d'un alcane de formule $\\ce{C_xH_y}$, avec $x + y = 14$.\n   - a) Qu'est-ce qu'un alcane ? Trouve la formule brute de cet alcane. (1 pt)\n   - b) Qu'appelle-t-on isomères ? Trouve toutes les formules développées et noms de cet alcane. (1,5 pt)\n   - c) Calcule le volume d'alcane brûlé et le volume de gaz produit. (0,5 pt)\n",
+ "questions": [
+  {
+   "numero": "Ex1-1",
+   "enonce": "Construction de l'image (f = 6 cm, OA = 5 cm).",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes",
+    "Loupe"
+   ],
+   "corrige": [
+    "Rayon issu de B parallèle à l'axe → émerge par F' ; rayon par O non dévié : les rayons émergents divergent.",
+    "On prolonge les rayons émergents vers l'arrière : B' est à l'intersection des prolongements (image virtuelle, en pointillés), A' sur l'axe à 30 cm devant la lentille."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Image virtuelle, droite, à 30 cm devant la lentille, 6 fois plus grande",
+   "piege": "Chercher l'intersection des rayons eux-mêmes : ils ne se coupent pas.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2",
+   "enonce": "VRAI ou FAUX (6 affirmations).",
+   "points": 1.5,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "a) FAUX : $C = \\frac{1}{0{,}06} \\approx 16{,}7\\ \\delta$.",
+    "b) FAUX : un rayon passant par le centre optique n'est pas dévié.",
+    "c) VRAI : $\\frac{1}{\\overline{OA'}} = \\frac{1}{6} - \\frac{1}{5} \\Rightarrow \\overline{OA'} = -30\\ \\text{cm}$ (même côté que l'objet).",
+    "d) FAUX : l'image est virtuelle et droite.",
+    "e) VRAI : $\\gamma = \\frac{-30}{-5} = 6$.",
+    "f) VRAI : objet entre le foyer et la lentille ⇒ loupe."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+   ],
+   "resultat_final": "a F ; b F ; c V ; d F ; e V ; f V",
+   "piege": "",
+   "astuce": "Objet entre F et O : image virtuelle, droite, agrandie."
+  },
+  {
+   "numero": "Ex1-3",
+   "enonce": "Différence convergentes / divergentes.",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles"
+   ],
+   "corrige": [
+    "Convergentes : bords minces, font converger un faisceau parallèle (foyer réel) ; divergentes : bords épais, le font diverger (foyer virtuel)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Bords minces / épais ; convergence / divergence",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-4",
+   "enonce": "Quatre objets contenant des lentilles.",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles"
+   ],
+   "corrige": [
+    "Loupe, lunettes de vue.",
+    "Appareil photo, microscope (jumelles, vidéoprojecteur)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Loupe, lunettes, appareil photo, microscope",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-5",
+   "enonce": "Détermination expérimentale de f.",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "Former sur un écran l'image nette d'un objet très éloigné (soleil, fenêtre lointaine) : la distance lentille-écran est égale à f."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Image d'un objet lointain : distance lentille-écran = f",
+   "piege": "Ne jamais viser le soleil à l'œil à travers la lentille.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-1",
+   "enonce": "Combustion du butane.",
+   "points": 1,
+   "notions_titres": [
+    "Combustion des alcanes"
+   ],
+   "corrige": [
+    "$\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$"
+   ],
+   "bareme": [
+    1
+   ],
+   "resultat_final": "$\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-2",
+   "enonce": "Aluminium + dioxygène → alumine.",
+   "points": 1,
+   "notions_titres": [
+    "Oxydation des métaux"
+   ],
+   "corrige": [
+    "$\\ce{4Al + 3O2 -> 2Al2O3}$"
+   ],
+   "bareme": [
+    1
+   ],
+   "resultat_final": "$\\ce{4Al + 3O2 -> 2Al2O3}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-3",
+   "enonce": "Acide chlorhydrique + zinc.",
+   "points": 1,
+   "notions_titres": [
+    "Action des acides sur les métaux"
+   ],
+   "corrige": [
+    "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$ (forme ionique : $\\ce{Zn + 2H3O+ -> Zn^2+ + H2 + 2H2O}$)."
+   ],
+   "bareme": [
+    1
+   ],
+   "resultat_final": "$\\ce{Zn + 2HCl -> ZnCl2 + H2}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-4",
+   "enonce": "Fer + dioxygène → Fe₃O₄.",
+   "points": 0.75,
+   "notions_titres": [
+    "Combustion du fer"
+   ],
+   "corrige": [
+    "$\\ce{3Fe + 2O2 -> Fe3O4}$ (si le produit lu « Fe₂04 » est en fait $\\ce{Fe2O3}$ : $\\ce{4Fe + 3O2 -> 2Fe2O3}$)."
+   ],
+   "bareme": [
+    0.75
+   ],
+   "resultat_final": "$\\ce{3Fe + 2O2 -> Fe3O4}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-1",
+   "enonce": "Grandeurs et unités de la plaque signalétique.",
+   "points": 2.25,
+   "notions_titres": [
+    "Grandeurs nominales"
+   ],
+   "corrige": [
+    "2500 W : puissance nominale, en watts (W).",
+    "220 V : tension nominale (efficace), en volts (V).",
+    "50 Hz : fréquence de la tension alternative, en hertz (Hz)."
+   ],
+   "bareme": [
+    0.75,
+    0.75,
+    0.75
+   ],
+   "resultat_final": "Puissance (W), tension (V), fréquence (Hz)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-2",
+   "enonce": "Appareil pour mesurer 220 V.",
+   "points": 1,
+   "notions_titres": [
+    "Mesure de tension"
+   ],
+   "corrige": [
+    "Une tension se mesure avec un voltmètre ; celle du secteur est alternative.",
+    "Réponse **B** : voltmètre sur position alternative."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "B",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3.a",
+   "enonce": "Relation P, U, I.",
+   "points": 0.5,
+   "notions_titres": [
+    "Puissance électrique"
+   ],
+   "corrige": [
+    "$P = U \\times I$"
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "P = U·I",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3.b",
+   "enonce": "Intensité de fonctionnement du four.",
+   "points": 0.5,
+   "notions_titres": [
+    "Puissance électrique"
+   ],
+   "corrige": [
+    "$I = \\frac{P}{U} = \\frac{2500}{220} \\approx 11{,}4\\ \\text{A}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "I ≈ 11,4 A",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1",
+   "enonce": "Vitesse de la lumière dans l'air.",
+   "points": 0.5,
+   "notions_titres": [
+    "Propagation de la lumière"
+   ],
+   "corrige": [
+    "$c \\approx 3{,}0 \\times 10^8\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "3,0 × 10⁸ m/s",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2",
+   "enonce": "Vitesse du son dans l'air.",
+   "points": 0.5,
+   "notions_titres": [
+    "Propagation du son"
+   ],
+   "corrige": [
+    "$v \\approx 340\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "≈ 340 m/s",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-3",
+   "enonce": "Perçu en premier.",
+   "points": 0.5,
+   "notions_titres": [
+    "Propagation"
+   ],
+   "corrige": [
+    "L'**éclair** (la lumière est environ un million de fois plus rapide que le son)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "L'éclair",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-4",
+   "enonce": "Durée avant d'entendre le tonnerre.",
+   "points": 0.5,
+   "notions_titres": [
+    "Propagation du son"
+   ],
+   "corrige": [
+    "$t = \\frac{d}{v} = \\frac{5000}{340} \\approx 14{,}7\\ \\text{s}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "≈ 14,7 s",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-5",
+   "enonce": "Durée avant de voir l'éclair.",
+   "points": 0.5,
+   "notions_titres": [
+    "Propagation de la lumière"
+   ],
+   "corrige": [
+    "$t = \\frac{5000}{3{,}0 \\times 10^8} \\approx 1{,}7 \\times 10^{-5}\\ \\text{s}$ (pratiquement instantané)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "≈ 1,7 × 10⁻⁵ s",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-6",
+   "enonce": "Cohérence des réponses.",
+   "points": 0.5,
+   "notions_titres": [
+    "Propagation"
+   ],
+   "corrige": [
+    "Oui : le temps de la lumière (1,7 × 10⁻⁵ s) est négligeable devant celui du son (14,7 s) ; l'éclair est bien perçu en premier (réponse 3)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Oui, cohérent",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-7",
+   "enonce": "Justifier la règle « secondes ÷ 3 = km ».",
+   "points": 0.5,
+   "notions_titres": [
+    "Propagation du son"
+   ],
+   "corrige": [
+    "Le son parcourt 1 km en $\\frac{1000}{340} \\approx 2{,}9 \\approx 3\\ \\text{s}$ ; la lumière arrive instantanément, donc la durée Δt mesurée est celle du son et $d\\,(\\text{km}) \\approx \\frac{\\Delta t\\,(\\text{s})}{3}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "1 km ≈ 3 s pour le son",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-1",
+   "enonce": "Usages des combustibles ; réaction exothermique.",
+   "points": 1,
+   "notions_titres": [
+    "Combustions"
+   ],
+   "corrige": [
+    "Cuire les aliments ; chauffer (ou éclairer, chauffer l'eau).",
+    "Réaction exothermique : réaction qui libère de la chaleur."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Cuisson, chauffage ; libère de la chaleur",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-2.a",
+   "enonce": "Alcane et formule brute (x + y = 14).",
+   "points": 1,
+   "notions_titres": [
+    "Alcanes"
+   ],
+   "corrige": [
+    "Alcane : hydrocarbure saturé de formule $\\ce{C_nH_{2n+2}}$.",
+    "$n + 2n + 2 = 14 \\Rightarrow n = 4$ : $\\ce{C4H10}$ (butane)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "C₄H₁₀",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-2.b",
+   "enonce": "Isomères : définition, formules et noms.",
+   "points": 1.5,
+   "notions_titres": [
+    "Isomérie"
+   ],
+   "corrige": [
+    "Isomères : composés de même formule brute mais de formules développées différentes.",
+    "$\\ce{CH3-CH2-CH2-CH3}$ : butane.",
+    "$\\ce{CH3-CH(CH3)-CH3}$ : méthylpropane."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Butane et méthylpropane",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-2.c",
+   "enonce": "Volume d'alcane brûlé et de gaz produit (1 m³ d'air).",
+   "points": 0.5,
+   "notions_titres": [
+    "Combustion des alcanes",
+    "Volumes gazeux"
+   ],
+   "corrige": [
+    "Air : 1/5 de O₂ ⇒ $V_{O_2} = 0{,}2\\ \\text{m}^3$ ; avec $\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$ : $V = \\frac{2}{13} \\times 0{,}2 \\approx 0{,}031\\ \\text{m}^3 = 31\\ \\text{L}$ de butane ; $V_{CO_2} = \\frac{8}{13} \\times 0{,}2 \\approx 0{,}12\\ \\text{m}^3 = 123\\ \\text{L}$ (plus 154 L de vapeur d'eau si on la compte comme gaz)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "≈ 31 L de butane ; ≈ 123 L de CO₂",
+   "piege": "Prendre 1 m³ de dioxygène au lieu de 1 m³ d'air.",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "OA' = −30 cm, γ = 6 ; F F V F V V ; équations C₄H₁₀, Al, Zn, Fe ; I = 11,4 A ; 14,7 s et 1,7 × 10⁻⁵ s ; C₄H₁₀ ; 31 L butane, 123 L CO₂.",
+  "passe2": "γ recalculé par f/(f + OA) = 6/(6 − 5) ; t_son = 5/0,34 ; volumes par V(O₂)/6,5 ; écart si l'air contient 21 % de O₂ : 32 L et 129 L (même arrondi à 0,03 m³ près).",
+  "code": "oui (verif.py)",
+  "desaccords": [
+   "Ex2 : équations mal restituées par l'OCR ; lecture probable retenue (butane, aluminium/alumine, zinc/acide chlorhydrique, fer/Fe₃O₄) ; à confirmer sur le scan. Barème par équation proposé (1 + 1 + 1 + 0,75).",
+   "Ex5-2.c : dépend de la convention air = 1/5 de O₂ (retenue) ; gaz produit compté = CO₂ (eau liquide à température ordinaire).",
+   "Ex4-6 : l'énoncé renvoie à « la réponse du 1) » ; il s'agit vraisemblablement de la réponse 3) (ordre de perception).",
+   "Barème interne aux questions proposé, non officiel."
+  ]
+ },
+ "notes_transcription": [
+  "Sujet complet (20 points). Exercice 2 partiellement brouillé par l'OCR."
+ ],
+ "points_transcrits": 20.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

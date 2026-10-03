@@ -76,6 +76,29 @@
    "chapitre": "M-S1-C03"
   },
   {
+   "id": "M-S1-C04",
+   "type": "chapitre",
+   "titre": "Barycentre"
+  },
+  {
+   "id": "M-S1-C04-N1",
+   "type": "notion",
+   "titre": "Barycentre de deux points pondérés",
+   "chapitre": "M-S1-C04"
+  },
+  {
+   "id": "M-S1-C04-N2",
+   "type": "notion",
+   "titre": "Barycentre de trois points et associativité",
+   "chapitre": "M-S1-C04"
+  },
+  {
+   "id": "M-S1-C04-N3",
+   "type": "notion",
+   "titre": "Réduction vectorielle et ensembles de points",
+   "chapitre": "M-S1-C04"
+  },
+  {
    "id": "PC-S1-C01",
    "type": "chapitre",
    "titre": "Généralités sur le mouvement"
@@ -122,6 +145,29 @@
    "chapitre": "PC-S1-C02"
   },
   {
+   "id": "PC-S1-C03",
+   "type": "chapitre",
+   "titre": "Équilibre d'un solide soumis à des forces"
+  },
+  {
+   "id": "PC-S1-C03-N1",
+   "type": "notion",
+   "titre": "Faire le bilan des forces appliquées à un solide",
+   "chapitre": "PC-S1-C03"
+  },
+  {
+   "id": "PC-S1-C03-N2",
+   "type": "notion",
+   "titre": "Équilibre d'un solide soumis à deux forces",
+   "chapitre": "PC-S1-C03"
+  },
+  {
+   "id": "PC-S1-C03-N3",
+   "type": "notion",
+   "titre": "Équilibre d'un solide soumis à trois forces non parallèles",
+   "chapitre": "PC-S1-C03"
+  },
+  {
    "id": "SVT-S1-C01",
    "type": "chapitre",
    "titre": "La cellule, unité structurale et fonctionnelle du vivant"
@@ -143,6 +189,29 @@
    "type": "notion",
    "titre": "Unité et diversité des cellules : théorie cellulaire, procaryotes et eucaryotes",
    "chapitre": "SVT-S1-C01"
+  },
+  {
+   "id": "SVT-S1-C02",
+   "type": "chapitre",
+   "titre": "Les échanges entre la cellule et son milieu : diffusion, osmose, transport actif"
+  },
+  {
+   "id": "SVT-S1-C02-N1",
+   "type": "notion",
+   "titre": "La membrane plasmique et la diffusion",
+   "chapitre": "SVT-S1-C02"
+  },
+  {
+   "id": "SVT-S1-C02-N2",
+   "type": "notion",
+   "titre": "L'osmose : turgescence, plasmolyse et hémolyse",
+   "chapitre": "SVT-S1-C02"
+  },
+  {
+   "id": "SVT-S1-C02-N3",
+   "type": "notion",
+   "titre": "Absorption sélective et transport actif",
+   "chapitre": "SVT-S1-C02"
   },
   {
    "id": "FR-S1-C01",
@@ -311,6 +380,30 @@
    "vers": "M-S1-C03-N3"
   },
   {
+   "de": "M-S1-C02",
+   "vers": "M-S1-C04"
+  },
+  {
+   "de": "M-S1-C02-N1",
+   "vers": "M-S1-C04-N1"
+  },
+  {
+   "de": "M-S1-C02-N2",
+   "vers": "M-S1-C04-N1"
+  },
+  {
+   "de": "M-S1-C04-N1",
+   "vers": "M-S1-C04-N2"
+  },
+  {
+   "de": "M-S1-C04-N1",
+   "vers": "M-S1-C04-N3"
+  },
+  {
+   "de": "M-S1-C04-N2",
+   "vers": "M-S1-C04-N3"
+  },
+  {
    "de": "PC-3e-MOUVEMENT",
    "vers": "PC-S1-C01"
   },
@@ -355,6 +448,30 @@
    "vers": "PC-S1-C02-N3"
   },
   {
+   "de": "PC-S1-C02",
+   "vers": "PC-S1-C03"
+  },
+  {
+   "de": "M-3e-TRIGONOMETRIE",
+   "vers": "PC-S1-C03"
+  },
+  {
+   "de": "PC-S1-C02-N1",
+   "vers": "PC-S1-C03-N1"
+  },
+  {
+   "de": "PC-S1-C02-N3",
+   "vers": "PC-S1-C03-N1"
+  },
+  {
+   "de": "PC-S1-C03-N1",
+   "vers": "PC-S1-C03-N2"
+  },
+  {
+   "de": "PC-S1-C03-N2",
+   "vers": "PC-S1-C03-N3"
+  },
+  {
    "de": "SVT-3e-CELLULE",
    "vers": "SVT-S1-C01"
   },
@@ -377,6 +494,26 @@
   {
    "de": "SVT-S1-C01-N2",
    "vers": "SVT-S1-C01-N3"
+  },
+  {
+   "de": "SVT-S1-C01",
+   "vers": "SVT-S1-C02"
+  },
+  {
+   "de": "SVT-S1-C01-N2",
+   "vers": "SVT-S1-C02-N1"
+  },
+  {
+   "de": "SVT-S1-C02-N1",
+   "vers": "SVT-S1-C02-N2"
+  },
+  {
+   "de": "SVT-S1-C02-N1",
+   "vers": "SVT-S1-C02-N3"
+  },
+  {
+   "de": "SVT-S1-C02-N2",
+   "vers": "SVT-S1-C02-N3"
   },
   {
    "de": "FR-3e-COMMUNICATION",

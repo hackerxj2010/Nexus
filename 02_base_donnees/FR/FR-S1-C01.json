@@ -1,0 +1,556 @@
+{
+ "id": "FR-S1-C01",
+ "matiere": "FR",
+ "semestre": 1,
+ "ordre": 1,
+ "titre": "Communication et énonciation",
+ "objectifs": [
+  "L'élève doit être capable d'identifier les six éléments de la communication et la fonction dominante d'un message.",
+  "L'élève doit être capable de reconnaître un énoncé ancré et un énoncé coupé en s'appuyant sur des indices précis.",
+  "L'élève doit être capable de relever et d'interpréter les modalisateurs pour définir le point de vue de l'énonciateur.",
+  "L'élève doit être capable de transformer des paroles du discours direct au discours indirect et d'en expliquer l'effet."
+ ],
+ "prerequis": [
+  "FR-3e-COMMUNICATION",
+  "FR-3e-ENONCIATION",
+  "FR-3e-DISCOURS-RAPPORTE"
+ ],
+ "notions": [
+  {
+   "id": "FR-S1-C01-N1",
+   "titre": "Le schéma de la communication et les fonctions du langage",
+   "prerequis_notions": [
+    "FR-3e-COMMUNICATION"
+   ],
+   "cours_md": "## 1. Communiquer, c'est transmettre un message\n\n:::definition\nLa **communication** est l'échange d'un **message** entre un **émetteur** (celui qui parle ou écrit) et un **récepteur** (celui qui écoute ou lit), grâce à un **canal** (voix, papier, téléphone…) et à un **code** commun (une langue), à propos d'un **référent** (ce dont on parle).\n:::\n\nLe linguiste Roman Jakobson (1896-1982) a décrit ces **six éléments**. À chacun correspond une **fonction du langage**.\n\n| Élément | Question à se poser | Fonction | Exemple |\n|---|---|---|---|\n| Émetteur | Qui parle ? | expressive (ou émotive) | « Hélas ! que je suis fatigué ! » |\n| Récepteur | À qui ? | conative (ou impressive) | « Range tes cahiers ! » |\n| Message | Comment est-ce dit ? | poétique | rimes, rythme, jeux de sons, images |\n| Référent | De quoi parle-t-on ? | référentielle (informative) | « Le Mono sert en partie de frontière entre le Togo et le Bénin. » |\n| Canal | Par quel moyen ? | phatique | « Allô ? Tu m'entends ? » |\n| Code | Avec quelle langue ? | métalinguistique | « Le mot zémidjan désigne le taxi-moto. » |\n\n:::propriete\nUn même message remplit souvent **plusieurs fonctions** à la fois. On cherche alors la **fonction dominante**, celle qui correspond au **but principal** du message. Une publicité est surtout **conative** (elle veut faire acheter) mais souvent aussi **poétique** (slogan rimé).\n:::\n\n## 2. Les fonctions expliquées\n\n- **Expressive** : l'émetteur exprime ses sentiments, son opinion (interjections, exclamations, « je », vocabulaire affectif).\n- **Conative** : l'émetteur veut agir sur le récepteur (impératif, questions, apostrophes, « tu/vous »).\n- **Référentielle** : le message informe objectivement (3e personne, présent, vocabulaire neutre).\n- **Phatique** : on établit, maintient ou vérifie le contact (« Allô », « Tu me suis ? », « Bonjour »).\n- **Métalinguistique** : on parle de la langue elle-même (définitions, explications de mots).\n- **Poétique** : on travaille la forme du message (sons, rythme, figures) : poésie, slogans, proverbes.\n\n## 3. Écrit, oral et texte littéraire\n\n- À l'**oral**, émetteur et récepteur partagent souvent le même lieu et le même moment ; les gestes et l'intonation aident.\n- À l'**écrit**, le récepteur est absent : il faut tout rendre clair (ponctuation, connecteurs, phrases complètes).\n- Dans un **texte littéraire**, il y a plusieurs niveaux : l'**auteur** (personne réelle) écrit pour le **lecteur** ; le **narrateur** raconte ; les **personnages** se parlent dans les dialogues.\n\n:::methode\n**Identifier la situation de communication d'un texte**\n1. Qui parle ou écrit ? (indices : je, nous, signature)\n2. À qui ? (tu, vous, apostrophe comme « Cher ami »)\n3. De quoi ? (le thème = le référent)\n4. Par quel canal ? (lettre, discours, article, radio, réseau social…)\n5. Dans quel but ? → la fonction dominante, justifiée par des indices précis.\n:::\n\n:::attention\nNe confonds pas **auteur** et **narrateur** : dans un roman écrit à la 1re personne, le « je » est le narrateur, qui n'est pas forcément l'auteur.\n:::\n\n## 4. Exemple analysé\n\n> « Mes chers camarades, écoutez-moi bien : demain, nous irons planter cent arbres derrière le lycée. »\n\n- Émetteur : un élève (le délégué) ; récepteur : ses camarades (apostrophe « Mes chers camarades »).\n- Canal : oral (petit discours) ; code : le français.\n- Référent : l'opération de reboisement.\n- Fonction dominante : **conative** (impératif « écoutez-moi » ; but : faire agir), avec une touche **phatique** (« écoutez-moi bien » vérifie l'attention).",
+   "definition": "La communication met en jeu six éléments (émetteur, récepteur, message, référent, canal, code) ; à chacun correspond une fonction du langage (expressive, conative, poétique, référentielle, phatique, métalinguistique).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Tout message va de quelqu'un vers quelqu'un, à propos de quelque chose, par un moyen et dans une langue.",
+    "simple": "Imagine un appel téléphonique : toi (émetteur), ton ami (récepteur), ce que tu dis (message), le sujet (référent), le téléphone (canal), le français ou l'éwé (code).",
+    "complete": "Selon Jakobson, toute communication suppose un émetteur, un récepteur, un message, un référent, un canal et un code. Chaque élément est associé à une fonction du langage ; un message en combine plusieurs, et l'analyse consiste à dégager la fonction dominante en la justifiant par des indices linguistiques (personnes, modes, ponctuation, vocabulaire)."
+   },
+   "analogie": "Au marché d'Adawlato, la vendeuse (émetteur) crie « Venez voir, mes tomates sont fraîches ! » (fonction conative) à la cliente (récepteur), en mina ou en français (code), de vive voix (canal). Si la cliente répond « Hein ? Tu dis combien ? », elle vérifie le contact : fonction phatique.",
+   "exemples_resolus": [
+    {
+     "enonce": "Quelle est la fonction dominante de : « Le mot griot désigne un conteur, musicien et gardien de la mémoire » ?",
+     "etapes": [
+      "La phrase explique le sens d'un mot.",
+      "Le message porte donc sur le code (la langue).",
+      "Fonction dominante : métalinguistique."
+     ]
+    },
+    {
+     "enonce": "Fonction dominante de : « Votez pour la liste verte ! »",
+     "etapes": [
+      "Impératif « votez » : l'émetteur cherche à faire agir le récepteur.",
+      "Fonction dominante : conative."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre fonction expressive (centrée sur l'émetteur) et fonction conative (centrée sur le récepteur).",
+    "Donner une fonction sans la justifier par un indice du texte.",
+    "Croire qu'un message n'a qu'une seule fonction.",
+    "Confondre l'auteur, le narrateur et le personnage qui parle."
+   ],
+   "astuces": [
+    "Pour la fonction dominante, demande-toi : « Pourquoi ce message a-t-il été produit ? »",
+    "Impératif + vous/tu = pense d'abord à la fonction conative.",
+    "Interjections et exclamations + je = pense à la fonction expressive."
+   ],
+   "mnemo": "« Émetteur Exprime, Récepteur Reçoit l'ordre (Conative), Code Commente la langue (Métalinguistique), Canal Contrôle le contact (Phatique) » ; le Référent Renseigne, le message se fait Poème.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris à repérer qui parle, à qui et dans quel but. Le schéma de Jakobson range simplement ces questions en six éléments."
+   },
+   "methode_redaction": "Sur la copie : nomme la fonction, puis justifie-la par au moins un indice cité entre guillemets (« L'impératif \"écoutez\" montre que… »). Une fonction sans preuve vaut au mieux la moitié des points.",
+   "flash": [
+    {
+     "q": "Quels sont les six éléments du schéma de Jakobson ?",
+     "r": "Émetteur, récepteur, message, référent, canal, code."
+    },
+    {
+     "q": "Quelle fonction est centrée sur le récepteur ?",
+     "r": "La fonction conative (ou impressive)."
+    },
+    {
+     "q": "« Allô, tu m'entends ? » : quelle fonction ?",
+     "r": "Phatique : on vérifie le contact."
+    },
+    {
+     "q": "Quelle fonction est centrée sur le code ?",
+     "r": "La fonction métalinguistique : on parle de la langue."
+    },
+    {
+     "q": "Quelle fonction travaille la forme du message ?",
+     "r": "La fonction poétique (sons, rythme, images)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C01-N1.svg",
+    "alt": "Schéma : référent en haut, émetteur, message et récepteur au centre, canal et code en bas, avec la fonction associée à chaque élément et un exemple pour chacune.",
+    "legende": "Les six éléments de la communication selon Jakobson et leurs fonctions.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C01-N2",
+   "titre": "La situation d'énonciation : énoncé ancré et énoncé coupé",
+   "prerequis_notions": [
+    "FR-3e-ENONCIATION",
+    "FR-S1-C01-N1"
+   ],
+   "cours_md": "## 1. Énonciation et énoncé\n\n:::definition\nL'**énonciation** est l'acte de produire un message. L'**énoncé** est le message produit. La **situation d'énonciation** répond à quatre questions : **qui** parle (l'énonciateur), **à qui** (le destinataire), **où** et **quand**.\n:::\n\n## 2. Les indices de l'énonciation (ou déictiques)\n\n- **Pronoms et déterminants** de 1re et 2e personne : je, tu, nous, vous, me, te, mon, ton, notre, votre…\n- **Indicateurs de lieu** : ici, là-bas, près d'ici, ce quartier…\n- **Indicateurs de temps** : aujourd'hui, hier, demain, maintenant, il y a deux jours, la semaine prochaine…\n- **Temps verbaux** liés au moment où l'on parle : présent d'énonciation, passé composé, futur.\n\n:::propriete\nLes **déictiques** ne prennent leur sens que grâce à la situation : « demain » ne désigne pas le même jour selon la date où l'on parle ; « ici » change selon l'endroit où se trouve l'énonciateur.\n:::\n\n## 3. Énoncé ancré et énoncé coupé\n\n| | Énoncé **ancré** (discours) | Énoncé **coupé** (récit) |\n|---|---|---|\n| Lien avec la situation | oui, on sait qui parle, où et quand | non, le texte est détaché du moment où l'on écrit |\n| Personnes | je, tu, nous, vous | il, elle, ils, elles |\n| Temps dominants | présent, passé composé, futur | passé simple, imparfait, plus-que-parfait |\n| Repères de temps | aujourd'hui, hier, demain | ce jour-là, la veille, le lendemain |\n| Exemples | lettre, dialogue, discours, journal intime, article d'opinion | conte, roman à la 3e personne, récit historique |\n\n- Ancré : « Je t'écris de Kara ; hier, il a fait très chaud. »\n- Coupé : « Ce jour-là, le vieux pêcheur quitta Aného avant l'aube. »\n\n:::methode\n**Analyser l'énonciation d'un texte en 4 étapes**\n1. Relève les **pronoms** (je/tu ou il/elle).\n2. Relève les **temps** dominants.\n3. Relève les **indicateurs** de temps et de lieu.\n4. **Conclus** (ancré ou coupé) puis **interprète** : pourquoi ce choix ? (proximité, témoignage, émotion, ou au contraire distance et objectivité).\n:::\n\n:::remarque\nBeaucoup de textes **mêlent** les deux systèmes : un roman (récit coupé) contient des dialogues (discours ancré). Le **présent de vérité générale** (« L'eau bout à 100 °C ») n'est pas lié à la situation : il ne suffit pas à rendre un énoncé ancré.\n:::\n\n:::attention\nLe « on » et le « nous » peuvent désigner l'énonciateur ; un récit à la 1re personne au passé simple (« Je partis le lendemain ») est un récit : il emploie « je » mais avec les repères du récit.\n:::",
+   "definition": "La situation d'énonciation précise qui parle, à qui, où et quand ; un énoncé ancré dépend de cette situation (je, ici, maintenant), un énoncé coupé en est détaché (il, ce jour-là, passé simple).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Ancré = « je, ici, maintenant » ; coupé = « il, là-bas, ce jour-là ».",
+    "simple": "Un message vocal WhatsApp (« je suis ici, j'arrive demain ») est ancré : il faut savoir qui l'a envoyé et quand. Un conte du soir (« Il était une fois… ») est coupé : il se comprend sans connaître le conteur.",
+    "complete": "L'énonciation est l'acte de production d'un énoncé par un énonciateur, à destination d'un destinataire, dans un lieu et un moment donnés. Les déictiques (pronoms de 1re et 2e personne, adverbes de temps et de lieu relatifs, présent d'énonciation, passé composé, futur) ancrent l'énoncé dans cette situation. L'énoncé coupé, ou récit, utilise la 3e personne, le système passé simple/imparfait et des repères absolus ou relatifs au texte (la veille, le lendemain)."
+   },
+   "analogie": "Le zémidjan qui te dit « Je te dépose ici ? » parle en énoncé ancré : « je », « te » et « ici » n'ont de sens que sur place, au moment où il parle.",
+   "exemples_resolus": [
+    {
+     "enonce": "« Le 27 avril 1960, le Togo devint indépendant. La foule chanta toute la nuit. » Énoncé ancré ou coupé ?",
+     "etapes": [
+      "Pronoms : 3e personne (le Togo, la foule).",
+      "Temps : passé simple (devint, chanta).",
+      "Repère : date absolue, pas de « aujourd'hui ».",
+      "Conclusion : énoncé coupé (récit historique), qui donne une impression d'objectivité."
+     ]
+    },
+    {
+     "enonce": "« Aujourd'hui, j'ai enfin compris la leçon ; demain, je la réciterai devant vous. »",
+     "etapes": [
+      "Pronoms : je, vous.",
+      "Temps : passé composé et futur.",
+      "Indicateurs : aujourd'hui, demain.",
+      "Conclusion : énoncé ancré."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire « ancré » dès qu'on voit « je », même dans un récit au passé simple.",
+    "Oublier de justifier par les trois types d'indices (pronoms, temps, indicateurs).",
+    "Confondre présent d'énonciation et présent de vérité générale.",
+    "Constater sans interpréter (« le texte est ancré » sans dire pourquoi l'auteur fait ce choix)."
+   ],
+   "astuces": [
+    "Cherche d'abord les mots « hier / aujourd'hui / demain » : s'ils sont là, l'énoncé est presque sûrement ancré.",
+    "Passé simple dominant = récit = énoncé coupé.",
+    "Termine toujours par l'effet produit : proximité et émotion (ancré) ou distance et objectivité (coupé)."
+   ],
+   "mnemo": "« JIM » : Je – Ici – Maintenant = ancré. « ILC » : Il – Là – Ce jour-là = coupé.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu distinguais le discours (dialogue, lettre) et le récit (conte, roman). La situation d'énonciation donne des outils précis pour faire cette distinction."
+   },
+   "methode_redaction": "Rédige en trois temps : « L'énoncé est ancré. En effet, on relève les pronoms \"je\" et \"vous\", le passé composé \"j'ai compris\" et l'indicateur \"aujourd'hui\". Ce choix rapproche l'énonciateur de ses lecteurs. »",
+   "flash": [
+    {
+     "q": "Quelles sont les quatre questions de la situation d'énonciation ?",
+     "r": "Qui parle ? À qui ? Où ? Quand ?"
+    },
+    {
+     "q": "Qu'est-ce qu'un déictique ?",
+     "r": "Un mot dont le sens dépend de la situation : je, tu, ici, demain…"
+    },
+    {
+     "q": "Temps dominants d'un énoncé coupé ?",
+     "r": "Passé simple et imparfait (plus-que-parfait)."
+    },
+    {
+     "q": "« Hier » devient quoi dans un récit coupé ?",
+     "r": "« La veille »."
+    },
+    {
+     "q": "Un énoncé avec « je » est-il toujours ancré ?",
+     "r": "Non : « Je partis le lendemain » est un récit (énoncé coupé)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C01-N2.svg",
+    "alt": "Tableau comparant énoncé ancré et énoncé coupé selon les personnes, les temps, les repères de temps et de lieu, avec des exemples de textes.",
+    "legende": "Les indices qui permettent de distinguer discours et récit.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C01-N3",
+   "titre": "La modalisation et le point de vue de l'énonciateur",
+   "prerequis_notions": [
+    "FR-S1-C01-N2"
+   ],
+   "cours_md": "## 1. Qu'est-ce que la modalisation ?\n\n:::definition\nLa **modalisation** est l'ensemble des procédés par lesquels l'énonciateur montre son **attitude** à l'égard de ce qu'il dit : certitude ou doute, approbation ou critique, émotion. Les mots qui la marquent s'appellent des **modalisateurs**.\n:::\n\n## 2. Les principaux modalisateurs\n\n1. **Adverbes** : certainement, sans doute, peut-être, probablement, heureusement, hélas, malheureusement, vraiment.\n2. **Verbes d'opinion ou de jugement** : je pense, je crois, il me semble, je doute, j'affirme, je crains.\n3. **Le conditionnel** : « Le directeur serait malade » (information non vérifiée, prudence).\n4. **Vocabulaire mélioratif ou péjoratif** : « un quartier animé » / « un quartier bruyant » ; suffixes péjoratifs : verd*âtre*, chauff*ard*, critic*ailler*.\n5. **Tournures impersonnelles** : il est certain que, il est possible que, il est regrettable que.\n6. **Ponctuation expressive** : point d'exclamation, points de suspension, guillemets de distance (« ce prétendu \"progrès\" »).\n7. **Figures de style** : hyperbole, ironie, litote.\n\n## 3. Texte objectif ou subjectif ?\n\n- Un texte **objectif** cherche la neutralité : peu de modalisateurs, 3e personne, vocabulaire neutre (dictionnaire, manuel, article d'information).\n- Un texte **subjectif** affiche le point de vue : modalisateurs nombreux, jugements, émotions (éditorial, lettre, plaidoyer, poème lyrique).\n\n:::propriete\nLes modalisateurs se rangent sur deux échelles :\n- l'échelle de la **certitude** : certain → probable → possible → douteux ;\n- l'échelle du **jugement** : éloge (mélioratif) ↔ blâme (péjoratif).\n:::\n\n## 4. Exemple analysé (texte d'exemple)\n\n> « Ce marché, hélas, n'est plus qu'un amas de bâches crasseuses où l'on étouffe littéralement. Autrefois, sans doute, il était le plus beau de la région. »\n\n- « hélas » : adverbe de regret ;\n- « amas », « crasseuses » : vocabulaire péjoratif ;\n- « étouffe littéralement » : hyperbole renforcée par un adverbe ;\n- « sans doute » : certitude atténuée (souvenir incertain).\n\n**Conclusion** : le point de vue est **critique et nostalgique** ; l'énonciateur regrette l'état actuel du marché.\n\n:::methode\n**Étudier le point de vue en 4 étapes**\n1. **Repérer** les modalisateurs (souligne-les au brouillon).\n2. **Classer** : certitude/doute ; éloge/blâme ; émotion.\n3. **Conclure** sur l'attitude de l'énonciateur (enthousiaste, critique, ironique, prudent…).\n4. **Nuancer** si le texte évolue (critique puis éloge, par exemple).\n:::\n\n:::attention\n« Sans doute » signifie aujourd'hui « probablement » et non « sans aucun doute ». C'est un modalisateur de **probabilité**, pas de certitude absolue.\n:::",
+   "definition": "La modalisation regroupe les marques (adverbes, verbes d'opinion, conditionnel, vocabulaire mélioratif ou péjoratif, ponctuation) par lesquelles l'énonciateur exprime son degré de certitude et son jugement.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Les modalisateurs montrent ce que pense celui qui parle.",
+    "simple": "C'est comme le ton de la voix d'un commentateur de football : avec les mêmes faits, il peut être enthousiaste (« un but magnifique ! ») ou méprisant (« un but chanceux… »).",
+    "complete": "Tout énoncé porte la trace de la position de son énonciateur. La modalisation épistémique concerne le degré de certitude (adverbes, verbes d'opinion, conditionnel, tournures impersonnelles) ; la modalisation appréciative concerne le jugement de valeur (lexique mélioratif ou péjoratif, suffixes, ponctuation expressive, figures). L'analyse du point de vue consiste à repérer, classer puis interpréter ces marques."
+   },
+   "analogie": "Deux voisins décrivent le même zémidjan : « un conducteur prudent et rapide » ou « un chauffard qui fonce ». Les faits sont proches, mais le vocabulaire révèle le jugement.",
+   "exemples_resolus": [
+    {
+     "enonce": "Relève et interprète les modalisateurs : « Il est probable que la pluie revienne, mais je crains qu'elle n'arrive trop tard pour le maïs. »",
+     "etapes": [
+      "« Il est probable que » : probabilité (pas de certitude).",
+      "« je crains » : verbe de sentiment qui exprime l'inquiétude.",
+      "Point de vue : prudent et inquiet."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Relever un mot sans dire ce qu'il exprime (certitude ? jugement ?).",
+    "Prendre tout adjectif pour un modalisateur : « une table ronde » est neutre.",
+    "Confondre « sans doute » (probablement) et « sans aucun doute » (certainement).",
+    "Oublier le conditionnel comme marque de prudence."
+   ],
+   "astuces": [
+    "Remplace le mot par un synonyme neutre : si le sens perd une nuance de jugement, c'est un modalisateur.",
+    "Classe toujours tes relevés en deux colonnes : certitude / jugement."
+   ],
+   "mnemo": "Pour retrouver les modalisateurs, pense à « A-V-C-V-P » : Adverbes, Verbes d'opinion, Conditionnel, Vocabulaire mélioratif/péjoratif, Ponctuation.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu distinguais un texte objectif d'un texte subjectif. La modalisation te donne les outils précis pour le prouver."
+   },
+   "methode_redaction": "Présente ton analyse ainsi : relevé entre guillemets → nature du modalisateur → ce qu'il exprime → conclusion sur le point de vue. Exemple : « L'adjectif péjoratif \"crasseuses\" traduit le dégoût de l'énonciateur. »",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un modalisateur ?",
+     "r": "Un mot ou un procédé qui montre l'attitude de l'énonciateur (certitude, doute, jugement)."
+    },
+    {
+     "q": "Que marque le conditionnel dans « Le ministre serait malade » ?",
+     "r": "Une information non vérifiée, de la prudence."
+    },
+    {
+     "q": "Donne deux suffixes péjoratifs.",
+     "r": "-âtre (verdâtre), -ard (chauffard)."
+    },
+    {
+     "q": "Sur quelles deux échelles classe-t-on les modalisateurs ?",
+     "r": "La certitude (certain → douteux) et le jugement (éloge ↔ blâme)."
+    },
+    {
+     "q": "« Sans doute » veut dire…",
+     "r": "Probablement."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C01-N3.svg",
+    "alt": "Carte mentale : au centre « Comment l'énonciateur montre son avis », six branches : adverbes, verbes d'opinion, conditionnel, vocabulaire, ponctuation, tournures impersonnelles, avec des exemples.",
+    "legende": "Les six familles de modalisateurs.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C01-N4",
+   "titre": "Le discours rapporté",
+   "prerequis_notions": [
+    "FR-S1-C01-N2"
+   ],
+   "cours_md": "## 1. Les quatre façons de rapporter des paroles\n\n:::definition\nLe **discours rapporté** consiste à reproduire dans un texte les paroles ou les pensées d'une autre personne. Il existe quatre formes : le discours **direct**, **indirect**, **indirect libre** et **narrativisé**.\n:::\n\n| Forme | Exemple | Marques |\n|---|---|---|\n| Direct | Le chef déclara : « Je réunirai le conseil demain. » | deux-points, guillemets ou tirets, paroles exactes |\n| Indirect | Le chef déclara qu'il réunirait le conseil le lendemain. | verbe introducteur + subordonnée (que, si, où…) ; pronoms, temps et repères transformés |\n| Indirect libre | Le chef se leva. Il réunirait le conseil le lendemain ; personne ne devait manquer. | pas de verbe introducteur ni de « que », mais les temps et pronoms du récit |\n| Narrativisé | Le chef annonça la réunion du conseil. | les paroles sont résumées |\n\n## 2. Les transformations du direct à l'indirect\n\nQuand le verbe introducteur est **au passé**, on applique la **concordance des temps** :\n\n| Discours direct | Discours indirect |\n|---|---|\n| présent : « je **pars** » | imparfait : qu'il **partait** |\n| passé composé : « j'**ai fini** » | plus-que-parfait : qu'il **avait fini** |\n| futur : « je **viendrai** » | conditionnel présent : qu'il **viendrait** |\n| impératif : « **Viens** ! » | de + infinitif : il lui ordonna **de venir** |\n| ici, aujourd'hui, maintenant | là, ce jour-là, à ce moment-là |\n| hier, demain | la veille, le lendemain |\n| la semaine dernière / prochaine | la semaine précédente / suivante |\n\n**Les questions** deviennent des **interrogatives indirectes** (sans point d'interrogation ni inversion du sujet) :\n- « Viens-tu ? » → Il me demanda **si** je venais.\n- « Où vas-tu ? » → Il me demanda **où** j'allais.\n- « Que fais-tu ? » → Il me demanda **ce que** je faisais.\n\n:::propriete\nSi le verbe introducteur est **au présent** (« Il dit que… »), les temps ne changent pas : « Il dit qu'il viendra demain. »\n:::\n\n## 3. Pourquoi choisir une forme plutôt qu'une autre ?\n\n- **Direct** : vivant, authentique, fait entendre la voix du personnage (son niveau de langue, ses émotions).\n- **Indirect** : plus bref, le narrateur garde le contrôle et peut résumer.\n- **Indirect libre** : mêle la voix du narrateur et celle du personnage ; très utilisé pour rendre les pensées (Flaubert, Zola).\n- **Narrativisé** : le plus rapide, quand les paroles exactes importent peu.\n\n:::methode\n**Passer du direct à l'indirect**\n1. Choisis un verbe introducteur précis (affirmer, répondre, demander, ordonner, avouer…).\n2. Supprime les deux-points et les guillemets ; ajoute que, si, où, ce que…\n3. Change les **pronoms** (je → il/elle ; tu → je/il…).\n4. Change les **temps** (concordance) et les **repères** (demain → le lendemain).\n5. Relis : la phrase doit être correcte et sans point d'interrogation.\n:::\n\n:::attention\nOn n'écrit jamais « Il demanda qu'est-ce que je faisais » : la bonne forme est « Il demanda **ce que** je faisais ».\n:::",
+   "definition": "Le discours rapporté reproduit des paroles ou pensées sous quatre formes : direct (paroles exactes), indirect (subordonnée avec transformations), indirect libre (sans subordination, avec les temps du récit) et narrativisé (paroles résumées).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Rapporter des paroles, c'est soit les citer telles quelles, soit les raconter avec ses propres mots.",
+    "simple": "Le discours direct, c'est l'enregistrement audio de la phrase ; le discours indirect, c'est un ami qui te répète ce qu'on a dit, en changeant les « je » et les « demain ».",
+    "complete": "Le discours direct juxtapose les paroles citées au récit (ponctuation spécifique, système de l'énonciateur cité). Le discours indirect les intègre syntaxiquement dans une subordonnée complétive ou interrogative indirecte, avec transposition des personnes, des temps (concordance si le verbe introducteur est au passé) et des déictiques. Le discours indirect libre conserve la syntaxe et l'expressivité des paroles mais adopte les personnes et les temps du récit. Le discours narrativisé les réduit à un nom ou un verbe de parole."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Mets au discours indirect : Kossi demanda à sa sœur : « As-tu vu mon cahier hier ? »",
+     "etapes": [
+      "Question totale → « si ».",
+      "« tu » → « elle » ; passé composé → plus-que-parfait.",
+      "« hier » → « la veille ».",
+      "Résultat : Kossi demanda à sa sœur si elle avait vu son cahier la veille."
+     ]
+    },
+    {
+     "enonce": "Mets au discours direct : Le maître nous ordonna de sortir nos ardoises.",
+     "etapes": [
+      "« de + infinitif » vient d'un impératif.",
+      "Résultat : Le maître nous ordonna : « Sortez vos ardoises ! »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Garder les guillemets au discours indirect.",
+    "Oublier la concordance des temps (« Il a dit qu'il viendra » au lieu de « qu'il viendrait »).",
+    "Laisser « demain » ou « ici » au discours indirect dans un récit au passé.",
+    "Écrire « il demanda qu'est-ce que » au lieu de « il demanda ce que »."
+   ],
+   "astuces": [
+    "Fais la liste des mots à changer AVANT de réécrire : pronoms, temps, repères.",
+    "Varie les verbes introducteurs : ils précisent le ton (murmurer, s'écrier, objecter, avouer)."
+   ],
+   "mnemo": "Pour la concordance : « Présent → Imparfait, Passé composé → Plus-que-parfait, Futur → Conditionnel » : chaque temps « recule d'une marche » dans le passé.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu transformais déjà des phrases du discours direct au discours indirect. En seconde, on ajoute le discours indirect libre et surtout l'interprétation : pourquoi l'auteur choisit-il cette forme ?"
+   },
+   "methode_redaction": "Dans un exercice de transformation, recopie proprement la phrase transformée, puis, si on te le demande, justifie chaque changement : « le futur \"viendrai\" devient le conditionnel \"viendrait\" car le verbe introducteur est au passé ».",
+   "flash": [
+    {
+     "q": "Quelles sont les quatre formes du discours rapporté ?",
+     "r": "Direct, indirect, indirect libre, narrativisé."
+    },
+    {
+     "q": "Futur au discours direct → au discours indirect (verbe au passé) ?",
+     "r": "Conditionnel présent."
+    },
+    {
+     "q": "« demain » au discours indirect dans un récit au passé ?",
+     "r": "« le lendemain »."
+    },
+    {
+     "q": "« Que fais-tu ? » → il demanda…",
+     "r": "… ce que je faisais."
+    },
+    {
+     "q": "Quel est l'effet du discours indirect libre ?",
+     "r": "Il mêle la voix du narrateur et celle du personnage, souvent pour rendre ses pensées."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C01-N4.svg",
+    "alt": "Tableau de transformation du discours direct au discours indirect : temps verbaux, impératif, question, repères de lieu et de temps.",
+    "legende": "La concordance des temps et des repères au discours indirect.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S1-C01-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C01-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle est la fonction du langage dominante dans : « Allô ? Allô ? Tu m'entends, Afi ? »",
+   "indices": [
+    "Sur quel élément de la communication porte la question « Tu m'entends ? » ?"
+   ],
+   "corrige": [
+    "Le message sert à vérifier que la communication passe bien (« Allô », « Tu m'entends ? »).",
+    "Il est centré sur le canal : fonction phatique."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "La présence de « tu » fait penser à la fonction conative, mais le but est de vérifier le contact.",
+   "verification": "double_resolution",
+   "choix": [
+    "Référentielle",
+    "Phatique",
+    "Poétique",
+    "Métalinguistique"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C01-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C01-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans la phrase « Je reviendrai ici demain », relève l'indicateur de temps (un seul mot).",
+   "indices": [
+    "Cherche le mot qui répond à la question « quand ? »."
+   ],
+   "corrige": [
+    "« demain » est un indicateur de temps dont le sens dépend du jour où l'on parle : c'est un déictique."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "« ici » est un indicateur de lieu, pas de temps.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "demain",
+    "« demain »",
+    "demain."
+   ]
+  },
+  {
+   "id": "FR-S1-C01-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C01-N2"
+   ],
+   "format": "qcm",
+   "enonce": "« Le lendemain, Koffi reprit la route de Sokodé. Il pleuvait depuis l'aube. » Cet énoncé est…",
+   "indices": [
+    "Quel temps est employé ?",
+    "« le lendemain » ou « demain » ?"
+   ],
+   "corrige": [
+    "Pronoms : 3e personne (Koffi, il) ; temps : passé simple (reprit) et imparfait (pleuvait).",
+    "Repère : « le lendemain » est un repère du récit (et non « demain »). C'est donc un énoncé coupé."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "« le lendemain » n'est pas un déictique : il se comprend par rapport au texte, pas au moment où l'on parle.",
+   "verification": "double_resolution",
+   "choix": [
+    "ancré, car « le lendemain » est un déictique",
+    "coupé (récit)",
+    "ancré, car il y a un nom propre",
+    "impossible à déterminer"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C01-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C01-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Mets au discours indirect (sans changer le verbe introducteur) : Ama a affirmé : « Je partirai demain. »",
+   "indices": [
+    "Futur dans le direct + verbe introducteur au passé → quel mode ?",
+    "Que devient « demain » ?"
+   ],
+   "corrige": [
+    "Le verbe introducteur est au passé : le futur « partirai » devient le conditionnel « partirait ».",
+    "« je » devient « elle » ; « demain » devient « le lendemain ».",
+    "Réponse : Ama a affirmé qu'elle partirait le lendemain."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Ne pas écrire « qu'elle partira demain » : concordance des temps et repère de temps doivent changer.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "Ama a affirmé qu'elle partirait le lendemain.",
+    "Ama a affirmé qu'elle partirait le lendemain",
+    "Ama a affirmé qu’elle partirait le lendemain.",
+    "Ama a affirmé qu’elle partirait le lendemain"
+   ]
+  },
+  {
+   "id": "FR-S1-C01-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C01-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Dans « Ce projet serait, paraît-il, abandonné », que marquent le conditionnel et « paraît-il » ?",
+   "indices": [
+    "L'énonciateur est-il sûr de ce qu'il dit ?"
+   ],
+   "corrige": [
+    "Le conditionnel « serait » présente l'information comme non vérifiée.",
+    "« paraît-il » renforce l'idée de rumeur : l'énonciateur reste prudent."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Le conditionnel n'exprime pas toujours une condition : ici, c'est un conditionnel de prudence (ou « journalistique »).",
+   "verification": "double_resolution",
+   "choix": [
+    "Un ordre",
+    "Une information non vérifiée, de la prudence",
+    "Une condition (si…)",
+    "Un futur certain"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C01-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S1-C01-N1",
+    "FR-S1-C01-N2",
+    "FR-S1-C01-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis cette lettre (texte d'exemple), puis réponds.\n\nKara, le 12 novembre\n\nChère maman,\n\nJe t'écris ce soir depuis l'internat. Ici, tout va bien, même si la nourriture n'a vraiment rien à voir avec ton délicieux fufu ! Hier, notre professeur de français nous a rendu les devoirs : j'ai eu 15 sur 20. Je crois que je peux faire encore mieux. Demain, nous partons visiter le marché de Kara avec la classe. Ne t'inquiète surtout pas pour moi : je travaille dur, je dors tôt… enfin, presque !\n\nTon fils qui t'embrasse,\nEssowè\n\n1. Identifie l'énonciateur, le destinataire, le lieu et le moment de l'énonciation.\n2. Relève trois indices d'énonciation de natures différentes et dis si l'énoncé est ancré ou coupé.\n3. Relève deux modalisateurs et précise ce qu'ils expriment.\n4. Quelle est la fonction du langage dominante dans « Ne t'inquiète surtout pas pour moi » ? Justifie.",
+   "indices": [
+    "Regarde l'en-tête, la formule d'appel et la signature.",
+    "Classe tes indices : pronoms / repères / temps."
+   ],
+   "corrige": [
+    "1. Énonciateur : Essowè, élève interne (« je », signature). Destinataire : sa mère (« Chère maman », « t' »). Lieu : l'internat, à Kara (« Kara », « ici »). Moment : le soir du 12 novembre (« ce soir », date). (0,5 point par élément)",
+    "2. Pronoms de 1re et 2e personne (« je », « t' ») ; indicateurs de temps et de lieu (« hier », « demain », « ce soir », « ici ») ; temps de l'énonciation : présent (« tout va bien »), passé composé (« a rendu »). L'énoncé est ancré : il dépend de la situation de la lettre.",
+    "3. Exemples : « délicieux » (mélioratif : affection, nostalgie de la cuisine familiale) ; « vraiment » (insistance) ; « Je crois » (certitude modérée, modestie) ; « surtout » (insistance) ; points de suspension et exclamation (« enfin, presque ! ») : humour.",
+    "4. L'impératif « Ne t'inquiète pas », renforcé par « surtout », cherche à agir sur la mère (la rassurer) : fonction conative. L'aveu final « enfin, presque ! » ajoute une note expressive et humoristique."
+   ],
+   "bareme": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "piege": "Ne pas confondre le lieu d'énonciation (Kara, l'internat) avec le lieu de la future visite (le marché).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S1-C01-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S1-C01-N4",
+    "FR-S1-C01-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Réécris ce passage au discours indirect (verbes introducteurs au passé simple), puis explique en deux ou trois phrases ce que le texte perd et ce qu'il gagne avec ce changement.\n\nLe vieux Komlan dit au jeune agronome :\n— Mon fils, depuis trente ans, je cultive le café sur cette colline.\n— Pourquoi ne plantez-vous pas aussi du cacao ? demanda l'agronome.\n— Je le ferai l'année prochaine si la pluie revient, répondit le vieil homme. Reviens me voir demain.",
+   "indices": [
+    "Fais d'abord la liste des pronoms, des temps et des repères à transformer.",
+    "Une question devient une interrogative indirecte introduite par « pourquoi »."
+   ],
+   "corrige": [
+    "Phrase 1 : « Le vieux Komlan dit au jeune agronome que, depuis trente ans, il cultivait le café sur cette colline. » (« je » → « il », présent → imparfait ; l'apostrophe « Mon fils » disparaît.)",
+    "Phrase 2 : « L'agronome lui demanda pourquoi il ne plantait pas aussi du cacao. » (interrogative indirecte : pas d'inversion du sujet, pas de point d'interrogation ; présent → imparfait.)",
+    "Phrase 3 : « Le vieil homme répondit qu'il le ferait l'année suivante si la pluie revenait, et il lui demanda de revenir le voir le lendemain. » (futur → conditionnel ; « l'année prochaine » → « l'année suivante » ; impératif → de + infinitif ; « demain » → « le lendemain ».)",
+    "Bilan : le texte perd la vivacité du dialogue, l'apostrophe affectueuse « Mon fils » et le ton familier du tutoiement ; il gagne en concision et le narrateur garde le contrôle du récit, ce qui permet de résumer l'échange."
+   ],
+   "bareme": [
+    2,
+    2,
+    3,
+    2
+   ],
+   "piege": "Ne pas garder le point d'interrogation ni l'inversion « plantez-vous » dans l'interrogative indirecte.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre l'auteur (personne réelle) et le narrateur ou l'énonciateur du texte.",
+  "Donner une fonction du langage ou un type d'énoncé sans citer d'indice du texte.",
+  "Déclarer un énoncé « ancré » dès qu'apparaît « je », même dans un récit au passé simple.",
+  "Oublier la concordance des temps et la transformation des repères (demain → le lendemain) au discours indirect.",
+  "Relever des modalisateurs sans dire ce qu'ils expriment ni conclure sur le point de vue."
+ ]
+}

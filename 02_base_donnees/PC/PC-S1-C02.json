@@ -1,0 +1,701 @@
+{
+ "id": "PC-S1-C02",
+ "matiere": "PC",
+ "semestre": 1,
+ "ordre": 2,
+ "titre": "Les forces (actions mécaniques, poids, forces usuelles)",
+ "objectifs": [
+  "Identifier et classer les actions mécaniques (contact localisé, réparti, à distance).",
+  "Donner les 4 caractéristiques d'une force et la représenter à l'échelle.",
+  "Appliquer le principe des actions réciproques.",
+  "Distinguer masse et poids, utiliser P = mg et la loi de gravitation universelle.",
+  "Caractériser la réaction d'un support, la tension d'un fil, la tension d'un ressort (loi de Hooke) et la poussée d'Archimède."
+ ],
+ "prerequis": [
+  "PC-3e-FORCES",
+  "PC-3e-POIDS",
+  "PC-S1-C01"
+ ],
+ "notions": [
+  {
+   "id": "PC-S1-C02-N1",
+   "titre": "Actions mécaniques et notion de force",
+   "prerequis_notions": [
+    "PC-3e-FORCES"
+   ],
+   "cours_md": "## 1. Qu'est-ce qu'une action mécanique ?\nUn objet (l'**acteur**) exerce une **action mécanique** sur un autre objet (le **receveur**) lorsqu'il est capable :\n- de le **mettre en mouvement** ou de **modifier son mouvement** (vitesse ou direction) : effet **dynamique** ;\n- de le **déformer** ou de le **maintenir en équilibre** : effet **statique**.\n\nExemples : le pied du footballeur met le ballon en mouvement ; la main écrase une boule de pâte de maïs ; la corde du puits retient le seau.\n\n## 2. Classer les actions mécaniques\n| Type | Description | Exemples |\n|---|---|---|\n| de **contact localisée** | s'exerce en un point (petite surface) | fil, main, crochet |\n| de **contact répartie** | s'exerce sur toute une surface | table sous un livre, eau sur une pirogue, vent sur une voile |\n| **à distance** | sans contact | attraction de la Terre (poids), aimant sur un clou, règle électrisée sur des bouts de papier |\n\n## 3. La force : modèle d'une action mécanique\n:::definition Force\nUne action mécanique est modélisée par une **force**, représentée par un **vecteur** $\\vec{F}$ défini par 4 caractéristiques :\n1. le **point d'application** (point de contact, ou centre de gravité pour le poids) ;\n2. la **direction** (droite d'action) ;\n3. le **sens** ;\n4. l'**intensité** (ou valeur), en **newtons (N)**, mesurée avec un **dynamomètre**.\n:::\n\n:::methode Représenter une force\n1. Choisir une échelle, par exemple $1\\ \\text{cm} \\leftrightarrow 10\\ \\text{N}$.\n2. Calculer la longueur : $\\ell = \\dfrac{F}{\\text{échelle}}$ (ex. $F = 30\\ \\text{N} \\Rightarrow \\ell = 3{,}0\\ \\text{cm}$).\n3. Tracer la flèche à partir du point d'application, selon la droite d'action et dans le bon sens.\n4. Nommer la force : $\\vec{F}_{A/B}$ = force exercée **par** A **sur** B.\n:::\n\n**Ordres de grandeur** : poids d'une pomme ≈ 1 N ; poids d'un élève de 60 kg ≈ 600 N ; force musculaire d'un bras ≈ quelques centaines de newtons ; poussée d'un moteur d'avion ≈ $10^{5}\\ \\text{N}$.\n\n## 4. Le principe des actions réciproques\n:::propriete Principe des actions réciproques\nSi un corps A exerce sur un corps B une force $\\vec{F}_{A/B}$, alors B exerce sur A une force $\\vec{F}_{B/A}$ telle que :\n$$\\vec{F}_{B/A} = -\\vec{F}_{A/B}$$\nCes deux forces ont **la même droite d'action**, **la même intensité** et des **sens opposés**. Elles s'appliquent sur **deux corps différents** : elles ne se compensent donc jamais.\n:::\nExemple : un livre posé sur une table appuie sur la table (force du livre sur la table, vers le bas) ; la table repousse le livre (force de la table sur le livre, vers le haut), de même intensité.\n\n## 5. Système, forces intérieures et extérieures\nOn appelle **système** l'objet (ou l'ensemble d'objets) que l'on étudie. Une force est **extérieure** si elle est exercée par un objet qui n'appartient pas au système ; **intérieure** sinon. Pour l'équilibre ou le mouvement d'un système, seules les forces **extérieures** comptent.\n\n## Exemples résolus\n**Exemple 1.** Une corde horizontale tire un chariot vers la droite avec une force de 30 N. Échelle : $1\\ \\text{cm} \\leftrightarrow 10\\ \\text{N}$. Donne les caractéristiques de la force et la longueur du vecteur.\n- Point d'application : le point d'attache A de la corde sur le chariot.\n- Direction : horizontale (celle de la corde) ; sens : vers la droite.\n- Intensité : $F = 30\\ \\text{N}$ ; longueur : $\\ell = 30/10 = 3{,}0\\ \\text{cm}$.\n\n**Exemple 2.** Un livre de masse 2,0 kg est posé sur une table ($g = 9{,}8\\ \\text{N/kg}$). Caractérise la force exercée par le livre sur la table.\n- La table exerce sur le livre une force verticale vers le haut d'intensité égale au poids : $R = m g = 2{,}0 \\times 9{,}8 = 19{,}6\\ \\text{N}$ (équilibre).\n- Par le principe des actions réciproques, le livre exerce sur la table une force **verticale, vers le bas, de 19,6 N**, appliquée sur la table (surface de contact).",
+   "definition": "Une force modélise une action mécanique ; elle est caractérisée par son point d'application, sa direction, son sens et son intensité en newtons.",
+   "formules": [
+    "$\\ell = \\dfrac{F}{\\text{échelle}}$",
+    "$\\vec{F}_{B/A} = -\\vec{F}_{A/B}$"
+   ],
+   "niveaux": {
+    "phrase": "Une force est une poussée ou une traction, représentée par une flèche, mesurée en newtons.",
+    "simple": "Quand tu tires le seau du puits, ta main exerce une force sur la corde : elle a un point de départ (ta main), une direction (la corde), un sens (vers le haut) et une valeur (plus ou moins forte).",
+    "complete": "Toute action mécanique (contact localisé, contact réparti, ou à distance) est modélisée par un vecteur force $\\vec F$ : point d'application, droite d'action, sens, intensité (N, mesurée au dynamomètre). Deux corps en interaction exercent l'un sur l'autre des forces opposées $\\vec F_{A/B} = -\\vec F_{B/A}$, de même droite d'action, appliquées à des corps différents."
+   },
+   "analogie": "Au football, quand tu frappes le ballon, le ballon « frappe » aussi ton pied avec la même force : c'est pour cela qu'un tir pieds nus fait mal. C'est le principe des actions réciproques.",
+   "exemples_resolus": [
+    {
+     "enonce": "Une corde horizontale tire un chariot vers la droite avec 30 N. Échelle 1 cm ↔ 10 N. Caractéristiques et longueur du vecteur ?",
+     "etapes": [
+      "Point d'application : le point d'attache A de la corde.",
+      "Direction : horizontale ; sens : vers la droite.",
+      "Intensité : $F = 30\\ \\text{N}$.",
+      "Longueur : $\\ell = 30/10 = 3{,}0\\ \\text{cm}$."
+     ]
+    },
+    {
+     "enonce": "Livre de 2,0 kg posé sur une table (g = 9,8 N/kg). Force exercée par le livre sur la table ?",
+     "etapes": [
+      "La table retient le livre : $R = m g = 2{,}0 \\times 9{,}8 = 19{,}6\\ \\text{N}$, verticale vers le haut.",
+      "Principe des actions réciproques : force du livre sur la table opposée.",
+      "Verticale, vers le bas, 19,6 N, appliquée sur la table."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier une des 4 caractéristiques (souvent le point d'application).",
+    "Croire que les deux forces des actions réciproques se compensent : elles agissent sur deux corps différents.",
+    "Exprimer une force en kg.",
+    "Oublier d'indiquer l'échelle sur le schéma."
+   ],
+   "astuces": [
+    "Pour nommer une force, dis toujours « force exercée PAR … SUR … ».",
+    "Contact ou distance ? Si les objets ne se touchent pas : poids, force magnétique ou électrique."
+   ],
+   "mnemo": "« PoDiSI » : Point, Direction, Sens, Intensité.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris qu'une force se mesure avec un dynamomètre en newtons et se représente par une flèche. En Seconde, on ajoute le principe des actions réciproques et la notion de système."
+   },
+   "methode_redaction": "Sur la copie : nomme la force (« force exercée par A sur B »), donne ses 4 caractéristiques sous forme de liste ou de tableau, indique l'échelle et la longueur calculée.",
+   "flash": [
+    {
+     "q": "Cite les 4 caractéristiques d'une force.",
+     "r": "Point d'application, direction, sens, intensité (N)."
+    },
+    {
+     "q": "Avec quel appareil mesure-t-on une force ?",
+     "r": "Un dynamomètre."
+    },
+    {
+     "q": "Énonce le principe des actions réciproques.",
+     "r": "$\\vec F_{A/B} = -\\vec F_{B/A}$ : même droite d'action, même intensité, sens opposés, sur deux corps différents."
+    },
+    {
+     "q": "Donne un exemple d'action à distance.",
+     "r": "Le poids (attraction de la Terre), un aimant qui attire un clou."
+    },
+    {
+     "q": "Longueur du vecteur 45 N avec 1 cm ↔ 15 N ?",
+     "r": "3,0 cm."
+    },
+    {
+     "q": "Une force intérieure au système intervient-elle dans son équilibre ?",
+     "r": "Non, seules les forces extérieures comptent."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C02-N1.svg",
+    "alt": "En haut : un chariot tiré par une corde horizontale ; le vecteur force F part du point d'attache A, horizontal vers la droite, longueur 3 cm pour 30 N. En bas : un livre sur une table, avec la force de la table sur le livre vers le haut et la force du livre sur la table vers le bas.",
+    "legende": "Représenter une force (échelle 1 cm ↔ 10 N) et deux forces réciproques de même intensité et de sens opposés.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C02-N2",
+   "titre": "Poids, masse et interaction gravitationnelle",
+   "prerequis_notions": [
+    "PC-S1-C02-N1"
+   ],
+   "cours_md": "## 1. La masse\n:::definition Masse\nLa **masse** $m$ d'un corps mesure sa quantité de matière. Elle s'exprime en **kilogrammes (kg)** et se mesure avec une **balance**. Elle **ne dépend pas du lieu** : un sac de riz de 50 kg a la même masse à Lomé, à Dapaong ou sur la Lune.\n:::\n\n## 2. Le poids\n:::definition Poids\nLe **poids** $\\vec{P}$ d'un corps est la force d'attraction à distance exercée par la Terre sur ce corps. Ses caractéristiques :\n- **point d'application** : le centre de gravité $G$ du corps ;\n- **direction** : la **verticale** du lieu (donnée par un fil à plomb) ;\n- **sens** : vers le bas (vers le centre de la Terre) ;\n- **intensité** : $P = m \\times g$.\n:::\n\n:::propriete Relation poids – masse\n$$P = m\\,g$$\n$P$ en newtons (N), $m$ en kilogrammes (kg), $g$ = intensité de la pesanteur en newtons par kilogramme (N/kg).\n:::\n\n| Lieu | $g$ (N/kg) |\n|---|---|\n| équateur (Lomé ≈ 9,78) | 9,78 |\n| pôles | 9,83 |\n| valeur usuelle en exercice | 9,8 (ou 10 si l'énoncé le dit) |\n| Lune | 1,62 |\n| Mars | 3,7 |\n\n$g$ dépend du lieu : il augmente légèrement de l'équateur vers les pôles et **diminue avec l'altitude**.\n\n## 3. Centre de gravité\n- Pour un objet **homogène et symétrique** (bille, règle, disque), $G$ est au centre de symétrie.\n- Méthode expérimentale : on suspend l'objet par un point A, puis par un point B ; à l'équilibre, la verticale passant par le point de suspension passe par $G$ ; $G$ est l'intersection des deux verticales.\n\n## 4. L'interaction gravitationnelle (gravitation universelle)\n:::propriete Loi de Newton\nDeux corps A et B de masses $m_A$ et $m_B$, dont les centres sont séparés de la distance $d$, s'attirent avec des forces opposées d'intensité :\n$$F = G\\,\\frac{m_A\\,m_B}{d^{2}}$$\navec $G = 6{,}67 \\times 10^{-11}\\ \\text{N}\\cdot\\text{m}^{2}\\cdot\\text{kg}^{-2}$ (constante de gravitation universelle), $d$ en mètres.\n:::\nLe poids d'un objet est, en très bonne approximation, la force de gravitation exercée par la Terre (masse $M_T = 5{,}97 \\times 10^{24}\\ \\text{kg}$, rayon $R_T = 6{,}37 \\times 10^{6}\\ \\text{m}$) :\n$$m\\,g_0 = G\\,\\frac{M_T\\,m}{R_T^{2}} \\Rightarrow g_0 = \\frac{G\\,M_T}{R_T^{2}} \\approx 9{,}8\\ \\text{N/kg}$$\nÀ l'altitude $h$ : $g = \\dfrac{G\\,M_T}{(R_T + h)^{2}} = g_0\\,\\dfrac{R_T^{2}}{(R_T+h)^{2}}$.\n\n## Exemples résolus\n**Exemple 1.** Calcule le poids d'un sac de riz de 50 kg à Lomé ($g = 9{,}8\\ \\text{N/kg}$) puis sur la Lune ($g_L = 1{,}62\\ \\text{N/kg}$).\n- Lomé : $P = m g = 50 \\times 9{,}8 = 490\\ \\text{N}$.\n- Lune : $P_L = m g_L = 50 \\times 1{,}62 = 81\\ \\text{N}$.\n- La masse reste 50 kg ; le poids est environ 6 fois plus petit sur la Lune.\n\n**Exemple 2.** Vérifie que $g_0 \\approx 9{,}8\\ \\text{N/kg}$, puis calcule $g$ à bord de la Station spatiale ($h = 400\\ \\text{km}$).\n- $g_0 = \\dfrac{6{,}67 \\times 10^{-11} \\times 5{,}97 \\times 10^{24}}{(6{,}37 \\times 10^{6})^{2}} = 9{,}81\\ \\text{N/kg}$.\n- $g = \\dfrac{6{,}67 \\times 10^{-11} \\times 5{,}97 \\times 10^{24}}{(6{,}77 \\times 10^{6})^{2}} = 8{,}69\\ \\text{N/kg}$ : la pesanteur n'est pas nulle en orbite !",
+   "definition": "Le poids est la force d'attraction exercée par la Terre sur un corps : vertical, vers le bas, appliqué au centre de gravité, d'intensité P = mg.",
+   "formules": [
+    "$P = m\\,g$",
+    "$F = G\\,\\dfrac{m_A m_B}{d^{2}}$",
+    "$g = \\dfrac{G M_T}{(R_T + h)^{2}}$"
+   ],
+   "niveaux": {
+    "phrase": "La masse (kg) est la quantité de matière ; le poids (N) est la force avec laquelle la Terre l'attire : P = m × g.",
+    "simple": "La balance du marché indique ta masse ; le poids, c'est la « traction » de la Terre sur toi. Sur la Lune, la balance à plateaux indiquerait la même masse, mais tu te sentirais 6 fois plus léger.",
+    "complete": "Le poids $\\vec P$ (point $G$, vertical, vers le bas, $P = mg$) est l'approximation de la force de gravitation $F = G m M_T / d^2$ exercée par la Terre. $g = G M_T/(R_T+h)^2$ dépend de la latitude et de l'altitude ; la masse est invariante."
+   },
+   "analogie": "Porter un seau d'eau de 10 kg sur la tête au retour du puits, c'est supporter un poids de 98 N, que l'on soit à Lomé ou à Kara ; mais sur la Lune, ce seau ne « pèserait » que 16 N.",
+   "exemples_resolus": [
+    {
+     "enonce": "Poids d'un sac de riz de 50 kg à Lomé (g = 9,8 N/kg) puis sur la Lune (1,62 N/kg) ?",
+     "etapes": [
+      "Formule : $P = m g$.",
+      "Lomé : $P = 50 \\times 9{,}8 = 490\\ \\text{N}$.",
+      "Lune : $P = 50 \\times 1{,}62 = 81\\ \\text{N}$.",
+      "La masse ne change pas : 50 kg."
+     ]
+    },
+    {
+     "enonce": "Calcule g à 400 km d'altitude.",
+     "etapes": [
+      "$g = \\dfrac{G M_T}{(R_T + h)^{2}}$ avec $R_T + h = 6{,}37 \\times 10^{6} + 4{,}0 \\times 10^{5} = 6{,}77 \\times 10^{6}\\ \\text{m}$.",
+      "$g = \\dfrac{6{,}67 \\times 10^{-11} \\times 5{,}97 \\times 10^{24}}{(6{,}77 \\times 10^{6})^{2}}$.",
+      "$g = 8{,}69\\ \\text{N/kg}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire « je pèse 60 kg » en physique : 60 kg est une masse ; le poids est 588 N.",
+    "Oublier de convertir les grammes en kilogrammes.",
+    "Oublier de mettre la distance au carré dans la loi de gravitation, ou de la convertir en mètres.",
+    "Prendre l'altitude h au lieu de la distance au centre R + h."
+   ],
+   "astuces": [
+    "Poids en N ≈ 10 × masse en kg : vérification rapide.",
+    "Dans la loi de gravitation, calcule d'abord d², puis le numérateur, avec la calculatrice en mode scientifique."
+   ],
+   "mnemo": "« La Masse ne bouge pas, le Poids dépend de la Place. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu $P = m g$ et la différence entre masse et poids. En Seconde, on explique d'où vient $g$ avec la gravitation universelle."
+   },
+   "methode_redaction": "Écris : $P = m\\,g$ ; A.N. : $P = 0{,}250 \\times 9{,}8$ ; $P = 2{,}45\\ \\text{N}$. Pour le vecteur poids, donne les 4 caractéristiques et dessine-le à partir de G, vertical vers le bas.",
+   "flash": [
+    {
+     "q": "Formule reliant poids et masse ?",
+     "r": "$P = m g$ (N, kg, N/kg)."
+    },
+    {
+     "q": "Point d'application du poids ?",
+     "r": "Le centre de gravité G."
+    },
+    {
+     "q": "Direction et sens du poids ?",
+     "r": "Verticale du lieu, vers le bas."
+    },
+    {
+     "q": "Valeur de G (gravitation) ?",
+     "r": "$6{,}67 \\times 10^{-11}\\ \\text{N·m}^{2}\\text{·kg}^{-2}$."
+    },
+    {
+     "q": "g sur la Lune ?",
+     "r": "1,62 N/kg, environ 6 fois moins que sur Terre."
+    },
+    {
+     "q": "Comment varie g quand l'altitude augmente ?",
+     "r": "Il diminue."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C02-N2.svg",
+    "alt": "La Terre vue en coupe avec quatre personnes placées en différents points : chaque vecteur poids est dirigé vers le centre de la Terre ; à droite, un fil à plomb donne la verticale.",
+    "legende": "Le poids est toujours dirigé vers le centre de la Terre : la « verticale » change d'un lieu à l'autre.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C02-N3",
+   "titre": "Forces de contact usuelles : réaction, tension, poussée d'Archimède",
+   "prerequis_notions": [
+    "PC-S1-C02-N2"
+   ],
+   "cours_md": "## 1. La réaction d'un support $\\vec{R}$\nUn support (table, sol, plan incliné) exerce une force **répartie** sur l'objet posé. On la modélise par une force unique $\\vec{R}$ appliquée au centre de la surface de contact.\n- **Sans frottement** : $\\vec{R}$ est **perpendiculaire** (normale) au support, dirigée vers l'objet.\n- **Avec frottement** : $\\vec{R}$ est **inclinée** ; on la décompose en une composante normale $\\vec{R}_N$ et une composante tangentielle $\\vec{f}$ (force de frottement), **opposée au mouvement** ou à la tendance au mouvement.\n\n## 2. La tension d'un fil $\\vec{T}$\n- point d'application : le point d'attache du fil sur l'objet ;\n- direction : celle du fil tendu ;\n- sens : de l'objet vers le fil (un fil ne peut que **tirer**) ;\n- intensité : $T$ (N), mesurée en intercalant un dynamomètre.\nUn fil de masse négligeable transmet la même tension tout le long (même s'il passe sur une poulie sans frottement).\n\n## 3. La tension d'un ressort — loi de Hooke\n:::propriete Loi de Hooke\nUn ressort de longueur à vide $\\ell_0$, allongé (ou comprimé) jusqu'à la longueur $\\ell$, exerce une force de tension d'intensité :\n$$T = k\\,|\\ell - \\ell_0| = k\\,|\\Delta \\ell|$$\n$k$ est la **raideur** du ressort en **N/m** ; $\\Delta\\ell$ en mètres.\n:::\n:::methode Protocole : déterminer la raideur k\n1. Suspendre le ressort à une potence, mesurer $\\ell_0$.\n2. Accrocher des masses marquées $m$ = 50 g, 100 g, 150 g… ; à l'équilibre, $T = P = m g$.\n3. Mesurer chaque longueur $\\ell$ et calculer $\\Delta \\ell = \\ell - \\ell_0$.\n4. Tracer $T$ en fonction de $\\Delta \\ell$ : on obtient une droite passant par l'origine ; sa pente est $k$.\n:::\n\n## 4. La poussée d'Archimède $\\vec{F}_A$\n:::propriete Théorème d'Archimède\nTout corps plongé (totalement ou partiellement) dans un fluide au repos subit une force **verticale**, dirigée **vers le haut**, appliquée au centre de la partie immergée, d'intensité égale au **poids du fluide déplacé** :\n$$F_A = \\rho_{\\text{fluide}} \\times V_{\\text{immergé}} \\times g$$\n$\\rho$ en kg/m³ (eau : $1000\\ \\text{kg/m}^{3}$), $V$ en m³ ($1\\ \\text{L} = 10^{-3}\\ \\text{m}^{3}$), $g$ en N/kg.\n:::\n- Si $F_A$ (corps totalement immergé) $> P$ : le corps remonte et **flotte** (pirogue, bouteille vide) ;\n- si $F_A < P$ : le corps **coule** (caillou).\n- Le **poids apparent** d'un corps immergé, lu sur un dynamomètre, vaut $P_{app} = P - F_A$.\n\n## Exemples résolus\n**Exemple 1.** Un ressort de raideur $k = 25\\ \\text{N/m}$ porte une masse de 200 g ($g = 9{,}8\\ \\text{N/kg}$). Calcule son allongement.\n- À l'équilibre : $T = P = m g = 0{,}200 \\times 9{,}8 = 1{,}96\\ \\text{N}$.\n- $\\Delta \\ell = \\dfrac{T}{k} = \\dfrac{1{,}96}{25} = 0{,}0784\\ \\text{m} = 7{,}8\\ \\text{cm}$.\n\n**Exemple 2.** Une pierre de volume 0,50 L est totalement immergée dans l'eau. Calcule la poussée d'Archimède.\n- $V = 0{,}50\\ \\text{L} = 0{,}50 \\times 10^{-3}\\ \\text{m}^{3}$.\n- $F_A = \\rho V g = 1000 \\times 0{,}50 \\times 10^{-3} \\times 9{,}8 = 4{,}9\\ \\text{N}$, verticale vers le haut.",
+   "definition": "La réaction d'un support, la tension d'un fil ou d'un ressort et la poussée d'Archimède sont des forces de contact ; un ressort exerce T = kΔℓ et un fluide pousse vers le haut avec F = ρVg.",
+   "formules": [
+    "$T = k\\,|\\ell - \\ell_0|$",
+    "$F_A = \\rho_{\\text{fluide}}\\,V_{\\text{imm}}\\,g$",
+    "$P_{app} = P - F_A$"
+   ],
+   "niveaux": {
+    "phrase": "Le support pousse, le fil tire, le ressort tire ou pousse selon son allongement, et l'eau pousse vers le haut.",
+    "simple": "Plus tu tires sur un élastique, plus il tire fort sur ta main : c'est la loi de Hooke. Et dans une bassine, une bouteille vide remonte parce que l'eau la pousse vers le haut.",
+    "complete": "Réaction $\\vec R$ : normale au support sans frottement, inclinée avec frottement ($\\vec R = \\vec R_N + \\vec f$). Tension d'un fil : selon le fil, du solide vers le fil. Ressort : $T = k|\\Delta\\ell|$ (Hooke, $k$ en N/m). Archimède : $F_A = \\rho V_{imm} g$, verticale vers le haut, au centre de poussée."
+   },
+   "analogie": "La pirogue des pêcheurs de Lomé flotte car le poids de l'eau qu'elle déplace égale son poids ; trop chargée, elle s'enfonce davantage pour déplacer plus d'eau.",
+   "exemples_resolus": [
+    {
+     "enonce": "Ressort k = 25 N/m, masse 200 g, g = 9,8 N/kg. Allongement ?",
+     "etapes": [
+      "Équilibre : $T = P = m g = 0{,}200 \\times 9{,}8 = 1{,}96\\ \\text{N}$.",
+      "$\\Delta\\ell = T/k = 1{,}96/25$.",
+      "$\\Delta\\ell = 0{,}0784\\ \\text{m} = 7{,}8\\ \\text{cm}$."
+     ]
+    },
+    {
+     "enonce": "Pierre de 0,50 L totalement immergée dans l'eau : poussée d'Archimède ?",
+     "etapes": [
+      "$V = 0{,}50 \\times 10^{-3}\\ \\text{m}^{3}$ ; $\\rho = 1000\\ \\text{kg/m}^{3}$.",
+      "$F_A = \\rho V g = 1000 \\times 0{,}50 \\times 10^{-3} \\times 9{,}8$.",
+      "$F_A = 4{,}9\\ \\text{N}$, verticale vers le haut."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Prendre la longueur ℓ au lieu de l'allongement ℓ − ℓ0 dans la loi de Hooke.",
+    "Laisser Δℓ en cm alors que k est en N/m.",
+    "Dessiner la tension d'un fil dirigée vers l'objet (un fil tire, il ne pousse pas).",
+    "Utiliser le volume total d'un objet qui flotte au lieu du volume immergé.",
+    "Oublier de convertir les litres en m³ (1 L = 10⁻³ m³)."
+   ],
+   "astuces": [
+    "Un fil ou un ressort vertical qui retient un objet immobile : T = P.",
+    "Sans frottement, R est perpendiculaire au support ; dès qu'il y a frottement, R penche « contre » le mouvement."
+   ],
+   "mnemo": "« Fil Tire, Support Soutient, Eau Élève. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que la masse volumique de l'eau est 1 kg/L, et que l'on mesure une force avec un dynamomètre, qui contient justement un ressort."
+   },
+   "methode_redaction": "Écris la loi utilisée (Hooke ou Archimède), convertis toutes les grandeurs en unités SI (m, m³, kg), fais l'application numérique, puis donne la direction et le sens de la force en plus de son intensité.",
+   "flash": [
+    {
+     "q": "Loi de Hooke ?",
+     "r": "$T = k|\\ell - \\ell_0|$, k en N/m."
+    },
+    {
+     "q": "Direction de la réaction d'un support sans frottement ?",
+     "r": "Perpendiculaire au support."
+    },
+    {
+     "q": "Énonce le théorème d'Archimède.",
+     "r": "Un corps plongé dans un fluide subit une force verticale vers le haut égale au poids du fluide déplacé."
+    },
+    {
+     "q": "1 L en m³ ?",
+     "r": "$10^{-3}\\ \\text{m}^{3}$."
+    },
+    {
+     "q": "Poids apparent d'un corps immergé ?",
+     "r": "$P_{app} = P - F_A$."
+    },
+    {
+     "q": "Sens de la force de frottement ?",
+     "r": "Opposé au mouvement (ou à la tendance au mouvement)."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C02-N3.svg",
+    "alt": "Trois situations : un objet suspendu à un ressort (tension T vers le haut, poids P vers le bas), un bloc posé sur une table (réaction R vers le haut, poids P vers le bas), un flotteur dans l'eau (poussée d'Archimède vers le haut, poids vers le bas).",
+    "legende": "Forces de contact usuelles : tension, réaction, poussée d'Archimède, chacune équilibrant ici le poids.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S1-C02-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C02-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Dans le Système international, l'intensité d'une force s'exprime en :",
+   "choix": [
+    "kilogrammes (kg)",
+    "newtons (N)",
+    "joules (J)",
+    "N/kg"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Une force s'exprime en newtons (N).",
+    "Le kilogramme est l'unité de masse, pas de force."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C02-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calcule le poids (en N) d'un sac de ciment de 50 kg à Lomé ($g = 9{,}8\\ \\text{N/kg}$).",
+   "reponses_acceptees": [
+    "490",
+    "490N"
+   ],
+   "indices": [
+    "P = m × g."
+   ],
+   "corrige": [
+    "$P = m\\,g$.",
+    "$P = 50 \\times 9{,}8 = 490\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C02-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Quelles sont la direction et le sens du poids d'un corps ?",
+   "choix": [
+    "Horizontale, vers la droite",
+    "Verticale, vers le haut",
+    "Verticale, vers le bas",
+    "Perpendiculaire au support"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Le poids est vertical (fil à plomb).",
+    "Il est dirigé vers le bas, vers le centre de la Terre."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "« Perpendiculaire au support » ne vaut que pour la réaction sans frottement.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C02-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un astronaute mesure le poids d'une caisse sur la Lune : 81 N. Quelle est sa masse en kg ? ($g_L = 1{,}62\\ \\text{N/kg}$)",
+   "reponses_acceptees": [
+    "50",
+    "50kg"
+   ],
+   "indices": [],
+   "corrige": [
+    "$P = m g_L \\Rightarrow m = \\dfrac{P}{g_L}$.",
+    "$m = \\dfrac{81}{1{,}62} = 50\\ \\text{kg}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Utiliser 9,8 N/kg alors qu'on est sur la Lune.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C02-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Avec l'échelle 1 cm ↔ 15 N, quelle longueur (en cm) doit avoir le vecteur représentant une force de 45 N ?",
+   "reponses_acceptees": [
+    "3",
+    "3,0",
+    "3cm",
+    "3,0cm"
+   ],
+   "indices": [],
+   "corrige": [
+    "$\\ell = F/\\text{échelle} = 45/15$.",
+    "$\\ell = 3{,}0\\ \\text{cm}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C02-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un ressort de raideur 40 N/m est allongé de 5,0 cm. Quelle est l'intensité (en N) de sa tension ?",
+   "reponses_acceptees": [
+    "2",
+    "2,0",
+    "2N",
+    "2,0N"
+   ],
+   "indices": [],
+   "corrige": [
+    "$T = k\\,\\Delta\\ell$ avec $\\Delta \\ell = 0{,}050\\ \\text{m}$.",
+    "$T = 40 \\times 0{,}050 = 2{,}0\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Garder 5 cm donne 200 N : absurde.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C02-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Un livre est posé sur une table. Quelle affirmation est **juste** ?",
+   "choix": [
+    "La force du livre sur la table et le poids du livre sont des forces réciproques.",
+    "La force de la table sur le livre et celle du livre sur la table ont la même intensité.",
+    "La table exerce sur le livre une force plus grande que celle du livre sur la table.",
+    "Ces deux forces se compensent car elles sont opposées."
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le principe des actions réciproques s'applique à deux corps différents : le livre et la table.",
+    "La force du livre sur la table et celle de la table sur le livre ont même intensité et des sens opposés."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Le poids est une interaction Terre–livre, pas table–livre ; et deux forces réciproques agissent sur deux corps différents, elles ne se compensent pas.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C02-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calcule l'intensité de la pesanteur à $400\\ \\text{km}$ d'altitude. Données : $G = 6{,}67 \\times 10^{-11}$ SI ; $M_T = 5{,}97 \\times 10^{24}\\ \\text{kg}$ ; $R_T = 6370\\ \\text{km}$. (Réponse en N/kg, 3 chiffres significatifs.)",
+   "reponses_acceptees": [
+    "8,69",
+    "8,7",
+    "8,69N/kg",
+    "8,688"
+   ],
+   "indices": [
+    "La distance au centre de la Terre est R + h.",
+    "Tout en mètres."
+   ],
+   "corrige": [
+    "$g = \\dfrac{G M_T}{(R_T + h)^2}$ avec $R_T + h = 6{,}77 \\times 10^{6}\\ \\text{m}$.",
+    "$g = \\dfrac{6{,}67 \\times 10^{-11} \\times 5{,}97 \\times 10^{24}}{(6{,}77 \\times 10^{6})^2}$.",
+    "$g = 8{,}69\\ \\text{N/kg}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Prendre d = h = 400 km.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C02-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "On suspend des masses marquées à un ressort et on mesure sa longueur ($g = 9{,}8\\ \\text{N/kg}$) :\n\n| m (g) | 50 | 100 | 150 | 200 |\n|---|---|---|---|---|\n| ℓ (cm) | 12,0 | 14,0 | 16,0 | 18,0 |\n\n1. Quelle est la longueur à vide $\\ell_0$ ?\n2. Calcule la raideur $k$.\n3. Le ressort mesure 15,0 cm avec un objet inconnu : quelle est sa masse ?",
+   "indices": [
+    "Cherche la longueur pour une masse nulle en prolongeant le tableau.",
+    "À l'équilibre, T = P."
+   ],
+   "corrige": [
+    "Chaque ajout de 50 g allonge le ressort de 2,0 cm ; pour $m = 0$ : $\\ell_0 = 12{,}0 - 2{,}0 = 10{,}0\\ \\text{cm}$.",
+    "Pour 50 g : $T = m g = 0{,}050 \\times 9{,}8 = 0{,}49\\ \\text{N}$ et $\\Delta\\ell = 0{,}020\\ \\text{m}$.",
+    "$k = \\dfrac{T}{\\Delta \\ell} = \\dfrac{0{,}49}{0{,}020} = 24{,}5\\ \\text{N/m}$.",
+    "$\\Delta \\ell = 15{,}0 - 10{,}0 = 5{,}0\\ \\text{cm}$ ; $T = 24{,}5 \\times 0{,}050 = 1{,}225\\ \\text{N}$.",
+    "$m = T/g = 1{,}225/9{,}8 = 0{,}125\\ \\text{kg} = 125\\ \\text{g}$ (cohérent : 15,0 cm est entre 100 g et 150 g)."
+   ],
+   "bareme": [
+    1,
+    0.5,
+    1,
+    1,
+    0.5
+   ],
+   "piege": "Calculer k avec la longueur ℓ au lieu de l'allongement.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C02-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C02-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Un cube de bois de 10 cm d'arête et de masse 600 g est placé dans l'eau ($\\rho_{eau} = 1000\\ \\text{kg/m}^3$, $g = 9{,}8\\ \\text{N/kg}$).\n1. Calcule son poids.\n2. Calcule la poussée d'Archimède s'il était totalement immergé. Le cube flotte-t-il ?\n3. À l'équilibre, quelle hauteur du cube est immergée ?",
+   "indices": [
+    "Section du cube : S = 0,10 × 0,10 m²."
+   ],
+   "corrige": [
+    "$P = m g = 0{,}600 \\times 9{,}8 = 5{,}88\\ \\text{N}$.",
+    "$V = (0{,}10)^3 = 1{,}0 \\times 10^{-3}\\ \\text{m}^3$ ; $F_{A,max} = 1000 \\times 1{,}0 \\times 10^{-3} \\times 9{,}8 = 9{,}8\\ \\text{N}$.",
+    "$F_{A,max} > P$ : le cube remonte et **flotte**.",
+    "À l'équilibre $F_A = P \\Rightarrow \\rho V_{imm} g = m g \\Rightarrow V_{imm} = \\dfrac{m}{\\rho} = \\dfrac{0{,}600}{1000} = 6{,}0 \\times 10^{-4}\\ \\text{m}^3$.",
+    "Hauteur immergée : $h = V_{imm}/S = 6{,}0 \\times 10^{-4}/0{,}010 = 0{,}060\\ \\text{m} = 6{,}0\\ \\text{cm}$."
+   ],
+   "bareme": [
+    0.5,
+    1,
+    0.5,
+    1.5,
+    1
+   ],
+   "piege": "Calculer le volume en cm³ sans conversion.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C02-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C02-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Données : $G = 6{,}67 \\times 10^{-11}$ SI ; $M_T = 5{,}97 \\times 10^{24}\\ \\text{kg}$ ; $M_L = 7{,}35 \\times 10^{22}\\ \\text{kg}$ ; distance Terre–Lune $d = 3{,}84 \\times 10^{8}\\ \\text{m}$ ; rayon lunaire $R_L = 1{,}74 \\times 10^{6}\\ \\text{m}$.\n1. Calcule l'intensité de la force d'attraction Terre–Lune.\n2. Calcule $g_L$ à la surface de la Lune.\n3. Quel est le poids d'un astronaute de 70 kg sur Terre ($g = 9{,}8$) et sur la Lune ?",
+   "indices": [
+    "Mets d au carré : (3,84 × 10⁸)² = 1,47 × 10¹⁷."
+   ],
+   "corrige": [
+    "$F = G\\dfrac{M_T M_L}{d^2} = \\dfrac{6{,}67 \\times 10^{-11} \\times 5{,}97 \\times 10^{24} \\times 7{,}35 \\times 10^{22}}{(3{,}84 \\times 10^{8})^2}$.",
+    "$F = 1{,}98 \\times 10^{20}\\ \\text{N}$.",
+    "$g_L = \\dfrac{G M_L}{R_L^2} = \\dfrac{6{,}67 \\times 10^{-11} \\times 7{,}35 \\times 10^{22}}{(1{,}74 \\times 10^{6})^2} = 1{,}62\\ \\text{N/kg}$.",
+    "Terre : $P = 70 \\times 9{,}8 = 686\\ \\text{N}$ ; Lune : $P_L = 70 \\times 1{,}62 = 113\\ \\text{N}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1.5
+   ],
+   "piege": "Oublier le carré ou les puissances de 10.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C02-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C02-N1",
+    "PC-S1-C02-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Parmi ces forces, laquelle est une action **à distance** ?",
+   "choix": [
+    "La tension d'un fil",
+    "La réaction d'une table",
+    "Le poids d'un ballon",
+    "La poussée d'Archimède"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Le poids est exercé par la Terre sans contact.",
+    "Les autres (tension, réaction, poussée) sont des forces de contact."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C02-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "À quelle altitude $h$ (en km) l'intensité de la pesanteur vaut-elle le quart de sa valeur au sol ? ($R_T = 6370\\ \\text{km}$)",
+   "reponses_acceptees": [
+    "6370",
+    "6370km",
+    "6,37e3",
+    "6,37×10^3"
+   ],
+   "indices": [
+    "Prends la racine carrée des deux membres."
+   ],
+   "corrige": [
+    "$\\dfrac{g}{g_0} = \\dfrac{R_T^2}{(R_T + h)^2} = \\dfrac{1}{4}$.",
+    "$\\dfrac{R_T}{R_T + h} = \\dfrac{1}{2} \\Rightarrow R_T + h = 2 R_T$.",
+    "$h = R_T = 6370\\ \\text{km}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Croire que g est divisé par 4 quand h = 4 R_T.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C02-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C02-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une masse de 150 g suspendue à un ressort l'allonge de 3,0 cm ($g = 9{,}8\\ \\text{N/kg}$). Calcule la raideur $k$ en N/m.",
+   "reponses_acceptees": [
+    "49",
+    "49N/m"
+   ],
+   "indices": [],
+   "corrige": [
+    "$T = P = m g = 0{,}150 \\times 9{,}8 = 1{,}47\\ \\text{N}$.",
+    "$k = \\dfrac{T}{\\Delta \\ell} = \\dfrac{1{,}47}{0{,}030} = 49\\ \\text{N/m}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Garder 150 g ou 3,0 cm sans conversion.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre masse (kg) et poids (N), ou donner une force en kg.",
+  "Oublier le point d'application ou l'échelle en représentant une force.",
+  "Prendre la longueur ℓ au lieu de l'allongement ℓ − ℓ₀ dans la loi de Hooke ; Δℓ laissé en cm.",
+  "Dans F = Gm₁m₂/d², oublier le carré, ou utiliser l'altitude au lieu de la distance au centre.",
+  "Croire que deux forces réciproques se compensent.",
+  "Poussée d'Archimède : volume total au lieu du volume immergé ; litres non convertis en m³."
+ ]
+}

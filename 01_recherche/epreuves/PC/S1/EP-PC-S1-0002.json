@@ -1,0 +1,277 @@
+{
+ "id": "EP-PC-S1-0002",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (octobre 2020)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2020-2021 (concours d'octobre 2020)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Alcanes et combustion — 3e",
+  "Pollution, effet de serre — 3e",
+  "Tests d'identification des ions — 3e",
+  "pH — 3e",
+  "Forces, actions réciproques — 3e"
+ ],
+ "chapitres": [
+  "PC-S1-C02",
+  "PC-S1-C03",
+  "PC-S1-C08",
+  "PC-S2-C15",
+  "PC-S2-C16"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE (Octobre 2020)**\n**Épreuve de Sciences physiques** — Durée : 2 h — Coef : 2\n\n> **Sujet incomplet** : seule la première page figure dans le recueil (elle se termine par « .../... TSVP »). La suite de l'exercice 3 et le reste de l'épreuve sont absents ; 8 points sur 20 sont transcrits.\n\n### Exercice 1 (03 points)\nL'État du Togo encourage depuis plusieurs années les ménages à utiliser les foyers améliorés et surtout le gaz butane pour lutter contre la déforestation. Cependant, les combustions réalisées avec les foyers améliorés et le gaz butane ne sont pas sans effets néfastes sur l'homme et son environnement. Les élèves du club scientifique d'un collège dont tu es membre se proposent de sensibiliser la population sur les effets de certains produits de la combustion du butane.\n1. Nomme la famille des hydrocarbures à laquelle appartient le butane. (0,5 pt)\n2. Écris :\n   - a) les formules développées du butane ; (0,5 pt)\n   - b) l'équation bilan de la combustion complète du butane. (1 pt)\n3. Indique le nom du produit formé qui est nocif pour l'homme. (0,5 pt)\n4. Cite un effet néfaste de ce produit sur l'environnement. (0,5 pt)\n\n### Exercice 2 (04 points)\n1. En laboratoire, on peut réaliser la réaction entre l'acide chlorhydrique et le fer. Dans un tube à essai, on introduit de la poudre de fer et on ajoute quelques millilitres d'acide chlorhydrique. Le bilan de cette transformation chimique est : fer + acide chlorhydrique → dihydrogène + solution de chlorure de fer (II).\n\n   *Document : quelques tests de reconnaissance des ions*\n\n   | Détecteur | Ion testé | Résultat du test |\n   |---|---|---|\n   | Solution de nitrate d'argent | Ion chlorure ($\\ce{Cl-}$) | Formation d'un précipité blanc qui noircit à la lumière |\n   | Solution d'hydroxyde de sodium (soude) | Ion fer II ($\\ce{Fe^2+}$) | Formation d'un précipité vert |\n   | Solution d'hydroxyde de sodium (soude) | Ion fer III ($\\ce{Fe^3+}$) | Formation d'un p[illisible] |\n\n   - a) Schématise le test à réaliser pour mettre en évidence la présence des ions fer II dans la solution finale. (1 pt) [fragment illisible : « Juille ... e transformation. »]\n   - b) Au cours du test, décris l'observation qui permet de confirmer la présence d'ions fer II. (0,5 pt)\n2. La coopérative scolaire d'un collège a réalisé des pépinières d'orangers et d'hévéas respectivement sur deux parcelles A et B. Le sol de la parcelle A a un pH = 6 et celui de la parcelle B a un pH = 9. Malgré toutes les précautions prises, les élèves constatent au bout d'un certain temps que les pépinières d'hévéas ne se sont pas bien développées. Pour comprendre cette situation, ils approchent leur professeur de physique-chimie qui met à leur disposition les informations consignées dans le tableau ci-dessous.\n\n   | Cultures | ananas | orangers | hévéas |\n   |---|---|---|---|\n   | Intervalles du pH du sol | [illisible, OCR : « 5,6 6 »] | [OCR : « 5,5 6,8 »] | [OCR : « 4,5 5,5 »] |\n\n   (Attribution des intervalles aux colonnes incertaine : l'OCR a mélangé les cases du tableau.)\n   - a) Donne la nature du sol A et la nature du sol B. (1 pt)\n   - b) Écris le nom et la formule de l'ion responsable de l'acidité et celui responsable de la basicité. (1 pt)\n   - c) Dis pourquoi les pépinières d'hévéas ne se sont pas bien développées. (0,5 pt)\n\n### Exercice 3 (04,5 points)\nUn corps de masse m = 20 g est posé sur un plan horizontal.\n1. Représenter le corps ainsi que les forces qui s'appliquent sur lui. (0,5 pt)\n2. Montrer que le principe des actions réciproques est respecté. (0,5 pt)\n\n.../... TSVP — [page 2 absente du recueil]\n",
+ "questions": [
+  {
+   "numero": "Ex1-1",
+   "enonce": "Famille du butane.",
+   "points": 0.5,
+   "notions_titres": [
+    "Alcanes"
+   ],
+   "corrige": [
+    "Le butane appartient à la famille des **alcanes** (hydrocarbures saturés, formule générale $\\ce{C_nH_{2n+2}}$)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Les alcanes",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2.a",
+   "enonce": "Formules développées du butane C₄H₁₀.",
+   "points": 0.5,
+   "notions_titres": [
+    "Alcanes",
+    "Isomérie"
+   ],
+   "corrige": [
+    "Butane linéaire : $\\ce{CH3-CH2-CH2-CH3}$.",
+    "Isomère ramifié (méthylpropane) : $\\ce{CH3-CH(CH3)-CH3}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Butane et méthylpropane",
+   "piege": "N'écrire que la chaîne linéaire alors que l'énoncé dit « les formules ».",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2.b",
+   "enonce": "Équation de la combustion complète du butane.",
+   "points": 1,
+   "notions_titres": [
+    "Combustion des alcanes"
+   ],
+   "corrige": [
+    "Réactifs : butane et dioxygène ; produits : dioxyde de carbone et eau.",
+    "$\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$",
+   "piege": "Laisser 13/2 O₂ : on préfère des coefficients entiers.",
+   "astuce": "Équilibre C, puis H, puis O en dernier."
+  },
+  {
+   "numero": "Ex1-3",
+   "enonce": "Produit formé nocif pour l'homme.",
+   "points": 0.5,
+   "notions_titres": [
+    "Combustion",
+    "Pollution"
+   ],
+   "corrige": [
+    "Parmi les produits de la combustion, c'est le **dioxyde de carbone** $\\ce{CO2}$ (asphyxiant en milieu confiné) ; si la combustion est incomplète (manque d'air, foyer mal réglé), il se forme aussi du **monoxyde de carbone** $\\ce{CO}$, gaz très toxique."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "CO₂ (et CO en cas de combustion incomplète)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-4",
+   "enonce": "Effet néfaste sur l'environnement.",
+   "points": 0.5,
+   "notions_titres": [
+    "Pollution",
+    "Effet de serre"
+   ],
+   "corrige": [
+    "Le $\\ce{CO2}$ renforce l'**effet de serre** et contribue au réchauffement climatique."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Renforcement de l'effet de serre (réchauffement climatique)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-1.a",
+   "enonce": "Schéma du test des ions fer II.",
+   "points": 1,
+   "notions_titres": [
+    "Tests d'identification des ions"
+   ],
+   "corrige": [
+    "Prélever un peu de la solution finale dans un tube à essai.",
+    "Ajouter quelques gouttes de solution d'hydroxyde de sodium (soude) avec un compte-gouttes ; schéma légendé (tube, solution testée, compte-gouttes de soude)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Tube + solution + quelques gouttes de soude (schéma légendé)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-1.b",
+   "enonce": "Observation confirmant les ions fer II.",
+   "points": 0.5,
+   "notions_titres": [
+    "Tests d'identification des ions"
+   ],
+   "corrige": [
+    "Formation d'un **précipité vert** (hydroxyde de fer II)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Précipité vert",
+   "piege": "Confondre avec le précipité rouille des ions fer III.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-2.a",
+   "enonce": "Nature des sols A (pH 6) et B (pH 9).",
+   "points": 1,
+   "notions_titres": [
+    "pH"
+   ],
+   "corrige": [
+    "Sol A : pH = 6 < 7 ⇒ sol **acide**.",
+    "Sol B : pH = 9 > 7 ⇒ sol **basique**."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "A acide ; B basique",
+   "piege": "",
+   "astuce": "pH < 7 acide, = 7 neutre, > 7 basique (à 25 °C)."
+  },
+  {
+   "numero": "Ex2-2.b",
+   "enonce": "Ions responsables de l'acidité et de la basicité.",
+   "points": 1,
+   "notions_titres": [
+    "pH",
+    "Ions"
+   ],
+   "corrige": [
+    "Acidité : ion hydronium (hydrogène) $\\ce{H3O+}$ (noté aussi $\\ce{H+}$).",
+    "Basicité : ion hydroxyde $\\ce{OH-}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "H₃O⁺ et OH⁻",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-2.c",
+   "enonce": "Pourquoi les hévéas ne se sont pas développés.",
+   "points": 0.5,
+   "notions_titres": [
+    "pH"
+   ],
+   "corrige": [
+    "Les hévéas ont besoin d'un sol **acide** (intervalle de pH < 7 dans le tableau, environ 4,5–5,5 d'après l'OCR) ; or ils ont été plantés sur la parcelle B dont le sol est **basique** (pH = 9), en dehors de leur intervalle."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Sol B trop basique (pH 9) pour les hévéas qui demandent un sol acide",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-1",
+   "enonce": "Représenter le corps et les forces.",
+   "points": 0.5,
+   "notions_titres": [
+    "Forces",
+    "Équilibre"
+   ],
+   "corrige": [
+    "Deux forces : le poids $\\vec P$ (vertical, vers le bas, appliqué au centre de gravité, $P = mg = 0{,}020 \\times 10 = 0{,}2\\ \\text{N}$) et la réaction du plan $\\vec R$ (verticale, vers le haut, appliquée à la surface de contact) ; à l'équilibre $\\vec R = -\\vec P$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Poids P = 0,2 N vers le bas ; réaction R = 0,2 N vers le haut",
+   "piege": "Oublier de convertir 20 g = 0,020 kg.",
+   "astuce": "g = 10 N/kg (valeur usuelle, non précisée dans la partie visible)."
+  },
+  {
+   "numero": "Ex3-2",
+   "enonce": "Principe des actions réciproques.",
+   "points": 0.5,
+   "notions_titres": [
+    "Interactions",
+    "Actions réciproques"
+   ],
+   "corrige": [
+    "Le corps exerce sur le plan une force $\\vec F_{corps/plan}$ (vers le bas) et le plan exerce sur le corps $\\vec F_{plan/corps} = \\vec R$ (vers le haut) : mêmes droite d'action et intensité, sens opposés, $\\vec F_{plan/corps} = -\\vec F_{corps/plan}$ ; le principe est respecté."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Forces d'interaction égales et opposées",
+   "piege": "Confondre le couple (P, R), qui s'applique au même corps, avec le couple d'actions réciproques.",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Alcanes ; butane + méthylpropane ; 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O ; CO₂ (CO si incomplète), effet de serre ; soude → précipité vert ; A acide, B basique ; H₃O⁺, OH⁻ ; P = 0,2 N.",
+  "passe2": "Équation rééquilibrée atome par atome (C : 8 = 8 ; H : 20 = 20 ; O : 26 = 16 + 10) ; P = mg recalculé ; interprétation du tableau vérifiée par la culture réelle de l'hévéa (sols acides).",
+  "code": "oui (verif.py : P = 0,2 N)",
+  "desaccords": [
+   "Ex1-3 : la réponse attendue n'est pas certaine (CO₂ cité dans la question 4 sur l'environnement, CO toxique en combustion incomplète) ; les deux sont donnés.",
+   "Ex2-2 : tableau des intervalles de pH illisible en partie ; la réponse c) n'utilise que le caractère acide de l'intervalle des hévéas.",
+   "Épreuve incomplète : 12 points sur 20 (fin de l'exercice 3 et exercices suivants) absents du recueil ; ne pas utiliser comme épreuve blanche complète.",
+   "Barème interne aux questions proposé, non officiel."
+  ]
+ },
+ "notes_transcription": [
+  "Page 2 du sujet absente du recueil : épreuve incomplète (8 points transcrits sur 20)."
+ ],
+ "points_transcrits": 8.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

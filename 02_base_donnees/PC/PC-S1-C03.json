@@ -1,0 +1,655 @@
+{
+ "id": "PC-S1-C03",
+ "matiere": "PC",
+ "semestre": 1,
+ "ordre": 3,
+ "titre": "Équilibre d'un solide soumis à des forces",
+ "objectifs": [
+  "Faire le bilan des forces extérieures appliquées à un solide.",
+  "Énoncer le principe d'inertie.",
+  "Appliquer les conditions d'équilibre d'un solide soumis à deux forces.",
+  "Appliquer les conditions d'équilibre d'un solide soumis à trois forces non parallèles (méthode graphique et projection).",
+  "Exploiter le plan incliné avec ou sans frottement."
+ ],
+ "prerequis": [
+  "PC-S1-C02",
+  "M-3e-TRIGONOMETRIE"
+ ],
+ "notions": [
+  {
+   "id": "PC-S1-C03-N1",
+   "titre": "Faire le bilan des forces appliquées à un solide",
+   "prerequis_notions": [
+    "PC-S1-C02-N1",
+    "PC-S1-C02-N3"
+   ],
+   "cours_md": "## 1. Pourquoi un bilan des forces ?\nPour étudier l'équilibre (ou le mouvement) d'un objet, il faut connaître **toutes** les forces **extérieures** qui s'exercent sur lui. Oublier une force (souvent le poids ou la réaction) rend tout le reste faux.\n\n:::methode Bilan des forces en 4 étapes\n1. **Système** : « Système étudié : la caisse ». On l'entoure mentalement.\n2. **Référentiel** : « Référentiel terrestre supposé galiléen ».\n3. **Inventaire** des forces extérieures :\n - les forces **à distance** : le poids $\\vec{P}$ (toujours, sauf si la masse est négligeable) ;\n - les forces **de contact** : on fait le tour du système ; **chaque objet qui le touche** exerce une force (fil → $\\vec{T}$, support → $\\vec{R}$, ressort → $\\vec{T}$, fluide → $\\vec{F}_A$, main → $\\vec{F}$…).\n4. **Représentation** : tracer chaque force à partir de son point d'application, à l'échelle si les intensités sont connues.\n:::\n\n## 2. Tableau des caractéristiques\nOn présente souvent le bilan sous forme de tableau :\n\n| Force | Point d'application | Direction | Sens | Intensité |\n|---|---|---|---|---|\n| $\\vec{P}$ | $G$ | verticale | vers le bas | $P = m g$ |\n| $\\vec{T}$ (fil) | point d'attache | celle du fil | vers le fil | à calculer |\n| $\\vec{R}$ (sans frottement) | centre de la surface de contact | perpendiculaire au support | vers le solide | à calculer |\n\n## 3. Solide pseudo-isolé et principe d'inertie\n- Un solide est **pseudo-isolé** si les forces qui s'exercent sur lui se compensent : $\\sum \\vec{F}_{ext} = \\vec{0}$.\n:::propriete Principe d'inertie\nDans un référentiel galiléen (le référentiel terrestre l'est en bonne approximation), le centre de gravité d'un solide pseudo-isolé est **soit au repos, soit en mouvement rectiligne uniforme**. Réciproquement, si $G$ est au repos ou en MRU, les forces se compensent.\n:::\nConséquence : une caisse posée immobile **et** une caisse glissant à vitesse constante en ligne droite subissent toutes deux des forces qui se compensent.\n\n## Exemples résolus\n**Exemple 1.** Une caisse est posée sur un plan incliné **sans frottement** et retenue par une corde parallèle au plan. Fais le bilan des forces.\n- Système : la caisse ; référentiel terrestre.\n- Force à distance : le poids $\\vec{P}$ (en $G$, vertical, vers le bas).\n- Forces de contact : la corde → tension $\\vec{T}$ (parallèle au plan, vers le haut de la pente) ; le plan → réaction $\\vec{R}$ (perpendiculaire au plan, sans frottement).\n- Trois forces : $\\vec{P}$, $\\vec{T}$, $\\vec{R}$.\n\n**Exemple 2.** Une moto roule en ligne droite à vitesse constante sur une route horizontale. Que peut-on dire des forces qui s'exercent sur elle ?\n- Le mouvement de $G$ est rectiligne uniforme dans le référentiel terrestre.\n- D'après le principe d'inertie, la moto est pseudo-isolée : $\\sum \\vec{F}_{ext} = \\vec{0}$ ; la force motrice compense exactement les frottements.",
+   "definition": "Faire le bilan des forces, c'est choisir le système puis lister toutes les forces extérieures (à distance et de contact) qui s'exercent sur lui, avec leurs caractéristiques.",
+   "formules": [
+    "$\\sum \\vec{F}_{ext} = \\vec{0} \\iff$ G au repos ou en MRU"
+   ],
+   "niveaux": {
+    "phrase": "On fait le tour du système : le poids, puis une force pour chaque objet qui le touche.",
+    "simple": "Imagine une fourmi qui fait le tour de la caisse : à chaque fois qu'elle rencontre un objet en contact (corde, sol, main), elle note une force. Et elle n'oublie jamais la Terre qui tire tout vers le bas.",
+    "complete": "Bilan : système, référentiel, forces à distance (poids), forces de contact (une par objet en contact), représentation. Principe d'inertie : dans un référentiel galiléen, $\\sum \\vec F_{ext} = \\vec 0 \\iff$ G immobile ou en MRU."
+   },
+   "analogie": "Le zémidjan qui roule bien droit à vitesse constante sur le goudron de la nationale n°1 est « pseudo-isolé » : la poussée du moteur compense exactement les frottements de l'air et de la route.",
+   "exemples_resolus": [
+    {
+     "enonce": "Caisse sur un plan incliné sans frottement, retenue par une corde parallèle au plan : bilan des forces.",
+     "etapes": [
+      "Système : la caisse ; référentiel terrestre.",
+      "À distance : poids $\\vec P$, vertical vers le bas, en G.",
+      "Contact corde : tension $\\vec T$, parallèle au plan, vers le haut de la pente.",
+      "Contact plan : réaction $\\vec R$ perpendiculaire au plan (pas de frottement)."
+     ]
+    },
+    {
+     "enonce": "Moto en MRU sur route horizontale : que dire des forces ?",
+     "etapes": [
+      "G est en mouvement rectiligne uniforme dans le référentiel terrestre (galiléen).",
+      "Principe d'inertie : $\\sum \\vec F_{ext} = \\vec 0$.",
+      "La force motrice compense les frottements ; R compense P."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier le poids ou la réaction du support.",
+    "Ajouter une force « du mouvement » ou « de la vitesse » qui n'existe pas.",
+    "Compter une force exercée PAR le système (elle s'applique sur un autre corps).",
+    "Dessiner la réaction perpendiculaire alors que l'énoncé parle de frottements."
+   ],
+   "astuces": [
+    "Compte les contacts : autant de forces de contact que d'objets qui touchent le système.",
+    "Écris toujours la phrase « Système : … ; Référentiel : … » : c'est souvent noté au barème."
+   ],
+   "mnemo": "« SRIR » : Système, Référentiel, Inventaire, Représentation.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu faisais déjà l'inventaire des actions qui s'exercent sur un objet (le diagramme objets-interactions). En Seconde, on le transforme en bilan de forces avec des vecteurs."
+   },
+   "methode_redaction": "Rédige : « Système : … Référentiel : … Bilan des forces extérieures : $\\vec P$ (poids), $\\vec R$ (réaction du support), $\\vec T$ (tension du fil) », puis un tableau des caractéristiques et un schéma.",
+   "flash": [
+    {
+     "q": "Première étape d'un bilan des forces ?",
+     "r": "Définir le système étudié."
+    },
+    {
+     "q": "Quelle force à distance retrouve-t-on presque toujours ?",
+     "r": "Le poids."
+    },
+    {
+     "q": "Combien de forces de contact ?",
+     "r": "Une par objet en contact avec le système."
+    },
+    {
+     "q": "Énonce le principe d'inertie.",
+     "r": "Dans un référentiel galiléen, si les forces se compensent, G est au repos ou en MRU (et réciproquement)."
+    },
+    {
+     "q": "Qu'est-ce qu'un solide pseudo-isolé ?",
+     "r": "Un solide soumis à des forces qui se compensent."
+    },
+    {
+     "q": "Une voiture en MRU : somme des forces ?",
+     "r": "Nulle (vecteur nul)."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C03-N1.svg",
+    "alt": "Une caisse sur un plan incliné sans frottement, retenue par une corde parallèle au plan : le poids P vertical vers le bas, la tension T parallèle au plan vers le haut de la pente, la réaction R perpendiculaire au plan.",
+    "legende": "Bilan des forces sur un plan incliné sans frottement : P, T et R.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C03-N2",
+   "titre": "Équilibre d'un solide soumis à deux forces",
+   "prerequis_notions": [
+    "PC-S1-C03-N1"
+   ],
+   "cours_md": ":::propriete Condition d'équilibre (deux forces)\nSi un solide soumis à deux forces $\\vec{F}_1$ et $\\vec{F}_2$ est en équilibre, alors :\n$$\\vec{F}_1 + \\vec{F}_2 = \\vec{0}$$\nLes deux forces ont donc :\n- **la même droite d'action** ;\n- **des sens opposés** ;\n- **la même intensité** : $F_1 = F_2$.\n:::\n\n:::attention Même droite d'action\nDeux forces opposées mais **décalées** (droites d'action parallèles distinctes) ne donnent pas l'équilibre : le solide se met à tourner (c'est un couple, voir chapitre suivant).\n:::\n\n## Applications classiques\n**a) Solide suspendu à un fil.** Forces : $\\vec{P}$ et $\\vec{T}$. À l'équilibre, $\\vec{T} = -\\vec{P}$ : le fil est **vertical** et sa droite d'action passe par $G$ ; $T = P = m g$.\n→ C'est la méthode du **fil à plomb** et de la recherche expérimentale du centre de gravité.\n\n**b) Solide posé sur un support horizontal.** Forces : $\\vec{P}$ et $\\vec{R}$ ; $\\vec{R} = -\\vec{P}$, donc $R = P$, verticale vers le haut.\n\n**c) Solide immobile sur un plan incliné AVEC frottement.** Forces : $\\vec{P}$ et $\\vec{R}$ seulement. À l'équilibre, $\\vec{R} = -\\vec{P}$ : la réaction est **verticale**, vers le haut, $R = m g$. Elle n'est pas perpendiculaire au plan : c'est la preuve qu'il y a des frottements. On la décompose :\n- composante normale $R_N = m g \\cos\\alpha$ ;\n- force de frottement $f = m g \\sin\\alpha$ (parallèle au plan, vers le haut de la pente).\n\n**d) Solide suspendu à un ressort.** $T = k\\,\\Delta\\ell = m g$ (vu au chapitre précédent).\n\n:::methode Protocole : vérifier la condition d'équilibre\nUn anneau léger est relié à deux dynamomètres tirés en sens opposés. À l'équilibre, on constate que les fils sont **alignés** et que les deux dynamomètres indiquent la **même valeur**.\n:::\n\n## Exemples résolus\n**Exemple 1.** Une boule de 300 g est suspendue à un fil ($g = 9{,}8\\ \\text{N/kg}$). Détermine la tension du fil.\n- Système : la boule ; forces : $\\vec{P}$ et $\\vec{T}$.\n- Équilibre : $\\vec{P} + \\vec{T} = \\vec{0} \\Rightarrow T = P = m g$.\n- $T = 0{,}300 \\times 9{,}8 = 2{,}94\\ \\text{N}$ ; $\\vec{T}$ est verticale, vers le haut, appliquée au point d'attache.\n\n**Exemple 2.** Une caisse de 3,0 kg reste immobile sur une pente de $25^\\circ$. Calcule $R$, puis $R_N$ et $f$.\n- Deux forces ($\\vec{P}$ et $\\vec{R}$) : $R = P = 3{,}0 \\times 9{,}8 = 29{,}4\\ \\text{N}$, verticale vers le haut.\n- $R_N = R\\cos 25^\\circ = 26{,}6\\ \\text{N}$ ; $f = R\\sin 25^\\circ = 12{,}4\\ \\text{N}$.",
+   "definition": "Un solide soumis à deux forces est en équilibre si ces forces ont même droite d'action, même intensité et des sens opposés.",
+   "formules": [
+    "$\\vec{F}_1 + \\vec{F}_2 = \\vec{0}$",
+    "$T = P = m g$ (fil vertical)",
+    "$R_N = m g \\cos\\alpha$ ; $f = m g \\sin\\alpha$"
+   ],
+   "niveaux": {
+    "phrase": "Deux forces s'équilibrent si elles tirent avec la même force, en sens contraires, sur la même ligne.",
+    "simple": "Au tir à la corde, si les deux équipes tirent exactement aussi fort sur la même corde, le foulard du milieu ne bouge pas.",
+    "complete": "Équilibre sous 2 forces : $\\vec F_1 + \\vec F_2 = \\vec 0$, donc même droite d'action, sens opposés, même intensité. Fil : vertical, passe par G, $T = mg$. Plan incliné avec frottement : $\\vec R$ verticale, $R = mg$, $R_N = mg\\cos\\alpha$, $f = mg\\sin\\alpha$."
+   },
+   "analogie": "Le seau d'eau suspendu à la corde du puits, immobile : la corde tire vers le haut exactement autant que la Terre tire le seau vers le bas.",
+   "exemples_resolus": [
+    {
+     "enonce": "Boule de 300 g suspendue à un fil : tension ?",
+     "etapes": [
+      "Système : la boule ; forces : P et T.",
+      "Équilibre : $\\vec P + \\vec T = \\vec 0 \\Rightarrow T = P$.",
+      "$T = m g = 0{,}300 \\times 9{,}8 = 2{,}94\\ \\text{N}$, verticale vers le haut."
+     ]
+    },
+    {
+     "enonce": "Caisse de 3,0 kg immobile sur une pente de 25° (frottements) : R, R_N, f ?",
+     "etapes": [
+      "Deux forces : $\\vec R = -\\vec P$, $R = 3{,}0 \\times 9{,}8 = 29{,}4\\ \\text{N}$.",
+      "$R_N = R \\cos 25^\\circ = 26{,}6\\ \\text{N}$.",
+      "$f = R \\sin 25^\\circ = 12{,}4\\ \\text{N}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier la condition « même droite d'action ».",
+    "Sur un plan incliné avec frottement, dessiner R perpendiculaire au plan.",
+    "Écrire P = T sans avoir fait le bilan des forces.",
+    "Confondre f = mg sin α et R_N = mg cos α."
+   ],
+   "astuces": [
+    "Si un solide immobile n'a que 2 forces, la deuxième est simplement « l'opposé » de la première.",
+    "Angle α petit (pente douce) : cos α ≈ 1, R_N ≈ R, f petit."
+   ],
+   "mnemo": "« Deux forces : même ligne, même taille, sens contraires. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu qu'un objet posé sur une table est soumis à son poids et à l'action de la table qui « se compensent »."
+   },
+   "methode_redaction": "Écris : « Le solide est en équilibre sous l'action de deux forces, donc $\\vec P + \\vec T = \\vec 0$ ; d'où $T = P = mg$ » puis l'application numérique et les caractéristiques de $\\vec T$.",
+   "flash": [
+    {
+     "q": "Conditions d'équilibre sous deux forces ?",
+     "r": "Même droite d'action, sens opposés, même intensité."
+    },
+    {
+     "q": "Direction du fil qui retient un solide immobile ?",
+     "r": "Verticale, passant par G."
+    },
+    {
+     "q": "Solide immobile sur un plan incliné avec frottement : direction de R ?",
+     "r": "Verticale, vers le haut."
+    },
+    {
+     "q": "Expression de la force de frottement dans ce cas ?",
+     "r": "$f = m g \\sin\\alpha$."
+    },
+    {
+     "q": "Deux forces opposées décalées : équilibre ?",
+     "r": "Non, elles font tourner le solide (couple)."
+    },
+    {
+     "q": "Tension d'un fil retenant 500 g (g = 9,8) ?",
+     "r": "4,9 N."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C03-N2.svg",
+    "alt": "À gauche, une boule suspendue à un fil vertical : T vers le haut et P vers le bas, de même longueur, sur la même droite. À droite, une caisse immobile sur un plan incliné avec frottement : R verticale vers le haut, opposée au poids, décomposée en R_N et f.",
+    "legende": "Deux forces en équilibre : même droite d'action, même intensité, sens opposés.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C03-N3",
+   "titre": "Équilibre d'un solide soumis à trois forces non parallèles",
+   "prerequis_notions": [
+    "PC-S1-C03-N2"
+   ],
+   "cours_md": ":::propriete Conditions d'équilibre (trois forces non parallèles)\nSi un solide soumis à trois forces non parallèles $\\vec{F}_1$, $\\vec{F}_2$, $\\vec{F}_3$ est en équilibre, alors :\n1. les trois forces sont **coplanaires** (dans un même plan) ;\n2. leurs droites d'action sont **concourantes** (elles se coupent en un même point) ;\n3. leur somme vectorielle est nulle :\n$$\\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = \\vec{0}$$\n:::\n\n## Méthode 1 : la construction graphique (triangle des forces)\n:::methode Dynamique des forces\n1. Choisir une échelle (ex. $1\\ \\text{cm} \\leftrightarrow 2\\ \\text{N}$).\n2. Tracer le vecteur connu (souvent $\\vec{P}$).\n3. À partir de son extrémité, tracer la direction de la 2e force ; à partir de son origine, la direction de la 3e force.\n4. Ces deux droites se coupent : on obtient un **triangle fermé** (les vecteurs se suivent « pointe à queue »).\n5. Mesurer les côtés et convertir avec l'échelle.\n:::\n\n## Méthode 2 : la projection sur deux axes (méthode analytique)\n:::methode Projection\n1. Choisir un repère $(O, \\vec{i}, \\vec{j})$ astucieux (souvent : un axe parallèle au plan incliné, l'autre perpendiculaire).\n2. Exprimer les coordonnées de chaque force avec $\\sin$ et $\\cos$ (rappel 3e : dans un triangle rectangle, côté adjacent $=$ hypoténuse $\\times\\cos$, côté opposé $=$ hypoténuse $\\times\\sin$).\n3. Écrire : $\\sum F_x = 0$ et $\\sum F_y = 0$.\n4. Résoudre le système.\n:::\n\n## Le plan incliné sans frottement\nSolide de masse $m$ sur un plan incliné d'un angle $\\alpha$, retenu par un fil **parallèle** au plan. Avec l'axe $x$ le long du plan (vers le haut) et $y$ perpendiculaire :\n- $\\vec{P}$ : $P_x = -m g \\sin\\alpha$ ; $P_y = -m g \\cos\\alpha$ ;\n- $\\vec{T}$ : $T_x = T$ ; $T_y = 0$ ;\n- $\\vec{R}$ : $R_x = 0$ ; $R_y = R$.\n$$T = m g \\sin\\alpha \\qquad R = m g \\cos\\alpha$$\n\n## Exemples résolus\n**Exemple 1 (projection).** $m = 2{,}0\\ \\text{kg}$, $\\alpha = 30^\\circ$, sans frottement, fil parallèle au plan, $g = 9{,}8\\ \\text{N/kg}$.\n- Selon $x$ : $T - m g \\sin\\alpha = 0 \\Rightarrow T = 2{,}0 \\times 9{,}8 \\times \\sin 30^\\circ = 9{,}8\\ \\text{N}$.\n- Selon $y$ : $R - m g\\cos\\alpha = 0 \\Rightarrow R = 2{,}0 \\times 9{,}8 \\times \\cos 30^\\circ = 17{,}0\\ \\text{N}$.\n- Contrôle : $\\vec{T} \\perp \\vec{R}$, donc $T^{2} + R^{2} = P^{2}$ : $9{,}8^{2} + 17{,}0^{2} \\approx 19{,}6^{2}$ ✔.\n\n**Exemple 2 (symétrie).** Une lampe de 1,5 kg est suspendue par deux fils qui font chacun un angle de $30^\\circ$ avec la verticale. Calcule la tension $T$ de chaque fil.\n- Par symétrie $T_1 = T_2 = T$. Projection sur la verticale : $2\\,T\\cos 30^\\circ - m g = 0$.\n- $T = \\dfrac{m g}{2\\cos 30^\\circ} = \\dfrac{1{,}5 \\times 9{,}8}{2 \\times 0{,}866} = 8{,}49\\ \\text{N}$.\n- Les composantes horizontales $T\\sin 30^\\circ$ s'annulent deux à deux.",
+   "definition": "Un solide soumis à trois forces non parallèles est en équilibre si elles sont coplanaires, concourantes et de somme vectorielle nulle.",
+   "formules": [
+    "$\\vec{F}_1 + \\vec{F}_2 + \\vec{F}_3 = \\vec{0}$",
+    "$\\sum F_x = 0$ et $\\sum F_y = 0$",
+    "$T = m g\\sin\\alpha$ ; $R = m g\\cos\\alpha$ (plan incliné sans frottement)"
+   ],
+   "niveaux": {
+    "phrase": "Trois forces s'équilibrent si, mises bout à bout, elles forment un triangle fermé.",
+    "simple": "Si trois amis tirent sur un même anneau avec des cordes et que l'anneau ne bouge pas, les trois flèches des forces, mises bout à bout, referment un triangle : on revient au point de départ.",
+    "complete": "Équilibre sous 3 forces non parallèles : coplanaires, concourantes, $\\sum \\vec F = \\vec 0$. Résolution graphique (triangle des forces à l'échelle) ou analytique (projections : $\\sum F_x = 0$, $\\sum F_y = 0$). Plan incliné sans frottement, fil parallèle : $T = mg\\sin\\alpha$, $R = mg\\cos\\alpha$."
+   },
+   "analogie": "Le régime de bananes suspendu à deux cordes attachées à deux poteaux : plus les cordes sont horizontales, plus elles doivent tirer fort.",
+   "exemples_resolus": [
+    {
+     "enonce": "Plan incliné à 30°, sans frottement, m = 2,0 kg, fil parallèle : T et R ?",
+     "etapes": [
+      "Axes : $x$ le long du plan vers le haut, $y$ perpendiculaire.",
+      "$x$ : $T - mg\\sin\\alpha = 0 \\Rightarrow T = 2{,}0 \\times 9{,}8 \\times 0{,}5 = 9{,}8\\ \\text{N}$.",
+      "$y$ : $R - mg\\cos\\alpha = 0 \\Rightarrow R = 2{,}0 \\times 9{,}8 \\times 0{,}866 = 17{,}0\\ \\text{N}$.",
+      "Contrôle : $T^2 + R^2 = P^2$."
+     ]
+    },
+    {
+     "enonce": "Lampe de 1,5 kg suspendue par deux fils à 30° de la verticale : T ?",
+     "etapes": [
+      "Symétrie : $T_1 = T_2 = T$.",
+      "Verticale : $2T\\cos 30^\\circ = m g$.",
+      "$T = \\dfrac{1{,}5 \\times 9{,}8}{2 \\times 0{,}866} = 8{,}49\\ \\text{N}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Projeter le poids avec cos au lieu de sin (ou l'inverse) sur le plan incliné.",
+    "Oublier les signes des composantes.",
+    "Calculatrice en radians au lieu de degrés.",
+    "Triangle des forces non fermé ou vecteurs qui ne se suivent pas pointe à queue."
+   ],
+   "astuces": [
+    "Vérifie avec un cas limite : si $\\alpha = 0$ (plan horizontal), il faut $T = 0$ et $R = mg$ ; donc $T$ va avec $\\sin\\alpha$.",
+    "Si deux forces sont perpendiculaires, Pythagore donne un contrôle rapide : F₁² + F₂² = F₃²."
+   ],
+   "mnemo": "« Sin pour Suivre la pente » : la composante du poids le long du plan est mg sin α.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans un triangle rectangle : cos = adjacent / hypoténuse, sin = opposé / hypoténuse (SOH-CAH-TOA). C'est exactement ce qu'on utilise pour projeter les forces."
+   },
+   "methode_redaction": "Rédige : système, référentiel, bilan des forces, schéma avec les axes, condition d'équilibre $\\vec P + \\vec R + \\vec T = \\vec 0$, projections sur $x$ et $y$, expressions littérales de T et R, puis applications numériques.",
+   "flash": [
+    {
+     "q": "Trois conditions d'équilibre sous trois forces ?",
+     "r": "Coplanaires, concourantes, somme vectorielle nulle."
+    },
+    {
+     "q": "Méthode graphique ?",
+     "r": "Triangle des forces fermé, tracé à l'échelle."
+    },
+    {
+     "q": "Plan incliné sans frottement, fil parallèle : T ?",
+     "r": "$T = m g \\sin\\alpha$."
+    },
+    {
+     "q": "Plan incliné sans frottement : R ?",
+     "r": "$R = m g\\cos\\alpha$."
+    },
+    {
+     "q": "Mode de la calculatrice pour les angles en degrés ?",
+     "r": "Mode DEG."
+    },
+    {
+     "q": "Lampe suspendue par 2 fils symétriques : T ?",
+     "r": "$T = \\dfrac{mg}{2\\cos\\theta}$ (θ = angle avec la verticale)."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C03-N3.svg",
+    "alt": "Une lampe suspendue par deux fils symétriques faisant 30° avec la verticale, avec les tensions T1, T2 et le poids P concourants ; à droite le triangle des forces fermé P, T1, T2.",
+    "legende": "Trois forces en équilibre : concourantes, et le triangle des forces se referme.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S1-C03-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C03-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Un solide soumis à deux forces est en équilibre. Ces deux forces ont obligatoirement :",
+   "choix": [
+    "le même sens et la même intensité",
+    "la même droite d'action, la même intensité et des sens opposés",
+    "des directions perpendiculaires",
+    "des intensités différentes"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Condition : $\\vec F_1 + \\vec F_2 = \\vec 0$.",
+    "Donc même droite d'action, même intensité, sens opposés."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C03-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C03-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une boule de 500 g est suspendue à un fil, immobile ($g = 9{,}8\\ \\text{N/kg}$). Tension du fil en N ?",
+   "reponses_acceptees": [
+    "4,9",
+    "4,9N",
+    "4,90"
+   ],
+   "indices": [],
+   "corrige": [
+    "Équilibre sous 2 forces : $T = P = m g$.",
+    "$T = 0{,}500 \\times 9{,}8 = 4{,}9\\ \\text{N}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C03-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C03-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Laquelle de ces conditions **n'est pas** nécessaire à l'équilibre d'un solide soumis à trois forces non parallèles ?",
+   "choix": [
+    "Les forces sont coplanaires",
+    "Les droites d'action sont concourantes",
+    "La somme vectorielle est nulle",
+    "Les trois forces ont la même intensité"
+   ],
+   "bonne_reponse": 3,
+   "indices": [],
+   "corrige": [
+    "Les conditions sont : coplanaires, concourantes, somme nulle.",
+    "Rien n'impose que les intensités soient égales."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C03-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C03-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une caisse de 3,0 kg reste immobile sur un plan incliné rugueux ($g = 9{,}8\\ \\text{N/kg}$). Quelle est l'intensité de la réaction $R$ du plan (en N) ?",
+   "reponses_acceptees": [
+    "29,4",
+    "29,4N",
+    "29"
+   ],
+   "indices": [],
+   "corrige": [
+    "La caisse n'est soumise qu'à deux forces : $\\vec P$ et $\\vec R$.",
+    "Donc $R = P = 3{,}0 \\times 9{,}8 = 29{,}4\\ \\text{N}$ (R verticale)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer mg cos α : c'est seulement la composante normale.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C03-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un solide de 2,0 kg est maintenu immobile sur un plan incliné de 30°, **sans frottement**, par un fil parallèle au plan ($g = 9{,}8\\ \\text{N/kg}$). Tension du fil en N ?",
+   "reponses_acceptees": [
+    "9,8",
+    "9,8N",
+    "9,80"
+   ],
+   "indices": [],
+   "corrige": [
+    "Projection sur l'axe du plan : $T = m g\\sin\\alpha$.",
+    "$T = 2{,}0 \\times 9{,}8 \\times \\sin 30^\\circ = 9{,}8\\ \\text{N}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Prendre cos 30° donne 17 N : c'est R.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C03-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Même situation que l'exercice précédent (2,0 kg, 30°, sans frottement). Intensité de la réaction $R$ du plan, en N (3 chiffres significatifs) ?",
+   "reponses_acceptees": [
+    "17,0",
+    "17",
+    "16,97",
+    "17,0N",
+    "17N"
+   ],
+   "indices": [],
+   "corrige": [
+    "Projection sur l'axe perpendiculaire au plan : $R = m g\\cos\\alpha$.",
+    "$R = 2{,}0 \\times 9{,}8 \\times \\cos 30^\\circ = 17{,}0\\ \\text{N}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C03-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C03-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Une lampe de masse 1,5 kg est suspendue au milieu de deux fils identiques ; chaque fil fait un angle de 30° avec la verticale ($g = 9{,}8\\ \\text{N/kg}$).\n1. Fais le bilan des forces appliquées à la lampe.\n2. Écris la condition d'équilibre.\n3. Calcule la tension de chaque fil.",
+   "indices": [
+    "Les composantes horizontales s'annulent par symétrie."
+   ],
+   "corrige": [
+    "Système : la lampe ; référentiel terrestre. Forces : poids $\\vec P$, tensions $\\vec T_1$ et $\\vec T_2$ des deux fils.",
+    "Équilibre : $\\vec P + \\vec T_1 + \\vec T_2 = \\vec 0$ ; les trois forces sont concourantes au point d'attache.",
+    "Par symétrie $T_1 = T_2 = T$ ; projection sur l'axe vertical : $2T\\cos 30^\\circ - mg = 0$.",
+    "$T = \\dfrac{mg}{2\\cos 30^\\circ} = \\dfrac{1{,}5 \\times 9{,}8}{2 \\times 0{,}866} = 8{,}49\\ \\text{N}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1.5
+   ],
+   "piege": "Écrire 2T = mg (oubli du cos).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C03-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C03-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Une bille de 500 g suspendue à un fil est écartée de la verticale par une force $\\vec F$ **horizontale**. À l'équilibre, le fil fait un angle de 20° avec la verticale ($g = 9{,}8\\ \\text{N/kg}$).\n1. Fais le bilan des forces et représente-les.\n2. Calcule $F$ et la tension $T$ du fil.",
+   "indices": [
+    "Fais un triangle rectangle avec P, F et T."
+   ],
+   "corrige": [
+    "Forces : $\\vec P$ (verticale, bas), $\\vec F$ (horizontale), $\\vec T$ (selon le fil, vers le point d'attache).",
+    "Projection verticale : $T\\cos 20^\\circ = mg \\Rightarrow T = \\dfrac{0{,}500 \\times 9{,}8}{\\cos 20^\\circ} = 5{,}21\\ \\text{N}$.",
+    "Projection horizontale : $F = T\\sin 20^\\circ = mg\\tan 20^\\circ = 4{,}9 \\times 0{,}364 = 1{,}78\\ \\text{N}$.",
+    "Contrôle : $\\vec F \\perp \\vec P$, donc $T = \\sqrt{F^2 + P^2} = \\sqrt{1{,}78^2 + 4{,}9^2} = 5{,}21\\ \\text{N}$ ✔."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C03-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C03-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Un seau est posé sur un plan incliné **sans frottement** et retenu par une corde parallèle au plan. Le bilan des forces extérieures est :",
+   "choix": [
+    "P et T seulement",
+    "P, T et R",
+    "P, R, T et une force de frottement",
+    "T et R seulement"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "À distance : le poids. Contacts : la corde (tension) et le plan (réaction perpendiculaire).",
+    "Le « poids du plan » ou une « force de pente » n'existent pas."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C03-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C03-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Une boule de 2,0 kg est appuyée contre un mur vertical lisse (sans frottement) ; elle est retenue par un fil qui fait un angle de 25° avec le mur ($g = 9{,}8\\ \\text{N/kg}$).\n1. Fais le bilan des forces. Quelle est la direction de la réaction du mur ?\n2. Calcule la tension du fil et la réaction du mur.",
+   "indices": [],
+   "corrige": [
+    "Forces : poids $\\vec P$, tension $\\vec T$ (selon le fil), réaction $\\vec R$ du mur, **horizontale** (perpendiculaire au mur lisse). Elles sont concourantes au centre de la boule.",
+    "Verticale : $T\\cos 25^\\circ = mg \\Rightarrow T = \\dfrac{2{,}0 \\times 9{,}8}{\\cos 25^\\circ} = 21{,}6\\ \\text{N}$.",
+    "Horizontale : $R = T\\sin 25^\\circ = mg\\tan 25^\\circ = 19{,}6 \\times 0{,}466 = 9{,}14\\ \\text{N}$.",
+    "Contrôle : $\\sqrt{R^2 + P^2} = \\sqrt{9{,}14^2 + 19{,}6^2} = 21{,}6\\ \\text{N} = T$ ✔."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C03-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C03-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Une caisse de 5,0 kg est maintenue immobile sur un plan incliné de 20° **sans frottement** par une force $\\vec F$ **horizontale** ($g = 9{,}8\\ \\text{N/kg}$). Calcule $F$ et la réaction $R$ du plan.",
+   "indices": [
+    "La réaction fait avec la verticale le même angle que le plan avec l'horizontale."
+   ],
+   "corrige": [
+    "Forces : $\\vec P$ (verticale), $\\vec F$ (horizontale), $\\vec R$ (perpendiculaire au plan, donc inclinée de 20° par rapport à la verticale).",
+    "Axes horizontal/vertical. Verticale : $R\\cos 20^\\circ = mg \\Rightarrow R = \\dfrac{5{,}0 \\times 9{,}8}{\\cos 20^\\circ} = 52{,}1\\ \\text{N}$.",
+    "Horizontale : $F = R\\sin 20^\\circ = mg\\tan 20^\\circ = 49 \\times 0{,}364 = 17{,}8\\ \\text{N}$.",
+    "Contrôle : $\\vec F \\perp \\vec P$, $\\sqrt{17{,}8^2 + 49^2} = 52{,}1\\ \\text{N} = R$ ✔."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Écrire R = mg cos α (vrai seulement si la force de maintien est parallèle au plan).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C03-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un solide de 400 g est retenu sur un plan incliné de 30°, sans frottement, par un ressort parallèle au plan, de raideur 50 N/m ($g = 9{,}8\\ \\text{N/kg}$). Allongement du ressort en cm ?",
+   "reponses_acceptees": [
+    "3,9",
+    "3,92",
+    "3,9cm",
+    "3,92cm",
+    "4"
+   ],
+   "indices": [],
+   "corrige": [
+    "$T = m g\\sin\\alpha = 0{,}400 \\times 9{,}8 \\times 0{,}5 = 1{,}96\\ \\text{N}$.",
+    "$\\Delta\\ell = \\dfrac{T}{k} = \\dfrac{1{,}96}{50} = 0{,}0392\\ \\text{m} = 3{,}9\\ \\text{cm}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C03-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un sac de 2,0 kg est porté par deux élèves grâce à deux cordes qui font chacune 40° avec la verticale, symétriquement ($g = 9{,}8\\ \\text{N/kg}$). Tension de chaque corde en N ?",
+   "reponses_acceptees": [
+    "12,8",
+    "12,8N",
+    "13"
+   ],
+   "indices": [],
+   "corrige": [
+    "$2T\\cos 40^\\circ = mg$.",
+    "$T = \\dfrac{2{,}0 \\times 9{,}8}{2 \\times \\cos 40^\\circ} = 12{,}8\\ \\text{N}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Chaque corde porte plus que la moitié du poids (9,8 N) car elle est inclinée.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Bilan des forces incomplet (poids ou réaction oubliés) ou force inventée (« force de la pente »).",
+  "Inversion sin/cos dans les projections ; calculatrice en radians.",
+  "Réaction dessinée perpendiculaire au plan alors qu'il y a des frottements.",
+  "Pas de schéma avec les axes et les angles : le correcteur ne peut pas suivre les projections.",
+  "Oubli de la vérification (cas limite α = 0, Pythagore).",
+  "Résultats sans unité ou avec un nombre exagéré de chiffres."
+ ]
+}

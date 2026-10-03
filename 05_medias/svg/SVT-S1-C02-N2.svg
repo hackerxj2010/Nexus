@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 630" width="600" height="630" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Osmose</title>
+<desc id="desc">Cellules d'oignon rouge et globules rouges placés en milieu hypotonique (turgescence, hémolyse), isotonique (état normal) et hypertonique (plasmolyse, hématie ratatinée) ; flèches bleues : sens de l'eau.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker></defs>
+<rect x="0" y="0" width="600" height="630" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Osmose</text>
+<text x="100" y="72" font-size="18" text-anchor="middle" font-weight="bold" fill="#1f2937">hypotonique</text>
+<text x="100" y="94" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">(eau pure)</text>
+<text x="300" y="72" font-size="18" text-anchor="middle" font-weight="bold" fill="#1f2937">isotonique</text>
+<text x="500" y="72" font-size="18" text-anchor="middle" font-weight="bold" fill="#1f2937">hypertonique</text>
+<text x="500" y="94" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">(eau très salée)</text>
+<text x="300" y="125" font-size="17" text-anchor="middle" font-weight="bold" fill="#166534">Cellules d'épiderme d'oignon rouge</text>
+<rect x="35" y="140" width="130" height="100" rx="6" fill="#f0fdf4" stroke="#166534" stroke-width="6"/>
+<rect x="235" y="140" width="130" height="100" rx="6" fill="#f0fdf4" stroke="#166534" stroke-width="6"/>
+<rect x="435" y="140" width="130" height="100" rx="6" fill="#f0fdf4" stroke="#166534" stroke-width="6"/>
+<rect x="38" y="145" width="124" height="90" rx="5" fill="#be185d" opacity="0.85"/>
+<rect x="240" y="148" width="120" height="84" rx="10" fill="#db2777" opacity="0.75"/>
+<ellipse cx="500" cy="190" rx="34" ry="26" fill="#9d174d" stroke="#831843" stroke-width="2"/>
+<line x1="8" y1="190" x2="31" y2="190" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#flb)"/>
+<line x1="192" y1="190" x2="169" y2="190" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#flb)"/>
+<line x1="442" y1="190" x2="410" y2="190" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#flb)"/>
+<line x1="558" y1="190" x2="590" y2="190" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#flb)"/>
+<text x="100" y="266" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">turgescence</text>
+<text x="300" y="266" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">état normal</text>
+<text x="500" y="266" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">plasmolyse</text>
+<line x1="470" y1="205" x2="470" y2="300" stroke="#374151" stroke-width="1.6"/><circle cx="470" cy="205" r="2.6" fill="#374151"/><text x="470" y="319" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">membrane décollée</text>
+<text x="470" y="337" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">de la paroi</text>
+<line x1="30" y1="345" x2="570" y2="345" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="300" y="378" font-size="17" text-anchor="middle" font-weight="bold" fill="#b91c1c">Globules rouges (hématies)</text>
+<circle cx="100" cy="450" r="44" fill="#fecaca" stroke="#b91c1c" stroke-width="3" stroke-dasharray="14 7"/>
+<line x1="140" y1="420" x2="158" y2="405" stroke="#b91c1c" stroke-width="2.5"/>
+<line x1="60" y1="482" x2="42" y2="497" stroke="#b91c1c" stroke-width="2.5"/>
+<line x1="140" y1="482" x2="158" y2="497" stroke="#b91c1c" stroke-width="2.5"/>
+<line x1="60" y1="420" x2="42" y2="405" stroke="#b91c1c" stroke-width="2.5"/>
+<circle cx="300" cy="450" r="36" fill="#f87171" stroke="#b91c1c" stroke-width="3"/>
+<circle cx="300" cy="450" r="16" fill="#fca5a5"/>
+<polygon points="530.0,450.0 521.3,455.7 526.0,465.0 515.6,465.6 515.0,476.0 505.7,471.3 500.0,480.0 494.3,471.3 485.0,476.0 484.4,465.6 474.0,465.0 478.7,455.7 470.0,450.0 478.7,444.3 474.0,435.0 484.4,434.4 485.0,424.0 494.3,428.7 500.0,420.0 505.7,428.7 515.0,424.0 515.6,434.4 526.0,435.0 521.3,444.3" fill="#dc2626" stroke="#7f1d1d" stroke-width="2"/>
+<text x="100" y="525" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">gonfle puis éclate :</text>
+<text x="100" y="546" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">hémolyse</text>
+<text x="300" y="525" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">NaCl 9 g/L :</text>
+<text x="300" y="546" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">forme normale</text>
+<text x="500" y="525" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">perd de l'eau :</text>
+<text x="500" y="546" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">se ratatine</text>
+<rect x="60" y="570" width="480" height="44" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.6"/><text x="300.0" y="597.95" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">L'eau passe vers le milieu le plus concentré</text>
+</svg>

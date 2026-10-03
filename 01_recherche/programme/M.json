@@ -1,0 +1,259 @@
+{
+ "matiere": "M",
+ "annee_scolaire_reference": "2026-2027",
+ "decoupage": "trimestres",
+ "decoupage_detail": "Année 2026-2027 en trimestres (décision n°125/2026/MEN/CAB/SG, source 6) : T1 du 14/09 au 23/12/2026, T2 du 04/01 au 09/04/2027, T3 du 19/04 au 16/07/2027. Les devoirs togolais des années précédentes étaient libellés par semestre. Les identifiants gardent S1/S2 (schéma) : S1 = T1 + début du T2, S2 = fin du T2 + T3 ; le champ trimestre_indicatif de chaque chapitre donne le trimestre visé.",
+ "volume_horaire_hebdo": "non confirmé (5 h à 6 h selon les grilles habituelles de Seconde S ; à vérifier sur la note ministérielle des volumes horaires)",
+ "coefficient_seconde_S": null,
+ "statut": "reconstitue",
+ "remarques": [
+  "Aucun document officiel togolais (programme ou progression harmonisée de la DPC / des inspections) n'a pu être lu : les pages officielles étaient inaccessibles depuis l'environnement de travail.",
+  "La liste des chapitres reprend le découpage du manuel CIAM 2nde S (programmes HPM, en vigueur au Togo selon le rapport AUF/APPRENDRE). Le barycentre, étudié dans « Vecteurs et points du plan » dans CIAM, est isolé en chapitre car il est systématiquement évalué en Seconde S.",
+  "Depuis 2022-2023, la Seconde suit des programmes « allégés et actualisés » selon l'APC ; certains établissements parlent de « Seconde CD ». L'ordre semestriel (alternance algèbre/géométrie) est une proposition cohérente avec les devoirs de 1er semestre repérés (équations, ensembles, fonctions, géométrie dans l'espace), à confronter à la progression de l'établissement.",
+  "Le coefficient de Seconde S n'a pas été trouvé : laissé à null volontairement."
+ ],
+ "sources": [
+  {
+   "titre": "Corrigé des exercices CIAM 2nde S (Collection Boussole) — sommaire : Angles inscrits ; Vecteurs et points du plan ; Angles orientés-Trigonométrie ; Produit scalaire ; Droites et cercles dans le plan ; Homothétie-Rotation ; Géométrie dans l'espace ; Ensemble des nombres réels ; Fonctions ; Polynômes et fonctions rationnelles ; Équations et inéquations ; Études de fonctions ; Équations et inéquations dans R×R ; Statistiques",
+   "url": "https://fr.scribd.com/document/682205852/Corrige-CIAM-2nde-S",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3,
+   "note": "Page non ouvrable depuis l'environnement de travail (proxy) : contenu connu uniquement par le résumé du moteur de recherche."
+  },
+  {
+   "titre": "Mathématiques CIAM 2nde S (scientifique), Collection Inter-Africaine de Mathématiques, EDICEF (manuel issu de l'Harmonisation des Programmes de Mathématiques, HPM)",
+   "url": "https://www.eyrolles.com/Loisirs/Livre/mathematiques-ciam-2nde-s-scientifique--9782841292165/",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3,
+   "note": "Page non ouvrable depuis l'environnement de travail (proxy) : contenu connu uniquement par le résumé du moteur de recherche."
+  },
+  {
+   "titre": "AUF / programme APPRENDRE — Analyse des curricula et cohérence des approches pédagogiques en français et en mathématiques au Togo (2021) : au Togo, le programme de mathématiques en vigueur est celui issu de l'HPM",
+   "url": "https://apprendre.auf.org/wp-content/uploads/2021/05/Rapport-Analyse-des-curricula-et-coherence-des-approches-pedagogiques-en-francais-et-en-mathematiques-au-CM2-et-en-6eme-au-Togo.pdf",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3,
+   "note": "Page non ouvrable depuis l'environnement de travail (proxy) : contenu connu uniquement par le résumé du moteur de recherche."
+  },
+  {
+   "titre": "République togolaise (site officiel) — « Matières, coefficients, chapitres, anglais… : des réformes annoncées dans l'enseignement secondaire » : programmes de Seconde allégés et actualisés, Approche Par Compétences (APC), nouveaux volumes horaires et coefficients (dont mathématiques)",
+   "url": "https://www.republiquetogolaise.com/education/1209-7249-matieres-coefficients-chapitres-anglais-des-reformes-annoncees-dans-l-enseignement-secondaire",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 4,
+   "note": "Page non ouvrable depuis l'environnement de travail (proxy) : contenu connu uniquement par le résumé du moteur de recherche. Les tableaux de volumes horaires et coefficients n'ont pas pu être lus."
+  },
+  {
+   "titre": "Togo First — « Secteur éducatif : un big bang de réformes, dès la prochaine rentrée scolaire » (réforme APC en Seconde en 2022-2023, Première en 2023-2024, Terminale en 2024-2025)",
+   "url": "https://www.togofirst.com/fr/education/1209-10585-secteur-educatif-un-big-bang-de-reformes-des-la-prochaine-rentree-scolaire",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3,
+   "note": "Page non ouvrable depuis l'environnement de travail (proxy) : contenu connu uniquement par le résumé du moteur de recherche."
+  },
+  {
+   "titre": "sigmaths.net — « Devoir du 1er semestre Lycée de DZREKPO_Togo 2023-2024 » (confirme le découpage en semestres)",
+   "url": "https://www.sigmaths.net/docEtranger/details.php?doc_id=173",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2,
+   "note": "Page non ouvrable depuis l'environnement de travail (proxy) : contenu connu uniquement par le résumé du moteur de recherche."
+  },
+  {
+   "titre": "AllAfrica — « Togo: Calendrier scolaire 2026-2027 - Ce qu'il faut retenir » : décision n°125/2026/MEN/CAB/SG ; rentrée le 14 septembre 2026 ; 1er trimestre 14 sept.–23 déc. 2026, 2e trimestre 4 janv.–9 avril 2027, 3e trimestre 19 avril–16 juillet 2027",
+   "url": "https://fr.allafrica.com/stories/202607310464.html",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 4,
+   "note": "Page non ouvrable depuis l'environnement de travail (proxy) : contenu connu uniquement par le résumé du moteur de recherche."
+  },
+  {
+   "titre": "epreuvesetcorriges.com — Togo, Seconde : devoir surveillé du 1er semestre de mathématiques, Seconde CD, Lycée de Tabligbo (DRE Maritime), 2025-2026 (équations, inéquations, ensembles, identités remarquables, étude graphique de fonctions, démonstration sur un tétraèdre)",
+   "url": "https://epreuvesetcorriges.com/categories/togo/colleges/seconde",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2,
+   "note": "Page non ouvrable depuis l'environnement de travail (proxy) : contenu connu uniquement par le résumé du moteur de recherche."
+  }
+ ],
+ "chapitres": [
+  {
+   "id": "M-S1-C01",
+   "semestre": 1,
+   "ordre": 1,
+   "titre": "Ensemble des nombres réels et calcul dans ℝ",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 1,
+   "source_ids": [
+    0,
+    1,
+    7
+   ]
+  },
+  {
+   "id": "M-S1-C02",
+   "semestre": 1,
+   "ordre": 2,
+   "titre": "Vecteurs et points du plan",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 1,
+   "source_ids": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "M-S1-C03",
+   "semestre": 1,
+   "ordre": 3,
+   "titre": "Polynômes et fractions rationnelles",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 1,
+   "source_ids": [
+    0,
+    1,
+    7
+   ]
+  },
+  {
+   "id": "M-S1-C04",
+   "semestre": 1,
+   "ordre": 4,
+   "titre": "Barycentre",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 1,
+   "source_ids": [
+    1
+   ]
+  },
+  {
+   "id": "M-S1-C05",
+   "semestre": 1,
+   "ordre": 5,
+   "titre": "Équations et inéquations dans ℝ",
+   "duree_semaines": 3,
+   "trimestre_indicatif": 1,
+   "source_ids": [
+    0,
+    1,
+    7
+   ]
+  },
+  {
+   "id": "M-S1-C06",
+   "semestre": 1,
+   "ordre": 6,
+   "titre": "Angles inscrits",
+   "duree_semaines": 1,
+   "trimestre_indicatif": 1,
+   "source_ids": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "M-S1-C07",
+   "semestre": 1,
+   "ordre": 7,
+   "titre": "Généralités sur les fonctions",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 2,
+   "source_ids": [
+    0,
+    1,
+    7
+   ]
+  },
+  {
+   "id": "M-S1-C08",
+   "semestre": 1,
+   "ordre": 8,
+   "titre": "Géométrie dans l'espace",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 2,
+   "source_ids": [
+    0,
+    1,
+    7
+   ]
+  },
+  {
+   "id": "M-S2-C09",
+   "semestre": 2,
+   "ordre": 9,
+   "titre": "Équations et inéquations dans ℝ×ℝ (systèmes)",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 2,
+   "source_ids": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "M-S2-C10",
+   "semestre": 2,
+   "ordre": 10,
+   "titre": "Angles orientés et trigonométrie",
+   "duree_semaines": 3,
+   "trimestre_indicatif": 2,
+   "source_ids": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "M-S2-C11",
+   "semestre": 2,
+   "ordre": 11,
+   "titre": "Étude de fonctions (fonctions de référence)",
+   "duree_semaines": 3,
+   "trimestre_indicatif": 2,
+   "source_ids": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "M-S2-C12",
+   "semestre": 2,
+   "ordre": 12,
+   "titre": "Produit scalaire",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 3,
+   "source_ids": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "M-S2-C13",
+   "semestre": 2,
+   "ordre": 13,
+   "titre": "Droites et cercles dans le plan",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 3,
+   "source_ids": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "M-S2-C14",
+   "semestre": 2,
+   "ordre": 14,
+   "titre": "Transformations du plan : translation, homothétie, rotation",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 3,
+   "source_ids": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "M-S2-C15",
+   "semestre": 2,
+   "ordre": 15,
+   "titre": "Statistique",
+   "duree_semaines": 2,
+   "trimestre_indicatif": 3,
+   "source_ids": [
+    0,
+    1
+   ]
+  }
+ ]
+}

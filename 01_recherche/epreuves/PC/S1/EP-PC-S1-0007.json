@@ -1,0 +1,438 @@
+{
+ "id": "EP-PC-S1-0007",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (septembre 2014)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2014-2015 (concours de septembre 2014)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Lentilles convergentes — 3e",
+  "Poussée d'Archimède — 3e",
+  "Alcanes, isomérie, combustion — 3e",
+  "Oxydation du fer, corrosion — 3e",
+  "Énergie et puissance électriques — 3e"
+ ],
+ "chapitres": [
+  "PC-S1-C02",
+  "PC-S1-C03",
+  "PC-S2-C11",
+  "PC-S2-C13",
+  "PC-S2-C15"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**CONCOURS NATIONAL D'ENTRÉE AU LYCÉE SCIENTIFIQUE (DE KARA OU DE LOMÉ) — SEPTEMBRE 2014**\n**SCIENCES PHYSIQUES** — Durée : 2 h — Coef : 2\n\n### Exercice I (5 pts)\nLors d'une séance de T.P. des élèves disposent sur un banc d'optique les éléments suivants :\n- un objet lumineux AB de 20 cm de hauteur (AB est perpendiculaire à l'axe optique avec A sur l'axe et B au-dessus) ;\n- une lentille convergente L de vergence C = 5 δ [OCR : « C = 58 »] placée à 50 cm de l'objet AB ;\n- un écran E placé à 80 cm de l'objet AB.\n1. Calculer la distance focale de la lentille L. (1 pt)\n2. Représenter à l'échelle 1/10 l'objet AB, les foyers objet (F) et image (F'). (1 pt)\n3. Construire l'image A'B' de l'objet AB. (1 pt)\n4. Déterminer la hauteur réelle de l'image A'B'. (0,5 pt)\n5. Calculer le grandissement G de la lentille L. (0,5 pt)\n6. L'image A'B' est-elle nette sur l'écran E ? Justifier. (1 pt)\n\n### Exercice II (5 pts)\nLes élèves d'une classe de 3e désirent connaître la nature d'un liquide X. Lors d'une expérience au laboratoire de sciences physiques, ces élèves plongent un pavé de bois de dimensions L = 20 cm, l = 15 cm et h = 10 cm dans le liquide X. Le pavé flotte quand il est à moitié immergé. [Figure : pavé flottant dans le liquide — non disponible.]\n1. À quel moment le centre de gravité et le centre de poussée sont-ils confondus ? (0,5 pt)\n2. Calculer : a) le volume V du pavé ; (0,5 pt) b) la masse m du pavé ($\\rho_{bois} = 0{,}5\\ \\text{kg/dm}^3$) ; (0,5 pt) c) le poids P du pavé. (0,5 pt)\n3. Déterminer la poussée d'Archimède $P_A$ qui s'exerce sur le pavé. (0,5 pt)\n4. Calculer la masse volumique du liquide X. En déduire la nature du liquide utilisé. (1,5 pt)\n5. Reproduire le schéma et représenter le poids $\\vec P$ et la poussée d'Archimède $\\vec{P_A}$ à l'échelle 1 cm pour 7,5 N. (1 pt)\n\nDonnée : $g = 10\\ \\text{N/kg}$.\n\n| Substance | bois | eau | huile | alcool |\n|---|---|---|---|---|\n| Masse volumique (kg/dm³) | 0,5 | 1 | 0,92 | 0,83 |\n\n### Exercice III (5,5 pts)\n1. Un alcane de formule brute $\\ce{C_xH_y}$ est tel que $12x + y = 58$. Écris :\n   - a) la formule brute de cet alcane puis donne son nom ; (1 pt)\n   - b) la formule développée et le nom de chaque isomère ; (1 pt)\n   - c) l'équation bilan de sa combustion complète ; cette réaction est-elle endothermique ou exothermique ? (1 pt)\n2. On donne les équations suivantes : $\\ce{Fe + O2 -> Fe3O4}$ ; $\\ce{Fe + O2 -> Fe2O3}$.\n   - a) Réécris ces équations en les équilibrant, puis donne le nom de chaque produit. (1 pt)\n   - b) Cite deux moyens de protection contre les effets de l'une de ces réactions. ([illisible] pt)\n3. La combustion de 6,8 g de fer nécessite 2 litres de dioxygène. Calcule la masse du dioxygène, sachant que sa masse volumique est 1,4 g/L. (0,5 pt)\n\n### Exercice IV (4,5 pts)\n**I/** Recopier les phrases suivantes en choisissant chaque fois la bonne réponse. (2,5 pts)\n- a) Le watt / wattheure est une unité d'énergie électrique.\n- b) L'énergie consommée par un appareil électrique dépend / ne dépend pas de sa durée de fonctionnement.\n- c) L'énergie consommée par un appareil électrique diminue / augmente avec la durée d'utilisation.\n- d) L'énergie consommée par un appareil électrique dépend / ne dépend pas de sa puissance nominale.\n- e) Deux appareils électriques de puissances nominales identiques consomment / ne consomment pas la même énergie pendant la même durée de fonctionnement.\n\n**II/** Yao vient de trouver deux lampes à incandescence L₁ et L₂ : L₁ porte les indications « 40 W – 220 V » alors que sur le culot de L₂ est écrit « 60 W – 220 V ».\n1. Yao peut-il brancher ces deux lampes sur la tension du secteur (réseau électrique domestique) ? Justifie ta réponse. (1 pt)\n2. Ces deux lampes étant correctement branchées, laquelle des lampes a l'éclat le plus élevé ? Justifie ta réponse. (1 pt)\n",
+ "questions": [
+  {
+   "numero": "ExI-1",
+   "enonce": "Distance focale.",
+   "points": 1,
+   "notions_titres": [
+    "Vergence"
+   ],
+   "corrige": [
+    "$f = \\frac{1}{C}$",
+    "$f = \\frac{1}{5} = 0{,}20\\ \\text{m} = 20\\ \\text{cm}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "f = 20 cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-2",
+   "enonce": "Représentation à l'échelle 1/10.",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "AB = 2 cm à 5 cm de la lentille.",
+    "F et F' à 2 cm de O de part et d'autre ; écran à 3 cm après la lentille."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "AB 2 cm ; OF = OF' = 2 cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-3",
+   "enonce": "Construction de l'image.",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "Rayon parallèle à l'axe → passe par F'.",
+    "Rayon par O non dévié ; intersection = B'."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Image réelle renversée à ≈ 3,3 cm de O (dessin)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-4",
+   "enonce": "Hauteur réelle de l'image.",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "$\\overline{OA'} = \\frac{1}{\\frac{1}{20} - \\frac{1}{50}} \\approx 33{,}3\\ \\text{cm}$ ; $A'B' = 20 \\times \\frac{33{,}3}{50} \\approx 13{,}3\\ \\text{cm}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "A'B' ≈ 13,3 cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-5",
+   "enonce": "Grandissement.",
+   "points": 0.5,
+   "notions_titres": [
+    "Grandissement"
+   ],
+   "corrige": [
+    "$G = \\frac{A'B'}{AB} \\approx \\frac{13{,}3}{20} \\approx 0{,}67$ (image renversée)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "G ≈ 0,67",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-6",
+   "enonce": "Image nette sur l'écran ?",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "Écran à 80 − 50 = 30 cm de la lentille ; image à 33,3 cm.",
+    "Image **non nette** sur l'écran."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Non",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-1",
+   "enonce": "Centre de gravité et centre de poussée confondus.",
+   "points": 0.5,
+   "notions_titres": [
+    "Poussée d'Archimède"
+   ],
+   "corrige": [
+    "Lorsque le corps homogène est **complètement immergé**."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Corps homogène totalement immergé",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-2",
+   "enonce": "Volume, masse, poids du pavé.",
+   "points": 1.5,
+   "notions_titres": [
+    "Masse volumique",
+    "Poids"
+   ],
+   "corrige": [
+    "$V = 2 \\times 1{,}5 \\times 1 = 3\\ \\text{dm}^3$.",
+    "$m = 0{,}5 \\times 3 = 1{,}5\\ \\text{kg}$.",
+    "$P = 1{,}5 \\times 10 = 15\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "3 dm³ ; 1,5 kg ; 15 N",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-3",
+   "enonce": "Poussée d'Archimède.",
+   "points": 0.5,
+   "notions_titres": [
+    "Flottaison"
+   ],
+   "corrige": [
+    "Le pavé flotte (équilibre) : $P_A = P = 15\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "PA = 15 N",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-4",
+   "enonce": "Masse volumique du liquide X.",
+   "points": 1.5,
+   "notions_titres": [
+    "Poussée d'Archimède"
+   ],
+   "corrige": [
+    "Volume immergé : $V_i = \\frac{V}{2} = 1{,}5\\ \\text{dm}^3$.",
+    "$P_A = \\rho_X V_i g \\Rightarrow \\rho_X = \\frac{15}{1{,}5 \\times 10} = 1\\ \\text{kg/dm}^3$.",
+    "D'après le tableau : le liquide X est de l'**eau**."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "ρX = 1 kg/dm³ : eau",
+   "piege": "Utiliser le volume total au lieu du volume immergé.",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-5",
+   "enonce": "Représentation des forces.",
+   "points": 1,
+   "notions_titres": [
+    "Représentation d'une force"
+   ],
+   "corrige": [
+    "P : vertical vers le bas, au centre de gravité, 2 cm.",
+    "PA : vertical vers le haut, au centre de poussée, 2 cm."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Deux vecteurs opposés de 2 cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-1.a",
+   "enonce": "Formule brute et nom (12x + y = 58).",
+   "points": 1,
+   "notions_titres": [
+    "Alcanes"
+   ],
+   "corrige": [
+    "Alcane : $y = 2x + 2$ ⇒ $12x + 2x + 2 = 58$ ⇒ $x = 4$.",
+    "$\\ce{C4H10}$ : **butane**."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "C₄H₁₀, butane",
+   "piege": "",
+   "astuce": "12x + y est la masse molaire en g/mol (C = 12, H = 1)."
+  },
+  {
+   "numero": "ExIII-1.b",
+   "enonce": "Isomères.",
+   "points": 1,
+   "notions_titres": [
+    "Isomérie"
+   ],
+   "corrige": [
+    "$\\ce{CH3-CH2-CH2-CH3}$ : butane (n-butane).",
+    "$\\ce{CH3-CH(CH3)-CH3}$ : méthylpropane (isobutane)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Butane et méthylpropane",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-1.c",
+   "enonce": "Combustion complète, endo/exothermique.",
+   "points": 1,
+   "notions_titres": [
+    "Combustion des alcanes"
+   ],
+   "corrige": [
+    "$\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$.",
+    "Réaction **exothermique** (elle dégage de la chaleur)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O ; exothermique",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-2.a",
+   "enonce": "Équilibrer les équations du fer et nommer les produits.",
+   "points": 1,
+   "notions_titres": [
+    "Oxydation du fer"
+   ],
+   "corrige": [
+    "$\\ce{3Fe + 2O2 -> Fe3O4}$ : oxyde magnétique (tétraoxyde de trifer).",
+    "$\\ce{4Fe + 3O2 -> 2Fe2O3}$ : oxyde ferrique (trioxyde de difer), constituant de la rouille."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "3Fe + 2O₂ → Fe₃O₄ ; 4Fe + 3O₂ → 2Fe₂O₃",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-2.b",
+   "enonce": "Deux moyens de protection contre la rouille.",
+   "points": 1,
+   "notions_titres": [
+    "Corrosion"
+   ],
+   "corrige": [
+    "Peindre ou graisser le fer (isoler du dioxygène et de l'eau).",
+    "Recouvrir d'un autre métal : galvanisation (zinc), étamage, chromage."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Peinture/graisse ; galvanisation",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-3",
+   "enonce": "Masse de dioxygène (2 L, 1,4 g/L).",
+   "points": 0.5,
+   "notions_titres": [
+    "Masse volumique"
+   ],
+   "corrige": [
+    "$m = \\rho V = 1{,}4 \\times 2 = 2{,}8\\ \\text{g}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "m = 2,8 g",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIV-I",
+   "enonce": "Choix des bonnes réponses a) à e).",
+   "points": 2.5,
+   "notions_titres": [
+    "Énergie électrique"
+   ],
+   "corrige": [
+    "a) wattheure",
+    "b) dépend",
+    "c) augmente",
+    "d) dépend",
+    "e) consomment"
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "wattheure ; dépend ; augmente ; dépend ; consomment",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIV-II.1",
+   "enonce": "Brancher les lampes sur le secteur ?",
+   "points": 1,
+   "notions_titres": [
+    "Tension nominale"
+   ],
+   "corrige": [
+    "Tension nominale 220 V = tension du secteur au Togo (220 V).",
+    "Oui, en dérivation."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Oui",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIV-II.2",
+   "enonce": "Lampe la plus lumineuse.",
+   "points": 1,
+   "notions_titres": [
+    "Puissance nominale"
+   ],
+   "corrige": [
+    "Même tension : la plus puissante brille le plus.",
+    "L₂ (60 W)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "L₂",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "f = 20 cm ; OA' = 33,3 cm ; A'B' = 13,3 cm ; G = 0,67 ; image non nette ; V = 3 dm³, m = 1,5 kg, P = PA = 15 N, ρX = 1 kg/dm³ (eau) ; C₄H₁₀ ; Fe₃O₄, Fe₂O₃ ; m(O₂) = 2,8 g ; wattheure/dépend/augmente/dépend/consomment ; L₂.",
+  "passe2": "Calculs refaits par 50f/(50 − f) et 20f/(50 − f) ; ρX = ρbois/(fraction immergée) = 0,5/0,5 ; n par 14n + 2 = 58. Identique.",
+  "code": "oui (verif.py)",
+  "desaccords": [
+   "ExIII-3 : la donnée « 6,8 g de fer » n'est pas utilisée par la question (m = ρV) ; contrôle stœchiométrique : 6,8 g de fer demandent 2,6 g (Fe₃O₄) ou 2,9 g (Fe₂O₃) de O₂, ordre de grandeur cohérent avec 2,8 g.",
+   "ExIII-2.b : nombre de points illisible (« (pt) ») ; 1 pt déduit du total de l'exercice (5,5 pts).",
+   "« C = 58 » lu par l'OCR interprété comme C = 5 δ (même exercice en 2017 : « C = 5 dioptries »).",
+   "Barème interne aux questions proposé, non officiel."
+  ]
+ },
+ "notes_transcription": [
+  "Sujet complet (20 points)."
+ ],
+ "points_transcrits": 20.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

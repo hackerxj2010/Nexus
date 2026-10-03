@@ -1,0 +1,793 @@
+{
+ "id": "M-S1-C05",
+ "matiere": "M",
+ "semestre": 1,
+ "ordre": 5,
+ "titre": "Équations et inéquations dans ℝ",
+ "objectifs": [
+  "Résoudre une équation du premier degré, une équation produit, une équation quotient.",
+  "Étudier le signe de ax + b et résoudre une inéquation produit ou quotient par un tableau de signes.",
+  "Écrire un trinôme sous forme canonique ; utiliser le discriminant pour résoudre et factoriser.",
+  "Étudier le signe d'un trinôme et résoudre une inéquation du second degré.",
+  "Résoudre des équations bicarrées, des problèmes à paramètre et des problèmes concrets."
+ ],
+ "prerequis": [
+  "M-3e-EQUATIONS",
+  "M-3e-INEQUATIONS",
+  "M-S1-C03"
+ ],
+ "notions": [
+  {
+   "id": "M-S1-C05-N1",
+   "titre": "Équations du premier degré, équations produit et quotient",
+   "prerequis_notions": [
+    "M-3e-EQUATIONS",
+    "M-S1-C03-N1"
+   ],
+   "cours_md": ":::definition Équation du premier degré\nUne équation de la forme $ax+b=0$ avec $a\\neq0$ a une **unique** solution $x=-\\dfrac ba$.\nRésoudre une équation, c'est trouver **toutes** ses solutions ; on les rassemble dans l'ensemble $S$.\n:::\n\n:::propriete Règles de transformation\nOn obtient une équation **équivalente** (mêmes solutions) en ajoutant un même nombre aux deux membres, ou en les multipliant par un même nombre **non nul**.\n:::\n\n:::propriete Équation produit\nUn produit est nul si et seulement si l'un au moins de ses facteurs est nul :\n$$A\\times B=0\\iff A=0\\ \\text{ou}\\ B=0$$\n:::\n\n:::propriete Équation quotient\nUn quotient est nul si et seulement si son numérateur est nul **et** son dénominateur non nul :\n$$\\frac AB=0\\iff A=0\\ \\text{et}\\ B\\neq0$$\n:::\n\n:::methode Résoudre une équation qui n'est pas du premier degré\n1. Tout ramener dans un membre : $\\dots=0$.\n2. **Factoriser** (facteur commun, identité remarquable) pour obtenir une équation produit.\n3. Pour une équation avec $x$ au dénominateur : chercher d'abord les **valeurs interdites**, réduire au même dénominateur, puis appliquer la règle du quotient.\n4. Vérifier que les solutions ne sont pas interdites.\n:::\n\n:::methode Mettre un problème en équation\n1. Choisir l'inconnue (avec son unité) et dire ce qu'elle représente.\n2. Traduire l'énoncé par une équation.\n3. Résoudre.\n4. Vérifier que la solution convient au problème (signe, entier...) et répondre par une phrase.\n:::\n\n:::attention\nNe jamais diviser les deux membres par une expression contenant $x$ (elle peut être nulle) : on **factorise** à la place. Par exemple $x^2=3x$ donne $x(x-3)=0$, donc deux solutions $0$ et $3$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nRésoudre dans $\\mathbb{R}$ : $(x-3)(2x+5)-(x-3)(x-1)=0$.\n\n1. Facteur commun $(x-3)$ : $(x-3)\\big[(2x+5)-(x-1)\\big]=0$.\n2. $(x-3)(2x+5-x+1)=0$, soit $(x-3)(x+6)=0$.\n3. Produit nul : $x-3=0$ ou $x+6=0$, donc $x=3$ ou $x=-6$.\n4. $S=\\{-6\\,;3\\}$.\n:::\n\n:::exemple Exemple 2\nRésoudre dans $\\mathbb{R}$ : $\\dfrac{3x-1}{x+2}=2$.\n\n1. Valeur interdite : $x+2=0\\iff x=-2$. On résout pour $x\\neq-2$.\n2. $\\dfrac{3x-1}{x+2}-2=0\\iff\\dfrac{3x-1-2(x+2)}{x+2}=0\\iff\\dfrac{x-5}{x+2}=0$.\n3. Quotient nul : $x-5=0$ et $x\\neq-2$, donc $x=5$.\n4. $S=\\{5\\}$. Vérification : $\\dfrac{15-1}{7}=2$ ✔.\n:::\n",
+   "definition": "$ax+b=0$ ($a\\neq0$) a pour solution $x=-\\frac ba$ ; un produit est nul si l'un des facteurs est nul ; un quotient est nul si son numérateur est nul et son dénominateur non nul.",
+   "formules": [
+    "$ax+b=0\\iff x=-\\dfrac ba$",
+    "$AB=0\\iff A=0$ ou $B=0$",
+    "$\\dfrac AB=0\\iff A=0$ et $B\\neq0$"
+   ],
+   "niveaux": {
+    "phrase": "Pour résoudre, on se ramène à « quelque chose = 0 » et on factorise.",
+    "simple": "Une équation, c'est une balance en équilibre : tant que tu fais la même chose des deux côtés, elle reste équilibrée. Pour un produit nul, pense à la multiplication par 0 : si le résultat est 0, l'un des nombres était 0.",
+    "complete": "Les transformations licites (ajout d'un même réel, multiplication par un réel non nul) donnent des équations équivalentes. Les équations de degré supérieur se résolvent en factorisant (règle du produit nul) ; pour les équations rationnelles on détermine le domaine, on réduit au même dénominateur et on applique la règle du quotient nul."
+   },
+   "analogie": "Une balance de marchande au marché d'Assigamé : si on ajoute 1 kg de chaque côté, elle reste en équilibre. Si on retire la moitié de chaque côté, aussi. C'est ce qu'on fait avec les deux membres d'une équation.",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre dans $\\mathbb{R}$ : $(x-3)(2x+5)-(x-3)(x-1)=0$.",
+     "etapes": [
+      "Facteur commun $(x-3)$ : $(x-3)\\big[(2x+5)-(x-1)\\big]=0$.",
+      "$(x-3)(2x+5-x+1)=0$, soit $(x-3)(x+6)=0$.",
+      "Produit nul : $x-3=0$ ou $x+6=0$, donc $x=3$ ou $x=-6$.",
+      "$S=\\{-6\\,;3\\}$."
+     ]
+    },
+    {
+     "enonce": "Résoudre dans $\\mathbb{R}$ : $\\dfrac{3x-1}{x+2}=2$.",
+     "etapes": [
+      "Valeur interdite : $x+2=0\\iff x=-2$. On résout pour $x\\neq-2$.",
+      "$\\dfrac{3x-1}{x+2}-2=0\\iff\\dfrac{3x-1-2(x+2)}{x+2}=0\\iff\\dfrac{x-5}{x+2}=0$.",
+      "Quotient nul : $x-5=0$ et $x\\neq-2$, donc $x=5$.",
+      "$S=\\{5\\}$. Vérification : $\\dfrac{15-1}{7}=2$ ✔."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Diviser par $x$ (ou par $x-3$) et perdre une solution.",
+    "Développer au lieu de factoriser : on obtient une équation de degré 2 qu'on ne sait pas toujours résoudre.",
+    "Oublier les valeurs interdites d'une équation quotient.",
+    "Écrire $\\dfrac AB=0\\iff A=0$ ou $B=0$ (le dénominateur ne peut pas être nul)."
+   ],
+   "astuces": [
+    "Cherche toujours un facteur commun « caché » (comme x − 3 ou un carré).",
+    "Vérifie chaque solution en la remplaçant dans l'équation de départ.",
+    "Écris la valeur interdite au tout début : c'est un réflexe qui rapporte des points."
+   ],
+   "mnemo": "« Produit nul ? Un facteur nul. Quotient nul ? Le haut nul, le bas jamais. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu résolvais déjà $2x+3=7$ et des équations produit comme $(x-1)(x+4)=0$. En Seconde, il faut souvent factoriser toi-même avant d'appliquer la règle du produit nul."
+   },
+   "methode_redaction": "Écris les équivalences ligne par ligne (⇔), cite la règle (« un produit de facteurs est nul si et seulement si l'un des facteurs est nul »), puis termine par S = {...}. Pour un quotient, commence par « L'équation est définie pour x ≠ ... ».",
+   "flash": [
+    {
+     "q": "Solution de $5x-10=0$ ?",
+     "r": "$x=2$"
+    },
+    {
+     "q": "Résoudre $x(x+4)=0$.",
+     "r": "$S=\\{-4\\,;0\\}$"
+    },
+    {
+     "q": "$\\dfrac{x-1}{x+3}=0$ ?",
+     "r": "$x=1$ (et $1\\neq-3$)."
+    },
+    {
+     "q": "Pourquoi ne pas diviser $x^2=3x$ par $x$ ?",
+     "r": "On perdrait la solution $x=0$."
+    },
+    {
+     "q": "Première étape d'une équation quotient ?",
+     "r": "Chercher les valeurs interdites."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C05-N1.svg",
+    "alt": "Droite d'équation y = 2x − 3 qui coupe l'axe des abscisses au point d'abscisse 1,5.",
+    "legende": "La solution de 2x − 3 = 0 est l'abscisse du point où la droite y = 2x − 3 coupe l'axe (Ox).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C05-N2",
+   "titre": "Signe de ax + b et inéquations produit ou quotient",
+   "prerequis_notions": [
+    "M-S1-C05-N1",
+    "M-S1-C01-N4"
+   ],
+   "cours_md": ":::propriete Signe de $ax+b$ ($a\\neq0$)\n$ax+b$ s'annule en $x_0=-\\dfrac ba$. Il est du **signe de $a$ à droite** de $x_0$ et du **signe contraire de $a$ à gauche** :\n\n| $x$ | $-\\infty$ | | $-\\frac ba$ | | $+\\infty$ |\n|---|---|---|---|---|---|\n| $ax+b$ | | signe de $-a$ | $0$ | signe de $a$ | |\n:::\n\n**Justification** : $ax+b>0\\iff ax>-b$ ; si $a>0$ cela donne $x>-\\frac ba$, si $a<0$ cela donne $x<-\\frac ba$ (on divise par un négatif, l'ordre change).\n\n:::propriete Règle des signes\nUn produit (ou un quotient) est positif si ses facteurs ont le même signe, négatif sinon. Plus généralement : le signe dépend du **nombre de facteurs négatifs**.\n:::\n\n:::methode Résoudre une inéquation produit ou quotient\n1. Tout passer dans un membre et **factoriser** (ou réduire au même dénominateur) : $\\dfrac{A}{B}\\ge0$, $A\\times B<0$...\n2. Trouver la valeur qui annule chaque facteur.\n3. Dresser le **tableau de signes** : une ligne par facteur, une ligne pour le résultat ; une **double barre** sous les valeurs interdites.\n4. Lire les intervalles qui conviennent ; attention aux crochets : ouverts pour une inégalité stricte et **toujours ouverts** aux valeurs interdites.\n:::\n\n:::attention\nOn ne multiplie jamais les deux membres d'une inéquation par une expression dont on ne connaît pas le signe (par exemple $x-1$). On passe tout dans un membre et on étudie le signe.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nRésoudre dans $\\mathbb{R}$ : $(x+1)(-3x+6)>0$.\n\n1. $x+1=0\\iff x=-1$ ($a=1>0$ : $-$ puis $+$). $-3x+6=0\\iff x=2$ ($a=-3<0$ : $+$ puis $-$).\n2. Tableau : pour $x<-1$ : $(-)(+)=-$ ; pour $-1<x<2$ : $(+)(+)=+$ ; pour $x>2$ : $(+)(-)=-$.\n3. Le produit est strictement positif sur $]-1\\,;2[$.\n4. $S=]-1\\,;2[$ (bornes exclues car l'inégalité est stricte).\n:::\n\n:::exemple Exemple 2\nRésoudre dans $\\mathbb{R}$ : $\\dfrac1{x-1}\\le2$.\n\n1. Valeur interdite : $1$. On passe tout dans un membre : $\\dfrac1{x-1}-2\\le0\\iff\\dfrac{1-2(x-1)}{x-1}\\le0\\iff\\dfrac{-2x+3}{x-1}\\le0$.\n2. $-2x+3$ s'annule en $\\dfrac32$ ($+$ puis $-$) ; $x-1$ s'annule en $1$ ($-$ puis $+$).\n3. Quotient : $x<1$ : $\\dfrac{+}{-}=-$ ✔ ; $1<x<\\dfrac32$ : $+$ ✘ ; $x>\\dfrac32$ : $-$ ✔ ; en $\\dfrac32$ il vaut $0$ ✔.\n4. $S=]-\\infty\\,;1[\\,\\cup\\left[\\dfrac32\\,;+\\infty\\right[$.\n:::\n",
+   "definition": "$ax+b$ a le signe de $a$ à droite de sa racine $-\\frac ba$ et le signe contraire à gauche ; le tableau de signes permet de résoudre les inéquations produit et quotient.",
+   "formules": [
+    "$ax+b=0\\iff x=-\\dfrac ba$",
+    "signe de $a$ à droite de la racine",
+    "$\\dfrac AB\\ge0$ : tableau de signes, double barre aux valeurs interdites"
+   ],
+   "niveaux": {
+    "phrase": "On résout une inéquation en étudiant le signe de chaque facteur dans un tableau.",
+    "simple": "Le signe de ax + b, c'est comme un interrupteur : il change une seule fois, à sa racine. Avec plusieurs facteurs, on note quand chaque interrupteur bascule et on compte les « moins ».",
+    "complete": "La fonction affine $x\\mapsto ax+b$ change de signe une seule fois, en $-b/a$. Pour une inéquation produit ou quotient, on étudie le signe de chaque facteur affine (ou de degré 2) dans un tableau, on applique la règle des signes et on exclut les valeurs interdites."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre dans $\\mathbb{R}$ : $(x+1)(-3x+6)>0$.",
+     "etapes": [
+      "$x+1=0\\iff x=-1$ ($a=1>0$ : $-$ puis $+$). $-3x+6=0\\iff x=2$ ($a=-3<0$ : $+$ puis $-$).",
+      "Tableau : pour $x<-1$ : $(-)(+)=-$ ; pour $-1<x<2$ : $(+)(+)=+$ ; pour $x>2$ : $(+)(-)=-$.",
+      "Le produit est strictement positif sur $]-1\\,;2[$.",
+      "$S=]-1\\,;2[$ (bornes exclues car l'inégalité est stricte)."
+     ]
+    },
+    {
+     "enonce": "Résoudre dans $\\mathbb{R}$ : $\\dfrac1{x-1}\\le2$.",
+     "etapes": [
+      "Valeur interdite : $1$. On passe tout dans un membre : $\\dfrac1{x-1}-2\\le0\\iff\\dfrac{1-2(x-1)}{x-1}\\le0\\iff\\dfrac{-2x+3}{x-1}\\le0$.",
+      "$-2x+3$ s'annule en $\\dfrac32$ ($+$ puis $-$) ; $x-1$ s'annule en $1$ ($-$ puis $+$).",
+      "Quotient : $x<1$ : $\\dfrac{+}{-}=-$ ✔ ; $1<x<\\dfrac32$ : $+$ ✘ ; $x>\\dfrac32$ : $-$ ✔ ; en $\\dfrac32$ il vaut $0$ ✔.",
+      "$S=]-\\infty\\,;1[\\,\\cup\\left[\\dfrac32\\,;+\\infty\\right[$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Multiplier les deux membres par $x-1$ sans connaître son signe.",
+    "Fermer le crochet sur une valeur interdite.",
+    "Se tromper de sens pour le signe de ax + b quand a est négatif.",
+    "Oublier la ligne des valeurs interdites (double barre) dans le tableau."
+   ],
+   "astuces": [
+    "Place les valeurs dans le tableau dans l'ordre croissant.",
+    "Pour contrôler une ligne, teste une valeur simple (0 par exemple) dans le facteur.",
+    "≥ ou ≤ : crochets fermés aux zéros du numérateur, ouverts aux valeurs interdites."
+   ],
+   "mnemo": "« Signe de a à droite. » — « Double barre = route barrée. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Pour résoudre $-2x+4>0$, tu écrivais $-2x>-4$ puis $x<2$ en changeant le sens. C'est exactement ce qui donne le signe de $ax+b$ de part et d'autre de sa racine."
+   },
+   "methode_redaction": "Présente un tableau propre : ligne x avec les valeurs rangées, une ligne par facteur, une ligne finale. Sous le tableau, écris S = ... avec les bons crochets. Justifie le signe de chaque facteur affine en une phrase si le temps le permet.",
+   "flash": [
+    {
+     "q": "Racine de $-4x+8$ ?",
+     "r": "$x=2$"
+    },
+    {
+     "q": "Signe de $-4x+8$ pour $x>2$ ?",
+     "r": "Négatif (signe de a = −4)."
+    },
+    {
+     "q": "Que met-on sous une valeur interdite ?",
+     "r": "Une double barre."
+    },
+    {
+     "q": "Signe de $\\dfrac{-}{-}$ ?",
+     "r": "Positif"
+    },
+    {
+     "q": "Résoudre $x(x-3)<0$.",
+     "r": "$]0\\,;3[$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C05-N2.svg",
+    "alt": "Tableau de signes : 2x − 4 s'annule en 2, −x + 3 s'annule en 3 ; le produit est négatif, positif entre 2 et 3, puis négatif.",
+    "legende": "Tableau de signes de (2x − 4)(−x + 3).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C05-N3",
+   "titre": "Trinôme du second degré : forme canonique et discriminant",
+   "prerequis_notions": [
+    "M-S1-C05-N1",
+    "M-S1-C03-N2"
+   ],
+   "cours_md": ":::definition Trinôme\nUn **trinôme du second degré** est un polynôme $f(x)=ax^2+bx+c$ avec $a\\neq0$. Son **discriminant** est $$\\Delta=b^2-4ac.$$\n:::\n\n:::propriete Forme canonique\nPour tout réel $x$ :\n$$ax^2+bx+c=a\\left[\\left(x+\\frac{b}{2a}\\right)^2-\\frac{\\Delta}{4a^2}\\right]$$\n**Démonstration** : $ax^2+bx+c=a\\left[x^2+\\frac bax+\\frac ca\\right]$ et $x^2+\\frac bax=\\left(x+\\frac b{2a}\\right)^2-\\frac{b^2}{4a^2}$, d'où $a\\left[\\left(x+\\frac b{2a}\\right)^2-\\frac{b^2-4ac}{4a^2}\\right]$.\n:::\n\n:::propriete Résolution de $ax^2+bx+c=0$\n- Si $\\Delta>0$ : deux solutions $x_1=\\dfrac{-b-\\sqrt\\Delta}{2a}$ et $x_2=\\dfrac{-b+\\sqrt\\Delta}{2a}$ ; et $f(x)=a(x-x_1)(x-x_2)$.\n- Si $\\Delta=0$ : une solution (double) $x_0=-\\dfrac b{2a}$ ; et $f(x)=a(x-x_0)^2$.\n- Si $\\Delta<0$ : aucune solution réelle ; $f(x)$ ne se factorise pas.\n:::\n\n:::propriete Somme et produit des racines (si $\\Delta\\ge0$)\n$$x_1+x_2=-\\frac ba\\qquad x_1x_2=\\frac ca$$\nRéciproquement, deux nombres de somme $S$ et de produit $P$ sont les solutions de $X^2-SX+P=0$.\n:::\n\n:::methode Résoudre une équation du second degré\n1. Écrire l'équation sous la forme $ax^2+bx+c=0$ et identifier $a$, $b$, $c$ (avec leurs signes).\n2. Avant de calculer $\\Delta$ : si $c=0$, factoriser par $x$ ; si $b=0$, isoler $x^2$ ; si on reconnaît une identité remarquable, l'utiliser.\n3. Sinon calculer $\\Delta$, conclure selon son signe, simplifier les racines.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nRésoudre $2x^2-3x-2=0$ puis factoriser $2x^2-3x-2$.\n\n1. $a=2$, $b=-3$, $c=-2$. $\\Delta=(-3)^2-4\\times2\\times(-2)=9+16=25>0$.\n2. $x_1=\\dfrac{3-5}{4}=-\\dfrac12$ et $x_2=\\dfrac{3+5}{4}=2$. $S=\\left\\{-\\dfrac12\\,;2\\right\\}$.\n3. $2x^2-3x-2=2\\left(x+\\dfrac12\\right)(x-2)=(2x+1)(x-2)$.\n4. Contrôle : $x_1+x_2=\\dfrac32=-\\dfrac ba$ ✔ et $x_1x_2=-1=\\dfrac ca$ ✔.\n:::\n\n:::exemple Exemple 2\nÉcrire $x^2+6x+5$ sous forme canonique, puis le factoriser.\n\n1. $x^2+6x=(x+3)^2-9$.\n2. Donc $x^2+6x+5=(x+3)^2-9+5=(x+3)^2-4$ (forme canonique).\n3. $(x+3)^2-2^2=(x+3-2)(x+3+2)=(x+1)(x+5)$.\n:::\n",
+   "definition": "Pour $ax^2+bx+c=0$ ($a\\neq0$), on calcule $\\Delta=b^2-4ac$ : deux solutions $\\frac{-b\\pm\\sqrt\\Delta}{2a}$ si $\\Delta>0$, une si $\\Delta=0$, aucune si $\\Delta<0$.",
+   "formules": [
+    "$\\Delta=b^2-4ac$",
+    "$x_{1,2}=\\dfrac{-b\\pm\\sqrt\\Delta}{2a}$",
+    "$x_0=-\\dfrac b{2a}$ si $\\Delta=0$",
+    "$f(x)=a(x-x_1)(x-x_2)$",
+    "$x_1+x_2=-\\frac ba,\\ x_1x_2=\\frac ca$"
+   ],
+   "niveaux": {
+    "phrase": "Le discriminant Δ = b² − 4ac dit combien de solutions a l'équation du second degré.",
+    "simple": "Δ est comme un détecteur : positif, il y a deux trésors (deux solutions) ; nul, un seul ; négatif, rien à trouver dans ℝ.",
+    "complete": "La forme canonique $a\\left[(x+\\frac b{2a})^2-\\frac\\Delta{4a^2}\\right]$ ramène l'équation à $\\left(x+\\frac b{2a}\\right)^2=\\frac\\Delta{4a^2}$ : le signe de $\\Delta$ décide du nombre de solutions. On en déduit la factorisation $a(x-x_1)(x-x_2)$ et les relations $x_1+x_2=-b/a$, $x_1x_2=c/a$."
+   },
+   "analogie": "Un ballon tiré par un joueur des Éperviers suit une trajectoire en forme de parabole : chercher quand il touche le sol, c'est résoudre une équation du second degré.",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre $2x^2-3x-2=0$ puis factoriser $2x^2-3x-2$.",
+     "etapes": [
+      "$a=2$, $b=-3$, $c=-2$. $\\Delta=(-3)^2-4\\times2\\times(-2)=9+16=25>0$.",
+      "$x_1=\\dfrac{3-5}{4}=-\\dfrac12$ et $x_2=\\dfrac{3+5}{4}=2$. $S=\\left\\{-\\dfrac12\\,;2\\right\\}$.",
+      "$2x^2-3x-2=2\\left(x+\\dfrac12\\right)(x-2)=(2x+1)(x-2)$.",
+      "Contrôle : $x_1+x_2=\\dfrac32=-\\dfrac ba$ ✔ et $x_1x_2=-1=\\dfrac ca$ ✔."
+     ]
+    },
+    {
+     "enonce": "Écrire $x^2+6x+5$ sous forme canonique, puis le factoriser.",
+     "etapes": [
+      "$x^2+6x=(x+3)^2-9$.",
+      "Donc $x^2+6x+5=(x+3)^2-9+5=(x+3)^2-4$ (forme canonique).",
+      "$(x+3)^2-2^2=(x+3-2)(x+3+2)=(x+1)(x+5)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier le signe de $b$ : pour $-3x$, $b=-3$ et $b^2=9$.",
+    "Écrire $-b^2$ au lieu de $b^2$ dans $\\Delta$.",
+    "Diviser seulement $\\sqrt\\Delta$ par $2a$ : c'est $(-b\\pm\\sqrt\\Delta)$ tout entier qui est divisé.",
+    "Oublier le coefficient $a$ dans la factorisation $a(x-x_1)(x-x_2)$."
+   ],
+   "astuces": [
+    "Si c = 0 ou b = 0, n'utilise pas Δ : factorise directement, c'est plus rapide et plus sûr.",
+    "Contrôle tes racines avec la somme −b/a et le produit c/a.",
+    "Si a < 0, tu peux multiplier l'équation par −1 pour simplifier les calculs."
+   ],
+   "mnemo": "« Bé carré moins quatre a c » ; « moins b plus ou moins racine de delta, sur deux a ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu résolvais $x^2=9$ ($x=-3$ ou $x=3$) et $(x-1)^2-4=0$ en factorisant avec $a^2-b^2$. La forme canonique généralise exactement cette méthode."
+   },
+   "methode_redaction": "Écris a, b, c, puis « Δ = b² − 4ac = ... », le signe de Δ, les formules des racines avec les valeurs, et S = {...}. Simplifie les racines (√ et fractions).",
+   "flash": [
+    {
+     "q": "$\\Delta$ de $x^2+x-6$ ?",
+     "r": "25"
+    },
+    {
+     "q": "Racines de $x^2+x-6$ ?",
+     "r": "$-3$ et $2$"
+    },
+    {
+     "q": "Si $\\Delta<0$ ?",
+     "r": "Pas de solution réelle."
+    },
+    {
+     "q": "Racine double si $\\Delta=0$ ?",
+     "r": "$-\\dfrac b{2a}$"
+    },
+    {
+     "q": "Produit des racines de $3x^2-5x-2$ ?",
+     "r": "$\\dfrac ca=-\\dfrac23$"
+    },
+    {
+     "q": "Deux nombres de somme $S$ et produit $P$ ?",
+     "r": "Solutions de $X^2-SX+P=0$."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C05-N3.svg",
+    "alt": "Parabole y = x² − 2x − 3 coupant l'axe des abscisses en −1 et 3, de sommet S(1 ; −4).",
+    "legende": "Δ > 0 : la parabole coupe l'axe (Ox) en deux points, les racines −1 et 3.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C05-N4",
+   "titre": "Signe du trinôme, inéquations et équations se ramenant au second degré",
+   "prerequis_notions": [
+    "M-S1-C05-N3",
+    "M-S1-C05-N2"
+   ],
+   "cours_md": ":::propriete Signe de $ax^2+bx+c$\n- Si $\\Delta>0$ (racines $x_1<x_2$) : le trinôme est **du signe de $a$ à l'extérieur** des racines et du signe contraire **entre** les racines.\n- Si $\\Delta=0$ : il est du signe de $a$, et s'annule en $x_0$.\n- Si $\\Delta<0$ : il est **toujours** du signe de $a$ (jamais nul).\n\n| $x$ | $-\\infty$ | | $x_1$ | | $x_2$ | | $+\\infty$ |\n|---|---|---|---|---|---|---|---|\n| $ax^2+bx+c$ | | signe de $a$ | $0$ | signe de $-a$ | $0$ | signe de $a$ | |\n:::\n\n**Justification** : avec $\\Delta>0$, $f(x)=a(x-x_1)(x-x_2)$ ; le produit $(x-x_1)(x-x_2)$ est négatif entre les racines et positif à l'extérieur.\n\n:::methode Résoudre une inéquation du second degré\n1. Tout passer dans un membre : $ax^2+bx+c\\ \\ge0$ (ou $>$, $\\le$, $<$).\n2. Calculer $\\Delta$ et les racines éventuelles.\n3. Appliquer la règle « signe de $a$ à l'extérieur des racines » et lire l'ensemble des solutions.\n:::\n\n:::methode Équations se ramenant au second degré\n- **Bicarrée** $ax^4+bx^2+c=0$ : poser $X=x^2$ ($X\\ge0$), résoudre $aX^2+bX+c=0$, puis revenir à $x$ (seules les solutions $X\\ge0$ donnent des $x$).\n- **Rationnelle** : valeurs interdites, même dénominateur, numérateur du second degré.\n- **Produit** : un facteur du premier degré et un facteur du second degré.\n:::\n\n:::methode Problème avec paramètre\nPour que $ax^2+bx+c=0$ ait une racine double (resp. deux racines, aucune), on écrit $\\Delta=0$ (resp. $\\Delta>0$, $\\Delta<0$) et on résout cette condition **en fonction du paramètre**.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nRésoudre dans $\\mathbb{R}$ : $-x^2+x+6\\ge0$.\n\n1. $a=-1$, $b=1$, $c=6$ : $\\Delta=1+24=25$, racines $\\dfrac{-1-5}{-2}=3$ et $\\dfrac{-1+5}{-2}=-2$.\n2. $a<0$ : le trinôme est négatif à l'extérieur de $[-2\\,;3]$ et positif entre les racines.\n3. $S=[-2\\,;3]$ (crochets fermés car $\\ge$).\n:::\n\n:::exemple Exemple 2\nRésoudre dans $\\mathbb{R}$ : $x^2+x+1>0$.\n\n1. $\\Delta=1-4=-3<0$ : pas de racine.\n2. Le trinôme est toujours du signe de $a=1>0$.\n3. Il est donc strictement positif pour tout réel : $S=\\mathbb{R}$.\n:::\n",
+   "definition": "Le trinôme $ax^2+bx+c$ est du signe de $a$ à l'extérieur de ses racines et du signe contraire entre elles ; s'il n'a pas de racine, il est toujours du signe de $a$.",
+   "formules": [
+    "signe de $a$ à l'extérieur des racines",
+    "$\\Delta<0\\Rightarrow$ signe de $a$ partout",
+    "$X=x^2$ pour une équation bicarrée"
+   ],
+   "niveaux": {
+    "phrase": "Le trinôme a le signe de a partout, sauf entre ses racines.",
+    "simple": "Si a > 0, la parabole est un « sourire » : elle est au-dessus de l'axe sauf entre les racines où elle plonge en dessous. Si a < 0, c'est l'inverse (une « grimace »).",
+    "complete": "Grâce à la factorisation $a(x-x_1)(x-x_2)$, le signe du trinôme se lit dans un tableau : signe de $a$ hors de $[x_1;x_2]$, signe opposé à l'intérieur. Si $\\Delta\\le0$, la forme canonique montre que $f(x)$ a le signe de $a$. On résout ainsi toute inéquation du second degré et, par changement de variable, des équations de degré 4 (bicarrées)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre dans $\\mathbb{R}$ : $-x^2+x+6\\ge0$.",
+     "etapes": [
+      "$a=-1$, $b=1$, $c=6$ : $\\Delta=1+24=25$, racines $\\dfrac{-1-5}{-2}=3$ et $\\dfrac{-1+5}{-2}=-2$.",
+      "$a<0$ : le trinôme est négatif à l'extérieur de $[-2\\,;3]$ et positif entre les racines.",
+      "$S=[-2\\,;3]$ (crochets fermés car $\\ge$)."
+     ]
+    },
+    {
+     "enonce": "Résoudre dans $\\mathbb{R}$ : $x^2+x+1>0$.",
+     "etapes": [
+      "$\\Delta=1-4=-3<0$ : pas de racine.",
+      "Le trinôme est toujours du signe de $a=1>0$.",
+      "Il est donc strictement positif pour tout réel : $S=\\mathbb{R}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Appliquer « signe de a » entre les racines au lieu de l'extérieur.",
+    "Conclure « pas de solution » pour une inéquation quand Δ < 0 : il faut regarder le signe de a (S = ℝ ou S = ∅).",
+    "Dans une bicarrée, garder une solution X < 0 et écrire x = √X.",
+    "Oublier de ranger les racines dans l'ordre croissant quand a < 0."
+   ],
+   "astuces": [
+    "Fais un mini-croquis de la parabole (sourire ou grimace) pour lire le signe.",
+    "Pour une bicarrée, chaque X > 0 donne deux solutions ±√X, X = 0 en donne une, X < 0 aucune.",
+    "Écris toujours S avec les crochets justifiés par l'inégalité (stricte ou large)."
+   ],
+   "mnemo": "« Signe de a dehors, signe contraire dedans. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu résolvais des inéquations du premier degré comme $3x-6\\le0$. Maintenant, avec le tableau de signes et le discriminant, tu peux résoudre $x^2-5x+6\\le0$."
+   },
+   "methode_redaction": "Écris : « Δ = ..., les racines sont ... ; a = ... < 0 donc le trinôme est positif entre les racines ». Puis S = ... . Pour une bicarrée, annonce le changement de variable « posons X = x² ».",
+   "flash": [
+    {
+     "q": "Signe de $x^2-4$ entre $-2$ et $2$ ?",
+     "r": "Négatif."
+    },
+    {
+     "q": "$x^2+4>0$ : ensemble des solutions ?",
+     "r": "$\\mathbb{R}$"
+    },
+    {
+     "q": "$-x^2-1\\ge0$ : ensemble des solutions ?",
+     "r": "$\\varnothing$"
+    },
+    {
+     "q": "Résoudre $x^4-5x^2+4=0$ : changement de variable ?",
+     "r": "$X=x^2$"
+    },
+    {
+     "q": "Condition pour une racine double ?",
+     "r": "$\\Delta=0$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C05-N4.svg",
+    "alt": "Trois paraboles tournées vers le haut : deux racines, une racine double, aucune racine, avec le signe correspondant.",
+    "legende": "Cas a > 0 : le trinôme est positif sauf entre ses racines.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S1-C05-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C05-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ : $3x-7=2x+5$.",
+   "reponses_acceptees": [
+    "12",
+    "x=12",
+    "S={12}"
+   ],
+   "indices": [
+    "Regroupe les x à gauche, les nombres à droite."
+   ],
+   "corrige": [
+    "$3x-2x=5+7$.",
+    "$x=12$ ; $S=\\{12\\}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Changer de signe un seul terme.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C05-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C05-N1"
+   ],
+   "format": "qcm",
+   "enonce": "L'ensemble des solutions de $(2x-1)(x+3)=0$ est :",
+   "choix": [
+    "$\\left\\{\\frac12\\,;-3\\right\\}$",
+    "$\\{1\\,;-3\\}$",
+    "$\\left\\{-\\frac12\\,;3\\right\\}$",
+    "$\\{2\\,;3\\}$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Un produit est nul si l'un des facteurs est nul."
+   ],
+   "corrige": [
+    "Produit nul : $2x-1=0$ ou $x+3=0$.",
+    "$x=\\dfrac12$ ou $x=-3$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre $\\{1\\,;-3\\}$ en oubliant de diviser par 2.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C05-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C05-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer le discriminant du trinôme $2x^2-3x-2$.",
+   "reponses_acceptees": [
+    "25",
+    "Δ=25",
+    "delta=25"
+   ],
+   "indices": [
+    "a = 2, b = −3, c = −2."
+   ],
+   "corrige": [
+    "$\\Delta=b^2-4ac=(-3)^2-4\\times2\\times(-2)$.",
+    "$\\Delta=9+16=25$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire $-3^2=-9$ au lieu de $(-3)^2=9$.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C05-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C05-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ : $\\dfrac{x+1}{x-2}=0$. Donner la solution.",
+   "reponses_acceptees": [
+    "-1",
+    "x=-1",
+    "S={-1}",
+    "−1"
+   ],
+   "indices": [
+    "Numérateur nul, dénominateur non nul."
+   ],
+   "corrige": [
+    "Valeur interdite : $2$.",
+    "Quotient nul : $x+1=0$ et $x\\neq2$, donc $x=-1$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Donner aussi x = 2.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C05-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C05-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ : $x^2-5x+6=0$. Donner l'ensemble des solutions sous la forme {a;b}.",
+   "reponses_acceptees": [
+    "{2;3}",
+    "S={2;3}",
+    "{3;2}",
+    "2;3"
+   ],
+   "indices": [
+    "Somme 5, produit 6 : quels nombres ?"
+   ],
+   "corrige": [
+    "$\\Delta=25-24=1>0$.",
+    "$x_1=\\dfrac{5-1}{2}=2$ et $x_2=\\dfrac{5+1}{2}=3$ : $S=\\{2\\,;3\\}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Erreur de signe sur −b.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C05-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C05-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Pour $x>3$, le nombre $-2x+6$ est :",
+   "choix": [
+    "positif",
+    "négatif",
+    "nul",
+    "de signe variable"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Signe de a à droite de la racine."
+   ],
+   "corrige": [
+    "$-2x+6=0\\iff x=3$ ; $a=-2<0$.",
+    "À droite de la racine, il a le signe de $a$ : il est **négatif**."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Croire qu'un nombre « avec + 6 » est positif.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C05-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C05-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ : $4x^2-12x+9=0$.",
+   "reponses_acceptees": [
+    "3/2",
+    "1,5",
+    "x=3/2",
+    "x=1,5",
+    "S={3/2}",
+    "1.5"
+   ],
+   "indices": [
+    "Reconnais une identité remarquable."
+   ],
+   "corrige": [
+    "$4x^2-12x+9=(2x-3)^2$ (ou $\\Delta=144-144=0$).",
+    "Solution double $x=\\dfrac32$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Chercher deux solutions.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C05-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C05-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ l'inéquation $\\dfrac{2x-4}{-x+3}\\ge0$ à l'aide d'un tableau de signes.",
+   "indices": [
+    "Une ligne par facteur dans le tableau."
+   ],
+   "corrige": [
+    "Valeur interdite : $-x+3=0\\iff x=3$.",
+    "$2x-4$ s'annule en $2$ : $-$ puis $+$ ($a=2>0$). $-x+3$ s'annule en $3$ : $+$ puis $-$ ($a=-1<0$).",
+    "Quotient : $x<2$ : $\\dfrac{-}{+}=-$ ; $2<x<3$ : $\\dfrac++=+$ ; $x>3$ : $\\dfrac{+}{-}=-$ ; nul en $2$, double barre en $3$.",
+    "$S=[2\\,;3[$ ($2$ inclus car $\\ge$, $3$ exclu car interdit)."
+   ],
+   "bareme": [
+    0.5,
+    1.5,
+    2,
+    1
+   ],
+   "piege": "Fermer le crochet en 3.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C05-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C05-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ l'inéquation $2x^2+x-6\\le0$.",
+   "indices": [
+    "Signe de a à l'extérieur des racines."
+   ],
+   "corrige": [
+    "$\\Delta=1^2-4\\times2\\times(-6)=1+48=49$.",
+    "Racines : $\\dfrac{-1-7}{4}=-2$ et $\\dfrac{-1+7}{4}=\\dfrac32$.",
+    "$a=2>0$ : le trinôme est négatif ou nul entre ses racines.",
+    "$S=\\left[-2\\,;\\dfrac32\\right]$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    0.5
+   ],
+   "piege": "Donner l'extérieur des racines.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C05-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C05-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $f(x)=2x^2-8x+6$.\n\n1. Montrer que pour tout réel $x$, $f(x)=2(x-2)^2-2$.\n2. En déduire les solutions de $f(x)=0$.\n3. Factoriser $f(x)$.",
+   "indices": [
+    "Développe le membre de droite.",
+    "(x − 2)² = 1 a deux solutions."
+   ],
+   "corrige": [
+    "1. $2(x-2)^2-2=2(x^2-4x+4)-2=2x^2-8x+8-2=2x^2-8x+6=f(x)$.",
+    "2. $f(x)=0\\iff(x-2)^2=1\\iff x-2=1$ ou $x-2=-1\\iff x=3$ ou $x=1$. $S=\\{1\\,;3\\}$.",
+    "3. $f(x)=2(x-1)(x-3)$."
+   ],
+   "bareme": [
+    1.5,
+    2,
+    1
+   ],
+   "piege": "Oublier la solution x − 2 = −1.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C05-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C05-N3",
+    "M-S1-C05-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Un champ rectangulaire a un périmètre de $34$ m et une aire de $60\\ \\text{m}^2$. On note $x$ sa longueur en mètres.\n\n1. Exprimer la largeur en fonction de $x$.\n2. Montrer que $x$ vérifie $x^2-17x+60=0$.\n3. Déterminer les dimensions du champ.",
+   "indices": [
+    "Longueur + largeur = demi-périmètre."
+   ],
+   "corrige": [
+    "1. Demi-périmètre : $17$ m, donc largeur $=17-x$.",
+    "2. Aire : $x(17-x)=60\\iff17x-x^2=60\\iff x^2-17x+60=0$.",
+    "3. $\\Delta=289-240=49$ ; $x=\\dfrac{17-7}{2}=5$ ou $x=\\dfrac{17+7}{2}=12$.",
+    "Si $x=12$, la largeur vaut $5$ ; si $x=5$, la largeur vaut $12$. Le champ mesure **12 m sur 5 m**."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Prendre 34 − x pour la largeur.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C05-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C05-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ l'équation $x^4-5x^2+4=0$.",
+   "indices": [
+    "Changement de variable X = x²."
+   ],
+   "corrige": [
+    "On pose $X=x^2$ ($X\\ge0$) : $X^2-5X+4=0$.",
+    "$\\Delta=25-16=9$ ; $X=\\dfrac{5-3}{2}=1$ ou $X=\\dfrac{5+3}2=4$ (tous deux positifs).",
+    "$x^2=1\\iff x=\\pm1$ ; $x^2=4\\iff x=\\pm2$.",
+    "$S=\\{-2\\,;-1\\,;1\\,;2\\}$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Oublier les solutions négatives ±.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C05-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C05-N3",
+    "M-S1-C05-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "1. Trouver deux réels dont la somme vaut $10$ et le produit $21$.\n2. Déterminer les valeurs du réel $m$ pour lesquelles l'équation $x^2+mx+9=0$ admet une racine double, et donner cette racine dans chaque cas.",
+   "indices": [
+    "X² − SX + P = 0.",
+    "Δ = m² − 4 × 1 × 9."
+   ],
+   "corrige": [
+    "1. Ces réels sont les solutions de $X^2-10X+21=0$ : $\\Delta=100-84=16$, $X=\\dfrac{10\\pm4}{2}$, soit $3$ et $7$.",
+    "2. Racine double $\\iff\\Delta=0\\iff m^2-36=0\\iff m=-6$ ou $m=6$.",
+    "Si $m=6$ : racine double $-\\dfrac m2=-3$ (car $x^2+6x+9=(x+3)^2$).",
+    "Si $m=-6$ : racine double $3$ (car $x^2-6x+9=(x-3)^2$)."
+   ],
+   "bareme": [
+    2,
+    1.5,
+    0.75,
+    0.75
+   ],
+   "piege": "Oublier la valeur négative m = −6.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C05-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C05-N4",
+    "M-S1-C05-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ l'inéquation $\\dfrac{x^2-x-2}{x-3}<0$.",
+   "indices": [
+    "Tableau avec les valeurs −1, 2, 3."
+   ],
+   "corrige": [
+    "Valeur interdite : $3$. Numérateur : $\\Delta=1+8=9$, racines $-1$ et $2$ ; $a=1>0$ : $+$ à l'extérieur de $[-1\\,;2]$, $-$ entre.",
+    "Dénominateur $x-3$ : $-$ avant $3$, $+$ après.",
+    "Quotient : $]-\\infty;-1[$ : $\\dfrac{+}{-}<0$ ✔ ; $]-1;2[$ : $\\dfrac{-}{-}>0$ ✘ ; $]2;3[$ : $\\dfrac{+}{-}<0$ ✔ ; $]3;+\\infty[$ : $>0$ ✘.",
+    "$S=]-\\infty\\,;-1[\\,\\cup\\,]2\\,;3[$."
+   ],
+   "bareme": [
+    1.5,
+    0.5,
+    2,
+    1
+   ],
+   "piege": "Fermer les crochets alors que l'inégalité est stricte.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Diviser par une expression contenant x (perte de solutions).",
+  "Oublier les valeurs interdites ou fermer le crochet sur une valeur interdite.",
+  "Multiplier une inéquation par une expression de signe inconnu.",
+  "Erreurs de signe dans $\\Delta=b^2-4ac$ quand $b$ ou $c$ est négatif.",
+  "Confondre « signe de a à l'extérieur » et « à l'intérieur » des racines.",
+  "Ne pas vérifier que la solution d'un problème concret a un sens (longueur positive...)."
+ ]
+}

@@ -1,0 +1,438 @@
+{
+ "id": "EP-PC-S1-0003",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (septembre 2019)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2019-2020 (concours de septembre 2019)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Oxydoréduction — 3e",
+  "Oxydation des métaux, combustion du fer, corrosion — 3e",
+  "Poussée d'Archimède, flottaison — 3e",
+  "Associations de résistances, loi d'Ohm — 3e",
+  "Production de l'énergie électrique — 3e"
+ ],
+ "chapitres": [
+  "PC-S1-C02",
+  "PC-S1-C03",
+  "PC-S2-C11",
+  "PC-S2-C12",
+  "PC-S2-C15"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE — SEPTEMBRE 2019**\n**Épreuve de Sciences physiques** — Durée : 2 heures — Coefficient : 2\n\n### Exercice 1 (6 pts)\nPour montrer que les atomes d'hydrogène et d'oxygène sont les seuls constituants de la molécule d'eau, Ayo fait une expérience en réalisant la combustion du magnésium (Mg) dans la vapeur d'eau. Les produits obtenus sont l'oxyde de magnésium (MgO) et du dihydrogène.\n1. Écris et équilibre l'équation-bilan de cette combustion. (0,5 pt)\n2. Féli affirme que cette expérience est une réaction d'oxydation et de réduction. Et pour se justifier, elle donne des explications traduites par les phrases suivantes que l'on te demande de compléter sans les recopier.\n   « Au cours de cette réaction, le magnésium enlève des atomes ...1... à ...2... pour donner l'oxyde de magnésium. Le magnésium subit ...3.... Aussi, la vapeur d'eau ...4... des atomes d'oxygène au ...5... pour donner du ...6.... La vapeur d'eau subit ...7.... Le magnésium joue le rôle ...8... et la vapeur d'eau joue le rôle ...9.... On peut aussi dire que le magnésium a été ...10... et que la vapeur d'eau a été ...11.... » (5,5 pts) [OCR : le dernier numéro est lu « 14 »]\n\n### Exercice 2 (4 pts)\n**A/** La tournure de cuivre chauffée dans la flamme d'un labogaz se recouvre d'une pellicule noire.\n1. Écris l'équation de la réaction. (0,5 pt)\n2. Quel est le nom du corps noir formé ? (0,5 pt)\n\n**B/** On projette de la poudre de fer dans une flamme.\n1. Donne le nom et la formule du corps obtenu. (0,5 pt)\n2. Écris l'équation de la réaction chimique. (0,5 pt)\n\n**C/** De la poudre de fer est laissée à l'air libre pendant plusieurs jours et se transforme partiellement en un nouveau corps.\n1. Donne la formule et le nom scientifique de ce nouveau corps. (0,5 pt)\n2. Écris l'équation chimique faisant apparaître ce nouveau corps. (0,5 pt)\n3. Compare ces deux types de réactions chimiques réalisées en B/ et en C/. (1 pt)\n\n### Exercice 3 (4,5 pts)\n1. Un glaçon cubique de 3 cm d'arête flotte sur l'eau. Sa densité est égale à 0,9.\n   - a) Calcule la masse du glaçon. (1 pt)\n   - b) Calcule son volume immergé. (1,5 pt)\n   - c) Calcule ensuite $L_1$ la longueur immergée et $L_2$ la longueur émergée de l'arête du cube de glaçon. (1 pt)\n2. Un solide de masse m = 480 g flotte mais entièrement plongé dans un liquide de densité d = 0,8. Calcule le volume du solide. (1 pt)\n\n### Exercice 4 (5,5 pts)\n1. On considère le montage schématisé ci-dessous. La tension $U_{AB} = 10\\ \\text{V}$. On donne $R_1 = 20\\ \\Omega$ ; $R_2 = 10\\ \\Omega$ ; $R_3 = 15\\ \\Omega$ [OCR : « R₁ =200; R₂ =100; R 150 », le symbole Ω est lu « 0 »].\n   [Schéma non disponible.]\n   - a) Calcule la résistance équivalente de l'association. (1 pt)\n   - b) Calcule les intensités du courant dans chaque branche et l'intensité I du courant principal. (0,75 pt)\n\n   ..... T.S.V.P. — [suite rattachée par déduction, voir notes]\n\n2. Le montage suivant est modifié de la façon suivante : [schéma non disponible ; l'OCR ne montre que les étiquettes A, R₃, R₂, R₁, B]. Toutes les résistances ont la même valeur $R_1 = R_2 = R_3 = 20\\ \\Omega$. La tension $U_{AB} = 9\\ \\text{V}$.\n   - a) Calcule la résistance équivalente de l'association. (0,75 pt)\n   - b) Calcule les intensités des courants qui traversent chaque conducteur ohmique. (0,75 pt)\n   - c) Calcule les tensions aux bornes de $R_3$ et de $R_1$. (0,75 pt)\n3. Le courant du secteur peut provenir des centrales thermiques, hydroélectriques ou nucléaires.\n   - a) Quelle(s) source(s) de courant ne s'utilise(nt) pas au Togo parmi les trois citées ? (0,5 pt)\n   - b) Quelle matière utilise-t-on pour faire fonctionner une centrale thermique ? Donne un exemple. (0,5 pt × 2)\n",
+ "questions": [
+  {
+   "numero": "Ex1-1",
+   "enonce": "Équation-bilan de la combustion du magnésium dans la vapeur d'eau.",
+   "points": 0.5,
+   "notions_titres": [
+    "Oxydoréduction"
+   ],
+   "corrige": [
+    "$\\ce{Mg + H2O -> MgO + H2}$ (déjà équilibrée : 1 Mg, 2 H, 1 O de chaque côté)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\ce{Mg + H2O -> MgO + H2}$",
+   "piege": "Ajouter des coefficients inutiles.",
+   "astuce": "Compte les atomes de chaque côté."
+  },
+  {
+   "numero": "Ex1-2",
+   "enonce": "Compléter le texte sur l'oxydoréduction (11 blancs).",
+   "points": 5.5,
+   "notions_titres": [
+    "Oxydoréduction",
+    "Oxydant, réducteur"
+   ],
+   "corrige": [
+    "Blanc 1 = d'oxygène",
+    "Blanc 2 = la vapeur d'eau (aux molécules d'eau)",
+    "Blanc 3 = une oxydation",
+    "Blanc 4 = cède",
+    "Blanc 5 = magnésium",
+    "Blanc 6 = dihydrogène",
+    "Blanc 7 = une réduction",
+    "Blanc 8 = de réducteur",
+    "Blanc 9 = d'oxydant",
+    "Blanc 10 = oxydé",
+    "Blanc 11 = réduite"
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "1 d'oxygène ; 2 la vapeur d'eau ; 3 une oxydation ; 4 cède ; 5 magnésium ; 6 dihydrogène ; 7 une réduction ; 8 de réducteur ; 9 d'oxydant ; 10 oxydé ; 11 réduite",
+   "piege": "Inverser oxydant et réducteur : le réducteur est celui qui capte l'oxygène (il est oxydé).",
+   "astuce": "Réducteur = « voleur d'oxygène » ; il subit l'oxydation."
+  },
+  {
+   "numero": "Ex2-A.1",
+   "enonce": "Équation de l'oxydation du cuivre.",
+   "points": 0.5,
+   "notions_titres": [
+    "Oxydation des métaux"
+   ],
+   "corrige": [
+    "$\\ce{2Cu + O2 -> 2CuO}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\ce{2Cu + O2 -> 2CuO}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-A.2",
+   "enonce": "Nom du corps noir.",
+   "points": 0.5,
+   "notions_titres": [
+    "Oxydation des métaux"
+   ],
+   "corrige": [
+    "Oxyde de cuivre II (oxyde cuivrique) CuO."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Oxyde de cuivre II",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-B.1",
+   "enonce": "Nom et formule du corps obtenu (fer dans une flamme).",
+   "points": 0.5,
+   "notions_titres": [
+    "Combustion du fer"
+   ],
+   "corrige": [
+    "Oxyde magnétique de fer (tétraoxyde de trifer) $\\ce{Fe3O4}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Fe₃O₄, oxyde magnétique",
+   "piege": "Confondre avec la rouille Fe₂O₃.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-B.2",
+   "enonce": "Équation de la combustion du fer.",
+   "points": 0.5,
+   "notions_titres": [
+    "Combustion du fer"
+   ],
+   "corrige": [
+    "$\\ce{3Fe + 2O2 -> Fe3O4}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\ce{3Fe + 2O2 -> Fe3O4}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-C.1",
+   "enonce": "Formule et nom du nouveau corps (fer à l'air libre).",
+   "points": 0.5,
+   "notions_titres": [
+    "Corrosion du fer"
+   ],
+   "corrige": [
+    "Rouille : essentiellement l'oxyde ferrique (trioxyde de difer) $\\ce{Fe2O3}$ (hydraté)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Fe₂O₃, oxyde ferrique",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-C.2",
+   "enonce": "Équation de formation de la rouille.",
+   "points": 0.5,
+   "notions_titres": [
+    "Corrosion du fer"
+   ],
+   "corrige": [
+    "$\\ce{4Fe + 3O2 -> 2Fe2O3}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\ce{4Fe + 3O2 -> 2Fe2O3}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-C.3",
+   "enonce": "Comparer les réactions B et C.",
+   "points": 1,
+   "notions_titres": [
+    "Combustion vive / oxydation lente"
+   ],
+   "corrige": [
+    "B : **combustion vive** (rapide, avec étincelles, dégagement important de chaleur et de lumière).",
+    "C : **oxydation lente** (sans flamme, sur plusieurs jours, favorisée par l'humidité) ; dans les deux cas le fer réagit avec le dioxygène mais les produits diffèrent (Fe₃O₄ / Fe₂O₃)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "B combustion vive, C oxydation lente",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-1.a",
+   "enonce": "Masse du glaçon.",
+   "points": 1,
+   "notions_titres": [
+    "Masse volumique, densité"
+   ],
+   "corrige": [
+    "$V = a^3 = 3^3 = 27\\ \\text{cm}^3$ ; $\\rho = d \\times \\rho_{eau} = 0{,}9\\ \\text{g/cm}^3$.",
+    "$m = \\rho V = 0{,}9 \\times 27 = 24{,}3\\ \\text{g}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "m = 24,3 g",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-1.b",
+   "enonce": "Volume immergé du glaçon.",
+   "points": 1.5,
+   "notions_titres": [
+    "Poussée d'Archimède",
+    "Flottaison"
+   ],
+   "corrige": [
+    "Le glaçon flotte : $P_A = P$.",
+    "$\\rho_{eau} V_i g = m g \\Rightarrow V_i = \\frac{m}{\\rho_{eau}}$.",
+    "$V_i = \\frac{24{,}3}{1} = 24{,}3\\ \\text{cm}^3$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Vi = 24,3 cm³",
+   "piege": "",
+   "astuce": "Un corps flottant immerge une fraction de son volume égale à sa densité (ici 90 %)."
+  },
+  {
+   "numero": "Ex3-1.c",
+   "enonce": "Longueurs immergée et émergée de l'arête.",
+   "points": 1,
+   "notions_titres": [
+    "Flottaison"
+   ],
+   "corrige": [
+    "$V_i = a^2 L_1 \\Rightarrow L_1 = \\frac{24{,}3}{9} = 2{,}7\\ \\text{cm}$.",
+    "$L_2 = 3 - 2{,}7 = 0{,}3\\ \\text{cm}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "L1 = 2,7 cm ; L2 = 0,3 cm",
+   "piege": "",
+   "astuce": "Contrôle : $L_1 = d \\times a = 0{,}9 \\times 3$."
+  },
+  {
+   "numero": "Ex3-2",
+   "enonce": "Volume du solide flottant entre deux eaux (m = 480 g, d = 0,8).",
+   "points": 1,
+   "notions_titres": [
+    "Flottaison"
+   ],
+   "corrige": [
+    "Entièrement immergé et en équilibre : $P_A = P \\Rightarrow \\rho_L V g = m g$.",
+    "$V = \\frac{m}{\\rho_L} = \\frac{480}{0{,}8} = 600\\ \\text{cm}^3$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "V = 600 cm³",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1.a",
+   "enonce": "Résistance équivalente (montage 1).",
+   "points": 1,
+   "notions_titres": [
+    "Associations de résistances"
+   ],
+   "corrige": [
+    "[Schéma non disponible] Méthode : série $R = R_1 + R_2$ ; dérivation $\\frac{1}{R} = \\frac{1}{R_1} + \\frac{1}{R_2}$, appliquées à la structure du schéma.",
+    "Résultat non déterminable sans le schéma (par exemple R₁ en série avec R₂ // R₃ donnerait 26 Ω ; les trois en dérivation 4,6 Ω)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Non déterminable sans le schéma",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1.b",
+   "enonce": "Intensités dans les branches (montage 1).",
+   "points": 0.75,
+   "notions_titres": [
+    "Loi d'Ohm",
+    "Loi des nœuds"
+   ],
+   "corrige": [
+    "[Schéma non disponible] Méthode : $I = \\frac{U_{AB}}{R_{eq}}$, puis tension aux bornes de chaque branche et $I_k = \\frac{U_k}{R_k}$ ; vérifier la loi des nœuds."
+   ],
+   "bareme": [
+    0.75
+   ],
+   "resultat_final": "Non déterminable sans le schéma",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.a",
+   "enonce": "Résistance équivalente (montage modifié, trois résistances de 20 Ω).",
+   "points": 0.75,
+   "notions_titres": [
+    "Associations de résistances"
+   ],
+   "corrige": [
+    "[Schéma non disponible] Méthode identique ; pour trois résistances égales : série 60 Ω, dérivation 6,7 Ω, une en série avec deux en dérivation 30 Ω, une en dérivation avec deux en série 13,3 Ω."
+   ],
+   "bareme": [
+    0.75
+   ],
+   "resultat_final": "Non déterminable sans le schéma",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.b",
+   "enonce": "Intensités dans chaque conducteur (montage modifié).",
+   "points": 0.75,
+   "notions_titres": [
+    "Loi d'Ohm"
+   ],
+   "corrige": [
+    "[Schéma non disponible] $I = U_{AB}/R_{eq}$ puis répartition selon les branches."
+   ],
+   "bareme": [
+    0.75
+   ],
+   "resultat_final": "Non déterminable sans le schéma",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.c",
+   "enonce": "Tensions aux bornes de R₃ et R₁.",
+   "points": 0.75,
+   "notions_titres": [
+    "Loi d'Ohm"
+   ],
+   "corrige": [
+    "[Schéma non disponible] $U_k = R_k I_k$ ; contrôle par la loi d'additivité des tensions."
+   ],
+   "bareme": [
+    0.75
+   ],
+   "resultat_final": "Non déterminable sans le schéma",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-3.a",
+   "enonce": "Source de courant non utilisée au Togo.",
+   "points": 0.5,
+   "notions_titres": [
+    "Production de l'énergie électrique"
+   ],
+   "corrige": [
+    "Le Togo n'a **pas de centrale nucléaire** (il utilise des centrales thermiques et hydroélectriques, ex. barrage de Nangbéto)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Le nucléaire",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-3.b",
+   "enonce": "Matière utilisée dans une centrale thermique, exemple.",
+   "points": 1,
+   "notions_titres": [
+    "Production de l'énergie électrique"
+   ],
+   "corrige": [
+    "Un **combustible** (fossile le plus souvent).",
+    "Exemples : gaz naturel, fioul (gazole), charbon."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Un combustible, ex. gaz naturel ou fioul",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Mg + H₂O → MgO + H₂ ; blancs d'oxydoréduction ; CuO ; Fe₃O₄ (3Fe + 2O₂) ; Fe₂O₃ (4Fe + 3O₂) ; glaçon m = 24,3 g, Vi = 24,3 cm³, L1 = 2,7 cm, L2 = 0,3 cm ; V = 600 cm³ ; nucléaire ; combustible.",
+  "passe2": "Équations recomptées atome par atome ; glaçon recalculé par L1 = d × a ; V = m/ρ recalculé ; exercice 4.1-4.2 impossible sans schéma (aucune valeur numérique imposée).",
+  "code": "oui (verif.py)",
+  "desaccords": [
+   "Ex4 : schémas absents ; seules les méthodes sont données (valeurs pour quelques configurations possibles, à titre indicatif).",
+   "Ex4-2 et Ex4-3 : la page « R3 R1 B — 2) Le montage suivant est modifié... » est rattachée à ce sujet par déduction (le sujet s'arrête à « T.S.V.P. » au milieu de l'exercice 4, et 1 + 0,75 + 3 × 0,75 + 0,5 + 2 × 0,5 = 5,5 points, exactement le total de l'exercice 4).",
+   "Valeurs des résistances lues depuis l'OCR (Ω lu « 0 ») : R₁ = 20 Ω, R₂ = 10 Ω, R₃ = 15 Ω ; à confirmer sur le scan.",
+   "Ex1-2 blanc 6 : le texte « pour donner du ...6... » attend « dihydrogène ».",
+   "Barème interne aux questions proposé, non officiel."
+  ]
+ },
+ "notes_transcription": [
+  "Page 2 (fin de l'exercice 4) rattachée par déduction depuis un autre endroit du recueil.",
+  "Schémas de l'exercice 4 non disponibles."
+ ],
+ "points_transcrits": 20.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

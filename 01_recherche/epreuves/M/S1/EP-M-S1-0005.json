@@ -1,0 +1,287 @@
+{
+ "id": "EP-M-S1-0005",
+ "matiere": "M",
+ "semestre": 1,
+ "type": "concours_entree",
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques (Lomé / Kara)",
+  "ville": "Lomé / Kara",
+  "annee_scolaire": "2011-2012",
+  "session": "22 septembre 2011",
+  "document": "« Epreuves Concours lycée scientifique.pdf » (scan CamScanner, 12,4 Mo, Google Drive de l'utilisateur, ajouté le 2026-07-03)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Sujet officiel d'examen ; copie privée dans le Google Drive de l'utilisateur ; usage personnel d'apprentissage",
+  "fiabilite": 3
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "chapitres_titres": [
+  "Ensemble des nombres réels et calcul dans ℝ",
+  "Polynômes et fractions rationnelles",
+  "Équations et inéquations dans ℝ",
+  "Vecteurs et points du plan",
+  "Droites et cercles dans le plan"
+ ],
+ "chapitres": [
+  "M-S1-C01",
+  "M-S1-C03",
+  "M-S1-C05",
+  "M-S1-C02",
+  "M-S2-C13"
+ ],
+ "enonce_md": "> **Transcription reconstituée** à partir du texte OCR (Google Drive) d'un scan CamScanner du sujet officiel. Les formules ont été remises en forme ; **[illisible]** signale un passage absent ou inexploitable dans l'OCR ; *(lecture probable)* signale un symbole reconstitué d'après le contexte et la cohérence des questions. Les figures du sujet ne sont pas disponibles. À relire sur le scan original avant usage en composition blanche.\n\n**CONCOURS NATIONAL DE RECRUTEMENT DES ÉLÈVES POUR LES LYCÉES SCIENTIFIQUES DE KARA ET DE LOMÉ (22 SEPTEMBRE 2011)**\n\n**MATHÉMATIQUES** — Coeff. : 2 — Durée : 2 heures\n\n### Exercice 1 (5 pts)\n1. Calcule : $A = $ **[illisible]** et l'écrire sous forme de fraction irréductible. (0,5 pt × 2)\n2. a) Calcule le nombre $C = $ **[lecture incertaine]** (OCR : « (√5+√2)²+(√5-√2)² »). (0,5 pt)\n\n   b) Détermine un encadrement de $C$ par deux entiers consécutifs. (1 pt)\n3. On donne $x = 3 + 2\\sqrt{2}$, $y = 3 - 2\\sqrt{2}$ et **[illisible]** (l'OCR montre aussi « $\\frac{\\sqrt{5}+1}{2}$ » à cet endroit).\n\n   a) Calcule $x^2$, $y^2$ et $xy$. (0,5 pt × 3)\n\n   b) Montre que $\\dfrac{x}{y} + \\dfrac{y}{x}$ est un entier *(lecture probable)*. (0,5 pt)\n\n   c) Montre que **[illisible]** $= \\sqrt{2} - 1$. (0,5 pt)\n\n### Exercice 2 (5 pts)\nOn donne les polynômes $A = x^2 + x - 6$ et $B = x^2 - 3x + 2$.\n1. Détermine $P = A + B$ et $Q = A - B$. (0,5 pt × 2)\n2. Détermine les polynômes $M$ et $N$ tels que : $A = (x - 2)M$ et $B = (x - 2)N$ *(lecture probable ; OCR : « A=x-2+ M et B-x-2+N »)*. (1 pt)\n3. Déduis-en une factorisation de $A$ et $B$. (0,75 pt × 2)\n4. On donne $H = $ **[illisible]**.\n\n   a) Détermine la condition d'existence de $H$. (0,5 pt)\n\n   b) Simplifie $H$. (0,5 pt)\n\n   c) Résous l'équation $H = 0$. (0,5 pt)\n\n### Exercice 3 (5 pts)\nDans un plan rapporté à un repère orthonormé $(O, \\vec{i}, \\vec{j})$, les points $A$, $B$ et $C$ sont définis par : $\\overrightarrow{OA} = 3\\vec{i} + 4\\vec{j}$ ; $\\overrightarrow{OB} = 8\\vec{i} + 4\\vec{j}$ et $\\overrightarrow{OC} = 8\\vec{j}$ *(lecture probable ; OCR : « OA = 37+4) ; OB = 87+ 47 et OC = 8] »)*.\n1. Place ces points dans le repère. (0,5 pt × 3)\n2. Calcule $AB$ et $AC$, puis déduis-en la nature du triangle $ABC$. (0,5 pt × 3)\n3. Soit $I$ le milieu de $[BC]$.\n\n   a) Trouve une équation de la droite $(AI)$. (1 pt)\n\n   b) Montre que $(AI)$ est la médiatrice de $[BC]$. (1 pt)\n\n### Exercice 4 (5 pts)\n$ABCD$ est un rectangle dont les côtés ont pour longueur $AB = 7$ cm et $AD = 6$ cm. $I$ est le point de $[AD]$ tel que $AI = 2$ cm. Soit $N$ le point de $[AB]$ tel que $AN = x$.\n1. Fais la construction. (2 pts)\n2. Exprime $NB$, $NC^2$ et $IN^2$ en fonction de $x$. (0,5 pt × 3)\n3. Trouve pour quelle valeur de $x$ le triangle $INC$ est rectangle en $I$. (1,5 pt)\n",
+ "questions": [
+  {
+   "numero": "Ex1-3a",
+   "enonce": "Calcule $x^2$, $y^2$ et $xy$ pour $x = 3 + 2\\sqrt{2}$, $y = 3 - 2\\sqrt{2}$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$x^2 = 9 + 12\\sqrt{2} + 8 = 17 + 12\\sqrt{2}$.",
+    "$y^2 = 9 - 12\\sqrt{2} + 8 = 17 - 12\\sqrt{2}$.",
+    "$xy = 3^2 - (2\\sqrt{2})^2 = 9 - 8 = 1$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$x^2 = 17 + 12\\sqrt{2}$ ; $y^2 = 17 - 12\\sqrt{2}$ ; $xy = 1$",
+   "piege": "$(2\\sqrt{2})^2 = 4 \\times 2 = 8$, pas 4.",
+   "astuce": "Produit de deux expressions conjuguées : $(a+b)(a-b) = a^2 - b^2$."
+  },
+  {
+   "numero": "Ex1-3b",
+   "enonce": "Montre que $\\dfrac{x}{y} + \\dfrac{y}{x}$ est un entier.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$\\dfrac{x}{y} + \\dfrac{y}{x} = \\dfrac{x^2 + y^2}{xy} = \\dfrac{(17 + 12\\sqrt{2}) + (17 - 12\\sqrt{2})}{1} = 34$, qui est un entier."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\dfrac{x}{y} + \\dfrac{y}{x} = 34$",
+   "piege": "",
+   "astuce": "Réduire au même dénominateur et réutiliser la question a."
+  },
+  {
+   "numero": "Ex2-1",
+   "enonce": "Détermine $P = A + B$ et $Q = A - B$.",
+   "points": 1,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$P = (x^2 + x - 6) + (x^2 - 3x + 2) = 2x^2 - 2x - 4$.",
+    "$Q = (x^2 + x - 6) - (x^2 - 3x + 2) = 4x - 8$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$P = 2x^2 - 2x - 4$ ; $Q = 4x - 8$",
+   "piege": "Dans A − B, changer le signe de chaque terme de B.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-2",
+   "enonce": "Polynômes $M$ et $N$ tels que $A = (x-2)M$ et $B = (x-2)N$.",
+   "points": 1,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$2$ est racine de $A$ ($4 + 2 - 6 = 0$) ; on cherche $M = x + m$ : $(x - 2)(x + m) = x^2 + (m - 2)x - 2m$, d'où $m = 3$ : $M = x + 3$.",
+    "$2$ est racine de $B$ ($4 - 6 + 2 = 0$) ; $(x - 2)(x + n) = x^2 + (n-2)x - 2n$, d'où $n = -1$ : $N = x - 1$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$M = x + 3$ ; $N = x - 1$",
+   "piege": "",
+   "astuce": "Identifier les coefficients, ou effectuer la division par x − 2."
+  },
+  {
+   "numero": "Ex2-3",
+   "enonce": "Factorisation de $A$ et $B$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$A = (x - 2)(x + 3)$.",
+    "$B = (x - 2)(x - 1)$."
+   ],
+   "bareme": [
+    0.75,
+    0.75
+   ],
+   "resultat_final": "$A = (x-2)(x+3)$ ; $B = (x-2)(x-1)$",
+   "piege": "",
+   "astuce": "Contrôle : redévelopper."
+  },
+  {
+   "numero": "Ex3-1",
+   "enonce": "Placer $A$, $B$, $C$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$A(3\\,;4)$.",
+    "$B(8\\,;4)$.",
+    "$C(0\\,;8)$ (sur l'axe des ordonnées)."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Figure",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-2",
+   "enonce": "Calcule $AB$, $AC$ ; nature de $ABC$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$AB = \\sqrt{(8-3)^2 + (4-4)^2} = 5$.",
+    "$AC = \\sqrt{(0-3)^2 + (8-4)^2} = \\sqrt{25} = 5$.",
+    "$AB = AC$ : le triangle $ABC$ est **isocèle en $A$** ($BC = \\sqrt{80} \\neq 5$, il n'est pas équilatéral)."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$AB = AC = 5$ : ABC isocèle en A",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3a",
+   "enonce": "Équation de la droite $(AI)$, $I$ milieu de $[BC]$.",
+   "points": 1,
+   "notions_titres": [
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "$I\\left(\\dfrac{8 + 0}{2}\\,;\\,\\dfrac{4 + 8}{2}\\right) = I(4\\,;6)$.",
+    "Coefficient directeur $\\dfrac{6 - 4}{4 - 3} = 2$ ; $(AI) : y - 4 = 2(x - 3)$, soit $y = 2x - 2$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$(AI) : y = 2x - 2$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3b",
+   "enonce": "Montre que $(AI)$ est la médiatrice de $[BC]$.",
+   "points": 1,
+   "notions_titres": [
+    "Droites et cercles dans le plan",
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$\\overrightarrow{AI}(1\\,;2)$ et $\\overrightarrow{BC}(-8\\,;4)$ : $1 \\times (-8) + 2 \\times 4 = 0$, donc $(AI) \\perp (BC)$.",
+    "$(AI)$ passe par le milieu $I$ de $[BC]$ et lui est perpendiculaire : c'est la médiatrice de $[BC]$. (Autre argument : $AB = AC$, donc $A$ est sur la médiatrice.)"
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "(AI) médiatrice de [BC]",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1",
+   "enonce": "Construction.",
+   "points": 2,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "Rectangle $ABCD$ ($AB = 7$ cm, $AD = 6$ cm), point $I$ sur $[AD]$ avec $AI = 2$ cm, point $N$ sur $[AB]$ (position quelconque, $AN = x$), segments $[IN]$, $[NC]$, $[IC]$."
+   ],
+   "bareme": [
+    2
+   ],
+   "resultat_final": "Figure",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2",
+   "enonce": "Exprime $NB$, $NC^2$ et $IN^2$ en fonction de $x$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$NB = AB - AN = 7 - x$ (avec $0 \\le x \\le 7$).",
+    "Pythagore dans $NBC$ rectangle en $B$ : $NC^2 = (7 - x)^2 + 6^2 = x^2 - 14x + 85$.",
+    "Pythagore dans $AIN$ rectangle en $A$ : $IN^2 = 2^2 + x^2 = x^2 + 4$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$NB = 7 - x$ ; $NC^2 = (7-x)^2 + 36$ ; $IN^2 = x^2 + 4$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-3",
+   "enonce": "Valeur de $x$ pour laquelle $INC$ est rectangle en $I$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ"
+   ],
+   "corrige": [
+    "$IC^2 = ID^2 + DC^2 = 4^2 + 7^2 = 65$ ($ID = 6 - 2 = 4$).",
+    "$INC$ rectangle en $I$ $\\Leftrightarrow IN^2 + IC^2 = NC^2 \\Leftrightarrow x^2 + 4 + 65 = x^2 - 14x + 85 \\Leftrightarrow 14x = 16$.",
+    "$x = \\dfrac{8}{7}$ cm (environ 1,14 cm), qui est bien dans $[0\\,;7]$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$x = \\dfrac{8}{7}$ cm",
+   "piege": "L'hypoténuse est le côté opposé à l'angle droit en I : c'est [NC].",
+   "astuce": "Réciproque de Pythagore."
+  }
+ ],
+ "verification": {
+  "passe1": "Résolution manuelle : x²=17+12√2, y²=17−12√2, xy=1, x/y+y/x=34 ; P=2x²−2x−4, Q=4x−8, M=x+3, N=x−1 ; A=(x−2)(x+3), B=(x−2)(x−1) ; A(3;4), B(8;4), C(0;8), AB=AC=5, I(4;6), (AI): y=2x−2, médiatrice ; NB=7−x, NC²=(7−x)²+36, IN²=x²+4, x=8/7.",
+  "passe2": "Résolution indépendante (sympy) : identités remarquables, division par x−2, produit scalaire AI·BC et équation de Pythagore résolue symboliquement : mêmes résultats.",
+  "code": "oui : script verif.py (sympy), 16 vérifications pour ce sujet, toutes OK",
+  "desaccords": [
+   "Aucun désaccord entre les deux passes.",
+   "Ex1 Q1 (A) illisible. Ex1 Q2 non corrigée : avec la lecture de l'OCR, C=(√5+√2)²+(√5−√2)²=14 est un entier, ce qui contredit la Q2b (encadrement par deux entiers consécutifs). Le texte de l'OCR est donc incomplet. Hypothèse non vérifiée : C = 1/(√5+√2)² + 1/(√5−√2)² = 14/9.",
+   "Ex1 Q3c illisible. Hypothèse non vérifiée : √y = √2−1, ce qui est exact puisque (√2−1)² = 3−2√2.",
+   "Ex2 Q2 : « A=x-2+M » lu A=(x−2)M (lecture probable, seule compatible avec la Q3). Ex2 Q4 (H) illisible, non corrigée.",
+   "Ex3 : coordonnées lues A(3;4), B(8;4), C(0;8) (lecture probable). Elles sont confirmées par la cohérence : AB=AC=5, et (AI) est bien la médiatrice de [BC].",
+   "Barème Ex3 Q1 : l'OCR donne « 0,3pt x 3 » ; lu 0,5 × 3 pour que le total fasse 5 pts.",
+   "Semestre : concours d'entrée en Seconde S (septembre), rangé en S1 comme révision des prérequis."
+  ]
+ }
+}

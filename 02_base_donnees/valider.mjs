@@ -30,7 +30,7 @@ function verifierMaths(f, ou, texte) {
   let m
   while ((m = re.exec(texte))) {
     const tex = m[1] ?? m[2]
-    try { katex.renderToString(tex, { throwOnError: true, displayMode: !!m[1] }) } catch (e) { err(f, `${ou} : LaTeX invalide « ${tex.slice(0, 60)} » (${e.message.split('\n')[0]})`) }
+    try { katex.renderToString(tex, { throwOnError: true, strict: false, displayMode: !!m[1] }) } catch (e) { err(f, `${ou} : LaTeX invalide « ${tex.slice(0, 60)} » (${e.message.split('\n')[0]})`) }
   }
 }
 function parcourirTextes(f, ou, v) {

@@ -1,0 +1,645 @@
+{
+ "id": "M-S1-C02",
+ "matiere": "M",
+ "semestre": 1,
+ "ordre": 2,
+ "titre": "Vecteurs et points du plan",
+ "objectifs": [
+  "Reconnaître des vecteurs égaux et caractériser un parallélogramme.",
+  "Utiliser la relation de Chasles pour simplifier ou décomposer.",
+  "Multiplier un vecteur par un réel ; reconnaître des vecteurs colinéaires.",
+  "Démontrer un alignement ou un parallélisme avec les vecteurs.",
+  "Calculer dans un repère : coordonnées, milieu, déterminant, distance."
+ ],
+ "prerequis": [
+  "M-3e-TRANSLATION",
+  "M-3e-REPERE",
+  "M-3e-THALES"
+ ],
+ "notions": [
+  {
+   "id": "M-S1-C02-N1",
+   "titre": "Vecteurs : égalité, somme et relation de Chasles",
+   "prerequis_notions": [
+    "M-3e-TRANSLATION",
+    "M-3e-PARALLELOGRAMME"
+   ],
+   "cours_md": ":::definition Vecteur\nUn **vecteur** $\\overrightarrow{AB}$ est défini par :\n- une **direction** (celle de la droite $(AB)$) ;\n- un **sens** (de $A$ vers $B$) ;\n- une **longueur** ou **norme** notée $\\|\\overrightarrow{AB}\\|=AB$.\n\nLe vecteur $\\overrightarrow{AA}$ est le **vecteur nul** $\\vec 0$. Le vecteur $\\overrightarrow{BA}$ est l'**opposé** de $\\overrightarrow{AB}$ : $\\overrightarrow{BA}=-\\overrightarrow{AB}$.\n:::\n\n:::propriete Égalité de vecteurs et parallélogramme\n$\\overrightarrow{AB}=\\overrightarrow{DC}$ si et seulement si $ABCD$ est un **parallélogramme** (éventuellement aplati).\nAutre caractérisation : $\\overrightarrow{AB}=\\overrightarrow{DC}\\iff[AC]$ et $[BD]$ ont le **même milieu**.\n:::\n\n:::propriete Milieu\n$I$ est le milieu de $[AB]$ si et seulement si $\\overrightarrow{AI}=\\overrightarrow{IB}$, ou encore $\\overrightarrow{IA}+\\overrightarrow{IB}=\\vec0$.\n:::\n\n:::definition Somme de deux vecteurs\nLa somme $\\vec u+\\vec v$ est le vecteur associé à la translation de vecteur $\\vec u$ suivie de la translation de vecteur $\\vec v$.\n:::\n\n:::propriete Relation de Chasles\nPour tous points $A$, $B$, $C$ : $$\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$$\n**Règle du parallélogramme** : si $ABDC$ est un parallélogramme, alors $\\overrightarrow{AB}+\\overrightarrow{AC}=\\overrightarrow{AD}$.\n:::\n\n:::definition Différence\n$\\vec u-\\vec v=\\vec u+(-\\vec v)$. Avec Chasles : $\\overrightarrow{AB}-\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{CA}=\\overrightarrow{CB}$.\n:::\n\n:::methode Simplifier une somme de vecteurs\n1. Remplacer chaque $-\\overrightarrow{XY}$ par $\\overrightarrow{YX}$.\n2. Réordonner pour que l'extrémité d'un vecteur soit l'origine du suivant (« les lettres se touchent »).\n3. Appliquer Chasles autant de fois que nécessaire.\n:::\n\n:::methode Introduire un point (Chasles « à l'envers »)\nPour démontrer une égalité, on peut décomposer $\\overrightarrow{AB}=\\overrightarrow{AM}+\\overrightarrow{MB}$ en insérant n'importe quel point $M$ utile.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nSimplifier $\\vec u=\\overrightarrow{AB}+\\overrightarrow{CA}+\\overrightarrow{BC}$ et $\\vec v=\\overrightarrow{MA}-\\overrightarrow{MB}+\\overrightarrow{AB}$.\n\n1. On réordonne : $\\vec u=\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CA}$.\n2. Chasles : $\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$, puis $\\overrightarrow{AC}+\\overrightarrow{CA}=\\overrightarrow{AA}=\\vec0$. Donc $\\vec u=\\vec0$.\n3. $-\\overrightarrow{MB}=\\overrightarrow{BM}$, donc $\\vec v=\\overrightarrow{MA}+\\overrightarrow{AB}+\\overrightarrow{BM}$.\n4. $\\overrightarrow{MA}+\\overrightarrow{AB}=\\overrightarrow{MB}$, puis $\\overrightarrow{MB}+\\overrightarrow{BM}=\\vec0$. Donc $\\vec v=\\vec0$.\n:::\n\n:::exemple Exemple 2\n$ABCD$ est un parallélogramme de centre $O$. Démontrer que $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}=\\vec0$.\n\n1. Les diagonales d'un parallélogramme se coupent en leur milieu : $O$ est le milieu de $[AC]$ et de $[BD]$.\n2. $O$ milieu de $[AC]$ donne $\\overrightarrow{OA}+\\overrightarrow{OC}=\\vec0$.\n3. $O$ milieu de $[BD]$ donne $\\overrightarrow{OB}+\\overrightarrow{OD}=\\vec0$.\n4. En additionnant : $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}=\\vec0$.\n:::\n",
+   "definition": "Un vecteur est défini par une direction, un sens et une longueur ; on les additionne avec la relation de Chasles $\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$.",
+   "formules": [
+    "$\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$",
+    "$\\overrightarrow{AB}=\\overrightarrow{DC}\\iff ABCD$ parallélogramme",
+    "$\\overrightarrow{BA}=-\\overrightarrow{AB}$",
+    "$I$ milieu de $[AB]\\iff\\overrightarrow{IA}+\\overrightarrow{IB}=\\vec0$"
+   ],
+   "niveaux": {
+    "phrase": "Un vecteur, c'est un déplacement : direction, sens et longueur.",
+    "simple": "Un vecteur, c'est une flèche qui dit « va par là, de tant ». Faire un trajet A → B puis B → C revient au même que faire directement A → C : c'est la relation de Chasles.",
+    "complete": "Deux vecteurs sont égaux s'ils ont même direction, même sens et même norme ; $\\overrightarrow{AB}=\\overrightarrow{DC}$ caractérise le parallélogramme $ABCD$. L'addition des vecteurs (composition des translations) vérifie la relation de Chasles et la règle du parallélogramme ; la différence est l'addition de l'opposé."
+   },
+   "analogie": "Un zémidjan qui va de la gare (A) au marché (B), puis du marché à l'école (C), a le même déplacement final que s'il était allé directement de la gare à l'école : AB + BC = AC.",
+   "exemples_resolus": [
+    {
+     "enonce": "Simplifier $\\vec u=\\overrightarrow{AB}+\\overrightarrow{CA}+\\overrightarrow{BC}$ et $\\vec v=\\overrightarrow{MA}-\\overrightarrow{MB}+\\overrightarrow{AB}$.",
+     "etapes": [
+      "On réordonne : $\\vec u=\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CA}$.",
+      "Chasles : $\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$, puis $\\overrightarrow{AC}+\\overrightarrow{CA}=\\overrightarrow{AA}=\\vec0$. Donc $\\vec u=\\vec0$.",
+      "$-\\overrightarrow{MB}=\\overrightarrow{BM}$, donc $\\vec v=\\overrightarrow{MA}+\\overrightarrow{AB}+\\overrightarrow{BM}$.",
+      "$\\overrightarrow{MA}+\\overrightarrow{AB}=\\overrightarrow{MB}$, puis $\\overrightarrow{MB}+\\overrightarrow{BM}=\\vec0$. Donc $\\vec v=\\vec0$."
+     ]
+    },
+    {
+     "enonce": "$ABCD$ est un parallélogramme de centre $O$. Démontrer que $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}=\\vec0$.",
+     "etapes": [
+      "Les diagonales d'un parallélogramme se coupent en leur milieu : $O$ est le milieu de $[AC]$ et de $[BD]$.",
+      "$O$ milieu de $[AC]$ donne $\\overrightarrow{OA}+\\overrightarrow{OC}=\\vec0$.",
+      "$O$ milieu de $[BD]$ donne $\\overrightarrow{OB}+\\overrightarrow{OD}=\\vec0$.",
+      "En additionnant : $\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}+\\overrightarrow{OD}=\\vec0$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $\\overrightarrow{AB}=\\overrightarrow{CD}$ pour le parallélogramme $ABCD$ : c'est $\\overrightarrow{AB}=\\overrightarrow{DC}$ (attention à l'ordre des lettres).",
+    "Additionner les longueurs : $AB+BC\\neq AC$ en général, alors que $\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$ toujours.",
+    "Appliquer Chasles quand les lettres ne « se touchent » pas : $\\overrightarrow{AB}+\\overrightarrow{CD}$ ne se simplifie pas directement.",
+    "Oublier la flèche : $AB$ est une longueur, $\\overrightarrow{AB}$ est un vecteur."
+   ],
+   "astuces": [
+    "Chasles : la 2e lettre du premier vecteur = la 1re lettre du second.",
+    "Pour un parallélogramme ABCD, lis les lettres « en tournant » : AB = DC et AD = BC.",
+    "Une différence se transforme toujours en somme avec l'opposé."
+   ],
+   "mnemo": "« Chasles, c'est le relais : je passe le témoin à la lettre suivante. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 4e-3e ? La translation qui transforme $A$ en $B$ déplace toute la figure « comme le glissement de $A$ vers $B$ ». Le vecteur $\\overrightarrow{AB}$ est exactement ce glissement."
+   },
+   "methode_redaction": "Écris chaque transformation avec sa justification : « d'après la relation de Chasles », « car ABCD est un parallélogramme ». Une flèche oubliée sur un vecteur peut coûter des points : relis-toi.",
+   "flash": [
+    {
+     "q": "$\\overrightarrow{AB}+\\overrightarrow{BC}=\\,?$",
+     "r": "$\\overrightarrow{AC}$"
+    },
+    {
+     "q": "$ABCD$ parallélogramme : $\\overrightarrow{AB}$ est égal à ?",
+     "r": "$\\overrightarrow{DC}$"
+    },
+    {
+     "q": "$\\overrightarrow{AB}-\\overrightarrow{AC}=\\,?$",
+     "r": "$\\overrightarrow{CB}$"
+    },
+    {
+     "q": "Opposé de $\\overrightarrow{MN}$ ?",
+     "r": "$\\overrightarrow{NM}$"
+    },
+    {
+     "q": "$I$ milieu de $[AB]$ : $\\overrightarrow{IA}+\\overrightarrow{IB}=\\,?$",
+     "r": "$\\vec0$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C02-N1.svg",
+    "alt": "Parallélogramme ABCD : les vecteurs AB et DC sont égaux (en bleu), et la somme AB + BC donne AC (en rouge).",
+    "legende": "Parallélogramme : AB = DC ; relation de Chasles : AB + BC = AC.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C02-N2",
+   "titre": "Produit d'un vecteur par un réel, colinéarité",
+   "prerequis_notions": [
+    "M-S1-C02-N1"
+   ],
+   "cours_md": ":::definition Produit par un réel\nSoit $\\vec u\\neq\\vec0$ et $k$ un réel non nul. Le vecteur $k\\vec u$ a :\n- la **même direction** que $\\vec u$ ;\n- le **même sens** si $k>0$, le **sens contraire** si $k<0$ ;\n- pour norme $\\|k\\vec u\\|=|k|\\times\\|\\vec u\\|$.\n\nPar convention $0\\times\\vec u=\\vec0$ et $k\\vec0=\\vec0$.\n:::\n\n:::propriete Règles de calcul\n$k(\\vec u+\\vec v)=k\\vec u+k\\vec v$ ; $(k+k')\\vec u=k\\vec u+k'\\vec u$ ; $k(k'\\vec u)=(kk')\\vec u$ ; $k\\vec u=\\vec0\\iff k=0$ ou $\\vec u=\\vec0$.\n:::\n\n:::definition Vecteurs colinéaires\n$\\vec u$ et $\\vec v$ sont **colinéaires** s'il existe un réel $k$ tel que $\\vec v=k\\vec u$ (ou $\\vec u=k\\vec v$). Le vecteur nul est colinéaire à tout vecteur.\n:::\n\n:::propriete Alignement et parallélisme\n- $A$, $B$, $C$ sont **alignés** $\\iff\\overrightarrow{AB}$ et $\\overrightarrow{AC}$ sont colinéaires.\n- $(AB)\\parallel(CD)\\iff\\overrightarrow{AB}$ et $\\overrightarrow{CD}$ sont colinéaires.\n:::\n\n:::propriete Centre de gravité\nSi $I$ est le milieu de $[BC]$, alors $\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}$.\nLe centre de gravité $G$ du triangle $ABC$ vérifie $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0$ et $\\overrightarrow{AG}=\\dfrac23\\overrightarrow{AI}$.\n:::\n\n:::methode Démontrer un alignement sans repère\n1. Exprimer $\\overrightarrow{AB}$ et $\\overrightarrow{AC}$ en fonction de deux vecteurs de base (souvent les côtés d'un triangle) avec Chasles.\n2. Trouver $k$ tel que $\\overrightarrow{AC}=k\\overrightarrow{AB}$.\n3. Conclure : « les vecteurs sont colinéaires, donc $A$, $B$, $C$ sont alignés ».\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$ABC$ est un triangle. On place $D$ tel que $\\overrightarrow{AD}=3\\overrightarrow{AB}$ et $E$ tel que $\\overrightarrow{AE}=3\\overrightarrow{AC}$. Démontrer que $(BC)\\parallel(DE)$.\n\n1. Chasles : $\\overrightarrow{DE}=\\overrightarrow{DA}+\\overrightarrow{AE}=-3\\overrightarrow{AB}+3\\overrightarrow{AC}$.\n2. Donc $\\overrightarrow{DE}=3(\\overrightarrow{AC}-\\overrightarrow{AB})=3(\\overrightarrow{BA}+\\overrightarrow{AC})=3\\overrightarrow{BC}$.\n3. $\\overrightarrow{DE}$ et $\\overrightarrow{BC}$ sont colinéaires, donc $(DE)\\parallel(BC)$.\n:::\n\n:::exemple Exemple 2\n$I$ est le milieu de $[BC]$. Démontrer que $\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}$.\n\n1. Chasles : $\\overrightarrow{AB}=\\overrightarrow{AI}+\\overrightarrow{IB}$ et $\\overrightarrow{AC}=\\overrightarrow{AI}+\\overrightarrow{IC}$.\n2. En additionnant : $\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}+(\\overrightarrow{IB}+\\overrightarrow{IC})$.\n3. $I$ milieu de $[BC]$ : $\\overrightarrow{IB}+\\overrightarrow{IC}=\\vec0$. Donc $\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}$.\n:::\n",
+   "definition": "$k\\vec u$ a la direction de $\\vec u$, le même sens si $k>0$ et la norme $|k|\\|\\vec u\\|$ ; deux vecteurs sont colinéaires si l'un est un multiple de l'autre.",
+   "formules": [
+    "$\\|k\\vec u\\|=|k|\\,\\|\\vec u\\|$",
+    "$\\vec v=k\\vec u\\iff\\vec u,\\vec v$ colinéaires",
+    "$A,B,C$ alignés $\\iff\\overrightarrow{AC}=k\\overrightarrow{AB}$",
+    "$\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}$"
+   ],
+   "niveaux": {
+    "phrase": "Multiplier un vecteur par k, c'est l'allonger (ou le raccourcir) et éventuellement le retourner, sans changer sa direction.",
+    "simple": "Si u est un pas, 2u ce sont deux pas dans le même sens, et −u un pas en arrière. Tant qu'on reste sur la même ligne droite, les vecteurs sont colinéaires.",
+    "complete": "La multiplication par un réel est compatible avec l'addition (distributivité). La colinéarité ($\\vec v=k\\vec u$) traduit vectoriellement l'alignement de trois points et le parallélisme de deux droites ; elle se démontre en décomposant les vecteurs sur deux vecteurs non colinéaires."
+   },
+   "analogie": "Sur la route Lomé–Kpalimé (une droite), qu'un taxi avance de 2 km ou recule de 3 km, il reste sur la même route : ses déplacements sont colinéaires.",
+   "exemples_resolus": [
+    {
+     "enonce": "$ABC$ est un triangle. On place $D$ tel que $\\overrightarrow{AD}=3\\overrightarrow{AB}$ et $E$ tel que $\\overrightarrow{AE}=3\\overrightarrow{AC}$. Démontrer que $(BC)\\parallel(DE)$.",
+     "etapes": [
+      "Chasles : $\\overrightarrow{DE}=\\overrightarrow{DA}+\\overrightarrow{AE}=-3\\overrightarrow{AB}+3\\overrightarrow{AC}$.",
+      "Donc $\\overrightarrow{DE}=3(\\overrightarrow{AC}-\\overrightarrow{AB})=3(\\overrightarrow{BA}+\\overrightarrow{AC})=3\\overrightarrow{BC}$.",
+      "$\\overrightarrow{DE}$ et $\\overrightarrow{BC}$ sont colinéaires, donc $(DE)\\parallel(BC)$."
+     ]
+    },
+    {
+     "enonce": "$I$ est le milieu de $[BC]$. Démontrer que $\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}$.",
+     "etapes": [
+      "Chasles : $\\overrightarrow{AB}=\\overrightarrow{AI}+\\overrightarrow{IB}$ et $\\overrightarrow{AC}=\\overrightarrow{AI}+\\overrightarrow{IC}$.",
+      "En additionnant : $\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}+(\\overrightarrow{IB}+\\overrightarrow{IC})$.",
+      "$I$ milieu de $[BC]$ : $\\overrightarrow{IB}+\\overrightarrow{IC}=\\vec0$. Donc $\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que $-2\\vec u$ n'est pas colinéaire à $\\vec u$ (il l'est, seulement de sens contraire).",
+    "Écrire $\\|{-3}\\vec u\\|=-3\\|\\vec u\\|$ : une norme est positive, c'est $3\\|\\vec u\\|$.",
+    "Conclure à l'alignement avec des vecteurs qui n'ont pas de point commun (AB et CD colinéaires ⇒ parallélisme, pas alignement).",
+    "Distribuer mal : $2(\\overrightarrow{AB}-\\overrightarrow{AC})=2\\overrightarrow{AB}-\\overrightarrow{AC}$ est faux."
+   ],
+   "astuces": [
+    "Pour l'alignement, utilise deux vecteurs qui partent du même point.",
+    "Choisis une « base » (deux côtés du triangle) et exprime tout dans cette base.",
+    "Dessine toujours la figure : elle te dit quel k attendre (signe et ordre de grandeur)."
+   ],
+   "mnemo": "« Colinéaires = même ligne de vie (direction), le sens et la taille peuvent changer. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Le théorème de Thalès dit que si $(DE)\\parallel(BC)$ alors $\\dfrac{AD}{AB}=\\dfrac{AE}{AC}$. Avec les vecteurs, $\\overrightarrow{AD}=k\\overrightarrow{AB}$ et $\\overrightarrow{AE}=k\\overrightarrow{AC}$ donnent directement $\\overrightarrow{DE}=k\\overrightarrow{BC}$."
+   },
+   "methode_redaction": "Annonce la méthode (« Montrons que AB et AC sont colinéaires »), fais les calculs avec Chasles en citant la propriété, puis conclus par une phrase complète : « donc les points A, B et C sont alignés ».",
+   "flash": [
+    {
+     "q": "$\\vec v=-4\\vec u$ : même sens ?",
+     "r": "Non, sens contraire (k < 0)."
+    },
+    {
+     "q": "$\\|\\tfrac12\\vec u\\|$ si $\\|\\vec u\\|=6$ ?",
+     "r": "3"
+    },
+    {
+     "q": "Traduire « A, B, C alignés » en vecteurs.",
+     "r": "$\\overrightarrow{AB}$ et $\\overrightarrow{AC}$ colinéaires."
+    },
+    {
+     "q": "$I$ milieu de $[BC]$ : $\\overrightarrow{AB}+\\overrightarrow{AC}=\\,?$",
+     "r": "$2\\overrightarrow{AI}$"
+    },
+    {
+     "q": "$G$ centre de gravité : $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\,?$",
+     "r": "$\\vec0$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C02-N2.svg",
+    "alt": "Trois flèches parallèles : u, 2u dans le même sens et −1,5u dans le sens contraire.",
+    "legende": "u, 2u et −1,5u ont la même direction : ils sont colinéaires.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C02-N3",
+   "titre": "Repère, coordonnées et déterminant",
+   "prerequis_notions": [
+    "M-S1-C02-N2",
+    "M-3e-REPERE"
+   ],
+   "cours_md": ":::definition Base et repère\nDeux vecteurs $\\vec i$ et $\\vec j$ **non colinéaires** forment une **base**. Avec un point $O$, $(O,\\vec i,\\vec j)$ est un **repère**. Il est **orthonormé** si $\\vec i\\perp\\vec j$ et $\\|\\vec i\\|=\\|\\vec j\\|=1$.\nTout vecteur s'écrit de façon unique $\\vec u=x\\vec i+y\\vec j$ : on note $\\vec u(x\\,;y)$. Le point $M$ a pour coordonnées $(x\\,;y)$ si $\\overrightarrow{OM}=x\\vec i+y\\vec j$.\n:::\n\n:::propriete Calculs en coordonnées\nAvec $A(x_A\\,;y_A)$, $B(x_B\\,;y_B)$, $\\vec u(x\\,;y)$, $\\vec v(x'\\,;y')$ :\n- $\\overrightarrow{AB}(x_B-x_A\\,;\\,y_B-y_A)$ ;\n- $\\vec u+\\vec v\\,(x+x'\\,;\\,y+y')$ et $k\\vec u\\,(kx\\,;\\,ky)$ ;\n- milieu $I$ de $[AB]$ : $I\\left(\\dfrac{x_A+x_B}{2}\\,;\\,\\dfrac{y_A+y_B}{2}\\right)$ ;\n- $\\vec u=\\vec v\\iff x=x'$ et $y=y'$.\n:::\n\n:::propriete Déterminant et colinéarité\nLe **déterminant** de $\\vec u(x\\,;y)$ et $\\vec v(x'\\,;y')$ est $\\det(\\vec u,\\vec v)=\\begin{vmatrix}x&x'\\\\y&y'\\end{vmatrix}=xy'-x'y$.\n$$\\vec u\\text{ et }\\vec v\\text{ colinéaires}\\iff xy'-x'y=0$$\n:::\n\n:::propriete Distance (repère **orthonormé** seulement)\n$$\\|\\vec u\\|=\\sqrt{x^2+y^2}\\qquad AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$$\n:::\n\n:::attention\nLa formule de la distance n'est valable que dans un repère **orthonormé**. Les autres formules (coordonnées de $\\overrightarrow{AB}$, milieu, déterminant) valent dans tout repère.\n:::\n\n:::methode Trouver le 4e sommet d'un parallélogramme $ABCD$\nÉcrire $\\overrightarrow{AB}=\\overrightarrow{DC}$, traduire en coordonnées : $x_B-x_A=x_C-x_D$ et $y_B-y_A=y_C-y_D$, puis résoudre.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDans un repère, $\\vec u(3\\,;-1)$ et $\\vec v(-1\\,;4)$. Calculer les coordonnées de $\\vec w=\\vec u+2\\vec v$. Les vecteurs $\\vec a(3\\,;-6)$ et $\\vec b(-1\\,;2)$ sont-ils colinéaires ?\n\n1. $2\\vec v(-2\\,;8)$, donc $\\vec w(3-2\\,;-1+8)$, soit $\\vec w(1\\,;7)$.\n2. $\\det(\\vec a,\\vec b)=3\\times2-(-1)\\times(-6)=6-6=0$.\n3. Le déterminant est nul : $\\vec a$ et $\\vec b$ sont colinéaires (en effet $\\vec a=-3\\vec b$).\n:::\n\n:::exemple Exemple 2\nDans un repère orthonormé, $A(-1\\,;3)$ et $B(2\\,;-1)$. Calculer $AB$ et les coordonnées du milieu $I$ de $[AB]$.\n\n1. $\\overrightarrow{AB}(2-(-1)\\,;-1-3)$, soit $\\overrightarrow{AB}(3\\,;-4)$.\n2. $AB=\\sqrt{3^2+(-4)^2}=\\sqrt{25}=5$.\n3. $I\\left(\\dfrac{-1+2}{2}\\,;\\dfrac{3+(-1)}{2}\\right)$, soit $I\\left(\\dfrac12\\,;1\\right)$.\n:::\n",
+   "definition": "Dans un repère, $\\overrightarrow{AB}(x_B-x_A\\,;y_B-y_A)$ ; $\\vec u(x;y)$ et $\\vec v(x';y')$ sont colinéaires si et seulement si $xy'-x'y=0$.",
+   "formules": [
+    "$\\overrightarrow{AB}(x_B-x_A\\,;y_B-y_A)$",
+    "$I\\left(\\frac{x_A+x_B}2\\,;\\frac{y_A+y_B}2\\right)$",
+    "$\\det(\\vec u,\\vec v)=xy'-x'y$",
+    "$AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$"
+   ],
+   "niveaux": {
+    "phrase": "Les coordonnées transforment la géométrie des vecteurs en calculs sur des nombres.",
+    "simple": "Pour aller de A à B sur un quadrillage, tu comptes combien de carreaux à droite (x) et combien vers le haut (y) : ce sont les coordonnées du vecteur AB.",
+    "complete": "Dans une base $(\\vec i,\\vec j)$, la décomposition $\\vec u=x\\vec i+y\\vec j$ est unique ; les opérations sur les vecteurs se traduisent sur les coordonnées. Le déterminant $xy'-x'y$ est nul si et seulement si les vecteurs sont colinéaires. En repère orthonormé, Pythagore donne la norme et les distances."
+   },
+   "analogie": "Dans un quartier de Lomé tracé en damier, « 4 rues vers l'est puis 3 vers le nord » décrit le trajet : c'est le vecteur (4 ; 3). À vol d'oiseau, la distance est √(4² + 3²) = 5 pâtés de maisons.",
+   "exemples_resolus": [
+    {
+     "enonce": "Dans un repère, $\\vec u(3\\,;-1)$ et $\\vec v(-1\\,;4)$. Calculer les coordonnées de $\\vec w=\\vec u+2\\vec v$. Les vecteurs $\\vec a(3\\,;-6)$ et $\\vec b(-1\\,;2)$ sont-ils colinéaires ?",
+     "etapes": [
+      "$2\\vec v(-2\\,;8)$, donc $\\vec w(3-2\\,;-1+8)$, soit $\\vec w(1\\,;7)$.",
+      "$\\det(\\vec a,\\vec b)=3\\times2-(-1)\\times(-6)=6-6=0$.",
+      "Le déterminant est nul : $\\vec a$ et $\\vec b$ sont colinéaires (en effet $\\vec a=-3\\vec b$)."
+     ]
+    },
+    {
+     "enonce": "Dans un repère orthonormé, $A(-1\\,;3)$ et $B(2\\,;-1)$. Calculer $AB$ et les coordonnées du milieu $I$ de $[AB]$.",
+     "etapes": [
+      "$\\overrightarrow{AB}(2-(-1)\\,;-1-3)$, soit $\\overrightarrow{AB}(3\\,;-4)$.",
+      "$AB=\\sqrt{3^2+(-4)^2}=\\sqrt{25}=5$.",
+      "$I\\left(\\dfrac{-1+2}{2}\\,;\\dfrac{3+(-1)}{2}\\right)$, soit $I\\left(\\dfrac12\\,;1\\right)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Calculer $\\overrightarrow{AB}$ avec $x_A-x_B$ (c'est « arrivée moins départ » : $x_B-x_A$).",
+    "Utiliser la formule de distance dans un repère non orthonormé.",
+    "Se tromper dans le déterminant en faisant $xx'-yy'$ (c'est un produit « en croix » : $xy'-x'y$).",
+    "Oublier les parenthèses avec les nombres négatifs : $-1-(-3)=2$, pas $-4$."
+   ],
+   "astuces": [
+    "Coordonnées d'un vecteur : « fin moins début ».",
+    "Pour le déterminant, écris les deux vecteurs en colonnes et fais le produit en croix.",
+    "Fais toujours un petit dessin dans le repère pour contrôler le signe des coordonnées."
+   ],
+   "mnemo": "« AB : B moins A, Arrivée moins Départ. » — « Déterminant nul, vecteurs sur la même ligne. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans un repère, tu calculais déjà les coordonnées du milieu $\\left(\\frac{x_A+x_B}2\\,;\\frac{y_A+y_B}2\\right)$ et la distance $AB$ avec Pythagore. On y ajoute les coordonnées de vecteurs et le déterminant."
+   },
+   "methode_redaction": "Écris la formule générale avant de remplacer (« AB(xB − xA ; yB − yA) »), puis le calcul, puis le résultat. Pour la colinéarité : calcule le déterminant, compare-le à 0 et conclus par une phrase. Précise « le repère est orthonormé » avant d'utiliser la formule de distance.",
+   "flash": [
+    {
+     "q": "$A(2;5)$, $B(7;1)$ : $\\overrightarrow{AB}$ ?",
+     "r": "$(5\\,;-4)$"
+    },
+    {
+     "q": "$\\det(\\vec u,\\vec v)$ pour $\\vec u(x;y)$, $\\vec v(x';y')$ ?",
+     "r": "$xy'-x'y$"
+    },
+    {
+     "q": "Norme de $\\vec u(6\\,;8)$ en repère orthonormé ?",
+     "r": "10"
+    },
+    {
+     "q": "Milieu de $A(0;4)$ et $B(6;0)$ ?",
+     "r": "$(3\\,;2)$"
+    },
+    {
+     "q": "Condition pour utiliser AB = √(...) ?",
+     "r": "Repère orthonormé."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C02-N3.svg",
+    "alt": "Repère quadrillé : A(1 ; 1), B(5 ; 4), le vecteur AB se décompose en 4 vers la droite et 3 vers le haut ; sa longueur vaut 5.",
+    "legende": "AB(4 ; 3) : 4 carreaux vers la droite, 3 vers le haut ; AB = 5.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S1-C02-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C02-N1"
+   ],
+   "format": "qcm",
+   "enonce": "$ABCD$ est un parallélogramme. Le vecteur $\\overrightarrow{AB}$ est égal à :",
+   "choix": [
+    "$\\overrightarrow{CD}$",
+    "$\\overrightarrow{DC}$",
+    "$\\overrightarrow{BC}$",
+    "$\\overrightarrow{AC}$"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Dessine ABCD en tournant et compare les flèches."
+   ],
+   "corrige": [
+    "Dans le parallélogramme $ABCD$, on lit les sommets dans l'ordre : $\\overrightarrow{AB}=\\overrightarrow{DC}$."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Répondre $\\overrightarrow{CD}$ : c'est l'opposé.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C02-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C02-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Simplifier $\\overrightarrow{AB}+\\overrightarrow{CA}+\\overrightarrow{BC}$. (Écrire 0 pour le vecteur nul.)",
+   "reponses_acceptees": [
+    "0",
+    "vecteurnul",
+    "0→",
+    "vec0",
+    "AA"
+   ],
+   "indices": [
+    "Range les vecteurs pour que les lettres se touchent."
+   ],
+   "corrige": [
+    "On réordonne : $\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CA}$.",
+    "Chasles : $\\overrightarrow{AC}+\\overrightarrow{CA}=\\overrightarrow{AA}=\\vec0$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre AA sans dire que c'est le vecteur nul.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C02-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C02-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère, $A(1\\,;-2)$ et $B(4\\,;3)$. Donner les coordonnées de $\\overrightarrow{AB}$ sous la forme $(x;y)$.",
+   "reponses_acceptees": [
+    "(3;5)",
+    "(3,5)",
+    "3;5"
+   ],
+   "indices": [
+    "Arrivée moins départ."
+   ],
+   "corrige": [
+    "$\\overrightarrow{AB}(x_B-x_A\\,;y_B-y_A)=(4-1\\,;3-(-2))$.",
+    "$\\overrightarrow{AB}(3\\,;5)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire $3-2=1$ au lieu de $3-(-2)=5$.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C02-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C02-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère, $A(-3\\,;5)$ et $B(5\\,;-1)$. Donner les coordonnées du milieu $I$ de $[AB]$ sous la forme $(x;y)$.",
+   "reponses_acceptees": [
+    "(1;2)",
+    "I(1;2)",
+    "1;2"
+   ],
+   "indices": [
+    "Moyenne des abscisses, moyenne des ordonnées."
+   ],
+   "corrige": [
+    "$x_I=\\dfrac{-3+5}{2}=1$ et $y_I=\\dfrac{5+(-1)}{2}=2$.",
+    "$I(1\\,;2)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Faire la différence au lieu de la somme.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C02-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C02-N3",
+    "M-S1-C02-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Les vecteurs $\\vec u(2\\,;-3)$ et $\\vec v(-4\\,;6)$ sont-ils colinéaires ?",
+   "choix": [
+    "Oui, car leur déterminant est nul",
+    "Non, car ils sont de sens contraires",
+    "Non, car leur déterminant vaut 24",
+    "On ne peut pas savoir sans figure"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Calcule xy' − x'y."
+   ],
+   "corrige": [
+    "$\\det(\\vec u,\\vec v)=2\\times6-(-4)\\times(-3)=12-12=0$.",
+    "Le déterminant est nul : ils sont colinéaires ($\\vec v=-2\\vec u$)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Se tromper de signe : $(-4)\\times(-3)=+12$.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C02-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C02-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère orthonormé, $A(1\\,;2)$ et $B(4\\,;6)$. Calculer la distance $AB$.",
+   "reponses_acceptees": [
+    "5",
+    "AB=5"
+   ],
+   "indices": [
+    "Pythagore dans le repère."
+   ],
+   "corrige": [
+    "$\\overrightarrow{AB}(3\\,;4)$.",
+    "$AB=\\sqrt{3^2+4^2}=\\sqrt{25}=5$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier la racine carrée et répondre 25.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C02-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C02-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Déterminer le réel $m$ pour que $\\vec u(m\\,;3)$ et $\\vec v(2\\,;-6)$ soient colinéaires.",
+   "reponses_acceptees": [
+    "-1",
+    "m=-1",
+    "−1"
+   ],
+   "indices": [
+    "Écris que le déterminant est nul."
+   ],
+   "corrige": [
+    "Colinéaires $\\iff m\\times(-6)-2\\times3=0$.",
+    "$-6m-6=0\\iff m=-1$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire m × 3 − 2 × (−6) (produit en croix inversé).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C02-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C02-N3",
+    "M-S1-C02-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère, on donne $A(-1\\,;2)$, $B(3\\,;4)$ et $C(5\\,;0)$.\n\n1. Calculer les coordonnées du point $D$ tel que $ABCD$ soit un parallélogramme.\n2. Calculer les coordonnées du centre $K$ de ce parallélogramme.\n3. Vérifier que $K$ est aussi le milieu de $[BD]$.",
+   "indices": [
+    "Traduis $\\overrightarrow{AB}=\\overrightarrow{DC}$ en coordonnées.",
+    "Les diagonales d'un parallélogramme ont le même milieu."
+   ],
+   "corrige": [
+    "1. $ABCD$ parallélogramme $\\iff\\overrightarrow{AB}=\\overrightarrow{DC}$. $\\overrightarrow{AB}(4\\,;2)$ et $\\overrightarrow{DC}(5-x_D\\,;0-y_D)$.",
+    "$5-x_D=4$ et $-y_D=2$, donc $D(1\\,;-2)$.",
+    "2. $K$ est le milieu de $[AC]$ : $K\\left(\\dfrac{-1+5}2\\,;\\dfrac{2+0}2\\right)=(2\\,;1)$.",
+    "3. Milieu de $[BD]$ : $\\left(\\dfrac{3+1}2\\,;\\dfrac{4+(-2)}2\\right)=(2\\,;1)$ : c'est bien $K$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "Écrire $\\overrightarrow{AB}=\\overrightarrow{CD}$ : on obtient un autre point qui ne convient pas.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C02-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C02-N3",
+    "M-S1-C02-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère, $A(1\\,;1)$, $B(3\\,;2)$ et $C(7\\,;4)$.\n\n1. Démontrer que $A$, $B$ et $C$ sont alignés.\n2. Déterminer $y$ pour que le point $D(-2\\,;y)$ soit sur la droite $(AB)$.",
+   "indices": [
+    "Deux vecteurs qui partent de A.",
+    "D ∈ (AB) signifie A, B, D alignés."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{AB}(2\\,;1)$ et $\\overrightarrow{AC}(6\\,;3)$.",
+    "$\\det(\\overrightarrow{AB},\\overrightarrow{AC})=2\\times3-6\\times1=0$ : les vecteurs sont colinéaires, donc $A$, $B$, $C$ sont alignés.",
+    "2. $\\overrightarrow{AD}(-3\\,;y-1)$. $D\\in(AB)\\iff\\det(\\overrightarrow{AB},\\overrightarrow{AD})=0\\iff2(y-1)-(-3)\\times1=0$.",
+    "$2y-2+3=0\\iff y=-\\dfrac12$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Oublier les parenthèses : $y-1$ multiplié par 2 donne $2y-2$.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C02-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C02-N2",
+    "M-S1-C02-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABC$ est un triangle, $I$ le milieu de $[BC]$ et $G$ le point défini par $\\overrightarrow{GA}+\\overrightarrow{GB}+\\overrightarrow{GC}=\\vec0$.\n\n1. Démontrer que $\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}$.\n2. En introduisant le point $A$ dans $\\overrightarrow{GB}$ et $\\overrightarrow{GC}$, démontrer que $\\overrightarrow{AG}=\\dfrac23\\overrightarrow{AI}$.\n3. Que représente $G$ pour le triangle ?",
+   "indices": [
+    "Chasles : GB = GA + AB.",
+    "3 GA = −3 AG."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{AB}+\\overrightarrow{AC}=(\\overrightarrow{AI}+\\overrightarrow{IB})+(\\overrightarrow{AI}+\\overrightarrow{IC})=2\\overrightarrow{AI}+\\vec0$ car $I$ est le milieu de $[BC]$.",
+    "2. $\\overrightarrow{GA}+(\\overrightarrow{GA}+\\overrightarrow{AB})+(\\overrightarrow{GA}+\\overrightarrow{AC})=\\vec0$, soit $3\\overrightarrow{GA}+\\overrightarrow{AB}+\\overrightarrow{AC}=\\vec0$.",
+    "Donc $3\\overrightarrow{AG}=\\overrightarrow{AB}+\\overrightarrow{AC}=2\\overrightarrow{AI}$, d'où $\\overrightarrow{AG}=\\dfrac23\\overrightarrow{AI}$.",
+    "3. $G$ est sur la médiane $[AI]$, aux deux tiers à partir de $A$ : c'est le **centre de gravité** du triangle."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Se tromper de signe : $3\\overrightarrow{GA}=-(\\overrightarrow{AB}+\\overrightarrow{AC})$ donne bien $3\\overrightarrow{AG}=\\overrightarrow{AB}+\\overrightarrow{AC}$.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C02-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C02-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABC$ est un triangle. $I$ est le milieu de $[BC]$. On place $E$ tel que $\\overrightarrow{AE}=3\\overrightarrow{AB}$ et $F$ tel que $\\overrightarrow{AF}=\\dfrac35\\overrightarrow{AC}$.\n\n1. Exprimer $\\overrightarrow{EI}$ en fonction de $\\overrightarrow{AB}$ et $\\overrightarrow{AC}$.\n2. Exprimer $\\overrightarrow{EF}$ en fonction de $\\overrightarrow{AB}$ et $\\overrightarrow{AC}$.\n3. En déduire que $E$, $I$, $F$ sont alignés.",
+   "indices": [
+    "$\\overrightarrow{AI}=\\frac12(\\overrightarrow{AB}+\\overrightarrow{AC})$.",
+    "Compare les coefficients de AB et de AC dans les deux expressions."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{AI}=\\dfrac12\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AC}$ (car $I$ milieu de $[BC]$). $\\overrightarrow{EI}=\\overrightarrow{EA}+\\overrightarrow{AI}=-3\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AC}=-\\dfrac52\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AC}$.",
+    "2. $\\overrightarrow{EF}=\\overrightarrow{EA}+\\overrightarrow{AF}=-3\\overrightarrow{AB}+\\dfrac35\\overrightarrow{AC}$.",
+    "3. $\\dfrac65\\overrightarrow{EI}=\\dfrac65\\left(-\\dfrac52\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AC}\\right)=-3\\overrightarrow{AB}+\\dfrac35\\overrightarrow{AC}=\\overrightarrow{EF}$.",
+    "$\\overrightarrow{EF}=\\dfrac65\\overrightarrow{EI}$ : vecteurs colinéaires de même origine $E$, donc $E$, $I$, $F$ sont alignés."
+   ],
+   "bareme": [
+    2,
+    1,
+    1.5,
+    0.5
+   ],
+   "piege": "Exprimer les vecteurs avec des points différents au lieu de tout ramener à AB et AC.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C02-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C02-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, on donne $A(2\\,;1)$, $B(6\\,;3)$ et $C(4\\,;7)$.\n\n1. Calculer $AB$, $BC$ et $AC$.\n2. Démontrer que le triangle $ABC$ est rectangle et isocèle en $B$.\n3. Calculer les coordonnées du point $D$ tel que $ABCD$ soit un carré.\n4. Donner les coordonnées du centre $\\Omega$ de ce carré.",
+   "indices": [
+    "Réciproque de Pythagore pour l'angle droit.",
+    "Le carré est d'abord un parallélogramme."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{AB}(4\\,;2)$ : $AB=\\sqrt{20}=2\\sqrt5$. $\\overrightarrow{BC}(-2\\,;4)$ : $BC=\\sqrt{20}=2\\sqrt5$. $\\overrightarrow{AC}(2\\,;6)$ : $AC=\\sqrt{40}=2\\sqrt{10}$.",
+    "2. $AB=BC$ : le triangle est isocèle en $B$. $AB^2+BC^2=20+20=40=AC^2$ : d'après la réciproque de Pythagore, il est rectangle en $B$.",
+    "3. Un parallélogramme ayant un angle droit et deux côtés consécutifs égaux est un carré. $ABCD$ parallélogramme $\\iff\\overrightarrow{AD}=\\overrightarrow{BC}$ : $x_D-2=-2$ et $y_D-1=4$, donc $D(0\\,;5)$.",
+    "4. $\\Omega$ est le milieu de $[AC]$ : $\\Omega\\left(\\dfrac{2+4}2\\,;\\dfrac{1+7}2\\right)=(3\\,;4)$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    0.5
+   ],
+   "piege": "Conclure « rectangle » sans citer la réciproque de Pythagore, ou oublier de justifier « isocèle ».",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre $\\overrightarrow{AB}=\\overrightarrow{DC}$ et $\\overrightarrow{AB}=\\overrightarrow{CD}$ pour un parallélogramme $ABCD$.",
+  "Oublier les flèches sur les vecteurs dans la copie.",
+  "Calculer $\\overrightarrow{AB}$ avec « départ moins arrivée ».",
+  "Utiliser la distance dans un repère non orthonormé.",
+  "Conclure à l'alignement avec deux vecteurs sans point commun.",
+  "Ne pas citer la réciproque de Pythagore pour justifier un angle droit."
+ ]
+}

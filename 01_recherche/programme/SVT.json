@@ -1,0 +1,202 @@
+{
+ "matiere": "SVT",
+ "annee_scolaire_reference": "2026-2027",
+ "decoupage": "trimestres",
+ "decoupage_note": "Calendrier officiel 2026-2027 (décision n°125/2026/MEN/CAB/SG, connue par extraits de recherche, non lue directement) : T1 du 14 sept. au 23 déc. 2026, T2 du 4 janv. au 9 avril 2027, T3 du 19 avril au 16 juillet 2027. En 2025-2026, les compositions de seconde S étaient organisées par semestre (ex. composition régionale du 1er semestre, DRE Savanes). Les identifiants gardent S1/S2 comme l'exige le schéma : S1 = chapitres C01 à C06, S2 = C07 à C12 ; le champ trimestre_indicatif donne la place probable dans l'année 2026-2027.",
+ "volume_horaire_hebdo": "3 h",
+ "coefficient_seconde_S": 3,
+ "statut": "reconstitue",
+ "statut_explication": "Aucun document officiel togolais (programme APC de seconde S ou progression harmonisée) n'a pu être lu : tous les sites togolais sont bloqués par le proxy réseau, seuls les titres et extraits du moteur de recherche étaient accessibles. Coefficient et horaire viennent d'extraits d'articles sur la réforme de 2022. La présence de l'écologie (écosystème, chaînes alimentaires, effet de serre, gestion durable) et de la nutrition minérale des plantes vertes au 1er semestre est attestée par la description d'une composition régionale togolaise de 2025-2026. Le reste (cellule, échanges cellulaires, photosynthèse, respiration, sol, roches, sédimentation, globe) est reconstitué à partir des programmes de seconde scientifique voisins (Sénégal, Côte d'Ivoire, Bénin) et de la progression provisoire du projet.",
+ "sources": [
+  {
+   "titre": "« Matières, coefficients, chapitres, anglais… : des réformes annoncées dans l'enseignement secondaire » — Site officiel de la République togolaise, sept. 2022. Selon l'extrait : en seconde scientifique, SVT coefficient 3 et 3 h/semaine ; en seconde littéraire, coefficient 1 et 2 h/semaine. Page non lue directement (accès bloqué).",
+   "url": "https://www.republiquetogolaise.com/education/1209-7249-matieres-coefficients-chapitres-anglais-des-reformes-annoncees-dans-l-enseignement-secondaire",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3
+  },
+  {
+   "titre": "KOACI, « Togo : Education, réformes de programmes et précision sur la rentrée scolaire 2022-2023 », 12/09/2022. Selon l'extrait : programmes de seconde allégés et actualisés, approche par compétences (APC) dès 2022-2023 ; première en 2023-2024, terminale en 2024-2025. Page non lue directement.",
+   "url": "https://www.koaci.com/article/2022/09/12/togo/societe/togo-education-reformes-de-programmes-et-precision-sur-la-rentree-scolaire-2022-2023_163080.html",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3
+  },
+  {
+   "titre": "Epreuvesetcorriges.com, « SVT – Composition régionale 1er semestre – Seconde S – année scolaire 2025-2026 – DRE Savanes (Togo) ». Selon la description : écosystèmes et relations entre êtres vivants (biocénose, chaînes alimentaires), effet de serre et impacts des activités humaines, gestion durable, étude expérimentale de la nutrition minérale des plantes vertes et du rendement agricole. Épreuve non lue directement.",
+   "url": "https://epreuvesetcorriges.com/categories/togo/colleges/seconde/41852-svt-composition-regionale-1er-semestre-seconde-s-annee-scolaire-2025-2026-dre-savanes-togo",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3
+  },
+  {
+   "titre": "Scribd, « Programme SVT Seconde Scientifique » (document SVT-SECONDES-CD). Selon l'extrait : programme togolais de SVT de seconde scientifique (objectifs, profil de sortie, progression annuelle des thèmes). Non consulté (accès bloqué) : c'est LE document à lire en priorité pour vérifier cette liste.",
+   "url": "https://www.scribd.com/document/607556003/SVT-SECONDES-CD",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2
+  },
+  {
+   "titre": "Programmes voisins utilisés comme analogues : programme SVT du second cycle du Sénégal (svtdakar.e-monsite.com, extrait : organisation cellulaire, biologie cellulaire, nutrition, libération d'énergie, géologie) et progressions SVT de Côte d'Ivoire (DPFC). Non lus directement.",
+   "url": "https://svtdakar.e-monsite.com/medias/files/programme-svt-2e-cycle-2016-2017.pdf",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2
+  },
+  {
+   "titre": "Calendrier scolaire 2026-2027 (décision n°125/2026/MEN/CAB/SG), découpage en trimestres, transmis par l'orchestrateur du projet d'après des extraits de recherche.",
+   "url": "",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3
+  },
+  {
+   "titre": "Progression provisoire du projet (02_base_donnees/base.json v0.1 : « La cellule, unité du vivant » au S1, « Le sol » au S2), marquée non vérifiée.",
+   "url": "",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 1
+  }
+ ],
+ "chapitres": [
+  {
+   "id": "SVT-S1-C01",
+   "semestre": 1,
+   "ordre": 1,
+   "trimestre_indicatif": 1,
+   "titre": "La cellule, unité structurale et fonctionnelle du vivant",
+   "duree_semaines": 3,
+   "source_ids": [
+    4,
+    6
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "SVT-S1-C02",
+   "semestre": 1,
+   "ordre": 2,
+   "trimestre_indicatif": 1,
+   "titre": "Les échanges entre la cellule et son milieu : diffusion, osmose, transport actif",
+   "duree_semaines": 2,
+   "source_ids": [
+    4
+   ],
+   "confiance": "faible"
+  },
+  {
+   "id": "SVT-S1-C03",
+   "semestre": 1,
+   "ordre": 3,
+   "trimestre_indicatif": 1,
+   "titre": "L'écosystème : composantes et facteurs écologiques",
+   "duree_semaines": 3,
+   "source_ids": [
+    2
+   ],
+   "confiance": "bonne"
+  },
+  {
+   "id": "SVT-S1-C04",
+   "semestre": 1,
+   "ordre": 4,
+   "trimestre_indicatif": 1,
+   "titre": "Les relations entre les êtres vivants et la circulation de la matière et de l'énergie",
+   "duree_semaines": 3,
+   "source_ids": [
+    2
+   ],
+   "confiance": "bonne"
+  },
+  {
+   "id": "SVT-S1-C05",
+   "semestre": 1,
+   "ordre": 5,
+   "trimestre_indicatif": 2,
+   "titre": "L'Homme et son environnement : impacts des activités humaines et gestion durable",
+   "duree_semaines": 2,
+   "source_ids": [
+    2
+   ],
+   "confiance": "bonne"
+  },
+  {
+   "id": "SVT-S1-C06",
+   "semestre": 1,
+   "ordre": 6,
+   "trimestre_indicatif": 2,
+   "titre": "La nutrition minérale des plantes vertes et le rendement agricole",
+   "duree_semaines": 3,
+   "source_ids": [
+    2
+   ],
+   "confiance": "bonne"
+  },
+  {
+   "id": "SVT-S2-C07",
+   "semestre": 2,
+   "ordre": 7,
+   "trimestre_indicatif": 2,
+   "titre": "La photosynthèse : nutrition carbonée des plantes vertes",
+   "duree_semaines": 3,
+   "source_ids": [
+    4
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "SVT-S2-C08",
+   "semestre": 2,
+   "ordre": 8,
+   "trimestre_indicatif": 2,
+   "titre": "La respiration et les fermentations : la cellule produit son énergie",
+   "duree_semaines": 2,
+   "source_ids": [
+    4
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "SVT-S2-C09",
+   "semestre": 2,
+   "ordre": 9,
+   "trimestre_indicatif": 3,
+   "titre": "Le sol : formation, constituants, propriétés et fertilité",
+   "duree_semaines": 3,
+   "source_ids": [
+    2,
+    6
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "SVT-S2-C10",
+   "semestre": 2,
+   "ordre": 10,
+   "trimestre_indicatif": 3,
+   "titre": "Les minéraux et les roches",
+   "duree_semaines": 2,
+   "source_ids": [
+    4
+   ],
+   "confiance": "moyenne"
+  },
+  {
+   "id": "SVT-S2-C11",
+   "semestre": 2,
+   "ordre": 11,
+   "trimestre_indicatif": 3,
+   "titre": "Érosion, sédimentation, roches sédimentaires et fossiles",
+   "duree_semaines": 2,
+   "source_ids": [
+    4
+   ],
+   "confiance": "faible"
+  },
+  {
+   "id": "SVT-S2-C12",
+   "semestre": 2,
+   "ordre": 12,
+   "trimestre_indicatif": 3,
+   "titre": "La structure interne du globe et son activité : séismes et volcans",
+   "duree_semaines": 2,
+   "source_ids": [
+    4
+   ],
+   "confiance": "faible"
+  }
+ ]
+}

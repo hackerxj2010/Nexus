@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620" width="600" height="620" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Diffusion et membrane plasmique</title>
+<desc id="desc">En haut : un colorant se répand dans l'eau d'un bécher entre t = 0 et t = 1 h (diffusion). En bas : la membrane plasmique, bicouche de phospholipides traversée directement par O2 et CO2, et par les ions et le glucose grâce à des protéines de transport.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker></defs>
+<rect x="0" y="0" width="600" height="620" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Diffusion et membrane plasmique</text>
+<text x="300" y="70" font-size="18" text-anchor="middle" font-weight="bold" fill="#1f2937">1. Diffusion d'un colorant dans l'eau</text>
+<path d="M45 85 L45 195 Q45 205 55 205 L145 205 Q155 205 155 195 L155 85" fill="#e0f2fe" stroke="#475569" stroke-width="2.5"/>
+<path d="M245 85 L245 195 Q245 205 255 205 L345 205 Q355 205 355 195 L355 85" fill="#e0f2fe" stroke="#475569" stroke-width="2.5"/>
+<path d="M445 85 L445 195 Q445 205 455 205 L545 205 Q555 205 555 195 L555 85" fill="#e0f2fe" stroke="#475569" stroke-width="2.5"/>
+<circle cx="100" cy="190" r="9" fill="#7e22ce"/>
+<ellipse cx="300" cy="172" rx="40" ry="28" fill="#c084fc" opacity="0.75"/>
+<circle cx="300" cy="186" r="12" fill="#9333ea" opacity="0.8"/>
+<rect x="447" y="92" width="106" height="111" rx="8" fill="#e9d5ff"/>
+<text x="100" y="232" font-size="17" text-anchor="middle" font-weight="normal" fill="#1f2937">t = 0</text>
+<text x="300" y="232" font-size="17" text-anchor="middle" font-weight="normal" fill="#1f2937">t = 10 min</text>
+<text x="500" y="232" font-size="17" text-anchor="middle" font-weight="normal" fill="#1f2937">t = 1 h</text>
+<line x1="162" y1="145" x2="238" y2="145" stroke="#374151" stroke-width="2.2" marker-end="url(#fl)"/>
+<line x1="362" y1="145" x2="438" y2="145" stroke="#374151" stroke-width="2.2" marker-end="url(#fl)"/>
+<text x="300" y="262" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">Les molécules se déplacent du milieu le plus concentré</text>
+<text x="300" y="282" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">vers le moins concentré, jusqu'à l'équilibre.</text>
+<line x1="30" y1="300" x2="570" y2="300" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="300" y="330" font-size="18" text-anchor="middle" font-weight="bold" fill="#1f2937">2. La membrane plasmique : une barrière sélective</text>
+<text x="40" y="368" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937" font-style="italic">Extérieur de la cellule</text>
+<text x="470" y="600" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937" font-style="italic">Cytoplasme</text>
+<line x1="37" y1="430" x2="37" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="43" y1="430" x2="43" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="37" y1="462" x2="37" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="43" y1="462" x2="43" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="40" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="40" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="55" y1="430" x2="55" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="61" y1="430" x2="61" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="55" y1="462" x2="55" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="61" y1="462" x2="61" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="58" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="58" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="73" y1="430" x2="73" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="79" y1="430" x2="79" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="73" y1="462" x2="73" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="79" y1="462" x2="79" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="76" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="76" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="91" y1="430" x2="91" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="97" y1="430" x2="97" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="91" y1="462" x2="91" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="97" y1="462" x2="97" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="94" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="94" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="109" y1="430" x2="109" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="115" y1="430" x2="115" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="109" y1="462" x2="109" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="115" y1="462" x2="115" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="112" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="112" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="127" y1="430" x2="127" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="133" y1="430" x2="133" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="127" y1="462" x2="127" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="133" y1="462" x2="133" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="130" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="130" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="145" y1="430" x2="145" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="151" y1="430" x2="151" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="145" y1="462" x2="145" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="151" y1="462" x2="151" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="148" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="148" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="163" y1="430" x2="163" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="169" y1="430" x2="169" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="163" y1="462" x2="163" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="169" y1="462" x2="169" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="166" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="166" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="181" y1="430" x2="181" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="187" y1="430" x2="187" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="181" y1="462" x2="181" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="187" y1="462" x2="187" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="184" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="184" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="199" y1="430" x2="199" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="205" y1="430" x2="205" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="199" y1="462" x2="199" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="205" y1="462" x2="205" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="202" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="202" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="217" y1="430" x2="217" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="223" y1="430" x2="223" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="217" y1="462" x2="217" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="223" y1="462" x2="223" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="220" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="220" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="235" y1="430" x2="235" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="241" y1="430" x2="241" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="235" y1="462" x2="235" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="241" y1="462" x2="241" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="238" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="238" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="253" y1="430" x2="253" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="259" y1="430" x2="259" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="253" y1="462" x2="253" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="259" y1="462" x2="259" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="256" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="256" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="271" y1="430" x2="271" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="277" y1="430" x2="277" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="271" y1="462" x2="271" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="277" y1="462" x2="277" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="274" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="274" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="289" y1="430" x2="289" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="295" y1="430" x2="295" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="289" y1="462" x2="289" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="295" y1="462" x2="295" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="292" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="292" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="307" y1="430" x2="307" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="313" y1="430" x2="313" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="307" y1="462" x2="307" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="313" y1="462" x2="313" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="310" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="310" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="325" y1="430" x2="325" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="331" y1="430" x2="331" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="325" y1="462" x2="325" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="331" y1="462" x2="331" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="328" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="328" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="415" y1="430" x2="415" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="421" y1="430" x2="421" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="415" y1="462" x2="415" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="421" y1="462" x2="421" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="418" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="418" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="433" y1="430" x2="433" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="439" y1="430" x2="439" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="433" y1="462" x2="433" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="439" y1="462" x2="439" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="436" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="436" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="451" y1="430" x2="451" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="457" y1="430" x2="457" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="451" y1="462" x2="451" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="457" y1="462" x2="457" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="454" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="454" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="469" y1="430" x2="469" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="475" y1="430" x2="475" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="469" y1="462" x2="469" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="475" y1="462" x2="475" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="472" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="472" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="487" y1="430" x2="487" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="493" y1="430" x2="493" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="487" y1="462" x2="487" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="493" y1="462" x2="493" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="490" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="490" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="505" y1="430" x2="505" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="511" y1="430" x2="511" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="505" y1="462" x2="505" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="511" y1="462" x2="511" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="508" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="508" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="523" y1="430" x2="523" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="529" y1="430" x2="529" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="523" y1="462" x2="523" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="529" y1="462" x2="529" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="526" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="526" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="541" y1="430" x2="541" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="547" y1="430" x2="547" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="541" y1="462" x2="541" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="547" y1="462" x2="547" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="544" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="544" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<line x1="559" y1="430" x2="559" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="565" y1="430" x2="565" y2="454" stroke="#d97706" stroke-width="2"/>
+<line x1="559" y1="462" x2="559" y2="486" stroke="#d97706" stroke-width="2"/>
+<line x1="565" y1="462" x2="565" y2="486" stroke="#d97706" stroke-width="2"/>
+<circle cx="562" cy="424" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<circle cx="562" cy="492" r="7" fill="#60a5fa" stroke="#1d4ed8" stroke-width="1"/>
+<rect x="330" y="404" width="30" height="108" rx="12" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<rect x="372" y="404" width="30" height="108" rx="12" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<line x1="120" y1="375" x2="120" y2="545" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#flr)"/>
+<text x="130" y="395" font-size="17" text-anchor="start" font-weight="bold" fill="#b91c1c">O₂</text>
+<line x1="210" y1="545" x2="210" y2="375" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#flb)"/>
+<text x="220" y="395" font-size="17" text-anchor="start" font-weight="bold" fill="#1d4ed8">CO₂</text>
+<line x1="366" y1="375" x2="366" y2="545" stroke="#15803d" stroke-width="2.5" marker-end="url(#flv)"/>
+<text x="372" y="395" font-size="16" text-anchor="start" font-weight="bold" fill="#15803d">ions, glucose</text>
+<line x1="58" y1="492" x2="58" y2="590" stroke="#374151" stroke-width="1.6"/><circle cx="58" cy="492" r="2.6" fill="#374151"/><text x="64" y="596" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">bicouche de phospholipides (≈ 7,5 nm)</text>
+<line x1="400" y1="500" x2="430" y2="535" stroke="#374151" stroke-width="1.6"/><circle cx="400" cy="500" r="2.6" fill="#374151"/><text x="436" y="541" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">protéine de</text>
+<text x="436" y="560" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">transport</text>
+</svg>

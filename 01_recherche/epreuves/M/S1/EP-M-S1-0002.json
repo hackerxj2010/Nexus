@@ -1,0 +1,497 @@
+{
+ "id": "EP-M-S1-0002",
+ "matiere": "M",
+ "semestre": 1,
+ "type": "concours_entree",
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques (Lomé / Kara)",
+  "ville": "Lomé / Kara",
+  "annee_scolaire": "2017-2018",
+  "session": "Septembre 2017",
+  "document": "« Epreuves Concours lycée scientifique.pdf » (scan CamScanner, 12,4 Mo, Google Drive de l'utilisateur, ajouté le 2026-07-03)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Sujet officiel d'examen ; copie privée dans le Google Drive de l'utilisateur ; usage personnel d'apprentissage",
+  "fiabilite": 3
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "chapitres_titres": [
+  "Ensemble des nombres réels et calcul dans ℝ",
+  "Généralités sur les fonctions",
+  "Polynômes et fractions rationnelles",
+  "Équations et inéquations dans ℝ",
+  "Vecteurs et points du plan",
+  "Droites et cercles dans le plan",
+  "Angles orientés et trigonométrie"
+ ],
+ "chapitres": [
+  "M-S1-C01",
+  "M-S1-C07",
+  "M-S1-C03",
+  "M-S1-C05",
+  "M-S1-C02",
+  "M-S2-C13",
+  "M-S2-C10"
+ ],
+ "enonce_md": "> **Transcription reconstituée** à partir du texte OCR (Google Drive) d'un scan CamScanner du sujet officiel. Les formules ont été remises en forme ; **[illisible]** signale un passage absent ou inexploitable dans l'OCR ; *(lecture probable)* signale un symbole reconstitué d'après le contexte et la cohérence des questions. Les figures du sujet ne sont pas disponibles. À relire sur le scan original avant usage en composition blanche.\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE (SEPTEMBRE 2017)**\n\n**MATHÉMATIQUES** — Durée : 2 h — Coeff. : 2\n\n### Exercice 1 (4 pts)\n$h$ est une application affine définie par $h(x) = (3 - 2\\sqrt{3})x + 7$.\n1. Justifier que $h$ est une application affine décroissante. (0,5 pt)\n2. Ranger dans l'ordre croissant les réels $h(0)$ ; $h(-2)$ ; $h\\left(\\frac{4}{3}\\right)$ ; $h(\\sqrt{7})$ et $h(-5)$ sans les calculer. (0,5 pt × 4)\n3. Calculer les images des réels $-4$ et $\\sqrt{3}$ par $h$. (0,5 pt × 2)\n4. Déterminer le réel dont $-2$ est l'image par $h$. (0,5 pt)\n\n### Exercice 2 (4 pts)\nOn considère les expressions suivantes : $A = 3(x+1)^2 - 12$ et $B = (2x+3)^2 - (x+4)^2$.\n1. a) Développer, réduire et ordonner $A$ suivant les puissances décroissantes de $x$. (0,25 pt)\n\n   b) Factoriser $A$ et $B$. (0,5 pt × 2)\n\n   c) Résoudre dans $\\mathbb{R}$ l'équation : $3x^2 + 6x - 9 = 0$. (0,5 pt)\n2. Soit la fraction rationnelle $h = \\dfrac{(3x+7)(x-1)}{3x^2 + 6x - 9}$.\n\n   a) Pour quelles valeurs de $x$, $h$ existe-t-elle ? (0,5 pt)\n\n   b) Simplifier la fraction $h$. (0,5 pt)\n3. a) Écrire les ensembles suivants en citant leurs éléments : $A = $ **[illisible]** $;\\,3] \\cap \\mathbb{N}$ ; $B = [-\\pi\\,;\\,2[ \\cap \\mathbb{Z}$ *(lecture probable ; OCR : « [-T; 2[ n Z »)*. (0,5 pt)\n\n   b) $x$, $y$ et $z$ sont trois réels tels que : **[illisible]** (OCR : « -x+y+z3-√3 »). Calculer $x$, $y$ et $z$ sachant que **[illisible]**. (0,75 pt)\n\n### Exercice 3 (4 pts)\nL'unité de longueur est le centimètre. On considère un triangle $ABC$ rectangle en $B$ tel que $AB = 4$ et $BC = 3$. $I$ est le projeté orthogonal de $B$ sur $[AC]$.\n1. Calculer les distances $AC$ ; $AI$ ; $CI$ et $BI$. (0,5 pt × 4)\n2. La droite perpendiculaire à $(BC)$ passant par $C$ coupe $(BI)$ en $D$.\n\n   a) Montrer que les triangles $ICD$ et $IAB$ sont semblables. (0,5 pt)\n\n   b) Calculer $ID$ et $CD$. (0,25 pt × 2)\n3. On désigne par $\\alpha$ la mesure de l'angle $\\widehat{BAC}$.\n\n   a) Calculer la valeur numérique de $\\cos\\alpha$ ; $\\sin\\alpha$ et $(\\cos\\alpha)^2 + (\\sin\\alpha)^2$.\n\n   b) Calculer l'aire du trapèze $ABCD$.\n\nFigure (0,5 pt). *(Barème de la question 3 partiellement lisible : « 0,25 pt » et « 0,25 pt × 2 ».)*\n\n### Exercice 4 (2 pts)\n$CEG$ est un triangle.\n1. Construire les points $A$ et $I$ tels que $\\overrightarrow{EA} = \\overrightarrow{EC} + \\overrightarrow{EG}$ et $\\overrightarrow{GI} = \\overrightarrow{CE}$. (0,5 pt × 2)\n2. Justifier que $CAGE$ est un parallélogramme. (0,5 pt)\n3. Démontrer que les points $A$ et $I$ sont symétriques par rapport au point $G$. (0,5 pt)\n\n### Exercice 5 (6 pts)\nDans le plan rapporté à un repère orthonormé $(O, \\vec{i}, \\vec{j})$, on considère les points $A(-2\\,;1)$ ; $B(3\\,;6)$ ; $C(4\\,;-1)$.\n1. Calculer les coordonnées du point $D$ pour que $ABCD$ soit un parallélogramme. Quelles sont les coordonnées du centre $I$ de ce parallélogramme ? (0,5 pt × 2)\n2. Montrer que les droites $(AC)$ et $(BD)$ sont orthogonales. Quelle est la nature du parallélogramme $ABCD$ ? (0,5 pt × 2)\n3. Déterminer une équation de la droite $(BD)$. Calculer les coordonnées du point $E$, intersection de la droite $(BD)$ avec l'axe des ordonnées. (0,5 pt × 2)\n4. Calculer les distances $EA$, $EC$ et $AC$. Quelle est la nature du triangle $AEC$ ? (0,25 pt × 5)\n5. Préciser le centre et le rayon du cercle circonscrit au triangle $AEC$ *(OCR : « EC »)*. Montrer que le point $F(2\\,;-3)$ appartient à ce cercle. (0,25 pt × 2 + 0,5 pt)\n\nFigure (0,75 pt).\n",
+ "questions": [
+  {
+   "numero": "Ex1-1",
+   "enonce": "Justifier que $h(x) = (3 - 2\\sqrt{3})x + 7$ est décroissante.",
+   "points": 0.5,
+   "notions_titres": [
+    "Généralités sur les fonctions",
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$h$ est affine de coefficient $a = 3 - 2\\sqrt{3}$. Or $(2\\sqrt{3})^2 = 12 > 9 = 3^2$ et ces nombres sont positifs, donc $2\\sqrt{3} > 3$.",
+    "Donc $a = 3 - 2\\sqrt{3} < 0$ : $h$ est une application affine **décroissante**."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "coefficient $3 - 2\\sqrt{3} < 0$ : $h$ décroissante",
+   "piege": "Le sens de variation dépend du signe du coefficient de x, pas de l'ordonnée à l'origine 7.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2",
+   "enonce": "Ranger dans l'ordre croissant $h(0)$, $h(-2)$, $h(\\frac{4}{3})$, $h(\\sqrt{7})$, $h(-5)$ sans les calculer.",
+   "points": 2,
+   "notions_titres": [
+    "Généralités sur les fonctions"
+   ],
+   "corrige": [
+    "On range d'abord les antécédents : $-5 < -2 < 0 < \\dfrac{4}{3} < \\sqrt{7}$ (car $\\left(\\frac{4}{3}\\right)^2 = \\frac{16}{9} < 7$).",
+    "$h$ est décroissante, elle **inverse l'ordre** : $h(\\sqrt{7}) < h\\left(\\frac{4}{3}\\right) < h(0) < h(-2) < h(-5)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "resultat_final": "$h(\\sqrt{7}) < h(\\frac{4}{3}) < h(0) < h(-2) < h(-5)$",
+   "piege": "Ne pas oublier que la fonction décroissante renverse les inégalités.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-3",
+   "enonce": "Images de $-4$ et de $\\sqrt{3}$ par $h$.",
+   "points": 1,
+   "notions_titres": [
+    "Généralités sur les fonctions",
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$h(-4) = -4(3 - 2\\sqrt{3}) + 7 = -12 + 8\\sqrt{3} + 7 = 8\\sqrt{3} - 5$.",
+    "$h(\\sqrt{3}) = \\sqrt{3}(3 - 2\\sqrt{3}) + 7 = 3\\sqrt{3} - 6 + 7 = 3\\sqrt{3} + 1$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$h(-4) = 8\\sqrt{3} - 5$ ; $h(\\sqrt{3}) = 3\\sqrt{3} + 1$",
+   "piege": "$\\sqrt{3} \\times 2\\sqrt{3} = 2 \\times 3 = 6$.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-4",
+   "enonce": "Déterminer le réel dont $-2$ est l'image par $h$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Généralités sur les fonctions",
+    "Équations et inéquations dans ℝ"
+   ],
+   "corrige": [
+    "$h(x) = -2 \\Leftrightarrow (3 - 2\\sqrt{3})x = -9 \\Leftrightarrow x = \\dfrac{-9}{3 - 2\\sqrt{3}}$.",
+    "On rend le dénominateur rationnel : $x = \\dfrac{-9(3 + 2\\sqrt{3})}{9 - 12} = 3(3 + 2\\sqrt{3}) = 9 + 6\\sqrt{3}$. Vérification : $(3 - 2\\sqrt{3})(9 + 6\\sqrt{3}) + 7 = -9 + 7 = -2$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$x = 9 + 6\\sqrt{3}$",
+   "piege": "",
+   "astuce": "Multiplier par la quantité conjuguée $3 + 2\\sqrt{3}$."
+  },
+  {
+   "numero": "Ex2-1a",
+   "enonce": "Développer, réduire et ordonner $A = 3(x+1)^2 - 12$ suivant les puissances décroissantes.",
+   "points": 0.25,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$A = 3(x^2 + 2x + 1) - 12 = 3x^2 + 6x - 9$."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "$A = 3x^2 + 6x - 9$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-1b",
+   "enonce": "Factoriser $A$ et $B$.",
+   "points": 1,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$A = 3[(x+1)^2 - 4] = 3(x + 1 - 2)(x + 1 + 2) = 3(x - 1)(x + 3)$.",
+    "$B = [(2x+3) - (x+4)][(2x+3) + (x+4)] = (x - 1)(3x + 7)$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$A = 3(x-1)(x+3)$ ; $B = (x-1)(3x+7)$",
+   "piege": "Mettre 3 en facteur avant d'utiliser la différence de deux carrés.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-1c",
+   "enonce": "Résoudre dans $\\mathbb{R}$ : $3x^2 + 6x - 9 = 0$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ"
+   ],
+   "corrige": [
+    "$3x^2 + 6x - 9 = A = 3(x - 1)(x + 3)$.",
+    "Un produit est nul si et seulement si l'un des facteurs est nul : $x = 1$ ou $x = -3$. $S = \\{-3\\,;\\,1\\}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$S = \\{-3\\,;\\,1\\}$",
+   "piege": "",
+   "astuce": "Réutiliser la factorisation de A."
+  },
+  {
+   "numero": "Ex2-2a",
+   "enonce": "Pour quelles valeurs de $x$ la fraction $h$ existe-t-elle ?",
+   "points": 0.5,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$h$ existe si et seulement si $3x^2 + 6x - 9 \\neq 0$, c'est-à-dire $x \\neq 1$ et $x \\neq -3$ (question 1c)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$x \\in \\mathbb{R} \\setminus \\{-3\\,;\\,1\\}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-2b",
+   "enonce": "Simplifier la fraction $h$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "Pour $x \\notin \\{-3\\,;1\\}$ : $h = \\dfrac{(3x+7)(x-1)}{3(x-1)(x+3)} = \\dfrac{3x+7}{3(x+3)} = \\dfrac{3x+7}{3x+9}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$h = \\dfrac{3x+7}{3x+9}$ pour $x \\notin \\{-3\\,;1\\}$",
+   "piege": "Toujours rappeler la condition d'existence avant de simplifier.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-3a",
+   "enonce": "Écrire en extension $B = [-\\pi\\,;2[ \\cap \\mathbb{Z}$ (lecture probable ; l'ensemble $A$ est illisible).",
+   "points": 0.25,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$-\\pi \\approx -3{,}14$ : les entiers relatifs $k$ tels que $-\\pi \\le k < 2$ sont $-3, -2, -1, 0, 1$ (2 est exclu). $B = \\{-3\\,;-2\\,;-1\\,;0\\,;1\\}$."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "$B = \\{-3\\,;-2\\,;-1\\,;0\\,;1\\}$",
+   "piege": "Le crochet « [ » à droite de 2 exclut 2.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-1",
+   "enonce": "Calculer $AC$, $AI$, $CI$ et $BI$.",
+   "points": 2,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ",
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "Pythagore dans $ABC$ rectangle en $B$ : $AC = \\sqrt{4^2 + 3^2} = 5$ cm.",
+    "Dans le triangle rectangle, $\\cos\\widehat{BAC} = \\dfrac{AB}{AC} = \\dfrac{AI}{AB}$, donc $AI = \\dfrac{AB^2}{AC} = \\dfrac{16}{5} = 3{,}2$ cm.",
+    "De même $CI = \\dfrac{BC^2}{AC} = \\dfrac{9}{5} = 1{,}8$ cm (contrôle : $AI + CI = 5$).",
+    "Aire de $ABC$ : $\\dfrac{AB \\times BC}{2} = \\dfrac{AC \\times BI}{2}$, donc $BI = \\dfrac{12}{5} = 2{,}4$ cm."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$AC = 5$ ; $AI = 3{,}2$ ; $CI = 1{,}8$ ; $BI = 2{,}4$ (cm)",
+   "piege": "",
+   "astuce": "Relations métriques : $AB^2 = AI \times AC$ et $AB \times BC = AC \times BI$."
+  },
+  {
+   "numero": "Ex3-2a",
+   "enonce": "Montrer que les triangles $ICD$ et $IAB$ sont semblables.",
+   "points": 0.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$(CD) \\perp (BC)$ et $(AB) \\perp (BC)$, donc $(CD) \\parallel (AB)$.",
+    "Les angles $\\widehat{ICD}$ et $\\widehat{IAB}$ sont alternes-internes, donc égaux ; $\\widehat{CID}$ et $\\widehat{AIB}$ sont opposés par le sommet, donc égaux. Deux angles égaux deux à deux : les triangles $ICD$ et $IAB$ sont semblables."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "ICD et IAB semblables (angles égaux)",
+   "piege": "",
+   "astuce": "Deux droites perpendiculaires à une même troisième sont parallèles."
+  },
+  {
+   "numero": "Ex3-2b",
+   "enonce": "Calculer $ID$ et $CD$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "Rapport de similitude : $\\dfrac{IC}{IA} = \\dfrac{9/5}{16/5} = \\dfrac{9}{16}$. Donc $ID = \\dfrac{9}{16} IB = \\dfrac{9}{16} \\times \\dfrac{12}{5} = \\dfrac{27}{20} = 1{,}35$ cm.",
+    "$CD = \\dfrac{9}{16} AB = \\dfrac{9}{16} \\times 4 = \\dfrac{9}{4} = 2{,}25$ cm."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$ID = 1{,}35$ cm ; $CD = 2{,}25$ cm",
+   "piege": "Bien associer les sommets homologues : I↔I, C↔A, D↔B.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3a",
+   "enonce": "Calculer $\\cos\\alpha$, $\\sin\\alpha$ et $(\\cos\\alpha)^2 + (\\sin\\alpha)^2$, où $\\alpha = \\widehat{BAC}$.",
+   "points": 0.25,
+   "notions_titres": [
+    "Angles orientés et trigonométrie"
+   ],
+   "corrige": [
+    "Dans $ABC$ rectangle en $B$ : $\\cos\\alpha = \\dfrac{AB}{AC} = \\dfrac{4}{5}$, $\\sin\\alpha = \\dfrac{BC}{AC} = \\dfrac{3}{5}$, et $(\\cos\\alpha)^2 + (\\sin\\alpha)^2 = \\dfrac{16}{25} + \\dfrac{9}{25} = 1$."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "$\\cos\\alpha = \\frac{4}{5}$ ; $\\sin\\alpha = \\frac{3}{5}$ ; $\\cos^2\\alpha + \\sin^2\\alpha = 1$",
+   "piege": "",
+   "astuce": "$\\cos^2 + \\sin^2 = 1$ toujours : bon moyen de contrôle."
+  },
+  {
+   "numero": "Ex3-3b",
+   "enonce": "Calculer l'aire du trapèze $ABCD$.",
+   "points": 0.25,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$ABCD$ est un trapèze de bases $[AB]$ et $[CD]$ (parallèles) et de hauteur $BC = 3$ : $\\mathcal{A} = \\dfrac{(AB + CD) \\times BC}{2} = \\dfrac{(4 + \\frac{9}{4}) \\times 3}{2} = \\dfrac{75}{8} = 9{,}375$ cm²."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "$\\dfrac{75}{8} = 9{,}375$ cm²",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1",
+   "enonce": "Construire $A$ et $I$ tels que $\\overrightarrow{EA} = \\overrightarrow{EC} + \\overrightarrow{EG}$ et $\\overrightarrow{GI} = \\overrightarrow{CE}$.",
+   "points": 1,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$A$ : on construit le parallélogramme de côtés $[EC]$ et $[EG]$ ; $A$ est le quatrième sommet, opposé à $E$ (règle du parallélogramme).",
+    "$I$ : on reporte à partir de $G$ un vecteur égal à $\\overrightarrow{CE}$ (même direction, même sens, même longueur)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Construction",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2",
+   "enonce": "Justifier que $CAGE$ est un parallélogramme.",
+   "points": 0.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$\\overrightarrow{EA} = \\overrightarrow{EC} + \\overrightarrow{EG} \\Leftrightarrow \\overrightarrow{EA} - \\overrightarrow{EC} = \\overrightarrow{EG} \\Leftrightarrow \\overrightarrow{CA} = \\overrightarrow{EG}$.",
+    "$\\overrightarrow{CA} = \\overrightarrow{EG}$ signifie que $CAGE$ est un parallélogramme."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "CAGE parallélogramme car $\\overrightarrow{CA} = \\overrightarrow{EG}$",
+   "piege": "Respecter l'ordre des lettres : CAGE et non CAEG.",
+   "astuce": "Chasles : $\\overrightarrow{EA} - \\overrightarrow{EC} = \\overrightarrow{CE} + \\overrightarrow{EA} = \\overrightarrow{CA}$."
+  },
+  {
+   "numero": "Ex4-3",
+   "enonce": "Démontrer que $A$ et $I$ sont symétriques par rapport à $G$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$CAGE$ parallélogramme donne $\\overrightarrow{AG} = \\overrightarrow{CE}$, donc $\\overrightarrow{GA} = -\\overrightarrow{CE}$.",
+    "Or $\\overrightarrow{GI} = \\overrightarrow{CE}$, donc $\\overrightarrow{GI} = -\\overrightarrow{GA}$ : $G$ est le milieu de $[AI]$, c'est-à-dire que $A$ et $I$ sont symétriques par rapport à $G$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "G milieu de [AI]",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-1",
+   "enonce": "Coordonnées de $D$ ($ABCD$ parallélogramme) et du centre $I$.",
+   "points": 1,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$ABCD$ parallélogramme $\\Leftrightarrow \\overrightarrow{AD} = \\overrightarrow{BC}$ : $D = A + \\overrightarrow{BC}$, soit $D(-2 + 1\\,;\\,1 - 7) = D(-1\\,;-6)$.",
+    "$I$ milieu de $[AC]$ : $I\\left(\\dfrac{-2 + 4}{2}\\,;\\,\\dfrac{1 - 1}{2}\\right) = I(1\\,;0)$ (c'est aussi le milieu de $[BD]$)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$D(-1\\,;-6)$ ; $I(1\\,;0)$",
+   "piege": "Dans ABCD, ce sont AD et BC (et non AC et BD) qui sont égaux en vecteurs.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-2",
+   "enonce": "Montrer que $(AC) \\perp (BD)$ ; nature de $ABCD$.",
+   "points": 1,
+   "notions_titres": [
+    "Vecteurs et points du plan",
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "$\\overrightarrow{AC}(6\\,;-2)$ et $\\overrightarrow{BD}(-4\\,;-12)$ : $6 \\times (-4) + (-2) \\times (-12) = -24 + 24 = 0$, donc $(AC) \\perp (BD)$.",
+    "Un parallélogramme dont les diagonales sont perpendiculaires est un **losange** ($AB = BC = 5\\sqrt{2}$). Ce n'est pas un carré : $\\overrightarrow{AB} \\cdot \\overrightarrow{BC} = 5 - 35 \\neq 0$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "ABCD est un losange",
+   "piege": "",
+   "astuce": "Repère orthonormé : $\\vec{u}(x;y) \\perp \\vec{v}(x';y') \\Leftrightarrow xx' + yy' = 0$."
+  },
+  {
+   "numero": "Ex5-3",
+   "enonce": "Équation de $(BD)$ ; coordonnées de $E = (BD) \\cap (Oy)$.",
+   "points": 1,
+   "notions_titres": [
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "Coefficient directeur $\\dfrac{-6 - 6}{-1 - 3} = 3$ ; $(BD) : y - 6 = 3(x - 3)$, soit $y = 3x - 3$ (vérification avec $D$ : $3 \\times (-1) - 3 = -6$).",
+    "Sur l'axe des ordonnées, $x = 0$ : $y = -3$. $E(0\\,;-3)$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$(BD) : y = 3x - 3$ ; $E(0\\,;-3)$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-4",
+   "enonce": "Calculer $EA$, $EC$, $AC$ ; nature du triangle $AEC$.",
+   "points": 1.25,
+   "notions_titres": [
+    "Vecteurs et points du plan",
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "$EA = \\sqrt{(-2)^2 + 4^2} = \\sqrt{20} = 2\\sqrt{5}$.",
+    "$EC = \\sqrt{4^2 + 2^2} = \\sqrt{20} = 2\\sqrt{5}$.",
+    "$AC = \\sqrt{6^2 + (-2)^2} = \\sqrt{40} = 2\\sqrt{10}$.",
+    "$EA = EC$ : le triangle est isocèle en $E$.",
+    "$EA^2 + EC^2 = 20 + 20 = 40 = AC^2$ : d'après la réciproque de Pythagore, il est rectangle en $E$. $AEC$ est **rectangle isocèle en $E$**."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$EA = EC = 2\\sqrt{5}$, $AC = 2\\sqrt{10}$ ; AEC rectangle isocèle en E",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-5",
+   "enonce": "Centre et rayon du cercle circonscrit à $AEC$ ; montrer que $F(2\\,;-3)$ est sur ce cercle.",
+   "points": 1,
+   "notions_titres": [
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "Le triangle $AEC$ est rectangle en $E$ : le centre du cercle circonscrit est le milieu de l'hypoténuse $[AC]$, c'est $I(1\\,;0)$.",
+    "Rayon : $r = \\dfrac{AC}{2} = \\sqrt{10}$.",
+    "$IF = \\sqrt{(2-1)^2 + (-3-0)^2} = \\sqrt{10} = r$, donc $F$ appartient au cercle."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "resultat_final": "centre $I(1\\,;0)$, rayon $\\sqrt{10}$ ; $IF = \\sqrt{10}$",
+   "piege": "",
+   "astuce": "Cercle circonscrit à un triangle rectangle : son diamètre est l'hypoténuse."
+  }
+ ],
+ "verification": {
+  "passe1": "Résolution manuelle : h décroissante (3−2√3<0) ; ordre h(√7)<h(4/3)<h(0)<h(−2)<h(−5) ; h(−4)=8√3−5, h(√3)=3√3+1, antécédent de −2 : 9+6√3 ; A=3x²+6x−9=3(x−1)(x+3), B=(x−1)(3x+7), S={−3;1}, h=(3x+7)/(3x+9) ; B={−3,−2,−1,0,1} ; AC=5, AI=3,2, CI=1,8, BI=2,4, ID=1,35, CD=2,25, cos α=4/5, sin α=3/5, aire 75/8 ; CAGE parallélogramme, G milieu de [AI] ; D(−1;−6), I(1;0), losange, (BD): y=3x−3, E(0;−3), EA=EC=2√5, AC=2√10, AEC rectangle isocèle en E, cercle de centre I rayon √10, F sur le cercle.",
+  "passe2": "Résolution indépendante en coordonnées (sympy) : B(0;0), A(0;4), C(3;0) pour l'Ex3 (I et D recalculés comme projection et intersection), vecteurs génériques pour l'Ex4, calcul direct pour l'Ex5 : mêmes résultats.",
+  "code": "oui : script verif.py (sympy), 39 vérifications pour ce sujet, toutes OK",
+  "desaccords": [
+   "Aucun désaccord entre les deux passes.",
+   "Ex2 Q3a : la borne inférieure de A est illisible ; seul B = [−π;2[∩ℤ est corrigé (« -T » lu −π, lecture probable). Ex2 Q3b illisible, non corrigée.",
+   "Barème de l'Ex3 Q3 et de la figure : l'OCR donne 0,25 + 0,25×2 + 0,5, soit 4,25 pts au lieu de 4. Barème proposé, non officiel : 3a 0,25 ; 3b 0,25 ; figure 0,5.",
+   "Ex5 Q5 : « triangle EC » lu « triangle AEC ».",
+   "Semestre : concours d'entrée en Seconde S (septembre), rangé en S1 comme révision des prérequis."
+  ]
+ }
+}

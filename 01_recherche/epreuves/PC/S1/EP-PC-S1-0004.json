@@ -1,0 +1,490 @@
+{
+ "id": "EP-PC-S1-0004",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (03 septembre 2018)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2018-2019 (concours du 03/09/2018)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Alcanes, combustion, mélanges explosifs — 3e",
+  "Lentilles convergentes — 3e",
+  "Réduction de l'oxyde de cuivre, conservation de la masse — 3e",
+  "pH, indicateurs colorés — 3e",
+  "Énergie et puissance électriques, facture — 3e"
+ ],
+ "chapitres": [
+  "PC-S2-C11",
+  "PC-S2-C13",
+  "PC-S2-C14",
+  "PC-S2-C15",
+  "PC-S2-C16"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**Concours d'entrée au Lycée Scientifique — 03 SEPTEMBRE 2018**\n**ÉPREUVE DE SCIENCES PHYSIQUES** — Durée : 2 h ; Coef. : 2\n\n### EXERCICE I (5 pts)\nUn cuisinier utilise la bouteille de gaz contenant un alcane pour cuire ses aliments. Un jour il décide de connaître la formule brute de cet alcane.\n1. Donner au cuisinier :\n   - a) la définition du terme alcane et sa formule brute générale en fonction de n atomes de carbone ; (1 pt)\n   - b) l'équation bilan générale de la combustion complète des alcanes. (1 pt)\n2. a) En rappelant que dans la combustion d'alcane, les volumes des gaz réagissant sont proportionnels aux nombres de moles de molécules dans la réaction, rétablir l'égalité suivante : $\\dfrac{V_{O_2}}{V_{CO_2}} = \\dfrac{3n+1}{2n}$, avec n le nombre d'atomes de carbone, $V_{O_2}$ le volume de dioxygène nécessaire pour la combustion et $V_{CO_2}$ le volume de dioxyde de carbone rejeté. (1 pt)\n\n   b) En observant que pour 5 m³ d'air, on recueille 0,6 m³ de dioxyde de carbone, trouver la formule brute de l'alcane utilisé par le cuisinier et lui donner son nom. (1 pt)\n3. Écrire l'équation de la combustion complète de l'alcane dans le dioxygène pur. Dans quelle proportion en volume doit-on mélanger les deux gaz pour obtenir l'explosion la plus forte ? (0,5 pt) (0,5 pt)\n4. « Les mélanges de gaz combustibles et l'air sont explosifs avec de faibles proportions de gaz. » Commenter.\n\n### EXERCICE II (4 pts)\nKodjo obtient l'image du soleil à travers une lentille convergente, à 20 cm du centre optique de cette dernière.\n1. Quelle est la distance focale de cette lentille ? Justifier. En déduire sa vergence. (1 pt)\n2. On dispose sur l'axe optique et à 40 cm devant cette lentille un objet AB de hauteur 20 cm.\n   - a) On décide de recueillir l'image sur un écran. À quelle distance de la lentille doit-on placer l'écran ? (1 pt)\n   - b) Peut-on prédire cette distance ? Justifier. (0,5 pt)\n   - b) [sic, c)] Quelle est la grandeur de l'image A'B' ? (0,5 pt)\n3. Quelles sont les caractéristiques de cette image ? (1 pt)\n\n### EXERCICE III (6,5 pts)\n**A-** On fait réagir complètement de l'oxyde de cuivre et du carbone. On obtient 1,6 litre d'un gaz et un métal.\n1. a) Donner le nom et la formule du gaz et du métal obtenus. (1 pt)\n   b) Comment caractérise-t-on le gaz obtenu ? (0,5 pt)\n2. Faire un schéma du dispositif expérimental. (1 pt)\n3. Écrire l'équation bilan de la réaction. (1 pt)\n4. Sachant que 44 g du gaz obtenu occupent un volume de 24 L [OCR : « 248 »] à température ordinaire, quelle est la masse de ce gaz formé lors de la réaction ? (0,5 pt)\n5. Il s'est formé 6,4 g de cuivre. Quelle était la masse totale des réactifs ? Justifie ta réponse. (0,75 pt)\n\n**B-** On verse un peu de sucre dans un bécher contenant de l'eau pure. Le pH de la solution obtenue est 7.\n1. Que peut-on dire de la nature de la solution d'eau sucrée et de la concentration d'ions $\\ce{H3O+}$ ? (0,75 pt)\n2. Quelle couleur prendra cette solution si on y ajoute quelques gouttes de bleu de bromothymol ? (0,5 pt)\n3. Dans la solution d'eau sucrée on verse quelques gouttes d'une solution de soude. Comment varie le pH de la nouvelle solution obtenue ? (0,5 pt)\n\n### EXERCICE IV (4,5 pts)\nPour vérifier sa consommation d'énergie électrique, un abonné relève son compteur dès la réception de sa facture. Le compteur indique alors 1087 kWh. Cette valeur sera portée en « ancien index » sur la prochaine facture. Dans sa maison, il utilise 3 lampes (deux de 60 W et une de 25 W), une télévision de 200 W et un thermoplongeur de 300 W. Chaque lampe fonctionne en moyenne 120 h par mois, la TV 60 h par mois et le thermoplongeur 10 h par mois.\n1. Donner la consommation mensuelle d'énergie électrique pour : a) les trois lampes (0,75 pt) ; b) la TV (0,75 pt) ; c) le thermoplongeur (0,75 pt).\n2. Calculer le coût de la consommation électrique en 2 mois, sachant que le kWh coûte 58,5 F. (1,25 pt)\n3. Pourra-t-il faire fonctionner simultanément tous les appareils de la maison, la puissance souscrite étant 2,2 kW ? Justifier la réponse. (1 pt)\n",
+ "questions": [
+  {
+   "numero": "ExI-1.a",
+   "enonce": "Définition d'un alcane et formule générale.",
+   "points": 1,
+   "notions_titres": [
+    "Alcanes"
+   ],
+   "corrige": [
+    "Un alcane est un **hydrocarbure saturé** à chaîne ouverte (uniquement des liaisons simples C–C et C–H).",
+    "Formule brute générale : $\\ce{C_nH_{2n+2}}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Hydrocarbure saturé, $\\ce{C_nH_{2n+2}}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-1.b",
+   "enonce": "Équation générale de combustion complète.",
+   "points": 1,
+   "notions_titres": [
+    "Combustion des alcanes"
+   ],
+   "corrige": [
+    "$\\ce{C_nH_{2n+2}} + \\frac{3n+1}{2}\\,\\ce{O2} \\rightarrow n\\,\\ce{CO2} + (n+1)\\,\\ce{H2O}$",
+    "Contrôle : O à gauche $3n+1$ ; à droite $2n + (n+1) = 3n+1$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\ce{C_nH_{2n+2}} + \\frac{3n+1}{2}\\ce{O2} \\rightarrow n\\ce{CO2} + (n+1)\\ce{H2O}$",
+   "piege": "Se tromper sur le nombre de H₂O : n + 1.",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-2.a",
+   "enonce": "Établir V(O₂)/V(CO₂) = (3n+1)/(2n).",
+   "points": 1,
+   "notions_titres": [
+    "Combustion des alcanes",
+    "Volumes gazeux"
+   ],
+   "corrige": [
+    "Volumes proportionnels aux coefficients : $\\frac{V_{O_2}}{\\frac{3n+1}{2}} = \\frac{V_{CO_2}}{n}$.",
+    "D'où $\\frac{V_{O_2}}{V_{CO_2}} = \\frac{3n+1}{2n}$, soit $2n\\,V_{O_2} = (3n+1)\\,V_{CO_2}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Égalité démontrée",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-2.b",
+   "enonce": "Formule et nom de l'alcane (5 m³ d'air, 0,6 m³ de CO₂).",
+   "points": 1,
+   "notions_titres": [
+    "Combustion des alcanes"
+   ],
+   "corrige": [
+    "L'air contient 1/5 de dioxygène en volume : $V_{O_2} = \\frac{5}{5} = 1\\ \\text{m}^3$.",
+    "$2n \\times 1 = (3n+1) \\times 0{,}6 \\Rightarrow 2n - 1{,}8n = 0{,}6 \\Rightarrow n = 3$ : $\\ce{C3H8}$, le **propane**."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "C₃H₈, propane",
+   "piege": "Utiliser 5 m³ comme volume de dioxygène.",
+   "astuce": "Au collège : air = 1/5 O₂ + 4/5 N₂ en volume."
+  },
+  {
+   "numero": "ExI-3",
+   "enonce": "Combustion dans le dioxygène pur et proportions pour l'explosion la plus forte.",
+   "points": 0.5,
+   "notions_titres": [
+    "Combustion des alcanes",
+    "Mélanges explosifs"
+   ],
+   "corrige": [
+    "$\\ce{C3H8 + 5O2 -> 3CO2 + 4H2O}$.",
+    "Explosion la plus forte pour les proportions stœchiométriques : **1 volume de propane pour 5 volumes de dioxygène**."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O ; 1 vol de propane pour 5 vol de O₂",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExI-4",
+   "enonce": "Commenter : mélanges gaz combustible–air explosifs avec peu de gaz.",
+   "points": 0.5,
+   "notions_titres": [
+    "Mélanges explosifs",
+    "Sécurité"
+   ],
+   "corrige": [
+    "Avec l'air, 5 volumes de O₂ correspondent à 25 volumes d'air : le mélange le plus explosif contient environ 1 volume de propane pour 25 d'air (≈ 4 % de gaz).",
+    "Une petite fuite de gaz dans une pièce suffit donc à former un mélange explosif : aérer, ne pas allumer de flamme ni d'interrupteur en cas d'odeur de gaz."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "≈ 4 % de propane dans l'air suffit : danger des fuites",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-1",
+   "enonce": "Distance focale et vergence (image du soleil à 20 cm).",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes",
+    "Vergence"
+   ],
+   "corrige": [
+    "Le soleil est très éloigné (objet à l'infini) : son image se forme au **foyer image** F'. Donc $f = OF' = 20\\ \\text{cm}$.",
+    "$C = \\frac{1}{f} = \\frac{1}{0{,}20} = 5\\ \\delta$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "f = 20 cm ; C = 5 δ",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-2.a",
+   "enonce": "Position de l'écran pour un objet à 40 cm.",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "$\\frac{1}{\\overline{OA'}} = \\frac{1}{f} + \\frac{1}{\\overline{OA}} = \\frac{1}{20} - \\frac{1}{40} = \\frac{1}{40}$.",
+    "$\\overline{OA'} = 40\\ \\text{cm}$ : écran à 40 cm derrière la lentille."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "40 cm de la lentille",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-2.b",
+   "enonce": "Peut-on prédire cette distance ?",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "Oui : l'objet est à $2f$ (40 cm = 2 × 20 cm) ; dans ce cas l'image est symétrique de l'objet par rapport à la lentille, à $2f$ de l'autre côté."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Oui : objet à 2f ⇒ image à 2f",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-2.c",
+   "enonce": "Grandeur de l'image.",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "$A'B' = AB \\times \\frac{OA'}{OA} = 20 \\times \\frac{40}{40} = 20\\ \\text{cm}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "A'B' = 20 cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExII-3",
+   "enonce": "Caractéristiques de l'image.",
+   "points": 1,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "Image **réelle** (reçue sur l'écran), **renversée**,",
+    "de **même taille** que l'objet (20 cm), située à 40 cm derrière la lentille."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Réelle, renversée, même taille, à 40 cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-A.1.a",
+   "enonce": "Nom et formule du gaz et du métal.",
+   "points": 1,
+   "notions_titres": [
+    "Réduction de l'oxyde de cuivre"
+   ],
+   "corrige": [
+    "Gaz : dioxyde de carbone $\\ce{CO2}$.",
+    "Métal : cuivre $\\ce{Cu}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "CO₂ et Cu",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-A.1.b",
+   "enonce": "Caractérisation du gaz.",
+   "points": 0.5,
+   "notions_titres": [
+    "Tests des gaz"
+   ],
+   "corrige": [
+    "Le CO₂ **trouble l'eau de chaux**."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Il trouble l'eau de chaux",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-A.2",
+   "enonce": "Schéma du dispositif.",
+   "points": 1,
+   "notions_titres": [
+    "Réduction de l'oxyde de cuivre"
+   ],
+   "corrige": [
+    "Tube à essai contenant le mélange oxyde de cuivre + poudre de carbone, chauffé par un bec (labogaz) ;",
+    "tube à dégagement plongeant dans un tube d'eau de chaux ; légendes."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Schéma légendé : tube chauffé + tube à dégagement + eau de chaux",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-A.3",
+   "enonce": "Équation bilan.",
+   "points": 1,
+   "notions_titres": [
+    "Oxydoréduction"
+   ],
+   "corrige": [
+    "Réactifs CuO et C ; produits Cu et CO₂.",
+    "$\\ce{2CuO + C -> 2Cu + CO2}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\ce{2CuO + C -> 2Cu + CO2}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-A.4",
+   "enonce": "Masse de CO₂ formée (1,6 L ; 44 g pour 24 L).",
+   "points": 0.5,
+   "notions_titres": [
+    "Volume molaire",
+    "Proportionnalité"
+   ],
+   "corrige": [
+    "Proportionnalité : $m = \\frac{44 \\times 1{,}6}{24} \\approx 2{,}93\\ \\text{g}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "m ≈ 2,93 g",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-A.5",
+   "enonce": "Masse totale des réactifs.",
+   "points": 0.75,
+   "notions_titres": [
+    "Conservation de la masse"
+   ],
+   "corrige": [
+    "Loi de Lavoisier : au cours d'une réaction chimique la masse totale se conserve.",
+    "$m_{\\text{réactifs}} = m_{Cu} + m_{CO_2} = 6{,}4 + 2{,}93 \\approx 9{,}33\\ \\text{g}$."
+   ],
+   "bareme": [
+    0.25,
+    0.5
+   ],
+   "resultat_final": "≈ 9,33 g",
+   "piege": "Additionner seulement 6,4 g.",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-B.1",
+   "enonce": "Nature de l'eau sucrée et concentration en H₃O⁺.",
+   "points": 0.75,
+   "notions_titres": [
+    "pH"
+   ],
+   "corrige": [
+    "pH = 7 : solution **neutre** (le sucre ne modifie pas le pH).",
+    "Les ions $\\ce{H3O+}$ et $\\ce{OH-}$ sont en concentrations égales ($10^{-7}$ mol/L à 25 °C), comme dans l'eau pure."
+   ],
+   "bareme": [
+    0.25,
+    0.5
+   ],
+   "resultat_final": "Neutre ; [H₃O⁺] = [OH⁻]",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIII-B.2",
+   "enonce": "Couleur avec le BBT.",
+   "points": 0.5,
+   "notions_titres": [
+    "Indicateurs colorés"
+   ],
+   "corrige": [
+    "Le bleu de bromothymol prend la teinte **verte** (milieu neutre)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Vert",
+   "piege": "",
+   "astuce": "BBT : jaune (acide), vert (neutre), bleu (basique)."
+  },
+  {
+   "numero": "ExIII-B.3",
+   "enonce": "Variation du pH après ajout de soude.",
+   "points": 0.5,
+   "notions_titres": [
+    "pH"
+   ],
+   "corrige": [
+    "La soude est basique : le pH **augmente** (devient supérieur à 7)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Le pH augmente (> 7)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIV-1",
+   "enonce": "Consommation mensuelle : lampes, TV, thermoplongeur.",
+   "points": 2.25,
+   "notions_titres": [
+    "Énergie électrique"
+   ],
+   "corrige": [
+    "Lampes : $E = P t = (2 \\times 60 + 25) \\times 120 = 145 \\times 120 = 17\\,400\\ \\text{Wh} = 17{,}4\\ \\text{kWh}$.",
+    "TV : $E = 200 \\times 60 = 12\\,000\\ \\text{Wh} = 12\\ \\text{kWh}$.",
+    "Thermoplongeur : $E = 300 \\times 10 = 3000\\ \\text{Wh} = 3\\ \\text{kWh}$."
+   ],
+   "bareme": [
+    0.75,
+    0.75,
+    0.75
+   ],
+   "resultat_final": "17,4 kWh ; 12 kWh ; 3 kWh",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "ExIV-2",
+   "enonce": "Coût de la consommation en 2 mois.",
+   "points": 1.25,
+   "notions_titres": [
+    "Énergie électrique",
+    "Facture"
+   ],
+   "corrige": [
+    "Consommation mensuelle : $17{,}4 + 12 + 3 = 32{,}4\\ \\text{kWh}$ ; en 2 mois : $64{,}8\\ \\text{kWh}$.",
+    "Coût : $64{,}8 \\times 58{,}5 \\approx 3791\\ \\text{F}$ (3790,8 F)."
+   ],
+   "bareme": [
+    0.5,
+    0.75
+   ],
+   "resultat_final": "≈ 3791 F",
+   "piege": "Oublier de doubler pour 2 mois.",
+   "astuce": "L'ancien index (1087 kWh) n'intervient pas dans le calcul."
+  },
+  {
+   "numero": "ExIV-3",
+   "enonce": "Fonctionnement simultané avec 2,2 kW souscrits.",
+   "points": 1,
+   "notions_titres": [
+    "Puissance électrique"
+   ],
+   "corrige": [
+    "Puissance totale : $145 + 200 + 300 = 645\\ \\text{W} = 0{,}645\\ \\text{kW}$.",
+    "0,645 kW < 2,2 kW : **oui**, il peut tout faire fonctionner en même temps."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Oui (645 W < 2,2 kW)",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "CnH2n+2 ; équation générale ; V(O₂)/V(CO₂) = (3n+1)/2n ; n = 3 propane ; C₃H₈ + 5O₂ ; f = 20 cm, C = 5 δ, image à 40 cm, 20 cm, réelle renversée ; CO₂ + Cu, 2CuO + C → 2Cu + CO₂, m = 2,93 g, 9,33 g ; neutre, vert, pH augmente ; 17,4/12/3 kWh, 3790,8 F, 645 W.",
+  "passe2": "n recalculé par n = V(CO₂)/(2V(O₂) − 3V(CO₂)) = 3 ; image par symétrie 2f-2f ; masse par n(CO₂) = 1,6/24 mol × 44 ; énergies via P×t en kWh directement. Résultats identiques.",
+  "code": "oui (verif.py)",
+  "desaccords": [
+   "ExI-2.b : résultat dépendant de la convention de composition de l'air ; avec 1/5 de O₂ (convention du collège) n = 3 (propane, réponse aussi notée à la main sur le scan) ; avec 21 % on trouverait n = 2. Retenu : propane.",
+   "ExIII-A : données incohérentes dans l'énoncé : 6,4 g de cuivre (0,1 mol) correspondent à 1,2 L de CO₂ et non 1,6 L. La réponse attendue au niveau 3e (Lavoisier) est 6,4 + 2,93 ≈ 9,33 g ; signalé dans corrections_litiges.md.",
+   "ExI-3/ExI-4 : l'OCR montre deux « (0,5 pt) » après la question 3 et aucun après la 4 ; barème proposé 0,5 + 0,5, non officiel.",
+   "« 248 » lu par l'OCR interprété comme « 24 L » (volume molaire usuel à température ordinaire)."
+  ]
+ },
+ "notes_transcription": [
+  "Sujet complet (20 points). Le scan contient à la suite des notes manuscrites d'un élève (réponses à l'exercice I : « propane ») ; elles ne sont pas transcrites."
+ ],
+ "points_transcrits": 20.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

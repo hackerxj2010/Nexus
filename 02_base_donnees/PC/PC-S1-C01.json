@@ -1,0 +1,716 @@
+{
+ "id": "PC-S1-C01",
+ "matiere": "PC",
+ "semestre": 1,
+ "ordre": 1,
+ "titre": "Généralités sur le mouvement",
+ "objectifs": [
+  "Définir un référentiel et justifier la relativité du mouvement.",
+  "Reconnaître une trajectoire rectiligne, circulaire ou curviligne et un mouvement de translation ou de rotation.",
+  "Calculer une vitesse moyenne et convertir m/s ↔ km/h.",
+  "Déterminer une vitesse instantanée à partir d'un enregistrement et représenter le vecteur vitesse.",
+  "Écrire et exploiter l'équation horaire d'un MRU (problèmes de rencontre).",
+  "Utiliser T, f, ω et v = Rω pour un mouvement circulaire uniforme."
+ ],
+ "prerequis": [
+  "PC-3e-MOUVEMENT",
+  "M-3e-PROPORTIONNALITE"
+ ],
+ "notions": [
+  {
+   "id": "PC-S1-C01-N1",
+   "titre": "Relativité du mouvement : référentiel et trajectoire",
+   "prerequis_notions": [
+    "PC-3e-MOUVEMENT"
+   ],
+   "cours_md": "## 1. Le mobile et le point étudié\nOn appelle **mobile** l'objet dont on étudie le mouvement (une moto, un ballon, la Lune…). En Seconde, on étudie le plus souvent le mouvement d'**un point** du mobile, par exemple son centre de gravité $G$ ou la valve d'une roue.\n\n## 2. Le référentiel\n:::definition Référentiel\nUn **référentiel** est un objet de référence, considéré comme immobile, par rapport auquel on décrit le mouvement d'un mobile. On lui associe :\n- un **repère d'espace** (une origine $O$ et des axes orientés) pour repérer la **position** du point ;\n- un **repère de temps** (une origine des dates et une unité, la seconde) : c'est une horloge, qui donne les **dates** $t$.\n:::\n\n| Référentiel | Objet de référence | Usage |\n|---|---|---|\n| terrestre | le sol, une maison, un arbre | mouvements au sol : zémidjan, ballon, voiture |\n| géocentrique | le centre de la Terre et trois étoiles lointaines | mouvement de la Lune, des satellites |\n| héliocentrique | le centre du Soleil et trois étoiles lointaines | mouvement des planètes |\n\n## 3. Le mouvement est relatif\n:::propriete Relativité du mouvement\nUn même objet peut être **en mouvement** par rapport à un référentiel et **au repos** par rapport à un autre. On ne peut donc pas parler de mouvement sans **préciser le référentiel**.\n:::\nExemple : dans un car Lomé–Kara, le passager assis est **immobile par rapport au car** mais **en mouvement par rapport à la route**.\n\n## 4. Date et durée\n- La **date** $t$ repère un instant (lue sur l'horloge).\n- La **durée** entre deux dates est $\\Delta t = t_2 - t_1$ (toujours positive).\n- Unité SI : la seconde (s). $1\\ \\text{min} = 60\\ \\text{s}$ ; $1\\ \\text{h} = 3600\\ \\text{s}$.\n\n## 5. La trajectoire\n:::definition Trajectoire\nLa **trajectoire** d'un point est l'ensemble des positions successives occupées par ce point au cours du temps, **dans un référentiel donné**.\n:::\n- trajectoire **rectiligne** : une portion de droite (voiture sur une route droite) ;\n- trajectoire **circulaire** : un cercle ou un arc de cercle (point d'une pale de ventilateur) ;\n- trajectoire **curviligne** : une courbe quelconque (ballon de football tiré en cloche).\n\n:::remarque La trajectoire dépend aussi du référentiel\nLa valve d'une roue de vélo décrit un **cercle** dans le référentiel du vélo, mais une courbe en arches appelée **cycloïde** dans le référentiel terrestre (voir le schéma).\n:::\n\n## 6. Translation et rotation d'un solide\n- **Translation** : tout segment du solide reste parallèle à lui-même (cabine d'ascenseur, tiroir que l'on ouvre). Tous les points ont des trajectoires identiques.\n- **Rotation autour d'un axe fixe** : chaque point du solide (hors de l'axe) décrit un cercle centré sur l'axe (ventilateur, porte, roue de moulin à maïs).\n\n## 7. Enregistrer un mouvement\n:::methode Chronophotographie\n1. On marque les positions $M_0, M_1, M_2, \\dots$ d'un point du mobile à intervalles de temps **égaux** $\\tau$ (mobile autoporteur sur table, ou vidéo image par image).\n2. La durée entre $M_0$ et $M_n$ est $\\Delta t = n\\,\\tau$.\n3. On lit la nature du mouvement :\n - points **alignés** → mouvement rectiligne ;\n - écarts **égaux** → mouvement uniforme ; écarts qui **augmentent** → mouvement accéléré ; écarts qui **diminuent** → mouvement ralenti.\n:::\n\n## Exemples résolus\n**Exemple 1.** Koffi est assis dans un taxi-brousse qui roule de Lomé vers Kpalimé. Est-il en mouvement par rapport : a) au chauffeur ? b) à un manguier au bord de la route ? c) à une moto qui roule à côté, exactement à la même vitesse ?\n- a) La distance Koffi–chauffeur ne change pas : **repos** dans le référentiel du taxi.\n- b) Sa position change par rapport à l'arbre : **mouvement** dans le référentiel terrestre.\n- c) Même vitesse, même sens : sa position ne change pas par rapport à la moto : **repos** par rapport à la moto.\n\n**Exemple 2.** Sur un enregistrement, l'intervalle entre deux points est $\\tau = 40\\ \\text{ms}$. Les écarts successifs sont 1,0 cm ; 1,5 cm ; 2,0 cm ; 2,5 cm et les points sont alignés. Calcule la durée entre $M_0$ et $M_4$ et donne la nature du mouvement.\n- $\\Delta t = 4\\tau = 4 \\times 40 = 160\\ \\text{ms} = 0{,}160\\ \\text{s}$.\n- Points alignés : mouvement **rectiligne** ; écarts croissants : mouvement **accéléré**.",
+   "definition": "Un référentiel est l'objet de référence par rapport auquel on décrit un mouvement ; la trajectoire est l'ensemble des positions successives d'un point dans ce référentiel.",
+   "formules": [
+    "$\\Delta t = t_2 - t_1$",
+    "$\\Delta t = n\\,\\tau$ (enregistrement)"
+   ],
+   "niveaux": {
+    "phrase": "Avant de dire qu'un objet bouge, il faut dire « par rapport à quoi » : c'est le référentiel.",
+    "simple": "Assis dans un car, tu es immobile pour ton voisin mais tu files à 80 km/h pour le vendeur d'arachides au bord de la route : le mouvement dépend de celui qui regarde.",
+    "complete": "Le mouvement d'un point est décrit dans un référentiel muni d'un repère d'espace et d'un repère de temps. Position, vitesse et trajectoire dépendent du référentiel : le mouvement est relatif. Les référentiels usuels sont terrestre, géocentrique et héliocentrique. Un solide peut être en translation (segments restant parallèles) ou en rotation autour d'un axe fixe (trajectoires circulaires centrées sur l'axe)."
+   },
+   "analogie": "Le passager du zémidjan est immobile par rapport au conducteur, mais en mouvement par rapport au marché d'Adawlato qu'il dépasse.",
+   "exemples_resolus": [
+    {
+     "enonce": "Koffi est assis dans un taxi-brousse Lomé–Kpalimé. Est-il en mouvement par rapport au chauffeur ? à un manguier ? à une moto roulant à la même vitesse à côté ?",
+     "etapes": [
+      "Par rapport au chauffeur : la distance ne change pas, donc repos (référentiel du taxi).",
+      "Par rapport au manguier : la position change, donc mouvement (référentiel terrestre).",
+      "Par rapport à la moto (même vitesse, même sens) : repos.",
+      "Conclusion : le mouvement est relatif au référentiel choisi."
+     ]
+    },
+    {
+     "enonce": "Enregistrement avec $\\tau = 40\\ \\text{ms}$ ; écarts 1,0 ; 1,5 ; 2,0 ; 2,5 cm, points alignés. Durée $M_0 \\to M_4$ et nature du mouvement ?",
+     "etapes": [
+      "$\\Delta t = 4\\tau = 4 \\times 40\\ \\text{ms} = 160\\ \\text{ms} = 0{,}160\\ \\text{s}$.",
+      "Points alignés : mouvement rectiligne.",
+      "Écarts croissants pour des durées égales : mouvement accéléré."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire « l'objet est en mouvement » sans préciser le référentiel.",
+    "Compter $n+1$ intervalles au lieu de $n$ : entre $M_0$ et $M_4$ il y a 4 intervalles $\\tau$, pas 5.",
+    "Croire que la trajectoire est la même dans tous les référentiels.",
+    "Confondre date (instant) et durée (intervalle)."
+   ],
+   "astuces": [
+    "Commence toujours ta réponse par « Dans le référentiel … ».",
+    "Pour un enregistrement : regarde d'abord l'alignement (forme de la trajectoire) puis les écarts (uniforme, accéléré, ralenti)."
+   ],
+   "mnemo": "« Pas de mouvement sans référentiel » : R comme Référentiel, R comme Relatif.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu disais déjà qu'un objet est « en mouvement par rapport à… » et tu distinguais trajectoire rectiligne et circulaire. En Seconde, on ajoute le repère d'espace, l'horloge et l'enregistrement."
+   },
+   "methode_redaction": "Écris : « Dans le référentiel terrestre, le point M est en mouvement car sa position change au cours du temps » ; pour un enregistrement, justifie la nature du mouvement par deux observations (alignement, écarts).",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un référentiel ?",
+     "r": "Un objet de référence, supposé immobile, par rapport auquel on décrit le mouvement ; il est muni d'un repère d'espace et d'une horloge."
+    },
+    {
+     "q": "Cite les trois référentiels usuels.",
+     "r": "Terrestre, géocentrique, héliocentrique."
+    },
+    {
+     "q": "Définis la trajectoire.",
+     "r": "L'ensemble des positions successives d'un point du mobile au cours du temps, dans un référentiel donné."
+    },
+    {
+     "q": "Trajectoire de la valve d'un vélo dans le référentiel terrestre ?",
+     "r": "Une cycloïde (courbe en arches) ; c'est un cercle dans le référentiel du vélo."
+    },
+    {
+     "q": "Différence entre translation et rotation ?",
+     "r": "Translation : tout segment du solide reste parallèle à lui-même ; rotation : chaque point décrit un cercle centré sur l'axe."
+    },
+    {
+     "q": "Enregistrement : écarts égaux et points alignés ?",
+     "r": "Mouvement rectiligne uniforme."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C01-N1.svg",
+    "alt": "Deux schémas : à gauche une roue avec la valve qui décrit un cercle dans le référentiel du vélo ; à droite la même valve qui décrit une courbe en arches (cycloïde) dans le référentiel du sol.",
+    "legende": "La trajectoire dépend du référentiel : cercle pour le cycliste, cycloïde pour le piéton au bord de la route.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C01-N2",
+   "titre": "Vitesse moyenne et vitesse instantanée",
+   "prerequis_notions": [
+    "PC-S1-C01-N1"
+   ],
+   "cours_md": "## 1. Vitesse moyenne\n:::definition Vitesse moyenne\nLa vitesse moyenne d'un mobile qui parcourt une distance $d$ pendant une durée $\\Delta t$ est :\n$$v_m = \\frac{d}{\\Delta t}$$\nUnités SI : $d$ en mètres (m), $\\Delta t$ en secondes (s), $v_m$ en mètres par seconde ($\\text{m/s}$ ou $\\text{m}\\cdot\\text{s}^{-1}$).\n:::\n\n:::methode Conversion km/h ↔ m/s\n$1\\ \\text{m/s} = \\dfrac{1\\ \\text{km}/1000}{1\\ \\text{h}/3600} = 3{,}6\\ \\text{km/h}$.\n- m/s → km/h : on **multiplie** par 3,6 ;\n- km/h → m/s : on **divise** par 3,6. Exemple : $72\\ \\text{km/h} = 72/3{,}6 = 20\\ \\text{m/s}$.\n:::\n\n**Ordres de grandeur**\n\n| Mobile | Vitesse |\n|---|---|\n| escargot | environ $1\\ \\text{mm/s}$ |\n| piéton | environ $1{,}4\\ \\text{m/s}$ (5 km/h) |\n| zémidjan en ville | environ $11\\ \\text{m/s}$ (40 km/h) |\n| son dans l'air | environ $340\\ \\text{m/s}$ |\n| avion de ligne | environ $250\\ \\text{m/s}$ (900 km/h) |\n| lumière dans le vide | $3{,}00 \\times 10^{8}\\ \\text{m/s}$ |\n\n## 2. Vitesse instantanée\nLa vitesse **instantanée** est la vitesse à un instant précis : c'est ce qu'indique le compteur d'une moto. On l'obtient comme une vitesse moyenne calculée sur une durée **très courte** autour de cet instant.\n\n:::methode Vitesse instantanée à partir d'un enregistrement\nSur un enregistrement où les points sont séparés par la durée $\\tau$, la vitesse au point $M_i$ est approximativement :\n$$v_i \\approx \\frac{M_{i-1}M_{i+1}}{2\\tau}$$\nOn prend la distance entre le point **qui précède** et le point **qui suit** $M_i$, parcourue en $2\\tau$. Attention à l'échelle du document : convertir la longueur mesurée en longueur réelle, puis en mètres.\n:::\n\n## 3. Le vecteur vitesse\n:::definition Vecteur vitesse\nLe vecteur vitesse $\\vec{v}$ d'un point $M$ à un instant donné a pour :\n- **origine** : le point $M$ ;\n- **direction** : la tangente à la trajectoire en $M$ ;\n- **sens** : celui du mouvement ;\n- **longueur** : proportionnelle à la valeur $v$, selon une échelle choisie (par exemple $1\\ \\text{cm} \\leftrightarrow 0{,}1\\ \\text{m/s}$).\n:::\nPour une trajectoire rectiligne, le vecteur vitesse est porté par la droite trajectoire.\n\n## Exemples résolus\n**Exemple 1.** Un zémidjan parcourt 6,0 km en 12 min dans Lomé. Calcule sa vitesse moyenne en m/s puis en km/h.\n- Conversions : $d = 6{,}0\\ \\text{km} = 6000\\ \\text{m}$ ; $\\Delta t = 12 \\times 60 = 720\\ \\text{s}$.\n- $v_m = \\dfrac{d}{\\Delta t} = \\dfrac{6000}{720} = 8{,}3\\ \\text{m/s}$.\n- En km/h : $8{,}33 \\times 3{,}6 = 30\\ \\text{km/h}$.\n\n**Exemple 2.** Sur un enregistrement grandeur réelle, $\\tau = 40\\ \\text{ms}$ et $M_2M_4 = 2{,}4\\ \\text{cm}$. Calcule $v_3$ et la longueur du vecteur $\\vec{v}_3$ à l'échelle $1\\ \\text{cm} \\leftrightarrow 0{,}1\\ \\text{m/s}$.\n- $v_3 \\approx \\dfrac{M_2M_4}{2\\tau} = \\dfrac{0{,}024}{2 \\times 0{,}040} = 0{,}30\\ \\text{m/s}$.\n- Longueur du vecteur : $0{,}30 / 0{,}1 = 3{,}0\\ \\text{cm}$, tangent à la trajectoire, dans le sens du mouvement.\n\n**Exemple 3.** Un car relie Lomé à Kara (410 km) en 6 h 30 min. Vitesse moyenne ?\n- $\\Delta t = 6{,}5\\ \\text{h}$ ; $v_m = \\dfrac{410}{6{,}5} = 63\\ \\text{km/h}$, soit $63{,}1/3{,}6 = 17{,}5\\ \\text{m/s}$.\n- La vitesse moyenne ne dit rien des arrêts et des accélérations pendant le trajet.",
+   "definition": "La vitesse moyenne est le quotient de la distance parcourue par la durée du parcours ; la vitesse instantanée est la vitesse à un instant donné, représentée par un vecteur tangent à la trajectoire.",
+   "formules": [
+    "$v_m = \\dfrac{d}{\\Delta t}$",
+    "$1\\ \\text{m/s} = 3{,}6\\ \\text{km/h}$",
+    "$v_i \\approx \\dfrac{M_{i-1}M_{i+1}}{2\\tau}$"
+   ],
+   "niveaux": {
+    "phrase": "La vitesse moyenne, c'est la distance divisée par le temps mis pour la parcourir.",
+    "simple": "Si tu fais 100 m en 20 s, tu fais en moyenne 5 m chaque seconde : ta vitesse moyenne est 5 m/s. Le compteur de la moto, lui, donne la vitesse de l'instant présent.",
+    "complete": "$v_m = d/\\Delta t$ (m/s). La vitesse instantanée est la limite de la vitesse moyenne sur une durée tendant vers zéro ; sur un enregistrement de pas $\\tau$, $v_i \\approx M_{i-1}M_{i+1}/(2\\tau)$. Le vecteur vitesse est tangent à la trajectoire, orienté dans le sens du mouvement, de norme $v$."
+   },
+   "analogie": "Le zémidjan qui met 10 min pour aller du grand marché à Bè n'a pas roulé tout le temps à la même vitesse : la vitesse moyenne « lisse » les arrêts aux feux.",
+   "exemples_resolus": [
+    {
+     "enonce": "Un zémidjan parcourt 6,0 km en 12 min. Vitesse moyenne en m/s et en km/h ?",
+     "etapes": [
+      "Conversions : $d = 6000\\ \\text{m}$ ; $\\Delta t = 12 \\times 60 = 720\\ \\text{s}$.",
+      "$v_m = \\dfrac{d}{\\Delta t} = \\dfrac{6000}{720}$.",
+      "$v_m = 8{,}3\\ \\text{m/s}$.",
+      "$8{,}33 \\times 3{,}6 = 30\\ \\text{km/h}$."
+     ]
+    },
+    {
+     "enonce": "$\\tau = 40\\ \\text{ms}$, $M_2M_4 = 2{,}4\\ \\text{cm}$ (réel). Calcule $v_3$.",
+     "etapes": [
+      "Formule : $v_3 \\approx \\dfrac{M_2M_4}{2\\tau}$.",
+      "Conversions : $M_2M_4 = 0{,}024\\ \\text{m}$ ; $2\\tau = 0{,}080\\ \\text{s}$.",
+      "$v_3 = \\dfrac{0{,}024}{0{,}080} = 0{,}30\\ \\text{m/s}$."
+     ]
+    },
+    {
+     "enonce": "Lomé–Kara (410 km) en 6 h 30 min : vitesse moyenne ?",
+     "etapes": [
+      "$\\Delta t = 6{,}5\\ \\text{h}$.",
+      "$v_m = 410 / 6{,}5 = 63\\ \\text{km/h}$.",
+      "$63{,}1 / 3{,}6 = 17{,}5\\ \\text{m/s}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier de convertir les minutes en secondes ou les km en m.",
+    "Multiplier par 3,6 au lieu de diviser pour passer des km/h aux m/s.",
+    "Utiliser $M_iM_{i+1}/\\tau$ (vitesse sur un seul intervalle, décalée) au lieu de $M_{i-1}M_{i+1}/(2\\tau)$.",
+    "Dessiner le vecteur vitesse qui ne part pas du point ou qui n'est pas tangent à la trajectoire.",
+    "Oublier l'échelle du document (distance sur la feuille ≠ distance réelle)."
+   ],
+   "astuces": [
+    "Contrôle ton résultat avec les ordres de grandeur : un élève qui marche ne va pas à 50 m/s.",
+    "km/h vers m/s : le résultat en m/s est toujours plus petit."
+   ],
+   "mnemo": "« Je divise pour descendre » : km/h → m/s, on divise par 3,6 (on descend vers le plus petit nombre).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu utilisais déjà $v = d/t$ avec des km et des heures. En Seconde, on travaille en unités SI (m, s) et on ajoute la vitesse instantanée et le vecteur vitesse."
+   },
+   "methode_redaction": "Écris la formule littérale ($v_m = d/\\Delta t$), convertis en unités SI, remplace par les valeurs, puis donne le résultat avec l'unité et 2 ou 3 chiffres significatifs.",
+   "flash": [
+    {
+     "q": "Formule de la vitesse moyenne ?",
+     "r": "$v_m = d / \\Delta t$, en m/s."
+    },
+    {
+     "q": "Convertir 36 km/h en m/s.",
+     "r": "$36 / 3{,}6 = 10\\ \\text{m/s}$."
+    },
+    {
+     "q": "Convertir 15 m/s en km/h.",
+     "r": "$15 \\times 3{,}6 = 54\\ \\text{km/h}$."
+    },
+    {
+     "q": "Formule de la vitesse instantanée sur un enregistrement ?",
+     "r": "$v_i \\approx M_{i-1}M_{i+1} / (2\\tau)$."
+    },
+    {
+     "q": "Direction du vecteur vitesse ?",
+     "r": "La tangente à la trajectoire au point considéré."
+    },
+    {
+     "q": "Vitesse de la lumière dans le vide ?",
+     "r": "$3{,}00 \\times 10^{8}\\ \\text{m/s}$."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C01-N2.svg",
+    "alt": "Enregistrement d'un mobile : points M0 à M6 de plus en plus espacés sur une droite ; le segment M2M4 est repéré et le vecteur vitesse v3 est dessiné au point M3 dans le sens du mouvement.",
+    "legende": "Vitesse instantanée au point M3 : on mesure M2M4, parcouru pendant 2τ.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C01-N3",
+   "titre": "Mouvement rectiligne uniforme et mouvement circulaire uniforme",
+   "prerequis_notions": [
+    "PC-S1-C01-N2"
+   ],
+   "cours_md": "## 1. Mouvement rectiligne uniforme (MRU)\n:::definition MRU\nUn point est en **mouvement rectiligne uniforme** si sa trajectoire est une **droite** et si sa vitesse est **constante**. Son vecteur vitesse est alors constant (même direction, même sens, même valeur).\n:::\n\n:::propriete Équation horaire\nSur un axe $(O, \\vec{i})$ orienté dans le sens du mouvement, l'abscisse du point vérifie :\n$$x(t) = v\\,(t - t_0) + x_0$$\noù $x_0$ est l'abscisse à la date $t_0$. Si $t_0 = 0$ : $x(t) = v\\,t + x_0$. Si le point se déplace dans le sens négatif de l'axe, on remplace $v$ par $-v$.\n:::\nLe graphe $x(t)$ est une **droite** dont la pente (coefficient directeur) est la vitesse $v$.\n\n:::methode Problème de rencontre\n1. Choisir **une seule** origine des espaces et **une seule** origine des dates pour les deux mobiles.\n2. Écrire les deux équations horaires $x_A(t)$ et $x_B(t)$ (attention au signe de la vitesse).\n3. À la rencontre : $x_A(t_R) = x_B(t_R)$ ; on résout pour trouver $t_R$, puis on calcule $x_R$.\n:::\n\n## 2. Mouvement circulaire uniforme (MCU)\n:::definition MCU\nUn point est en **mouvement circulaire uniforme** si sa trajectoire est un **cercle** et si la valeur de sa vitesse est constante. Le vecteur vitesse change de **direction** à chaque instant (il reste tangent au cercle) : il n'est donc pas constant.\n:::\n\n| Grandeur | Définition | Unité |\n|---|---|---|\n| période $T$ | durée d'un tour | s |\n| fréquence $f$ | nombre de tours par seconde, $f = 1/T$ | hertz (Hz) |\n| vitesse $v$ | $v = \\dfrac{2\\pi R}{T}$ | m/s |\n| vitesse angulaire $\\omega$ | angle balayé par seconde, $\\omega = \\dfrac{2\\pi}{T} = 2\\pi f$ | rad/s |\n\n:::propriete Relation vitesse – vitesse angulaire\n$$v = R\\,\\omega$$\nAbscisse angulaire : $\\theta(t) = \\omega t + \\theta_0$ ; abscisse curviligne : $s = R\\,\\theta$ ($\\theta$ en radians).\n:::\n\n:::attention tours par minute\nUne vitesse de rotation en tours par minute $N$ se convertit ainsi : $f = N/60$ (en Hz) et $\\omega = 2\\pi N/60$ (en rad/s).\n:::\n\n## Exemples résolus\n**Exemple 1 (rencontre).** Sur la route Lomé–Aného (45 km), le zémidjan A part de Lomé à 8 h 00 à 54 km/h vers Aného ; au même instant, B part d'Aného à 36 km/h vers Lomé. Où et quand se croisent-ils ?\n- Origine des espaces : Lomé, axe orienté vers Aného ; origine des dates : 8 h 00 ; unités km et h.\n- $x_A = 54\\,t$ ; $x_B = 45 - 36\\,t$.\n- Rencontre : $54\\,t = 45 - 36\\,t \\Rightarrow 90\\,t = 45 \\Rightarrow t = 0{,}50\\ \\text{h}$, soit à **8 h 30**.\n- $x = 54 \\times 0{,}50 = 27\\ \\text{km}$ de Lomé.\n\n**Exemple 2 (MCU).** Les pales d'un ventilateur tournent à 1200 tr/min. Un point est à $R = 20\\ \\text{cm}$ de l'axe. Calcule $f$, $T$, $\\omega$ et $v$.\n- $f = 1200/60 = 20\\ \\text{Hz}$ ; $T = 1/f = 0{,}050\\ \\text{s}$.\n- $\\omega = 2\\pi f = 2\\pi \\times 20 = 126\\ \\text{rad/s}$.\n- $v = R\\,\\omega = 0{,}20 \\times 125{,}7 = 25{,}1\\ \\text{m/s}$.",
+   "definition": "Le MRU a une trajectoire droite et une vitesse constante ; le MCU a une trajectoire circulaire parcourue à vitesse de valeur constante.",
+   "formules": [
+    "$x(t) = v\\,(t - t_0) + x_0$",
+    "$f = \\dfrac{1}{T}$",
+    "$v = \\dfrac{2\\pi R}{T} = R\\,\\omega$",
+    "$\\omega = \\dfrac{2\\pi}{T} = 2\\pi f$"
+   ],
+   "niveaux": {
+    "phrase": "MRU : en ligne droite à vitesse constante ; MCU : en rond à vitesse constante.",
+    "simple": "Une voiture sur une route droite avec le compteur bloqué sur 60 km/h est en MRU ; un point d'une pale de ventilateur qui tourne régulièrement est en MCU.",
+    "complete": "MRU : $\\vec{v}$ constant, $x(t) = v(t-t_0)+x_0$, graphe $x(t)$ droite de pente $v$. MCU : $|\\vec v|$ constant mais direction variable ; $T$, $f = 1/T$, $\\omega = 2\\pi/T$, $v = R\\omega$, $\\theta = \\omega t + \\theta_0$, $s = R\\theta$."
+   },
+   "analogie": "Le moulin à maïs du quartier : chaque point de la meule tourne en cercle, en un tour toujours de la même durée tant que le moteur tourne régulièrement.",
+   "exemples_resolus": [
+    {
+     "enonce": "Lomé–Aného (45 km) : A part de Lomé à 54 km/h, B d'Aného à 36 km/h, à 8 h 00. Rencontre ?",
+     "etapes": [
+      "Origine : Lomé, axe vers Aného ; dates comptées depuis 8 h 00.",
+      "$x_A = 54t$ et $x_B = 45 - 36t$ (km, h).",
+      "$54t = 45 - 36t \\Rightarrow t = 0{,}50\\ \\text{h}$ : rencontre à 8 h 30.",
+      "$x = 54 \\times 0{,}50 = 27\\ \\text{km}$ de Lomé."
+     ]
+    },
+    {
+     "enonce": "Ventilateur à 1200 tr/min, point à 20 cm de l'axe : f, T, ω, v ?",
+     "etapes": [
+      "$f = N/60 = 1200/60 = 20\\ \\text{Hz}$.",
+      "$T = 1/f = 0{,}050\\ \\text{s}$.",
+      "$\\omega = 2\\pi f = 126\\ \\text{rad/s}$.",
+      "$v = R\\omega = 0{,}20 \\times 125{,}7 = 25{,}1\\ \\text{m/s}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Prendre deux origines des dates différentes pour deux mobiles dans un problème de rencontre.",
+    "Oublier le signe « − » de la vitesse d'un mobile qui va dans le sens négatif de l'axe.",
+    "Dire que le vecteur vitesse d'un MCU est constant : sa valeur l'est, pas sa direction.",
+    "Utiliser des tours par minute sans diviser par 60.",
+    "Prendre le diamètre au lieu du rayon dans $v = R\\omega$."
+   ],
+   "astuces": [
+    "Dans un problème de rencontre, vérifie : $x_R$ doit être compris entre les deux points de départ.",
+    "$2\\pi \\approx 6{,}28$ : un point à 1 m de l'axe qui fait 1 tour/s va à 6,28 m/s."
+   ],
+   "mnemo": "« T comme Tour » : la période, c'est la durée d'un Tour ; f = 1/T.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu traçais des graphiques et tu calculais des coefficients directeurs en maths : la pente du graphe x(t) d'un MRU, c'est la vitesse."
+   },
+   "methode_redaction": "Pour une rencontre : précise le repère (origine, sens, origine des dates), écris les deux équations horaires, pose l'égalité, résous, puis convertis la date en heure de l'horloge et la position en distance d'un lieu connu.",
+   "flash": [
+    {
+     "q": "Définis le MRU.",
+     "r": "Trajectoire rectiligne et vitesse constante (vecteur vitesse constant)."
+    },
+    {
+     "q": "Équation horaire d'un MRU ?",
+     "r": "$x(t) = v(t - t_0) + x_0$."
+    },
+    {
+     "q": "Relation entre v et ω ?",
+     "r": "$v = R\\,\\omega$ (ω en rad/s)."
+    },
+    {
+     "q": "Relation entre f et T ?",
+     "r": "$f = 1/T$ (Hz si T en s)."
+    },
+    {
+     "q": "Le vecteur vitesse d'un MCU est-il constant ?",
+     "r": "Non : sa valeur est constante mais sa direction change."
+    },
+    {
+     "q": "Convertir 600 tr/min en rad/s.",
+     "r": "$\\omega = 2\\pi \\times 600/60 = 20\\pi \\approx 62{,}8\\ \\text{rad/s}$."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C01-N3.svg",
+    "alt": "À gauche, graphe position-temps d'un mouvement rectiligne uniforme (droite de pente v). À droite, cercle de rayon R parcouru à vitesse constante avec trois vecteurs vitesse de même longueur, tangents au cercle.",
+    "legende": "MRU : x(t) est une droite. MCU : vecteurs vitesse de même valeur mais de directions différentes.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S1-C01-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C01-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Un passager est assis dans un bus qui roule. Par rapport à quoi est-il **en mouvement** ?",
+   "choix": [
+    "Son siège",
+    "Le chauffeur",
+    "La route",
+    "Son sac posé sur ses genoux"
+   ],
+   "bonne_reponse": 2,
+   "indices": [
+    "Le siège, le chauffeur et le sac se déplacent avec le bus."
+   ],
+   "corrige": [
+    "Pas de calcul : on regarde si la position du passager change par rapport à chaque objet.",
+    "Seule la route (référentiel terrestre) voit sa position changer : réponse « la route »."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Le passager est immobile par rapport à tout ce qui est dans le bus.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C01-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C01-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Convertis 72 km/h en m/s (donne seulement le nombre).",
+   "reponses_acceptees": [
+    "20",
+    "20m/s",
+    "20 m/s"
+   ],
+   "indices": [
+    "1 m/s = 3,6 km/h."
+   ],
+   "corrige": [
+    "km/h → m/s : on divise par 3,6.",
+    "$v = 72 / 3{,}6 = 20\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Multiplier par 3,6 donnerait 259 : absurde pour une voiture.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C01-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C01-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un élève parcourt 1,2 km en 15 min pour aller au lycée. Calcule sa vitesse moyenne en m/s (2 ou 3 chiffres significatifs).",
+   "reponses_acceptees": [
+    "1,3",
+    "1,33",
+    "1,333",
+    "1,3m/s",
+    "1,33m/s",
+    "4/3"
+   ],
+   "indices": [
+    "Convertis en mètres et en secondes."
+   ],
+   "corrige": [
+    "Conversions : $d = 1200\\ \\text{m}$ ; $\\Delta t = 15 \\times 60 = 900\\ \\text{s}$.",
+    "$v_m = \\dfrac{d}{\\Delta t} = \\dfrac{1200}{900}$.",
+    "$v_m = 1{,}3\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    1
+   ],
+   "piege": "Diviser 1,2 par 15 donne des km/min, pas des m/s.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C01-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C01-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle est la trajectoire de la valve d'une roue de vélo qui roule, **dans le référentiel terrestre** ?",
+   "choix": [
+    "Un cercle",
+    "Une droite",
+    "Une cycloïde (courbe en arches)",
+    "Un point fixe"
+   ],
+   "bonne_reponse": 2,
+   "indices": [
+    "Combine la rotation de la roue et l'avancée du vélo."
+   ],
+   "corrige": [
+    "Dans le référentiel du vélo, la valve tourne en cercle autour de l'axe.",
+    "Mais l'axe avance : dans le référentiel terrestre, la valve décrit une courbe en arches, la cycloïde."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Le cercle est la trajectoire dans le référentiel du vélo, pas du sol.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C01-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C01-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un car relie Lomé à Atakpamé (160 km) en 2 h 30 min. Calcule sa vitesse moyenne en km/h.",
+   "reponses_acceptees": [
+    "64",
+    "64km/h"
+   ],
+   "indices": [
+    "30 min = 0,5 h, pas 0,3 h."
+   ],
+   "corrige": [
+    "$\\Delta t = 2\\ \\text{h}\\ 30\\ \\text{min} = 2{,}5\\ \\text{h}$.",
+    "$v_m = \\dfrac{160}{2{,}5} = 64\\ \\text{km/h}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire 2 h 30 min = 2,3 h.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C01-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C01-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Sur un enregistrement en grandeur réelle, la durée entre deux points est $\\tau = 20\\ \\text{ms}$ et $M_3M_5 = 1{,}6\\ \\text{cm}$. Calcule la vitesse instantanée $v_4$ en m/s.",
+   "reponses_acceptees": [
+    "0,40",
+    "0,4",
+    "0,4m/s",
+    "0,40m/s"
+   ],
+   "indices": [
+    "Les points qui encadrent M4 sont M3 et M5.",
+    "Durée entre M3 et M5 : 2τ."
+   ],
+   "corrige": [
+    "$v_4 \\approx \\dfrac{M_3M_5}{2\\tau}$.",
+    "$M_3M_5 = 0{,}016\\ \\text{m}$ ; $2\\tau = 0{,}040\\ \\text{s}$.",
+    "$v_4 = 0{,}016/0{,}040 = 0{,}40\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    1,
+    0.5,
+    0.5
+   ],
+   "piege": "Diviser par τ au lieu de 2τ (on trouverait 0,80 m/s).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C01-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C01-N1",
+    "PC-S1-C01-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Sur un enregistrement, les points sont alignés et régulièrement espacés. Le mouvement est :",
+   "choix": [
+    "rectiligne accéléré",
+    "rectiligne uniforme",
+    "circulaire uniforme",
+    "rectiligne ralenti"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Points alignés : trajectoire rectiligne.",
+    "Écarts égaux pour des durées égales : vitesse constante, donc uniforme."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C01-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C01-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Ama part de Lomé à vélo à 7 h 00 vers Tsévié à 18 km/h. Kodjo part de Tsévié (36 km de Lomé) à 7 h 30 vers Lomé, à 24 km/h. Les vitesses sont constantes et la route est supposée rectiligne.\n1. Écris les équations horaires des deux cyclistes (origine des espaces : Lomé ; origine des dates : 7 h 00 ; unités km et h).\n2. À quelle heure se croisent-ils ?\n3. À quelle distance de Lomé ?",
+   "indices": [
+    "Kodjo part avec 0,5 h de retard : utilise (t − 0,5).",
+    "La vitesse de Kodjo est négative sur l'axe orienté vers Tsévié."
+   ],
+   "corrige": [
+    "Ama : $x_A = 18\\,t$.",
+    "Kodjo part à $t = 0{,}5\\ \\text{h}$ de $x = 36$ en allant vers les $x$ décroissants : $x_K = 36 - 24\\,(t - 0{,}5)$, soit $x_K = 48 - 24\\,t$ (valable pour $t \\geq 0{,}5$).",
+    "Rencontre : $18\\,t = 48 - 24\\,t \\Rightarrow 42\\,t = 48 \\Rightarrow t = 1{,}14\\ \\text{h}$.",
+    "$1{,}143\\ \\text{h} = 1\\ \\text{h} + 0{,}143 \\times 60\\ \\text{min} \\approx 1\\ \\text{h}\\ 09\\ \\text{min}$ : ils se croisent vers **8 h 09**.",
+    "$x = 18 \\times 1{,}143 = 20{,}6\\ \\text{km}$ de Lomé.",
+    "Vérification : $t \\geq 0{,}5\\ \\text{h}$ et $0 < x < 36$ : cohérent."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    0.5,
+    1,
+    0.5
+   ],
+   "piege": "Écrire x_K = 36 − 24 t (oubli du retard de 30 min) donne 8 h 00 et 18 km : faux.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C01-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C01-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Les pales d'un ventilateur tournent à 900 tr/min. Calcule la vitesse (en m/s) de l'extrémité d'une pale située à 25 cm de l'axe.",
+   "reponses_acceptees": [
+    "23,6",
+    "24",
+    "23,56",
+    "23,5",
+    "23,6m/s",
+    "24m/s"
+   ],
+   "indices": [
+    "Convertis d'abord en tours par seconde.",
+    "v = Rω avec R en mètres."
+   ],
+   "corrige": [
+    "$f = 900/60 = 15\\ \\text{Hz}$.",
+    "$\\omega = 2\\pi f = 30\\pi \\approx 94{,}2\\ \\text{rad/s}$.",
+    "$v = R\\,\\omega = 0{,}25 \\times 94{,}2 = 23{,}6\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    1
+   ],
+   "piege": "Prendre R = 25 (cm) donne 2356 : il faut R en m.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C01-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C01-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Un mobile autoporteur est enregistré en grandeur réelle avec $\\tau = 40\\ \\text{ms}$. On mesure : $M_0M_1 = 0{,}8\\ \\text{cm}$ ; $M_1M_2 = 0{,}9\\ \\text{cm}$ ; $M_2M_3 = 1{,}1\\ \\text{cm}$ ; $M_3M_4 = 1{,}5\\ \\text{cm}$ ; $M_4M_5 = 1{,}7\\ \\text{cm}$ ; les points sont alignés.\n1. Nature du mouvement ?\n2. Calcule $v_2$ et $v_4$.\n3. Représente $\\vec{v}_2$ et $\\vec{v}_4$ à l'échelle $1\\ \\text{cm} \\leftrightarrow 0{,}1\\ \\text{m/s}$ (donne les longueurs).",
+   "indices": [
+    "$M_1M_3 = M_1M_2 + M_2M_3$."
+   ],
+   "corrige": [
+    "Points alignés : rectiligne ; écarts croissants : accéléré. Le mouvement est rectiligne accéléré.",
+    "$M_1M_3 = 0{,}9 + 1{,}1 = 2{,}0\\ \\text{cm}$ ; $v_2 = \\dfrac{0{,}020}{0{,}080} = 0{,}25\\ \\text{m/s}$.",
+    "$M_3M_5 = 1{,}5 + 1{,}7 = 3{,}2\\ \\text{cm}$ ; $v_4 = \\dfrac{0{,}032}{0{,}080} = 0{,}40\\ \\text{m/s}$.",
+    "Longueurs : $\\vec v_2$ → 2,5 cm ; $\\vec v_4$ → 4,0 cm ; vecteurs portés par la trajectoire, dans le sens du mouvement, partant de $M_2$ et $M_4$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Utiliser M2M3 seul ou diviser par τ.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C01-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C01-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Une voiture quitte un péage à 8 h 00 à 90 km/h (vitesse constante). Une moto quitte le même péage, sur la même route rectiligne et dans le même sens, à 8 h 10 à 108 km/h.\n1. Exprime ces vitesses en m/s.\n2. Écris les équations horaires (origine : péage ; origine des dates : 8 h 00 ; km et h).\n3. À quelle heure et à quelle distance du péage la moto rattrape-t-elle la voiture ?",
+   "indices": [
+    "10 min = 1/6 h."
+   ],
+   "corrige": [
+    "$90/3{,}6 = 25\\ \\text{m/s}$ ; $108/3{,}6 = 30\\ \\text{m/s}$.",
+    "$x_V = 90\\,t$ ; $x_M = 108\\,(t - \\tfrac{1}{6})$ car 10 min $= \\tfrac{1}{6}$ h.",
+    "$90\\,t = 108\\,t - 18 \\Rightarrow 18\\,t = 18 \\Rightarrow t = 1{,}0\\ \\text{h}$ : rattrapage à **9 h 00**.",
+    "$x = 90 \\times 1{,}0 = 90\\ \\text{km}$ du péage.",
+    "Contrôle : à 8 h 10 la voiture a 15 km d'avance ; la moto gagne 18 km par heure ; il lui faut $15/18$ h = 50 min : 8 h 10 + 50 min = 9 h 00. ✔"
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    0.5,
+    0.5
+   ],
+   "piege": "Écrire 10 min = 0,10 h.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C01-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C01-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La Terre décrit autour du Soleil un cercle de rayon $R = 1{,}5 \\times 10^{11}\\ \\text{m}$ en $T = 365{,}25$ jours (référentiel héliocentrique). Calcule sa vitesse en m/s (écriture scientifique, 2 chiffres significatifs).",
+   "reponses_acceptees": [
+    "3,0e4",
+    "3e4",
+    "3,0x10^4",
+    "3x10^4",
+    "3,0×10^4",
+    "3×10^4",
+    "30000",
+    "29865",
+    "29900",
+    "3,0.10^4",
+    "3,0*10^4"
+   ],
+   "indices": [
+    "Convertis la période en secondes."
+   ],
+   "corrige": [
+    "$T = 365{,}25 \\times 24 \\times 3600 = 3{,}156 \\times 10^{7}\\ \\text{s}$.",
+    "$v = \\dfrac{2\\pi R}{T} = \\dfrac{2\\pi \\times 1{,}5 \\times 10^{11}}{3{,}156 \\times 10^{7}}$.",
+    "$v = 3{,}0 \\times 10^{4}\\ \\text{m/s}$ (environ 30 km/s)."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Laisser T en jours.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C01-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C01-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Une roue de vélo de rayon 0,35 m fait 3 tours par seconde. La vitesse d'un point de la jante par rapport à l'axe vaut environ :",
+   "choix": [
+    "1,05 m/s",
+    "6,6 m/s",
+    "18,9 m/s",
+    "2,1 m/s"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "$\\omega = 2\\pi f = 2\\pi \\times 3 = 18{,}85\\ \\text{rad/s}$.",
+    "$v = R\\omega = 0{,}35 \\times 18{,}85 = 6{,}6\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "1,05 = 0,35 × 3 oublie le facteur 2π.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Ne pas préciser le référentiel avant de parler de mouvement ou de trajectoire.",
+  "Erreurs de conversion : minutes non converties, km/h multipliés par 3,6 au lieu d'être divisés.",
+  "Vitesse instantanée calculée avec $M_iM_{i+1}/\\tau$ au lieu de $M_{i-1}M_{i+1}/(2\\tau)$, ou échelle du document oubliée.",
+  "Problème de rencontre : origine des dates différente pour les deux mobiles, retard au départ oublié, signe de la vitesse oublié.",
+  "Vecteur vitesse d'un MCU déclaré constant ; tr/min utilisés sans conversion ; diamètre pris pour le rayon.",
+  "Résultat sans unité ou avec trop de chiffres significatifs (8,333333 m/s)."
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "id": "FR-S1-C03",
+ "matiere": "FR",
+ "semestre": 1,
+ "ordre": 3,
+ "titre": "Le texte argumentatif",
+ "objectifs": [
+  "L'élève doit être capable de dégager le thème, le problème, la thèse et la thèse réfutée d'un texte argumentatif.",
+  "L'élève doit être capable de distinguer argument et exemple, et de nommer les principaux types d'arguments.",
+  "L'élève doit être capable de classer les connecteurs logiques et d'identifier le type de raisonnement.",
+  "L'élève doit être capable de dire si un texte cherche à convaincre, à persuader ou à délibérer, et d'en reconnaître le genre."
+ ],
+ "prerequis": [
+  "FR-3e-ARGUMENTATION",
+  "FR-S1-C01",
+  "FR-S1-C02"
+ ],
+ "notions": [
+  {
+   "id": "FR-S1-C03-N1",
+   "titre": "Thème, thèse et thèse réfutée",
+   "prerequis_notions": [
+    "FR-3e-ARGUMENTATION"
+   ],
+   "cours_md": "## 1. Les mots de base de l'argumentation\n\n:::definition\n- Le **thème** est le sujet dont parle le texte (en quelques mots : « l'école », « les sachets plastiques »).\n- Le **problème** (ou la question posée) est la question que le texte soulève sur ce thème (« Faut-il interdire les sachets plastiques ? »).\n- La **thèse** est la **position défendue** par l'auteur, la réponse qu'il donne à cette question. Elle s'exprime en une **phrase complète** (« Il faut interdire les sachets plastiques, car ils détruisent l'environnement »).\n- La **thèse réfutée** (ou adverse) est l'opinion que l'auteur **combat**.\n:::\n\n## 2. Où trouver la thèse ?\n\n- Souvent au **début** (annoncée) ou à la **fin** (conclusion) du texte, parfois dans le titre.\n- Près des **modalisateurs** et des verbes d'opinion : « je suis convaincu que », « il faut », « il est nécessaire de ».\n- Après un connecteur d'opposition qui suit la thèse adverse : « Certains pensent que… **Pourtant**, … ».\n\n> « Je ne suis pas de ceux qui croient qu'on puisse supprimer la souffrance en ce monde […] ; mais je suis de ceux qui pensent et qui affirment qu'on peut détruire la misère. » (Victor Hugo, discours à l'Assemblée nationale, 1849)\n> - Thème : la misère.\n> - Thèse réfutée : on ne peut rien contre la souffrance (et donc contre la misère).\n> - Thèse : on **peut détruire la misère**, introduite par « mais » et les verbes « pensent et affirment ».\n\n:::methode\n**Dégager la thèse en 4 questions**\n1. De quoi parle le texte ? → **thème** (un groupe nominal).\n2. Quelle question pose-t-il ? → **problème** (une question).\n3. Que répond l'auteur ? → **thèse** (une phrase affirmative complète).\n4. Contre qui ou contre quoi argumente-t-il ? → **thèse réfutée** (si elle existe).\n:::\n\n:::attention\nLe **thème** n'est pas la **thèse** : « la pollution » est un thème ; « la pollution plastique menace nos villes et il faut la combattre dès maintenant » est une thèse. Une thèse prend toujours **position**.\n:::\n\n:::remarque\nCertains textes n'ont pas de thèse réfutée explicite. D'autres présentent **plusieurs points de vue** sans trancher : on parle alors de texte **délibératif**.\n:::",
+   "definition": "Le thème est le sujet du texte ; la thèse est la position que l'auteur défend sur ce sujet ; la thèse réfutée est l'opinion qu'il combat.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Thème = de quoi on parle ; thèse = ce qu'on en pense.",
+    "simple": "Dans un débat au grin (le groupe de discussion autour du thé), le thème est « le football togolais » ; la thèse de ton ami est « Les Éperviers iront à la prochaine Coupe du monde » ; celui qui dit le contraire défend la thèse adverse.",
+    "complete": "Un texte argumentatif répond, explicitement ou non, à une question (le problème) portant sur un thème. La thèse est l'énoncé assertif qui constitue cette réponse et que l'argumentation cherche à faire admettre ; la thèse réfutée est la position contraire, souvent exposée pour être disqualifiée. La thèse se repère par les marques de l'énonciation (modalisateurs, verbes d'opinion, injonctions) et par sa position stratégique (incipit, clausule, après un connecteur d'opposition)."
+   },
+   "analogie": "Au marché, la vendeuse qui dit « Mes ignames sont les meilleures de Bassar, pas comme celles d'à côté ! » défend une thèse (ses ignames sont les meilleures) et en réfute une autre (celles de la voisine valent autant).",
+   "exemples_resolus": [
+    {
+     "enonce": "« On dit souvent que les jeunes ne lisent plus. C'est faux : ils lisent autrement, sur leurs téléphones, des milliers de mots chaque jour. » Thème, thèse réfutée, thèse ?",
+     "etapes": [
+      "Thème : la lecture chez les jeunes.",
+      "Thèse réfutée : les jeunes ne lisent plus (« On dit souvent »).",
+      "Thèse : les jeunes lisent toujours, mais autrement (sur écran)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Donner le thème à la place de la thèse.",
+    "Formuler la thèse avec un simple nom (« la misère ») au lieu d'une phrase.",
+    "Prendre la thèse réfutée pour la thèse de l'auteur.",
+    "Recopier une phrase du texte au lieu de reformuler."
+   ],
+   "astuces": [
+    "Teste ta thèse : peut-on répondre « je suis d'accord » ou « je ne suis pas d'accord » ? Si oui, c'est bien une thèse.",
+    "Les expressions « On dit que », « Certains pensent que » annoncent souvent la thèse réfutée."
+   ],
+   "mnemo": "« Thème = Tableau (ce qu'on regarde) ; Thèse = Ta position. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu cherchais déjà la thèse d'un texte argumentatif. En seconde, tu dois aussi repérer la thèse réfutée et le problème posé, indispensables pour le résumé et la discussion."
+   },
+   "methode_redaction": "Sur la copie : « Dans ce texte, l'auteur traite de [thème]. Il répond à la question : [problème] ? Il soutient que [thèse], contre ceux qui pensent que [thèse réfutée]. »",
+   "flash": [
+    {
+     "q": "Qu'est-ce que la thèse ?",
+     "r": "La position défendue par l'auteur, exprimée en une phrase complète."
+    },
+    {
+     "q": "Qu'est-ce que la thèse réfutée ?",
+     "r": "L'opinion que l'auteur combat."
+    },
+    {
+     "q": "« La pollution » est-ce un thème ou une thèse ?",
+     "r": "Un thème (il ne prend pas position)."
+    },
+    {
+     "q": "Où trouve-t-on souvent la thèse ?",
+     "r": "Au début ou à la fin du texte, près des verbes d'opinion et des modalisateurs."
+    },
+    {
+     "q": "Qu'est-ce qu'un texte délibératif ?",
+     "r": "Un texte qui confronte plusieurs points de vue avant de trancher ou sans trancher."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C03-N1.svg",
+    "alt": "Schéma en quatre étapes : thème, problème, thèse, thèse réfutée, avec la question à se poser pour chacune.",
+    "legende": "Quatre questions pour dégager la thèse d'un texte argumentatif.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C03-N2",
+   "titre": "Les arguments et les exemples",
+   "prerequis_notions": [
+    "FR-S1-C03-N1"
+   ],
+   "cours_md": "## 1. Argument et exemple : ne pas confondre\n\n:::definition\nUn **argument** est une **idée** (une raison) qui justifie la thèse. Un **exemple** est un **fait concret** (événement, chiffre, cas précis, référence) qui illustre ou prouve l'argument.\n:::\n\n> Thèse : il faut lire davantage.\n> Argument : la lecture enrichit le vocabulaire et améliore l'expression écrite.\n> Exemple : les élèves qui lisent un roman par mois font généralement moins de fautes dans leurs rédactions.\n\n:::propriete\n- L'exemple **illustratif** rend l'argument plus clair et plus vivant.\n- L'exemple **argumentatif** sert lui-même de preuve : sans lui, l'argument ne tiendrait pas.\n:::\n\n## 2. Les principaux types d'arguments\n\n| Type | Principe | Exemple |\n|---|---|---|\n| **Logique** (cause / conséquence) | on montre un enchaînement | « Les sachets bouchent les caniveaux, **donc** les inondations s'aggravent. » |\n| **D'autorité** | on s'appuie sur une personne ou une institution reconnue | « Les médecins sont unanimes : … » |\n| **Par l'exemple** (ou par les faits) | un fait précis sert de preuve | « En 1960, … » |\n| **Par analogie** | on compare avec une situation semblable | « Un pays sans école est comme un champ sans semence. » |\n| **D'expérience** | l'énonciateur témoigne de son vécu | « Moi-même, j'ai vu… » |\n| **Ad hominem** | on attaque la personne plutôt que ses idées | « Comment le croire, lui qui… ? » (argument fragile, à éviter dans ta copie) |\n| **Par les valeurs** | on fait appel au bien, à la justice, à la solidarité | « La dignité humaine l'exige. » |\n\n## 3. Le contre-argument et la concession\n\n- **Réfuter** : montrer qu'un argument adverse est faux.\n- **Concéder** : reconnaître une part de vérité à l'adversaire pour mieux affirmer sa thèse ensuite : « **Certes**, … , **mais** … ».\n\n:::methode\n**Analyser l'argumentation d'un texte**\n1. Écris la thèse.\n2. Numérote les arguments (souvent un par paragraphe, signalés par d'abord, ensuite, enfin).\n3. Pour chaque argument, note l'exemple qui l'accompagne et le type d'argument.\n4. Repère les concessions (certes… mais) et les réfutations.\n:::\n\n:::attention\nUn exemple **sans argument** ne prouve rien ; un argument **sans exemple** reste abstrait. Dans tes propres copies (discussion, dissertation), associe **toujours** les deux.\n:::",
+   "definition": "Un argument est une idée qui justifie la thèse ; un exemple est un fait concret qui illustre ou prouve l'argument. On distingue notamment les arguments logiques, d'autorité, par l'exemple, par analogie, d'expérience et par les valeurs.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "L'argument est la raison ; l'exemple est la preuve concrète.",
+    "simple": "Au tribunal, l'avocat avance des arguments (« mon client n'était pas sur place ») et présente des preuves (« voici son ticket de car Lomé-Dapaong daté du même jour ») : ce sont les exemples.",
+    "complete": "L'argument est une proposition générale qui établit un lien entre les données et la thèse ; l'exemple est un cas particulier, illustratif (il éclaire) ou argumentatif (il fonde l'argument par induction). La typologie des arguments (logique, d'autorité, par analogie, par l'expérience, par les valeurs, ad hominem) permet d'évaluer la solidité d'un raisonnement. La concession accorde un point à l'adversaire pour renforcer la crédibilité de l'énonciateur."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Identifie l'argument et l'exemple : « Le sport développe l'esprit d'équipe : au lycée, la finale inter-classes a soudé toute notre classe. »",
+     "etapes": [
+      "Argument : le sport développe l'esprit d'équipe (idée générale).",
+      "Exemple : la finale inter-classes qui a soudé la classe (fait précis).",
+      "Type : argument d'expérience appuyé par un exemple."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre argument (idée générale) et exemple (fait particulier).",
+    "Donner des exemples vagues (« beaucoup de gens », « de nos jours »).",
+    "Utiliser l'argument ad hominem dans sa propre copie.",
+    "Oublier de repérer la concession « certes… mais »."
+   ],
+   "astuces": [
+    "Un argument répond à « pourquoi ? » ; un exemple répond à « par exemple ? ».",
+    "Un bon exemple est précis : un lieu, une date, un nom, un chiffre, une œuvre."
+   ],
+   "mnemo": "« A + E = preuve : Argument (pourquoi ?) + Exemple (la preuve) ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu distinguais déjà argument et exemple. En seconde, tu vas apprendre à nommer le type d'argument et à repérer la concession."
+   },
+   "methode_redaction": "Pour analyser un argument dans ta copie : « Le premier argument est d'ordre logique : l'auteur montre que… ; il l'appuie sur l'exemple de… qui rend sa démonstration concrète. »",
+   "flash": [
+    {
+     "q": "Différence entre argument et exemple ?",
+     "r": "L'argument est une idée générale ; l'exemple est un fait concret qui l'illustre ou le prouve."
+    },
+    {
+     "q": "Qu'est-ce qu'un argument d'autorité ?",
+     "r": "Un argument qui s'appuie sur une personne ou une institution reconnue."
+    },
+    {
+     "q": "Qu'est-ce qu'une concession ?",
+     "r": "Reconnaître une part de vérité à l'adversaire (certes…) pour mieux affirmer sa thèse (mais…)."
+    },
+    {
+     "q": "Qu'est-ce qu'un argument ad hominem ?",
+     "r": "Une attaque contre la personne plutôt que contre ses idées."
+    },
+    {
+     "q": "Exemple illustratif ou argumentatif ?",
+     "r": "Illustratif : il éclaire ; argumentatif : il sert de preuve."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C03-N2.svg",
+    "alt": "Carte mentale des six types d'arguments : logique, d'autorité, par l'exemple, par analogie, d'expérience, par les valeurs.",
+    "legende": "Les principaux types d'arguments.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C03-N3",
+   "titre": "Les connecteurs logiques et les types de raisonnement",
+   "prerequis_notions": [
+    "FR-S1-C03-N2"
+   ],
+   "cours_md": "## 1. Les connecteurs : le squelette du texte\n\n:::definition\nLes **connecteurs logiques** (ou articulateurs) sont des mots qui indiquent le **rapport** entre deux idées : addition, cause, conséquence, opposition, concession, illustration, conclusion.\n:::\n\n| Rapport | Connecteurs |\n|---|---|\n| Addition, progression | et, de plus, en outre, d'abord, ensuite, enfin, par ailleurs |\n| Cause | car, en effet, parce que, puisque, étant donné que |\n| Conséquence | donc, ainsi, c'est pourquoi, par conséquent, si bien que |\n| Opposition | mais, pourtant, cependant, toutefois, en revanche, au contraire |\n| Concession | certes… mais, bien que, quoique, même si, il est vrai que… |\n| Illustration | par exemple, ainsi, notamment, c'est le cas de |\n| Conclusion | en somme, en définitive, bref, en conclusion, finalement |\n\n:::propriete\nDans un résumé ou une analyse, les connecteurs sont **les panneaux de signalisation** du raisonnement : les conserver (ou les reformuler) permet de garder la logique du texte.\n:::\n\n## 2. Les types de raisonnement\n\n- **Déductif** : on part d'une idée générale pour arriver à un cas particulier. « Tous les êtres vivants ont besoin d'eau ; or le maïs est vivant ; donc le maïs a besoin d'eau. »\n- **Inductif** : on part de cas particuliers pour arriver à une loi générale. « À Kara, à Sokodé, à Dapaong, les élèves qui lisent réussissent mieux : la lecture favorise la réussite. »\n- **Concessif** : on accepte une idée adverse avant de la dépasser : « Certes…, mais… ».\n- **Par l'absurde** : on montre que la thèse adverse conduit à une conséquence absurde.\n- **Par analogie** : on raisonne à partir d'une comparaison.\n- **Ironique** : on fait semblant de défendre la thèse adverse pour la ridiculiser. Exemple célèbre : Montesquieu, « De l'esclavage des nègres » (*De l'esprit des lois*, 1748) : « Il est impossible que nous supposions que ces gens-là soient des hommes ; parce que, si nous les supposions des hommes, on commencerait à croire que nous ne sommes pas nous-mêmes chrétiens. » Le raisonnement absurde des esclavagistes se retourne contre eux.\n\n:::methode\n**Analyser le raisonnement d'un texte**\n1. Entoure tous les connecteurs.\n2. Classe-les dans le tableau (cause, conséquence, opposition…).\n3. Déduis la structure : où commence chaque étape ? y a-t-il une concession ?\n4. Nomme le type de raisonnement dominant et dis pourquoi il est efficace.\n:::\n\n:::attention\n« Ainsi » peut annoncer une **conséquence** (« Il a plu ; ainsi la récolte sera bonne ») ou un **exemple** (« Certains animaux hibernent : ainsi, l'ours… »). Vérifie toujours le sens dans la phrase.\n:::",
+   "definition": "Les connecteurs logiques indiquent les rapports entre les idées (addition, cause, conséquence, opposition, concession, illustration, conclusion) et révèlent le type de raisonnement (déductif, inductif, concessif, par l'absurde, par analogie).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Les connecteurs sont les panneaux qui montrent la route du raisonnement.",
+    "simple": "Sur la route Lomé-Kara, les panneaux annoncent les virages, les ponts et les villes ; dans un texte, « mais », « donc » et « car » annoncent les virages de la pensée.",
+    "complete": "Les connecteurs explicitent les relations logico-sémantiques entre propositions ou paragraphes et structurent la progression argumentative. Le raisonnement déductif applique une règle générale à un cas ; l'inductif généralise à partir de cas ; le concessif intègre l'objection ; le raisonnement par l'absurde réfute en tirant les conséquences inacceptables d'une thèse ; le raisonnement par analogie transfère une conclusion d'un domaine à un autre ; l'ironie le subvertit de l'intérieur."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Classe les connecteurs : « Certes, le téléphone est utile. Mais il distrait les élèves ; c'est pourquoi il doit rester éteint en classe. »",
+     "etapes": [
+      "« Certes… Mais » : concession puis opposition.",
+      "« c'est pourquoi » : conséquence.",
+      "Raisonnement concessif qui aboutit à une conclusion pratique."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre « car » (cause) et « donc » (conséquence).",
+    "Confondre opposition (mais) et concession (certes… mais, bien que).",
+    "Relever les connecteurs sans en tirer la structure du texte.",
+    "Prendre l'ironie au premier degré (croire que Montesquieu défend l'esclavage)."
+   ],
+   "astuces": [
+    "Cause = ce qui vient AVANT ; conséquence = ce qui vient APRÈS.",
+    "Dans tes copies, varie les connecteurs : évite « et puis », « aussi » en début de phrase pour dire « de plus »."
+   ],
+   "mnemo": "« MAIS OU ET DONC OR NI CAR » : les conjonctions de coordination ; « car » = cause, « donc » = conséquence, « mais » = opposition, « or » = ajoute un élément décisif.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu utilisais les conjonctions de coordination « mais, ou, et, donc, or, ni, car ». En seconde, tu dois maîtriser tous les connecteurs logiques et les types de raisonnement."
+   },
+   "methode_redaction": "Dans une analyse, n'écris pas « l'auteur utilise des connecteurs » : écris « le connecteur de concession \"certes\" introduit l'objection, aussitôt dépassée par \"mais\", ce qui rend l'auteur plus crédible ».",
+   "flash": [
+    {
+     "q": "Connecteur de cause ?",
+     "r": "car, en effet, parce que, puisque."
+    },
+    {
+     "q": "Connecteur de conséquence ?",
+     "r": "donc, ainsi, c'est pourquoi, par conséquent."
+    },
+    {
+     "q": "Qu'est-ce qu'un raisonnement inductif ?",
+     "r": "Partir de cas particuliers pour arriver à une idée générale."
+    },
+    {
+     "q": "Qu'est-ce qu'un raisonnement déductif ?",
+     "r": "Partir d'une idée générale pour arriver à un cas particulier."
+    },
+    {
+     "q": "Quel raisonnement emploie Montesquieu dans « De l'esclavage des nègres » ?",
+     "r": "Un raisonnement ironique (par l'absurde) : il fait semblant de défendre l'esclavage pour le dénoncer."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C03-N3.svg",
+    "alt": "Tableau des connecteurs logiques classés par rapport : addition, cause, conséquence, opposition, concession, illustration, conclusion.",
+    "legende": "Les sept familles de connecteurs logiques.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C03-N4",
+   "titre": "Convaincre, persuader, délibérer : stratégies et genres argumentatifs",
+   "prerequis_notions": [
+    "FR-S1-C03-N2",
+    "FR-S1-C03-N3"
+   ],
+   "cours_md": "## 1. Trois stratégies\n\n:::definition\n- **Convaincre**, c'est faire appel à la **raison** du destinataire : arguments logiques, faits, exemples, raisonnement rigoureux.\n- **Persuader**, c'est faire appel à ses **émotions** et à ses sentiments : images, interpellations, questions rhétoriques, registre pathétique ou polémique.\n- **Délibérer**, c'est **peser le pour et le contre** avant de prendre une décision (débat intérieur ou dialogue).\n:::\n\n| | Convaincre | Persuader | Délibérer |\n|---|---|---|---|\n| Vise | la raison | les émotions | la décision |\n| Procédés | connecteurs, arguments logiques, exemples précis | apostrophes, impératifs, questions rhétoriques, hyperboles, « nous » inclusif | alternance des points de vue, interrogations, concession |\n| Ton | neutre, démonstratif | passionné, lyrique, indigné | hésitant puis tranché |\n\n:::propriete\nLes grands textes argumentatifs **combinent** souvent convaincre et persuader : Victor Hugo, dans son discours sur la misère (1849), raisonne mais aussi décrit des situations bouleversantes pour émouvoir les députés.\n:::\n\n## 2. L'argumentation directe et indirecte\n\n- **Directe** : l'auteur expose sa thèse ouvertement : **essai**, **article d'opinion** (éditorial), **discours**, **lettre ouverte**, **préface**, **plaidoirie**.\n- **Indirecte** : la thèse passe par un récit : c'est l'**apologue** (fable, conte philosophique, utopie, parabole). Exemple : La Fontaine, « Le Loup et l'Agneau » (*Fables*, 1668) : « La raison du plus fort est toujours la meilleure » ; le récit montre l'injustice de la loi du plus fort. Le conte africain, avec sa morale finale, est aussi un apologue.\n\n## 3. Les registres de l'argumentation\n\n- **Polémique** : ton violent, attaque de l'adversaire (vocabulaire péjoratif, exclamations).\n- **Satirique** : on se moque pour critiquer (ironie, caricature).\n- **Pathétique** : on émeut par la pitié (souffrance, misère).\n- **Didactique** : on enseigne, on explique.\n\n:::methode\n**Identifier la stratégie d'un texte**\n1. Le texte vise-t-il surtout la raison (faits, logique) ou les émotions (images, interpellations) ?\n2. Relève 2 ou 3 procédés qui le prouvent.\n3. Précise le genre (essai, discours, fable…) et le registre.\n4. Conclus sur l'efficacité : pourquoi cette stratégie convient-elle au destinataire ?\n:::\n\n:::attention\n« Persuader » n'est pas « manipuler » : émouvoir est légitime si l'on reste honnête. Mais dans tes propres discussions et dissertations, on attend surtout des arguments qui **convainquent**.\n:::",
+   "definition": "Convaincre, c'est s'adresser à la raison ; persuader, c'est s'adresser aux émotions ; délibérer, c'est peser le pour et le contre. L'argumentation peut être directe (essai, discours, article) ou indirecte (apologue : fable, conte).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Convaincre parle à la tête, persuader parle au cœur.",
+    "simple": "Pour faire rentrer ton petit frère à la maison, tu peux le convaincre (« il va pleuvoir, tu vas tomber malade ») ou le persuader (« maman a préparé ton plat préféré, il va refroidir ! »).",
+    "complete": "La rhétorique distingue l'appel au logos (raisonnement), au pathos (émotions du destinataire) et à l'ethos (image de l'orateur). Convaincre mobilise la démonstration ; persuader, l'émotion et l'adhésion affective ; délibérer, la confrontation des thèses en vue d'une décision. Les genres argumentatifs directs exposent la thèse ; les genres indirects (apologue) l'incarnent dans une fiction dont la morale est explicite ou implicite."
+   },
+   "analogie": "Le conteur, à la veillée, ne dit pas « soyez honnêtes » : il raconte l'histoire du lièvre puni pour sa malhonnêteté. C'est une argumentation indirecte (apologue).",
+   "exemples_resolus": [
+    {
+     "enonce": "« Mes amis, regardez ces enfants qui marchent dix kilomètres pour aller à l'école ! Pouvons-nous rester les bras croisés ? » Convaincre ou persuader ?",
+     "etapes": [
+      "Apostrophe « Mes amis », impératif « regardez », exclamation : appel à l'émotion.",
+      "Question rhétorique : la réponse attendue est « non ».",
+      "Stratégie : persuader (registre pathétique)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre convaincre (raison) et persuader (émotions).",
+    "Oublier qu'un récit (fable, conte) peut argumenter.",
+    "Nommer le registre sans le justifier par des procédés.",
+    "Croire qu'un texte n'utilise qu'une seule stratégie."
+   ],
+   "astuces": [
+    "Persuader : pense « Pathos, Passion ». Convaincre : pense « Cerveau ».",
+    "Une fable ou un conte philosophique = argumentation indirecte : cherche la morale."
+   ],
+   "mnemo": "« Convaincre, c'est la Cervelle ; Persuader, c'est la Poitrine (le cœur). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as étudié des fables et des textes d'opinion. En seconde, tu dois savoir dire si un texte cherche à convaincre ou à persuader, en le prouvant."
+   },
+   "methode_redaction": "Rédige : « L'auteur cherche moins à convaincre qu'à persuader : l'apostrophe \"Mes amis\", la question rhétorique et le vocabulaire pathétique (\"misère\", \"larmes\") visent l'émotion du lecteur. »",
+   "flash": [
+    {
+     "q": "Convaincre s'adresse à… ?",
+     "r": "La raison."
+    },
+    {
+     "q": "Persuader s'adresse à… ?",
+     "r": "Les émotions, les sentiments."
+    },
+    {
+     "q": "Qu'est-ce qu'un apologue ?",
+     "r": "Un court récit qui illustre une leçon morale (fable, conte, parabole) : argumentation indirecte."
+    },
+    {
+     "q": "Qu'est-ce que délibérer ?",
+     "r": "Peser le pour et le contre avant de décider."
+    },
+    {
+     "q": "Donne deux genres argumentatifs directs.",
+     "r": "L'essai, le discours (aussi : article d'opinion, lettre ouverte)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C03-N4.svg",
+    "alt": "Tableau comparant convaincre, persuader et délibérer selon ce qu'ils visent, leurs procédés et leur ton.",
+    "legende": "Les trois stratégies argumentatives.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S1-C03-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C03-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Qu'est-ce que la thèse d'un texte argumentatif ?",
+   "indices": [
+    "Thème = de quoi on parle ; thèse = ce qu'on en pense."
+   ],
+   "corrige": [
+    "La thèse est l'opinion défendue par l'auteur, exprimée en une phrase.",
+    "Le sujet général est le thème, pas la thèse."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Ne pas confondre thème et thèse.",
+   "verification": "double_resolution",
+   "choix": [
+    "Le sujet général du texte",
+    "La position défendue par l'auteur",
+    "L'exemple le plus important",
+    "Le titre du texte"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C03-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Relève le connecteur d'opposition : « Le téléphone portable rend service ; cependant, il distrait les élèves. »",
+   "indices": [
+    "Cherche le mot qui marque le « virage » de la phrase."
+   ],
+   "corrige": [
+    "« cependant » oppose l'utilité du téléphone et ses inconvénients."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "« rend service » n'est pas un connecteur.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "cependant",
+    "« cependant »"
+   ]
+  },
+  {
+   "id": "FR-S1-C03-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C03-N2"
+   ],
+   "format": "qcm",
+   "enonce": "« Les médecins sont unanimes : dormir moins de sept heures par nuit nuit à la mémoire. » De quel type d'argument s'agit-il ?",
+   "indices": [
+    "Sur qui s'appuie l'énonciateur ?"
+   ],
+   "corrige": [
+    "L'énonciateur s'appuie sur des spécialistes reconnus (les médecins).",
+    "C'est un argument d'autorité."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "L'argument d'expérience repose sur le vécu personnel de l'énonciateur (« moi-même… »).",
+   "verification": "double_resolution",
+   "choix": [
+    "Un argument d'expérience",
+    "Un argument d'autorité",
+    "Un argument par analogie",
+    "Un argument ad hominem"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C03-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C03-N4"
+   ],
+   "format": "qcm",
+   "enonce": "« Mes frères, voyez ces enfants qui dorment au bord de la route ! Pouvons-nous fermer les yeux ? » Quelle stratégie domine ?",
+   "indices": [
+    "Le texte donne-t-il des faits et des raisonnements, ou cherche-t-il à émouvoir ?"
+   ],
+   "corrige": [
+    "Apostrophe, impératif, exclamation et question rhétorique visent les sentiments.",
+    "La stratégie dominante est de persuader (registre pathétique)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Il y a bien une thèse implicite (il faut agir), mais elle passe par l'émotion, pas par la démonstration.",
+   "verification": "double_resolution",
+   "choix": [
+    "Convaincre",
+    "Persuader",
+    "Délibérer",
+    "Informer"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C03-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C03-N1",
+    "FR-S1-C03-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "« Je ne suis pas de ceux qui croient qu'on puisse supprimer la souffrance en ce monde ; […] mais je suis de ceux qui pensent et qui affirment qu'on peut détruire la misère. » (Hugo, 1849). Quel connecteur introduit la thèse défendue par Hugo ? (un mot)",
+   "indices": [
+    "Cherche le connecteur d'opposition."
+   ],
+   "corrige": [
+    "Avant « mais » : l'idée que Hugo ne partage pas (ou qu'il limite).",
+    "Après « mais » : sa thèse (« on peut détruire la misère »). Le connecteur est « mais »."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "« qui » et « que » sont des pronoms ou des conjonctions, pas des connecteurs logiques.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "mais",
+    "« mais »"
+   ]
+  },
+  {
+   "id": "FR-S1-C03-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S1-C03-N1",
+    "FR-S1-C03-N2",
+    "FR-S1-C03-N3",
+    "FR-S1-C03-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis ce texte, puis réponds aux questions.\n\n« Faut-il interdire les sachets plastiques ? Certains commerçants protestent : sans eux, disent-ils, comment emballer le poisson fumé ou l'huile rouge ? Pourtant, je suis convaincu que nous devons nous en débarrasser au plus vite. D'abord, ces sachets mettent des siècles à se dégrader : ils bouchent les caniveaux de nos villes et aggravent les inondations à chaque saison des pluies. Ensuite, ils tuent les animaux : combien de chèvres et de poissons meurent après les avoir avalés ? Enfin, des solutions existent déjà. Nos grands-mères faisaient leurs courses avec des paniers tressés et des feuilles de bananier ; elles ne manquaient de rien. Certes, ces habitudes demandent un effort. Mais quel effort est trop grand quand il s'agit de protéger la terre que nous laisserons à nos enfants ? » (texte d'exemple)\n\n1. Donne le thème et formule la thèse de l'auteur en une phrase.\n2. Quelle thèse réfute-t-il ?\n3. Relève les trois arguments et l'exemple qui accompagne le troisième.\n4. Relève quatre connecteurs et dis quel rapport ils expriment.\n5. L'auteur cherche-t-il à convaincre, à persuader, ou les deux ? Justifie par deux procédés.",
+   "indices": [
+    "La thèse adverse est introduite par « Certains commerçants protestent ».",
+    "Les arguments sont annoncés par d'abord, ensuite, enfin."
+   ],
+   "corrige": [
+    "1. Thème : les sachets plastiques. Thèse : il faut interdire (se débarrasser au plus vite) les sachets plastiques, car ils nuisent à l'environnement et des solutions de remplacement existent.",
+    "2. Thèse réfutée : celle de « certains commerçants » pour qui les sachets sont indispensables pour emballer les produits.",
+    "3. Arguments : (1) les sachets mettent des siècles à se dégrader, bouchent les caniveaux et aggravent les inondations ; (2) ils tuent les animaux ; (3) des solutions existent. Exemple du troisième argument : les grands-mères qui utilisaient des paniers tressés et des feuilles de bananier.",
+    "4. « Pourtant » (opposition), « D'abord », « Ensuite », « Enfin » (addition, progression), « Certes… Mais » (concession).",
+    "5. Les deux : il convainc par des arguments logiques ordonnés (cause-conséquence : sachets → caniveaux bouchés → inondations) et un exemple concret ; il persuade par les questions rhétoriques (« combien de chèvres… ? », « quel effort est trop grand… ? »), le « nous » inclusif et l'appel à l'émotion (« nos enfants »)."
+   ],
+   "bareme": [
+    2,
+    1,
+    3,
+    2,
+    2
+   ],
+   "piege": "La phrase « Certes, ces habitudes demandent un effort » n'est pas la thèse de l'auteur : c'est une concession.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S1-C03-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S1-C03-N2",
+    "FR-S1-C03-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Rédige un paragraphe argumentatif (10 à 12 lignes) qui réfute la thèse suivante : « Pour un élève de série scientifique, lire des romans est une perte de temps. » Ton paragraphe doit contenir une concession, au moins deux arguments, un exemple précis et des connecteurs variés.",
+   "indices": [
+    "Commence par « Certes… Pourtant… ».",
+    "Pense à un roman que tu as lu pour l'exemple."
+   ],
+   "corrige": [
+    "Concession et annonce de la thèse : « Certes, un élève de seconde S doit consacrer beaucoup de temps aux mathématiques et à la physique. Pourtant, lire des romans n'est pas du temps perdu, bien au contraire. »",
+    "Argument 1 + explication : « D'abord, la lecture enrichit le vocabulaire et améliore l'expression écrite ; or un scientifique doit savoir rédiger une démonstration claire, un compte rendu d'expérience ou un rapport. »",
+    "Argument 2 + exemple précis : « De plus, le roman fait réfléchir sur l'homme et la société : en lisant L'Enfant noir de Camara Laye, on comprend comment l'école transforme une vie et un rapport aux traditions, question qui concerne aussi le futur ingénieur ou médecin. »",
+    "Conclusion du paragraphe : « Par conséquent, loin d'être une perte de temps, la lecture forme un esprit complet, capable de calculer mais aussi de comprendre et de convaincre. »",
+    "Langue et cohérence : connecteurs variés (certes, pourtant, d'abord, de plus, par conséquent), phrases correctes, pas de « je pense » répété."
+   ],
+   "bareme": [
+    2,
+    2,
+    3,
+    1,
+    2
+   ],
+   "piege": "Ne pas défendre la thèse adverse par erreur : il faut la réfuter, donc montrer que la lecture est utile.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Donner le thème à la place de la thèse, ou formuler la thèse avec un simple nom.",
+  "Attribuer à l'auteur la thèse qu'il réfute (lire trop vite « On dit que… »).",
+  "Confondre argument (idée générale) et exemple (fait précis).",
+  "Prendre l'ironie au premier degré.",
+  "Relever des connecteurs sans en tirer la structure du raisonnement."
+ ]
+}

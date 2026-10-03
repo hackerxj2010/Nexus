@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 635" width="600" height="635" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Transport actif</title>
+<desc id="desc">Histogramme : l'eau de mer contient 500 mmol/L de Na+ et 12 mmol/L de K+, le suc vacuolaire de l'algue 90 mmol/L de Na+ et 500 mmol/L de K+. En dessous : la diffusion se fait vers le milieu le moins concentré sans énergie, le transport actif vers le plus concentré grâce à l'ATP.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker></defs>
+<rect x="0" y="0" width="600" height="635" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Transport actif</text>
+<text x="300" y="68" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">Concentrations dans une algue marine (mmol/L)</text>
+<line x1="90" y1="362" x2="560" y2="362" stroke="#1f2937" stroke-width="2"/>
+<line x1="90" y1="362" x2="90" y2="92" stroke="#1f2937" stroke-width="2"/>
+<line x1="85" y1="362.0" x2="90" y2="362.0" stroke="#1f2937" stroke-width="2"/>
+<text x="81" y="368.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">0</text>
+<line x1="85" y1="312.0" x2="90" y2="312.0" stroke="#1f2937" stroke-width="2"/>
+<text x="81" y="318.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">100</text>
+<line x1="90" y1="312.0" x2="560" y2="312.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="85" y1="262.0" x2="90" y2="262.0" stroke="#1f2937" stroke-width="2"/>
+<text x="81" y="268.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">200</text>
+<line x1="90" y1="262.0" x2="560" y2="262.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="85" y1="212.0" x2="90" y2="212.0" stroke="#1f2937" stroke-width="2"/>
+<text x="81" y="218.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">300</text>
+<line x1="90" y1="212.0" x2="560" y2="212.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="85" y1="162.0" x2="90" y2="162.0" stroke="#1f2937" stroke-width="2"/>
+<text x="81" y="168.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">400</text>
+<line x1="90" y1="162.0" x2="560" y2="162.0" stroke="#e5e7eb" stroke-width="1"/>
+<line x1="85" y1="112.0" x2="90" y2="112.0" stroke="#1f2937" stroke-width="2"/>
+<text x="81" y="118.0" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">500</text>
+<line x1="90" y1="112.0" x2="560" y2="112.0" stroke="#e5e7eb" stroke-width="1"/>
+<rect x="140" y="112.0" width="60" height="250.0" fill="#3b82f6"/>
+<rect x="204" y="317.0" width="60" height="45.0" fill="#f97316"/>
+<text x="170" y="104.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">500</text>
+<text x="234" y="309.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">90</text>
+<text x="202" y="388" font-size="19" text-anchor="middle" font-weight="bold" fill="#1f2937">Na⁺</text>
+<rect x="360" y="356.0" width="60" height="6.0" fill="#3b82f6"/>
+<rect x="424" y="112.0" width="60" height="250.0" fill="#f97316"/>
+<text x="390" y="348.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">12</text>
+<text x="454" y="104.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">500</text>
+<text x="422" y="388" font-size="19" text-anchor="middle" font-weight="bold" fill="#1f2937">K⁺</text>
+<rect x="120" y="404" width="18" height="18" fill="#3b82f6"/>
+<text x="144" y="419" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">eau de mer</text>
+<rect x="320" y="404" width="18" height="18" fill="#f97316"/>
+<text x="344" y="419" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">suc vacuolaire</text>
+<text x="300" y="444" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937" font-style="italic">(données simplifiées)</text>
+<rect x="40" y="502" width="520" height="26" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+<text x="50" y="492" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937" font-style="italic">milieu A</text>
+<text x="50" y="552" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937" font-style="italic">milieu B</text>
+<line x1="170" y1="472" x2="170" y2="567" stroke="#1d4ed8" stroke-width="3" marker-end="url(#flb)"/>
+<text x="170" y="587" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">diffusion : vers le moins</text>
+<text x="170" y="605" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">concentré, sans énergie</text>
+<rect x="400" y="494" width="44" height="42" rx="10" fill="#86efac" stroke="#166534" stroke-width="2"/>
+<line x1="422" y1="567" x2="422" y2="472" stroke="#b91c1c" stroke-width="3" marker-end="url(#flr)"/>
+<text x="452" y="557" font-size="16" text-anchor="start" font-weight="bold" fill="#b91c1c">ATP</text>
+<text x="422" y="587" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">transport actif : vers le plus</text>
+<text x="422" y="605" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">concentré, avec énergie</text>
+<circle cx="150" cy="477" r="4" fill="#1d4ed8"/>
+<circle cx="185" cy="482" r="4" fill="#1d4ed8"/>
+<circle cx="160" cy="464" r="4" fill="#1d4ed8"/>
+<circle cx="190" cy="547" r="4" fill="#1d4ed8"/>
+<circle cx="395" cy="472" r="4" fill="#b91c1c"/>
+<circle cx="440" cy="480" r="4" fill="#b91c1c"/>
+<circle cx="410" cy="462" r="4" fill="#b91c1c"/>
+<circle cx="450" cy="467" r="4" fill="#b91c1c"/>
+<circle cx="440" cy="547" r="4" fill="#b91c1c"/>
+</svg>

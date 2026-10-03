@@ -1,0 +1,563 @@
+{
+ "id": "SVT-S1-C02",
+ "matiere": "SVT",
+ "semestre": 1,
+ "ordre": 2,
+ "titre": "Les échanges entre la cellule et son milieu : diffusion, osmose, transport actif",
+ "objectifs": [
+  "L'élève doit être capable de décrire la structure de la membrane plasmique (mosaïque fluide).",
+  "L'élève doit être capable d'expliquer la diffusion et de prévoir le sens d'un échange.",
+  "L'élève doit être capable d'interpréter la turgescence, la plasmolyse et l'hémolyse par l'osmose et de calculer une variation de masse en %.",
+  "L'élève doit être capable de démontrer, à partir de données, l'existence d'un transport actif consommateur d'énergie."
+ ],
+ "prerequis": [
+  "SVT-S1-C01"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S1-C02-N1",
+   "titre": "La membrane plasmique et la diffusion",
+   "prerequis_notions": [
+    "SVT-S1-C01-N2"
+   ],
+   "cours_md": "### 1. La membrane plasmique, frontière vivante\nLa membrane plasmique sépare le cytoplasme du milieu extérieur. Au microscope électronique, elle apparaît comme une fine ligne d'environ **7,5 nm**.\n\n:::definition\n**Modèle de la mosaïque fluide** (Singer et Nicolson, 1972) : la membrane est une **double couche de phospholipides** dans laquelle sont enchâssées des **protéines** mobiles. Les « têtes » des phospholipides, attirées par l'eau, sont tournées vers l'extérieur et vers le cytoplasme ; leurs « queues » se cachent au centre de la membrane.\n:::\n\nCette membrane est **semi-perméable** et **sélective** : elle laisse passer certaines substances et en arrête d'autres.\n- Passent facilement : l'eau, le dioxygène $\\ce{O2}$, le dioxyde de carbone $\\ce{CO2}$ (petites molécules).\n- Passent seulement grâce à des **protéines de transport** : les ions ($\\ce{Na+}$, $\\ce{K+}$…), le glucose.\n- Ne passent pas : les grosses molécules (protéines, amidon).\n\n:::remarque\n**Expérience de la betterave rouge.** Des cubes de betterave lavés, placés dans l'eau froide, ne colorent pas l'eau : le pigment rouge reste dans les vacuoles. Si on chauffe l'eau au-delà de 60 °C environ, ou si on ajoute de l'alcool, l'eau devient rouge. Interprétation : la chaleur et l'alcool tuent les cellules et détruisent leurs membranes ; une membrane **vivante** retient le pigment. La perméabilité sélective est une propriété des cellules vivantes.\n:::\n\n### 2. La diffusion\n:::definition\n**Diffusion** : déplacement spontané de molécules ou d'ions du milieu où ils sont **le plus concentrés** vers le milieu où ils sont **le moins concentrés**, jusqu'à l'égalité des concentrations. Elle ne consomme pas d'énergie cellulaire : c'est un transport **passif**.\n:::\n\n**Expérience** : un cristal de permanganate de potassium (violet) déposé au fond d'un bécher d'eau colore peu à peu toute l'eau, sans agitation. La diffusion est plus rapide si la température augmente et si la différence de concentration (le **gradient**) est grande.\n\n:::propriete\nLe sens de la diffusion dépend seulement du gradient : **du plus concentré vers le moins concentré**. Plus le gradient est fort, plus la diffusion est rapide ; quand les concentrations sont égales, les échanges continuent dans les deux sens, mais il n'y a plus de flux global.\n:::\n\n### 3. Exemples de diffusion dans l'organisme\n- Dans les **alvéoles pulmonaires**, l'air est plus riche en $\\ce{O2}$ que le sang qui arrive : le dioxygène diffuse de l'alvéole vers le sang. Le $\\ce{CO2}$, plus concentré dans le sang, diffuse vers l'alvéole.\n- Dans les tissus, le $\\ce{O2}$ diffuse du sang vers les cellules, qui le consomment en permanence (respiration) : le gradient est ainsi maintenu.\n- Dans la feuille, le $\\ce{CO2}$ entre par les stomates et diffuse vers les cellules chlorophylliennes qui le consomment à la lumière.\n\n:::methode\nPour **prévoir le sens d'un échange par diffusion** : 1) comparer les concentrations des deux côtés ; 2) la substance se déplace vers le côté le moins concentré ; 3) vérifier que la membrane laisse passer cette substance.\n:::",
+   "definition": "La diffusion est le déplacement spontané, sans dépense d'énergie, d'une substance du milieu le plus concentré vers le moins concentré ; la membrane plasmique, bicouche de phospholipides et de protéines, est sélectivement perméable.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Les molécules s'étalent toutes seules du « trop » vers le « pas assez » ; la membrane choisit qui passe.",
+    "simple": "Le matin au grand marché, la foule se presse à l'entrée bondée puis s'étale peu à peu vers les allées vides : personne ne la pousse, c'est la diffusion. La membrane est le portail du marché : les petits passent partout, les gros colis passent seulement par les portes gardées (protéines).",
+    "complete": "La membrane plasmique (modèle de la mosaïque fluide) est une bicouche phospholipidique d'environ 7,5 nm contenant des protéines. Elle est perméable à l'eau, à $\\ce{O2}$ et $\\ce{CO2}$, mais les ions et le glucose ne la traversent que par des protéines de transport. La diffusion est un transport passif dans le sens du gradient de concentration ; sa vitesse augmente avec le gradient et la température. Elle explique les échanges gazeux respiratoires et l'entrée du $\\ce{CO2}$ dans la feuille."
+   },
+   "analogie": "Comme l'odeur du poisson fumé qui se répand dans toute la maison depuis la cuisine : sans ventilateur, les molécules odorantes vont seules de la cuisine (très concentrée) vers les chambres (peu concentrées).",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : dans une cellule musculaire au repos, la concentration en $\\ce{O2}$ est de 2 unités ; dans le sang des capillaires voisins, elle est de 13 unités. Pour le $\\ce{CO2}$ : 6 unités dans la cellule, 4 dans le sang. Indique le sens des échanges et explique.",
+     "etapes": [
+      "Je compare pour le $\\ce{O2}$ : 13 (sang) > 2 (cellule) ; il diffuse donc du sang vers la cellule.",
+      "Je compare pour le $\\ce{CO2}$ : 6 (cellule) > 4 (sang) ; il diffuse de la cellule vers le sang.",
+      "J'explique : la cellule consomme $\\ce{O2}$ et produit $\\ce{CO2}$ par respiration, ce qui entretient ces différences de concentration.",
+      "Conclusion : les échanges gazeux entre sang et cellule se font par diffusion, chaque gaz allant vers le milieu où il est le moins concentré."
+     ]
+    },
+    {
+     "enonce": "Document : temps nécessaire pour qu'un colorant colore uniformément 100 mL d'eau : 95 min à 10 °C, 60 min à 25 °C, 35 min à 40 °C. Analyse ces résultats.",
+     "etapes": [
+      "Je décris : quand la température passe de 10 °C à 40 °C, le temps de coloration diminue de 95 à 35 min.",
+      "J'interprète : la diffusion est d'autant plus rapide que la température est élevée (les molécules s'agitent davantage).",
+      "Conclusion : la température accélère la diffusion."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que la diffusion va « du moins concentré vers le plus concentré ».",
+    "Croire que la diffusion consomme de l'énergie (ATP) : elle est passive.",
+    "Penser que la membrane laisse tout passer, ou au contraire que l'eau ne la traverse pas.",
+    "Confondre la paroi (perméable à presque tout) et la membrane plasmique (sélective)."
+   ],
+   "astuces": [
+    "Mot-clé à écrire dans chaque réponse : « dans le sens du gradient de concentration ».",
+    "Pour chaque gaz, fais une flèche du chiffre le plus grand vers le plus petit : c'est le sens de la diffusion."
+   ],
+   "mnemo": "« La diffusion DESCEND la pente » : du plus haut (concentré) vers le plus bas, comme l'eau d'une colline, sans effort.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que dans les poumons le dioxygène passe de l'air dans le sang et que le dioxyde de carbone fait le chemin inverse. Ce passage s'appelle la diffusion, et on va comprendre pourquoi il se fait dans ce sens."
+   },
+   "methode_redaction": "Dans une question sur un échange : 1) relever les valeurs des deux milieux ; 2) indiquer le sens (du plus concentré vers le moins concentré) ; 3) nommer le phénomène (diffusion, transport passif) ; 4) conclure en une phrase.",
+   "flash": [
+    {
+     "q": "Définition de la diffusion ?",
+     "r": "Déplacement spontané d'une substance du milieu le plus concentré vers le moins concentré, sans énergie."
+    },
+    {
+     "q": "Modèle de la membrane plasmique ?",
+     "r": "Mosaïque fluide : bicouche de phospholipides + protéines (Singer et Nicolson, 1972)."
+    },
+    {
+     "q": "Épaisseur de la membrane plasmique ?",
+     "r": "Environ 7,5 nm."
+    },
+    {
+     "q": "Deux facteurs qui accélèrent la diffusion ?",
+     "r": "Un gradient de concentration plus fort et une température plus élevée."
+    },
+    {
+     "q": "Que montre l'expérience de la betterave chauffée ?",
+     "r": "Seule une membrane vivante est sélective : morte, elle laisse fuir le pigment."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C02-N1.svg",
+    "alt": "Diffusion d'un colorant dans un bécher et schéma de la membrane plasmique",
+    "legende": "La diffusion (en haut) et la membrane plasmique, barrière sélective (en bas).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C02-N2",
+   "titre": "L'osmose : turgescence, plasmolyse et hémolyse",
+   "prerequis_notions": [
+    "SVT-S1-C02-N1"
+   ],
+   "cours_md": "### 1. Définition\n:::definition\n**Osmose** : passage de l'**eau** à travers une membrane semi-perméable, du milieu le **moins concentré** en substances dissoutes (solutés) vers le milieu le **plus concentré**.\n:::\n\nOn compare toujours un milieu à l'intérieur de la cellule :\n- milieu **hypotonique** : moins concentré que la cellule → l'eau **entre** dans la cellule ;\n- milieu **isotonique** : même concentration → pas de flux global d'eau ;\n- milieu **hypertonique** : plus concentré que la cellule → l'eau **sort** de la cellule.\n\n### 2. Une expérience historique : l'osmomètre de Dutrochet (1827)\nHenri Dutrochet ferme un entonnoir renversé par une membrane (vessie animale), le remplit d'eau sucrée et le plonge dans l'eau pure. Le liquide **monte** dans le tube.\n\n**Interprétation** : la membrane laisse passer l'eau mais pas le sucre. L'eau pure (hypotonique) passe vers l'eau sucrée (hypertonique) ; le volume augmente dans l'entonnoir et le liquide monte. La force qui fait entrer l'eau est la **pression osmotique** ; elle est d'autant plus grande que la solution est concentrée.\n\n### 3. L'osmose chez la cellule végétale\nObservation d'épiderme d'oignon rouge (vacuole colorée) au microscope :\n- **Dans l'eau pure** : l'eau entre, la vacuole se gonfle et presse le cytoplasme contre la paroi : c'est la **turgescence**. La paroi rigide empêche la cellule d'éclater.\n- **Dans une solution de NaCl à environ 30 g/L** : l'eau sort, la vacuole rétrécit, sa couleur fonce, la membrane se **décolle de la paroi** : c'est la **plasmolyse**.\n- Si on remet la cellule plasmolysée dans l'eau pure, elle redevient turgescente : **déplasmolyse** (la cellule était restée vivante).\n\n:::propriete\nLa turgescence des cellules maintient les organes non lignifiés (feuilles, jeunes tiges) dressés. Une plante qui manque d'eau perd sa turgescence et **se fane**.\n:::\n\n### 4. L'osmose chez la cellule animale (globules rouges)\n- **Eau distillée** : l'eau entre, le globule rouge gonfle et **éclate** (pas de paroi) : c'est l'**hémolyse** ; l'eau devient rouge et limpide.\n- **Solution de NaCl à 9 g/L** (sérum physiologique) : solution **isotonique** au plasma ; les globules gardent leur forme.\n- **Solution de NaCl à 20 g/L** : l'eau sort, les globules **se ratatinent** (aspect crénelé).\n\n:::attention\nOn n'injecte jamais d'eau pure dans le sang : on utilise du **sérum physiologique à 9 g/L de NaCl** ou du sérum glucosé isotonique, pour éviter l'hémolyse.\n:::\n\n### 5. Applications au quotidien et à l'agriculture\n- **Conservation des aliments** : le poisson salé et séché, la viande salée, les confitures très sucrées se conservent car les microbes, placés en milieu hypertonique, perdent leur eau.\n- **Sols salés** du littoral ou trop d'engrais au pied d'une plante : la solution du sol devient hypertonique, l'eau sort des racines, la plante se fane (« l'engrais a brûlé la plante »).\n- **Solution de réhydratation orale (SRO)** contre la diarrhée : sel + sucre en proportions précises favorisent la réabsorption de l'eau par l'intestin.\n\n:::methode\n**Calcul de variation de masse en pourcentage** (morceaux de pomme de terre ou de manioc dans des solutions) :\n$$\\text{variation (\\%)} = \\frac{m_{\\text{finale}} - m_{\\text{initiale}}}{m_{\\text{initiale}}} \\times 100$$\nVariation positive → la solution était hypotonique (l'eau est entrée) ; négative → hypertonique ; nulle → isotonique.\n:::",
+   "definition": "L'osmose est le passage de l'eau à travers une membrane semi-perméable du milieu le moins concentré vers le plus concentré ; elle provoque la turgescence ou la plasmolyse des cellules végétales, l'hémolyse ou le ratatinement des globules rouges.",
+   "formules": [
+    "$\\text{variation (\\%)} = \\dfrac{m_f - m_i}{m_i} \\times 100$"
+   ],
+   "niveaux": {
+    "phrase": "L'eau court toujours vers le côté le plus salé ou le plus sucré.",
+    "simple": "Une cellule est comme un sachet d'eau sucrée : dans l'eau pure, l'eau y entre et il gonfle ; dans de l'eau très salée, il se vide et se ride. La cellule végétale a une paroi qui l'empêche d'éclater ; le globule rouge, lui, éclate.",
+    "complete": "L'osmose est un cas particulier de diffusion : celle de l'eau, solvant, à travers une membrane perméable à l'eau mais pas aux solutés. Le flux d'eau va du milieu hypotonique vers le milieu hypertonique (pression osmotique, osmomètre de Dutrochet). En milieu hypotonique, la cellule végétale devient turgescente (la paroi résiste) et le globule rouge éclate (hémolyse) ; en milieu hypertonique, la cellule végétale se plasmolyse et l'hématie se ratatine ; le NaCl à 9 g/L est isotonique au plasma. Applications : salage, sols salés, perfusions, SRO."
+   },
+   "analogie": "Quand on sale des tranches d'aubergine ou de concombre, elles « rendent leur eau » au bout de quelques minutes : le sel rend le milieu hypertonique et l'eau sort des cellules par osmose.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : deux morceaux de pomme de terre de 4,0 g sont placés 1 h l'un dans l'eau pure (masse finale 4,6 g), l'autre dans de l'eau très sucrée (masse finale 3,4 g). Calcule les variations en % et interprète.",
+     "etapes": [
+      "Morceau 1 : $\\frac{4{,}6 - 4{,}0}{4{,}0} \\times 100 = +15\\ \\%$.",
+      "Morceau 2 : $\\frac{3{,}4 - 4{,}0}{4{,}0} \\times 100 = -15\\ \\%$.",
+      "J'interprète : dans l'eau pure (hypotonique) l'eau est entrée par osmose ; dans l'eau très sucrée (hypertonique) l'eau est sortie.",
+      "Conclusion : la masse varie selon le sens du flux d'eau, qui va toujours vers le milieu le plus concentré."
+     ]
+    },
+    {
+     "enonce": "Document : observation au microscope de cellules d'oignon rouge. Lame A : vacuoles rouge clair occupant toute la cellule. Lame B : vacuoles rouge foncé, réduites, membrane décollée de la paroi. Quelle lame a été montée dans l'eau salée ? Justifie.",
+     "etapes": [
+      "Je décris : en B, la vacuole a diminué de volume et s'est concentrée (couleur plus foncée), le cytoplasme s'est décollé de la paroi.",
+      "J'interprète : la cellule a perdu de l'eau par osmose, donc le milieu était hypertonique : c'est la plasmolyse.",
+      "Conclusion : la lame B a été montée dans l'eau salée ; la lame A (turgescence) dans l'eau pure."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que ce sont les sels qui entrent ou sortent : dans l'osmose, c'est l'EAU qui bouge.",
+    "Inverser hypotonique et hypertonique.",
+    "Dire que la cellule végétale éclate dans l'eau pure : sa paroi l'en empêche.",
+    "Écrire « plasmolyse » pour un globule rouge (on dit plutôt qu'il se ratatine ou est crénelé) et « hémolyse » pour une cellule végétale.",
+    "Oublier de diviser par la masse initiale dans le calcul du pourcentage."
+   ],
+   "astuces": [
+    "« Hyper = plus » de sel, donc l'eau va vers lui ; « hypo = moins » de sel, l'eau le quitte.",
+    "L'isotonie se lit sur un graphique là où la variation de masse coupe zéro."
+   ],
+   "mnemo": "« L'eau suit le sel » : elle va toujours vers le côté le plus concentré.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que les racines absorbent l'eau du sol et qu'une plante non arrosée se fane. L'osmose explique pourquoi l'eau entre dans les cellules, et pourquoi une plante se fane aussi dans un sol trop salé."
+   },
+   "methode_redaction": "Pour interpréter une expérience d'osmose : 1) décrire ce qui change (volume, masse, aspect) ; 2) comparer les concentrations (le milieu est hypo-, iso- ou hypertonique par rapport à la cellule) ; 3) indiquer le sens du flux d'eau ; 4) nommer le phénomène (turgescence, plasmolyse, hémolyse) ; 5) conclure.",
+   "flash": [
+    {
+     "q": "Définition de l'osmose ?",
+     "r": "Passage de l'eau à travers une membrane semi-perméable, du milieu le moins concentré vers le plus concentré."
+    },
+    {
+     "q": "Cellule d'oignon dans de l'eau très salée ?",
+     "r": "Plasmolyse : la vacuole rétrécit, la membrane se décolle de la paroi."
+    },
+    {
+     "q": "Globule rouge dans l'eau distillée ?",
+     "r": "Il gonfle et éclate : hémolyse."
+    },
+    {
+     "q": "Concentration du sérum physiologique ?",
+     "r": "9 g/L de NaCl (isotonique au plasma)."
+    },
+    {
+     "q": "Pourquoi la cellule végétale n'éclate-t-elle pas dans l'eau pure ?",
+     "r": "Sa paroi rigide résiste à la pression : elle devient turgescente."
+    },
+    {
+     "q": "Qui a construit le premier osmomètre (1827) ?",
+     "r": "Henri Dutrochet."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C02-N2.svg",
+    "alt": "Cellules végétales et globules rouges en milieux hypotonique, isotonique et hypertonique",
+    "legende": "L'osmose : turgescence et plasmolyse des cellules d'oignon, hémolyse et ratatinement des globules rouges.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C02-N3",
+   "titre": "Absorption sélective et transport actif",
+   "prerequis_notions": [
+    "SVT-S1-C02-N1",
+    "SVT-S1-C02-N2"
+   ],
+   "cours_md": "### 1. Une observation qui contredit la diffusion\nOn mesure les concentrations d'ions dans le suc vacuolaire d'une algue marine et dans l'eau de mer (données simplifiées) :\n\n| Ion | Eau de mer (mmol/L) | Suc vacuolaire (mmol/L) |\n|---|---|---|\n| $\\ce{Na+}$ | 500 | 90 |\n| $\\ce{K+}$ | 12 | 500 |\n\n- Le $\\ce{K+}$ est environ **42 fois** plus concentré dans la cellule que dans l'eau de mer ($500 \\div 12 \\approx 42$) : la cellule **accumule** le potassium **contre** son gradient de concentration.\n- Le $\\ce{Na+}$ est environ **5,6 fois** moins concentré dans la cellule : la cellule le **rejette**.\nPar simple diffusion, les concentrations devraient s'égaliser. La cellule réalise donc une **absorption sélective** qui demande un autre mécanisme.\n\n:::definition\n**Transport actif** : passage d'une substance à travers la membrane **contre son gradient de concentration** (du moins concentré vers le plus concentré), grâce à une **protéine de transport** (pompe) et avec **dépense d'énergie** fournie par l'ATP.\n:::\n\n### 2. Preuve expérimentale du besoin d'énergie\nOn mesure l'absorption de $\\ce{K+}$ par des racines de jeunes plants de maïs placées dans une solution minérale (données simplifiées, en unités arbitraires) :\n- solution aérée (riche en $\\ce{O2}$), 25 °C : 100 ;\n- solution privée de $\\ce{O2}$ (barbotage de diazote) : 12 ;\n- solution aérée + cyanure (poison de la respiration) : 10.\n\n**Interprétation** : sans dioxygène ou avec un poison de la respiration, l'absorption chute fortement. Or la respiration cellulaire fournit l'énergie (ATP). L'absorption du $\\ce{K+}$ est donc un **transport actif** qui consomme de l'énergie. La faible absorption restante correspond à la diffusion.\n\n:::propriete\nLe transport actif : 1) se fait contre le gradient ; 2) consomme de l'ATP issu de la respiration ; 3) utilise des protéines spécifiques (pompes) ; 4) est sélectif ; 5) s'arrête si la cellule meurt ou ne respire plus.\nExemple célèbre : la **pompe sodium-potassium** des cellules animales fait sortir 3 $\\ce{Na+}$ et entrer 2 $\\ce{K+}$ pour chaque ATP utilisé.\n:::\n\n### 3. Les gros passages : endocytose et exocytose\n- **Endocytose** : la membrane entoure une particule et forme une vésicule qui entre dans la cellule. Exemple : la **phagocytose** des microbes par les globules blancs, ou la capture de nourriture par l'amibe.\n- **Exocytose** : une vésicule (souvent issue de l'appareil de Golgi) fusionne avec la membrane et libère son contenu à l'extérieur (sécrétion d'hormones, d'enzymes digestives, de mucus).\nCes mécanismes consomment aussi de l'énergie.\n\n### 4. Bilan comparatif\n| Mode | Sens | Énergie | Moyen |\n|---|---|---|---|\n| Diffusion simple | vers le moins concentré | non | bicouche lipidique ($\\ce{O2}$, $\\ce{CO2}$) |\n| Diffusion facilitée | vers le moins concentré | non | protéines (canaux, transporteurs) |\n| Osmose | eau vers le plus concentré en solutés | non | membrane semi-perméable |\n| Transport actif | vers le plus concentré | oui (ATP) | pompes protéiques |\n| Endo/exocytose | entrée/sortie de grosses particules | oui | vésicules |\n\n:::remarque\nCe chapitre prépare la **nutrition minérale** des plantes : les poils absorbants des racines absorbent l'eau par osmose et les ions minéraux surtout par transport actif. C'est pourquoi un sol asphyxié (inondé, compacté) nourrit mal les plantes : les racines manquent de dioxygène pour respirer.\n:::",
+   "definition": "Le transport actif fait traverser la membrane à une substance contre son gradient de concentration, grâce à des protéines (pompes) et avec dépense d'énergie (ATP) ; il permet l'absorption sélective des ions.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Le transport actif, c'est pomper l'eau vers le château d'eau : ça monte, mais ça coûte de l'énergie.",
+    "simple": "La diffusion, c'est descendre une colline à vélo sans pédaler. Le transport actif, c'est monter la colline : il faut pédaler (ATP). La cellule « monte » le potassium vers l'intérieur où il est déjà très concentré.",
+    "complete": "Les cellules possèdent une composition ionique très différente de leur milieu (accumulation de $\\ce{K+}$, rejet de $\\ce{Na+}$) : c'est l'absorption sélective. Elle repose sur le transport actif, réalisé par des pompes protéiques membranaires qui utilisent l'ATP produit par la respiration ; l'absence d'O2 ou un poison respiratoire (cyanure) l'inhibe. Les grosses particules entrent ou sortent par endocytose (phagocytose) et exocytose (sécrétion), également coûteuses en énergie."
+   },
+   "analogie": "Un réservoir d'eau sur le toit : l'eau en redescend toute seule (diffusion), mais pour la monter il faut une pompe électrique qui consomme de l'énergie (transport actif).",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : tableau des concentrations (mmol/L) — eau de mer : $\\ce{Na+}$ 500, $\\ce{K+}$ 12 ; suc vacuolaire d'une algue : $\\ce{Na+}$ 90, $\\ce{K+}$ 500. Calcule le rapport des concentrations du $\\ce{K+}$ et interprète.",
+     "etapes": [
+      "Rapport : $500 \\div 12 \\approx 41{,}7$, soit environ 42.",
+      "Je décris : le $\\ce{K+}$ est environ 42 fois plus concentré dans la cellule que dans le milieu.",
+      "J'interprète : la diffusion aurait égalisé les concentrations ; la cellule accumule donc le $\\ce{K+}$ contre son gradient.",
+      "Conclusion : l'entrée du $\\ce{K+}$ se fait par transport actif (absorption sélective)."
+     ]
+    },
+    {
+     "enonce": "Document : absorption de $\\ce{K+}$ par des racines de maïs : 100 en solution aérée, 12 sans dioxygène, 10 avec cyanure. Que peut-on conclure ?",
+     "etapes": [
+      "Je décris : l'absorption passe de 100 à 12 sans $\\ce{O2}$, et à 10 avec le cyanure, soit une baisse de près de 90 %.",
+      "J'interprète : $\\ce{O2}$ et cyanure agissent sur la respiration, qui fournit l'ATP ; sans respiration, l'absorption s'effondre.",
+      "Conclusion : l'absorption du $\\ce{K+}$ par la racine dépend de l'énergie fournie par la respiration : c'est un transport actif."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que le transport actif se fait « dans le sens du gradient ».",
+    "Oublier de citer la source d'énergie (ATP produit par la respiration).",
+    "Confondre osmose (eau) et transport actif (ions, glucose…).",
+    "Penser qu'une racine dans un sol inondé absorbe mieux les ions : elle manque de dioxygène."
+   ],
+   "astuces": [
+    "Repère dans un tableau : si la concentration intérieure est PLUS forte et qu'elle reste plus forte, c'est un transport actif.",
+    "Poison de la respiration (cyanure) ou absence d'O2 qui bloque un échange = preuve d'un transport actif."
+   ],
+   "mnemo": "« ACTIF = À Contre-courant, Tirant l'Ion, Faut de l'ATP ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as appris que les êtres vivants ont besoin d'énergie et que cette énergie vient de la respiration. Ici, tu découvres qu'une partie de cette énergie sert à faire entrer des substances dans les cellules."
+   },
+   "methode_redaction": "Pour démontrer un transport actif : 1) montrer que la substance va contre son gradient (comparer les concentrations, calculer un rapport) ; 2) montrer qu'il dépend de l'énergie (effet de l'absence de O2 ou d'un poison respiratoire) ; 3) conclure en nommant le mécanisme et la source d'énergie.",
+   "flash": [
+    {
+     "q": "Définition du transport actif ?",
+     "r": "Passage d'une substance contre son gradient grâce à une protéine pompe, avec dépense d'ATP."
+    },
+    {
+     "q": "D'où vient l'énergie du transport actif ?",
+     "r": "De l'ATP produit par la respiration cellulaire."
+    },
+    {
+     "q": "Que fait la pompe Na⁺/K⁺ pour 1 ATP ?",
+     "r": "Elle fait sortir 3 Na⁺ et entrer 2 K⁺."
+    },
+    {
+     "q": "Effet du cyanure sur l'absorption des ions ?",
+     "r": "Il bloque la respiration, donc l'ATP, donc le transport actif."
+    },
+    {
+     "q": "Qu'est-ce que la phagocytose ?",
+     "r": "Une endocytose : capture d'une particule (microbe) par un globule blanc."
+    },
+    {
+     "q": "Exocytose : exemple ?",
+     "r": "Sécrétion d'enzymes digestives ou d'hormones par vésicules golgiennes."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C02-N3.svg",
+    "alt": "Histogramme des concentrations ioniques d'une algue marine et schéma diffusion / transport actif",
+    "legende": "Absorption sélective : la cellule accumule K+ et rejette Na+ contre les gradients, par transport actif.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S1-C02-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C02-N1"
+   ],
+   "format": "qcm",
+   "enonce": "La diffusion est le déplacement d'une substance :",
+   "choix": [
+    "du milieu le moins concentré vers le plus concentré, avec énergie",
+    "du milieu le plus concentré vers le moins concentré, sans énergie",
+    "uniquement à travers la paroi des cellules végétales",
+    "uniquement pour l'eau"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Par définition, la diffusion se fait dans le sens du gradient, sans énergie.",
+    "Réponse B."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre avec le transport actif (A).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C02-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C02-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Des globules rouges sont placés dans de l'eau distillée. Que se passe-t-il ?",
+   "choix": [
+    "Ils se ratatinent",
+    "Rien, ils restent normaux",
+    "Ils gonflent puis éclatent (hémolyse)",
+    "Ils se plasmolysent"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "L'eau distillée est hypotonique par rapport au contenu des hématies : l'eau entre par osmose.",
+    "Sans paroi, les hématies gonflent et éclatent : hémolyse (réponse C)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser que l'eau sort de la cellule.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C02-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C02-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quelle est la concentration en NaCl (en g/L) du sérum physiologique, isotonique au plasma sanguin ? Donne le nombre seul.",
+   "reponses_acceptees": [
+    "9",
+    "9g/L",
+    "9 g/L"
+   ],
+   "indices": [],
+   "corrige": [
+    "Le sérum physiologique contient 9 g de NaCl par litre.",
+    "Réponse : 9."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre avec 0,9 (qui est la concentration en %, soit 0,9 g pour 100 mL).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C02-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C02-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un morceau de manioc de 20 g placé 2 h dans de l'eau pure pèse ensuite 23 g. Calcule sa variation de masse en pourcentage (nombre seul, avec son signe si besoin).",
+   "reponses_acceptees": [
+    "15",
+    "+15",
+    "15%",
+    "+15%"
+   ],
+   "indices": [
+    "Divise la différence de masse par la masse initiale."
+   ],
+   "corrige": [
+    "Variation = $\\frac{23 - 20}{20} \\times 100$.",
+    "Variation = +15 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par la masse finale (23) : on trouverait 13 %.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C02-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C02-N2"
+   ],
+   "format": "qcm",
+   "enonce": "On place de l'épiderme d'oignon rouge dans une solution de NaCl à 30 g/L. Au microscope, on observera :",
+   "choix": [
+    "une plasmolyse",
+    "une turgescence",
+    "une hémolyse",
+    "un éclatement des cellules"
+   ],
+   "bonne_reponse": 0,
+   "indices": [],
+   "corrige": [
+    "La solution à 30 g/L est hypertonique : l'eau sort de la vacuole par osmose.",
+    "La vacuole rétrécit et la membrane se décolle de la paroi : plasmolyse (réponse A)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Le mot hémolyse concerne les globules rouges.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C02-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C02-N1",
+    "SVT-S1-C02-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution des connaissances. 1) Décris la structure de la membrane plasmique selon le modèle de la mosaïque fluide. 2) Définis l'osmose. 3) Explique pourquoi une cellule végétale placée dans l'eau pure devient turgescente sans éclater, alors qu'un globule rouge éclate.",
+   "indices": [],
+   "corrige": [
+    "1) Double couche de phospholipides (têtes vers l'eau, queues au centre) dans laquelle sont insérées des protéines mobiles ; épaisseur d'environ 7,5 nm.",
+    "2) Osmose : passage de l'eau à travers une membrane semi-perméable du milieu le moins concentré (hypotonique) vers le plus concentré (hypertonique).",
+    "3a) Dans l'eau pure, hypotonique, l'eau entre dans les deux cellules par osmose.",
+    "3b) La cellule végétale possède une paroi rigide qui résiste à la pression : la vacuole gonfle, la cellule devient turgescente sans éclater ; le globule rouge, sans paroi, gonfle jusqu'à éclater (hémolyse)."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Expliquer l'éclatement par l'entrée de sel.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C02-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C02-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de document. Des bâtonnets de pomme de terre de 5,00 g sont placés 2 h dans des solutions de saccharose de concentrations différentes, puis pesés.\n\n| Saccharose (g/L) | 0 | 40 | 80 | 120 | 160 | 200 |\n|---|---|---|---|---|---|---|\n| Masse finale (g) | 5,60 | 5,35 | 5,10 | 4,90 | 4,65 | 4,45 |\n\n1) Calcule la variation de masse en % pour chaque solution. 2) Interprète les résultats pour 0 g/L et 200 g/L. 3) Détermine la concentration de la solution isotonique au contenu des cellules de pomme de terre.",
+   "indices": [
+    "La variation est nulle quand la solution est isotonique.",
+    "Cherche entre quelles valeurs la variation change de signe."
+   ],
+   "corrige": [
+    "1) Variations : +12 % ; +7 % ; +2 % ; −2 % ; −7 % ; −11 % (formule $\\frac{m_f - 5{,}00}{5{,}00} \\times 100$).",
+    "2) À 0 g/L (hypotonique) la masse augmente : l'eau est entrée par osmose (turgescence). À 200 g/L (hypertonique) la masse diminue : l'eau est sortie (plasmolyse).",
+    "3) La variation s'annule entre 80 g/L (+2 %) et 120 g/L (−2 %) ; par symétrie (interpolation linéaire), elle est nulle à 100 g/L.",
+    "Conclusion : le contenu des cellules de pomme de terre est isotonique à une solution de saccharose d'environ 100 g/L."
+   ],
+   "bareme": [
+    2,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Lire la valeur isotonique là où la masse est maximale.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C02-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C02-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans l'eau de mer, la concentration en ions $\\ce{K+}$ est de 12 mmol/L ; dans le suc vacuolaire d'une algue, elle est de 500 mmol/L. Combien de fois le $\\ce{K+}$ est-il plus concentré dans la cellule ? (arrondi à l'unité)",
+   "reponses_acceptees": [
+    "42"
+   ],
+   "indices": [],
+   "corrige": [
+    "Rapport = 500 ÷ 12 ≈ 41,7.",
+    "Arrondi à l'unité : 42."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 12 ÷ 500.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C02-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C02-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation d'une expérience historique. Dutrochet (1827) remplit d'eau sucrée un entonnoir fermé par une membrane de vessie de porc et prolongé d'un tube fin. Il le plonge dans un bécher d'eau pure. Au bout de quelques heures, le liquide est monté de 8 cm dans le tube ; l'eau du bécher ne contient pas de sucre.\n1) Décris le résultat. 2) Explique-le. 3) Que prouve l'absence de sucre dans le bécher ? 4) Que se passerait-il avec de l'eau sucrée de même concentration dans le bécher ?",
+   "indices": [],
+   "corrige": [
+    "1) Le volume de liquide dans l'entonnoir augmente : le niveau monte de 8 cm dans le tube.",
+    "2) L'eau pure (hypotonique) traverse la membrane vers l'eau sucrée (hypertonique) : c'est l'osmose ; l'entrée d'eau fait monter le liquide.",
+    "3) Le sucre n'a pas traversé : la membrane est semi-perméable (perméable à l'eau, pas au sucre).",
+    "4) Les deux milieux seraient isotoniques : pas de flux global d'eau, le niveau ne monterait pas."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "Dire que le sucre sort de l'entonnoir.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C02-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S1-C02-N2",
+    "SVT-S1-C02-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Synthèse. Un maraîcher de la zone côtière de Lomé arrose ses salades avec l'eau d'un puits devenu saumâtre (légèrement salé) ; ses plants se fanent. Un autre, au contraire, a des racines de maïs qui absorbent mal le potassium dans une parcelle restée inondée plusieurs jours. On mesure l'absorption de $\\ce{K+}$ par des racines de maïs : 100 unités en solution aérée, 12 unités en solution privée de dioxygène.\n1) Explique, à l'aide de l'osmose, le flétrissement des salades.\n2) Calcule la baisse d'absorption du $\\ce{K+}$ en % et explique pourquoi la parcelle inondée nourrit mal le maïs.\n3) Propose un conseil pour chaque maraîcher.",
+   "indices": [
+    "Compare la concentration de l'eau du sol à celle des cellules.",
+    "Le transport actif a besoin d'ATP, donc de respiration."
+   ],
+   "corrige": [
+    "1) L'eau saumâtre rend la solution du sol hypertonique par rapport aux cellules des racines ; l'eau ne peut plus entrer, elle sort même des cellules par osmose (plasmolyse).",
+    "Les cellules perdent leur turgescence, la plante se fane.",
+    "2) Baisse = $\\frac{100 - 12}{100} \\times 100 = 88\\ \\%$.",
+    "Dans un sol inondé, l'air (donc le $\\ce{O2}$) est chassé ; les racines respirent mal et produisent peu d'ATP ; or l'absorption du $\\ce{K+}$ est un transport actif qui consomme de l'ATP : elle chute.",
+    "3) Arroser avec une eau douce (eau de pluie, forage non salé) ; drainer la parcelle inondée (rigoles, buttes) pour aérer le sol."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    2,
+    1.5
+   ],
+   "piege": "Dire que la plante « boit trop de sel » sans parler du sens du flux d'eau.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Inverser hypotonique et hypertonique, ou dire que l'eau va vers le milieu le moins concentré.",
+  "Dire que ce sont les solutés qui passent lors de l'osmose.",
+  "Parler d'hémolyse pour une cellule végétale (elle ne peut pas éclater grâce à sa paroi).",
+  "Calculer le pourcentage de variation de masse en divisant par la masse finale.",
+  "Oublier de citer l'ATP et la respiration pour justifier un transport actif.",
+  "Lire la concentration isotonique ailleurs qu'au point où la variation de masse est nulle."
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "genere": "2026-10-03T14:20:14.951Z",
+ "images": [
+  {
+   "fichier": "M-S1-C01-N1.svg",
+   "notion": "M-S1-C01-N1",
+   "alt": "Ensembles de nombres emboîtés N, Z, D, Q, R avec des exemples, et les irrationnels racine de 2 et pi dans R seulement.",
+   "legende": "ℕ ⊂ ℤ ⊂ 𝔻 ⊂ ℚ ⊂ ℝ : chaque ensemble est contenu dans le suivant.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C01-N2.svg",
+   "notion": "M-S1-C01-N2",
+   "alt": "Carré de côté 1 dont la diagonale mesure racine de 2, avec la liste des règles de calcul sur les puissances et les racines.",
+   "legende": "La diagonale d'un carré de côté 1 mesure √2.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C01-N3.svg",
+   "notion": "M-S1-C01-N3",
+   "alt": "Droite graduée de −3 à 7 : le segment de −1 à 5 est colorié, centre 2, avec deux flèches de longueur 3.",
+   "legende": "|x − 2| ≤ 3 : tous les réels à distance au plus 3 de 2, c'est-à-dire [−1 ; 5].",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C01-N4.svg",
+   "notion": "M-S1-C01-N4",
+   "alt": "Droite graduée de 1 à 2 avec un zoom entre 1,40 et 1,50 montrant que racine de 2 est entre 1,41 et 1,42.",
+   "legende": "Zoom sur la droite graduée : 1,41 < √2 < 1,42.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C02-N1.svg",
+   "notion": "M-S1-C02-N1",
+   "alt": "Parallélogramme ABCD : les vecteurs AB et DC sont égaux (en bleu), et la somme AB + BC donne AC (en rouge).",
+   "legende": "Parallélogramme : AB = DC ; relation de Chasles : AB + BC = AC.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C02-N2.svg",
+   "notion": "M-S1-C02-N2",
+   "alt": "Trois flèches parallèles : u, 2u dans le même sens et −1,5u dans le sens contraire.",
+   "legende": "u, 2u et −1,5u ont la même direction : ils sont colinéaires.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C02-N3.svg",
+   "notion": "M-S1-C02-N3",
+   "alt": "Repère quadrillé : A(1 ; 1), B(5 ; 4), le vecteur AB se décompose en 4 vers la droite et 3 vers le haut ; sa longueur vaut 5.",
+   "legende": "AB(4 ; 3) : 4 carreaux vers la droite, 3 vers le haut ; AB = 5.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C03-N1.svg",
+   "notion": "M-S1-C03-N1",
+   "alt": "Carré de côté a + b découpé en un carré a², un carré b² et deux rectangles ab.",
+   "legende": "Preuve par les aires : (a + b)² = a² + 2ab + b².",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C03-N2.svg",
+   "notion": "M-S1-C03-N2",
+   "alt": "Courbe du polynôme P(x) = (x − 1)(x + 2)(x − 3) qui coupe l'axe des abscisses en −2, 1 et 3.",
+   "legende": "Les racines de P sont les abscisses des points où la courbe coupe l'axe (Ox).",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C03-N3.svg",
+   "notion": "M-S1-C03-N3",
+   "alt": "Courbe de F(x) = (2x + 1)/(x − 1) en deux morceaux séparés par la droite verticale x = 1 en pointillés rouges.",
+   "legende": "La valeur interdite x = 1 coupe la courbe en deux branches.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C04-N1.svg",
+   "notion": "M-S1-C04-N1",
+   "alt": "Segment AB gradué en quarts ; G est aux trois quarts à partir de A, du côté de B qui a le poids 3.",
+   "legende": "G = bar{(A ; 1), (B ; 3)} : AG = 3/4 AB.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C04-N2.svg",
+   "notion": "M-S1-C04-N2",
+   "alt": "Triangle ABC avec I milieu de [AB] (poids 2) et G milieu de [IC].",
+   "legende": "Associativité : G = bar{(I ; 2), (C ; 2)} est le milieu de [IC].",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "M-S1-C04-N3.svg",
+   "notion": "M-S1-C04-N3",
+   "alt": "Cercle de centre G (barycentre de A ; 1 et B ; 3) et de rayon 2 : ensemble des points M tels que la norme de MA + 3MB vaut 8.",
+   "legende": "‖MA + 3MB‖ = 8 ⇔ MG = 2 : cercle de centre G et de rayon 2.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "PC-S1-C01-N1.svg",
+   "notion": "PC-S1-C01-N1",
+   "alt": "Deux schémas : à gauche une roue avec la valve qui décrit un cercle dans le référentiel du vélo ; à droite la même valve qui décrit une courbe en arches (cycloïde) dans le référentiel du sol.",
+   "legende": "La trajectoire dépend du référentiel : cercle pour le cycliste, cycloïde pour le piéton au bord de la route.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "PC-S1-C01-N2.svg",
+   "notion": "PC-S1-C01-N2",
+   "alt": "Enregistrement d'un mobile : points M0 à M6 de plus en plus espacés sur une droite ; le segment M2M4 est repéré et le vecteur vitesse v3 est dessiné au point M3 dans le sens du mouvement.",
+   "legende": "Vitesse instantanée au point M3 : on mesure M2M4, parcouru pendant 2τ.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "PC-S1-C01-N3.svg",
+   "notion": "PC-S1-C01-N3",
+   "alt": "À gauche, graphe position-temps d'un mouvement rectiligne uniforme (droite de pente v). À droite, cercle de rayon R parcouru à vitesse constante avec trois vecteurs vitesse de même longueur, tangents au cercle.",
+   "legende": "MRU : x(t) est une droite. MCU : vecteurs vitesse de même valeur mais de directions différentes.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "PC-S1-C02-N1.svg",
+   "notion": "PC-S1-C02-N1",
+   "alt": "En haut : un chariot tiré par une corde horizontale ; le vecteur force F part du point d'attache A, horizontal vers la droite, longueur 3 cm pour 30 N. En bas : un livre sur une table, avec la force de la table sur le livre vers le haut et la force du livre sur la table vers le bas.",
+   "legende": "Représenter une force (échelle 1 cm ↔ 10 N) et deux forces réciproques de même intensité et de sens opposés.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "PC-S1-C02-N2.svg",
+   "notion": "PC-S1-C02-N2",
+   "alt": "La Terre vue en coupe avec quatre personnes placées en différents points : chaque vecteur poids est dirigé vers le centre de la Terre ; à droite, un fil à plomb donne la verticale.",
+   "legende": "Le poids est toujours dirigé vers le centre de la Terre : la « verticale » change d'un lieu à l'autre.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "PC-S1-C02-N3.svg",
+   "notion": "PC-S1-C02-N3",
+   "alt": "Trois situations : un objet suspendu à un ressort (tension T vers le haut, poids P vers le bas), un bloc posé sur une table (réaction R vers le haut, poids P vers le bas), un flotteur dans l'eau (poussée d'Archimède vers le haut, poids vers le bas).",
+   "legende": "Forces de contact usuelles : tension, réaction, poussée d'Archimède, chacune équilibrant ici le poids.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "PC-S1-C03-N1.svg",
+   "notion": "PC-S1-C03-N1",
+   "alt": "Une caisse sur un plan incliné sans frottement, retenue par une corde parallèle au plan : le poids P vertical vers le bas, la tension T parallèle au plan vers le haut de la pente, la réaction R perpendiculaire au plan.",
+   "legende": "Bilan des forces sur un plan incliné sans frottement : P, T et R.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "PC-S1-C03-N2.svg",
+   "notion": "PC-S1-C03-N2",
+   "alt": "À gauche, une boule suspendue à un fil vertical : T vers le haut et P vers le bas, de même longueur, sur la même droite. À droite, une caisse immobile sur un plan incliné avec frottement : R verticale vers le haut, opposée au poids, décomposée en R_N et f.",
+   "legende": "Deux forces en équilibre : même droite d'action, même intensité, sens opposés.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "PC-S1-C03-N3.svg",
+   "notion": "PC-S1-C03-N3",
+   "alt": "Une lampe suspendue par deux fils symétriques faisant 30° avec la verticale, avec les tensions T1, T2 et le poids P concourants ; à droite le triangle des forces fermé P, T1, T2.",
+   "legende": "Trois forces en équilibre : concourantes, et le triangle des forces se referme.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "SVT-S1-C01-N1.svg",
+   "notion": "SVT-S1-C01-N1",
+   "alt": "Schéma légendé du microscope optique avec la formule du grossissement",
+   "legende": "Le microscope optique : parties optiques, mécaniques et éclairage ; G = G oculaire × G objectif.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "SVT-S1-C01-N2.svg",
+   "notion": "SVT-S1-C01-N2",
+   "alt": "Schémas comparés d'une cellule animale et d'une cellule végétale chlorophyllienne",
+   "legende": "Cellule animale et cellule végétale vues au microscope électronique (schéma simplifié, tailles non respectées).",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "SVT-S1-C01-N3.svg",
+   "notion": "SVT-S1-C01-N3",
+   "alt": "Comparaison d'une cellule procaryote et d'une cellule eucaryote avec leurs tailles",
+   "legende": "Procaryote (bactérie) et eucaryote : structure et ordre de grandeur des tailles.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "SVT-S1-C02-N1.svg",
+   "notion": "SVT-S1-C02-N1",
+   "alt": "Diffusion d'un colorant dans un bécher et schéma de la membrane plasmique",
+   "legende": "La diffusion (en haut) et la membrane plasmique, barrière sélective (en bas).",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "SVT-S1-C02-N2.svg",
+   "notion": "SVT-S1-C02-N2",
+   "alt": "Cellules végétales et globules rouges en milieux hypotonique, isotonique et hypertonique",
+   "legende": "L'osmose : turgescence et plasmolyse des cellules d'oignon, hémolyse et ratatinement des globules rouges.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "SVT-S1-C02-N3.svg",
+   "notion": "SVT-S1-C02-N3",
+   "alt": "Histogramme des concentrations ioniques d'une algue marine et schéma diffusion / transport actif",
+   "legende": "Absorption sélective : la cellule accumule K+ et rejette Na+ contre les gradients, par transport actif.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "FR-S1-C01-N1.svg",
+   "notion": "FR-S1-C01-N1",
+   "alt": "Schéma : référent en haut, émetteur, message et récepteur au centre, canal et code en bas, avec la fonction associée à chaque élément et un exemple pour chacune.",
+   "legende": "Les six éléments de la communication selon Jakobson et leurs fonctions.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "FR-S1-C01-N2.svg",
+   "notion": "FR-S1-C01-N2",
+   "alt": "Tableau comparant énoncé ancré et énoncé coupé selon les personnes, les temps, les repères de temps et de lieu, avec des exemples de textes.",
+   "legende": "Les indices qui permettent de distinguer discours et récit.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "FR-S1-C01-N3.svg",
+   "notion": "FR-S1-C01-N3",
+   "alt": "Carte mentale : au centre « Comment l'énonciateur montre son avis », six branches : adverbes, verbes d'opinion, conditionnel, vocabulaire, ponctuation, tournures impersonnelles, avec des exemples.",
+   "legende": "Les six familles de modalisateurs.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "FR-S1-C01-N4.svg",
+   "notion": "FR-S1-C01-N4",
+   "alt": "Tableau de transformation du discours direct au discours indirect : temps verbaux, impératif, question, repères de lieu et de temps.",
+   "legende": "La concordance des temps et des repères au discours indirect.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "FR-S1-C02-N1.svg",
+   "notion": "FR-S1-C02-N1",
+   "alt": "Tableau des figures d'analogie : comparaison, métaphore, métaphore filée, personnification, allégorie, avec principe et exemple.",
+   "legende": "Les cinq figures d'analogie à connaître.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "FR-S1-C02-N2.svg",
+   "notion": "FR-S1-C02-N2",
+   "alt": "Carte mentale des figures d'opposition : antithèse, oxymore, chiasme, paradoxe et antiphrase, avec une définition courte et un exemple chacune.",
+   "legende": "Cinq façons d'opposer des contraires.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "FR-S1-C02-N3.svg",
+   "notion": "FR-S1-C02-N3",
+   "alt": "Carte mentale : quatre figures d'insistance (hyperbole, gradation, accumulation, anaphore) et deux figures d'atténuation (litote, euphémisme), avec un exemple chacune.",
+   "legende": "Figures d'insistance et figures d'atténuation.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "FR-S1-C02-N4.svg",
+   "notion": "FR-S1-C02-N4",
+   "alt": "Tableau des figures de substitution : trois métonymies (contenant/contenu, lieu/habitants, auteur/œuvre), une synecdoque et une périphrase.",
+   "legende": "Métonymie, synecdoque et périphrase.",
+   "licence": "Création originale, CC0"
+  },
+  {
+   "fichier": "FR-S1-C02-N5.svg",
+   "notion": "FR-S1-C02-N5",
+   "alt": "Schéma en quatre étapes numérotées : repérer, nommer, montrer le mécanisme, interpréter.",
+   "legende": "La méthode R-N-M-I pour analyser une figure de style.",
+   "licence": "Création originale, CC0"
+  }
+ ],
+ "sons": [
+  {
+   "id": "juste",
+   "description": "Bonne réponse (deux notes montantes)",
+   "source": "généré par Web Audio (06_site/src/sons.ts)",
+   "licence": "création originale"
+  },
+  {
+   "id": "erreur",
+   "description": "Erreur douce (deux notes descendantes)",
+   "source": "généré par Web Audio",
+   "licence": "création originale"
+  },
+  {
+   "id": "niveau",
+   "description": "Niveau gagné / composition réussie (arpège)",
+   "source": "généré par Web Audio",
+   "licence": "création originale"
+  }
+ ],
+ "narration": "Synthèse vocale du navigateur (voix française) sur chaque notion, bouton 🔊",
+ "videos": []
+}

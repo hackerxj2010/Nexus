@@ -1,0 +1,254 @@
+{
+ "matiere": "PC",
+ "annee_scolaire_reference": "2025-2026 (indices) / 2026-2027 (calendrier)",
+ "decoupage": "trimestres en 2026-2027 (décision n°125/2026/MEN/CAB/SG : T1 14 sept.-23 déc. 2026, T2 4 janv.-9 avril 2027, T3 19 avril-16 juillet 2027) ; semestres en 2025-2026 (compositions régionales de 1er semestre). Les ids gardent S1/S2 = 1re et 2e moitié de l'année.",
+ "volume_horaire_hebdo": "non confirmé (de l'ordre de 4 h, à vérifier auprès de l'établissement)",
+ "coefficient_seconde_S": null,
+ "statut": "reconstitue",
+ "remarques": "Aucun document officiel togolais (programme MEPSTA/MEN, progression harmonisée d'inspection) n'a pu être ouvert : le proxy réseau bloque tous les sites, seuls des extraits de résultats de recherche étaient lisibles. La liste est reconstituée à partir de ces extraits togolais (devoirs harmonisés et compositions régionales de Seconde S, réforme APC de la Seconde) et des programmes voisins de Seconde S/C (Sénégal, Côte d'Ivoire) qui ont la même structure (mécanique, électricité, optique ; structure de la matière, mole, réaction, solutions). Physique et chimie sont enseignées en parallèle : les durées sont données par discipline. Coefficient non trouvé : laissé vide plutôt qu'inventé. À confronter à la progression remise par le professeur.",
+ "sources": [
+  {
+   "titre": "Recherche web (extraits de résultats uniquement, page non ouverte : proxy) — « Corrigé Devoir harmonisé n°2 du 2nd semestre _ 2nd S 2024-2025 » (Scribd) : exercices sur réactions chimiques, équilibrage d'équations, lois de la chimie, calculs de moles et de masses",
+   "url": "https://fr.scribd.com/document/886637169/Corrige-Devoir-harmonise-n-2-du-2nd-semestre-2nd-S-2024-2025",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2
+  },
+  {
+   "titre": "Recherche web (extrait) — DRE Grand Lomé : composition régionale du premier semestre 2025-2026 pour Seconde, Première, Terminale (12-19 janvier 2026)",
+   "url": "https://www.journaleducatif.com/article/291-dre-gl-composition-regionale-et-chronogramme-organisationnel-premier-semestre-2025-2026?page=2",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3
+  },
+  {
+   "titre": "Recherche web (extrait) — « SVT composition régionale 1er semestre Seconde S, année scolaire 2025-2026, DRE Savanes, Togo » (confirme l'appellation Seconde S et le découpage en semestres en 2025-2026)",
+   "url": "https://epreuvesetcorriges.com/categories/togo/colleges/seconde/41852-svt-composition-regionale-1er-semestre-seconde-s-annee-scolaire-2025-2026-dre-savanes-togo",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3
+  },
+  {
+   "titre": "Recherche web (extrait) — République togolaise : « Matières, coefficients, chapitres, anglais… : des réformes annoncées dans l'enseignement secondaire » (programmes de Seconde allégés et actualisés, approche par compétences APC, nouveaux volumes horaires et coefficients ; chiffres PC non visibles dans l'extrait)",
+   "url": "https://www.republiquetogolaise.com/education/1209-7249-matieres-coefficients-chapitres-anglais-des-reformes-annoncees-dans-l-enseignement-secondaire",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3
+  },
+  {
+   "titre": "Recherche web (extrait) — AllAfrica : « Togo : Calendrier scolaire 2026-2027 » (décision n°125/2026/MEN/CAB/SG ; trois trimestres : 14 sept.-23 déc. 2026, 4 janv.-9 avril 2027, 19 avril-16 juillet 2027)",
+   "url": "https://fr.allafrica.com/stories/202607310464.html",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 3
+  },
+  {
+   "titre": "Programme voisin (Sénégal), Seconde S — cours et recueils d'exercices du Lycée de Thiaroye (électrisation, intensité, tension, dipôles passifs et actifs, propagation et réfraction de la lumière ; mélanges et corps purs, atome, classification, liaisons, mole, réaction chimique, solutions) — vu via extraits de recherche",
+   "url": "https://doro-cisse.e-monsite.com/pages/seconde-s.html",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2
+  },
+  {
+   "titre": "Programme voisin (Côte d'Ivoire) — Programme éducatif et guide d'exécution, Seconde C, physique-chimie (DPFC) — vu via extraits de recherche",
+   "url": "https://dpfc-ci.net/wp-content/uploads/dpfc_fichiers/2019-2020/programmes%20secondaires%202e%20cycle/pc/Programme%20Educatif%20et%20Guide%20d'Ex%C3%A9cution%202nde%20C.pdf",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 2
+  },
+  {
+   "titre": "Recherche web (extrait) — « Épreuves de composition du premier semestre de physique-chimie Seconde S au Togo » (page TikTok non consultable ; indique seulement l'existence de compositions de 1er semestre)",
+   "url": "https://www.tiktok.com/discover/%C3%A9preuves-de-composition-du-premier-semestre-de-physique-chimie-seconde-s-au-togo",
+   "date_consultation": "2026-10-03",
+   "fiabilite": 1
+  }
+ ],
+ "chapitres": [
+  {
+   "id": "PC-S1-C01",
+   "semestre": 1,
+   "ordre": 1,
+   "titre": "Généralités sur le mouvement",
+   "duree_semaines": 2,
+   "discipline": "physique",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S1-C02",
+   "semestre": 1,
+   "ordre": 2,
+   "titre": "Les forces (actions mécaniques, poids, forces usuelles)",
+   "duree_semaines": 3,
+   "discipline": "physique",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S1-C03",
+   "semestre": 1,
+   "ordre": 3,
+   "titre": "Équilibre d'un solide soumis à des forces",
+   "duree_semaines": 3,
+   "discipline": "physique",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S1-C04",
+   "semestre": 1,
+   "ordre": 4,
+   "titre": "Équilibre d'un solide mobile autour d'un axe fixe",
+   "duree_semaines": 2,
+   "discipline": "physique",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S1-C05",
+   "semestre": 1,
+   "ordre": 5,
+   "titre": "Corps purs et mélanges",
+   "duree_semaines": 2,
+   "discipline": "chimie",
+   "source_ids": [
+    5
+   ]
+  },
+  {
+   "id": "PC-S1-C06",
+   "semestre": 1,
+   "ordre": 6,
+   "titre": "L'atome",
+   "duree_semaines": 2,
+   "discipline": "chimie",
+   "source_ids": [
+    5,
+    6,
+    7
+   ]
+  },
+  {
+   "id": "PC-S1-C07",
+   "semestre": 1,
+   "ordre": 7,
+   "titre": "Élément chimique et classification périodique",
+   "duree_semaines": 2,
+   "discipline": "chimie",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S1-C08",
+   "semestre": 1,
+   "ordre": 8,
+   "titre": "Ions et molécules : les liaisons chimiques",
+   "duree_semaines": 2,
+   "discipline": "chimie",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S2-C09",
+   "semestre": 2,
+   "ordre": 9,
+   "titre": "Électrisation et courant électrique",
+   "duree_semaines": 2,
+   "discipline": "physique",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S2-C10",
+   "semestre": 2,
+   "ordre": 10,
+   "titre": "La tension électrique",
+   "duree_semaines": 2,
+   "discipline": "physique",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S2-C11",
+   "semestre": 2,
+   "ordre": 11,
+   "titre": "Dipôles passifs : loi d'Ohm, associations, effet Joule",
+   "duree_semaines": 3,
+   "discipline": "physique",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S2-C12",
+   "semestre": 2,
+   "ordre": 12,
+   "titre": "Dipôles actifs : générateurs et récepteurs",
+   "duree_semaines": 3,
+   "discipline": "physique",
+   "source_ids": [
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S2-C13",
+   "semestre": 2,
+   "ordre": 13,
+   "titre": "Propagation, réflexion et réfraction de la lumière",
+   "duree_semaines": 3,
+   "discipline": "physique",
+   "source_ids": [
+    5
+   ]
+  },
+  {
+   "id": "PC-S2-C14",
+   "semestre": 2,
+   "ordre": 14,
+   "titre": "La mole et les grandeurs molaires",
+   "duree_semaines": 2,
+   "discipline": "chimie",
+   "source_ids": [
+    0,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S2-C15",
+   "semestre": 2,
+   "ordre": 15,
+   "titre": "La réaction chimique et l'équation-bilan",
+   "duree_semaines": 3,
+   "discipline": "chimie",
+   "source_ids": [
+    0,
+    5,
+    6
+   ]
+  },
+  {
+   "id": "PC-S2-C16",
+   "semestre": 2,
+   "ordre": 16,
+   "titre": "Solutions aqueuses, acides, bases et pH",
+   "duree_semaines": 3,
+   "discipline": "chimie",
+   "source_ids": [
+    5,
+    6
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" width="400" height="270" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Tension, réaction et poussée d'Archimède</title>
+<rect x="0" y="0" width="400" height="270" rx="18" fill="#fffdf8"/>
+<line x1="20.0" y1="30.0" x2="110.0" y2="30.0" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+<polyline points="65.0,30.0 75.0,42.0 55.0,50.0 75.0,58.0 55.0,66.0 75.0,74.0 55.0,82.0 75.0,90.0 55.0,98.0 65.0,108.0" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round"/>
+<rect x="45.0" y="108.0" width="40.0" height="36.0" rx="3" stroke="#1f2937" stroke-width="2" fill="#f3e8d6"/>
+<circle cx="65.0" cy="126.0" r="3.5" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<line x1="65.0" y1="108.0" x2="65.0" y2="71.0" stroke="#15803d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="65.0,60.0 70.5,71.0 59.5,71.0" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="76.0" y="72.0" font-size="16" text-anchor="start" fill="#15803d" font-weight="bold">T</text>
+<line x1="65.0" y1="126.0" x2="65.0" y2="163.0" stroke="#c0262d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="65.0,174.0 59.5,163.0 70.5,163.0" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<text x="76.0" y="172.0" font-size="16" text-anchor="start" fill="#c0262d" font-weight="bold">P</text>
+<text x="65.0" y="210.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="normal">ressort</text>
+<text x="65.0" y="228.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="normal">T = k Δℓ</text>
+<rect x="150.0" y="150.0" width="100.0" height="12.0" rx="0" stroke="#1f2937" stroke-width="2" fill="#f3e8d6"/>
+<rect x="178.0" y="112.0" width="44.0" height="38.0" rx="3" stroke="#1f2937" stroke-width="2" fill="#dbeafe"/>
+<circle cx="200.0" cy="131.0" r="3.5" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<line x1="200.0" y1="150.0" x2="200.0" y2="103.0" stroke="#15803d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="200.0,92.0 205.5,103.0 194.5,103.0" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="210.0" y="98.0" font-size="16" text-anchor="start" fill="#15803d" font-weight="bold">R</text>
+<line x1="200.0" y1="131.0" x2="200.0" y2="178.0" stroke="#c0262d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="200.0,189.0 194.5,178.0 205.5,178.0" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<text x="210.0" y="189.0" font-size="16" text-anchor="start" fill="#c0262d" font-weight="bold">P</text>
+<text x="200.0" y="210.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="normal">support</text>
+<text x="200.0" y="228.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="normal">R ⊥ support</text>
+<rect x="285.0" y="110.0" width="100.0" height="70.0" rx="0" stroke="none" stroke-width="0" fill="#bfdbfe"/>
+<line x1="285.0" y1="110.0" x2="385.0" y2="110.0" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round"/>
+<rect x="312.0" y="88.0" width="46.0" height="46.0" rx="3" stroke="#1f2937" stroke-width="2" fill="#f3e8d6"/>
+<circle cx="335.0" cy="111.0" r="3.5" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<text x="328.0" y="106.0" font-size="12" text-anchor="end" fill="#6b7280" font-weight="normal">G</text>
+<circle cx="335.0" cy="122.0" r="3.5" stroke="#7e22ce" stroke-width="1" fill="#7e22ce"/>
+<line x1="335.0" y1="122.0" x2="335.0" y2="71.0" stroke="#15803d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="335.0,60.0 340.5,71.0 329.5,71.0" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="345.0" y="66.0" font-size="16" text-anchor="start" fill="#15803d" font-weight="bold">F</text>
+<text x="356.0" y="72.0" font-size="11" text-anchor="start" fill="#15803d" font-weight="normal">A</text>
+<line x1="335.0" y1="111.0" x2="335.0" y2="162.0" stroke="#c0262d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="335.0,173.0 329.5,162.0 340.5,162.0" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<text x="345.0" y="168.0" font-size="16" text-anchor="start" fill="#c0262d" font-weight="bold">P</text>
+<text x="335.0" y="210.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="normal">eau</text>
+<text x="335.0" y="228.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="normal">F = ρ V g</text>
+<text x="200.0" y="258.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="normal">À l'équilibre, chaque force compense le poids.</text>
+</svg>

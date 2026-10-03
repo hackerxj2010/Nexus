@@ -1,0 +1,734 @@
+{
+ "id": "EP-PC-S1-0001",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (session de septembre 2021)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2021-2022 (concours de septembre 2021)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Combustions (synthèse de l'eau, alcanes) — 3e",
+  "Électrolyse de l'eau — 3e",
+  "Solutions acides, pH, action des acides sur les métaux — 3e",
+  "Lentilles minces convergentes — 3e",
+  "Loi d'Ohm, énergie électrique, calorimétrie — 3e",
+  "Diodes, redressement — 3e",
+  "Poussée d'Archimède — 3e"
+ ],
+ "chapitres": [
+  "PC-S1-C02",
+  "PC-S1-C03",
+  "PC-S2-C11",
+  "PC-S2-C13",
+  "PC-S2-C15",
+  "PC-S2-C16"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE — SESSION DE SEPTEMBRE 2021**\n**Épreuve de Sciences physiques** — Durée : 2 h — Coef : 2\n\n### EXERCICE 1 (02,5 points)\n1. Dans un tube à essai on brûle un mélange gazeux constitué de 300 mL de dioxygène et de 500 mL de dihydrogène. À la fin de la combustion il reste un gaz.\n   - a) De quelle réaction s'agit-il ? Écrire son équation bilan. (0,5 pt)\n   - b) Quelle est la nature du gaz restant ? Calcule son volume. (0,5 pt)\n2. On utilise 40 mL de dioxygène pour brûler un alcane dont la molécule comporte au total quatorze atomes.\n   - a) Détermine la formule brute de cet alcane. (0,5 pt)\n   - b) Écris ses formules développées. (0,5 pt)\n   - c) Écris l'équation bilan de la combustion complète de cet alcane et calcule le volume de l'alcane brûlé. (0,5 pt)\n\n### EXERCICE 2 (02,5 points)\nDes élèves de ta classe réalisent l'électrolyse d'une solution aqueuse de soude.\n1. Donne la liste du matériel qu'ils ont utilisé. (0,5 pt)\n2. À la fin de l'électrolyse, ils ont recueilli 72 cm³ d'un gaz à la cathode. Quel est ce gaz ? (0,5 pt)\n3. Quel gaz ont-ils recueilli à l'anode ? Quel est son volume ? (0,5 pt)\n4. Comment identifie-t-on chacun de ces gaz ? Écris l'équation bilan de la réaction. (1 pt)\n\n### EXERCICE 3 (02 points)\nL'entretien des rails d'un train en miniature. Les rails en fer s'oxydent légèrement. Il faut régulièrement les décaper. M. Koffi décide de tremper les rails du train miniature dans une solution d'acide chlorhydrique afin de les nettoyer.\n\n*Fiche technique — Acide chlorhydrique : liquide incolore à jaune pouvant à la fois provoquer des brûlures de la peau et des lésions oculaires graves et irriter les voies respiratoires. Permet de décaper les métaux et de rénover les surfaces oxydées.*\n\n1. Cite deux règles qui doivent être respectées lors de l'utilisation de cette solution d'acide chlorhydrique concentrée. (0,5 pt)\n2. M. Koffi se souvient de ses cours de physique-chimie. Il sait que le fer et l'acide chlorhydrique réagissent selon le bilan suivant : acide chlorhydrique + fer → dihydrogène + solution de chlorure de fer II.\n   - a) Relie par un trait chaque terme de la colonne de gauche au terme qui convient dans la colonne de droite : (0,5 pt)\n     colonne de gauche : *Acide chlorhydrique concentré ; Ion fer II ; Dihydrogène ; Fer* — colonne de droite : *Réactifs ; Produits*\n   - b) Explique pourquoi M. Koffi ne doit pas laisser tremper trop longtemps les rails dans la solution d'acide chlorhydrique. (0,5 pt)\n   - c) M. Koffi décide de diluer la solution d'acide chlorhydrique avec de l'eau distillée. Choisis la bonne réponse. Au cours de la dilution, la valeur du pH de la solution d'acide : c1) diminue ; c2) reste constante ; c3) augmente. (0,5 pt)\n\n### EXERCICE 4 (02 points)\n**A/** Une lentille convergente L₁ donne d'un objet droit AB de hauteur 5 cm placé perpendiculairement à l'axe optique principal de cette lentille une image deux fois plus grande. Cette image se forme sur un écran situé à 30 cm de l'objet AB.\n1. Construis à l'échelle 1/2 l'image A'B' de l'objet AB. (0,5 pt)\n2. Déduis graphiquement la distance focale f de cette lentille L₁. Quelle est sa vergence ? (0,5 pt)\n\n**B/** Un objet réel AB de 20 cm de hauteur est placé sur l'axe optique d'une lentille L₂ à 50 cm de son centre optique. L'image réelle de l'objet AB se forme sur un écran à 75 cm de la lentille.\n1. Détermine graphiquement la distance focale de la lentille L₂. Échelle : 1/10. (0,5 pt)\n2. On place l'objet cette fois à 15 cm de la lentille. Donnez les caractéristiques de l'image. (0,5 pt)\n\n### EXERCICE 5 (07,5 points)\n**A/** Pour déterminer la résistance R d'un conducteur ohmique D en travaux pratiques, trois groupes d'élèves ont réalisé les montages électriques dont les schémas (a), (b) et (c) sont donnés ci-dessous (L est une lampe témoin).\n[Schémas (a), (b), (c) non disponibles : montages comportant le conducteur D, un interrupteur K, la lampe témoin L, un voltmètre V et un ampèremètre.]\n1. Choisis le schéma correspondant au bon montage. Explique pourquoi les autres montages ne sont pas corrects. (1 pt)\n2. Le groupe qui a réalisé le montage correct relève 20 V et 500 mA au niveau des appareils de mesure. Trouve la valeur de la résistance R du conducteur ohmique et l'énergie calorifique qu'il consomme par minute. (1 pt)\n\n**B/** Un circuit comprend, montés en série :\n- un générateur délivrant à ses bornes une tension constante $U_G = 120\\ \\text{V}$ ;\n- une lampe L de résistance $R = 0{,}5\\ \\Omega$ [OCR : « R=0,50 »] ;\n- deux résistors $R_1 = 4\\ \\Omega$ et $R_2 = 12\\ \\Omega$ [OCR : « R-462 et R2=122 », lecture déduite de la cohérence des calculs] montés en dérivation entre deux points A et B du circuit ;\n- une résistance chauffante $R_c$ qui plonge dans un calorimètre contenant 4 kg d'eau à 25 °C ;\n- un ampèremètre et un interrupteur.\n1. Réalise le schéma du montage. (0,5 pt)\n2. Le résistor $R_1$ est parcouru par un courant d'intensité $I_1 = 2{,}25\\ \\text{A}$. Calcule :\n   - a) l'intensité du courant principal dans le circuit ; (0,5 pt)\n   - b) la tension aux bornes du calorimètre ; (0,5 pt)\n   - c) l'énergie électrique consommée dans les deux résistors en 30 minutes. (0,5 pt)\n3. L'eau a absorbé 85 % de l'énergie calorifique dégagée en 30 minutes par la résistance chauffante $R_c$. Calcule :\n   - a) la température finale $\\theta_f$ de l'eau ; (0,5 pt)\n   - b) la valeur $R_c$ de la résistance chauffante. La chaleur massique de l'eau est $c = 4200\\ \\text{J/kg/°C}$. (0,5 pt)\n\n**C/** Dans le montage ci-contre les diodes sont idéales et la tension appliquée entre les bornes A et C est une tension alternative sinusoïdale.\n[Schéma non disponible : quatre diodes D1, D2, D3, D4 montées en pont entre les bornes A et C, conducteur ohmique R.]\n1. Quelles sont les diodes qui conduisent dans les deux cas suivants :\n   - a) lorsque le point A est la borne positive du générateur ; (0,5 pt)\n   - b) lorsque le point A est la borne négative du générateur ? (0,5 pt)\n2. Reproduis le schéma et indiques-y le sens du courant dans le conducteur ohmique (la résistance) R. (0,5 pt)\n3. Donne le nom de l'association des diodes de ce montage. À quoi peut-il servir ? (1 pt)\n\n### EXERCICE 6 (03,5 points)\n**A/** Lors d'une séance de travaux pratiques au collège, un élève de 3e plonge un solide (S) de masse volumique $\\rho = 1{,}2\\ \\text{kg/dm}^3$ et de volume $V = 0{,}5\\ \\text{dm}^3$ dans un liquide (L) puis dans un autre liquide (L'). L'un des liquides est l'eau salée de masse volumique $\\rho_e = 1{,}5\\ \\text{kg/dm}^3$ et l'autre l'alcool de masse volumique $\\rho_a = 0{,}8\\ \\text{kg/dm}^3$. On obtient à l'équilibre les situations (1) et (2) représentées ci-contre. On donne $g = 10\\ \\text{N/kg}$.\n[Figure non disponible : situation (1) = solide dans le liquide (L) ; situation (2) = solide dans le liquide (L').]\n1. Attribue à chaque liquide (L) et (L') son nom en justifiant ta réponse. (0,5 pt)\n2. Détermine la masse m du solide (S) et déduis-en son poids P. (0,5 pt)\n3. Pour étudier l'équilibre d'un solide soumis à deux forces, on considère la situation (2) sachant que le liquide est l'eau salée.\n   - a) Donne la valeur de la poussée d'Archimède exercée par l'eau salée sur le solide en justifiant ta réponse sans calcul. (0,5 pt)\n   - b) Détermine le volume $V_i$ de la partie immergée du solide. (0,5 pt)\n   - c) Reproduis la figure de la situation (2) et représente le poids $\\vec P$ du solide et la poussée d'Archimède $\\vec{P_A}$ qu'il subit à l'échelle 1 cm pour 2 N. (0,5 pt)\n\n**B/** Une brique de terre a les dimensions suivantes : L = 40 cm, l = 10 cm, h = 15 cm ; sa masse est de 7 kg.\n1. Calcule la masse volumique de la brique et la poussée qu'elle subit lorsqu'elle est complètement immergée dans de l'eau. On donne $\\rho_{eau} = 1\\ \\text{kg/dm}^3$. (0,5 pt)\n2. La brique coule-t-elle ? Justifie ta réponse. (0,5 pt)\n",
+ "questions": [
+  {
+   "numero": "Ex1-1.a",
+   "enonce": "Nature de la réaction et équation bilan (300 mL de O₂ + 500 mL de H₂).",
+   "points": 0.5,
+   "notions_titres": [
+    "Synthèse de l'eau"
+   ],
+   "corrige": [
+    "C'est la **synthèse de l'eau** (combustion du dihydrogène dans le dioxygène).",
+    "Équation bilan : $\\ce{2H2 + O2 -> 2H2O}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Synthèse de l'eau : $\\ce{2H2 + O2 -> 2H2O}$",
+   "piege": "Oublier d'équilibrer : il faut 2 H₂ pour 1 O₂.",
+   "astuce": "Les coefficients donnent directement les proportions en volume des gaz."
+  },
+  {
+   "numero": "Ex1-1.b",
+   "enonce": "Nature et volume du gaz restant.",
+   "points": 0.5,
+   "notions_titres": [
+    "Synthèse de l'eau",
+    "Réactif en excès"
+   ],
+   "corrige": [
+    "D'après l'équation, $V_{O_2}$ nécessaire $= \\frac{V_{H_2}}{2} = \\frac{500}{2} = 250\\ \\text{mL}$ < 300 mL : le dihydrogène est entièrement consommé, le **dioxygène est en excès**.",
+    "$V_{O_2,\\,restant} = 300 - 250 = 50\\ \\text{mL}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Il reste 50 mL de dioxygène.",
+   "piege": "Dire que le gaz restant est H₂ parce qu'il y en a « plus » (500 > 300) : il faut comparer avec les proportions 2 pour 1.",
+   "astuce": "Calcule ce que consommerait chaque réactif : celui qui « manque » est limitant."
+  },
+  {
+   "numero": "Ex1-2.a",
+   "enonce": "Formule brute de l'alcane à 14 atomes.",
+   "points": 0.5,
+   "notions_titres": [
+    "Alcanes"
+   ],
+   "corrige": [
+    "Alcane : $\\ce{C_nH_{2n+2}}$ ; nombre total d'atomes $n + 2n + 2 = 3n + 2 = 14$.",
+    "$3n = 12 \\Rightarrow n = 4$ : $\\ce{C4H10}$ (butane)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "C₄H₁₀ (butane)",
+   "piege": "Oublier les 2 hydrogènes supplémentaires de la formule générale.",
+   "astuce": "Nombre d'atomes d'un alcane = 3n + 2."
+  },
+  {
+   "numero": "Ex1-2.b",
+   "enonce": "Formules développées de C₄H₁₀.",
+   "points": 0.5,
+   "notions_titres": [
+    "Alcanes",
+    "Isomérie"
+   ],
+   "corrige": [
+    "Butane (chaîne linéaire) : $\\ce{CH3-CH2-CH2-CH3}$ (forme développée : chaque C relié à 4 liaisons).",
+    "Méthylpropane (chaîne ramifiée) : $\\ce{CH3-CH(CH3)-CH3}$. Ce sont deux **isomères**."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Butane et méthylpropane (2 isomères)",
+   "piege": "N'en donner qu'une : le pluriel « ses formules » attend les deux isomères.",
+   "astuce": "À partir de 4 carbones, pense toujours à la chaîne ramifiée."
+  },
+  {
+   "numero": "Ex1-2.c",
+   "enonce": "Équation de combustion complète et volume d'alcane brûlé avec 40 mL de O₂.",
+   "points": 0.5,
+   "notions_titres": [
+    "Combustion des alcanes"
+   ],
+   "corrige": [
+    "$\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$.",
+    "Proportions en volume : $\\frac{V_{alcane}}{2} = \\frac{V_{O_2}}{13} \\Rightarrow V_{alcane} = \\frac{2 \\times 40}{13} \\approx 6{,}2\\ \\text{mL}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "V(C₄H₁₀) ≈ 6,2 mL",
+   "piege": "Écrire 13/2 O₂ sans multiplier par 2 puis se tromper de rapport.",
+   "astuce": "Volumes des gaz proportionnels aux coefficients."
+  },
+  {
+   "numero": "Ex2-1",
+   "enonce": "Matériel de l'électrolyse d'une solution de soude.",
+   "points": 0.5,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "Générateur de tension continue, électrolyseur (cuve + deux électrodes), fils de connexion, interrupteur.",
+    "Deux tubes à essai remplis de solution pour recueillir les gaz (éventuellement ampèremètre, rhéostat)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Générateur continu, électrolyseur, fils, interrupteur, tubes à essai",
+   "piege": "Oublier les tubes de recueil des gaz.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-2",
+   "enonce": "Gaz recueilli à la cathode.",
+   "points": 0.5,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "À la cathode (électrode reliée au pôle −) se dégage le **dihydrogène** H₂."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Dihydrogène (H₂)",
+   "piege": "Confondre cathode (−) et anode (+).",
+   "astuce": "Cathode : dihydrogène, volume double."
+  },
+  {
+   "numero": "Ex2-3",
+   "enonce": "Gaz recueilli à l'anode et son volume.",
+   "points": 0.5,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "À l'anode : **dioxygène** O₂.",
+    "$V_{O_2} = \\frac{V_{H_2}}{2} = \\frac{72}{2} = 36\\ \\text{cm}^3$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Dioxygène, 36 cm³",
+   "piege": "Multiplier par 2 au lieu de diviser.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-4",
+   "enonce": "Identification des gaz et équation bilan.",
+   "points": 1,
+   "notions_titres": [
+    "Électrolyse de l'eau",
+    "Tests des gaz"
+   ],
+   "corrige": [
+    "H₂ : une flamme approchée de l'orifice du tube provoque une légère détonation (« aboiement »).",
+    "O₂ : une bûchette présentant un point incandescent se rallume.",
+    "Équation bilan : $\\ce{2H2O -> 2H2 + O2}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "resultat_final": "$\\ce{2H2O -> 2H2 + O2}$",
+   "piege": "Inverser les tests des deux gaz.",
+   "astuce": "La soude ne sert qu'à rendre l'eau conductrice."
+  },
+  {
+   "numero": "Ex3-1",
+   "enonce": "Deux règles de sécurité avec l'acide chlorhydrique concentré.",
+   "points": 0.5,
+   "notions_titres": [
+    "Sécurité au laboratoire",
+    "Solutions acides"
+   ],
+   "corrige": [
+    "Porter des gants et des lunettes de protection (blouse).",
+    "Travailler dans un local aéré sans respirer les vapeurs ; pour diluer, verser l'acide dans l'eau et jamais l'inverse."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Gants + lunettes ; local aéré / acide versé dans l'eau",
+   "piege": "",
+   "astuce": "La fiche technique te donne les dangers : peau, yeux, voies respiratoires."
+  },
+  {
+   "numero": "Ex3-2.a",
+   "enonce": "Relier réactifs et produits.",
+   "points": 0.5,
+   "notions_titres": [
+    "Réaction chimique"
+   ],
+   "corrige": [
+    "Réactifs : acide chlorhydrique (concentré) et fer.",
+    "Produits : dihydrogène et ion fer II (solution de chlorure de fer II)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Réactifs : acide chlorhydrique, fer ; produits : dihydrogène, ion fer II",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-2.b",
+   "enonce": "Pourquoi ne pas laisser tremper trop longtemps.",
+   "points": 0.5,
+   "notions_titres": [
+    "Action des acides sur les métaux"
+   ],
+   "corrige": [
+    "L'acide chlorhydrique ne réagit pas seulement avec la rouille : il attaque aussi le **fer** lui-même (dégagement de H₂).",
+    "Les rails seraient rongés (amincis, abîmés)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "L'acide attaquerait le fer des rails",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-2.c",
+   "enonce": "Évolution du pH lors de la dilution d'un acide.",
+   "points": 0.5,
+   "notions_titres": [
+    "pH"
+   ],
+   "corrige": [
+    "Diluer un acide diminue la concentration en ions $\\ce{H3O+}$ : la solution devient moins acide.",
+    "Le pH **augmente** (en restant < 7) : réponse c3."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "c3) le pH augmente",
+   "piege": "Croire que le pH diminue parce que « l'acide diminue ».",
+   "astuce": "Dilution : le pH se rapproche de 7."
+  },
+  {
+   "numero": "Ex4-A.1",
+   "enonce": "Construction de l'image (échelle 1/2).",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "Image réelle (sur écran) deux fois plus grande : $OA' = 2\\,OA$ et $OA + OA' = 30\\ \\text{cm}$, d'où $OA = 10\\ \\text{cm}$ et $OA' = 20\\ \\text{cm}$.",
+    "Tracé (échelle 1/2) : AB = 2,5 cm à 5 cm devant L₁, A'B' = 5 cm renversée à 10 cm derrière ; le rayon passant par O relie B à B'."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "OA = 10 cm, OA' = 20 cm, A'B' = 10 cm renversée",
+   "piege": "Placer l'écran à 30 cm de la lentille au lieu de 30 cm de l'objet.",
+   "astuce": "Écris les deux équations : somme des distances et rapport des tailles."
+  },
+  {
+   "numero": "Ex4-A.2",
+   "enonce": "Distance focale et vergence de L₁.",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles convergentes",
+    "Vergence"
+   ],
+   "corrige": [
+    "Le rayon issu de B parallèle à l'axe émerge en passant par B' : il coupe l'axe en F'. Par le calcul : $f = \\frac{OA \\cdot OA'}{OA + OA'} = \\frac{10 \\times 20}{30} \\approx 6{,}7\\ \\text{cm}$.",
+    "$C = \\frac{1}{f} = \\frac{1}{0{,}0667\\ \\text{m}} = 15\\ \\delta$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "f ≈ 6,7 cm ; C = 15 δ",
+   "piege": "Calculer C avec f en cm : il faut f en mètres.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-B.1",
+   "enonce": "Distance focale de L₂ (objet à 50 cm, image à 75 cm).",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles convergentes"
+   ],
+   "corrige": [
+    "$\\frac{1}{f} = \\frac{1}{OA'} + \\frac{1}{OA} = \\frac{1}{75} + \\frac{1}{50}$ (distances en valeurs absolues, image réelle).",
+    "$f = \\frac{50 \\times 75}{125} = 30\\ \\text{cm}$ (graphiquement : F' à 3 cm de O à l'échelle 1/10)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "f = 30 cm",
+   "piege": "",
+   "astuce": "Le tracé graphique doit redonner le calcul : vérifie-le."
+  },
+  {
+   "numero": "Ex4-B.2",
+   "enonce": "Caractéristiques de l'image pour un objet à 15 cm.",
+   "points": 0.5,
+   "notions_titres": [
+    "Lentilles convergentes",
+    "Loupe"
+   ],
+   "corrige": [
+    "Objet entre F et O (15 cm < f = 30 cm) : relation de conjugaison $\\frac{1}{\\overline{OA'}} = \\frac{1}{f} + \\frac{1}{\\overline{OA}} = \\frac{1}{30} - \\frac{1}{15} \\Rightarrow \\overline{OA'} = -30\\ \\text{cm}$.",
+    "Grandissement $\\gamma = \\frac{\\overline{OA'}}{\\overline{OA}} = \\frac{-30}{-15} = 2$ : image **virtuelle, droite, 2 fois plus grande (40 cm)**, du même côté que l'objet, à 30 cm de la lentille (effet loupe)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Image virtuelle, droite, A'B' = 40 cm, à 30 cm du même côté que l'objet",
+   "piege": "Dire « image réelle » : elle ne peut pas être reçue sur un écran.",
+   "astuce": "Objet entre F et O ⇒ loupe."
+  },
+  {
+   "numero": "Ex5-A.1",
+   "enonce": "Choix du bon montage (schémas a, b, c).",
+   "points": 1,
+   "notions_titres": [
+    "Mesure de tension et d'intensité"
+   ],
+   "corrige": [
+    "[Schémas non disponibles] Critère : le bon montage a l'**ampèremètre en série** avec D et le **voltmètre en dérivation** aux bornes de D.",
+    "Les autres sont incorrects s'ils ont un voltmètre en série ou un ampèremètre en dérivation (court-circuit / mesure fausse)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Montage avec ampèremètre en série et voltmètre en dérivation aux bornes de D (lettre non vérifiable sans le schéma)",
+   "piege": "",
+   "astuce": "Ampèremètre : en série. Voltmètre : en parallèle."
+  },
+  {
+   "numero": "Ex5-A.2",
+   "enonce": "Résistance R et énergie calorifique par minute (20 V ; 500 mA).",
+   "points": 1,
+   "notions_titres": [
+    "Loi d'Ohm",
+    "Effet Joule"
+   ],
+   "corrige": [
+    "Loi d'Ohm : $R = \\frac{U}{I} = \\frac{20}{0{,}500} = 40\\ \\Omega$.",
+    "$E = U \\cdot I \\cdot t = 20 \\times 0{,}5 \\times 60 = 600\\ \\text{J}$ par minute."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "R = 40 Ω ; E = 600 J par minute",
+   "piege": "Garder I en mA dans le calcul.",
+   "astuce": "Convertis 500 mA = 0,5 A et 1 min = 60 s."
+  },
+  {
+   "numero": "Ex5-B.1",
+   "enonce": "Schéma du montage.",
+   "points": 0.5,
+   "notions_titres": [
+    "Circuits électriques"
+   ],
+   "corrige": [
+    "En série : générateur, interrupteur, ampèremètre, lampe L, l'ensemble (R₁ // R₂) entre A et B, puis la résistance chauffante Rc dans le calorimètre ; symboles normalisés."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Schéma série avec R₁ et R₂ en dérivation entre A et B",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-B.2.a",
+   "enonce": "Intensité du courant principal.",
+   "points": 0.5,
+   "notions_titres": [
+    "Loi d'Ohm",
+    "Loi des nœuds"
+   ],
+   "corrige": [
+    "$U_{AB} = R_1 I_1 = 4 \\times 2{,}25 = 9\\ \\text{V}$ ; $I_2 = \\frac{U_{AB}}{R_2} = \\frac{9}{12} = 0{,}75\\ \\text{A}$.",
+    "Loi des nœuds : $I = I_1 + I_2 = 2{,}25 + 0{,}75 = 3{,}0\\ \\text{A}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "I = 3,0 A",
+   "piege": "Prendre I = 2,25 A : ce n'est que le courant d'une branche.",
+   "astuce": "Contrôle : $R_{eq} = \\frac{4 \\times 12}{16} = 3\\ \\Omega$ et $3 \\times 3 = 9\\ \\text{V}$."
+  },
+  {
+   "numero": "Ex5-B.2.b",
+   "enonce": "Tension aux bornes du calorimètre.",
+   "points": 0.5,
+   "notions_titres": [
+    "Loi d'additivité des tensions"
+   ],
+   "corrige": [
+    "$U_L = R \\cdot I = 0{,}5 \\times 3 = 1{,}5\\ \\text{V}$.",
+    "Additivité en série : $U_{cal} = U_G - U_L - U_{AB} = 120 - 1{,}5 - 9 = 109{,}5\\ \\text{V}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "U = 109,5 V",
+   "piege": "Oublier la tension aux bornes de la lampe.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-B.2.c",
+   "enonce": "Énergie consommée dans les deux résistors en 30 min.",
+   "points": 0.5,
+   "notions_titres": [
+    "Énergie électrique"
+   ],
+   "corrige": [
+    "$E = U_{AB} \\cdot I \\cdot t$ avec $t = 30 \\times 60 = 1800\\ \\text{s}$.",
+    "$E = 9 \\times 3 \\times 1800 = 48\\,600\\ \\text{J}$ (≈ 4,86 × 10⁴ J)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "E = 4,86 × 10⁴ J",
+   "piege": "Oublier de convertir 30 min en secondes.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-B.3.a",
+   "enonce": "Température finale de l'eau.",
+   "points": 0.5,
+   "notions_titres": [
+    "Énergie thermique",
+    "Calorimétrie"
+   ],
+   "corrige": [
+    "Énergie dégagée par Rc : $E_c = U_{cal} I t = 109{,}5 \\times 3 \\times 1800 = 591\\,300\\ \\text{J}$ ; absorbée : $Q = 0{,}85\\,E_c = 502\\,605\\ \\text{J}$.",
+    "$Q = m c (\\theta_f - \\theta_i) \\Rightarrow \\theta_f = 25 + \\frac{502\\,605}{4 \\times 4200} \\approx 25 + 29{,}9 = 54{,}9\\ \\text{°C}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "θf ≈ 54,9 °C (≈ 55 °C)",
+   "piege": "Appliquer les 85 % à la tension ou au courant au lieu de l'énergie.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-B.3.b",
+   "enonce": "Valeur de la résistance chauffante.",
+   "points": 0.5,
+   "notions_titres": [
+    "Loi d'Ohm"
+   ],
+   "corrige": [
+    "$R_c = \\frac{U_{cal}}{I}$",
+    "$R_c = \\frac{109{,}5}{3} = 36{,}5\\ \\Omega$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Rc = 36,5 Ω",
+   "piege": "",
+   "astuce": "Contrôle : $3 \\times (0{,}5 + 3 + 36{,}5) = 120\\ \\text{V}$."
+  },
+  {
+   "numero": "Ex5-C.1",
+   "enonce": "Diodes passantes selon la polarité de A.",
+   "points": 1,
+   "notions_titres": [
+    "Diodes",
+    "Redressement"
+   ],
+   "corrige": [
+    "[Schéma non disponible] Dans un pont de diodes, quand A est la borne + le courant part de A, traverse la diode dont l'anode est reliée à A, passe dans R, puis revient vers C par la diode opposée : **deux diodes en diagonale** conduisent.",
+    "Quand A est la borne −, ce sont les **deux autres diodes** qui conduisent. (Les numéros exacts dépendent du schéma.)"
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "a) une paire de diodes opposées ; b) l'autre paire (numéros selon le schéma)",
+   "piege": "",
+   "astuce": "Suis le courant à partir de la borne + en respectant le sens passant (flèche) des diodes."
+  },
+  {
+   "numero": "Ex5-C.2",
+   "enonce": "Sens du courant dans R.",
+   "points": 0.5,
+   "notions_titres": [
+    "Redressement"
+   ],
+   "corrige": [
+    "Dans les deux alternances le courant traverse R **toujours dans le même sens** (sens imposé par le pont) : flèche unique sur R."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Même sens dans R pour les deux alternances",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-C.3",
+   "enonce": "Nom de l'association et utilité.",
+   "points": 1,
+   "notions_titres": [
+    "Redressement"
+   ],
+   "corrige": [
+    "C'est un **pont de diodes** (pont de Graetz).",
+    "Il sert à **redresser** une tension alternative (redressement double alternance), par exemple dans les chargeurs et adaptateurs."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Pont de diodes (Graetz) : redressement double alternance",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex6-A.1",
+   "enonce": "Attribuer les liquides (L) et (L').",
+   "points": 0.5,
+   "notions_titres": [
+    "Poussée d'Archimède",
+    "Flottaison"
+   ],
+   "corrige": [
+    "$\\rho_S = 1{,}2 < 1{,}5$ : le solide **flotte** dans l'eau salée ; $\\rho_S > 0{,}8$ : il **coule** dans l'alcool.",
+    "L'énoncé (question 3) précise que la situation (2) est dans l'eau salée : (L') = eau salée (solide flottant) et (L) = alcool (solide au fond)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "(L) = alcool ; (L') = eau salée",
+   "piege": "",
+   "astuce": "Compare la masse volumique du solide à celle du liquide."
+  },
+  {
+   "numero": "Ex6-A.2",
+   "enonce": "Masse et poids du solide.",
+   "points": 0.5,
+   "notions_titres": [
+    "Masse volumique",
+    "Poids"
+   ],
+   "corrige": [
+    "$m = \\rho V = 1{,}2 \\times 0{,}5 = 0{,}6\\ \\text{kg}$.",
+    "$P = m g = 0{,}6 \\times 10 = 6\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "m = 0,6 kg ; P = 6 N",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex6-A.3.a",
+   "enonce": "Poussée d'Archimède dans l'eau salée (sans calcul).",
+   "points": 0.5,
+   "notions_titres": [
+    "Poussée d'Archimède"
+   ],
+   "corrige": [
+    "Le solide flotte : il est en équilibre sous l'action de deux forces, donc $\\vec{P_A} = -\\vec P$.",
+    "$P_A = P = 6\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "PA = 6 N",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex6-A.3.b",
+   "enonce": "Volume immergé.",
+   "points": 0.5,
+   "notions_titres": [
+    "Poussée d'Archimède"
+   ],
+   "corrige": [
+    "$P_A = \\rho_e V_i g \\Rightarrow V_i = \\frac{P_A}{\\rho_e g}$",
+    "$V_i = \\frac{6}{1{,}5 \\times 10} = 0{,}4\\ \\text{dm}^3$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Vi = 0,4 dm³",
+   "piege": "Oublier que $\\rho_e$ en kg/dm³ donne un volume en dm³.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex6-A.3.c",
+   "enonce": "Représentation des forces (1 cm pour 2 N).",
+   "points": 0.5,
+   "notions_titres": [
+    "Représentation d'une force"
+   ],
+   "corrige": [
+    "Poids : vecteur vertical vers le bas, appliqué au centre de gravité, longueur 6/2 = 3 cm.",
+    "Poussée : vertical vers le haut, appliqué au centre de poussée (partie immergée), longueur 3 cm, même droite d'action."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Deux vecteurs opposés de 3 cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex6-B.1",
+   "enonce": "Masse volumique de la brique et poussée en immersion totale.",
+   "points": 0.5,
+   "notions_titres": [
+    "Masse volumique",
+    "Poussée d'Archimède"
+   ],
+   "corrige": [
+    "$V = 4 \\times 1 \\times 1{,}5 = 6\\ \\text{dm}^3$ ; $\\rho = \\frac{m}{V} = \\frac{7}{6} \\approx 1{,}17\\ \\text{kg/dm}^3$.",
+    "$P_A = \\rho_{eau} V g = 1 \\times 6 \\times 10 = 60\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "ρ ≈ 1,17 kg/dm³ ; PA = 60 N",
+   "piege": "Calculer le volume en cm³ puis le garder avec des kg/dm³.",
+   "astuce": "Travaille directement en dm : 40 cm = 4 dm."
+  },
+  {
+   "numero": "Ex6-B.2",
+   "enonce": "La brique coule-t-elle ?",
+   "points": 0.5,
+   "notions_titres": [
+    "Flottaison"
+   ],
+   "corrige": [
+    "$P = 7 \\times 10 = 70\\ \\text{N} > P_A = 60\\ \\text{N}$ (ou $\\rho = 1{,}17 > 1$).",
+    "La brique **coule**."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Oui, elle coule",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Résolution directe : O₂ restant 50 mL ; C₄H₁₀, V = 6,2 mL ; O₂ anode 36 cm³ ; L₁ : OA=10 cm, OA'=20 cm, f≈6,7 cm, C=15 δ ; L₂ : f=30 cm, image virtuelle droite 40 cm à 30 cm ; R=40 Ω, 600 J/min ; I=3 A, Ucal=109,5 V, E=48 600 J, θf≈54,9 °C, Rc=36,5 Ω ; m=0,6 kg, P=6 N, PA=6 N, Vi=0,4 dm³ ; brique 1,17 kg/dm³, PA=60 N, coule.",
+  "passe2": "Résolution indépendante par d'autres chemins : avancement limité par H₂ ; f = OA·OA'/(OA+OA') et grandissement f/(f+OA) ; E = R I² t ; Req = 3 Ω puis I = UAB/Req ; Rc = UG/I − R − Req ; θf via Rc I² t ; Vi = ρS V/ρe. Tous les résultats identiques.",
+  "code": "oui (verif.py, 2 méthodes par résultat, écarts nuls)",
+  "desaccords": [
+   "Ex5-B : valeurs de R, R₁, R₂ reconstituées depuis l'OCR (« R=0,50 », « R-462 », « R2=122 ») ; la lecture R = 0,5 Ω, R₁ = 4 Ω, R₂ = 12 Ω est la seule qui donne des résultats cohérents (I = 3 A) ; à confirmer sur le scan original.",
+   "Ex5-A.1 et Ex5-C.1 : schémas absents du texte OCR ; corrigé donné sous forme de critère/méthode, sans lettre ni numéro de diode.",
+   "Barème : celui du sujet (points par question) ; la répartition à l'intérieur d'une question est proposée, non officielle."
+  ]
+ },
+ "notes_transcription": [
+  "Sujet complet (20 points), une seule page OCR continue.",
+  "Schémas des exercices 5 et 6 non disponibles."
+ ],
+ "points_transcrits": 20.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Bilan des forces : caisse sur plan incliné sans frottement</title>
+<rect x="0" y="0" width="400" height="280" rx="18" fill="#fffdf8"/>
+<polygon points="30.0,240.0 315.8,75.0 315.8,240.0" stroke="#1f2937" stroke-width="2" fill="#f3e8d6" stroke-linejoin="round"/>
+<polygon points="146.9,172.5 198.9,142.5 176.9,104.4 124.9,134.4" stroke="#1f2937" stroke-width="2" fill="#dbeafe" stroke-linejoin="round"/>
+<circle cx="161.9" cy="138.4" r="3.5" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<text x="155.9" y="154.4" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal">G</text>
+<line x1="187.9" y1="123.4" x2="299.6" y2="58.9" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="315.8" y1="75.0" x2="315.8" y2="35.0" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+<line x1="161.9" y1="138.4" x2="161.9" y2="197.4" stroke="#c0262d" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="161.9,208.4 156.4,197.4 167.4,197.4" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<text x="169.9" y="204.4" font-size="16" text-anchor="start" fill="#c0262d" font-weight="bold">P</text>
+<line x1="187.9" y1="123.4" x2="208.7" y2="111.4" stroke="#15803d" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="218.2,105.9 211.4,116.2 205.9,106.7" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="222.2" y="95.9" font-size="16" text-anchor="middle" fill="#15803d" font-weight="bold">T</text>
+<line x1="172.9" y1="157.5" x2="148.1" y2="114.5" stroke="#1d4ed8" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="142.6,105.0 152.8,111.8 143.3,117.3" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round"/>
+<text x="132.6" y="105.0" font-size="16" text-anchor="end" fill="#1d4ed8" font-weight="bold">R</text>
+<text x="84.0" y="236.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="normal">α = 30°</text>
+<text x="20.0" y="30.0" font-size="13" text-anchor="start" fill="#1f2937" font-weight="normal">Système : la caisse</text>
+<text x="20.0" y="48.0" font-size="13" text-anchor="start" fill="#1f2937" font-weight="normal">Forces : P (Terre), T (corde),</text>
+<text x="20.0" y="66.0" font-size="13" text-anchor="start" fill="#1f2937" font-weight="normal">R (plan, ⊥ sans frottement)</text>
+</svg>

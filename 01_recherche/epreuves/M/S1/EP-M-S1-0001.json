@@ -1,0 +1,359 @@
+{
+ "id": "EP-M-S1-0001",
+ "matiere": "M",
+ "semestre": 1,
+ "type": "concours_entree",
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques (Lomé / Kara)",
+  "ville": "Lomé / Kara",
+  "annee_scolaire": "2020-2021",
+  "session": "Octobre 2020",
+  "document": "« Epreuves Concours lycée scientifique.pdf » (scan CamScanner, 12,4 Mo, Google Drive de l'utilisateur, ajouté le 2026-07-03)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Sujet officiel d'examen ; copie privée dans le Google Drive de l'utilisateur ; usage personnel d'apprentissage",
+  "fiabilite": 3
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "chapitres_titres": [
+  "Ensemble des nombres réels et calcul dans ℝ",
+  "Polynômes et fractions rationnelles",
+  "Équations et inéquations dans ℝ",
+  "Vecteurs et points du plan",
+  "Barycentre",
+  "Droites et cercles dans le plan",
+  "Angles orientés et trigonométrie"
+ ],
+ "chapitres": [
+  "M-S1-C01",
+  "M-S1-C03",
+  "M-S1-C05",
+  "M-S1-C02",
+  "M-S1-C04",
+  "M-S2-C13",
+  "M-S2-C10"
+ ],
+ "enonce_md": "> **Transcription reconstituée** à partir du texte OCR (Google Drive) d'un scan CamScanner du sujet officiel. Les formules ont été remises en forme ; **[illisible]** signale un passage absent ou inexploitable dans l'OCR ; *(lecture probable)* signale un symbole reconstitué d'après le contexte et la cohérence des questions. Les figures du sujet ne sont pas disponibles. À relire sur le scan original avant usage en composition blanche.\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE — OCTOBRE 2020**\n\n**Épreuve de mathématiques** — Durée : 2 heures — Coefficient : 2\n\n### Exercice 1 (3 pts)\nOn considère les nombres réels $a = \\sqrt{2} - 1$ et $b = 2 - \\sqrt{3}$.\n1. Quel est le signe des nombres $a$ et $b$ ? (0,5 pt × 2)\n2. Calculer la distance des nombres $a$ et $b$. (0,5 pt)\n3. Comparer $a$ et $b$. (0,5 pt)\n4. Trouver un nombre $c$ qui est à égale distance de $a$ et $b$. (0,5 pt)\n5. Trouver un nombre $d$ pour lequel le nombre réel $b$ sera à égale distance de $a$ et $d$. (0,5 pt)\n\n### Exercice 2 (6,5 pts)\nOn considère $ABCDEFGH$, un octogone régulier convexe. Le point $O$ est le centre et $R$ le rayon du cercle $(\\mathcal{C})$ circonscrit à l'octogone. *(La figure du sujet, qui définit les points $I$ et $K$, n'est pas disponible.)* Figure : 0,5 pt.\n1. Déterminer les mesures des angles **[illisible]** (OCR : « BOR et AOR »). (0,25 pt × 2)\n2. Calculer, en supposant le rayon $R$ connu, les distances $IH$, $IO$ et $IA$. (0,5 pt × 3)\n3. Calculer les distances $AB$, $AK$ et $OK$ (on suppose toujours le rayon $R$ connu). (0,5 pt × 3)\n4. a) Déterminer en degré les mesures des secteurs angulaires $\\widehat{AOK}$ et $\\widehat{KAO}$. (0,25 pt × 2)\n\n   b) Calculer la valeur exacte de $\\cos(22{,}5^\\circ)$ et de $\\cos(67{,}5^\\circ)$. (0,5 pt × 2)\n5. Calculer l'aire $\\mathcal{A}_1$ du triangle $AOB$ et l'aire $\\mathcal{A}_2$ de l'octogone régulier $ABCDEFGH$. (0,5 pt × 2)\n\n### Exercice 3 (5 pts)\nOn considère les polynômes $A = x^2 - 4x + 3$ et $B = (2x+3)^2 - (x+4)^2$.\n1. Développer, réduire et ordonner le polynôme $B$ suivant les puissances croissantes de $x$. (0,5 pt)\n2. a) Compléter l'égalité suivante : $A = (\\dots)^2 - 2(x)(\\dots) + (\\dots)^2 - 1$.\n\n   b) Factoriser $A$, $A + 1$ et $B$.\n3. Résoudre graphiquement l'équation $\\sqrt{A + 1} = 3$ *(lecture probable ; OCR : « VA +1=3 »)*.\n4. On donne la fraction rationnelle $Q = $ **[illisible]**.\n\n   a) Déterminer la condition d'existence d'une valeur numérique de $Q$.\n\n   b) Simplifier $Q$.\n5. a) Déterminer la valeur de $x$ pour laquelle $Q = \\sqrt{7}$.\n\n   b) Existe-t-il un réel $x$ tel que $Q = -5$ ? Justifier.\n\n### Exercice 4 (5,5 pts)\n1. Placer les points $A(1\\,;\\,4)$, $B(-3\\,;\\,0)$ et $C(2\\,;\\,0)$ dans un repère $(O, I, J)$.\n2. a) Trouver les coordonnées des milieux $M$ de $[BC]$ et $N$ de $[AB]$.\n\n   b) Trouver les équations des droites $(AM)$ et $(CN)$.\n3. Quelles sont les coordonnées du centre de gravité $G$ du triangle $ABC$ ?\n\n*(Barèmes des exercices 3 et 4 : l'OCR donne la liste « 0,5 ; 0,5 × 3 ; 0,5 ; 0,5 ; 0,5 ; 0,5 ; 0,5 ; 0,25 × 3 ; 0,5 × 2 ; 1 ; 0,75 ; 1 × 2 » sans qu'on puisse l'attribuer sûrement à chaque question. Une suite éventuelle de l'exercice 4 n'apparaît pas dans l'OCR.)*\n",
+ "questions": [
+  {
+   "numero": "Ex1-1",
+   "enonce": "Quel est le signe des nombres $a = \\sqrt{2} - 1$ et $b = 2 - \\sqrt{3}$ ?",
+   "points": 1,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$2 > 1$ et la fonction racine carrée est croissante sur $[0\\,;+\\infty[$, donc $\\sqrt{2} > \\sqrt{1} = 1$, d'où $a = \\sqrt{2} - 1 > 0$ : **$a$ est positif**.",
+    "$3 < 4$ donc $\\sqrt{3} < \\sqrt{4} = 2$, d'où $b = 2 - \\sqrt{3} > 0$ : **$b$ est positif**."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$a > 0$ et $b > 0$",
+   "piege": "Une valeur approchée à la calculatrice ne suffit pas : il faut une justification exacte.",
+   "astuce": "Pour situer $\\sqrt{n}$ par rapport à un entier $k \\ge 0$, compare $n$ et $k^2$."
+  },
+  {
+   "numero": "Ex1-2",
+   "enonce": "Calculer la distance des nombres $a$ et $b$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$d(a\\,;b) = |a - b| = |\\sqrt{2} - 1 - 2 + \\sqrt{3}| = |\\sqrt{2} + \\sqrt{3} - 3|$.",
+    "$(\\sqrt{2}+\\sqrt{3})^2 = 5 + 2\\sqrt{6}$ et $2\\sqrt{6} = \\sqrt{24} > \\sqrt{16} = 4$, donc $(\\sqrt{2}+\\sqrt{3})^2 > 9$ et $\\sqrt{2}+\\sqrt{3} > 3$. Ainsi $d(a\\,;b) = \\sqrt{2} + \\sqrt{3} - 3$ (environ $0{,}146$)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$d(a\\,;b) = \\sqrt{2} + \\sqrt{3} - 3$",
+   "piege": "La distance est une valeur absolue : il faut étudier le signe de a − b avant d'enlever les barres.",
+   "astuce": "Pour comparer deux nombres positifs, compare leurs carrés."
+  },
+  {
+   "numero": "Ex1-3",
+   "enonce": "Comparer $a$ et $b$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$a - b = \\sqrt{2} + \\sqrt{3} - 3$, et on a montré à la question 2 que ce nombre est strictement positif.",
+    "Donc $a > b$, c'est-à-dire $\\sqrt{2} - 1 > 2 - \\sqrt{3}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$a > b$",
+   "piege": "",
+   "astuce": "Comparer deux nombres revient à étudier le signe de leur différence."
+  },
+  {
+   "numero": "Ex1-4",
+   "enonce": "Trouver un nombre $c$ qui est à égale distance de $a$ et $b$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$c$ est à égale distance de $a$ et $b$ (avec $a \\neq b$) si et seulement si $c$ est le centre de l'intervalle $[b\\,;a]$ : $c = \\dfrac{a+b}{2}$.",
+    "$c = \\dfrac{\\sqrt{2} - 1 + 2 - \\sqrt{3}}{2} = \\dfrac{1 + \\sqrt{2} - \\sqrt{3}}{2}$ (environ $0{,}341$)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$c = \\dfrac{1 + \\sqrt{2} - \\sqrt{3}}{2}$",
+   "piege": "",
+   "astuce": "Égale distance de deux réels = milieu (demi-somme)."
+  },
+  {
+   "numero": "Ex1-5",
+   "enonce": "Trouver un nombre $d$ pour lequel $b$ sera à égale distance de $a$ et $d$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$b$ est à égale distance de $a$ et $d$ (avec $d \\neq a$) si et seulement si $b$ est le milieu : $b = \\dfrac{a + d}{2}$, soit $d = 2b - a$.",
+    "$d = 2(2 - \\sqrt{3}) - (\\sqrt{2} - 1) = 5 - 2\\sqrt{3} - \\sqrt{2}$ (environ $0{,}122$)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$d = 5 - 2\\sqrt{3} - \\sqrt{2}$",
+   "piege": "Ne pas écrire d = 2a − b : c'est b qui doit être au milieu.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-4b",
+   "enonce": "Calculer la valeur exacte de $\\cos(22{,}5^\\circ)$ et de $\\cos(67{,}5^\\circ)$.",
+   "points": 1,
+   "notions_titres": [
+    "Angles orientés et trigonométrie",
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "Dans le triangle $AOB$ : $OA = OB = R$ et $\\widehat{AOB} = \\dfrac{360^\\circ}{8} = 45^\\circ$. Soit $L$ le pied de la hauteur issue de $A$ : le triangle $AOL$ est rectangle isocèle, donc $OL = AL = R\\dfrac{\\sqrt{2}}{2}$ et $LB = R - R\\dfrac{\\sqrt{2}}{2}$.",
+    "Pythagore dans $ALB$ : $AB^2 = AL^2 + LB^2 = \\dfrac{R^2}{2} + R^2\\left(1 - \\dfrac{\\sqrt{2}}{2}\\right)^2 = R^2(2 - \\sqrt{2})$.",
+    "Soit $P$ le milieu de $[AB]$ : $(OP)$ est hauteur et bissectrice du triangle isocèle $AOB$, donc $\\widehat{AOP} = 22{,}5^\\circ$ et $OP^2 = R^2 - \\dfrac{AB^2}{4} = R^2\\,\\dfrac{2 + \\sqrt{2}}{4}$. D'où $\\cos(22{,}5^\\circ) = \\dfrac{OP}{OA} = \\dfrac{\\sqrt{2 + \\sqrt{2}}}{2}$.",
+    "$22{,}5^\\circ + 67{,}5^\\circ = 90^\\circ$, donc $\\cos(67{,}5^\\circ) = \\sin(22{,}5^\\circ) = \\dfrac{AP}{OA} = \\dfrac{AB}{2R} = \\dfrac{\\sqrt{2 - \\sqrt{2}}}{2}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$\\cos(22{,}5^\\circ) = \\dfrac{\\sqrt{2+\\sqrt{2}}}{2} \\approx 0{,}924$ ; $\\cos(67{,}5^\\circ) = \\dfrac{\\sqrt{2-\\sqrt{2}}}{2} \\approx 0{,}383$",
+   "piege": "Les points I et K de la figure originale ne sont pas connus : ce corrigé utilise ses propres points L et P, définis dans la rédaction.",
+   "astuce": "Le cosinus d'un angle est le sinus de son complémentaire."
+  },
+  {
+   "numero": "Ex2-5",
+   "enonce": "Calculer l'aire $\\mathcal{A}_1$ du triangle $AOB$ et l'aire $\\mathcal{A}_2$ de l'octogone.",
+   "points": 1,
+   "notions_titres": [
+    "Angles orientés et trigonométrie"
+   ],
+   "corrige": [
+    "Hauteur issue de $A$ dans $AOB$ : $AL = OA \\sin 45^\\circ = R\\dfrac{\\sqrt{2}}{2}$.",
+    "$\\mathcal{A}_1 = \\dfrac{OB \\times AL}{2} = \\dfrac{1}{2} \\times R \\times R\\dfrac{\\sqrt{2}}{2} = \\dfrac{\\sqrt{2}}{4}R^2$.",
+    "L'octogone régulier est formé de 8 triangles isométriques à $AOB$ : $\\mathcal{A}_2 = 8\\mathcal{A}_1 = 2\\sqrt{2}\\,R^2$."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "resultat_final": "$\\mathcal{A}_1 = \\dfrac{\\sqrt{2}}{4}R^2$ ; $\\mathcal{A}_2 = 2\\sqrt{2}\\,R^2$",
+   "piege": "",
+   "astuce": "Un polygone régulier à n côtés = n triangles isocèles de sommet O."
+  },
+  {
+   "numero": "Ex3-1",
+   "enonce": "Développer, réduire et ordonner $B = (2x+3)^2 - (x+4)^2$ suivant les puissances croissantes de $x$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$B = (4x^2 + 12x + 9) - (x^2 + 8x + 16)$.",
+    "$B = 3x^2 + 4x - 7$, soit, ordonné suivant les puissances croissantes : $B = -7 + 4x + 3x^2$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$B = -7 + 4x + 3x^2$",
+   "piege": "Attention au signe « − » devant la deuxième parenthèse : il change tous les signes.",
+   "astuce": "Puissances croissantes : on commence par le terme constant."
+  },
+  {
+   "numero": "Ex3-2a",
+   "enonce": "Compléter : $A = (\\dots)^2 - 2(x)(\\dots) + (\\dots)^2 - 1$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$x^2 - 4x = (x)^2 - 2(x)(2)$ : il faut ajouter $(2)^2 = 4$ pour obtenir un carré, puis retrancher 1 pour retrouver $+3$.",
+    "$A = (x)^2 - 2(x)(2) + (2)^2 - 1$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$A = (x)^2 - 2(x)(2) + (2)^2 - 1$",
+   "piege": "",
+   "astuce": "C'est le début de la forme canonique : $x^2 - 4x + 4 = (x-2)^2$."
+  },
+  {
+   "numero": "Ex3-2b",
+   "enonce": "Factoriser $A$, $A + 1$ et $B$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$A = (x - 2)^2 - 1^2 = (x - 2 - 1)(x - 2 + 1) = (x - 3)(x - 1)$.",
+    "$A + 1 = x^2 - 4x + 4 = (x - 2)^2$.",
+    "$B = [(2x+3) - (x+4)][(2x+3) + (x+4)] = (x - 1)(3x + 7)$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$A = (x-3)(x-1)$ ; $A + 1 = (x-2)^2$ ; $B = (x-1)(3x+7)$",
+   "piege": "Pour B, mettre des parenthèses autour de (x + 4) avant de soustraire.",
+   "astuce": "Différence de deux carrés : $u^2 - v^2 = (u-v)(u+v)$."
+  },
+  {
+   "numero": "Ex3-3",
+   "enonce": "Résoudre graphiquement l'équation $\\sqrt{A+1} = 3$ (lecture probable de l'énoncé).",
+   "points": 0.5,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ",
+    "Généralités sur les fonctions"
+   ],
+   "corrige": [
+    "$\\sqrt{A + 1} = \\sqrt{(x - 2)^2} = |x - 2|$ : l'équation s'écrit $|x - 2| = 3$.",
+    "On trace $y = |x - 2|$ (deux demi-droites issues du point $(2\\,;0)$) et la droite $y = 3$ : elles se coupent aux points d'abscisses $-1$ et $5$. $S = \\{-1\\,;\\,5\\}$ (vérification : $|-1-2| = |5-2| = 3$)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$S = \\{-1\\,;\\,5\\}$",
+   "piege": "$\\sqrt{(x-2)^2} = |x-2|$ et non $x - 2$.",
+   "astuce": "Graphiquement : abscisses des points d'intersection des deux courbes."
+  },
+  {
+   "numero": "Ex4-1",
+   "enonce": "Placer les points $A(1\\,;4)$, $B(-3\\,;0)$ et $C(2\\,;0)$ dans un repère $(O, I, J)$.",
+   "points": 0.75,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$A$ : 1 unité vers la droite, 4 vers le haut.",
+    "$B$ : sur l'axe des abscisses, 3 unités à gauche de $O$.",
+    "$C$ : sur l'axe des abscisses, 2 unités à droite de $O$."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.25
+   ],
+   "resultat_final": "Figure",
+   "piege": "Ne pas inverser abscisse et ordonnée.",
+   "astuce": "B et C ont une ordonnée nulle : ils sont sur l'axe (OI)."
+  },
+  {
+   "numero": "Ex4-2a",
+   "enonce": "Coordonnées des milieux $M$ de $[BC]$ et $N$ de $[AB]$.",
+   "points": 1,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$M\\left(\\dfrac{-3 + 2}{2}\\,;\\,\\dfrac{0 + 0}{2}\\right)$, soit $M\\left(-\\dfrac{1}{2}\\,;\\,0\\right)$.",
+    "$N\\left(\\dfrac{1 - 3}{2}\\,;\\,\\dfrac{4 + 0}{2}\\right)$, soit $N(-1\\,;\\,2)$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$M\\left(-\\frac{1}{2}\\,;0\\right)$ ; $N(-1\\,;2)$",
+   "piege": "",
+   "astuce": "Milieu = moyenne des abscisses, moyenne des ordonnées."
+  },
+  {
+   "numero": "Ex4-2b",
+   "enonce": "Équations des droites $(AM)$ et $(CN)$.",
+   "points": 2,
+   "notions_titres": [
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "Coefficient directeur de $(AM)$ : $\\dfrac{4 - 0}{1 - (-\\frac{1}{2})} = \\dfrac{4}{3/2} = \\dfrac{8}{3}$.",
+    "$(AM)$ : $y - 4 = \\dfrac{8}{3}(x - 1)$, soit $y = \\dfrac{8}{3}x + \\dfrac{4}{3}$, ou $8x - 3y + 4 = 0$ (vérification avec $M$ : $-4 - 0 + 4 = 0$).",
+    "Coefficient directeur de $(CN)$ : $\\dfrac{2 - 0}{-1 - 2} = -\\dfrac{2}{3}$.",
+    "$(CN)$ : $y = -\\dfrac{2}{3}(x - 2)$, soit $y = -\\dfrac{2}{3}x + \\dfrac{4}{3}$, ou $2x + 3y - 4 = 0$ (vérification avec $N$ : $-2 + 6 - 4 = 0$)."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$(AM) : 8x - 3y + 4 = 0$ ; $(CN) : 2x + 3y - 4 = 0$",
+   "piege": "Vérifier l'équation avec le deuxième point : c'est rapide et ça évite les erreurs de signe.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-3",
+   "enonce": "Coordonnées du centre de gravité $G$ du triangle $ABC$.",
+   "points": 0.75,
+   "notions_titres": [
+    "Vecteurs et points du plan",
+    "Barycentre"
+   ],
+   "corrige": [
+    "$G$ est l'isobarycentre de $A$, $B$, $C$ : $x_G = \\dfrac{x_A + x_B + x_C}{3}$, $y_G = \\dfrac{y_A + y_B + y_C}{3}$.",
+    "$G\\left(\\dfrac{1 - 3 + 2}{3}\\,;\\,\\dfrac{4 + 0 + 0}{3}\\right) = \\left(0\\,;\\,\\dfrac{4}{3}\\right)$.",
+    "Contrôle : $G$ est sur les médianes $(AM)$ ($8 \\times 0 - 3 \\times \\frac{4}{3} + 4 = 0$) et $(CN)$ ($0 + 4 - 4 = 0$)."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$G\\left(0\\,;\\,\\frac{4}{3}\\right)$",
+   "piege": "",
+   "astuce": "Le centre de gravité est l'intersection des médianes."
+  }
+ ],
+ "verification": {
+  "passe1": "Résolution manuelle : a>0, b>0 ; d(a,b)=√2+√3−3 ; a>b ; c=(1+√2−√3)/2 ; d=5−2√3−√2 ; cos22,5°=√(2+√2)/2, cos67,5°=√(2−√2)/2 ; A1=√2R²/4, A2=2√2R² ; B=−7+4x+3x² ; A=(x−3)(x−1), A+1=(x−2)², B=(x−1)(3x+7) ; √(A+1)=3 ⇔ x∈{−1;5} ; M(−1/2;0), N(−1;2), (AM): 8x−3y+4=0, (CN): 2x+3y−4=0, G(0;4/3).",
+  "passe2": "Résolution indépendante par calcul symbolique (sympy) à partir des seules données de l'énoncé : mêmes résultats ; G vérifié sur les deux médianes ; AB²=R²(2−√2) recalculé.",
+  "code": "oui : script verif.py (sympy), 24 vérifications pour ce sujet, toutes OK",
+  "desaccords": [
+   "Aucun désaccord entre les deux passes.",
+   "Ex2 : la figure (points I et K) manque ; questions 1, 2, 3 et 4a non corrigées. Q1 « BOR et AOR » illisible. Hypothèse non retenue : K milieu de [AB] (alors AOK=22,5° et KAO=67,5°) et I pied de la hauteur issue de A sur (OH).",
+   "Ex3 Q3 : « VA +1=3 » lu comme √(A+1)=3 (lecture probable).",
+   "Ex3 Q4-Q5 : fraction Q illisible, donc non corrigées. Hypothèse cohérente mais non vérifiée : Q = B/A = (3x+7)/(x−3) pour x∉{1;3}. Alors Q=−5 donne x=1, valeur interdite, donc pas de solution.",
+   "Barème : celui des Ex1 et Ex2 est lisible. Celui des Ex3 et Ex4 est proposé, non officiel : les valeurs de l'OCR ne peuvent pas être attribuées sûrement à chaque question, et 1 pt de l'Ex4 reste non attribué (figure ou question manquante).",
+   "Semestre : concours de septembre-octobre, à l'entrée en Seconde S. Rangé en S1 comme révision des prérequis ; ce n'est pas un devoir de classe de Seconde."
+  ]
+ }
+}

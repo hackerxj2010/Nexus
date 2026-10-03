@@ -1,0 +1,445 @@
+{
+ "id": "EP-PC-S1-0010",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (22 septembre 2011)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2011-2012 (concours du 22/09/2011)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Poids, machines simples, travail, rendement — 3e",
+  "Électrolyse de l'eau — 3e",
+  "Transistor — 3e",
+  "Combustion et corrosion du fer — 3e"
+ ],
+ "chapitres": [
+  "PC-S1-C02",
+  "PC-S1-C04",
+  "PC-S2-C15"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**CONCOURS NATIONAL DE RECRUTEMENT DES ÉLÈVES POUR LES LYCÉES SCIENTIFIQUES DE KARA ET DE LOMÉ (22 SEPTEMBRE 2011)**\n**SCIENCES PHYSIQUES** — Coeff : 2 — Durée : 2 heures\n\n### Exercice 1 (5 pts)\nUn ouvrier utilise le dispositif ci-contre pour faire monter une charge M composée d'un sac de ciment de masse $m_1 = 50$ kg et d'un pot de peinture de masse $m_2 = 10$ kg du sol à une hauteur de 9 m correspondant au quatrième étage d'un immeuble. La charge est suspendue à la corde au point Q, et l'ouvrier tire sur la corde au point S : le système est alors en équilibre. [Schéma du dispositif non disponible.]\n1. a) Quel est le poids total de la charge M déplacée par l'ouvrier ? (1 pt)\n   b) Quelle est alors la force développée par l'ouvrier ? (0,75 pt)\n2. Calcule la longueur L de corde tirée par l'ouvrier pour faire monter la charge au quatrième étage. (0,75 pt)\n3. Calcule le travail résistant $W_r$ du poids de la charge au cours de cette montée. (1 pt)\n4. En réalité le rendement du dispositif est égal à 90 % :\n   - a) Calcule le travail moteur $W$ réalisé par l'ouvrier au cours de cette montée. (0,75 pt)\n   - b) Calcule la force que l'ouvrier développe dans ces conditions. (0,75 pt)\n\nNB : On donne [illisible, OCR : « On donnerR »] ; $g = 10$ N/kg.\n\n### Exercice 2 (5 pts)\nLes élèves d'un collège ont procédé à l'électrolyse de l'eau contenant de la soude. Le circuit électrique utilisé comprend les appareils suivants : un générateur G, un électrolyseur E, un interrupteur K, un conducteur ohmique de résistance R.\n1. a) Fais le schéma du montage utilisé. (1,25 pt)\n   b) Quels sont les produits obtenus au cours de cette électrolyse ? (0,25 pt × 2)\n   c) Écris l'équation-bilan de la réaction. (0,75 pt)\n2. Cette réaction est-elle endothermique ou exothermique ? (1 pt)\n3. Calcule le volume du gaz dégagé à l'anode s'il en est dégagé 48 litres à la cathode. (1,5 pt)\n\n### Exercice 3 (5 pts)\nOn réalise le montage schématisé ci-dessous. [Schéma non disponible ; l'OCR montre les étiquettes : liquide, N, J, X, 4,5 V, Z, M.]\n1. a) Donne le nom des bornes désignées par X, Y et Z. (1,5 pt)\n   b) Donne le nom du composant électronique dont les bornes viennent d'être désignées. (0,75 pt)\n\n   T.S.V.P. — [suite rattachée par déduction, voir notes]\n\n2. a) Indique par une flèche le sens du courant $I_1$ et par une autre flèche le sens du courant $I_2$ [OCR : « le sens du courant I et ... le sens dit courant »]. (1,25 pt)\n   b) Donne le nom de chacun des circuits M et N. (1 pt)\n3. Donne un nom à ce montage. (0,5 pt)\n\n### Exercice 4 (5 pts)\n1. On projette de la poudre de fer dans une flamme.\n   - a) Donne la formule et le nom du corps obtenu. (0,75 pt × 2)\n   - b) Écris l'équation de la réaction chimique. (0,5 pt)\n2. De la poudre de fer est laissée à l'air libre plusieurs jours ; elle se transforme partiellement en rouille.\n   - a) Donne la formule et le nom du constituant essentiel de la rouille. (0,75 pt × 2)\n   - b) Écris l'équation de la réaction chimique faisant apparaître ce corps. (0,5 pt)\n3. Compare les réactions de la question 1) et celle de la question 2). (1 pt)\n",
+ "questions": [
+  {
+   "numero": "Ex1-1.a",
+   "enonce": "Poids total de la charge.",
+   "points": 1,
+   "notions_titres": [
+    "Poids"
+   ],
+   "corrige": [
+    "$P = (m_1 + m_2)\\,g$",
+    "$P = (50 + 10) \\times 10 = 600\\ \\text{N}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "P = 600 N",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-1.b",
+   "enonce": "Force développée par l'ouvrier (équilibre).",
+   "points": 0.75,
+   "notions_titres": [
+    "Machines simples",
+    "Poulies"
+   ],
+   "corrige": [
+    "[Schéma non disponible] Poulie simple fixe : $F = P = 600\\ \\text{N}$ (elle change seulement la direction).",
+    "Palan à n brins soutenant la charge : $F = \\frac{P}{n}$ (ex. poulie mobile, n = 2 : 300 N)."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "F = P/n (n = nombre de brins, selon le schéma) ; 600 N pour une poulie fixe",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2",
+   "enonce": "Longueur de corde tirée.",
+   "points": 0.75,
+   "notions_titres": [
+    "Machines simples"
+   ],
+   "corrige": [
+    "[Schéma non disponible] Conservation du travail (sans frottements) : $F \\cdot L = P \\cdot h \\Rightarrow L = n \\times h$.",
+    "Poulie fixe : L = 9 m ; palan à 2 brins : 18 m."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "L = n × 9 m (selon le schéma)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-3",
+   "enonce": "Travail résistant du poids.",
+   "points": 1,
+   "notions_titres": [
+    "Travail d'une force"
+   ],
+   "corrige": [
+    "En montée le travail du poids est résistant : $W_r = -P\\,h$.",
+    "$W_r = -600 \\times 9 = -5400\\ \\text{J}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Wr = −5400 J",
+   "piege": "Oublier le signe : le poids s'oppose au déplacement.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-4.a",
+   "enonce": "Travail moteur avec un rendement de 90 %.",
+   "points": 0.75,
+   "notions_titres": [
+    "Rendement"
+   ],
+   "corrige": [
+    "$\\eta = \\frac{|W_r|}{W} \\Rightarrow W = \\frac{5400}{0{,}9}$",
+    "$W = 6000\\ \\text{J}$."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "W = 6000 J",
+   "piege": "Multiplier par 0,9 au lieu de diviser.",
+   "astuce": "Le travail fourni est toujours plus grand que le travail utile."
+  },
+  {
+   "numero": "Ex1-4.b",
+   "enonce": "Force réelle de l'ouvrier.",
+   "points": 0.75,
+   "notions_titres": [
+    "Rendement"
+   ],
+   "corrige": [
+    "$F' = \\frac{W}{L}$ avec la longueur L de la question 2.",
+    "Poulie fixe (L = 9 m) : F' = 6000/9 ≈ 667 N ; palan à 2 brins (L = 18 m) : ≈ 333 N."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "F' = 6000/L (≈ 667 N pour une poulie fixe)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-1.a",
+   "enonce": "Schéma du montage.",
+   "points": 1.25,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "Circuit série : générateur G, interrupteur K, conducteur ohmique R, électrolyseur E (anode au +, cathode au −).",
+    "Tubes de recueil des gaz sur les électrodes ; légendes."
+   ],
+   "bareme": [
+    0.75,
+    0.5
+   ],
+   "resultat_final": "Schéma série G-K-R-E légendé",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-1.b",
+   "enonce": "Produits de l'électrolyse.",
+   "points": 0.5,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "Dihydrogène (cathode).",
+    "Dioxygène (anode)."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "H₂ et O₂",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-1.c",
+   "enonce": "Équation-bilan.",
+   "points": 0.75,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "$\\ce{2H2O -> 2H2 + O2}$"
+   ],
+   "bareme": [
+    0.75
+   ],
+   "resultat_final": "$\\ce{2H2O -> 2H2 + O2}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-2",
+   "enonce": "Endothermique ou exothermique ?",
+   "points": 1,
+   "notions_titres": [
+    "Énergie des réactions"
+   ],
+   "corrige": [
+    "La réaction ne se fait que si on lui apporte de l'énergie (électrique) en permanence.",
+    "Elle est **endothermique** (sa réaction inverse, la synthèse de l'eau, est exothermique)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Endothermique",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-3",
+   "enonce": "Volume de gaz à l'anode.",
+   "points": 1.5,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "À l'anode : dioxygène ; à la cathode : dihydrogène.",
+    "$V_{O_2} = \\frac{V_{H_2}}{2}$",
+    "$V_{O_2} = \\frac{48}{2} = 24\\ \\text{L}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "24 L de dioxygène",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-1.a",
+   "enonce": "Noms des bornes X, Y, Z.",
+   "points": 1.5,
+   "notions_titres": [
+    "Transistor"
+   ],
+   "corrige": [
+    "[Schéma non disponible] Ce sont les trois bornes d'un transistor : **base**, **collecteur**, **émetteur**.",
+    "L'attribution exacte à X, Y, Z se lit sur le symbole : la borne fléchée est l'émetteur, la borne reliée au circuit de commande est la base."
+   ],
+   "bareme": [
+    1,
+    0.5
+   ],
+   "resultat_final": "Base, collecteur, émetteur (attribution selon le schéma)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-1.b",
+   "enonce": "Nom du composant.",
+   "points": 0.75,
+   "notions_titres": [
+    "Transistor"
+   ],
+   "corrige": [
+    "Un **transistor** (NPN)."
+   ],
+   "bareme": [
+    0.75
+   ],
+   "resultat_final": "Transistor",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-2.a",
+   "enonce": "Sens des courants.",
+   "points": 1.25,
+   "notions_titres": [
+    "Transistor"
+   ],
+   "corrige": [
+    "[Schéma non disponible] Pour un NPN : le courant de base entre par la base, le courant de collecteur entre par le collecteur, les deux ressortent par l'émetteur ; à l'extérieur, du + vers le − du générateur."
+   ],
+   "bareme": [
+    1.25
+   ],
+   "resultat_final": "IB et IC entrants, IE sortant (NPN)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-2.b",
+   "enonce": "Noms des circuits M et N.",
+   "points": 1,
+   "notions_titres": [
+    "Transistor"
+   ],
+   "corrige": [
+    "Circuit de base : **circuit de commande** (ici contenant le liquide, qui ferme le circuit quand il est conducteur).",
+    "Circuit de collecteur : **circuit d'utilisation** (de puissance), contenant l'appareil commandé. (Attribution M/N selon le schéma.)"
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Circuit de commande (base) et circuit d'utilisation (collecteur)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3",
+   "enonce": "Nom du montage.",
+   "points": 0.5,
+   "notions_titres": [
+    "Transistor"
+   ],
+   "corrige": [
+    "Montage **interrupteur commandé** à transistor ; avec le liquide entre deux électrodes, c'est un **détecteur de niveau (ou de présence) de liquide**."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Transistor en interrupteur : détecteur de liquide",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1.a",
+   "enonce": "Formule et nom du corps obtenu.",
+   "points": 1.5,
+   "notions_titres": [
+    "Combustion du fer"
+   ],
+   "corrige": [
+    "$\\ce{Fe3O4}$",
+    "Oxyde magnétique de fer (tétraoxyde de trifer)."
+   ],
+   "bareme": [
+    0.75,
+    0.75
+   ],
+   "resultat_final": "Fe₃O₄, oxyde magnétique",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1.b",
+   "enonce": "Équation.",
+   "points": 0.5,
+   "notions_titres": [
+    "Combustion du fer"
+   ],
+   "corrige": [
+    "$\\ce{3Fe + 2O2 -> Fe3O4}$"
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\ce{3Fe + 2O2 -> Fe3O4}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.a",
+   "enonce": "Formule et nom du constituant de la rouille.",
+   "points": 1.5,
+   "notions_titres": [
+    "Corrosion du fer"
+   ],
+   "corrige": [
+    "$\\ce{Fe2O3}$",
+    "Oxyde ferrique (trioxyde de difer), hydraté."
+   ],
+   "bareme": [
+    0.75,
+    0.75
+   ],
+   "resultat_final": "Fe₂O₃, oxyde ferrique",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.b",
+   "enonce": "Équation.",
+   "points": 0.5,
+   "notions_titres": [
+    "Corrosion du fer"
+   ],
+   "corrige": [
+    "$\\ce{4Fe + 3O2 -> 2Fe2O3}$"
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\ce{4Fe + 3O2 -> 2Fe2O3}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-3",
+   "enonce": "Comparer les deux réactions.",
+   "points": 1,
+   "notions_titres": [
+    "Combustion vive / oxydation lente"
+   ],
+   "corrige": [
+    "Question 1 : combustion vive (rapide, incandescente, chaleur et lumière).",
+    "Question 2 : oxydation lente (plusieurs jours, sans flamme) ; produits différents (Fe₃O₄ / Fe₂O₃)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Combustion vive / oxydation lente",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "P = 600 N ; F = P/n ; L = n h ; Wr = −5400 J ; W = 6000 J ; F' = W/L ; H₂ et O₂, 2H₂O → 2H₂ + O₂, endothermique, 24 L ; transistor ; Fe₃O₄, Fe₂O₃.",
+  "passe2": "Wr recalculé par m g h = 60 × 10 × 9 ; W = 5400/0,9 ; V(O₂) = 48/2 ; cohérence de la conservation du travail F·L = P·h vérifiée pour n = 1 et n = 2.",
+  "code": "oui (verif.py)",
+  "desaccords": [
+   "Ex1 : schéma du dispositif (poulie(s), treuil ?) absent et donnée « On donne R » illisible : questions 1.b, 2 et 4.b données sous forme littérale (n = nombre de brins), avec les valeurs pour une poulie fixe.",
+   "Ex3 : schéma absent ; attribution des bornes X, Y, Z et des circuits M, N non vérifiable.",
+   "Ex3-2 et Ex4 : page rattachée par déduction (le sujet s'arrête à « T.S.V.P. » dans l'exercice 3 ; la page orpheline commence par « 2) a) Indique par une flèche le sens du courant », porte les étiquettes X et Z, et 1,5 + 0,75 + 1,25 + 1 + 0,5 = 5 points ; l'exercice 4 complète le total à 20).",
+   "Barème interne aux questions proposé, non officiel."
+  ]
+ },
+ "notes_transcription": [
+  "Sujet complet (20 points) après rattachement de la page 2.",
+  "Schémas des exercices 1 et 3 non disponibles : plusieurs réponses restent conditionnelles."
+ ],
+ "points_transcrits": 20.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

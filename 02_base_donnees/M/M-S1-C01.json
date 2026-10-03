@@ -1,0 +1,758 @@
+{
+ "id": "M-S1-C01",
+ "matiere": "M",
+ "semestre": 1,
+ "ordre": 1,
+ "titre": "Ensemble des nombres réels et calcul dans ℝ",
+ "objectifs": [
+  "Reconnaître l'ensemble de nombres auquel appartient un réel.",
+  "Utiliser les intervalles, leur intersection et leur réunion.",
+  "Calculer avec les puissances, l'écriture scientifique et les racines carrées ; rendre rationnel un dénominateur.",
+  "Utiliser la valeur absolue comme une distance pour résoudre équations et inéquations.",
+  "Encadrer une somme, une différence, un produit, un inverse ; donner des valeurs approchées."
+ ],
+ "prerequis": [
+  "M-3e-RACINES",
+  "M-3e-PUISSANCES",
+  "M-3e-INEQUATIONS"
+ ],
+ "notions": [
+  {
+   "id": "M-S1-C01-N1",
+   "titre": "Ensembles de nombres et intervalles",
+   "prerequis_notions": [
+    "M-3e-NOMBRES-RATIONNELS",
+    "M-3e-INEQUATIONS"
+   ],
+   "cours_md": "## 1. Les ensembles de nombres\n\n:::definition Les cinq ensembles du programme\n- $\\mathbb{N}$ : les **entiers naturels** $0,\\ 1,\\ 2,\\ 3,\\ \\dots$\n- $\\mathbb{Z}$ : les **entiers relatifs** $\\dots,\\ -2,\\ -1,\\ 0,\\ 1,\\ 2,\\ \\dots$\n- $\\mathbb{D}$ : les **nombres décimaux**, qui s'écrivent $\\dfrac{a}{10^n}$ avec $a\\in\\mathbb{Z}$ et $n\\in\\mathbb{N}$ (exemple : $2{,}35=\\dfrac{235}{10^2}$).\n- $\\mathbb{Q}$ : les **nombres rationnels**, qui s'écrivent $\\dfrac{p}{q}$ avec $p\\in\\mathbb{Z}$ et $q\\in\\mathbb{N}^*$.\n- $\\mathbb{R}$ : les **nombres réels**, abscisses de tous les points d'une droite graduée.\n:::\n\n:::propriete Inclusions\n$$\\mathbb{N}\\subset\\mathbb{Z}\\subset\\mathbb{D}\\subset\\mathbb{Q}\\subset\\mathbb{R}$$\nUn réel qui n'est pas rationnel est dit **irrationnel** : $\\sqrt{2}$, $\\sqrt{3}$, $\\pi$ sont irrationnels. $\\dfrac13$ est rationnel mais pas décimal ($0{,}333\\dots$ ne s'arrête jamais).\n:::\n\n:::propriete Théorème : $\\sqrt2$ est irrationnel (démonstration par l'absurde)\nSupposons $\\sqrt2=\\dfrac pq$ avec la fraction **irréductible** ($p$ et $q$ entiers, $q\\neq0$). Alors $p^2=2q^2$, donc $p^2$ est pair, donc $p$ est pair : $p=2k$. Alors $4k^2=2q^2$, soit $q^2=2k^2$ : $q$ est pair aussi. $p$ et $q$ seraient tous deux pairs : la fraction ne serait pas irréductible. **Contradiction** : $\\sqrt2$ n'est pas rationnel.\n:::\n\n## 2. Les intervalles de $\\mathbb{R}$\n\nSoient $a$ et $b$ deux réels avec $a<b$.\n\n| Inégalité | Intervalle | Lecture |\n|---|---|---|\n| $a\\le x\\le b$ | $[a\\,;b]$ | fermé |\n| $a<x<b$ | $]a\\,;b[$ | ouvert |\n| $a\\le x<b$ | $[a\\,;b[$ | semi-ouvert à droite |\n| $x\\ge a$ | $[a\\,;+\\infty[$ | |\n| $x<b$ | $]-\\infty\\,;b[$ | |\n\n:::attention\nDu côté de $+\\infty$ ou de $-\\infty$, le crochet est **toujours ouvert** : l'infini n'est pas un nombre. $\\mathbb{R}=]-\\infty\\,;+\\infty[$.\n:::\n\n:::definition Intersection et réunion\n- $I\\cap J$ (« $I$ **inter** $J$ ») : les réels qui sont **à la fois** dans $I$ et dans $J$.\n- $I\\cup J$ (« $I$ **union** $J$ ») : les réels qui sont dans $I$ **ou** dans $J$ (au moins dans l'un des deux).\n:::\n\n:::methode Trouver $I\\cap J$ et $I\\cup J$\n1. Tracer une droite graduée et colorier $I$ d'une couleur, $J$ d'une autre.\n2. $I\\cap J$ = la zone coloriée **deux fois** ; $I\\cup J$ = toute la zone coloriée.\n3. Pour chaque borne, regarder si elle appartient à l'ensemble cherché (crochet fermé) ou non (crochet ouvert).\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nPour chaque nombre, donner le plus petit ensemble qui le contient : $-\\dfrac{12}{4}$ ; $\\dfrac74$ ; $\\dfrac13$ ; $\\sqrt{16}$ ; $\\sqrt5$.\n\n1. $-\\dfrac{12}{4}=-3$ : entier relatif négatif, donc $\\mathbb{Z}$.\n2. $\\dfrac74=1{,}75=\\dfrac{175}{10^2}$ : décimal, donc $\\mathbb{D}$.\n3. $\\dfrac13=0{,}333\\dots$ : rationnel non décimal, donc $\\mathbb{Q}$.\n4. $\\sqrt{16}=4$ : entier naturel, donc $\\mathbb{N}$.\n5. $\\sqrt5$ n'est pas rationnel (5 n'est pas un carré parfait) : $\\mathbb{R}$.\n:::\n\n:::exemple Exemple 2\nOn donne $I=[-2\\,;5[$ et $J=]1\\,;+\\infty[$. Déterminer $I\\cap J$ et $I\\cup J$.\n\n1. Sur une droite graduée, $I$ va de $-2$ (compris) à $5$ (exclu) ; $J$ commence juste après $1$ et ne s'arrête pas.\n2. Partie commune : de $1$ (exclu, car $1\\notin J$) à $5$ (exclu, car $5\\notin I$) : $I\\cap J=]1\\,;5[$.\n3. Réunion : de $-2$ (compris) jusqu'à $+\\infty$ : $I\\cup J=[-2\\,;+\\infty[$.\n:::\n",
+   "definition": "Les ensembles $\\mathbb{N}\\subset\\mathbb{Z}\\subset\\mathbb{D}\\subset\\mathbb{Q}\\subset\\mathbb{R}$ rangent les nombres ; un intervalle est l'ensemble des réels compris entre deux bornes.",
+   "formules": [
+    "$\\mathbb{N}\\subset\\mathbb{Z}\\subset\\mathbb{D}\\subset\\mathbb{Q}\\subset\\mathbb{R}$",
+    "$x\\in[a\\,;b]\\iff a\\le x\\le b$",
+    "$x\\in]a\\,;+\\infty[\\iff x>a$"
+   ],
+   "niveaux": {
+    "phrase": "Chaque nombre a sa « famille » et chaque famille est contenue dans une plus grande, jusqu'à ℝ.",
+    "simple": "Imagine des boîtes rangées les unes dans les autres : ℕ est la plus petite, ℝ la plus grande. Un intervalle, c'est un morceau de la droite graduée, avec des crochets qui disent si les bouts sont pris ou non.",
+    "complete": "Un décimal s'écrit $a/10^n$, un rationnel $p/q$ ; $\\sqrt2$ est irrationnel (preuve par l'absurde). Les intervalles traduisent des inégalités ; l'intersection garde les réels communs, la réunion garde tous les réels des deux ensembles."
+   },
+   "analogie": "Au marché de Lomé, les prix « entre 500 et 1 000 FCFA, 1 000 compris » forment l'intervalle ]500 ; 1 000] : le crochet fermé dit que 1 000 FCFA est accepté, l'ouvert que 500 ne l'est pas.",
+   "exemples_resolus": [
+    {
+     "enonce": "Pour chaque nombre, donner le plus petit ensemble qui le contient : $-\\dfrac{12}{4}$ ; $\\dfrac74$ ; $\\dfrac13$ ; $\\sqrt{16}$ ; $\\sqrt5$.",
+     "etapes": [
+      "$-\\dfrac{12}{4}=-3$ : entier relatif négatif, donc $\\mathbb{Z}$.",
+      "$\\dfrac74=1{,}75=\\dfrac{175}{10^2}$ : décimal, donc $\\mathbb{D}$.",
+      "$\\dfrac13=0{,}333\\dots$ : rationnel non décimal, donc $\\mathbb{Q}$.",
+      "$\\sqrt{16}=4$ : entier naturel, donc $\\mathbb{N}$.",
+      "$\\sqrt5$ n'est pas rationnel (5 n'est pas un carré parfait) : $\\mathbb{R}$."
+     ]
+    },
+    {
+     "enonce": "On donne $I=[-2\\,;5[$ et $J=]1\\,;+\\infty[$. Déterminer $I\\cap J$ et $I\\cup J$.",
+     "etapes": [
+      "Sur une droite graduée, $I$ va de $-2$ (compris) à $5$ (exclu) ; $J$ commence juste après $1$ et ne s'arrête pas.",
+      "Partie commune : de $1$ (exclu, car $1\\notin J$) à $5$ (exclu, car $5\\notin I$) : $I\\cap J=]1\\,;5[$.",
+      "Réunion : de $-2$ (compris) jusqu'à $+\\infty$ : $I\\cup J=[-2\\,;+\\infty[$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Fermer le crochet du côté de l'infini : $[2\\,;+\\infty]$ est faux.",
+    "Croire que $\\dfrac13$ est décimal parce qu'on peut écrire $0{,}33$ : ce n'est qu'une valeur approchée.",
+    "Confondre ∩ (les deux à la fois) et ∪ (l'un ou l'autre).",
+    "Écrire $]5\\,;2[$ : la petite borne se met toujours à gauche."
+   ],
+   "astuces": [
+    "Pour l'intersection, la borne de gauche est la plus grande des bornes de gauche ; la borne de droite est la plus petite des bornes de droite.",
+    "Toujours faire le dessin sur la droite graduée avant de conclure : 10 secondes qui évitent l'erreur de crochet.",
+    "Un nombre est décimal si, après simplification, son dénominateur n'a que des facteurs 2 et 5."
+   ],
+   "mnemo": "« ∩ comme un pont : on ne garde que ce qui est des DEUX côtés ; ∪ comme un bol : on met TOUT dedans. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu résolvais $2x-3<5$ et tu hachurais la partie de la droite graduée qui ne convenait pas. En Seconde, on écrit la réponse sous forme d'intervalle : $x<4$ devient $x\\in]-\\infty\\,;4[$."
+   },
+   "methode_redaction": "Écris toujours la phrase de conclusion : « Donc I ∩ J = ]1 ; 5[ ». Justifie chaque crochet (« 5 est exclu car 5 ∉ I »). Si on te demande de représenter, fais une droite graduée propre avec les crochets dessinés dans le bon sens.",
+   "flash": [
+    {
+     "q": "Écrire $-1\\le x<3$ avec un intervalle.",
+     "r": "$[-1\\,;3[$"
+    },
+    {
+     "q": "$\\dfrac{7}{20}$ est-il décimal ?",
+     "r": "Oui : $\\dfrac{7}{20}=\\dfrac{35}{100}=0{,}35$."
+    },
+    {
+     "q": "$[0\\,;4]\\cap[2\\,;6]=\\,?$",
+     "r": "$[2\\,;4]$"
+    },
+    {
+     "q": "$]-\\infty\\,;1]\\cup[1\\,;+\\infty[=\\,?$",
+     "r": "$\\mathbb{R}$"
+    },
+    {
+     "q": "Pourquoi $\\sqrt2\\notin\\mathbb{Q}$ ?",
+     "r": "Si √2 = p/q irréductible, p et q seraient tous deux pairs : contradiction."
+    },
+    {
+     "q": "Quel crochet met-on du côté de +∞ ?",
+     "r": "Toujours un crochet ouvert."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C01-N1.svg",
+    "alt": "Ensembles de nombres emboîtés N, Z, D, Q, R avec des exemples, et les irrationnels racine de 2 et pi dans R seulement.",
+    "legende": "ℕ ⊂ ℤ ⊂ 𝔻 ⊂ ℚ ⊂ ℝ : chaque ensemble est contenu dans le suivant.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C01-N2",
+   "titre": "Puissances et racines carrées",
+   "prerequis_notions": [
+    "M-3e-PUISSANCES",
+    "M-3e-RACINES"
+   ],
+   "cours_md": "## 1. Puissances d'exposant entier\n\n:::definition\nPour un réel $a$ et un entier naturel $n\\ge1$ : $a^n=\\underbrace{a\\times a\\times\\dots\\times a}_{n\\text{ facteurs}}$.\nPour $a\\neq0$ : $a^0=1$ et $a^{-n}=\\dfrac{1}{a^n}$.\n:::\n\n:::propriete Règles de calcul ($a\\neq0$, $b\\neq0$, $m$ et $n$ entiers relatifs)\n$$a^m\\times a^n=a^{m+n}\\qquad \\frac{a^m}{a^n}=a^{m-n}\\qquad (a^m)^n=a^{mn}$$\n$$(ab)^n=a^nb^n\\qquad \\left(\\frac ab\\right)^n=\\frac{a^n}{b^n}$$\n:::\n\n:::definition Écriture scientifique\nTout décimal non nul s'écrit de façon unique $a\\times10^n$ avec $1\\le |a|<10$ et $n\\in\\mathbb{Z}$. Exemple : $0{,}000\\,372=3{,}72\\times10^{-5}$.\n:::\n\n## 2. Racines carrées\n\n:::definition\nPour $a\\ge0$, $\\sqrt a$ est le **seul réel positif** dont le carré vaut $a$ : $\\sqrt a\\ge0$ et $(\\sqrt a)^2=a$.\n:::\n\n:::propriete Pour $a\\ge0$ et $b\\ge0$ (et $b>0$ pour le quotient)\n$$\\sqrt{ab}=\\sqrt a\\times\\sqrt b\\qquad \\sqrt{\\frac ab}=\\frac{\\sqrt a}{\\sqrt b}\\qquad \\sqrt{a^2}=|a|\\ \\text{pour tout réel }a$$\n:::\n\n:::attention\n$\\sqrt{a+b}\\neq\\sqrt a+\\sqrt b$ en général : $\\sqrt{9+16}=\\sqrt{25}=5$ alors que $\\sqrt9+\\sqrt{16}=7$.\n:::\n\n:::methode Simplifier $\\sqrt{n}$\nChercher dans $n$ le **plus grand carré parfait** qui le divise : $\\sqrt{50}=\\sqrt{25\\times2}=5\\sqrt2$.\n:::\n\n:::methode Rendre rationnel un dénominateur\n- Dénominateur $\\sqrt b$ : multiplier en haut et en bas par $\\sqrt b$.\n- Dénominateur $\\sqrt a+\\sqrt b$ (ou $\\sqrt a-\\sqrt b$) : multiplier par la **quantité conjuguée** $\\sqrt a-\\sqrt b$ (ou $\\sqrt a+\\sqrt b$), car $(\\sqrt a+\\sqrt b)(\\sqrt a-\\sqrt b)=a-b$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nÉcrire sous forme d'une seule puissance puis calculer $A=\\dfrac{2^3\\times2^5}{2^4}$, et donner l'écriture scientifique de $B=3\\times10^4\\times5\\times10^{-7}$.\n\n1. $2^3\\times2^5=2^{3+5}=2^8$.\n2. $A=\\dfrac{2^8}{2^4}=2^{8-4}=2^4=16$.\n3. $B=(3\\times5)\\times10^{4-7}=15\\times10^{-3}$.\n4. $15=1{,}5\\times10^1$ donc $B=1{,}5\\times10^{-2}$.\n:::\n\n:::exemple Exemple 2\nSimplifier $C=\\sqrt{12}+\\sqrt{27}$ puis écrire $D=\\dfrac{1}{\\sqrt3+\\sqrt2}$ sans racine au dénominateur.\n\n1. $\\sqrt{12}=\\sqrt{4\\times3}=2\\sqrt3$ et $\\sqrt{27}=\\sqrt{9\\times3}=3\\sqrt3$.\n2. $C=2\\sqrt3+3\\sqrt3=5\\sqrt3$.\n3. On multiplie $D$ en haut et en bas par le conjugué $\\sqrt3-\\sqrt2$ : $D=\\dfrac{\\sqrt3-\\sqrt2}{(\\sqrt3+\\sqrt2)(\\sqrt3-\\sqrt2)}$.\n4. Le dénominateur vaut $(\\sqrt3)^2-(\\sqrt2)^2=3-2=1$, donc $D=\\sqrt3-\\sqrt2$.\n:::\n",
+   "definition": "Pour $a\\ge0$, $\\sqrt a$ est le réel positif de carré $a$ ; les puissances obéissent à $a^m a^n=a^{m+n}$.",
+   "formules": [
+    "$a^m\\times a^n=a^{m+n}$",
+    "$\\dfrac{a^m}{a^n}=a^{m-n}$",
+    "$(a^m)^n=a^{mn}$",
+    "$a^{-n}=\\dfrac1{a^n}$",
+    "$\\sqrt{ab}=\\sqrt a\\sqrt b$",
+    "$\\sqrt{a^2}=|a|$"
+   ],
+   "niveaux": {
+    "phrase": "Une puissance compte des facteurs identiques ; une racine carrée est le côté d'un carré dont on connaît l'aire.",
+    "simple": "2³, ce sont trois facteurs 2 ; si on multiplie par 2² on ajoute deux facteurs : 2⁵. Et √49 = 7 parce qu'un carré de côté 7 a une aire de 49.",
+    "complete": "Les règles $a^ma^n=a^{m+n}$, $(a^m)^n=a^{mn}$, $a^{-n}=1/a^n$ s'étendent aux exposants relatifs. $\\sqrt a$ ($a\\ge0$) est positif et vérifie $(\\sqrt a)^2=a$ ; $\\sqrt{a^2}=|a|$. On simplifie $\\sqrt n$ en extrayant le plus grand carré, et on rend un dénominateur rationnel grâce à l'expression conjuguée."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Écrire sous forme d'une seule puissance puis calculer $A=\\dfrac{2^3\\times2^5}{2^4}$, et donner l'écriture scientifique de $B=3\\times10^4\\times5\\times10^{-7}$.",
+     "etapes": [
+      "$2^3\\times2^5=2^{3+5}=2^8$.",
+      "$A=\\dfrac{2^8}{2^4}=2^{8-4}=2^4=16$.",
+      "$B=(3\\times5)\\times10^{4-7}=15\\times10^{-3}$.",
+      "$15=1{,}5\\times10^1$ donc $B=1{,}5\\times10^{-2}$."
+     ]
+    },
+    {
+     "enonce": "Simplifier $C=\\sqrt{12}+\\sqrt{27}$ puis écrire $D=\\dfrac{1}{\\sqrt3+\\sqrt2}$ sans racine au dénominateur.",
+     "etapes": [
+      "$\\sqrt{12}=\\sqrt{4\\times3}=2\\sqrt3$ et $\\sqrt{27}=\\sqrt{9\\times3}=3\\sqrt3$.",
+      "$C=2\\sqrt3+3\\sqrt3=5\\sqrt3$.",
+      "On multiplie $D$ en haut et en bas par le conjugué $\\sqrt3-\\sqrt2$ : $D=\\dfrac{\\sqrt3-\\sqrt2}{(\\sqrt3+\\sqrt2)(\\sqrt3-\\sqrt2)}$.",
+      "Le dénominateur vaut $(\\sqrt3)^2-(\\sqrt2)^2=3-2=1$, donc $D=\\sqrt3-\\sqrt2$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $2^3\\times3^2=6^5$ : on n'additionne les exposants que si la base est la même.",
+    "Confondre $(-2)^2=4$ et $-2^2=-4$.",
+    "Écrire $\\sqrt{a+b}=\\sqrt a+\\sqrt b$.",
+    "Écrire $\\sqrt{x^2}=x$ alors que c'est $|x|$ (faux si $x<0$).",
+    "Oublier que $a^0=1$ (et non 0)."
+   ],
+   "astuces": [
+    "Pour l'écriture scientifique, regroupe d'abord les nombres d'un côté et les puissances de 10 de l'autre.",
+    "Connais par cœur les carrés de 1 à 15 : ils servent à simplifier les racines.",
+    "Pour vérifier une simplification de racine, élève au carré : $(5\\sqrt2)^2=50$ ✔."
+   ],
+   "mnemo": "« Même base, on garde la base et on additionne les exposants » — « Conjugué : on change le signe du milieu ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu savais déjà que $\\sqrt{a}\\times\\sqrt{b}=\\sqrt{ab}$ et que $10^3\\times10^{-5}=10^{-2}$. En Seconde, on applique ces règles avec des lettres et on rend les dénominateurs rationnels."
+   },
+   "methode_redaction": "Écris chaque étape avec le nom de la règle (« a^m × a^n = a^(m+n) »), sans sauter de ligne. Pour une racine, montre la décomposition (√50 = √(25×2) = 5√2). Encadre le résultat final sous la forme demandée (a√b, écriture scientifique...).",
+   "flash": [
+    {
+     "q": "$a^{-3}=\\,?$",
+     "r": "$\\dfrac{1}{a^3}$"
+    },
+    {
+     "q": "$(x^2)^3=\\,?$",
+     "r": "$x^6$"
+    },
+    {
+     "q": "Simplifier $\\sqrt{72}$.",
+     "r": "$\\sqrt{36\\times2}=6\\sqrt2$"
+    },
+    {
+     "q": "Conjugué de $\\sqrt5-1$ ?",
+     "r": "$\\sqrt5+1$ ; produit $=5-1=4$."
+    },
+    {
+     "q": "$\\sqrt{(-3)^2}=\\,?$",
+     "r": "$|-3|=3$"
+    },
+    {
+     "q": "Écriture scientifique de $45\\,000$ ?",
+     "r": "$4{,}5\\times10^4$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C01-N2.svg",
+    "alt": "Carré de côté 1 dont la diagonale mesure racine de 2, avec la liste des règles de calcul sur les puissances et les racines.",
+    "legende": "La diagonale d'un carré de côté 1 mesure √2.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C01-N3",
+   "titre": "Valeur absolue et distance",
+   "prerequis_notions": [
+    "M-S1-C01-N1"
+   ],
+   "cours_md": ":::definition Valeur absolue\nPour tout réel $x$ :\n$$|x|=\\begin{cases}x & \\text{si } x\\ge0\\\\ -x & \\text{si } x<0\\end{cases}$$\nAinsi $|5|=5$, $|-5|=5$, $|0|=0$. Une valeur absolue est **toujours positive ou nulle**.\n:::\n\n:::propriete Distance sur la droite graduée\nSi $A$ et $B$ ont pour abscisses $a$ et $b$, la distance $AB$ vaut $|b-a|=|a-b|$. En particulier $|x|$ est la distance de $x$ à $0$ et $|x-a|$ est la **distance entre $x$ et $a$**.\n:::\n\n:::propriete Règles de calcul (pour tous réels $x$ et $y$)\n- $|x|\\ge0$ ; $|x|=0\\iff x=0$ ; $|-x|=|x|$ ; $\\sqrt{x^2}=|x|$.\n- $|xy|=|x|\\,|y|$ et $\\left|\\dfrac xy\\right|=\\dfrac{|x|}{|y|}$ si $y\\neq0$.\n- Inégalité triangulaire : $|x+y|\\le|x|+|y|$.\n:::\n\n:::propriete Équations et inéquations avec $r>0$\n- $|x-a|=r\\iff x=a-r$ ou $x=a+r$.\n- $|x-a|\\le r\\iff a-r\\le x\\le a+r\\iff x\\in[a-r\\,;a+r]$.\n- $|x-a|>r\\iff x<a-r$ ou $x>a+r$.\n- $|A|=|B|\\iff A=B$ ou $A=-B$.\n:::\n\n:::attention\n$|x|=-3$ n'a **aucune** solution : une valeur absolue n'est jamais négative.\n:::\n\n:::methode Lire une valeur absolue comme une distance\nPour $|x+1|=4$, écrire $|x-(-1)|=4$ : on cherche les points à distance 4 de $-1$, donc $x=-5$ ou $x=3$.\n:::\n\n:::methode Enlever les barres\nÉtudier le signe de l'expression à l'intérieur : si elle est positive, on enlève les barres ; si elle est négative, on enlève les barres et on change le signe. Pour plusieurs valeurs absolues, faire un **tableau** en découpant $\\mathbb{R}$ aux valeurs qui annulent chaque expression.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nRésoudre $|x+1|=4$ puis $|x-1|<2$.\n\n1. $|x+1|=|x-(-1)|$ : distance entre $x$ et $-1$.\n2. Distance 4 de $-1$ : $x=-1-4=-5$ ou $x=-1+4=3$. $S=\\{-5\\,;3\\}$.\n3. $|x-1|<2$ : distance entre $x$ et $1$ strictement inférieure à 2, donc $1-2<x<1+2$.\n4. $S=]-1\\,;3[$.\n:::\n\n:::exemple Exemple 2\nRésoudre $|x+2|\\ge3$.\n\n1. $|x-(-2)|\\ge3$ : $x$ est à distance au moins 3 de $-2$.\n2. Donc $x\\le-2-3=-5$ ou $x\\ge-2+3=1$.\n3. $S=]-\\infty\\,;-5]\\cup[1\\,;+\\infty[$.\n:::\n",
+   "definition": "$|x|$ vaut $x$ si $x\\ge0$ et $-x$ si $x<0$ ; $|x-a|$ est la distance entre $x$ et $a$.",
+   "formules": [
+    "$|x-a|\\le r\\iff a-r\\le x\\le a+r$",
+    "$|x-a|=r\\iff x=a\\pm r$",
+    "$|xy|=|x||y|$",
+    "$|x+y|\\le|x|+|y|$"
+   ],
+   "niveaux": {
+    "phrase": "La valeur absolue, c'est une distance : elle n'est jamais négative.",
+    "simple": "Le rond-point de Déckon est le zéro : qu'un zémidjan parte 3 km à gauche ou 3 km à droite, il a roulé 3 km. |−3| = |3| = 3.",
+    "complete": "$|x|=\\max(x,-x)$. Géométriquement $|x-a|$ est la distance entre les points d'abscisses $x$ et $a$ ; d'où $|x-a|\\le r\\iff x\\in[a-r\\,;a+r]$ (intervalle de centre $a$ et de rayon $r$). Propriétés : $|xy|=|x||y|$, inégalité triangulaire $|x+y|\\le|x|+|y|$, $\\sqrt{x^2}=|x|$."
+   },
+   "analogie": "Un zémidjan part du rond-point (le 0). Qu'il roule 3 km vers l'est (+3) ou 3 km vers l'ouest (−3), le compteur indique 3 km : c'est la valeur absolue.",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre $|x+1|=4$ puis $|x-1|<2$.",
+     "etapes": [
+      "$|x+1|=|x-(-1)|$ : distance entre $x$ et $-1$.",
+      "Distance 4 de $-1$ : $x=-1-4=-5$ ou $x=-1+4=3$. $S=\\{-5\\,;3\\}$.",
+      "$|x-1|<2$ : distance entre $x$ et $1$ strictement inférieure à 2, donc $1-2<x<1+2$.",
+      "$S=]-1\\,;3[$."
+     ]
+    },
+    {
+     "enonce": "Résoudre $|x+2|\\ge3$.",
+     "etapes": [
+      "$|x-(-2)|\\ge3$ : $x$ est à distance au moins 3 de $-2$.",
+      "Donc $x\\le-2-3=-5$ ou $x\\ge-2+3=1$.",
+      "$S=]-\\infty\\,;-5]\\cup[1\\,;+\\infty[$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $|-x|=x$ sans connaître le signe de $x$.",
+    "Écrire $|a-b|=|a|-|b|$ : c'est faux ($|2-5|=3$ mais $|2|-|5|=-3$).",
+    "Pour $|x-a|>r$, donner un seul intervalle au lieu de la réunion de deux.",
+    "Oublier la solution négative dans $|x|=4$ (il y a $-4$ et $4$)."
+   ],
+   "astuces": [
+    "Traduis toujours |x − a| par « distance de x à a » et fais un petit dessin.",
+    "Pour |x + 3|, pense |x − (−3)| : le centre est −3, pas 3.",
+    "≤ donne UN intervalle (on est près du centre) ; ≥ donne DEUX morceaux (on est loin du centre)."
+   ],
+   "mnemo": "« Valeur absolue = distance, distance = jamais négative. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 4e ? La distance entre deux points d'abscisses $-2$ et $5$ sur une droite graduée vaut $5-(-2)=7$. En Seconde, on écrit simplement $|5-(-2)|=7$."
+   },
+   "methode_redaction": "Commence par traduire : « |x − 3| ≤ 2 signifie que la distance entre x et 3 est au plus 2 ». Écris l'équivalence, puis l'ensemble des solutions S = [1 ; 5] avec les bons crochets. Pour une équation |A| = |B|, écris les deux cas séparément et vérifie-les.",
+   "flash": [
+    {
+     "q": "$|-12|=\\,?$",
+     "r": "12"
+    },
+    {
+     "q": "Que représente $|x-5|$ ?",
+     "r": "La distance entre $x$ et $5$."
+    },
+    {
+     "q": "Résoudre $|x|=7$.",
+     "r": "$x=-7$ ou $x=7$"
+    },
+    {
+     "q": "Traduire $|x-2|\\le1$ en intervalle.",
+     "r": "$x\\in[1\\,;3]$"
+    },
+    {
+     "q": "$|x|=-2$ a-t-il des solutions ?",
+     "r": "Non, une valeur absolue est toujours ≥ 0."
+    },
+    {
+     "q": "$\\sqrt{x^2}=\\,?$",
+     "r": "$|x|$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C01-N3.svg",
+    "alt": "Droite graduée de −3 à 7 : le segment de −1 à 5 est colorié, centre 2, avec deux flèches de longueur 3.",
+    "legende": "|x − 2| ≤ 3 : tous les réels à distance au plus 3 de 2, c'est-à-dire [−1 ; 5].",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C01-N4",
+   "titre": "Ordre, encadrements et valeurs approchées",
+   "prerequis_notions": [
+    "M-S1-C01-N1",
+    "M-S1-C01-N2"
+   ],
+   "cours_md": "## 1. Ordre et opérations\n\n:::propriete Règles de l'ordre (pour tous réels $a$, $b$, $c$)\n- $a\\le b\\iff a+c\\le b+c$ : ajouter un même nombre **conserve** l'ordre.\n- Si $c>0$ : $a\\le b\\iff ac\\le bc$ (on **conserve**).\n- Si $c<0$ : $a\\le b\\iff ac\\ge bc$ (on **renverse**).\n- Si $0<a\\le b$ alors $\\dfrac1a\\ge\\dfrac1b$ : passer à l'inverse **renverse** l'ordre entre nombres de même signe.\n- Si $0\\le a\\le b$ alors $a^2\\le b^2$ et $\\sqrt a\\le\\sqrt b$.\n:::\n\n:::propriete Comparer en étudiant le signe d'une différence\n$a\\le b\\iff b-a\\ge0$. Pour comparer deux expressions, on calcule leur différence et on étudie son signe.\n:::\n\n## 2. Encadrements\n\n:::propriete Opérations sur les encadrements\nSi $a\\le x\\le b$ et $c\\le y\\le d$ :\n- **Somme** : $a+c\\le x+y\\le b+d$.\n- **Différence** : on écrit $-d\\le -y\\le -c$ puis on additionne : $a-d\\le x-y\\le b-c$.\n- **Produit** (seulement si tout est **positif**) : $ac\\le xy\\le bd$.\n- **Inverse** (si $0<a$) : $\\dfrac1b\\le\\dfrac1x\\le\\dfrac1a$.\n:::\n\n:::attention\nOn ne soustrait **jamais** deux encadrements membre à membre, et on ne les divise pas : on passe par l'opposé ou l'inverse.\n:::\n\n:::definition Valeur approchée\nSi $a\\le x\\le b$, on dit que l'encadrement a pour **amplitude** $b-a$. $a$ est une valeur approchée de $x$ **par défaut** et $b$ une valeur approchée **par excès** à $b-a$ près. Exemple : $1{,}41<\\sqrt2<1{,}42$ (amplitude $10^{-2}$).\n:::\n\n:::methode Encadrer une expression\n1. Écrire l'encadrement de chaque « morceau ».\n2. Appliquer les règles une par une (opposé, inverse, somme, produit positif).\n3. Conclure par une phrase avec l'amplitude si on la demande.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nOn sait que $2\\le a\\le3$ et $-5\\le b\\le-4$. Encadrer $a+b$, $a-b$ et $ab$.\n\n1. Somme : $2+(-5)\\le a+b\\le3+(-4)$, donc $-3\\le a+b\\le-1$.\n2. Opposé de $b$ : $4\\le-b\\le5$ (on multiplie par $-1$, l'ordre est renversé).\n3. Différence : $a-b=a+(-b)$ donc $2+4\\le a-b\\le3+5$, soit $6\\le a-b\\le8$.\n4. Produit : $b$ est négatif, on encadre $-b$ (positif) : $2\\times4\\le a\\times(-b)\\le3\\times5$, soit $8\\le-ab\\le15$.\n5. Donc $-15\\le ab\\le-8$.\n:::\n\n:::exemple Exemple 2\nSachant que $1{,}41<\\sqrt2<1{,}42$, encadrer $\\dfrac{1}{\\sqrt2}$ à $10^{-3}$ près.\n\n1. Les nombres sont positifs : passer à l'inverse renverse l'ordre.\n2. $\\dfrac1{1{,}42}<\\dfrac1{\\sqrt2}<\\dfrac1{1{,}41}$.\n3. $\\dfrac1{1{,}42}\\approx0{,}7042$ et $\\dfrac1{1{,}41}\\approx0{,}7092$.\n4. Donc $0{,}704<\\dfrac1{\\sqrt2}<0{,}710$ (on arrondit la borne inférieure par défaut et la borne supérieure par excès).\n:::\n",
+   "definition": "Encadrer $x$, c'est trouver $a$ et $b$ avec $a\\le x\\le b$ ; on additionne les encadrements, on multiplie seulement des positifs, et l'inverse renverse l'ordre.",
+   "formules": [
+    "$a\\le b \\iff b-a\\ge0$",
+    "$a\\le x\\le b,\\ c\\le y\\le d\\Rightarrow a+c\\le x+y\\le b+d$",
+    "$0<a\\le x\\le b\\Rightarrow \\dfrac1b\\le\\dfrac1x\\le\\dfrac1a$"
+   ],
+   "niveaux": {
+    "phrase": "Encadrer un nombre, c'est le coincer entre deux valeurs connues.",
+    "simple": "Tu ne connais pas le poids exact d'un régime de bananes, mais tu sais qu'il pèse entre 8 et 9 kg : c'est un encadrement. Deux régimes pèsent donc entre 16 et 18 kg.",
+    "complete": "L'ordre est compatible avec l'addition et avec la multiplication par un réel positif ; il est renversé par la multiplication par un négatif et par le passage à l'inverse (nombres de même signe). Les encadrements s'additionnent ; pour une différence on encadre d'abord l'opposé ; un produit ne s'encadre membre à membre que pour des nombres positifs."
+   },
+   "analogie": "Au marché d'Adawlato, une tomate pèse entre 80 g et 120 g. Un tas de 5 tomates pèse donc entre 400 g et 600 g : on multiplie l'encadrement par 5 (nombre positif), l'ordre est conservé.",
+   "exemples_resolus": [
+    {
+     "enonce": "On sait que $2\\le a\\le3$ et $-5\\le b\\le-4$. Encadrer $a+b$, $a-b$ et $ab$.",
+     "etapes": [
+      "Somme : $2+(-5)\\le a+b\\le3+(-4)$, donc $-3\\le a+b\\le-1$.",
+      "Opposé de $b$ : $4\\le-b\\le5$ (on multiplie par $-1$, l'ordre est renversé).",
+      "Différence : $a-b=a+(-b)$ donc $2+4\\le a-b\\le3+5$, soit $6\\le a-b\\le8$.",
+      "Produit : $b$ est négatif, on encadre $-b$ (positif) : $2\\times4\\le a\\times(-b)\\le3\\times5$, soit $8\\le-ab\\le15$.",
+      "Donc $-15\\le ab\\le-8$."
+     ]
+    },
+    {
+     "enonce": "Sachant que $1{,}41<\\sqrt2<1{,}42$, encadrer $\\dfrac{1}{\\sqrt2}$ à $10^{-3}$ près.",
+     "etapes": [
+      "Les nombres sont positifs : passer à l'inverse renverse l'ordre.",
+      "$\\dfrac1{1{,}42}<\\dfrac1{\\sqrt2}<\\dfrac1{1{,}41}$.",
+      "$\\dfrac1{1{,}42}\\approx0{,}7042$ et $\\dfrac1{1{,}41}\\approx0{,}7092$.",
+      "Donc $0{,}704<\\dfrac1{\\sqrt2}<0{,}710$ (on arrondit la borne inférieure par défaut et la borne supérieure par excès)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Soustraire les encadrements membre à membre : on obtiendrait des bornes fausses.",
+    "Multiplier deux encadrements contenant des nombres négatifs sans précaution.",
+    "Oublier de renverser l'ordre en passant à l'inverse ou en multipliant par un négatif.",
+    "Arrondir une borne inférieure par excès (elle n'est plus une borne inférieure)."
+   ],
+   "astuces": [
+    "Pour une différence x − y, encadre d'abord −y puis additionne.",
+    "Vérifie ton encadrement avec la calculatrice sur une valeur particulière.",
+    "La borne inférieure s'arrondit vers le bas, la borne supérieure vers le haut."
+   ],
+   "mnemo": "« Négatif ou inverse : l'ordre se renverse. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Pour résoudre $-2x<6$, tu divisais par $-2$ en changeant le sens : $x>-3$. C'est la même règle qui sert pour les encadrements."
+   },
+   "methode_redaction": "Écris chaque encadrement intermédiaire sur une ligne avec la règle utilisée (« on multiplie par −1 < 0, l'ordre change »). Termine par une phrase : « Donc 6 ≤ a − b ≤ 8 ». Si l'énoncé fixe une précision, donne l'amplitude et arrondis dans le bon sens.",
+   "flash": [
+    {
+     "q": "Si $x\\le y$, comparer $-3x$ et $-3y$.",
+     "r": "$-3x\\ge-3y$"
+    },
+    {
+     "q": "$2\\le x\\le5$ : encadrer $\\dfrac1x$.",
+     "r": "$\\dfrac15\\le\\dfrac1x\\le\\dfrac12$"
+    },
+    {
+     "q": "$1\\le x\\le2$ et $3\\le y\\le4$ : encadrer $x-y$.",
+     "r": "$-3\\le x-y\\le-1$"
+    },
+    {
+     "q": "Amplitude de 3,14 < π < 3,15 ?",
+     "r": "0,01"
+    },
+    {
+     "q": "Comment comparer $a$ et $b$ ?",
+     "r": "Étudier le signe de $a-b$."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C01-N4.svg",
+    "alt": "Droite graduée de 1 à 2 avec un zoom entre 1,40 et 1,50 montrant que racine de 2 est entre 1,41 et 1,42.",
+    "legende": "Zoom sur la droite graduée : 1,41 < √2 < 1,42.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S1-C01-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C01-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel de ces nombres est un nombre **décimal** ?",
+   "choix": [
+    "$\\dfrac13$",
+    "$\\dfrac74$",
+    "$\\sqrt2$",
+    "$\\pi$"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Un décimal s'écrit avec un nombre fini de chiffres après la virgule."
+   ],
+   "corrige": [
+    "$\\dfrac74=1{,}75=\\dfrac{175}{10^2}$ : c'est un décimal.",
+    "$\\dfrac13$ est rationnel non décimal, $\\sqrt2$ et $\\pi$ sont irrationnels."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "$\\dfrac13$ semble décimal car on écrit souvent $0{,}33$, mais ce n'est qu'une valeur approchée.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C01-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C01-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Écrire sous forme d'intervalle l'ensemble des réels $x$ tels que $-3<x\\le5$.",
+   "reponses_acceptees": [
+    "]-3;5]",
+    "]−3;5]",
+    "x∈]-3;5]"
+   ],
+   "indices": [
+    "Inégalité stricte → crochet tourné vers l'extérieur."
+   ],
+   "corrige": [
+    "$-3$ est exclu (inégalité stricte) : crochet ouvert.",
+    "$5$ est inclus : crochet fermé. Réponse : $]-3\\,;5]$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Mettre [−3 au lieu de ]−3.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C01-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C01-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer $A=|-7|+|3-5|$.",
+   "reponses_acceptees": [
+    "9",
+    "A=9"
+   ],
+   "indices": [
+    "Calcule d'abord ce qu'il y a entre les barres."
+   ],
+   "corrige": [
+    "$|-7|=7$ et $|3-5|=|-2|=2$.",
+    "$A=7+2=9$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire $|3-5|=-2$ : une valeur absolue n'est jamais négative.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C01-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C01-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Écrire $B=\\sqrt{50}-3\\sqrt8+\\sqrt{18}$ sous la forme $a\\sqrt2$ ($a$ entier). Donner $B$.",
+   "reponses_acceptees": [
+    "2√2",
+    "2racine2",
+    "2sqrt(2)",
+    "2sqrt2",
+    "B=2√2",
+    "2*sqrt(2)"
+   ],
+   "indices": [
+    "Cherche le plus grand carré qui divise 50, 8 et 18."
+   ],
+   "corrige": [
+    "$\\sqrt{50}=\\sqrt{25\\times2}=5\\sqrt2$ ; $\\sqrt8=\\sqrt{4\\times2}=2\\sqrt2$ ; $\\sqrt{18}=\\sqrt{9\\times2}=3\\sqrt2$.",
+    "$B=5\\sqrt2-3\\times2\\sqrt2+3\\sqrt2=(5-6+3)\\sqrt2=2\\sqrt2$."
+   ],
+   "bareme": [
+    2,
+    1
+   ],
+   "piege": "Oublier de multiplier $2\\sqrt2$ par 3.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C01-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C01-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle est l'écriture scientifique de $C=\\dfrac{3\\times10^{-2}\\times4\\times10^{5}}{6\\times10^{2}}$ ?",
+   "choix": [
+    "$2\\times10^{1}$",
+    "$2\\times10^{-1}$",
+    "$0{,}2\\times10^{2}$",
+    "$2\\times10^{5}$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Sépare les nombres et les puissances de 10."
+   ],
+   "corrige": [
+    "Nombres : $\\dfrac{3\\times4}{6}=2$.",
+    "Puissances : $10^{-2+5-2}=10^{1}$.",
+    "$C=2\\times10^1$ (soit 20)."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Se tromper de signe dans l'exposant : $-2+5-2=1$.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C01-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C01-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On donne $I=[-2\\,;5[$ et $J=]1\\,;7]$. Déterminer $I\\cap J$.",
+   "reponses_acceptees": [
+    "]1;5[",
+    "I∩J=]1;5["
+   ],
+   "indices": [
+    "Colorie I et J sur une droite graduée."
+   ],
+   "corrige": [
+    "Sur la droite graduée, la partie commune va de $1$ à $5$.",
+    "$1\\notin J$ et $5\\notin I$ : les deux crochets sont ouverts. $I\\cap J=]1\\,;5[$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Fermer le crochet en 5 alors que 5 ∉ I.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C01-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C01-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Écrire $D=\\dfrac{2}{\\sqrt5-1}$ sans racine carrée au dénominateur (forme $\\dfrac{a+\\sqrt5}{b}$).",
+   "reponses_acceptees": [
+    "(1+√5)/2",
+    "(√5+1)/2",
+    "(1+sqrt(5))/2",
+    "(sqrt(5)+1)/2",
+    "(1+racine5)/2"
+   ],
+   "indices": [
+    "Conjugué de √5 − 1 : √5 + 1."
+   ],
+   "corrige": [
+    "On multiplie par le conjugué $\\sqrt5+1$ : $D=\\dfrac{2(\\sqrt5+1)}{(\\sqrt5-1)(\\sqrt5+1)}$.",
+    "Dénominateur : $5-1=4$.",
+    "$D=\\dfrac{2(\\sqrt5+1)}{4}=\\dfrac{1+\\sqrt5}{2}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Oublier de simplifier par 2 à la fin.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C01-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C01-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ l'inéquation $|x-3|\\le2$. Donner l'ensemble des solutions sous forme d'intervalle.",
+   "reponses_acceptees": [
+    "[1;5]",
+    "S=[1;5]"
+   ],
+   "indices": [
+    "Traduis par une distance au centre 3."
+   ],
+   "corrige": [
+    "$|x-3|\\le2$ : la distance entre $x$ et 3 est au plus 2.",
+    "$3-2\\le x\\le3+2$, soit $1\\le x\\le5$.",
+    "$S=[1\\,;5]$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Donner ]1 ; 5[ : l'inégalité est large, les bornes sont comprises.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C01-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C01-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "On donne $1{,}41<\\sqrt2<1{,}42$ et $1{,}73<\\sqrt3<1{,}74$.\n\n1. Encadrer $\\sqrt2+\\sqrt3$.\n2. Encadrer $\\sqrt3-\\sqrt2$.\n3. Encadrer $\\sqrt2\\times\\sqrt3$, puis en déduire un encadrement de $\\sqrt6$.\n4. Encadrer $\\dfrac1{\\sqrt2}$ à $10^{-2}$ près.",
+   "indices": [
+    "Pour une différence, encadre d'abord l'opposé.",
+    "Pour l'inverse, l'ordre change."
+   ],
+   "corrige": [
+    "1. On additionne : $1{,}41+1{,}73<\\sqrt2+\\sqrt3<1{,}42+1{,}74$, donc $3{,}14<\\sqrt2+\\sqrt3<3{,}16$.",
+    "2. $-1{,}42<-\\sqrt2<-1{,}41$ (multiplication par $-1$). On additionne avec l'encadrement de $\\sqrt3$ : $1{,}73-1{,}42<\\sqrt3-\\sqrt2<1{,}74-1{,}41$, soit $0{,}31<\\sqrt3-\\sqrt2<0{,}33$.",
+    "3. Tous les nombres sont positifs : $1{,}41\\times1{,}73<\\sqrt2\\sqrt3<1{,}42\\times1{,}74$, soit $2{,}4393<\\sqrt6<2{,}4708$ car $\\sqrt2\\sqrt3=\\sqrt6$.",
+    "4. Passage à l'inverse de nombres positifs (ordre renversé) : $\\dfrac1{1{,}42}<\\dfrac1{\\sqrt2}<\\dfrac1{1{,}41}$, soit $0{,}704\\dots<\\dfrac1{\\sqrt2}<0{,}709\\dots$ ; donc $0{,}70<\\dfrac1{\\sqrt2}<0{,}71$."
+   ],
+   "bareme": [
+    1,
+    2,
+    1.5,
+    1.5
+   ],
+   "piege": "Faire $1{,}73-1{,}41<\\sqrt3-\\sqrt2<1{,}74-1{,}42$ (soustraction membre à membre) : c'est faux.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C01-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C01-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "1. Résoudre dans $\\mathbb{R}$ l'équation $|2x-1|=|x+3|$.\n2. Résoudre l'inéquation $|x+1|<|x-3|$ en interprétant chaque membre comme une distance.",
+   "indices": [
+    "|A| = |B| donne deux équations.",
+    "Le point équidistant de −1 et 3 est leur milieu."
+   ],
+   "corrige": [
+    "1. $|A|=|B|\\iff A=B$ ou $A=-B$.",
+    "$2x-1=x+3\\iff x=4$.",
+    "$2x-1=-(x+3)\\iff 3x=-2\\iff x=-\\dfrac23$. Donc $S=\\left\\{-\\dfrac23\\,;4\\right\\}$.",
+    "2. $|x+1|$ est la distance de $x$ à $-1$ et $|x-3|$ la distance de $x$ à $3$. On cherche les réels plus proches de $-1$ que de $3$.",
+    "Le milieu de $[-1\\,;3]$ est $1$ ; les réels plus proches de $-1$ sont ceux de gauche : $S=]-\\infty\\,;1[$."
+   ],
+   "bareme": [
+    0.5,
+    1,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Oublier le cas A = −B, ou oublier les parenthèses dans −(x + 3).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C01-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C01-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "1. Développer $(1+\\sqrt2)^2$ et $(\\sqrt2-1)^2$.\n2. En déduire une écriture simple de $\\sqrt{3+2\\sqrt2}$ et de $\\sqrt{3-2\\sqrt2}$.\n3. Calculer $A=\\sqrt{3+2\\sqrt2}-\\sqrt{3-2\\sqrt2}$.",
+   "indices": [
+    "$\\sqrt{a^2}=|a|$ : vérifie le signe avant d'enlever la valeur absolue."
+   ],
+   "corrige": [
+    "1. $(1+\\sqrt2)^2=1+2\\sqrt2+2=3+2\\sqrt2$ et $(\\sqrt2-1)^2=2-2\\sqrt2+1=3-2\\sqrt2$.",
+    "2. $\\sqrt{3+2\\sqrt2}=\\sqrt{(1+\\sqrt2)^2}=|1+\\sqrt2|=1+\\sqrt2$ car $1+\\sqrt2>0$.",
+    "$\\sqrt{3-2\\sqrt2}=|\\sqrt2-1|=\\sqrt2-1$ car $\\sqrt2>1$.",
+    "3. $A=(1+\\sqrt2)-(\\sqrt2-1)=2$."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Écrire $\\sqrt{3-2\\sqrt2}=1-\\sqrt2$ : ce nombre est négatif, il ne peut pas être une racine carrée.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C01-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C01-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ l'équation $|x-2|+|x+4|=10$. On pourra dresser un tableau pour enlever les valeurs absolues.",
+   "indices": [
+    "Découpe ℝ aux valeurs qui annulent chaque expression.",
+    "Vérifie que chaque solution trouvée est bien dans l'intervalle étudié."
+   ],
+   "corrige": [
+    "$x-2$ s'annule en $2$, $x+4$ en $-4$ : on découpe $\\mathbb{R}$ en $]-\\infty\\,;-4]$, $[-4\\,;2]$, $[2\\,;+\\infty[$.",
+    "Si $x\\le-4$ : $|x-2|=2-x$, $|x+4|=-x-4$ ; l'équation devient $-2x-2=10$, $x=-6$, qui vérifie $x\\le-4$ : solution.",
+    "Si $-4\\le x\\le2$ : $|x-2|=2-x$, $|x+4|=x+4$ ; on obtient $6=10$, impossible : pas de solution.",
+    "Si $x\\ge2$ : $|x-2|=x-2$, $|x+4|=x+4$ ; $2x+2=10$, $x=4$, qui vérifie $x\\ge2$ : solution.",
+    "$S=\\{-6\\,;4\\}$. Vérification : $|-8|+|-2|=10$ et $|2|+|8|=10$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Garder une solution qui n'appartient pas à l'intervalle étudié.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Crochet fermé du côté de l'infini ou mauvais crochet aux bornes d'une intersection.",
+  "Écrire $\\sqrt{a+b}=\\sqrt a+\\sqrt b$ ou $\\sqrt{x^2}=x$.",
+  "Soustraire ou diviser deux encadrements membre à membre.",
+  "Oublier une des deux solutions de |x − a| = r, ou donner un seul intervalle pour |x − a| > r.",
+  "Ne pas vérifier qu'une solution trouvée par cas appartient bien au cas étudié.",
+  "Arrondir une borne d'encadrement dans le mauvais sens."
+ ]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="400" height="250" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Couple de forces sur un volant</title>
+<rect x="0" y="0" width="400" height="250" rx="18" fill="#fffdf8"/>
+<circle cx="170.0" cy="130.0" r="80.0" stroke="#1f2937" stroke-width="8" fill="none"/>
+<circle cx="170.0" cy="130.0" r="16.0" stroke="#1f2937" stroke-width="2" fill="#d1d5db"/>
+<line x1="90.0" y1="130.0" x2="250.0" y2="130.0" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+<circle cx="90.0" cy="130.0" r="5.0" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<circle cx="250.0" cy="130.0" r="5.0" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<line x1="90.0" y1="130.0" x2="90.0" y2="194.0" stroke="#c0262d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="90.0,205.0 84.5,194.0 95.5,194.0" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<line x1="250.0" y1="130.0" x2="250.0" y2="66.0" stroke="#c0262d" stroke-width="3.5" stroke-linecap="butt"/>
+<polygon points="250.0,55.0 255.5,66.0 244.5,66.0" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<text x="80.0" y="200.0" font-size="16" text-anchor="end" fill="#c0262d" font-weight="bold">F₁</text>
+<text x="260.0" y="70.0" font-size="16" text-anchor="start" fill="#c0262d" font-weight="bold">F₂</text>
+<line x1="90.0" y1="222.0" x2="250.0" y2="222.0" stroke="#1d4ed8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="90.0" y1="216.0" x2="90.0" y2="228.0" stroke="#1d4ed8" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="250.0" y1="216.0" x2="250.0" y2="228.0" stroke="#1d4ed8" stroke-width="1.5" stroke-linecap="round"/>
+<text x="170.0" y="242.0" font-size="14" text-anchor="middle" fill="#1d4ed8" font-weight="normal">d (diamètre)</text>
+<path d="M 210 95 A 53 53 0 0 0 130 95" stroke="#15803d" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="130.0,95.0 140.0,84.0 144.0,99.0" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="345.0" y="100.0" font-size="14" text-anchor="middle" fill="#1f2937" font-weight="normal">F₁ = F₂ = F</text>
+<text x="345.0" y="124.0" font-size="16" text-anchor="middle" fill="#1f2937" font-weight="bold">M = F × d</text>
+<text x="345.0" y="148.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="normal">rotation seule</text>
+</svg>

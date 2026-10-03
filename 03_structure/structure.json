@@ -43,7 +43,11 @@
     ]
    },
    {
-    "epreuves": []
+    "epreuves": [
+     "EP-M-S1-0001",
+     "EP-M-S1-0002",
+     "EP-M-S1-0003"
+    ]
    }
   ]
  },
@@ -86,7 +90,11 @@
     ]
    },
    {
-    "epreuves": []
+    "epreuves": [
+     "EP-M-S1-0001",
+     "EP-M-S1-0002",
+     "EP-M-S1-0003"
+    ]
    }
   ]
  },
@@ -129,7 +137,56 @@
     ]
    },
    {
-    "epreuves": []
+    "epreuves": [
+     "EP-M-S1-0001",
+     "EP-M-S1-0002",
+     "EP-M-S1-0003"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "M",
+  "semestre": 1,
+  "chapitre": "M-S1-C04",
+  "titre": "Barycentre",
+  "ordre": 4,
+  "parcours": [
+   {
+    "notion": "M-S1-C04-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C04-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C04-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S1-C04-E01",
+     "M-S1-C04-E02",
+     "M-S1-C04-E03",
+     "M-S1-C04-E04",
+     "M-S1-C04-E05",
+     "M-S1-C04-E06",
+     "M-S1-C04-E07",
+     "M-S1-C04-E08",
+     "M-S1-C04-E09",
+     "M-S1-C04-E10",
+     "M-S1-C04-E11",
+     "M-S1-C04-E12"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-M-S1-0001"
+    ]
    }
   ]
  },
@@ -173,7 +230,9 @@
     ]
    },
    {
-    "epreuves": []
+    "epreuves": [
+     "EP-PC-S1-0006"
+    ]
    }
   ]
  },
@@ -225,6 +284,50 @@
   ]
  },
  {
+  "matiere": "PC",
+  "semestre": 1,
+  "chapitre": "PC-S1-C03",
+  "titre": "Équilibre d'un solide soumis à des forces",
+  "ordre": 3,
+  "parcours": [
+   {
+    "notion": "PC-S1-C03-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C03-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C03-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "PC-S1-C03-E01",
+     "PC-S1-C03-E02",
+     "PC-S1-C03-E03",
+     "PC-S1-C03-E04",
+     "PC-S1-C03-E05",
+     "PC-S1-C03-E09",
+     "PC-S1-C03-E06",
+     "PC-S1-C03-E07",
+     "PC-S1-C03-E08",
+     "PC-S1-C03-E12",
+     "PC-S1-C03-E13",
+     "PC-S1-C03-E10",
+     "PC-S1-C03-E11"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
   "matiere": "SVT",
   "semestre": 1,
   "chapitre": "SVT-S1-C01",
@@ -258,6 +361,47 @@
      "SVT-S1-C01-E07",
      "SVT-S1-C01-E08",
      "SVT-S1-C01-E10"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "SVT",
+  "semestre": 1,
+  "chapitre": "SVT-S1-C02",
+  "titre": "Les échanges entre la cellule et son milieu : diffusion, osmose, transport actif",
+  "ordre": 2,
+  "parcours": [
+   {
+    "notion": "SVT-S1-C02-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C02-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C02-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "SVT-S1-C02-E01",
+     "SVT-S1-C02-E02",
+     "SVT-S1-C02-E03",
+     "SVT-S1-C02-E04",
+     "SVT-S1-C02-E05",
+     "SVT-S1-C02-E06",
+     "SVT-S1-C02-E07",
+     "SVT-S1-C02-E08",
+     "SVT-S1-C02-E09",
+     "SVT-S1-C02-E10"
     ]
    },
    {

@@ -1,0 +1,621 @@
+{
+ "id": "FR-S1-C04",
+ "matiere": "FR",
+ "semestre": 1,
+ "ordre": 4,
+ "titre": "Le résumé de texte (contraction)",
+ "objectifs": [
+  "L'élève doit être capable d'appliquer les règles du résumé : fidélité, ordre, énonciation, reformulation, neutralité, longueur.",
+  "L'élève doit être capable de dégager la structure d'un texte argumentatif dans un tableau d'analyse.",
+  "L'élève doit être capable de condenser et de reformuler un texte au quart de sa longueur à 10 % près.",
+  "L'élève doit être capable de compter les mots, de présenter le résumé et d'expliquer un mot en contexte."
+ ],
+ "prerequis": [
+  "FR-3e-IDEES",
+  "FR-S1-C03"
+ ],
+ "notions": [
+  {
+   "id": "FR-S1-C04-N1",
+   "titre": "Les règles du résumé de texte",
+   "prerequis_notions": [
+    "FR-3e-IDEES",
+    "FR-S1-C03-N1"
+   ],
+   "cours_md": "## 1. Qu'est-ce qu'un résumé ?\n\n:::definition\n**Résumer** (ou contracter) un texte, c'est le **réécrire en un nombre de mots imposé** (souvent le quart de sa longueur), **avec ses propres mots**, en **conservant l'ordre des idées**, le **système d'énonciation** de l'auteur et la **logique** de son raisonnement, **sans rien ajouter** ni donner son avis.\n:::\n\nLe résumé est un exercice de composition à part entière. À l'épreuve de « contraction de texte », il est suivi de questions de **vocabulaire** et d'une **discussion** (voir le chapitre suivant). Les textes proposés sont presque toujours **argumentatifs**.\n\n## 2. Les règles d'or\n\n1. **Fidélité** : toutes les idées essentielles, rien que les idées du texte. Pas d'ajout, pas d'oubli d'une étape du raisonnement.\n2. **Ordre** : on suit l'ordre du texte (on ne réorganise pas).\n3. **Énonciation** : on parle **à la place de l'auteur**. S'il écrit « je » ou « nous », le résumé dit « je » ou « nous ». On n'écrit **jamais** « l'auteur dit que… », « dans ce texte… ».\n4. **Reformulation** : on n'a pas le droit de recopier des phrases ou des morceaux de phrases (sauf les mots-clés techniques impossibles à remplacer).\n5. **Neutralité** : aucun commentaire, aucun jugement personnel.\n6. **Longueur** : le nombre de mots imposé, avec une **marge de 10 %** en plus ou en moins ; le nombre exact de mots doit être **indiqué** à la fin.\n7. **Logique** : les connecteurs doivent rendre visible l'enchaînement des idées.\n\n:::propriete\nUn bon résumé est un **texte autonome** : quelqu'un qui n'a pas lu le texte doit comprendre la thèse et la progression de l'argumentation.\n:::\n\n:::attention\n- « L'auteur pense que… » = **faute d'énonciation**, sanctionnée.\n- Un résumé trop long ou trop court (hors marge) perd des points ; un nombre de mots **faux** (mensonger) est lourdement pénalisé.\n- Les **exemples** ne sont généralement pas repris, sauf s'ils sont indispensables à l'argument (on peut alors les généraliser).\n:::\n\n## 3. Résumé, analyse, compte rendu : ne pas confondre\n\n| Exercice | Qui parle ? | Ce qu'on fait |\n|---|---|---|\n| Résumé | l'auteur (on se met à sa place) | on réduit le texte en gardant son ordre |\n| Compte rendu / analyse | l'élève (« l'auteur montre que… ») | on présente et explique le texte |\n| Discussion | l'élève | on donne et justifie son point de vue |",
+   "definition": "Le résumé réécrit un texte en un nombre de mots imposé (souvent le quart), avec ses propres mots, en respectant l'ordre des idées et l'énonciation de l'auteur, sans ajout ni opinion personnelle.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Dire la même chose, en moins de mots, avec tes mots, dans le même ordre, à la place de l'auteur.",
+    "simple": "C'est comme raconter un match de 90 minutes en une minute : tu gardes les buts et les tournants, dans l'ordre, sans donner ton avis sur l'arbitre.",
+    "complete": "Le résumé est une contraction fidèle et autonome : il conserve l'énonciation (personnes, point de vue), la thèse, la progression et les articulations logiques du texte source, dans un volume fixé (généralement le quart, avec une tolérance de plus ou moins 10 %), sans citation ni commentaire. Il suppose une lecture analytique préalable (repérage des mouvements et des idées essentielles) puis un travail de reformulation et de condensation."
+   },
+   "analogie": "Quand ta mère te demande ce qu'a dit le pasteur ou l'imam au long sermon du jour, tu ne répètes pas tout : tu dis l'essentiel, dans l'ordre, sans ajouter ton avis. C'est un résumé.",
+   "exemples_resolus": [
+    {
+     "enonce": "Repère les fautes de ce début de résumé : « Dans ce texte, l'auteur affirme que les jeunes ont raison de quitter les villages, ce qui est vrai. »",
+     "etapes": [
+      "« Dans ce texte, l'auteur affirme » : faute d'énonciation (on parle à la place de l'auteur).",
+      "« ce qui est vrai » : jugement personnel interdit.",
+      "Correction : « Nos jeunes quittent massivement les villages… »."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire « l'auteur dit que… » ou « le texte parle de… ».",
+    "Recopier des phrases du texte.",
+    "Donner son avis ou ajouter une idée.",
+    "Changer l'ordre des idées.",
+    "Ne pas indiquer le nombre de mots, ou indiquer un nombre faux."
+   ],
+   "astuces": [
+    "Écris ton résumé comme si tu étais l'auteur pressé qui doit dire la même chose en quatre fois moins de mots.",
+    "Garde les connecteurs logiques : c'est le squelette du texte."
+   ],
+   "mnemo": "« FOREL » : Fidélité, Ordre, Reformulation, Énonciation, Longueur.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu cherchais l'idée principale et les idées secondaires d'un paragraphe. Le résumé de seconde réunit ces idées principales en un texte court, enchaîné et fidèle."
+   },
+   "methode_redaction": "Sur la copie : écris le résumé d'un seul bloc ou en deux ou trois paragraphes qui suivent les grandes parties du texte, avec alinéas ; saute une ligne, puis indique « (… mots) » ou « Nombre de mots : … ». Pas de titre, pas de tirets.",
+   "flash": [
+    {
+     "q": "Peut-on donner son avis dans un résumé ?",
+     "r": "Non, jamais."
+    },
+    {
+     "q": "Peut-on écrire « l'auteur dit que » dans un résumé ?",
+     "r": "Non : on se met à la place de l'auteur et on garde son énonciation."
+    },
+    {
+     "q": "Quelle est la marge tolérée sur le nombre de mots ?",
+     "r": "10 % en plus ou en moins."
+    },
+    {
+     "q": "Peut-on changer l'ordre des idées ?",
+     "r": "Non, on suit l'ordre du texte."
+    },
+    {
+     "q": "Que doit-on indiquer à la fin du résumé ?",
+     "r": "Le nombre exact de mots utilisés."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C04-N1.svg",
+    "alt": "Carte mentale des six règles du résumé : fidélité, ordre, énonciation, reformulation, neutralité, longueur.",
+    "legende": "Les règles d'or du résumé de texte.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C04-N2",
+   "titre": "La lecture préparatoire : dégager la structure du texte",
+   "prerequis_notions": [
+    "FR-S1-C04-N1",
+    "FR-S1-C03-N3"
+   ],
+   "cours_md": "## 1. On ne résume bien que ce qu'on a compris\n\n:::methode\n**Les étapes de la lecture préparatoire (au brouillon)**\n1. **Première lecture** complète, sans écrire : de quoi parle le texte ? Quelle est l'opinion de l'auteur ?\n2. **Deuxième lecture**, crayon en main : entoure les **connecteurs**, souligne les **phrases-clés** (thèse, idées directrices), mets entre crochets les **exemples**.\n3. **Dégage** le thème, la thèse, la thèse réfutée (voir le chapitre sur le texte argumentatif).\n4. **Découpe** le texte en **mouvements** (grandes parties) : un mouvement = une étape du raisonnement, souvent un ou deux paragraphes.\n5. **Résume chaque paragraphe en une phrase** : c'est l'**idée essentielle**.\n6. **Compte** les mots du texte et calcule la longueur du résumé.\n:::\n\n## 2. Le tableau d'analyse\n\n| Paragraphe | Idée essentielle | Connecteur / rapport logique | Exemples (à supprimer) |\n|---|---|---|---|\n| 1 | Les jeunes quittent les villages : travail pénible, peu payé | constat | Lomé, Cotonou |\n| 2 | Erreur : sécurité alimentaire menacée, ville décevante | Pourtant / D'abord / Ensuite | maïs, igname ; vendeurs ambulants |\n| 3 | On peut moderniser l'agriculture | concession « Il ne s'agit pas de… » | coopératives, irrigation, fermes de jeunes |\n| 4 | L'État, les banques et les familles doivent valoriser ce métier | donc (conclusion) | terres, crédits, formation |\n\n:::propriete\nLe nombre de mots du résumé peut se **répartir proportionnellement** à l'importance de chaque mouvement : un paragraphe deux fois plus long et plus riche mérite environ deux fois plus de mots.\n:::\n\n## 3. Repérer l'essentiel et l'accessoire\n\n- **Essentiel** : thèse, arguments, articulations logiques, conclusion.\n- **Accessoire** : exemples, anecdotes, citations, répétitions, digressions, énumérations détaillées.\n\n:::attention\nUne **question rhétorique** contient souvent une idée importante : « Qui pourrait leur reprocher de rêver d'une vie meilleure ? » signifie « Leur désir d'une vie meilleure est compréhensible ». On la **transforme en affirmation** dans le résumé.\n:::\n\n:::remarque\nNe commence **jamais** la rédaction avant d'avoir terminé le tableau : c'est lui qui garantit la fidélité et l'ordre.\n:::",
+   "definition": "La lecture préparatoire consiste à lire plusieurs fois le texte, repérer thèse et connecteurs, découper le texte en mouvements et formuler l'idée essentielle de chaque paragraphe dans un tableau d'analyse, avant toute rédaction.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Avant de résumer, on démonte le texte pour voir son squelette.",
+    "simple": "Un mécanicien démonte un moteur de moto pièce par pièce avant de le réparer ; toi, tu démontes le texte paragraphe par paragraphe avant de le résumer.",
+    "complete": "La lecture préparatoire est une lecture analytique orientée : identification de la thèse et du problème, repérage des articulations logiques, segmentation du texte en mouvements argumentatifs, hiérarchisation entre idées essentielles et éléments accessoires (exemples, illustrations, redondances), puis reformulation synthétique de chaque unité. Le tableau d'analyse sert de plan au résumé et permet de répartir le volume de mots."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Trouve l'idée essentielle : « Ensuite, la ville ne tient pas toujours ses promesses. Beaucoup de jeunes venus chercher fortune finissent vendeurs ambulants ou conducteurs de taxi-moto, entassés dans des quartiers précaires, loin de leur famille. »",
+     "etapes": [
+      "Phrase-clé : « la ville ne tient pas toujours ses promesses ».",
+      "Le reste (vendeurs, taxi-moto) est un exemple.",
+      "Idée essentielle : la ville réserve souvent la précarité aux jeunes migrants."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Commencer à rédiger dès la première lecture.",
+    "Garder les exemples au lieu des idées.",
+    "Oublier un paragraphe court mais important (souvent la conclusion).",
+    "Ignorer le sens d'une question rhétorique."
+   ],
+   "astuces": [
+    "Utilise deux couleurs : une pour les idées, une pour les exemples.",
+    "Une phrase par paragraphe dans le tableau : si tu n'y arrives pas, relis le paragraphe."
+   ],
+   "mnemo": "« Lire, Lier, Lister » : lire le texte, lier les idées par les connecteurs, lister l'idée de chaque paragraphe.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu trouvais l'idée principale d'un paragraphe. Ici, tu le fais pour chaque paragraphe et tu ajoutes les liens logiques entre eux."
+   },
+   "methode_redaction": "Le tableau d'analyse reste au brouillon : il n'est pas noté, mais il te fait gagner du temps et des points. Prévois environ 30 minutes pour la lecture et le tableau.",
+   "flash": [
+    {
+     "q": "Combien de fois faut-il lire le texte avant de résumer ?",
+     "r": "Au moins deux fois (une lecture globale, une lecture crayon en main)."
+    },
+    {
+     "q": "Qu'est-ce qu'un mouvement du texte ?",
+     "r": "Une grande étape du raisonnement (un ou plusieurs paragraphes)."
+    },
+    {
+     "q": "Que fait-on des exemples ?",
+     "r": "On les supprime en général (ou on les généralise s'ils sont indispensables)."
+    },
+    {
+     "q": "Que fait-on d'une question rhétorique ?",
+     "r": "On la transforme en affirmation."
+    },
+    {
+     "q": "À quoi sert le tableau d'analyse ?",
+     "r": "À noter l'idée essentielle et le lien logique de chaque paragraphe : c'est le plan du résumé."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C04-N2.svg",
+    "alt": "Schéma en six étapes : lire, annoter, dégager la thèse, découper en mouvements, faire le tableau d'analyse, compter les mots.",
+    "legende": "Les six étapes de la lecture préparatoire.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C04-N3",
+   "titre": "Reformuler et condenser : les techniques",
+   "prerequis_notions": [
+    "FR-S1-C04-N2"
+   ],
+   "cours_md": "## 1. Condenser sans trahir\n\n:::definition\n**Condenser**, c'est dire la même idée avec **moins de mots** ; **reformuler**, c'est la dire **avec d'autres mots** que ceux du texte.\n:::\n\n## 2. Les techniques\n\n| Technique | Avant | Après |\n|---|---|---|\n| **Supprimer** exemples, répétitions, digressions | « le maïs, l'igname et le manioc deviennent rares et chers » | (les vivres) se raréfient |\n| **Généraliser** une énumération par un mot englobant | « Lomé, Cotonou ou plus loin » | la ville |\n| **Nominaliser** (verbe → nom) | « parce que les jeunes quittent les villages » | l'exode des jeunes |\n| **Remplacer une proposition par un adjectif** | « un travail qui fatigue beaucoup » | un travail pénible |\n| **Remplacer une périphrase par un mot précis** | « ceux qui cultivent la terre » | les agriculteurs |\n| **Transformer une question rhétorique** en affirmation | « Qui pourrait leur reprocher… ? » | leur désir est légitime |\n| **Fusionner** deux phrases avec un connecteur | « Il pleut. Les routes sont coupées. » | La pluie coupe les routes. |\n\n:::propriete\nLes **connecteurs logiques** coûtent peu de mots et rapportent beaucoup : ils montrent que tu as compris le raisonnement. Garde-les ou remplace-les par des équivalents (pourtant → or, cependant).\n:::\n\n## 3. Exemple commenté\n\n> Texte : « Il ne s'agit pas pour autant de condamner les jeunes à la houe et à la machette de leurs grands-parents. L'agriculture peut changer de visage. Des coopératives modernes, des techniques d'irrigation simples, la transformation des produits sur place, la vente par téléphone : tout cela rend le travail moins pénible et plus rentable. » (52 mots)\n\n> Résumé : « Sans revenir aux outils anciens, on peut moderniser l'agriculture pour la rendre rentable. » (14 mots)\n\n- « condamner… à la houe et à la machette » → « revenir aux outils anciens » (généralisation) ;\n- l'énumération des innovations → « moderniser » (mot englobant) ;\n- « moins pénible et plus rentable » → « rentable » (on garde l'essentiel).\n\n:::attention\nReformuler, ce n'est pas remplacer chaque mot par un synonyme en gardant la phrase : c'est **repenser** la phrase. Méfie-toi aussi des contresens : un synonyme mal choisi peut changer l'idée (« abandonner » n'est pas « refuser »).\n:::\n\n:::methode\n**Rédiger le résumé**\n1. Pars du tableau d'analyse, pas du texte.\n2. Rédige une ou deux phrases par mouvement, en reliant avec des connecteurs.\n3. Vérifie l'énonciation (je/nous de l'auteur), le temps (souvent le présent).\n4. Compte, ajuste (supprime un adjectif, fusionne deux phrases), recompte.\n:::",
+   "definition": "Condenser, c'est dire la même idée en moins de mots (supprimer, généraliser, nominaliser, fusionner) ; reformuler, c'est la dire avec d'autres mots, sans trahir le sens ni la logique du texte.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "On garde les idées, on change les mots, on enlève le superflu.",
+    "simple": "C'est comme réduire une sauce sur le feu : le volume diminue, mais le goût reste et devient plus fort.",
+    "complete": "La condensation opère par suppression (exemples, redondances, digressions), par généralisation (hyperonymes, termes englobants), par transformation syntaxique (nominalisation, adjectivation, fusion de propositions) et par conversion des tours expressifs (questions rhétoriques, exclamations) en assertions. La reformulation impose un travail lexical et syntaxique propre, attentif à la conservation du sens et des articulations logiques."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Condense : « Les élèves qui arrivent en retard, ceux qui oublient leurs cahiers et ceux qui bavardent pendant le cours gênent le travail de toute la classe. » (24 mots)",
+     "etapes": [
+      "Généraliser l'énumération : « les élèves indisciplinés ».",
+      "Résultat : « L'indiscipline de certains élèves gêne toute la classe. » (8 mots)"
+     ]
+    },
+    {
+     "enonce": "Reformule sans recopier : « La ville ne tient pas toujours ses promesses. »",
+     "etapes": [
+      "Idée : la ville déçoit souvent.",
+      "Résultat : « La ville déçoit souvent les espoirs. » ou « La ville se révèle souvent décevante. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Recopier des morceaux de phrases du texte.",
+    "Remplacer mot à mot par des synonymes en gardant la même phrase.",
+    "Supprimer les connecteurs (le résumé devient une liste d'idées).",
+    "Faire un contresens en généralisant trop."
+   ],
+   "astuces": [
+    "Cache le texte quand tu rédiges : tu seras obligé d'utiliser tes propres mots.",
+    "La nominalisation est ta meilleure amie : « ils partent » → « leur départ »."
+   ],
+   "mnemo": "« SuGéNoFu » : Supprimer, Généraliser, Nominaliser, Fusionner.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu faisais des exercices de synonymes et de nominalisation en vocabulaire. Ce sont exactement les outils du résumé."
+   },
+   "methode_redaction": "Une rédaction propre : phrases complètes, présent de l'indicatif en général, connecteurs visibles, aucun tiret ni abréviation, aucun mot souligné.",
+   "flash": [
+    {
+     "q": "Que signifie nominaliser ?",
+     "r": "Transformer un verbe ou une proposition en nom (« ils partent » → « leur départ »)."
+    },
+    {
+     "q": "Que fait-on d'une énumération ?",
+     "r": "On la remplace par un mot englobant (généralisation)."
+    },
+    {
+     "q": "Doit-on garder les connecteurs ?",
+     "r": "Oui (ou leurs équivalents) : ils montrent la logique du texte."
+    },
+    {
+     "q": "Reformuler, est-ce remplacer chaque mot par un synonyme ?",
+     "r": "Non, c'est repenser la phrase avec ses propres mots."
+    },
+    {
+     "q": "Quel temps utilise-t-on le plus souvent dans un résumé ?",
+     "r": "Le présent (celui du texte argumentatif)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C04-N3.svg",
+    "alt": "Tableau des techniques de condensation (supprimer, généraliser, nominaliser, adjectiver, transformer une question, fusionner) avec un exemple avant et après.",
+    "legende": "Six techniques pour condenser un texte.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C04-N4",
+   "titre": "Compter les mots et présenter le résumé",
+   "prerequis_notions": [
+    "FR-S1-C04-N3"
+   ],
+   "cours_md": "## 1. Calculer la longueur attendue\n\n:::methode\n**Calculer la fourchette**\n1. Compte les mots du texte (ou lis le nombre indiqué dans le sujet).\n2. Divise par le taux demandé (souvent 4 pour « au quart ») : c'est la **longueur cible**.\n3. Calcule la **marge de 10 %** : cible − 10 % et cible + 10 %.\n:::\n\n> Exemple : texte de 600 mots, résumé au quart → 600 ÷ 4 = 150 mots ; 10 % de 150 = 15 ; fourchette : **135 à 165 mots**.\n> Texte de 271 mots → 271 ÷ 4 ≈ 68 mots ; fourchette : environ **61 à 74 mots** (on arrondit vers l’intérieur).\n\n## 2. Compter les mots : la convention la plus courante\n\n:::definition\nUn **mot** est un ensemble de lettres compris entre **deux espaces**, ou entre une espace et une **apostrophe**.\n:::\n\n| Cas | Compte | Exemple |\n|---|---|---|\n| Élision avec apostrophe | 2 mots | « l'homme » = 2 ; « c'est » = 2 ; « qu'il » = 2 |\n| Mot composé avec trait d'union | 1 mot | « taxi-moto » = 1 ; « grands-parents » = 1 |\n| « aujourd'hui » | 1 mot | (l'apostrophe fait partie du mot) |\n| Nombre écrit en chiffres | 1 mot | « 1960 » = 1 |\n| Sigle | 1 mot | « ONU » = 1 |\n\n:::remarque\nLes conventions peuvent légèrement varier d'un professeur à l'autre (par exemple pour les mots composés). **Applique toujours la règle donnée en classe** ; la convention ci-dessus est la plus répandue.\n:::\n\n:::propriete\nAstuce de vérification : compte les mots **ligne par ligne** au brouillon, note le total au bout de chaque ligne, puis additionne. Sur la copie, tu peux faire une petite marque discrète tous les 20 mots (au crayon, si ton professeur l'accepte).\n:::\n\n## 3. Présenter le résumé sur la copie\n\n- Écris le titre de l'exercice : **Résumé**.\n- Un seul paragraphe, ou deux ou trois paragraphes qui suivent les mouvements du texte, chacun avec **alinéa**.\n- Pas de titre au texte, pas de tirets, pas d'abréviations, pas de citation.\n- À la fin, saute une ligne et indique : **« Nombre de mots : 66 »** (le nombre exact).\n- Laisse une marge et écris lisiblement.\n\n:::attention\n**Ne triche jamais sur le nombre de mots.** Le correcteur recompte souvent : un nombre faux est sanctionné plus durement qu'un léger dépassement.\n:::",
+   "definition": "On calcule la longueur attendue (souvent le quart du texte, à 10 % près), on compte les mots selon une convention précise (l'homme = 2 mots, aujourd'hui = 1) et on indique le nombre exact à la fin du résumé.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Quart du texte, plus ou moins 10 %, et le vrai nombre écrit à la fin.",
+    "simple": "Comme la vendeuse qui pèse le riz au kilo près : le client vérifie la balance ; le correcteur vérifie ton nombre de mots.",
+    "complete": "La longueur cible correspond au rapport fixé par la consigne (le plus souvent un quart) ; une tolérance de 10 % autour de cette cible est généralement admise. Le décompte suit une convention typographique (unités séparées par des espaces ou des apostrophes, mots composés à trait d'union comptés pour un, sigles et nombres comptés pour un). La présentation exige un texte continu, paragraphé selon les mouvements du texte source, suivi de la mention exacte du nombre de mots."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Combien de mots dans : « L'homme qu'on admire aujourd'hui n'est pas toujours sage. » ?",
+     "etapes": [
+      "L' (1) homme (2) qu' (3) on (4) admire (5) aujourd'hui (6) n' (7) est (8) pas (9) toujours (10) sage (11).",
+      "Total : 11 mots."
+     ]
+    },
+    {
+     "enonce": "Texte de 480 mots, résumé au quart : quelle fourchette ?",
+     "etapes": [
+      "480 ÷ 4 = 120 mots.",
+      "10 % de 120 = 12.",
+      "Fourchette : 108 à 132 mots."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier de compter les mots élidés (l', d', qu').",
+    "Calculer la marge sur la longueur du texte au lieu de la longueur du résumé.",
+    "Indiquer un nombre approximatif (« environ 70 mots »).",
+    "Écrire le résumé en liste à tirets."
+   ],
+   "astuces": [
+    "Compte au brouillon, ligne par ligne, et recompte une seconde fois.",
+    "Garde 3 ou 4 mots de « réserve » : un adjectif ou un adverbe que tu peux ajouter ou retirer pour ajuster."
+   ],
+   "mnemo": "« Un quart, dix pour cent, le nombre vrai en bas : le résumé ne ment pas. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu calculais des pourcentages en mathématiques : 10 % de 150, c'est 15. C'est le même calcul pour la marge du résumé."
+   },
+   "methode_redaction": "Dernière ligne de ton résumé, séparée par une ligne blanche : « Nombre de mots : 66 ». Rien d'autre (pas de « environ », pas de fourchette).",
+   "flash": [
+    {
+     "q": "« l'homme » compte pour combien de mots ?",
+     "r": "Deux."
+    },
+    {
+     "q": "« aujourd'hui » compte pour combien de mots ?",
+     "r": "Un."
+    },
+    {
+     "q": "Texte de 600 mots, résumé au quart : fourchette ?",
+     "r": "135 à 165 mots (150 ± 15)."
+    },
+    {
+     "q": "Où indique-t-on le nombre de mots ?",
+     "r": "À la fin du résumé, après une ligne blanche."
+    },
+    {
+     "q": "« taxi-moto » compte pour combien de mots ?",
+     "r": "Un (selon la convention la plus courante)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C04-N4.svg",
+    "alt": "Tableau de décompte des mots : élision (2 mots), trait d'union (1 mot), aujourd'hui (1 mot), chiffres et sigles (1 mot), et calcul de la fourchette pour un texte de 600 mots.",
+    "legende": "Règles de décompte et calcul de la fourchette.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C04-N5",
+   "titre": "Les questions de vocabulaire : expliquer un mot ou une expression en contexte",
+   "prerequis_notions": [
+    "FR-S1-C04-N3"
+   ],
+   "cours_md": "## 1. Ce que l'on attend\n\n:::definition\nExpliquer un mot ou une expression **en contexte**, c'est donner le **sens qu'il a dans le texte**, à l'aide d'une **définition** ou d'un **équivalent**, puis montrer en quoi ce sens éclaire l'**idée de l'auteur**.\n:::\n\nÀ l'épreuve de contraction de texte, le sujet demande souvent d'expliquer **deux mots ou expressions** du texte (environ 1 point chacun).\n\n## 2. Méthode en 4 temps\n\n:::methode\n1. **Recopie** le mot ou l'expression entre guillemets et situe-le (paragraphe, ligne).\n2. **Analyse** sa formation si cela aide (préfixe, radical, suffixe) et sa **nature** (nom, adjectif, verbe…).\n3. **Donne le sens dans le contexte** par une définition ou un synonyme **de même nature** (un nom se définit par un nom, un verbe par un verbe).\n4. **Relie** ce sens à l'idée du passage : « Dans le texte, l'auteur veut dire que… ».\n:::\n\n## 3. Exemples\n\n> « Il menace notre **sécurité alimentaire**. »\n> Sens : situation dans laquelle toute la population peut se nourrir suffisamment et de façon durable. Dans le texte, l'auteur veut dire que si les jeunes abandonnent les champs, le pays risque de ne plus produire assez de nourriture pour ses habitants et de dépendre des importations.\n\n> « Des quartiers **précaires** »\n> Sens : (adjectif) instables, sans sécurité ni confort durables. Ici : des quartiers aux logements de fortune, sans eau ni assainissement suffisants, où vivent les jeunes déçus par la ville.\n\n:::propriete\nUn mot a souvent **plusieurs sens** (polysémie). La question porte sur **le sens dans le texte**, pas sur toutes les définitions du dictionnaire. Le contexte (les mots autour) permet de choisir le bon sens.\n:::\n\n:::attention\n- Ne réponds pas par un simple synonyme isolé : fais **une phrase complète**.\n- Ne définis pas un mot par lui-même ou par un mot de la même famille (« précaire : qui est dans la précarité ») : c'est un cercle vicieux.\n- Respecte la **nature** du mot : « pénible » (adjectif) → « fatigant, difficile » (adjectifs).\n:::",
+   "definition": "Expliquer un mot en contexte, c'est donner, en une phrase complète, le sens qu'il a dans le texte (définition ou équivalent de même nature) et montrer comment il éclaire l'idée de l'auteur.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Dis ce que le mot veut dire ICI, avec d'autres mots, puis dis à quoi il sert dans l'idée du texte.",
+    "simple": "Le mot « vieux » ne veut pas dire la même chose dans « mon vieux père » et « mon vieux » adressé à un ami : c'est le contexte qui décide du sens.",
+    "complete": "L'explication de vocabulaire en contexte mobilise l'analyse morphologique (dérivation, composition), la reconnaissance de la catégorie grammaticale, la sélection du sens pertinent parmi les acceptions possibles (désambiguïsation par le contexte) et la reformulation par définition ou par équivalent synonymique de même classe, suivie d'une mise en relation avec la visée argumentative du passage."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Explique « dévalorisé » dans « un métier dévalorisé ».",
+     "etapes": [
+      "Formation : préfixe dé- (privation) + valoriser.",
+      "Nature : adjectif (participe passé).",
+      "Sens en contexte : qui a perdu sa valeur, son prestige aux yeux des gens.",
+      "Lien : le métier d'agriculteur est jugé peu honorable, ce qui pousse les jeunes à partir."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Répondre par un seul mot sans phrase.",
+    "Donner un sens du dictionnaire qui ne convient pas au contexte.",
+    "Définir un mot par un mot de la même famille.",
+    "Changer la nature grammaticale (définir un adjectif par un verbe)."
+   ],
+   "astuces": [
+    "Teste ta définition : remplace le mot du texte par ta définition dans la phrase. Si la phrase garde son sens, c'est bon.",
+    "Les préfixes aident : in-/im- (contraire), dé- (privation), re- (répétition), pré- (avant)."
+   ],
+   "mnemo": "« Sens, Nature, Contexte » : SNC, comme une carte d'identité du mot.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu cherchais le sens des mots grâce au contexte, aux préfixes et aux suffixes. En seconde, on attend une explication rédigée et reliée à l'idée du texte."
+   },
+   "methode_redaction": "Présentation : « \"précaires\" (paragraphe 2) : adjectif qui signifie… Dans le texte, l'auteur veut montrer que… ». Une explication par alinéa, avec le mot souligné ou entre guillemets.",
+   "flash": [
+    {
+     "q": "Qu'attend-on dans une question de vocabulaire ?",
+     "r": "Le sens du mot dans le texte, rédigé, et le lien avec l'idée de l'auteur."
+    },
+    {
+     "q": "Peut-on définir « précaire » par « qui est dans la précarité » ?",
+     "r": "Non : on ne définit pas un mot par un mot de sa famille."
+    },
+    {
+     "q": "Qu'est-ce que la polysémie ?",
+     "r": "Le fait qu'un mot ait plusieurs sens."
+    },
+    {
+     "q": "Comment vérifier sa définition ?",
+     "r": "La substituer au mot dans la phrase du texte : le sens doit rester le même."
+    },
+    {
+     "q": "Que signifie le préfixe dé- dans « dévaloriser » ?",
+     "r": "La privation, l'inverse (enlever la valeur)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C04-N5.svg",
+    "alt": "Schéma en quatre étapes pour expliquer un mot en contexte : citer, analyser, définir, relier à l'idée du texte.",
+    "legende": "Méthode d'explication de vocabulaire en contexte.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S1-C04-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C04-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel de ces débuts de résumé est correct ?",
+   "indices": [
+    "Qui parle dans un résumé ?"
+   ],
+   "corrige": [
+    "Le résumé garde l'énonciation de l'auteur : on parle à sa place, sans « l'auteur dit ».",
+    "Seule la réponse « Nos jeunes quittent massivement les villages… » respecte cette règle et ne contient pas d'avis."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "« Dans ce texte, l'auteur… » est la formule d'un compte rendu, pas d'un résumé.",
+   "verification": "double_resolution",
+   "choix": [
+    "Dans ce texte, l'auteur explique que les jeunes quittent les villages.",
+    "Nos jeunes quittent massivement les villages pour la ville.",
+    "Je pense que l'auteur a raison : les jeunes quittent les villages.",
+    "Le texte parle de l'exode rural, sujet très intéressant."
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C04-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C04-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Selon la convention vue en cours, combien de mots compte la phrase : « L'homme qu'on admire aujourd'hui n'est pas toujours sage. » ?",
+   "indices": [
+    "Les élisions (l', qu', n') comptent chacune pour un mot.",
+    "« aujourd'hui » compte pour un seul mot."
+   ],
+   "corrige": [
+    "L' / homme / qu' / on / admire / aujourd'hui / n' / est / pas / toujours / sage.",
+    "Total : 11 mots."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Ne compte pas « aujourd'hui » pour deux mots.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "11",
+    "onze",
+    "11 mots",
+    "onze mots"
+   ]
+  },
+  {
+   "id": "FR-S1-C04-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C04-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Un texte de 600 mots doit être résumé au quart de sa longueur, avec une marge de 10 %. Quelle est la fourchette autorisée ?",
+   "indices": [
+    "Calcule d'abord la cible, puis 10 % de la cible."
+   ],
+   "corrige": [
+    "600 ÷ 4 = 150 mots (cible).",
+    "10 % de 150 = 15 ; fourchette : 150 − 15 = 135 et 150 + 15 = 165."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "La marge se calcule sur la longueur du résumé (150), pas sur celle du texte (600).",
+   "verification": "double_resolution",
+   "choix": [
+    "90 à 110 mots",
+    "135 à 165 mots",
+    "140 à 160 mots",
+    "150 à 210 mots"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C04-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C04-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Remplace l'énumération par un seul nom englobant (un mot, au pluriel) : « Au marché, elle a acheté des mangues, des ananas, des papayes et des oranges. »",
+   "indices": [
+    "Quelle catégorie regroupe tous ces produits ?"
+   ],
+   "corrige": [
+    "Mangues, ananas, papayes, oranges appartiennent à la même catégorie.",
+    "Mot englobant : « fruits » (« elle a acheté des fruits »)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "« aliments » est trop général : on choisit le terme englobant le plus précis possible.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "fruits",
+    "des fruits",
+    "les fruits"
+   ]
+  },
+  {
+   "id": "FR-S1-C04-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C04-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Texte support (extrait) : « D'abord, il menace notre sécurité alimentaire […]. Beaucoup de jeunes venus chercher fortune finissent vendeurs ambulants […], entassés dans des quartiers précaires, loin de leur famille. »\n\nExplique en contexte : a) « sécurité alimentaire » ; b) « précaires ».",
+   "indices": [
+    "Donne le sens dans le texte, puis relie-le à l'idée de l'auteur.",
+    "« précaires » est un adjectif : définis-le par des adjectifs."
+   ],
+   "corrige": [
+    "a) « sécurité alimentaire » (groupe nominal) : situation dans laquelle toute la population peut se nourrir en quantité suffisante et de façon durable. Dans le texte, l'auteur veut dire que l'abandon des champs risque d'empêcher le pays de produire assez de nourriture pour ses habitants, l'obligeant à importer.",
+    "b) « précaires » (adjectif) : instables, sans sécurité ni confort durables. Ici, il qualifie des quartiers pauvres aux logements de fortune, où les jeunes déçus par la ville vivent dans des conditions difficiles et incertaines."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Ne pas définir « précaires » par « qui sont dans la précarité » (même famille de mots).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S1-C04-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S1-C04-N1",
+    "FR-S1-C04-N2",
+    "FR-S1-C04-N3",
+    "FR-S1-C04-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Résume ce texte au quart de sa longueur (le texte compte 271 mots selon la convention du cours ; vise environ 68 mots, tolérance de 61 à 74 mots). Indique le nombre de mots à la fin.\n\nDans nos villages, les champs se vident. Chaque année, des milliers de jeunes quittent les terres de leurs parents pour tenter leur chance à Lomé, à Cotonou ou plus loin encore. Ils fuient un travail jugé pénible, mal payé et sans prestige. Qui pourrait leur reprocher de rêver d'une vie meilleure ?\n\nPourtant, cet abandon de la terre est une erreur collective. D'abord, il menace notre sécurité alimentaire : quand les bras manquent dans les champs, le maïs, l'igname et le manioc deviennent rares et chers sur les marchés, et le pays doit importer ce qu'il pourrait produire lui-même. Ensuite, la ville ne tient pas toujours ses promesses. Beaucoup de jeunes venus chercher fortune finissent vendeurs ambulants ou conducteurs de taxi-moto, entassés dans des quartiers précaires, loin de leur famille.\n\nIl ne s'agit pas pour autant de condamner les jeunes à la houe et à la machette de leurs grands-parents. L'agriculture peut changer de visage. Des coopératives modernes, des techniques d'irrigation simples, la transformation des produits sur place, la vente par téléphone : tout cela rend le travail moins pénible et plus rentable. Dans plusieurs régions, de jeunes diplômés ont déjà créé des fermes prospères et emploient à leur tour des camarades.\n\nC'est donc à l'État, aux banques et aux familles de changer de regard sur le métier d'agriculteur. Si l'on donne aux jeunes des terres, des crédits et une formation, ils ne verront plus dans le champ une prison, mais un avenir. Nourrir son pays n'est pas un métier du passé : c'est peut-être le métier le plus important de demain.\n\n(texte d'exemple)",
+   "indices": [
+    "Fais d'abord le tableau d'analyse : une idée par paragraphe.",
+    "Transforme la question rhétorique du 1er paragraphe en affirmation.",
+    "Supprime les exemples : maïs, igname, Lomé, Cotonou, coopératives…"
+   ],
+   "corrige": [
+    "Analyse au brouillon : thème = l'exode rural des jeunes ; thèse = cet exode est une erreur, il faut moderniser et valoriser l'agriculture ; 4 mouvements : constat (§1), critique de l'exode (§2), modernisation possible (§3), appel aux responsables (§4).",
+    "Phrase 1 du résumé modèle (mouvement 1, constat et cause) : « Nos jeunes désertent massivement les villages pour la ville, fuyant un travail agricole pénible et dévalorisé. » Critère : le constat et ses causes sont présents, la question rhétorique est transformée (sens implicite : ce départ est compréhensible).",
+    "Phrase 2 (mouvement 2, deux arguments) : « Cet exode est pourtant une erreur : il compromet notre autosuffisance alimentaire, et la ville leur réserve souvent la précarité. » Critère : la thèse (« erreur ») et ses deux arguments, avec le connecteur d'opposition.",
+    "Phrase 3 (mouvement 3, concession et solution) : « Sans revenir aux outils anciens, on peut moderniser l'agriculture pour la rendre rentable, comme certains l'ont prouvé. » Critère : l'idée de modernisation, sans l'énumération des exemples.",
+    "Phrase 4 (mouvement 4, conclusion) : « Pouvoirs publics, banques et familles doivent donc valoriser ce métier d'avenir. » Critère : la conclusion et son connecteur « donc ».",
+    "Forme : résumé complet de 66 mots (dans la fourchette 61-74), énonciation de l'auteur (« nos », « notre »), aucune citation recopiée, aucun avis, nombre de mots exact indiqué : « Nombre de mots : 66 »."
+   ],
+   "bareme": [
+    0,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "piege": "Ne pas oublier le dernier paragraphe (la conclusion) ni écrire « l'auteur dit que ».",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S1-C04-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S1-C04-N1",
+    "FR-S1-C04-N2",
+    "FR-S1-C04-N3",
+    "FR-S1-C04-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Résume ce texte au quart de sa longueur (le texte compte 415 mots ; vise environ 104 mots, tolérance de 94 à 114 mots). Indique le nombre de mots à la fin.\n\nDans la plupart de nos écoles, l'enfant qui entre au cours préparatoire découvre en même temps l'école et une langue qu'il ne parle pas à la maison. Assis devant le tableau, il doit apprendre à lire, à compter et à réfléchir en français, alors qu'il pense, rêve et joue en éwé, en kabiyè, en tem ou en moba. On s'étonne ensuite que tant d'élèves redoublent dès les premières années. Faut-il vraiment s'en étonner ?\n\nLes spécialistes de l'éducation le répètent depuis longtemps : un enfant apprend mieux dans la langue qu'il comprend. Lorsqu'il découvre la lecture dans sa langue maternelle, il associe sans peine les sons aux lettres, comprend ce qu'il déchiffre et prend confiance en lui. À l'inverse, celui qui récite des phrases dont il ignore le sens se décourage vite ; il apprend à répéter, non à penser. Plusieurs expériences menées en Afrique de l'Ouest suggèrent d'ailleurs que les élèves d'abord alphabétisés dans leur langue réussissent ensuite mieux en français.\n\nCar il ne s'agit pas de renoncer au français. Langue de l'administration, des études supérieures et des échanges internationaux, il reste une chance pour nos enfants. Mais une seconde langue s'apprend d'autant mieux que la première est solide. Celui qui sait lire en kabiyè transfère ses compétences : il n'a plus qu'à découvrir de nouveaux mots et de nouvelles règles, au lieu de tout apprendre à la fois.\n\nIl faut cependant reconnaître les obstacles. Nos langues sont nombreuses, et former des maîtres capables d'enseigner dans chacune d'elles coûte cher. Les manuels manquent, et certains parents eux-mêmes se méfient : ils craignent que leurs enfants, privés du français trop tôt, soient pénalisés. Ces inquiétudes sont légitimes, mais elles ne sont pas insurmontables. On peut commencer par les langues les plus parlées dans chaque région, produire des livres simples, et expliquer aux familles que le français viendra, mieux appris, quelques années plus tard.\n\nAu fond, la question dépasse l'école. Une langue que l'on n'écrit jamais, que l'on n'enseigne nulle part, finit par se sentir inférieure, et ceux qui la parlent avec elle. Donner sa place à la langue maternelle, c'est dire à l'enfant que ce qu'il apporte de chez lui a de la valeur. C'est à cette condition que l'école cessera d'être, pour beaucoup, un lieu d'échec, pour devenir le lieu où l'on grandit.\n\n(texte d'exemple)",
+   "indices": [
+    "Le 4e paragraphe est une concession : garde la structure « certes… mais ».",
+    "Les langues citées (éwé, kabiyè, tem, moba) sont des exemples : généralise-les."
+   ],
+   "corrige": [
+    "Analyse au brouillon : thème = la langue d'enseignement à l'école primaire ; thèse = il faut commencer l'enseignement dans la langue maternelle, sans abandonner le français ; 5 mouvements : constat d'échec (§1), argument pédagogique (§2), complémentarité avec le français (§3), concession sur les obstacles et réponses (§4), enjeu de dignité (§5).",
+    "Mouvement 1 : « Dans nos écoles, l'enfant apprend à lire dans un français qu'il ignore, alors qu'il pense dans sa langue maternelle ; d'où tant d'échecs. » Critère : constat + lien de cause avec l'échec (la question rhétorique est transformée).",
+    "Mouvement 2 : « Or on apprend mieux dans une langue comprise : l'enfant y lit avec sens et prend confiance, tandis que réciter des mots inconnus le décourage. » Critère : l'argument central et l'opposition entre les deux situations ; l'argument d'autorité et les expériences ne sont pas détaillés.",
+    "Mouvement 3 : « Sans renoncer au français, reconnaissons qu'une seconde langue s'acquiert mieux sur une première solide. » Critère : le français n'est pas rejeté ; l'idée de transfert des compétences.",
+    "Mouvement 4 : « Certes, la diversité des langues, le coût, le manque de manuels et la méfiance des parents freinent ce projet, mais ces obstacles sont surmontables. » Critère : la concession et sa réfutation, structure « certes… mais » conservée.",
+    "Mouvement 5 et forme : « Enfin, valoriser la langue maternelle, c'est reconnaître l'enfant et faire de l'école un lieu de réussite. » Résumé complet de 111 mots (fourchette 94-114), énonciation conservée (« nos écoles »), connecteurs (or, certes, mais, enfin), aucun recopiage, nombre de mots indiqué."
+   ],
+   "bareme": [
+    0,
+    2,
+    2,
+    1,
+    2,
+    1
+   ],
+   "piege": "Le texte ne rejette pas le français : un résumé qui dit « il faut supprimer le français » fait un contresens grave.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Écrire « l'auteur dit que » ou « dans ce texte » : faute d'énonciation sanctionnée.",
+  "Recopier des phrases du texte au lieu de reformuler.",
+  "Oublier un mouvement du texte (souvent la concession ou la conclusion).",
+  "Dépasser la marge de 10 % ou indiquer un nombre de mots faux.",
+  "Garder les exemples et perdre les idées ; supprimer les connecteurs.",
+  "Faire un contresens sur la thèse (prendre une concession pour la thèse de l'auteur)."
+ ]
+}

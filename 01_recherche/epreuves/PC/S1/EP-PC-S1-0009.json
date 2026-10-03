@@ -1,0 +1,484 @@
+{
+ "id": "EP-PC-S1-0009",
+ "matiere": "PC",
+ "semestre": 1,
+ "type": "concours_entree",
+ "niveau": "Fin de 3e / entrée en Seconde S (concours d'admission aux lycées scientifiques)",
+ "compte_quota_seconde": false,
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques de Lomé et de Kara (août 2012)",
+  "ville": "Lomé / Kara (centres d'examen dans toutes les DRE)",
+  "annee_scolaire": "2012-2013 (concours d'août 2012)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Recueil scanné présent dans le Google Drive personnel de l'utilisateur (accès privé) ; usage personnel d'apprentissage.",
+  "fiabilite": 3,
+  "document": "Epreuves Concours lycée scientifique.pdf (recueil de sujets 2011-2021, maths et sciences physiques)",
+  "mode_lecture": "Texte OCR fourni par l'API Google Drive (fichier de 12 Mo : téléchargement de l'original impossible, > 10 Mo)."
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "coefficient": 2,
+ "chapitres_titres": [
+  "Électrolyse et synthèse de l'eau — 3e",
+  "Transistor — 3e",
+  "Réflexion de la lumière, miroir plan — 3e",
+  "Ions, électroneutralité, tests d'identification — 3e",
+  "Travail, énergie cinétique et potentielle — 3e"
+ ],
+ "chapitres": [
+  "PC-S1-C02",
+  "PC-S1-C08",
+  "PC-S2-C13",
+  "PC-S2-C15"
+ ],
+ "enonce_md": "> **Transcription** faite à partir du texte OCR que Google Drive extrait du scan (recueil « Epreuves Concours lycée scientifique.pdf », pages photographiées avec CamScanner). Les schémas et graphiques ne sont pas lisibles dans ce texte : ils sont signalés entre crochets. Les lectures douteuses de l'OCR sont signalées par [OCR : ...].\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE — AOÛT 2012**\n**SCIENCES PHYSIQUES** — Durée : 02 h\n\n### Exercice 1 (5 pts)\nCaleb se propose de décomposer de l'eau pure à l'aide du courant électrique continu.\n1. Fais la liste du matériel nécessaire et indispensable qu'il doit utiliser outre l'eau pure. (1,25 pt)\n2. Nomme cette expérience réalisée par Caleb. (0,25 pt)\n3. Les conditions étant réunies, il recueille 20 mL de gaz à l'anode.\n   - a) Définis le mot anode. (0,25 pt)\n   - b) Donne le nom de ce gaz et dis comment il est identifié. (0,75 pt)\n4. Quels sont le nom et le volume du gaz recueilli à l'autre électrode ? (0,5 pt)\n5. Fais un schéma clair de l'expérience de Caleb. (1 pt)\n6. Écris l'équation-bilan de cette réaction et celle de sa réaction inverse. (1 pt)\n\n### Exercice 2 (3 pts)\nLes lettres B, C, E sont utilisées pour désigner les pattes ou bornes du transistor.\n- a) Que représente chacune de ces lettres ? (0,75 pt)\n- b) Reproduis le symbole du transistor NPN en indiquant le sens dans lequel le courant doit traverser chacune des bornes. (0,75 pt)\n- c) Lors du fonctionnement de ce transistor dont le gain en courant β est 100, $I_B$ vaut 1 mA ; quelle serait la valeur de $I_C$ ? (0,5 pt) — Calcule celle de $I_E$. (0,5 pt) [OCR : « le vaut 1mA ; quelle serait la valeur de l ? ... celle de lg » ; indices reconstitués]\n- d) $I_E$ s'exprime de deux façons. Donne-les. (0,5 pt)\n\n### Exercice 3 (3,5 pts)\nSoit une source lumineuse S placée à une certaine distance d'un miroir plan M. Trois rayons lumineux SA, SB et SC issus de cette source tombent sur le miroir (voir le schéma).\n1. À l'aide de l'une des deux lois de la réflexion de la lumière, loi que tu énonceras d'abord, trace les rayons réfléchis respectifs. (2 pts)\n2. Détermine graphiquement les valeurs respectives des angles d'incidence et de réflexion. (1,5 pt)\n\nOn donne : SA = 4 cm ; AB = 4,4 cm ; BC = 6,6 cm ; $\\widehat{ASC} = 90°$. [Schéma non disponible : A, B, C alignés dans cet ordre sur le miroir (M).]\n\n### Exercice 4 (4 pts)\n1. Une solution S contient $25 \\times 10^{23}$ ions $\\ce{Fe^3+}$ et $a \\times 10^{20}$ ions $\\ce{SO4^2-}$ [OCR : « 25 x 1023 ions Fe3+ et ax 1020502- », puissances de 10 incertaines].\n   - a) Nomme les ions $\\ce{Fe^3+}$ et $\\ce{SO4^2-}$. (1 pt)\n   - b) Détermine la valeur de a pour que la solution soit électriquement neutre. (1 pt)\n2. On réalise des tests sur des solutions (voir le tableau ci-dessous). [Cases du tableau reconstituées depuis l'OCR, ordre des lignes incertain.]\n\n| Solutions \\ Réactifs | Soude | Acide chlorhydrique | Chlorure de baryum | Nitrate d'argent |\n|---|---|---|---|---|\n| Eau minérale | Pas de précipité | Pas de précipité, pas de dégagement gazeux | Léger précipité blanc | Précipité blanc noircissant à la lumière |\n| Bouillie bordelaise | Précipité bleu | Pas de précipité, pas de dégagement gazeux | Précipité blanc | Pas de précipité |\n\n   - a) Montrez que ces solutions ne contiennent pas d'ions carbonate ni d'ions argent. (1 pt)\n   - b) Quels ions a-t-on mis en évidence dans ces solutions ? Justifie tes réponses. (1 pt)\n\n### Exercice 5 (4,5 pts)\nUne voiture de masse $18 \\times 10^2$ kg est dans la position A sur une route dont la figure ci-dessous montre le profil. Le moteur étant arrêté, le conducteur desserre les freins. La voiture descend la pente d'une hauteur $h_1 = 25$ m jusqu'à la position B, puis remonte et atteint la hauteur maximale $h_2 = 18$ m (position C).\n(N.B. Les frottements ne sont négligeables que pendant les descentes.) [Profil de la route non disponible.]\n1. Quelle forme d'énergie la voiture possède-t-elle dans la position A ? (0,5 pt)\n2. Calcule le travail effectué par son poids lors du trajet AB. (1 pt)\n3. Calcule la vitesse de la voiture au point B. (1 pt)\n4. Explique pourquoi la voiture est remontée au point C. (0,5 pt)\n5. Explique pourquoi $h_2$ est inférieur à $h_1$. (0,5 pt)\n6. Arrivée en C, la voiture redescend la pente et arrive au point B. Calcule la nouvelle vitesse en B. (1 pt)\n",
+ "questions": [
+  {
+   "numero": "Ex1-1",
+   "enonce": "Matériel de l'électrolyse.",
+   "points": 1.25,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "Générateur de courant continu, électrolyseur (cuve et deux électrodes), interrupteur, fils de connexion.",
+    "Deux tubes à essai pour recueillir les gaz ; un peu de soude (ou d'acide) pour rendre l'eau conductrice."
+   ],
+   "bareme": [
+    0.75,
+    0.5
+   ],
+   "resultat_final": "Générateur continu, électrolyseur, interrupteur, fils, tubes, soude",
+   "piege": "Oublier la soude : l'eau pure conduit très mal le courant.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-2",
+   "enonce": "Nom de l'expérience.",
+   "points": 0.25,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "**Électrolyse de l'eau**."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "Électrolyse de l'eau",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-3.a",
+   "enonce": "Définition de l'anode.",
+   "points": 0.25,
+   "notions_titres": [
+    "Électrolyse"
+   ],
+   "corrige": [
+    "L'anode est l'électrode reliée au **pôle positif** du générateur."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "Électrode reliée au pôle +",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-3.b",
+   "enonce": "Gaz à l'anode et identification.",
+   "points": 0.75,
+   "notions_titres": [
+    "Tests des gaz"
+   ],
+   "corrige": [
+    "Le **dioxygène** O₂.",
+    "Il ravive (rallume) une bûchette présentant un point incandescent."
+   ],
+   "bareme": [
+    0.25,
+    0.5
+   ],
+   "resultat_final": "Dioxygène ; bûchette incandescente rallumée",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-4",
+   "enonce": "Gaz à l'autre électrode et volume.",
+   "points": 0.5,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "À la cathode : dihydrogène, volume double : $V = 2 \\times 20 = 40\\ \\text{mL}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Dihydrogène, 40 mL",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-5",
+   "enonce": "Schéma de l'expérience.",
+   "points": 1,
+   "notions_titres": [
+    "Électrolyse de l'eau"
+   ],
+   "corrige": [
+    "Électrolyseur relié au générateur (anode au +, cathode au −) avec interrupteur ;",
+    "tubes retournés sur chaque électrode, volume de H₂ double de celui de O₂ ; légendes."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Schéma légendé",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-6",
+   "enonce": "Équation de l'électrolyse et de la réaction inverse.",
+   "points": 1,
+   "notions_titres": [
+    "Électrolyse de l'eau",
+    "Synthèse de l'eau"
+   ],
+   "corrige": [
+    "Électrolyse : $\\ce{2H2O -> 2H2 + O2}$.",
+    "Réaction inverse (synthèse de l'eau) : $\\ce{2H2 + O2 -> 2H2O}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "2H₂O → 2H₂ + O₂ et 2H₂ + O₂ → 2H₂O",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-a",
+   "enonce": "Signification de B, C, E.",
+   "points": 0.75,
+   "notions_titres": [
+    "Transistor"
+   ],
+   "corrige": [
+    "B : base ; C : collecteur ; E : émetteur."
+   ],
+   "bareme": [
+    0.75
+   ],
+   "resultat_final": "Base, collecteur, émetteur",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-b",
+   "enonce": "Symbole du transistor NPN et sens des courants.",
+   "points": 0.75,
+   "notions_titres": [
+    "Transistor"
+   ],
+   "corrige": [
+    "Symbole avec la flèche sur l'émetteur dirigée vers l'extérieur.",
+    "Courants : I_B et I_C entrent (base, collecteur), I_E sort par l'émetteur."
+   ],
+   "bareme": [
+    0.25,
+    0.5
+   ],
+   "resultat_final": "Flèche sortante sur E ; IB et IC entrants, IE sortant",
+   "piege": "",
+   "astuce": "NPN : « Ne Pénètre Pas » — la flèche sort."
+  },
+  {
+   "numero": "Ex2-c",
+   "enonce": "Valeurs de I_C et I_E (β = 100, I_B = 1 mA).",
+   "points": 1,
+   "notions_titres": [
+    "Transistor",
+    "Gain en courant"
+   ],
+   "corrige": [
+    "$I_C = \\beta I_B = 100 \\times 1 = 100\\ \\text{mA}$.",
+    "$I_E = I_B + I_C = 1 + 100 = 101\\ \\text{mA}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "IC = 100 mA ; IE = 101 mA",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-d",
+   "enonce": "Deux expressions de I_E.",
+   "points": 0.5,
+   "notions_titres": [
+    "Transistor"
+   ],
+   "corrige": [
+    "$I_E = I_B + I_C$ et $I_E = (\\beta + 1)\\,I_B$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "IE = IB + IC = (β + 1) IB",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-1",
+   "enonce": "Loi de la réflexion et tracé des rayons réfléchis.",
+   "points": 2,
+   "notions_titres": [
+    "Réflexion de la lumière"
+   ],
+   "corrige": [
+    "Lois : le rayon réfléchi est dans le plan d'incidence ; l'angle de réflexion est égal à l'angle d'incidence ($r = i$), angles mesurés par rapport à la normale au miroir.",
+    "En A, B, C : tracer la normale au miroir puis le rayon réfléchi symétrique du rayon incident par rapport à la normale (ou : les rayons réfléchis semblent provenir de S', symétrique de S par rapport au miroir)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "resultat_final": "r = i ; rayons réfléchis issus de l'image S'",
+   "piege": "",
+   "astuce": "Méthode rapide : tracer S' symétrique de S, puis prolonger S'A, S'B, S'C."
+  },
+  {
+   "numero": "Ex3-2",
+   "enonce": "Angles d'incidence et de réflexion.",
+   "points": 1.5,
+   "notions_titres": [
+    "Réflexion de la lumière"
+   ],
+   "corrige": [
+    "AC = 4,4 + 6,6 = 11 cm ; triangle ASC rectangle en S : $\\cos \\widehat{SAC} = \\frac{4}{11} \\Rightarrow \\widehat{SAC} \\approx 68{,}7°$ ; en A : $i_A = r_A = 90 - 68{,}7 \\approx 21°$.",
+    "En C : $\\widehat{SCA} = 90 - 68{,}7 = 21{,}3°$ donc $i_C = r_C \\approx 69°$.",
+    "En B : avec le pied H de la hauteur issue de S ($AH = \\frac{4^2}{11} \\approx 1{,}45$ cm, $SH \\approx 3{,}73$ cm), $\\tan i_B = \\frac{4{,}4 - 1{,}45}{3{,}73} \\Rightarrow i_B = r_B \\approx 38°$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "iA = rA ≈ 21° ; iB = rB ≈ 38° ; iC = rC ≈ 69°",
+   "piege": "Mesurer l'angle avec le miroir au lieu de la normale.",
+   "astuce": "Sur la figure, mesure au rapporteur ; le calcul sert de contrôle."
+  },
+  {
+   "numero": "Ex4-1.a",
+   "enonce": "Noms des ions.",
+   "points": 1,
+   "notions_titres": [
+    "Ions"
+   ],
+   "corrige": [
+    "$\\ce{Fe^3+}$ : ion fer III (ion ferrique).",
+    "$\\ce{SO4^2-}$ : ion sulfate."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Ion fer III ; ion sulfate",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1.b",
+   "enonce": "Valeur de a (électroneutralité).",
+   "points": 1,
+   "notions_titres": [
+    "Électroneutralité"
+   ],
+   "corrige": [
+    "Neutralité : charges + = charges − ⇒ $3\\,N(\\ce{Fe^3+}) = 2\\,N(\\ce{SO4^2-})$.",
+    "$N(\\ce{SO4^2-}) = \\frac{3}{2} \\times 25 \\times 10^{23} = 37{,}5 \\times 10^{23} = 3{,}75 \\times 10^{24}$ ; avec l'écriture $a \\times 10^{20}$ on trouve $a = 37\\,500$ (si le nombre d'ions Fe³⁺ est en fait $2{,}5 \\times 10^{20}$, $a = 3{,}75$)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "N(SO₄²⁻) = 1,5 × N(Fe³⁺) ; a = 37 500 avec la lecture OCR",
+   "piege": "Écrire N(Fe³⁺) = N(SO₄²⁻) en oubliant les charges.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.a",
+   "enonce": "Absence d'ions carbonate et argent.",
+   "points": 1,
+   "notions_titres": [
+    "Tests d'identification des ions"
+   ],
+   "corrige": [
+    "Avec l'acide chlorhydrique, aucun dégagement gazeux : pas d'effervescence de CO₂, donc pas d'ions carbonate.",
+    "Avec l'acide chlorhydrique (qui apporte des ions Cl⁻), aucun précipité blanc : pas d'ions argent Ag⁺."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Pas de gaz avec HCl ⇒ pas de CO₃²⁻ ; pas de précipité avec HCl ⇒ pas de Ag⁺",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2.b",
+   "enonce": "Ions mis en évidence.",
+   "points": 1,
+   "notions_titres": [
+    "Tests d'identification des ions"
+   ],
+   "corrige": [
+    "Eau minérale : ions sulfate (léger précipité blanc avec BaCl₂) et ions chlorure (précipité blanc noircissant avec AgNO₃).",
+    "Bouillie bordelaise : ions cuivre II (précipité bleu avec la soude) et ions sulfate (précipité blanc avec BaCl₂)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Eau minérale : SO₄²⁻, Cl⁻ ; bouillie bordelaise : Cu²⁺, SO₄²⁻",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-1",
+   "enonce": "Énergie en A.",
+   "points": 0.5,
+   "notions_titres": [
+    "Énergie mécanique"
+   ],
+   "corrige": [
+    "Énergie **potentielle de pesanteur** (la voiture est immobile en hauteur)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Énergie potentielle de pesanteur",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-2",
+   "enonce": "Travail du poids sur AB.",
+   "points": 1,
+   "notions_titres": [
+    "Travail d'une force"
+   ],
+   "corrige": [
+    "$W(\\vec P) = m g h_1$ (travail moteur en descente).",
+    "$W = 1800 \\times 10 \\times 25 = 4{,}5 \\times 10^5\\ \\text{J}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "W = 4,5 × 10⁵ J (g = 10 N/kg)",
+   "piege": "",
+   "astuce": "g n'est pas donné dans la partie lisible : on prend g = 10 N/kg."
+  },
+  {
+   "numero": "Ex5-3",
+   "enonce": "Vitesse en B.",
+   "points": 1,
+   "notions_titres": [
+    "Énergie cinétique",
+    "Conservation de l'énergie"
+   ],
+   "corrige": [
+    "Sans frottement en descente : $\\frac{1}{2} m v_B^2 = m g h_1$.",
+    "$v_B = \\sqrt{2 g h_1} = \\sqrt{2 \\times 10 \\times 25} \\approx 22{,}4\\ \\text{m/s}$ (≈ 80 km/h)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "vB ≈ 22,4 m/s",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-4",
+   "enonce": "Pourquoi la voiture remonte.",
+   "points": 0.5,
+   "notions_titres": [
+    "Conversion d'énergie"
+   ],
+   "corrige": [
+    "En B elle possède de l'énergie cinétique, qui se transforme en énergie potentielle pendant la montée (inertie)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "L'énergie cinétique acquise se transforme en énergie potentielle",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-5",
+   "enonce": "Pourquoi h₂ < h₁.",
+   "points": 0.5,
+   "notions_titres": [
+    "Frottements"
+   ],
+   "corrige": [
+    "Pendant la montée, les frottements ne sont pas négligeables : une partie de l'énergie est perdue en chaleur, l'énergie potentielle atteinte est plus faible."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Pertes par frottements à la montée",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex5-6",
+   "enonce": "Nouvelle vitesse en B après redescente depuis C.",
+   "points": 1,
+   "notions_titres": [
+    "Conservation de l'énergie"
+   ],
+   "corrige": [
+    "Descente sans frottement : $v_B' = \\sqrt{2 g h_2}$.",
+    "$v_B' = \\sqrt{2 \\times 10 \\times 18} \\approx 19{,}0\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "vB' ≈ 19,0 m/s",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Électrolyse : O₂ 20 mL, H₂ 40 mL ; IC = 100 mA, IE = 101 mA ; iA ≈ 21°, iB ≈ 38°, iC ≈ 69° ; N(SO₄²⁻) = 3,75 × 10²⁴ ; W = 4,5 × 10⁵ J ; vB ≈ 22,4 m/s ; vB' ≈ 19,0 m/s.",
+  "passe2": "Angles par coordonnées (S projeté sur le miroir) et contrôle iA + iC = 90° ; vitesses via v = √(2W/m) ; avec g = 9,8 : 22,1 et 18,8 m/s. Cohérent.",
+  "code": "oui (verif.py)",
+  "desaccords": [
+   "Ex4-1 : puissances de 10 illisibles dans l'OCR (« 25 x 1023 », « ax 1020502- ») ; la relation 3 N(Fe³⁺) = 2 N(SO₄²⁻) est sûre, la valeur numérique de a dépend de la lecture.",
+   "Ex4-2 : tableau reconstitué ; l'attribution des résultats aux deux solutions a été choisie car c'est la seule chimiquement cohérente (bouillie bordelaise = sulfate de cuivre + chaux).",
+   "Ex2-c : intensités I_B, I_C, I_E reconstituées (OCR « le », « l », « lg »).",
+   "Ex5 : g non lisible, g = 10 N/kg retenu.",
+   "Ex3 : schéma absent ; disposition A, B, C alignés dans cet ordre supposée (cohérente avec AC = 11 cm et l'angle droit en S).",
+   "Barème interne aux questions proposé, non officiel."
+  ]
+ },
+ "notes_transcription": [
+  "Sujet complet (20 points). Figures des exercices 3 et 5 non disponibles."
+ ],
+ "points_transcrits": 20.0,
+ "chapitres_note": "Sujet de fin de 3e : ids des chapitres de Seconde (programme PC.json, statut « reconstitué ») dont il couvre les prérequis."
+}

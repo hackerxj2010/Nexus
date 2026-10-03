@@ -1,0 +1,589 @@
+{
+ "id": "SVT-S1-C01",
+ "matiere": "SVT",
+ "semestre": 1,
+ "ordre": 1,
+ "titre": "La cellule, unité structurale et fonctionnelle du vivant",
+ "objectifs": [
+  "L'élève doit être capable d'utiliser le microscope optique, de calculer un grossissement et une taille réelle.",
+  "L'élève doit être capable de réaliser un dessin d'observation légendé de cellules.",
+  "L'élève doit être capable de décrire l'ultrastructure des cellules animale et végétale et de donner le rôle des principaux organites.",
+  "L'élève doit être capable de distinguer cellule procaryote et cellule eucaryote et d'énoncer la théorie cellulaire."
+ ],
+ "prerequis": [
+  "SVT-3e-CELLULE",
+  "SVT-3e-MICROSCOPE"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S1-C01-N1",
+   "titre": "Observer les cellules : le microscope optique et la mesure",
+   "prerequis_notions": [
+    "SVT-3e-CELLULE"
+   ],
+   "cours_md": "### 1. Pourquoi un microscope ?\nLa plupart des cellules mesurent entre **10 et 100 µm**. Or l'œil nu ne sépare pas deux points distants de moins de **0,1 à 0,2 mm** environ (pouvoir de résolution de l'œil). Pour voir les cellules, il faut donc un instrument grossissant.\n\n:::definition\n**Grossissement** : nombre de fois que l'image observée est plus grande que l'objet réel.\n**Pouvoir de résolution** : plus petite distance entre deux points que l'instrument permet de voir séparés. Œil : environ 0,1 mm ; microscope optique (MO) : environ 0,2 µm ; microscope électronique (ME) : de l'ordre du nanomètre.\n:::\n\nRappel des unités : $1\\ \\text{mm} = 1000\\ \\mu\\text{m}$ et $1\\ \\mu\\text{m} = 1000\\ \\text{nm}$.\n\n### 2. Un peu d'histoire\n- **1665, Robert Hooke** observe une fine tranche de liège et voit de petites logettes vides qu'il appelle *cellules* (en réalité, les parois de cellules mortes).\n- **Vers 1674-1676, Antoni van Leeuwenhoek**, avec des microscopes à une seule lentille très bien taillée, observe les premiers êtres unicellulaires et des spermatozoïdes.\n- Interprétation : c'est le **progrès de l'instrument** qui a permis la découverte de la cellule.\n\n### 3. Les parties du microscope optique\n- **Partie optique** : oculaire, objectifs (portés par le revolver), condenseur.\n- **Partie mécanique** : pied, potence (bras), tube, platine avec valets, vis macrométrique (mise au point grossière), vis micrométrique (mise au point fine).\n- **Éclairage** : lampe (ou miroir), diaphragme qui règle la quantité de lumière.\n\n:::propriete\nLe grossissement du microscope est le produit des grossissements de l'oculaire et de l'objectif :\n$$G = G_{\\text{oculaire}} \\times G_{\\text{objectif}}$$\nExemple : oculaire $\\times 10$ et objectif $\\times 40$ donnent $G = 400$.\n:::\n\n### 4. Réaliser une préparation microscopique\n1. Déposer une goutte d'eau (ou de colorant) au centre d'une lame propre.\n2. Placer l'objet très fin : épiderme interne d'une écaille de bulbe d'oignon, cellules de l'intérieur de la joue (prélevées doucement avec une spatule propre), feuille d'élodée, épiderme de feuille de « misère » (*Tradescantia*).\n3. Recouvrir d'une lamelle en la posant de biais pour éviter les bulles d'air.\n4. Colorer si besoin : **eau iodée** (colore le noyau en jaune-brun et l'amidon en bleu-noir), **bleu de méthylène** (noyau en bleu), **rouge neutre** (vacuoles en rouge).\n\n:::methode\n**Mise au point** : 1) placer le plus faible objectif ($\\times 4$ ou $\\times 10$) ; 2) régler la lumière ; 3) descendre l'objectif près de la lame en regardant de côté ; 4) remonter avec la vis macrométrique en regardant dans l'oculaire jusqu'à voir net ; 5) centrer l'objet, puis passer à l'objectif supérieur et n'utiliser que la vis micrométrique.\n:::\n\n### 5. Calculer une taille réelle\n:::propriete\n$$\\text{taille réelle} = \\frac{\\text{taille mesurée sur l'image}}{\\text{grossissement de l'image}}$$\nAvec une **barre d'échelle** : taille réelle $=$ (longueur mesurée $\\div$ longueur de la barre) $\\times$ valeur de la barre.\n:::\n\nLe **champ** du microscope (disque lumineux vu dans l'oculaire) a un diamètre réel qui diminue quand le grossissement augmente : si on passe de l'objectif $\\times 10$ à l'objectif $\\times 40$, le diamètre du champ est divisé par 4.\n\n:::attention\nToujours **convertir dans la même unité** avant de diviser (cm → mm → µm). Une cellule de 30 mm « réels » n'existe pas : vérifie que ton résultat est plausible (10 à 100 µm pour la plupart des cellules).\n:::\n\n### 6. Le dessin d'observation\nUn dessin d'observation se fait **au crayon**, avec un **titre** (objet + grossissement), des contours nets sans hachures, des **traits de légende tracés à la règle**, horizontaux, parallèles, qui ne se croisent pas, et des légendes alignées sur le côté. On ne dessine que ce que l'on voit réellement.",
+   "definition": "Le microscope optique grossit l'image des cellules ; son grossissement est le produit de celui de l'oculaire par celui de l'objectif, et la taille réelle d'un objet s'obtient en divisant sa taille mesurée par le grossissement.",
+   "formules": [
+    "$G = G_{oculaire} \\times G_{objectif}$",
+    "$\\text{taille réelle} = \\dfrac{\\text{taille mesurée}}{G}$",
+    "$1\\ \\text{mm} = 10^3\\ \\mu\\text{m} = 10^6\\ \\text{nm}$"
+   ],
+   "niveaux": {
+    "phrase": "Le microscope permet de voir les cellules, trop petites pour l'œil nu, et de mesurer leur taille réelle.",
+    "simple": "Le microscope, c'est comme une loupe très puissante faite de deux loupes l'une sur l'autre : l'oculaire grossit 10 fois l'image déjà grossie 40 fois par l'objectif, donc 400 fois en tout.",
+    "complete": "Le microscope optique (pouvoir de résolution d'environ 0,2 µm) associe un objectif et un oculaire : $G = G_{oc} \\times G_{obj}$. La taille réelle d'un objet est sa taille sur l'image divisée par le grossissement de l'image, ou se déduit d'une barre d'échelle. Le diamètre réel du champ est inversement proportionnel au grossissement de l'objectif. Le dessin d'observation obéit à des règles strictes (crayon, titre, légendes à la règle)."
+   },
+   "analogie": "Le microscope est comme le zoom d'un téléphone posé devant une loupe : le zoom (objectif) grossit d'abord, la loupe (oculaire) grossit encore l'image déjà agrandie. Les deux effets se multiplient.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : photographie d'épiderme d'oignon prise au grossissement $\\times 400$. Sur la photo, une cellule mesure 12 cm de long. Calcule sa longueur réelle en µm.",
+     "etapes": [
+      "Je convertis la mesure : 12 cm = 120 mm.",
+      "Taille réelle = taille mesurée ÷ grossissement = 120 mm ÷ 400 = 0,3 mm.",
+      "Je convertis : 0,3 mm = 0,3 × 1000 = 300 µm.",
+      "Je vérifie la vraisemblance : une cellule d'épiderme d'oignon, allongée, mesure quelques centaines de µm. Conclusion : la cellule mesure réellement 300 µm."
+     ]
+    },
+    {
+     "enonce": "Document : électronographie avec une barre d'échelle de 2 cm représentant 50 µm. Une cellule mesure 6 cm sur l'image. Quelle est sa taille réelle ?",
+     "etapes": [
+      "Je compte combien de fois la barre est contenue dans la cellule : 6 cm ÷ 2 cm = 3.",
+      "Taille réelle = 3 × 50 µm = 150 µm.",
+      "Conclusion : la cellule mesure 150 µm."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Additionner au lieu de multiplier les grossissements de l'oculaire et de l'objectif.",
+    "Multiplier la taille mesurée par le grossissement au lieu de la diviser.",
+    "Oublier de convertir les cm en mm puis en µm.",
+    "Utiliser la vis macrométrique avec le fort objectif : on écrase la lamelle.",
+    "Dessiner des cellules « inventées » ou ombrées, sans titre ni grossissement."
+   ],
+   "astuces": [
+    "Pour vérifier un calcul de taille : le résultat d'une cellule doit presque toujours tomber entre 1 µm (bactérie) et 1 000 µm.",
+    "Le grossissement se lit gravé sur l'oculaire et sur l'objectif : note-les dès le début du TP.",
+    "Barre d'échelle : fais une règle de trois, c'est plus sûr que le grossissement."
+   ],
+   "mnemo": "« O.O. se multiplient » : Oculaire × Objectif. Et « je DIVISE pour revenir au RÉEL ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as déjà observé l'épiderme d'oignon au microscope et appris que tous les êtres vivants sont faits de cellules. En seconde, on ajoute le calcul du grossissement et de la taille réelle."
+   },
+   "methode_redaction": "Pour un calcul de taille : 1) écrire la formule ; 2) convertir les unités ; 3) poser le calcul avec les unités ; 4) donner le résultat avec l'unité (µm) et une phrase de conclusion. Pour un dessin : titre complet (« Cellules d'épiderme d'oignon observées au MO, ×400 »), crayon, légendes à la règle.",
+   "flash": [
+    {
+     "q": "Formule du grossissement d'un microscope optique ?",
+     "r": "$G = G_{oculaire} \\times G_{objectif}$"
+    },
+    {
+     "q": "Oculaire ×10 et objectif ×40 : grossissement ?",
+     "r": "×400"
+    },
+    {
+     "q": "1 mm = combien de µm ?",
+     "r": "1 000 µm"
+    },
+    {
+     "q": "Taille réelle = ?",
+     "r": "Taille mesurée sur l'image ÷ grossissement (mêmes unités)."
+    },
+    {
+     "q": "Quelle vis utiliser avec l'objectif ×40 ?",
+     "r": "Uniquement la vis micrométrique."
+    },
+    {
+     "q": "Qui a nommé les « cellules » en 1665 ?",
+     "r": "Robert Hooke, en observant du liège."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C01-N1.svg",
+    "alt": "Schéma légendé du microscope optique avec la formule du grossissement",
+    "legende": "Le microscope optique : parties optiques, mécaniques et éclairage ; G = G oculaire × G objectif.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C01-N2",
+   "titre": "Organisation de la cellule eucaryote : cellule animale et cellule végétale",
+   "prerequis_notions": [
+    "SVT-S1-C01-N1",
+    "SVT-3e-CELLULE"
+   ],
+   "cours_md": "### 1. Ce que montre le microscope optique\nToute cellule observée au MO présente :\n- une **membrane plasmique** qui la limite ;\n- un **cytoplasme** (milieu aqueux où se trouvent les organites) ;\n- un **noyau** (souvent avec un ou plusieurs **nucléoles**), qui contient l'information génétique (ADN).\n\nLa **cellule végétale** possède en plus :\n- une **paroi pecto-cellulosique** rigide, à l'extérieur de la membrane (formée surtout de cellulose) ;\n- une **grande vacuole** remplie de suc vacuolaire (eau, sucres, ions, pigments) ;\n- des **plastes** : **chloroplastes** verts dans les parties chlorophylliennes (feuilles), **amyloplastes** qui stockent l'amidon (tubercule d'igname, de manioc).\n\n:::attention\nToutes les cellules végétales n'ont pas de chloroplastes : les cellules de la racine ou du bulbe d'oignon n'en ont pas. Elles restent des cellules végétales grâce à leur **paroi** et à leur **vacuole**.\n:::\n\n### 2. L'ultrastructure (microscope électronique)\nLe ME, grâce à son pouvoir de résolution de l'ordre du nanomètre, révèle des **organites** invisibles au MO.\n\n| Organite | Structure | Rôle |\n|---|---|---|\n| Membrane plasmique | double couche de lipides avec protéines (environ 7,5 nm) | limite la cellule, contrôle les échanges |\n| Noyau | enveloppe nucléaire double percée de pores, chromatine (ADN), nucléole | contient et protège l'information génétique, dirige la cellule |\n| Mitochondrie | double membrane, membrane interne repliée en crêtes | respiration cellulaire : produit l'énergie (ATP) |\n| Réticulum endoplasmique (RE) | réseau de sacs et canaux ; rugueux s'il porte des ribosomes | synthèse et transport des protéines (RE rugueux), des lipides (RE lisse) |\n| Ribosomes | petits grains (environ 20 à 25 nm) | fabriquent les protéines |\n| Appareil de Golgi | piles de saccules aplatis (dictyosomes) + vésicules | modifie, emballe et exporte les produits (sécrétion) |\n| Lysosomes | vésicules riches en enzymes | digestion intracellulaire |\n| Centrosome (animale) | deux centrioles | organise la division cellulaire |\n| Chloroplaste (végétale) | double membrane, thylakoïdes empilés en grana, stroma | photosynthèse |\n| Vacuole (végétale) | grande poche limitée par une membrane (tonoplaste) | réserve d'eau et de substances, turgescence |\n| Paroi (végétale) | cellulose et pectines, traversée par des plasmodesmes | soutien, protection, forme de la cellule |\n\n:::propriete\n**Cellule animale** = membrane + cytoplasme + noyau + organites (mitochondries, RE, Golgi, ribosomes, lysosomes, **centrosome**).\n**Cellule végétale chlorophyllienne** = la même base (sans centrosome typique) **+ paroi + grande vacuole + chloroplastes**.\n:::\n\n### 3. Expérience : coloration différentielle\n- Épiderme d'oignon + **eau iodée** : le noyau apparaît jaune-brun, le cytoplasme jaune pâle, la paroi bien visible.\n- Feuille d'élodée sans colorant : les chloroplastes verts apparaissent, souvent en mouvement le long de la paroi (**cyclose**, courant du cytoplasme), preuve que la cellule est vivante.\n- Cellules buccales + **bleu de méthylène** : noyau bleu foncé, pas de paroi, contour irrégulier.\n\n### 4. Exemples pris autour de toi\n- Feuilles de **gboma** ou d'épinard du jardin : cellules riches en chloroplastes.\n- Tubercule de **manioc** ou d'**igname** : cellules bourrées d'amyloplastes (l'eau iodée les colore en bleu-noir).\n- Pulpe de **tomate** ou de **papaye** : cellules arrondies, à grande vacuole, avec des plastes colorés (chromoplastes).\n\n:::methode\nPour **identifier un organite** sur une électronographie décrite : repère le nombre de membranes (une ou deux), la présence de replis (crêtes = mitochondrie ; empilements de thylakoïdes = chloroplaste), de pores (noyau) ou de grains (ribosomes sur le RE rugueux).\n:::",
+   "definition": "La cellule eucaryote comprend une membrane plasmique, un cytoplasme contenant des organites spécialisés et un noyau ; la cellule végétale y ajoute une paroi pecto-cellulosique, une grande vacuole et, dans les parties vertes, des chloroplastes.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "La cellule est une petite usine : chaque organite a son poste de travail.",
+    "simple": "La cellule végétale est une case avec un mur en banco (paroi), un grand canari d'eau (vacuole), des panneaux solaires (chloroplastes), un bureau du chef (noyau) et des groupes électrogènes (mitochondries). La cellule animale n'a ni mur rigide, ni canari géant, ni panneaux solaires.",
+    "complete": "Au MO, toute cellule eucaryote montre membrane, cytoplasme et noyau. Le ME révèle l'ultrastructure : enveloppe nucléaire à pores, mitochondries à crêtes (respiration), réticulum endoplasmique et ribosomes (synthèse des protéines), appareil de Golgi (sécrétion), lysosomes (digestion), centrosome chez l'animal. La cellule végétale possède en propre une paroi pecto-cellulosique, une grande vacuole et des plastes (chloroplastes, amyloplastes)."
+   },
+   "analogie": "La cellule végétale est comme une case traditionnelle : mur en banco (paroi), grand canari d'eau (vacuole), panneaux solaires sur le toit (chloroplastes), chef de famille qui donne les ordres (noyau), groupe électrogène (mitochondries).",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : description d'une électronographie. On voit un organite ovale d'environ 2 µm, limité par deux membranes ; la membrane interne forme de nombreux replis. Identifie l'organite et donne son rôle.",
+     "etapes": [
+      "Je relève les indices : deux membranes, membrane interne repliée (crêtes), taille de l'ordre du µm.",
+      "J'interprète : ces caractères sont ceux d'une mitochondrie (un chloroplaste aurait des thylakoïdes empilés et serait plus grand, 5 à 10 µm).",
+      "Conclusion : il s'agit d'une mitochondrie, siège de la respiration cellulaire qui fournit l'énergie à la cellule."
+     ]
+    },
+    {
+     "enonce": "Document : tableau d'observation de deux cellules. Cellule A : paroi +, grande vacuole +, chloroplastes −, noyau +. Cellule B : paroi −, vacuole petite, centrosome +, noyau +. Identifie A et B.",
+     "etapes": [
+      "Je décris : A possède une paroi et une grande vacuole mais pas de chloroplastes ; B n'a pas de paroi et possède un centrosome.",
+      "J'interprète : paroi + grande vacuole sont propres aux cellules végétales ; l'absence de chloroplastes indique une partie non verte (racine, bulbe). Le centrosome sans paroi caractérise la cellule animale.",
+      "Conclusion : A est une cellule végétale non chlorophyllienne (par exemple de racine ou de bulbe d'oignon) ; B est une cellule animale."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que la cellule animale possède une paroi (elle n'a qu'une membrane).",
+    "Croire que toutes les cellules végétales ont des chloroplastes.",
+    "Confondre paroi (rigide, cellulose, à l'extérieur) et membrane plasmique (fine, à l'intérieur de la paroi).",
+    "Confondre mitochondrie (respiration) et chloroplaste (photosynthèse).",
+    "Croire que les végétaux ne respirent pas : leurs cellules ont aussi des mitochondries."
+   ],
+   "astuces": [
+    "Tableau à trois colonnes (organite / structure / rôle) : c'est la meilleure fiche de révision de ce chapitre.",
+    "Deux membranes : noyau, mitochondrie, chloroplaste. Le reste a une seule membrane (ou aucune pour les ribosomes)."
+   ],
+   "mnemo": "Végétale = « P.V.C. » : Paroi, Vacuole, Chloroplastes.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as appris qu'une cellule a une membrane, un cytoplasme et un noyau, et que la cellule végétale a en plus une paroi et souvent des chloroplastes. En seconde, on découvre l'intérieur grâce au microscope électronique."
+   },
+   "methode_redaction": "Pour une question « identifier et justifier » : 1) citer les caractères observés dans le document ; 2) les relier à la définition du cours ; 3) conclure par une phrase (« donc c'est une cellule végétale car… »). Pour un schéma : titre, légendes à la règle, organites à la bonne place (paroi à l'extérieur de la membrane).",
+   "flash": [
+    {
+     "q": "Trois structures propres à la cellule végétale chlorophyllienne ?",
+     "r": "Paroi pecto-cellulosique, grande vacuole, chloroplastes."
+    },
+    {
+     "q": "Organite propre à la cellule animale ?",
+     "r": "Le centrosome (deux centrioles)."
+    },
+    {
+     "q": "Rôle de la mitochondrie ?",
+     "r": "Respiration cellulaire : production d'énergie (ATP)."
+    },
+    {
+     "q": "Rôle des ribosomes ?",
+     "r": "Synthèse des protéines."
+    },
+    {
+     "q": "Quels organites ont deux membranes ?",
+     "r": "Noyau (enveloppe), mitochondrie, chloroplaste."
+    },
+    {
+     "q": "Que colore l'eau iodée en bleu-noir ?",
+     "r": "L'amidon (ex. amyloplastes du manioc)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C01-N2.svg",
+    "alt": "Schémas comparés d'une cellule animale et d'une cellule végétale chlorophyllienne",
+    "legende": "Cellule animale et cellule végétale vues au microscope électronique (schéma simplifié, tailles non respectées).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C01-N3",
+   "titre": "Unité et diversité des cellules : théorie cellulaire, procaryotes et eucaryotes",
+   "prerequis_notions": [
+    "SVT-S1-C01-N2"
+   ],
+   "cours_md": "### 1. La théorie cellulaire, une construction historique\n- **1838, Matthias Schleiden** (botaniste) : tous les végétaux sont formés de cellules.\n- **1839, Theodor Schwann** (zoologiste) : tous les animaux sont formés de cellules.\n- **1855, Rudolf Virchow** : « *Omnis cellula e cellula* » — toute cellule provient d'une cellule préexistante (par division).\n- **1859-1862, Louis Pasteur** montre par l'expérience des ballons à col de cygne qu'il n'y a pas de génération spontanée des microbes, ce qui confirme l'idée de Virchow.\n\n:::definition\n**Théorie cellulaire** : 1) tout être vivant est formé d'une ou de plusieurs cellules ; 2) la cellule est l'unité de structure et de fonctionnement du vivant ; 3) toute cellule provient d'une autre cellule par division.\n:::\n\n### 2. Deux grands types de cellules\n:::definition\n**Cellule procaryote** : cellule sans noyau ; son ADN (un chromosome circulaire) est libre dans le cytoplasme (nucléoïde) ; pas d'organites limités par une membrane. Ce sont les **bactéries**.\n**Cellule eucaryote** : cellule possédant un vrai **noyau** limité par une enveloppe et des organites membranaires (mitochondries…). Ce sont les cellules des animaux, des végétaux, des champignons et des protistes.\n:::\n\n| Caractère | Procaryote | Eucaryote |\n|---|---|---|\n| Taille | 1 à 5 µm environ | 10 à 100 µm environ |\n| Noyau | absent (nucléoïde) | présent |\n| Organites membranaires | absents | présents |\n| Ribosomes | présents (plus petits) | présents |\n| Paroi | presque toujours (peptidoglycane) | chez les végétaux (cellulose) et les champignons (chitine) |\n| Exemples | bactérie du choléra, *Rhizobium* des nodosités de l'arachide et du soja, cyanobactéries | paramécie, *Plasmodium* (paludisme), levure, cellules humaines |\n\n:::remarque\nLes **virus** ne sont pas des cellules : ils n'ont ni cytoplasme ni ribosomes et ne se multiplient qu'à l'intérieur d'une cellule hôte. Ils ne contredisent pas la théorie cellulaire.\n:::\n\n### 3. Unité du vivant\nToutes les cellules, procaryotes ou eucaryotes, ont en commun :\n- une **membrane plasmique** ;\n- un **cytoplasme** ;\n- de l'**ADN** comme support de l'information génétique ;\n- des **ribosomes**.\nCette unité suggère que tous les êtres vivants ont une **origine commune**.\n\n### 4. Diversité des cellules et spécialisation\nChez un être pluricellulaire, les cellules se **spécialisent** : leur forme est adaptée à leur fonction.\n- **Globule rouge** humain : disque biconcave d'environ 7 µm, sans noyau, rempli d'hémoglobine (transport du dioxygène).\n- **Neurone** : prolongements pouvant dépasser 1 m de long (transmission du message nerveux).\n- **Spermatozoïde** : flagelle (déplacement).\n- **Cellule de poil absorbant** : long prolongement qui augmente la surface d'absorption.\n- **Ovule** humain : environ 0,1 mm, l'une des plus grosses cellules humaines, visible à la limite de l'œil nu.\n\n:::propriete\n**Niveaux d'organisation** d'un être pluricellulaire : cellule → tissu (cellules semblables qui travaillent ensemble) → organe → appareil (ou système) → organisme.\nExemple : cellule musculaire → tissu musculaire → cœur → appareil circulatoire → être humain.\n:::\n\n### 5. Unicellulaires et pluricellulaires\nUn **être unicellulaire** (paramécie de l'eau des mares, levure, bactérie) assure **toutes** les fonctions vitales avec une seule cellule : nutrition, respiration, excrétion, reproduction. C'est la preuve la plus forte que la cellule est l'unité **fonctionnelle** du vivant.",
+   "definition": "Tous les êtres vivants sont formés de cellules issues d'autres cellules ; on distingue les cellules procaryotes, sans noyau (bactéries), et les cellules eucaryotes, à noyau et organites.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Du microbe à l'éléphant, tout vivant est fait de cellules, avec ou sans noyau.",
+    "simple": "Une bactérie, c'est une chambre unique sans cloisons où tout est mélangé ; une cellule eucaryote, c'est une grande maison avec des pièces séparées (noyau, mitochondries…), chacune pour une tâche.",
+    "complete": "La théorie cellulaire (Schleiden 1838, Schwann 1839, Virchow 1855) établit que la cellule est l'unité de structure, de fonctionnement et de reproduction du vivant. Les procaryotes (bactéries, 1 à 5 µm) n'ont ni noyau ni organites membranaires ; les eucaryotes (10 à 100 µm) ont un noyau et des organites. Toutes les cellules partagent membrane, cytoplasme, ADN et ribosomes (unité) ; chez les pluricellulaires, elles se spécialisent et s'organisent en tissus, organes et appareils (diversité)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : une bactérie *Escherichia coli* mesure environ 2 µm ; une cellule de foie humain environ 20 µm. Combien de fois la cellule du foie est-elle plus longue que la bactérie ?",
+     "etapes": [
+      "Je vérifie que les deux mesures sont dans la même unité : oui, en µm.",
+      "Je calcule le rapport : 20 µm ÷ 2 µm = 10.",
+      "Conclusion : la cellule de foie est environ 10 fois plus longue que la bactérie, ce qui illustre la différence de taille entre procaryotes et eucaryotes."
+     ]
+    },
+    {
+     "enonce": "Document : tableau. Organisme 1 : unicellulaire, ADN dans un noyau, mitochondries présentes, se déplace grâce à des cils (eau de mare). Organisme 2 : unicellulaire, ADN libre dans le cytoplasme, pas de mitochondries, vit dans les nodosités de l'arachide. Classe-les.",
+     "etapes": [
+      "Je repère le critère décisif : la présence ou l'absence d'un noyau.",
+      "Organisme 1 : noyau + mitochondries → eucaryote unicellulaire (c'est une paramécie).",
+      "Organisme 2 : ADN libre, pas d'organites membranaires → procaryote (bactérie *Rhizobium*).",
+      "Conclusion : les deux sont unicellulaires, mais seul le premier est eucaryote ; « unicellulaire » ne veut pas dire « procaryote »."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que tous les unicellulaires sont des bactéries (la paramécie, la levure et le *Plasmodium* sont des eucaryotes).",
+    "Dire que les bactéries n'ont pas d'ADN : elles en ont, mais il n'est pas enfermé dans un noyau.",
+    "Classer les virus parmi les cellules.",
+    "Attribuer la phrase « toute cellule provient d'une cellule » à Hooke (c'est Virchow)."
+   ],
+   "astuces": [
+    "Pour classer une cellule, pose une seule question d'abord : « A-t-elle un noyau ? » Non → procaryote. Oui → eucaryote, puis paroi/chloroplastes → végétale.",
+    "Retiens l'ordre chronologique : Hooke (1665) voit, Schleiden et Schwann (1838-1839) généralisent, Virchow (1855) complète."
+   ],
+   "mnemo": "« Pro = Pas de noyau » (les deux commencent par P) ; « Eu = Enfermé » (l'ADN est enfermé dans le noyau).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que les microbes (bactéries, virus) peuvent provoquer des maladies et que certains sont utiles. Ici, on apprend que les bactéries sont des cellules sans noyau, alors que les virus ne sont pas des cellules."
+   },
+   "methode_redaction": "Pour une restitution sur la théorie cellulaire : citer les trois idées, puis les savants avec dates, puis un argument (les unicellulaires réalisent seuls toutes les fonctions). Pour une comparaison : toujours un tableau avec les mêmes critères dans les deux colonnes.",
+   "flash": [
+    {
+     "q": "Énoncé de Virchow (1855) ?",
+     "r": "« Omnis cellula e cellula » : toute cellule provient d'une cellule."
+    },
+    {
+     "q": "Différence fondamentale procaryote / eucaryote ?",
+     "r": "Le procaryote n'a pas de noyau (ADN libre) ni d'organites membranaires."
+    },
+    {
+     "q": "Le *Plasmodium* du paludisme est-il procaryote ?",
+     "r": "Non, c'est un eucaryote unicellulaire."
+    },
+    {
+     "q": "4 éléments communs à toutes les cellules ?",
+     "r": "Membrane plasmique, cytoplasme, ADN, ribosomes."
+    },
+    {
+     "q": "Les niveaux d'organisation ?",
+     "r": "Cellule → tissu → organe → appareil → organisme."
+    },
+    {
+     "q": "Un virus est-il une cellule ?",
+     "r": "Non : ni cytoplasme ni ribosomes, il dépend d'une cellule hôte."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C01-N3.svg",
+    "alt": "Comparaison d'une cellule procaryote et d'une cellule eucaryote avec leurs tailles",
+    "legende": "Procaryote (bactérie) et eucaryote : structure et ordre de grandeur des tailles.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S1-C01-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C01-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Un élève observe une préparation avec un oculaire $\\times 10$ et un objectif $\\times 40$. Quel est le grossissement du microscope ?",
+   "choix": [
+    "$\\times 50$",
+    "$\\times 4$",
+    "$\\times 400$",
+    "$\\times 4000$"
+   ],
+   "bonne_reponse": 2,
+   "indices": [
+    "Les deux grossissements se multiplient."
+   ],
+   "corrige": [
+    "Le grossissement est le produit : $G = 10 \\times 40 = 400$.",
+    "Réponse : $\\times 400$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Additionner 10 + 40 = 50.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C01-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C01-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Convertis 0,25 mm en micromètres (µm). Donne seulement le nombre.",
+   "reponses_acceptees": [
+    "250",
+    "250µm",
+    "250 µm",
+    "250um"
+   ],
+   "indices": [
+    "1 mm = 1 000 µm."
+   ],
+   "corrige": [
+    "$1\\ \\text{mm} = 1000\\ \\mu\\text{m}$.",
+    "$0{,}25 \\times 1000 = 250\\ \\mu\\text{m}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par 1 000 au lieu de multiplier.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C01-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C01-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel de ces éléments est ABSENT d'une cellule animale ?",
+   "choix": [
+    "La membrane plasmique",
+    "Le noyau",
+    "Le chloroplaste",
+    "La mitochondrie"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "La cellule animale possède membrane, noyau et mitochondries.",
+    "Le chloroplaste n'existe que dans les cellules végétales chlorophylliennes (et certaines algues) : réponse C."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser que la mitochondrie est propre aux végétaux.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C01-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C01-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Sur une photographie prise au grossissement $\\times 600$, une cellule buccale mesure 3 cm. Calcule sa taille réelle en µm (nombre seul).",
+   "reponses_acceptees": [
+    "50",
+    "50µm",
+    "50 µm",
+    "50um"
+   ],
+   "indices": [
+    "Convertis d'abord en mm.",
+    "Taille réelle = taille mesurée ÷ grossissement."
+   ],
+   "corrige": [
+    "Conversion : 3 cm = 30 mm.",
+    "Taille réelle = 30 mm ÷ 600 = 0,05 mm.",
+    "0,05 mm = 0,05 × 1000 = 50 µm."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Multiplier par 600 ou oublier la conversion en µm.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C01-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C01-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Parmi ces êtres vivants, lequel est formé d'une cellule procaryote ?",
+   "choix": [
+    "La paramécie",
+    "La bactérie du choléra",
+    "Le *Plasmodium* du paludisme",
+    "La levure de boulanger"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Paramécie, levure et *Plasmodium* ont un noyau : ce sont des eucaryotes unicellulaires.",
+    "La bactérie du choléra (*Vibrio cholerae*) n'a pas de noyau : c'est un procaryote. Réponse B."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre « unicellulaire » et « procaryote ».",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C01-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C01-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution des connaissances. Énonce la théorie cellulaire en trois points, puis cite trois savants qui ont contribué à l'établir en précisant la date et l'apport de chacun.",
+   "indices": [],
+   "corrige": [
+    "Point 1 : tout être vivant est formé d'une ou de plusieurs cellules.",
+    "Point 2 : la cellule est l'unité de structure et de fonctionnement du vivant.",
+    "Point 3 : toute cellule provient d'une cellule préexistante par division.",
+    "Schleiden (1838) : tous les végétaux sont formés de cellules.",
+    "Schwann (1839) : tous les animaux sont formés de cellules.",
+    "Virchow (1855) : « toute cellule provient d'une cellule ». (Hooke, 1665, qui a nommé les cellules, est aussi accepté.)"
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "Oublier le troisième point (origine des cellules).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C01-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C01-N2",
+    "SVT-S1-C01-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de document. Le tableau ci-dessous résume l'observation au microscope électronique de trois cellules X, Y et Z (+ = présent, − = absent).\n\n| Élément | X | Y | Z |\n|---|---|---|---|\n| Membrane plasmique | + | + | + |\n| Noyau | − | + | + |\n| Mitochondries | − | + | + |\n| Paroi | + (non cellulosique) | + (cellulosique) | − |\n| Chloroplastes | − | + | − |\n| Centrosome | − | − | + |\n\n1) Identifie la nature de chaque cellule en justifiant. 2) Quels éléments montrent l'unité de ces trois cellules ?",
+   "indices": [
+    "Commence par le critère « noyau ».",
+    "Paroi cellulosique + chloroplastes = végétal."
+   ],
+   "corrige": [
+    "X : pas de noyau ni de mitochondries, ADN donc libre → cellule procaryote (bactérie) ; sa paroi n'est pas cellulosique.",
+    "Y : noyau + paroi cellulosique + chloroplastes → cellule eucaryote végétale chlorophyllienne.",
+    "Z : noyau, pas de paroi, centrosome → cellule eucaryote animale.",
+    "Unité : les trois cellules possèdent une membrane plasmique (et, d'après le cours, un cytoplasme, de l'ADN et des ribosomes) : la cellule est l'unité du vivant."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    1.5
+   ],
+   "piege": "Classer X comme cellule végétale à cause de sa paroi.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C01-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C01-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Avec l'objectif $\\times 40$, le champ circulaire du microscope a un diamètre réel de 0,45 mm. Un élève compte 5 cellules d'épiderme d'oignon alignées bout à bout sur ce diamètre. Quelle est la longueur moyenne d'une cellule en µm (nombre seul) ?",
+   "reponses_acceptees": [
+    "90",
+    "90µm",
+    "90 µm",
+    "90um"
+   ],
+   "indices": [
+    "Convertis 0,45 mm en µm, puis partage entre 5 cellules."
+   ],
+   "corrige": [
+    "Diamètre du champ : 0,45 mm = 450 µm.",
+    "Longueur d'une cellule = 450 ÷ 5 = 90 µm."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par le grossissement alors que le diamètre donné est déjà réel.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C01-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C01-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Une électronographie montre un organite limité par deux membranes, contenant des empilements de sacs aplatis (thylakoïdes) et des grains d'amidon. Il s'agit :",
+   "choix": [
+    "d'une mitochondrie",
+    "d'un appareil de Golgi",
+    "d'un noyau",
+    "d'un chloroplaste"
+   ],
+   "bonne_reponse": 3,
+   "indices": [],
+   "corrige": [
+    "Deux membranes + thylakoïdes empilés (grana) + amidon = chloroplaste.",
+    "Réponse D ; la mitochondrie a des crêtes, pas de thylakoïdes."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre crêtes mitochondriales et thylakoïdes.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C01-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S1-C01-N1",
+    "SVT-S1-C01-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données. Avec l'objectif $\\times 10$ (oculaire $\\times 10$), le champ du microscope a un diamètre réel de 1,6 mm. L'élève passe à l'objectif $\\times 40$ (même oculaire) et compte 4 cellules d'épiderme d'oignon alignées sur le diamètre du champ.\n1) Calcule le diamètre réel du champ à l'objectif $\\times 40$.\n2) Calcule la longueur moyenne d'une cellule d'oignon en µm.\n3) Une cellule de la muqueuse buccale mesure 60 µm. Combien de fois la cellule d'oignon est-elle plus longue ? Peut-on en conclure que la taille d'une cellule indique si elle est animale ou végétale ? Justifie.",
+   "indices": [
+    "Plus on grossit, plus le champ observé est petit.",
+    "Diamètre du champ × grossissement = constante."
+   ],
+   "corrige": [
+    "1) Le grossissement passe de $\\times 100$ à $\\times 400$ (4 fois plus) ; le diamètre réel du champ est divisé par 4 : 1,6 ÷ 4 = 0,4 mm.",
+    "2) 0,4 mm = 400 µm ; 400 ÷ 4 = 100 µm par cellule.",
+    "3) Rapport : 100 ÷ 60 ≈ 1,7 : la cellule d'oignon est environ 1,7 fois plus longue.",
+    "Conclusion : non ; la taille varie beaucoup d'une cellule à l'autre (globule rouge 7 µm, ovule 100 µm, neurone jusqu'à 1 m). Seuls des critères de structure (paroi, vacuole, chloroplastes, centrosome) permettent de distinguer cellule animale et végétale."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    2
+   ],
+   "piege": "Croire que le diamètre du champ reste le même quand on change d'objectif.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Additionner les grossissements de l'oculaire et de l'objectif au lieu de les multiplier.",
+  "Oublier les conversions cm → mm → µm dans le calcul de la taille réelle, ou multiplier au lieu de diviser.",
+  "Dessiner une paroi autour d'une cellule animale, ou des chloroplastes dans une cellule de racine ou de bulbe d'oignon.",
+  "Schéma sans titre, sans grossissement, avec des traits de légende qui se croisent ou tracés à main levée.",
+  "Confondre procaryote et unicellulaire : la paramécie et le Plasmodium sont des eucaryotes.",
+  "Inverser les rôles de la mitochondrie (respiration) et du chloroplaste (photosynthèse)."
+ ]
+}
