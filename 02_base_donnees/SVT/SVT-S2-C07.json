@@ -1,0 +1,719 @@
+{
+ "id": "SVT-S2-C07",
+ "matiere": "SVT",
+ "semestre": 2,
+ "ordre": 7,
+ "titre": "La photosynthèse : nutrition carbonée des plantes vertes",
+ "objectifs": [
+  "L'élève doit être capable de mettre en évidence la synthèse d'amidon et ses conditions (lumière, chlorophylle, CO2) par des expériences avec témoin.",
+  "L'élève doit être capable d'exploiter des mesures d'échanges gazeux (élodée, BBT, ExAO) et de distinguer photosynthèse brute et nette.",
+  "L'élève doit être capable d'expliquer l'influence des facteurs du milieu et d'appliquer la notion de facteur limitant.",
+  "L'élève doit être capable de décrire le chloroplaste, de séparer les pigments par chromatographie et d'interpréter un spectre d'absorption.",
+  "L'élève doit être capable d'écrire l'équation bilan, d'expliquer l'origine du O2 et le devenir des produits de la photosynthèse."
+ ],
+ "prerequis": [
+  "SVT-3e-NUTRITION-VEGETALE",
+  "SVT-S1-C01",
+  "SVT-S1-C04",
+  "SVT-S1-C06"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S2-C07-N1",
+   "titre": "Mise en évidence de la photosynthèse : la plante verte fabrique de la matière organique",
+   "prerequis_notions": [
+    "SVT-3e-NUTRITION-VEGETALE",
+    "SVT-S1-C01-N2"
+   ],
+   "cours_md": "### 1. D'où vient la matière d'une plante ?\nUn pied de maïs passe d'une graine de quelques dixièmes de gramme à une plante de plus d'un kilogramme en trois mois. D'où vient toute cette matière ?\n\n- **Vers 1640, Jan Baptist Van Helmont** fait pousser un saule pendant cinq ans dans un bac de terre pesée, en ne l'arrosant qu'avec de l'eau : l'arbre gagne des dizaines de kilogrammes alors que la terre ne perd presque rien (voir l'exemple résolu). Il conclut que la matière de l'arbre vient de l'eau. Sa conclusion est **incomplète** : il ignorait le rôle de l'air.\n- **1771, Joseph Priestley** : une bougie s'éteint et une souris meurt dans un air confiné, mais un brin de menthe « répare » cet air.\n- **1779, Jan Ingen-Housz** : la plante ne « répare » l'air qu'**à la lumière** et seulement par ses **parties vertes**.\n- **1782, Jean Senebier** : la plante a besoin de « l'air fixe » (le **dioxyde de carbone**, $\\ce{CO2}$) et rejette de « l'air pur » (le **dioxygène**, $\\ce{O2}$).\n- **1804, Nicolas Théodore de Saussure** : l'augmentation de masse de la plante dépasse la masse de $\\ce{CO2}$ absorbé : **l'eau participe aussi** à la fabrication de la matière.\n- **1862-1864, Julius Sachs** : de l'**amidon** apparaît dans les chloroplastes des feuilles éclairées.\n\n### 2. Le test de l'amidon sur une feuille\n:::methode\n1. Plonger la feuille 1 à 2 minutes dans l'**eau bouillante** : les cellules sont tuées et la feuille se ramollit.\n2. La placer dans de l'**alcool chaud au bain-marie** (jamais sur la flamme : l'alcool est inflammable) : la chlorophylle se dissout, la feuille devient blanchâtre.\n3. Rincer à l'eau puis recouvrir d'**eau iodée** (ou lugol).\n4. Lire le résultat : **bleu-noir** = amidon présent ; **jaune-brun** (couleur de l'eau iodée) = pas d'amidon.\n:::\n\n:::attention\nAvant l'expérience, on place la plante **48 heures à l'obscurité** : elle consomme son amidon. Sans cette précaution, l'amidon fabriqué avant l'expérience fausserait le résultat.\n:::\n\n### 3. Les conditions de la production d'amidon\nOn utilise des plantes « désamidonnées » (48 h à l'obscurité), puis on les éclaire environ 24 heures.\n\n| Expérience | Résultat au test | Interprétation |\n|---|---|---|\n| Feuille dont une bande est couverte d'un cache opaque (papier noir) | bleu-noir partout **sauf** sous le cache | la **lumière** est nécessaire |\n| Feuille panachée de croton (bords jaunes sans chlorophylle) | bleu-noir seulement dans la **partie verte** | la **chlorophylle** est nécessaire |\n| Plante sous cloche avec de la potasse (qui absorbe le $\\ce{CO2}$) | pas d'amidon | le **$\\ce{CO2}$** est nécessaire |\n| Plante témoin sous cloche avec de l'eau à la place de la potasse | amidon | l'expérience est valable |\n| Plante restée à l'obscurité | pas d'amidon | confirme le rôle de la lumière |\n\n:::propriete\nUne feuille verte fabrique de la **matière organique** (sucres, puis amidon) **à la lumière**, dans ses **parties chlorophylliennes**, à partir du **dioxyde de carbone** de l'air et de l'**eau**. Elle rejette en même temps du **dioxygène**.\n:::\n\n:::definition\n**Photosynthèse** : synthèse de matière organique (glucose) par les cellules chlorophylliennes à partir de matière minérale ($\\ce{CO2}$ et $\\ce{H2O}$), grâce à l'énergie de la lumière ; elle s'accompagne d'un rejet de dioxygène.\n:::\n\n### 4. Les plantes vertes sont autotrophes\n:::definition\n**Autotrophe** : être vivant capable de fabriquer sa propre matière organique à partir de matière uniquement minérale ($\\ce{CO2}$, eau, ions du sol). Les plantes vertes sont **photoautotrophes** : leur source d'énergie est la lumière.\n**Hétérotrophe** : être vivant qui doit prélever de la matière organique déjà fabriquée (animaux, champignons, la plupart des bactéries).\n:::\n\nLa photosynthèse est la **nutrition carbonée** des plantes vertes (le carbone de leur matière vient du $\\ce{CO2}$ de l'air), qui complète la **nutrition minérale** étudiée au chapitre 6 (eau et ions absorbés par les racines). C'est pourquoi les plantes vertes sont les **producteurs primaires** des écosystèmes.\n\n:::remarque\nLe premier sucre fabriqué est un sucre soluble (le glucose). L'amidon n'est qu'une **forme de mise en réserve provisoire** dans le chloroplaste. Certaines plantes (l'oignon, la canne à sucre) accumulent surtout des sucres solubles : le test à l'eau iodée est alors peu net, ce qui ne veut pas dire qu'elles ne font pas de photosynthèse.\n:::",
+   "definition": "La photosynthèse est la fabrication de matière organique (glucose, puis amidon) par les parties vertes d'une plante, à la lumière, à partir du dioxyde de carbone et de l'eau, avec rejet de dioxygène.",
+   "formules": [
+    "$\\ce{CO2 + H2O ->[\\text{lumière}][\\text{chlorophylle}] matière organique + O2}$"
+   ],
+   "niveaux": {
+    "phrase": "À la lumière, les feuilles vertes fabriquent du sucre et de l'amidon à partir de l'air et de l'eau.",
+    "simple": "Une feuille verte est une petite cuisine solaire : ses ingrédients sont le dioxyde de carbone de l'air et l'eau du sol, son feu est la lumière du soleil, son cuisinier est la chlorophylle. Le plat obtenu est du sucre, rangé sous forme d'amidon ; la « fumée » qui sort est du dioxygène.",
+    "complete": "La photosynthèse est la nutrition carbonée des plantes chlorophylliennes. Les expériences historiques (Van Helmont, Priestley, Ingen-Housz, Senebier, de Saussure, Sachs) et le test à l'eau iodée sur des plantes désamidonnées montrent que la synthèse d'amidon exige la lumière, la chlorophylle et le CO2, et que l'eau est aussi un réactif. Les plantes vertes sont donc des êtres photoautotrophes et les producteurs primaires des écosystèmes."
+   },
+   "analogie": "Un champ de maïs est comme une usine solaire : les panneaux (feuilles) captent le soleil, la matière première (CO2 et eau) entre gratuitement, et la production (grains, tiges) sort sans qu'on ait apporté de « nourriture » toute faite.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : expérience de Van Helmont. Saule planté : 2,3 kg ; saule après 5 ans : 76,7 kg. Terre au départ : 90,7 kg ; terre après 5 ans : 90,643 kg. Seul apport : de l'eau de pluie. 1) Calcule le gain de masse du saule et la perte de masse de la terre. 2) La matière du saule vient-elle du sol ? 3) Quelle source de matière Van Helmont n'a-t-il pas envisagée ?",
+     "etapes": [
+      "Gain du saule : 76,7 − 2,3 = 74,4 kg.",
+      "Perte de la terre : 90,7 − 90,643 = 0,057 kg, soit 57 g.",
+      "Comparaison : 74,4 kg gagnés contre 0,057 kg perdus, soit plus de 1 300 fois moins : la matière du saule ne vient presque pas du sol (les 57 g correspondent aux ions minéraux absorbés).",
+      "Van Helmont a attribué toute la matière à l'eau. Il n'a pas envisagé l'air : on sait aujourd'hui que la plus grande partie de la matière sèche vient du carbone du CO2 de l'air, fixé par photosynthèse, l'eau apportant l'hydrogène."
+     ]
+    },
+    {
+     "enonce": "Document : sur un même pied de manioc, on cueille une feuille à 6 h du matin et une autre à 17 h, puis on les teste à l'eau iodée. Feuille de 6 h : coloration à peine bleutée ; feuille de 17 h : bleu-noir intense. Interprète ces résultats.",
+     "etapes": [
+      "Je décris : la feuille du soir contient beaucoup plus d'amidon que celle du matin.",
+      "Pendant la journée, la feuille éclairée fait de la photosynthèse et accumule de l'amidon dans ses chloroplastes : d'où la coloration intense à 17 h.",
+      "Pendant la nuit, il n'y a plus de photosynthèse ; l'amidon est transformé en sucres solubles exportés vers le reste de la plante (et une partie est respirée) : le matin, il en reste peu.",
+      "Conclusion : l'amidon des feuilles est une réserve provisoire, fabriquée à la lumière et vidée la nuit."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier de désamidonner la plante (48 h à l'obscurité) avant l'expérience.",
+    "Chauffer l'alcool directement sur la flamme (danger d'incendie) au lieu du bain-marie.",
+    "Dire « la feuille est bleue donc elle contient du glucose » : l'eau iodée révèle l'amidon, pas le glucose.",
+    "Conclure sans témoin : une expérience sans témoin ne prouve rien.",
+    "Croire, comme Van Helmont, que toute la matière de la plante vient de l'eau ou du sol."
+   ],
+   "astuces": [
+    "Une expérience = un seul facteur qui change entre l'essai et le témoin. Repère toujours ce facteur avant d'interpréter.",
+    "Couleurs à retenir : eau iodée + amidon = bleu-noir ; eau iodée seule = jaune-brun (orangé).",
+    "Pense « L.C.C. » pour les conditions : Lumière, Chlorophylle, CO2 (et l'eau, réactif)."
+   ],
+   "mnemo": "« La Lumière, la Chlorophylle et le CO₂ font la photo » : L.C.C.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris que les plantes vertes fabriquent leur matière à la lumière et qu'elles sont à la base des chaînes alimentaires. En seconde, on démontre cela par des expériences et on précise les conditions."
+   },
+   "methode_redaction": "Pour une question d'exploitation d'expérience : 1) identifier le facteur qui varie (lumière, chlorophylle, CO2) et le témoin ; 2) décrire les résultats (« la partie masquée reste jaune-brun… ») ; 3) interpréter (« donc pas d'amidon ») ; 4) conclure en reliant au facteur (« la lumière est nécessaire à la synthèse d'amidon »).",
+   "flash": [
+    {
+     "q": "Réactif de l'amidon et couleur obtenue ?",
+     "r": "Eau iodée : coloration bleu-noir."
+    },
+    {
+     "q": "Pourquoi place-t-on la plante 48 h à l'obscurité avant l'expérience ?",
+     "r": "Pour qu'elle consomme son amidon (désamidonnage) : tout amidon trouvé ensuite a été fabriqué pendant l'expérience."
+    },
+    {
+     "q": "À quoi sert l'alcool chaud dans le test ?",
+     "r": "À dissoudre la chlorophylle pour que la couleur de l'eau iodée soit visible."
+    },
+    {
+     "q": "Quelles sont les conditions de la photosynthèse ?",
+     "r": "Lumière, chlorophylle, CO2 et eau."
+    },
+    {
+     "q": "Qu'a montré Ingen-Housz en 1779 ?",
+     "r": "La plante n'assainit l'air qu'à la lumière et par ses parties vertes."
+    },
+    {
+     "q": "Définition d'un être autotrophe ?",
+     "r": "Être vivant qui fabrique sa matière organique à partir de matière minérale seulement."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C07-N1.svg",
+    "alt": "Feuille en partie masquée et feuille panachée de croton après le test à l'eau iodée, et les trois étapes du test de l'amidon",
+    "legende": "La synthèse d'amidon exige la lumière (feuille masquée) et la chlorophylle (feuille panachée) ; étapes du test à l'eau iodée.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C07-N2",
+   "titre": "Les échanges gazeux chlorophylliens et les facteurs qui influencent la photosynthèse",
+   "prerequis_notions": [
+    "SVT-S2-C07-N1",
+    "SVT-S1-C03-N2"
+   ],
+   "cours_md": "### 1. La plante verte rejette du dioxygène à la lumière\n:::methode\n**Expérience de l'élodée** (plante aquatique d'aquarium) : placer un rameau d'élodée sous un entonnoir renversé, dans un bécher d'eau additionnée d'un peu d'**hydrogénocarbonate de sodium** (bicarbonate, qui fournit du $\\ce{CO2}$ dissous). Coiffer l'entonnoir d'un tube à essai rempli d'eau. Éclairer avec une lampe.\n:::\n\n- **Résultat** : des bulles de gaz se dégagent des feuilles et s'accumulent dans le tube.\n- **Identification** : une bûchette **incandescente** introduite dans le tube **se rallume** : le gaz est riche en **dioxygène**.\n- **Variations** : à l'obscurité, plus de bulles ; dans de l'eau bouillie puis refroidie (privée de $\\ce{CO2}$), presque plus de bulles ; plus la lampe est proche, plus les bulles sont nombreuses.\n\n### 2. La plante verte absorbe du dioxyde de carbone à la lumière\n- Le **bleu de bromothymol (BBT)** est un indicateur coloré : **jaune** en milieu riche en $\\ce{CO2}$ (acide), **bleu** quand le $\\ce{CO2}$ diminue.\n- Un tube contenant de l'élodée et du BBT jaune-vert **devient bleu à la lumière** : l'élodée **absorbe le $\\ce{CO2}$**. Placé à l'obscurité, il **jaunit** : l'élodée **rejette du $\\ce{CO2}$** (elle respire).\n- Avec l'**ExAO** (expérimentation assistée par ordinateur), des sondes mesurent en continu les concentrations de $\\ce{O2}$ et de $\\ce{CO2}$ dans une enceinte fermée contenant une plante : à la lumière, $[\\ce{O2}]$ augmente et $[\\ce{CO2}]$ diminue ; à l'obscurité, c'est l'inverse.\n\n:::definition\n**Échanges gazeux chlorophylliens** : absorption de $\\ce{CO2}$ et rejet de $\\ce{O2}$ par les organes chlorophylliens à la lumière. Ils se font par les **stomates** des feuilles (ou par toute la surface pour une plante aquatique).\n:::\n\n### 3. Photosynthèse et respiration ont lieu en même temps\nLes cellules végétales **respirent jour et nuit** (elles ont des mitochondries) : elles absorbent $\\ce{O2}$ et rejettent $\\ce{CO2}$. À la lumière, ce qu'on mesure est donc un **bilan**.\n\n:::propriete\n$$\\text{photosynthèse brute} = \\text{photosynthèse nette (mesurée)} + \\text{respiration}$$\n- À l'obscurité : on mesure la respiration seule (absorption de $\\ce{O2}$).\n- **Point de compensation** : éclairement pour lequel la photosynthèse compense exactement la respiration ; les échanges gazeux nets sont nuls.\n- Au-dessus de ce point, la plante rejette du $\\ce{O2}$ et s'enrichit en matière organique.\n:::\n\n### 4. Les facteurs qui influencent l'intensité de la photosynthèse\nOn mesure l'**intensité photosynthétique** par le volume de $\\ce{O2}$ dégagé (ou de $\\ce{CO2}$ absorbé) par unité de temps, ou par le nombre de bulles par minute.\n\n| Facteur | Effet |\n|---|---|\n| **Éclairement** | l'intensité augmente avec l'éclairement puis atteint un **palier** (saturation) |\n| **Concentration en $\\ce{CO2}$** | l'air n'en contient qu'environ 0,04 % : un air enrichi en $\\ce{CO2}$ élève le palier |\n| **Température** | l'intensité augmente jusqu'à un **optimum** (souvent 25 à 35 °C pour les plantes tropicales) puis chute fortement au-delà de 40 °C environ (les enzymes sont abîmées) |\n| **Eau** | en saison sèche ou sous l'harmattan, la plante ferme ses stomates pour limiter la transpiration : le $\\ce{CO2}$ n'entre plus, la photosynthèse ralentit |\n\n:::propriete\n**Loi du facteur limitant** (Blackman, 1905) : quand la photosynthèse dépend de plusieurs facteurs, son intensité est fixée par le facteur qui est **le moins favorable** (le plus « en manque »). Augmenter un autre facteur ne sert à rien tant que le facteur limitant n'est pas amélioré.\n:::\n\n:::remarque\nApplications agricoles : semer à la bonne densité (des plants trop serrés se font de l'ombre), irriguer en saison sèche, désherber (les mauvaises herbes prennent la lumière). À l'inverse, le **cacaoyer** et le **caféier** des régions de Kpalimé et de Badou sont des plantes d'ombre : on les cultive sous des arbres d'ombrage, car un éclairement trop fort et la chaleur les abîment.\n:::\n\n:::attention\nNe confonds pas « la plante respire la nuit » et « la plante ne respire que la nuit » : la respiration a lieu **jour et nuit** ; le jour, elle est simplement masquée par une photosynthèse plus intense.\n:::",
+   "definition": "À la lumière, les organes chlorophylliens absorbent du CO2 et rejettent du O2 ; l'intensité de ces échanges dépend de l'éclairement, de la concentration en CO2, de la température et de l'eau, et elle est fixée par le facteur limitant.",
+   "formules": [
+    "$\\text{P brute} = \\text{P nette} + \\text{respiration}$",
+    "$\\text{intensité} = \\dfrac{\\text{volume de } \\ce{O2} \\text{ dégagé}}{\\text{durée}}$"
+   ],
+   "niveaux": {
+    "phrase": "À la lumière, la feuille prend du CO2 et rejette du O2, d'autant plus que la lumière, le CO2 et la chaleur sont favorables.",
+    "simple": "Imagine une boutique qui achète du CO2 et vend du O2. Le jour, elle vend plus qu'elle ne consomme pour son propre fonctionnement (respiration). La nuit, la vente s'arrête mais la boutique continue de consommer. Le chiffre d'affaires dépend du produit qui manque le plus : la lumière, le CO2 ou la chaleur.",
+    "complete": "Les échanges gazeux chlorophylliens (absorption de CO2, rejet de O2) se mesurent avec l'élodée, le BBT ou l'ExAO. Ils se superposent à la respiration, permanente : on mesure une photosynthèse nette, et la photosynthèse brute est la nette plus la respiration. Le point de compensation est l'éclairement où les échanges nets s'annulent. L'intensité photosynthétique croît avec l'éclairement jusqu'à un palier, augmente avec la concentration en CO2 et passe par un optimum thermique ; elle est fixée par le facteur limitant (loi de Blackman)."
+   },
+   "analogie": "Une équipe de football ne marque pas plus si l'on ajoute des ballons quand il manque un attaquant : c'est l'élément le plus faible qui limite le résultat. Pour la photosynthèse, si la lumière manque, ajouter du CO2 ne change rien.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : un élève compte les bulles dégagées par un rameau d'élodée en fonction de la distance de la lampe. 10 cm : 40 bulles/min ; 20 cm : 24 bulles/min ; 30 cm : 12 bulles/min ; 40 cm : 6 bulles/min ; obscurité : 0. 1) Décris l'évolution. 2) Interprète. 3) Quel facteur l'élève fait-il varier ?",
+     "etapes": [
+      "Description : plus la lampe s'éloigne, moins il y a de bulles (40 à 10 cm, 6 à 40 cm) ; à l'obscurité, aucune bulle.",
+      "Interprétation : les bulles contiennent du O2 issu de la photosynthèse ; quand la lampe s'éloigne, l'éclairement reçu diminue, donc l'intensité photosynthétique diminue.",
+      "Le facteur étudié est l'éclairement (intensité lumineuse) ; la température et la quantité de CO2 doivent rester les mêmes (on peut placer un bac d'eau entre la lampe et le bécher pour éviter l'échauffement).",
+      "Conclusion : dans ces conditions, la lumière est le facteur limitant ; l'intensité de la photosynthèse augmente avec l'éclairement."
+     ]
+    },
+    {
+     "enonce": "Document : échanges nets de O2 d'une feuille de manioc (en unités arbitraires ; + = rejet, − = absorption) selon l'éclairement. 0 klux : −2 ; 2 klux : 0 ; 5 klux : +4 ; 10 klux : +8 ; 20 klux : +9 ; 30 klux : +9. 1) Que vaut la respiration ? 2) Quel est le point de compensation ? 3) Calcule la photosynthèse brute à 10 klux.",
+     "etapes": [
+      "1) À 0 klux, il n'y a pas de photosynthèse : l'absorption de 2 unités de O2 représente la respiration (2 unités).",
+      "2) Les échanges nets sont nuls à 2 klux : c'est le point de compensation (photosynthèse = respiration).",
+      "3) À 10 klux, la photosynthèse nette vaut 8 ; brute = nette + respiration = 8 + 2 = 10 unités.",
+      "Remarque : au-delà de 20 klux, la valeur reste à 9 (palier) : la lumière n'est plus le facteur limitant."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que la plante « ne respire pas le jour ».",
+    "Confondre bûchette incandescente (qui se rallume dans le O2) et allumette enflammée.",
+    "Confondre photosynthèse nette et brute, ou oublier d'ajouter la respiration.",
+    "Interpréter un palier comme « la plante ne fait plus de photosynthèse » : elle en fait toujours, mais au maximum permis par un autre facteur.",
+    "Faire varier deux facteurs à la fois (lampe plus proche qui chauffe aussi l'eau)."
+   ],
+   "astuces": [
+    "BBT : « Jaune = CO2 en hausse ; Bleu = CO2 en baisse ».",
+    "Devant une courbe avec palier, demande-toi : « quel autre facteur pourrait élever ce palier ? »",
+    "Pour un calcul ExAO : pente = variation de concentration ÷ durée ; la respiration se lit à l'obscurité."
+   ],
+   "mnemo": "« Le jour, la plante fait les deux ; la nuit, elle ne fait qu'une » (photosynthèse + respiration / respiration seule).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? L'eau de chaux se trouble en présence de CO2 et une bûchette incandescente se rallume dans le dioxygène. Ces tests servent ici à identifier les gaz échangés par la plante."
+   },
+   "methode_redaction": "Pour exploiter une courbe ExAO : 1) annoncer ce que l'on mesure et les conditions (lumière/obscurité) ; 2) décrire chaque phase avec des valeurs chiffrées et les unités ; 3) calculer si demandé (vitesse = variation ÷ durée) ; 4) interpréter (photosynthèse, respiration) ; 5) conclure. Pour un facteur limitant : nommer le facteur, justifier par le palier ou par la comparaison de deux séries.",
+   "flash": [
+    {
+     "q": "Quel gaz se dégage de l'élodée éclairée et comment l'identifier ?",
+     "r": "Le dioxygène : il rallume une bûchette incandescente."
+    },
+    {
+     "q": "Couleur du BBT quand le CO2 diminue ?",
+     "r": "Bleu."
+    },
+    {
+     "q": "Photosynthèse brute = ?",
+     "r": "Photosynthèse nette + respiration."
+    },
+    {
+     "q": "Qu'est-ce que le point de compensation ?",
+     "r": "L'éclairement pour lequel photosynthèse et respiration s'équilibrent : échanges gazeux nets nuls."
+    },
+    {
+     "q": "Énoncé de la loi du facteur limitant ?",
+     "r": "L'intensité de la photosynthèse est fixée par le facteur le moins favorable."
+    },
+    {
+     "q": "Proportion de CO2 dans l'air ?",
+     "r": "Environ 0,04 %."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C07-N2.svg",
+    "alt": "Courbe des échanges de dioxygène d'une plante selon l'éclairement, en air normal et en air enrichi en CO2",
+    "legende": "Absorption de O2 à l'obscurité, point de compensation, palier ; un air enrichi en CO2 relève le palier (facteur limitant).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C07-N3",
+   "titre": "Le chloroplaste, siège de la photosynthèse, et les pigments chlorophylliens",
+   "prerequis_notions": [
+    "SVT-S2-C07-N1",
+    "SVT-S1-C01-N2"
+   ],
+   "cours_md": "### 1. Le chloroplaste, une centrale solaire dans la cellule\nOn a vu au chapitre 1 que les cellules chlorophylliennes contiennent des **chloroplastes** (souvent 20 à 100 par cellule de feuille).\n\n:::definition\n**Chloroplaste** : organite de 5 à 10 µm, limité par une **double membrane** (enveloppe), contenant un liquide, le **stroma**, et un réseau de sacs aplatis, les **thylakoïdes**, empilés par endroits en **grana** (singulier : granum). La membrane des thylakoïdes porte les **pigments chlorophylliens**. Le stroma contient de l'ADN, des ribosomes et souvent des grains d'amidon.\n:::\n\n### 2. Preuves que le chloroplaste est le siège de la photosynthèse\n- **Localisation de l'amidon** : une feuille d'élodée éclairée puis traitée à l'eau iodée montre, au microscope, des grains bleu-noir **dans les chloroplastes**.\n- **Expérience d'Engelmann (1882)** : il éclaire un filament d'algue verte (spirogyre, dont le chloroplaste est un ruban spiralé) dans une eau contenant des **bactéries attirées par le dioxygène**. Les bactéries se rassemblent **contre le chloroplaste éclairé** et non contre les autres parties de la cellule : le $\\ce{O2}$ est produit par le chloroplaste.\n- **Chloroplastes isolés** : des chloroplastes extraits de feuilles broyées et placés dans un milieu adapté **dégagent du $\\ce{O2}$ à la lumière** (Hill, 1937).\n\n### 3. Extraire et séparer les pigments\n:::methode\n**Extraction** : broyer des feuilles vertes (épinard, gboma, feuilles de manioc) avec un peu de sable et d'**alcool à 90°** (ou d'acétone), puis filtrer : on obtient une **solution de chlorophylle brute**, verte.\n**Chromatographie sur papier** : déposer une goutte d'extrait à 2 cm du bas d'une bande de papier filtre (ligne de dépôt), plonger le bas du papier dans un **solvant** (éther de pétrole + acétone) sans immerger la tache. Le solvant monte et entraîne les pigments à des vitesses différentes selon leur solubilité et leur fixation sur le papier.\n:::\n\nOn obtient, du haut vers le bas : **carotènes** (orange), **xanthophylles** (jaune), **chlorophylle a** (vert-bleu), **chlorophylle b** (vert-jaune).\n\n:::propriete\nChaque pigment est caractérisé par son **rapport frontal** :\n$$R_f = \\frac{\\text{distance parcourue par le pigment}}{\\text{distance parcourue par le solvant}}$$\n$R_f$ est toujours compris entre 0 et 1 ; plus il est grand, plus le pigment migre haut.\n:::\n\n### 4. Les pigments absorbent surtout le bleu et le rouge\n- La lumière blanche est un mélange de radiations de longueurs d'onde de 400 nm (violet) à 700 nm (rouge).\n- **Spectre d'absorption** : quand on fait passer de la lumière blanche à travers une solution de chlorophylle puis à travers un prisme, des **bandes sombres** apparaissent dans le **bleu-violet** et dans le **rouge** : ces radiations sont absorbées. Le **vert** est très peu absorbé : il traverse ou est renvoyé, d'où la couleur verte des feuilles.\n- **Spectre d'action** : Engelmann éclaire une algue filamenteuse avec la lumière décomposée par un prisme ; les bactéries se rassemblent surtout dans les zones **bleue et rouge**. La photosynthèse est donc la plus intense pour les radiations les plus absorbées.\n\n:::propriete\nLe spectre d'action de la photosynthèse **correspond** au spectre d'absorption des pigments chlorophylliens : ce sont les radiations absorbées par la chlorophylle qui fournissent l'énergie de la photosynthèse.\n:::\n\n:::remarque\nLes feuilles rouges (croton rouge, amarante rouge, oseille de Guinée « bissap ») contiennent aussi de la chlorophylle, masquée par d'autres pigments (anthocyanes). Une solution de chlorophylle éclairée fortement émet une lueur rouge : c'est la **fluorescence**.\n:::\n\n:::attention\nLes pigments ne sont pas dans le stroma « en vrac » : ils sont fixés dans les **membranes des thylakoïdes**. Et ne confonds pas thylakoïdes (chloroplaste) et crêtes (mitochondrie).\n:::",
+   "definition": "Le chloroplaste, organite à double membrane contenant des thylakoïdes et un stroma, est le siège de la photosynthèse ; ses pigments (chlorophylles a et b, carotènes, xanthophylles) absorbent surtout la lumière bleue et rouge.",
+   "formules": [
+    "$R_f = \\dfrac{d_{\\text{pigment}}}{d_{\\text{solvant}}}$",
+    "$0 < R_f < 1$"
+   ],
+   "niveaux": {
+    "phrase": "La photosynthèse se fait dans les chloroplastes, grâce à des pigments verts qui absorbent le bleu et le rouge.",
+    "simple": "Le chloroplaste est un panneau solaire miniature. Ses cellules photovoltaïques sont les pigments rangés sur des piles de disques (les grana). Ils captent surtout la lumière bleue et rouge et « rejettent » le vert : c'est pour cela que les feuilles nous paraissent vertes.",
+    "complete": "Le chloroplaste (5 à 10 µm, double membrane, stroma, thylakoïdes empilés en grana, ADN, ribosomes, amidon) est le siège de la photosynthèse : l'amidon s'y forme, il produit le O2 (expérience d'Engelmann, chloroplastes isolés). Les pigments, extraits par l'alcool et séparés par chromatographie (Rf), sont les chlorophylles a et b et les caroténoïdes. Leur spectre d'absorption présente deux maximums, dans le bleu-violet et le rouge, qui coïncident avec le spectre d'action de la photosynthèse."
+   },
+   "analogie": "Une course de pirogues sur le lac Togo : toutes partent de la même ligne (ligne de dépôt), mais les plus légères (carotènes) vont plus loin que les plus lourdes (chlorophylle b). Le Rf, c'est la part de la course parcourue par chaque pirogue.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : sur un chromatogramme, le solvant a parcouru 8,0 cm. Une tache orange a migré de 7,6 cm et une tache vert-jaune de 2,4 cm. Calcule leur Rf et identifie-les.",
+     "etapes": [
+      "Rf de la tache orange = 7,6 ÷ 8,0 = 0,95.",
+      "Rf de la tache vert-jaune = 2,4 ÷ 8,0 = 0,30.",
+      "Identification : la tache orange, la plus haute, correspond aux carotènes ; la tache vert-jaune, la plus basse, correspond à la chlorophylle b.",
+      "Conclusion : carotènes (Rf = 0,95) et chlorophylle b (Rf = 0,30)."
+     ]
+    },
+    {
+     "enonce": "Document : trois lots de jeunes plants de haricot identiques poussent 3 semaines sous des filtres colorés laissant passer la même quantité d'énergie lumineuse. Gain de matière sèche : lumière bleue 12 g ; lumière verte 3 g ; lumière rouge 11 g. Interprète ces résultats.",
+     "etapes": [
+      "Je décris : la croissance est forte en lumière bleue et rouge, très faible en lumière verte.",
+      "La matière sèche gagnée provient de la photosynthèse : elle est donc intense en bleu et en rouge, faible en vert.",
+      "Je relie au cours : la chlorophylle absorbe surtout le bleu et le rouge et très peu le vert ; une radiation non absorbée ne fournit pas d'énergie.",
+      "Conclusion : seules les radiations absorbées par les pigments chlorophylliens sont efficaces pour la photosynthèse."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que la chlorophylle absorbe le vert (c'est l'inverse : le vert est peu absorbé).",
+    "Calculer le Rf avec la distance mesurée depuis le bas du papier au lieu de la ligne de dépôt.",
+    "Plonger la tache de dépôt dans le solvant : les pigments se dissolvent dans le bac au lieu de migrer.",
+    "Placer les pigments dans le stroma au lieu des membranes des thylakoïdes.",
+    "Confondre spectre d'absorption (ce que le pigment absorbe) et spectre d'action (ce qui fait fonctionner la photosynthèse)."
+   ],
+   "astuces": [
+    "Ordre des taches du haut vers le bas : « Ca-X-a-b » (carotènes, xanthophylles, chlorophylle a, chlorophylle b).",
+    "Un Rf n'a pas d'unité et ne dépasse jamais 1 : si tu trouves 1,2, tu as inversé le calcul."
+   ],
+   "mnemo": "« Le chloroplaste a des Grana et des Thylakoïdes, la mitochondrie a des Crêtes » : G.T. pour le soleil, C. pour la respiration.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? La lumière blanche peut être décomposée par un prisme en couleurs (arc-en-ciel). On utilise cette propriété pour savoir quelles couleurs la chlorophylle absorbe."
+   },
+   "methode_redaction": "Pour un schéma de chloroplaste : titre, double membrane bien visible, thylakoïdes empilés en grana, stroma, amidon, légendes à la règle. Pour la chromatographie : décrire le protocole dans l'ordre (extraction, dépôt, migration), nommer les quatre pigments dans l'ordre, calculer les Rf avec la formule.",
+   "flash": [
+    {
+     "q": "Où sont situés les pigments dans le chloroplaste ?",
+     "r": "Dans les membranes des thylakoïdes."
+    },
+    {
+     "q": "Les quatre pigments séparés par chromatographie ?",
+     "r": "Carotènes, xanthophylles, chlorophylle a, chlorophylle b (du haut vers le bas)."
+    },
+    {
+     "q": "Formule du Rf ?",
+     "r": "Distance parcourue par le pigment ÷ distance parcourue par le solvant."
+    },
+    {
+     "q": "Quelles couleurs la chlorophylle absorbe-t-elle surtout ?",
+     "r": "Le bleu-violet et le rouge."
+    },
+    {
+     "q": "Pourquoi les feuilles sont-elles vertes ?",
+     "r": "Parce que le vert est peu absorbé : il est réfléchi ou transmis."
+    },
+    {
+     "q": "Que montre l'expérience d'Engelmann ?",
+     "r": "Le O2 est produit par le chloroplaste, surtout en lumière bleue et rouge."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C07-N3.svg",
+    "alt": "Ultrastructure d'un chloroplaste, chromatogramme des pigments et spectre d'absorption de la chlorophylle",
+    "legende": "Chloroplaste (double membrane, stroma, grana), séparation des pigments par chromatographie et absorption maximale dans le bleu et le rouge.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C07-N4",
+   "titre": "Le bilan de la photosynthèse : équation, origine du dioxygène et devenir des produits",
+   "prerequis_notions": [
+    "SVT-S2-C07-N2",
+    "SVT-S2-C07-N3",
+    "SVT-S1-C04"
+   ],
+   "cours_md": "### 1. L'équation bilan\nEn réunissant les résultats : la plante absorbe $\\ce{CO2}$ et $\\ce{H2O}$, utilise l'énergie lumineuse captée par la chlorophylle, fabrique du glucose et rejette du $\\ce{O2}$.\n\n:::propriete\nÉquation bilan simplifiée :\n$$\\ce{6CO2 + 6H2O ->[\\text{lumière}][\\text{chlorophylle}] C6H12O6 + 6O2}$$\nÉquation plus exacte (qui montre l'origine du dioxygène) :\n$$\\ce{6CO2 + 12H2O -> C6H12O6 + 6O2 + 6H2O}$$\n:::\n\nVérification de la conservation de la masse (masses molaires : C = 12, H = 1, O = 16 g/mol) : $6 \\times 44 + 6 \\times 18 = 372$ g et $180 + 6 \\times 32 = 372$ g.\n\n:::definition\nLa photosynthèse est une **conversion d'énergie** : l'énergie **lumineuse** est transformée en énergie **chimique**, stockée dans les liaisons des molécules organiques (glucose). C'est cette énergie que libérera ensuite la respiration (chapitre 8).\n:::\n\n### 2. D'où vient le dioxygène rejeté ?\nLe $\\ce{O2}$ pourrait venir du $\\ce{CO2}$ ou de l'eau. En **1941, Ruben et Kamen** utilisent de l'oxygène lourd, l'**isotope $^{18}\\text{O}$**, repérable par un spectromètre de masse :\n- algues (chlorelles) + eau marquée $\\ce{H2{}^{18}O}$ + $\\ce{CO2}$ normal → le dioxygène rejeté est **marqué** ($\\ce{^{18}O2}$) ;\n- algues + eau normale + $\\ce{C^{18}O2}$ marqué → le dioxygène rejeté **n'est pas marqué**.\n\n:::propriete\nLe dioxygène rejeté par la photosynthèse provient de la **décomposition de l'eau** (photolyse de l'eau), et non du $\\ce{CO2}$. Le carbone et l'oxygène du $\\ce{CO2}$ se retrouvent dans le glucose. C'est pourquoi on écrit $\\ce{12H2O}$ à gauche : il faut 12 molécules d'eau pour libérer les 12 atomes d'oxygène de $\\ce{6O2}$.\n:::\n\n:::remarque\nPour aller plus loin (hors programme détaillé) : la photosynthèse se fait en **deux étapes**. Dans les **thylakoïdes**, l'énergie lumineuse décompose l'eau, libère le $\\ce{O2}$ et produit des molécules riches en énergie. Dans le **stroma**, ces molécules servent à fixer le $\\ce{CO2}$ et à fabriquer des sucres (cycle de Calvin, découvert vers 1950).\n:::\n\n### 3. Le devenir des produits de la photosynthèse\n- Le **glucose** formé le jour est stocké provisoirement sous forme d'**amidon** dans le chloroplaste.\n- La nuit, cet amidon est transformé en **saccharose**, qui quitte la feuille par la **sève élaborée** (dans le **phloème**, ou liber) vers tous les organes.\n- Dans les organes, les sucres servent :\n  - à **respirer** (source d'énergie) ;\n  - à **construire** : cellulose des parois, bois ; avec l'azote et les autres ions du sol (chapitre 6), fabrication d'**acides aminés et de protéines** (haricot, soja) ;\n  - à **mettre en réserve** : **amidon** des tubercules d'igname et de manioc et des grains de maïs, de sorgho, de riz ; **saccharose** de la canne à sucre ; **lipides** des graines d'arachide, des noix de karité, des fruits du palmier à huile.\n\n### 4. Importance de la photosynthèse\n- Elle produit **toute la matière organique** des chaînes alimentaires : les plantes vertes sont les producteurs primaires (chapitre 4).\n- Elle renouvelle le **dioxygène** de l'atmosphère et retire du $\\ce{CO2}$, un gaz à effet de serre : forêts et cultures sont des **puits de carbone** (chapitre 5). La déforestation réduit ce puits.\n- Le charbon, le pétrole et le gaz naturel sont de la matière organique fabriquée par photosynthèse il y a des millions d'années (« énergie solaire fossile »).\n- Le **rendement agricole** (tonnes de maïs ou d'igname par hectare) dépend directement de l'intensité de la photosynthèse et de la nutrition minérale.\n\n:::attention\nN'écris jamais « la plante transforme le $\\ce{CO2}$ en $\\ce{O2}$ » : le $\\ce{O2}$ vient de l'eau, et le carbone du $\\ce{CO2}$ va dans le glucose.\n:::",
+   "definition": "La photosynthèse transforme 6 CO2 et de l'eau en glucose et 6 O2 grâce à l'énergie lumineuse ; le dioxygène rejeté vient de l'eau, et le glucose devient amidon, saccharose, cellulose, lipides ou protéines.",
+   "formules": [
+    "$\\ce{6CO2 + 12H2O -> C6H12O6 + 6O2 + 6H2O}$",
+    "$\\ce{6CO2 + 6H2O -> C6H12O6 + 6O2}$ (forme simplifiée)",
+    "$M(\\ce{C6H12O6}) = 180\\ \\text{g/mol}$ ; $M(\\ce{CO2}) = 44\\ \\text{g/mol}$ ; $M(\\ce{O2}) = 32\\ \\text{g/mol}$"
+   ],
+   "niveaux": {
+    "phrase": "La plante transforme le CO2 et l'eau en glucose grâce à la lumière ; l'oxygène rejeté vient de l'eau.",
+    "simple": "Dans la feuille, la lumière « casse » l'eau : l'oxygène part dans l'air, l'hydrogène sert à transformer le CO2 en sucre. Ce sucre voyage dans la sève élaborée jusqu'aux tubercules d'igname, aux grains de maïs ou aux graines d'arachide, où il est rangé en réserve.",
+    "complete": "Bilan : 6 CO2 + 12 H2O → C6H12O6 + 6 O2 + 6 H2O, avec conversion de l'énergie lumineuse en énergie chimique. Le marquage isotopique à l'oxygène 18 (Ruben et Kamen, 1941) prouve que le O2 provient de la photolyse de l'eau. Le glucose est stocké en amidon dans le chloroplaste, exporté sous forme de saccharose par le phloème et utilisé pour la respiration, la construction (cellulose, protéines avec l'azote minéral) et les réserves (amidon, saccharose, lipides). La photosynthèse est à la base des réseaux trophiques, du O2 atmosphérique et du stockage du carbone."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Une feuille de maïs de 1 m² fabrique environ 1,5 g de glucose par heure en plein soleil. Calcule la masse de CO2 absorbé et la masse de O2 rejeté pendant cette heure (C = 12 ; H = 1 ; O = 16 g/mol).",
+     "etapes": [
+      "Quantité de glucose : n = 1,5 ÷ 180 ≈ 0,00833 mol.",
+      "D'après l'équation, 1 mol de glucose nécessite 6 mol de CO2 et libère 6 mol de O2.",
+      "Masse de CO2 = 6 × 0,00833 × 44 = 2,2 g.",
+      "Masse de O2 = 6 × 0,00833 × 32 = 1,6 g.",
+      "Conclusion : la feuille absorbe 2,2 g de CO2 et rejette 1,6 g de O2 par heure."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire que le O2 vient du CO2.",
+    "Équation non équilibrée (oublier le coefficient 6 devant O2 ou CO2).",
+    "Oublier de citer l'énergie lumineuse et la chlorophylle dans l'équation.",
+    "Dire que l'amidon circule dans la sève : c'est le saccharose (soluble) qui circule.",
+    "Croire que les protéines peuvent être fabriquées sans les ions azotés du sol."
+   ],
+   "astuces": [
+    "Pour les calculs, retiens les masses molaires : glucose 180, CO2 44, O2 32, H2O 18 g/mol.",
+    "Proportion utile : 1 mol de glucose ↔ 6 mol de CO2 ↔ 6 mol de O2 (même volume de CO2 absorbé que de O2 rejeté).",
+    "Ruben et Kamen : « on marque l'eau, l'oxygène est marqué »."
+   ],
+   "mnemo": "« 6-12 → 1-6-6 » : 6 CO₂ + 12 H₂O → 1 glucose + 6 O₂ + 6 H₂O.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? En chimie, tu as appris à équilibrer une équation et que la masse se conserve au cours d'une réaction. Ici, ces règles s'appliquent à une réaction du vivant."
+   },
+   "methode_redaction": "Pour écrire le bilan : équation équilibrée avec « lumière » et « chlorophylle » au-dessus de la flèche. Pour exploiter une expérience de marquage : 1) dire ce qui est marqué au départ ; 2) dire où l'on retrouve le marquage ; 3) conclure sur l'origine de la molécule. Pour un calcul : quantité de matière (n = m ÷ M), proportions de l'équation, résultat avec unité.",
+   "flash": [
+    {
+     "q": "Équation bilan complète de la photosynthèse ?",
+     "r": "$\\ce{6CO2 + 12H2O -> C6H12O6 + 6O2 + 6H2O}$ (lumière, chlorophylle)."
+    },
+    {
+     "q": "D'où vient le dioxygène rejeté ?",
+     "r": "De la décomposition (photolyse) de l'eau."
+    },
+    {
+     "q": "Qui l'a démontré et comment ?",
+     "r": "Ruben et Kamen (1941), avec de l'eau marquée à l'oxygène 18."
+    },
+    {
+     "q": "Sous quelle forme les sucres circulent-ils dans la plante ?",
+     "r": "Saccharose, dans la sève élaborée (phloème)."
+    },
+    {
+     "q": "Quelle conversion d'énergie réalise la photosynthèse ?",
+     "r": "Énergie lumineuse → énergie chimique."
+    },
+    {
+     "q": "Trois formes de réserve des produits de la photosynthèse ?",
+     "r": "Amidon (igname, maïs), saccharose (canne à sucre), lipides (arachide, karité)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C07-N4.svg",
+    "alt": "Schéma bilan de la photosynthèse dans une feuille avec les entrées, les sorties et l'équation",
+    "legende": "La feuille absorbe CO2 et eau, capte la lumière, rejette O2 et exporte du saccharose vers les réserves.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S2-C07-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C07-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Pour mettre en évidence l'amidon dans une feuille décolorée, on utilise :",
+   "choix": [
+    "l'eau de chaux",
+    "l'eau iodée",
+    "le bleu de bromothymol",
+    "la liqueur de Fehling"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Pense à la couleur bleu-noir."
+   ],
+   "corrige": [
+    "L'amidon donne une coloration bleu-noir avec l'eau iodée.",
+    "Réponse B. (L'eau de chaux sert au CO2, le BBT aux variations de CO2, la liqueur de Fehling à certains sucres comme le glucose.)"
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre les réactifs du CO2 (eau de chaux, BBT) et celui de l'amidon.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C07-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C07-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Le gaz recueilli au-dessus d'un rameau d'élodée éclairé rallume une bûchette incandescente. Ce gaz est surtout :",
+   "choix": [
+    "du dioxyde de carbone",
+    "de la vapeur d'eau",
+    "du dioxygène",
+    "du diazote"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Seul le dioxygène ravive la combustion d'une bûchette incandescente.",
+    "Réponse C : l'élodée éclairée rejette du dioxygène (photosynthèse)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser que la plante rejette du CO2 à la lumière.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C07-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C07-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Les radiations lumineuses les plus absorbées par la chlorophylle sont :",
+   "choix": [
+    "le vert et le jaune",
+    "le bleu-violet et le rouge",
+    "le jaune et l'orange",
+    "uniquement le vert"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le spectre d'absorption montre deux maximums : bleu-violet et rouge.",
+    "Réponse B ; le vert, peu absorbé, est renvoyé : d'où la couleur des feuilles."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Croire que la feuille absorbe le vert parce qu'elle est verte.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C07-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C07-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Sur un chromatogramme, le front du solvant est à 12 cm de la ligne de dépôt et la tache de chlorophylle a à 5,4 cm. Calcule le Rf de la chlorophylle a (nombre seul, 2 décimales).",
+   "reponses_acceptees": [
+    "0,45",
+    "0.45",
+    ",45",
+    "Rf=0,45"
+   ],
+   "indices": [
+    "Rf = distance du pigment ÷ distance du solvant."
+   ],
+   "corrige": [
+    "$R_f = \\dfrac{5{,}4}{12}$.",
+    "$R_f = 0{,}45$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser 12 par 5,4 (on obtiendrait un nombre supérieur à 1, impossible).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C07-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C07-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Une feuille panachée de croton (bords jaunes, centre vert), éclairée 24 h après désamidonnage, est testée à l'eau iodée. Seul le centre devient bleu-noir. On en déduit que :",
+   "choix": [
+    "la lumière est nécessaire à la synthèse d'amidon",
+    "la chlorophylle est nécessaire à la synthèse d'amidon",
+    "le CO2 est nécessaire à la synthèse d'amidon",
+    "les bords de la feuille respirent plus que le centre"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Les bords et le centre ont reçu la même lumière et le même air : seule la présence de chlorophylle diffère.",
+    "Seule la partie chlorophyllienne contient de l'amidon : réponse B."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre « la lumière » alors que toute la feuille était éclairée.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C07-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C07-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quelle masse de CO2 (en g) une plante doit-elle absorber pour fabriquer 36 g de glucose ? Données : $\\ce{6CO2 + 6H2O -> C6H12O6 + 6O2}$ ; M(glucose) = 180 g/mol ; M(CO2) = 44 g/mol. Donne le nombre seul.",
+   "reponses_acceptees": [
+    "52,8",
+    "52.8",
+    "52,8g",
+    "52,8 g"
+   ],
+   "indices": [
+    "Calcule d'abord la quantité de matière de glucose.",
+    "1 mol de glucose ↔ 6 mol de CO2."
+   ],
+   "corrige": [
+    "n(glucose) = 36 ÷ 180 = 0,2 mol.",
+    "n(CO2) = 6 × 0,2 = 1,2 mol.",
+    "m(CO2) = 1,2 × 44 = 52,8 g."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Oublier le coefficient 6 de l'équation.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C07-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C07-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "ExAO : une plante est placée dans une enceinte fermée. À la lumière, la concentration en O2 passe de 8,0 à 9,2 mg/L en 4 min. À l'obscurité, elle passe ensuite de 9,2 à 8,8 mg/L en 4 min. Calcule l'intensité de la photosynthèse brute en mg·L⁻¹·min⁻¹ (nombre seul).",
+   "reponses_acceptees": [
+    "0,4",
+    "0.4",
+    "0,40",
+    "0.40"
+   ],
+   "indices": [
+    "À l'obscurité, on mesure la respiration seule.",
+    "Brute = nette + respiration."
+   ],
+   "corrige": [
+    "Photosynthèse nette (lumière) : (9,2 − 8,0) ÷ 4 = 0,30 mg·L⁻¹·min⁻¹.",
+    "Respiration (obscurité) : (9,2 − 8,8) ÷ 4 = 0,10 mg·L⁻¹·min⁻¹.",
+    "Photosynthèse brute = nette + respiration = 0,30 + 0,10 = 0,40 mg·L⁻¹·min⁻¹."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Donner 0,30 (photosynthèse nette) en oubliant que la plante respire aussi à la lumière.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C07-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C07-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation d'expériences. Trois plants de haricot sont placés 48 h à l'obscurité, puis 24 h dans les conditions suivantes avant un test à l'eau iodée sur une feuille de chacun.\n\n| Plant | Conditions | Résultat |\n|---|---|---|\n| A | lumière, sous cloche avec de l'eau | bleu-noir |\n| B | obscurité, sous cloche avec de l'eau | jaune-brun |\n| C | lumière, sous cloche avec de la potasse (absorbe le CO2) | jaune-brun |\n\n1) Pourquoi a-t-on placé les plants 48 h à l'obscurité ? 2) Interprète la comparaison A/B puis A/C. 3) Conclus.",
+   "indices": [
+    "Compare toujours deux plants qui ne diffèrent que par un seul facteur."
+   ],
+   "corrige": [
+    "1) Pour qu'ils consomment leur amidon (désamidonnage) : l'amidon détecté à la fin aura été fabriqué pendant l'expérience.",
+    "2) A/B : seule la lumière diffère ; sans lumière, pas d'amidon : la lumière est nécessaire.",
+    "A/C : seule la présence de CO2 diffère ; sans CO2, pas d'amidon : le CO2 est nécessaire. A est le témoin commun.",
+    "3) Conclusion : la feuille ne fabrique de l'amidon (photosynthèse) qu'en présence de lumière et de CO2."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Comparer B et C, qui diffèrent par deux facteurs à la fois (lumière et CO2) : on ne peut rien conclure de cette comparaison.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C07-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C07-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données. On mesure l'intensité de la photosynthèse d'une plante (en unités arbitraires) selon l'éclairement, avec deux concentrations de CO2, à 25 °C.\n\n| Éclairement (klux) | 5 | 10 | 20 | 40 |\n|---|---|---|---|---|\n| CO2 = 0,04 % | 10 | 15 | 16 | 16 |\n| CO2 = 0,10 % | 10 | 19 | 28 | 30 |\n\n1) Décris les résultats pour CO2 = 0,04 %. 2) Quel est le facteur limitant à 5 klux ? Justifie. 3) Quel est le facteur limitant à 40 klux dans l'air normal ? Justifie. 4) Un maraîcher de Lomé veut augmenter sa production en plein soleil : que lui conseiller ?",
+   "indices": [
+    "Le facteur limitant est celui qui, s'il augmente, fait augmenter l'intensité."
+   ],
+   "corrige": [
+    "1) Avec 0,04 % de CO2, l'intensité augmente de 10 à 16 entre 5 et 20 klux puis reste à 16 (palier) jusqu'à 40 klux.",
+    "2) À 5 klux, l'intensité est la même (10) avec les deux concentrations de CO2 : ajouter du CO2 ne change rien, c'est la lumière qui limite.",
+    "3) À 40 klux dans l'air normal, plus de lumière n'augmente plus l'intensité (palier à 16), alors qu'avec plus de CO2 on atteint 30 : le CO2 est le facteur limitant.",
+    "4) En plein soleil, la lumière n'est pas limitante : il faut agir sur les autres facteurs (eau par l'irrigation pour garder les stomates ouverts, température, nutrition minérale) ; enrichir l'air en CO2 n'est possible que sous serre."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Conclure que la lumière est toujours le facteur limitant.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C07-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C07-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation d'une expérience historique. Ruben et Kamen (1941) cultivent des algues vertes à la lumière dans deux flacons. Flacon 1 : eau marquée à l'oxygène 18 ($\\ce{H2{}^{18}O}$) et CO2 normal. Flacon 2 : eau normale et CO2 marqué ($\\ce{C^{18}O2}$). Le dioxygène dégagé est marqué dans le flacon 1, non marqué dans le flacon 2.\n1) Quelle hypothèse cette expérience permet-elle de tester ? 2) Interprète les résultats. 3) Explique pourquoi l'équation bilan s'écrit avec 12 H2O.",
+   "indices": [
+    "Repère quelle molécule porte le marquage au départ dans chaque flacon."
+   ],
+   "corrige": [
+    "1) Hypothèse testée : le O2 rejeté provient-il de l'eau ou du CO2 ?",
+    "2) Flacon 1 : seul l'oxygène de l'eau est marqué et le O2 dégagé est marqué : il vient de l'eau.",
+    "Flacon 2 : l'oxygène du CO2 est marqué mais le O2 dégagé ne l'est pas : il ne vient pas du CO2 (l'oxygène du CO2 va dans le glucose et dans l'eau formée).",
+    "3) 6 O2 contiennent 12 atomes d'oxygène, qui doivent tous venir de l'eau : il faut donc 12 H2O ; 6 H2O sont reformées : 6 CO2 + 12 H2O → C6H12O6 + 6 O2 + 6 H2O."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Conclure à partir d'un seul flacon : c'est la comparaison des deux qui est probante.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C07-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S2-C07-N2",
+    "SVT-S2-C07-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Problème. Une plante en pot est placée dans une enceinte fermée, éclairée 12 h puis à l'obscurité 12 h. Des sondes indiquent : à la lumière, dégagement net de O2 de 0,5 mmol/h ; à l'obscurité, absorption de O2 de 0,2 mmol/h (on suppose la respiration constante jour et nuit).\n1) Calcule le bilan net de O2 sur 24 h. 2) Calcule la photosynthèse brute à la lumière (en mmol de O2/h). 3) En utilisant l'équation de la photosynthèse, calcule la masse de glucose gagnée par la plante en 24 h (M = 180 g/mol). 4) Que deviendrait ce bilan si la plante était éclairée seulement 3 h par jour ? Conclus sur l'importance de la durée d'éclairement pour les cultures.",
+   "indices": [
+    "Respiration : elle a lieu pendant les 24 h.",
+    "1 mmol de glucose libère 6 mmol de O2."
+   ],
+   "corrige": [
+    "1) Jour : +0,5 × 12 = +6,0 mmol ; nuit : −0,2 × 12 = −2,4 mmol ; bilan = +3,6 mmol de O2 en 24 h.",
+    "2) Brute = nette + respiration = 0,5 + 0,2 = 0,7 mmol de O2/h.",
+    "3) 6 mol de O2 ↔ 1 mol de glucose : 3,6 ÷ 6 = 0,6 mmol de glucose ; m = 0,6 × 10⁻³ × 180 = 0,108 g, soit 108 mg.",
+    "4) Avec 3 h de lumière : 0,5 × 3 = 1,5 mmol et respiration pendant 21 h : 0,2 × 21 = 4,2 mmol ; bilan = 1,5 − 4,2 = −2,7 mmol : la plante consomme ses réserves et dépérit.",
+    "Conclusion : une culture ne s'enrichit en matière que si la photosynthèse sur la journée dépasse la respiration sur 24 h ; ombrage excessif ou jours trop courts réduisent le rendement."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Oublier que la respiration continue pendant la phase éclairée (et donc compter la respiration seulement la nuit dans la question 2).",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Oublier le désamidonnage préalable ou le témoin dans la description d'un protocole.",
+  "Écrire que le dioxygène rejeté vient du CO2 (il vient de l'eau).",
+  "Équation non équilibrée, ou sans « lumière » et « chlorophylle » au-dessus de la flèche.",
+  "Dire que les plantes ne respirent pas le jour ; confondre photosynthèse nette et brute dans un calcul ExAO.",
+  "Calculer un Rf supérieur à 1 (rapport inversé) ou mesurer depuis le bas du papier.",
+  "Désigner la lumière comme facteur limitant sur un palier, alors qu'elle ne limite plus.",
+  "Dire que la chlorophylle absorbe le vert."
+ ]
+}

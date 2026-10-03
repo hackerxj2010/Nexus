@@ -550,7 +550,7 @@
     0.5,
     1
    ],
-   "piege": "Multiplier 0,92 par 1,5 donne bien 1,38 kg car 0,92 g/mL = 0,92 kg/L : vérifie toujours la cohérence des unités.",
+   "piege": "Multiplier 0,92 g/mL par 1,5 sans convertir les litres en millilitres donne 1,38 g : absurde pour une bouteille d'huile.",
    "verification": "code"
   },
   {

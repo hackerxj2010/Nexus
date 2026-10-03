@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" width="400" height="270" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Effet Joule : l'énergie électrique reçue par un conducteur ohmique est entièrement convertie en chaleur</title>
+<rect x="0" y="0" width="400" height="270" rx="18" fill="#fffdf8"/>
+<rect x="15.0" y="50.0" width="110.0" height="56.0" rx="10" stroke="#1f2937" stroke-width="2" fill="#fffdf8"/>
+<text x="70.0" y="75.0" font-size="13" text-anchor="middle" fill="#1f2937" font-weight="bold">Générateur</text>
+<text x="70.0" y="92.0" font-size="12" text-anchor="middle" fill="#1f2937" font-weight="normal">(secteur, pile)</text>
+<rect x="155.0" y="50.0" width="110.0" height="56.0" rx="10" stroke="#1f2937" stroke-width="2" fill="#fffdf8"/>
+<text x="210.0" y="75.0" font-size="13" text-anchor="middle" fill="#1f2937" font-weight="bold">Conducteur</text>
+<text x="210.0" y="92.0" font-size="12" text-anchor="middle" fill="#1f2937" font-weight="normal">ohmique R</text>
+<rect x="295.0" y="50.0" width="92.0" height="56.0" rx="10" stroke="#1f2937" stroke-width="2" fill="#fffdf8"/>
+<text x="341.0" y="75.0" font-size="13" text-anchor="middle" fill="#1f2937" font-weight="bold">Milieu</text>
+<text x="341.0" y="92.0" font-size="12" text-anchor="middle" fill="#1f2937" font-weight="normal">extérieur</text>
+<line x1="125.0" y1="78.0" x2="144.0" y2="78.0" stroke="#1d4ed8" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="153.0,78.0 144.0,82.5 144.0,73.5" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round"/>
+<line x1="265.0" y1="78.0" x2="284.0" y2="78.0" stroke="#c0262d" stroke-width="3" stroke-linecap="butt"/>
+<polygon points="293.0,78.0 284.0,82.5 284.0,73.5" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<text x="140.0" y="40.0" font-size="12" text-anchor="middle" fill="#1d4ed8" font-weight="normal">énergie</text>
+<text x="140.0" y="128.0" font-size="12" text-anchor="middle" fill="#1d4ed8" font-weight="normal">électrique</text>
+<text x="280.0" y="40.0" font-size="12" text-anchor="middle" fill="#c0262d" font-weight="normal">chaleur</text>
+<text x="280.0" y="128.0" font-size="12" text-anchor="middle" fill="#c0262d" font-weight="normal">(effet Joule)</text>
+<text x="200.0" y="165.0" font-size="15" text-anchor="middle" fill="#1f2937" font-weight="bold">W = U·I·Δt = R·I²·Δt</text>
+<text x="200.0" y="190.0" font-size="15" text-anchor="middle" fill="#1f2937" font-weight="bold">P = U·I = R·I² = U²/R</text>
+<rect x="20.0" y="210.0" width="360.0" height="48.0" rx="8" stroke="#b45309" stroke-width="1.5" fill="#fffdf8"/>
+<text x="200.0" y="230.0" font-size="12" text-anchor="middle" fill="#1f2937" font-weight="normal">W en joules (J), P en watts (W), Δt en secondes</text>
+<text x="200.0" y="248.0" font-size="13" text-anchor="middle" fill="#b45309" font-weight="bold">1 kWh = 1000 W × 3600 s = 3,6 × 10⁶ J</text>
+</svg>

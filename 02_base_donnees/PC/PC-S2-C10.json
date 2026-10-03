@@ -1,0 +1,693 @@
+{
+ "id": "PC-S2-C10",
+ "matiere": "PC",
+ "semestre": 2,
+ "ordre": 10,
+ "titre": "La tension électrique",
+ "objectifs": [
+  "Définir la tension comme une différence de potentiel : $U_{AB} = V_A - V_B$.",
+  "Représenter une tension par une flèche et utiliser $U_{BA} = -U_{AB}$.",
+  "Mesurer une tension avec un voltmètre (branchement en dérivation, bornes V et COM, calibre, lecture).",
+  "Appliquer la loi d'additivité, la loi des mailles et l'égalité des tensions en dérivation.",
+  "Exploiter un oscillogramme : valeur maximale, période, fréquence.",
+  "Relier valeur maximale et valeur efficace d'une tension sinusoïdale ; connaître les caractéristiques du secteur."
+ ],
+ "prerequis": [
+  "PC-3e-TENSION",
+  "PC-S2-C09"
+ ],
+ "notions": [
+  {
+   "id": "PC-S2-C10-N1",
+   "titre": "Tension électrique : définition, représentation et mesure",
+   "prerequis_notions": [
+    "PC-3e-TENSION",
+    "PC-S2-C09-N2"
+   ],
+   "cours_md": "## 1. Qu'est-ce qu'une tension ?\nUne pile neuve posée sur la table ne débite aucun courant, et pourtant il existe entre ses bornes une **différence d'état électrique** : c'est la **tension électrique**. C'est elle qui « pousse » les porteurs de charge quand le circuit est fermé.\n\n:::definition Tension et potentiel\nÀ chaque point $A$ d'un circuit on associe un **potentiel électrique** $V_A$. La **tension** entre les points $A$ et $B$ est la différence de potentiel :\n$$U_{AB} = V_A - V_B$$\nUnité SI : le **volt (V)**. On choisit souvent un point de référence, la **masse**, de potentiel nul ($V = 0\\ \\text{V}$).\n:::\n\n:::propriete Une tension est algébrique\n$$U_{BA} = V_B - V_A = -\\,U_{AB}$$\nUne tension peut être positive, négative ou nulle.\n:::\n\n## 2. Représentation : la flèche tension\nLa tension $U_{AB}$ est représentée par une **flèche** tracée à côté du dipôle, allant de $B$ vers $A$ : **la pointe est du côté de la première lettre** ($A$).\n\n## 3. Mesurer une tension : le voltmètre\n:::methode Brancher un voltmètre\n1. Le voltmètre se branche **en dérivation** (en parallèle) aux bornes du dipôle : on ne modifie pas le circuit.\n2. Pour mesurer $U_{AB}$ : la borne **V** est reliée au point $A$, la borne **COM** au point $B$.\n3. On commence par le plus grand calibre, puis on choisit le **plus petit calibre supérieur** à la valeur mesurée.\n4. Si l'appareil numérique affiche une valeur négative, c'est que $V_A < V_B$ : la mesure est quand même juste, c'est $U_{AB} < 0$.\n:::\nLecture d'un voltmètre à aiguille : $U = \\dfrac{C \\times n}{N}$ (calibre $C$, $n$ divisions lues sur une échelle de $N$ divisions).\n\n## 4. Tensions à connaître\n| Dipôle | Tension à ses bornes |\n|---|---|\n| fil de connexion (ou interrupteur fermé) | pratiquement nulle |\n| interrupteur ouvert dans un circuit série | égale à la tension du générateur |\n| lampe dans un circuit ouvert | nulle (aucun courant) |\n| pile isolée (circuit ouvert) | non nulle : c'est sa tension « à vide » |\n\n| Source | Ordre de grandeur |\n|---|---|\n| pile ronde | $1{,}5\\ \\text{V}$ ; pile plate : $4{,}5\\ \\text{V}$ ; pile rectangulaire : $9\\ \\text{V}$ |\n| batterie de moto ou de voiture | $12\\ \\text{V}$ |\n| prise du secteur (CEET) | environ $220\\ \\text{V}$ |\n\n:::attention Sécurité\nUne tension supérieure à environ $50\\ \\text{V}$ (alternatif) est dangereuse pour le corps humain, encore plus quand la peau est mouillée. On ne fait **jamais** d'expérience sur la prise du secteur.\n:::\n\n## Exemple résolu\nUn voltmètre à aiguille est sur le calibre $10\\ \\text{V}$ ; l'échelle a 50 divisions et l'aiguille est sur 32. Calcule la tension.\n- Formule : $U = \\dfrac{C \\times n}{N}$.\n- Application numérique : $U = \\dfrac{10 \\times 32}{50}$.\n- Résultat : $U = 6{,}4\\ \\text{V}$.",
+   "definition": "La tension $U_{AB} = V_A - V_B$ est la différence de potentiel entre deux points, en volts ; elle se mesure avec un voltmètre branché en dérivation (borne V en A, COM en B).",
+   "formules": [
+    "$U_{AB} = V_A - V_B$",
+    "$U_{BA} = -\\,U_{AB}$",
+    "$U = \\dfrac{C \\times n}{N}$ (appareil à aiguille)"
+   ],
+   "niveaux": {
+    "phrase": "La tension, c'est la différence d'« état électrique » entre deux points ; on la mesure en volts, en dérivation.",
+    "simple": "Pense à un château d'eau : l'eau descend parce qu'il y a une différence de hauteur entre le réservoir et le robinet. La tension est cette « différence de hauteur électrique » entre deux points ; sans elle, pas de courant.",
+    "complete": "La tension entre deux points A et B est la différence de leurs potentiels, $U_{AB} = V_A - V_B$, grandeur algébrique exprimée en volts ($U_{BA} = -U_{AB}$). Elle est représentée par une flèche dont la pointe est vers A. On la mesure avec un voltmètre branché en dérivation, borne V en A et borne COM en B. Une tension peut exister sans courant (pile en circuit ouvert, interrupteur ouvert)."
+   },
+   "analogie": "Le château d'eau de la TdE : l'eau coule vers les robinets du quartier parce que le réservoir est plus haut. La tension joue le rôle de cette différence de hauteur.",
+   "exemples_resolus": [
+    {
+     "enonce": "On mesure $V_A = 9{,}0\\ \\text{V}$ et $V_B = 3{,}5\\ \\text{V}$ (par rapport à la masse). Calcule $U_{AB}$ et $U_{BA}$.",
+     "etapes": [
+      "Formule : $U_{AB} = V_A - V_B$.",
+      "Application numérique : $U_{AB} = 9{,}0 - 3{,}5 = 5{,}5\\ \\text{V}$.",
+      "$U_{BA} = -U_{AB} = -5{,}5\\ \\text{V}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Brancher le voltmètre en série (il bloque alors le courant : la lampe s'éteint).",
+    "Inverser les bornes : borne V en B et COM en A mesure $U_{BA}$, pas $U_{AB}$.",
+    "Dessiner la flèche de $U_{AB}$ avec la pointe vers B.",
+    "Croire qu'il n'y a pas de tension sans courant (une pile isolée a une tension)."
+   ],
+   "astuces": [
+    "« Voltmètre : V comme la première lettre ». Pour $U_{AB}$ : V sur A, COM sur B.",
+    "Ampèremètre en série, voltmètre en dérivation : ne les confonds jamais."
+   ],
+   "mnemo": "« Flèche tension : la pointe sur la 1re lettre. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? La tension se mesure en volts avec un voltmètre branché en dérivation, et une pile plate porte l'indication 4,5 V. En Seconde, on note la tension $U_{AB}$ et on la relie aux potentiels des points."
+   },
+   "methode_redaction": "Écris toujours la tension avec ses deux lettres ($U_{AB}$), la relation littérale, puis le calcul avec l'unité. Sur un schéma, place la flèche tension à côté du dipôle et le voltmètre en parallèle, avec ses bornes V et COM.",
+   "flash": [
+    {
+     "q": "Définition de $U_{AB}$ ?",
+     "r": "$U_{AB} = V_A - V_B$, différence de potentiel entre A et B."
+    },
+    {
+     "q": "Relation entre $U_{AB}$ et $U_{BA}$ ?",
+     "r": "$U_{BA} = -U_{AB}$."
+    },
+    {
+     "q": "Comment branche-t-on un voltmètre pour mesurer $U_{AB}$ ?",
+     "r": "En dérivation, borne V en A et borne COM en B."
+    },
+    {
+     "q": "Où est la pointe de la flèche de $U_{AB}$ ?",
+     "r": "Du côté de A (première lettre)."
+    },
+    {
+     "q": "Tension aux bornes d'un fil de connexion ?",
+     "r": "Pratiquement nulle."
+    },
+    {
+     "q": "Tension aux bornes d'un interrupteur ouvert (circuit série avec une pile de 9 V) ?",
+     "r": "9 V, la tension de la pile."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C10-N1.svg",
+    "alt": "Circuit : pile, interrupteur fermé et lampe entre les points A et B ; un voltmètre est branché en dérivation aux bornes de la lampe (borne V en A, COM en B) ; une flèche verte pointant vers A représente la tension U_AB.",
+    "legende": "Le voltmètre se branche en dérivation ; la flèche de U_AB pointe vers A.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C10-N2",
+   "titre": "Lois des tensions : additivité, maille et dérivation",
+   "prerequis_notions": [
+    "PC-S2-C10-N1"
+   ],
+   "cours_md": "## 1. Additivité des tensions\n:::propriete Loi d'additivité\nPour trois points $A$, $B$, $C$ d'un circuit :\n$$U_{AC} = U_{AB} + U_{BC}$$\n(c'est comme la relation de Chasles : $V_A - V_C = (V_A - V_B) + (V_B - V_C)$).\n:::\n**Conséquence en série** : la tension aux bornes d'un ensemble de dipôles en série est la **somme** des tensions aux bornes de chacun. Avec un générateur de bornes $P$ et $N$ et deux lampes en série :\n$$U_{PN} = U_1 + U_2$$\n\n## 2. Loi des mailles\n:::propriete Loi des mailles\nEn parcourant une **maille** et en revenant au point de départ, la somme des tensions écrites « de point en point » est nulle. Pour une maille $A \\to B \\to C \\to D \\to A$ :\n$$U_{AB} + U_{BC} + U_{CD} + U_{DA} = 0$$\n:::\n\n:::methode Écrire une loi des mailles sans erreur de signe\n1. Nommer les points de la maille (lettres à chaque nœud ou entre deux dipôles).\n2. Choisir un sens de parcours et écrire les tensions **dans l'ordre des lettres rencontrées** : $U_{AB}$, puis $U_{BC}$, etc., jusqu'au retour au point de départ.\n3. Écrire que la somme est nulle, puis remplacer : si l'énoncé donne $U_{BA}$, on écrit $U_{AB} = -U_{BA}$.\n:::\n\n## 3. Dipôles en dérivation\n:::propriete Égalité des tensions en dérivation\nDes dipôles branchés **en dérivation** entre les deux mêmes points ont **la même tension** à leurs bornes.\n:::\nC'est pourquoi tous les appareils d'une maison, branchés en dérivation sur le secteur, reçoivent la même tension (environ $220\\ \\text{V}$).\n\n:::remarque Comparer avec les intensités\n- **Série** : même intensité, les tensions **s'ajoutent**.\n- **Dérivation** : même tension, les intensités **s'ajoutent** (loi des nœuds).\n:::\n\n## Exemple résolu\nDeux lampes $L_1$ et $L_2$ sont en série avec une pile plate. On mesure $U_{PN} = 4{,}5\\ \\text{V}$ et $U_1 = 2{,}7\\ \\text{V}$. Calcule $U_2$.\n- Loi d'additivité : $U_{PN} = U_1 + U_2$, donc $U_2 = U_{PN} - U_1$.\n- Application numérique : $U_2 = 4{,}5 - 2{,}7$.\n- Résultat : $U_2 = 1{,}8\\ \\text{V}$.",
+   "definition": "Les tensions s'additionnent le long d'une branche ($U_{AC} = U_{AB} + U_{BC}$), leur somme est nulle autour d'une maille, et des dipôles en dérivation ont la même tension.",
+   "formules": [
+    "$U_{AC} = U_{AB} + U_{BC}$",
+    "$U_{PN} = U_1 + U_2$ (série)",
+    "Maille : $U_{AB} + U_{BC} + U_{CD} + U_{DA} = 0$",
+    "Dérivation : $U_1 = U_2$"
+   ],
+   "niveaux": {
+    "phrase": "En série, les tensions s'ajoutent ; en dérivation, elles sont égales.",
+    "simple": "Quand tu descends un escalier de la cour (A) au jardin (C) en passant par un palier (B), la descente totale est la somme des deux descentes. Les tensions font pareil : $U_{AC} = U_{AB} + U_{BC}$.",
+    "complete": "La tension étant une différence de potentiels, elle est additive : $U_{AC} = U_{AB} + U_{BC}$. Sur une maille fermée, la somme des tensions écrites de proche en proche est nulle (loi des mailles). Des dipôles en série se partagent la tension du générateur ; des dipôles en dérivation entre deux mêmes nœuds ont la même tension."
+   },
+   "analogie": "Une colline à Kpalimé : partir du sommet, descendre jusqu'au village puis jusqu'à la rivière donne la même dénivellation totale que descendre directement du sommet à la rivière.",
+   "exemples_resolus": [
+    {
+     "enonce": "Une batterie de moto ($U_{PN} = 12\\ \\text{V}$) alimente en série un phare et un conducteur ohmique. La tension aux bornes du phare vaut $9{,}2\\ \\text{V}$. Calcule la tension aux bornes du conducteur ohmique.",
+     "etapes": [
+      "Loi d'additivité (série) : $U_{PN} = U_{\\text{phare}} + U_R$, donc $U_R = U_{PN} - U_{\\text{phare}}$.",
+      "Application numérique : $U_R = 12 - 9{,}2$.",
+      "Résultat : $U_R = 2{,}8\\ \\text{V}$."
+     ]
+    },
+    {
+     "enonce": "Une lampe et un moteur sont branchés en dérivation aux bornes d'une pile de $4{,}5\\ \\text{V}$ (fils de résistance négligeable). Quelle est la tension aux bornes du moteur ?",
+     "etapes": [
+      "Lampe, moteur et pile sont en dérivation entre les deux mêmes points.",
+      "Égalité des tensions en dérivation : $U_M = U_{\\text{pile}}$.",
+      "Résultat : $U_M = 4{,}5\\ \\text{V}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Additionner les tensions de dipôles en dérivation.",
+    "Écrire la loi des mailles en mélangeant $U_{AB}$ et $U_{BA}$ sans changer de signe.",
+    "Oublier qu'une tension peut être négative.",
+    "Appliquer la loi des nœuds aux tensions (ou l'additivité aux intensités en dérivation)."
+   ],
+   "astuces": [
+    "Écris les tensions avec des lettres : la relation de Chasles fait le reste ($U_{AB} + U_{BC} = U_{AC}$).",
+    "Contrôle : en série, chaque tension doit être inférieure à la tension du générateur."
+   ],
+   "mnemo": "« Série : on Somme les tensions ; Dérivation : on a la même tension. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans un circuit série, la tension du générateur est égale à la somme des tensions aux bornes des récepteurs ; en dérivation, la tension est la même aux bornes de chaque branche. En Seconde, on écrit ces lois avec les potentiels et la loi des mailles."
+   },
+   "methode_redaction": "Nomme les points, écris la loi utilisée en toutes lettres (« d'après la loi d'additivité des tensions… »), puis la relation littérale, l'isolement de l'inconnue, l'application numérique et le résultat avec l'unité.",
+   "flash": [
+    {
+     "q": "Loi d'additivité des tensions ?",
+     "r": "$U_{AC} = U_{AB} + U_{BC}$."
+    },
+    {
+     "q": "Énonce la loi des mailles.",
+     "r": "La somme des tensions le long d'une maille parcourue jusqu'au point de départ est nulle."
+    },
+    {
+     "q": "Tension aux bornes de deux dipôles en dérivation ?",
+     "r": "La même."
+    },
+    {
+     "q": "Pile 4,5 V, deux lampes en série, $U_1 = 3{,}0$ V : $U_2$ ?",
+     "r": "$U_2 = 1{,}5$ V."
+    },
+    {
+     "q": "En série, qu'est-ce qui s'ajoute : les tensions ou les intensités ?",
+     "r": "Les tensions (l'intensité est la même partout)."
+    },
+    {
+     "q": "Pourquoi tous les appareils d'une maison reçoivent-ils 220 V ?",
+     "r": "Parce qu'ils sont branchés en dérivation sur le secteur."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C10-N2.svg",
+    "alt": "Circuit : générateur de bornes P et N, lampe L1 en série, puis deux lampes L2 et L3 en dérivation. Des flèches vertes représentent U_PN, U1, U2 et U3. Encadré : en série U_PN = U1 + U2, en dérivation U2 = U3.",
+    "legende": "Les tensions s'additionnent en série et sont égales en dérivation.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C10-N3",
+   "titre": "Tensions continues et variables : l'oscilloscope",
+   "prerequis_notions": [
+    "PC-S2-C10-N1"
+   ],
+   "cours_md": "## 1. L'oscilloscope\nL'**oscilloscope** est un voltmètre « qui dessine » : il trace sur son écran la tension $u$ en fonction du temps $t$. L'écran est quadrillé en **divisions** (en général 10 horizontalement et 8 verticalement).\n\n:::methode Lire un oscillogramme\n- **Verticalement** : la sensibilité verticale $k$ (en V/div) donne $u = k \\times y$, où $y$ est le nombre de divisions mesuré.\n- **Horizontalement** : la durée de balayage $b$ (en s/div ou ms/div) donne une durée $\\Delta t = b \\times x$, où $x$ est le nombre de divisions.\n:::\nPour une tension **continue** (pile), on obtient une **droite horizontale**, décalée vers le haut ou vers le bas.\n\n## 2. Tension variable, périodique, alternative\n- Une tension **variable** change de valeur au cours du temps.\n- Elle est **périodique** si elle se reproduit identique à elle-même à intervalles de temps égaux : la **période** $T$ (en s) est la durée d'un motif.\n- Elle est **alternative** si elle prend alternativement des valeurs positives et négatives.\n\n:::definition Période et fréquence\nLa **fréquence** $f$ est le nombre de périodes par seconde :\n$$f = \\frac{1}{T}$$\n$T$ en secondes (s), $f$ en **hertz (Hz)**.\n:::\n\n## 3. Tension alternative sinusoïdale\nSa courbe est une sinusoïde. On repère :\n- la **valeur maximale** (amplitude) $U_m$ : hauteur d'un sommet au-dessus de l'axe central ;\n- la période $T$.\n\n:::propriete Valeur efficace\nUn voltmètre réglé en mode alternatif (AC, symbole ~) indique la **valeur efficace** $U$ :\n$$U = \\frac{U_m}{\\sqrt{2}}$$\n:::\nExemple : le secteur de la CEET fournit une tension sinusoïdale de valeur efficace $220\\ \\text{V}$ et de fréquence $50\\ \\text{Hz}$. Sa valeur maximale est $U_m = 220 \\times \\sqrt{2} \\approx 311\\ \\text{V}$ et sa période $T = 1/50 = 0{,}020\\ \\text{s} = 20\\ \\text{ms}$.\n\n:::attention Mesurer sur l'écran\nMesure l'amplitude entre l'axe central et un sommet (ou la hauteur crête à crête divisée par 2). Pour la période, mesure plutôt plusieurs périodes puis divise : c'est plus précis.\n:::\n\n## Exemple résolu\nRéglages : $k = 5\\ \\text{V/div}$ ; $b = 5\\ \\text{ms/div}$. Le sommet de la sinusoïde est à $3{,}2$ divisions de l'axe et une période occupe $4$ divisions.\n- Valeur maximale : $U_m = k \\times y = 5 \\times 3{,}2 = 16\\ \\text{V}$.\n- Période : $T = b \\times x = 5 \\times 4 = 20\\ \\text{ms} = 0{,}020\\ \\text{s}$.\n- Fréquence : $f = \\dfrac{1}{T} = \\dfrac{1}{0{,}020} = 50\\ \\text{Hz}$.\n- Valeur efficace : $U = \\dfrac{U_m}{\\sqrt{2}} = \\dfrac{16}{1{,}414} = 11\\ \\text{V}$.",
+   "definition": "L'oscilloscope trace la tension en fonction du temps ; une tension sinusoïdale est caractérisée par sa valeur maximale $U_m$, sa période $T$ (fréquence $f = 1/T$) et sa valeur efficace $U = U_m/\\sqrt{2}$.",
+   "formules": [
+    "$u = k \\times y$ ; $\\Delta t = b \\times x$",
+    "$f = \\dfrac{1}{T}$",
+    "$U = \\dfrac{U_m}{\\sqrt{2}}$"
+   ],
+   "niveaux": {
+    "phrase": "L'oscilloscope dessine la tension au cours du temps ; on y lit l'amplitude et la période.",
+    "simple": "Une tension continue, c'est une route plate ; une tension sinusoïdale, c'est une piste de collines régulières : la hauteur d'une colline est $U_m$, la distance d'un sommet au suivant est la période $T$.",
+    "complete": "L'oscilloscope représente $u(t)$ : la sensibilité verticale $k$ (V/div) et la durée de balayage $b$ (s/div) convertissent les divisions en volts et en secondes. Une tension périodique a une période $T$ et une fréquence $f = 1/T$ (Hz). Pour une tension sinusoïdale d'amplitude $U_m$, un voltmètre en mode alternatif indique la valeur efficace $U = U_m/\\sqrt{2}$ ; le secteur fournit 220 V efficaces à 50 Hz."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Une tension continue est visualisée : le trait horizontal est à $2{,}6$ divisions au-dessus de l'axe central, avec $k = 5\\ \\text{V/div}$. Valeur de la tension ?",
+     "etapes": [
+      "Formule : $U = k \\times y$.",
+      "Application numérique : $U = 5 \\times 2{,}6$.",
+      "Résultat : $U = 13\\ \\text{V}$."
+     ]
+    },
+    {
+     "enonce": "Le secteur a une fréquence de $50\\ \\text{Hz}$. Combien de périodes s'affichent sur un écran de 10 divisions réglé sur $b = 10\\ \\text{ms/div}$ ?",
+     "etapes": [
+      "Période : $T = \\dfrac{1}{f} = \\dfrac{1}{50} = 0{,}020\\ \\text{s} = 20\\ \\text{ms}$.",
+      "Durée affichée : $10 \\times 10 = 100\\ \\text{ms}$.",
+      "Nombre de périodes : $\\dfrac{100}{20} = 5$ périodes."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Mesurer l'amplitude de crête à crête sans diviser par 2.",
+    "Oublier de multiplier par la sensibilité (donner un résultat en divisions).",
+    "Oublier de convertir les ms en s avant de calculer $f = 1/T$.",
+    "Confondre valeur maximale et valeur efficace (220 V est la valeur efficace du secteur, pas sa valeur maximale)."
+   ],
+   "astuces": [
+    "Écris toujours l'unité de la sensibilité : V/div × div = V ; ms/div × div = ms.",
+    "Le secteur : 220 V efficaces, 311 V maximum, 50 Hz, 20 ms : à connaître par cœur."
+   ],
+   "mnemo": "« k pour le haut (V/div), b pour le côté (s/div). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as observé à l'oscilloscope la tension alternative d'un alternateur (dynamo de vélo) et tu as lu la période et la valeur maximale. En Seconde, on ajoute la valeur efficace et la lecture rigoureuse des réglages."
+   },
+   "methode_redaction": "Écris les réglages, le nombre de divisions mesuré, la formule ($U_m = k \\times y$, $T = b \\times x$), puis le résultat avec l'unité ; convertis $T$ en secondes avant $f = 1/T$.",
+   "flash": [
+    {
+     "q": "Que représente l'oscilloscope ?",
+     "r": "La tension en fonction du temps."
+    },
+    {
+     "q": "Relation entre période et fréquence ?",
+     "r": "$f = 1/T$ (T en s, f en Hz)."
+    },
+    {
+     "q": "Valeur efficace d'une tension sinusoïdale ?",
+     "r": "$U = U_m/\\sqrt{2}$."
+    },
+    {
+     "q": "Caractéristiques du secteur ?",
+     "r": "220 V efficaces, 50 Hz (période 20 ms, $U_m \\approx 311$ V)."
+    },
+    {
+     "q": "Aspect d'une tension continue à l'oscilloscope ?",
+     "r": "Une droite horizontale."
+    },
+    {
+     "q": "Sensibilité 2 V/div, sommet à 3 div : $U_m$ ?",
+     "r": "$U_m = 6$ V."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C10-N3.svg",
+    "alt": "Écran d'oscilloscope quadrillé de 10 divisions sur 8 avec une sinusoïde bleue : l'amplitude Um vaut 3,2 divisions et la période T vaut 4 divisions ; réglages 5 V/div et 5 ms/div, d'où Um = 16 V, T = 20 ms, f = 50 Hz.",
+    "legende": "Lecture d'un oscillogramme : Um = k × y, T = b × x, f = 1/T.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S2-C10-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C10-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Comment branche-t-on un voltmètre pour mesurer la tension aux bornes d'une lampe ?",
+   "choix": [
+    "En série avec la lampe",
+    "En dérivation aux bornes de la lampe",
+    "À la place de la lampe",
+    "En série avec le générateur"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le voltmètre se branche en dérivation, directement aux bornes du dipôle.",
+    "Ainsi on ne modifie pas le circuit."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Confondre avec l'ampèremètre, qui se branche en série.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C10-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On sait que $U_{AB} = 6{,}0\\ \\text{V}$. Que vaut $U_{BA}$ (en V) ?",
+   "reponses_acceptees": [
+    "-6",
+    "-6,0",
+    "-6V",
+    "-6,0V"
+   ],
+   "indices": [
+    "Inverser les lettres change le signe."
+   ],
+   "corrige": [
+    "$U_{BA} = V_B - V_A = -(V_A - V_B)$.",
+    "$U_{BA} = -U_{AB} = -6{,}0\\ \\text{V}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Répondre 6,0 V.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C10-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une tension périodique a une période $T = 20\\ \\text{ms}$. Calcule sa fréquence (en Hz).",
+   "reponses_acceptees": [
+    "50",
+    "50Hz"
+   ],
+   "indices": [
+    "Convertis T en secondes."
+   ],
+   "corrige": [
+    "Conversion : $T = 20\\ \\text{ms} = 0{,}020\\ \\text{s}$.",
+    "$f = \\dfrac{1}{T} = \\dfrac{1}{0{,}020} = 50\\ \\text{Hz}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Calculer 1/20 = 0,05 Hz.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C10-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un voltmètre à aiguille est sur le calibre $15\\ \\text{V}$. On lit sur l'échelle de 150 divisions : aiguille sur 84. Quelle est la tension mesurée (en V) ?",
+   "reponses_acceptees": [
+    "8,4",
+    "8,4V"
+   ],
+   "indices": [
+    "C = 15 V, n = 84, N = 150."
+   ],
+   "corrige": [
+    "Formule : $U = \\dfrac{C \\times n}{N}$.",
+    "$U = \\dfrac{15 \\times 84}{150} = 8{,}4\\ \\text{V}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Lire 84 V ou utiliser une autre échelle.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C10-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Deux lampes $L_1$ et $L_2$ sont branchées en série aux bornes d'une pile de $9{,}0\\ \\text{V}$. La tension aux bornes de $L_1$ vaut $5{,}6\\ \\text{V}$. Calcule la tension aux bornes de $L_2$ (en V).",
+   "reponses_acceptees": [
+    "3,4",
+    "3,4V"
+   ],
+   "indices": [
+    "En série, les tensions s'ajoutent."
+   ],
+   "corrige": [
+    "Loi d'additivité : $U_{PN} = U_1 + U_2$, donc $U_2 = U_{PN} - U_1$.",
+    "$U_2 = 9{,}0 - 5{,}6 = 3{,}4\\ \\text{V}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 9,0 V (la tension serait la même qu'en dérivation).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C10-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Une lampe et un moteur sont branchés en dérivation. La tension aux bornes de la lampe vaut $6{,}0\\ \\text{V}$. La tension aux bornes du moteur vaut :",
+   "choix": [
+    "0 V",
+    "3,0 V",
+    "6,0 V",
+    "12 V"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Dérivation : les deux dipôles sont branchés entre les deux mêmes points.",
+    "Ils ont donc la même tension : 6,0 V."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Partager la tension (3,0 V) comme en série.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C10-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Un circuit série comprend une pile de $9{,}0\\ \\text{V}$, une lampe et un interrupteur **ouvert**. Quelles tensions mesure-t-on ?",
+   "choix": [
+    "Lampe : 9,0 V ; interrupteur : 0 V",
+    "Lampe : 0 V ; interrupteur : 9,0 V",
+    "Lampe : 0 V ; interrupteur : 0 V",
+    "Lampe : 4,5 V ; interrupteur : 4,5 V"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Sans courant, une lampe a une tension nulle à ses bornes."
+   ],
+   "corrige": [
+    "Le circuit est ouvert : aucun courant, donc la tension aux bornes de la lampe est nulle.",
+    "Loi des mailles : $U_{\\text{pile}} = U_{\\text{lampe}} + U_{\\text{interrupteur}}$, donc $U_{\\text{interrupteur}} = 9{,}0 - 0 = 9{,}0\\ \\text{V}$."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Croire qu'il n'y a de tension nulle part quand le circuit est ouvert.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C10-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Sur l'écran d'un oscilloscope réglé sur $2\\ \\text{V/div}$, le sommet d'une sinusoïde est à $3{,}5$ divisions de l'axe central. Calcule la valeur maximale $U_m$ (en V).",
+   "reponses_acceptees": [
+    "7",
+    "7,0",
+    "7V",
+    "7,0V"
+   ],
+   "indices": [],
+   "corrige": [
+    "Formule : $U_m = k \\times y$.",
+    "$U_m = 2 \\times 3{,}5 = 7{,}0\\ \\text{V}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Donner 3,5 (en divisions) ou 1,75 (diviser par la sensibilité).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C10-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La tension du secteur a une valeur efficace de $220\\ \\text{V}$. Calcule sa valeur maximale $U_m$ (en V, arrondie à l'unité).",
+   "reponses_acceptees": [
+    "311",
+    "311V",
+    "311,1"
+   ],
+   "indices": [
+    "La valeur maximale est plus grande que la valeur efficace."
+   ],
+   "corrige": [
+    "$U = \\dfrac{U_m}{\\sqrt{2}}$, donc $U_m = U\\sqrt{2}$.",
+    "$U_m = 220 \\times 1{,}414 = 311\\ \\text{V}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par √2 (155 V).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C10-N2",
+    "PC-S2-C10-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Un générateur de bornes $P$ (+) et $N$ (−) alimente en série, dans l'ordre : un conducteur ohmique entre $P$ et $A$, une lampe entre $A$ et $B$, un moteur entre $B$ et $N$. On mesure $U_{PN} = 12\\ \\text{V}$, $U_{PA} = 3{,}5\\ \\text{V}$ et $U_{BN} = 5{,}0\\ \\text{V}$.\n1. Calcule $U_{AB}$.\n2. On prend $N$ comme masse ($V_N = 0$). Calcule $V_B$, $V_A$ et $V_P$.\n3. Que vaut $U_{BA}$ ?",
+   "indices": [
+    "$U_{AB} = V_A - V_B$, donc $V_A = V_B + U_{AB}$."
+   ],
+   "corrige": [
+    "Additivité : $U_{PN} = U_{PA} + U_{AB} + U_{BN}$.",
+    "$U_{AB} = 12 - 3{,}5 - 5{,}0 = 3{,}5\\ \\text{V}$.",
+    "$V_B = V_N + U_{BN} = 5{,}0\\ \\text{V}$ ; $V_A = V_B + U_{AB} = 8{,}5\\ \\text{V}$ ; $V_P = V_A + U_{PA} = 12\\ \\text{V}$ (cohérent avec $U_{PN} = 12$ V).",
+    "$U_{BA} = -U_{AB} = -3{,}5\\ \\text{V}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    2,
+    1
+   ],
+   "piege": "Oublier une des tensions dans la somme, ou donner $U_{BA}$ positif.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C10-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C10-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "On visualise une tension sinusoïdale avec les réglages $k = 2\\ \\text{V/div}$ et $b = 2{,}5\\ \\text{ms/div}$. La courbe occupe $6{,}0$ divisions verticalement entre un sommet et un creux, et une période s'étend sur $8{,}0$ divisions.\n1. Calcule la valeur maximale $U_m$.\n2. Calcule la période et la fréquence.\n3. Quelle valeur indique un voltmètre en mode alternatif ?",
+   "indices": [
+    "Crête à crête = 2 × amplitude."
+   ],
+   "corrige": [
+    "Amplitude : $y = 6{,}0/2 = 3{,}0$ div, donc $U_m = 2 \\times 3{,}0 = 6{,}0\\ \\text{V}$.",
+    "$T = 2{,}5 \\times 8{,}0 = 20\\ \\text{ms} = 0{,}020\\ \\text{s}$ ; $f = 1/T = 50\\ \\text{Hz}$.",
+    "Valeur efficace : $U = \\dfrac{U_m}{\\sqrt{2}} = \\dfrac{6{,}0}{1{,}414} = 4{,}2\\ \\text{V}$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Prendre 6,0 divisions comme amplitude ($U_m = 12$ V : faux).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C10-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C10-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Un générateur ($U_{PN} = 12\\ \\text{V}$) alimente un conducteur ohmique $R_1$ placé entre $P$ et $A$. Entre $A$ et $N$ on trouve deux branches en dérivation : la branche 1 contient une lampe $L_1$ ; la branche 2 contient un conducteur ohmique $R_2$ (entre $A$ et $B$) en série avec une lampe $L_2$ (entre $B$ et $N$). On mesure $U_{PA} = 4{,}5\\ \\text{V}$ et $U_{AB} = 2{,}5\\ \\text{V}$.\n1. Calcule la tension aux bornes de $L_1$.\n2. Calcule la tension aux bornes de $L_2$.\n3. On branche un voltmètre avec la borne V en $P$ et la borne COM en $B$. Qu'indique-t-il ?",
+   "indices": [
+    "Fais le schéma et nomme les points.",
+    "Les deux branches entre A et N ont la même tension."
+   ],
+   "corrige": [
+    "Maille P-A-N : $U_{PN} = U_{PA} + U_{AN}$, donc $U_{AN} = 12 - 4{,}5 = 7{,}5\\ \\text{V}$ (tension aux bornes de $L_1$).",
+    "La branche 2 est en dérivation avec $L_1$ : $U_{AB} + U_{BN} = U_{AN} = 7{,}5\\ \\text{V}$.",
+    "$U_{BN} = 7{,}5 - 2{,}5 = 5{,}0\\ \\text{V}$ (tension aux bornes de $L_2$).",
+    "Le voltmètre mesure $U_{PB} = U_{PA} + U_{AB} = 4{,}5 + 2{,}5 = 7{,}0\\ \\text{V}$."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Écrire $U_{BN} = 12 - 2{,}5$ en oubliant $R_1$.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C10-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C10-N3"
+   ],
+   "format": "qcm",
+   "enonce": "On veut observer **en entier** une tension sinusoïdale de valeur efficace $12\\ \\text{V}$, centrée sur un écran de 8 divisions verticales, avec la plus grande hauteur possible. Quelle sensibilité verticale choisir ?",
+   "choix": [
+    "1 V/div",
+    "2 V/div",
+    "5 V/div",
+    "10 V/div"
+   ],
+   "bonne_reponse": 2,
+   "indices": [
+    "Calcule d'abord $U_m$.",
+    "Une moitié d'écran = 4 divisions."
+   ],
+   "corrige": [
+    "Valeur maximale : $U_m = 12\\sqrt{2} = 17\\ \\text{V}$.",
+    "La courbe doit tenir dans 4 divisions au-dessus de l'axe : $k \\geq 17/4 = 4{,}2\\ \\text{V/div}$.",
+    "Parmi les sensibilités qui conviennent (5 et 10 V/div), 5 V/div donne la plus grande courbe (3,4 div d'amplitude)."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Raisonner avec 12 V au lieu de $U_m$ : 2 V/div donnerait 8,5 div, la courbe sortirait de l'écran.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C10-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C10-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Comment représente-t-on la tension $U_{AB}$ aux bornes d'un dipôle $AB$ ?",
+   "choix": [
+    "Par une flèche allant de A vers B",
+    "Par une flèche allant de B vers A (pointe en A)",
+    "Par un point au milieu du dipôle",
+    "Par une flèche sur le fil, dans le sens du courant"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Convention : la flèche tension est tracée à côté du dipôle.",
+    "Sa pointe est du côté de la première lettre, A."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Confondre la flèche tension avec la flèche du courant.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Voltmètre branché en série, ou bornes inversées (V et COM) : on mesure $U_{BA}$ au lieu de $U_{AB}$.",
+  "Flèche tension dans le mauvais sens (la pointe doit être sur la première lettre).",
+  "Tensions de dipôles en dérivation additionnées ; tensions d'une maille additionnées sans tenir compte des signes.",
+  "Oscilloscope : amplitude mesurée crête à crête sans diviser par 2 ; sensibilité oubliée ; période laissée en ms dans $f = 1/T$.",
+  "Confusion valeur efficace (220 V) / valeur maximale (311 V) du secteur.",
+  "Résultat sans unité, ou tension négative transformée en positive sans justification."
+ ]
+}

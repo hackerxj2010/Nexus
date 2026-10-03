@@ -1,0 +1,666 @@
+{
+ "id": "PC-S1-C08",
+ "matiere": "PC",
+ "semestre": 1,
+ "ordre": 8,
+ "titre": "Ions et molécules : les liaisons chimiques",
+ "objectifs": [
+  "Décrire la liaison covalente et prévoir le nombre de liaisons d'un atome.",
+  "Écrire formules brute, développée et semi-développée ; reconnaître des isomères.",
+  "Établir la représentation de Lewis d'une molécule simple.",
+  "Décrire un cristal ionique et écrire la formule statistique et le nom d'un composé ionique (ions polyatomiques usuels)."
+ ],
+ "prerequis": [
+  "PC-S1-C07"
+ ],
+ "notions": [
+  {
+   "id": "PC-S1-C08-N1",
+   "titre": "Liaison covalente et formules des molécules",
+   "prerequis_notions": [
+    "PC-S1-C07-N3",
+    "PC-S1-C06-N3"
+   ],
+   "cours_md": "## 1. La molécule\n:::definition Molécule\nUne **molécule** est un assemblage **électriquement neutre** d'atomes liés entre eux par des **liaisons covalentes**. Exemples : dihydrogène $\\ce{H2}$, eau $\\ce{H2O}$, dioxyde de carbone $\\ce{CO2}$, méthane $\\ce{CH4}$ (gaz des marécages, constituant principal du gaz naturel).\n:::\n\n## 2. La liaison covalente\n:::definition Liaison covalente\nUne **liaison covalente** entre deux atomes est la **mise en commun d'un doublet d'électrons** (deux électrons) : chaque atome apporte **un** électron célibataire de sa couche externe. Le doublet appartient aux deux atomes : il compte pour la couche externe de chacun.\n:::\nExemple : dans $\\ce{H2}$, chaque atome H ($(K)^{1}$) met son électron en commun ; chacun « voit » alors 2 électrons : la règle du **duet** est satisfaite.\n\n## 3. Nombre de liaisons d'un atome (valence)\n:::propriete Valence\nUn atome forme autant de liaisons covalentes qu'il lui **manque d'électrons** pour satisfaire la règle du duet ou de l'octet.\n:::\n\n| Atome | Électrons de valence | Électrons manquants | Nombre de liaisons |\n|---|---|---|---|\n| H | 1 | 1 (duet) | 1 |\n| Cl, F | 7 | 1 | 1 |\n| O, S | 6 | 2 | 2 |\n| N | 5 | 3 | 3 |\n| C | 4 | 4 | 4 |\n\nDeux atomes peuvent partager 2 doublets (**liaison double**, $\\text{O=O}$, $\\text{O=C=O}$) ou 3 doublets (**liaison triple**, $\\text{N}\\equiv\\text{N}$).\n\n## 4. Les différentes formules\n- **Formule brute** : nature et nombre des atomes, $\\ce{C2H6O}$.\n- **Formule développée** : toutes les liaisons sont représentées par des tirets.\n- **Formule semi-développée** : on ne représente pas les liaisons avec les atomes d'hydrogène : $\\ce{CH3-CH2-OH}$.\n\n:::definition Isomères\nDes **isomères** ont la **même formule brute** mais des **formules développées différentes** (donc des propriétés différentes). Exemple, $\\ce{C2H6O}$ : l'éthanol $\\ce{CH3-CH2-OH}$ (alcool, liquide) et le méthoxyméthane $\\ce{CH3-O-CH3}$ (gaz).\n:::\n\n## Exemples résolus\n**Exemple 1.** Écris la formule développée de l'ammoniac $\\ce{NH3}$ et vérifie les valences.\n- N forme 3 liaisons, chaque H en forme 1 : N au centre, lié aux trois H.\n- Formule développée : trois tirets N–H. Valences respectées : N (3), H (1).\n\n**Exemple 2.** Écris les deux formules semi-développées possibles de $\\ce{C2H6O}$.\n- C : 4 liaisons, O : 2, H : 1.\n- Si O est en bout de chaîne : $\\ce{CH3-CH2-OH}$ (éthanol). Si O est entre les deux C : $\\ce{CH3-O-CH3}$ (méthoxyméthane). Ce sont deux **isomères**.",
+   "definition": "Une molécule est un assemblage neutre d'atomes liés par des liaisons covalentes ; une liaison covalente est un doublet d'électrons mis en commun, chaque atome en apportant un.",
+   "formules": [
+    "H : 1 liaison ; O : 2 ; N : 3 ; C : 4",
+    "$\\ce{CH3-CH2-OH}$ et $\\ce{CH3-O-CH3}$ (isomères)"
+   ],
+   "niveaux": {
+    "phrase": "Dans une liaison covalente, deux atomes « mettent en commun » chacun un électron pour compléter leur couche externe.",
+    "simple": "Deux amis qui n'ont chacun qu'une chaussure d'une paire et qui partagent la paire : chacun « a » ses deux chaussures. Dans H₂, chaque hydrogène partage son électron et profite des deux.",
+    "complete": "Liaison covalente : doublet commun (1 électron de chaque atome). Nombre de liaisons = électrons manquants pour duet/octet (H, Cl : 1 ; O, S : 2 ; N : 3 ; C : 4). Liaisons simples, doubles, triples. Formules brute, développée, semi-développée ; isomères (même formule brute, enchaînements différents)."
+   },
+   "analogie": "Le gaz butane des bouteilles de cuisine ($\\ce{C4H10}$) est une molécule : 4 carbones à 4 liaisons et 10 hydrogènes à 1 liaison.",
+   "exemples_resolus": [
+    {
+     "enonce": "Formule développée de NH₃ ?",
+     "etapes": [
+      "N forme 3 liaisons ; H en forme 1.",
+      "N au centre, lié aux 3 H par trois liaisons simples.",
+      "Valences vérifiées."
+     ]
+    },
+    {
+     "enonce": "Formules semi-développées de C₂H₆O ?",
+     "etapes": [
+      "C : 4 liaisons, O : 2, H : 1.",
+      "$\\ce{CH3-CH2-OH}$ (éthanol).",
+      "$\\ce{CH3-O-CH3}$ (méthoxyméthane) : isomères."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Faire former 2 liaisons à un hydrogène.",
+    "Oublier la double liaison dans O₂ ou CO₂ (un carbone avec seulement 2 liaisons).",
+    "Confondre formule brute et formule développée.",
+    "Croire que deux isomères sont la même molécule."
+   ],
+   "astuces": [
+    "Vérifie chaque atome de ta formule développée : compte les tirets autour de lui.",
+    "Formule brute → compte les atomes ; formule développée → compte les liaisons."
+   ],
+   "mnemo": "« HONC 1-2-3-4 » : H 1 liaison, O 2, N 3, C 4.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu écrivais déjà H₂O, CO₂, CH₄ et tu construisais des modèles moléculaires avec des boules. Les « trous » dans les boules correspondent au nombre de liaisons."
+   },
+   "methode_redaction": "Pour une formule développée : écris le nombre de liaisons de chaque atome, construis le squelette (les C et O au centre, les H autour), puis vérifie atome par atome.",
+   "flash": [
+    {
+     "q": "Définis une liaison covalente.",
+     "r": "La mise en commun d'un doublet d'électrons entre deux atomes, chacun apportant un électron."
+    },
+    {
+     "q": "Nombre de liaisons formées par le carbone ?",
+     "r": "4."
+    },
+    {
+     "q": "Nombre de liaisons formées par l'oxygène ?",
+     "r": "2."
+    },
+    {
+     "q": "Type de liaison dans N₂ ?",
+     "r": "Une liaison triple."
+    },
+    {
+     "q": "Définis des isomères.",
+     "r": "Des molécules de même formule brute mais de formules développées différentes."
+    },
+    {
+     "q": "Formule semi-développée de l'éthanol ?",
+     "r": "$\\ce{CH3-CH2-OH}$."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C08-N1.svg",
+    "alt": "Formules développées de quatre molécules : eau H–O–H, ammoniac avec N relié à trois H, méthane avec C relié à quatre H, dioxyde de carbone O=C=O ; sous chaque atome, son nombre de liaisons.",
+    "legende": "Formules développées : H forme 1 liaison, O 2, N 3, C 4.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C08-N2",
+   "titre": "Représentation de Lewis des molécules",
+   "prerequis_notions": [
+    "PC-S1-C08-N1"
+   ],
+   "cours_md": "## 1. Doublets liants et non liants\nDans une molécule, les électrons de valence sont tous groupés par **paires** (doublets) :\n- les **doublets liants** forment les liaisons covalentes (représentés par un tiret entre deux atomes) ;\n- les **doublets non liants** appartiennent à un seul atome (représentés par un tiret placé à côté de cet atome).\n\n:::methode Établir la représentation de Lewis d'une molécule\n1. Écrire la formule électronique de chaque atome et compter les **électrons de valence** $n_v$ de la molécule (somme sur tous les atomes).\n2. Nombre total de doublets : $n_d = \\dfrac{n_v}{2}$.\n3. Écrire le **squelette** : liaisons covalentes en respectant le nombre de liaisons de chaque atome (H : 1 ; O : 2 ; N : 3 ; C : 4).\n4. Nombre de doublets non liants $= n_d - $ nombre de doublets liants ; les placer pour que chaque atome (sauf H) ait **8 électrons** autour de lui (octet) et H **2** (duet).\n5. Vérifier : chaque doublet compte pour 2 électrons, liants comptés pour les deux atomes.\n:::\n\n## 2. Exemples à connaître\n| Molécule | $n_v$ | $n_d$ | Liants | Non liants | Représentation |\n|---|---|---|---|---|---|\n| $\\ce{H2O}$ | $2 \\times 1 + 6 = 8$ | 4 | 2 | 2 (sur O) | H–O–H, 2 doublets sur O |\n| $\\ce{NH3}$ | $5 + 3 = 8$ | 4 | 3 | 1 (sur N) | N au centre, 1 doublet sur N |\n| $\\ce{CH4}$ | $4 + 4 = 8$ | 4 | 4 | 0 | C entouré de 4 H |\n| $\\ce{HCl}$ | $1 + 7 = 8$ | 4 | 1 | 3 (sur Cl) | H–Cl, 3 doublets sur Cl |\n| $\\ce{CO2}$ | $4 + 2 \\times 6 = 16$ | 8 | 4 (2 doubles) | 4 (2 sur chaque O) | O=C=O |\n| $\\ce{N2}$ | $2 \\times 5 = 10$ | 5 | 3 (triple) | 2 (1 sur chaque N) | N≡N |\n\n:::remarque Géométrie des molécules\nLes doublets (liants et non liants) se repoussent et s'écartent le plus possible. C'est pourquoi le méthane est **tétraédrique** (angles de 109,5°), l'ammoniac **pyramidal**, l'eau **coudée** (angle d'environ 104,5°) et le dioxyde de carbone **linéaire**.\n:::\n\n## Exemples résolus\n**Exemple 1.** Établis la représentation de Lewis de la molécule d'eau.\n- H : $(K)^{1}$ → 1 électron de valence ; O : $(K)^{2}(L)^{6}$ → 6.\n- $n_v = 2 \\times 1 + 6 = 8$ ; $n_d = 4$.\n- Squelette H–O–H : 2 doublets liants. Il reste $4 - 2 = 2$ doublets non liants, placés sur O.\n- Vérification : O est entouré de $2 \\times 2 + 2 \\times 2 = 8$ électrons (octet) ; chaque H de 2 (duet).\n\n**Exemple 2.** Établis la représentation de Lewis du dioxyde de carbone.\n- $n_v = 4 + 2 \\times 6 = 16$ ; $n_d = 8$.\n- C doit faire 4 liaisons et chaque O 2 : O=C=O (2 doubles liaisons = 4 doublets liants).\n- Reste $8 - 4 = 4$ doublets non liants : 2 sur chaque O. Chaque atome a bien un octet.",
+   "definition": "La représentation de Lewis d'une molécule montre tous les doublets d'électrons de valence : doublets liants (liaisons) et doublets non liants, de façon que chaque atome respecte le duet ou l'octet.",
+   "formules": [
+    "$n_d = \\dfrac{n_v}{2}$",
+    "non liants $= n_d -$ liants"
+   ],
+   "niveaux": {
+    "phrase": "On compte les électrons de valence, on les met par paires, on fait les liaisons, puis on range les paires restantes pour que chacun ait 8 électrons (2 pour H).",
+    "simple": "Comme on répartit des paires de chaussures dans une famille : certaines paires sont partagées entre deux personnes (liants), les autres sont gardées par une seule (non liants), et chacun doit finir avec son compte.",
+    "complete": "$n_v$ = somme des électrons de valence ; $n_d = n_v/2$ ; squelette selon les valences ; doublets non liants $= n_d -$ doublets liants, répartis pour satisfaire octet/duet. Exemples : $\\ce{H2O}$ (2 l, 2 nl), $\\ce{NH3}$ (3 l, 1 nl), $\\ce{CO2}$ (4 l, 4 nl), $\\ce{N2}$ (3 l, 2 nl). Répulsion des doublets → géométrie (tétraèdre, pyramide, coudée, linéaire)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Représentation de Lewis de H₂O.",
+     "etapes": [
+      "$n_v = 2 \\times 1 + 6 = 8$ ; $n_d = 4$.",
+      "Squelette H–O–H : 2 doublets liants.",
+      "2 doublets non liants sur O.",
+      "O : 8 électrons ; H : 2 électrons."
+     ]
+    },
+    {
+     "enonce": "Représentation de Lewis de CO₂.",
+     "etapes": [
+      "$n_v = 16$ ; $n_d = 8$.",
+      "O=C=O : 4 doublets liants.",
+      "4 doublets non liants, 2 sur chaque O.",
+      "Octet vérifié pour C et pour chaque O."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier les doublets non liants (H–O–H sans les 2 doublets de O).",
+    "Compter les électrons de toutes les couches au lieu des seuls électrons de valence.",
+    "Mettre des doublets non liants sur l'hydrogène.",
+    "Placer 10 électrons autour d'un atome de la 2e période."
+   ],
+   "astuces": [
+    "Contrôle final : nombre de tirets (liants + non liants) = n_d.",
+    "O a toujours 2 doublets non liants quand il fait 2 liaisons ; N en a 1 quand il fait 3 liaisons ; Cl en a 3 quand il fait 1 liaison."
+   ],
+   "mnemo": "« O : 2 liens, 2 paires ; N : 3 liens, 1 paire ; C : 4 liens, 0 paire. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Les modèles moléculaires (boules et bâtonnets) montraient les liaisons ; Lewis ajoute les électrons qui ne servent pas aux liaisons."
+   },
+   "methode_redaction": "Présente en 4 lignes : électrons de valence de chaque atome, total n_v et n_d, squelette (liants), doublets non liants et vérification de l'octet pour chaque atome.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un doublet non liant ?",
+     "r": "Une paire d'électrons de valence qui appartient à un seul atome."
+    },
+    {
+     "q": "Nombre de doublets dans NH₃ ?",
+     "r": "4 (3 liants, 1 non liant)."
+    },
+    {
+     "q": "Doublets non liants de l'oxygène dans H₂O ?",
+     "r": "2."
+    },
+    {
+     "q": "Représentation de Lewis de N₂ ?",
+     "r": "N≡N avec un doublet non liant sur chaque N."
+    },
+    {
+     "q": "Formule pour le nombre total de doublets ?",
+     "r": "$n_d = n_v/2$."
+    },
+    {
+     "q": "Géométrie de la molécule d'eau ?",
+     "r": "Coudée (angle d'environ 104,5°)."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C08-N2.svg",
+    "alt": "Représentations de Lewis de quatre molécules : eau (2 doublets non liants sur O), ammoniac (1 doublet non liant sur N), dioxyde de carbone (O=C=O avec 2 doublets non liants sur chaque O), diazote (N≡N avec un doublet non liant sur chaque N).",
+    "legende": "Lewis : tirets entre atomes = doublets liants ; tirets autour d'un atome = doublets non liants.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C08-N3",
+   "titre": "Liaison ionique et composés ioniques",
+   "prerequis_notions": [
+    "PC-S1-C08-N1",
+    "PC-S1-C07-N3"
+   ],
+   "cours_md": "## 1. Le cristal ionique\n:::definition Composé ionique\nUn **composé ionique** (ou cristal ionique) est un solide formé de **cations** et d'**anions** régulièrement empilés. Chaque ion est entouré d'ions de signe opposé : la cohésion est assurée par l'**attraction électrique** entre ions de charges opposées (**liaison ionique**).\n:::\nExemple : le chlorure de sodium (sel de cuisine) : chaque ion $\\ce{Na+}$ est entouré de 6 ions $\\ce{Cl-}$, et chaque $\\ce{Cl-}$ de 6 ions $\\ce{Na+}$.\n\n:::propriete Électroneutralité\nUn cristal ionique est électriquement **neutre** : la charge totale des cations compense celle des anions. Sa **formule statistique** indique la **proportion** des ions (pas une molécule) : $\\ce{NaCl}$, $\\ce{CaCl2}$, $\\ce{Al2O3}$. On n'écrit pas les charges dans la formule statistique.\n:::\n\n## 2. Les ions polyatomiques usuels\n| Ion | Nom | Ion | Nom |\n|---|---|---|---|\n| $\\ce{NH4+}$ | ammonium | $\\ce{OH-}$ | hydroxyde |\n| $\\ce{H3O+}$ | oxonium | $\\ce{NO3-}$ | nitrate |\n| $\\ce{SO4^2-}$ | sulfate | $\\ce{CO3^2-}$ | carbonate |\n| $\\ce{PO4^3-}$ | phosphate | $\\ce{HCO3-}$ | hydrogénocarbonate |\n| $\\ce{MnO4-}$ | permanganate | $\\ce{Cl-}$, $\\ce{O^2-}$, $\\ce{S^2-}$ | chlorure, oxyde, sulfure |\n\n:::methode Écrire la formule d'un composé ionique\n1. Écrire les deux ions avec leur charge : $\\ce{Al^3+}$ et $\\ce{SO4^2-}$.\n2. Chercher les plus petits nombres $x$ et $y$ tels que $x \\times (+3) + y \\times (-2) = 0$ : $x = 2$, $y = 3$ (on peut « croiser » les charges).\n3. Écrire la formule, avec des **parenthèses** autour d'un ion polyatomique présent plusieurs fois : $\\ce{Al2(SO4)3}$.\n4. Nom : **anion d'abord**, puis « de » + cation : sulfate d'aluminium.\n:::\n\n## 3. Exemples de la vie courante au Togo\n- Le **phosphate de calcium** $\\ce{Ca3(PO4)2}$ : minerai exploité au Togo (Hahotoé–Kpogamé), matière première des engrais ; c'est aussi le constituant minéral des os.\n- Le **carbonate de calcium** $\\ce{CaCO3}$ : le calcaire, matière première du ciment (Tabligbo).\n- L'**hydroxyde de sodium** $\\ce{NaOH}$ : la soude, utilisée pour fabriquer le savon.\n- Le **sulfate d'ammonium** $\\ce{(NH4)2SO4}$ : un engrais azoté.\n\n:::remarque Conduction électrique\nUn cristal ionique solide ne conduit pas le courant (ions immobiles). Fondu ou dissous dans l'eau, il conduit : les ions deviennent mobiles (voir les solutions aqueuses au 2e semestre).\n:::\n\n## Exemples résolus\n**Exemple 1.** Écris la formule statistique de l'oxyde d'aluminium.\n- Ions : $\\ce{Al^3+}$ et $\\ce{O^2-}$.\n- $2 \\times (+3) + 3 \\times (-2) = 0$ : formule $\\ce{Al2O3}$.\n\n**Exemple 2.** Le phosphate de calcium a pour formule $\\ce{Ca3(PO4)2}$. Quels ions contient-il et dans quelles proportions ? Vérifie l'électroneutralité.\n- Ions calcium $\\ce{Ca^2+}$ et phosphate $\\ce{PO4^3-}$, dans la proportion 3 pour 2.\n- Charges : $3 \\times (+2) + 2 \\times (-3) = 6 - 6 = 0$ ✔.\n- Atomes dans l'unité $\\ce{Ca3(PO4)2}$ : 3 Ca, 2 P, 8 O, soit 13 atomes.",
+   "definition": "Un composé ionique est un empilement électriquement neutre de cations et d'anions liés par attraction électrique ; sa formule statistique traduit la proportion des ions.",
+   "formules": [
+    "$x \\times q_{cation} + y \\times q_{anion} = 0$",
+    "$\\ce{Al2(SO4)3}$, $\\ce{Ca3(PO4)2}$"
+   ],
+   "niveaux": {
+    "phrase": "Dans un cristal ionique, les ions + et − s'attirent et s'empilent en alternance ; il y en a juste assez de chaque sorte pour que le tout soit neutre.",
+    "simple": "Comme les cases blanches et noires d'un damier : chaque ion Na⁺ est entouré d'ions Cl⁻, et inversement.",
+    "complete": "Cristal ionique : cations et anions alternés, cohésion par attraction électrique. Électroneutralité → formule statistique $\\ce{C_xA_y}$ avec $x q_C + y q_A = 0$ (plus petits entiers). Ions polyatomiques usuels ($\\ce{NH4+}$, $\\ce{OH-}$, $\\ce{NO3-}$, $\\ce{SO4^2-}$, $\\ce{CO3^2-}$, $\\ce{PO4^3-}$). Nom : anion puis cation. Conduction seulement à l'état fondu ou dissous."
+   },
+   "analogie": "Le phosphate extrait près de Hahotoé est un cristal ionique, Ca₃(PO₄)₂ : trois ions calcium pour deux ions phosphate.",
+   "exemples_resolus": [
+    {
+     "enonce": "Formule de l'oxyde d'aluminium ?",
+     "etapes": [
+      "Ions $\\ce{Al^3+}$ et $\\ce{O^2-}$.",
+      "$2 \\times 3 = 3 \\times 2$.",
+      "$\\ce{Al2O3}$."
+     ]
+    },
+    {
+     "enonce": "Ca₃(PO₄)₂ : ions, proportions, neutralité ?",
+     "etapes": [
+      "Ions $\\ce{Ca^2+}$ et $\\ce{PO4^3-}$, 3 pour 2.",
+      "$3 \\times (+2) + 2 \\times (-3) = 0$.",
+      "13 atomes : 3 Ca, 2 P, 8 O."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire les charges dans la formule statistique (Na⁺Cl⁻).",
+    "Oublier les parenthèses : AlSO43 au lieu de Al₂(SO₄)₃.",
+    "Nommer le cation en premier (« sodium chlorure »).",
+    "Parler de « molécule de chlorure de sodium »."
+   ],
+   "astuces": [
+    "Croise les charges puis simplifie : Mg²⁺ et O²⁻ donnent Mg₂O₂ → MgO.",
+    "Vérifie toujours la somme des charges : elle doit être nulle."
+   ],
+   "mnemo": "« L'anion s'annonce d'abord » : chlorure de sodium, sulfate de cuivre.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu qu'une solution de chlorure de sodium contient des ions Na⁺ et Cl⁻ et qu'elle conduit le courant, contrairement à l'eau sucrée."
+   },
+   "methode_redaction": "Écris les ions avec leurs charges, l'équation d'électroneutralité (x × charge + y × charge = 0), la formule obtenue, puis son nom.",
+   "flash": [
+    {
+     "q": "Qu'assure la cohésion d'un cristal ionique ?",
+     "r": "L'attraction électrique entre ions de charges opposées."
+    },
+    {
+     "q": "Formule du chlorure de calcium ?",
+     "r": "$\\ce{CaCl2}$."
+    },
+    {
+     "q": "Formule de l'ion sulfate ?",
+     "r": "$\\ce{SO4^2-}$."
+    },
+    {
+     "q": "Formule de l'ion phosphate ?",
+     "r": "$\\ce{PO4^3-}$."
+    },
+    {
+     "q": "Nom de NaOH ?",
+     "r": "Hydroxyde de sodium (la soude)."
+    },
+    {
+     "q": "Un cristal ionique solide conduit-il le courant ?",
+     "r": "Non ; il conduit fondu ou dissous."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C08-N3.svg",
+    "alt": "Un cristal de chlorure de sodium vu en coupe : un damier régulier de petits ions sodium positifs et de gros ions chlorure négatifs ; chaque ion est entouré d'ions de signe contraire.",
+    "legende": "Cristal de NaCl : alternance régulière de Na⁺ et de Cl⁻.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S1-C08-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C08-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Une liaison covalente correspond à :",
+   "choix": [
+    "un transfert d'électron d'un atome à l'autre",
+    "la mise en commun d'un doublet d'électrons",
+    "l'attraction entre deux ions",
+    "le partage de protons"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Les deux atomes mettent en commun deux électrons.",
+    "Chacun apporte un électron : c'est un doublet commun."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C08-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C08-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien de liaisons covalentes forme un atome d'azote ($Z = 7$) dans une molécule ?",
+   "reponses_acceptees": [
+    "3",
+    "trois"
+   ],
+   "indices": [],
+   "corrige": [
+    "$(K)^2(L)^5$ : il manque 3 électrons pour l'octet.",
+    "Il forme 3 liaisons."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C08-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C08-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle est la formule du chlorure de calcium (ions $\\ce{Ca^2+}$ et $\\ce{Cl-}$) ?",
+   "choix": [
+    "CaCl",
+    "Ca₂Cl",
+    "CaCl₂",
+    "Ca₂Cl₃"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Électroneutralité : $1 \\times (+2) + 2 \\times (-1) = 0$.",
+    "Formule $\\ce{CaCl2}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C08-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C08-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien de doublets (liants + non liants) y a-t-il au total dans la molécule d'ammoniac $\\ce{NH3}$ ?",
+   "reponses_acceptees": [
+    "4",
+    "quatre"
+   ],
+   "indices": [],
+   "corrige": [
+    "$n_v = 5 + 3 \\times 1 = 8$.",
+    "$n_d = 8/2 = 4$ (3 liants, 1 non liant)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C08-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C08-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien de doublets **non liants** porte l'atome d'oxygène dans la molécule d'eau ?",
+   "reponses_acceptees": [
+    "2",
+    "deux"
+   ],
+   "indices": [],
+   "corrige": [
+    "$n_v = 8$, $n_d = 4$ ; 2 liaisons O–H.",
+    "$4 - 2 = 2$ doublets non liants, sur O."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C08-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C08-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Écris la formule statistique de l'oxyde d'aluminium (ions $\\ce{Al^3+}$ et $\\ce{O^2-}$) sous la forme Al2O3.",
+   "reponses_acceptees": [
+    "Al2O3"
+   ],
+   "indices": [],
+   "corrige": [
+    "$2 \\times (+3) + 3 \\times (-2) = 0$.",
+    "$\\ce{Al2O3}$."
+   ],
+   "bareme": [
+    1,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C08-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C08-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Le nom du composé $\\ce{Na2SO4}$ est :",
+   "choix": [
+    "sodium sulfate",
+    "sulfate de sodium",
+    "sulfure de sodium",
+    "sulfite de sodium"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "On nomme l'anion d'abord (sulfate), puis le cation (sodium).",
+    "Sulfate de sodium."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Sulfure = S²⁻ ; sulfate = SO₄²⁻.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C08-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C08-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Établis la représentation de Lewis de la molécule de dioxyde de carbone $\\ce{CO2}$ ($Z$ : C = 6 ; O = 8) en détaillant la méthode.",
+   "indices": [],
+   "corrige": [
+    "C : $(K)^2(L)^4$ → 4 électrons de valence ; O : $(K)^2(L)^6$ → 6.",
+    "$n_v = 4 + 2 \\times 6 = 16$ ; $n_d = 8$.",
+    "C forme 4 liaisons et chaque O 2 : squelette O=C=O (2 doubles liaisons, 4 doublets liants).",
+    "Doublets non liants : $8 - 4 = 4$, soit 2 sur chaque O.",
+    "Vérification : C entouré de 8 électrons ; chaque O de $2 \\times 2 + 2 \\times 2 = 8$ électrons."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C08-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C08-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Le Togo exploite un minerai de phosphate de calcium, de formule $\\ce{Ca3(PO4)2}$.\n1. Quels ions contient-il ? Donne leur nom et leur charge.\n2. Vérifie l'électroneutralité de la formule.\n3. Combien d'atomes de chaque sorte contient l'unité $\\ce{Ca3(PO4)2}$ ?\n4. Pourquoi ce solide ne conduit-il pas le courant ?",
+   "indices": [],
+   "corrige": [
+    "Ions calcium $\\ce{Ca^2+}$ et ions phosphate $\\ce{PO4^3-}$.",
+    "$3 \\times (+2) + 2 \\times (-3) = 0$ : neutre ✔.",
+    "3 Ca, 2 P, 2 × 4 = 8 O (13 atomes).",
+    "Dans le solide, les ions sont immobiles : pas de porteurs de charge mobiles."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C08-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C08-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Écris la formule du sulfate d'aluminium (ions $\\ce{Al^3+}$ et $\\ce{SO4^2-}$) sous la forme Al2(SO4)3.",
+   "reponses_acceptees": [
+    "Al2(SO4)3"
+   ],
+   "indices": [],
+   "corrige": [
+    "$2 \\times (+3) + 3 \\times (-2) = 0$.",
+    "$\\ce{Al2(SO4)3}$ (parenthèses autour de l'ion polyatomique)."
+   ],
+   "bareme": [
+    1,
+    0.5
+   ],
+   "piege": "Oublier les parenthèses : Al2SO43.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C08-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C08-N1",
+    "PC-S1-C08-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "La formule brute $\\ce{C2H6O}$ correspond à deux molécules.\n1. Écris leurs formules semi-développées et nomme-les.\n2. Comment appelle-t-on ces deux molécules ?\n3. Calcule le nombre d'électrons de valence et le nombre de doublets de $\\ce{C2H6O}$ ; combien sont non liants ?",
+   "indices": [],
+   "corrige": [
+    "$\\ce{CH3-CH2-OH}$ (éthanol) et $\\ce{CH3-O-CH3}$ (méthoxyméthane).",
+    "Ce sont des isomères (même formule brute, formules développées différentes).",
+    "$n_v = 2 \\times 4 + 6 \\times 1 + 6 = 20$ ; $n_d = 10$.",
+    "Liaisons : 8 (éthanol : 5 C–H, 1 C–C, 1 C–O, 1 O–H ; méthoxyméthane : 6 C–H, 2 C–O). Non liants : 10 − 8 = 2, tous deux sur O."
+   ],
+   "bareme": [
+    1.5,
+    0.5,
+    1,
+    1.5
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C08-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C08-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Établis la représentation de Lewis de la molécule de cyanure d'hydrogène $\\ce{HCN}$ (enchaînement H, C, N).",
+   "indices": [],
+   "corrige": [
+    "Électrons de valence : H 1, C 4, N 5 ; $n_v = 10$ ; $n_d = 5$.",
+    "H fait 1 liaison, C 4, N 3 : H–C≡N (1 liaison simple + 1 triple = 4 doublets liants).",
+    "Doublets non liants : 5 − 4 = 1, sur N.",
+    "Vérification : C a 8 électrons (2 + 6), N a 8 (6 + 2), H a 2."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    0.5
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C08-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C08-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel conduit le courant électrique ?",
+   "choix": [
+    "Le sel de cuisine solide",
+    "L'eau sucrée",
+    "L'eau salée",
+    "Le sucre solide"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Il faut des ions mobiles.",
+    "Dans l'eau salée les ions Na⁺ et Cl⁻ sont mobiles ; dans le sel solide ils ne le sont pas ; l'eau sucrée ne contient pas d'ions."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C08-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C08-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien d'atomes contient une molécule de glucose $\\ce{C6H12O6}$ ?",
+   "reponses_acceptees": [
+    "24"
+   ],
+   "indices": [],
+   "corrige": [
+    "On additionne les indices.",
+    "$6 + 12 + 6 = 24$ atomes."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Doublets non liants oubliés dans la représentation de Lewis.",
+  "Valences non respectées (H avec 2 liaisons, C avec 3).",
+  "Formule ionique avec charges écrites ou sans parenthèses ; nom dans le mauvais ordre.",
+  "Confusion sulfate/sulfure, nitrate/nitrure, phosphate/phosphure.",
+  "Parler de « molécule » pour un composé ionique.",
+  "Compter tous les électrons de l'atome au lieu des seuls électrons de valence."
+ ]
+}

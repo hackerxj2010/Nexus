@@ -535,7 +535,7 @@
     "Le transport actif a besoin d'ATP, donc de respiration."
    ],
    "corrige": [
-    "1) L'eau saumâtre rend la solution du sol hypertonique par rapport aux cellules des racines ; l'eau ne peut plus entrer, elle sort même des cellules par osmose (plasmolyse).",
+    "1) L'eau saumâtre apporte du sel qui s'accumule dans le sol à chaque arrosage : la solution du sol devient de plus en plus concentrée, jusqu'à être hypertonique par rapport aux cellules des racines ; l'eau n'entre plus, elle sort même des cellules par osmose (plasmolyse).",
     "Les cellules perdent leur turgescence, la plante se fane.",
     "2) Baisse = $\\frac{100 - 12}{100} \\times 100 = 88\\ \\%$.",
     "Dans un sol inondé, l'air (donc le $\\ce{O2}$) est chassé ; les racines respirent mal et produisent peu d'ATP ; or l'absorption du $\\ce{K+}$ est un transport actif qui consomme de l'ATP : elle chute.",
