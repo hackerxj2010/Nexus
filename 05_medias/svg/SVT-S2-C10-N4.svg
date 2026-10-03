@@ -15,22 +15,22 @@
 <rect x="364.5" y="394" width="215" height="52" rx="10" fill="#e0e7ff" stroke="#4338ca" stroke-width="1.5"/>
 <text x="472.0" y="425.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Roches métamorphiques</text>
 <path d="M205,535 C150,510 110,460 110,388" fill="none" stroke="#b91c1c" stroke-width="3" marker-end="url(#flr)"/>
-<text x="122" y="492" font-size="14" text-anchor="end" font-weight="bold" fill="#b91c1c">refroidissement</text>
-<text x="122" y="510" font-size="14" text-anchor="end" font-weight="normal" fill="#b91c1c">cristallisation</text>
+<text x="122" y="492" font-size="15" text-anchor="end" font-weight="bold" fill="#b91c1c">refroidissement</text>
+<text x="122" y="510" font-size="15" text-anchor="end" font-weight="normal" fill="#b91c1c">cristallisation</text>
 <path d="M110,333 C110,220 160,130 232,112" fill="none" stroke="#b45309" stroke-width="3" marker-end="url(#flo)"/>
-<text x="128" y="180" font-size="14" text-anchor="end" font-weight="bold" fill="#b45309">altération,</text>
-<text x="128" y="198" font-size="14" text-anchor="end" font-weight="normal" fill="#b45309">érosion,</text>
-<text x="128" y="216" font-size="14" text-anchor="end" font-weight="normal" fill="#b45309">transport</text>
+<text x="128" y="180" font-size="15" text-anchor="end" font-weight="bold" fill="#b45309">altération,</text>
+<text x="128" y="198" font-size="15" text-anchor="end" font-weight="normal" fill="#b45309">érosion,</text>
+<text x="128" y="216" font-size="15" text-anchor="end" font-weight="normal" fill="#b45309">transport</text>
 <path d="M368,112 C430,120 465,150 470,202" fill="none" stroke="#a16207" stroke-width="3" marker-end="url(#flo)"/>
-<text x="450" y="135" font-size="14" text-anchor="start" font-weight="bold" fill="#a16207">dépôt, diagenèse</text>
+<text x="450" y="135" font-size="15" text-anchor="start" font-weight="bold" fill="#a16207">dépôt, diagenèse</text>
 <path d="M472,257 L472,392" fill="none" stroke="#4338ca" stroke-width="3" marker-end="url(#flm)"/>
-<text x="462" y="330" font-size="14" text-anchor="end" font-weight="bold" fill="#4338ca">métamorphisme</text>
+<text x="462" y="330" font-size="15" text-anchor="end" font-weight="bold" fill="#4338ca">métamorphisme</text>
 <path d="M460,447 C440,510 400,535 368,542" fill="none" stroke="#b91c1c" stroke-width="3" marker-end="url(#flr)"/>
-<text x="440" y="520" font-size="14" text-anchor="start" font-weight="bold" fill="#b91c1c">fusion</text>
+<text x="440" y="520" font-size="15" text-anchor="start" font-weight="bold" fill="#b91c1c">fusion</text>
 <path d="M220,370 C300,380 330,410 362,418" fill="none" stroke="#4338ca" stroke-width="2" marker-end="url(#flm)" stroke-dasharray="6 4"/>
-<text x="250" y="400" font-size="13" text-anchor="middle" font-weight="normal" fill="#4338ca">métamorphisme</text>
+<text x="250" y="400" font-size="14" text-anchor="middle" font-weight="normal" fill="#4338ca">métamorphisme</text>
 <path d="M380,222 C350,215 335,180 325,138" fill="none" stroke="#b45309" stroke-width="2" marker-end="url(#flo)" stroke-dasharray="6 4"/>
-<text x="300" y="175" font-size="13" text-anchor="end" font-weight="normal" fill="#b45309">érosion</text>
-<text x="300" y="594" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">Flèches pleines : grand cycle ; pointillés : raccourcis possibles.</text>
-<text x="300" y="611" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">Toute roche qui affleure peut être altérée et érodée.</text>
+<text x="300" y="175" font-size="14" text-anchor="end" font-weight="normal" fill="#b45309">érosion</text>
+<text x="300" y="594" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">Flèches pleines : grand cycle ; pointillés : raccourcis possibles.</text>
+<text x="300" y="611" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">Toute roche qui affleure peut être altérée et érodée.</text>
 </svg>

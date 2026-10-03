@@ -12,30 +12,30 @@
 <rect x="190" y="160" width="14" height="32" rx="4" fill="#eb6834"/>
 <text x="214" y="182" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">2 ATP</text>
 <line x1="190" y1="92" x2="190" y2="220" stroke="#374151" stroke-width="2"/>
-<text x="300" y="238" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">La respiration produit environ 19 fois plus d'ATP.</text>
+<text x="300" y="238" font-size="16" text-anchor="middle" font-weight="normal" fill="#4b5563">La respiration produit environ 19 fois plus d'ATP.</text>
 <line x1="30" y1="258" x2="570" y2="258" stroke="#d1d5db" stroke-width="1.5"/>
 <rect x="30" y="275" width="255" height="135" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
-<text x="157.5" y="310.2" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Respiration (avec O₂)</text>
-<text x="157.5" y="329.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">dégradation complète</text>
-<text x="157.5" y="347.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">déchets : CO₂ + H₂O</text>
-<text x="157.5" y="366.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">(plus d'énergie utilisable)</text>
-<text x="157.5" y="385.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">rendement ≈ 40 %</text>
+<text x="157.5" y="310.2" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Respiration (avec O₂)</text>
+<text x="157.5" y="329.0" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">dégradation complète</text>
+<text x="157.5" y="347.8" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">déchets : CO₂ + H₂O</text>
+<text x="157.5" y="366.5" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">(plus d'énergie utilisable)</text>
+<text x="157.5" y="385.2" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">rendement ≈ 40 %</text>
 <rect x="315" y="275" width="255" height="135" rx="10" fill="#fff7ed" stroke="#c2410c" stroke-width="1.5"/>
-<text x="442.5" y="310.2" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Fermentation (sans O₂)</text>
-<text x="442.5" y="329.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">dégradation incomplète</text>
-<text x="442.5" y="347.8" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">déchet : éthanol ou acide lactique</text>
-<text x="442.5" y="366.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">(encore riche en énergie)</text>
-<text x="442.5" y="385.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">rendement ≈ 2 %</text>
+<text x="442.5" y="310.2" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Fermentation (sans O₂)</text>
+<text x="442.5" y="329.0" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">dégradation incomplète</text>
+<text x="442.5" y="347.8" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">déchet : éthanol ou acide lactique</text>
+<text x="442.5" y="366.5" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">(encore riche en énergie)</text>
+<text x="442.5" y="385.2" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">rendement ≈ 2 %</text>
 <line x1="30" y1="428" x2="570" y2="428" stroke="#d1d5db" stroke-width="1.5"/>
 <text x="300" y="452" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Photosynthèse et respiration : deux réactions complémentaires</text>
 <rect x="25" y="500" width="205" height="60" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5"/>
-<text x="127.5" y="526.1" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">CO₂ + H₂O</text>
-<text x="127.5" y="543.6" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">(minéral, pauvre en énergie)</text>
+<text x="127.5" y="526.1" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">CO₂ + H₂O</text>
+<text x="127.5" y="543.6" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">(minéral, pauvre en énergie)</text>
 <rect x="370" y="500" width="205" height="60" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5"/>
-<text x="472.5" y="526.1" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">glucose + O₂</text>
-<text x="472.5" y="543.6" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">(organique, riche en énergie)</text>
+<text x="472.5" y="526.1" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">glucose + O₂</text>
+<text x="472.5" y="543.6" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">(organique, riche en énergie)</text>
 <path d="M232,512 C280,488 320,488 368,512" fill="none" stroke="#15803d" stroke-width="3" marker-end="url(#flv)"/>
-<text x="300" y="486" font-size="14" text-anchor="middle" font-weight="bold" fill="#15803d">photosynthèse (lumière)</text>
+<text x="300" y="486" font-size="15" text-anchor="middle" font-weight="bold" fill="#15803d">photosynthèse (lumière)</text>
 <path d="M368,548 C320,572 280,572 232,548" fill="none" stroke="#b91c1c" stroke-width="3" marker-end="url(#flr)"/>
-<text x="300" y="594" font-size="14" text-anchor="middle" font-weight="bold" fill="#b91c1c">respiration (énergie libérée)</text>
+<text x="300" y="594" font-size="15" text-anchor="middle" font-weight="bold" fill="#b91c1c">respiration (énergie libérée)</text>
 </svg>

@@ -7,48 +7,48 @@
 <line x1="80" y1="330" x2="550" y2="330" stroke="#374151" stroke-width="2" marker-end="url(#fl)"/>
 <line x1="80" y1="386" x2="80" y2="113.0" stroke="#374151" stroke-width="2" marker-end="url(#fl)"/>
 <line x1="75" y1="372" x2="80" y2="372" stroke="#374151" stroke-width="1.5"/>
-<text x="71" y="377" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">-3</text>
+<text x="71" y="377" font-size="15" text-anchor="end" font-weight="normal" fill="#4b5563">-3</text>
 <line x1="80" y1="372" x2="530" y2="372" stroke="#e5e7eb" stroke-width="1"/>
 <line x1="75" y1="330" x2="80" y2="330" stroke="#374151" stroke-width="1.5"/>
-<text x="71" y="335" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">0</text>
+<text x="71" y="335" font-size="15" text-anchor="end" font-weight="normal" fill="#4b5563">0</text>
 <line x1="75" y1="288" x2="80" y2="288" stroke="#374151" stroke-width="1.5"/>
-<text x="71" y="293" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">3</text>
+<text x="71" y="293" font-size="15" text-anchor="end" font-weight="normal" fill="#4b5563">3</text>
 <line x1="80" y1="288" x2="530" y2="288" stroke="#e5e7eb" stroke-width="1"/>
 <line x1="75" y1="246" x2="80" y2="246" stroke="#374151" stroke-width="1.5"/>
-<text x="71" y="251" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">6</text>
+<text x="71" y="251" font-size="15" text-anchor="end" font-weight="normal" fill="#4b5563">6</text>
 <line x1="80" y1="246" x2="530" y2="246" stroke="#e5e7eb" stroke-width="1"/>
 <line x1="75" y1="204" x2="80" y2="204" stroke="#374151" stroke-width="1.5"/>
-<text x="71" y="209" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">9</text>
+<text x="71" y="209" font-size="15" text-anchor="end" font-weight="normal" fill="#4b5563">9</text>
 <line x1="80" y1="204" x2="530" y2="204" stroke="#e5e7eb" stroke-width="1"/>
 <line x1="75" y1="162" x2="80" y2="162" stroke="#374151" stroke-width="1.5"/>
-<text x="71" y="167" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">12</text>
+<text x="71" y="167" font-size="15" text-anchor="end" font-weight="normal" fill="#4b5563">12</text>
 <line x1="80" y1="162" x2="530" y2="162" stroke="#e5e7eb" stroke-width="1"/>
 <line x1="75" y1="120" x2="80" y2="120" stroke="#374151" stroke-width="1.5"/>
-<text x="71" y="125" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">15</text>
+<text x="71" y="125" font-size="15" text-anchor="end" font-weight="normal" fill="#4b5563">15</text>
 <line x1="80" y1="120" x2="530" y2="120" stroke="#e5e7eb" stroke-width="1"/>
-<text x="86" y="105.0" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">O₂ rejeté (+) ou absorbé (−), unités arbitraires</text>
-<text x="550" y="352" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">éclairement →</text>
+<text x="86" y="105.0" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">O₂ rejeté (+) ou absorbé (−), unités arbitraires</text>
+<text x="550" y="352" font-size="15" text-anchor="end" font-weight="normal" fill="#4b5563">éclairement →</text>
 <polyline points="80.0,372.0 82.2,368.7 84.5,365.4 86.8,362.1 89.0,358.9 91.2,355.7 93.5,352.6 95.8,349.5 98.0,346.5 100.2,343.5 102.5,340.5 104.8,337.6 107.0,334.7 109.2,331.9 111.5,329.1 113.8,326.3 116.0,323.6 118.2,320.9 120.5,318.2 122.8,315.6 125.0,313.0 127.2,310.5 129.5,307.9 131.8,305.4 134.0,303.0 136.2,300.6 138.5,298.2 140.8,295.8 143.0,293.5 145.2,291.2 147.5,288.9 149.8,286.7 152.0,284.5 154.2,282.3 156.5,280.1 158.8,278.0 161.0,275.9 163.2,273.9 165.5,271.8 167.8,269.8 170.0,267.8 172.2,265.9 174.5,263.9 176.8,262.0 179.0,260.2 181.2,258.3 183.5,256.5 185.8,254.7 188.0,252.9 190.2,251.1 192.5,249.4 194.8,247.7 197.0,246.0 199.2,244.3 201.5,242.7 203.8,241.0 206.0,239.4 208.2,237.9 210.5,236.3 212.8,234.8 215.0,233.2 217.2,231.7 219.5,230.3 221.8,228.8 224.0,227.4 226.2,225.9 228.5,224.5 230.8,223.1 233.0,221.8 235.2,220.4 237.5,219.1 239.8,217.8 242.0,216.5 244.2,215.2 246.5,213.9 248.8,212.7 251.0,211.5 253.2,210.3 255.5,209.1 257.8,207.9 260.0,206.7 262.2,205.6 264.5,204.4 266.8,203.3 269.0,202.2 271.2,201.1 273.5,200.1 275.8,199.0 278.0,198.0 280.2,196.9 282.5,195.9 284.8,194.9 287.0,193.9 289.2,192.9 291.5,192.0 293.8,191.0 296.0,190.1 298.2,189.1 300.5,188.2 302.8,187.3 305.0,186.4 307.2,185.5 309.5,184.7 311.8,183.8 314.0,183.0 316.2,182.1 318.5,181.3 320.8,180.5 323.0,179.7 325.2,178.9 327.5,178.1 329.8,177.4 332.0,176.6 334.2,175.9 336.5,175.1 338.8,174.4 341.0,173.7 343.2,173.0 345.5,172.3 347.8,171.6 350.0,170.9 352.2,170.2 354.5,169.5 356.8,168.9 359.0,168.2 361.2,167.6 363.5,167.0 365.8,166.3 368.0,165.7 370.2,165.1 372.5,164.5 374.8,163.9 377.0,163.4 379.2,162.8 381.5,162.2 383.8,161.7 386.0,161.1 388.2,160.6 390.5,160.0 392.8,159.5 395.0,159.0 397.2,158.5 399.5,157.9 401.8,157.4 404.0,156.9 406.2,156.5 408.5,156.0 410.8,155.5 413.0,155.0 415.2,154.6 417.5,154.1 419.8,153.7 422.0,153.2 424.2,152.8 426.5,152.3 428.8,151.9 431.0,151.5 433.2,151.1 435.5,150.7 437.8,150.2 440.0,149.8 442.2,149.5 444.5,149.1 446.8,148.7 449.0,148.3 451.2,147.9 453.5,147.6 455.8,147.2 458.0,146.8 460.2,146.5 462.5,146.1 464.8,145.8 467.0,145.4 469.2,145.1 471.5,144.8 473.8,144.4 476.0,144.1 478.2,143.8 480.5,143.5 482.7,143.2 485.0,142.9 487.2,142.6 489.5,142.3 491.8,142.0 494.0,141.7 496.2,141.4 498.5,141.1 500.8,140.8 503.0,140.5 505.2,140.3 507.5,140.0 509.8,139.7 512.0,139.5 514.2,139.2 516.5,139.0 518.8,138.7 521.0,138.5 523.2,138.2 525.5,138.0 527.8,137.7 530.0,137.5" fill="none" stroke="#eb6834" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5"/>
 <polyline points="80.0,372.0 82.2,368.7 84.5,365.4 86.8,362.2 89.0,359.1 91.2,356.0 93.5,353.0 95.8,350.1 98.0,347.2 100.2,344.3 102.5,341.5 104.8,338.8 107.0,336.2 109.2,333.5 111.5,331.0 113.8,328.5 116.0,326.0 118.2,323.6 120.5,321.2 122.8,318.9 125.0,316.6 127.2,314.4 129.5,312.2 131.8,310.1 134.0,308.0 136.2,305.9 138.5,303.9 140.8,301.9 143.0,300.0 145.2,298.1 147.5,296.2 149.8,294.4 152.0,292.6 154.2,290.8 156.5,289.1 158.8,287.4 161.0,285.8 163.2,284.2 165.5,282.6 167.8,281.0 170.0,279.5 172.2,278.0 174.5,276.5 176.8,275.1 179.0,273.7 181.2,272.3 183.5,271.0 185.8,269.6 188.0,268.3 190.2,267.1 192.5,265.8 194.8,264.6 197.0,263.4 199.2,262.2 201.5,261.1 203.8,259.9 206.0,258.8 208.2,257.7 210.5,256.7 212.8,255.6 215.0,254.6 217.2,253.6 219.5,252.6 221.8,251.7 224.0,250.7 226.2,249.8 228.5,248.9 230.8,248.0 233.0,247.1 235.2,246.3 237.5,245.4 239.8,244.6 242.0,243.8 244.2,243.0 246.5,242.2 248.8,241.5 251.0,240.7 253.2,240.0 255.5,239.3 257.8,238.6 260.0,237.9 262.2,237.2 264.5,236.6 266.8,235.9 269.0,235.3 271.2,234.7 273.5,234.1 275.8,233.5 278.0,232.9 280.2,232.3 282.5,231.8 284.8,231.2 287.0,230.7 289.2,230.2 291.5,229.6 293.8,229.1 296.0,228.6 298.2,228.1 300.5,227.7 302.8,227.2 305.0,226.7 307.2,226.3 309.5,225.8 311.8,225.4 314.0,225.0 316.2,224.6 318.5,224.2 320.8,223.8 323.0,223.4 325.2,223.0 327.5,222.6 329.8,222.2 332.0,221.9 334.2,221.5 336.5,221.2 338.8,220.8 341.0,220.5 343.2,220.2 345.5,219.9 347.8,219.5 350.0,219.2 352.2,218.9 354.5,218.6 356.8,218.4 359.0,218.1 361.2,217.8 363.5,217.5 365.8,217.2 368.0,217.0 370.2,216.7 372.5,216.5 374.8,216.2 377.0,216.0 379.2,215.8 381.5,215.5 383.8,215.3 386.0,215.1 388.2,214.8 390.5,214.6 392.8,214.4 395.0,214.2 397.2,214.0 399.5,213.8 401.8,213.6 404.0,213.4 406.2,213.2 408.5,213.1 410.8,212.9 413.0,212.7 415.2,212.5 417.5,212.4 419.8,212.2 422.0,212.0 424.2,211.9 426.5,211.7 428.8,211.6 431.0,211.4 433.2,211.3 435.5,211.1 437.8,211.0 440.0,210.8 442.2,210.7 444.5,210.6 446.8,210.4 449.0,210.3 451.2,210.2 453.5,210.1 455.8,210.0 458.0,209.8 460.2,209.7 462.5,209.6 464.8,209.5 467.0,209.4 469.2,209.3 471.5,209.2 473.8,209.1 476.0,209.0 478.2,208.9 480.5,208.8 482.7,208.7 485.0,208.6 487.2,208.5 489.5,208.4 491.8,208.3 494.0,208.2 496.2,208.2 498.5,208.1 500.8,208.0 503.0,207.9 505.2,207.8 507.5,207.8 509.8,207.7 512.0,207.6 514.2,207.5 516.5,207.5 518.8,207.4 521.0,207.3 523.2,207.3 525.5,207.2 527.8,207.1 530.0,207.1" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
-<text x="526.0" y="127.50982970814599" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">air enrichi en CO₂</text>
-<text x="526.0" y="197.07702733330734" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">air normal</text>
+<text x="526.0" y="127.50982970814599" font-size="16" text-anchor="end" font-weight="normal" fill="#1f2937">air enrichi en CO₂</text>
+<text x="526.0" y="197.07702733330734" font-size="16" text-anchor="end" font-weight="normal" fill="#1f2937">air normal</text>
 <circle cx="112.4" cy="330" r="5" fill="#fffdf8" stroke="#111827" stroke-width="2"/>
-<line x1="112.4" y1="330" x2="200" y2="395" stroke="#374151" stroke-width="1.5"/><text x="205" y="400" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">point de compensation</text>
-<text x="210" y="415" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">(photosynthèse = respiration)</text>
-<line x1="80" y1="372" x2="62" y2="390" stroke="#374151" stroke-width="1.5"/><circle cx="80" cy="372" r="2.6" fill="#374151"/><text x="57" y="395" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937"></text>
-<text x="30" y="407" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">obscurité :</text>
-<text x="30" y="424" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">respiration seule</text>
+<line x1="112.4" y1="330" x2="200" y2="395" stroke="#374151" stroke-width="1.5"/><text x="205" y="400" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">point de compensation</text>
+<text x="210" y="415" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">(photosynthèse = respiration)</text>
+<line x1="80" y1="372" x2="62" y2="390" stroke="#374151" stroke-width="1.5"/><circle cx="80" cy="372" r="2.6" fill="#374151"/><text x="57" y="395" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937"></text>
+<text x="30" y="407" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">obscurité :</text>
+<text x="30" y="424" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">respiration seule</text>
 <line x1="395.0" y1="372" x2="395.0" y2="214.2" stroke="#6b7280" stroke-width="1.2" stroke-dasharray="4 4"/>
 <line x1="80" y1="372" x2="530" y2="372" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="3 5"/>
 <path d="M385.0,214.2 h-6 V330 h6" fill="none" stroke="#15803d" stroke-width="2"/>
-<text x="373.0" y="277.10804526051834" font-size="14" text-anchor="end" font-weight="bold" fill="#15803d">nette</text>
+<text x="373.0" y="277.10804526051834" font-size="15" text-anchor="end" font-weight="bold" fill="#15803d">nette</text>
 <path d="M405.0,214.2 h6 V372 h-6" fill="none" stroke="#7c3aed" stroke-width="2"/>
-<text x="417.0" y="298.10804526051834" font-size="14" text-anchor="start" font-weight="bold" fill="#7c3aed">brute</text>
-<text x="197.0" y="274" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">la lumière limite</text>
-<text x="197.0" y="291" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">(les deux courbes</text>
-<text x="197.0" y="308" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">sont confondues)</text>
+<text x="417.0" y="298.10804526051834" font-size="15" text-anchor="start" font-weight="bold" fill="#7c3aed">brute</text>
+<text x="197.0" y="274" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">la lumière limite</text>
+<text x="197.0" y="291" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">(les deux courbes</text>
+<text x="197.0" y="308" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">sont confondues)</text>
 <rect x="30" y="448" width="540" height="92" rx="10" fill="#f0fdf4" stroke="#15803d" stroke-width="1.5"/>
-<text x="300.0" y="480.5" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Photosynthèse brute = photosynthèse nette + respiration</text>
-<text x="300.0" y="499.2" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Au palier, la lumière n'est plus le facteur limitant :</text>
-<text x="300.0" y="518.0" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">c'est le CO₂ (ou la température) qui limite.</text>
+<text x="300.0" y="480.5" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">Photosynthèse brute = photosynthèse nette + respiration</text>
+<text x="300.0" y="499.2" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">Au palier, la lumière n'est plus le facteur limitant :</text>
+<text x="300.0" y="518.0" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">c'est le CO₂ (ou la température) qui limite.</text>
 </svg>

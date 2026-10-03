@@ -1,0 +1,706 @@
+{
+ "id": "SVT-S2-C12",
+ "matiere": "SVT",
+ "semestre": 2,
+ "ordre": 12,
+ "titre": "La structure interne du globe et son activité : séismes et volcans",
+ "objectifs": [
+  "L'élève doit être capable d'exploiter des données sismiques pour établir la structure interne du globe (enveloppes, discontinuités, états physiques).",
+  "L'élève doit être capable d'expliquer l'origine d'un séisme, de localiser un épicentre et de distinguer magnitude et intensité.",
+  "L'élève doit être capable de décrire un volcan, de relier le type d'éruption à la nature de la lave et d'en déduire les risques.",
+  "L'élève doit être capable de relier la répartition des séismes et des volcans aux frontières des plaques et d'expliquer la situation du Togo.",
+  "L'élève doit être capable de citer les mesures de prévention face aux risques sismique et volcanique."
+ ],
+ "prerequis": [
+  "SVT-3e-VOLCANS-SEISMES",
+  "SVT-S2-C10",
+  "SVT-S2-C11"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S2-C12-N1",
+   "titre": "La structure interne du globe révélée par les ondes sismiques",
+   "prerequis_notions": [
+    "SVT-3e-VOLCANS-SEISMES",
+    "SVT-S2-C10-N2"
+   ],
+   "cours_md": "### 1. Ce que l'on sait directement… et ce que l'on ne voit pas\n- Le **rayon** de la Terre est d'environ **6 371 km**. Les forages les plus profonds n'atteignent qu'environ 12 km : l'intérieur du globe n'est connu que par des **méthodes indirectes**.\n- La **masse volumique moyenne** de la Terre (masse ÷ volume) est d'environ **5,5 g/cm³**, alors que celle des roches de surface n'est que de 2,7 à 3 g/cm³ : les matériaux profonds sont donc **beaucoup plus denses**.\n- Les **météorites** de fer et de pierre donnent une idée de la composition du globe ; les **laves** et certaines roches remontées apportent des fragments du manteau (péridotite).\n\n### 2. Les ondes sismiques, des « rayons X » du globe\nUn séisme émet des **ondes sismiques** qui traversent la Terre et sont enregistrées par des **sismographes** dans les stations du monde entier.\n\n:::definition\n- **Ondes P** (premières) : ondes de **compression** ; les plus **rapides** ; elles traversent les **solides et les liquides**.\n- **Ondes S** (secondes) : ondes de **cisaillement** ; plus lentes ; elles **ne traversent pas les liquides**.\n- **Ondes L** (de surface) : les plus lentes et les plus destructrices ; elles restent près de la surface.\nLa vitesse des ondes P et S dépend de la **nature** et de l'**état** (solide, liquide) des matériaux traversés : elle augmente en général avec la profondeur, et change **brusquement** au passage d'une **discontinuité**.\n:::\n\n### 3. Les grandes discontinuités\n| Discontinuité | Découverte | Profondeur | Ce qu'elle sépare |\n|---|---|---|---|\n| **Mohorovičić (Moho)** | 1909 | 5 à 10 km sous les océans ; 30 à 70 km sous les continents | croûte / manteau (les ondes P passent d'environ 6 à 8 km/s) |\n| **Gutenberg** | 1914 | 2 900 km | manteau / noyau : les ondes P ralentissent brusquement, les ondes S **disparaissent** |\n| **Lehmann** | 1936 | 5 150 km | noyau externe / noyau interne (graine) : les ondes P accélèrent |\n\n:::propriete\nLa disparition des ondes S à 2 900 km montre que le **noyau externe est liquide**. Elle crée aussi une **zone d'ombre** : entre environ 105° et 143° de distance angulaire de l'épicentre, les stations ne reçoivent pas d'ondes P directes, car elles sont déviées par le noyau.\n:::\n\n### 4. Le modèle du globe\n| Enveloppe | Profondeur | État | Composition | Masse volumique (g/cm³) |\n|---|---|---|---|---|\n| **Croûte continentale** | 0 à 30-70 km | solide | roches de type granite, gneiss | ≈ 2,7 |\n| **Croûte océanique** | 0 à 5-10 km | solide | basalte, gabbro | ≈ 3,0 |\n| **Manteau** (supérieur et inférieur) | jusqu'à 2 900 km | **solide** | péridotite (olivine, pyroxènes) | 3,3 à 5,5 |\n| **Noyau externe** | 2 900 à 5 150 km | **liquide** | fer + nickel | ≈ 10 à 12 |\n| **Noyau interne (graine)** | 5 150 à 6 371 km | solide | fer + nickel | ≈ 13 |\n\n:::definition\n**Lithosphère** : enveloppe externe **rigide**, formée de la croûte et de la partie supérieure du manteau, épaisse d'environ 100 km ; elle est découpée en **plaques**.\n**Asthénosphère** : partie du manteau située sous la lithosphère, plus chaude, **solide mais ductile** (elle peut se déformer lentement, comme de la pâte), sur laquelle les plaques se déplacent.\n:::\n\n### 5. La température augmente avec la profondeur\nDans les mines et les forages, la température augmente d'environ **3 °C tous les 100 m** : c'est le **gradient géothermique** moyen près de la surface. Ce gradient diminue en profondeur ; la température au centre de la Terre est estimée à environ **5 000 à 6 000 °C**. Cette chaleur interne vient surtout de la désintégration d'éléments radioactifs et de la chaleur initiale de la planète.\n\n:::attention\nLe **manteau n'est pas liquide** : il est solide, même s'il peut se déformer très lentement. Les magmas ne se forment que localement, par fusion partielle. Seul le **noyau externe** est liquide.\n:::",
+   "definition": "Grâce aux ondes sismiques (P et S), on sait que la Terre est formée d'enveloppes concentriques séparées par des discontinuités : croûte, manteau solide (Moho), noyau externe liquide de fer et de nickel (Gutenberg, 2 900 km) et graine solide (Lehmann, 5 150 km) ; la lithosphère rigide repose sur l'asthénosphère ductile.",
+   "formules": [
+    "$\\rho = \\dfrac{m}{V}$ ; $V_{\\text{sphère}} = \\dfrac{4}{3}\\pi R^3$",
+    "$v = \\dfrac{d}{t}$",
+    "gradient géothermique $\\approx 3\\ ^\\circ\\text{C}$ pour $100\\ \\text{m}$"
+   ],
+   "niveaux": {
+    "phrase": "La Terre est formée de couches emboîtées : croûte, manteau solide, noyau externe liquide et graine solide.",
+    "simple": "La Terre ressemble à un avocat : une peau fine (la croûte), une grosse chair épaisse (le manteau) et un noyau au centre. Mais ce noyau a deux parties : une couche liquide de fer fondu et une boule solide au centre. On l'a découvert en « écoutant » comment les vibrations des séismes traversent la Terre.",
+    "complete": "Les méthodes indirectes (masse volumique moyenne de 5,5 g/cm³, météorites, enclaves de péridotite) et surtout la propagation des ondes sismiques P (compression, tous états) et S (cisaillement, solides seulement) révèlent des discontinuités : Moho (croûte/manteau, 5 à 70 km), Gutenberg (2 900 km : chute des P, disparition des S, zone d'ombre) et Lehmann (5 150 km). Le modèle comprend la croûte continentale (granitique, 2,7) et océanique (basaltique, 3,0), le manteau solide en péridotite, le noyau externe liquide et la graine solide en fer-nickel. La lithosphère rigide (≈ 100 km) repose sur l'asthénosphère ductile. La température croît avec la profondeur (≈ 3 °C/100 m en surface, 5 000 à 6 000 °C au centre)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Dans un forage au Togo, on mesure 30 °C à 100 m de profondeur et 60 °C à 1 100 m. Calcule le gradient géothermique en °C pour 100 m.",
+     "etapes": [
+      "Augmentation de température : 60 − 30 = 30 °C.",
+      "Augmentation de profondeur : 1 100 − 100 = 1 000 m, soit 10 fois 100 m.",
+      "Gradient = 30 ÷ 10 = 3 °C pour 100 m.",
+      "Conclusion : la valeur correspond au gradient géothermique moyen près de la surface."
+     ]
+    },
+    {
+     "enonce": "Le rayon du noyau (externe + graine) est d'environ 3 471 km. Quelle fraction du volume de la Terre (rayon 6 371 km) occupe-t-il ? Le noyau représente environ un tiers de la masse de la Terre : que peux-tu en conclure ?",
+     "etapes": [
+      "Le volume d'une sphère est proportionnel au cube du rayon : fraction = (3 471 ÷ 6 371)³.",
+      "3 471 ÷ 6 371 ≈ 0,545 ; 0,545³ ≈ 0,162 : le noyau occupe environ 16 % du volume.",
+      "Il contient pourtant environ 33 % de la masse : sa masse volumique est donc environ deux fois plus grande que la moyenne de la Terre.",
+      "Conclusion : le noyau est formé de matériaux très denses (fer et nickel)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que le manteau est liquide (il est solide).",
+    "Inverser ondes P et S (ce sont les ondes S qui ne traversent pas les liquides).",
+    "Confondre Moho (base de la croûte) et Gutenberg (limite manteau-noyau).",
+    "Confondre lithosphère (rigide) et croûte : la lithosphère comprend aussi le haut du manteau.",
+    "Prolonger le gradient de 3 °C/100 m jusqu'au centre de la Terre."
+   ],
+   "astuces": [
+    "P comme « Premières » et « Partout » (solides et liquides) ; S comme « Secondes » et « Solides seulement ».",
+    "Chiffres clés : 6 371 km (rayon), 2 900 km (Gutenberg), 5 150 km (Lehmann)."
+   ],
+   "mnemo": "Discontinuités de haut en bas : « Mon Grand Lit » : Moho, Gutenberg, Lehmann.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris que les volcans et les séismes montrent que la Terre est active et chaude à l'intérieur. On découvre maintenant l'organisation de cet intérieur grâce aux séismes."
+   },
+   "methode_redaction": "Pour un schéma de la structure du globe : coupe en demi-cercle, enveloppes légendées avec leur état (solide/liquide), discontinuités et profondeurs, titre. Pour exploiter une courbe de vitesse des ondes : décrire les variations avec les valeurs, repérer les changements brusques, les interpréter (discontinuité, état liquide).",
+   "flash": [
+    {
+     "q": "Différence entre ondes P et S ?",
+     "r": "P : compression, plus rapides, traversent solides et liquides ; S : cisaillement, plus lentes, seulement les solides."
+    },
+    {
+     "q": "Profondeur de la discontinuité de Gutenberg ?",
+     "r": "2 900 km (limite manteau-noyau)."
+    },
+    {
+     "q": "Pourquoi dit-on que le noyau externe est liquide ?",
+     "r": "Parce que les ondes S ne le traversent pas."
+    },
+    {
+     "q": "Composition du noyau ?",
+     "r": "Fer et nickel."
+    },
+    {
+     "q": "Lithosphère ?",
+     "r": "Enveloppe rigide (croûte + haut du manteau, ≈ 100 km), découpée en plaques."
+    },
+    {
+     "q": "Masse volumique moyenne de la Terre ?",
+     "r": "Environ 5,5 g/cm³."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C12-N1.svg",
+    "alt": "Demi-coupe du globe terrestre avec ses enveloppes et courbe des vitesses des ondes P et S en fonction de la profondeur",
+    "legende": "Croûte, manteau solide, noyau externe liquide, graine solide ; les ondes S disparaissent à 2 900 km.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C12-N2",
+   "titre": "Les séismes : origine, mesure et prévention",
+   "prerequis_notions": [
+    "SVT-S2-C12-N1"
+   ],
+   "cours_md": "### 1. Qu'est-ce qu'un séisme ?\n:::definition\n**Séisme** (tremblement de terre) : ensemble de secousses du sol provoquées par une **rupture brutale des roches** en profondeur, le long d'une **faille**. Les roches, soumises à des forces (contraintes), se déforment lentement en accumulant de l'énergie, puis cassent brusquement : l'énergie est libérée sous forme d'**ondes sismiques**.\n- **Foyer** (hypocentre) : point de la profondeur où commence la rupture.\n- **Épicentre** : point de la **surface** situé **à la verticale du foyer** ; c'est généralement là que les secousses sont les plus fortes.\n- **Faille** : cassure le long de laquelle deux blocs de roches se sont déplacés l'un par rapport à l'autre.\n:::\n\nLe séisme principal est souvent précédé de secousses faibles (**précurseurs**) et suivi de **répliques**.\n\n### 2. Enregistrer un séisme\nUn **sismographe** enregistre les mouvements du sol ; l'enregistrement est un **sismogramme**. On y voit arriver d'abord les **ondes P**, puis les **ondes S**, enfin les ondes de surface, de grande amplitude.\n\n:::propriete\n**Localiser l'épicentre** : le retard $\\Delta t$ des ondes S sur les ondes P augmente avec la distance $d$ entre la station et le foyer :\n$$\\Delta t = \\frac{d}{v_S} - \\frac{d}{v_P} \\quad \\Rightarrow \\quad d = \\Delta t \\times \\frac{v_P \\times v_S}{v_P - v_S}$$\nAvec $v_P = 6$ km/s et $v_S = 3{,}5$ km/s dans la croûte : $d = 8{,}4 \\times \\Delta t$ ($d$ en km, $\\Delta t$ en s).\nAvec **trois stations**, on trace trois cercles de rayons $d_1$, $d_2$, $d_3$ : l'épicentre est à leur **intersection** (triangulation).\n:::\n\n### 3. Mesurer la force d'un séisme\n| | Magnitude | Intensité |\n|---|---|---|\n| Ce qu'elle mesure | l'**énergie libérée** au foyer | les **effets** observés en un lieu (dégâts, ressenti) |\n| Comment | calculée à partir de l'amplitude des ondes sur les sismogrammes | estimée par enquête (personnes, bâtiments, paysage) |\n| Échelle | **ouverte**, logarithmique (échelle de Richter, 1935, et ses successeurs) | de **I à XII** (échelles MSK, EMS) |\n| Valeur pour un séisme | **une seule** valeur | **varie selon le lieu** : diminue en général avec la distance à l'épicentre |\n\n:::propriete\nQuand la magnitude augmente de **1**, l'amplitude des ondes est multipliée par **10** et l'**énergie** libérée par environ **32**. Un séisme de magnitude 7 libère donc environ $32 \\times 32 \\approx 1\\,000$ fois plus d'énergie qu'un séisme de magnitude 5.\n:::\n\nSur une carte, les lignes qui relient les lieux de même intensité s'appellent des **isoséistes** ; elles entourent l'épicentre.\n\n### 4. Quelques séismes\n- **Maroc (Al Haouz), 8 septembre 2023**, magnitude 6,8 : près de 3 000 morts, de nombreux villages de montagne détruits.\n- **Turquie-Syrie, 6 février 2023**, magnitude 7,8 : plus de 50 000 morts.\n- **Accra (Ghana), 22 juin 1939** : le séisme le plus fort connu de la région (magnitude estimée supérieure à 6), des morts et des dégâts à Accra ; il a été ressenti au Togo. L'Afrique de l'Ouest est une région de **faible sismicité**, mais pas nulle.\n- Un séisme sous la mer peut provoquer un **tsunami** (vague géante), comme dans l'océan Indien en 2004.\n\n### 5. Prévention et protection\nIl est impossible de **prévoir** précisément la date d'un séisme. On peut en revanche **prévenir** ses effets :\n- **constructions parasismiques** (béton armé bien chaîné, fondations adaptées) et respect des normes ;\n- cartes des zones à risque, exercices d'**évacuation** dans les écoles ;\n- **consignes** : pendant la secousse, s'abriter sous une table solide ou contre un mur porteur, loin des vitres ; dehors, s'éloigner des bâtiments et des fils électriques ; après, évacuer calmement, ne pas utiliser d'ascenseur, couper le gaz.\n\n:::attention\nNe confonds pas **magnitude** (une valeur par séisme, liée à l'énergie) et **intensité** (effets en un lieu, variable). Un séisme de magnitude modérée peut avoir une forte intensité près de l'épicentre s'il est peu profond et si les constructions sont fragiles.\n:::",
+   "definition": "Un séisme est une rupture brutale des roches le long d'une faille, au foyer, qui libère des ondes sismiques ; on le localise grâce au retard des ondes S sur les ondes P, on mesure son énergie par la magnitude et ses effets par l'intensité, et on s'en protège par la construction parasismique et l'éducation.",
+   "formules": [
+    "$d = \\Delta t \\times \\dfrac{v_P \\times v_S}{v_P - v_S}$",
+    "magnitude $+1$ : amplitude $\\times 10$, énergie $\\times 32$ environ"
+   ],
+   "niveaux": {
+    "phrase": "Un séisme, c'est une cassure brutale des roches en profondeur qui fait trembler le sol tout autour.",
+    "simple": "Plie une règle en bois : elle se courbe en accumulant de la force, puis casse d'un coup en vibrant. Les roches font pareil le long d'une faille. L'endroit de la cassure est le foyer ; juste au-dessus, à la surface, c'est l'épicentre. Les vibrations voyagent comme les vagues d'un caillou jeté dans l'eau.",
+    "complete": "Les contraintes accumulées dans les roches provoquent une rupture brutale le long d'une faille, au foyer ; l'épicentre est à sa verticale. Les ondes P, S puis de surface sont enregistrées sur des sismogrammes ; le retard Δt des S sur les P donne la distance (d = Δt·vP·vS/(vP − vS)) et trois stations localisent l'épicentre. La magnitude (échelle ouverte, logarithmique) mesure l'énergie libérée ; l'intensité (I à XII) mesure les effets en un lieu et décroît avec la distance (isoséistes). La prévention repose sur les normes parasismiques, l'information et les consignes de sécurité."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Un séisme A a une magnitude de 6, un séisme B une magnitude de 8. Combien de fois l'amplitude des ondes de B est-elle plus grande ? Et l'énergie libérée ?",
+     "etapes": [
+      "Différence de magnitude : 8 − 6 = 2.",
+      "Amplitude : × 10 par degré, donc × 10 × 10 = × 100.",
+      "Énergie : × 32 environ par degré, donc × 32 × 32 ≈ × 1 000.",
+      "Conclusion : B libère environ 1 000 fois plus d'énergie que A, avec des ondes 100 fois plus amples."
+     ]
+    },
+    {
+     "enonce": "Document : carte des intensités d'un séisme. Intensité VIII à la ville X (près de l'épicentre), VI à la ville Y (à 60 km), IV à la ville Z (à 150 km). Le séisme a une magnitude de 6,1. Explique pourquoi on donne trois intensités mais une seule magnitude.",
+     "etapes": [
+      "La magnitude mesure l'énergie libérée au foyer : il n'y a qu'un foyer, donc une seule magnitude (6,1).",
+      "L'intensité mesure les effets observés en chaque lieu : elle dépend de la distance à l'épicentre, du sol et de la qualité des constructions.",
+      "Plus on s'éloigne de l'épicentre, plus les ondes s'atténuent : l'intensité baisse de VIII à IV.",
+      "Conclusion : magnitude et intensité sont deux mesures différentes et complémentaires."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre foyer (en profondeur) et épicentre (en surface).",
+    "Confondre magnitude et intensité.",
+    "Croire qu'une magnitude 8 est « deux fois plus forte » qu'une magnitude 4 (l'échelle est logarithmique).",
+    "Dire qu'on sait prévoir le jour d'un séisme.",
+    "Oublier les unités (km, s, km/s) dans le calcul de distance."
+   ],
+   "astuces": [
+    "Magnitude = « Mesure de l'énergie, une seule » ; Intensité = « Impact sur les lieux, plusieurs ».",
+    "Formule rapide (croûte) : distance en km ≈ 8,4 × Δt en secondes.",
+    "Pendant un séisme : « Se baisser, s'abriter, s'agripper » sous une table solide."
+   ],
+   "mnemo": "« Foyer en bas, épicentre en haut » : l'épicentre est au-dessus (épi = sur).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que les séismes sont des secousses du sol qui peuvent faire des victimes, et qu'il faut adopter des comportements de sécurité. On apprend ici à les localiser et à les mesurer."
+   },
+   "methode_redaction": "Pour un calcul de distance épicentrale : écrire la formule, la démontrer si demandé à partir de t = d/v, faire l'application numérique avec unités, conclure. Pour une question magnitude/intensité : définir les deux, puis appliquer au document.",
+   "flash": [
+    {
+     "q": "Définition de l'épicentre ?",
+     "r": "Point de la surface situé à la verticale du foyer."
+    },
+    {
+     "q": "Origine d'un séisme ?",
+     "r": "Une rupture brutale des roches le long d'une faille, qui libère des ondes sismiques."
+    },
+    {
+     "q": "Quelles ondes arrivent en premier sur un sismogramme ?",
+     "r": "Les ondes P."
+    },
+    {
+     "q": "Magnitude + 1 : énergie multipliée par combien ?",
+     "r": "Environ 32 (amplitude × 10)."
+    },
+    {
+     "q": "Différence magnitude / intensité ?",
+     "r": "Magnitude : énergie au foyer, une valeur ; intensité : effets en un lieu, de I à XII, variable."
+    },
+    {
+     "q": "Combien de stations faut-il pour localiser un épicentre ?",
+     "r": "Trois (intersection de trois cercles)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C12-N2.svg",
+    "alt": "Coupe montrant le foyer, l'épicentre, la faille et les ondes d'un séisme, avec un sismogramme",
+    "legende": "La rupture au foyer émet des ondes ; l'épicentre est à la verticale ; sur le sismogramme, les ondes P précèdent les ondes S.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C12-N3",
+   "titre": "Les volcans : structure, types d'éruptions et risques",
+   "prerequis_notions": [
+    "SVT-S2-C12-N1",
+    "SVT-S2-C10-N2"
+   ],
+   "cours_md": "### 1. L'anatomie d'un volcan\n:::definition\n**Volcan** : relief formé par l'accumulation des produits émis lors des éruptions (laves, cendres), au-dessus d'une **cheminée** qui relie la surface à une **chambre magmatique** (réservoir de magma situé à quelques kilomètres de profondeur).\n:::\n\nUn volcan comprend : la **chambre magmatique**, la **cheminée**, le **cratère** au sommet, le **cône** formé de couches alternées de laves et de cendres, parfois des **cheminées secondaires** et des cônes secondaires sur les flancs.\n\n### 2. Les produits des éruptions\n- **Laves** : magma arrivé en surface, qui s'écoule en **coulées** puis refroidit en roches volcaniques (basalte, andésite, rhyolite, chapitre 10).\n- **Gaz** : surtout de la **vapeur d'eau**, puis du $\\ce{CO2}$ et du dioxyde de soufre ($\\ce{SO2}$). Ce sont les gaz, qui se dégagent du magma en montant (comme les bulles d'une bouteille de soda qu'on ouvre), qui provoquent les éruptions.\n- **Projections** (pyroclastes) : **cendres** (moins de 2 mm), **lapilli** (2 à 64 mm), **bombes** (plus de 64 mm, souvent en fuseau).\n\n### 3. Deux grands types d'éruptions\n| | Éruption **effusive** | Éruption **explosive** |\n|---|---|---|\n| Lave | **fluide**, chaude (≈ 1 100 à 1 200 °C), **pauvre en silice** (≈ 50 % de $\\ce{SiO2}$) | **visqueuse** (pâteuse), moins chaude (≈ 800 à 1 000 °C), **riche en silice** (plus de 60 %) |\n| Gaz | s'échappent facilement | restent piégés, la pression monte, puis explosion |\n| Manifestations | fontaines et **coulées de lave** qui parcourent des kilomètres, lacs de lave | **explosions**, panaches de cendres de plusieurs kilomètres, **nuées ardentes** (avalanches de gaz brûlants et de cendres dévalant les pentes à plus de 100 km/h), dômes |\n| Forme du volcan | large, à pentes douces (volcan bouclier) | conique, à pentes raides |\n| Roche | basalte | andésite, rhyolite, ponce |\n| Exemples | mont Cameroun (dernières éruptions en 1999 et 2000), Nyiragongo (RD Congo : coulées sur Goma en 2002 et 2021), Piton de la Fournaise (La Réunion) | montagne Pelée (Martinique, 1902 : une nuée ardente détruit Saint-Pierre, environ 28 000 morts), mont Saint Helens (États-Unis, 1980) |\n\n:::propriete\nLe **type d'éruption** dépend surtout de la **viscosité** de la lave, elle-même liée à sa **teneur en silice** et à sa **température** : lave fluide (pauvre en silice) → éruption effusive ; lave visqueuse (riche en silice) → éruption explosive, beaucoup plus dangereuse.\n:::\n\n### 4. Risques et avantages\n- **Risques** : coulées de lave (détruisent routes et maisons, mais avancent lentement), nuées ardentes (mortelles), retombées de cendres (toits effondrés, cultures détruites, avions), coulées de boue (lahars), **gaz** toxiques. Au **lac Nyos** (Cameroun), le 21 août 1986, un énorme dégagement de $\\ce{CO2}$ d'origine volcanique, plus lourd que l'air, a asphyxié environ 1 700 personnes dans les vallées voisines.\n- **Prévention** : **surveillance** des volcans actifs (sismographes qui enregistrent les petits séismes dus à la montée du magma, mesure du gonflement du volcan, analyse des gaz), cartes des zones à risques, plans d'**évacuation**.\n- **Avantages** : sols volcaniques très **fertiles** (pentes du mont Cameroun), **géothermie** (électricité produite au Kenya), matériaux (pouzzolane, basalte).\n\n:::attention\nNe dis pas que la lave « sort du centre de la Terre » : le magma vient d'une fusion partielle à quelques dizaines de kilomètres de profondeur (manteau ou croûte), et il est stocké dans une chambre magmatique peu profonde.\n:::",
+   "definition": "Un volcan émet par sa cheminée des laves, des gaz et des projections issus d'une chambre magmatique ; une lave fluide pauvre en silice donne des éruptions effusives (coulées), une lave visqueuse riche en silice des éruptions explosives (explosions, nuées ardentes), plus dangereuses ; la surveillance permet de prévenir les risques.",
+   "formules": [
+    "lave fluide (≈ 50 % SiO2, 1 100 à 1 200 °C) → éruption effusive",
+    "lave visqueuse (> 60 % SiO2, 800 à 1 000 °C) → éruption explosive",
+    "cendres < 2 mm ; lapilli 2 à 64 mm ; bombes > 64 mm"
+   ],
+   "niveaux": {
+    "phrase": "Un volcan rejette du magma : quand la lave est fluide, elle coule ; quand elle est pâteuse, le volcan explose.",
+    "simple": "Pense à la bouillie de maïs : très liquide, les bulles éclatent tranquillement à la surface (éruption effusive) ; très épaisse, les bulles restent piégées puis éclatent d'un coup en projetant la bouillie partout (éruption explosive). La « bouillie » du volcan, c'est la lave ; ce qui la rend épaisse, c'est la silice.",
+    "complete": "Le volcan comprend chambre magmatique, cheminée, cratère, cône stratifié et éventuels cônes secondaires ; il émet laves, gaz (vapeur d'eau, CO2, SO2) et pyroclastes (cendres, lapilli, bombes). Le dégazage du magma est le moteur des éruptions. Une lave fluide, chaude et pauvre en silice (basaltique) donne des éruptions effusives à coulées (mont Cameroun, Nyiragongo) ; une lave visqueuse, riche en silice, piège les gaz et donne des éruptions explosives avec panaches et nuées ardentes (montagne Pelée, 1902). La surveillance (sismicité, déformation, gaz) et l'aménagement du territoire réduisent les risques ; les sols volcaniques et la géothermie sont des atouts."
+   },
+   "analogie": "Une bouteille de boisson gazeuse secouée puis ouverte d'un coup « explose » parce que le gaz s'échappe brutalement : c'est ce qui se passe dans un volcan explosif quand le gaz piégé dans une lave visqueuse se libère.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : deux laves. Lave A : 49 % de SiO2, 1 180 °C, très fluide. Lave B : 70 % de SiO2, 850 °C, très visqueuse. Prévois le type d'éruption de chaque volcan, la roche formée et le volcan le plus dangereux.",
+     "etapes": [
+      "Lave A : pauvre en silice, très chaude, fluide : les gaz s'échappent facilement → éruption effusive avec coulées ; elle donnera du basalte.",
+      "Lave B : riche en silice, moins chaude, visqueuse : les gaz restent piégés → éruption explosive (explosions, panaches, nuées ardentes possibles) ; elle donnera de la rhyolite ou de la ponce.",
+      "Le volcan B est le plus dangereux : ses explosions et nuées ardentes sont brutales et rapides, alors que les coulées de A avancent lentement et laissent le temps d'évacuer.",
+      "Conclusion : la teneur en silice permet de prévoir le style éruptif."
+     ]
+    },
+    {
+     "enonce": "Classe ces projections volcaniques : fragment de 0,5 mm ; fragment de 1,5 cm ; bloc de 20 cm en forme de fuseau.",
+     "etapes": [
+      "0,5 mm est inférieur à 2 mm : c'est une cendre.",
+      "1,5 cm = 15 mm, compris entre 2 et 64 mm : c'est un lapillus (des lapilli).",
+      "20 cm = 200 mm, supérieur à 64 mm, en fuseau (lave refroidie en vol) : c'est une bombe volcanique."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que tous les volcans ont des coulées de lave (les explosifs produisent surtout des cendres et des nuées ardentes).",
+    "Inverser : lave riche en silice = fluide (c'est l'inverse).",
+    "Dire que le magma vient du noyau de la Terre.",
+    "Oublier le rôle des gaz dans le déclenchement des éruptions.",
+    "Confondre cratère (ouverture au sommet) et chambre magmatique (réservoir en profondeur)."
+   ],
+   "astuces": [
+    "« Silice = Sirop épais » : plus de silice, lave plus visqueuse, éruption plus explosive.",
+    "Tailles des projections : 2 mm et 64 mm sont les deux seuils."
+   ],
+   "mnemo": "« Effusif = Ça coule ; Explosif = Ça saute. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris qu'un volcan émet de la lave, des gaz et des cendres, et qu'il existe des volcans actifs en Afrique (mont Cameroun). On explique maintenant pourquoi certains volcans explosent et d'autres non."
+   },
+   "methode_redaction": "Pour un schéma de volcan : coupe avec chambre magmatique, cheminée, cratère, cône stratifié, coulée, panache, légendes à la règle, titre. Pour une comparaison effusif/explosif : tableau avec les mêmes critères (lave, silice, température, gaz, manifestations, roche, exemple). Pour un document : relier la composition de la lave au type d'éruption.",
+   "flash": [
+    {
+     "q": "De quoi dépend le type d'éruption ?",
+     "r": "De la viscosité de la lave, liée à sa teneur en silice (et à sa température)."
+    },
+    {
+     "q": "Caractéristiques d'une éruption effusive ?",
+     "r": "Lave fluide, pauvre en silice, très chaude ; coulées de lave ; basalte."
+    },
+    {
+     "q": "Qu'est-ce qu'une nuée ardente ?",
+     "r": "Une avalanche de gaz brûlants et de cendres dévalant les pentes à grande vitesse (volcans explosifs)."
+    },
+    {
+     "q": "Gaz volcanique le plus abondant ?",
+     "r": "La vapeur d'eau."
+    },
+    {
+     "q": "Que s'est-il passé au lac Nyos en 1986 ?",
+     "r": "Un dégagement massif de CO2 volcanique a asphyxié environ 1 700 personnes."
+    },
+    {
+     "q": "Comment surveille-t-on un volcan ?",
+     "r": "Sismographes (petits séismes), mesure du gonflement, analyse des gaz."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C12-N3.svg",
+    "alt": "Coupe d'un volcan avec chambre magmatique, cheminée, cratère, cône, coulée et panache, et comparaison des éruptions effusives et explosives",
+    "legende": "Le magma monte de la chambre magmatique par la cheminée ; éruptions effusives (lave fluide) et explosives (lave visqueuse).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C12-N4",
+   "titre": "La répartition des séismes et des volcans : une Terre active",
+   "prerequis_notions": [
+    "SVT-S2-C12-N1",
+    "SVT-S2-C12-N2",
+    "SVT-S2-C12-N3"
+   ],
+   "cours_md": "### 1. Séismes et volcans ne sont pas répartis au hasard\nSur une carte du monde, les séismes et les volcans actifs se concentrent dans des **zones étroites** :\n- la **ceinture de feu du Pacifique** (Japon, Indonésie, Andes, Californie) : plus de la moitié des volcans actifs émergés et les plus grands séismes ;\n- les **dorsales océaniques**, longues chaînes de montagnes sous-marines (dorsale médio-atlantique, qui passe par l'Islande) ;\n- la zone qui va de la Méditerranée à l'Himalaya ;\n- le **rift est-africain** (Éthiopie, Kenya, Tanzanie, RD Congo : Nyiragongo, Kilimandjaro).\nLe reste du globe, en particulier l'**Afrique de l'Ouest**, est beaucoup plus calme.\n\n### 2. Les plaques lithosphériques\n:::definition\n**Plaque lithosphérique** : grand fragment rigide de la lithosphère (environ 100 km d'épaisseur), qui se déplace lentement sur l'asthénosphère, à une vitesse de **quelques centimètres par an** (la vitesse de croissance des ongles). On compte une douzaine de grandes plaques (africaine, eurasienne, pacifique, sud-américaine…).\n:::\n\n:::propriete\nLes séismes et les volcans se produisent surtout **aux frontières des plaques** :\n- **frontières divergentes** (les plaques s'écartent) : **dorsales** océaniques et **rifts** continentaux ; du magma basaltique remonte et forme de la nouvelle croûte océanique ; **séismes peu profonds**, **volcanisme effusif** ;\n- **frontières convergentes** (les plaques se rapprochent) : **subduction** (une plaque océanique plonge sous une autre au niveau d'une **fosse**) avec des séismes de plus en plus profonds le long de la plaque plongeante (jusqu'à environ 700 km) et un **volcanisme explosif** ; **collision** de deux continents (Himalaya) avec de nombreux séismes et la formation de montagnes ;\n- **frontières transformantes** (les plaques coulissent l'une contre l'autre, faille de San Andreas en Californie) : séismes, pas de volcans.\n:::\n\n### 3. D'où vient le mouvement ?\nLa chaleur interne de la Terre (chapitre : structure du globe) entretient de très lents **mouvements de convection** dans le manteau **solide**, qui se déforme sur des millions d'années ; les plaques sont aussi « tirées » par leur partie qui plonge dans les zones de subduction.\n\n:::remarque\n**Alfred Wegener** proposa dès **1912** la **dérive des continents** : la côte de l'Afrique de l'Ouest (golfe de Guinée) s'emboîte avec celle du Brésil ; on retrouve les mêmes fossiles (*Mesosaurus*, petit reptile d'eau douce ; fougère *Glossopteris*) et les mêmes roches anciennes des deux côtés de l'Atlantique. L'Afrique et l'Amérique du Sud étaient réunies il y a environ 130 millions d'années ; l'Atlantique Sud s'est ouvert depuis, à partir d'une dorsale.\n:::\n\n### 4. Et le Togo ?\nLe Togo se trouve **au milieu de la plaque africaine**, loin de ses frontières (la plus proche, la dorsale médio-atlantique, est à plusieurs milliers de kilomètres). C'est pourquoi :\n- les **séismes y sont rares et en général faibles** ; quelques secousses sont ressenties, comme lors du séisme d'Accra en 1939, liées à d'anciennes failles de la marge côtière ;\n- il n'y a **pas de volcan actif** au Togo. Le volcanisme actif le plus proche est celui de la **« ligne du Cameroun »** (mont Cameroun, île de Bioko), un volcanisme situé à l'intérieur de la plaque africaine.\n\n:::attention\nLa Terre est une planète **active** : ses plaques bougent en permanence, même si nous ne le sentons pas. Au Togo, le risque sismique est faible, mais il faut tout de même respecter les règles de construction et connaître les bons gestes.\n:::",
+   "definition": "Les séismes et les volcans se concentrent aux frontières des plaques lithosphériques, qui se déplacent de quelques centimètres par an : dorsales et rifts (divergence), zones de subduction et de collision (convergence), failles transformantes ; le Togo, au cœur de la plaque africaine, a une faible sismicité et pas de volcan actif.",
+   "formules": [
+    "$v = \\dfrac{\\text{distance}}{\\text{durée}}$ (quelques cm/an)"
+   ],
+   "niveaux": {
+    "phrase": "Séismes et volcans se trouvent surtout là où les grandes plaques de la surface terrestre se touchent.",
+    "simple": "La surface de la Terre est comme une coquille d'œuf cassée en une douzaine de morceaux qui flottent très lentement sur une pâte chaude. Là où les morceaux s'écartent, se heurtent ou frottent, ça tremble et ça crache du magma. Le Togo est au milieu d'un grand morceau, la plaque africaine : il est donc assez tranquille.",
+    "complete": "La répartition mondiale des séismes et des volcans dessine des bandes étroites (ceinture de feu du Pacifique, dorsales, Méditerranée-Himalaya, rift est-africain) qui sont les frontières d'une douzaine de plaques lithosphériques rigides mobiles sur l'asthénosphère (quelques cm/an). Frontières divergentes (dorsales, rifts : séismes superficiels, volcanisme effusif), convergentes (subduction : séismes jusqu'à 700 km et volcanisme explosif ; collision) et transformantes (séismes). Le mouvement est entretenu par la convection du manteau solide et la traction des plaques plongeantes. Wegener (1912) avait pressenti la dérive des continents. Le Togo, au cœur de la plaque africaine, a une sismicité faible et aucun volcan actif."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "L'Afrique et l'Amérique du Sud se sont séparées il y a environ 130 millions d'années. Aujourd'hui, à la latitude du golfe de Guinée, environ 3 900 km les séparent (de côte à côte). Calcule la vitesse moyenne d'écartement en cm par an.",
+     "etapes": [
+      "Conversion : 3 900 km = 3 900 × 100 000 cm = 390 000 000 cm (3,9 × 10⁸ cm).",
+      "Durée : 130 millions d'années = 1,3 × 10⁸ ans.",
+      "Vitesse = 3,9 × 10⁸ ÷ 1,3 × 10⁸ = 3 cm par an.",
+      "Conclusion : l'Atlantique Sud s'est élargi en moyenne de 3 cm par an, ce qui correspond à l'ordre de grandeur des vitesses des plaques."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que les plaques « flottent sur du magma liquide » : l'asthénosphère est solide mais ductile.",
+    "Confondre plaque et continent (une plaque peut porter un continent et un océan, comme la plaque africaine).",
+    "Dire qu'il n'y a jamais de séisme au Togo (ils sont rares et faibles, pas inexistants).",
+    "Associer les dorsales à un volcanisme explosif (il y est effusif, basaltique).",
+    "Oublier de convertir les km en cm dans un calcul de vitesse."
+   ],
+   "astuces": [
+    "Trois types de frontières : « s'écartent, se rapprochent, coulissent ».",
+    "Subduction = fosse + séismes de plus en plus profonds + volcans explosifs."
+   ],
+   "mnemo": "« Dorsale = Divergence ; Subduction = Serrage (convergence) ; Transformante = Glissement. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as observé sur une carte que les volcans et les séismes se trouvent dans certaines régions du monde (Japon, Andes, Indonésie). On explique maintenant cette répartition par les plaques."
+   },
+   "methode_redaction": "Pour exploiter une carte de répartition : 1) décrire où se trouvent séismes et volcans (zones étroites, noms) ; 2) relier ces zones aux frontières de plaques ; 3) préciser le type de frontière ; 4) appliquer au cas du Togo (intérieur de plaque). Pour un schéma de subduction : plaque plongeante, fosse, foyers de séismes de plus en plus profonds, volcans, légendes et flèches de mouvement.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'une plaque lithosphérique ?",
+     "r": "Un fragment rigide de la lithosphère (≈ 100 km) qui se déplace de quelques cm par an sur l'asthénosphère."
+    },
+    {
+     "q": "Que se passe-t-il au niveau d'une dorsale ?",
+     "r": "Les plaques s'écartent, du magma basaltique remonte (volcanisme effusif, séismes peu profonds)."
+    },
+    {
+     "q": "Caractéristiques d'une zone de subduction ?",
+     "r": "Fosse, plaque océanique qui plonge, séismes de plus en plus profonds, volcanisme explosif."
+    },
+    {
+     "q": "Pourquoi y a-t-il peu de séismes au Togo ?",
+     "r": "Parce qu'il est au milieu de la plaque africaine, loin des frontières de plaques."
+    },
+    {
+     "q": "Qui a proposé la dérive des continents et quand ?",
+     "r": "Alfred Wegener, en 1912."
+    },
+    {
+     "q": "Volcanisme actif le plus proche du Togo ?",
+     "r": "La ligne du Cameroun (mont Cameroun, Bioko)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C12-N4.svg",
+    "alt": "Coupe d'une dorsale et d'une zone de subduction avec les foyers de séismes et les volcans",
+    "legende": "Divergence à la dorsale, subduction à la fosse ; le Togo est au cœur de la plaque africaine.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S2-C12-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C12-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Les ondes sismiques qui ne traversent pas les liquides sont :",
+   "choix": [
+    "les ondes P",
+    "les ondes S",
+    "les ondes L",
+    "toutes les ondes sismiques"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Les ondes S sont des ondes de cisaillement : elles ne se propagent que dans les solides.",
+    "Réponse B ; c'est ce qui montre que le noyau externe est liquide."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Inverser ondes P et ondes S.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C12-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C12-N2"
+   ],
+   "format": "qcm",
+   "enonce": "L'épicentre d'un séisme est :",
+   "choix": [
+    "le point en profondeur où commence la rupture",
+    "le point de la surface situé à la verticale du foyer",
+    "la station qui enregistre le séisme",
+    "la faille elle-même"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le foyer (hypocentre) est en profondeur ; l'épicentre est en surface, juste au-dessus.",
+    "Réponse B."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre épicentre et foyer.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C12-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C12-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La masse de la Terre est de $5{,}97 \\times 10^{24}$ kg et son volume de $1{,}08 \\times 10^{21}$ m³. Calcule sa masse volumique moyenne en g/cm³, arrondie au dixième (nombre seul). Rappel : 1 000 kg/m³ = 1 g/cm³.",
+   "reponses_acceptees": [
+    "5,5",
+    "5.5",
+    "5,5g/cm3",
+    "5,5 g/cm³"
+   ],
+   "indices": [
+    "Masse volumique = masse ÷ volume."
+   ],
+   "corrige": [
+    "$\\rho = \\dfrac{5{,}97 \\times 10^{24}}{1{,}08 \\times 10^{21}} \\approx 5\\,528$ kg/m³.",
+    "$5\\,528$ kg/m³ $\\approx 5{,}5$ g/cm³, environ deux fois plus que les roches de surface (2,7 à 3) : les matériaux profonds sont très denses."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier la conversion des kg/m³ en g/cm³.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C12-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C12-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une onde P parcourt 600 km dans le manteau supérieur en 75 s. Calcule sa vitesse en km/s (nombre seul).",
+   "reponses_acceptees": [
+    "8",
+    "8km/s",
+    "8 km/s",
+    "8,0"
+   ],
+   "indices": [
+    "v = d ÷ t."
+   ],
+   "corrige": [
+    "$v = \\dfrac{d}{t} = \\dfrac{600}{75}$.",
+    "$v = 8$ km/s, valeur typique des ondes P sous le Moho."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 75 ÷ 600.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C12-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C12-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Sur le sismogramme d'une station, les ondes S arrivent 30 s après les ondes P. Avec $v_P = 6$ km/s et $v_S = 3{,}5$ km/s, calcule la distance entre la station et le foyer, en km (nombre seul).",
+   "reponses_acceptees": [
+    "252",
+    "252km",
+    "252 km"
+   ],
+   "indices": [
+    "Écris le temps de trajet de chaque onde : t = d ÷ v."
+   ],
+   "corrige": [
+    "$\\Delta t = \\dfrac{d}{v_S} - \\dfrac{d}{v_P}$ donc $d = \\Delta t \\times \\dfrac{v_P \\times v_S}{v_P - v_S}$.",
+    "$\\dfrac{6 \\times 3{,}5}{6 - 3{,}5} = \\dfrac{21}{2{,}5} = 8{,}4$ km/s.",
+    "$d = 30 \\times 8{,}4 = 252$ km."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Calculer d = Δt × (vP − vS) = 75 km, formule fausse.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C12-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C12-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Un séisme de magnitude 7 comparé à un séisme de magnitude 5 :",
+   "choix": [
+    "a des ondes 2 fois plus amples",
+    "a des ondes 100 fois plus amples et libère environ 1 000 fois plus d'énergie",
+    "libère 2 fois plus d'énergie",
+    "a forcément une intensité plus faible"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Chaque degré de magnitude multiplie l'amplitude par 10 et l'énergie par environ 32.",
+    "Deux degrés : amplitude × 100, énergie × 32 × 32 ≈ 1 000 : réponse B."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Raisonner comme si l'échelle était proportionnelle (7 − 5 = 2 fois).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C12-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C12-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Un volcan dont la lave est visqueuse et riche en silice (70 % de SiO2) a le plus de chances de produire :",
+   "choix": [
+    "de longues coulées de lave fluide",
+    "des éruptions explosives avec nuées ardentes",
+    "uniquement de la vapeur d'eau",
+    "des lacs de lave basaltique"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Lave visqueuse et riche en silice : les gaz restent piégés, la pression monte jusqu'à l'explosion.",
+    "Réponse B : éruptions explosives, panaches de cendres, nuées ardentes."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Associer silice abondante et lave fluide.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C12-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C12-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution organisée des connaissances. Réalise un schéma légendé de la structure interne du globe (demi-coupe) en indiquant les enveloppes, leur état physique, les discontinuités et leurs profondeurs. Précise ce que sont la lithosphère et l'asthénosphère.",
+   "indices": [],
+   "corrige": [
+    "Enveloppes dans l'ordre : croûte (continentale 30 à 70 km, océanique 5 à 10 km), manteau, noyau externe, graine.",
+    "États : croûte et manteau solides ; noyau externe liquide ; graine solide.",
+    "Discontinuités : Moho (croûte/manteau), Gutenberg (2 900 km), Lehmann (5 150 km) ; centre à 6 371 km.",
+    "Lithosphère : enveloppe rigide (croûte + haut du manteau, ≈ 100 km) découpée en plaques ; asthénosphère : manteau sous-jacent, solide mais ductile.",
+    "Qualité du schéma : titre, demi-cercle, légendes à la règle, profondeurs indiquées."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Dessiner un manteau liquide, ou placer Gutenberg sous la croûte.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C12-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C12-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données. Lors d'un séisme, les stations situées entre 0° et 103° de l'épicentre enregistrent ondes P et S. Entre 103° et 143°, elles n'enregistrent ni P ni S directes. Au-delà de 143°, elles enregistrent des ondes P, mais jamais d'ondes S. Par ailleurs, la vitesse des ondes P chute brutalement de 13,7 à 8,1 km/s à 2 900 km de profondeur.\n1) Que montre la chute de vitesse des ondes P à 2 900 km ? 2) Pourquoi n'y a-t-il jamais d'ondes S au-delà de 143° ? 3) Comment expliquer la zone sans ondes entre 103° et 143° ? 4) Conclus sur la structure du centre de la Terre.",
+   "indices": [
+    "Les ondes S ne traversent pas les liquides.",
+    "Une onde change de direction quand sa vitesse change."
+   ],
+   "corrige": [
+    "1) Un changement brusque de vitesse indique une discontinuité : à 2 900 km, on passe dans un matériau différent (le noyau) : c'est la discontinuité de Gutenberg.",
+    "2) Pour atteindre ces stations, les ondes doivent traverser le noyau ; les ondes S ne traversent pas les liquides : le noyau externe est liquide.",
+    "3) Les ondes P qui entrent dans le noyau sont ralenties et déviées (réfractées) : aucune n'arrive directement entre 103° et 143° : c'est la zone d'ombre.",
+    "4) La Terre possède un noyau, à partir de 2 900 km, dont la partie externe est liquide (fer et nickel), entouré d'un manteau solide."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    1.5
+   ],
+   "piege": "Conclure que tout le noyau est liquide (la graine, à partir de 5 150 km, est solide).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C12-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C12-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données. Dans une mine d'or profonde de 3 km, la température de surface est de 27 °C et le gradient géothermique de 3 °C pour 100 m.\n1) Calcule la température au fond de la mine. 2) Calcule la température qu'on obtiendrait au centre de la Terre (6 371 km) avec ce même gradient. 3) Les géophysiciens estiment la température du centre à environ 5 000 à 6 000 °C. Que peux-tu conclure sur le gradient géothermique ?",
+   "indices": [
+    "Compte le nombre de tranches de 100 m."
+   ],
+   "corrige": [
+    "1) 3 km = 3 000 m = 30 × 100 m ; augmentation = 30 × 3 = 90 °C ; température = 27 + 90 = 117 °C.",
+    "2) 6 371 km = 6 371 000 m = 63 710 × 100 m ; augmentation = 63 710 × 3 = 191 130 °C ; température ≈ 27 + 191 130 ≈ 191 000 °C.",
+    "3) La valeur extrapolée (environ 191 000 °C) est plus de 30 fois trop grande : le gradient de 3 °C/100 m n'est valable que près de la surface ; il diminue fortement en profondeur."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    2
+   ],
+   "piege": "Oublier d'ajouter la température de surface, ou se tromper dans la conversion km → m.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C12-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S2-C12-N2",
+    "SVT-S2-C12-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Problème. Un séisme est enregistré par trois stations A, B et C. Retards des ondes S sur les ondes P : A : 12 s ; B : 20 s ; C : 25 s. On prend $v_P = 6$ km/s et $v_S = 3{,}5$ km/s.\n1) Calcule la distance de chaque station au foyer. 2) Explique comment on localise l'épicentre à l'aide d'une carte et d'un compas. 3) Le séisme a une magnitude de 5,2 ; on observe une intensité VI près de A et IV près de C. Explique pourquoi les intensités diffèrent. 4) Ce séisme s'est produit au cœur de la plaque africaine. Pourquoi de tels séismes sont-ils rares dans cette région, et quelles mesures de prévention restent utiles ?",
+   "indices": [
+    "d = 8,4 × Δt pour ces vitesses.",
+    "Magnitude : une valeur ; intensité : une valeur par lieu."
+   ],
+   "corrige": [
+    "1) d = Δt × (6 × 3,5) ÷ (6 − 3,5) = 8,4 × Δt : A : 8,4 × 12 = 100,8 km ; B : 8,4 × 20 = 168 km ; C : 8,4 × 25 = 210 km.",
+    "2) Sur une carte à l'échelle, on trace autour de chaque station un cercle de rayon égal à sa distance (100,8 ; 168 ; 210 km). L'épicentre est le point d'intersection des trois cercles (deux cercles donnent deux points ; le troisième lève l'ambiguïté).",
+    "3) La magnitude est unique (énergie libérée au foyer). L'intensité mesure les effets en chaque lieu : A, plus proche de l'épicentre (≈ 101 km), subit des secousses plus fortes que C (≈ 210 km), car les ondes s'atténuent avec la distance (la nature du sol et des constructions joue aussi).",
+    "4) Les séismes se produisent surtout aux frontières de plaques ; au cœur de la plaque africaine, les contraintes sont faibles et ne s'exercent que sur d'anciennes failles : séismes rares et en général modérés.",
+    "Mesures utiles : respecter les normes de construction (béton armé chaîné), informer la population des bons gestes (s'abriter sous une table, s'éloigner des bâtiments), organiser des exercices d'évacuation dans les écoles."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1,
+    1
+   ],
+   "piege": "Utiliser une formule fausse pour la distance, ou dire que la magnitude change selon la station.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Dire que le manteau est liquide ou que les plaques flottent sur du magma.",
+  "Inverser ondes P et ondes S, ou foyer et épicentre.",
+  "Confondre magnitude (énergie, une valeur) et intensité (effets, variable selon le lieu).",
+  "Traiter l'échelle de magnitude comme proportionnelle (elle est logarithmique).",
+  "Formule de distance épicentrale fausse ou sans unités.",
+  "Associer lave riche en silice et éruption effusive.",
+  "Affirmer qu'il n'y a jamais de séisme au Togo."
+ ]
+}

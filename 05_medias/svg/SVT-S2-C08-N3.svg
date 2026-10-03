@@ -28,17 +28,17 @@
 <circle cx="426" cy="285" r="4" fill="none" stroke="#475569" stroke-width="1.2"/>
 <circle cx="418" cy="310" r="4" fill="none" stroke="#475569" stroke-width="1.2"/>
 <circle cx="430" cy="245" r="4" fill="none" stroke="#475569" stroke-width="1.2"/>
-<line x1="262" y1="286" x2="330" y2="360" stroke="#374151" stroke-width="1.5"/><circle cx="262" cy="286" r="2.6" fill="#374151"/><text x="330" y="377" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">couche d'huile (empêche l'entrée d'air)</text>
-<line x1="110" y1="320" x2="40" y2="395" stroke="#374151" stroke-width="1.5"/><circle cx="110" cy="320" r="2.6" fill="#374151"/><text x="35" y="400" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937"></text>
-<text x="30" y="412" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">levures + eau sucrée (glucose)</text>
-<line x1="448" y1="270" x2="458" y2="215" stroke="#374151" stroke-width="1.5"/><circle cx="448" cy="270" r="2.6" fill="#374151"/><text x="463" y="220" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">eau de chaux</text>
-<text x="463" y="235" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">troublée</text>
-<text x="300" y="68" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">CO₂ dégagé</text>
-<text x="170" y="102" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937"></text>
-<text x="300" y="445" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Le liquide sent l'alcool : il s'est formé de l'éthanol.</text>
+<line x1="262" y1="286" x2="330" y2="360" stroke="#374151" stroke-width="1.5"/><circle cx="262" cy="286" r="2.6" fill="#374151"/><text x="330" y="377" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">couche d'huile (empêche l'entrée d'air)</text>
+<line x1="110" y1="320" x2="40" y2="395" stroke="#374151" stroke-width="1.5"/><circle cx="110" cy="320" r="2.6" fill="#374151"/><text x="35" y="400" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937"></text>
+<text x="30" y="412" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">levures + eau sucrée (glucose)</text>
+<line x1="448" y1="270" x2="458" y2="215" stroke="#374151" stroke-width="1.5"/><circle cx="448" cy="270" r="2.6" fill="#374151"/><text x="463" y="220" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">eau de chaux</text>
+<text x="463" y="235" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">troublée</text>
+<text x="300" y="68" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">CO₂ dégagé</text>
+<text x="170" y="102" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937"></text>
+<text x="300" y="445" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Le liquide sent l'alcool : il s'est formé de l'éthanol.</text>
 <rect x="20" y="462" width="560" height="140" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
-<text x="40" y="490" font-size="15" text-anchor="start" font-weight="bold" fill="#1f2937">Fermentation alcoolique (levures) :</text>
+<text x="40" y="490" font-size="16" text-anchor="start" font-weight="bold" fill="#1f2937">Fermentation alcoolique (levures) :</text>
 <text x="300" y="516" font-size="18" text-anchor="middle" font-weight="normal" fill="#1f2937">C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP</text>
-<text x="40" y="548" font-size="15" text-anchor="start" font-weight="bold" fill="#1f2937">Fermentation lactique (bactéries du yaourt, muscle sans O₂) :</text>
+<text x="40" y="548" font-size="16" text-anchor="start" font-weight="bold" fill="#1f2937">Fermentation lactique (bactéries du yaourt, muscle sans O₂) :</text>
 <text x="300" y="576" font-size="18" text-anchor="middle" font-weight="normal" fill="#1f2937">C₆H₁₂O₆ → 2 C₃H₆O₃ (acide lactique) + 2 ATP</text>
 </svg>

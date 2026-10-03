@@ -14,7 +14,7 @@
 <text x="105.0" y="251.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">2 acides</text>
 <text x="105.0" y="271.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">pyruviques</text>
 <text x="105" y="315" font-size="16" text-anchor="middle" font-weight="bold" fill="#b45309">+ 2 ATP</text>
-<text x="105" y="335" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">(sans O₂)</text>
+<text x="105" y="335" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">(sans O₂)</text>
 <ellipse cx="395" cy="238" rx="165" ry="112" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/>
 <ellipse cx="395" cy="238" rx="151" ry="98" fill="#fee2e2" stroke="#991b1b" stroke-width="2.5"/>
 <path d="M284.0,168.6 L284.0,253.0 Q290.0,265.0 296.0,253.0 L296.0,168.6" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
@@ -23,10 +23,10 @@
 <path d="M410.0,334.0 L410.0,223.0 Q416.0,211.0 422.0,223.0 L422.0,334.0" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
 <path d="M452.0,149.9 L452.0,253.0 Q458.0,265.0 464.0,253.0 L464.0,149.9" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
 <path d="M494.0,307.4 L494.0,223.0 Q500.0,211.0 506.0,223.0 L506.0,307.4" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
-<line x1="515" y1="156" x2="470" y2="112" stroke="#374151" stroke-width="1.5"/><circle cx="515" cy="156" r="2.6" fill="#374151"/><text x="470" y="106" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">membrane externe</text>
-<line x1="269" y1="288" x2="290" y2="378" stroke="#374151" stroke-width="1.5"/><circle cx="269" cy="288" r="2.6" fill="#374151"/><text x="290" y="395" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">membrane interne</text>
-<line x1="332" y1="258" x2="400" y2="378" stroke="#374151" stroke-width="1.5"/><circle cx="332" cy="258" r="2.6" fill="#374151"/><text x="400" y="395" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">crête</text>
-<line x1="435" y1="278" x2="515" y2="378" stroke="#374151" stroke-width="1.5"/><circle cx="435" cy="278" r="2.6" fill="#374151"/><text x="515" y="395" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">matrice</text>
+<line x1="515" y1="156" x2="470" y2="112" stroke="#374151" stroke-width="1.5"/><circle cx="515" cy="156" r="2.6" fill="#374151"/><text x="470" y="106" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">membrane externe</text>
+<line x1="269" y1="288" x2="290" y2="378" stroke="#374151" stroke-width="1.5"/><circle cx="269" cy="288" r="2.6" fill="#374151"/><text x="290" y="395" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">membrane interne</text>
+<line x1="332" y1="258" x2="400" y2="378" stroke="#374151" stroke-width="1.5"/><circle cx="332" cy="258" r="2.6" fill="#374151"/><text x="400" y="395" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">crête</text>
+<line x1="435" y1="278" x2="515" y2="378" stroke="#374151" stroke-width="1.5"/><circle cx="435" cy="278" r="2.6" fill="#374151"/><text x="515" y="395" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">matrice</text>
 <line x1="182" y1="256" x2="248" y2="256" stroke="#374151" stroke-width="3" marker-end="url(#fl)"/>
 <text x="385" y="428" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">pyruvate + O₂ → CO₂ + H₂O</text>
 <text x="385" y="450" font-size="16" text-anchor="middle" font-weight="bold" fill="#b45309">+ environ 36 ATP</text>
@@ -34,10 +34,10 @@
 <text x="565" y="168" font-size="16" text-anchor="end" font-weight="normal" fill="#1f2937">O₂</text>
 <line x1="530" y1="285" x2="562" y2="312" stroke="#eb6834" stroke-width="2.5" marker-end="url(#flo)"/>
 <text x="568" y="335" font-size="16" text-anchor="end" font-weight="normal" fill="#1f2937">CO₂</text>
-<text x="385" y="478" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">mitochondrie (1 à 2 µm de long)</text>
+<text x="385" y="478" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">mitochondrie (1 à 2 µm de long)</text>
 <rect x="20" y="515" width="560" height="125" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
 <text x="300" y="550" font-size="20" text-anchor="middle" font-weight="bold" fill="#1f2937">C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O</text>
 <text x="300" y="578" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">+ énergie : environ 2 860 kJ par mole de glucose</text>
-<text x="300" y="603" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">dont une partie (≈ 40 %) est stockée dans 36 à 38 ATP,</text>
-<text x="300" y="623" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">le reste est perdu sous forme de chaleur</text>
+<text x="300" y="603" font-size="16" text-anchor="middle" font-weight="normal" fill="#4b5563">dont une partie (≈ 40 %) est stockée dans 36 à 38 ATP,</text>
+<text x="300" y="623" font-size="16" text-anchor="middle" font-weight="normal" fill="#4b5563">le reste est perdu sous forme de chaleur</text>
 </svg>

@@ -4,7 +4,7 @@
 <defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker><marker id="flm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
 <rect x="0" y="0" width="600" height="620" rx="22" ry="22" fill="#fffdf8"/>
 <text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Les constituants du sol</text>
-<text x="150" y="68" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Sol agité dans l'eau, puis laissé reposer</text>
+<text x="150" y="68" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Sol agité dans l'eau, puis laissé reposer</text>
 <rect x="90" y="100" width="100" height="282" rx="8" fill="#ffffff" stroke="#475569" stroke-width="3"/>
 <rect x="93" y="150" width="94" height="55" fill="#e7e5e4"/>
 <rect x="93" y="205" width="94" height="35" fill="#d6c7a1"/>
@@ -99,45 +99,45 @@
 <rect x="128" y="146" width="12" height="5" rx="2" fill="#57534e"/>
 <rect x="150" y="146" width="12" height="5" rx="2" fill="#57534e"/>
 <rect x="172" y="146" width="12" height="5" rx="2" fill="#57534e"/>
-<line x1="188" y1="177.5" x2="210" y2="177.5" stroke="#374151" stroke-width="1.5"/><text x="215" y="182.5" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">argiles en suspension</text>
-<line x1="188" y1="222.5" x2="210" y2="222.5" stroke="#374151" stroke-width="1.5"/><text x="215" y="227.5" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">limons</text>
-<line x1="188" y1="265.0" x2="210" y2="265.0" stroke="#374151" stroke-width="1.5"/><text x="215" y="270.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">sables fins</text>
-<line x1="188" y1="312.5" x2="210" y2="312.5" stroke="#374151" stroke-width="1.5"/><text x="215" y="317.5" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">sables grossiers</text>
-<line x1="188" y1="357.5" x2="210" y2="357.5" stroke="#374151" stroke-width="1.5"/><text x="215" y="362.5" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">graviers</text>
-<line x1="170" y1="148" x2="210" y2="128" stroke="#374151" stroke-width="1.5"/><text x="215" y="133" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">débris organiques</text>
+<line x1="188" y1="177.5" x2="210" y2="177.5" stroke="#374151" stroke-width="1.5"/><text x="215" y="182.5" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">argiles en suspension</text>
+<line x1="188" y1="222.5" x2="210" y2="222.5" stroke="#374151" stroke-width="1.5"/><text x="215" y="227.5" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">limons</text>
+<line x1="188" y1="265.0" x2="210" y2="265.0" stroke="#374151" stroke-width="1.5"/><text x="215" y="270.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">sables fins</text>
+<line x1="188" y1="312.5" x2="210" y2="312.5" stroke="#374151" stroke-width="1.5"/><text x="215" y="317.5" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">sables grossiers</text>
+<line x1="188" y1="357.5" x2="210" y2="357.5" stroke="#374151" stroke-width="1.5"/><text x="215" y="362.5" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">graviers</text>
+<line x1="170" y1="148" x2="210" y2="128" stroke="#374151" stroke-width="1.5"/><text x="215" y="133" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">débris organiques</text>
 <line x1="68" y1="160" x2="68" y2="370" stroke="#374151" stroke-width="2" marker-end="url(#fl)"/>
-<text x="52" y="270" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563" transform="rotate(-90 52 270)">taille croissante</text>
-<text x="470" y="68" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Sol cultivé « idéal »</text>
-<text x="470" y="86" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">(en volume)</text>
+<text x="52" y="270" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563" transform="rotate(-90 52 270)">taille croissante</text>
+<text x="470" y="68" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Sol cultivé « idéal »</text>
+<text x="470" y="86" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">(en volume)</text>
 <rect x="430" y="101" width="70" height="68.0" fill="#e0f2fe" stroke="#64748b" stroke-width="1"/>
-<text x="422" y="140.0" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2937">25 %</text>
-<text x="508" y="140.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">air</text>
+<text x="422" y="140.0" font-size="15" text-anchor="end" font-weight="bold" fill="#1f2937">25 %</text>
+<text x="508" y="140.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">air</text>
 <rect x="430" y="171.0" width="70" height="68.0" fill="#93c5fd" stroke="#64748b" stroke-width="1"/>
-<text x="422" y="210.0" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2937">25 %</text>
-<text x="508" y="210.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">eau</text>
+<text x="422" y="210.0" font-size="15" text-anchor="end" font-weight="bold" fill="#1f2937">25 %</text>
+<text x="508" y="210.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">eau</text>
 <rect x="430" y="241.0" width="70" height="12.0" fill="#78350f" stroke="#64748b" stroke-width="1"/>
-<text x="422" y="252.0" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2937">5 %</text>
-<text x="508" y="252.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">matière</text>
-<text x="508" y="269.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">organique</text>
+<text x="422" y="252.0" font-size="15" text-anchor="end" font-weight="bold" fill="#1f2937">5 %</text>
+<text x="508" y="252.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">matière</text>
+<text x="508" y="269.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">organique</text>
 <rect x="430" y="255.0" width="70" height="123.99999999999999" fill="#d6a35c" stroke="#64748b" stroke-width="1"/>
-<text x="422" y="322.0" font-size="14" text-anchor="end" font-weight="bold" fill="#1f2937">45 %</text>
-<text x="508" y="322.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">matières</text>
-<text x="508" y="339.0" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">minérales</text>
-<text x="470" y="405" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">+ êtres vivants</text>
-<text x="470" y="422" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">(vers, termites, bactéries…)</text>
+<text x="422" y="322.0" font-size="15" text-anchor="end" font-weight="bold" fill="#1f2937">45 %</text>
+<text x="508" y="322.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">matières</text>
+<text x="508" y="339.0" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">minérales</text>
+<text x="470" y="405" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">+ êtres vivants</text>
+<text x="470" y="422" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">(vers, termites, bactéries…)</text>
 <line x1="30" y1="445" x2="570" y2="445" stroke="#d1d5db" stroke-width="1.5"/>
-<text x="300" y="472" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Classement des particules minérales par taille (granulométrie)</text>
+<text x="300" y="472" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Classement des particules minérales par taille (granulométrie)</text>
 <rect x="30" y="490" width="128" height="62" rx="10" fill="#e7e5e4" stroke="#78716c" stroke-width="1.5"/>
-<text x="94.0" y="516.9" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">argiles</text>
-<text x="94.0" y="535.6" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">&lt; 2 µm</text>
+<text x="94.0" y="516.9" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">argiles</text>
+<text x="94.0" y="535.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">&lt; 2 µm</text>
 <rect x="167" y="490" width="128" height="62" rx="10" fill="#d6c7a1" stroke="#78716c" stroke-width="1.5"/>
-<text x="231.0" y="516.9" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">limons</text>
-<text x="231.0" y="535.6" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">2 à 50 µm</text>
+<text x="231.0" y="516.9" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">limons</text>
+<text x="231.0" y="535.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">2 à 50 µm</text>
 <rect x="304" y="490" width="128" height="62" rx="10" fill="#e9d38a" stroke="#78716c" stroke-width="1.5"/>
-<text x="368.0" y="516.9" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">sables</text>
-<text x="368.0" y="535.6" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">50 µm à 2 mm</text>
+<text x="368.0" y="516.9" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">sables</text>
+<text x="368.0" y="535.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">50 µm à 2 mm</text>
 <rect x="441" y="490" width="128" height="62" rx="10" fill="#9ca3af" stroke="#78716c" stroke-width="1.5"/>
-<text x="505.0" y="516.9" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">graviers</text>
-<text x="505.0" y="535.6" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">&gt; 2 mm</text>
-<text x="300" y="590" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">La terre fine (&lt; 2 mm) = argiles + limons + sables : elle fixe la texture du sol.</text>
+<text x="505.0" y="516.9" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">graviers</text>
+<text x="505.0" y="535.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">&gt; 2 mm</text>
+<text x="300" y="590" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">La terre fine (&lt; 2 mm) = argiles + limons + sables : elle fixe la texture du sol.</text>
 </svg>

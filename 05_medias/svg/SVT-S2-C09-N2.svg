@@ -85,41 +85,41 @@
 <path d="M110,560 L160,548 L190,575 L240,556 L280,570" stroke="#475569" stroke-width="2" fill="none"/>
 <path d="M180,520 L170,545 M230,520 L240,555" stroke="#475569" stroke-width="2" fill="none"/>
 <rect x="110" y="80" width="170" height="530" fill="none" stroke="#374151" stroke-width="2"/>
-<text x="294" y="92.5" font-size="15" text-anchor="start" font-weight="bold" fill="#1f2937">A0 : litière</text>
-<text x="400" y="92.5" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">(feuilles mortes, débris)</text>
+<text x="294" y="92.5" font-size="16" text-anchor="start" font-weight="bold" fill="#1f2937">A0 : litière</text>
+<text x="400" y="92.5" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">(feuilles mortes, débris)</text>
 <line x1="280" y1="95" x2="288" y2="95" stroke="#374151" stroke-width="1.5"/>
-<text x="294" y="115.5" font-size="15" text-anchor="start" font-weight="bold" fill="#1f2937">A : horizon humifère</text>
-<text x="294" y="134.5" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">gris-brun, riche en humus,</text>
-<text x="294" y="152.5" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">racines, vers, termites</text>
+<text x="294" y="115.5" font-size="16" text-anchor="start" font-weight="bold" fill="#1f2937">A : horizon humifère</text>
+<text x="294" y="134.5" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">gris-brun, riche en humus,</text>
+<text x="294" y="152.5" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">racines, vers, termites</text>
 <line x1="280" y1="160" x2="288" y2="160" stroke="#374151" stroke-width="1.5"/>
-<text x="294" y="268.0" font-size="15" text-anchor="start" font-weight="bold" fill="#1f2937">B : horizon rouge</text>
-<text x="294" y="287.0" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">argiles (kaolinite) et oxydes de</text>
-<text x="294" y="305.0" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">fer accumulés ; gravillons</text>
+<text x="294" y="268.0" font-size="16" text-anchor="start" font-weight="bold" fill="#1f2937">B : horizon rouge</text>
+<text x="294" y="287.0" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">argiles (kaolinite) et oxydes de</text>
+<text x="294" y="305.0" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">fer accumulés ; gravillons</text>
 <line x1="280" y1="400" x2="288" y2="400" stroke="#374151" stroke-width="1.5"/>
-<text x="294" y="448.0" font-size="15" text-anchor="start" font-weight="bold" fill="#1f2937">C : roche altérée</text>
-<text x="294" y="467.0" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">altérite tachetée, gardant</text>
-<text x="294" y="485.0" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">la structure de la roche</text>
+<text x="294" y="448.0" font-size="16" text-anchor="start" font-weight="bold" fill="#1f2937">C : roche altérée</text>
+<text x="294" y="467.0" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">altérite tachetée, gardant</text>
+<text x="294" y="485.0" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">la structure de la roche</text>
 <line x1="280" y1="520" x2="288" y2="520" stroke="#374151" stroke-width="1.5"/>
-<text x="294" y="553.0" font-size="15" text-anchor="start" font-weight="bold" fill="#1f2937">R : roche mère</text>
-<text x="294" y="572.0" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">granite ou gneiss du socle,</text>
-<text x="294" y="590.0" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">saine, fissurée</text>
+<text x="294" y="553.0" font-size="16" text-anchor="start" font-weight="bold" fill="#1f2937">R : roche mère</text>
+<text x="294" y="572.0" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">granite ou gneiss du socle,</text>
+<text x="294" y="590.0" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">saine, fissurée</text>
 <line x1="280" y1="610" x2="288" y2="610" stroke="#374151" stroke-width="1.5"/>
 <line x1="88" y1="80" x2="88" y2="610" stroke="#374151" stroke-width="1.5"/>
 <line x1="83" y1="80" x2="93" y2="80" stroke="#374151" stroke-width="1.5"/>
-<text x="80" y="85" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563">0</text>
+<text x="80" y="85" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">0</text>
 <line x1="83" y1="160" x2="93" y2="160" stroke="#374151" stroke-width="1.5"/>
-<text x="80" y="165" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563">≈ 30 cm</text>
+<text x="80" y="165" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">≈ 30 cm</text>
 <line x1="83" y1="400" x2="93" y2="400" stroke="#374151" stroke-width="1.5"/>
-<text x="80" y="405" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563">≈ 3 m</text>
+<text x="80" y="405" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">≈ 3 m</text>
 <line x1="83" y1="520" x2="93" y2="520" stroke="#374151" stroke-width="1.5"/>
-<text x="80" y="525" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563">10 m</text>
+<text x="80" y="525" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563">10 m</text>
 <line x1="83" y1="610" x2="93" y2="610" stroke="#374151" stroke-width="1.5"/>
-<text x="80" y="615" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563"></text>
-<text x="60" y="642" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">profondeurs indicatives (échelle non respectée)</text>
+<text x="80" y="615" font-size="14" text-anchor="end" font-weight="normal" fill="#4b5563"></text>
+<text x="60" y="642" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">profondeurs indicatives (échelle non respectée)</text>
 <line x1="195" y1="165" x2="195" y2="390" stroke="#fef3c7" stroke-width="3" marker-end="url(#fl)" stroke-dasharray="7 5"/>
-<text x="294" y="350" font-size="14" text-anchor="start" font-weight="normal" fill="#1d4ed8">↓ lessivage : l'eau de pluie</text>
-<text x="294" y="368" font-size="14" text-anchor="start" font-weight="normal" fill="#1d4ed8">entraîne ions et particules</text>
-<text x="294" y="508" font-size="14" text-anchor="start" font-weight="normal" fill="#7c2d12">↑ altération : la roche</text>
-<text x="294" y="526" font-size="14" text-anchor="start" font-weight="normal" fill="#7c2d12">se transforme en argiles</text>
-<text x="60" y="666" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">Climat chaud et humide : altération profonde, sur plusieurs mètres.</text>
+<text x="294" y="350" font-size="15" text-anchor="start" font-weight="normal" fill="#1d4ed8">↓ lessivage : l'eau de pluie</text>
+<text x="294" y="368" font-size="15" text-anchor="start" font-weight="normal" fill="#1d4ed8">entraîne ions et particules</text>
+<text x="294" y="508" font-size="15" text-anchor="start" font-weight="normal" fill="#7c2d12">↑ altération : la roche</text>
+<text x="294" y="526" font-size="15" text-anchor="start" font-weight="normal" fill="#7c2d12">se transforme en argiles</text>
+<text x="60" y="666" font-size="15" text-anchor="start" font-weight="normal" fill="#4b5563">Climat chaud et humide : altération profonde, sur plusieurs mètres.</text>
 </svg>

@@ -1,0 +1,786 @@
+{
+ "id": "M-S2-C15",
+ "matiere": "M",
+ "semestre": 2,
+ "ordre": 15,
+ "titre": "Statistique",
+ "objectifs": [
+  "Utiliser le vocabulaire de la statistique (population, caractère discret ou continu, classes).",
+  "Construire un tableau d'effectifs, de fréquences et d'effectifs cumulés.",
+  "Représenter une série : diagramme en bâtons, diagramme circulaire, histogramme (classes égales ou inégales), polygone des effectifs cumulés.",
+  "Calculer et interpréter le mode, la moyenne et la médiane (y compris par interpolation linéaire).",
+  "Calculer et interpréter l'étendue, la variance et l'écart-type."
+ ],
+ "prerequis": [
+  "M-3e-STATISTIQUES",
+  "M-S1-C01",
+  "M-S1-C05"
+ ],
+ "notions": [
+  {
+   "id": "M-S2-C15-N1",
+   "titre": "Vocabulaire, effectifs, fréquences et effectifs cumulés",
+   "prerequis_notions": [
+    "M-3e-STATISTIQUES"
+   ],
+   "cours_md": "## 1. Vocabulaire\n\n:::definition\n- La **population** est l'ensemble étudié ; chacun de ses éléments est un **individu**.\n- Le **caractère** est la propriété étudiée. Il est **qualitatif** s'il ne se mesure pas (couleur, religion, ville d'origine) et **quantitatif** s'il se mesure par un nombre.\n- Un caractère quantitatif est **discret** s'il ne prend que des valeurs isolées (nombre d'enfants, note entière) et **continu** s'il peut prendre toutes les valeurs d'un intervalle (taille, masse, durée) : on regroupe alors les valeurs en **classes** $[a\\,;b[$, d'**amplitude** $b-a$ et de **centre** $\\dfrac{a+b}2$.\n- L'**effectif total** $N$ est le nombre d'individus.\n:::\n\n:::definition Effectifs et fréquences\n- L'**effectif** $n_i$ d'une valeur (ou d'une classe) est le nombre d'individus qui la prennent.\n- La **fréquence** est $f_i=\\dfrac{n_i}{N}$ ; elle s'exprime aussi en pourcentage. La somme des fréquences vaut $1$ (soit $100\\,\\%$).\n- L'**effectif cumulé croissant** (ECC) d'une valeur est la somme des effectifs des valeurs inférieures ou égales ; l'**effectif cumulé décroissant** (ECD), celle des effectifs des valeurs supérieures ou égales. On définit de même les fréquences cumulées.\n:::\n\n:::methode Construire le tableau statistique\n1. Ranger les valeurs (ou les classes) dans l'ordre croissant.\n2. Compter les effectifs ; vérifier que leur somme est $N$.\n3. Calculer les fréquences $\\dfrac{n_i}N$ et les effectifs cumulés (le dernier ECC vaut $N$).\n:::\n\n:::attention\nLa fréquence se calcule avec l'effectif **total** $N$, pas avec le nombre de valeurs différentes.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDans un village, on a relevé le nombre d'enfants de 40 ménages :\n\n| Nombre d'enfants | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Effectif | 3 | 7 | 12 | 9 | 6 | 3 |\n\nCompléter avec les fréquences et les effectifs cumulés croissants.\n\n1. Population : les 40 ménages ; caractère : nombre d'enfants (quantitatif discret) ; $N=3+7+12+9+6+3=40$.\n2. Fréquences : $\\dfrac3{40}=7{,}5\\,\\%$ ; $17{,}5\\,\\%$ ; $30\\,\\%$ ; $22{,}5\\,\\%$ ; $15\\,\\%$ ; $7{,}5\\,\\%$ (total $100\\,\\%$).\n3. ECC : $3$ ; $10$ ; $22$ ; $31$ ; $37$ ; $40$.\n4. Lecture : $31$ ménages ont au plus $3$ enfants.\n:::\n\n:::exemple Exemple 2\nLes tailles (en cm) de 50 élèves de Seconde S sont regroupées en classes $[150\\,;155[$, $[155\\,;160[$, …, $[175\\,;180[$ d'effectifs $4$, $9$, $15$, $12$, $7$, $3$. Donner l'amplitude et le centre de la classe $[160\\,;165[$, puis l'effectif cumulé croissant de cette classe.\n\n1. Caractère quantitatif continu, regroupé en classes d'amplitude $5$ cm.\n2. Centre de $[160\\,;165[$ : $\\dfrac{160+165}2=162{,}5$ cm.\n3. ECC : $4+9+15=28$ : $28$ élèves mesurent moins de $165$ cm.\n:::",
+   "definition": "Une série statistique décrit un caractère sur une population ; on la résume par un tableau d'effectifs $n_i$, de fréquences $f_i=\\frac{n_i}N$ et d'effectifs cumulés.",
+   "formules": [
+    "$f_i=\\dfrac{n_i}{N}$",
+    "$\\sum f_i=1$",
+    "Centre de $[a\\,;b[$ : $\\dfrac{a+b}2$"
+   ],
+   "niveaux": {
+    "phrase": "Une série statistique, c'est un tableau qui dit combien d'individus ont chaque valeur.",
+    "simple": "Faire des statistiques, c'est comme faire l'appel en classe en comptant combien d'élèves ont chaque note : on range, on compte, on calcule des pourcentages.",
+    "complete": "Une série statistique associe à chaque modalité $x_i$ (ou classe) son effectif $n_i$ ; $N=\\sum n_i$, $f_i=\\frac{n_i}N$, $\\sum f_i=1$. Les effectifs cumulés croissants $N_i=n_1+\\dots+n_i$ répondent à « combien d'individus ont une valeur inférieure ou égale à $x_i$ »."
+   },
+   "analogie": "Au marché de Kara, une commerçante note chaque soir combien de tas de tomates elle a vendus : au bout d'un mois, elle obtient une série statistique qui l'aide à prévoir ses achats.",
+   "exemples_resolus": [
+    {
+     "enonce": "Dans une classe de 45 élèves, 18 viennent au lycée à pied, 15 à vélo et 12 en zémidjan. Calculer les fréquences en pourcentage.",
+     "etapes": [
+      "Caractère qualitatif (moyen de transport), $N=45$.",
+      "À pied : $\\dfrac{18}{45}=0{,}4=40\\,\\%$ ; à vélo : $\\dfrac{15}{45}\\approx33{,}3\\,\\%$ ; en zémidjan : $\\dfrac{12}{45}\\approx26{,}7\\,\\%$.",
+      "Contrôle : $40+33{,}3+26{,}7=100\\,\\%$."
+     ]
+    },
+    {
+     "enonce": "Avec le tableau du nombre d'enfants par ménage, combien de ménages ont au moins 3 enfants ?",
+     "etapes": [
+      "On additionne les effectifs des valeurs $3$, $4$ et $5$ (effectif cumulé décroissant de $3$) : $9+6+3=18$.",
+      "Ou bien : $40-22=18$ (on retire les ménages qui ont au plus 2 enfants)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Diviser par le nombre de valeurs différentes au lieu de l'effectif total.",
+    "Confondre caractère discret et continu (une taille est continue même si on l'arrondit au cm).",
+    "Oublier qu'une classe [a ; b[ ne contient pas b.",
+    "Additionner des fréquences arrondies et s'étonner de ne pas trouver exactement 100 %."
+   ],
+   "astuces": [
+    "Vérifie toujours que la somme des effectifs est N et que le dernier ECC vaut N.",
+    "Garde les fractions exactes le plus longtemps possible, arrondis à la fin.",
+    "Pour « au moins », utilise les effectifs cumulés décroissants ; pour « au plus », les croissants."
+   ],
+   "mnemo": "« Fréquence = effectif sur effectif TOTAL. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu calculais déjà effectifs, fréquences et moyenne d'une petite série. En Seconde, on ajoute les classes, les effectifs cumulés et, plus loin, la variance."
+   },
+   "methode_redaction": "Présente un tableau propre avec une ligne par grandeur (valeurs, effectifs, fréquences, ECC) et la colonne « Total ». Précise la population, le caractère et sa nature avant tout calcul.",
+   "flash": [
+    {
+     "q": "Nature du caractère « nombre de frères et sœurs » ?",
+     "r": "Quantitatif discret."
+    },
+    {
+     "q": "Nature du caractère « masse d'un sac de maïs » ?",
+     "r": "Quantitatif continu."
+    },
+    {
+     "q": "Fréquence d'une valeur d'effectif 6 dans une série de 40 ?",
+     "r": "$\\dfrac{6}{40}=15\\,\\%$"
+    },
+    {
+     "q": "Centre de la classe $[20\\,;30[$ ?",
+     "r": "$25$"
+    },
+    {
+     "q": "Que vaut le dernier effectif cumulé croissant ?",
+     "r": "L'effectif total N."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C15-N1.svg",
+    "alt": "Diagramme en bâtons du nombre d'enfants par ménage : 0 (3 ménages), 1 (7), 2 (12), 3 (9), 4 (6), 5 (3) ; le bâton le plus haut correspond au mode, 2 enfants.",
+    "legende": "Diagramme en bâtons de la série « nombre d'enfants par ménage » (N = 40).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C15-N2",
+   "titre": "Représentations graphiques",
+   "prerequis_notions": [
+    "M-S2-C15-N1"
+   ],
+   "cours_md": ":::definition Les principaux graphiques\n- **Diagramme en bâtons** (caractère discret) : un bâton par valeur, de hauteur proportionnelle à l'effectif.\n- **Diagramme circulaire ou semi-circulaire** (souvent pour un caractère qualitatif) : chaque secteur a un angle proportionnel à l'effectif : $\\alpha_i=f_i\\times360^\\circ$ (ou $f_i\\times180^\\circ$ pour un demi-disque).\n- **Histogramme** (caractère continu, classes) : des rectangles accolés dont l'**aire** est proportionnelle à l'effectif de la classe.\n- **Polygone des effectifs cumulés croissants** : on joint les points $(b_i\\,;N_i)$ où $b_i$ est la **borne supérieure** de chaque classe et $N_i$ son ECC, en partant de $(a_1\\,;0)$.\n:::\n\n:::propriete Histogramme à classes d'amplitudes inégales\nLa hauteur d'un rectangle est $\\dfrac{\\text{effectif}}{\\text{amplitude}}$ (on peut prendre une unité d'amplitude). Si toutes les classes ont la même amplitude, les hauteurs sont simplement proportionnelles aux effectifs.\n:::\n\n:::attention\nDans un histogramme, c'est l'**aire** qui représente l'effectif. Une classe deux fois plus large avec le même effectif a un rectangle deux fois **moins haut**.\n:::\n\n:::methode Construire un diagramme circulaire\n1. Calculer chaque fréquence $f_i$.\n2. Angle : $\\alpha_i=f_i\\times360^\\circ$ ; vérifier que la somme fait $360^\\circ$.\n3. Tracer les secteurs au rapporteur et faire une légende.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nReprésenter la série « nombre d'enfants par ménage » ($N=40$ ; effectifs $3$, $7$, $12$, $9$, $6$, $3$) par un diagramme circulaire.\n\n1. Angles : $\\dfrac{3}{40}\\times360=27^\\circ$ ; $\\dfrac{7}{40}\\times360=63^\\circ$ ; $108^\\circ$ ; $81^\\circ$ ; $54^\\circ$ ; $27^\\circ$.\n2. Contrôle : $27+63+108+81+54+27=360^\\circ$.\n3. On trace les six secteurs avec un rapporteur et on écrit une légende.\n:::\n\n:::exemple Exemple 2\nLes temps de trajet domicile–lycée de 60 élèves sont répartis en classes $[0\\,;10[$ (12 élèves), $[10\\,;20[$ (18), $[20\\,;40[$ (24), $[40\\,;60[$ (6). Calculer les hauteurs des rectangles de l'histogramme.\n\n1. Les amplitudes sont inégales : $10$, $10$, $20$, $20$ minutes.\n2. Hauteurs (élèves par minute) : $\\dfrac{12}{10}=1{,}2$ ; $\\dfrac{18}{10}=1{,}8$ ; $\\dfrac{24}{20}=1{,}2$ ; $\\dfrac{6}{20}=0{,}3$.\n3. La classe $[20\\,;40[$ a le plus grand effectif mais pas le rectangle le plus haut : c'est son aire qui vaut $24$.\n:::",
+   "definition": "On représente une série par un diagramme en bâtons (discret), circulaire (angles $f_i\\times360^\\circ$), un histogramme (aires proportionnelles aux effectifs) ou un polygone des effectifs cumulés.",
+   "formules": [
+    "$\\alpha_i=f_i\\times360^\\circ$",
+    "Hauteur $=\\dfrac{\\text{effectif}}{\\text{amplitude}}$",
+    "Polygone des ECC : points $(b_i\\,;N_i)$"
+   ],
+   "niveaux": {
+    "phrase": "Un bon graphique fait voir d'un coup d'œil comment les valeurs se répartissent.",
+    "simple": "Le diagramme circulaire, c'est un gâteau partagé : chaque part est proportionnelle à l'effectif. L'histogramme, c'est une rangée de champs : c'est la surface de chaque champ qui compte, pas seulement sa hauteur.",
+    "complete": "Le choix du graphique dépend du caractère : bâtons pour un caractère discret, secteurs pour des proportions, histogramme (densité $\\frac{n_i}{b_i-a_i}$, aires proportionnelles aux effectifs) pour un caractère continu regroupé en classes ; le polygone des effectifs cumulés croissants, affine sur chaque classe, permet de lire graphiquement la médiane."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Dans une classe de 40 élèves, 10 ont choisi le football, 16 le handball, 8 le basket et 6 l'athlétisme. Calculer les angles du diagramme circulaire.",
+     "etapes": [
+      "Football : $\\dfrac{10}{40}\\times360=90^\\circ$ ; handball : $\\dfrac{16}{40}\\times360=144^\\circ$.",
+      "Basket : $\\dfrac{8}{40}\\times360=72^\\circ$ ; athlétisme : $\\dfrac{6}{40}\\times360=54^\\circ$.",
+      "Contrôle : $90+144+72+54=360^\\circ$."
+     ]
+    },
+    {
+     "enonce": "Pour les tailles de 50 élèves (classes de $[150\\,;155[$ à $[175\\,;180[$, effectifs $4$, $9$, $15$, $12$, $7$, $3$), donner les points du polygone des effectifs cumulés croissants.",
+     "etapes": [
+      "ECC : $4$ ; $13$ ; $28$ ; $40$ ; $47$ ; $50$.",
+      "Points : $(150\\,;0)$, $(155\\,;4)$, $(160\\,;13)$, $(165\\,;28)$, $(170\\,;40)$, $(175\\,;47)$, $(180\\,;50)$ — on place chaque ECC au-dessus de la **borne supérieure** de sa classe."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Faire un histogramme à classes inégales avec des hauteurs égales aux effectifs.",
+    "Placer les effectifs cumulés au centre des classes au lieu des bornes supérieures.",
+    "Laisser des espaces entre les rectangles d'un histogramme (ils sont accolés).",
+    "Oublier la légende, le titre ou les unités sur les axes."
+   ],
+   "astuces": [
+    "Vérifie la somme des angles : 360° (ou 180° pour un demi-disque).",
+    "Pour un histogramme, choisis une unité d'amplitude (par exemple 10 min) et calcule combien d'unités contient chaque classe.",
+    "Un graphique se fait au crayon, à la règle, avec un titre."
+   ],
+   "mnemo": "« Histogramme : c'est l'aire qui compte. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu traçais des diagrammes en bâtons et des diagrammes circulaires. En Seconde, on ajoute l'histogramme à classes inégales et le polygone des effectifs cumulés."
+   },
+   "methode_redaction": "Donne un titre, gradue les axes avec leurs unités, fais un tableau des angles ou des hauteurs avant de tracer, et ajoute une légende. Pour un histogramme à classes inégales, écris le calcul « hauteur = effectif ÷ amplitude » pour chaque classe.",
+   "flash": [
+    {
+     "q": "Angle d'un secteur de fréquence $20\\,\\%$ ?",
+     "r": "$0{,}2\\times360=72^\\circ$"
+    },
+    {
+     "q": "Dans un histogramme, qu'est-ce qui représente l'effectif ?",
+     "r": "L'aire du rectangle."
+    },
+    {
+     "q": "Classe [20 ; 40[ d'effectif 24 : hauteur du rectangle (par minute) ?",
+     "r": "$\\dfrac{24}{20}=1{,}2$"
+    },
+    {
+     "q": "Où place-t-on les ECC sur le polygone ?",
+     "r": "Au-dessus de la borne supérieure de chaque classe."
+    },
+    {
+     "q": "Quel graphique pour un caractère qualitatif ?",
+     "r": "Un diagramme circulaire (ou en barres)."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C15-N2.svg",
+    "alt": "Histogramme du temps de trajet de 60 élèves avec des classes d'amplitudes inégales [0 ; 10[, [10 ; 20[, [20 ; 40[, [40 ; 60[ et des hauteurs 1,2 ; 1,8 ; 1,2 ; 0,3 élève par minute.",
+    "legende": "Histogramme à classes inégales : la hauteur vaut effectif ÷ amplitude.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C15-N3",
+   "titre": "Caractéristiques de position : mode, moyenne, médiane",
+   "prerequis_notions": [
+    "M-S2-C15-N1",
+    "M-S2-C15-N2"
+   ],
+   "cours_md": "## 1. Mode et moyenne\n\n:::definition Mode\nLe **mode** est la valeur de plus grand effectif ; pour des classes, on parle de **classe modale** (plus grand effectif si les amplitudes sont égales, plus grand rectangle de l'histogramme sinon).\n:::\n\n:::definition Moyenne\nLa **moyenne** de la série $(x_i\\,;n_i)$ est\n$$\\bar x=\\frac{n_1x_1+n_2x_2+\\dots+n_px_p}{N}=\\sum_{i=1}^{p}f_ix_i.$$\nPour une série regroupée en classes, on remplace chaque classe par son **centre**.\n:::\n\n## 2. Médiane\n\n:::definition\nLa **médiane** $Me$ partage la série ordonnée en deux groupes de même effectif : au moins la moitié des valeurs sont inférieures ou égales à $Me$ et au moins la moitié sont supérieures ou égales.\n- Si $N$ est impair, $Me$ est la valeur de rang $\\dfrac{N+1}{2}$.\n- Si $N$ est pair, $Me$ est la moyenne des valeurs de rangs $\\dfrac N2$ et $\\dfrac N2+1$.\n:::\n\n:::methode Médiane d'une série regroupée en classes (interpolation linéaire)\n1. Calculer $\\dfrac N2$ et repérer la **classe médiane** $[a\\,;b[$ : la première dont l'ECC atteint $\\dfrac N2$.\n2. Avec $N_{a}$ l'ECC de la classe précédente et $n$ l'effectif de la classe médiane :\n$$Me=a+(b-a)\\times\\frac{\\frac N2-N_a}{n}.$$\n3. Graphiquement, $Me$ est l'abscisse du point du polygone des ECC d'ordonnée $\\dfrac N2$.\n:::\n\n:::remarque\nLa moyenne est sensible aux valeurs extrêmes, pas la médiane : dans une petite entreprise où quatre employés gagnent $60\\,000$ F et le patron $1\\,000\\,000$ F, la moyenne ($248\\,000$ F) ne représente personne, la médiane ($60\\,000$ F) oui.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nPour la série « nombre d'enfants par ménage » (valeurs $0$ à $5$, effectifs $3$, $7$, $12$, $9$, $6$, $3$, $N=40$), calculer le mode, la moyenne et la médiane.\n\n1. Mode : $2$ (effectif $12$).\n2. $\\bar x=\\dfrac{0\\times3+1\\times7+2\\times12+3\\times9+4\\times6+5\\times3}{40}=\\dfrac{97}{40}=2{,}425$ enfants.\n3. $N=40$ est pair : $Me$ est la moyenne des 20e et 21e valeurs. ECC : $3$, $10$, $22$… : les 11e à 22e valeurs valent $2$.\n4. Donc $Me=\\dfrac{2+2}2=2$.\n:::\n\n:::exemple Exemple 2\nPour les tailles de 50 élèves (classes de $[150\\,;155[$ à $[175\\,;180[$, effectifs $4$, $9$, $15$, $12$, $7$, $3$), calculer la moyenne et la médiane.\n\n1. Centres : $152{,}5$ ; $157{,}5$ ; $162{,}5$ ; $167{,}5$ ; $172{,}5$ ; $177{,}5$.\n2. $\\bar x=\\dfrac{4\\times152{,}5+9\\times157{,}5+15\\times162{,}5+12\\times167{,}5+7\\times172{,}5+3\\times177{,}5}{50}=\\dfrac{8215}{50}=164{,}3$ cm.\n3. $\\dfrac N2=25$ ; ECC : $4$, $13$, $28$ : la classe médiane est $[160\\,;165[$, avec $N_a=13$ et $n=15$.\n4. $Me=160+5\\times\\dfrac{25-13}{15}=160+4=164$ cm.\n:::",
+   "definition": "Le mode est la valeur la plus fréquente, la moyenne $\\bar x=\\frac1N\\sum n_ix_i$ est le « centre de gravité » de la série, et la médiane partage la série ordonnée en deux moitiés.",
+   "formules": [
+    "$\\bar x=\\dfrac{1}{N}\\sum n_ix_i=\\sum f_ix_i$",
+    "$N$ impair : $Me$ = valeur de rang $\\frac{N+1}2$",
+    "$Me=a+(b-a)\\dfrac{\\frac N2-N_a}{n}$"
+   ],
+   "niveaux": {
+    "phrase": "Mode, moyenne et médiane donnent chacun une idée de la valeur « centrale » de la série.",
+    "simple": "Range tous les élèves de la classe par taille : celui du milieu donne la médiane. La moyenne, c'est la taille qu'aurait chacun si on « partageait » équitablement le total des tailles.",
+    "complete": "$\\bar x=\\sum f_ix_i$ minimise $\\sum n_i(x_i-a)^2$ ; la médiane est une valeur $Me$ telle que les effectifs cumulés de part et d'autre atteignent $\\frac N2$. Pour des classes, on suppose la répartition uniforme dans chaque classe : moyenne calculée avec les centres, médiane par interpolation linéaire sur le polygone des ECC."
+   },
+   "analogie": "Le salaire « moyen » d'une petite boutique peut être tiré vers le haut par le seul salaire du patron ; le salaire médian décrit mieux ce que gagnent la plupart des employés.",
+   "exemples_resolus": [
+    {
+     "enonce": "Calculer la moyenne de la série de notes $8$, $10$, $12$, $14$ d'effectifs respectifs $2$, $5$, $8$, $5$.",
+     "etapes": [
+      "$N=2+5+8+5=20$.",
+      "$\\bar x=\\dfrac{8\\times2+10\\times5+12\\times8+14\\times5}{20}=\\dfrac{16+50+96+70}{20}=\\dfrac{232}{20}=11{,}6$."
+     ]
+    },
+    {
+     "enonce": "Déterminer la médiane de la série $7$ ; $3$ ; $9$ ; $12$ ; $5$ ; $10$ ; $4$.",
+     "etapes": [
+      "On range : $3$ ; $4$ ; $5$ ; $7$ ; $9$ ; $10$ ; $12$.",
+      "$N=7$ est impair : la médiane est la valeur de rang $\\dfrac{7+1}2=4$, soit $Me=7$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Calculer la médiane sans avoir rangé les valeurs.",
+    "Pour N pair, prendre une seule valeur centrale au lieu de la moyenne des deux.",
+    "Diviser la somme des valeurs par le nombre de valeurs différentes au lieu de N (oublier les effectifs).",
+    "Dans l'interpolation, utiliser l'ECC de la classe médiane au lieu de celui de la classe précédente."
+   ],
+   "astuces": [
+    "Contrôle : la moyenne est toujours comprise entre la plus petite et la plus grande valeur.",
+    "Utilise le mode statistique de la calculatrice pour vérifier la moyenne.",
+    "Pour la médiane, écris la liste des ECC : la classe médiane saute aux yeux."
+   ],
+   "mnemo": "« Médiane : on range d'abord, on coupe au milieu ensuite. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Pour la série $2$ ; $5$ ; $7$ ; $8$ ; $11$, la médiane est $7$ (valeur du milieu) et la moyenne est $\\dfrac{33}5=6{,}6$. En Seconde, on calcule aussi ces valeurs pour des séries regroupées en classes."
+   },
+   "methode_redaction": "Écris la formule de la moyenne avec tous les produits, puis le résultat avec l'unité. Pour la médiane, écris N/2, la liste des ECC, la classe médiane, puis la formule d'interpolation avec les valeurs.",
+   "flash": [
+    {
+     "q": "Moyenne de 10, 12 et 17 ?",
+     "r": "$\\dfrac{39}3=13$"
+    },
+    {
+     "q": "Médiane de 2 ; 4 ; 9 ; 11 ?",
+     "r": "$\\dfrac{4+9}2=6{,}5$"
+    },
+    {
+     "q": "Pour une série en classes, quelle valeur prend-on pour calculer la moyenne ?",
+     "r": "Le centre de chaque classe."
+    },
+    {
+     "q": "Quelle caractéristique est peu sensible aux valeurs extrêmes ?",
+     "r": "La médiane."
+    },
+    {
+     "q": "Le mode d'une série est… ?",
+     "r": "La valeur de plus grand effectif."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C15-N3.svg",
+    "alt": "Polygone des effectifs cumulés croissants des tailles de 50 élèves, passant par (150 ; 0), (155 ; 4), (160 ; 13), (165 ; 28), (170 ; 40), (175 ; 47), (180 ; 50) ; en pointillés rouges, lecture de la médiane : l'ordonnée 25 correspond à l'abscisse 164.",
+    "legende": "La médiane se lit sur le polygone des effectifs cumulés : abscisse du point d'ordonnée N/2.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C15-N4",
+   "titre": "Caractéristiques de dispersion : étendue, variance, écart-type",
+   "prerequis_notions": [
+    "M-S2-C15-N3"
+   ],
+   "cours_md": ":::definition Étendue\nL'**étendue** est la différence entre la plus grande et la plus petite valeur de la série.\n:::\n\n:::definition Variance et écart-type\nLa **variance** de la série $(x_i\\,;n_i)$ de moyenne $\\bar x$ est la moyenne des carrés des écarts à la moyenne :\n$$V=\\frac{1}{N}\\sum_{i=1}^{p}n_i(x_i-\\bar x)^2.$$\nL'**écart-type** est $\\sigma=\\sqrt V$ ; il s'exprime dans la **même unité** que les valeurs.\n:::\n\n:::propriete Formule de calcul (König)\n$$V=\\frac{1}{N}\\sum_{i=1}^{p}n_ix_i^2-\\bar x^{\\,2}$$\n(« moyenne des carrés moins carré de la moyenne »). Pour des classes, on utilise les centres.\n:::\n\n:::propriete Interprétation\nPlus l'écart-type est grand, plus les valeurs sont **dispersées** autour de la moyenne. Deux séries de même moyenne peuvent avoir des écarts-types très différents. On résume souvent une série par le couple $(\\bar x\\,;\\sigma)$.\n:::\n\n:::remarque Transformation affine des données\nSi chaque valeur $x_i$ est remplacée par $y_i=ax_i+b$, alors $\\bar y=a\\bar x+b$ et $\\sigma_y=|a|\\,\\sigma_x$ (ajouter une constante ne change pas la dispersion).\n:::\n\n:::methode Calculer une variance à la main\n1. Faire un tableau avec les colonnes $x_i$, $n_i$, $n_ix_i$, $n_ix_i^2$.\n2. Calculer $\\bar x=\\dfrac{\\sum n_ix_i}{N}$ puis $V=\\dfrac{\\sum n_ix_i^2}{N}-\\bar x^{\\,2}$.\n3. $\\sigma=\\sqrt V$ ; arrondir **seulement à la fin**.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nCalculer l'étendue, la variance et l'écart-type de la série $2$ ; $4$ ; $4$ ; $6$.\n\n1. Étendue : $6-2=4$.\n2. $\\bar x=\\dfrac{2+4+4+6}4=4$.\n3. $V=\\dfrac{(2-4)^2+0^2+0^2+(6-4)^2}{4}=\\dfrac84=2$ et $\\sigma=\\sqrt2\\approx1{,}41$.\n:::\n\n:::exemple Exemple 2\nCalculer la variance et l'écart-type de la série « nombre d'enfants par ménage » (valeurs $0$ à $5$, effectifs $3$, $7$, $12$, $9$, $6$, $3$ ; $\\bar x=2{,}425$).\n\n1. $\\sum n_ix_i^2=0+7+48+81+96+75=307$.\n2. $V=\\dfrac{307}{40}-2{,}425^2=7{,}675-5{,}880\\,625=1{,}794\\,375$.\n3. $\\sigma=\\sqrt{1{,}794\\,375}\\approx1{,}34$ enfant.\n:::",
+   "definition": "L'étendue, la variance $V=\\frac1N\\sum n_i(x_i-\\bar x)^2$ et l'écart-type $\\sigma=\\sqrt V$ mesurent la dispersion des valeurs autour de la moyenne.",
+   "formules": [
+    "$V=\\dfrac1N\\sum n_i(x_i-\\bar x)^2$",
+    "$V=\\dfrac1N\\sum n_ix_i^2-\\bar x^{\\,2}$",
+    "$\\sigma=\\sqrt V$",
+    "$y=ax+b\\Rightarrow\\bar y=a\\bar x+b,\\ \\sigma_y=|a|\\sigma_x$"
+   ],
+   "niveaux": {
+    "phrase": "L'écart-type mesure à quel point les valeurs s'éloignent, en moyenne, de la moyenne.",
+    "simple": "Deux classes ont 10 de moyenne. Dans l'une, tout le monde a entre 8 et 12 ; dans l'autre, il y a des 4 et des 16. L'écart-type, petit pour la première et grand pour la seconde, mesure cette différence.",
+    "complete": "$V$ est la moyenne des carrés des écarts à $\\bar x$ ; par développement, $V=\\overline{x^2}-\\bar x^{\\,2}$ (formule de König). $\\sigma=\\sqrt V$ a l'unité des données. Pour $y=ax+b$ : $\\bar y=a\\bar x+b$, $V_y=a^2V_x$, $\\sigma_y=|a|\\sigma_x$."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Deux classes ont les notes suivantes. Classe A : $8$ ; $9$ ; $10$ ; $11$ ; $12$. Classe B : $4$ ; $6$ ; $10$ ; $14$ ; $16$. Comparer moyennes et écarts-types.",
+     "etapes": [
+      "Les deux moyennes valent $10$.",
+      "$V_A=\\dfrac{4+1+0+1+4}5=2$, $\\sigma_A=\\sqrt2\\approx1{,}41$.",
+      "$V_B=\\dfrac{36+16+0+16+36}5=20{,}8$, $\\sigma_B\\approx4{,}56$.",
+      "La classe B est beaucoup plus hétérogène : ses notes sont plus dispersées autour de 10."
+     ]
+    },
+    {
+     "enonce": "Calculer l'écart-type de la série $5$ ; $7$ ; $9$ ; $11$ ; $13$.",
+     "etapes": [
+      "$\\bar x=9$.",
+      "$V=\\dfrac{16+4+0+4+16}5=8$.",
+      "$\\sigma=\\sqrt8=2\\sqrt2\\approx2{,}83$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier de soustraire $\\bar x^{\\,2}$ dans la formule de König.",
+    "Confondre variance et écart-type (oublier la racine carrée).",
+    "Arrondir la moyenne avant de calculer la variance : le résultat devient faux.",
+    "Oublier les effectifs dans la somme des carrés."
+   ],
+   "astuces": [
+    "Une variance est toujours positive ou nulle : si tu trouves un nombre négatif, il y a une erreur.",
+    "Utilise le mode statistique de la calculatrice (σx) pour vérifier, mais montre les calculs sur la copie.",
+    "Pour interpréter, compare l'écart-type à la moyenne."
+   ],
+   "mnemo": "« Variance : moyenne des carrés moins carré de la moyenne. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? L'étendue d'une série était déjà une mesure de dispersion. Mais elle ne dépend que des deux valeurs extrêmes ; l'écart-type tient compte de toutes les valeurs."
+   },
+   "methode_redaction": "Présente le tableau xᵢ, nᵢ, nᵢxᵢ, nᵢxᵢ² avec une ligne « Total ». Écris la formule utilisée, garde les valeurs exactes, donne σ arrondi avec l'unité et une phrase d'interprétation.",
+   "flash": [
+    {
+     "q": "Écart-type si la variance vaut 9 ?",
+     "r": "$\\sigma=3$"
+    },
+    {
+     "q": "Formule de König ?",
+     "r": "$V=\\dfrac1N\\sum n_ix_i^2-\\bar x^{\\,2}$"
+    },
+    {
+     "q": "Étendue de 3 ; 8 ; 15 ; 6 ?",
+     "r": "$15-3=12$"
+    },
+    {
+     "q": "On ajoute 2 points à toutes les notes : que devient l'écart-type ?",
+     "r": "Il ne change pas."
+    },
+    {
+     "q": "Écart-type grand : que dire de la série ?",
+     "r": "Les valeurs sont très dispersées autour de la moyenne."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C15-N4.svg",
+    "alt": "Deux séries de notes représentées par des points : classe A (8 à 12) très regroupée, σ ≈ 1,41, et classe B (4 à 16) très étalée, σ ≈ 4,56 ; même moyenne 10 (trait vert) ; un rectangle coloré va de x̄ − σ à x̄ + σ.",
+    "legende": "Même moyenne, dispersions différentes : l'écart-type fait la différence.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S2-C15-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C15-N1"
+   ],
+   "format": "qcm",
+   "enonce": "On étudie la taille (en cm) des élèves d'une classe. Ce caractère est :",
+   "choix": [
+    "quantitatif continu",
+    "quantitatif discret",
+    "qualitatif",
+    "ni quantitatif ni qualitatif"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Peut-on avoir une taille de 162,37 cm ?"
+   ],
+   "corrige": [
+    "La taille se mesure par un nombre : caractère quantitatif.",
+    "Elle peut prendre toutes les valeurs d'un intervalle : caractère continu."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre « discret » parce qu'on arrondit souvent au centimètre.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C15-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C15-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer la moyenne des notes $12$ ; $15$ ; $9$ ; $14$.",
+   "reponses_acceptees": [
+    "12,5",
+    "12.5",
+    "25/2"
+   ],
+   "indices": [
+    "Additionne puis divise par le nombre de notes."
+   ],
+   "corrige": [
+    "Somme : $12+15+9+14=50$.",
+    "Moyenne : $\\dfrac{50}4=12{,}5$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par 3 ou oublier une note.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C15-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C15-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans une classe de 45 élèves, 9 élèves ont eu la moyenne à la composition de mathématiques. Quelle est la fréquence de ces élèves, en pourcentage ?",
+   "reponses_acceptees": [
+    "20%",
+    "20",
+    "0,2",
+    "0.2",
+    "20 %"
+   ],
+   "indices": [
+    "Fréquence = effectif ÷ effectif total."
+   ],
+   "corrige": [
+    "$f=\\dfrac{9}{45}=\\dfrac15=0{,}2$.",
+    "Soit $20\\,\\%$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 45 ÷ 9 = 5.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C15-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C15-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Déterminer la médiane de la série $7$ ; $3$ ; $9$ ; $12$ ; $5$ ; $10$.",
+   "reponses_acceptees": [
+    "8",
+    "Me=8"
+   ],
+   "indices": [
+    "Range d'abord les valeurs."
+   ],
+   "corrige": [
+    "On range : $3$ ; $5$ ; $7$ ; $9$ ; $10$ ; $12$.",
+    "$N=6$ est pair : $Me=\\dfrac{7+9}2=8$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Prendre la moyenne des 3e et 4e valeurs sans avoir rangé (9 et 12).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C15-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C15-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Dans un diagramme circulaire, quel est l'angle du secteur d'une modalité de fréquence $25\\,\\%$ ?",
+   "choix": [
+    "$90^\\circ$",
+    "$25^\\circ$",
+    "$45^\\circ$",
+    "$100^\\circ$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Le disque entier correspond à 100 %."
+   ],
+   "corrige": [
+    "$\\alpha=f\\times360^\\circ=0{,}25\\times360^\\circ$.",
+    "$\\alpha=90^\\circ$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 25° en confondant pourcentage et degrés.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C15-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C15-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer la moyenne de la série suivante.\n\n| Note | 8 | 10 | 12 | 14 |\n|---|---|---|---|---|\n| Effectif | 2 | 5 | 8 | 5 |",
+   "reponses_acceptees": [
+    "11,6",
+    "11.6",
+    "58/5"
+   ],
+   "indices": [
+    "Multiplie chaque note par son effectif."
+   ],
+   "corrige": [
+    "$N=2+5+8+5=20$ et $\\sum n_ix_i=16+50+96+70=232$.",
+    "$\\bar x=\\dfrac{232}{20}=11{,}6$."
+   ],
+   "bareme": [
+    1.5,
+    1
+   ],
+   "piege": "Faire la moyenne de 8, 10, 12, 14 sans les effectifs (11).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C15-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C15-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer la variance de la série $2$ ; $4$ ; $4$ ; $6$.",
+   "reponses_acceptees": [
+    "2",
+    "V=2"
+   ],
+   "indices": [
+    "Moyenne des carrés des écarts à la moyenne."
+   ],
+   "corrige": [
+    "$\\bar x=\\dfrac{16}4=4$.",
+    "$V=\\dfrac{(2-4)^2+0+0+(6-4)^2}4=\\dfrac84=2$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Donner l'écart-type √2 au lieu de la variance.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C15-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C15-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une série est regroupée en classes : $[0\\,;5[$ (effectif 6), $[5\\,;10[$ (10), $[10\\,;15[$ (14), $[15\\,;20[$ (10). Calculer la médiane par interpolation linéaire, arrondie au centième.",
+   "reponses_acceptees": [
+    "11,43",
+    "11.43"
+   ],
+   "indices": [
+    "Repère la première classe dont l'ECC atteint 20."
+   ],
+   "corrige": [
+    "$N=40$, $\\dfrac N2=20$ ; ECC : $6$, $16$, $30$, $40$ : classe médiane $[10\\,;15[$, $N_a=16$, $n=14$.",
+    "$Me=10+5\\times\\dfrac{20-16}{14}=10+\\dfrac{10}7\\approx11{,}43$."
+   ],
+   "bareme": [
+    1.5,
+    1.5
+   ],
+   "piege": "Utiliser 30 (ECC de la classe médiane) au lieu de 16.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C15-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C15-N1",
+    "M-S2-C15-N3",
+    "M-S2-C15-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Voici les notes obtenues par 40 élèves à une composition :\n\n| Note $x_i$ | 6 | 8 | 10 | 12 | 14 | 16 |\n|---|---|---|---|---|---|---|\n| Effectif $n_i$ | 2 | 5 | 10 | 12 | 7 | 4 |\n\n1. Calculer les effectifs cumulés croissants.\n2. Donner le mode et la médiane.\n3. Calculer la moyenne.\n4. Calculer la variance et l'écart-type (arrondi au centième).",
+   "indices": [
+    "Pour la médiane, cherche dans quelle colonne tombent les rangs 20 et 21.",
+    "Fais une colonne nᵢxᵢ²."
+   ],
+   "corrige": [
+    "1. ECC : $2$ ; $7$ ; $17$ ; $29$ ; $36$ ; $40$.",
+    "2. Mode : $12$. $N=40$ : $Me$ est la moyenne des 20e et 21e notes, qui valent toutes deux $12$ (car $17<20$ et $29\\ge21$) : $Me=12$.",
+    "3. $\\sum n_ix_i=12+40+100+144+98+64=458$, donc $\\bar x=\\dfrac{458}{40}=11{,}45$.",
+    "4. $\\sum n_ix_i^2=72+320+1000+1728+1372+1024=5516$ ; $V=\\dfrac{5516}{40}-11{,}45^2=137{,}9-131{,}1025=6{,}7975$.",
+    "$\\sigma=\\sqrt{6{,}7975}\\approx2{,}61$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Arrondir la moyenne à 11,5 avant de calculer la variance.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C15-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C15-N2",
+    "M-S2-C15-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "On a relevé la durée d'attente (en minutes) de 80 clients à un guichet de Lomé :\n\n| Durée | $[0\\,;4[$ | $[4\\,;8[$ | $[8\\,;12[$ | $[12\\,;16[$ | $[16\\,;20[$ |\n|---|---|---|---|---|---|\n| Effectif | 10 | 22 | 26 | 14 | 8 |\n\n1. Donner la classe modale et calculer les fréquences en pourcentage.\n2. Calculer les effectifs cumulés croissants et tracer le polygone correspondant.\n3. Calculer la médiane par interpolation linéaire (au centième).\n4. Calculer la durée moyenne d'attente.",
+   "indices": [
+    "Les points du polygone se placent aux bornes supérieures.",
+    "Moyenne : on utilise les centres des classes."
+   ],
+   "corrige": [
+    "1. Classe modale : $[8\\,;12[$. Fréquences : $12{,}5\\,\\%$ ; $27{,}5\\,\\%$ ; $32{,}5\\,\\%$ ; $17{,}5\\,\\%$ ; $10\\,\\%$.",
+    "2. ECC : $10$ ; $32$ ; $58$ ; $72$ ; $80$. Points : $(0\\,;0)$, $(4\\,;10)$, $(8\\,;32)$, $(12\\,;58)$, $(16\\,;72)$, $(20\\,;80)$.",
+    "3. $\\dfrac N2=40$ : classe médiane $[8\\,;12[$, $N_a=32$, $n=26$. $Me=8+4\\times\\dfrac{40-32}{26}=8+\\dfrac{16}{13}\\approx9{,}23$ min.",
+    "4. Centres $2$, $6$, $10$, $14$, $18$ : $\\bar x=\\dfrac{20+132+260+196+144}{80}=\\dfrac{752}{80}=9{,}4$ min."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    1.5
+   ],
+   "piege": "Placer les ECC au centre des classes ou utiliser la borne inférieure pour la moyenne.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C15-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C15-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Deux tireurs de penalty s'entraînent. Notes (sur 20) de leurs séances :\n- Kodjo : $8$ ; $9$ ; $10$ ; $11$ ; $12$ ;\n- Yao : $4$ ; $6$ ; $10$ ; $14$ ; $16$.\n\n1. Calculer la moyenne et l'étendue de chaque série.\n2. Calculer l'écart-type de chaque série.\n3. Lequel des deux est le plus régulier ? Justifier.",
+   "indices": [
+    "Calcule les écarts à la moyenne 10."
+   ],
+   "corrige": [
+    "1. Kodjo : $\\bar x=\\dfrac{50}5=10$, étendue $4$. Yao : $\\bar x=\\dfrac{50}5=10$, étendue $12$.",
+    "2. Kodjo : $V=\\dfrac{4+1+0+1+4}5=2$, $\\sigma\\approx1{,}41$.",
+    "Yao : $V=\\dfrac{36+16+0+16+36}5=20{,}8$, $\\sigma\\approx4{,}56$.",
+    "3. Même moyenne, mais l'écart-type de Kodjo est bien plus petit : ses résultats sont moins dispersés, il est le plus régulier."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Conclure avec les moyennes seules (elles sont égales).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C15-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C15-N4",
+    "M-S2-C15-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Les notes d'un devoir ont pour moyenne $\\bar x=9$ et pour écart-type $\\sigma_x=2{,}5$. Pour harmoniser, le professeur remplace chaque note $x_i$ par $y_i=1{,}2x_i+1$.\n\n1. Montrer que la nouvelle moyenne est $\\bar y=1{,}2\\bar x+1$ et la calculer.\n2. Montrer que $V_y=1{,}2^2\\,V_x$ et en déduire le nouvel écart-type.\n3. Une élève avait $10$. Quelle est sa nouvelle note ? Est-elle toujours au-dessus de la moyenne ?",
+   "indices": [
+    "Utilise la définition de la moyenne et ∑ nᵢ = N.",
+    "Les écarts à la moyenne sont multipliés par 1,2."
+   ],
+   "corrige": [
+    "1. $\\bar y=\\dfrac1N\\sum n_i(1{,}2x_i+1)=1{,}2\\times\\dfrac1N\\sum n_ix_i+\\dfrac1N\\sum n_i=1{,}2\\bar x+1$. Donc $\\bar y=1{,}2\\times9+1=11{,}8$.",
+    "2. $y_i-\\bar y=1{,}2(x_i-\\bar x)$, donc $V_y=\\dfrac1N\\sum n_i\\times1{,}44(x_i-\\bar x)^2=1{,}44\\,V_x$.",
+    "$\\sigma_y=\\sqrt{1{,}44\\,V_x}=1{,}2\\,\\sigma_x=1{,}2\\times2{,}5=3$.",
+    "3. $y=1{,}2\\times10+1=13$. Avant : $10>9$ ; après : $13>11{,}8$. Elle reste au-dessus de la moyenne (la transformation est croissante)."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Ajouter 1 à l'écart-type : une constante ajoutée ne change pas la dispersion.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C15-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C15-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Une enquête porte sur le nombre de livres lus pendant les vacances par des élèves :\n\n| Nombre de livres | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| Effectif | 4 | $n$ | 6 | 2 |\n\n1. Exprimer la moyenne en fonction de $n$.\n2. Sachant que la moyenne vaut $1{,}25$, déterminer $n$.\n3. Calculer alors la médiane. Comparer avec la moyenne.",
+   "indices": [
+    "Écris une équation en n et résous-la.",
+    "Pour la médiane, N = 24 est pair."
+   ],
+   "corrige": [
+    "1. $N=12+n$ et $\\sum n_ix_i=0+n+12+6=n+18$, donc $\\bar x=\\dfrac{n+18}{n+12}$.",
+    "2. $\\dfrac{n+18}{n+12}=1{,}25\\iff n+18=1{,}25n+15\\iff3=0{,}25n\\iff n=12$.",
+    "3. $N=24$ ; ECC : $4$ ; $16$ ; $22$ ; $24$. Les 12e et 13e valeurs valent $1$ : $Me=1$.",
+    "La médiane ($1$) est inférieure à la moyenne ($1{,}25$) : quelques gros lecteurs tirent la moyenne vers le haut."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Oublier n dans l'effectif total N.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C15-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C15-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer la valeur exacte de l'écart-type de la série $5$ ; $7$ ; $9$ ; $11$ ; $13$.",
+   "reponses_acceptees": [
+    "2√2",
+    "√8",
+    "2sqrt(2)",
+    "sqrt(8)",
+    "2sqrt2",
+    "2racine2"
+   ],
+   "indices": [
+    "Calcule d'abord la variance."
+   ],
+   "corrige": [
+    "$\\bar x=\\dfrac{45}5=9$.",
+    "$V=\\dfrac{16+4+0+4+16}5=8$.",
+    "$\\sigma=\\sqrt8=2\\sqrt2\\approx2{,}83$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Donner la variance 8 au lieu de l'écart-type.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Calculer la médiane sans ranger les valeurs, ou prendre une seule valeur centrale quand N est pair.",
+  "Oublier les effectifs dans la moyenne (diviser par le nombre de valeurs différentes).",
+  "Histogramme à classes inégales tracé avec des hauteurs égales aux effectifs.",
+  "Polygone des effectifs cumulés : points placés au centre des classes au lieu des bornes supérieures.",
+  "Interpolation linéaire : utiliser l'ECC de la classe médiane au lieu de celui de la classe précédente.",
+  "Variance : oublier de soustraire le carré de la moyenne, confondre variance et écart-type, arrondir trop tôt.",
+  "Fréquences qui ne totalisent pas 100 % à cause d'arrondis non signalés."
+ ]
+}

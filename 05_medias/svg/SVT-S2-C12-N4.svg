@@ -30,22 +30,22 @@
 <circle cx="515" cy="350" r="4" fill="#facc15" stroke="#854d0e"/>
 <circle cx="530" cy="375" r="4" fill="#facc15" stroke="#854d0e"/>
 <circle cx="455" cy="240" r="4" fill="#facc15" stroke="#854d0e"/>
-<line x1="160" y1="182" x2="160" y2="120" stroke="#374151" stroke-width="1.5"/><circle cx="160" cy="182" r="2.6" fill="#374151"/><text x="160" y="114" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">dorsale (divergence)</text>
-<line x1="440" y1="200" x2="395" y2="120" stroke="#374151" stroke-width="1.5"/><circle cx="440" cy="200" r="2.6" fill="#374151"/><text x="395" y="114" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">fosse</text>
-<line x1="508" y1="100" x2="520" y2="70" stroke="#374151" stroke-width="1.5"/><circle cx="508" cy="100" r="2.6" fill="#374151"/><text x="520" y="64" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">volcans (explosifs)</text>
-<line x1="480" y1="285" x2="380" y2="335" stroke="#374151" stroke-width="1.5"/><circle cx="480" cy="285" r="2.6" fill="#374151"/><text x="375" y="340" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">subduction</text>
-<text x="30" y="210" font-size="14" text-anchor="start" font-weight="bold" fill="#ffffff">lithosphère</text>
-<text x="30" y="228" font-size="13" text-anchor="start" font-weight="normal" fill="#ffffff">(≈ 100 km, rigide)</text>
-<text x="185" y="410" font-size="14" text-anchor="start" font-weight="bold" fill="#7c2d12">asthénosphère (solide mais ductile)</text>
-<text x="350" y="168" font-size="14" text-anchor="middle" font-weight="normal" fill="#0c4a6e">océan</text>
-<text x="545" y="200" font-size="13" text-anchor="middle" font-weight="normal" fill="#ffffff">continent</text>
+<line x1="160" y1="182" x2="160" y2="120" stroke="#374151" stroke-width="1.5"/><circle cx="160" cy="182" r="2.6" fill="#374151"/><text x="160" y="114" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">dorsale (divergence)</text>
+<line x1="440" y1="200" x2="395" y2="120" stroke="#374151" stroke-width="1.5"/><circle cx="440" cy="200" r="2.6" fill="#374151"/><text x="395" y="114" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">fosse</text>
+<line x1="508" y1="100" x2="520" y2="70" stroke="#374151" stroke-width="1.5"/><circle cx="508" cy="100" r="2.6" fill="#374151"/><text x="520" y="64" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">volcans (explosifs)</text>
+<line x1="480" y1="285" x2="380" y2="335" stroke="#374151" stroke-width="1.5"/><circle cx="480" cy="285" r="2.6" fill="#374151"/><text x="375" y="340" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">subduction</text>
+<text x="30" y="210" font-size="15" text-anchor="start" font-weight="bold" fill="#ffffff">lithosphère</text>
+<text x="30" y="228" font-size="14" text-anchor="start" font-weight="normal" fill="#ffffff">(≈ 100 km, rigide)</text>
+<text x="185" y="410" font-size="15" text-anchor="start" font-weight="bold" fill="#7c2d12">asthénosphère (solide mais ductile)</text>
+<text x="350" y="168" font-size="15" text-anchor="middle" font-weight="normal" fill="#0c4a6e">océan</text>
+<text x="545" y="200" font-size="14" text-anchor="middle" font-weight="normal" fill="#ffffff">continent</text>
 <circle cx="40" cy="455" r="5" fill="#facc15" stroke="#854d0e"/>
-<text x="52" y="460" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">foyers de séismes</text>
+<text x="52" y="460" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">foyers de séismes</text>
 <line x1="220" y1="455" x2="250" y2="455" stroke="#111827" stroke-width="3" marker-end="url(#fl)"/>
-<text x="258" y="460" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">déplacement des plaques (quelques cm/an)</text>
+<text x="258" y="460" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">déplacement des plaques (quelques cm/an)</text>
 <rect x="20" y="480" width="560" height="120" rx="10" fill="#f0fdf4" stroke="#15803d" stroke-width="1.5"/>
-<text x="300.0" y="518.6" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2937">Et l'Afrique de l'Ouest ?</text>
-<text x="300.0" y="536.1" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">Le Togo est au cœur de la plaque africaine, loin de ses frontières :</text>
-<text x="300.0" y="553.6" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">séismes rares et en général faibles (séisme d'Accra en 1939),</text>
-<text x="300.0" y="571.1" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">pas de volcan actif. Exception proche : la « ligne du Cameroun ».</text>
+<text x="300.0" y="518.6" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Et l'Afrique de l'Ouest ?</text>
+<text x="300.0" y="536.1" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Le Togo est au cœur de la plaque africaine, loin de ses frontières :</text>
+<text x="300.0" y="553.6" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">séismes rares et en général faibles (séisme d'Accra en 1939),</text>
+<text x="300.0" y="571.1" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">pas de volcan actif. Exception proche : la « ligne du Cameroun ».</text>
 </svg>

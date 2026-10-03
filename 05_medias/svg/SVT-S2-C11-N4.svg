@@ -45,15 +45,15 @@
 <ellipse cx="380" cy="120" rx="5" ry="3" fill="#fef3c7" stroke="#78350f" stroke-width="1"/>
 <ellipse cx="394" cy="120" rx="5" ry="3" fill="#fef3c7" stroke="#78350f" stroke-width="1"/>
 <ellipse cx="408" cy="120" rx="5" ry="3" fill="#fef3c7" stroke="#78350f" stroke-width="1"/>
-<line x1="317.5" y1="330" x2="345" y2="410" stroke="#374151" stroke-width="1.5"/><text x="350" y="415" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">faille F</text>
-<line x1="292" y1="160" x2="225" y2="410" stroke="#374151" stroke-width="1.5"/><text x="220" y="415" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">filon de basalte B</text>
-<line x1="500" y1="140" x2="540" y2="85" stroke="#374151" stroke-width="1.5"/><text x="535" y="90" font-size="13" text-anchor="end" font-weight="normal" fill="#1f2937">surface d'érosion</text>
-<text x="40" y="440" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">Fossiles : trilobites dans 1 (ère primaire) ; ammonites dans 3 (ère secondaire) ;</text>
-<text x="40" y="458" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">nummulites dans 5 (ère tertiaire).</text>
+<line x1="317.5" y1="330" x2="345" y2="410" stroke="#374151" stroke-width="1.5"/><text x="350" y="415" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">faille F</text>
+<line x1="292" y1="160" x2="225" y2="410" stroke="#374151" stroke-width="1.5"/><text x="220" y="415" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">filon de basalte B</text>
+<line x1="500" y1="140" x2="540" y2="85" stroke="#374151" stroke-width="1.5"/><text x="535" y="90" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">surface d'érosion</text>
+<text x="40" y="440" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">Fossiles : trilobites dans 1 (ère primaire) ; ammonites dans 3 (ère secondaire) ;</text>
+<text x="40" y="458" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">nummulites dans 5 (ère tertiaire).</text>
 <rect x="30" y="475" width="540" height="145" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
-<text x="300.0" y="517.4" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2937">Principes de datation relative</text>
-<text x="300.0" y="534.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">Superposition : une couche est plus récente que celle qu'elle recouvre.</text>
-<text x="300.0" y="552.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">Recoupement : une structure (faille, filon) est plus récente que ce qu'elle coupe.</text>
-<text x="300.0" y="569.9" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">Identité paléontologique : mêmes fossiles stratigraphiques = même âge.</text>
-<text x="300.0" y="587.4" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">Ordre ici : 1, 2, 3, 4 → faille F → filon B → érosion → 5.</text>
+<text x="300.0" y="517.4" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Principes de datation relative</text>
+<text x="300.0" y="534.9" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Superposition : une couche est plus récente que celle qu'elle recouvre.</text>
+<text x="300.0" y="552.4" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Recoupement : une structure (faille, filon) est plus récente que ce qu'elle coupe.</text>
+<text x="300.0" y="569.9" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Identité paléontologique : mêmes fossiles stratigraphiques = même âge.</text>
+<text x="300.0" y="587.4" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">Ordre ici : 1, 2, 3, 4 → faille F → filon B → érosion → 5.</text>
 </svg>
