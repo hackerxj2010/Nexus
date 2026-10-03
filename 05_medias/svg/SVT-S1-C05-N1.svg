@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Couvert végétal et érosion des sols</title>
+<desc id="desc">Expérience : deux bacs inclinés arrosés de la même façon ; le sol nu laisse partir une eau boueuse et abondante, le sol couvert d'herbe peu d'eau claire. Histogramme : terre emportée 480 g (sol nu), 150 g (cordon pierreux), 25 g (herbe).</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker></defs>
+<rect x="0" y="0" width="600" height="600" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Couvert végétal et érosion des sols</text>
+<g transform="rotate(12 40 140)">
+<rect x="40" y="140" width="190" height="34" fill="#92400e" stroke="#451a03" stroke-width="2"/>
+</g>
+<text x="135" y="106" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">sol nu</text>
+<line x1="60" y1="70" x2="54" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="98" y1="70" x2="92" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="136" y1="70" x2="130" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="174" y1="70" x2="168" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="212" y1="70" x2="206" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="228" y1="185" x2="236" y2="215" stroke="#374151" stroke-width="2" marker-end="url(#fl)"/>
+<path d="M210 220 L210 300 Q210 310 220 310 L260 310 Q270 310 270 300 L270 220" fill="#ffffff" stroke="#374151" stroke-width="2.5"/>
+<rect x="212" y="240" width="56" height="68" fill="#a16207" opacity="0.85"/>
+<g transform="rotate(12 330 140)">
+<rect x="330" y="140" width="190" height="34" fill="#92400e" stroke="#451a03" stroke-width="2"/>
+<path d="M337 140 l-4 -14 M337 140 l0 -16 M337 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M350 140 l-4 -14 M350 140 l0 -16 M350 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M363 140 l-4 -14 M363 140 l0 -16 M363 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M376 140 l-4 -14 M376 140 l0 -16 M376 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M389 140 l-4 -14 M389 140 l0 -16 M389 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M402 140 l-4 -14 M402 140 l0 -16 M402 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M415 140 l-4 -14 M415 140 l0 -16 M415 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M428 140 l-4 -14 M428 140 l0 -16 M428 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M441 140 l-4 -14 M441 140 l0 -16 M441 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M454 140 l-4 -14 M454 140 l0 -16 M454 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M467 140 l-4 -14 M467 140 l0 -16 M467 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M480 140 l-4 -14 M480 140 l0 -16 M480 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M493 140 l-4 -14 M493 140 l0 -16 M493 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+<path d="M506 140 l-4 -14 M506 140 l0 -16 M506 140 l4 -14" stroke="#15803d" stroke-width="2.5" fill="none"/>
+</g>
+<text x="425" y="106" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">sol couvert d'herbe</text>
+<line x1="350" y1="70" x2="344" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="388" y1="70" x2="382" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="426" y1="70" x2="420" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="464" y1="70" x2="458" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="502" y1="70" x2="496" y2="92" stroke="#2563eb" stroke-width="2.5"/>
+<line x1="518" y1="185" x2="526" y2="215" stroke="#374151" stroke-width="2" marker-end="url(#fl)"/>
+<path d="M500 220 L500 300 Q500 310 510 310 L550 310 Q560 310 560 300 L560 220" fill="#ffffff" stroke="#374151" stroke-width="2.5"/>
+<rect x="502" y="290" width="56" height="18" fill="#bfdbfe"/>
+<text x="80" y="250" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">eau boueuse,</text>
+<text x="80" y="270" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">abondante</text>
+<text x="370" y="280" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">peu d'eau,</text>
+<text x="370" y="300" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">claire</text>
+<text x="300" y="62" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937" font-style="italic">même pluie (arrosoir), même pente</text>
+<line x1="30" y1="335" x2="570" y2="335" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="300" y="365" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">Terre emportée (g) pour 5 L d'eau versés</text>
+<line x1="110" y1="560" x2="540" y2="560" stroke="#1f2937" stroke-width="2"/>
+<line x1="110" y1="560" x2="110" y2="375" stroke="#1f2937" stroke-width="2"/>
+<line x1="105" y1="560.0" x2="110" y2="560.0" stroke="#1f2937" stroke-width="2"/>
+<text x="101" y="565.0" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">0</text>
+<line x1="105" y1="525.0" x2="110" y2="525.0" stroke="#1f2937" stroke-width="2"/>
+<text x="101" y="530.0" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">100</text>
+<line x1="105" y1="490.0" x2="110" y2="490.0" stroke="#1f2937" stroke-width="2"/>
+<text x="101" y="495.0" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">200</text>
+<line x1="105" y1="455.0" x2="110" y2="455.0" stroke="#1f2937" stroke-width="2"/>
+<text x="101" y="460.0" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">300</text>
+<line x1="105" y1="420.0" x2="110" y2="420.0" stroke="#1f2937" stroke-width="2"/>
+<text x="101" y="425.0" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">400</text>
+<line x1="105" y1="385.0" x2="110" y2="385.0" stroke="#1f2937" stroke-width="2"/>
+<text x="101" y="390.0" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937">500</text>
+<rect x="150" y="392.0" width="80" height="168.0" fill="#a16207"/>
+<text x="190" y="384.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">480</text>
+<text x="190" y="582" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">sol nu</text>
+<rect x="285" y="507.5" width="80" height="52.5" fill="#78716c"/>
+<text x="325" y="499.5" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">150</text>
+<text x="325" y="582" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">cordon pierreux</text>
+<rect x="420" y="551.25" width="80" height="8.75" fill="#15803d"/>
+<text x="460" y="543.25" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">25</text>
+<text x="460" y="582" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">herbe</text>
+</svg>

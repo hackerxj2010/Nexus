@@ -1,0 +1,270 @@
+{
+ "id": "EP-M-S1-0009",
+ "matiere": "M",
+ "semestre": 1,
+ "type": "concours_entree",
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques (Lomé / Kara)",
+  "ville": "Lomé / Kara",
+  "annee_scolaire": "2021-2022",
+  "session": "Septembre 2021",
+  "document": "« Epreuves Concours lycée scientifique.pdf » (scan CamScanner, 12,4 Mo, Google Drive de l'utilisateur, ajouté le 2026-07-03)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Sujet officiel d'examen ; copie privée dans le Google Drive de l'utilisateur ; usage personnel d'apprentissage",
+  "fiabilite": 3
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "chapitres_titres": [
+  "Polynômes et fractions rationnelles",
+  "Angles inscrits",
+  "Angles orientés et trigonométrie",
+  "Géométrie dans l'espace",
+  "Ensemble des nombres réels et calcul dans ℝ"
+ ],
+ "chapitres": [
+  "M-S1-C03",
+  "M-S1-C06",
+  "M-S2-C10",
+  "M-S1-C08",
+  "M-S1-C01"
+ ],
+ "enonce_md": "> **Transcription reconstituée** à partir du texte OCR (Google Drive) d'un scan CamScanner du sujet officiel. Les formules ont été remises en forme ; **[illisible]** signale un passage absent ou inexploitable dans l'OCR ; *(lecture probable)* signale un symbole reconstitué d'après le contexte et la cohérence des questions. Les figures du sujet ne sont pas disponibles. À relire sur le scan original avant usage en composition blanche.\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE — SESSION DE SEPTEMBRE 2021**\n\n**ÉPREUVE DE MATHÉMATIQUES** — Durée : 2 h\n\n### Exercice 1 (5,5 pts) — *très dégradé dans l'OCR*\n1. Factoriser les polynômes suivants : $P(x) = $ **[illisible]** ; $H(x) = $ **[illisible]** ; $Q(x) = $ **[illisible]** ; $R(x) = $ **[illisible]** (OCR : « P(x)=(6x26) + [15(x-1)² -60] ; H(x) = (x²+x+1)+x+2 ; Q(x)=(3x²-3) + (6x2 - 6) ; R(x)=(3x√2+2)+(6x+2√2) »). (0,5 pt × 4)\n2. a) On pose $F(x) = \\dfrac{P(x)}{Q(x)}$. Simplifier $F(x)$. (0,5 pt)\n\n   b) Pour quelle valeur de $x$ $F$ prend-elle respectivement les valeurs **[illisible]** et $6$ ? (0,5 pt × 2)\n3. Soit la fonction numérique définie par $K(x) = $ **[illisible]**.\n\n   a) Donner le domaine $D_K$ d'existence d'une valeur numérique de $K$. (0,5 pt × 2)\n\n   b) Simplifier $K(x)$ sur $D_K$. (0,5 pt × 2)\n\n### Exercice 2 (4,5 pts) — *données partiellement illisibles*\n1. Soit un triangle $ABC$ tel que $BC = 9$, $AB = 6$ et **[illisible]**. $F$ est le point du segment $[AC]$ tel que $AF = $ **[illisible]** $AC$. Calculer $AF$. (0,5 pt)\n2. $E$ est le symétrique du point $A$ par rapport au point $B$. Tracer la droite parallèle à la droite $(EF)$ qui passe par $B$ : elle coupe la droite $(AC)$ au point $G$. Calculer $GF$. (0,5 pt × 3)\n3. $K$ est le point du segment $[AB]$ tel que $BK = $ **[illisible]** $BA$. Démontrer que les droites $(KF)$ et $(BC)$ sont parallèles. Calculer $KF$. (1 pt × 2) (Figure : 0,5 pt)\n\n### Exercice 3 (5 pts)\nSur la figure ci-contre *(non disponible)*, le point $C$ est un point d'un demi-cercle de centre $O$ et de rayon 1 (de diamètre $[AB]$). Le point $H$ est le pied de la hauteur issue du sommet $C$ du triangle $CAB$. On désigne par $\\alpha$ la mesure en degré de l'angle $\\widehat{COB}$, supposé aigu.\n1. Démontrer que la mesure en degré de l'angle $\\widehat{CAB}$ est $\\dfrac{\\alpha}{2}$. (0,5 pt)\n2. a) Exprimer de deux façons $\\cos\\dfrac{\\alpha}{2}$ *(lecture probable)*. (0,5 pt × 2)\n\n   b) En déduire que $\\left(\\cos\\dfrac{\\alpha}{2}\\right)^2 = $ **[illisible]** (lecture probable : $\\dfrac{AH}{2}$). (0,5 pt)\n3. Exprimer $OH$ puis $AH$ en fonction de $\\cos\\alpha$. (0,5 pt × 2)\n4. Déduire des questions 2b et 3 que $\\left(\\cos\\dfrac{\\alpha}{2}\\right)^2 = \\dfrac{1 + \\cos\\alpha}{2}$ *(lecture probable)*. (0,5 pt)\n5. Sachant que $\\cos 30^\\circ = \\dfrac{\\sqrt{3}}{2}$, déterminer la valeur exacte de $\\cos 15^\\circ$ puis en déduire celle de $\\sin 15^\\circ$. (0,5 pt × 2)\n\n(Figure : 0,5 pt.)\n\n### Exercice 4 (5 pts)\nOn considère la pyramide régulière $SABCD$ pour laquelle : la base $ABCD$ est un carré ; $A'B'C'D'$ est une section par un plan parallèle à la base.\n1. L'unité de longueur étant le centimètre, on donne : $AB = 4\\sqrt{2}$, $SA = 4\\sqrt{5}$, $SH' = 2$ ($H$ et $H'$ centres de la base et de la section).\n\n   a) Calculer les distances $AC$, $AH$ puis la hauteur $SH$ de la pyramide. (1,5 pt)\n\n   b) Calculer l'apothème de la pyramide. (1 pt)\n\n   c) Calculer le volume $v$ de la pyramide $SABCD$. (1 pt)\n2. a) Quelle est la nature de la section $A'B'C'D'$ ? (0,5 pt)\n\n   b) Calculer le coefficient de réduction de la pyramide $SABCD$. (0,5 pt)\n\n   d) Calculer le volume $v'$ de la pyramide $SA'B'C'D'$ en fonction de $v$. (0,5 pt) *(une question c) n'apparaît pas dans l'OCR)*\n",
+ "questions": [
+  {
+   "numero": "Ex3-1",
+   "enonce": "Démontrer que $\\widehat{CAB} = \\dfrac{\\alpha}{2}$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "$\\widehat{CAB}$ est un angle inscrit dans le cercle de centre $O$ ; il intercepte l'arc $\\overset{\\frown}{CB}$, comme l'angle au centre $\\widehat{COB} = \\alpha$. Donc $\\widehat{CAB} = \\dfrac{\\alpha}{2}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\widehat{CAB} = \\dfrac{\\alpha}{2}$",
+   "piege": "",
+   "astuce": "Angle inscrit = moitié de l'angle au centre qui intercepte le même arc."
+  },
+  {
+   "numero": "Ex3-2a",
+   "enonce": "Exprimer de deux façons $\\cos\\dfrac{\\alpha}{2}$.",
+   "points": 1,
+   "notions_titres": [
+    "Angles orientés et trigonométrie",
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "$C$ est sur le cercle de diamètre $[AB]$ : $ACB$ est rectangle en $C$ et $AB = 2$. Donc $\\cos\\dfrac{\\alpha}{2} = \\cos\\widehat{CAB} = \\dfrac{AC}{AB} = \\dfrac{AC}{2}$.",
+    "Dans $ACH$ rectangle en $H$ : $\\cos\\dfrac{\\alpha}{2} = \\dfrac{AH}{AC}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\cos\\dfrac{\\alpha}{2} = \\dfrac{AC}{2} = \\dfrac{AH}{AC}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-2b",
+   "enonce": "En déduire $\\left(\\cos\\dfrac{\\alpha}{2}\\right)^2$ (second membre illisible ; lecture probable $\\dfrac{AH}{2}$).",
+   "points": 0.5,
+   "notions_titres": [
+    "Angles orientés et trigonométrie"
+   ],
+   "corrige": [
+    "En multipliant les deux expressions : $\\left(\\cos\\dfrac{\\alpha}{2}\\right)^2 = \\dfrac{AC}{2} \\times \\dfrac{AH}{AC} = \\dfrac{AH}{2}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\left(\\cos\\frac{\\alpha}{2}\\right)^2 = \\frac{AH}{2}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-3",
+   "enonce": "Exprimer $OH$ puis $AH$ en fonction de $\\cos\\alpha$.",
+   "points": 1,
+   "notions_titres": [
+    "Angles orientés et trigonométrie"
+   ],
+   "corrige": [
+    "Dans $OHC$ rectangle en $H$ ($OC = 1$, $\\alpha$ aigu donc $H \\in [OB]$) : $OH = OC\\cos\\alpha = \\cos\\alpha$.",
+    "$AH = AO + OH = 1 + \\cos\\alpha$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$OH = \\cos\\alpha$ ; $AH = 1 + \\cos\\alpha$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-4",
+   "enonce": "Déduire que $\\left(\\cos\\dfrac{\\alpha}{2}\\right)^2 = \\dfrac{1 + \\cos\\alpha}{2}$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Angles orientés et trigonométrie"
+   ],
+   "corrige": [
+    "D'après 2b et 3 : $\\left(\\cos\\dfrac{\\alpha}{2}\\right)^2 = \\dfrac{AH}{2} = \\dfrac{1 + \\cos\\alpha}{2}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$\\cos^2\\frac{\\alpha}{2} = \\frac{1+\\cos\\alpha}{2}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-5",
+   "enonce": "Valeurs exactes de $\\cos 15^\\circ$ et $\\sin 15^\\circ$.",
+   "points": 1,
+   "notions_titres": [
+    "Angles orientés et trigonométrie",
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "Avec $\\alpha = 30^\\circ$ : $\\cos^2 15^\\circ = \\dfrac{1 + \\frac{\\sqrt{3}}{2}}{2} = \\dfrac{2 + \\sqrt{3}}{4}$, et $\\cos 15^\\circ > 0$, donc $\\cos 15^\\circ = \\dfrac{\\sqrt{2 + \\sqrt{3}}}{2} = \\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$ (car $\\left(\\frac{\\sqrt{6}+\\sqrt{2}}{4}\\right)^2 = \\frac{8 + 4\\sqrt{3}}{16} = \\frac{2+\\sqrt{3}}{4}$).",
+    "$\\sin^2 15^\\circ = 1 - \\cos^2 15^\\circ = \\dfrac{2 - \\sqrt{3}}{4}$ et $\\sin 15^\\circ > 0$ : $\\sin 15^\\circ = \\dfrac{\\sqrt{2 - \\sqrt{3}}}{2} = \\dfrac{\\sqrt{6} - \\sqrt{2}}{4}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\cos 15^\\circ = \\dfrac{\\sqrt{6}+\\sqrt{2}}{4}$ ; $\\sin 15^\\circ = \\dfrac{\\sqrt{6}-\\sqrt{2}}{4}$",
+   "piege": "Ne pas oublier de justifier le signe avant de prendre la racine.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1a",
+   "enonce": "Calculer $AC$, $AH$ puis $SH$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Géométrie dans l'espace"
+   ],
+   "corrige": [
+    "$ABCD$ est un carré de côté $4\\sqrt{2}$ : $AC = 4\\sqrt{2} \\times \\sqrt{2} = 8$ cm.",
+    "$H$ est le centre du carré, milieu de $[AC]$ : $AH = 4$ cm.",
+    "$SAH$ est rectangle en $H$ : $SH = \\sqrt{SA^2 - AH^2} = \\sqrt{80 - 16} = \\sqrt{64} = 8$ cm."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$AC = 8$ ; $AH = 4$ ; $SH = 8$ (cm)",
+   "piege": "",
+   "astuce": "Diagonale d'un carré de côté c : $c\\sqrt{2}$."
+  },
+  {
+   "numero": "Ex4-1b",
+   "enonce": "Calculer l'apothème.",
+   "points": 1,
+   "notions_titres": [
+    "Géométrie dans l'espace"
+   ],
+   "corrige": [
+    "L'apothème est la hauteur $SI$ d'une face latérale, $I$ milieu de $[AB]$ : $AI = 2\\sqrt{2}$.",
+    "$SI = \\sqrt{SA^2 - AI^2} = \\sqrt{80 - 8} = \\sqrt{72} = 6\\sqrt{2}$ cm (contrôle : $\\sqrt{SH^2 + HI^2} = \\sqrt{64 + 8}$)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$6\\sqrt{2}$ cm",
+   "piege": "L'apothème n'est pas la hauteur SH de la pyramide.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1c",
+   "enonce": "Volume $v$ de $SABCD$.",
+   "points": 1,
+   "notions_titres": [
+    "Géométrie dans l'espace"
+   ],
+   "corrige": [
+    "$v = \\dfrac{1}{3} \\times AB^2 \\times SH = \\dfrac{1}{3} \\times 32 \\times 8$.",
+    "$v = \\dfrac{256}{3} \\approx 85{,}33$ cm³."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$v = \\dfrac{256}{3}$ cm³",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2a",
+   "enonce": "Nature de la section $A'B'C'D'$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Géométrie dans l'espace"
+   ],
+   "corrige": [
+    "La section par un plan parallèle à la base est une réduction de la base : $A'B'C'D'$ est un **carré**."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "un carré",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2b",
+   "enonce": "Coefficient de réduction.",
+   "points": 0.5,
+   "notions_titres": [
+    "Géométrie dans l'espace"
+   ],
+   "corrige": [
+    "$k = \\dfrac{SH'}{SH} = \\dfrac{2}{8} = \\dfrac{1}{4}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$k = \\dfrac{1}{4}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2d",
+   "enonce": "Volume $v'$ de $SA'B'C'D'$ en fonction de $v$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Géométrie dans l'espace"
+   ],
+   "corrige": [
+    "$v' = k^3 v = \\dfrac{v}{64} = \\dfrac{256}{3 \\times 64} = \\dfrac{4}{3}$ cm³."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$v' = \\dfrac{v}{64} = \\dfrac{4}{3}$ cm³",
+   "piege": "Les volumes sont multipliés par k³.",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Résolution manuelle : CAB=α/2 ; cos(α/2)=AC/2=AH/AC ; cos²(α/2)=AH/2 ; OH=cos α, AH=1+cos α ; cos²(α/2)=(1+cos α)/2 ; cos15°=(√6+√2)/4, sin15°=(√6−√2)/4 ; AC=8, AH=4, SH=8, apothème 6√2, v=256/3 ; carré, k=1/4, v'=v/64=4/3.",
+  "passe2": "Résolution indépendante (sympy) : identité cos²(α/2)=(1+cos α)/2 vérifiée symboliquement, valeurs de cos15° et sin15° comparées aux formes radicales, distances et volumes recalculés : mêmes résultats.",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy), 8 vérifications pour ce sujet, toutes OK",
+  "desaccords": [
+   "Aucun désaccord entre les deux passes.",
+   "Ex1 (5,5 pts) et Ex2 (4,5 pts) presque entièrement illisibles dans l'OCR (opérateurs, fractions et rapports perdus), non corrigés. Seuls 9,5 pts sur 20 sont corrigés.",
+   "Ex3 : la figure manque et le symbole α est perdu dans l'OCR. Le texte des Q2 et Q4 est reconstitué d'après la logique de la démonstration (lecture probable). Les résultats de la Q5 ne dépendent pas de ces lectures.",
+   "Ex4 : la question 2c n'apparaît pas dans l'OCR.",
+   "Semestre : concours d'entrée en Seconde S (septembre), rangé en S1 comme révision des prérequis."
+  ]
+ }
+}

@@ -1,0 +1,240 @@
+{
+ "id": "EP-M-S1-0010",
+ "matiere": "M",
+ "semestre": 1,
+ "type": "concours_entree",
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques (Lomé / Kara)",
+  "ville": "Lomé / Kara",
+  "annee_scolaire": "2019-2020",
+  "session": "Septembre 2019",
+  "document": "« Epreuves Concours lycée scientifique.pdf » (scan CamScanner, 12,4 Mo, Google Drive de l'utilisateur, ajouté le 2026-07-03)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Sujet officiel d'examen ; copie privée dans le Google Drive de l'utilisateur ; usage personnel d'apprentissage",
+  "fiabilite": 3
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "chapitres_titres": [
+  "Ensemble des nombres réels et calcul dans ℝ",
+  "Angles inscrits",
+  "Angles orientés et trigonométrie",
+  "Équations et inéquations dans ℝ×ℝ (systèmes)",
+  "Droites et cercles dans le plan",
+  "Transformations du plan : translation, homothétie, rotation"
+ ],
+ "chapitres": [
+  "M-S1-C01",
+  "M-S1-C06",
+  "M-S2-C10",
+  "M-S2-C09",
+  "M-S2-C13",
+  "M-S2-C14"
+ ],
+ "enonce_md": "> **Transcription reconstituée** à partir du texte OCR (Google Drive) d'un scan CamScanner du sujet officiel. Les formules ont été remises en forme ; **[illisible]** signale un passage absent ou inexploitable dans l'OCR ; *(lecture probable)* signale un symbole reconstitué d'après le contexte et la cohérence des questions. Les figures du sujet ne sont pas disponibles. À relire sur le scan original avant usage en composition blanche.\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE — SEPTEMBRE 2019**\n\n**Épreuve de mathématique** — Durée : 2 heures — Coefficient : 2\n\n### Exercice 1 (4,5 pts) — *très dégradé dans l'OCR*\n1. Soient deux nombres réels $a$ et $b$ tels que $a + b = \\sqrt{2}$ et $a \\times b = 2\\sqrt{3}$ *(lecture incertaine)*. Calculer $A = $ **[illisible]** ; $B = $ **[illisible]**. (0,5 pt × 2)\n2. On considère trois nombres réels $n$, $p$ et $r$ tels que **[illisible]**.\n\n   a) Calculer $r$ en fonction de $n$ et $p$. (0,5 pt)\n\n   b) On pose $n = 2\\sqrt{3}$ et $p = \\sqrt{3} + 2$. Calculer $r$. (0,5 pt)\n3. Deux réels $u$ et $v$ sont tels que leur somme est égale à $192$ et leur rapport est égal à **[illisible]**. Calculer $u$ et $v$. (0,5 pt × 2)\n4. a) Justifier qu'il existe un angle $x$ tel que : $\\cos x = $ **[illisible]** et $\\sin x = $ **[illisible]**. (0,5 pt)\n\n   b) Calculer **[illisible]**. (0,5 pt)\n\n   c) Sachant que $\\sin 15^\\circ = \\dfrac{\\sqrt{6} - \\sqrt{2}}{4}$, calculer $\\cos 15^\\circ$. (0,5 pt)\n\n### Exercice 2 (9,5 pts) — *partiellement illisible*\nSur une droite $(D)$ graduée en centimètres, on considère les points $A(-5)$ et $B(3)$.\n1. Calculer :\n\n   a) l'abscisse du point $I$, milieu du segment $[AB]$ ; (0,5 pt)\n\n   b) la distance $AB$. (0,5 pt)\n2. On désigne par $(\\mathcal{C})$ le cercle de diamètre $[AB]$ et $E$ un point de $(\\mathcal{C})$ tel que $BE = $ **[illisible]**. Soit $H$ le projeté orthogonal de $E$ sur $(AB)$. L'angle $\\widehat{EHB}$ est-il un angle inscrit ? (0,5 pt)\n3. a) Quelle est la nature du triangle $ABE$ ? (0,5 pt)\n\n   b) Calculer les distances $AE$, $EH$ et $BH$. (0,5 pt × 3)\n\n   c) En déduire l'abscisse du point $H$.\n4. a) Donner sur la figure un angle inscrit et un angle au centre qui interceptent l'arc $\\overset{\\frown}{BE}$. (0,5 pt × 2)\n\n   b) Calculer leurs sinus respectifs.\n\n   c) En déduire en degrés leurs valeurs.\n5. Soit $J$ le symétrique du point $E$ par rapport au point $I$.\n\n   a) Calculer le sinus de l'angle $\\widehat{BJE}$.\n\n   b) En déduire sa valeur en degré.\n\n   c) Donner sur la figure deux angles inscrits qui interceptent l'arc $\\overset{\\frown}{BE}$.\n6. On désigne par $M$ le symétrique de $E$ par rapport à la droite $(AB)$. Montrer que :\n\n   a) les arcs $\\overset{\\frown}{BE}$ et $\\overset{\\frown}{BM}$ ont la même longueur ; (0,5 pt)\n\n   b) les angles $\\widehat{MAB}$ et $\\widehat{EAB}$ ont la même mesure. (0,5 pt)\n\n*(Les barèmes des questions 3c à 5c sont présents dans l'OCR — « 0,5 pt ; 0,5 pt × 2 ; 0,5 pt × 2 ; 0,5 pt ; 0,5 pt ; 0,5 pt » — sans attribution sûre.)*\n\n### Exercice 3 (1,5 pt)\nSur l'esquisse ci-contre *(non disponible)*, les droites $(AB)$, $(EF)$ et $(DC)$ sont parallèles. Calculer $EF$. *(Données de la figure illisibles : « 5 » et « 3 ».)*\n\n### Exercice 4 (3,5 pts)\n1. Résoudre dans $\\mathbb{R} \\times \\mathbb{R}$ le système suivant : $\\begin{cases} x - y - 3 = 0 \\\\ 3x - y - 1 = 0 \\end{cases}$ (0,5 pt)\n2. a) Dans le plan muni d'un repère orthonormé $(O, I, J)$ d'unité 1 cm, construire les droites $(D_1)$ et $(D_2)$ d'équations respectives $x - y - 3 = 0$ et $3x - y - 1 = 0$. (1 pt)\n\n   b) Déterminer graphiquement le point d'intersection des deux droites $(D_1)$ et $(D_2)$. (0,5 pt)\n\n   c) Soit $P(3\\,;4)$ un point du plan. Déterminer une équation de la droite $(\\Delta)$ passant par $P$ et perpendiculaire à $(D_2)$. Représenter la droite $(\\Delta)$ dans le repère précédent. (1,5 pt)\n",
+ "questions": [
+  {
+   "numero": "Ex1-4c",
+   "enonce": "Sachant que $\\sin 15^\\circ = \\dfrac{\\sqrt{6} - \\sqrt{2}}{4}$, calculer $\\cos 15^\\circ$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Angles orientés et trigonométrie",
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$\\cos^2 15^\\circ = 1 - \\sin^2 15^\\circ = 1 - \\dfrac{8 - 4\\sqrt{3}}{16} = \\dfrac{8 + 4\\sqrt{3}}{16}$.",
+    "$\\cos 15^\\circ > 0$ et $\\left(\\dfrac{\\sqrt{6} + \\sqrt{2}}{4}\\right)^2 = \\dfrac{8 + 4\\sqrt{3}}{16}$, donc $\\cos 15^\\circ = \\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$\\cos 15^\\circ = \\dfrac{\\sqrt{6} + \\sqrt{2}}{4}$",
+   "piege": "",
+   "astuce": "$\\cos^2 x + \\sin^2 x = 1$."
+  },
+  {
+   "numero": "Ex2-1",
+   "enonce": "Abscisse du milieu $I$ de $[AB]$ et distance $AB$, avec $A(-5)$, $B(3)$.",
+   "points": 1,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$x_I = \\dfrac{-5 + 3}{2} = -1$.",
+    "$AB = |3 - (-5)| = 8$ cm."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$I(-1)$ ; $AB = 8$ cm",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-2",
+   "enonce": "L'angle $\\widehat{EHB}$ est-il un angle inscrit ?",
+   "points": 0.5,
+   "notions_titres": [
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "Un angle inscrit a son sommet sur le cercle. $H$ est sur le diamètre $[AB]$, strictement à l'intérieur du disque ($E$ distinct de $A$ et $B$) : $H \\notin (\\mathcal{C})$, donc $\\widehat{EHB}$ n'est **pas** un angle inscrit (c'est d'ailleurs un angle droit)."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "Non : son sommet H n'est pas sur le cercle",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-3a",
+   "enonce": "Nature du triangle $ABE$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "$E$ est sur le cercle de diamètre $[AB]$ : le triangle $ABE$ est **rectangle en $E$**."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "ABE rectangle en E",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-4a",
+   "enonce": "Un angle inscrit et un angle au centre interceptant l'arc $\\overset{\\frown}{BE}$.",
+   "points": 1,
+   "notions_titres": [
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "Angle inscrit : $\\widehat{BAE}$ (sommet $A$ sur le cercle).",
+    "Angle au centre : $\\widehat{BIE}$ ($I$ centre du cercle) ; on a $\\widehat{BIE} = 2\\widehat{BAE}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\widehat{BAE}$ (inscrit) et $\\widehat{BIE}$ (au centre)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-6",
+   "enonce": "Avec $M$ symétrique de $E$ par rapport à $(AB)$ : arcs $\\overset{\\frown}{BE}$ et $\\overset{\\frown}{BM}$ ; angles $\\widehat{MAB}$ et $\\widehat{EAB}$.",
+   "points": 1,
+   "notions_titres": [
+    "Angles inscrits",
+    "Transformations du plan : translation, homothétie, rotation"
+   ],
+   "corrige": [
+    "La symétrie d'axe $(AB)$ (un diamètre) conserve le cercle $(\\mathcal{C})$, laisse $B$ fixe et envoie $E$ sur $M$ : elle transforme l'arc $\\overset{\\frown}{BE}$ en l'arc $\\overset{\\frown}{BM}$, qui a donc la même longueur.",
+    "Elle laisse $A$ et $B$ fixes et envoie $E$ sur $M$, et une symétrie conserve les angles : $\\widehat{MAB} = \\widehat{EAB}$. (Ce sont aussi deux angles inscrits qui interceptent des arcs de même longueur.)"
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "arcs de même longueur ; $\\widehat{MAB} = \\widehat{EAB}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1",
+   "enonce": "Résoudre le système $x - y - 3 = 0$ ; $3x - y - 1 = 0$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ×ℝ (systèmes)"
+   ],
+   "corrige": [
+    "Par soustraction : $(3x - y - 1) - (x - y - 3) = 2x + 2 = 0$, donc $x = -1$.",
+    "$y = x - 3 = -4$. $S = \\{(-1\\,;-4)\\}$."
+   ],
+   "bareme": [
+    0.25,
+    0.25
+   ],
+   "resultat_final": "$S = \\{(-1\\,;-4)\\}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2a",
+   "enonce": "Construire $(D_1) : x - y - 3 = 0$ et $(D_2) : 3x - y - 1 = 0$.",
+   "points": 1,
+   "notions_titres": [
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "$(D_1) : y = x - 3$, qui passe par $(0\\,;-3)$ et $(3\\,;0)$.",
+    "$(D_2) : y = 3x - 1$, qui passe par $(0\\,;-1)$ et $(1\\,;2)$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "Figure",
+   "piege": "",
+   "astuce": "Deux points suffisent pour tracer une droite."
+  },
+  {
+   "numero": "Ex4-2b",
+   "enonce": "Point d'intersection de $(D_1)$ et $(D_2)$ (lecture graphique).",
+   "points": 0.5,
+   "notions_titres": [
+    "Droites et cercles dans le plan",
+    "Équations et inéquations dans ℝ×ℝ (systèmes)"
+   ],
+   "corrige": [
+    "Les deux droites se coupent au point $(-1\\,;-4)$, ce qui confirme la solution du système."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$(-1\\,;-4)$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-2c",
+   "enonce": "Équation de $(\\Delta)$ passant par $P(3\\,;4)$ et perpendiculaire à $(D_2)$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Droites et cercles dans le plan"
+   ],
+   "corrige": [
+    "$(D_2)$ a pour coefficient directeur $3$ ; deux droites sont perpendiculaires si le produit de leurs coefficients directeurs vaut $-1$, donc $(\\Delta)$ a pour coefficient directeur $-\\dfrac{1}{3}$.",
+    "$(\\Delta) : y - 4 = -\\dfrac{1}{3}(x - 3)$, soit $y = -\\dfrac{1}{3}x + 5$, ou $x + 3y - 15 = 0$.",
+    "Tracé : $(\\Delta)$ passe par $P(3\\,;4)$ et par $(0\\,;5)$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$(\\Delta) : x + 3y - 15 = 0$",
+   "piege": "",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Résolution manuelle : cos15°=(√6+√2)/4 ; I(−1), AB=8 ; EHB n'est pas inscrit (H n'est pas sur le cercle) ; ABE rectangle en E ; BAE inscrit et BIE au centre ; symétrie d'axe (AB) : arcs et angles égaux ; système (−1;−4) ; (Δ): x+3y−15=0.",
+  "passe2": "Résolution indépendante (sympy) : solve() du système, perpendicularité (produit des pentes −1), P sur (Δ), cos15° recalculé : mêmes résultats.",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy), 5 vérifications pour ce sujet, toutes OK",
+  "desaccords": [
+   "Aucun désaccord entre les deux passes.",
+   "Sujet très dégradé dans l'OCR. Ex1 Q1 à Q4b illisibles ; Ex2 : la longueur BE est illisible, donc les Q3b, 3c, 4b, 4c et 5 ne sont pas corrigées ; Ex3 dépend d'une figure absente. Seuls 8 pts sur 20 sont corrigés.",
+   "Hypothèse non vérifiée : Ex1 Q2, relation 1/r = 1/n + 1/p (OCR « 1 ==+ P 7L »).",
+   "Semestre : concours d'entrée en Seconde S (septembre), rangé en S1 comme révision des prérequis."
+  ]
+ }
+}

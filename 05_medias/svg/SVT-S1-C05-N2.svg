@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 610" width="600" height="610" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">L'effet de serre</title>
+<desc id="desc">Le rayonnement solaire traverse l'atmosphère et chauffe la surface ; celle-ci émet des infrarouges dont une partie est absorbée par les gaz à effet de serre et renvoyée vers le sol. Effet naturel : +15 °C au lieu de −18 °C ; effet renforcé : le CO2 est passé de 316 ppm en 1959 à 421 ppm en 2023.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker></defs>
+<rect x="0" y="0" width="600" height="610" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">L'effet de serre</text>
+<rect x="20" y="60" width="560" height="380" rx="14" fill="#eff6ff"/>
+<path d="M20 370 Q300 330 580 370 L580 440 Q300 440 20 440 Z" fill="#a3e635" stroke="#4d7c0f" stroke-width="2"/>
+<text x="300" y="420" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Surface de la Terre</text>
+<rect x="20" y="150" width="560" height="60" fill="#c7d2fe" opacity="0.7"/>
+<text x="565" y="175" font-size="15" text-anchor="end" font-weight="bold" fill="#3730a3">atmosphère : gaz à effet de serre</text>
+<text x="565" y="196" font-size="14" text-anchor="end" font-weight="normal" fill="#3730a3">(vapeur d'eau, CO₂, CH₄, N₂O)</text>
+<circle cx="70" cy="100" r="28" fill="#facc15" stroke="#ca8a04" stroke-width="2"/>
+<text x="70" y="144" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">Soleil</text>
+<line x1="95" y1="115" x2="230" y2="345" stroke="#ca8a04" stroke-width="4" marker-end="url(#fl)"/>
+<text x="170" y="290" font-size="14" text-anchor="end" font-weight="bold" fill="#a16207">rayonnement</text>
+<text x="170" y="308" font-size="14" text-anchor="end" font-weight="bold" fill="#a16207">solaire</text>
+<line x1="250" y1="345" x2="300" y2="90" stroke="#ca8a04" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#fl)"/>
+<text x="305" y="88" font-size="14" text-anchor="start" font-weight="normal" fill="#a16207">une partie réfléchie</text>
+<line x1="380" y1="345" x2="380" y2="225" stroke="#dc2626" stroke-width="4" marker-end="url(#flr)"/>
+<line x1="380" y1="165" x2="470" y2="80" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#flr)"/>
+<text x="475" y="80" font-size="14" text-anchor="start" font-weight="normal" fill="#b91c1c">IR qui</text>
+<text x="475" y="97" font-size="14" text-anchor="start" font-weight="normal" fill="#b91c1c">s'échappe</text>
+<line x1="440" y1="205" x2="470" y2="340" stroke="#dc2626" stroke-width="3.5" marker-end="url(#flr)"/>
+<text x="392" y="290" font-size="14" text-anchor="start" font-weight="bold" fill="#b91c1c">infrarouges</text>
+<text x="392" y="307" font-size="14" text-anchor="start" font-weight="bold" fill="#b91c1c">émis</text>
+<text x="485" y="290" font-size="14" text-anchor="start" font-weight="bold" fill="#b91c1c">IR renvoyés</text>
+<text x="485" y="307" font-size="14" text-anchor="start" font-weight="bold" fill="#b91c1c">vers le sol</text>
+<rect x="40" y="460" width="520" height="60" rx="10" fill="#ecfdf5" stroke="#15803d" stroke-width="1.6"/><text x="300.0" y="485.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">Effet de serre naturel : environ +15 °C en moyenne</text>
+<text x="300.0" y="505.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">au lieu de −18 °C sans gaz à effet de serre</text>
+<rect x="40" y="530" width="520" height="60" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.6"/><text x="300.0" y="555.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">Effet de serre renforcé : CO₂ de 316 ppm (1959)</text>
+<text x="300.0" y="575.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">à 421 ppm (2023) → réchauffement climatique</text>
+</svg>

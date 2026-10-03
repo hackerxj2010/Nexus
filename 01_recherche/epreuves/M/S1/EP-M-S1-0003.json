@@ -472,7 +472,7 @@
  "verification": {
   "passe1": "Résolution manuelle : N=10 ; 5>2√6 ; ]−4;1], ]−∞;−1[, ]−4;−1[ ; côté 6 cm ; A=−28+7x²=7(x+2)(x−2), B=(x−2)(3x−4), S={−2;2} ; H=(3x−4)/(7x+14), H(√3)=(10√3−17)/7 ; A(−2;−3), B(−4;3), AB(−2;6), AD(6;2), AB=AD=2√10, ABD rectangle isocèle, ABCD carré ; ABC rectangle en B, BC=5√3, OAB équilatéral, AN=7, MN=3,5√3.",
   "passe2": "Résolution indépendante (sympy) : développement/factorisation, rationalisation, calcul vectoriel et Thalès recalculés : mêmes résultats.",
-  "code": "oui : script verif.py (sympy), 18 vérifications pour ce sujet, toutes OK",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy), 14 vérifications pour ce sujet, toutes OK",
   "desaccords": [
    "Aucun désaccord entre les deux passes.",
    "Lectures probables, toutes confirmées par la cohérence interne du sujet. B=(2x−3)²−(x−1)² : le signe manque dans l'OCR, mais B se factorise en (x−2)(3x−4), ce qui redonne le numérateur de H. Pour H, la lecture (3x−4)(x−2)/[7(x−2)(x+2)] est égale à B/A. Pour OA et BO (OCR « -201-30j » et « 401-30] »), A(−2;−3) et B(−4;3) font bien de ABCD un carré, comme l'affirme Q5.",

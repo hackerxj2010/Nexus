@@ -1,0 +1,592 @@
+{
+ "id": "SVT-S1-C05",
+ "matiere": "SVT",
+ "semestre": 1,
+ "ordre": 5,
+ "titre": "L'Homme et son environnement : impacts des activités humaines et gestion durable",
+ "objectifs": [
+  "L'élève doit être capable d'expliquer les causes et les conséquences de la déforestation, des feux de brousse et de l'érosion des sols au Togo.",
+  "L'élève doit être capable d'expliquer l'eutrophisation et la bioamplification à partir de données.",
+  "L'élève doit être capable d'expliquer l'effet de serre naturel et son renforcement par les activités humaines.",
+  "L'élève doit être capable de proposer et de justifier des mesures de gestion durable adaptées à un problème identifié."
+ ],
+ "prerequis": [
+  "SVT-S1-C03",
+  "SVT-S1-C04"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S1-C05-N1",
+   "titre": "La dégradation des milieux : déforestation, feux de brousse, érosion",
+   "prerequis_notions": [
+    "SVT-S1-C03-N1",
+    "SVT-S1-C04-N3"
+   ],
+   "cours_md": "### 1. La déforestation\n:::definition\n**Déforestation** : disparition ou forte réduction du couvert forestier d'une région au profit d'autres usages (champs, pâturages, villes, routes).\n:::\n**Causes principales au Togo** :\n- l'**agriculture itinérante sur brûlis** (on défriche, on brûle, on cultive quelques années, puis on part défricher ailleurs) ;\n- le **bois-énergie** : bois de chauffe et **charbon de bois**, encore la principale source d'énergie de cuisson de nombreux ménages ;\n- l'exploitation du bois d'œuvre, l'extension des villes et des routes.\n\n**Conséquences** : perte d'habitats et de **biodiversité**, sols exposés à l'érosion, baisse de la fertilité, assèchement local du climat, libération de $\\ce{CO2}$ (le carbone stocké dans le bois retourne dans l'air), moins de produits forestiers (fruits, plantes médicinales, gibier).\n\n### 2. Les feux de brousse\nEn saison sèche, la savane brûle souvent : feux allumés pour la chasse, pour nettoyer les champs ou pour obtenir des repousses vertes pour le bétail.\n- **Feux tardifs** (en pleine saison sèche, février-mars) : végétation très sèche, flammes hautes et très chaudes ; ils détruisent les jeunes arbres, la litière et la matière organique du sol, tuent la petite faune.\n- **Feux précoces** (début de saison sèche, quand l'herbe est encore un peu humide) : moins intenses ; ils sont utilisés comme **outil de gestion** dans les aires protégées pour éviter les feux tardifs.\n\nConséquences des feux répétés : sol nu au début des pluies (érosion), appauvrissement en humus, fumées et $\\ce{CO2}$, recul des espèces sensibles au feu.\n\n### 3. L'érosion des sols\n:::definition\n**Érosion** : arrachement et transport des particules du sol par l'eau (ruissellement) ou par le vent.\n:::\n**Expérience** : deux bacs de même terre, même pente, arrosés avec la même quantité d'eau. Le sol **nu** laisse partir une eau abondante et boueuse ; le sol **couvert d'herbe** laisse partir peu d'eau, presque claire.\n**Interprétation** : la végétation protège le sol : les feuilles amortissent les gouttes de pluie, les tiges freinent le ruissellement, les racines retiennent la terre et l'eau s'infiltre mieux.\n\nAu Togo, l'érosion hydrique creuse des **ravines** sur les pentes déboisées (monts du Togo, plateaux) et dans les villes (rues ravinées). Le vent emporte la terre fine dans le nord en saison sèche.\n\n:::remarque\n**L'érosion côtière** : sur le littoral togolais, la plage recule de plusieurs mètres par an par endroits (vers Aného et Agbodrafo). Les sables transportés par le courant le long de la côte (dérive littorale) sont bloqués par les jetées du port de Lomé et en partie retenus par les barrages en amont des fleuves ; les plages situées à l'est en reçoivent moins et reculent. Des épis et des brise-lames ont été construits pour protéger la côte.\n:::\n\n### 4. La surexploitation\nPêche avec des filets à mailles trop fines dans les lagunes, braconnage, prélèvement de sable de mer ou de rivière pour la construction, surpâturage : on prélève plus vite que la nature ne renouvelle les ressources.\n\n:::methode\nPour **expliquer une dégradation** : 1) nommer l'activité humaine (cause) ; 2) décrire la modification du milieu (sol nu, moins d'arbres…) ; 3) en déduire les conséquences sur les êtres vivants et sur l'Homme ; 4) proposer une solution adaptée.\n:::",
+   "definition": "Les activités humaines dégradent les milieux : la déforestation, les feux de brousse (surtout tardifs) et la surexploitation détruisent la végétation et la biodiversité, et le sol mis à nu subit l'érosion.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Quand on enlève les arbres et l'herbe, la pluie et le vent emportent le sol.",
+    "simple": "La végétation est comme un toit de paille sur une case en terre : tant que le toit est là, la pluie ne touche pas les murs ; si on l'enlève, les murs fondent sous l'orage. Sans couvert végétal, le sol « fond » aussi.",
+    "complete": "Déforestation (agriculture sur brûlis, bois-énergie, urbanisation), feux de brousse tardifs et surexploitation des ressources réduisent la biodiversité, libèrent du CO2 et laissent le sol nu. L'érosion hydrique (ruissellement, ravines) et éolienne emporte alors la terre fertile : l'expérience des bacs montre que le couvert végétal réduit fortement le ruissellement et les pertes de terre. Le littoral togolais subit en outre une érosion côtière liée au blocage de la dérive littorale par les ouvrages portuaires et aux sédiments retenus par les barrages."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : pertes de terre mesurées sur des parcelles de même pente pendant un an : parcelle sous forêt 1 t/ha ; parcelle cultivée sans protection après défrichement 40 t/ha. Analyse.",
+     "etapes": [
+      "Je décris : la parcelle défrichée perd 40 fois plus de terre que la parcelle sous forêt (40 ÷ 1).",
+      "Je calcule la réduction due à la forêt : $\\frac{40 - 1}{40} \\times 100 \\approx 98\\ \\%$.",
+      "J'interprète : le couvert forestier (feuillage, litière, racines) protège le sol contre le ruissellement ; le défrichement le met à nu.",
+      "Conclusion : la déforestation accélère fortement l'érosion des sols et la perte de leur fertilité."
+     ]
+    },
+    {
+     "enonce": "Document : dans une savane protégée, la hauteur des flammes est d'environ 1 m lors d'un feu précoce (novembre) et de plus de 4 m lors d'un feu tardif (mars) ; la mortalité des jeunes arbres passe de 10 % à 60 %. Pourquoi les gestionnaires pratiquent-ils des feux précoces ?",
+     "etapes": [
+      "Je décris : le feu tardif est beaucoup plus intense (flammes 4 fois plus hautes) et tue 6 fois plus de jeunes arbres.",
+      "J'interprète : en mars, la végétation est totalement sèche et brûle violemment ; en novembre, l'herbe encore humide brûle mal.",
+      "Conclusion : un feu précoce contrôlé consomme une partie de l'herbe sèche et évite les feux tardifs destructeurs : c'est une méthode de gestion qui protège les arbres."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que l'érosion est seulement due au vent (au Togo, le ruissellement est la principale cause).",
+    "Confondre déforestation (perte de forêt) et désertification (dégradation des terres en zone sèche).",
+    "Penser que tous les feux ont le même effet (feux précoces et tardifs sont très différents).",
+    "Oublier le rôle des racines et de la litière dans la protection du sol."
+   ],
+   "astuces": [
+    "Chaîne logique à réciter : défrichement → sol nu → ruissellement → érosion → perte de fertilité → baisse des rendements → nouveau défrichement (cercle vicieux).",
+    "Dans une expérience de bacs, cite toujours les deux paramètres gardés identiques : même pente, même quantité d'eau."
+   ],
+   "mnemo": "« Sol NU, sol FICHU ; sol COUVERT, sol PROTÉGÉ ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que l'Homme modifie son environnement et que les arbres sont utiles (ombre, bois, fruits, sol). En seconde, on explique les mécanismes : pourquoi un sol nu s'érode et pourquoi les feux tardifs sont si destructeurs."
+   },
+   "methode_redaction": "Pour une question sur une dégradation : construire une chaîne de causes et de conséquences reliées par « donc », « ce qui entraîne ». Pour une expérience : décrire les résultats en citant les valeurs, comparer au témoin, interpréter, conclure.",
+   "flash": [
+    {
+     "q": "Deux causes majeures de la déforestation au Togo ?",
+     "r": "Agriculture itinérante sur brûlis et bois-énergie (charbon de bois)."
+    },
+    {
+     "q": "Pourquoi les feux tardifs sont-ils plus graves ?",
+     "r": "Végétation très sèche : feu très intense qui tue les jeunes arbres et détruit la matière organique."
+    },
+    {
+     "q": "Qu'est-ce que l'érosion ?",
+     "r": "L'arrachement et le transport des particules du sol par l'eau ou le vent."
+    },
+    {
+     "q": "Comment la végétation protège-t-elle le sol ?",
+     "r": "Feuilles qui amortissent la pluie, tiges qui freinent le ruissellement, racines qui retiennent la terre."
+    },
+    {
+     "q": "Cause principale de l'érosion côtière à l'est de Lomé ?",
+     "r": "Le blocage des sables de la dérive littorale par les jetées du port (et les barrages en amont)."
+    },
+    {
+     "q": "Définition de la surexploitation ?",
+     "r": "Prélever une ressource plus vite qu'elle ne se renouvelle."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C05-N1.svg",
+    "alt": "Expérience des bacs inclinés et histogramme des pertes de terre",
+    "legende": "Le couvert végétal protège le sol de l'érosion (données simplifiées).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C05-N2",
+   "titre": "Les pollutions et le renforcement de l'effet de serre",
+   "prerequis_notions": [
+    "SVT-S1-C05-N1",
+    "SVT-S1-C04-N2",
+    "SVT-S1-C04-N3"
+   ],
+   "cours_md": "### 1. Qu'est-ce qu'une pollution ?\n:::definition\n**Pollution** : introduction dans le milieu (eau, sol, air) de substances ou d'énergie (chaleur, bruit) en quantité telle qu'elles nuisent aux êtres vivants ou aux usages humains.\n:::\n\n### 2. Pollutions de l'eau et du sol\n- **Déchets plastiques** (sachets d'eau, emballages) : ils mettent des siècles à se dégrader, bouchent les caniveaux (inondations), étouffent les animaux qui les avalent, et leur brûlage dégage des fumées toxiques.\n- **Pesticides** (insecticides, herbicides) utilisés en excès, par exemple dans les champs de coton ou les jardins maraîchers : ils tuent aussi des espèces utiles (abeilles, ennemis naturels des ravageurs) et contaminent l'eau.\n- **Eaux usées et excès d'engrais** : ils enrichissent l'eau en nitrates et phosphates.\n\n:::definition\n**Eutrophisation** : enrichissement excessif d'une eau en sels nutritifs (nitrates, phosphates) qui provoque la prolifération d'algues et de plantes flottantes, puis un manque de dioxygène.\n:::\nMécanisme : sels nutritifs en excès → prolifération d'algues et de **jacinthes d'eau** (comme sur la lagune de Lomé ou le lac Togo) → la lumière ne pénètre plus → les végétaux immergés meurent → les **bactéries décomposeurs** se multiplient et **consomment le dioxygène** de l'eau → les poissons meurent asphyxiés, l'eau sent mauvais.\n\n### 3. Bioaccumulation et bioamplification\nCertains polluants (pesticides persistants comme le DDT, métaux lourds comme le mercure ou le cadmium) ne sont ni dégradés ni éliminés : ils s'**accumulent** dans les tissus (surtout les graisses).\n\n:::propriete\n**Bioamplification** : la concentration d'un polluant persistant **augmente à chaque maillon** d'une chaîne alimentaire, car chaque consommateur mange un grand nombre de proies contaminées. Les **super-prédateurs** (rapaces, grands poissons, Homme) sont les plus touchés.\n:::\n\nExemple (données simplifiées, en ppm) : eau 0,00005 → plancton 0,04 → petits poissons 0,5 → grands poissons 2 → oiseaux piscivores 25. La concentration est multipliée par 800 entre l'eau et le plancton, et par $25 \\div 0{,}00005 = 500\\,000$ entre l'eau et l'oiseau.\n\n### 4. Pollution de l'air et effet de serre\nFumées des feux et du charbon de bois, gaz d'échappement des motos et voitures, poussières : ils provoquent des maladies respiratoires.\n\n:::definition\n**Effet de serre** : réchauffement de la surface de la Terre dû à certains gaz de l'atmosphère (vapeur d'eau, $\\ce{CO2}$, méthane $\\ce{CH4}$, protoxyde d'azote $\\ce{N2O}$) qui absorbent une partie du rayonnement infrarouge émis par le sol et en renvoient une partie vers lui.\n:::\n\n- **Effet de serre naturel** : indispensable à la vie, il maintient une température moyenne d'environ **+15 °C** au lieu d'environ **−18 °C**.\n- **Effet de serre renforcé** : depuis la révolution industrielle, les activités humaines (combustion du charbon, du pétrole, du gaz et du bois, déforestation, feux de brousse, élevage et rizières pour le méthane) augmentent la teneur en gaz à effet de serre. La teneur en $\\ce{CO2}$ mesurée à l'observatoire de Mauna Loa (Hawaï) est passée d'environ **316 ppm en 1959** à environ **421 ppm en 2023**, soit environ **+33 %**.\n\n:::propriete\nConséquences du réchauffement climatique : hausse de la température moyenne (plus de 1 °C depuis la fin du XIXe siècle, selon le GIEC), montée du niveau de la mer (qui aggrave l'érosion côtière à Lomé et Aného), pluies plus irrégulières (sécheresses et inondations) qui perturbent le calendrier agricole, extension de certaines maladies.\n:::\n\n:::attention\nNe pas confondre **effet de serre** et **trou de la couche d'ozone** : ce sont deux phénomènes différents. L'ozone stratosphérique filtre les ultraviolets ; il a été détruit par des gaz (CFC) aujourd'hui interdits.\n:::",
+   "definition": "Une pollution est l'introduction dans le milieu de substances nuisibles ; les excès d'engrais provoquent l'eutrophisation, les polluants persistants se concentrent le long des chaînes alimentaires, et les rejets de gaz à effet de serre renforcent l'effet de serre et réchauffent le climat.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Ce qu'on rejette dans la nature finit dans l'eau, dans nos assiettes et dans l'air qui réchauffe la planète.",
+    "simple": "L'effet de serre, c'est comme une voiture garée au soleil avec les vitres fermées : la lumière entre, la chaleur a du mal à ressortir. Un peu, c'est utile (sinon la Terre serait gelée) ; trop de gaz, c'est comme fermer encore plus les vitres : ça surchauffe.",
+    "complete": "Les pollutions de l'eau et du sol (plastiques, pesticides, eaux usées, engrais) entraînent notamment l'eutrophisation : prolifération végétale, puis consommation du dioxygène par les décomposeurs et asphyxie des poissons. Les polluants persistants subissent une bioaccumulation et une bioamplification le long des chaînes alimentaires. L'effet de serre naturel (+15 °C au lieu de −18 °C) est renforcé par les émissions humaines de CO2, CH4 et N2O (CO2 de 316 ppm en 1959 à 421 ppm en 2023), d'où un réchauffement de plus de 1 °C depuis la fin du XIXe siècle, une montée des mers et des pluies plus irrégulières."
+   },
+   "analogie": "L'eutrophisation, c'est comme une fête où l'on sert trop à manger : les invités (algues) se multiplient, puis les restes pourrissent et les « nettoyeurs » (bactéries) consomment tout l'air de la salle ; les autres (poissons) étouffent.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : teneur en $\\ce{CO2}$ atmosphérique à Mauna Loa : 316 ppm en 1959, 421 ppm en 2023. Calcule l'augmentation en ppm et en %, puis propose deux causes.",
+     "etapes": [
+      "Augmentation absolue : $421 - 316 = 105$ ppm.",
+      "Augmentation relative : $\\frac{105}{316} \\times 100 \\approx 33\\ \\%$.",
+      "Causes : combustion des énergies fossiles (pétrole, charbon, gaz) et du bois ; déforestation et feux de brousse qui libèrent le carbone des végétaux et réduisent la photosynthèse.",
+      "Conclusion : la teneur en CO₂ a augmenté d'environ un tiers en 64 ans, ce qui renforce l'effet de serre."
+     ]
+    },
+    {
+     "enonce": "Document : concentrations d'un insecticide persistant (ppm) — eau 0,00005 ; plancton 0,04 ; petits poissons 0,5 ; grands poissons 2 ; oiseaux piscivores 25. Interprète.",
+     "etapes": [
+      "Je décris : la concentration augmente à chaque maillon, de 0,00005 ppm dans l'eau à 25 ppm chez l'oiseau.",
+      "Je calcule le facteur de concentration eau → oiseau : $25 \\div 0{,}00005 = 500\\,000$.",
+      "J'interprète : l'insecticide n'est pas éliminé ; chaque consommateur mange de nombreuses proies contaminées et l'accumule : c'est la bioamplification.",
+      "Conclusion : les super-prédateurs (oiseaux piscivores, Homme) sont les plus exposés, même si l'eau semble peu polluée."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre effet de serre et trou de la couche d'ozone.",
+    "Dire que l'effet de serre est entièrement mauvais : sans lui, la Terre serait gelée (−18 °C).",
+    "Expliquer la mort des poissons dans une eau eutrophisée par « l'empoisonnement aux engrais » au lieu du manque de dioxygène.",
+    "Croire que la concentration d'un polluant diminue le long d'une chaîne alimentaire."
+   ],
+   "astuces": [
+    "Eutrophisation en 5 étapes : engrais → algues → mort des végétaux → bactéries consomment O₂ → poissons asphyxiés.",
+    "Gaz à effet de serre : « VaCaMéNi » = Vapeur d'eau, CO₂, Méthane, N₂O."
+   ],
+   "mnemo": "« Plus de CO₂, plus chaud ; plus d'engrais, moins d'O₂ (dans l'eau) ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as vu que les déchets et les fumées polluent l'environnement, et que la respiration et les combustions rejettent du dioxyde de carbone. Ici, on relie ces rejets au réchauffement du climat."
+   },
+   "methode_redaction": "Pour expliquer un mécanisme (eutrophisation, effet de serre) : enchaîner les étapes dans l'ordre avec des connecteurs logiques ; un schéma fléché est apprécié. Pour un tableau de concentrations : décrire l'évolution, calculer un facteur, nommer le phénomène (bioamplification), conclure sur les risques.",
+   "flash": [
+    {
+     "q": "Définition de l'eutrophisation ?",
+     "r": "Enrichissement excessif de l'eau en nitrates et phosphates → prolifération végétale puis manque de O₂."
+    },
+    {
+     "q": "Pourquoi les poissons meurent-ils dans une eau eutrophisée ?",
+     "r": "Les bactéries qui décomposent les végétaux morts consomment le dioxygène de l'eau."
+    },
+    {
+     "q": "Qu'est-ce que la bioamplification ?",
+     "r": "L'augmentation de la concentration d'un polluant persistant à chaque maillon d'une chaîne alimentaire."
+    },
+    {
+     "q": "Température moyenne sans effet de serre ?",
+     "r": "Environ −18 °C (au lieu de +15 °C)."
+    },
+    {
+     "q": "Quatre gaz à effet de serre ?",
+     "r": "Vapeur d'eau, CO₂, méthane (CH₄), protoxyde d'azote (N₂O)."
+    },
+    {
+     "q": "CO₂ atmosphérique en 1959 et en 2023 ?",
+     "r": "Environ 316 ppm et 421 ppm."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C05-N2.svg",
+    "alt": "Schéma de l'effet de serre et évolution du CO2 atmosphérique",
+    "legende": "L'effet de serre naturel et son renforcement par les activités humaines.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S1-C05-N3",
+   "titre": "La gestion durable des écosystèmes",
+   "prerequis_notions": [
+    "SVT-S1-C05-N1",
+    "SVT-S1-C05-N2"
+   ],
+   "cours_md": "### 1. Le développement durable\n:::definition\n**Développement durable** : développement qui répond aux besoins des générations présentes sans compromettre la capacité des générations futures à répondre aux leurs (rapport Brundtland, 1987). Il concilie trois piliers : **environnemental**, **social** et **économique**.\n:::\n\n### 2. Protéger les milieux et la biodiversité\n- **Aires protégées** : parcs nationaux et réserves où la chasse, le défrichement et les feux sont réglementés. Au Togo : parc national de **Fazao-Malfakassa**, parc national de la **Kéran**, réserve de faune de **Togodo**, forêts classées.\n- **Reboisement** et plantations (teck, essences locales), notamment lors de la **Journée nationale de l'arbre** (1er juin) ; régénération naturelle assistée (protéger les jeunes pousses qui repoussent seules).\n- **Gestion des feux** : feux précoces contrôlés, pare-feu.\n- **Pêche raisonnée** : mailles de filets réglementaires, périodes de repos biologique.\n\n### 3. Une agriculture durable\n- **Lutte contre l'érosion** : cultures en **courbes de niveau**, **cordons pierreux**, haies vives, paillage, terrasses sur les fortes pentes.\n- **Maintien de la fertilité** : **compost** et fumier (fumure organique), **rotation** céréales-légumineuses (arachide, niébé, soja qui enrichissent le sol en azote), jachères, apport raisonné d'engrais minéraux.\n- **Agroforesterie** : conserver ou planter des arbres utiles dans les champs (karité, néré, palmier) qui protègent le sol, apportent de la matière organique et des revenus.\n- **Lutte intégrée** contre les ravageurs : favoriser les ennemis naturels (lutte biologique), utiliser des variétés résistantes, et n'employer les pesticides qu'en dernier recours, à bonne dose.\n\n### 4. Réduire les pollutions et les émissions\n- Collecte, tri et **recyclage** des déchets (plastiques transformés en pavés, en objets) ; compostage des déchets organiques des marchés.\n- Traitement des eaux usées avant rejet dans la lagune.\n- **Foyers améliorés** et gaz butane qui réduisent la consommation de bois et de charbon, énergie solaire (lampadaires, kits solaires).\n\n:::methode\n**Évaluer une solution** : 1) quel problème résout-elle (cause visée) ? 2) quel effet attendu sur le milieu, avec des chiffres si possible ? 3) est-elle acceptable pour la population (coût, travail, revenus) ? Une bonne réponse de composition propose des solutions **adaptées à la cause** identifiée dans le document.\n:::\n\n:::remarque\nExemple chiffré : une famille utilise 6 kg de bois par jour sur un foyer à trois pierres. Un foyer amélioré qui consomme 40 % de bois en moins lui fait économiser $6 \\times 0{,}40 = 2{,}4$ kg par jour, soit $2{,}4 \\times 365 = 876$ kg de bois par an.\n:::",
+   "definition": "La gestion durable vise à satisfaire les besoins actuels sans compromettre ceux des générations futures : protéger les milieux (aires protégées, reboisement, gestion des feux), pratiquer une agriculture durable (lutte antiérosive, fumure organique, rotations, agroforesterie) et réduire pollutions et émissions.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Utiliser la nature aujourd'hui sans priver nos enfants demain.",
+    "simple": "Gérer durablement, c'est comme gérer le champ familial : on ne coupe pas tous les karités pour un an de charbon, sinon il n'y aura plus de beurre de karité ni de revenus pour les enfants.",
+    "complete": "Le développement durable (Brundtland, 1987) concilie environnement, société et économie. Concrètement : protection de la biodiversité (aires protégées comme Fazao-Malfakassa, la Kéran ou Togodo ; reboisement ; feux précoces contrôlés ; pêche raisonnée), agriculture durable (courbes de niveau, cordons pierreux, haies vives, compost, rotations avec légumineuses, agroforesterie, lutte intégrée), réduction des pollutions (tri, recyclage, traitement des eaux) et des émissions (foyers améliorés, gaz, solaire). Chaque solution doit cibler la cause du problème et être acceptable socialement et économiquement."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : une famille consomme 6 kg de bois par jour sur un foyer à trois pierres. Le foyer amélioré réduit la consommation de 40 %. Calcule l'économie annuelle et conclus.",
+     "etapes": [
+      "Économie journalière : $6 \\times 0{,}40 = 2{,}4$ kg.",
+      "Économie annuelle : $2{,}4 \\times 365 = 876$ kg de bois.",
+      "J'interprète : moins de bois coupé, donc moins de déforestation, moins de fumée (santé) et moins de dépenses ou de temps de collecte.",
+      "Conclusion : le foyer amélioré est une solution de gestion durable (environnementale, sociale et économique)."
+     ]
+    },
+    {
+     "enonce": "Document : rendement du maïs (t/ha) sur un versant des Plateaux : parcelle sans aménagement 1,2 ; parcelle avec cordons pierreux et compost 2,1. Analyse.",
+     "etapes": [
+      "Je décris : le rendement passe de 1,2 à 2,1 t/ha avec les aménagements.",
+      "Je calcule le gain : $\\frac{2{,}1 - 1{,}2}{1{,}2} \\times 100 = 75\\ \\%$.",
+      "J'interprète : les cordons pierreux freinent le ruissellement et retiennent la terre fine ; le compost apporte de la matière organique et des éléments minéraux.",
+      "Conclusion : conserver le sol et sa fertilité améliore nettement les récoltes : protéger l'environnement et produire plus vont ensemble."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Proposer des solutions sans rapport avec la cause du problème décrit dans le document.",
+    "Réduire le développement durable à l'environnement en oubliant les aspects sociaux et économiques.",
+    "Écrire seulement « il faut sensibiliser la population » sans action concrète.",
+    "Confondre feux précoces contrôlés (outil de gestion) et feux tardifs (destructeurs)."
+   ],
+   "astuces": [
+    "Pour chaque problème, propose au moins une solution technique précise (cordon pierreux, foyer amélioré…) et dis pourquoi elle marche.",
+    "Cite des exemples togolais : Fazao-Malfakassa, la Kéran, Togodo, Journée de l'arbre du 1er juin."
+   ],
+   "mnemo": "« Protéger, Planter, Pailler, Pas de feu tardif » : les 4 P du versant durable.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au collège, tu as appris des gestes pour protéger l'environnement (ne pas jeter les déchets, planter des arbres). En seconde, on justifie scientifiquement ces gestes et on les organise en stratégie de gestion durable."
+   },
+   "methode_redaction": "Pour une question « proposer des solutions » : présenter un tableau problème → cause → solution → effet attendu ; deux ou trois solutions bien justifiées valent mieux qu'une longue liste non expliquée.",
+   "flash": [
+    {
+     "q": "Définition du développement durable ?",
+     "r": "Répondre aux besoins présents sans compromettre ceux des générations futures (Brundtland, 1987)."
+    },
+    {
+     "q": "Trois piliers du développement durable ?",
+     "r": "Environnemental, social, économique."
+    },
+    {
+     "q": "Deux aires protégées du Togo ?",
+     "r": "Parc national de Fazao-Malfakassa, parc national de la Kéran (aussi : réserve de Togodo)."
+    },
+    {
+     "q": "Deux techniques de lutte antiérosive ?",
+     "r": "Cordons pierreux en courbes de niveau, haies vives (aussi paillage, terrasses)."
+    },
+    {
+     "q": "Pourquoi alterner maïs et légumineuses ?",
+     "r": "Les légumineuses enrichissent le sol en azote grâce à Rhizobium."
+    },
+    {
+     "q": "Date de la Journée nationale de l'arbre au Togo ?",
+     "r": "Le 1er juin."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S1-C05-N3.svg",
+    "alt": "Coupe d'un versant aménagé et liste d'actions de gestion durable",
+    "legende": "Gestion durable d'un versant cultivé : forêt au sommet, cordons pierreux, haie vive, agroforesterie.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S1-C05-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C05-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel de ces gaz est un gaz à effet de serre dont la teneur augmente à cause des activités humaines ?",
+   "choix": [
+    "Le diazote ($\\ce{N2}$)",
+    "Le dioxyde de carbone ($\\ce{CO2}$)",
+    "Le dioxygène ($\\ce{O2}$)",
+    "L'argon"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le diazote, le dioxygène et l'argon n'absorbent pas significativement les infrarouges.",
+    "Le dioxyde de carbone est un gaz à effet de serre en augmentation (réponse B)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser au dioxygène parce qu'il est dans l'air.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C05-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C05-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Pourquoi un sol nu s'érode-t-il davantage qu'un sol couvert de végétation ?",
+   "choix": [
+    "Parce que l'eau ruisselle plus et que rien ne retient la terre",
+    "Parce qu'il reçoit moins de pluie",
+    "Parce qu'il contient plus d'humus",
+    "Parce que les vers de terre le creusent"
+   ],
+   "bonne_reponse": 0,
+   "indices": [],
+   "corrige": [
+    "La végétation amortit les gouttes, freine le ruissellement et retient la terre par ses racines.",
+    "Sans elle, l'eau ruisselle davantage et arrache la terre (réponse A)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Croire qu'un sol nu reçoit moins de pluie.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C05-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S1-C05-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Sans effet de serre naturel, quelle serait la température moyenne approximative à la surface de la Terre (en °C) ? Nombre seul avec son signe.",
+   "reponses_acceptees": [
+    "-18",
+    "−18",
+    "-18°C",
+    "−18 °C",
+    "-18 °c"
+   ],
+   "indices": [],
+   "corrige": [
+    "Avec l'effet de serre naturel : environ +15 °C.",
+    "Sans lui : environ −18 °C."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 0 °C ou +15 °C.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C05-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C05-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La teneur en $\\ce{CO2}$ de l'air est passée d'environ 316 ppm en 1959 à 421 ppm en 2023. Calcule l'augmentation en %, arrondie à l'unité (nombre seul).",
+   "reponses_acceptees": [
+    "33",
+    "33%"
+   ],
+   "indices": [],
+   "corrige": [
+    "Augmentation = 421 − 316 = 105 ppm.",
+    "En % : 105 ÷ 316 × 100 ≈ 33 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par 421 (on trouverait 25 %).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C05-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C05-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Un insecticide persistant contamine une lagune. Chez quel être vivant sa concentration sera-t-elle la plus élevée ?",
+   "choix": [
+    "Le phytoplancton",
+    "Le zooplancton",
+    "Le tilapia qui mange le zooplancton",
+    "Le héron qui mange les tilapias"
+   ],
+   "bonne_reponse": 3,
+   "indices": [],
+   "corrige": [
+    "Par bioamplification, la concentration augmente à chaque maillon.",
+    "Elle est maximale chez le dernier maillon, le héron, super-prédateur (réponse D)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser que la concentration est maximale dans l'eau.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C05-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C05-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une famille brûle 5 kg de bois par jour. Un foyer amélioré réduit cette consommation de 40 %. Quelle masse de bois (en kg) économise-t-elle en une année de 365 jours ? Nombre seul.",
+   "reponses_acceptees": [
+    "730",
+    "730kg",
+    "730 kg"
+   ],
+   "indices": [],
+   "corrige": [
+    "Économie journalière : 5 × 0,40 = 2 kg.",
+    "Économie annuelle : 2 × 365 = 730 kg."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer la consommation restante (60 %) au lieu de l'économie.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C05-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S1-C05-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution des connaissances. 1) Explique le mécanisme de l'effet de serre naturel et son importance. 2) Qu'appelle-t-on effet de serre renforcé ? Cite trois activités humaines qui en sont responsables. 3) Donne deux conséquences possibles du réchauffement climatique pour le Togo.",
+   "indices": [],
+   "corrige": [
+    "1) Le Soleil chauffe la surface ; celle-ci émet des infrarouges ; des gaz de l'atmosphère (vapeur d'eau, CO₂, CH₄, N₂O) en absorbent une partie et la renvoient vers le sol.",
+    "Importance : température moyenne d'environ +15 °C au lieu de −18 °C, compatible avec la vie.",
+    "2) Augmentation de l'effet de serre due aux gaz rejetés par l'Homme. Activités : combustion des carburants et du charbon de bois, déforestation et feux de brousse, élevage ou décharges (méthane).",
+    "3) Montée du niveau de la mer aggravant l'érosion côtière (Lomé, Aného) ; pluies irrégulières perturbant les semis et les récoltes (sécheresses, inondations)."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    2,
+    1.5
+   ],
+   "piege": "Confondre avec le trou de la couche d'ozone.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C05-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C05-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de document. Trois bacs de même terre, inclinés de la même façon, reçoivent chacun 5 L d'eau avec un arrosoir. On recueille l'eau qui ruisselle et la terre emportée.\n\n| Bac | Eau recueillie (L) | Terre emportée (g) |\n|---|---|---|\n| A : sol nu | 3,2 | 480 |\n| B : sol nu + petit cordon de cailloux | 2,0 | 150 |\n| C : sol couvert d'herbe | 0,8 | 25 |\n\n1) Calcule, pour chaque bac, le pourcentage de l'eau versée qui a ruisselé. 2) Compare les pertes de terre (calcule la réduction obtenue avec l'herbe par rapport au sol nu). 3) Explique les résultats. 4) Quels paramètres ont été gardés identiques, et pourquoi ?",
+   "indices": [],
+   "corrige": [
+    "1) A : 3,2 ÷ 5 × 100 = 64 % ; B : 2,0 ÷ 5 × 100 = 40 % ; C : 0,8 ÷ 5 × 100 = 16 %.",
+    "2) Le sol nu perd 480 g, le cordon 150 g, l'herbe 25 g ; réduction avec l'herbe : (480 − 25) ÷ 480 × 100 ≈ 95 %.",
+    "3) Sur sol nu, l'eau s'infiltre peu, ruisselle et arrache la terre. Le cordon freine l'eau et retient une partie de la terre. L'herbe amortit les gouttes, freine le ruissellement, favorise l'infiltration et ses racines retiennent le sol.",
+    "4) Même terre, même pente, même quantité d'eau : pour que la seule différence soit la couverture du sol (une seule variable), sinon on ne pourrait pas conclure."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    2,
+    1
+   ],
+   "piege": "Oublier de justifier le choix des paramètres identiques.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C05-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C05-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données. On compare deux points d'une lagune (données simplifiées).\n\n| | Point A (sortie d'un caniveau d'eaux usées) | Point B (loin des habitations) |\n|---|---|---|\n| Nitrates (mg/L) | 45 | 5 |\n| Dioxygène dissous (mg/L) | 1,5 | 7 |\n| Jacinthes d'eau | très abondantes | rares |\n| Poissons | morts flottants | nombreux |\n\n1) Décris les différences entre A et B. 2) Explique, étape par étape, comment les eaux usées ont conduit à la mort des poissons au point A. 3) Nomme ce phénomène et propose deux solutions.",
+   "indices": [],
+   "corrige": [
+    "1) Au point A, l'eau contient 9 fois plus de nitrates (45 contre 5 mg/L) et presque 5 fois moins de dioxygène (1,5 contre 7 mg/L) ; les jacinthes y prolifèrent et les poissons meurent.",
+    "2) Les eaux usées apportent des nitrates (et phosphates) → les jacinthes et les algues prolifèrent → elles couvrent l'eau et meurent en masse → les bactéries décomposeurs, très nombreuses, consomment le dioxygène dissous → les poissons meurent asphyxiés.",
+    "3) Eutrophisation. Solutions : traiter les eaux usées avant rejet (station d'épuration, fosses) ; limiter les engrais et lessives phosphatées ; enlever mécaniquement les jacinthes (et les valoriser en compost)."
+   ],
+   "bareme": [
+    1.5,
+    3,
+    1.5
+   ],
+   "piege": "Dire que les nitrates empoisonnent directement les poissons.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S1-C05-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S1-C05-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un insecticide persistant a une concentration de 0,00005 ppm dans l'eau d'un lac et de 25 ppm dans les graisses d'un oiseau piscivore. Par combien la concentration est-elle multipliée ? Nombre seul.",
+   "reponses_acceptees": [
+    "500000",
+    "500 000",
+    "5×10^5",
+    "5e5"
+   ],
+   "indices": [],
+   "corrige": [
+    "Facteur = 25 ÷ 0,00005.",
+    "Facteur = 500 000."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Erreur de virgule : 0,00005 = 5 × 10⁻⁵.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S1-C05-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S1-C05-N1",
+    "SVT-S1-C05-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Synthèse. Dans un village des Plateaux, les cultivateurs défrichent chaque année de nouvelles pentes et pratiquent des feux tardifs ; la rivière devient boueuse à chaque orage et le rendement du maïs a baissé. Une ONG installe sur une parcelle test des cordons pierreux et apporte du compost : le rendement passe de 1,2 t/ha à 2,1 t/ha.\n1) Explique, par une chaîne de causes et de conséquences, la baisse des rendements.\n2) Calcule le gain de rendement de la parcelle test en %.\n3) Propose un plan de gestion durable en trois mesures, en justifiant chacune et en montrant qu'il est aussi intéressant pour les habitants.",
+   "indices": [
+    "Pars de la cause (défrichement, feux) et va jusqu'à la conséquence (rendement).",
+    "Gain = (nouveau − ancien) ÷ ancien × 100."
+   ],
+   "corrige": [
+    "1) Défrichement des pentes et feux tardifs → sol nu au début des pluies → ruissellement et érosion (rivière boueuse = terre emportée) → perte de la couche fertile et de l'humus → baisse des rendements → nouveaux défrichements (cercle vicieux).",
+    "2) Gain = (2,1 − 1,2) ÷ 1,2 × 100 = 75 %.",
+    "3a) Conserver ou replanter des arbres en haut des pentes et en agroforesterie (karité, néré) : le sol est protégé, et les arbres donnent fruits et revenus.",
+    "3b) Généraliser cordons pierreux et cultures en courbes de niveau, apporter compost ou fumier, alterner maïs et légumineuses : la fertilité est restaurée et les récoltes augmentent (+75 % sur la parcelle test).",
+    "3c) Remplacer les feux tardifs par des feux précoces contrôlés (ou pas de feu) et utiliser des foyers améliorés : moins de bois coupé, sol couvert, moins de dépenses ; le plan concilie environnement, social et économie (développement durable)."
+   ],
+   "bareme": [
+    2,
+    1,
+    1,
+    1.5,
+    1.5
+   ],
+   "piege": "Proposer des solutions générales (« sensibiliser ») sans lien avec les causes identifiées.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre effet de serre et trou de la couche d'ozone.",
+  "Présenter l'effet de serre comme uniquement néfaste (oublier l'effet naturel indispensable).",
+  "Expliquer la mort des poissons par empoisonnement aux engrais au lieu du manque de dioxygène (eutrophisation).",
+  "Proposer des solutions vagues ou sans lien avec la cause donnée dans le document.",
+  "Dans une expérience sur l'érosion, ne pas citer les paramètres gardés constants.",
+  "Calculer un pourcentage d'augmentation en divisant par la valeur finale."
+ ]
+}

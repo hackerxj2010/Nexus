@@ -346,7 +346,7 @@
  "verification": {
   "passe1": "Résolution manuelle : a>0, b>0 ; d(a,b)=√2+√3−3 ; a>b ; c=(1+√2−√3)/2 ; d=5−2√3−√2 ; cos22,5°=√(2+√2)/2, cos67,5°=√(2−√2)/2 ; A1=√2R²/4, A2=2√2R² ; B=−7+4x+3x² ; A=(x−3)(x−1), A+1=(x−2)², B=(x−1)(3x+7) ; √(A+1)=3 ⇔ x∈{−1;5} ; M(−1/2;0), N(−1;2), (AM): 8x−3y+4=0, (CN): 2x+3y−4=0, G(0;4/3).",
   "passe2": "Résolution indépendante par calcul symbolique (sympy) à partir des seules données de l'énoncé : mêmes résultats ; G vérifié sur les deux médianes ; AB²=R²(2−√2) recalculé.",
-  "code": "oui : script verif.py (sympy), 24 vérifications pour ce sujet, toutes OK",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy), 22 vérifications pour ce sujet, toutes OK",
   "desaccords": [
    "Aucun désaccord entre les deux passes.",
    "Ex2 : la figure (points I et K) manque ; questions 1, 2, 3 et 4a non corrigées. Q1 « BOR et AOR » illisible. Hypothèse non retenue : K milieu de [AB] (alors AOK=22,5° et KAO=67,5°) et I pied de la hauteur issue de A sur (OH).",

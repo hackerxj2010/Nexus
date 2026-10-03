@@ -273,7 +273,7 @@
  "verification": {
   "passe1": "Résolution manuelle : x²=17+12√2, y²=17−12√2, xy=1, x/y+y/x=34 ; P=2x²−2x−4, Q=4x−8, M=x+3, N=x−1 ; A=(x−2)(x+3), B=(x−2)(x−1) ; A(3;4), B(8;4), C(0;8), AB=AC=5, I(4;6), (AI): y=2x−2, médiatrice ; NB=7−x, NC²=(7−x)²+36, IN²=x²+4, x=8/7.",
   "passe2": "Résolution indépendante (sympy) : identités remarquables, division par x−2, produit scalaire AI·BC et équation de Pythagore résolue symboliquement : mêmes résultats.",
-  "code": "oui : script verif.py (sympy), 16 vérifications pour ce sujet, toutes OK",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy), 14 vérifications pour ce sujet, toutes OK",
   "desaccords": [
    "Aucun désaccord entre les deux passes.",
    "Ex1 Q1 (A) illisible. Ex1 Q2 non corrigée : avec la lecture de l'OCR, C=(√5+√2)²+(√5−√2)²=14 est un entier, ce qui contredit la Q2b (encadrement par deux entiers consécutifs). Le texte de l'OCR est donc incomplet. Hypothèse non vérifiée : C = 1/(√5+√2)² + 1/(√5−√2)² = 14/9.",

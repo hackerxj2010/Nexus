@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" width="400" height="270" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Courbes de chauffage : corps pur et mélange</title>
+<rect x="0" y="0" width="400" height="270" rx="18" fill="#fffdf8"/>
+<line x1="55.0" y1="225.0" x2="377.0" y2="225.0" stroke="#1f2937" stroke-width="2" stroke-linecap="butt"/>
+<polygon points="385.0,225.0 377.0,229.0 377.0,221.0" stroke="#1f2937" stroke-width="1" fill="#1f2937" stroke-linejoin="round"/>
+<line x1="55.0" y1="225.0" x2="55.0" y2="38.0" stroke="#1f2937" stroke-width="2" stroke-linecap="butt"/>
+<polygon points="55.0,30.0 59.0,38.0 51.0,38.0" stroke="#1f2937" stroke-width="1" fill="#1f2937" stroke-linejoin="round"/>
+<text x="380.0" y="217.0" font-size="13" text-anchor="end" fill="#1f2937" font-weight="normal">temps</text>
+<text x="61.0" y="38.0" font-size="13" text-anchor="start" fill="#1f2937" font-weight="normal">θ (°C)</text>
+<line x1="51.0" y1="205.0" x2="55.0" y2="205.0" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+<text x="47.0" y="210.0" font-size="12" text-anchor="end" fill="#1f2937" font-weight="normal">20</text>
+<line x1="51.0" y1="138.3" x2="55.0" y2="138.3" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+<text x="47.0" y="143.3" font-size="12" text-anchor="end" fill="#1f2937" font-weight="normal">60</text>
+<line x1="51.0" y1="71.7" x2="55.0" y2="71.7" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
+<text x="47.0" y="76.7" font-size="12" text-anchor="end" fill="#1f2937" font-weight="normal">100</text>
+<line x1="55.0" y1="71.7" x2="370.0" y2="71.7" stroke="#6b7280" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+<polyline points="55.0,205.0 170.0,71.7 360.0,71.7" stroke="#1d4ed8" stroke-width="3" fill="none" stroke-linejoin="round"/>
+<text x="270.0" y="93.7" font-size="13" text-anchor="middle" fill="#1d4ed8" font-weight="normal">eau pure : palier à 100 °C</text>
+<polyline points="55.0,205.0 180.0,69.2 360.0,61.7" stroke="#c0262d" stroke-width="3" fill="none" stroke-linejoin="round" stroke-dasharray="8 5"/>
+<text x="300.0" y="31.7" font-size="13" text-anchor="end" fill="#c0262d" font-weight="normal">eau salée :</text>
+<text x="300.0" y="47.7" font-size="13" text-anchor="end" fill="#c0262d" font-weight="normal">pas de palier</text>
+<text x="200.0" y="255.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="normal">Un palier pendant l'ébullition prouve un corps pur.</text>
+</svg>

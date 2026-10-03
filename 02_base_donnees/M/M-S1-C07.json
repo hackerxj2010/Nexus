@@ -1,0 +1,644 @@
+{
+ "id": "M-S1-C07",
+ "matiere": "M",
+ "semestre": 1,
+ "ordre": 7,
+ "titre": "Généralités sur les fonctions",
+ "objectifs": [
+  "Déterminer l'ensemble de définition d'une fonction ; calculer des images et des antécédents.",
+  "Lire et interpréter une courbe représentative.",
+  "Étudier le sens de variation d'une fonction par le calcul ; dresser un tableau de variations ; trouver un extremum.",
+  "Étudier la parité d'une fonction et l'interpréter graphiquement.",
+  "Résoudre graphiquement et algébriquement f(x) = k, f(x) < g(x) ; étudier la position relative de deux courbes."
+ ],
+ "prerequis": [
+  "M-3e-FONCTIONS",
+  "M-S1-C03",
+  "M-S1-C05"
+ ],
+ "notions": [
+  {
+   "id": "M-S1-C07-N1",
+   "titre": "Fonction, ensemble de définition, image et antécédent",
+   "prerequis_notions": [
+    "M-3e-FONCTIONS",
+    "M-S1-C01-N1",
+    "M-S1-C03-N3"
+   ],
+   "cours_md": ":::definition Fonction numérique\nUne **fonction** $f$ définie sur une partie $D_f$ de $\\mathbb{R}$ associe à **chaque** réel $x$ de $D_f$ **un unique** réel noté $f(x)$. On écrit $f:x\\longmapsto f(x)$.\n- $D_f$ est l'**ensemble de définition** de $f$.\n- $f(x)$ est l'**image** de $x$ par $f$.\n- Si $f(a)=b$, on dit que $a$ est **un antécédent** de $b$ par $f$.\n:::\n\n:::remarque\nUn réel de $D_f$ a **une seule** image ; un réel peut avoir **zéro, un ou plusieurs** antécédents.\n:::\n\n:::propriete Ensembles de définition usuels\n- Fonction **polynôme** : $D_f=\\mathbb{R}$.\n- Fonction **rationnelle** $\\dfrac{P(x)}{Q(x)}$ : $D_f=\\{x\\ /\\ Q(x)\\neq0\\}$.\n- Fonction avec **racine carrée** $\\sqrt{u(x)}$ : il faut $u(x)\\ge0$.\n- $\\dfrac{1}{\\sqrt{u(x)}}$ : il faut $u(x)>0$.\n:::\n\n:::definition Courbe représentative\nDans un repère, la **courbe représentative** $\\mathcal C_f$ de $f$ est l'ensemble des points $M(x\\,;y)$ tels que $x\\in D_f$ et $y=f(x)$. On dit que $y=f(x)$ est une **équation** de $\\mathcal C_f$.\n:::\n\n:::methode Lire une image ou des antécédents sur un graphique\n- **Image de $a$** : partir de $a$ sur l'axe des abscisses, monter (ou descendre) verticalement jusqu'à la courbe, puis lire l'ordonnée.\n- **Antécédents de $b$** : tracer la droite horizontale $y=b$ ; les abscisses des points d'intersection avec $\\mathcal C_f$ sont les antécédents.\n:::\n\n:::methode Calculer\n- Image : remplacer $x$ par la valeur (avec des **parenthèses** pour les nombres négatifs).\n- Antécédents de $b$ : résoudre l'équation $f(x)=b$ dans $D_f$.\n- $M(x_0\\,;y_0)\\in\\mathcal C_f\\iff x_0\\in D_f$ et $f(x_0)=y_0$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDéterminer l'ensemble de définition de $f(x)=\\dfrac{2x+1}{x^2-x}$.\n\n1. $f(x)$ existe si et seulement si $x^2-x\\neq0$.\n2. $x^2-x=x(x-1)=0\\iff x=0$ ou $x=1$.\n3. $D_f=\\mathbb{R}\\setminus\\{0\\,;1\\}$.\n:::\n\n:::exemple Exemple 2\nSoit $f(x)=x^2-2x-1$. Calculer l'image de $3$, puis les antécédents de $2$.\n\n1. $f(3)=9-6-1=2$ : l'image de $3$ est $2$.\n2. Antécédents de $2$ : on résout $x^2-2x-1=2\\iff x^2-2x-3=0$.\n3. $\\Delta=4+12=16$ : $x=\\dfrac{2-4}{2}=-1$ ou $x=\\dfrac{2+4}{2}=3$.\n4. Les antécédents de $2$ sont $-1$ et $3$ (deux points de $\\mathcal C_f$ d'ordonnée $2$).\n:::\n",
+   "definition": "Une fonction $f$ associe à chaque $x$ de son ensemble de définition un unique réel $f(x)$, son image ; si $f(a)=b$, $a$ est un antécédent de $b$.",
+   "formules": [
+    "$M(x;y)\\in\\mathcal C_f\\iff x\\in D_f$ et $y=f(x)$",
+    "$\\dfrac{P}{Q}$ : $Q(x)\\neq0$",
+    "$\\sqrt{u(x)}$ : $u(x)\\ge0$"
+   ],
+   "niveaux": {
+    "phrase": "Une fonction est une machine : on entre x, il sort un seul nombre f(x).",
+    "simple": "Pense à une machine à jus : tu mets une quantité d'oranges (x), elle donne une quantité de jus (f(x)). Chaque entrée donne un seul résultat. Mais deux entrées différentes peuvent donner le même jus : un résultat peut avoir plusieurs antécédents.",
+    "complete": "Une fonction est la donnée de $D_f\\subset\\mathbb{R}$ et d'une règle associant à tout $x\\in D_f$ un unique réel. Les contraintes (dénominateur non nul, radicande positif) déterminent $D_f$. La courbe $\\mathcal C_f$ est l'ensemble des points $(x\\,;f(x))$ ; images et antécédents se lisent sur les axes."
+   },
+   "analogie": "Au marché, le prix payé dépend de la quantité de riz achetée : à chaque quantité correspond un seul prix. Mais un même prix (1 000 FCFA) peut correspondre à plusieurs achats différents (riz, maïs...) : c'est l'idée d'image unique et d'antécédents multiples.",
+   "exemples_resolus": [
+    {
+     "enonce": "Déterminer l'ensemble de définition de $f(x)=\\dfrac{2x+1}{x^2-x}$.",
+     "etapes": [
+      "$f(x)$ existe si et seulement si $x^2-x\\neq0$.",
+      "$x^2-x=x(x-1)=0\\iff x=0$ ou $x=1$.",
+      "$D_f=\\mathbb{R}\\setminus\\{0\\,;1\\}$."
+     ]
+    },
+    {
+     "enonce": "Soit $f(x)=x^2-2x-1$. Calculer l'image de $3$, puis les antécédents de $2$.",
+     "etapes": [
+      "$f(3)=9-6-1=2$ : l'image de $3$ est $2$.",
+      "Antécédents de $2$ : on résout $x^2-2x-1=2\\iff x^2-2x-3=0$.",
+      "$\\Delta=4+12=16$ : $x=\\dfrac{2-4}{2}=-1$ ou $x=\\dfrac{2+4}{2}=3$.",
+      "Les antécédents de $2$ sont $-1$ et $3$ (deux points de $\\mathcal C_f$ d'ordonnée $2$)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire « l'antécédent » alors qu'il peut y en avoir plusieurs.",
+    "Calculer $-3^2$ au lieu de $(-3)^2$ en remplaçant $x$ par $-3$.",
+    "Lire l'image sur l'axe des abscisses au lieu de l'axe des ordonnées.",
+    "Oublier la condition $u(x)\\ge0$ pour une racine carrée."
+   ],
+   "astuces": [
+    "Image : on cherche y (vertical). Antécédent : on cherche x (horizontal).",
+    "Mets toujours des parenthèses : f(−2) = (−2)² − 2(−2) − 1.",
+    "Pour un ensemble de définition, liste toutes les contraintes puis prends leur intersection."
+   ],
+   "mnemo": "« Image : je monte et je lis à gauche. Antécédent : je traverse et je descends. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Avec $f(x)=3x-2$, tu calculais $f(4)=10$ et tu cherchais l'antécédent de $7$ en résolvant $3x-2=7$. En Seconde, les fonctions sont plus variées et on doit d'abord trouver l'ensemble de définition."
+   },
+   "methode_redaction": "Commence par « f(x) existe si et seulement si ... » pour un ensemble de définition. Pour une image, écris le calcul complet. Pour des antécédents, écris l'équation f(x) = b, résous-la et conclus par une phrase.",
+   "flash": [
+    {
+     "q": "$f(x)=x^2$ : image de $-4$ ?",
+     "r": "16"
+    },
+    {
+     "q": "$f(x)=x^2$ : antécédents de $9$ ?",
+     "r": "$-3$ et $3$"
+    },
+    {
+     "q": "$D_f$ pour $\\sqrt{x-5}$ ?",
+     "r": "$[5\\,;+\\infty[$"
+    },
+    {
+     "q": "Combien d'images pour un x de D_f ?",
+     "r": "Une seule."
+    },
+    {
+     "q": "$M(1;4)\\in\\mathcal C_f$ signifie ?",
+     "r": "$f(1)=4$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C07-N1.svg",
+    "alt": "Parabole d'équation y = x² − 2x − 1 ; pointillés rouges : l'image de 3 est 2 ; pointillés verts : les antécédents de 2 sont −1 et 3.",
+    "legende": "Lecture graphique d'une image et des antécédents.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C07-N2",
+   "titre": "Sens de variation, tableau de variations et extremums",
+   "prerequis_notions": [
+    "M-S1-C07-N1",
+    "M-S1-C01-N4"
+   ],
+   "cours_md": ":::definition Sens de variation\nSoit $f$ une fonction définie sur un intervalle $I$.\n- $f$ est **croissante** sur $I$ si pour tous $a$, $b$ de $I$ : $a<b\\Rightarrow f(a)\\le f(b)$ (elle **conserve** l'ordre).\n- $f$ est **décroissante** sur $I$ si : $a<b\\Rightarrow f(a)\\ge f(b)$ (elle **renverse** l'ordre).\n- Avec des inégalités strictes $f(a)<f(b)$ (resp. $f(a)>f(b)$), on dit **strictement** croissante (resp. décroissante).\n- $f$ est **monotone** sur $I$ si elle y est soit croissante, soit décroissante.\n:::\n\n:::definition Extremums\n- $f$ admet un **maximum** $M$ sur $I$ en $x_0$ si $f(x_0)=M$ et $f(x)\\le M$ pour tout $x\\in I$.\n- $f$ admet un **minimum** $m$ sur $I$ en $x_0$ si $f(x_0)=m$ et $f(x)\\ge m$ pour tout $x\\in I$.\n:::\n\n:::methode Étudier le sens de variation par le calcul\n1. Prendre deux réels $a<b$ de $I$.\n2. Calculer et **factoriser** $f(b)-f(a)$.\n3. Étudier son signe : positif → $f$ croissante ; négatif → $f$ décroissante.\nVariante : le signe du **taux de variation** $\\dfrac{f(b)-f(a)}{b-a}$ (positif → croissante).\n:::\n\n:::methode Démontrer qu'un nombre est un extremum\nPour montrer que $m$ est le minimum de $f$ atteint en $x_0$ : vérifier $f(x_0)=m$ et montrer que $f(x)-m\\ge0$ pour tout $x$ (souvent en reconnaissant un carré).\n:::\n\n:::remarque Tableau de variations\nOn résume les variations par des flèches : ↗ pour croissante, ↘ pour décroissante, avec les valeurs aux bornes et aux changements de sens. Sur la courbe : croissante = la courbe « monte » de gauche à droite.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDémontrer que $f(x)=-2x+5$ est strictement décroissante sur $\\mathbb{R}$.\n\n1. Soient $a<b$ deux réels.\n2. $f(b)-f(a)=(-2b+5)-(-2a+5)=-2(b-a)$.\n3. $b-a>0$ donc $-2(b-a)<0$, soit $f(b)<f(a)$.\n4. $f$ est strictement décroissante sur $\\mathbb{R}$.\n:::\n\n:::exemple Exemple 2\nDémontrer que $f(x)=x^2$ est strictement croissante sur $[0\\,;+\\infty[$.\n\n1. Soient $0\\le a<b$.\n2. $f(b)-f(a)=b^2-a^2=(b-a)(b+a)$.\n3. $b-a>0$ et $b+a>0$ (car $b>0$ et $a\\ge0$), donc $f(b)-f(a)>0$.\n4. $f$ est strictement croissante sur $[0\\,;+\\infty[$.\n:::\n",
+   "definition": "$f$ est croissante sur $I$ si $a<b\\Rightarrow f(a)\\le f(b)$, décroissante si $a<b\\Rightarrow f(a)\\ge f(b)$ ; on étudie le signe de $f(b)-f(a)$.",
+   "formules": [
+    "croissante : $a<b\\Rightarrow f(a)\\le f(b)$",
+    "décroissante : $a<b\\Rightarrow f(a)\\ge f(b)$",
+    "signe de $\\dfrac{f(b)-f(a)}{b-a}$",
+    "minimum $m$ : $f(x)-m\\ge0$"
+   ],
+   "niveaux": {
+    "phrase": "Une fonction croissante monte quand x avance ; décroissante, elle descend.",
+    "simple": "Lis la courbe de gauche à droite comme une route de montagne vers Kpalimé : quand la route monte, la fonction est croissante ; quand elle descend, décroissante. Le point le plus haut est le maximum.",
+    "complete": "La croissance (resp. décroissance) traduit la conservation (resp. l'inversion) de l'ordre. On la démontre en étudiant le signe de $f(b)-f(a)$ pour $a<b$ (ou du taux de variation). Le tableau de variations résume ces informations et donne les extremums ; un extremum se prouve en étudiant le signe de $f(x)-m$."
+   },
+   "analogie": "La température à Lomé au cours d'une journée augmente le matin (fonction croissante), atteint un maximum vers 14 h, puis diminue le soir (décroissante).",
+   "exemples_resolus": [
+    {
+     "enonce": "Démontrer que $f(x)=-2x+5$ est strictement décroissante sur $\\mathbb{R}$.",
+     "etapes": [
+      "Soient $a<b$ deux réels.",
+      "$f(b)-f(a)=(-2b+5)-(-2a+5)=-2(b-a)$.",
+      "$b-a>0$ donc $-2(b-a)<0$, soit $f(b)<f(a)$.",
+      "$f$ est strictement décroissante sur $\\mathbb{R}$."
+     ]
+    },
+    {
+     "enonce": "Démontrer que $f(x)=x^2$ est strictement croissante sur $[0\\,;+\\infty[$.",
+     "etapes": [
+      "Soient $0\\le a<b$.",
+      "$f(b)-f(a)=b^2-a^2=(b-a)(b+a)$.",
+      "$b-a>0$ et $b+a>0$ (car $b>0$ et $a\\ge0$), donc $f(b)-f(a)>0$.",
+      "$f$ est strictement croissante sur $[0\\,;+\\infty[$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire qu'une fonction est croissante parce que f(1) < f(2) : il faut tous les couples a < b.",
+    "Oublier de préciser l'intervalle : x² n'est pas croissante sur ℝ.",
+    "Confondre la valeur du maximum (une ordonnée) et l'endroit où il est atteint (une abscisse).",
+    "Mal factoriser f(b) − f(a) et conclure sur un signe faux."
+   ],
+   "astuces": [
+    "Factorise toujours f(b) − f(a) par (b − a).",
+    "Contrôle sur la calculatrice ou un croquis : la courbe doit monter/descendre comme prévu.",
+    "Dans un tableau de variations, une flèche ne traverse jamais une valeur interdite (double barre)."
+   ],
+   "mnemo": "« Croissante : elle garde l'ordre. Décroissante : elle le retourne. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Une fonction affine $f(x)=ax+b$ « monte » si $a>0$ et « descend » si $a<0$. C'est le premier exemple de sens de variation."
+   },
+   "methode_redaction": "Rédige : « Soient a et b deux réels de I tels que a < b. f(b) − f(a) = ... = (b − a)(...). Or ... donc f(b) − f(a) ... 0. Ainsi f est ... sur I. » Puis dresse le tableau de variations avec les valeurs.",
+   "flash": [
+    {
+     "q": "f croissante sur I : a < b implique ?",
+     "r": "$f(a)\\le f(b)$"
+    },
+    {
+     "q": "Sens de variation de x ↦ −3x + 1 ?",
+     "r": "Strictement décroissante sur ℝ."
+    },
+    {
+     "q": "$f(x)=(x-1)^2+4$ : minimum ?",
+     "r": "$4$, atteint en $x=1$."
+    },
+    {
+     "q": "Que signifie ↗ dans un tableau ?",
+     "r": "La fonction est croissante sur cet intervalle."
+    },
+    {
+     "q": "f décroissante sur $[0;5]$ : comparer $f(1)$ et $f(4)$.",
+     "r": "$f(1)\\ge f(4)$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C07-N2.svg",
+    "alt": "Tableau de variations : la fonction décroît de −∞ à 1 jusqu'à la valeur −2, puis croît.",
+    "legende": "Tableau de variations de f(x) = x² − 2x − 1 : minimum −2 en x = 1.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C07-N3",
+   "titre": "Parité et résolutions graphiques",
+   "prerequis_notions": [
+    "M-S1-C07-N1",
+    "M-S1-C07-N2"
+   ],
+   "cours_md": ":::definition Fonction paire, fonction impaire\nOn suppose $D_f$ **symétrique par rapport à 0** (si $x\\in D_f$ alors $-x\\in D_f$).\n- $f$ est **paire** si pour tout $x\\in D_f$ : $f(-x)=f(x)$.\n- $f$ est **impaire** si pour tout $x\\in D_f$ : $f(-x)=-f(x)$.\n:::\n\n:::propriete Interprétation graphique (repère orthogonal)\n- $f$ paire $\\iff\\mathcal C_f$ est **symétrique par rapport à l'axe des ordonnées**.\n- $f$ impaire $\\iff\\mathcal C_f$ est **symétrique par rapport à l'origine** $O$.\n\nConséquence : on peut étudier $f$ sur $D_f\\cap[0\\,;+\\infty[$ puis compléter par symétrie.\n:::\n\n:::methode Étudier la parité\n1. Vérifier que $D_f$ est symétrique par rapport à $0$ (sinon : ni paire ni impaire).\n2. Calculer $f(-x)$ en remplaçant $x$ par $(-x)$.\n3. Comparer à $f(x)$ et à $-f(x)$.\n4. Pour prouver qu'une fonction n'est **ni paire ni impaire**, il suffit d'un **contre-exemple** : un $x$ tel que $f(-x)\\neq f(x)$ et un $x$ tel que $f(-x)\\neq-f(x)$.\n:::\n\n:::propriete Résolutions graphiques\n- Solutions de $f(x)=k$ : abscisses des points de $\\mathcal C_f$ d'ordonnée $k$.\n- Solutions de $f(x)>k$ : abscisses des points de $\\mathcal C_f$ situés **au-dessus** de la droite $y=k$.\n- Solutions de $f(x)=g(x)$ : abscisses des points d'intersection de $\\mathcal C_f$ et $\\mathcal C_g$.\n- Solutions de $f(x)<g(x)$ : abscisses des points où $\\mathcal C_f$ est **en dessous** de $\\mathcal C_g$.\n:::\n\n:::methode Position relative de deux courbes par le calcul\nÉtudier le signe de $f(x)-g(x)$ : là où il est positif, $\\mathcal C_f$ est au-dessus de $\\mathcal C_g$.\n:::\n\n:::attention\nUne lecture graphique donne des valeurs **approchées** ; si l'énoncé demande des valeurs exactes, il faut **résoudre par le calcul**.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nÉtudier la parité de $f(x)=x^4-3x^2$, $g(x)=2x^3+x$ et $h(x)=x^2+x$ (toutes définies sur $\\mathbb{R}$, symétrique par rapport à 0).\n\n1. $f(-x)=(-x)^4-3(-x)^2=x^4-3x^2=f(x)$ : $f$ est **paire**.\n2. $g(-x)=2(-x)^3+(-x)=-2x^3-x=-g(x)$ : $g$ est **impaire**.\n3. $h(1)=2$ et $h(-1)=0$ : $h(-1)\\neq h(1)$ et $h(-1)\\neq-h(1)$ : $h$ n'est **ni paire ni impaire**.\n:::\n\n:::exemple Exemple 2\nLa courbe de $f(x)=x^2-2x-1$ est tracée. Résoudre graphiquement puis par le calcul $f(x)\\ge2$.\n\n1. Graphiquement : on trace la droite $y=2$ ; elle coupe $\\mathcal C_f$ aux points d'abscisses $-1$ et $3$ ; la courbe est au-dessus de la droite à gauche de $-1$ et à droite de $3$.\n2. Par le calcul : $f(x)\\ge2\\iff x^2-2x-3\\ge0$ ; racines $-1$ et $3$, $a=1>0$ : positif à l'extérieur des racines.\n3. $S=]-\\infty\\,;-1]\\cup[3\\,;+\\infty[$.\n:::\n",
+   "definition": "$f$ est paire si $f(-x)=f(x)$ (courbe symétrique par rapport à $(Oy)$), impaire si $f(-x)=-f(x)$ (symétrique par rapport à $O$) ; $f(x)=g(x)$ se lit aux intersections des courbes.",
+   "formules": [
+    "paire : $f(-x)=f(x)$",
+    "impaire : $f(-x)=-f(x)$",
+    "$\\mathcal C_f$ au-dessus de $\\mathcal C_g\\iff f(x)-g(x)>0$"
+   ],
+   "niveaux": {
+    "phrase": "Paire = courbe en miroir par rapport à l'axe (Oy) ; impaire = courbe symétrique par rapport à O.",
+    "simple": "Une fonction paire, c'est comme un papillon : l'aile gauche est le reflet exact de l'aile droite par rapport à l'axe vertical. Une fonction impaire, c'est comme un moulin : on fait un demi-tour autour de O et la courbe retombe sur elle-même.",
+    "complete": "Pour $D_f$ symétrique, la parité se teste en comparant $f(-x)$ à $\\pm f(x)$ ; elle se traduit par une symétrie axiale (Oy) ou centrale (O) de la courbe. Les équations et inéquations $f(x)=k$, $f(x)<g(x)$ se résolvent graphiquement par lecture des abscisses, et exactement par l'étude du signe de $f(x)-g(x)$."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Étudier la parité de $f(x)=x^4-3x^2$, $g(x)=2x^3+x$ et $h(x)=x^2+x$ (toutes définies sur $\\mathbb{R}$, symétrique par rapport à 0).",
+     "etapes": [
+      "$f(-x)=(-x)^4-3(-x)^2=x^4-3x^2=f(x)$ : $f$ est **paire**.",
+      "$g(-x)=2(-x)^3+(-x)=-2x^3-x=-g(x)$ : $g$ est **impaire**.",
+      "$h(1)=2$ et $h(-1)=0$ : $h(-1)\\neq h(1)$ et $h(-1)\\neq-h(1)$ : $h$ n'est **ni paire ni impaire**."
+     ]
+    },
+    {
+     "enonce": "La courbe de $f(x)=x^2-2x-1$ est tracée. Résoudre graphiquement puis par le calcul $f(x)\\ge2$.",
+     "etapes": [
+      "Graphiquement : on trace la droite $y=2$ ; elle coupe $\\mathcal C_f$ aux points d'abscisses $-1$ et $3$ ; la courbe est au-dessus de la droite à gauche de $-1$ et à droite de $3$.",
+      "Par le calcul : $f(x)\\ge2\\iff x^2-2x-3\\ge0$ ; racines $-1$ et $3$, $a=1>0$ : positif à l'extérieur des racines.",
+      "$S=]-\\infty\\,;-1]\\cup[3\\,;+\\infty[$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Conclure « paire » sans vérifier que D_f est symétrique (par ex. sur [−1 ; 3]).",
+    "Calculer $f(-x)$ sans parenthèses : $-x^2$ au lieu de $(-x)^2=x^2$.",
+    "Croire qu'une fonction qui n'est pas paire est forcément impaire.",
+    "Donner des ordonnées au lieu des abscisses comme solutions d'une résolution graphique."
+   ],
+   "astuces": [
+    "Puissances paires de x → fonction paire ; puissances impaires seulement → fonction impaire.",
+    "Pour « ni paire ni impaire », un seul contre-exemple numérique suffit.",
+    "En résolution graphique, entoure les points d'intersection et descends verticalement jusqu'à l'axe des abscisses."
+   ],
+   "mnemo": "« Paire, comme un miroir ; impaire, comme un demi-tour. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 5e et de la 4e ? La symétrie axiale (miroir) et la symétrie centrale (demi-tour) : ce sont exactement les symétries des courbes des fonctions paires et impaires."
+   },
+   "methode_redaction": "Pour la parité : « D_f = ... est symétrique par rapport à 0. Pour tout x de D_f, f(−x) = ... = f(x), donc f est paire. » Pour une résolution graphique, précise « par lecture graphique » et donne S avec les crochets.",
+   "flash": [
+    {
+     "q": "$f(x)=x^2+1$ est-elle paire ?",
+     "r": "Oui."
+    },
+    {
+     "q": "$f(x)=x^3$ est-elle paire ou impaire ?",
+     "r": "Impaire."
+    },
+    {
+     "q": "Courbe d'une fonction impaire ?",
+     "r": "Symétrique par rapport à l'origine O."
+    },
+    {
+     "q": "Solutions de f(x) = g(x) sur un graphique ?",
+     "r": "Abscisses des points d'intersection des courbes."
+    },
+    {
+     "q": "Fonction définie sur [−1 ; 3] : peut-elle être paire ?",
+     "r": "Non, l'ensemble n'est pas symétrique par rapport à 0."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C07-N3.svg",
+    "alt": "À gauche, une parabole symétrique par rapport à l'axe des ordonnées (fonction paire) ; à droite, une courbe symétrique par rapport à l'origine (fonction impaire).",
+    "legende": "Parité : symétrie d'axe (Oy) ou de centre O.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S1-C07-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C07-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Soit $f(x)=2x^2-3x+1$. Calculer $f(-1)$.",
+   "reponses_acceptees": [
+    "6",
+    "f(-1)=6"
+   ],
+   "indices": [
+    "Parenthèses autour de −1."
+   ],
+   "corrige": [
+    "$f(-1)=2\\times(-1)^2-3\\times(-1)+1$.",
+    "$f(-1)=2+3+1=6$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire $-3\\times(-1)=-3$.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C07-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C07-N1"
+   ],
+   "format": "qcm",
+   "enonce": "L'ensemble de définition de $f(x)=\\dfrac{1}{x-4}$ est :",
+   "choix": [
+    "$\\mathbb{R}$",
+    "$\\mathbb{R}\\setminus\\{4\\}$",
+    "$]4\\,;+\\infty[$",
+    "$\\mathbb{R}\\setminus\\{-4\\}$"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Le dénominateur ne doit pas s'annuler."
+   ],
+   "corrige": [
+    "$f(x)$ existe si $x-4\\neq0$, c'est-à-dire $x\\neq4$.",
+    "$D_f=\\mathbb{R}\\setminus\\{4\\}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre ]4 ; +∞[ (confusion avec une racine carrée).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C07-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C07-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Soit $f(x)=x^2-9$. Donner l'ensemble des antécédents de $0$ par $f$ sous la forme {a;b}.",
+   "reponses_acceptees": [
+    "{-3;3}",
+    "{3;-3}",
+    "-3;3",
+    "-3et3"
+   ],
+   "indices": [
+    "Résous f(x) = 0."
+   ],
+   "corrige": [
+    "On résout $x^2-9=0\\iff(x-3)(x+3)=0$.",
+    "Les antécédents de $0$ sont $-3$ et $3$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier l'antécédent négatif.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C07-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C07-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Déterminer l'ensemble de définition de $f(x)=\\sqrt{6-2x}$ (sous forme d'intervalle).",
+   "reponses_acceptees": [
+    "]-∞;3]",
+    "]-inf;3]",
+    "]−∞;3]",
+    "]-infini;3]"
+   ],
+   "indices": [
+    "Radicande positif ou nul.",
+    "On divise par −2 : l'ordre change."
+   ],
+   "corrige": [
+    "$f(x)$ existe si $6-2x\\ge0\\iff-2x\\ge-6\\iff x\\le3$.",
+    "$D_f=]-\\infty\\,;3]$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier de changer le sens en divisant par −2.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C07-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C07-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Le point $M(2\\,;5)$ appartient-il à la courbe de $f(x)=x^2+1$ ?",
+   "choix": [
+    "Oui, car f(2) = 5",
+    "Non, car f(5) = 26",
+    "Non, car f(2) = 4",
+    "On ne peut pas savoir sans tracer la courbe"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Calcule f(abscisse de M)."
+   ],
+   "corrige": [
+    "$f(2)=4+1=5$.",
+    "L'ordonnée de $M$ est égale à $f(2)$ : $M\\in\\mathcal C_f$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer f(5) au lieu de f(2).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C07-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C07-N3"
+   ],
+   "format": "qcm",
+   "enonce": "La fonction $f(x)=x^3-4x$, définie sur $\\mathbb{R}$, est :",
+   "choix": [
+    "paire",
+    "impaire",
+    "ni paire ni impaire",
+    "à la fois paire et impaire"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Calcule f(−x)."
+   ],
+   "corrige": [
+    "$\\mathbb{R}$ est symétrique par rapport à $0$ ; $f(-x)=(-x)^3-4(-x)=-x^3+4x=-f(x)$.",
+    "$f$ est impaire."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire $(-x)^3=x^3$.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C07-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C07-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "$f$ est strictement décroissante sur $[-2\\,;5]$. Compléter avec $<$ ou $>$ : $f(1)\\ \\dots\\ f(3)$. Écrire la réponse sous la forme f(1)...f(3).",
+   "reponses_acceptees": [
+    "f(1)>f(3)",
+    "f(3)<f(1)",
+    ">"
+   ],
+   "indices": [
+    "Décroissante : l'ordre est renversé."
+   ],
+   "corrige": [
+    "$1<3$ et $f$ est strictement décroissante, elle renverse l'ordre.",
+    "$f(1)>f(3)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Garder le même ordre que 1 < 3.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C07-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C07-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Déterminer l'ensemble de définition de $f(x)=\\dfrac{\\sqrt{x+2}}{x-1}$.",
+   "indices": [
+    "Deux conditions à réunir."
+   ],
+   "corrige": [
+    "Conditions : $x+2\\ge0$ (racine carrée) **et** $x-1\\neq0$ (dénominateur).",
+    "$x+2\\ge0\\iff x\\ge-2$ ; $x-1\\neq0\\iff x\\neq1$.",
+    "$D_f=[-2\\,;1[\\,\\cup\\,]1\\,;+\\infty[$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5
+   ],
+   "piege": "Oublier l'une des deux conditions.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C07-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C07-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $f(x)=x^2-4x+7$ définie sur $\\mathbb{R}$.\n\n1. Montrer que pour tout réel $x$, $f(x)=(x-2)^2+3$.\n2. En déduire que $f$ admet un minimum ; préciser sa valeur et où il est atteint.\n3. Montrer que pour $a<b$, $f(b)-f(a)=(b-a)(a+b-4)$, puis étudier le sens de variation de $f$ sur $]-\\infty\\,;2]$ et sur $[2\\,;+\\infty[$.\n4. Dresser le tableau de variations de $f$.",
+   "indices": [
+    "Un carré est toujours positif.",
+    "Factorise b² − a²."
+   ],
+   "corrige": [
+    "1. $(x-2)^2+3=x^2-4x+4+3=x^2-4x+7=f(x)$.",
+    "2. $(x-2)^2\\ge0$ donc $f(x)\\ge3$, et $f(2)=3$ : le minimum de $f$ est $3$, atteint en $x=2$.",
+    "3. $f(b)-f(a)=b^2-a^2-4(b-a)=(b-a)(b+a)-4(b-a)=(b-a)(a+b-4)$. Si $a<b\\le2$ : $a+b<4$, donc $f(b)-f(a)<0$ : $f$ est décroissante sur $]-\\infty\\,;2]$.",
+    "Si $2\\le a<b$ : $a+b>4$, donc $f(b)-f(a)>0$ : $f$ est croissante sur $[2\\,;+\\infty[$.",
+    "4. Tableau : $f$ décroît sur $]-\\infty\\,;2]$ jusqu'à $3$, puis croît sur $[2\\,;+\\infty[$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Confondre la valeur du minimum (3) et l'abscisse (2).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C07-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C07-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $f(x)=\\dfrac{3}{x+1}$ définie sur $]-1\\,;+\\infty[$.\n\n1. Soient $a$ et $b$ deux réels de $]-1\\,;+\\infty[$. Montrer que $f(b)-f(a)=\\dfrac{3(a-b)}{(a+1)(b+1)}$.\n2. En déduire le sens de variation de $f$ sur $]-1\\,;+\\infty[$.",
+   "indices": [
+    "Réduis au même dénominateur."
+   ],
+   "corrige": [
+    "1. $f(b)-f(a)=\\dfrac3{b+1}-\\dfrac3{a+1}=\\dfrac{3(a+1)-3(b+1)}{(a+1)(b+1)}=\\dfrac{3(a-b)}{(a+1)(b+1)}$.",
+    "2. Si $-1<a<b$ : $a-b<0$, $a+1>0$ et $b+1>0$.",
+    "Donc $f(b)-f(a)<0$ : $f$ est strictement décroissante sur $]-1\\,;+\\infty[$."
+   ],
+   "bareme": [
+    2,
+    1.5,
+    1.5
+   ],
+   "piege": "Se tromper dans l'ordre a − b / b − a au numérateur.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C07-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C07-N3",
+    "M-S1-C07-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "On considère $f(x)=x^2$ et $g(x)=x+2$ définies sur $\\mathbb{R}$.\n\n1. Résoudre par le calcul $f(x)=g(x)$ et donner les coordonnées des points d'intersection de $\\mathcal C_f$ et $\\mathcal C_g$.\n2. Étudier le signe de $f(x)-g(x)$.\n3. En déduire la position relative des deux courbes et l'ensemble des solutions de $f(x)\\le g(x)$.",
+   "indices": [
+    "Étudie le signe de la différence."
+   ],
+   "corrige": [
+    "1. $x^2=x+2\\iff x^2-x-2=0$ ; $\\Delta=9$ ; $x=-1$ ou $x=2$. Points : $(-1\\,;1)$ et $(2\\,;4)$.",
+    "2. $f(x)-g(x)=x^2-x-2=(x+1)(x-2)$ : positif sur $]-\\infty\\,;-1[$ et sur $]2\\,;+\\infty[$, négatif sur $]-1\\,;2[$.",
+    "3. $\\mathcal C_f$ est au-dessus de $\\mathcal C_g$ sur $]-\\infty\\,;-1[\\,\\cup\\,]2\\,;+\\infty[$ et en dessous sur $]-1\\,;2[$.",
+    "$f(x)\\le g(x)\\iff x\\in[-1\\,;2]$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Donner les ordonnées des points d'intersection comme solutions.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C07-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C07-N2",
+    "M-S1-C07-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Un cultivateur de Notsè veut clôturer un enclos rectangulaire le long d'un mur (le côté contre le mur n'a pas besoin de clôture). Il dispose de $40$ m de grillage. On note $x$ la longueur (en m) de chacun des deux côtés perpendiculaires au mur.\n\n1. Justifier que $x\\in]0\\,;20[$ et que l'aire de l'enclos est $A(x)=x(40-2x)$.\n2. Montrer que $A(x)=-2(x-10)^2+200$.\n3. En déduire la valeur de $x$ pour laquelle l'aire est maximale et l'aire maximale.",
+   "indices": [
+    "Trois côtés seulement sont clôturés.",
+    "Un carré négatif ou nul..."
+   ],
+   "corrige": [
+    "1. Le côté parallèle au mur mesure $40-2x$ ; il faut $x>0$ et $40-2x>0$, soit $0<x<20$. Aire : $A(x)=x(40-2x)$.",
+    "2. $-2(x-10)^2+200=-2(x^2-20x+100)+200=-2x^2+40x=x(40-2x)=A(x)$.",
+    "3. $-2(x-10)^2\\le0$ donc $A(x)\\le200$, et $A(10)=200$.",
+    "L'aire est maximale pour $x=10$ m : l'enclos mesure $10$ m sur $20$ m, d'aire $200\\ \\text{m}^2$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Oublier que le côté le long du mur ne compte pas dans le grillage.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre image (ordonnée) et antécédent (abscisse).",
+  "Oublier une condition dans l'ensemble de définition (racine carrée et dénominateur).",
+  "Conclure sur le sens de variation à partir de deux valeurs seulement.",
+  "Calculer $f(-x)$ sans parenthèses.",
+  "Conclure « paire » sans vérifier la symétrie de l'ensemble de définition.",
+  "Donner des valeurs approchées lues sur le graphique quand on demande des valeurs exactes."
+ ]
+}

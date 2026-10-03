@@ -1,0 +1,674 @@
+{
+ "id": "PC-S1-C06",
+ "matiere": "PC",
+ "semestre": 1,
+ "ordre": 6,
+ "titre": "L'atome",
+ "objectifs": [
+  "Décrire la constitution de l'atome (noyau, protons, neutrons, électrons) et ses ordres de grandeur.",
+  "Utiliser la charge élémentaire et les masses des particules.",
+  "Exploiter la notation ᴬ_Z X et définir des isotopes.",
+  "Établir la répartition électronique des atomes (Z ≤ 20) et la représentation de Lewis d'un atome."
+ ],
+ "prerequis": [
+  "PC-3e-ATOME"
+ ],
+ "notions": [
+  {
+   "id": "PC-S1-C06-N1",
+   "titre": "Constitution de l'atome",
+   "prerequis_notions": [
+    "PC-3e-ATOME"
+   ],
+   "cours_md": "## 1. Un modèle qui a évolué\n- **Démocrite** (Antiquité) : la matière est faite de grains insécables, les « atomes ».\n- **Thomson** (1897) découvre l'**électron** : l'atome est une boule positive fourrée d'électrons.\n- **Rutherford** (1911) bombarde une très fine feuille d'or avec des particules α : presque toutes la **traversent sans être déviées**, quelques-unes rebondissent. Conclusion : l'atome est **presque vide** et sa charge positive et sa masse sont concentrées dans un tout petit **noyau**.\n- **Bohr** (1913) : les électrons occupent des **couches** autour du noyau (modèle utilisé en Seconde).\n\n## 2. Les constituants\n:::definition Atome\nUn atome est constitué :\n- d'un **noyau** central, formé de **nucléons** : les **protons** (chargés $+e$) et les **neutrons** (neutres) ;\n- d'**électrons** (chargés $-e$) en mouvement autour du noyau, formant le **nuage électronique**.\n:::\n\n| Particule | Charge | Masse |\n|---|---|---|\n| proton | $+e = +1{,}60 \\times 10^{-19}\\ \\text{C}$ | $m_p = 1{,}673 \\times 10^{-27}\\ \\text{kg}$ |\n| neutron | $0$ | $m_n = 1{,}675 \\times 10^{-27}\\ \\text{kg}$ |\n| électron | $-e = -1{,}60 \\times 10^{-19}\\ \\text{C}$ | $m_e = 9{,}11 \\times 10^{-31}\\ \\text{kg}$ |\n\n$e = 1{,}60 \\times 10^{-19}\\ \\text{C}$ est la **charge élémentaire** (C = coulomb). Un proton est environ **1836 fois** plus lourd qu'un électron.\n\n## 3. Propriétés essentielles\n:::propriete Électroneutralité\nUn atome est **électriquement neutre** : il contient autant d'électrons que de protons. Si le noyau contient $Z$ protons, sa charge est $+Ze$ et le nuage électronique a la charge $-Ze$.\n:::\n:::propriete Masse concentrée dans le noyau\nLa masse des électrons est négligeable : $m_{atome} \\approx m_{noyau}$.\n:::\n:::propriete Structure lacunaire\nLe rayon d'un atome est de l'ordre de $10^{-10}\\ \\text{m}$ (0,1 nm) ; celui du noyau de l'ordre de $10^{-15}\\ \\text{m}$ : le noyau est environ **100 000 fois** plus petit que l'atome. Entre le noyau et les électrons : du **vide**.\n:::\n\n## Exemples résolus\n**Exemple 1.** L'atome d'oxygène possède 8 protons. Calcule la charge de son noyau et celle de son nuage électronique.\n- Noyau : $q = +8e = 8 \\times 1{,}60 \\times 10^{-19} = +1{,}28 \\times 10^{-18}\\ \\text{C}$.\n- Atome neutre : 8 électrons, $q' = -1{,}28 \\times 10^{-18}\\ \\text{C}$.\n\n**Exemple 2.** Montre que la masse de l'atome de carbone 12 (6 protons, 6 neutrons, 6 électrons) est concentrée dans le noyau ($m_{nucléon} \\approx 1{,}67 \\times 10^{-27}\\ \\text{kg}$).\n- $m_{noyau} \\approx 12 \\times 1{,}67 \\times 10^{-27} = 2{,}00 \\times 10^{-26}\\ \\text{kg}$.\n- $m_{électrons} = 6 \\times 9{,}11 \\times 10^{-31} = 5{,}47 \\times 10^{-30}\\ \\text{kg}$.\n- Rapport : $\\dfrac{5{,}47 \\times 10^{-30}}{2{,}00 \\times 10^{-26}} \\approx 2{,}7 \\times 10^{-4}$ : les électrons représentent moins de 0,03 % de la masse.",
+   "definition": "L'atome est formé d'un noyau très petit (protons + neutrons) qui concentre presque toute sa masse, entouré d'électrons ; il est électriquement neutre.",
+   "formules": [
+    "$e = 1{,}60 \\times 10^{-19}\\ \\text{C}$",
+    "$q_{noyau} = +Z\\,e$",
+    "$m_{atome} \\approx m_{noyau}$"
+   ],
+   "niveaux": {
+    "phrase": "Un atome, c'est un minuscule noyau très lourd entouré d'électrons très légers, avec beaucoup de vide entre les deux.",
+    "simple": "Si le noyau avait la taille d'une bille de 1 cm posée au centre du stade de Kégué, l'atome entier ferait 1 km de diamètre : presque tout est vide.",
+    "complete": "Noyau : $Z$ protons ($+e$) et $N$ neutrons ; nuage : $Z$ électrons ($-e$), donc atome neutre. $e = 1{,}60 \\times 10^{-19}\\ \\text{C}$ ; $m_p \\approx m_n \\approx 1{,}67 \\times 10^{-27}\\ \\text{kg} \\approx 1836\\,m_e$. Rayon atomique $\\sim 10^{-10}$ m, rayon nucléaire $\\sim 10^{-15}$ m : structure lacunaire (expérience de Rutherford)."
+   },
+   "analogie": "Une graine de néré au milieu d'un immense terrain vide : c'est l'image du noyau dans son atome.",
+   "exemples_resolus": [
+    {
+     "enonce": "Atome d'oxygène (8 protons) : charge du noyau et du nuage ?",
+     "etapes": [
+      "Noyau : $q = 8e = 8 \\times 1{,}60 \\times 10^{-19}$.",
+      "$q = +1{,}28 \\times 10^{-18}\\ \\text{C}$.",
+      "Nuage (8 électrons) : $-1{,}28 \\times 10^{-18}\\ \\text{C}$ ; atome neutre."
+     ]
+    },
+    {
+     "enonce": "Carbone 12 : comparer masse des électrons et masse du noyau.",
+     "etapes": [
+      "$m_{noyau} \\approx 12 \\times 1{,}67 \\times 10^{-27} = 2{,}00 \\times 10^{-26}\\ \\text{kg}$.",
+      "$m_{e} = 6 \\times 9{,}11 \\times 10^{-31} = 5{,}47 \\times 10^{-30}\\ \\text{kg}$.",
+      "Rapport $\\approx 2{,}7 \\times 10^{-4}$ : masse concentrée dans le noyau."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que le neutron est chargé ou que le proton est négatif.",
+    "Oublier que l'atome est neutre (autant d'électrons que de protons).",
+    "Croire que les électrons pèsent autant que les protons.",
+    "Oublier la puissance de 10 négative dans les masses et les charges."
+   ],
+   "astuces": [
+    "Charges : Proton Positif, Électron négatif, Neutron Neutre.",
+    "Calculatrice : tape 1.6E-19 avec la touche EXP ou ×10ˣ, pas « ×10^ » à la main."
+   ],
+   "mnemo": "« P comme Positif, N comme Neutre. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris que l'atome a un noyau positif et des électrons négatifs, et qu'il est neutre. En Seconde, on découvre que le noyau contient des protons et des neutrons."
+   },
+   "methode_redaction": "Écris la relation ($q = Z e$ ou $m \\approx A\\,m_{nucléon}$), remplace en notation scientifique, donne le résultat avec 3 chiffres significatifs et l'unité (C ou kg).",
+   "flash": [
+    {
+     "q": "Constituants du noyau ?",
+     "r": "Protons et neutrons (les nucléons)."
+    },
+    {
+     "q": "Charge élémentaire e ?",
+     "r": "$1{,}60 \\times 10^{-19}\\ \\text{C}$."
+    },
+    {
+     "q": "Charge d'un neutron ?",
+     "r": "Nulle."
+    },
+    {
+     "q": "Pourquoi l'atome est-il neutre ?",
+     "r": "Il a autant d'électrons (−e) que de protons (+e)."
+    },
+    {
+     "q": "Ordre de grandeur du rayon d'un atome ?",
+     "r": "$10^{-10}\\ \\text{m}$."
+    },
+    {
+     "q": "Conclusion de l'expérience de Rutherford ?",
+     "r": "L'atome est essentiellement vide ; masse et charge positive sont concentrées dans un petit noyau."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C06-N1.svg",
+    "alt": "Modèle simplifié de l'atome : au centre, un noyau formé de protons (rouges, +) et de neutrons (gris) ; autour, un nuage où se déplacent les électrons (bleus, −). Mention : le noyau est en réalité 100 000 fois plus petit que l'atome.",
+    "legende": "Modèle de l'atome (pas à l'échelle) : noyau de protons et neutrons, nuage d'électrons.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C06-N2",
+   "titre": "Représentation symbolique du noyau et isotopes",
+   "prerequis_notions": [
+    "PC-S1-C06-N1"
+   ],
+   "cours_md": "## 1. Les nombres qui caractérisent un noyau\n:::definition Z, A et N\n- $Z$ : **numéro atomique** (ou nombre de charge) = nombre de **protons** ;\n- $A$ : **nombre de masse** = nombre de **nucléons** (protons + neutrons) ;\n- $N = A - Z$ : nombre de **neutrons**.\n:::\n:::definition Représentation symbolique\nLe noyau d'un atome de symbole X se note\n$$^{A}_{Z}\\text{X}$$\nExemple : $^{23}_{11}\\text{Na}$ : 11 protons, $23 - 11 = 12$ neutrons, et (atome neutre) 11 électrons.\n:::\n\n## 2. Masse approchée d'un atome\nComme $m_p \\approx m_n \\approx 1{,}67 \\times 10^{-27}\\ \\text{kg}$ et que les électrons sont négligeables :\n$$m_{atome} \\approx A \\times 1{,}67 \\times 10^{-27}\\ \\text{kg}$$\n\n## 3. Les isotopes\n:::definition Isotopes\nDes **isotopes** sont des atomes (ou noyaux) qui ont le **même numéro atomique $Z$** mais des **nombres de masse $A$ différents** : ils ont le même nombre de protons mais pas le même nombre de neutrons.\n:::\n| Élément | Isotopes | Remarque |\n|---|---|---|\n| hydrogène | $^{1}_{1}\\text{H}$, $^{2}_{1}\\text{H}$ (deutérium), $^{3}_{1}\\text{H}$ (tritium) | |\n| carbone | $^{12}_{6}\\text{C}$ (98,9 %), $^{13}_{6}\\text{C}$, $^{14}_{6}\\text{C}$ | le carbone 14 sert à dater les fossiles |\n| chlore | $^{35}_{17}\\text{Cl}$ (75,8 %), $^{37}_{17}\\text{Cl}$ (24,2 %) | |\n\nDes isotopes ont les **mêmes propriétés chimiques** (même nombre d'électrons) : ils appartiennent au **même élément chimique**.\n\n## Exemples résolus\n**Exemple 1.** Donne la composition de l'atome $^{56}_{26}\\text{Fe}$.\n- $Z = 26$ : 26 protons ; atome neutre : 26 électrons.\n- $N = A - Z = 56 - 26 = 30$ neutrons.\n\n**Exemple 2.** Calcule la masse approchée d'un atome de sodium $^{23}_{11}\\text{Na}$, puis le nombre d'atomes dans 2,3 g de sodium.\n- $m_{Na} \\approx 23 \\times 1{,}67 \\times 10^{-27} = 3{,}84 \\times 10^{-26}\\ \\text{kg}$.\n- $N = \\dfrac{2{,}3 \\times 10^{-3}}{3{,}84 \\times 10^{-26}} = 6{,}0 \\times 10^{22}$ atomes. (Un nombre gigantesque : c'est pourquoi on inventera la **mole** au 2e semestre.)",
+   "definition": "Le noyau se note ᴬ_Z X : Z protons, A nucléons, N = A − Z neutrons ; des isotopes ont le même Z mais des A différents.",
+   "formules": [
+    "$^{A}_{Z}\\text{X}$",
+    "$N = A - Z$",
+    "$m_{atome} \\approx A \\times 1{,}67 \\times 10^{-27}\\ \\text{kg}$"
+   ],
+   "niveaux": {
+    "phrase": "Z compte les protons, A compte protons + neutrons ; les isotopes sont des « jumeaux » qui n'ont pas le même nombre de neutrons.",
+    "simple": "Deux frères jumeaux (même Z, même « identité chimique ») qui ne portent pas le même sac à dos (nombre de neutrons différent) : ce sont des isotopes.",
+    "complete": "$^{A}_{Z}X$ : $Z$ protons, $A$ nucléons, $N = A - Z$ neutrons, $Z$ électrons pour l'atome neutre. $m \\approx A\\,m_{nucléon}$. Isotopes : même $Z$, $A$ différents ; mêmes propriétés chimiques, même élément."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Composition de ⁵⁶₂₆Fe ?",
+     "etapes": [
+      "$Z = 26$ protons et 26 électrons.",
+      "$N = 56 - 26 = 30$ neutrons."
+     ]
+    },
+    {
+     "enonce": "Masse d'un atome ²³₁₁Na et nombre d'atomes dans 2,3 g.",
+     "etapes": [
+      "$m \\approx 23 \\times 1{,}67 \\times 10^{-27} = 3{,}84 \\times 10^{-26}\\ \\text{kg}$.",
+      "$m_{éch} = 2{,}3 \\times 10^{-3}\\ \\text{kg}$.",
+      "$N = 2{,}3 \\times 10^{-3} / 3{,}84 \\times 10^{-26} = 6{,}0 \\times 10^{22}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Inverser A et Z (A est en haut et toujours plus grand ou égal à Z).",
+    "Croire que A est le nombre de neutrons.",
+    "Dire que des isotopes sont des éléments différents.",
+    "Oublier de convertir les grammes en kilogrammes."
+   ],
+   "astuces": [
+    "A est en haut (comme « Au-dessus »), Z en bas.",
+    "Pour les isotopes, seul le nombre de neutrons change."
+   ],
+   "mnemo": "« A comme Au-dessus et tous les nucléons ; Z comme Zone du bas, les protons. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu connaissais les symboles des éléments (H, C, O, Na, Cl, Fe…). On leur ajoute maintenant deux nombres : A et Z."
+   },
+   "methode_redaction": "Présente la composition dans un tableau : protons, neutrons, électrons, en justifiant chaque nombre (Z, A − Z, atome neutre).",
+   "flash": [
+    {
+     "q": "Que représente Z ?",
+     "r": "Le nombre de protons (numéro atomique)."
+    },
+    {
+     "q": "Que représente A ?",
+     "r": "Le nombre de nucléons (protons + neutrons)."
+    },
+    {
+     "q": "Nombre de neutrons ?",
+     "r": "$N = A - Z$."
+    },
+    {
+     "q": "Définis des isotopes.",
+     "r": "Atomes de même Z mais de A différents."
+    },
+    {
+     "q": "Neutrons dans ¹⁴₆C ?",
+     "r": "8."
+    },
+    {
+     "q": "Masse approchée d'un atome de nombre de masse A ?",
+     "r": "$A \\times 1{,}67 \\times 10^{-27}\\ \\text{kg}$."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C06-N2.svg",
+    "alt": "La notation ²³₁₁Na en grand : flèche vers 23 « A = nombre de nucléons », flèche vers 11 « Z = nombre de protons », et le calcul N = A − Z = 12 neutrons ; en bas, les trois isotopes de l'hydrogène.",
+    "legende": "Représentation symbolique d'un noyau et isotopes de l'hydrogène.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C06-N3",
+   "titre": "Répartition des électrons en couches",
+   "prerequis_notions": [
+    "PC-S1-C06-N2"
+   ],
+   "cours_md": "## 1. Les couches électroniques\nDans le modèle utilisé en Seconde, les électrons se répartissent sur des **couches** notées $K$, $L$, $M$, $N$… de plus en plus éloignées du noyau.\n\n:::propriete Règles de remplissage (pour Z ≤ 20)\n1. Une couche contient au maximum $2n^{2}$ électrons : $K$ ($n = 1$) : **2** ; $L$ ($n = 2$) : **8** ; $M$ ($n = 3$) : 18.\n2. On remplit les couches **dans l'ordre** $K$, puis $L$, puis $M$ : on ne commence une couche que si la précédente est pleine.\n3. Pour les 20 premiers éléments, la couche $M$ s'arrête à **8** électrons : le 19e et le 20e électron vont sur la couche $N$ (potassium et calcium).\n:::\n\n## 2. Formule électronique\nOn écrit la couche entre parenthèses et le nombre d'électrons en exposant :\n- $\\text{H}$ ($Z = 1$) : $(K)^{1}$\n- $\\text{C}$ ($Z = 6$) : $(K)^{2}(L)^{4}$\n- $\\text{Na}$ ($Z = 11$) : $(K)^{2}(L)^{8}(M)^{1}$\n- $\\text{Cl}$ ($Z = 17$) : $(K)^{2}(L)^{8}(M)^{7}$\n- $\\text{Ca}$ ($Z = 20$) : $(K)^{2}(L)^{8}(M)^{8}(N)^{2}$\n\n:::definition Couche externe, électrons de valence\nLa dernière couche occupée est la **couche externe** ; ses électrons sont les **électrons de valence**. Ce sont eux qui interviennent dans les réactions chimiques. Une couche externe est **saturée** quand elle contient 2 électrons (si c'est $K$) ou 8 électrons (sinon).\n:::\n\n## 3. Représentation de Lewis de l'atome\nOn écrit le symbole de l'élément entouré de ses électrons de valence : un point par électron **célibataire**, un tiret par **doublet** (paire d'électrons). On place d'abord les électrons un par un sur les 4 côtés, puis on forme des paires.\n- $\\text{H}$ : 1 électron célibataire ; $\\text{C}$ : 4 célibataires ; $\\text{N}$ : 1 doublet + 3 célibataires ; $\\text{O}$ : 2 doublets + 2 célibataires ; $\\text{Cl}$ : 3 doublets + 1 célibataire ; $\\text{Ne}$ : 4 doublets.\n\n## Exemples résolus\n**Exemple 1.** Donne la formule électronique et le nombre d'électrons de valence de l'atome de soufre ($Z = 16$).\n- 16 électrons : $K$ reçoit 2, $L$ reçoit 8, il en reste $16 - 10 = 6$ sur $M$.\n- $(K)^{2}(L)^{8}(M)^{6}$ : **6 électrons de valence**.\n\n**Exemple 2.** Un atome a 3 électrons sur sa couche $M$ (couche externe). Quel est son numéro atomique ? Identifie-le.\n- Les couches $K$ et $L$ sont pleines : $2 + 8 = 10$ électrons, plus 3 : $Z = 13$.\n- C'est l'**aluminium** : $(K)^{2}(L)^{8}(M)^{3}$.",
+   "definition": "Les électrons d'un atome se répartissent sur des couches K (2 au maximum), L (8), M… remplies dans l'ordre ; ceux de la dernière couche sont les électrons de valence.",
+   "formules": [
+    "capacité d'une couche : $2n^{2}$",
+    "$\\text{Na} : (K)^{2}(L)^{8}(M)^{1}$"
+   ],
+   "niveaux": {
+    "phrase": "On range les électrons couche par couche : 2 sur K, puis 8 sur L, puis le reste sur M.",
+    "simple": "Comme on remplit un car de brousse rangée par rangée : on n'ouvre pas une nouvelle rangée tant que la précédente n'est pas pleine (2 places sur la première, 8 sur la suivante).",
+    "complete": "Couches $K, L, M, N$ de capacité $2n^2$ (2, 8, 18) remplies successivement ; pour $Z \\le 20$, $M$ limitée à 8. Formule électronique $(K)^a(L)^b(M)^c$. Électrons de valence = électrons de la couche externe ; saturation à 2 (K) ou 8. Lewis : points (célibataires) et tirets (doublets)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Formule électronique du soufre (Z = 16) ?",
+     "etapes": [
+      "K : 2 électrons ; L : 8 électrons.",
+      "Reste $16 - 10 = 6$ électrons sur M.",
+      "$(K)^2(L)^8(M)^6$ : 6 électrons de valence."
+     ]
+    },
+    {
+     "enonce": "Un atome a 3 électrons sur M (couche externe) : Z ?",
+     "etapes": [
+      "K et L pleines : 2 + 8 = 10.",
+      "$Z = 10 + 3 = 13$.",
+      "Aluminium."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Mettre 8 électrons sur la couche K.",
+    "Commencer la couche M avant d'avoir rempli L.",
+    "Placer 9 électrons sur M pour le potassium (Z = 19) au lieu de (M)⁸(N)¹.",
+    "Compter tous les électrons comme électrons de valence."
+   ],
+   "astuces": [
+    "Vérifie toujours que la somme des exposants est égale à Z.",
+    "Le nombre d'électrons de valence se lit directement : c'est le dernier exposant."
+   ],
+   "mnemo": "« 2 – 8 – 8 » : la règle des 20 premiers éléments.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Le nuage électronique était un tout ; en Seconde on l'organise en couches, ce qui va expliquer la classification périodique."
+   },
+   "methode_redaction": "Écris la répartition étape par étape (K : 2, L : 8, M : reste), puis la formule électronique, puis la réponse demandée (valence, Lewis) en une phrase.",
+   "flash": [
+    {
+     "q": "Nombre maximal d'électrons sur K ? sur L ?",
+     "r": "2 sur K, 8 sur L."
+    },
+    {
+     "q": "Formule électronique de Na (Z = 11) ?",
+     "r": "$(K)^2(L)^8(M)^1$."
+    },
+    {
+     "q": "Électrons de valence du chlore (Z = 17) ?",
+     "r": "7."
+    },
+    {
+     "q": "Formule électronique de K (Z = 19) ?",
+     "r": "$(K)^2(L)^8(M)^8(N)^1$."
+    },
+    {
+     "q": "Qu'est-ce qu'une couche saturée ?",
+     "r": "Une couche externe à 2 électrons (K) ou 8 électrons."
+    },
+    {
+     "q": "Lewis de l'oxygène ?",
+     "r": "2 doublets et 2 électrons célibataires autour de O."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C06-N3.svg",
+    "alt": "Modèle en couches de l'atome de sodium : noyau au centre, couche K avec 2 électrons, couche L avec 8 électrons, couche M avec 1 électron ; à côté la formule (K)²(L)⁸(M)¹.",
+    "legende": "Atome de sodium : 2 + 8 + 1 électrons ; l'électron de la couche M est l'électron de valence.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S1-C06-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C06-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Le noyau d'un atome contient :",
+   "choix": [
+    "des protons et des électrons",
+    "des protons et des neutrons",
+    "des neutrons et des électrons",
+    "seulement des protons"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le noyau est formé de nucléons.",
+    "Les nucléons sont les protons et les neutrons ; les électrons sont autour."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C06-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien de neutrons contient le noyau $^{27}_{13}\\text{Al}$ ?",
+   "reponses_acceptees": [
+    "14"
+   ],
+   "indices": [],
+   "corrige": [
+    "$N = A - Z$.",
+    "$N = 27 - 13 = 14$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C06-N1"
+   ],
+   "format": "qcm",
+   "enonce": "La charge d'un électron vaut :",
+   "choix": [
+    "$+1{,}60 \\times 10^{-19}\\ \\text{C}$",
+    "$-1{,}60 \\times 10^{-19}\\ \\text{C}$",
+    "$0\\ \\text{C}$",
+    "$-9{,}11 \\times 10^{-31}\\ \\text{C}$"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "L'électron porte la charge élémentaire négative.",
+    "$-e = -1{,}60 \\times 10^{-19}\\ \\text{C}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "9,11 × 10⁻³¹ est la masse de l'électron en kg, pas sa charge.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C06-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Écris la formule électronique de l'atome de soufre ($Z = 16$) sous la forme K2L8M6 (sans parenthèses ni exposants).",
+   "reponses_acceptees": [
+    "K2L8M6",
+    "(K)2(L)8(M)6",
+    "2,8,6",
+    "2-8-6",
+    "K2 L8 M6"
+   ],
+   "indices": [],
+   "corrige": [
+    "K : 2 ; L : 8 ; il reste 6 électrons pour M.",
+    "$(K)^2(L)^8(M)^6$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C06-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien d'électrons de valence possède l'atome de chlore ($Z = 17$) ?",
+   "reponses_acceptees": [
+    "7"
+   ],
+   "indices": [],
+   "corrige": [
+    "$(K)^2(L)^8(M)^7$.",
+    "La couche externe M porte 7 électrons : 7 électrons de valence."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C06-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Deux isotopes d'un même élément ont :",
+   "choix": [
+    "le même A et des Z différents",
+    "le même Z et des A différents",
+    "le même nombre de neutrons",
+    "des propriétés chimiques différentes"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Isotopes : même nombre de protons.",
+    "Mais des nombres de neutrons, donc des nombres de masse, différents."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C06-N1",
+    "PC-S1-C06-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calcule la charge (en C) du noyau d'un atome de fer ($Z = 26$). Donne le résultat en écriture scientifique ($e = 1{,}60 \\times 10^{-19}\\ \\text{C}$).",
+   "reponses_acceptees": [
+    "4,16e-18",
+    "4,16×10^-18",
+    "4,16x10^-18",
+    "4,16.10^-18",
+    "4,16*10^-18",
+    "4,16 × 10^-18"
+   ],
+   "indices": [],
+   "corrige": [
+    "$q = Z\\,e = 26 \\times 1{,}60 \\times 10^{-19}$.",
+    "$q = 4{,}16 \\times 10^{-18}\\ \\text{C}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C06-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calcule la masse approchée (en kg) d'un atome de cuivre $^{63}_{29}\\text{Cu}$ ($m_{nucléon} = 1{,}67 \\times 10^{-27}\\ \\text{kg}$). Écriture scientifique, 3 chiffres significatifs.",
+   "reponses_acceptees": [
+    "1,05e-25",
+    "1,05×10^-25",
+    "1,05x10^-25",
+    "1,05.10^-25",
+    "1,05*10^-25"
+   ],
+   "indices": [],
+   "corrige": [
+    "$m \\approx A \\times m_{nucléon} = 63 \\times 1{,}67 \\times 10^{-27}$.",
+    "$m = 1{,}05 \\times 10^{-25}\\ \\text{kg}$."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Multiplier par Z = 29 au lieu de A = 63.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C06-N2",
+    "PC-S1-C06-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Le noyau d'un atome X porte la charge $q = 2{,}08 \\times 10^{-18}\\ \\text{C}$ et l'atome a une masse $m = 4{,}51 \\times 10^{-26}\\ \\text{kg}$ ($e = 1{,}60 \\times 10^{-19}\\ \\text{C}$ ; $m_{nucléon} = 1{,}67 \\times 10^{-27}\\ \\text{kg}$).\n1. Calcule Z et A.\n2. Identifie X (Na : 11 ; Mg : 12 ; Al : 13 ; Si : 14) et écris le symbole de son noyau.\n3. Donne sa composition et sa formule électronique.",
+   "indices": [],
+   "corrige": [
+    "$Z = \\dfrac{q}{e} = \\dfrac{2{,}08 \\times 10^{-18}}{1{,}60 \\times 10^{-19}} = 13$.",
+    "$A = \\dfrac{m}{m_{nucléon}} = \\dfrac{4{,}51 \\times 10^{-26}}{1{,}67 \\times 10^{-27}} = 27$.",
+    "$Z = 13$ : aluminium, $^{27}_{13}\\text{Al}$.",
+    "13 protons, 27 − 13 = 14 neutrons, 13 électrons.",
+    "$(K)^2(L)^8(M)^3$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C06-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C06-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Le rayon d'un atome est d'environ $1{,}0 \\times 10^{-10}\\ \\text{m}$ et celui de son noyau $1{,}0 \\times 10^{-15}\\ \\text{m}$.\n1. Combien de fois l'atome est-il plus grand que le noyau ?\n2. Si l'on représentait le noyau par une bille de 1 cm de rayon, quel serait le rayon de l'atome ?\n3. Quelle propriété de l'atome ces calculs illustrent-ils ?",
+   "indices": [],
+   "corrige": [
+    "$\\dfrac{1{,}0 \\times 10^{-10}}{1{,}0 \\times 10^{-15}} = 1{,}0 \\times 10^{5}$ : 100 000 fois.",
+    "$1\\ \\text{cm} \\times 10^{5} = 10^{5}\\ \\text{cm} = 1000\\ \\text{m} = 1\\ \\text{km}$.",
+    "La structure lacunaire : l'atome est essentiellement vide."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C06-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C06-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Une petite pépite d'or pur a une masse de 1,0 g. L'or a pour noyau $^{197}_{79}\\text{Au}$ ($m_{nucléon} = 1{,}67 \\times 10^{-27}\\ \\text{kg}$).\n1. Calcule la masse d'un atome d'or.\n2. Combien d'atomes d'or contient la pépite ?\n3. Combien d'électrons contient-elle ?",
+   "indices": [
+    "Convertis 1,0 g en kg."
+   ],
+   "corrige": [
+    "$m_{Au} \\approx 197 \\times 1{,}67 \\times 10^{-27} = 3{,}29 \\times 10^{-25}\\ \\text{kg}$.",
+    "$N = \\dfrac{1{,}0 \\times 10^{-3}}{3{,}29 \\times 10^{-25}} = 3{,}0 \\times 10^{21}$ atomes.",
+    "Chaque atome a 79 électrons : $79 \\times 3{,}04 \\times 10^{21} = 2{,}4 \\times 10^{23}$ électrons."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C06-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C06-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un atome possède 3 électrons sur sa couche M, qui est sa couche externe. Quel est son numéro atomique Z ?",
+   "reponses_acceptees": [
+    "13",
+    "Z=13"
+   ],
+   "indices": [],
+   "corrige": [
+    "K et L sont pleines : 2 + 8 = 10 électrons.",
+    "$Z = 10 + 3 = 13$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C06-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Le chlore naturel contient 75,8 % d'atomes $^{35}\\text{Cl}$ et 24,2 % d'atomes $^{37}\\text{Cl}$. Calcule le nombre moyen de nucléons d'un atome de chlore naturel (3 chiffres significatifs).",
+   "reponses_acceptees": [
+    "35,5",
+    "35,48",
+    "35,484"
+   ],
+   "indices": [],
+   "corrige": [
+    "Moyenne pondérée : $0{,}758 \\times 35 + 0{,}242 \\times 37$.",
+    "$= 26{,}53 + 8{,}954 = 35{,}5$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Faire la moyenne simple (35 + 37)/2 = 36 sans tenir compte des proportions.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C06-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C06-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle est la représentation de Lewis de l'atome d'azote N ($Z = 7$) ?",
+   "choix": [
+    "N entouré de 5 électrons célibataires",
+    "N entouré d'1 doublet et de 3 électrons célibataires",
+    "N entouré de 2 doublets et d'1 électron célibataire",
+    "N entouré de 7 électrons"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "$(K)^2(L)^5$ : 5 électrons de valence.",
+    "On place 4 électrons seuls puis on forme une paire : 1 doublet + 3 électrons célibataires."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Inverser A et Z, ou prendre A pour le nombre de neutrons.",
+  "Plus de 2 électrons sur K ou plus de 8 sur L ; somme des exposants ≠ Z.",
+  "Oublier la neutralité de l'atome (nombre d'électrons = Z).",
+  "Puissances de 10 mal tapées à la calculatrice (1,6 × 10⁻¹⁹).",
+  "Confondre masse (kg) et charge (C) d'une particule.",
+  "Isotopes présentés comme des éléments différents."
+ ]
+}

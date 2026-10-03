@@ -346,7 +346,7 @@
  "verification": {
   "passe1": "Résolution manuelle : E=3x²+2 ; 39, 40, 41 ; G=4(x−5)(x+5), entier 5 ; S(3;−1), R(−1;−4), BCRS de centre A ; (MN)∥(BC)∥(RS), MN=2BC=10 ; aire ABCD=9x/2 ; v=6x², v(1,5)=13,5 ; x=5 ; IJKL trapèze rectangle d'aire 9x/8 ; v'=3x²/4 ; v'(3)=27/4, v'(√15)=45/4 ; R=25√3.",
   "passe2": "Résolution indépendante (sympy) : S calculé comme 2A−C, R=S+BC, milieux de [BR] et [CS] recalculés ; volumes recalculés symboliquement : mêmes résultats.",
-  "code": "oui : script verif.py (sympy), 18 vérifications pour ce sujet, toutes OK",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy), 15 vérifications pour ce sujet, toutes OK",
   "desaccords": [
    "Aucun désaccord entre les deux passes.",
    "Ex1 Q1 (A, fraction étagée) et Ex4 Q2 (H) illisibles, non corrigés.",

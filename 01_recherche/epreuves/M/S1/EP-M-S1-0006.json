@@ -418,7 +418,7 @@
  "verification": {
   "passe1": "Résolution manuelle : 729=3⁶=27², C−1=(x+27)² ; A=−35−3x+2x²=(x−5)(2x+7), B=(x−5)(x+2) ; S1={0;3}, S2={−11;5} ; E×F=1, F²=2+√3 ; cercle de diamètre [BC], FBE=30°, FIE=60° (FIB=30°) ; EB=EC=3√2, AB=2√6 ; C(7;7), M(1;4), (AB): y=x+6, pente (CD)=1, (Δ): y=−2x+3, G(−1/5;17/5) ; cône de rayon 6, hauteur 6, génératrice 6√2, aire 36π(1+√2), volume 72π.",
   "passe2": "Résolution indépendante (sympy) : factorint(729), factor() des polynômes, solve() des équations, AB vérifié aussi par la loi des sinus, G par résolution du système : mêmes résultats.",
-  "code": "oui : script verif.py (sympy), 27 vérifications pour ce sujet, toutes OK",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy), 22 vérifications pour ce sujet, toutes OK",
   "desaccords": [
    "Aucun désaccord entre les deux passes.",
    "Durée et coefficient absents de l'OCR : duree_min non renseignée.",

@@ -97,7 +97,9 @@ function Correction({ ep, d, dureeMin, modeComposition }: { ep: Epreuve; d: Donn
   const [rendu, setRendu] = useState(false)
   const baremes = ep.questions.map(q => q.bareme?.length === q.corrige.length ? q.bareme : q.corrige.map((_, i) => i === q.corrige.length - 1 ? (q.points ?? 1) : 0))
   const totalQ = baremes.map(b => b.reduce((s, x) => s + x, 0))
-  const total = ep.total_points ?? totalQ.reduce((s, x) => s + x, 0)
+  // Sujet partiellement transcrit : la note est calculée sur les points réellement corrigés.
+  const total = totalQ.reduce((s, x) => s + x, 0)
+  const partiel = !!ep.total_points && total < ep.total_points - 0.01
   const points = ep.questions.reduce((s, q, i) => s + baremes[i].reduce((t, b, k) => t + (coches[q.numero]?.[k] ? b : 0), 0), 0)
   const sur20 = total ? Math.round(points / total * 200) / 10 : 0
 
@@ -116,6 +118,7 @@ function Correction({ ep, d, dureeMin, modeComposition }: { ep: Epreuve; d: Donn
   return <section className="correction">
     <h2>Corrige ta copie</h2>
     <p className="note">Pour chaque ligne du corrigé, coche-la seulement si ta copie contient cet élément (résultat ET justification).</p>
+    {partiel && <p className="note avertissement">Sujet partiellement lisible : {total} points sur {ep.total_points} ont pu être transcrits et corrigés. Ta note est ramenée sur 20 à partir de ces {total} points.</p>}
     {ep.questions.map((q, i) => <div key={q.numero} className="carte question">
       <h3>{q.numero} <small>{totalQ[i]} pt</small></h3>
       <Riche texte={q.enonce} />

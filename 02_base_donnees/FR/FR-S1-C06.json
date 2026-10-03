@@ -1,0 +1,603 @@
+{
+ "id": "FR-S1-C06",
+ "matiere": "FR",
+ "semestre": 1,
+ "ordre": 6,
+ "titre": "Le récit et le roman",
+ "objectifs": [
+  "L'élève doit être capable de distinguer auteur, narrateur et personnage et d'identifier la focalisation d'un extrait.",
+  "L'élève doit être capable d'analyser les temps du récit, l'ordre et le rythme narratifs.",
+  "L'élève doit être capable d'appliquer le schéma narratif et le schéma actantiel et d'étudier un personnage.",
+  "L'élève doit être capable d'analyser une description et de caractériser le conte, la nouvelle et le roman."
+ ],
+ "prerequis": [
+  "FR-3e-RECIT",
+  "FR-S1-C01",
+  "FR-S1-C02"
+ ],
+ "notions": [
+  {
+   "id": "FR-S1-C06-N1",
+   "titre": "Le narrateur et la focalisation (point de vue)",
+   "prerequis_notions": [
+    "FR-3e-RECIT",
+    "FR-S1-C01-N2"
+   ],
+   "cours_md": "## 1. Auteur, narrateur, personnage\n\n:::definition\n- L'**auteur** est la personne réelle qui a écrit le livre (son nom est sur la couverture).\n- Le **narrateur** est la voix qui **raconte** l'histoire dans le texte.\n- Les **personnages** sont les êtres (humains, animaux, objets) qui agissent dans l'histoire.\n:::\n\nLe narrateur peut être :\n- **extérieur à l'histoire** : il raconte à la 3e personne (« Il marchait… ») sans être un personnage ;\n- **personnage de l'histoire** : il raconte à la 1re personne (« Je marchais… »), comme dans un roman autobiographique (*L'Enfant noir* de Camara Laye, 1953) ou un journal (*Une vie de boy* de Ferdinand Oyono, 1956).\n\n## 2. Les trois focalisations\n\n:::definition\nLa **focalisation** (ou point de vue narratif) désigne **ce que le narrateur sait et montre** : par les yeux de qui voit-on l'histoire ?\n:::\n\n| Focalisation | Le narrateur… | Indices | Effet |\n|---|---|---|---|\n| **Zéro** (narrateur omniscient) | sait tout : pensées de tous les personnages, passé, avenir | « Il ignorait que… », accès aux pensées de plusieurs personnages | vue d'ensemble, le lecteur en sait plus que les personnages |\n| **Interne** | voit par les yeux d'**un** personnage | verbes de perception et de pensée (voir, sentir, se demander) liés à un seul personnage | le lecteur partage les émotions, mais aussi les limites, du personnage |\n| **Externe** | voit de l'extérieur, comme une caméra | gestes et paroles seulement, aucune pensée ; « il semblait », « peut-être » | mystère, suspense, objectivité |\n\n> Focalisation zéro : « Kodjo croyait son ami fidèle ; il ignorait que celui-ci l'avait déjà trahi. »\n> Focalisation interne : « Kodjo regarda la porte. Pourquoi son ami ne venait-il pas ? Une inquiétude sourde lui serrait la gorge. »\n> Focalisation externe : « Un homme entra, posa un sac sur la table et ressortit sans un mot. »\n\n:::methode\n**Identifier la focalisation**\n1. Qui raconte ? (je = narrateur personnage ; il = narrateur extérieur)\n2. Le narrateur connaît-il les **pensées** ? De **plusieurs** personnages (zéro) ou d'**un seul** (interne) ? D'**aucun** (externe) ?\n3. Relève les verbes de perception et de pensée, les modalisateurs (« semblait », « peut-être »).\n4. Conclus et donne l'**effet** sur le lecteur.\n:::\n\n:::attention\nUn récit à la 1re personne est souvent en focalisation **interne**, mais un récit à la 3e personne peut l'être aussi (« Afi regardait… elle sentait… »). Ne confonds pas **personne grammaticale** et **focalisation**.\n:::\n\n:::remarque\nUn roman change souvent de focalisation d'un chapitre ou d'un passage à l'autre. On analyse donc la focalisation **dominante d'un extrait**.\n:::",
+   "definition": "Le narrateur est la voix qui raconte (extérieur ou personnage) ; la focalisation indique ce qu'il sait et montre : tout (focalisation zéro), ce que perçoit un personnage (interne), ou seulement l'extérieur (externe).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Qui raconte ? Et par les yeux de qui voit-on ?",
+    "simple": "Un match peut être raconté par le commentateur qui sait tout des joueurs (zéro), par un joueur sur le terrain (interne) ou par une caméra fixe en tribune (externe).",
+    "complete": "La narratologie distingue la voix (qui raconte : narrateur hétérodiégétique ou homodiégétique) et le mode (qui perçoit). La focalisation zéro correspond à un savoir illimité du narrateur ; la focalisation interne restreint l'information au champ de conscience d'un personnage-focal ; la focalisation externe s'en tient aux comportements observables. Ces choix règlent la distribution de l'information et l'adhésion du lecteur."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Quelle focalisation ? « Le vieux pêcheur tira son filet. Il était vide. Il le replia lentement, sans rien dire, et regarda longtemps la mer. »",
+     "etapes": [
+      "Narrateur extérieur (3e personne).",
+      "Aucune pensée exprimée : seulement des gestes.",
+      "Focalisation externe : le silence du personnage laisse deviner sa tristesse sans la dire."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre l'auteur et le narrateur.",
+    "Croire que « il » implique toujours la focalisation zéro.",
+    "Identifier la focalisation sans relever d'indices.",
+    "Oublier d'indiquer l'effet produit sur le lecteur."
+   ],
+   "astuces": [
+    "Pose-toi la question : « Le narrateur entre-t-il dans la tête d'un personnage ? de plusieurs ? d'aucun ? »",
+    "Les verbes « semblait », « paraissait » signalent souvent un regard extérieur."
+   ],
+   "mnemo": "« Zéro = Zeus (il sait tout) ; Interne = Intérieur d'une tête ; Externe = Extérieur, comme une caméra. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu distinguais déjà narrateur et auteur, récit à la 1re et à la 3e personne. En seconde, tu ajoutes les trois focalisations et leur effet."
+   },
+   "methode_redaction": "Rédige : « Le passage est en focalisation interne : le lecteur découvre la scène à travers le regard d'Afi, comme le montrent les verbes de perception \"regardait\" et \"sentait\". Ce choix fait partager son angoisse. »",
+   "flash": [
+    {
+     "q": "Quelle différence entre auteur et narrateur ?",
+     "r": "L'auteur est la personne réelle ; le narrateur est la voix qui raconte dans le texte."
+    },
+    {
+     "q": "Focalisation zéro ?",
+     "r": "Le narrateur sait tout (narrateur omniscient)."
+    },
+    {
+     "q": "Focalisation interne ?",
+     "r": "On voit par les yeux d'un seul personnage."
+    },
+    {
+     "q": "Focalisation externe ?",
+     "r": "On voit de l'extérieur, comme une caméra, sans accès aux pensées."
+    },
+    {
+     "q": "Un récit à la 3e personne peut-il être en focalisation interne ?",
+     "r": "Oui (« elle regardait… elle sentait… »)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C06-N1.svg",
+    "alt": "Tableau des trois focalisations (zéro, interne, externe) : ce que sait le narrateur et l'effet produit sur le lecteur.",
+    "legende": "Focalisation zéro, interne et externe.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C06-N2",
+   "titre": "Le temps du récit : temps verbaux, ordre et rythme",
+   "prerequis_notions": [
+    "FR-S1-C06-N1"
+   ],
+   "cours_md": "## 1. Les temps du récit au passé\n\n:::definition\nDans un récit au passé, le **passé simple** présente les **actions de premier plan** (ponctuelles, qui font avancer l'histoire) ; l'**imparfait** présente l'**arrière-plan** (descriptions, actions en cours, habitudes, commentaires).\n:::\n\n> « Afi **regardait** (arrière-plan) défiler les palmiers quand le car **freina** (premier plan) brusquement. »\n\n- **Plus-que-parfait** : action antérieure (retour en arrière) : « Elle **avait échoué** au concours la veille. »\n- **Présent de narration** : rend une action passée plus vivante, comme si elle se déroulait sous nos yeux.\n\n## 2. L'ordre du récit\n\n- **Ordre chronologique** : les événements sont racontés dans l'ordre où ils se produisent.\n- **Analepse** (retour en arrière) : on raconte un événement antérieur (souvenir).\n- **Prolepse** (anticipation) : on annonce un événement futur (« Il ne savait pas encore que ce voyage changerait sa vie. »).\n- **Récit *in medias res*** : l'histoire commence au milieu de l'action.\n\n## 3. Le rythme (la vitesse) du récit\n\n| Procédé | Principe | Exemple / effet |\n|---|---|---|\n| **Scène** | temps du récit ≈ temps de l'histoire | un dialogue ; effet de réel, intensité |\n| **Sommaire** | on résume beaucoup de temps en peu de lignes | « Pendant dix ans, il travailla aux champs. » |\n| **Ellipse** | on saute une période | « Trois heures plus tard, … » ; accélération |\n| **Pause** | l'histoire s'arrête pour une description ou un commentaire | portrait, paysage ; ralentissement |\n\n:::methode\n**Analyser le temps dans un extrait**\n1. Relève les temps verbaux et classe-les (premier plan / arrière-plan).\n2. Repère les indicateurs de temps (« trois heures plus tard », « autrefois », « ce jour-là »).\n3. Identifie l'ordre (chronologique, analepse, prolepse) et le rythme (scène, sommaire, ellipse, pause).\n4. Interprète : accélération (tension, urgence) ou ralentissement (attente, contemplation, suspense) ?\n:::\n\n:::attention\nNe dis pas seulement « l'auteur utilise l'imparfait » : précise sa **valeur** (description, habitude, action en cours, arrière-plan) et son **effet**.\n:::",
+   "definition": "Dans un récit au passé, le passé simple porte les actions de premier plan et l'imparfait l'arrière-plan ; l'ordre peut être chronologique ou bousculé (analepse, prolepse) et le rythme varie (scène, sommaire, ellipse, pause).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Le passé simple fait avancer l'histoire, l'imparfait peint le décor ; le narrateur peut accélérer, ralentir ou revenir en arrière.",
+    "simple": "Comme une vidéo : on peut la regarder à vitesse normale (scène), en accéléré (sommaire), sauter un passage (ellipse), faire pause sur une image (pause) ou revenir en arrière (analepse).",
+    "complete": "L'opposition aspectuelle passé simple / imparfait structure le récit en premier plan (procès bornés, successifs) et arrière-plan (procès non bornés, descriptifs, itératifs). L'ordre narratif peut être linéaire ou comporter des anachronies (analepses, prolepses). La vitesse narrative résulte du rapport entre durée de l'histoire et longueur du texte : scène (isochronie), sommaire (accélération), ellipse (suppression), pause (arrêt descriptif ou discursif)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Dans « Trois heures plus tard, le car s'arrêta dans un nuage de poussière », quel procédé de rythme ?",
+     "etapes": [
+      "« Trois heures plus tard » : le récit saute la durée du voyage.",
+      "C'est une ellipse : elle accélère le récit vers l'arrivée."
+     ]
+    },
+    {
+     "enonce": "Valeur de l'imparfait : « Chaque matin, il allait puiser l'eau au marigot. »",
+     "etapes": [
+      "« Chaque matin » indique une répétition.",
+      "Imparfait d'habitude (itératif)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre analepse (retour en arrière) et prolepse (anticipation).",
+    "Nommer un temps sans donner sa valeur.",
+    "Confondre ellipse (on saute) et sommaire (on résume).",
+    "Oublier l'effet sur le lecteur (tension, attente)."
+   ],
+   "astuces": [
+    "Analepse : « A » comme « Arrière » ; Prolepse : « Pro » comme « en avant » (projet).",
+    "Un dialogue au discours direct = une scène."
+   ],
+   "mnemo": "« Passé simple = Pas en avant ; Imparfait = Image de fond. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu opposais déjà passé simple et imparfait dans un récit. En seconde, tu ajoutes l'ordre (analepse, prolepse) et le rythme (scène, sommaire, ellipse, pause)."
+   },
+   "methode_redaction": "Rédige : « L'ellipse \"Trois heures plus tard\" accélère le récit et rapproche brutalement le moment redouté de l'arrivée, ce qui renforce l'angoisse du personnage. »",
+   "flash": [
+    {
+     "q": "Rôle du passé simple dans un récit ?",
+     "r": "Les actions de premier plan, qui font avancer l'histoire."
+    },
+    {
+     "q": "Rôle de l'imparfait ?",
+     "r": "L'arrière-plan : descriptions, actions en cours, habitudes."
+    },
+    {
+     "q": "Qu'est-ce qu'une analepse ?",
+     "r": "Un retour en arrière."
+    },
+    {
+     "q": "Qu'est-ce qu'une ellipse narrative ?",
+     "r": "Un saut dans le temps : une période n'est pas racontée."
+    },
+    {
+     "q": "Qu'est-ce qu'une pause ?",
+     "r": "L'histoire s'arrête pour une description ou un commentaire."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C06-N2.svg",
+    "alt": "Tableau du rythme et de l'ordre du récit : scène, sommaire, ellipse, pause, analepse, prolepse, avec leur principe et leur effet.",
+    "legende": "Les procédés de rythme et d'ordre du récit.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C06-N3",
+   "titre": "Le schéma narratif et le schéma actantiel",
+   "prerequis_notions": [
+    "FR-S1-C06-N2"
+   ],
+   "cours_md": "## 1. Le schéma narratif (ou quinaire)\n\n:::definition\nLe **schéma narratif** découpe un récit en **cinq étapes** : situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale.\n:::\n\n1. **Situation initiale** : présentation des personnages, du lieu, du temps ; équilibre (imparfait souvent).\n2. **Élément perturbateur** (ou déclencheur) : un événement rompt l'équilibre (« Un jour… », passé simple).\n3. **Péripéties** : les actions et épreuves du héros.\n4. **Élément de résolution** : l'événement qui met fin aux péripéties.\n5. **Situation finale** : nouvel équilibre (meilleur ou pire qu'au début).\n\n## 2. Le schéma actantiel\n\n:::definition\nLe **schéma actantiel** analyse les **forces** qui agissent dans un récit : qui cherche quoi, pour qui, avec quelle aide, contre quels obstacles. Les six rôles sont appelés **actants**.\n:::\n\n| Actant | Rôle | Exemple (conte d'exemple) |\n|---|---|---|\n| **Sujet** | le héros qui poursuit une quête | le jeune Koami |\n| **Objet** | ce qu'il cherche | l'eau pour sauver le village de la sécheresse |\n| **Destinateur** | ce qui pousse le sujet à agir | le chef et la souffrance du village |\n| **Destinataire** | celui qui profite de la quête | le village |\n| **Adjuvant** | ce qui aide le sujet | une vieille femme, une calebasse magique |\n| **Opposant** | ce qui s'oppose au sujet | le génie de la colline, la peur |\n\n:::propriete\nUn actant n'est pas forcément une personne : ce peut être un objet (la calebasse), une idée (l'amour, l'ambition), un groupe (le village). Un même personnage peut occuper plusieurs rôles.\n:::\n\n## 3. Le personnage et le portrait\n\n- **Portrait physique** (apparence) et **portrait moral** (caractère, qualités, défauts).\n- Le personnage se révèle par ce qu'il **fait**, ce qu'il **dit**, ce qu'en disent les **autres** et ce qu'en dit le **narrateur**.\n- Types : héros, personnage principal / secondaire, personnage type (le paysan rusé, le fonctionnaire corrompu…).\n\n:::methode\n**Étudier un personnage**\n1. Relève ce que l'on sait de lui (apparence, caractère, situation sociale).\n2. Observe ses actions et ses paroles.\n3. Précise son rôle actantiel et son évolution (du début à la fin).\n4. Interprète : que représente-t-il (un type social, une idée, une critique) ?\n:::\n\n:::attention\nLe schéma narratif s'applique bien aux contes et aux nouvelles ; dans un **roman**, on l'utilise pour un **épisode** ou pour l'intrigue principale, pas pour chaque chapitre.\n:::",
+   "definition": "Le schéma narratif découpe un récit en cinq étapes (situation initiale, élément perturbateur, péripéties, résolution, situation finale) ; le schéma actantiel en analyse les forces (sujet, objet, destinateur, destinataire, adjuvant, opposant).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Une histoire : un équilibre, un problème, des aventures, une solution, un nouvel équilibre ; et un héros qui cherche quelque chose avec des aides et des ennemis.",
+    "simple": "Au football, l'équipe (sujet) cherche la coupe (objet) pour ses supporters (destinataire), poussée par l'honneur (destinateur), aidée par l'entraîneur (adjuvant), contre l'équipe adverse et les blessures (opposants).",
+    "complete": "Le schéma quinaire (Larivaille) modélise la transformation d'un état initial en état final par une séquence de complication, d'actions et de résolution. Le modèle actantiel (Greimas) décrit les fonctions structurales du récit selon trois axes : le désir (sujet/objet), la communication (destinateur/destinataire) et le pouvoir (adjuvant/opposant). L'étude du personnage croise caractérisation directe et indirecte, fonction actantielle et évolution."
+   },
+   "analogie": "Dans les contes de la veillée, le lièvre rusé est souvent le sujet ; la hyène gloutonne, l'opposant ; la morale finale est la leçon de la situation finale.",
+   "exemples_resolus": [
+    {
+     "enonce": "Repère l'élément perturbateur : « Le village vivait paisiblement au bord du fleuve. Un matin, les pêcheurs trouvèrent leurs filets déchirés. Ils décidèrent de guetter le coupable… »",
+     "etapes": [
+      "Situation initiale : « Le village vivait paisiblement » (imparfait, équilibre).",
+      "Élément perturbateur : « Un matin, les pêcheurs trouvèrent leurs filets déchirés » (passé simple, rupture)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre élément perturbateur et péripéties.",
+    "Penser que les actants sont toujours des personnes.",
+    "Recopier tout le récit au lieu de dégager les étapes.",
+    "Oublier l'évolution du personnage entre le début et la fin."
+   ],
+   "astuces": [
+    "L'élément perturbateur est souvent introduit par « Un jour », « Soudain », « Mais ».",
+    "Pour l'objet de la quête, demande-toi : « Que veut le héros ? »"
+   ],
+   "mnemo": "Schéma narratif : « Il était (SI), Mais un jour (EP), Alors (péripéties), Enfin (résolution), Depuis (SF). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu connais le schéma narratif depuis le collège. En seconde, on y ajoute le schéma actantiel et l'étude du personnage, utiles pour les œuvres intégrales."
+   },
+   "methode_redaction": "Présente le schéma narratif en phrases courtes ou en tableau si la question le permet ; le schéma actantiel peut être présenté en tableau (actant, rôle, élément du texte).",
+   "flash": [
+    {
+     "q": "Les 5 étapes du schéma narratif ?",
+     "r": "Situation initiale, élément perturbateur, péripéties, élément de résolution, situation finale."
+    },
+    {
+     "q": "Les 6 actants ?",
+     "r": "Sujet, objet, destinateur, destinataire, adjuvant, opposant."
+    },
+    {
+     "q": "Qu'est-ce qu'un adjuvant ?",
+     "r": "Ce qui aide le sujet dans sa quête."
+    },
+    {
+     "q": "Un actant est-il toujours une personne ?",
+     "r": "Non : ce peut être un objet, une idée, un groupe."
+    },
+    {
+     "q": "Quel temps pour la situation initiale ?",
+     "r": "Souvent l'imparfait (description d'un équilibre)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C06-N3.svg",
+    "alt": "Carte mentale du schéma actantiel autour du couple sujet-objet : destinateur, destinataire, adjuvants, opposants, avec un exemple de conte, et rappel des cinq étapes du schéma narratif.",
+    "legende": "Les forces qui animent un récit.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C06-N4",
+   "titre": "La description et le portrait dans le récit",
+   "prerequis_notions": [
+    "FR-S1-C06-N2"
+   ],
+   "cours_md": "## 1. Les fonctions de la description\n\n:::definition\nLa **description** est une **pause** dans le récit qui présente un lieu, un objet ou un personnage (on parle alors de **portrait**).\n:::\n\nElle peut avoir plusieurs **fonctions** :\n- **informative** (ou réaliste) : situer l'action, donner l'illusion du réel (« effet de réel ») ;\n- **symbolique** : le décor reflète les sentiments ou le destin des personnages (un ciel sombre annonce un malheur) ;\n- **narrative** : elle prépare la suite (un objet décrit jouera un rôle) ;\n- **esthétique** : créer de la beauté, des images ;\n- **argumentative** : faire juger un lieu ou une personne (éloge ou critique).\n\n## 2. L'organisation d'une description\n\n- **Ordre spatial** : de près à loin, de haut en bas, de gauche à droite ; indicateurs de lieu (au premier plan, au fond, à gauche…).\n- **Ordre du regard** : on suit le regard d'un personnage (focalisation interne).\n- **Ordre logique** : du général au détail.\n\n## 3. Les outils de la description\n\n- **Imparfait** de description ;\n- **expansions du nom** : adjectifs, compléments du nom, propositions relatives ;\n- **verbes de perception** : voir, entendre, sentir ;\n- **champs lexicaux** (couleurs, sons, odeurs) et **figures** (comparaisons, métaphores) ;\n- **vocabulaire mélioratif ou péjoratif** qui révèle un point de vue.\n\n> Exemple (texte d'exemple) : « Au fond de la cour, un vieux manguier étendait ses branches noueuses au-dessus d'une case aux murs de terre rouge. À son ombre, trois femmes pilaient le foufou en chantant, et l'odeur du feu de bois montait doucement vers le ciel pâle. »\n> Ordre spatial (« Au fond », « À son ombre »), imparfait, expansions du nom (« aux murs de terre rouge »), perceptions (la vue, l'ouïe : « en chantant », l'odorat : « l'odeur du feu de bois ») : la description crée une atmosphère paisible et chaleureuse.\n\n:::methode\n**Analyser une description**\n1. Que décrit-on ? Qui regarde (focalisation) ?\n2. Comment la description est-elle organisée (indicateurs de lieu) ?\n3. Quels procédés (temps, expansions, sens, figures, vocabulaire) ?\n4. Quelle fonction (réaliste, symbolique, narrative, critique) et quelle atmosphère ?\n:::\n\n:::attention\nNe te contente pas de paraphraser (« le texte décrit un manguier et des femmes ») : analyse **comment** et **pourquoi** l'auteur décrit.\n:::",
+   "definition": "La description est une pause du récit qui présente un lieu, un objet ou un personnage (portrait) ; organisée dans l'espace ou selon un regard, elle remplit des fonctions informative, symbolique, narrative, esthétique ou argumentative.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Décrire, c'est arrêter l'histoire pour faire voir, entendre, sentir.",
+    "simple": "C'est comme un photographe de mariage : il ne choisit pas au hasard ce qu'il montre, et sa photo dit quelque chose des personnes.",
+    "complete": "La description, séquence textuelle à dominante statique, s'organise selon un ancrage (thème-titre), une aspectualisation (parties, propriétés) et une mise en relation (comparaisons, situations). Elle repose sur l'imparfait, les expansions nominales, le lexique sensoriel et les figures, et assume des fonctions mimétique, symbolique, narrative, esthétique ou évaluative."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Quelle fonction a cette description ? « Le ciel s'assombrit soudain ; de lourds nuages noirs roulaient au-dessus du village silencieux. » (au moment où un drame va arriver)",
+     "etapes": [
+      "Vocabulaire sombre et menaçant (« assombrit », « lourds nuages noirs »).",
+      "Fonction symbolique et narrative : le décor annonce le malheur."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Paraphraser la description sans l'analyser.",
+    "Oublier l'organisation (indicateurs de lieu).",
+    "Ne pas relier la description au personnage ou à l'action.",
+    "Oublier les sens autres que la vue (ouïe, odorat, toucher, goût)."
+   ],
+   "astuces": [
+    "Fais l'inventaire des cinq sens : un texte riche en sensations crée une atmosphère.",
+    "Demande-toi : « Pourquoi l'auteur s'arrête-t-il ici pour décrire ? »"
+   ],
+   "mnemo": "« Fonctions de la description : I-S-N-E-A » : Informer, Symboliser, Narrer (préparer), Embellir, Argumenter.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris à écrire une description organisée avec des indicateurs de lieu et des adjectifs. En seconde, tu analyses ses fonctions dans les textes littéraires."
+   },
+   "methode_redaction": "Pour analyser une description dans un commentaire : relevé (expansions, sens, figures) + interprétation de l'atmosphère + fonction dans le récit.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un portrait ?",
+     "r": "La description d'un personnage (physique et/ou moral)."
+    },
+    {
+     "q": "Quel temps pour la description dans un récit au passé ?",
+     "r": "L'imparfait."
+    },
+    {
+     "q": "Qu'est-ce que la fonction symbolique d'une description ?",
+     "r": "Le décor reflète les sentiments ou le destin des personnages."
+    },
+    {
+     "q": "Cite trois organisations possibles d'une description.",
+     "r": "Spatiale, selon le regard d'un personnage, du général au détail."
+    },
+    {
+     "q": "Qu'est-ce qu'une expansion du nom ?",
+     "r": "Un adjectif, un complément du nom ou une relative qui précise le nom."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C06-N4.svg",
+    "alt": "Carte mentale des cinq fonctions de la description : informer, symboliser, préparer la suite, embellir, argumenter.",
+    "legende": "À quoi sert une description dans un récit.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S1-C06-N5",
+   "titre": "Les genres du récit : conte, nouvelle, roman",
+   "prerequis_notions": [
+    "FR-S1-C06-N3"
+   ],
+   "cours_md": "## 1. Le conte\n\n:::definition\nLe **conte** est un récit court, souvent d'origine **orale**, situé dans un temps et un lieu indéterminés, qui transmet une **leçon** (morale ou sagesse).\n:::\n\n- Formules d'ouverture et de clôture (« Il était une fois… », et dans les veillées africaines, des formules d'échange entre conteur et auditoire).\n- Personnages types : animaux (le lièvre rusé, l'araignée, la hyène gloutonne), orphelins, rois, génies.\n- Merveilleux, épreuves souvent répétées (trois fois), chants repris par l'assistance.\n- **Morale** explicite ou implicite : le conte est un **apologue** (argumentation indirecte).\n\n## 2. La nouvelle\n\n:::definition\nLa **nouvelle** est un récit **bref**, avec **peu de personnages**, une action **resserrée** et souvent une **chute** (fin inattendue).\n:::\n\n> Guy de Maupassant (1850-1893) en a écrit plus de trois cents. Dans « La Parure » (1884), Mathilde Loisel passe dix ans de misère à rembourser une rivière de diamants perdue… qui était fausse : c'est la chute.\n\n## 3. Le roman\n\n:::definition\nLe **roman** est un récit **long** en prose, avec de **nombreux personnages**, des intrigues multiples et une évolution dans le temps.\n:::\n\n| Type de roman | Caractéristique | Exemple |\n|---|---|---|\n| Réaliste / naturaliste | peindre fidèlement la société | Zola, *Germinal* (1885) |\n| Autobiographique | l'auteur raconte sa propre vie | Camara Laye, *L'Enfant noir* (1953) |\n| Épistolaire | composé de lettres | Mariama Bâ, *Une si longue lettre* (1979) |\n| De formation (d'apprentissage) | un jeune personnage apprend la vie | Cheikh Hamidou Kane, *L'Aventure ambiguë* (1961) |\n| Historique, policier, de science-fiction… | selon le sujet | — |\n\n:::propriete\nLe **roman africain** francophone a souvent une dimension de **témoignage et de critique** : critique de la colonisation (*Une vie de boy*, Ferdinand Oyono, 1956 ; *Le Pauvre Christ de Bomba*, Mongo Beti, 1956), puis désillusion après les indépendances (*Les Soleils des indépendances*, Ahmadou Kourouma, 1968). Le premier roman togolais, *L'Esclave* de Félix Couchoro, date de 1929.\n:::\n\n:::methode\n**Identifier le genre d'un récit**\n1. Longueur et nombre de personnages.\n2. Présence du merveilleux, d'une morale (conte) ou d'une chute (nouvelle).\n3. Rapport à la réalité (réaliste, autobiographique, fantastique…).\n4. Forme (lettres, journal, narration classique).\n:::\n\n:::attention\nNe confonds pas **autobiographie** (l'auteur = le narrateur = le personnage principal, récit vrai) et **roman à la première personne** (le narrateur « je » est un personnage inventé).\n:::",
+   "definition": "Le conte est un récit court, souvent oral, porteur d'une leçon ; la nouvelle est un récit bref et resserré, souvent à chute ; le roman est un long récit en prose aux nombreux personnages, de types variés (réaliste, autobiographique, épistolaire, de formation…).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Conte = leçon ; nouvelle = court avec une surprise ; roman = long avec beaucoup de personnages.",
+    "simple": "Le conte, c'est le récit du grand-père à la veillée ; la nouvelle, une anecdote rapide racontée au grin avec une fin qui surprend ; le roman, une longue série qu'on suit soir après soir.",
+    "complete": "Le conte relève de la tradition orale et de l'apologue : temporalité indéterminée, personnages-types, merveilleux, structure répétitive, visée morale. La nouvelle se caractérise par la brièveté, la concentration de l'action et l'effet de clôture (chute). Le roman, genre ouvert et polymorphe, développe des intrigues complexes et des personnages qui évoluent ; ses sous-genres se définissent par le rapport au réel, la forme et le projet (réaliste, autobiographique, épistolaire, de formation)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "« Il était une fois, dans un village sans nom, un lièvre plus malin que tous les animaux de la brousse… » Quel genre ?",
+     "etapes": [
+      "Formule « Il était une fois », lieu indéterminé, animal personnifié.",
+      "C'est un conte (probablement avec une morale à la fin)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre nouvelle et roman sur le seul critère du sujet.",
+    "Confondre autobiographie et roman à la 1re personne.",
+    "Oublier la dimension argumentative du conte (morale).",
+    "Donner des dates ou des titres approximatifs : cite seulement ce dont tu es sûr."
+   ],
+   "astuces": [
+    "Retiens 3 romans africains avec auteur et date : ils serviront d'exemples en dissertation.",
+    "Une fin surprenante dans un récit court : pense « chute de nouvelle »."
+   ],
+   "mnemo": "« Conte = Conseil ; Nouvelle = Net et court ; Roman = Rivière longue. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as lu des contes et des nouvelles et peut-être un roman africain. En seconde, tu dois savoir caractériser chaque genre et citer des exemples précis."
+   },
+   "methode_redaction": "Quand tu cites une œuvre : titre souligné (à la main) ou en italique, nom de l'auteur, date si tu en es sûr. Exemple : L'Enfant noir (souligné), Camara Laye, 1953.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'une chute ?",
+     "r": "La fin inattendue d'une nouvelle."
+    },
+    {
+     "q": "Quel genre transmet une morale à travers une histoire souvent orale ?",
+     "r": "Le conte."
+    },
+    {
+     "q": "Qu'est-ce qu'un roman épistolaire ?",
+     "r": "Un roman composé de lettres (ex. Une si longue lettre, Mariama Bâ)."
+    },
+    {
+     "q": "Quel est le premier roman togolais ?",
+     "r": "L'Esclave de Félix Couchoro (1929)."
+    },
+    {
+     "q": "Autobiographie : quelle relation entre auteur, narrateur et personnage ?",
+     "r": "Ils sont la même personne."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S1-C06-N5.svg",
+    "alt": "Tableau comparant le conte, la nouvelle et le roman selon la longueur et les traits principaux.",
+    "legende": "Les trois grands genres du récit.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S1-C06-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C06-N1"
+   ],
+   "format": "qcm",
+   "enonce": "« Ce matin-là, je partis pour l'école de Kouroussa avec mon père. » Qui est le narrateur ?",
+   "indices": [
+    "Regarde le pronom personnel."
+   ],
+   "corrige": [
+    "Le pronom « je » désigne celui qui raconte et participe à l'histoire.",
+    "Le narrateur est un personnage de l'histoire."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "« je » n'est pas forcément l'auteur : ce peut être un personnage inventé (texte d'exemple).",
+   "verification": "double_resolution",
+   "choix": [
+    "Un narrateur extérieur à l'histoire",
+    "Un narrateur personnage de l'histoire",
+    "Forcément l'auteur",
+    "Le père"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C06-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S1-C06-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "« Trois ans plus tard, Kossi revint au village. » Quel procédé de rythme le narrateur utilise-t-il ? (un mot)",
+   "indices": [
+    "Que se passe-t-il pendant ces trois ans ? Le texte le raconte-t-il ?"
+   ],
+   "corrige": [
+    "Trois années ne sont pas racontées : le récit fait un saut dans le temps. C'est une ellipse."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Ce n'est pas un sommaire : rien n'est résumé, la période est sautée.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "ellipse",
+    "une ellipse",
+    "l'ellipse",
+    "l’ellipse",
+    "ellipse narrative"
+   ]
+  },
+  {
+   "id": "FR-S1-C06-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C06-N1"
+   ],
+   "format": "qcm",
+   "enonce": "« Afi regardait défiler les palmiers sans les voir. Que dirait sa tante ? Elle sentait son cœur cogner contre sa poitrine. » Quelle est la focalisation ?",
+   "indices": [
+    "Le narrateur entre-t-il dans la tête d'un personnage ? D'un seul ou de plusieurs ?"
+   ],
+   "corrige": [
+    "On accède aux perceptions (« regardait »), aux pensées (« Que dirait sa tante ? ») et aux sensations (« sentait ») d'un seul personnage.",
+    "C'est une focalisation interne (malgré la 3e personne)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "La 3e personne n'implique pas la focalisation zéro.",
+   "verification": "double_resolution",
+   "choix": [
+    "Zéro",
+    "Interne",
+    "Externe",
+    "Aucune focalisation"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C06-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C06-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Dans un conte, le jeune héros part chercher de l'eau pour sauver son village. Une vieille femme lui donne une calebasse magique qui ne se vide jamais. Quel est le rôle actantiel de la calebasse ?",
+   "indices": [
+    "La calebasse aide-t-elle ou gêne-t-elle le héros ?"
+   ],
+   "corrige": [
+    "La calebasse aide le héros à réussir sa quête.",
+    "C'est un adjuvant (un objet peut être un actant)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "L'objet de la quête est l'eau (le salut du village), pas la calebasse.",
+   "verification": "double_resolution",
+   "choix": [
+    "Objet",
+    "Adjuvant",
+    "Opposant",
+    "Destinataire"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S1-C06-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S1-C06-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans « Autour d'elle, les passagers somnolaient », à quel temps est le verbe et quelle est sa valeur ? Réponds seulement par le temps (un mot).",
+   "indices": [
+    "Terminaison -aient."
+   ],
+   "corrige": [
+    "« somnolaient » est à l'imparfait.",
+    "Valeur : arrière-plan, description d'une action en cours (le décor de la scène)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Ne confonds pas avec le passé simple (« somnolèrent »).",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "imparfait",
+    "l'imparfait",
+    "l’imparfait",
+    "imparfait de l’indicatif",
+    "imparfait de l'indicatif"
+   ]
+  },
+  {
+   "id": "FR-S1-C06-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S1-C06-N1",
+    "FR-S1-C06-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis ce passage, puis analyse sa narration : narrateur, focalisation, temps verbaux et rythme. Termine par l'effet produit sur le lecteur.\n\n« Le car quitta la gare de Lomé à six heures. Afi, serrée contre la vitre, regardait défiler les palmiers sans les voir. Que dirait sa tante, à Atakpamé, quand elle apprendrait l'échec au concours ? Elle sentait son cœur cogner contre sa poitrine. Autour d'elle, les passagers somnolaient ; un vendeur de journaux criait encore les titres du jour. Trois heures plus tard, le car s'arrêta dans un nuage de poussière. » (texte d'exemple)",
+   "indices": [
+    "Relève les verbes de perception et de pensée.",
+    "Repère l'indicateur de temps de la dernière phrase."
+   ],
+   "corrige": [
+    "Narrateur : extérieur à l'histoire (3e personne : « Afi », « elle ») ; il ne participe pas à l'action.",
+    "Focalisation interne : le lecteur perçoit la scène à travers Afi : perceptions (« regardait défiler les palmiers sans les voir »), sensations (« sentait son cœur cogner »), pensées au discours indirect libre (« Que dirait sa tante… ? »).",
+    "Temps : passé simple pour les actions de premier plan qui encadrent le passage (« quitta », « s'arrêta ») ; imparfait pour l'arrière-plan et l'état intérieur (« regardait », « sentait », « somnolaient », « criait ») ; conditionnel « dirait » = futur dans le passé, inquiétude.",
+    "Rythme : scène au début (le départ), puis ellipse « Trois heures plus tard » qui supprime le voyage et précipite l'arrivée.",
+    "Effet : le lecteur partage l'angoisse d'Afi ; l'ellipse rapproche brutalement le moment redouté (l'annonce de l'échec) et crée une attente."
+   ],
+   "bareme": [
+    1,
+    2,
+    2,
+    1.5,
+    1.5
+   ],
+   "piege": "Ne pas confondre narrateur extérieur (3e personne) et focalisation : ici le narrateur est extérieur mais la focalisation est interne.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S1-C06-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S1-C06-N1",
+    "FR-S1-C06-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Réécris le passage ci-dessous à la première personne (Afi devient narratrice), en conservant les temps du récit. Puis explique en trois ou quatre phrases ce que ce changement apporte et ce qu'il fait perdre.\n\n« Le car quitta la gare de Lomé à six heures. Afi, serrée contre la vitre, regardait défiler les palmiers sans les voir. Que dirait sa tante, à Atakpamé, quand elle apprendrait l'échec au concours ? Elle sentait son cœur cogner contre sa poitrine. Autour d'elle, les passagers somnolaient ; un vendeur de journaux criait encore les titres du jour. Trois heures plus tard, le car s'arrêta dans un nuage de poussière. » (texte d'exemple)",
+   "indices": [
+    "Change les pronoms et les déterminants possessifs liés à Afi.",
+    "Ne change pas les temps (passé simple / imparfait)."
+   ],
+   "corrige": [
+    "Réécriture (1re partie) : « Le car quitta la gare de Lomé à six heures. Serrée contre la vitre, je regardais défiler les palmiers sans les voir. Que dirait ma tante, à Atakpamé, quand elle apprendrait mon échec au concours ? Je sentais mon cœur cogner contre ma poitrine. » (pronoms et déterminants : je, ma, mon, ma poitrine ; temps conservés)",
+    "Réécriture (2e partie) : « Autour de moi, les passagers somnolaient ; un vendeur de journaux criait encore les titres du jour. Trois heures plus tard, le car s'arrêta dans un nuage de poussière. » (« d'elle » → « de moi » ; les phrases sans le personnage restent identiques)",
+    "Apport : le narrateur devient personnage ; la focalisation interne est renforcée ; le récit prend un ton de confidence, plus intime et plus émouvant ; le lecteur s'identifie davantage à Afi.",
+    "Perte : le narrateur ne peut plus rien dire que la narratrice ignore (pensées des autres passagers, regard extérieur sur Afi) ; le récit perd en distance et en vue d'ensemble."
+   ],
+   "bareme": [
+    2.5,
+    1.5,
+    2,
+    2
+   ],
+   "piege": "Ne pas transformer le passage au présent : la consigne demande de conserver les temps du récit.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre l'auteur et le narrateur, ou la personne grammaticale et la focalisation.",
+  "Nommer un temps verbal sans donner sa valeur et son effet.",
+  "Paraphraser une description au lieu d'analyser ses procédés et sa fonction.",
+  "Confondre ellipse et sommaire, analepse et prolepse.",
+  "Citer des œuvres avec des titres, auteurs ou dates approximatifs."
+ ]
+}

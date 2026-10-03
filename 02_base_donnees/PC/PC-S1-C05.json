@@ -1,0 +1,650 @@
+{
+ "id": "PC-S1-C05",
+ "matiere": "PC",
+ "semestre": 1,
+ "ordre": 5,
+ "titre": "Corps purs et mélanges",
+ "objectifs": [
+  "Distinguer corps pur et mélange, mélange homogène et hétérogène.",
+  "Identifier un corps pur par ses constantes physiques (températures de changement d'état, masse volumique, densité).",
+  "Choisir et décrire une technique de séparation (décantation, filtration, distillation, extraction, chromatographie).",
+  "Distinguer corps pur simple et corps pur composé ; décrire l'électrolyse et la synthèse de l'eau."
+ ],
+ "prerequis": [
+  "PC-3e-MELANGES",
+  "PC-3e-ETATS"
+ ],
+ "notions": [
+  {
+   "id": "PC-S1-C05-N1",
+   "titre": "Corps purs, mélanges et caractéristiques physiques",
+   "prerequis_notions": [
+    "PC-3e-MELANGES"
+   ],
+   "cours_md": "## 1. Corps pur et mélange\n:::definition Corps pur – mélange\n- Un **corps pur** est constitué d'**une seule espèce chimique** (eau distillée, sucre, cuivre, dioxygène).\n- Un **mélange** contient **plusieurs** espèces chimiques (eau de mer, air, jus de bissap, sodabi, latérite).\n:::\n\n- **Mélange homogène** : on ne distingue pas ses constituants à l'œil nu (eau salée, air, eau sucrée).\n- **Mélange hétérogène** : on distingue au moins deux phases (eau + sable, eau + huile, eau boueuse du marigot).\n\n:::attention Dans la vie courante\nL'« eau pure » de la publicité (eau minérale, eau du robinet) est un **mélange** : elle contient des sels minéraux dissous. Seule l'**eau distillée** est un corps pur.\n:::\n\n## 2. Caractéristiques physiques d'un corps pur\nUn corps pur est identifié par des **constantes physiques** fixes (sous la pression atmosphérique normale) :\n\n| Corps pur | Température de fusion | Température d'ébullition | Masse volumique |\n|---|---|---|---|\n| eau | 0 °C | 100 °C | 1,00 g/cm³ |\n| éthanol (alcool) | −114 °C | 78 °C | 0,79 g/cm³ |\n| fer | 1538 °C | — | 7,87 g/cm³ |\n| aluminium | 660 °C | — | 2,70 g/cm³ |\n| or | 1064 °C | — | 19,3 g/cm³ |\n\n:::propriete Changement d'état d'un corps pur\nPendant la fusion ou l'ébullition d'un **corps pur**, la température **reste constante** : la courbe $\\theta = f(t)$ présente un **palier**. Pour un **mélange**, il n'y a pas de palier net (la température continue de varier).\n:::\n\n## 3. Masse volumique et densité\n:::definition Masse volumique\n$$\\rho = \\frac{m}{V}$$\nUnités : $\\text{kg/m}^{3}$ (SI), ou $\\text{g/cm}^{3} = \\text{g/mL} = \\text{kg/L}$. Conversion : $1\\ \\text{g/cm}^{3} = 1000\\ \\text{kg/m}^{3}$.\n:::\n\n:::definition Densité (solides et liquides)\n$$d = \\frac{\\rho}{\\rho_{eau}}$$\nC'est un nombre **sans unité**. Si $d < 1$, le corps flotte sur l'eau (huile, bois, glace) ; si $d > 1$, il coule (fer, sable).\n:::\n\n:::methode Mesurer une masse volumique\n1. Peser l'objet avec une balance : $m$.\n2. Mesurer son volume : liquide → éprouvette graduée ; solide de forme quelconque → **déplacement d'eau** dans une éprouvette ($V = V_2 - V_1$).\n3. Calculer $\\rho = m/V$ et comparer aux valeurs des tables pour identifier le corps.\n:::\n\n## Exemples résolus\n**Exemple 1.** Un morceau de métal a une masse de 158 g. Plongé dans une éprouvette, il fait monter l'eau de 50,0 mL à 70,0 mL. De quel métal s'agit-il ?\n- $V = 70{,}0 - 50{,}0 = 20{,}0\\ \\text{mL} = 20{,}0\\ \\text{cm}^{3}$.\n- $\\rho = \\dfrac{m}{V} = \\dfrac{158}{20{,}0} = 7{,}9\\ \\text{g/cm}^{3}$ : c'est du **fer**.\n\n**Exemple 2.** 50 mL d'un liquide incolore ont une masse de 39,5 g ; il bout à 78 °C avec un palier. Identifie-le et donne sa densité.\n- $\\rho = \\dfrac{39{,}5}{50} = 0{,}79\\ \\text{g/mL}$ ; palier à 78 °C → corps pur : **éthanol**.\n- $d = \\dfrac{0{,}79}{1{,}00} = 0{,}79$ (sans unité) : moins dense que l'eau.",
+   "definition": "Un corps pur contient une seule espèce chimique, identifiable par ses constantes physiques (températures de changement d'état, masse volumique) ; un mélange en contient plusieurs.",
+   "formules": [
+    "$\\rho = \\dfrac{m}{V}$",
+    "$d = \\dfrac{\\rho}{\\rho_{eau}}$",
+    "$1\\ \\text{g/cm}^{3} = 1000\\ \\text{kg/m}^{3}$"
+   ],
+   "niveaux": {
+    "phrase": "Corps pur = une seule substance ; mélange = plusieurs substances ; la masse volumique est la masse d'un cm³.",
+    "simple": "Le sable de la plage de Lomé mélangé à l'eau : on voit les grains, c'est un mélange hétérogène. L'eau sucrée du bissap : on ne voit plus le sucre, c'est un mélange homogène.",
+    "complete": "Corps pur : une espèce chimique, constantes physiques fixes ($\\theta_{fus}$, $\\theta_{éb}$, $\\rho$), palier de changement d'état. Mélange homogène (une phase) ou hétérogène (plusieurs phases). $\\rho = m/V$ ; densité $d = \\rho/\\rho_{eau}$ sans unité."
+   },
+   "analogie": "Au marché, un vendeur ne peut pas tricher sur le volume d'huile si tu connais sa masse volumique : 1 L d'huile d'arachide pèse environ 920 g, pas 1 kg.",
+   "exemples_resolus": [
+    {
+     "enonce": "Métal de 158 g ; l'eau de l'éprouvette passe de 50,0 à 70,0 mL. Quel métal ?",
+     "etapes": [
+      "$V = 70{,}0 - 50{,}0 = 20{,}0\\ \\text{cm}^{3}$.",
+      "$\\rho = m/V = 158/20{,}0$.",
+      "$\\rho = 7{,}9\\ \\text{g/cm}^{3}$ : fer."
+     ]
+    },
+    {
+     "enonce": "50 mL de liquide, 39,5 g, palier d'ébullition à 78 °C : identification et densité ?",
+     "etapes": [
+      "$\\rho = 39{,}5/50 = 0{,}79\\ \\text{g/mL}$.",
+      "Palier → corps pur ; 78 °C et 0,79 g/mL → éthanol.",
+      "$d = 0{,}79/1{,}00 = 0{,}79$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que l'eau minérale ou l'eau du robinet est un corps pur.",
+    "Donner une unité à la densité.",
+    "Oublier de soustraire le volume initial d'eau (V = V₂ − V₁).",
+    "Confondre masse volumique et densité, ou masse et volume."
+   ],
+   "astuces": [
+    "1 mL = 1 cm³ et 1 L = 1 dm³ : ces égalités simplifient tous les calculs.",
+    "Palier de température = signature d'un corps pur."
+   ],
+   "mnemo": "« Pur = Palier ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris les changements d'état (fusion, solidification, vaporisation, liquéfaction) et la formule ρ = m/V. On les utilise maintenant pour identifier un corps pur."
+   },
+   "methode_redaction": "Écris : $\\rho = \\dfrac{m}{V}$ ; A.N. avec les unités choisies (g et cm³) ; résultat ; puis conclusion comparée au tableau : « la masse volumique trouvée correspond à celle du fer ».",
+   "flash": [
+    {
+     "q": "Définis un corps pur.",
+     "r": "Un corps constitué d'une seule espèce chimique."
+    },
+    {
+     "q": "Mélange homogène ou hétérogène : l'eau salée ?",
+     "r": "Homogène."
+    },
+    {
+     "q": "Formule de la masse volumique ?",
+     "r": "$\\rho = m/V$."
+    },
+    {
+     "q": "La densité a-t-elle une unité ?",
+     "r": "Non, c'est un rapport de masses volumiques."
+    },
+    {
+     "q": "Que montre un palier de température ?",
+     "r": "Un changement d'état d'un corps pur."
+    },
+    {
+     "q": "Température d'ébullition de l'éthanol ?",
+     "r": "78 °C."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C05-N1.svg",
+    "alt": "Deux courbes température-temps lors d'un chauffage : celle de l'eau pure présente un palier horizontal à 100 °C pendant l'ébullition ; celle de l'eau salée n'a pas de palier net et dépasse 100 °C.",
+    "legende": "Corps pur : palier pendant le changement d'état ; mélange : pas de palier.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C05-N2",
+   "titre": "Séparer les constituants d'un mélange",
+   "prerequis_notions": [
+    "PC-S1-C05-N1"
+   ],
+   "cours_md": "## 1. Mélanges hétérogènes\n| Technique | Principe | Exemple |\n|---|---|---|\n| **décantation** | on laisse reposer : le solide (ou le liquide le plus dense) tombe au fond | eau boueuse du marigot ; eau + huile dans une **ampoule à décanter** |\n| **filtration** | un filtre (papier filtre, tissu) retient le solide ; le liquide limpide est le **filtrat** | séparer le sable de l'eau, la pulpe du jus de baobab |\n| **centrifugation** | rotation rapide : décantation accélérée | analyses de sang, essoreuse |\n\n## 2. Mélanges homogènes\n| Technique | Principe | Exemple |\n|---|---|---|\n| **évaporation / cristallisation** | on chauffe ou on laisse au soleil : l'eau s'évapore, le solide dissous reste | sel des marais salants d'Aného |\n| **distillation** | on chauffe ; le constituant le plus **volatil** (température d'ébullition la plus basse) se vaporise, puis se **condense** dans le réfrigérant | eau distillée, fabrication du sodabi à partir du vin de palme |\n| **extraction par solvant** | un solvant non miscible à l'eau dissout mieux l'espèce à extraire ; on sépare ensuite les deux phases à l'ampoule à décanter | extraction du diiode d'une solution aqueuse avec le cyclohexane |\n| **chromatographie** | les espèces migrent plus ou moins vite sur un support (papier, craie) entraînées par un éluant | séparer les colorants d'une encre ou d'un bonbon |\n\n## 3. La distillation en détail\n:::methode Montage de distillation\n1. Le **ballon** contient le mélange et quelques **grains de pierre ponce** (ébullition régulière) ; il est chauffé par un **chauffe-ballon**.\n2. Le **thermomètre** est placé au niveau de la sortie des vapeurs : il indique la température des vapeurs qui passent.\n3. Le **réfrigérant à eau** condense les vapeurs : l'eau froide **entre par le bas** et **sort par le haut** (le réfrigérant reste plein).\n4. Le **distillat** est recueilli dans un erlenmeyer ou une éprouvette.\n:::\nTant qu'un corps pur distille, la température des vapeurs reste constante (palier) : c'est la température d'ébullition de ce constituant.\n\n## 4. Identifier : la chromatographie\n- On dépose des taches (mélange et espèces de référence) sur la **ligne de dépôt**, au-dessus du niveau de l'éluant.\n- Après migration : une tache du mélange **à la même hauteur** qu'une référence correspond à la même espèce.\n- Le nombre de taches séparées donne le nombre minimal d'espèces colorées dans le mélange.\n\n## Exemples résolus\n**Exemple 1.** Propose une méthode pour récupérer séparément le sable, le sel et l'eau d'un mélange eau + sable + sel.\n- **Filtration** : le sable reste sur le filtre ; le filtrat est de l'eau salée (mélange homogène).\n- **Distillation** du filtrat : l'eau se vaporise puis se condense (eau distillée recueillie) ; le **sel** reste dans le ballon.\n- (Si on ne veut que le sel : **évaporation** du filtrat au soleil.)\n\n**Exemple 2.** On distille un mélange eau + éthanol. Quel constituant est recueilli en premier ? À quelle température le thermomètre indique-t-il un premier palier ?\n- L'éthanol est le plus volatil (78 °C < 100 °C) : il passe en premier.\n- Premier palier vers 78 °C (en pratique le distillat est enrichi en éthanol, pas totalement pur).",
+   "definition": "On sépare les constituants d'un mélange par décantation, filtration, centrifugation (hétérogène) ou par évaporation, distillation, extraction, chromatographie (homogène).",
+   "formules": [
+    "$V_{\\text{filtrat}} \\leq V_{\\text{mélange}}$",
+    "distillation : passe d'abord le constituant de plus basse $\\theta_{éb}$"
+   ],
+   "niveaux": {
+    "phrase": "Pour séparer, on profite d'une différence : taille des grains, densité, température d'ébullition, solubilité.",
+    "simple": "La maman qui fait le sodabi distille le vin de palme : l'alcool, plus volatil que l'eau, s'évapore d'abord, puis se condense dans le tuyau refroidi.",
+    "complete": "Hétérogène : décantation, filtration, centrifugation. Homogène : évaporation/cristallisation, distillation (différence de $\\theta_{éb}$, réfrigérant à contre-courant), extraction par solvant (solubilité, non-miscibilité, ampoule à décanter), chromatographie (vitesses de migration, identification par comparaison avec des références)."
+   },
+   "analogie": "Laisser reposer l'eau de puits boueuse dans une jarre avant de la verser doucement : c'est une décantation, suivie souvent d'une filtration à travers un tissu propre.",
+   "exemples_resolus": [
+    {
+     "enonce": "Récupérer séparément sable, sel et eau d'un mélange eau + sable + sel.",
+     "etapes": [
+      "Filtration : le sable reste sur le filtre.",
+      "Le filtrat est de l'eau salée (homogène).",
+      "Distillation : on recueille l'eau ; le sel reste dans le ballon."
+     ]
+    },
+    {
+     "enonce": "Distillation eau + éthanol : quel constituant passe en premier ?",
+     "etapes": [
+      "Comparer les températures d'ébullition : éthanol 78 °C, eau 100 °C.",
+      "L'éthanol, plus volatil, passe d'abord ; premier palier vers 78 °C."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Proposer la filtration pour séparer le sel dissous de l'eau (le sel passe à travers le filtre).",
+    "Faire entrer l'eau du réfrigérant par le haut.",
+    "Placer la ligne de dépôt d'une chromatographie sous le niveau de l'éluant.",
+    "Croire qu'un solvant d'extraction doit être miscible à l'eau."
+   ],
+   "astuces": [
+    "Demande-toi : « le mélange est-il homogène ou hétérogène ? » avant de choisir la technique.",
+    "Distillation : retiens « le plus volatil sort le premier »."
+   ],
+   "mnemo": "« DéFiCe pour l'hétérogène (Décantation, Filtration, Centrifugation) ; ÉDEC pour l'homogène (Évaporation, Distillation, Extraction, Chromatographie). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as filtré de l'eau boueuse et observé l'évaporation de l'eau salée. En Seconde, on ajoute la distillation, l'extraction et la chromatographie."
+   },
+   "methode_redaction": "Pour un protocole : numérote les étapes, nomme la verrerie (ballon, réfrigérant, entonnoir, papier filtre, ampoule à décanter), précise ce qui est recueilli à chaque étape.",
+   "flash": [
+    {
+     "q": "Technique pour séparer le sable de l'eau ?",
+     "r": "La filtration (ou la décantation)."
+    },
+    {
+     "q": "Technique pour obtenir de l'eau pure à partir d'eau salée ?",
+     "r": "La distillation."
+    },
+    {
+     "q": "Sens de circulation de l'eau dans le réfrigérant ?",
+     "r": "Elle entre par le bas et sort par le haut."
+    },
+    {
+     "q": "Principe de la chromatographie ?",
+     "r": "Les espèces migrent à des vitesses différentes sur le support, entraînées par l'éluant."
+    },
+    {
+     "q": "Rôle de l'ampoule à décanter ?",
+     "r": "Séparer deux liquides non miscibles."
+    },
+    {
+     "q": "Quel constituant distille en premier ?",
+     "r": "Celui qui a la plus basse température d'ébullition."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C05-N2.svg",
+    "alt": "Montage de distillation : ballon chauffé contenant le mélange, thermomètre au niveau de la sortie des vapeurs, réfrigérant droit avec l'eau froide qui entre par le bas et sort par le haut, erlenmeyer qui recueille le distillat.",
+    "legende": "La distillation sépare les constituants d'un mélange homogène selon leur température d'ébullition.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S1-C05-N3",
+   "titre": "Corps purs simples et corps purs composés : électrolyse et synthèse de l'eau",
+   "prerequis_notions": [
+    "PC-S1-C05-N1"
+   ],
+   "cours_md": "## 1. Deux sortes de corps purs\n:::definition Corps simple – corps composé\n- Un **corps pur simple** est formé d'un seul élément chimique : dihydrogène $\\ce{H2}$, dioxygène $\\ce{O2}$, fer $\\ce{Fe}$, cuivre $\\ce{Cu}$.\n- Un **corps pur composé** est formé de plusieurs éléments chimiques combinés : eau $\\ce{H2O}$, dioxyde de carbone $\\ce{CO2}$, chlorure de sodium $\\ce{NaCl}$.\n:::\nUn corps composé peut être **décomposé** en corps simples (analyse) et **reconstitué** à partir d'eux (synthèse).\n\n## 2. L'électrolyse de l'eau (analyse)\n:::methode Expérience\n- Un **électrolyseur** contient de l'eau additionnée d'un peu de soude (ou d'acide sulfurique) pour la rendre conductrice.\n- Deux tubes à essai remplis d'eau sont retournés sur les électrodes, reliées à un générateur de tension continue (≈ 6 à 12 V).\n- Des bulles de gaz se forment sur chaque électrode.\n:::\nObservations et tests :\n- À la **cathode** (électrode reliée au pôle **−**) : un gaz qui produit une **détonation** (petit « aboiement ») à l'approche d'une flamme : le **dihydrogène** $\\ce{H2}$.\n- À l'**anode** (électrode reliée au pôle **+**) : un gaz qui **rallume une bûchette incandescente** : le **dioxygène** $\\ce{O2}$.\n\n:::propriete Proportions en volume\nLe volume de dihydrogène recueilli est **le double** du volume de dioxygène :\n$$V(\\ce{H2}) = 2 \\times V(\\ce{O2})$$\n:::\nBilan : $\\ce{2H2O -> 2H2 + O2}$ (l'écriture des équations sera approfondie au chapitre « réaction chimique »).\n\n## 3. La synthèse de l'eau\nDans un **eudiomètre**, on fait éclater une étincelle dans un mélange de 2 volumes de dihydrogène pour 1 volume de dioxygène : les gaz disparaissent et de fines gouttelettes d'eau apparaissent (elles colorent en bleu le sulfate de cuivre anhydre blanc).\n$$\\ce{2H2 + O2 -> 2H2O}$$\n:::attention Sécurité\nUn mélange dihydrogène–dioxygène (ou dihydrogène–air) est **explosif** : ne jamais approcher une flamme d'un grand volume de dihydrogène.\n:::\n\n## 4. Composition en masse de l'eau\nL'expérience montre que l'eau contient **1 g d'hydrogène pour 8 g d'oxygène** : dans 9 g d'eau, il y a 1 g d'hydrogène et 8 g d'oxygène (environ 11 % et 89 % en masse).\n\n## Exemples résolus\n**Exemple 1.** Lors d'une électrolyse, on recueille 12 mL de dioxygène. Quel volume de dihydrogène a-t-on recueilli ? Sur quelle électrode ?\n- $V(\\ce{H2}) = 2 \\times V(\\ce{O2}) = 2 \\times 12 = 24\\ \\text{mL}$.\n- Le dihydrogène se dégage à la **cathode** (pôle −).\n\n**Exemple 2.** Quelle masse d'oxygène contient une bouteille de 1,5 L d'eau (masse d'eau 1,5 kg) ?\n- Proportion : 8 g d'oxygène pour 9 g d'eau.\n- $m(\\text{O}) = 1500 \\times \\dfrac{8}{9} = 1{,}33 \\times 10^{3}\\ \\text{g} = 1{,}33\\ \\text{kg}$.",
+   "definition": "Un corps pur simple contient un seul élément (H₂, O₂, Fe) ; un corps pur composé en contient plusieurs (H₂O) et peut être décomposé, comme l'eau par électrolyse en 2 volumes de dihydrogène pour 1 volume de dioxygène.",
+   "formules": [
+    "$V(\\ce{H2}) = 2\\,V(\\ce{O2})$",
+    "$\\ce{2H2O -> 2H2 + O2}$",
+    "$\\ce{2H2 + O2 -> 2H2O}$"
+   ],
+   "niveaux": {
+    "phrase": "L'eau n'est pas un élément : on peut la casser en dihydrogène et dioxygène, et la refaire à partir d'eux.",
+    "simple": "Comme on peut démonter un vélo en pièces (analyse) puis le remonter (synthèse), on peut décomposer l'eau en deux gaz puis la reconstituer.",
+    "complete": "Corps simple : un seul élément ; corps composé : plusieurs éléments. Électrolyse de l'eau : $\\ce{H2}$ à la cathode (−, détonation), $\\ce{O2}$ à l'anode (+, rallume une bûchette incandescente), $V(\\ce{H2}) = 2V(\\ce{O2})$. Synthèse dans l'eudiomètre : $\\ce{2H2 + O2 -> 2H2O}$, mise en évidence par le sulfate de cuivre anhydre. Composition massique : 1 g de H pour 8 g de O."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Électrolyse : 12 mL de dioxygène recueillis. Volume de dihydrogène et électrode ?",
+     "etapes": [
+      "$V(\\ce{H2}) = 2 V(\\ce{O2})$.",
+      "$V(\\ce{H2}) = 2 \\times 12 = 24\\ \\text{mL}$.",
+      "Il se dégage à la cathode (pôle −)."
+     ]
+    },
+    {
+     "enonce": "Masse d'oxygène dans 1,5 kg d'eau ?",
+     "etapes": [
+      "Dans 9 g d'eau : 8 g d'oxygène.",
+      "$m(\\text{O}) = 1500 \\times 8/9$.",
+      "$m(\\text{O}) = 1{,}33 \\times 10^{3}\\ \\text{g} = 1{,}33\\ \\text{kg}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Inverser les électrodes : le dihydrogène se forme à la cathode (−), pas à l'anode.",
+    "Dire que le dioxygène « brûle » : il entretient la combustion (il ravive la bûchette), il ne brûle pas lui-même.",
+    "Confondre corps simple (un élément) et corps pur (une espèce).",
+    "Écrire V(O₂) = 2 V(H₂)."
+   ],
+   "astuces": [
+    "Le tube qui contient le plus de gaz est celui du dihydrogène (comme les 2 H dans H₂O).",
+    "Tests à connaître : H₂ → détonation ; O₂ → bûchette incandescente ; H₂O → sulfate de cuivre anhydre bleuit ; CO₂ → eau de chaux troublée."
+   ],
+   "mnemo": "« H₂O : 2 H pour 1 O, donc 2 volumes de H₂ pour 1 volume de O₂. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu la combustion et les tests du dioxyde de carbone (eau de chaux) et de l'eau (sulfate de cuivre anhydre). Ici on décompose l'eau elle-même."
+   },
+   "methode_redaction": "Décris l'expérience en trois temps : montage (schéma légendé), observations (volumes, tests), interprétation (nom des gaz, relation entre volumes, équation).",
+   "flash": [
+    {
+     "q": "Gaz recueilli à la cathode lors de l'électrolyse de l'eau ?",
+     "r": "Le dihydrogène H₂."
+    },
+    {
+     "q": "Test du dioxygène ?",
+     "r": "Il rallume une bûchette incandescente."
+    },
+    {
+     "q": "Rapport des volumes H₂ / O₂ ?",
+     "r": "2 (deux fois plus de dihydrogène)."
+    },
+    {
+     "q": "Corps simple ou composé : l'eau ?",
+     "r": "Composé (éléments H et O)."
+    },
+    {
+     "q": "Test de l'eau ?",
+     "r": "Le sulfate de cuivre anhydre blanc devient bleu."
+    },
+    {
+     "q": "Équation de la synthèse de l'eau ?",
+     "r": "$\\ce{2H2 + O2 -> 2H2O}$"
+    }
+   ],
+   "image": {
+    "fichier": "PC-S1-C05-N3.svg",
+    "alt": "Électrolyseur relié à un générateur : au-dessus de la cathode (pôle moins), un tube contenant un grand volume de dihydrogène ; au-dessus de l'anode (pôle plus), un tube contenant un volume deux fois plus petit de dioxygène.",
+    "legende": "Électrolyse de l'eau : 2 volumes de dihydrogène à la cathode pour 1 volume de dioxygène à l'anode.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S1-C05-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C05-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel de ces liquides est un **corps pur** ?",
+   "choix": [
+    "L'eau de mer",
+    "L'eau minérale",
+    "L'eau distillée",
+    "Le jus de bissap"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Un corps pur ne contient qu'une espèce chimique.",
+    "Seule l'eau distillée ne contient que de l'eau ; les autres contiennent des sels, des sucres, de l'alcool…"
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C05-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C05-N1"
+   ],
+   "format": "qcm",
+   "enonce": "L'eau sucrée est :",
+   "choix": [
+    "un corps pur simple",
+    "un corps pur composé",
+    "un mélange homogène",
+    "un mélange hétérogène"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Elle contient deux espèces (eau, sucre) : c'est un mélange.",
+    "On ne distingue pas le sucre dissous : mélange homogène."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C05-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C05-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "50 mL d'un liquide ont une masse de 39,5 g. Calcule sa masse volumique en g/mL.",
+   "reponses_acceptees": [
+    "0,79",
+    "0,790",
+    "0,79g/mL"
+   ],
+   "indices": [],
+   "corrige": [
+    "$\\rho = \\dfrac{m}{V} = \\dfrac{39{,}5}{50}$.",
+    "$\\rho = 0{,}79\\ \\text{g/mL}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C05-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C05-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un objet métallique de 54 g fait monter le niveau d'eau d'une éprouvette de 60,0 mL à 80,0 mL. Masses volumiques (g/cm³) : aluminium 2,70 ; fer 7,87 ; cuivre 8,96. Quel est ce métal ?",
+   "reponses_acceptees": [
+    "aluminium",
+    "l'aluminium",
+    "Al"
+   ],
+   "indices": [],
+   "corrige": [
+    "$V = 80{,}0 - 60{,}0 = 20{,}0\\ \\text{cm}^{3}$.",
+    "$\\rho = 54/20{,}0 = 2{,}7\\ \\text{g/cm}^{3}$.",
+    "C'est l'aluminium."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    1
+   ],
+   "piege": "Diviser par 80 mL (volume total) au lieu du volume déplacé.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C05-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S1-C05-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Pour séparer le sable de l'eau d'un mélange eau + sable, on utilise :",
+   "choix": [
+    "la distillation",
+    "la filtration",
+    "la chromatographie",
+    "l'électrolyse"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le mélange est hétérogène (grains visibles).",
+    "La filtration retient le sable sur le papier filtre."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C05-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C05-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Lors d'une électrolyse de l'eau, on recueille 15 mL de dioxygène. Quel volume (en mL) de dihydrogène est recueilli dans le même temps ?",
+   "reponses_acceptees": [
+    "30",
+    "30mL"
+   ],
+   "indices": [],
+   "corrige": [
+    "$V(\\ce{H2}) = 2 \\times V(\\ce{O2})$.",
+    "$V(\\ce{H2}) = 2 \\times 15 = 30\\ \\text{mL}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C05-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C05-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Quel test permet d'identifier le dihydrogène ?",
+   "choix": [
+    "Il rallume une bûchette incandescente",
+    "Il produit une légère détonation à l'approche d'une flamme",
+    "Il trouble l'eau de chaux",
+    "Il bleuit le sulfate de cuivre anhydre"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le dihydrogène brûle avec une petite détonation à l'approche d'une flamme.",
+    "La bûchette incandescente identifie le dioxygène ; l'eau de chaux le dioxyde de carbone ; le sulfate de cuivre anhydre l'eau."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C05-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C05-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Kossi dispose d'un mélange d'eau, de sable et de sel de cuisine. Il veut récupérer d'une part le sable, d'autre part du sel solide, et enfin de l'eau pure.\n1. Le mélange est-il homogène ou hétérogène ? Justifie.\n2. Propose les étapes de séparation en nommant chaque technique et la verrerie utilisée.\n3. Pourquoi la filtration seule ne suffit-elle pas ?",
+   "indices": [],
+   "corrige": [
+    "Hétérogène : on distingue les grains de sable dans l'eau.",
+    "Étape 1 – filtration (entonnoir + papier filtre + bécher) : le sable reste sur le filtre ; on le sèche.",
+    "Étape 2 – distillation du filtrat (ballon, chauffe-ballon, thermomètre, réfrigérant, erlenmeyer) : l'eau se vaporise puis se condense ; on recueille de l'eau pure.",
+    "Le sel reste dans le ballon et cristallise quand toute l'eau est partie.",
+    "Le sel est dissous : il traverse le papier filtre avec l'eau ; il faut une technique pour mélange homogène (évaporation ou distillation)."
+   ],
+   "bareme": [
+    0.5,
+    1.5,
+    1.5,
+    0.5,
+    1
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C05-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C05-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "On chauffe deux liquides A et B et on relève leur température toutes les minutes.\n- A : 20 ; 45 ; 65 ; 78 ; 78 ; 78 ; 78 °C.\n- B : 20 ; 50 ; 80 ; 100 ; 101 ; 102 ; 103 °C.\n1. Lequel est un corps pur ? Justifie.\n2. Identifie A (données : éthanol 78 °C ; eau 100 °C ; acétone 56 °C).\n3. Que peut-on dire de B ?",
+   "indices": [],
+   "corrige": [
+    "A présente un palier (température constante à 78 °C) pendant l'ébullition : A est un corps pur.",
+    "Température d'ébullition 78 °C : A est l'éthanol.",
+    "B n'a pas de palier : sa température continue d'augmenter pendant l'ébullition ; B est un mélange (par exemple de l'eau salée)."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C05-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C05-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La masse volumique de l'huile d'arachide est 0,92 g/mL. Quelle est la masse (en kg) de 1,5 L d'huile ?",
+   "reponses_acceptees": [
+    "1,38",
+    "1,38kg",
+    "1,4"
+   ],
+   "indices": [],
+   "corrige": [
+    "$m = \\rho \\times V = 0{,}92 \\times 1500$.",
+    "$m = 1380\\ \\text{g} = 1{,}38\\ \\text{kg}$."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Multiplier 0,92 par 1,5 donne bien 1,38 kg car 0,92 g/mL = 0,92 kg/L : vérifie toujours la cohérence des unités.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C05-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S1-C05-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Un bijoutier reçoit un bracelet de 1000 g censé être en or massif. Plongé dans l'eau, il déplace 60,0 cm³. Données : $\\rho_{or} = 19{,}3\\ \\text{g/cm}^3$ ; $\\rho_{argent} = 10{,}5\\ \\text{g/cm}^3$.\n1. Le bracelet est-il en or pur ?\n2. En supposant que c'est un alliage or + argent (volumes additifs), calcule la masse d'or qu'il contient.",
+   "indices": [
+    "Volume total = volume d'or + volume d'argent."
+   ],
+   "corrige": [
+    "$\\rho = \\dfrac{1000}{60{,}0} = 16{,}7\\ \\text{g/cm}^3 < 19{,}3$ : ce n'est pas de l'or pur.",
+    "Soit $x$ la masse d'or : $\\dfrac{x}{19{,}3} + \\dfrac{1000 - x}{10{,}5} = 60{,}0$.",
+    "$x\\left(\\dfrac{1}{19{,}3} - \\dfrac{1}{10{,}5}\\right) = 60{,}0 - \\dfrac{1000}{10{,}5}$, soit $-0{,}04343\\,x = -35{,}24$.",
+    "$x = 811\\ \\text{g}$ d'or (et $189\\ \\text{g}$ d'argent).",
+    "Vérification : $811/19{,}3 + 189/10{,}5 = 42{,}0 + 18{,}0 = 60{,}0\\ \\text{cm}^3$ ✔."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S1-C05-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S1-C05-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Sur un chromatogramme, l'encre d'un stylo donne trois taches ; deux sont à la même hauteur que les colorants de référence bleu et jaune. On peut affirmer que :",
+   "choix": [
+    "l'encre est un corps pur",
+    "l'encre contient au moins trois colorants dont le bleu et le jaune",
+    "l'encre contient seulement deux colorants",
+    "le chromatogramme est raté"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Trois taches → au moins trois espèces colorées.",
+    "Deux sont identifiées (bleu et jaune) ; la troisième est inconnue."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S1-C05-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S1-C05-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "L'eau contient 1 g d'hydrogène pour 8 g d'oxygène. Quelle masse d'oxygène (en g) y a-t-il dans 36 g d'eau ?",
+   "reponses_acceptees": [
+    "32",
+    "32g"
+   ],
+   "indices": [],
+   "corrige": [
+    "Dans 9 g d'eau : 8 g d'oxygène.",
+    "$m(\\text{O}) = 36 \\times \\dfrac{8}{9} = 32\\ \\text{g}$."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Calculer 36 × 8 sans diviser par 9.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Classer l'eau minérale ou l'eau du robinet parmi les corps purs.",
+  "Proposer une filtration pour séparer un solide dissous.",
+  "Oublier le volume initial lors de la mesure par déplacement d'eau.",
+  "Donner une unité à la densité ; confondre g/cm³ et kg/m³.",
+  "Inverser cathode et anode dans l'électrolyse de l'eau, ou le rapport des volumes.",
+  "Schéma de distillation sans légende ou réfrigérant alimenté par le haut."
+ ]
+}

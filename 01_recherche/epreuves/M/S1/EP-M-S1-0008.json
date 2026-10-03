@@ -1,0 +1,418 @@
+{
+ "id": "EP-M-S1-0008",
+ "matiere": "M",
+ "semestre": 1,
+ "type": "concours_entree",
+ "authentique": true,
+ "pays": "Togo",
+ "source": {
+  "etablissement": "Concours national d'entrée aux lycées scientifiques (Lomé / Kara)",
+  "ville": "Lomé / Kara",
+  "annee_scolaire": "2018-2019",
+  "session": "3 septembre 2018",
+  "document": "« Epreuves Concours lycée scientifique.pdf » (scan CamScanner, 12,4 Mo, Google Drive de l'utilisateur, ajouté le 2026-07-03)",
+  "url": "https://drive.google.com/file/d/10Cnv2Bd3Zrq_OlSrSM_c0vKDBjENqHrN/view",
+  "date_consultation": "2026-10-03",
+  "licence": "Sujet officiel d'examen ; copie privée dans le Google Drive de l'utilisateur ; usage personnel d'apprentissage",
+  "fiabilite": 3
+ },
+ "duree_min": 120,
+ "total_points": 20,
+ "chapitres_titres": [
+  "Ensemble des nombres réels et calcul dans ℝ",
+  "Polynômes et fractions rationnelles",
+  "Équations et inéquations dans ℝ",
+  "Équations et inéquations dans ℝ×ℝ (systèmes)",
+  "Vecteurs et points du plan",
+  "Angles inscrits",
+  "Transformations du plan : translation, homothétie, rotation"
+ ],
+ "chapitres": [
+  "M-S1-C01",
+  "M-S1-C03",
+  "M-S1-C05",
+  "M-S2-C09",
+  "M-S1-C02",
+  "M-S1-C06",
+  "M-S2-C14"
+ ],
+ "enonce_md": "> **Transcription reconstituée** à partir du texte OCR (Google Drive) d'un scan CamScanner du sujet officiel. Les formules ont été remises en forme ; **[illisible]** signale un passage absent ou inexploitable dans l'OCR ; *(lecture probable)* signale un symbole reconstitué d'après le contexte et la cohérence des questions. Les figures du sujet ne sont pas disponibles. À relire sur le scan original avant usage en composition blanche.\n\n**CONCOURS D'ENTRÉE AU LYCÉE SCIENTIFIQUE — 03 SEPTEMBRE 2018**\n\n**ÉPREUVE DE MATHÉMATIQUES** — Durée : 2 h — Coeff. : 2\n\n### Exercice 1 (6 pts)\n$ABCD$ est un trapèze de bases $[AB]$ et $[CD]$ telles que $AB = 3$ et $CD = 9$. Les diagonales se coupent en un point $I$ ; la droite passant par $I$ et perpendiculaire à la droite $(AB)$ coupe respectivement les droites $(AB)$ et $(CD)$ en $H$ et $K$. On pose $IH = x$ et $IK = y$.\n\n**I.** On suppose que la hauteur du trapèze est égale à 6.\n1. Résous dans $\\mathbb{R} \\times \\mathbb{R}$ le système d'équations $(E) : \\begin{cases} p + q = 6 \\\\ 3p - q = 0 \\end{cases}$ *(lecture probable ; OCR : « p+q=6 13p-4=0 »)*. (1,5 pt)\n2. Calcule la somme $x + y$. (0,5 pt)\n3. En calculant **[illisible]** (OCR : « IA ID' »), démontre que $y = 3x$. (1,25 pt)\n4. Détermine les distances $IH$ et $IK$. (0,75 pt)\n\n**II.** Dans cette partie on désigne par $h$ la hauteur du trapèze.\n1. Calcule $x + y$. (0,25 pt)\n2. a) Calcule en fonction de $h$ les aires des triangles $AIB$ et $DIC$. (1,25 pt)\n\n   b) Vérifie que, pour toute valeur de $h$, l'aire du triangle $DIC$ est égale à neuf fois celle du triangle $AIB$. (0,25 pt)\n\n### Exercice 2 (4,5 pts)\n$(\\mathcal{C})$ est un cercle de diamètre $[KL]$ ; $M$ un point du segment $[KL]$ distinct de $K$ et de $L$ ; $N$ et $O$ deux points du cercle distincts de $K$ et de $L$. La perpendiculaire à la droite $(KN)$ passant par $M$ coupe $(KN)$ en $I$ ; la perpendiculaire à la droite $(KO)$ passant par $M$ coupe $(KO)$ en $J$.\n1. Reproduis la figure et complète-la au fur et à mesure. (1 pt)\n2. Démontre que :\n\n   a) les droites $(NL)$ et $(MI)$ sont parallèles ; (0,5 pt)\n\n   b) les droites $(OL)$ et $(MJ)$ sont parallèles. (0,5 pt)\n3. Démontre que les droites $(NO)$ et $(IJ)$ sont parallèles. (1 pt)\n4. a) Démontre que les points $I$, $J$, $M$ et $K$ appartiennent à un même cercle dont tu préciseras le diamètre. (0,5 pt)\n\n   b) Compare les angles $\\widehat{IMJ}$ et $\\widehat{NLO}$ *(lecture probable ; OCR : « IM] »)*. (1 pt)\n\n### Exercice 3 (6,5 pts)\n**A.**\n1. Vérifie que pour tout nombre réel $x$ non nul (et différent de $-1$), $\\dfrac{1}{x(x+1)} = \\dfrac{1}{x} - \\dfrac{1}{x+1}$. (0,5 pt)\n2. Écris les fractions suivantes : $\\dfrac{1}{2}$ ; $\\dfrac{1}{6}$ ; $\\dfrac{1}{12}$ sous la forme $\\dfrac{1}{1 \\times 2}$, $\\dfrac{1}{2 \\times 3}$, … *(lecture probable)*. (1 pt)\n3. Utilise l'égalité de la question 1 pour calculer de manière performante la somme : $\\dfrac{1}{2} + \\dfrac{1}{6} + \\dfrac{1}{12} + \\dfrac{1}{20} + \\dfrac{1}{30}$ *(lecture probable ; OCR : « 6 1 20 30 + + ++ 12 »)*. (1,25 pt)\n\n**B.** Soit la fraction rationnelle $H(x) = \\dfrac{x^2 - 4 + (x+2)^2}{x(x+1)}$ *(lecture probable)*.\n1. Factorise l'expression : $x^2 - 4 + (x+2)^2$. (0,75 pt)\n2. Simplifie $H(x)$, après avoir déterminé la condition d'existence d'une valeur numérique de la fraction. (1 pt)\n3. Résous dans $\\mathbb{R}$ l'équation $H(x) = 2x$. (1 pt)\n4. Donne un encadrement de **[illisible]** (OCR : « 1/(√3) ») à $10^{-2}$ près. (On donne : $1{,}732 < \\sqrt{3} < 1{,}733$.) (1 pt)\n\n### Exercice 4 (3 pts)\nUn pays compte 2 millions de chômeurs. On suppose que le nombre de chômeurs diminue de 1 % tous les ans.\n1. Calcule le nombre de chômeurs au bout d'un an. (1 pt)\n2. Montre qu'au bout de cinq ans il y aura encore $2 \\times 10^6 \\times (0{,}99)^5$ chômeurs. (1,5 pt) Calcule ce nombre. (On donne : $(0{,}99)^5 \\approx 0{,}961$.) (0,5 pt)\n",
+ "questions": [
+  {
+   "numero": "Ex1-I-1",
+   "enonce": "Résous dans $\\mathbb{R} \\times \\mathbb{R}$ : $p + q = 6$ et $3p - q = 0$.",
+   "points": 1.5,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ×ℝ (systèmes)"
+   ],
+   "corrige": [
+    "La seconde équation donne $q = 3p$.",
+    "En reportant : $p + 3p = 6$, donc $p = \\dfrac{3}{2}$ et $q = \\dfrac{9}{2}$.",
+    "Vérification : $\\dfrac{3}{2} + \\dfrac{9}{2} = 6$ et $3 \\times \\dfrac{3}{2} - \\dfrac{9}{2} = 0$. $S = \\left\\{\\left(\\dfrac{3}{2}\\,;\\,\\dfrac{9}{2}\\right)\\right\\}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$S = \\{(\\frac{3}{2}\\,;\\frac{9}{2})\\}$",
+   "piege": "La solution est un couple : l'écrire entre parenthèses, dans une accolade.",
+   "astuce": "Substitution ou addition membre à membre."
+  },
+  {
+   "numero": "Ex1-I-2",
+   "enonce": "Calcule $x + y$ (hauteur 6).",
+   "points": 0.5,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$(HK) \\perp (AB)$ et $(AB) \\parallel (CD)$, donc $(HK) \\perp (CD)$ : $HK$ est la hauteur du trapèze. $I \\in [HK]$, donc $x + y = IH + IK = HK = 6$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "$x + y = 6$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-I-3",
+   "enonce": "Démontre que $y = 3x$.",
+   "points": 1.25,
+   "notions_titres": [
+    "Vecteurs et points du plan",
+    "Transformations du plan : translation, homothétie, rotation"
+   ],
+   "corrige": [
+    "$(AB) \\parallel (CD)$ et les diagonales $(AC)$ et $(BD)$ se coupent en $I$ : d'après Thalès (triangles $IAB$ et $ICD$), $\\dfrac{IA}{IC} = \\dfrac{IB}{ID} = \\dfrac{AB}{CD} = \\dfrac{3}{9} = \\dfrac{1}{3}$.",
+    "De même, avec les droites $(AC)$ et $(HK)$ sécantes en $I$ coupées par les parallèles $(AB)$ et $(CD)$ : $\\dfrac{IH}{IK} = \\dfrac{IA}{IC} = \\dfrac{1}{3}$.",
+    "Donc $\\dfrac{x}{y} = \\dfrac{1}{3}$, soit $y = 3x$."
+   ],
+   "bareme": [
+    0.5,
+    0.5,
+    0.25
+   ],
+   "resultat_final": "$y = 3x$",
+   "piege": "",
+   "astuce": "Le rapport des distances de I aux deux bases est celui des bases."
+  },
+  {
+   "numero": "Ex1-I-4",
+   "enonce": "Détermine $IH$ et $IK$.",
+   "points": 0.75,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ×ℝ (systèmes)"
+   ],
+   "corrige": [
+    "$(x\\,;y)$ vérifie $x + y = 6$ et $3x - y = 0$ : c'est le système $(E)$.",
+    "$IH = x = \\dfrac{3}{2}$ et $IK = y = \\dfrac{9}{2}$."
+   ],
+   "bareme": [
+    0.25,
+    0.5
+   ],
+   "resultat_final": "$IH = 1{,}5$ ; $IK = 4{,}5$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-II-1",
+   "enonce": "Calcule $x + y$ (hauteur $h$).",
+   "points": 0.25,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "Comme en I.2 : $x + y = HK = h$."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "$x + y = h$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-II-2a",
+   "enonce": "Aires de $AIB$ et $DIC$ en fonction de $h$.",
+   "points": 1.25,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$y = 3x$ (le résultat de I.3 ne dépend pas de la hauteur) et $x + y = h$, donc $x = \\dfrac{h}{4}$ et $y = \\dfrac{3h}{4}$.",
+    "$\\mathcal{A}(AIB) = \\dfrac{AB \\times IH}{2} = \\dfrac{3 \\times \\frac{h}{4}}{2} = \\dfrac{3h}{8}$.",
+    "$\\mathcal{A}(DIC) = \\dfrac{CD \\times IK}{2} = \\dfrac{9 \\times \\frac{3h}{4}}{2} = \\dfrac{27h}{8}$."
+   ],
+   "bareme": [
+    0.5,
+    0.375,
+    0.375
+   ],
+   "resultat_final": "$\\mathcal{A}(AIB) = \\dfrac{3h}{8}$ ; $\\mathcal{A}(DIC) = \\dfrac{27h}{8}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex1-II-2b",
+   "enonce": "Vérifie que $\\mathcal{A}(DIC) = 9\\,\\mathcal{A}(AIB)$.",
+   "points": 0.25,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "$9 \\times \\dfrac{3h}{8} = \\dfrac{27h}{8}$ pour tout $h > 0$."
+   ],
+   "bareme": [
+    0.25
+   ],
+   "resultat_final": "rapport 9 = 3²",
+   "piege": "",
+   "astuce": "Rapport des aires = carré du rapport de réduction (3)."
+  },
+  {
+   "numero": "Ex2-2",
+   "enonce": "Démontre que $(NL) \\parallel (MI)$ et $(OL) \\parallel (MJ)$.",
+   "points": 1,
+   "notions_titres": [
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "$N$ est sur le cercle de diamètre $[KL]$ : $KNL$ est rectangle en $N$, donc $(NL) \\perp (KN)$. Or $(MI) \\perp (KN)$. Deux droites perpendiculaires à une même droite sont parallèles : $(NL) \\parallel (MI)$.",
+    "De même $(OL) \\perp (KO)$ et $(MJ) \\perp (KO)$, donc $(OL) \\parallel (MJ)$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "(NL) ∥ (MI) et (OL) ∥ (MJ)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-3",
+   "enonce": "Démontre que $(NO) \\parallel (IJ)$.",
+   "points": 1,
+   "notions_titres": [
+    "Vecteurs et points du plan"
+   ],
+   "corrige": [
+    "Thalès dans le triangle $KNL$ avec $(MI) \\parallel (NL)$ : $\\dfrac{KI}{KN} = \\dfrac{KM}{KL}$.",
+    "Thalès dans le triangle $KOL$ avec $(MJ) \\parallel (OL)$ : $\\dfrac{KJ}{KO} = \\dfrac{KM}{KL}$.",
+    "Donc $\\dfrac{KI}{KN} = \\dfrac{KJ}{KO}$, avec $I \\in [KN]$ et $J \\in [KO]$ dans le même ordre : d'après la réciproque de Thalès dans le triangle $KNO$, $(IJ) \\parallel (NO)$."
+   ],
+   "bareme": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "resultat_final": "(IJ) ∥ (NO)",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-4a",
+   "enonce": "Démontre que $I$, $J$, $M$, $K$ sont cocycliques ; préciser le diamètre.",
+   "points": 0.5,
+   "notions_titres": [
+    "Angles inscrits"
+   ],
+   "corrige": [
+    "$\\widehat{KIM} = 90^\\circ$ et $\\widehat{KJM} = 90^\\circ$ : $I$ et $J$ sont sur le cercle de diamètre $[KM]$, qui contient aussi $K$ et $M$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "cercle de diamètre [KM]",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex2-4b",
+   "enonce": "Compare $\\widehat{IMJ}$ et $\\widehat{NLO}$.",
+   "points": 1,
+   "notions_titres": [
+    "Angles inscrits",
+    "Transformations du plan : translation, homothétie, rotation"
+   ],
+   "corrige": [
+    "L'homothétie de centre $K$ et de rapport $\\dfrac{KM}{KL}$ transforme $L$ en $M$, $N$ en $I$ (question 3) et $O$ en $J$.",
+    "Une homothétie conserve les angles : $\\widehat{IMJ} = \\widehat{NLO}$. (Autre justification : angles à côtés parallèles et de même sens, $(MI) \\parallel (LN)$ et $(MJ) \\parallel (LO)$.)"
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\widehat{IMJ} = \\widehat{NLO}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-A1",
+   "enonce": "Vérifie que $\\dfrac{1}{x(x+1)} = \\dfrac{1}{x} - \\dfrac{1}{x+1}$.",
+   "points": 0.5,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "Pour $x \\neq 0$ et $x \\neq -1$ : $\\dfrac{1}{x} - \\dfrac{1}{x+1} = \\dfrac{(x+1) - x}{x(x+1)} = \\dfrac{1}{x(x+1)}$."
+   ],
+   "bareme": [
+    0.5
+   ],
+   "resultat_final": "égalité vérifiée",
+   "piege": "",
+   "astuce": "Partir du membre de droite et réduire au même dénominateur."
+  },
+  {
+   "numero": "Ex3-A2",
+   "enonce": "Écrire $\\dfrac{1}{2}$, $\\dfrac{1}{6}$, $\\dfrac{1}{12}$ sous la forme $\\dfrac{1}{n(n+1)}$ (lecture probable).",
+   "points": 1,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "$\\dfrac{1}{2} = \\dfrac{1}{1 \\times 2}$ ; $\\dfrac{1}{6} = \\dfrac{1}{2 \\times 3}$.",
+    "$\\dfrac{1}{12} = \\dfrac{1}{3 \\times 4}$ (et de même $\\dfrac{1}{20} = \\dfrac{1}{4 \\times 5}$, $\\dfrac{1}{30} = \\dfrac{1}{5 \\times 6}$)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$\\frac{1}{1\\times2}$, $\\frac{1}{2\\times3}$, $\\frac{1}{3\\times4}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-A3",
+   "enonce": "Calculer $\\dfrac{1}{2} + \\dfrac{1}{6} + \\dfrac{1}{12} + \\dfrac{1}{20} + \\dfrac{1}{30}$ (lecture probable).",
+   "points": 1.25,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "Avec la question 1 : $S = \\left(1 - \\dfrac{1}{2}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\left(\\dfrac{1}{3} - \\dfrac{1}{4}\\right) + \\left(\\dfrac{1}{4} - \\dfrac{1}{5}\\right) + \\left(\\dfrac{1}{5} - \\dfrac{1}{6}\\right)$.",
+    "Les termes intermédiaires s'annulent deux à deux (somme « télescopique ») : $S = 1 - \\dfrac{1}{6} = \\dfrac{5}{6}$."
+   ],
+   "bareme": [
+    0.75,
+    0.5
+   ],
+   "resultat_final": "$S = \\dfrac{5}{6}$",
+   "piege": "Le nombre exact de termes est à vérifier sur le scan : le résultat est toujours 1 − 1/(n+1).",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-B1",
+   "enonce": "Factorise $x^2 - 4 + (x+2)^2$.",
+   "points": 0.75,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$x^2 - 4 = (x - 2)(x + 2)$, donc $x^2 - 4 + (x+2)^2 = (x+2)[(x-2) + (x+2)]$.",
+    "$= (x + 2) \\times 2x = 2x(x + 2)$."
+   ],
+   "bareme": [
+    0.5,
+    0.25
+   ],
+   "resultat_final": "$2x(x+2)$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-B2",
+   "enonce": "Condition d'existence et simplification de $H(x)$.",
+   "points": 1,
+   "notions_titres": [
+    "Polynômes et fractions rationnelles"
+   ],
+   "corrige": [
+    "$H(x)$ existe si et seulement si $x(x+1) \\neq 0$, c'est-à-dire $x \\neq 0$ et $x \\neq -1$.",
+    "Pour $x \\notin \\{-1\\,;0\\}$ : $H(x) = \\dfrac{2x(x+2)}{x(x+1)} = \\dfrac{2(x+2)}{x+1} = \\dfrac{2x + 4}{x + 1}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$H(x) = \\dfrac{2x+4}{x+1}$ pour $x \\notin \\{-1\\,;0\\}$",
+   "piege": "",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex3-B3",
+   "enonce": "Résous $H(x) = 2x$.",
+   "points": 1,
+   "notions_titres": [
+    "Équations et inéquations dans ℝ"
+   ],
+   "corrige": [
+    "Pour $x \\notin \\{-1\\,;0\\}$ : $\\dfrac{2(x+2)}{x+1} = 2x \\Leftrightarrow x + 2 = x(x + 1) \\Leftrightarrow x^2 = 2$.",
+    "$x = \\sqrt{2}$ ou $x = -\\sqrt{2}$, qui ne sont pas des valeurs interdites : $S = \\{-\\sqrt{2}\\,;\\,\\sqrt{2}\\}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "$S = \\{-\\sqrt{2}\\,;\\sqrt{2}\\}$",
+   "piege": "Vérifier que les solutions ne sont pas des valeurs interdites.",
+   "astuce": ""
+  },
+  {
+   "numero": "Ex4-1",
+   "enonce": "Nombre de chômeurs au bout d'un an.",
+   "points": 1,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "Diminuer de 1 % revient à multiplier par $1 - \\dfrac{1}{100} = 0{,}99$.",
+    "$2\\,000\\,000 \\times 0{,}99 = 1\\,980\\,000$ chômeurs."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "resultat_final": "1 980 000",
+   "piege": "",
+   "astuce": "Coefficient multiplicateur."
+  },
+  {
+   "numero": "Ex4-2",
+   "enonce": "Montrer qu'au bout de 5 ans il y a $2 \\times 10^6 \\times (0{,}99)^5$ chômeurs ; calculer ce nombre.",
+   "points": 2,
+   "notions_titres": [
+    "Ensemble des nombres réels et calcul dans ℝ"
+   ],
+   "corrige": [
+    "Chaque année, le nombre de chômeurs est multiplié par $0{,}99$ : après 1 an $2 \\times 10^6 \\times 0{,}99$, après 2 ans $2 \\times 10^6 \\times 0{,}99^2$, …",
+    "Après 5 multiplications successives : $2 \\times 10^6 \\times (0{,}99)^5$.",
+    "$2 \\times 10^6 \\times 0{,}961 = 1\\,922\\,000$ chômeurs (environ)."
+   ],
+   "bareme": [
+    0.75,
+    0.75,
+    0.5
+   ],
+   "resultat_final": "environ 1 922 000",
+   "piege": "Ce n'est pas 2 000 000 × (1 − 0,05) : les baisses de 1 % ne s'additionnent pas.",
+   "astuce": ""
+  }
+ ],
+ "verification": {
+  "passe1": "Résolution manuelle : (p;q)=(3/2;9/2) ; x+y=6 ; y=3x ; IH=3/2, IK=9/2 ; x+y=h, aires 3h/8 et 27h/8 (rapport 9) ; parallélismes par perpendicularité et Thalès, I, J, M, K sur le cercle de diamètre [KM], IMJ=NLO ; 1/(x(x+1))=1/x−1/(x+1), somme télescopique 5/6 ; 2x(x+2), H=(2x+4)/(x+1), H=2x ⇔ x=±√2 ; 1 980 000 puis ≈1 922 000 chômeurs.",
+  "passe2": "Résolution indépendante (sympy) : solve() du système et de H=2x, factor() et cancel(), somme des 5 premiers termes 1/(k(k+1)) calculée exactement, aires recalculées : mêmes résultats.",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy), 9 vérifications pour ce sujet, toutes OK",
+  "desaccords": [
+   "Aucun désaccord entre les deux passes.",
+   "Ex1 I.1 : le système est lu {p+q=6 ; 3p−q=0} (OCR « 13p-4=0 »). Cette lecture est cohérente avec x+y=6 et y=3x (Q2 à Q4).",
+   "Ex1 I.3 : le rapport à calculer est illisible. La démonstration proposée passe par Thalès (IA/IC = AB/CD).",
+   "Ex3 : H(x) lu (x²−4+(x+2)²)/(x(x+1)) (lecture probable). A2 et A3 sont des lectures probables ; le nombre de termes de la somme est à vérifier. B4 (encadrement de « 1/(√3) », peut-être H(√3)) n'est pas corrigée.",
+   "Barème Ex1 : la somme des barèmes lus fait 5,75 pts pour 6 annoncés. Ex1 II.2a : 1,25 pt réparti 0,5 + 0,375 + 0,375 (proposé).",
+   "Semestre : concours d'entrée en Seconde S (septembre), rangé en S1 comme révision des prérequis."
+  ]
+ }
+}

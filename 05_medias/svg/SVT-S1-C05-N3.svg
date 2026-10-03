@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 655" width="600" height="655" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Gérer durablement un versant cultivé</title>
+<desc id="desc">Coupe d'une colline : forêt conservée au sommet, cordons pierreux en courbes de niveau, haie vive et agroforesterie (karité) dans le champ en bas de pente ; liste d'actions de gestion durable au Togo.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker></defs>
+<rect x="0" y="0" width="600" height="655" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Gérer durablement un versant cultivé</text>
+<path d="M20 470 L20 210 Q120 120 220 150 Q330 190 420 300 Q500 390 580 420 L580 470 Z" fill="#d6b88a" stroke="#78350f" stroke-width="2"/>
+<rect x="57" y="175" width="6" height="22" fill="#78350f"/><circle cx="60" cy="167" r="16" fill="#16a34a" stroke="#14532d" stroke-width="1.5"/>
+<rect x="92" y="150" width="6" height="22" fill="#78350f"/><circle cx="95" cy="142" r="16" fill="#16a34a" stroke="#14532d" stroke-width="1.5"/>
+<rect x="127" y="140" width="6" height="22" fill="#78350f"/><circle cx="130" cy="132" r="16" fill="#16a34a" stroke="#14532d" stroke-width="1.5"/>
+<rect x="162" y="140" width="6" height="22" fill="#78350f"/><circle cx="165" cy="132" r="16" fill="#16a34a" stroke="#14532d" stroke-width="1.5"/>
+<rect x="197" y="148" width="6" height="22" fill="#78350f"/><circle cx="200" cy="140" r="16" fill="#16a34a" stroke="#14532d" stroke-width="1.5"/>
+<circle cx="265" cy="177.0" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="274" cy="178.5" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="283" cy="180.0" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="292" cy="181.5" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="330" cy="215.0" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="339" cy="216.5" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="348" cy="218.0" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="357" cy="219.5" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="385" cy="262.0" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="394" cy="263.5" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="403" cy="265.0" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="412" cy="266.5" r="5" fill="#9ca3af" stroke="#4b5563" stroke-width="1"/>
+<circle cx="440" cy="320" r="8" fill="#4ade80" stroke="#166534" stroke-width="1.5"/>
+<circle cx="450" cy="327" r="8" fill="#4ade80" stroke="#166534" stroke-width="1.5"/>
+<circle cx="460" cy="334" r="8" fill="#4ade80" stroke="#166534" stroke-width="1.5"/>
+<circle cx="470" cy="341" r="8" fill="#4ade80" stroke="#166534" stroke-width="1.5"/>
+<circle cx="480" cy="348" r="8" fill="#4ade80" stroke="#166534" stroke-width="1.5"/>
+<path d="M470 372 l-4 -14 M470 372 l0 -16 M470 372 l4 -14" stroke="#65a30d" stroke-width="2.5" fill="none"/>
+<path d="M486 378 l-4 -14 M486 378 l0 -16 M486 378 l4 -14" stroke="#65a30d" stroke-width="2.5" fill="none"/>
+<path d="M502 384 l-4 -14 M502 384 l0 -16 M502 384 l4 -14" stroke="#65a30d" stroke-width="2.5" fill="none"/>
+<path d="M518 390 l-4 -14 M518 390 l0 -16 M518 390 l4 -14" stroke="#65a30d" stroke-width="2.5" fill="none"/>
+<path d="M534 396 l-4 -14 M534 396 l0 -16 M534 396 l4 -14" stroke="#65a30d" stroke-width="2.5" fill="none"/>
+<path d="M550 402 l-4 -14 M550 402 l0 -16 M550 402 l4 -14" stroke="#65a30d" stroke-width="2.5" fill="none"/>
+<rect x="545" y="372" width="7" height="34" fill="#78350f"/><ellipse cx="548" cy="362" rx="24" ry="17" fill="#15803d"/>
+<line x1="130" y1="125" x2="110" y2="75" stroke="#374151" stroke-width="1.6"/><circle cx="130" cy="125" r="2.6" fill="#374151"/><text x="116" y="81" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">garder la forêt en haut</text>
+<line x1="300" y1="196" x2="330" y2="125" stroke="#374151" stroke-width="1.6"/><circle cx="300" cy="196" r="2.6" fill="#374151"/><text x="336" y="131" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">cordons pierreux en</text>
+<text x="336" y="149" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">courbes de niveau</text>
+<line x1="460" y1="334" x2="470" y2="255" stroke="#374151" stroke-width="1.6"/><circle cx="460" cy="334" r="2.6" fill="#374151"/><text x="476" y="261" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">haie vive</text>
+<line x1="548" y1="348" x2="520" y2="290" stroke="#374151" stroke-width="1.6"/><circle cx="548" cy="348" r="2.6" fill="#374151"/><text x="514" y="296" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">agroforesterie</text>
+<text x="514" y="314" font-size="15" text-anchor="end" font-weight="normal" fill="#1f2937">(karité, néré)</text>
+<circle cx="38" cy="495" r="5" fill="#15803d"/>
+<text x="52" y="500" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">Reboiser (Journée nationale de l'arbre, 1er juin)</text>
+<circle cx="38" cy="525" r="5" fill="#15803d"/>
+<text x="52" y="530" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">Feux précoces contrôlés, pas de feux tardifs</text>
+<circle cx="38" cy="555" r="5" fill="#15803d"/>
+<text x="52" y="560" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">Compost et fumure organique, rotations</text>
+<circle cx="38" cy="585" r="5" fill="#15803d"/>
+<text x="52" y="590" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">Foyers améliorés, gaz : moins de bois</text>
+<circle cx="38" cy="615" r="5" fill="#15803d"/>
+<text x="52" y="620" font-size="16" text-anchor="start" font-weight="normal" fill="#1f2937">Aires protégées : Fazao-Malfakassa, Kéran, Togodo</text>
+</svg>

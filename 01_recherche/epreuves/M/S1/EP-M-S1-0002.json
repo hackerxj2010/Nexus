@@ -485,7 +485,7 @@
  "verification": {
   "passe1": "Résolution manuelle : h décroissante (3−2√3<0) ; ordre h(√7)<h(4/3)<h(0)<h(−2)<h(−5) ; h(−4)=8√3−5, h(√3)=3√3+1, antécédent de −2 : 9+6√3 ; A=3x²+6x−9=3(x−1)(x+3), B=(x−1)(3x+7), S={−3;1}, h=(3x+7)/(3x+9) ; B={−3,−2,−1,0,1} ; AC=5, AI=3,2, CI=1,8, BI=2,4, ID=1,35, CD=2,25, cos α=4/5, sin α=3/5, aire 75/8 ; CAGE parallélogramme, G milieu de [AI] ; D(−1;−6), I(1;0), losange, (BD): y=3x−3, E(0;−3), EA=EC=2√5, AC=2√10, AEC rectangle isocèle en E, cercle de centre I rayon √10, F sur le cercle.",
   "passe2": "Résolution indépendante en coordonnées (sympy) : B(0;0), A(0;4), C(3;0) pour l'Ex3 (I et D recalculés comme projection et intersection), vecteurs génériques pour l'Ex4, calcul direct pour l'Ex5 : mêmes résultats.",
-  "code": "oui : script verif.py (sympy), 39 vérifications pour ce sujet, toutes OK",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy), 30 vérifications pour ce sujet, toutes OK",
   "desaccords": [
    "Aucun désaccord entre les deux passes.",
    "Ex2 Q3a : la borne inférieure de A est illisible ; seul B = [−π;2[∩ℤ est corrigé (« -T » lu −π, lecture probable). Ex2 Q3b illisible, non corrigée.",

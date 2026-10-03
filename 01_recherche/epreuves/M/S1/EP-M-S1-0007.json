@@ -383,7 +383,7 @@
  "verification": {
   "passe1": "Résolution manuelle : A=6, B=0, E=256, F=2015 ; identité 999 999 vérifiée ; 80 001²−160 001=80 000²=6 400 000 000 ; H=G=(2x+√3)² ; Q=|2x+√3|=2√3 ⇔ x∈{−3√3/2 ; √3/2} ; KA=BJ=JC, AKBJ et AKJC parallélogrammes, (DB)⊥(KJ), I orthocentre de BDK, (DI)⊥(AJ) ; AK=(2/7)(2AB+AC).",
   "passe2": "Résolution indépendante (sympy) : puissances calculées exactement, carré de côté 2 en coordonnées pour l'Ex3, triangle IJK générique pour l'Ex4 (AK − (2/7)(2AB+AC) = 0, et I milieu de [CJ] dans la construction de la Q4) : mêmes résultats.",
-  "code": "oui : script verif.py (sympy) et contrôle de la construction de l'Ex4 Q4, 21 vérifications pour ce sujet, toutes OK",
+  "code": "oui : script 01_recherche/epreuves/M/verification_sympy.py (sympy) et contrôle de la construction de l'Ex4 Q4, 18 + 5 vérifications pour ce sujet, toutes OK",
   "desaccords": [
    "Aucun désaccord entre les deux passes.",
    "Ex1 : A, E et F sont des lectures probables (exposants reconstitués) ; chacune donne un résultat entier (6, 256, 2015), ce qui les confirme. C et D illisibles, non corrigés.",

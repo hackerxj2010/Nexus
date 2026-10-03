@@ -1,0 +1,616 @@
+{
+ "id": "M-S1-C06",
+ "matiere": "M",
+ "semestre": 1,
+ "ordre": 6,
+ "titre": "Angles inscrits",
+ "objectifs": [
+  "Reconnaître un angle inscrit et l'angle au centre associé ; appliquer le théorème de l'angle inscrit.",
+  "Utiliser l'égalité des angles inscrits interceptant le même arc et l'angle droit inscrit dans un demi-cercle.",
+  "Démontrer que quatre points sont cocycliques ; utiliser les angles opposés d'un quadrilatère inscrit.",
+  "Calculer les angles et construire des polygones réguliers inscrits dans un cercle."
+ ],
+ "prerequis": [
+  "M-3e-CERCLE",
+  "M-3e-TRIGONOMETRIE"
+ ],
+ "notions": [
+  {
+   "id": "M-S1-C06-N1",
+   "titre": "Angle inscrit et angle au centre",
+   "prerequis_notions": [
+    "M-3e-CERCLE",
+    "M-3e-TRIANGLE-ISOCELE"
+   ],
+   "cours_md": ":::definition Angle inscrit, angle au centre\nSoit $\\mathcal C$ un cercle de centre $O$, et $A$, $B$, $M$ trois points distincts de $\\mathcal C$.\n- L'angle $\\widehat{AMB}$, dont le sommet est **sur le cercle**, est un **angle inscrit** ; il **intercepte** l'arc $\\overset\\frown{AB}$ qui ne contient pas $M$.\n- L'angle $\\widehat{AOB}$, dont le sommet est **le centre**, est l'**angle au centre** qui intercepte le même arc.\n:::\n\n:::propriete Théorème de l'angle inscrit\nLa mesure d'un angle inscrit est la **moitié** de celle de l'angle au centre qui intercepte le même arc :\n$$\\widehat{AMB}=\\frac12\\,\\widehat{AOB}$$\n:::\n\n**Démonstration (cas où $[MO)$ coupe l'arc et $[MB]$ est un diamètre)** : le triangle $OMA$ est isocèle en $O$ ($OM=OA$), donc $\\widehat{OMA}=\\widehat{OAM}=\\alpha$. L'angle $\\widehat{AOB}$ est un angle extérieur du triangle $OMA$ (car $M$, $O$, $B$ sont alignés), donc $\\widehat{AOB}=180°-\\widehat{MOA}=\\widehat{OMA}+\\widehat{OAM}=2\\alpha=2\\widehat{AMB}$. Le cas général s'obtient en traçant le diamètre $[MM']$ et en additionnant (ou soustrayant) deux cas de ce type.\n\n:::propriete Conséquences\n1. Deux angles inscrits qui interceptent **le même arc** ont la **même mesure**.\n2. Un angle inscrit qui intercepte un **demi-cercle** est **droit** : si $[AB]$ est un diamètre et $M\\in\\mathcal C$, alors $\\widehat{AMB}=90°$. Réciproquement, si $\\widehat{AMB}=90°$, $M$ est sur le cercle de diamètre $[AB]$.\n3. Si $M$ et $N$ sont de part et d'autre de la corde $[AB]$, alors $\\widehat{AMB}+\\widehat{ANB}=180°$.\n:::\n\n:::remarque Angle entre une tangente et une corde\nSi $(T)$ est la tangente en $A$ au cercle, l'angle entre $(T)$ et la corde $[AB]$ est égal à l'angle inscrit qui intercepte l'arc $\\overset\\frown{AB}$ situé dans cet angle.\n:::\n\n:::methode Calculer un angle sur une figure avec un cercle\n1. Repérer l'arc intercepté par l'angle cherché.\n2. Chercher un autre angle (au centre ou inscrit) qui intercepte **le même arc**.\n3. Appliquer « inscrit = moitié du centre » ou « inscrits égaux », en citant le théorème.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$A$, $B$, $C$ sont sur un cercle de centre $O$ et $\\widehat{AOB}=130°$ ($C$ sur le grand arc). Calculer $\\widehat{ACB}$.\n\n1. $\\widehat{ACB}$ est un angle inscrit qui intercepte le petit arc $\\overset\\frown{AB}$, comme l'angle au centre $\\widehat{AOB}$.\n2. Théorème de l'angle inscrit : $\\widehat{ACB}=\\dfrac12\\widehat{AOB}=\\dfrac{130°}{2}=65°$.\n:::\n\n:::exemple Exemple 2\n$[AB]$ est un diamètre d'un cercle et $M$ un point du cercle avec $AM=6$ cm et $BM=8$ cm. Calculer le rayon.\n\n1. $\\widehat{AMB}$ intercepte un demi-cercle : c'est un angle droit, le triangle $AMB$ est rectangle en $M$.\n2. Pythagore : $AB^2=AM^2+BM^2=36+64=100$, donc $AB=10$ cm.\n3. Le rayon vaut $\\dfrac{AB}{2}=5$ cm.\n:::\n",
+   "definition": "Un angle inscrit mesure la moitié de l'angle au centre qui intercepte le même arc : $\\widehat{AMB}=\\frac12\\widehat{AOB}$.",
+   "formules": [
+    "$\\widehat{AMB}=\\dfrac12\\widehat{AOB}$",
+    "$[AB]$ diamètre $\\Rightarrow\\widehat{AMB}=90°$",
+    "inscrits interceptant le même arc : égaux"
+   ],
+   "niveaux": {
+    "phrase": "Vu du cercle, un arc paraît deux fois plus « petit » que vu du centre.",
+    "simple": "Imagine des spectateurs assis sur le bord d'un stade circulaire qui regardent les deux poteaux d'un but : où qu'ils soient sur le même côté, ils voient les poteaux sous le même angle, qui vaut la moitié de l'angle vu depuis le centre du stade.",
+    "complete": "Pour un arc $\\overset\\frown{AB}$ fixé, tous les angles inscrits $\\widehat{AMB}$ ($M$ sur l'arc opposé) sont égaux à $\\frac12\\widehat{AOB}$. La démonstration repose sur les triangles isocèles $OMA$, $OMB$ et la propriété de l'angle extérieur. Cas particulier : angle inscrit dans un demi-cercle = angle droit."
+   },
+   "analogie": "Au stade de Kégué, tous les supporters assis sur la même portion de la tribune circulaire voient la cage de but sous le même angle.",
+   "exemples_resolus": [
+    {
+     "enonce": "$A$, $B$, $C$ sont sur un cercle de centre $O$ et $\\widehat{AOB}=130°$ ($C$ sur le grand arc). Calculer $\\widehat{ACB}$.",
+     "etapes": [
+      "$\\widehat{ACB}$ est un angle inscrit qui intercepte le petit arc $\\overset\\frown{AB}$, comme l'angle au centre $\\widehat{AOB}$.",
+      "Théorème de l'angle inscrit : $\\widehat{ACB}=\\dfrac12\\widehat{AOB}=\\dfrac{130°}{2}=65°$."
+     ]
+    },
+    {
+     "enonce": "$[AB]$ est un diamètre d'un cercle et $M$ un point du cercle avec $AM=6$ cm et $BM=8$ cm. Calculer le rayon.",
+     "etapes": [
+      "$\\widehat{AMB}$ intercepte un demi-cercle : c'est un angle droit, le triangle $AMB$ est rectangle en $M$.",
+      "Pythagore : $AB^2=AM^2+BM^2=36+64=100$, donc $AB=10$ cm.",
+      "Le rayon vaut $\\dfrac{AB}{2}=5$ cm."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Prendre l'angle inscrit égal à l'angle au centre (oublier le facteur ½).",
+    "Associer un angle au centre et un angle inscrit qui n'interceptent pas le même arc.",
+    "Oublier que si M et N sont de part et d'autre de la corde, les angles sont supplémentaires et non égaux.",
+    "Utiliser le théorème alors que le sommet n'est pas sur le cercle."
+   ],
+   "astuces": [
+    "Colorie l'arc intercepté : deux angles qui « regardent » le même arc coloré sont liés.",
+    "Un diamètre sur la figure ? Cherche un angle droit.",
+    "Les rayons sont égaux : cherche les triangles isocèles de sommet O."
+   ],
+   "mnemo": "« Le centre voit double. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 4e ? Si un triangle est inscrit dans un cercle ayant pour diamètre un de ses côtés, il est rectangle. C'est un cas particulier du théorème de l'angle inscrit (angle au centre de 180°, angle inscrit de 90°)."
+   },
+   "methode_redaction": "Nomme toujours l'arc intercepté : « L'angle inscrit AMB et l'angle au centre AOB interceptent le même arc AB, donc d'après le théorème de l'angle inscrit, AMB = ½ AOB = ... ». Donne l'unité (°).",
+   "flash": [
+    {
+     "q": "Angle au centre $100°$ : angle inscrit interceptant le même arc ?",
+     "r": "50°"
+    },
+    {
+     "q": "Angle inscrit dans un demi-cercle ?",
+     "r": "90°"
+    },
+    {
+     "q": "Deux angles inscrits interceptant le même arc ?",
+     "r": "Ils sont égaux."
+    },
+    {
+     "q": "Angle inscrit de $35°$ : angle au centre ?",
+     "r": "70°"
+    },
+    {
+     "q": "Sommet d'un angle inscrit ?",
+     "r": "Sur le cercle."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C06-N1.svg",
+    "alt": "Cercle de centre O ; l'angle au centre AOB vaut 2α et l'angle inscrit AMB vaut α ; l'arc AB intercepté est en rouge.",
+    "legende": "L'angle inscrit AMB vaut la moitié de l'angle au centre AOB.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C06-N2",
+   "titre": "Points cocycliques et quadrilatère inscriptible",
+   "prerequis_notions": [
+    "M-S1-C06-N1"
+   ],
+   "cours_md": ":::definition Points cocycliques\nDes points sont **cocycliques** s'ils appartiennent à un même cercle. Trois points non alignés sont toujours cocycliques (cercle circonscrit) ; pour quatre points, il faut le démontrer.\n:::\n\n:::propriete Caractérisation par les angles\nSoient $A$, $B$, $C$, $D$ quatre points distincts tels que $C$ et $D$ soient **du même côté** de la droite $(AB)$.\n$$A,\\ B,\\ C,\\ D \\text{ cocycliques}\\iff\\widehat{ACB}=\\widehat{ADB}$$\n:::\n\n:::propriete Quadrilatère inscriptible\nUn quadrilatère **convexe** $ABCD$ est inscriptible dans un cercle si et seulement si ses angles opposés sont **supplémentaires** :\n$$\\widehat{A}+\\widehat{C}=180°\\qquad(\\text{et donc }\\widehat{B}+\\widehat{D}=180°)$$\n:::\n\n**Justification du sens direct** : $\\widehat{A}=\\widehat{DAB}$ et $\\widehat{C}=\\widehat{BCD}$ sont deux angles inscrits interceptant les deux arcs $\\overset\\frown{BD}$ complémentaires ; les angles au centre correspondants ont pour somme $360°$, donc $\\widehat A+\\widehat C=\\frac12\\times360°=180°$.\n\n:::propriete Cas utile : deux angles droits\nSi $\\widehat{AMB}=\\widehat{ANB}=90°$, alors $M$ et $N$ sont sur le cercle de diamètre $[AB]$ : $A$, $B$, $M$, $N$ sont cocycliques.\n:::\n\n:::methode Démontrer que quatre points sont cocycliques\n- Soit montrer que deux angles « regardant » le même segment sont égaux (points du même côté) ;\n- soit montrer que deux angles opposés d'un quadrilatère convexe sont supplémentaires ;\n- soit trouver deux angles droits qui « regardent » le même segment (cercle de diamètre ce segment) ;\n- soit trouver un point équidistant des quatre points.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$ABCD$ est un quadrilatère inscrit dans un cercle avec $\\widehat{ABC}=100°$. Calculer $\\widehat{ADC}$.\n\n1. $ABCD$ est inscrit (et convexe) : ses angles opposés sont supplémentaires.\n2. $\\widehat{ADC}=180°-\\widehat{ABC}=180°-100°=80°$.\n:::\n\n:::exemple Exemple 2\nSur une figure, $C$ et $D$ sont du même côté de $(AB)$ et $\\widehat{ACB}=\\widehat{ADB}=50°$. Que peut-on dire des points $A$, $B$, $C$, $D$ ?\n\n1. Les points $C$ et $D$ sont du même côté de la droite $(AB)$.\n2. Ils voient le segment $[AB]$ sous le même angle : $\\widehat{ACB}=\\widehat{ADB}$.\n3. D'après la caractérisation par les angles inscrits, $A$, $B$, $C$, $D$ sont cocycliques.\n:::\n",
+   "definition": "Quatre points sont cocycliques s'ils sont sur un même cercle ; un quadrilatère convexe est inscriptible si et seulement si ses angles opposés sont supplémentaires.",
+   "formules": [
+    "$\\widehat{ACB}=\\widehat{ADB}\\iff A,B,C,D$ cocycliques ($C$, $D$ du même côté de $(AB)$)",
+    "$ABCD$ inscriptible $\\iff\\widehat A+\\widehat C=180°$"
+   ],
+   "niveaux": {
+    "phrase": "Quatre points sont sur un même cercle quand ils « voient » un même segment sous le même angle.",
+    "simple": "Si deux personnes, du même côté d'une route, voient deux arbres A et B sous exactement le même angle, alors elles et les deux arbres sont sur un même cercle.",
+    "complete": "La réciproque du théorème de l'angle inscrit donne un critère de cocyclicité : $\\widehat{ACB}=\\widehat{ADB}$ avec $C$, $D$ du même côté de $(AB)$. Pour un quadrilatère convexe, l'inscriptibilité équivaut à la supplémentarité des angles opposés. Les angles droits interceptant un même segment donnent le cercle de diamètre ce segment."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "$ABCD$ est un quadrilatère inscrit dans un cercle avec $\\widehat{ABC}=100°$. Calculer $\\widehat{ADC}$.",
+     "etapes": [
+      "$ABCD$ est inscrit (et convexe) : ses angles opposés sont supplémentaires.",
+      "$\\widehat{ADC}=180°-\\widehat{ABC}=180°-100°=80°$."
+     ]
+    },
+    {
+     "enonce": "Sur une figure, $C$ et $D$ sont du même côté de $(AB)$ et $\\widehat{ACB}=\\widehat{ADB}=50°$. Que peut-on dire des points $A$, $B$, $C$, $D$ ?",
+     "etapes": [
+      "Les points $C$ et $D$ sont du même côté de la droite $(AB)$.",
+      "Ils voient le segment $[AB]$ sous le même angle : $\\widehat{ACB}=\\widehat{ADB}$.",
+      "D'après la caractérisation par les angles inscrits, $A$, $B$, $C$, $D$ sont cocycliques."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier la condition « du même côté de (AB) » (sinon les angles sont supplémentaires).",
+    "Appliquer la règle des angles opposés supplémentaires à un quadrilatère croisé.",
+    "Dire qu'un quadrilatère quelconque est inscriptible (un parallélogramme non rectangle ne l'est pas)."
+   ],
+   "astuces": [
+    "Deux angles droits sur le même segment = cercle de diamètre ce segment : c'est la situation la plus fréquente en devoir.",
+    "Un rectangle est toujours inscriptible, un losange non carré jamais.",
+    "Pense aux hauteurs d'un triangle : leurs pieds créent beaucoup d'angles droits."
+   ],
+   "mnemo": "« Opposés dans le cercle, ensemble ils font un plat (180°). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 5e ? La somme des angles d'un quadrilatère convexe vaut $360°$. Si les angles opposés d'un quadrilatère inscrit font $180°$, la somme des quatre fait bien $2\\times180°=360°$."
+   },
+   "methode_redaction": "Écris l'hypothèse de position (« C et D sont du même côté de (AB) »), l'égalité d'angles avec sa justification, puis la conclusion « donc A, B, C, D sont cocycliques ». Pour un quadrilatère, précise qu'il est convexe.",
+   "flash": [
+    {
+     "q": "$ABCD$ inscrit, $\\widehat A=70°$ : $\\widehat C$ ?",
+     "r": "110°"
+    },
+    {
+     "q": "Un rectangle est-il inscriptible ?",
+     "r": "Oui (angles opposés 90° + 90°)."
+    },
+    {
+     "q": "Quatre points cocycliques ?",
+     "r": "Sur un même cercle."
+    },
+    {
+     "q": "$\\widehat{AMB}=\\widehat{ANB}=90°$ : conclusion ?",
+     "r": "$M$, $N$ sur le cercle de diamètre $[AB]$."
+    },
+    {
+     "q": "Un losange non carré est-il inscriptible ?",
+     "r": "Non."
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C06-N2.svg",
+    "alt": "Quadrilatère ABCD inscrit dans un cercle ; l'angle en A vaut α et l'angle opposé en C vaut 180° − α.",
+    "legende": "Dans un quadrilatère inscrit, les angles opposés sont supplémentaires.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S1-C06-N3",
+   "titre": "Polygones réguliers inscrits",
+   "prerequis_notions": [
+    "M-S1-C06-N1"
+   ],
+   "cours_md": ":::definition Polygone régulier\nUn polygone est **régulier** si tous ses côtés ont la même longueur **et** tous ses angles la même mesure. Tout polygone régulier est **inscrit** dans un cercle dont le centre $O$ est le centre du polygone.\n:::\n\n:::propriete Angles d'un polygone régulier à $n$ côtés\n- **Angle au centre** (entre deux rayons vers deux sommets consécutifs) : $\\dfrac{360°}{n}$.\n- **Angle intérieur** (en chaque sommet) : $\\dfrac{(n-2)\\times180°}{n}=180°-\\dfrac{360°}{n}$.\n:::\n\n| Polygone | $n$ | Angle au centre | Angle intérieur |\n|---|---|---|---|\n| Triangle équilatéral | 3 | 120° | 60° |\n| Carré | 4 | 90° | 90° |\n| Pentagone régulier | 5 | 72° | 108° |\n| Hexagone régulier | 6 | 60° | 120° |\n| Octogone régulier | 8 | 45° | 135° |\n\n:::propriete Hexagone régulier\nLes six triangles $OA_kA_{k+1}$ sont **équilatéraux** (isocèles en $O$ avec un angle de $60°$) : le **côté de l'hexagone est égal au rayon** du cercle. Son aire vaut $6\\times\\dfrac{\\sqrt3}{4}r^2=\\dfrac{3\\sqrt3}{2}r^2$.\n:::\n\n:::methode Construire un polygone régulier à $n$ côtés\n1. Tracer un cercle de centre $O$ et un rayon $[OA_1]$.\n2. Avec le rapporteur, reporter l'angle au centre $\\dfrac{360°}n$ à partir de $[OA_1]$ pour placer $A_2$, puis $A_3$, etc.\n3. Pour l'hexagone : reporter le rayon au compas six fois sur le cercle.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nCalculer l'angle au centre et l'angle intérieur d'un pentagone régulier.\n\n1. Angle au centre : $\\dfrac{360°}{5}=72°$.\n2. Angle intérieur : $\\dfrac{(5-2)\\times180°}{5}=\\dfrac{540°}{5}=108°$.\n3. Contrôle : $180°-72°=108°$ ✔.\n:::\n\n:::exemple Exemple 2\nUn hexagone régulier est inscrit dans un cercle de rayon $r=3$ cm. Calculer son périmètre.\n\n1. Angle au centre : $60°$ ; chaque triangle $OA_kA_{k+1}$ est isocèle en $O$ avec un angle de $60°$, donc équilatéral.\n2. Le côté est égal au rayon : $3$ cm.\n3. Périmètre : $6\\times3=18$ cm.\n:::\n",
+   "definition": "Un polygone régulier à $n$ côtés est inscrit dans un cercle ; son angle au centre vaut $\\frac{360°}{n}$ et son angle intérieur $180°-\\frac{360°}{n}$.",
+   "formules": [
+    "angle au centre $=\\dfrac{360°}{n}$",
+    "angle intérieur $=\\dfrac{(n-2)\\times180°}{n}$",
+    "hexagone : côté $=r$, aire $=\\dfrac{3\\sqrt3}{2}r^2$"
+   ],
+   "niveaux": {
+    "phrase": "Un polygone régulier, c'est un « gâteau » découpé en n parts égales depuis le centre.",
+    "simple": "Coupe une galette ronde en 6 parts égales depuis le centre : chaque part a un angle de 60°. En reliant les extrémités des coupes, tu obtiens un hexagone régulier.",
+    "complete": "Les sommets d'un polygone régulier à $n$ côtés sont équirépartis sur un cercle : angle au centre $360°/n$, triangles isocèles $OA_kA_{k+1}$ isométriques ; l'angle intérieur se déduit de la somme $(n-2)\\times180°$ des angles du polygone."
+   },
+   "analogie": "Les motifs des pagnes et des paniers tressés montrent souvent des hexagones : six triangles équilatéraux autour d'un centre.",
+   "exemples_resolus": [
+    {
+     "enonce": "Calculer l'angle au centre et l'angle intérieur d'un pentagone régulier.",
+     "etapes": [
+      "Angle au centre : $\\dfrac{360°}{5}=72°$.",
+      "Angle intérieur : $\\dfrac{(5-2)\\times180°}{5}=\\dfrac{540°}{5}=108°$.",
+      "Contrôle : $180°-72°=108°$ ✔."
+     ]
+    },
+    {
+     "enonce": "Un hexagone régulier est inscrit dans un cercle de rayon $r=3$ cm. Calculer son périmètre.",
+     "etapes": [
+      "Angle au centre : $60°$ ; chaque triangle $OA_kA_{k+1}$ est isocèle en $O$ avec un angle de $60°$, donc équilatéral.",
+      "Le côté est égal au rayon : $3$ cm.",
+      "Périmètre : $6\\times3=18$ cm."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre angle au centre et angle intérieur.",
+    "Croire qu'un losange (côtés égaux) est un polygone régulier : il faut aussi les angles égaux.",
+    "Utiliser n − 2 au lieu de n dans 360°/n."
+   ],
+   "astuces": [
+    "Angle intérieur + angle au centre = 180° : vérifie toujours.",
+    "Pour l'hexagone, le compas suffit : on reporte six fois le rayon."
+   ],
+   "mnemo": "« Hexagone : le côté, c'est le rayon. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 6e-5e ? La somme des angles d'un triangle vaut $180°$. Un polygone à $n$ côtés se découpe en $n-2$ triangles depuis un sommet, d'où la somme $(n-2)\\times180°$."
+   },
+   "methode_redaction": "Donne la formule, remplace n, calcule, puis justifie les propriétés utilisées (triangle isocèle en O car OA = OB = r ; angle de 60° donc équilatéral).",
+   "flash": [
+    {
+     "q": "Angle au centre d'un octogone régulier ?",
+     "r": "45°"
+    },
+    {
+     "q": "Angle intérieur d'un hexagone régulier ?",
+     "r": "120°"
+    },
+    {
+     "q": "Côté d'un hexagone régulier inscrit dans un cercle de rayon 5 ?",
+     "r": "5"
+    },
+    {
+     "q": "Polygone régulier d'angle au centre 30° ?",
+     "r": "12 côtés (dodécagone)."
+    },
+    {
+     "q": "Angle intérieur d'un pentagone régulier ?",
+     "r": "108°"
+    }
+   ],
+   "image": {
+    "fichier": "M-S1-C06-N3.svg",
+    "alt": "Hexagone régulier inscrit dans un cercle ; les rayons découpent six triangles équilatéraux d'angle au centre 60°.",
+    "legende": "Hexagone régulier : angle au centre 60°, côté égal au rayon.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S1-C06-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C06-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Sur un cercle de centre $O$, l'angle au centre $\\widehat{AOB}$ mesure $110°$. Combien mesure un angle inscrit $\\widehat{AMB}$ qui intercepte le même arc (en degrés) ?",
+   "reponses_acceptees": [
+    "55",
+    "55°"
+   ],
+   "indices": [
+    "Moitié de l'angle au centre."
+   ],
+   "corrige": [
+    "Théorème de l'angle inscrit : $\\widehat{AMB}=\\dfrac12\\widehat{AOB}$.",
+    "$\\widehat{AMB}=55°$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 220° (doubler au lieu de diviser).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C06-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C06-N1"
+   ],
+   "format": "qcm",
+   "enonce": "$[AB]$ est un diamètre d'un cercle et $M$ un point du cercle distinct de $A$ et $B$. L'angle $\\widehat{AMB}$ mesure :",
+   "choix": [
+    "45°",
+    "60°",
+    "90°",
+    "180°"
+   ],
+   "bonne_reponse": 2,
+   "indices": [
+    "Angle au centre plat."
+   ],
+   "corrige": [
+    "$\\widehat{AMB}$ intercepte un demi-cercle, l'angle au centre correspondant est plat ($180°$).",
+    "Donc $\\widehat{AMB}=90°$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 180°.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C06-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S1-C06-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un angle inscrit mesure $35°$. Combien mesure l'angle au centre qui intercepte le même arc (en degrés) ?",
+   "reponses_acceptees": [
+    "70",
+    "70°"
+   ],
+   "indices": [
+    "Le centre voit double."
+   ],
+   "corrige": [
+    "L'angle au centre est le double de l'angle inscrit.",
+    "$2\\times35°=70°$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 17,5°.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C06-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C06-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "$A$, $B$, $C$, $D$ sont sur un même cercle, $C$ et $D$ du même côté de $(AB)$, et $\\widehat{ACB}=48°$. Donner $\\widehat{ADB}$ en degrés.",
+   "reponses_acceptees": [
+    "48",
+    "48°"
+   ],
+   "indices": [
+    "Même arc intercepté."
+   ],
+   "corrige": [
+    "$\\widehat{ACB}$ et $\\widehat{ADB}$ sont deux angles inscrits qui interceptent le même arc $\\overset\\frown{AB}$.",
+    "Ils sont égaux : $\\widehat{ADB}=48°$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser qu'il faut diviser par 2.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C06-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C06-N2"
+   ],
+   "format": "qcm",
+   "enonce": "$ABCD$ est un quadrilatère convexe inscrit dans un cercle et $\\widehat{A}=75°$. Alors $\\widehat{C}$ mesure :",
+   "choix": [
+    "75°",
+    "105°",
+    "150°",
+    "37,5°"
+   ],
+   "bonne_reponse": 1,
+   "indices": [
+    "Â + Ĉ = 180°."
+   ],
+   "corrige": [
+    "Les angles opposés d'un quadrilatère inscrit sont supplémentaires.",
+    "$\\widehat C=180°-75°=105°$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 75° (égaux) ou 37,5°.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C06-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C06-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quelle est la mesure (en degrés) de l'angle intérieur d'un pentagone régulier ?",
+   "reponses_acceptees": [
+    "108",
+    "108°"
+   ],
+   "indices": [
+    "Somme des angles d'un pentagone : 540°."
+   ],
+   "corrige": [
+    "Angle intérieur $=\\dfrac{(n-2)\\times180°}{n}$ avec $n=5$.",
+    "$\\dfrac{3\\times180°}{5}=108°$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Donner l'angle au centre (72°).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C06-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S1-C06-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un polygone régulier a un angle au centre de $30°$. Combien a-t-il de côtés ?",
+   "reponses_acceptees": [
+    "12",
+    "n=12"
+   ],
+   "indices": [
+    "360 ÷ angle au centre."
+   ],
+   "corrige": [
+    "Angle au centre $=\\dfrac{360°}{n}=30°$.",
+    "$n=\\dfrac{360}{30}=12$ côtés."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre avec l'angle intérieur.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S1-C06-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C06-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Le triangle $ABC$ est inscrit dans un cercle de centre $O$. On donne $\\widehat{BAC}=40°$ et $\\widehat{ABC}=75°$.\n\n1. Calculer $\\widehat{ACB}$.\n2. Calculer l'angle au centre $\\widehat{BOC}$.\n3. Calculer $\\widehat{OBC}$ et $\\widehat{OCB}$.",
+   "indices": [
+    "Quel angle inscrit intercepte l'arc BC ?",
+    "Triangle isocèle en O."
+   ],
+   "corrige": [
+    "1. Somme des angles du triangle : $\\widehat{ACB}=180°-40°-75°=65°$.",
+    "2. $\\widehat{BAC}$ est inscrit et intercepte l'arc $\\overset\\frown{BC}$ comme $\\widehat{BOC}$ : $\\widehat{BOC}=2\\times40°=80°$.",
+    "3. $OB=OC$ (rayons) : $BOC$ est isocèle en $O$, donc $\\widehat{OBC}=\\widehat{OCB}=\\dfrac{180°-80°}{2}=50°$."
+   ],
+   "bareme": [
+    1,
+    2,
+    2
+   ],
+   "piege": "Associer à BOC l'angle ABC au lieu de BAC.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C06-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C06-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABC$ est un triangle dont les angles sont aigus. On note $B'$ le pied de la hauteur issue de $B$ et $C'$ le pied de la hauteur issue de $C$.\n\n1. Démontrer que $B'$ et $C'$ appartiennent au cercle de diamètre $[BC]$.\n2. En déduire que les points $B$, $C$, $B'$, $C'$ sont cocycliques et préciser le centre du cercle.",
+   "indices": [
+    "Un angle droit qui « regarde » [BC]..."
+   ],
+   "corrige": [
+    "1. $(BB')\\perp(AC)$ donc $\\widehat{BB'C}=90°$ : le triangle $BB'C$ est rectangle en $B'$, donc $B'$ est sur le cercle de diamètre $[BC]$.",
+    "De même $(CC')\\perp(AB)$ donc $\\widehat{BC'C}=90°$ : $C'$ est sur le cercle de diamètre $[BC]$.",
+    "2. $B$, $C$, $B'$, $C'$ sont tous sur le cercle de diamètre $[BC]$ : ils sont cocycliques. Le centre est le milieu de $[BC]$."
+   ],
+   "bareme": [
+    2,
+    1.5,
+    1.5
+   ],
+   "piege": "Oublier de citer la propriété du cercle circonscrit au triangle rectangle.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C06-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S1-C06-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Un hexagone régulier $ABCDEF$ est inscrit dans un cercle de centre $O$ et de rayon $4$ cm.\n\n1. Démontrer que le triangle $OAB$ est équilatéral.\n2. Calculer la hauteur (apothème) de ce triangle.\n3. Calculer l'aire exacte de l'hexagone, puis une valeur approchée au centième.",
+   "indices": [
+    "Pythagore dans le triangle OHA.",
+    "L'hexagone = 6 triangles identiques."
+   ],
+   "corrige": [
+    "1. $OA=OB=4$ cm (rayons) et $\\widehat{AOB}=\\dfrac{360°}6=60°$ ; un triangle isocèle avec un angle de $60°$ est équilatéral.",
+    "2. La hauteur issue de $O$ tombe au milieu $H$ de $[AB]$ : $OH^2=OA^2-AH^2=16-4=12$, donc $OH=\\sqrt{12}=2\\sqrt3$ cm.",
+    "3. Aire de $OAB$ : $\\dfrac{4\\times2\\sqrt3}{2}=4\\sqrt3$ cm². Aire de l'hexagone : $6\\times4\\sqrt3=24\\sqrt3\\approx41{,}57$ cm²."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    2
+   ],
+   "piege": "Oublier de multiplier par 6 ou se tromper dans la racine (√12 = 2√3).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C06-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C06-N1",
+    "M-S1-C06-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Le triangle $ABC$ est inscrit dans un cercle $\\mathcal C$ de centre $O$. La bissectrice de l'angle $\\widehat{BAC}$ recoupe $\\mathcal C$ en $D$ (sur l'arc $\\overset\\frown{BC}$ ne contenant pas $A$).\n\n1. Justifier que $\\widehat{BAD}=\\widehat{DAC}$.\n2. En déduire que $\\widehat{BOD}=\\widehat{DOC}$.\n3. Démontrer que $DB=DC$, puis que $D$ appartient à la médiatrice de $[BC]$.",
+   "indices": [
+    "Angles au centre interceptant BD et DC.",
+    "Cas d'égalité « côté-angle-côté »."
+   ],
+   "corrige": [
+    "1. $[AD)$ est la bissectrice de $\\widehat{BAC}$, donc $\\widehat{BAD}=\\widehat{DAC}=\\dfrac12\\widehat{BAC}$.",
+    "2. $\\widehat{BAD}$ est inscrit et intercepte l'arc $\\overset\\frown{BD}$, donc $\\widehat{BOD}=2\\widehat{BAD}$ ; de même $\\widehat{DOC}=2\\widehat{DAC}$. D'où $\\widehat{BOD}=\\widehat{DOC}$.",
+    "3. Les triangles $BOD$ et $DOC$ ont $OB=OD=OC$ et un angle égal compris entre ces côtés : ils sont isométriques, donc $DB=DC$.",
+    "$D$ est équidistant de $B$ et $C$ : il appartient à la médiatrice de $[BC]$ (donc $D$ est le milieu de l'arc $\\overset\\frown{BC}$)."
+   ],
+   "bareme": [
+    1,
+    2,
+    1.5,
+    0.5
+   ],
+   "piege": "Affirmer DB = DC sans justification par les triangles isométriques.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S1-C06-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S1-C06-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Sur un cercle $\\mathcal C$ de centre $O$ et de rayon $5$ cm, on place $A$ et $B$ tels que $\\widehat{AOB}=120°$.\n\n1. Soit $H$ le milieu de $[AB]$. Justifier que $(OH)\\perp(AB)$ et que $\\widehat{AOH}=60°$.\n2. Calculer la longueur exacte $AB$, puis une valeur approchée au centième.\n3. $M$ est un point du grand arc $\\overset\\frown{AB}$ et $N$ un point du petit arc. Calculer $\\widehat{AMB}$ et $\\widehat{ANB}$.",
+   "indices": [
+    "Trigonométrie du triangle rectangle (3e).",
+    "M et N de part et d'autre de la corde : angles supplémentaires."
+   ],
+   "corrige": [
+    "1. $OA=OB$ : $OAB$ est isocèle en $O$ ; la médiane $[OH]$ est aussi hauteur et bissectrice, donc $(OH)\\perp(AB)$ et $\\widehat{AOH}=\\dfrac{120°}{2}=60°$.",
+    "2. Dans le triangle $AOH$ rectangle en $H$ : $AH=OA\\times\\sin60°=5\\times\\dfrac{\\sqrt3}2$. Donc $AB=2AH=5\\sqrt3\\approx8{,}66$ cm.",
+    "3. $\\widehat{AMB}$ intercepte le petit arc : $\\widehat{AMB}=\\dfrac{120°}{2}=60°$.",
+    "$N$ et $M$ sont de part et d'autre de $(AB)$ : $\\widehat{ANB}=180°-60°=120°$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Prendre $\\widehat{ANB}=60°$ alors que $N$ est de l'autre côté de la corde.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Oublier le facteur ½ entre angle inscrit et angle au centre.",
+  "Associer deux angles qui n'interceptent pas le même arc.",
+  "Oublier de vérifier que les points sont du même côté de la corde.",
+  "Confondre angle au centre et angle intérieur d'un polygone régulier.",
+  "Conclure à la cocyclicité sans citer la propriété utilisée."
+ ]
+}
