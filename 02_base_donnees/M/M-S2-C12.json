@@ -1,0 +1,867 @@
+{
+ "id": "M-S2-C12",
+ "matiere": "M",
+ "semestre": 2,
+ "ordre": 12,
+ "titre": "Produit scalaire",
+ "objectifs": [
+  "Calculer un produit scalaire par la projection orthogonale, par le cosinus ou par les normes.",
+  "Utiliser les propriétés du produit scalaire (bilinéarité, identités remarquables).",
+  "Démontrer une orthogonalité à l'aide d'un produit scalaire.",
+  "Calculer un produit scalaire, une norme, une distance et un angle dans un repère orthonormé.",
+  "Utiliser le théorème d'Al-Kashi et le théorème de la médiane.",
+  "Déterminer des ensembles de points définis par une condition sur un produit scalaire."
+ ],
+ "prerequis": [
+  "M-3e-PYTHAGORE",
+  "M-3e-TRIGONOMETRIE",
+  "M-S1-C02",
+  "M-S1-C04",
+  "M-S2-C10"
+ ],
+ "notions": [
+  {
+   "id": "M-S2-C12-N1",
+   "titre": "Définition et expressions du produit scalaire",
+   "prerequis_notions": [
+    "M-S1-C02-N1",
+    "M-S2-C10-N3"
+   ],
+   "cours_md": "## 1. Norme d'un vecteur\n\n:::definition\nLa **norme** d'un vecteur $\\vec u=\\overrightarrow{AB}$ est la longueur $AB$ ; on la note $\\|\\vec u\\|$. On a $\\|\\vec u\\|=0\\iff\\vec u=\\vec 0$ et $\\|k\\vec u\\|=|k|\\,\\|\\vec u\\|$.\n:::\n\n## 2. Produit scalaire\n\n:::definition Définition par la projection orthogonale\nSoient $A$, $B$, $C$ trois points avec $A\\neq B$, et $H$ le projeté orthogonal de $C$ sur la droite $(AB)$. Le **produit scalaire** $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$ est le **réel** :\n- $AB\\times AH$ si $\\overrightarrow{AB}$ et $\\overrightarrow{AH}$ sont de **même sens** ;\n- $-AB\\times AH$ s'ils sont de **sens contraires** ;\n- $0$ si $H=A$.\n\nSi l'un des vecteurs est nul, le produit scalaire vaut $0$.\n:::\n\n:::propriete Expression avec le cosinus\nPour deux vecteurs non nuls :\n$$\\vec u\\cdot\\vec v=\\|\\vec u\\|\\times\\|\\vec v\\|\\times\\cos(\\vec u,\\vec v).$$\nComme le cosinus est pair, on peut utiliser l'angle géométrique : $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AB\\times AC\\times\\cos\\widehat{BAC}$.\n:::\n\n:::propriete Expression avec les normes\n$$\\vec u\\cdot\\vec v=\\frac12\\left(\\|\\vec u+\\vec v\\|^2-\\|\\vec u\\|^2-\\|\\vec v\\|^2\\right)=\\frac12\\left(\\|\\vec u\\|^2+\\|\\vec v\\|^2-\\|\\vec u-\\vec v\\|^2\\right)$$\n:::\n\n:::remarque Signe et carré scalaire\n- $\\vec u\\cdot\\vec v>0$ si l'angle est aigu, $<0$ s'il est obtus, $=0$ s'il est droit.\n- $\\vec u\\cdot\\vec u=\\|\\vec u\\|^2$ : on note $\\vec u^{\\,2}=\\|\\vec u\\|^2$ (**carré scalaire**) ; en particulier $\\overrightarrow{AB}^{\\,2}=AB^2$.\n:::\n\n:::attention\nLe produit scalaire de deux vecteurs est un **nombre réel**, pas un vecteur.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$ABC$ est un triangle équilatéral de côté $4$. Calculer $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$.\n\n1. $\\widehat{BAC}=60^\\circ=\\dfrac\\pi3$.\n2. $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AB\\times AC\\times\\cos\\dfrac\\pi3=4\\times4\\times\\dfrac12=8$.\n:::\n\n:::exemple Exemple 2\n$ABCD$ est un carré de côté $3$. Calculer $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$, $\\overrightarrow{AB}\\cdot\\overrightarrow{AD}$ et $\\overrightarrow{AB}\\cdot\\overrightarrow{CD}$.\n\n1. Le projeté orthogonal de $C$ sur $(AB)$ est $B$ : $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AB\\times AB=9$.\n2. Le projeté de $D$ sur $(AB)$ est $A$ : $\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=0$.\n3. $\\overrightarrow{CD}=-\\overrightarrow{AB}$, donc $\\overrightarrow{AB}\\cdot\\overrightarrow{CD}=-AB^2=-9$.\n:::",
+   "definition": "Le produit scalaire de deux vecteurs est le réel $\\vec u\\cdot\\vec v=\\|\\vec u\\|\\,\\|\\vec v\\|\\cos(\\vec u,\\vec v)$ ; géométriquement, $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\pm AB\\times AH$ où $H$ est le projeté orthogonal de $C$ sur $(AB)$.",
+   "formules": [
+    "$\\vec u\\cdot\\vec v=\\|\\vec u\\|\\,\\|\\vec v\\|\\cos(\\vec u,\\vec v)$",
+    "$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\pm AB\\times AH$",
+    "$\\vec u\\cdot\\vec v=\\frac12\\left(\\|\\vec u+\\vec v\\|^2-\\|\\vec u\\|^2-\\|\\vec v\\|^2\\right)$",
+    "$\\vec u^{\\,2}=\\|\\vec u\\|^2$"
+   ],
+   "niveaux": {
+    "phrase": "Le produit scalaire est un nombre qui mesure à quel point deux vecteurs « vont dans le même sens ».",
+    "simple": "Projette l'ombre de AC sur la droite (AB) quand le soleil est à la verticale : le produit scalaire est la longueur AB multipliée par la longueur de cette ombre, comptée négativement si l'ombre part dans l'autre sens.",
+    "complete": "Pour $A\\neq B$ et $H$ projeté orthogonal de $C$ sur $(AB)$, $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\overline{AB}\\times\\overline{AH}$ (mesures algébriques). On en déduit $\\vec u\\cdot\\vec v=\\|\\vec u\\|\\|\\vec v\\|\\cos(\\vec u,\\vec v)$ et les formules de polarisation $\\vec u\\cdot\\vec v=\\frac12(\\|\\vec u+\\vec v\\|^2-\\|\\vec u\\|^2-\\|\\vec v\\|^2)$. Le signe du produit indique si l'angle est aigu, droit ou obtus."
+   },
+   "analogie": "Un pousse-pousse tiré avec une corde inclinée : seule la partie de la force dirigée dans le sens de la route fait avancer. Le produit scalaire mesure exactement cette part « utile ».",
+   "exemples_resolus": [
+    {
+     "enonce": "On donne $\\|\\vec u\\|=3$, $\\|\\vec v\\|=2$ et $(\\vec u,\\vec v)=\\dfrac{3\\pi}4$. Calculer $\\vec u\\cdot\\vec v$.",
+     "etapes": [
+      "$\\cos\\dfrac{3\\pi}4=\\cos\\left(\\pi-\\dfrac\\pi4\\right)=-\\dfrac{\\sqrt2}2$.",
+      "$\\vec u\\cdot\\vec v=3\\times2\\times\\left(-\\dfrac{\\sqrt2}2\\right)=-3\\sqrt2$."
+     ]
+    },
+    {
+     "enonce": "Dans un triangle $ABC$, $AB=5$, $AC=4$ et $\\widehat{BAC}=120^\\circ$. Calculer $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$.",
+     "etapes": [
+      "$\\cos120^\\circ=-\\dfrac12$.",
+      "$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=5\\times4\\times\\left(-\\dfrac12\\right)=-10$ (angle obtus : produit négatif)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire le résultat d'un produit scalaire avec une flèche : c'est un nombre.",
+    "Oublier le signe moins quand le projeté H est « de l'autre côté » de A.",
+    "Écrire $\\vec u\\cdot\\vec v=\\|\\vec u\\|\\times\\|\\vec v\\|$ en oubliant le cosinus.",
+    "Projeter sur la mauvaise droite (il faut projeter C sur (AB), pas B sur (AC) en gardant AH)."
+   ],
+   "astuces": [
+    "Dans un carré ou un rectangle, cherche les projetés : ils tombent souvent sur un sommet.",
+    "Un angle obtus donne toujours un produit négatif : contrôle le signe.",
+    "Si tu connais les trois côtés d'un triangle, utilise la formule avec les normes."
+   ],
+   "mnemo": "« Produit scalaire = longueur × ombre (avec un signe). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans le triangle $AHC$ rectangle en $H$, $\\cos\\widehat{A}=\\dfrac{AH}{AC}$, donc $AH=AC\\cos\\widehat A$. C'est pourquoi $AB\\times AH=AB\\times AC\\times\\cos\\widehat A$."
+   },
+   "methode_redaction": "Écris la formule utilisée avant de remplacer (« AB · AC = AB × AC × cos BAC »), précise l'angle et sa valeur, puis le calcul. Pour la projection, nomme le projeté (« le projeté orthogonal de C sur (AB) est B »).",
+   "flash": [
+    {
+     "q": "$\\vec u\\cdot\\vec v$ avec $\\|\\vec u\\|=2$, $\\|\\vec v\\|=3$, angle $\\frac\\pi3$ ?",
+     "r": "$2\\times3\\times\\frac12=3$"
+    },
+    {
+     "q": "$\\vec u\\cdot\\vec v$ si $\\vec u\\perp\\vec v$ ?",
+     "r": "$0$"
+    },
+    {
+     "q": "$\\vec u\\cdot\\vec u=\\,?$",
+     "r": "$\\|\\vec u\\|^2$"
+    },
+    {
+     "q": "Signe du produit scalaire si l'angle est obtus ?",
+     "r": "Négatif."
+    },
+    {
+     "q": "$ABCD$ carré de côté $a$ : $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\,?$",
+     "r": "$a^2$ (le projeté de $C$ sur $(AB)$ est $B$)."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C12-N1.svg",
+    "alt": "Deux figures : en haut, angle aigu, le projeté H de C sur (AB) est du même côté que B et AB · AC = AB × AH ; en bas, angle obtus, H est de l'autre côté de A et AB · AC = −AB × AH.",
+    "legende": "Le signe du produit scalaire dépend de la position du projeté orthogonal H.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C12-N2",
+   "titre": "Propriétés du produit scalaire et orthogonalité",
+   "prerequis_notions": [
+    "M-S2-C12-N1"
+   ],
+   "cours_md": "## 1. Règles de calcul\n\n:::propriete Pour tous vecteurs $\\vec u$, $\\vec v$, $\\vec w$ et tout réel $k$\n- **Symétrie** : $\\vec u\\cdot\\vec v=\\vec v\\cdot\\vec u$.\n- **Bilinéarité** : $\\vec u\\cdot(\\vec v+\\vec w)=\\vec u\\cdot\\vec v+\\vec u\\cdot\\vec w$ et $(k\\vec u)\\cdot\\vec v=k(\\vec u\\cdot\\vec v)$.\n:::\n\n:::propriete Identités remarquables\n$$(\\vec u+\\vec v)^2=\\vec u^{\\,2}+2\\vec u\\cdot\\vec v+\\vec v^{\\,2}\\qquad(\\vec u-\\vec v)^2=\\vec u^{\\,2}-2\\vec u\\cdot\\vec v+\\vec v^{\\,2}$$\n$$(\\vec u+\\vec v)\\cdot(\\vec u-\\vec v)=\\vec u^{\\,2}-\\vec v^{\\,2}$$\n:::\n\n## 2. Orthogonalité\n\n:::definition\nDeux vecteurs $\\vec u$ et $\\vec v$ sont **orthogonaux** si $\\vec u\\cdot\\vec v=0$. Le vecteur nul est orthogonal à tout vecteur.\n:::\n\n:::propriete Théorème\nPour deux vecteurs non nuls : $\\vec u\\cdot\\vec v=0\\iff$ leurs directions sont perpendiculaires. Ainsi $(AB)\\perp(CD)\\iff\\overrightarrow{AB}\\cdot\\overrightarrow{CD}=0$.\n:::\n\n:::methode Démontrer que deux droites sont perpendiculaires\n1. Choisir deux vecteurs « de base » dont on connaît les produits scalaires (par exemple les côtés d'un carré : $\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=0$, $AB^2=AD^2=a^2$).\n2. Décomposer chaque vecteur directeur avec la relation de Chasles.\n3. Développer le produit scalaire et montrer qu'il est nul.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nOn donne $\\|\\vec u\\|=2$, $\\|\\vec v\\|=3$ et $\\vec u\\cdot\\vec v=-1$. Calculer $\\|\\vec u+\\vec v\\|$ et $(2\\vec u-\\vec v)\\cdot(\\vec u+\\vec v)$.\n\n1. $\\|\\vec u+\\vec v\\|^2=\\vec u^{\\,2}+2\\vec u\\cdot\\vec v+\\vec v^{\\,2}=4-2+9=11$, donc $\\|\\vec u+\\vec v\\|=\\sqrt{11}$.\n2. $(2\\vec u-\\vec v)\\cdot(\\vec u+\\vec v)=2\\vec u^{\\,2}+2\\vec u\\cdot\\vec v-\\vec v\\cdot\\vec u-\\vec v^{\\,2}$.\n3. $=8-2+1-9=-2$.\n:::\n\n:::exemple Exemple 2\n$ABCD$ est un carré de côté $a$, $I$ le milieu de $[BC]$ et $J$ le milieu de $[CD]$. Montrer que $(AI)\\perp(BJ)$.\n\n1. $\\overrightarrow{AI}=\\overrightarrow{AB}+\\overrightarrow{BI}=\\overrightarrow{AB}+\\dfrac12\\overrightarrow{AD}$ et $\\overrightarrow{BJ}=\\overrightarrow{BC}+\\overrightarrow{CJ}=\\overrightarrow{AD}-\\dfrac12\\overrightarrow{AB}$.\n2. $\\overrightarrow{AI}\\cdot\\overrightarrow{BJ}=\\overrightarrow{AB}\\cdot\\overrightarrow{AD}-\\dfrac12AB^2+\\dfrac12AD^2-\\dfrac14\\overrightarrow{AD}\\cdot\\overrightarrow{AB}$.\n3. Or $\\overrightarrow{AB}\\cdot\\overrightarrow{AD}=0$ et $AB^2=AD^2=a^2$ : $\\overrightarrow{AI}\\cdot\\overrightarrow{BJ}=0-\\dfrac{a^2}2+\\dfrac{a^2}2-0=0$.\n4. Donc $(AI)\\perp(BJ)$.\n:::",
+   "definition": "Le produit scalaire se développe comme un produit de nombres (symétrie, bilinéarité, identités remarquables) ; deux vecteurs sont orthogonaux si et seulement si leur produit scalaire est nul.",
+   "formules": [
+    "$(\\vec u+\\vec v)^2=\\vec u^{\\,2}+2\\vec u\\cdot\\vec v+\\vec v^{\\,2}$",
+    "$(\\vec u+\\vec v)\\cdot(\\vec u-\\vec v)=\\vec u^{\\,2}-\\vec v^{\\,2}$",
+    "$\\vec u\\perp\\vec v\\iff\\vec u\\cdot\\vec v=0$"
+   ],
+   "niveaux": {
+    "phrase": "On calcule avec le produit scalaire comme avec les nombres, et un produit nul signifie un angle droit.",
+    "simple": "Développer (u + v)·(u − v), c'est comme développer (a + b)(a − b) en 3e : les mêmes identités remarquables reviennent, avec des vecteurs.",
+    "complete": "Le produit scalaire est une forme bilinéaire symétrique ; $\\vec u^{\\,2}=\\|\\vec u\\|^2\\ge0$. On en déduit les identités remarquables, l'identité du parallélogramme $\\|\\vec u+\\vec v\\|^2+\\|\\vec u-\\vec v\\|^2=2(\\|\\vec u\\|^2+\\|\\vec v\\|^2)$ et la caractérisation de l'orthogonalité : $\\vec u\\cdot\\vec v=0$."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Montrer que pour tous vecteurs $\\vec u$ et $\\vec v$ : $\\|\\vec u+\\vec v\\|^2+\\|\\vec u-\\vec v\\|^2=2\\left(\\|\\vec u\\|^2+\\|\\vec v\\|^2\\right)$.",
+     "etapes": [
+      "$\\|\\vec u+\\vec v\\|^2=\\vec u^{\\,2}+2\\vec u\\cdot\\vec v+\\vec v^{\\,2}$ et $\\|\\vec u-\\vec v\\|^2=\\vec u^{\\,2}-2\\vec u\\cdot\\vec v+\\vec v^{\\,2}$.",
+      "En additionnant, les termes $\\pm2\\vec u\\cdot\\vec v$ s'éliminent : on obtient $2\\vec u^{\\,2}+2\\vec v^{\\,2}=2\\left(\\|\\vec u\\|^2+\\|\\vec v\\|^2\\right)$."
+     ]
+    },
+    {
+     "enonce": "Montrer que les diagonales d'un losange $ABCD$ sont perpendiculaires.",
+     "etapes": [
+      "$\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}$ et $\\overrightarrow{DB}=\\overrightarrow{AB}-\\overrightarrow{AD}$.",
+      "$\\overrightarrow{AC}\\cdot\\overrightarrow{DB}=(\\overrightarrow{AB}+\\overrightarrow{AD})\\cdot(\\overrightarrow{AB}-\\overrightarrow{AD})=AB^2-AD^2$.",
+      "Dans un losange $AB=AD$, donc le produit est nul : $(AC)\\perp(BD)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $(\\vec u+\\vec v)^2=\\vec u^{\\,2}+\\vec v^{\\,2}$ en oubliant le double produit.",
+    "Oublier un terme en développant un produit de deux sommes (il y a quatre termes).",
+    "Croire que $\\vec u\\cdot\\vec v=0$ implique $\\vec u=\\vec 0$ ou $\\vec v=\\vec 0$ : non, ils peuvent être orthogonaux.",
+    "Confondre $\\vec u^{\\,2}$ (un nombre, $\\|\\vec u\\|^2$) et $\\vec u$."
+   ],
+   "astuces": [
+    "Dans un carré ou un rectangle, prends comme base les deux côtés issus d'un même sommet.",
+    "Après le développement, remplace tout de suite les produits connus (0 pour des côtés perpendiculaires).",
+    "Pour montrer un angle droit, il suffit de montrer qu'un produit scalaire est nul."
+   ],
+   "mnemo": "« Produit scalaire nul, angle droit garanti. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? $(a+b)^2=a^2+2ab+b^2$ et $(a+b)(a-b)=a^2-b^2$. Les mêmes formules marchent avec les vecteurs et le produit scalaire."
+   },
+   "methode_redaction": "Écris les décompositions avec Chasles sur des lignes séparées, développe en gardant tous les termes, puis remplace chaque produit connu en disant pourquoi (« car (AB) ⊥ (AD) »). Conclus : « AI · BJ = 0 donc (AI) ⊥ (BJ) ».",
+   "flash": [
+    {
+     "q": "$(\\vec u-\\vec v)^2=\\,?$",
+     "r": "$\\vec u^{\\,2}-2\\vec u\\cdot\\vec v+\\vec v^{\\,2}$"
+    },
+    {
+     "q": "$(\\vec u+\\vec v)\\cdot(\\vec u-\\vec v)=\\,?$",
+     "r": "$\\|\\vec u\\|^2-\\|\\vec v\\|^2$"
+    },
+    {
+     "q": "$(3\\vec u)\\cdot\\vec v=\\,?$",
+     "r": "$3(\\vec u\\cdot\\vec v)$"
+    },
+    {
+     "q": "Comment montrer que (AB) ⊥ (CD) ?",
+     "r": "Montrer que $\\overrightarrow{AB}\\cdot\\overrightarrow{CD}=0$."
+    },
+    {
+     "q": "$\\|\\vec u\\|=\\|\\vec v\\|$ : que dire de $\\vec u+\\vec v$ et $\\vec u-\\vec v$ ?",
+     "r": "Ils sont orthogonaux."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C12-N2.svg",
+    "alt": "Carré ABCD avec I milieu de [BC] et J milieu de [CD] ; les segments [AI] (bleu) et [BJ] (rouge) se coupent à angle droit.",
+    "legende": "AI · BJ = 0 : les droites (AI) et (BJ) sont perpendiculaires.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C12-N3",
+   "titre": "Expression analytique dans un repère orthonormé",
+   "prerequis_notions": [
+    "M-S2-C12-N2",
+    "M-S1-C02-N3"
+   ],
+   "cours_md": ":::propriete Dans un repère **orthonormé** $(O\\,;\\vec i,\\vec j)$\nSi $\\vec u(x\\,;y)$ et $\\vec v(x'\\,;y')$ :\n$$\\vec u\\cdot\\vec v=xx'+yy'\\qquad\\|\\vec u\\|=\\sqrt{x^2+y^2}$$\nPour deux points : $AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$.\n\n*Démonstration.* $\\vec u=x\\vec i+y\\vec j$, $\\vec v=x'\\vec i+y'\\vec j$ ; on développe avec $\\vec i^{\\,2}=\\vec j^{\\,2}=1$ et $\\vec i\\cdot\\vec j=0$.\n:::\n\n:::propriete Conséquences\n- $\\vec u\\perp\\vec v\\iff xx'+yy'=0$.\n- Pour $\\vec u$ et $\\vec v$ non nuls : $\\cos(\\vec u,\\vec v)=\\dfrac{xx'+yy'}{\\|\\vec u\\|\\,\\|\\vec v\\|}$.\n:::\n\n:::attention\nCes formules ne sont valables que dans un repère **orthonormé** (axes perpendiculaires et même unité).\n:::\n\n:::methode Étudier la nature d'un triangle avec des coordonnées\n1. Calculer les coordonnées des vecteurs utiles.\n2. Calculer les longueurs (triangle isocèle, équilatéral ?) et les produits scalaires (angle droit ?).\n3. Conclure avec une phrase précise (« rectangle et isocèle en $A$ »).\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nOn donne $A(1\\,;2)$, $B(4\\,;3)$ et $C(2\\,;-1)$. Quelle est la nature du triangle $ABC$ ?\n\n1. $\\overrightarrow{AB}(3\\,;1)$ et $\\overrightarrow{AC}(1\\,;-3)$.\n2. $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=3\\times1+1\\times(-3)=0$ : le triangle est rectangle en $A$.\n3. $AB=\\sqrt{9+1}=\\sqrt{10}$ et $AC=\\sqrt{1+9}=\\sqrt{10}$ : $AB=AC$.\n4. $ABC$ est rectangle et isocèle en $A$.\n:::\n\n:::exemple Exemple 2\nDéterminer une mesure de l'angle géométrique entre $\\vec u(1\\,;2)$ et $\\vec v(3\\,;1)$.\n\n1. $\\vec u\\cdot\\vec v=3+2=5$ ; $\\|\\vec u\\|=\\sqrt5$ et $\\|\\vec v\\|=\\sqrt{10}$.\n2. $\\cos\\theta=\\dfrac{5}{\\sqrt5\\times\\sqrt{10}}=\\dfrac{5}{\\sqrt{50}}=\\dfrac{5}{5\\sqrt2}=\\dfrac{\\sqrt2}2$.\n3. Donc $\\theta=\\dfrac\\pi4$ ($45^\\circ$).\n:::",
+   "definition": "Dans un repère orthonormé, $\\vec u(x\\,;y)\\cdot\\vec v(x'\\,;y')=xx'+yy'$ et $\\|\\vec u\\|=\\sqrt{x^2+y^2}$ ; deux vecteurs sont orthogonaux si $xx'+yy'=0$.",
+   "formules": [
+    "$\\vec u\\cdot\\vec v=xx'+yy'$",
+    "$\\|\\vec u\\|=\\sqrt{x^2+y^2}$",
+    "$AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$",
+    "$\\cos(\\vec u,\\vec v)=\\dfrac{xx'+yy'}{\\|\\vec u\\|\\,\\|\\vec v\\|}$"
+   ],
+   "niveaux": {
+    "phrase": "Avec des coordonnées, le produit scalaire se calcule en multipliant les abscisses, les ordonnées, et en additionnant.",
+    "simple": "Dans un repère orthonormé, le produit scalaire devient une simple opération : « abscisse fois abscisse plus ordonnée fois ordonnée ». Plus besoin d'angle ni de projection.",
+    "complete": "Dans une base orthonormée $(\\vec i,\\vec j)$ : $\\vec i^{\\,2}=\\vec j^{\\,2}=1$, $\\vec i\\cdot\\vec j=0$, donc par bilinéarité $\\vec u\\cdot\\vec v=xx'+yy'$. On en tire la norme, la distance, le critère d'orthogonalité et le cosinus de l'angle de deux vecteurs."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Déterminer le réel $m$ pour que $\\vec u(m\\,;2)$ et $\\vec v(3\\,;-6)$ soient orthogonaux.",
+     "etapes": [
+      "$\\vec u\\cdot\\vec v=3m+2\\times(-6)=3m-12$.",
+      "$\\vec u\\perp\\vec v\\iff3m-12=0\\iff m=4$."
+     ]
+    },
+    {
+     "enonce": "Calculer le périmètre du triangle $EFG$ avec $E(0\\,;0)$, $F(3\\,;4)$, $G(6\\,;0)$.",
+     "etapes": [
+      "$EF=\\sqrt{9+16}=5$ ; $FG=\\sqrt{9+16}=5$ ; $EG=\\sqrt{36+0}=6$.",
+      "Périmètre : $5+5+6=16$. (Le triangle est isocèle en $F$.)"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Utiliser xx' + yy' dans un repère qui n'est pas orthonormé.",
+    "Écrire $\\|\\vec u\\|=x+y$ ou oublier la racine carrée.",
+    "Se tromper dans l'ordre des coordonnées d'un vecteur : AB a pour coordonnées (xB − xA ; yB − yA).",
+    "Conclure « rectangle » sans dire en quel sommet."
+   ],
+   "astuces": [
+    "Calcule toujours les coordonnées des vecteurs avant le produit scalaire, sur une ligne à part.",
+    "Pour la nature d'un triangle, calcule les trois longueurs et au moins un produit scalaire.",
+    "Pense à simplifier les racines : √50 = 5√2."
+   ],
+   "mnemo": "« x fois x', plus y fois y'. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens du chapitre sur les vecteurs ? $\\overrightarrow{AB}$ a pour coordonnées $(x_B-x_A\\,;y_B-y_A)$, et deux vecteurs sont colinéaires si $xy'-x'y=0$. Pour l'orthogonalité, c'est $xx'+yy'=0$ : attention à ne pas confondre les deux."
+   },
+   "methode_redaction": "Rappelle que le repère est orthonormé, écris les coordonnées des vecteurs, puis le calcul complet « AB · AC = 3×1 + 1×(−3) = 0 ». Conclus avec la propriété (« donc (AB) ⊥ (AC) »).",
+   "flash": [
+    {
+     "q": "$\\vec u(2\\,;-1)\\cdot\\vec v(3\\,;4)=\\,?$",
+     "r": "$6-4=2$"
+    },
+    {
+     "q": "Norme de $\\vec u(3\\,;4)$ ?",
+     "r": "$5$"
+    },
+    {
+     "q": "$\\vec u(x\\,;y)\\perp\\vec v(x'\\,;y')\\iff\\,?$",
+     "r": "$xx'+yy'=0$"
+    },
+    {
+     "q": "Condition indispensable pour utiliser xx' + yy' ?",
+     "r": "Le repère doit être orthonormé."
+    },
+    {
+     "q": "Colinéarité ou orthogonalité : que teste $xy'-x'y=0$ ?",
+     "r": "La colinéarité (déterminant nul)."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C12-N3.svg",
+    "alt": "Repère orthonormé : triangle A(1 ; 2), B(4 ; 3), C(2 ; −1) ; les vecteurs AB(3 ; 1) et AC(1 ; −3) forment un angle droit en A.",
+    "legende": "AB · AC = 3×1 + 1×(−3) = 0 : le triangle est rectangle en A.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C12-N4",
+   "titre": "Relations métriques dans le triangle : Al-Kashi et médiane",
+   "prerequis_notions": [
+    "M-S2-C12-N2",
+    "M-3e-PYTHAGORE"
+   ],
+   "cours_md": "## 1. Théorème d'Al-Kashi\n\n:::propriete Théorème d'Al-Kashi (ou des cosinus)\nDans un triangle $ABC$, avec $a=BC$, $b=CA$, $c=AB$ :\n$$a^2=b^2+c^2-2bc\\cos\\widehat A$$\net de même $b^2=a^2+c^2-2ac\\cos\\widehat B$, $c^2=a^2+b^2-2ab\\cos\\widehat C$.\n\n*Démonstration.* $\\overrightarrow{BC}=\\overrightarrow{AC}-\\overrightarrow{AB}$, donc $BC^2=AC^2+AB^2-2\\,\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$, et $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AB\\times AC\\times\\cos\\widehat A$.\n:::\n\n:::remarque\nSi $\\widehat A=90^\\circ$, $\\cos\\widehat A=0$ et on retrouve le théorème de Pythagore. La formule permet aussi de calculer un angle connaissant les trois côtés : $\\cos\\widehat A=\\dfrac{b^2+c^2-a^2}{2bc}$.\n:::\n\n## 2. Théorème de la médiane\n\n:::propriete Théorème de la médiane\nSoit $I$ le milieu de $[BC]$. Alors :\n$$AB^2+AC^2=2AI^2+\\frac{BC^2}{2}\\qquad\\text{et}\\qquad\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AI^2-\\frac{BC^2}{4}.$$\n\n*Démonstration.* $\\overrightarrow{AB}=\\overrightarrow{AI}+\\overrightarrow{IB}$, $\\overrightarrow{AC}=\\overrightarrow{AI}+\\overrightarrow{IC}$ avec $\\overrightarrow{IC}=-\\overrightarrow{IB}$ ; on développe : $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AI^2-IB^2$ et $AB^2+AC^2=2AI^2+2IB^2$, avec $IB=\\dfrac{BC}2$.\n:::\n\n:::methode Choisir la bonne formule\n- Deux côtés et l'angle compris → Al-Kashi donne le troisième côté.\n- Trois côtés → Al-Kashi donne un angle (par son cosinus).\n- Une médiane → théorème de la médiane.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDans un triangle $ABC$, $AB=5$, $AC=8$ et $\\widehat{BAC}=60^\\circ$. Calculer $BC$.\n\n1. Al-Kashi : $BC^2=AB^2+AC^2-2\\times AB\\times AC\\times\\cos60^\\circ$.\n2. $BC^2=25+64-2\\times5\\times8\\times\\dfrac12=89-40=49$.\n3. $BC=7$.\n:::\n\n:::exemple Exemple 2\nDans un triangle $ABC$, $AB=6$, $AC=4$, $BC=8$ et $I$ est le milieu de $[BC]$. Calculer $AI$.\n\n1. Théorème de la médiane : $AB^2+AC^2=2AI^2+\\dfrac{BC^2}2$.\n2. $36+16=2AI^2+32$, donc $2AI^2=20$ et $AI^2=10$.\n3. $AI=\\sqrt{10}$.\n:::",
+   "definition": "Al-Kashi : $a^2=b^2+c^2-2bc\\cos\\widehat A$ ; médiane : $AB^2+AC^2=2AI^2+\\frac{BC^2}2$ avec $I$ milieu de $[BC]$.",
+   "formules": [
+    "$a^2=b^2+c^2-2bc\\cos\\widehat A$",
+    "$\\cos\\widehat A=\\dfrac{b^2+c^2-a^2}{2bc}$",
+    "$AB^2+AC^2=2AI^2+\\dfrac{BC^2}{2}$",
+    "$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AI^2-\\dfrac{BC^2}{4}$"
+   ],
+   "niveaux": {
+    "phrase": "Al-Kashi est un « Pythagore pour tous les triangles ».",
+    "simple": "Pythagore ne marche que dans un triangle rectangle. Al-Kashi ajoute une correction, −2bc cos A, qui vaut 0 quand l'angle est droit : c'est Pythagore généralisé.",
+    "complete": "Les relations métriques découlent du développement de carrés scalaires : $BC^2=(\\overrightarrow{AC}-\\overrightarrow{AB})^2$ donne Al-Kashi ; l'introduction du milieu $I$ de $[BC]$ donne $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AI^2-IB^2$ et $AB^2+AC^2=2AI^2+2IB^2$."
+   },
+   "analogie": "Un topographe qui mesure deux distances depuis un même point et l'angle entre ses deux visées peut calculer la distance entre les deux cibles sans s'y rendre : c'est Al-Kashi.",
+   "exemples_resolus": [
+    {
+     "enonce": "Un triangle a pour côtés $a=BC=13$, $b=CA=7$, $c=AB=8$. Calculer l'angle $\\widehat A$.",
+     "etapes": [
+      "$\\cos\\widehat A=\\dfrac{b^2+c^2-a^2}{2bc}=\\dfrac{49+64-169}{2\\times7\\times8}=\\dfrac{-56}{112}=-\\dfrac12$.",
+      "Donc $\\widehat A=120^\\circ$ (angle obtus, ce qui est cohérent : $a$ est le plus grand côté)."
+     ]
+    },
+    {
+     "enonce": "Dans un triangle $ABC$, $I$ est le milieu de $[BC]$, $AI=5$ et $BC=6$. Calculer $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$.",
+     "etapes": [
+      "$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AI^2-\\dfrac{BC^2}4=25-\\dfrac{36}4=25-9=16$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier le facteur $2$ dans $-2bc\\cos\\widehat A$.",
+    "Se tromper de signe avec un angle obtus ($\\cos\\widehat A<0$, donc $-2bc\\cos\\widehat A>0$).",
+    "Prendre l'angle qui n'est pas compris entre les deux côtés connus.",
+    "Oublier la racine carrée à la fin ($BC^2=49$ donc $BC=7$, pas $49$)."
+   ],
+   "astuces": [
+    "Fais un schéma et marque les côtés connus et l'angle : l'angle doit être entre les deux côtés.",
+    "Vérifie la cohérence : le plus grand côté est en face du plus grand angle.",
+    "Pour une médiane, écris d'abord IB = BC/2."
+   ],
+   "mnemo": "« Le carré du côté d'en face = somme des carrés des deux autres − 2 × leur produit × cos de l'angle entre eux. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans un triangle rectangle en $A$ : $BC^2=AB^2+AC^2$ (Pythagore). Al-Kashi donne la formule pour n'importe quel angle $\\widehat A$."
+   },
+   "methode_redaction": "Nomme le théorème (« D'après le théorème d'Al-Kashi dans le triangle ABC… »), écris la formule avec les lettres, remplace, calcule. Pour un angle, donne d'abord cos A sous forme exacte, puis l'angle.",
+   "flash": [
+    {
+     "q": "Énoncé d'Al-Kashi pour le côté a = BC ?",
+     "r": "$a^2=b^2+c^2-2bc\\cos\\widehat A$"
+    },
+    {
+     "q": "$\\cos\\widehat A$ en fonction des côtés ?",
+     "r": "$\\dfrac{b^2+c^2-a^2}{2bc}$"
+    },
+    {
+     "q": "Théorème de la médiane (I milieu de [BC]) ?",
+     "r": "$AB^2+AC^2=2AI^2+\\dfrac{BC^2}2$"
+    },
+    {
+     "q": "Que devient Al-Kashi si l'angle A est droit ?",
+     "r": "Le théorème de Pythagore."
+    },
+    {
+     "q": "$AB=3$, $AC=4$, $\\widehat A=90^\\circ$ : $BC=\\,?$",
+     "r": "$5$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C12-N4.svg",
+    "alt": "Triangle ABC avec AB = 5, AC = 8, un angle de 60° en A et BC = 7, la médiane [AI] en pointillés violets ; un encadré rappelle le calcul d'Al-Kashi et le théorème de la médiane.",
+    "legende": "Al-Kashi : BC² = 25 + 64 − 40 = 49, donc BC = 7.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C12-N5",
+   "titre": "Ensembles de points définis par un produit scalaire",
+   "prerequis_notions": [
+    "M-S2-C12-N4",
+    "M-S1-C04-N3"
+   ],
+   "cours_md": ":::propriete Ensembles de référence ($A\\neq B$, $I$ milieu de $[AB]$, $k$ réel)\n1. $\\{M\\ /\\ \\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0\\}$ est le **cercle de diamètre $[AB]$**.\n2. $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=k\\iff MI^2=k+\\dfrac{AB^2}4$ : un cercle de centre $I$, le point $I$ seul, ou l'ensemble vide, selon le signe de $k+\\dfrac{AB^2}4$.\n3. $\\{M\\ /\\ \\overrightarrow{AB}\\cdot\\overrightarrow{AM}=k\\}$ est une **droite perpendiculaire à $(AB)$** : celle qui passe par le point $H$ de $(AB)$ tel que $\\overrightarrow{AB}\\cdot\\overrightarrow{AH}=k$.\n4. $MA^2+MB^2=k\\iff 2MI^2+\\dfrac{AB^2}{2}=k$ : un cercle de centre $I$, le point $I$ ou l'ensemble vide.\n5. $MA^2-MB^2=k\\iff 2\\,\\overrightarrow{MI}\\cdot\\overrightarrow{BA}=k$ : une **droite perpendiculaire à $(AB)$**.\n\n*Démonstration de 1 et 2.* $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=(\\overrightarrow{MI}+\\overrightarrow{IA})\\cdot(\\overrightarrow{MI}-\\overrightarrow{IA})=MI^2-IA^2$, avec $IA=\\dfrac{AB}2$.\n:::\n\n:::methode Déterminer un ensemble de points\n1. Faire apparaître le milieu $I$ (ou un point fixe bien choisi) grâce à la relation de Chasles.\n2. Se ramener à $MI^2=r$ (cercle) ou à $\\overrightarrow{AM}\\cdot\\vec u=k$ (droite perpendiculaire à $\\vec u$).\n3. Discuter : si $r>0$, cercle de centre $I$ et de rayon $\\sqrt r$ ; si $r=0$, le point $I$ ; si $r<0$, ensemble vide.\n4. Autre méthode : dans un repère orthonormé, traduire la condition par une équation en $x$ et $y$.\n:::\n\n:::attention\nNe jamais oublier la discussion selon le signe : $MI^2=-3$ n'a aucune solution.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$A$ et $B$ sont deux points tels que $AB=6$. Déterminer l'ensemble des points $M$ tels que $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=16$.\n\n1. Avec $I$ milieu de $[AB]$ : $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=MI^2-IA^2=MI^2-9$.\n2. $MI^2-9=16\\iff MI^2=25\\iff MI=5$.\n3. L'ensemble cherché est le cercle de centre $I$ et de rayon $5$.\n:::\n\n:::exemple Exemple 2\n$AB=4$. Déterminer l'ensemble des points $M$ tels que $\\overrightarrow{AB}\\cdot\\overrightarrow{AM}=8$.\n\n1. Soit $H$ le projeté orthogonal de $M$ sur $(AB)$ : $\\overrightarrow{AB}\\cdot\\overrightarrow{AM}=\\overrightarrow{AB}\\cdot\\overrightarrow{AH}$.\n2. $8>0$, donc $H$ est sur la demi-droite $[AB)$ et $AB\\times AH=8$, soit $AH=2$ : $H$ est le milieu de $[AB]$.\n3. L'ensemble est la droite perpendiculaire à $(AB)$ passant par le milieu de $[AB]$ : c'est la **médiatrice** de $[AB]$.\n:::",
+   "definition": "Les conditions du type $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=k$ ou $MA^2+MB^2=k$ définissent des cercles de centre le milieu $I$ de $[AB]$ ; $\\overrightarrow{AB}\\cdot\\overrightarrow{AM}=k$ ou $MA^2-MB^2=k$ définissent des droites perpendiculaires à $(AB)$.",
+   "formules": [
+    "$\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=MI^2-\\dfrac{AB^2}4$",
+    "$\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0\\iff M$ sur le cercle de diamètre $[AB]$",
+    "$MA^2-MB^2=2\\,\\overrightarrow{MI}\\cdot\\overrightarrow{BA}$"
+   ],
+   "niveaux": {
+    "phrase": "Une condition sur un produit scalaire dessine un cercle ou une droite.",
+    "simple": "Tous les points d'où l'on voit un segment [AB] « sous un angle droit » forment le cercle de diamètre [AB] : c'est le cercle des angles droits.",
+    "complete": "En introduisant le milieu $I$ de $[AB]$, $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=MI^2-\\frac{AB^2}4$, $MA^2+MB^2=2MI^2+\\frac{AB^2}2$ et $MA^2-MB^2=2\\overrightarrow{MI}\\cdot\\overrightarrow{BA}$ ; les lignes de niveau de $M\\mapsto\\overrightarrow{MA}\\cdot\\overrightarrow{MB}$ et de $M\\mapsto MA^2+MB^2$ sont des cercles concentriques de centre $I$, celles de $M\\mapsto\\overrightarrow{AB}\\cdot\\overrightarrow{AM}$ et de $M\\mapsto MA^2-MB^2$ des droites perpendiculaires à $(AB)$."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Soit $[AB]$ un segment de longueur $6$ et $I$ son milieu. Quel est l'ensemble des points $M$ vérifiant $MA^2+MB^2=26$ ?",
+     "etapes": [
+      "Théorème de la médiane avec $I$ milieu de $[AB]$ : $MA^2+MB^2=2MI^2+\\dfrac{AB^2}{2}=2MI^2+18$.",
+      "$2MI^2+18=26\\iff MI^2=4\\iff MI=2$.",
+      "L'ensemble est le cercle de centre $I$ et de rayon $2$."
+     ]
+    },
+    {
+     "enonce": "$AB=4$. Dans un repère orthonormé où $A(-2\\,;0)$ et $B(2\\,;0)$, déterminer l'ensemble des points $M(x\\,;y)$ tels que $MA^2-MB^2=12$.",
+     "etapes": [
+      "$MA^2-MB^2=(x+2)^2+y^2-(x-2)^2-y^2=8x$.",
+      "$8x=12\\iff x=\\dfrac32$.",
+      "L'ensemble est la droite d'équation $x=\\dfrac32$, perpendiculaire à $(AB)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier que $\\overrightarrow{IB}=-\\overrightarrow{IA}$ en développant.",
+    "Ne pas discuter le cas où le rayon au carré est négatif ou nul.",
+    "Confondre « droite perpendiculaire à (AB) » et « droite (AB) ».",
+    "Donner le rayon au carré comme rayon ($MI^2=25$ donne un rayon $5$, pas $25$)."
+   ],
+   "astuces": [
+    "Dès que tu vois MA et MB, fais apparaître le milieu I de [AB].",
+    "Vérifie avec un point particulier (par exemple un point de (AB)) que ton ensemble est cohérent.",
+    "En analytique, une équation x² + y² + ax + by + c = 0 donne un cercle (ou un point, ou rien) : chapitre suivant."
+   ],
+   "mnemo": "« Avec MA · MB, pense au milieu : on tombe sur un cercle. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens du barycentre ? Pour réduire $\\overrightarrow{MA}+\\overrightarrow{MB}$, tu faisais apparaître le milieu $I$ : $\\overrightarrow{MA}+\\overrightarrow{MB}=2\\overrightarrow{MI}$. Ici, la même idée sert à réduire $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}$."
+   },
+   "methode_redaction": "Introduis le point utile (« Soit I le milieu de [AB] »), écris le calcul vectoriel avec Chasles, aboutis à MI² = … ou à AB · AM = …, puis conclus par une phrase complète : nature de l'ensemble, centre et rayon (ou point et direction pour une droite).",
+   "flash": [
+    {
+     "q": "Ensemble des $M$ tels que $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0$ ?",
+     "r": "Le cercle de diamètre [AB]."
+    },
+    {
+     "q": "$\\overrightarrow{MA}\\cdot\\overrightarrow{MB}$ en fonction de $MI$ ($I$ milieu de $[AB]$) ?",
+     "r": "$MI^2-\\dfrac{AB^2}4$"
+    },
+    {
+     "q": "Nature de $\\{M\\,/\\,\\overrightarrow{AB}\\cdot\\overrightarrow{AM}=k\\}$ ?",
+     "r": "Une droite perpendiculaire à (AB)."
+    },
+    {
+     "q": "$MI^2=-4$ : ensemble des points ?",
+     "r": "L'ensemble vide."
+    },
+    {
+     "q": "$AB=4$ : ensemble des $M$ tels que $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=-4$ ?",
+     "r": "$MI^2=-4+4=0$ : le point $I$ seul."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C12-N5.svg",
+    "alt": "Segment [AB] de milieu I ; cercle vert de diamètre [AB] avec un point M d'où l'on voit [AB] sous un angle droit ; droite violette perpendiculaire à (AB) en H, sur laquelle se trouve un point M'.",
+    "legende": "MA · MB = 0 donne le cercle de diamètre [AB] ; AB · AM = k donne une droite perpendiculaire à (AB).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S2-C12-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C12-N1"
+   ],
+   "format": "qcm",
+   "enonce": "On donne $\\|\\vec u\\|=2$, $\\|\\vec v\\|=5$ et $(\\vec u,\\vec v)=\\dfrac\\pi3$. Que vaut $\\vec u\\cdot\\vec v$ ?",
+   "choix": [
+    "$5$",
+    "$10$",
+    "$5\\sqrt3$",
+    "$-5$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Utilise la formule avec le cosinus."
+   ],
+   "corrige": [
+    "$\\vec u\\cdot\\vec v=\\|\\vec u\\|\\,\\|\\vec v\\|\\cos(\\vec u,\\vec v)=2\\times5\\times\\cos\\dfrac\\pi3$.",
+    "$=10\\times\\dfrac12=5$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier le cosinus et répondre 10.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C12-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C12-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère orthonormé, calculer $\\vec u\\cdot\\vec v$ pour $\\vec u(2\\,;-3)$ et $\\vec v(4\\,;1)$.",
+   "reponses_acceptees": [
+    "5"
+   ],
+   "indices": [
+    "xx' + yy'."
+   ],
+   "corrige": [
+    "$\\vec u\\cdot\\vec v=xx'+yy'=2\\times4+(-3)\\times1$.",
+    "$=8-3=5$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer xy' − x'y (déterminant) au lieu de xx' + yy'.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C12-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C12-N2"
+   ],
+   "format": "qcm",
+   "enonce": "$\\vec u$ et $\\vec v$ sont deux vecteurs non nuls tels que $\\vec u\\cdot\\vec v=0$. Alors :",
+   "choix": [
+    "$\\vec u$ et $\\vec v$ sont orthogonaux",
+    "$\\vec u$ et $\\vec v$ sont colinéaires",
+    "$\\vec u=\\vec v$",
+    "$\\|\\vec u\\|=\\|\\vec v\\|$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Pense à l'angle entre les deux vecteurs."
+   ],
+   "corrige": [
+    "Un produit scalaire nul entre deux vecteurs non nuls signifie que leurs directions sont perpendiculaires.",
+    "$\\vec u$ et $\\vec v$ sont orthogonaux."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre orthogonalité (produit scalaire nul) et colinéarité (déterminant nul).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C12-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C12-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère orthonormé, on donne $A(-1\\,;2)$ et $B(3\\,;5)$. Calculer la distance $AB$.",
+   "reponses_acceptees": [
+    "5",
+    "AB=5"
+   ],
+   "indices": [
+    "Calcule d'abord les coordonnées de AB."
+   ],
+   "corrige": [
+    "$\\overrightarrow{AB}(4\\,;3)$.",
+    "$AB=\\sqrt{4^2+3^2}=\\sqrt{25}=5$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier la racine carrée et répondre 25.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C12-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C12-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère orthonormé, déterminer le réel $m$ tel que $\\vec u(m\\,;3)$ et $\\vec v(2\\,;-4)$ soient orthogonaux.",
+   "reponses_acceptees": [
+    "6",
+    "m=6"
+   ],
+   "indices": [
+    "Orthogonaux ⇔ produit scalaire nul."
+   ],
+   "corrige": [
+    "$\\vec u\\cdot\\vec v=2m+3\\times(-4)=2m-12$.",
+    "$2m-12=0\\iff m=6$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Utiliser la condition de colinéarité −4m − 6 = 0.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C12-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C12-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un triangle $ABC$, $AB=3$, $AC=5$ et $\\widehat{BAC}=120^\\circ$. Calculer $BC$.",
+   "reponses_acceptees": [
+    "7",
+    "BC=7"
+   ],
+   "indices": [
+    "cos 120° = −1/2."
+   ],
+   "corrige": [
+    "Al-Kashi : $BC^2=AB^2+AC^2-2\\times AB\\times AC\\times\\cos120^\\circ$.",
+    "$BC^2=9+25-2\\times3\\times5\\times\\left(-\\dfrac12\\right)=34+15=49$.",
+    "$BC=7$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Se tromper de signe : −2 × 15 × (−1/2) = +15.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C12-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C12-N1"
+   ],
+   "format": "qcm",
+   "enonce": "$ABCD$ est un carré de côté $4$. Que vaut $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$ ?",
+   "choix": [
+    "$16$",
+    "$0$",
+    "$16\\sqrt2$",
+    "$8$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Projette C sur la droite (AB)."
+   ],
+   "corrige": [
+    "Le projeté orthogonal de $C$ sur $(AB)$ est $B$.",
+    "$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AB\\times AB=16$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Multiplier AB par AC = 4√2 sans le cosinus (on obtiendrait 16√2).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C12-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C12-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On donne $\\|\\vec u\\|=3$, $\\|\\vec v\\|=4$ et $\\|\\vec u+\\vec v\\|=6$. Calculer $\\vec u\\cdot\\vec v$.",
+   "reponses_acceptees": [
+    "11/2",
+    "5,5",
+    "5.5"
+   ],
+   "indices": [
+    "Développe ‖u + v‖²."
+   ],
+   "corrige": [
+    "$\\|\\vec u+\\vec v\\|^2=\\|\\vec u\\|^2+2\\vec u\\cdot\\vec v+\\|\\vec v\\|^2$, donc $36=9+2\\vec u\\cdot\\vec v+16$.",
+    "$2\\vec u\\cdot\\vec v=11$, $\\vec u\\cdot\\vec v=\\dfrac{11}2$."
+   ],
+   "bareme": [
+    1.5,
+    1
+   ],
+   "piege": "Oublier le facteur 2 du double produit (répondre 11).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C12-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C12-N3",
+    "M-S2-C12-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, on donne $A(-2\\,;1)$, $B(4\\,;3)$ et $C(2\\,;-3)$.\n\n1. Calculer $AB$, $AC$ et $BC$. Quelle est la nature du triangle $ABC$ ?\n2. Calculer $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$, puis $\\cos\\widehat{BAC}$ et une mesure de $\\widehat{BAC}$ arrondie au degré.\n3. Soit $I$ le milieu de $[AC]$. Montrer que $(BI)\\perp(AC)$.",
+   "indices": [
+    "AC a pour coordonnées (xC − xA ; yC − yA).",
+    "√40 × √32 = √1280 = 16√5."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{AB}(6\\,;2)$, $\\overrightarrow{AC}(4\\,;-4)$, $\\overrightarrow{BC}(-2\\,;-6)$ : $AB=\\sqrt{40}=2\\sqrt{10}$, $AC=\\sqrt{32}=4\\sqrt2$, $BC=\\sqrt{40}=2\\sqrt{10}$.",
+    "$BA=BC$ : le triangle $ABC$ est isocèle en $B$.",
+    "2. $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=6\\times4+2\\times(-4)=16$. $\\cos\\widehat{BAC}=\\dfrac{16}{2\\sqrt{10}\\times4\\sqrt2}=\\dfrac{2}{\\sqrt{20}}=\\dfrac{\\sqrt5}5\\approx0{,}447$, donc $\\widehat{BAC}\\approx63^\\circ$.",
+    "3. $I(0\\,;-1)$, $\\overrightarrow{BI}(-4\\,;-4)$ et $\\overrightarrow{BI}\\cdot\\overrightarrow{AC}=-16+16=0$ : $(BI)\\perp(AC)$ (la médiane issue de $B$ est aussi une hauteur)."
+   ],
+   "bareme": [
+    1.5,
+    0.5,
+    2,
+    1
+   ],
+   "piege": "Calculer cos BAC avec AB × BC au lieu de AB × AC.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C12-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C12-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "On donne $\\|\\vec u\\|=2$, $\\|\\vec v\\|=3$ et $(\\vec u,\\vec v)=\\dfrac\\pi3$.\n\n1. Calculer $\\vec u\\cdot\\vec v$.\n2. Calculer $\\|\\vec u+\\vec v\\|$ et $\\|\\vec u-2\\vec v\\|$.\n3. Calculer $(\\vec u+\\vec v)\\cdot(\\vec u-2\\vec v)$.",
+   "indices": [
+    "(u − 2v)² = u² − 4u·v + 4v²."
+   ],
+   "corrige": [
+    "1. $\\vec u\\cdot\\vec v=2\\times3\\times\\dfrac12=3$.",
+    "2. $\\|\\vec u+\\vec v\\|^2=4+2\\times3+9=19$, donc $\\|\\vec u+\\vec v\\|=\\sqrt{19}$.",
+    "$\\|\\vec u-2\\vec v\\|^2=\\vec u^{\\,2}-4\\vec u\\cdot\\vec v+4\\vec v^{\\,2}=4-12+36=28$, donc $\\|\\vec u-2\\vec v\\|=2\\sqrt7$.",
+    "3. $(\\vec u+\\vec v)\\cdot(\\vec u-2\\vec v)=\\vec u^{\\,2}-2\\vec u\\cdot\\vec v+\\vec v\\cdot\\vec u-2\\vec v^{\\,2}=4-6+3-18=-17$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1.5
+   ],
+   "piege": "Écrire (2v)² = 2v² au lieu de 4v².",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C12-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C12-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABC$ est un triangle tel que $AB=7$, $AC=5$ et $BC=6$. $I$ est le milieu de $[BC]$.\n\n1. Calculer $AI$.\n2. Calculer $\\cos\\widehat{BAC}$, puis $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$.\n3. Retrouver $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$ par le théorème de la médiane.",
+   "indices": [
+    "BC²/2 = 18 et BC²/4 = 9."
+   ],
+   "corrige": [
+    "1. $AB^2+AC^2=2AI^2+\\dfrac{BC^2}2$ : $49+25=2AI^2+18$, donc $AI^2=28$ et $AI=2\\sqrt7$.",
+    "2. Al-Kashi : $\\cos\\widehat{BAC}=\\dfrac{AB^2+AC^2-BC^2}{2\\times AB\\times AC}=\\dfrac{49+25-36}{70}=\\dfrac{38}{70}=\\dfrac{19}{35}$.",
+    "$\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=7\\times5\\times\\dfrac{19}{35}=19$.",
+    "3. $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=AI^2-\\dfrac{BC^2}4=28-9=19$ : on retrouve le même résultat."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Écrire AI = 28 en oubliant la racine carrée.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C12-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C12-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "$A$ et $B$ sont deux points tels que $AB=4$ ; $I$ est le milieu de $[AB]$. Déterminer et décrire :\n\n1. l'ensemble $\\mathscr E_1$ des points $M$ tels que $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=5$ ;\n2. l'ensemble $\\mathscr E_2$ des points $M$ tels que $MA^2+MB^2=40$ ;\n3. l'ensemble $\\mathscr E_3$ des points $M$ tels que $MA^2-MB^2=8$ (on pourra utiliser un repère orthonormé où $A(-2\\,;0)$ et $B(2\\,;0)$).",
+   "indices": [
+    "Fais apparaître I avec la relation de Chasles.",
+    "IA = AB/2 = 2."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=MI^2-IA^2=MI^2-4$. $MI^2-4=5\\iff MI=3$ : $\\mathscr E_1$ est le cercle de centre $I$ et de rayon $3$.",
+    "2. $MA^2+MB^2=2MI^2+\\dfrac{AB^2}2=2MI^2+8$. $2MI^2+8=40\\iff MI^2=16\\iff MI=4$ : $\\mathscr E_2$ est le cercle de centre $I$ et de rayon $4$.",
+    "3. Avec $M(x\\,;y)$ : $MA^2-MB^2=(x+2)^2+y^2-(x-2)^2-y^2=8x$.",
+    "$8x=8\\iff x=1$ : $\\mathscr E_3$ est la droite d'équation $x=1$, perpendiculaire à $(AB)$ au point $K(1\\,;0)$ (situé entre $I$ et $B$, à $1$ de $I$)."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Prendre IA = 4 au lieu de 2, ou donner MI² comme rayon.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C12-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C12-N3",
+    "M-S2-C12-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, on donne $A(1\\,;2)$ et $B(5\\,;-2)$.\n\n1. Montrer qu'un point $M(x\\,;y)$ vérifie $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0$ si et seulement si $x^2+y^2-6x+1=0$.\n2. Écrire cette équation sous la forme $(x-a)^2+(y-b)^2=r^2$ et reconnaître l'ensemble des points $M$.\n3. Le point $C(1\\,;-2)$ appartient-il à cet ensemble ? Que peut-on en déduire pour le triangle $ABC$ ?",
+   "indices": [
+    "Complète le carré : x² − 6x = (x − 3)² − 9."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{MA}(1-x\\,;2-y)$, $\\overrightarrow{MB}(5-x\\,;-2-y)$ : $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=(1-x)(5-x)+(2-y)(-2-y)=x^2-6x+5+y^2-4$.",
+    "Donc $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0\\iff x^2+y^2-6x+1=0$.",
+    "2. $x^2-6x=(x-3)^2-9$ : l'équation devient $(x-3)^2+y^2=8$. C'est le cercle de centre $(3\\,;0)$ (milieu de $[AB]$) et de rayon $\\sqrt8=2\\sqrt2=\\dfrac{AB}2$ : le cercle de diamètre $[AB]$.",
+    "3. $(1-3)^2+(-2)^2=4+4=8$ : $C$ est sur le cercle, donc $\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=0$ et le triangle $ABC$ est rectangle en $C$."
+   ],
+   "bareme": [
+    1.5,
+    0.5,
+    2,
+    1
+   ],
+   "piege": "Oublier le terme −4 provenant de (2 − y)(−2 − y).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C12-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C12-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Depuis un point $O$, un topographe vise deux poteaux $P$ et $Q$ : $OP=120$ m, $OQ=80$ m et l'angle $\\widehat{POQ}$ mesure $60^\\circ$. Calculer la valeur exacte de la distance $PQ$ (en m).",
+   "reponses_acceptees": [
+    "40√7",
+    "40sqrt(7)",
+    "40sqrt7",
+    "40racine7",
+    "40√7m"
+   ],
+   "indices": [
+    "cos 60° = 1/2.",
+    "11 200 = 1 600 × 7."
+   ],
+   "corrige": [
+    "Al-Kashi dans le triangle $OPQ$ : $PQ^2=120^2+80^2-2\\times120\\times80\\times\\cos60^\\circ$.",
+    "$PQ^2=14\\,400+6\\,400-9\\,600=11\\,200$.",
+    "$PQ=\\sqrt{11\\,200}=\\sqrt{1600\\times7}=40\\sqrt7\\approx105{,}8$ m."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Oublier le facteur 2 du terme 2 × OP × OQ × cos 60°.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Écrire le résultat d'un produit scalaire comme un vecteur : c'est un nombre.",
+  "Oublier le signe moins quand le projeté orthogonal est du côté opposé (angle obtus).",
+  "Utiliser xx' + yy' dans un repère qui n'est pas orthonormé.",
+  "Développer $(\\vec u+\\vec v)^2$ sans le double produit, ou écrire $(2\\vec v)^2=2\\vec v^{\\,2}$.",
+  "Al-Kashi : oublier le facteur 2, se tromper de signe avec un angle obtus, ou oublier la racine finale.",
+  "Ensembles de points : oublier la discussion (cercle, point ou ensemble vide) et confondre rayon et rayon au carré.",
+  "Confondre la condition d'orthogonalité (xx' + yy' = 0) et celle de colinéarité (xy' − x'y = 0)."
+ ]
+}

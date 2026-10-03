@@ -1,0 +1,742 @@
+{
+ "id": "FR-S2-C11",
+ "matiere": "FR",
+ "semestre": 2,
+ "ordre": 11,
+ "titre": "Le commentaire de texte",
+ "objectifs": [
+  "L'élève doit être capable de mener la lecture préparatoire d'un texte littéraire : paratexte, genre, énonciation, thème, registre, mouvements.",
+  "L'élève doit être capable de relever des procédés d'écriture, de les nommer avec précision et d'en interpréter les effets.",
+  "L'élève doit être capable de formuler un projet de lecture et de construire un plan en deux axes à partir des pistes du sujet.",
+  "L'élève doit être capable de rédiger l'introduction, des paragraphes d'analyse avec citations intégrées, des transitions et une conclusion."
+ ],
+ "prerequis": [
+  "FR-S1-C01",
+  "FR-S1-C02",
+  "FR-S1-C06",
+  "FR-S1-C07",
+  "FR-S2-C08",
+  "FR-S2-C10"
+ ],
+ "notions": [
+  {
+   "id": "FR-S2-C11-N1",
+   "titre": "Lire le texte avec méthode : la lecture préparatoire",
+   "prerequis_notions": [
+    "FR-S1-C01-N2",
+    "FR-S1-C06-N1",
+    "FR-S1-C07-N3",
+    "FR-S2-C08-N4"
+   ],
+   "cours_md": "## 1. Qu'est-ce que le commentaire de texte ?\n\n:::definition\nLe **commentaire de texte** (ou **commentaire composé**) est l'étude organisée d'un texte littéraire : on montre **ce que dit** le texte et surtout **comment il le dit** et **pour quel effet**, dans un devoir rédigé (introduction, développement en deux ou trois **axes**, conclusion), en s'appuyant sur des **citations analysées**.\n:::\n\nÀ l'épreuve, le sujet se présente souvent ainsi :\n> « Vous ferez de ce texte un commentaire composé. Vous pourrez, par exemple, montrer comment le poète peint un paysage paisible, puis comment il dénonce la mort d'un jeune soldat. »\n\nLes **pistes** proposées (« par exemple ») ne sont pas obligatoires, mais elles sont précieuses : elles donnent souvent les deux axes du devoir.\n\n:::attention\nLe commentaire n'est **ni un résumé** (raconter le texte), **ni une paraphrase** (répéter le texte avec d'autres mots), **ni une dissertation** sur le thème (parler de la guerre en général). On reste **dans le texte**.\n:::\n\n## 2. Les lectures successives\n\n:::methode\n**Lire au moins trois fois, crayon en main**\n1. **Lecture de découverte** : lis tout le texte, puis note ta première impression en une phrase (« Un poème calme… qui cache une mort »).\n2. **Lecture du paratexte** : auteur, titre, œuvre, date, chapeau introductif, notes. Ils situent le texte.\n3. **Lecture d'enquête** : réponds aux questions du tableau ci-dessous.\n4. **Lecture des mouvements** : découpe le texte en 2 à 4 **mouvements** (parties) et donne un titre à chacun.\n5. **Lecture d'analyse** : relève les procédés (notion suivante).\n:::\n\n| Question | Ce que tu cherches | Outils déjà connus |\n|---|---|---|\n| Qui parle ? À qui ? | énonciateur, narrateur, poète, personnage ; destinataire | énonciation, focalisation |\n| De quoi ? | le **thème** | champ lexical dominant |\n| Quel genre ? | poème, récit (roman, nouvelle, conte), théâtre, texte argumentatif | caractéristiques des genres |\n| Quel registre ? | l'émotion ou l'effet dominant | tableau ci-dessous |\n| Comment est-il construit ? | les mouvements, la progression | strophes, paragraphes, connecteurs, changements de temps |\n| Pourquoi ? | le **but** : émouvoir, dénoncer, faire rire, faire rêver, convaincre… | modalisation, figures de style |\n\n## 3. Les registres (ou tonalités)\n\n| Registre | Effet recherché | Indices fréquents |\n|---|---|---|\n| **Lyrique** | exprimer des sentiments personnels | « je », exclamations, apostrophes, vocabulaire des émotions, musicalité |\n| **Pathétique** | émouvoir, faire pitié | souffrance, victimes innocentes, larmes |\n| **Tragique** | montrer l'homme écrasé par un destin | fatalité, mort inévitable, impuissance |\n| **Comique** | faire rire | quiproquo, exagération, répétitions, jeux de mots |\n| **Satirique / ironique** | se moquer pour critiquer | antiphrase, caricature, fausse naïveté |\n| **Épique** | célébrer des exploits | héros, combats, hyperboles, gradations |\n| **Polémique** | attaquer, dénoncer avec violence | vocabulaire péjoratif, questions rhétoriques, impératifs |\n| **Didactique** | instruire | présent de vérité générale, définitions, exemples |\n\n## 4. Exemple de lecture préparatoire\n\nTexte : Arthur Rimbaud, « Le Dormeur du val », sonnet écrit en octobre 1870, pendant la guerre franco-prussienne (domaine public).\n\n> C'est un trou de verdure où chante une rivière,\n> Accrochant follement aux herbes des haillons\n> D'argent ; où le soleil, de la montagne fière,\n> Luit : c'est un petit val qui mousse de rayons.\n>\n> Un soldat jeune, bouche ouverte, tête nue,\n> Et la nuque baignant dans le frais cresson bleu,\n> Dort ; il est étendu dans l'herbe, sous la nue,\n> Pâle dans son lit vert où la lumière pleut.\n>\n> Les pieds dans les glaïeuls, il dort. Souriant comme\n> Sourirait un enfant malade, il fait un somme :\n> Nature, berce-le chaudement : il a froid.\n>\n> Les parfums ne font pas frissonner sa narine ;\n> Il dort dans le soleil, la main sur sa poitrine\n> Tranquille. Il a deux trous rouges au côté droit.\n\n- **Première impression** : un paysage paisible et lumineux… puis une chute brutale : le soldat est mort.\n- **Genre et forme** : poème ; sonnet (deux quatrains, deux tercets) en alexandrins.\n- **Énonciation** : un observateur décrit la scène à la 3e personne et s'adresse une seule fois à la Nature (« Nature, berce-le »).\n- **Thème** : un jeune soldat étendu au milieu d'une nature en fête.\n- **Mouvements** : v. 1-4, un paysage vivant ; v. 5-11, un soldat qui semble dormir, mais des signes inquiétants ; v. 12-14, la révélation de la mort.\n- **Registre** : descriptif et lyrique d'abord, puis **pathétique** ; le poème **dénonce** la guerre.\n- **Projet de lecture possible** : *Comment Rimbaud fait-il d'un paysage paisible le lieu d'une dénonciation de la guerre ?*\n\n:::remarque\nLe **projet de lecture** (ou problématique) est la question qui guidera tout ton commentaire. Tu la formules à la fin de la lecture préparatoire et tu la places dans l'introduction.\n:::",
+   "definition": "La lecture préparatoire consiste à lire plusieurs fois le texte pour l'identifier (paratexte, genre, énonciation, thème, registre), le découper en mouvements et formuler un projet de lecture, avant toute analyse détaillée.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Avant de commenter, on lit plusieurs fois pour savoir qui parle, de quoi, comment et pourquoi.",
+    "simple": "Comme un médecin qui examine tout le malade avant de prescrire : on observe le texte entier (genre, thème, ton, parties) avant d'écrire la moindre ligne du devoir.",
+    "complete": "La lecture préparatoire combine une lecture globale (impression, paratexte), une lecture d'identification (genre et forme, situation d'énonciation, thème, registre dominant) et une lecture structurelle (repérage des mouvements à partir des indices formels : strophes, paragraphes, connecteurs, changements de temps ou de point de vue). Elle aboutit à une hypothèse interprétative, le projet de lecture, qui oriente ensuite l'analyse des procédés et le choix des axes."
+   },
+   "analogie": "Avant d'acheter un pagne au grand marché de Lomé, tu le déplies entièrement pour voir les motifs, les couleurs et la qualité du tissu. On ne juge pas un pagne plié, ni un texte lu une seule fois.",
+   "exemples_resolus": [
+    {
+     "enonce": "Identifie le genre, le thème, les mouvements et le registre de ce passage (texte d'exemple) : « La pluie tombait depuis trois jours sur Atakpamé. Dans la case, Mawuli regardait l'eau envahir le champ d'ignames que son père avait mis six mois à préparer. \\“Tout est perdu\\”, murmura-t-il. Puis il se leva, prit sa houe et sortit sous l'averse. »",
+     "etapes": [
+      "Genre : récit (narrateur à la 3e personne, imparfait et passé simple, un personnage, Mawuli).",
+      "Thème : une catastrophe agricole et la réaction d'un jeune paysan.",
+      "Mouvements : 1) la catastrophe (imparfait de description) ; 2) le découragement (paroles rapportées « Tout est perdu ») ; 3) le sursaut (passés simples rapides : « se leva, prit, sortit »).",
+      "Registre : pathétique au début, puis éloge discret du courage.",
+      "Projet de lecture possible : « Comment ce court récit transforme-t-il le désespoir en courage ? »"
+     ]
+    },
+    {
+     "enonce": "Quel registre domine dans : « Ô mon Mono, fleuve de mon enfance, pourquoi roules-tu aujourd'hui des eaux si tristes ? » (texte d'exemple)",
+     "etapes": [
+      "Indices : apostrophe « Ô mon Mono », possessif affectif « mon », interrogation, adjectif « tristes ».",
+      "Le locuteur exprime ses propres sentiments (nostalgie, tristesse) : registre lyrique."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Commencer à rédiger après une seule lecture.",
+    "Confondre le thème (de quoi parle le texte) et le projet de lecture (la question posée sur la manière dont il en parle).",
+    "Oublier le paratexte : nom de l'auteur, date, titre de l'œuvre, chapeau introductif.",
+    "Découper le texte en mouvements sans repères précis (vers, lignes) ni titres.",
+    "Confondre registre de langue (familier, courant, soutenu) et registre littéraire (lyrique, pathétique…)."
+   ],
+   "astuces": [
+    "Numérote les lignes ou les vers au crayon dès le début : tu citeras plus vite (« v. 14 », « l. 5-7 »).",
+    "Au brouillon, utilise une couleur par champ lexical : les réseaux de sens apparaissent d'un coup d'œil.",
+    "La fin du texte (la chute) donne souvent la clé : relis-la très attentivement."
+   ],
+   "mnemo": "« QQOQCP » : Qui ? Quoi ? Où ? Quand ? Comment ? Pourquoi ? Les six questions de l'enquêteur avant de commenter.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu répondais à des questions de compréhension sur un texte (qui raconte, où, quand, quels sentiments). La lecture préparatoire, c'est la même enquête, mais c'est toi qui poses les questions."
+   },
+   "methode_redaction": "Rien de la lecture préparatoire ne se recopie tel quel. Au brouillon, note en cinq lignes : genre, thème, registre, mouvements (avec les numéros de vers ou de lignes) et projet de lecture. Ces éléments nourriront l'introduction.",
+   "flash": [
+    {
+     "q": "Le commentaire est-il un résumé du texte ?",
+     "r": "Non : on analyse comment le texte dit les choses et pour quel effet, sans le raconter."
+    },
+    {
+     "q": "Qu'est-ce que le paratexte ?",
+     "r": "Tout ce qui entoure le texte : auteur, titre, œuvre, date, chapeau, notes."
+    },
+    {
+     "q": "Qu'est-ce qu'un mouvement du texte ?",
+     "r": "Une partie qui a une unité de sens ; on en distingue en général 2 à 4."
+    },
+    {
+     "q": "Quel registre cherche à émouvoir, à faire pitié ?",
+     "r": "Le registre pathétique."
+    },
+    {
+     "q": "Qu'est-ce que le projet de lecture ?",
+     "r": "La question qui guide tout le commentaire (la problématique)."
+    },
+    {
+     "q": "Quel registre se moque pour critiquer ?",
+     "r": "Le registre satirique (ou ironique)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C11-N1.svg",
+    "alt": "Schéma en cinq étapes : découvrir le texte, le situer grâce au paratexte, enquêter (qui, quoi, registre, but), découper en mouvements, formuler le projet de lecture.",
+    "legende": "Les cinq étapes de la lecture préparatoire.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C11-N2",
+   "titre": "Analyser les procédés : relever, nommer, interpréter",
+   "prerequis_notions": [
+    "FR-S2-C11-N1",
+    "FR-S1-C02-N5",
+    "FR-S1-C07-N2",
+    "FR-S2-C08-N3"
+   ],
+   "cours_md": "## 1. Le principe : observer pour interpréter\n\n:::definition\nUn **procédé d'écriture** est un moyen de langue choisi par l'auteur : figure de style, temps verbal, champ lexical, type de phrase, rythme, sonorité, point de vue… Commenter, c'est **relever** le procédé (citation), le **nommer** avec le mot technique exact, puis l'**interpréter** : dire quel **effet** il produit et ce qu'il révèle du **sens** du texte.\n:::\n\n:::propriete\n**Un procédé sans interprétation ne rapporte presque aucun point.** « Il y a une métaphore » ne suffit pas : il faut dire **ce que la métaphore fait comprendre ou ressentir**.\n:::\n\n## 2. La boîte à outils du commentaire\n\n| Domaine | Ce que tu observes | Question à te poser |\n|---|---|---|\n| **Lexique** | champs lexicaux, connotations, mots mélioratifs ou péjoratifs | Quelle atmosphère ? quel jugement ? |\n| **Énonciation** | pronoms, modalisateurs, apostrophes | Qui parle, avec quelle implication ? |\n| **Grammaire** | temps et modes, types de phrases, phrases nominales | Quel rythme ? quelle émotion ? |\n| **Figures de style** | comparaison, métaphore, personnification, antithèse, hyperbole, anaphore, gradation, euphémisme… | Quelle image ? quelle insistance ? |\n| **Rythme et sons** | longueur des phrases ou des vers, enjambements, rejets, allitérations, assonances | Quel mouvement ? quelle musique ? |\n| **Point de vue** (récit) | focalisation interne, externe, zéro | Que sait le lecteur ? |\n| **Structure** | ordre des mouvements, oppositions, chute | Comment le texte progresse-t-il ? |\n\n## 3. Le tableau des observations (au brouillon)\n\n:::methode\n**Trois colonnes, une ligne par observation**\n1. **Citation** : le mot ou le groupe de mots exact, avec sa place (v. 3, l. 12).\n2. **Procédé** : le nom technique précis (« personnification », « imparfait de description », « rejet »).\n3. **Effet / interprétation** : ce que le procédé produit et ce qu'il signifie dans le texte.\nEnsuite, regroupe les lignes qui vont dans le même sens : ces regroupements deviendront tes **axes**.\n:::\n\nExemple sur « Le Dormeur du val » de Rimbaud :\n\n| Citation | Procédé | Effet / interprétation |\n|---|---|---|\n| « où chante une rivière » (v. 1) | personnification | la nature paraît vivante et joyeuse |\n| « qui mousse de rayons » (v. 4) | métaphore | la lumière déborde comme une boisson qui mousse : impression d'abondance |\n| « Dort » (v. 7), « il dort » (v. 9 et 13) | répétition ; rejet de « Dort » en tête du v. 7 | on croit au sommeil… mais l'insistance devient inquiétante |\n| « Pâle » (v. 8), « il a froid » (v. 11) | champ lexical du malaise ; antithèse avec « chaudement » | indices discrets de la mort, en contradiction avec la chaleur de la nature |\n| « deux trous rouges au côté droit » (v. 14) | chute ; euphémisme | la mort est révélée à la fin, sans le mot « mort » : choc du lecteur, dénonciation de la guerre |\n\n## 4. Du relevé à la phrase d'analyse\n\nUne bonne analyse tient en une phrase qui **enchaîne** citation, procédé et effet :\n\n> Dès le premier vers, la **personnification** de la rivière qui « chante » fait de la nature un être vivant et joyeux, ce qui rendra plus brutale la découverte du soldat mort.\n\n:::attention\n- Ne fais pas un **catalogue** de procédés (« il y a une métaphore, une allitération, une anaphore… ») : choisis ceux qui servent ton idée.\n- Ne te trompe pas de nom : une **comparaison** a un outil (comme, tel, pareil à) ; une **métaphore** n'en a pas. En cas de doute, **décris** le procédé plutôt que de mal le nommer.\n- Évite les effets passe-partout (« cela rend le texte plus vivant », « cela attire l'attention du lecteur ») : sois **précis** et lié au sens du texte.\n:::",
+   "definition": "Analyser un procédé, c'est le relever (citation précise et localisée), le nommer (terme technique exact) et l'interpréter (effet produit et sens dans le texte) ; au brouillon, on note ces observations dans un tableau à trois colonnes avant de les regrouper.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Pour chaque détail du texte : je cite, je nomme, j'explique l'effet.",
+    "simple": "Le procédé, c'est l'outil ; l'effet, c'est ce que l'outil fabrique. Dire « il y a un rabot » ne suffit pas : il faut montrer la table bien lisse qu'il a produite.",
+    "complete": "L'analyse stylistique articule une observation (segment cité et localisé), une identification (catégorie linguistique ou rhétorique : lexique, énonciation, temps, figures, rythme, sonorités, focalisation) et une interprétation qui relie l'effet produit sur le lecteur à la signification globale du texte. Les observations sont ensuite hiérarchisées et regroupées selon leurs convergences de sens, ce qui fonde les axes du commentaire."
+   },
+   "analogie": "Le commentateur d'un match à la radio ne dit pas seulement « dribble » : il dit « un dribble qui élimine deux défenseurs et ouvre le chemin du but ». Nommer le geste ne suffit pas, il faut dire ce qu'il produit.",
+   "exemples_resolus": [
+    {
+     "enonce": "Analyse ce passage (texte d'exemple) : « Le soleil de midi écrasait le marché ; les vendeuses, immobiles sous leurs parasols, n'avaient même plus la force de crier leurs prix. »",
+     "etapes": [
+      "Citation « écrasait » : verbe d'action violente appliqué au soleil (métaphore, personnification) : la chaleur devient une force brutale.",
+      "« immobiles », « n'avaient même plus la force » : champ lexical de l'épuisement ; la négation renforcée par « même plus » insiste sur l'accablement.",
+      "Interprétation : la chaleur paralyse un lieu d'ordinaire bruyant ; le silence du marché rend la scène presque inquiétante.",
+      "Phrase d'analyse : « Le verbe “écrasait”, qui fait du soleil une force brutale, et la négation “n'avaient même plus la force de crier” traduisent une chaleur accablante qui réduit au silence un marché d'ordinaire animé. »"
+     ]
+    },
+    {
+     "enonce": "Améliore cette analyse : « Au vers 3, il y a une allitération en r. Cela rend le texte plus beau. » Vers (texte d'exemple) : « Le roulement rauque du tonnerre gronde sur la rivière ».",
+     "etapes": [
+      "Défauts : pas de citation, effet vague (« plus beau ») sans lien avec le sens.",
+      "Analyse corrigée : « L'allitération en [r] dans “roulement rauque du tonnerre gronde” (v. 3) imite le grondement de l'orage et installe une atmosphère menaçante. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Faire un catalogue de procédés sans interprétation.",
+    "Mal nommer une figure (comparaison sans outil, métaphore confondue avec personnification…).",
+    "Citer sans indiquer la place (vers, ligne) ou citer des passages trop longs.",
+    "Écrire des effets passe-partout : « cela rend le texte vivant », « cela attire l'attention ».",
+    "Paraphraser : répéter ce que dit le texte avec d'autres mots au lieu d'analyser comment il le dit."
+   ],
+   "astuces": [
+    "Pour trouver l'effet, demande-toi : « Que perdrait le texte si l'auteur avait écrit la phrase autrement ? »",
+    "Garde la phrase type : « Le/la [procédé] “[citation]” (v. x) [souligne, traduit, suggère, met en valeur, révèle] [effet précis]. »",
+    "Varie les verbes d'analyse : souligne, met en relief, suggère, traduit, révèle, renforce, crée, dénonce."
+   ],
+   "mnemo": "« CNI », comme la carte nationale d'identité : Citer, Nommer, Interpréter. Sans les trois, ton analyse n'a pas de papiers !",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu savais déjà reconnaître une comparaison, une métaphore ou un champ lexical. En seconde, le simple repérage ne rapporte presque rien : les points vont à l'interprétation."
+   },
+   "methode_redaction": "Sur la copie, le procédé et la citation ne sont jamais isolés : intègre-les dans une phrase complète qui dit l'effet. Citation entre guillemets, place entre parenthèses : la rivière qui « chante » (v. 1).",
+   "flash": [
+    {
+     "q": "Quelles sont les trois étapes de l'analyse d'un procédé ?",
+     "r": "Citer, nommer, interpréter."
+    },
+    {
+     "q": "Combien de colonnes dans le tableau des observations ?",
+     "r": "Trois : citation, procédé, effet / interprétation."
+    },
+    {
+     "q": "« Cela rend le texte plus vivant » : bonne interprétation ?",
+     "r": "Non, c'est trop vague : il faut un effet précis lié au sens du texte."
+    },
+    {
+     "q": "Différence entre comparaison et métaphore ?",
+     "r": "La comparaison a un outil (comme, tel…) ; la métaphore n'en a pas."
+    },
+    {
+     "q": "Que faire si l'on hésite sur le nom d'un procédé ?",
+     "r": "Le décrire précisément plutôt que de mal le nommer."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C11-N2.svg",
+    "alt": "Tableau à trois colonnes (citation, procédé, effet) appliqué au « Dormeur du val » de Rimbaud : personnification, répétition, antithèse, chute.",
+    "legende": "Le tableau des observations, outil de brouillon du commentaire.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C11-N3",
+   "titre": "Construire les axes de lecture et le plan du commentaire",
+   "prerequis_notions": [
+    "FR-S2-C11-N2"
+   ],
+   "cours_md": "## 1. Du projet de lecture aux axes\n\n:::definition\nUn **axe de lecture** (ou **centre d'intérêt**) est une grande idée sur le texte qui répond en partie au projet de lecture. Le commentaire composé s'organise en **deux axes** (parfois trois), chacun divisé en **deux ou trois sous-parties** qui regroupent les analyses de procédés allant dans le même sens.\n:::\n\n:::propriete\nLe commentaire **composé** ne suit pas le texte ligne à ligne : chaque axe traverse **tout le texte**. Le commentaire **linéaire** (ou explication de texte), qui suit l'ordre du texte mouvement par mouvement, est un autre exercice : à l'épreuve, fais un commentaire composé sauf consigne contraire.\n:::\n\n## 2. Où trouver les axes ?\n\n1. **Dans les pistes du sujet** : « Vous montrerez comment… puis… » donne souvent l'axe I et l'axe II.\n2. **Dans tes regroupements** du tableau des observations : des procédés qui disent la même chose forment une sous-partie ; plusieurs sous-parties proches forment un axe.\n3. **Dans la progression classique** : axe I, souvent **ce que le texte montre** (le cadre, le portrait, la situation) ; axe II, **ce que le texte veut dire ou faire** (la critique, l'émotion, la leçon, la portée).\n\n:::methode\n**Construire le plan détaillé au brouillon**\n1. Écris le projet de lecture en haut de la page.\n2. Formule chaque axe par une **phrase-titre** qui contient une idée : « La nature » n'est qu'un thème ; « Une nature trompeusement paisible » est un axe.\n3. Sous chaque axe, place 2 ou 3 sous-parties, chacune avec 2 ou 3 citations et leurs procédés.\n4. Vérifie la **progression** : du plus évident (ce qu'on voit) au plus profond (ce que cela signifie).\n5. Vérifie que **chaque axe répond** au projet de lecture et qu'aucune citation n'est exploitée deux fois de la même façon.\n:::\n\n## 3. Exemple de plan détaillé\n\nProjet de lecture : *Comment Rimbaud fait-il d'un paysage paisible le lieu d'une dénonciation de la guerre ?*\n\n> **I. Un tableau de nature paisible et lumineux**\n> 1. Une nature vivante et joyeuse : personnifications (« chante une rivière », « la montagne fière »), adverbe « follement ».\n> 2. Une lumière et des couleurs partout : « soleil », « rayons », « lumière », « argent », « vert », « bleu » ; métaphore « mousse de rayons ».\n> 3. Un soldat qui semble se reposer : répétition de « dort », « lit vert », « berce-le », comparaison avec « un enfant ».\n>\n> **II. Une dénonciation de la guerre**\n> 1. Des indices inquiétants : « Pâle », « enfant malade », « il a froid », « Les parfums ne font pas frissonner sa narine ».\n> 2. La chute : « deux trous rouges au côté droit » ; euphémisme, rejet de « Tranquille », effet de choc.\n> 3. Une jeunesse sacrifiée : « Un soldat jeune » ; antithèse entre la vie de la nature et la mort de l'homme ; le poète prend la Nature à témoin.\n\n:::attention\n- Deux axes qui disent la même chose ne font qu'un axe : vérifie qu'ils sont **complémentaires**.\n- Ne fais pas un axe « le fond » et un axe « la forme » : chaque axe mêle toujours **idées et procédés**.\n- Les titres des axes ne se recopient pas sur la copie : ils deviennent des **phrases rédigées** au début de chaque partie.\n:::",
+   "definition": "Les axes de lecture sont les deux (ou trois) grandes idées qui organisent le commentaire composé ; chacun regroupe, en deux ou trois sous-parties, des analyses de procédés qui traversent tout le texte et répondent au projet de lecture.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Deux grandes idées sur le texte, chacune prouvée par des procédés : c'est le plan du commentaire.",
+    "simple": "Tu ranges tes observations dans deux grands paniers : l'un pour ce que le texte montre, l'autre pour ce qu'il veut dire.",
+    "complete": "Le plan du commentaire composé est thématique et interprétatif : il structure les observations en axes complémentaires et progressifs (de la signification littérale à la portée du texte), chacun subdivisé en sous-parties argumentées par des citations analysées. Il se distingue de l'explication linéaire, qui suit l'ordre du texte. Les pistes de lecture proposées par le sujet orientent légitimement le choix des axes."
+   },
+   "analogie": "Ton tableau d'observations, c'est la récolte ; les axes, ce sont les sacs où tu ranges le maïs d'un côté et les haricots de l'autre. Au marché, personne n'achète un sac où tout est mélangé.",
+   "exemples_resolus": [
+    {
+     "enonce": "Transforme ces thèmes en vrais axes de commentaire : (a) « Le marché » ; (b) « Les personnages ».",
+     "etapes": [
+      "Un thème n'est pas une idée : il faut ajouter un jugement sur ce que le texte en fait.",
+      "(a) « Un marché bruyant et coloré, véritable cœur de la ville. »",
+      "(b) « Des personnages pittoresques qui servent la satire de l'auteur. »"
+     ]
+    },
+    {
+     "enonce": "Pistes du sujet : « Vous montrerez comment le narrateur peint la vie d'un village au petit matin, puis comment il exprime sa nostalgie. » Propose deux axes et une sous-partie pour chacun.",
+     "etapes": [
+      "Axe I : « Un tableau vivant du village au réveil » ; sous-partie : les bruits et les gestes du travail (énumérations, verbes d'action, sonorités).",
+      "Axe II : « Le regard nostalgique du narrateur » ; sous-partie : l'imparfait d'habitude et le vocabulaire affectif qui idéalisent un monde perdu.",
+      "Les deux axes reprennent les pistes dans l'ordre : le correcteur les attend."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Suivre le texte ligne à ligne (commentaire linéaire) alors qu'on demande un commentaire composé.",
+    "Faire un axe « fond » et un axe « forme ».",
+    "Formuler un axe par un simple thème (« La nature ») au lieu d'une idée.",
+    "Ignorer les pistes données par le sujet.",
+    "Construire deux axes qui se répètent."
+   ],
+   "astuces": [
+    "Axe I : souvent « ce que le texte montre » ; axe II : « ce que le texte veut dire ou faire ».",
+    "Un bon titre d'axe contient un mot qui juge : « trompeusement paisible », « une dénonciation », « un éloge ».",
+    "Si le sujet donne deux pistes, garde-les dans l'ordre : ce sont tes deux axes."
+   ],
+   "mnemo": "« Du visible au sens » : I. ce que je vois ; II. ce que cela signifie.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Ta rédaction avait déjà un plan en parties. Ici, c'est pareil : deux parties (les axes), mais chaque partie traverse tout le texte au lieu de le suivre dans l'ordre."
+   },
+   "methode_redaction": "Le plan détaillé reste au brouillon (15 à 20 minutes). Sur la copie, chaque axe commence par une phrase qui l'annonce (« Le poème s'ouvre d'abord sur un tableau de nature paisible. »), sans titre ni numéro.",
+   "flash": [
+    {
+     "q": "Combien d'axes dans un commentaire composé ?",
+     "r": "Deux en général (parfois trois), chacun avec 2 ou 3 sous-parties."
+    },
+    {
+     "q": "Lequel suit l'ordre du texte : commentaire composé ou linéaire ?",
+     "r": "Le commentaire linéaire (explication de texte)."
+    },
+    {
+     "q": "Où trouver les axes ?",
+     "r": "Dans les pistes du sujet et dans les regroupements du tableau des observations."
+    },
+    {
+     "q": "« La nature » est-il un bon axe ?",
+     "r": "Non : c'est un thème ; il faut une idée (« Une nature trompeusement paisible »)."
+    },
+    {
+     "q": "Faut-il un axe « fond » et un axe « forme » ?",
+     "r": "Non : chaque axe mêle idées et procédés."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C11-N3.svg",
+    "alt": "Plan type du commentaire composé : introduction, axe I avec deux sous-parties, transition, axe II avec deux sous-parties, conclusion.",
+    "legende": "Le plan type du commentaire composé en deux axes.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C11-N4",
+   "titre": "Rédiger l'introduction et la conclusion du commentaire",
+   "prerequis_notions": [
+    "FR-S2-C11-N3",
+    "FR-S1-C05-N4"
+   ],
+   "cours_md": "## 1. L'introduction en trois temps\n\n:::methode\n**Amener, Poser, Annoncer**\n1. **Amener (situer le texte)** : présente l'auteur, l'œuvre, la date, le genre, éventuellement le mouvement littéraire ou le contexte historique, et la place de l'extrait. Une ou deux phrases suffisent.\n2. **Poser (présenter le texte et le projet de lecture)** : dis en une phrase de quoi parle le texte (thème, situation), puis formule le **projet de lecture** (question directe ou indirecte).\n3. **Annoncer le plan** : les deux axes, dans l'ordre, en une phrase.\n:::\n\n:::remarque\nTu reconnais l'introduction de la discussion (amorce, présentation, problématique, annonce). Dans le commentaire, l'amorce devient la **présentation précise du texte** : le correcteur attend d'abord son identité.\n:::\n\n**Exemple d'introduction** (« Le Dormeur du val ») :\n> En 1870, la guerre oppose la France à la Prusse et fait des milliers de victimes. Âgé de seize ans à peine, Arthur Rimbaud compose alors « Le Dormeur du val », un sonnet en alexandrins. Le poème décrit un jeune soldat étendu dans un vallon ensoleillé, qui semble dormir paisiblement. Comment le poète fait-il de ce paysage paisible le lieu d'une dénonciation de la guerre ? Nous verrons d'abord que le texte peint un tableau de nature lumineux et apaisant, puis qu'il se révèle une dénonciation saisissante de la guerre.\n\n## 2. La conclusion en trois temps\n\n:::methode\n**Bilan, Réponse, Ouverture**\n1. **Bilan** : rappelle en une ou deux phrases les conclusions de tes axes.\n2. **Réponse** : réponds nettement au projet de lecture.\n3. **Ouverture** : rapproche le texte d'une autre œuvre (même thème, même auteur, même mouvement) ou d'une question plus large, en une phrase.\n:::\n\n**Exemple de conclusion** :\n> Ainsi, sous l'apparence d'un tableau paisible baigné de lumière, « Le Dormeur du val » conduit peu à peu le lecteur vers la découverte d'un jeune soldat mort. Par le contraste entre la vie de la nature et la mort de l'homme, et par sa chute saisissante, Rimbaud dénonce une guerre qui sacrifie la jeunesse. Voltaire, dans *Candide* (1759), appelait déjà la guerre une « boucherie héroïque » : la littérature n'a jamais cessé de combattre cette violence.\n\n## 3. Les règles de présentation\n\n- Titre d'une œuvre (recueil, roman, pièce) **souligné** sur la copie manuscrite (en italique dans un livre imprimé) ; titre d'un poème, d'une fable ou d'un chapitre **entre guillemets**.\n- Introduction et conclusion : **un paragraphe chacune**, avec alinéa ; une **ligne sautée** après l'introduction et avant la conclusion.\n- Pas de « Je vais commenter ce texte », pas de « Dans ce texte, l'auteur nous parle de… » vague.\n\n:::attention\n- N'oublie jamais le **projet de lecture** : sans lui, le correcteur ne sait pas ce que tu veux démontrer.\n- Ne commence pas l'introduction par une citation du texte ni par « Depuis la nuit des temps ».\n- La conclusion n'apporte **pas d'analyse nouvelle** ; l'ouverture n'est pas une question vague (« Et vous, qu'en pensez-vous ? »).\n:::",
+   "definition": "L'introduction du commentaire amène (situe le texte : auteur, œuvre, date, genre), pose (thème du texte et projet de lecture) et annonce les axes ; la conclusion fait le bilan des axes, répond au projet de lecture et ouvre sur une autre œuvre ou une question voisine.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Introduction : je situe, je pose la question, j'annonce ; conclusion : je résume, je réponds, j'ouvre.",
+    "simple": "L'introduction, c'est la carte de visite du texte et de ton devoir ; la conclusion, c'est la dernière impression que tu laisses au correcteur.",
+    "complete": "L'introduction du commentaire procède du contexte vers le texte : identification précise de l'extrait (auteur, œuvre, date, genre, situation dans l'œuvre), présentation synthétique de son contenu, formulation du projet de lecture et annonce des axes. La conclusion inverse le mouvement : synthèse des acquis de l'analyse, réponse explicite à la problématique, puis élargissement maîtrisé (autre œuvre, mouvement littéraire, actualité du thème)."
+   },
+   "analogie": "Quand tu présentes un invité à ta famille, tu dis d'abord qui il est et d'où il vient, puis pourquoi il est là, enfin comment se passera la visite. À son départ, tu rappelles ce qu'il a apporté et tu lui dis « à bientôt » : c'est l'ouverture.",
+   "exemples_resolus": [
+    {
+     "enonce": "Corrige cette introduction : « Dans ce texte, l'auteur nous parle d'un marché. Je vais commenter ce texte en deux parties. » (le texte est un extrait de récit contemporain sur le grand marché de Lomé)",
+     "etapes": [
+      "Défauts : texte non situé (genre, auteur), thème vague, pas de projet de lecture, annonce maladroite (« Je vais ») qui ne dit pas quels sont les axes.",
+      "Amener et poser : « Dans cet extrait d'un récit contemporain, le narrateur décrit le grand marché de Lomé à l'heure où il s'éveille. »",
+      "Projet de lecture : « Comment ce tableau d'un marché devient-il un éloge de la vitalité de la ville ? »",
+      "Annonce : « Nous étudierons d'abord la peinture d'un lieu bruyant et coloré, puis l'admiration du narrateur pour ceux qui le font vivre. »"
+     ]
+    },
+    {
+     "enonce": "Propose une ouverture pour un commentaire de « Demain, dès l'aube… » de Victor Hugo (poème du deuil de sa fille, Les Contemplations, 1856).",
+     "etapes": [
+      "Chercher un lien : même thème (la perte d'un être aimé), même registre (lyrique), même époque (romantisme).",
+      "Ouverture : « Ce chant de deuil rejoint “Le Lac” de Lamartine (1820), autre grand poème romantique où le poète confie à la nature la douleur d'avoir perdu un être aimé. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier de nommer l'auteur, l'œuvre ou le genre du texte.",
+    "Oublier le projet de lecture, ou le placer après l'annonce du plan.",
+    "Annoncer « Je vais commenter ce texte en deux parties » sans dire lesquelles.",
+    "Mettre dans la conclusion une analyse nouvelle.",
+    "Ne pas souligner le titre de l'œuvre sur la copie."
+   ],
+   "astuces": [
+    "Rédige l'introduction et la conclusion entièrement au brouillon, puis recopie-les.",
+    "Ton annonce de plan doit reprendre exactement les idées de tes axes : c'est un contrat avec le correcteur.",
+    "Pour l'ouverture, garde en mémoire deux ou trois œuvres par grand thème (guerre, amour, nature, exil, ville, enfance)."
+   ],
+   "mnemo": "Introduction « APA » : Amener, Poser, Annoncer. Conclusion « BRO » : Bilan, Réponse, Ouverture.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Ton introduction présentait le sujet et ta conclusion donnait ton avis. Ici, tu gardes ce réflexe, mais tu commences par situer précisément le texte et tu poses une vraie question : le projet de lecture."
+   },
+   "methode_redaction": "Introduction et conclusion : un seul paragraphe chacune, avec alinéa, et une ligne sautée avant le développement et avant la conclusion. Longueur indicative : 6 à 8 lignes pour l'introduction, 5 à 7 pour la conclusion.",
+   "flash": [
+    {
+     "q": "Les trois temps de l'introduction du commentaire ?",
+     "r": "Amener (situer le texte), poser (thème et projet de lecture), annoncer les axes."
+    },
+    {
+     "q": "Que contient la phrase qui situe le texte ?",
+     "r": "Auteur, œuvre, date, genre (et contexte ou place de l'extrait si utile)."
+    },
+    {
+     "q": "Comment présente-t-on le titre d'un recueil sur la copie ? Et celui d'un poème ?",
+     "r": "On souligne le titre du recueil ; le titre du poème se met entre guillemets."
+    },
+    {
+     "q": "Les trois temps de la conclusion ?",
+     "r": "Bilan, réponse au projet de lecture, ouverture."
+    },
+    {
+     "q": "Peut-on ajouter une analyse nouvelle dans la conclusion ?",
+     "r": "Non."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C11-N4.svg",
+    "alt": "Schéma en cinq étapes : amener (situer le texte), poser (thème et projet de lecture), annoncer les axes, développer, conclure (bilan, réponse, ouverture).",
+    "legende": "Les trois temps de l'introduction et de la conclusion du commentaire.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C11-N5",
+   "titre": "Rédiger le développement : paragraphe d'analyse, citations et transitions",
+   "prerequis_notions": [
+    "FR-S2-C11-N3",
+    "FR-S1-C05-N5"
+   ],
+   "cours_md": "## 1. Le paragraphe d'analyse\n\n:::definition\nChaque **sous-partie** du commentaire est un **paragraphe** qui démontre **une idée** sur le texte. Il suit quatre temps : **affirmer** l'idée (phrase d'annonce), **citer** le texte, **analyser** le procédé, **conclure** en revenant au sens (conclusion partielle).\n:::\n\n**Exemple de paragraphe rédigé** (axe I, sous-partie 1, « Le Dormeur du val ») :\n> D'abord, Rimbaud peint une nature pleine de vie. Dès le premier vers, la rivière « chante » (v. 1) : cette personnification fait du paysage un être joyeux, presque une présence amicale. L'adverbe « follement » (v. 2) renforce l'impression d'une énergie débordante, tandis que la « montagne fière » (v. 3) semble veiller sur le val. La métaphore du « petit val qui mousse de rayons » (v. 4) associe enfin la lumière à une matière qui déborde, comme une boisson pétillante. Le premier quatrain installe donc un décor accueillant et heureux, où le lecteur ne s'attend à aucune mort.\n\nRepère les quatre temps : phrase 1 = idée ; phrases 2 à 4 = citations + procédés + effets ; dernière phrase = conclusion partielle.\n\n## 2. Bien intégrer les citations\n\n:::methode\n**Trois façons de citer**\n1. **Citation intégrée** à ta phrase (la meilleure) : la rivière « chante » (v. 1) comme un être joyeux.\n2. **Citation annoncée** par deux-points : le poète conclut brutalement : « Il a deux trous rouges au côté droit » (v. 14).\n3. **Citation entre parenthèses** après ton idée : le soldat paraît fragile (« Pâle », v. 8 ; « enfant malade », v. 10).\n:::\n\n- Cite **court** : quelques mots suffisent ; une citation de plus d'une ligne est rarement utile.\n- Recopie le texte **exactement** (orthographe, ponctuation) ; si tu coupes, mets […].\n- Indique la **place** : (v. 3) pour un vers, (l. 12) pour une ligne. En poésie, la barre oblique marque le passage d'un vers à l'autre : « Souriant comme / Sourirait un enfant malade » (v. 9-10).\n- **Toute citation doit être analysée** : une citation sans commentaire ne rapporte rien.\n\n## 3. Les transitions et la progression\n\n:::definition\nLa **transition** est une phrase (ou deux) placée entre les axes : elle **résume** l'axe qui se termine et **annonce** le suivant, en montrant le lien logique entre eux.\n:::\n\n> Ce tableau lumineux n'est pourtant qu'une apparence : derrière le sommeil du soldat, le poète laisse peu à peu deviner la mort et dénonce la guerre.\n\n- Entre les **sous-parties** : des connecteurs (d'abord, de plus, par ailleurs, enfin ; mais, pourtant, cependant ; ainsi, donc).\n- Entre les **axes** : une vraie transition, puis une ligne sautée.\n\n:::attention\n- **Paraphrase interdite** : « Le soldat dort, il a les pieds dans les glaïeuls, puis il a froid… » ne fait que répéter le texte.\n- Ne commence pas un paragraphe par une citation : commence par **ton idée**.\n- Le **présent** est le temps de l'analyse : « Rimbaud décrit », « le poète dénonce ».\n- Distingue l'**auteur** (la personne réelle), le **poète** ou le **narrateur** (celui qui parle dans le texte) et les **personnages**.\n:::",
+   "definition": "Le développement du commentaire se compose de paragraphes d'analyse (idée, citations brèves intégrées, analyse des procédés, conclusion partielle), regroupés en axes reliés par des transitions qui résument l'axe achevé et annoncent le suivant.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Un paragraphe = une idée sur le texte, prouvée par des citations analysées.",
+    "simple": "Tu affirmes une idée, tu montres les mots du texte qui la prouvent, tu expliques comment ces mots la prouvent, puis tu conclus.",
+    "complete": "Le paragraphe de commentaire est une unité démonstrative : une phrase d'annonce formule l'idée directrice ; les citations, brèves, exactes, localisées et syntaxiquement intégrées, servent de preuves ; l'analyse identifie les procédés et en explicite les effets ; la conclusion partielle rattache la démonstration à l'axe et au projet de lecture. Les transitions assurent la cohérence du devoir en articulant logiquement les axes."
+   },
+   "analogie": "Devant le chef du village, celui qui témoigne affirme ce qu'il a vu, montre la preuve, l'explique, puis conclut. Une affirmation sans preuve ne convainc personne ; une preuve sans explication non plus.",
+   "exemples_resolus": [
+    {
+     "enonce": "Réécris en intégrant et en analysant la citation : « Le narrateur aime son village. Citation : “mon cher Kpalimé aux collines bleues” (l. 3). » (texte d'exemple)",
+     "etapes": [
+      "Défaut : la citation est posée à côté de l'idée, sans analyse.",
+      "Réécriture : « L'attachement du narrateur à son village éclate dans l'expression affectueuse “mon cher Kpalimé aux collines bleues” (l. 3) : le possessif “mon” et l'adjectif “cher” traduisent la tendresse, tandis que les “collines bleues” idéalisent le paysage, comme vu à travers le souvenir. »"
+     ]
+    },
+    {
+     "enonce": "Paraphrase ou analyse ? « Le poète dit que le soldat a froid et que les parfums ne le font pas frissonner. » Améliore la phrase.",
+     "etapes": [
+      "C'est une paraphrase : la phrase répète le texte sans dire comment il est écrit ni pourquoi.",
+      "Analyse : « L'antithèse entre “chaudement” et “il a froid” (v. 11), puis la négation “Les parfums ne font pas frissonner sa narine” (v. 12), montrent un corps qui ne réagit plus : le lecteur commence à comprendre que le soldat est mort. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Paraphraser le texte au lieu de l'analyser.",
+    "Commencer un paragraphe par une citation au lieu d'une idée.",
+    "Aligner de longues citations sans les commenter.",
+    "Oublier la transition entre les axes.",
+    "Écrire au passé (« l'auteur a décrit ») au lieu du présent d'analyse."
+   ],
+   "astuces": [
+    "Test anti-paraphrase : chaque phrase de ton paragraphe contient-elle un mot d'analyse (procédé, effet, sens) ? Sinon, réécris-la.",
+    "Trois citations bien analysées valent mieux que dix citations recopiées.",
+    "Pour la transition, utilise une concession : « Si…, … pourtant… » résume et annonce en une seule phrase."
+   ],
+   "mnemo": "« J'affirme, je cite, j'analyse, je conclus » : les quatre temps de chaque paragraphe.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu justifiais déjà tes réponses aux questions par une citation du texte. Dans le commentaire, chaque citation devient la preuve d'une idée et doit être expliquée."
+   },
+   "methode_redaction": "Un alinéa à chaque paragraphe ; une ligne sautée entre les deux axes ; la transition forme un court paragraphe ou termine l'axe I. Citations entre guillemets avec leur place (v. 4, l. 8). Compte environ 8 à 12 lignes par paragraphe et 2 ou 3 paragraphes par axe.",
+   "flash": [
+    {
+     "q": "Les quatre temps du paragraphe de commentaire ?",
+     "r": "Affirmer l'idée, citer, analyser le procédé, conclure."
+    },
+    {
+     "q": "Comment signaler une coupure dans une citation ?",
+     "r": "Par des crochets et trois points : […]."
+    },
+    {
+     "q": "Que signifie la barre oblique dans une citation de poème ?",
+     "r": "Le passage d'un vers au suivant."
+    },
+    {
+     "q": "Quel temps emploie-t-on pour rédiger l'analyse ?",
+     "r": "Le présent."
+    },
+    {
+     "q": "Quel est le rôle de la transition ?",
+     "r": "Résumer l'axe achevé et annoncer le suivant."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C11-N5.svg",
+    "alt": "Schéma en quatre étapes d'un paragraphe de commentaire : affirmer l'idée, citer, analyser, conclure, avec une phrase modèle sur « Le Dormeur du val ».",
+    "legende": "Les quatre temps du paragraphe d'analyse.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S2-C11-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C11-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Laquelle de ces phrases est une véritable analyse de commentaire ?",
+   "indices": [
+    "Cherche la phrase qui cite, nomme et interprète."
+   ],
+   "corrige": [
+    "Une analyse cite le texte, nomme le procédé et en donne l'effet lié au sens : seule la réponse C le fait.",
+    "A nomme sans interpréter ; B paraphrase ; D donne un jugement vague sans preuve."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Nommer un procédé (réponse A) ne suffit pas : sans effet ni sens, l'analyse est incomplète.",
+   "verification": "double_resolution",
+   "choix": [
+    "A. Au vers 3, il y a une métaphore.",
+    "B. Le poète parle du soleil et de la rivière.",
+    "C. La personnification de la rivière qui « chante » (v. 1) donne au paysage une gaieté qui rendra la mort du soldat plus choquante.",
+    "D. Ce texte est très beau et bien écrit."
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S2-C11-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C11-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quel registre littéraire cherche à émouvoir le lecteur en lui faisant éprouver de la pitié ? (un mot)",
+   "indices": [
+    "Le mot vient du grec « pathos », la souffrance."
+   ],
+   "corrige": [
+    "Le registre pathétique met en scène la souffrance (souvent d'innocents) pour émouvoir et faire pitié."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Ne confonds pas pathétique (pitié) et tragique (destin inévitable).",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "pathétique",
+    "le pathétique",
+    "registre pathétique",
+    "le registre pathétique",
+    "pathetique"
+   ]
+  },
+  {
+   "id": "FR-S2-C11-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C11-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Pistes du sujet : « Vous montrerez comment l'auteur peint l'animation du marché, puis comment il exprime son attachement à sa ville. » Quel plan convient ?",
+   "indices": [
+    "Le plan doit suivre les pistes et ne pas découper le texte par lignes."
+   ],
+   "corrige": [
+    "Le commentaire composé s'organise en axes qui traversent tout le texte et reprennent ici les deux pistes du sujet.",
+    "Le plan C formule deux idées (et non deux thèmes) dans l'ordre des pistes ; A est linéaire, B sépare fond et forme, D sort du texte."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Le plan D transforme le commentaire en dissertation sur le thème : hors sujet.",
+   "verification": "double_resolution",
+   "choix": [
+    "A. I. Lignes 1 à 10 – II. Lignes 11 à 20",
+    "B. I. Le fond – II. La forme",
+    "C. I. Un marché bruyant et coloré – II. Un éloge affectueux de la ville",
+    "D. I. Les marchés en Afrique – II. Les avantages des supermarchés"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S2-C11-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C11-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans l'introduction d'un commentaire, quel élément vient juste avant l'annonce du plan ? (trois mots maximum)",
+   "indices": [
+    "C'est la question qui guide tout le commentaire."
+   ],
+   "corrige": [
+    "L'introduction suit l'ordre : situer le texte, présenter le texte et poser le projet de lecture (la problématique), annoncer les axes."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Ne place pas la problématique après l'annonce du plan : la question vient avant la réponse annoncée.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "projet de lecture",
+    "le projet de lecture",
+    "la problématique",
+    "problématique",
+    "problematique",
+    "la problematique"
+   ]
+  },
+  {
+   "id": "FR-S2-C11-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C11-N5"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle citation est correctement intégrée dans une phrase d'analyse ?",
+   "indices": [
+    "Cherche les guillemets, la place du vers et une interprétation."
+   ],
+   "corrige": [
+    "Une bonne citation est courte, exacte, entre guillemets, localisée et accompagnée d'une analyse.",
+    "La réponse B réunit ces conditions ; A isole la citation avant l'idée, C oublie les guillemets et paraphrase, D commence par la référence sans phrase."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Une citation sans guillemets (C) se confond avec ta propre phrase : c'est de la paraphrase.",
+   "verification": "double_resolution",
+   "choix": [
+    "A. « Il a deux trous rouges au côté droit. » Cela montre la mort.",
+    "B. Le dernier vers révèle brutalement la mort : le soldat a « deux trous rouges au côté droit » (v. 14), seule image de violence du poème.",
+    "C. Le soldat a deux trous rouges au côté droit, donc il est mort.",
+    "D. (v. 14) deux trous rouges."
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S2-C11-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C11-N2",
+    "FR-S2-C11-N5"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans « Le Dormeur du val » (« … la main sur sa poitrine / Tranquille. Il a deux trous rouges au côté droit. »), quel mot est rejeté au début du dernier vers, juste avant la chute ? (un mot)",
+   "indices": [
+    "Un rejet est un mot court placé au début du vers suivant, alors qu'il appartient à la phrase du vers précédent."
+   ],
+   "corrige": [
+    "Le mot « Tranquille », séparé de « poitrine » par le passage au vers suivant, est mis en relief par ce rejet.",
+    "Ce calme apparent retarde la révélation de la mort et rend la chute (« deux trous rouges ») plus brutale."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "« Il » n'est pas rejeté : il commence une nouvelle phrase.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "Tranquille",
+    "tranquille",
+    "« Tranquille »",
+    "Tranquille."
+   ]
+  },
+  {
+   "id": "FR-S2-C11-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C11-N1",
+    "FR-S2-C11-N2",
+    "FR-S2-C11-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis ce texte, puis prépare au brouillon le commentaire (sans le rédiger).\n\nLe car pour Lomé partait à l'aube. Ma mère avait tenu à m'accompagner jusqu'à la route, portant elle-même ma valise sur sa tête, comme elle portait autrefois les fagots de bois. Elle ne disait rien. Derrière nous, le village dormait encore ; seuls quelques coqs déchiraient le silence gris. Quand le car apparut au tournant, dans un nuage de poussière rouge, elle posa la valise et me prit les deux mains. Ses mains étaient dures, crevassées par trente années de houe ; elles tremblaient pourtant comme des feuilles. « Travaille bien, mon fils. N'oublie pas d'où tu viens. » Je montai. Par la vitre sale, je la vis rapetisser, immobile au bord de la route, toute petite dans son pagne délavé, jusqu'à ce que la poussière l'efface tout à fait. Alors seulement, je compris que c'était moi qui partais, et elle qui restait seule.\n(texte d'exemple écrit pour la plateforme ; les lignes sont numérotées de 1 à 12 sur la copie d'examen)\n\n1. Fais la lecture préparatoire : genre et énonciation, thème, registre dominant, mouvements (avec leurs limites).\n2. Construis un tableau de quatre observations (citation, procédé, effet).\n3. Formule un projet de lecture et deux axes, chacun avec deux sous-parties.",
+   "indices": [
+    "Repère les comparaisons introduites par « comme ».",
+    "Que révèle la dernière phrase sur le point de vue du narrateur ?"
+   ],
+   "corrige": [
+    "1. Lecture préparatoire : récit à la 1re personne (narrateur adulte qui se souvient, passé simple et imparfait) ; thème : le départ d'un jeune homme vers la ville et la séparation d'avec sa mère ; registre pathétique, avec une émotion retenue (lyrisme discret).",
+    "1 (suite). Mouvements : 1) l'attente silencieuse avant le départ (« Le car… silence gris ») ; 2) les adieux (« Quand le car apparut… d'où tu viens. ») ; 3) le départ et la prise de conscience (« Je montai… restait seule »).",
+    "2. Observations (2 points pour quatre lignes justes, 0,5 par ligne) : « comme elle portait autrefois les fagots de bois » : comparaison qui rappelle une vie de labeur et de dévouement ; « dures, crevassées / tremblaient pourtant comme des feuilles » : antithèse et comparaison, la femme forte est bouleversée ; « les coqs déchiraient le silence gris » : personnification et métaphore, l'atmosphère est triste et tendue ; « je la vis rapetisser… toute petite… la poussière l'efface » : gradation, la mère disparaît, la séparation devient visible.",
+    "2 (autres observations acceptées) : « Elle ne disait rien » (silence pudique, émotion contenue) ; paroles brèves au discours direct « N'oublie pas d'où tu viens » (impératif, transmission d'une valeur) ; « c'était moi qui partais, et elle qui restait seule » (tournure emphatique, antithèse partir / rester, chute qui inverse le point de vue).",
+    "3. Projet de lecture : « Comment ce récit d'adieux fait-il partager au lecteur l'émotion d'une séparation ? » Axe I : Le portrait émouvant d'une mère courageuse (1. une femme de labeur et de dévouement ; 2. une émotion retenue qui finit par se trahir).",
+    "3 (suite). Axe II : Une scène de départ qui devient une prise de conscience douloureuse (1. une séparation rendue visible : la mère qui rapetisse et s'efface ; 2. la chute : le narrateur comprend que la vraie solitude est celle de sa mère)."
+   ],
+   "bareme": [
+    1,
+    1,
+    2,
+    1,
+    1.5,
+    1.5
+   ],
+   "piege": "Ne raconte pas l'histoire dans le tableau : chaque ligne doit nommer un procédé et un effet.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S2-C11-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C11-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Voici un poème de Victor Hugo.\n\nDemain, dès l'aube, à l'heure où blanchit la campagne,\nJe partirai. Vois-tu, je sais que tu m'attends.\nJ'irai par la forêt, j'irai par la montagne.\nJe ne puis demeurer loin de toi plus longtemps.\n\nJe marcherai les yeux fixés sur mes pensées,\nSans rien voir au dehors, sans entendre aucun bruit,\nSeul, inconnu, le dos courbé, les mains croisées,\nTriste, et le jour pour moi sera comme la nuit.\n\nJe ne regarderai ni l'or du soir qui tombe,\nNi les voiles au loin descendant vers Harfleur,\nEt quand j'arriverai, je mettrai sur ta tombe\nUn bouquet de houx vert et de bruyère en fleur.\n\nVictor Hugo, Les Contemplations (1856), poème daté du 3 septembre 1847 (domaine public).\n\nSujet : « Vous ferez de ce poème un commentaire composé. Vous pourrez montrer comment le poème se présente d'abord comme un départ vers un être aimé, puis comment il révèle un deuil. »\nRédige seulement l'introduction complète et la conclusion de ce commentaire.",
+   "indices": [
+    "Amener, Poser, Annoncer ; puis Bilan, Réponse, Ouverture.",
+    "La date du poème et le nom du recueil sont des informations précieuses pour situer le texte."
+   ],
+   "corrige": [
+    "Amener (situer le texte) : « Victor Hugo, figure majeure du romantisme, a perdu sa fille Léopoldine, noyée dans la Seine en 1843. Dans Les Contemplations (1856), recueil construit autour de ce deuil, il publie “Demain, dès l'aube…”, poème daté du 3 septembre 1847, veille du quatrième anniversaire de la mort de sa fille. »",
+    "Poser (présenter le texte et le projet de lecture) : « Le poète y décrit la marche qu'il entreprend vers une personne qui l'attend. Comment ce qui ressemble à un rendez-vous se transforme-t-il en un émouvant chant de deuil ? »",
+    "Annoncer le plan : « Nous verrons d'abord que le poème se présente comme le récit d'un départ vers un être aimé, puis qu'il révèle peu à peu la douleur d'un père devant la tombe de sa fille. »",
+    "Bilan et réponse : « Ainsi, sous l'apparence d'un départ plein d'élan, “Demain, dès l'aube…” conduit le lecteur jusqu'à une tombe : la marche décidée du poète est en réalité un pèlerinage de deuil. Le lyrisme pudique de Hugo, qui ne révèle la mort qu'au dernier quatrain, rend la douleur d'autant plus poignante. »",
+    "Ouverture : « Ce poème rejoint “Le Lac” de Lamartine (1820), autre grand poème romantique où la nature devient le témoin d'un amour perdu. » (toute ouverture pertinente vers une œuvre sur le deuil ou la perte est acceptée)",
+    "Présentation : deux paragraphes avec alinéa ; titre du recueil souligné, titre du poème entre guillemets ; pas de « je vais » ; aucune analyse nouvelle dans la conclusion."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1.5,
+    1,
+    0.5
+   ],
+   "piege": "Ne révèle pas toute ton analyse dans l'introduction : annonce les axes, sans détailler les procédés.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S2-C11-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S2-C11-N1",
+    "FR-S2-C11-N2",
+    "FR-S2-C11-N3",
+    "FR-S2-C11-N4",
+    "FR-S2-C11-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis ce poème, puis traite le sujet (devoir noté sur 12, comme la partie B de l'épreuve).\n\nChant pour la lagune\n\nLagune de mon enfance, miroir des matins clairs,\nToi qui berçais les pirogues comme une mère ses enfants,\nToi dont l'eau chantait sous la pagaie de mon père,\nJe reviens vers toi, et tu ne me reconnais plus.\n\nOù sont les filets lourds de poissons d'argent ?\nOù sont les rires des pêcheurs au retour du soir ?\nSur ton ventre flottent des sacs de plastique noir,\nEt ton souffle a l'odeur des usines lointaines.\n\nLagune, ma lagune, on t'a vendue pour rien,\nOn t'a couverte d'ordures comme on couvre une tombe.\nMais je garde en moi le bleu de tes eaux anciennes,\nEt je chanterai ce bleu jusqu'à ce qu'il revienne.\n\n(poème d'exemple écrit pour la plateforme, en vers libres)\n\nSujet : « Vous ferez de ce poème un commentaire composé. Vous pourrez montrer, par exemple, comment le poète exprime sa nostalgie d'une lagune heureuse, puis comment il dénonce sa dégradation tout en gardant espoir. »",
+   "indices": [
+    "Repère le changement de temps entre la strophe 1 et le vers 4, puis le « Mais » du vers 11.",
+    "Oppose les couleurs : argent et bleu d'un côté, noir de l'autre."
+   ],
+   "corrige": [
+    "Introduction : « Dans nos villes côtières, la lagune a longtemps nourri les familles de pêcheurs ; elle souffre aujourd'hui de la pollution. Le “Chant pour la lagune”, poème en vers libres de trois strophes, fait entendre la voix d'un fils de pêcheur qui retrouve la lagune de son enfance. Comment ce chant d'amour devient-il un cri de dénonciation et d'espoir ? Nous verrons d'abord que le poète exprime sa nostalgie d'une lagune heureuse, puis qu'il dénonce sa dégradation sans renoncer à l'espoir. » (critères : texte situé, thème, projet de lecture, annonce des deux axes)",
+    "I.1 Une lagune personnifiée, presque une mère : « D'abord, le poète parle à la lagune comme à un être cher. L'apostrophe “Lagune de mon enfance” (v. 1), reprise par l'anaphore “Toi qui… / Toi dont…” (v. 2-3), installe un dialogue intime. La comparaison “comme une mère ses enfants” (v. 2) fait de la lagune une mère nourricière qui “berçait” les pirogues, et son eau “chantait” (v. 3) : la personnification unit le paysage, le travail du père et le bonheur de l'enfance. »",
+    "I.2 La nostalgie d'un passé perdu : « Ce bonheur appartient pourtant au passé. Les imparfaits “berçais”, “chantait” s'opposent au présent du vers 4, “tu ne me reconnais plus”, qui dit la rupture. L'anaphore interrogative “Où sont…” (v. 5-6) évoque, sans réponse, l'abondance (“filets lourds de poissons d'argent”) et la joie collective (“les rires des pêcheurs”) disparues : le poème prend le ton d'une plainte lyrique. »",
+    "Transition : « Si la première strophe chante une lagune aimée, la suite du poème montre ce qu'elle est devenue et en accuse les responsables. »",
+    "II.1 Une dénonciation de la pollution : « Le champ lexical de la pollution (“sacs de plastique noir”, “odeur des usines”, “ordures”) s'oppose violemment aux images lumineuses de la première strophe. La lagune reste personnifiée (“Sur ton ventre”, “ton souffle”) : elle souffre comme un corps malade. Le pronom indéfini “on”, répété (v. 9-10), désigne des coupables anonymes, et la comparaison “comme on couvre une tombe” annonce la mort de la lagune. “Vendue pour rien” dénonce un sacrifice insensé. »",
+    "II.2 Le chant comme promesse d'espoir : « Pourtant, le connecteur “Mais” (v. 11) renverse le mouvement du poème. Au noir des sacs s'oppose “le bleu de tes eaux anciennes”, gardé dans la mémoire du poète. Le futur “je chanterai” et la subordonnée “jusqu'à ce qu'il revienne” transforment la plainte en engagement : le poème lui-même devient l'acte qui garde vivante l'image de la lagune et appelle à la sauver. »",
+    "Conclusion : « Ainsi, en parlant à la lagune comme à une mère, le poète exprime d'abord la nostalgie d'un monde heureux, puis dénonce sa destruction. Ce chant lyrique devient un poème engagé, où la mémoire nourrit l'espoir. Il rejoint la poésie de la Négritude, qui célébrait la terre africaine tout en dénonçant ceux qui la blessent. » (bilan, réponse, ouverture)",
+    "Langue et présentation : orthographe et syntaxe correctes, présent d'analyse, citations courtes entre guillemets avec numéros de vers, alinéas, une ligne sautée entre introduction, axes et conclusion, aucun titre apparent."
+   ],
+   "bareme": [
+    2,
+    1.5,
+    1.5,
+    0.5,
+    1.5,
+    1.5,
+    1.5,
+    2
+   ],
+   "piege": "Ne fais pas une dissertation sur la pollution en général : chaque idée doit être prouvée par une citation analysée du poème.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Raconter ou paraphraser le texte au lieu d'analyser comment il est écrit.",
+  "Faire un catalogue de procédés sans interprétation, ou donner des effets vagues (« cela rend le texte vivant »).",
+  "Oublier le projet de lecture dans l'introduction, ou ne jamais y répondre en conclusion.",
+  "Faire un commentaire linéaire, ou un plan « fond / forme », au lieu de deux axes qui traversent tout le texte.",
+  "Citer longuement, sans guillemets ni numéro de vers ou de ligne.",
+  "Confondre l'auteur, le poète (ou le narrateur) et le personnage.",
+  "Négliger les pistes du sujet, qui donnent souvent les deux axes."
+ ]
+}

@@ -1,0 +1,799 @@
+{
+ "id": "PC-S2-C13",
+ "matiere": "PC",
+ "semestre": 2,
+ "ordre": 13,
+ "titre": "Propagation, réflexion et réfraction de la lumière",
+ "objectifs": [
+  "Énoncer le principe de propagation rectiligne et l'exploiter (ombres, éclipses, chambre noire).",
+  "Utiliser la célérité de la lumière et l'année-lumière.",
+  "Énoncer et appliquer les lois de la réflexion ; construire l'image donnée par un miroir plan.",
+  "Définir l'indice de réfraction $n = c/v$ et appliquer la loi de Snell-Descartes $n_1 \\sin i_1 = n_2 \\sin i_2$.",
+  "Calculer un angle limite et prévoir une réflexion totale ; citer des applications (fibre optique, prisme)."
+ ],
+ "prerequis": [
+  "PC-3e-LUMIERE",
+  "M-3e-THALES",
+  "M-3e-TRIGONOMETRIE"
+ ],
+ "notions": [
+  {
+   "id": "PC-S2-C13-N1",
+   "titre": "Propagation rectiligne de la lumière",
+   "prerequis_notions": [
+    "PC-3e-LUMIERE",
+    "M-3e-THALES"
+   ],
+   "cours_md": "## 1. Sources et récepteurs de lumière\n- Une **source primaire** produit la lumière qu'elle émet : Soleil, flamme, lampe allumée, écran.\n- Un **objet diffusant** (source secondaire) renvoie dans toutes les directions une partie de la lumière qu'il reçoit : la Lune, un mur, ce cahier. On voit un objet quand de la lumière venant de lui **entre dans l'œil**.\n- Un milieu est **transparent** (air, eau, verre), **translucide** (papier calque) ou **opaque** (bois, métal).\n\n## 2. Propagation rectiligne\n:::propriete Principe de propagation rectiligne\nDans un milieu **transparent et homogène**, la lumière se propage **en ligne droite**.\n:::\nOn la représente par un **rayon lumineux** : une droite munie d'une flèche indiquant le sens de propagation. Un **faisceau** est un ensemble de rayons : **divergent** (lampe), **convergent** (après une loupe) ou **parallèle** (rayons du Soleil arrivant sur la Terre).\n\n:::remarque Milieu non homogène\nDans un milieu non homogène (air chauffé au-dessus d'une route goudronnée en saison sèche), la lumière se courbe : c'est l'origine des **mirages**.\n:::\n\n## 3. Vitesse de la lumière\n:::propriete Célérité de la lumière\nDans le vide (et pratiquement dans l'air) : $c = 3{,}00 \\times 10^{8}\\ \\text{m/s}$. Dans les autres milieux transparents, elle est plus faible.\n:::\nL'**année-lumière** (a.l.) est la **distance** parcourue par la lumière dans le vide en une année : $1\\ \\text{a.l.} = c \\times 365{,}25 \\times 24 \\times 3600\\ \\text{s} \\approx 9{,}46 \\times 10^{15}\\ \\text{m}$. Ce n'est pas une durée !\n\n## 4. Conséquences : ombres, éclipses, chambre noire\n- **Ombre propre** : partie non éclairée de l'objet ; **ombre portée** : zone de l'écran que l'objet empêche d'éclairer. Avec une source étendue, on observe aussi une **pénombre** (zone partiellement éclairée).\n- **Éclipse de Soleil** : la Lune passe entre le Soleil et la Terre (on est dans l'ombre de la Lune). **Éclipse de Lune** : la Lune passe dans l'ombre de la Terre.\n\n:::propriete Chambre noire\nUne boîte opaque percée d'un petit trou $O$ donne sur la face opposée une image **renversée** de l'objet. Par le théorème de Thalès :\n$$\\frac{h'}{h} = \\frac{d'}{d}$$\n$h$ : hauteur de l'objet, $d$ : distance objet–trou, $h'$ : hauteur de l'image, $d'$ : profondeur de la boîte.\n:::\nSi l'on agrandit le trou, l'image devient plus lumineuse mais **floue**.\n\n## Exemples résolus\n**Exemple 1.** La lumière du Soleil parcourt $d = 1{,}50 \\times 10^{11}\\ \\text{m}$ pour arriver sur la Terre. Durée du trajet ?\n- Formule : $\\Delta t = \\dfrac{d}{c}$.\n- Application numérique : $\\Delta t = \\dfrac{1{,}50 \\times 10^{11}}{3{,}00 \\times 10^{8}} = 500\\ \\text{s}$.\n- Résultat : environ 8 min 20 s ; on voit le Soleil tel qu'il était il y a 8 minutes.\n\n**Exemple 2.** Un élève de $1{,}8\\ \\text{m}$ se tient à $6{,}0\\ \\text{m}$ d'une chambre noire profonde de $20\\ \\text{cm}$. Taille de son image ?\n- Formule : $h' = h \\times \\dfrac{d'}{d}$.\n- Application numérique : $h' = 1{,}8 \\times \\dfrac{0{,}20}{6{,}0}$.\n- Résultat : $h' = 0{,}060\\ \\text{m} = 6{,}0\\ \\text{cm}$, image renversée.",
+   "definition": "Dans un milieu transparent et homogène, la lumière se propage en ligne droite, à la vitesse $c = 3{,}00 \\times 10^{8}$ m/s dans le vide ; on la modélise par des rayons lumineux.",
+   "formules": [
+    "$c = 3{,}00 \\times 10^{8}\\ \\text{m/s}$",
+    "$d = c\\,\\Delta t$",
+    "$1\\ \\text{a.l.} \\approx 9{,}46 \\times 10^{15}\\ \\text{m}$",
+    "$\\dfrac{h'}{h} = \\dfrac{d'}{d}$ (chambre noire)"
+   ],
+   "niveaux": {
+    "phrase": "Dans l'air ou dans l'eau limpide, la lumière va tout droit.",
+    "simple": "La lumière se comporte comme un tireur à l'arc qui vise sans jamais courber sa flèche : si un obstacle opaque est sur la ligne droite, la lumière ne passe pas, et c'est l'ombre.",
+    "complete": "Dans un milieu transparent, homogène et isotrope, la lumière se propage en ligne droite ; on la représente par des rayons orientés. Sa célérité dans le vide est $c = 3{,}00 \\times 10^{8}$ m/s ; l'année-lumière est une distance (≈ $9{,}46 \\times 10^{15}$ m). La propagation rectiligne explique ombres, pénombres, éclipses et l'image renversée de la chambre noire, de taille $h' = h\\,d'/d$."
+   },
+   "analogie": "À midi, sous le soleil de Lomé, l'ombre d'un cocotier a des bords nets : les rayons du Soleil arrivent en ligne droite et le tronc opaque les arrête.",
+   "exemples_resolus": [
+    {
+     "enonce": "Un bâton vertical de $1{,}0\\ \\text{m}$ a une ombre de $0{,}80\\ \\text{m}$. Au même moment, l'ombre d'un arbre mesure $6{,}4\\ \\text{m}$. Hauteur de l'arbre ?",
+     "etapes": [
+      "Les rayons du Soleil sont parallèles : les triangles bâton–ombre et arbre–ombre sont semblables (Thalès).",
+      "Formule : $\\dfrac{H}{6{,}4} = \\dfrac{1{,}0}{0{,}80}$, donc $H = 6{,}4 \\times \\dfrac{1{,}0}{0{,}80}$.",
+      "Résultat : $H = 8{,}0\\ \\text{m}$."
+     ]
+    },
+    {
+     "enonce": "Un faisceau laser envoyé vers la Lune revient après $\\Delta t = 2{,}56\\ \\text{s}$ (aller-retour). Distance Terre–Lune ?",
+     "etapes": [
+      "La lumière parcourt deux fois la distance : $2d = c\\,\\Delta t$.",
+      "Application numérique : $d = \\dfrac{3{,}00 \\times 10^{8} \\times 2{,}56}{2}$.",
+      "Résultat : $d = 3{,}84 \\times 10^{8}\\ \\text{m}$ (384 000 km)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que l'année-lumière est une durée.",
+    "Oublier de diviser par 2 pour un aller-retour.",
+    "Dessiner un rayon sans flèche ou avec la flèche dans le mauvais sens (de l'œil vers l'objet).",
+    "Oublier que l'image d'une chambre noire est renversée."
+   ],
+   "astuces": [
+    "Pour les grandes distances, écris tout en écriture scientifique et vérifie l'ordre de grandeur.",
+    "Le trajet de la lumière va toujours **de l'objet vers l'œil**."
+   ],
+   "mnemo": "« La lumière va de l'objet à l'œil, et tout droit. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu les sources de lumière, les ombres et les phases de la Lune. En Seconde, on calcule avec la vitesse de la lumière et la chambre noire."
+   },
+   "methode_redaction": "Énonce le principe utilisé (« la lumière se propage en ligne droite dans un milieu transparent et homogène »), fais un schéma avec rayons fléchés, puis applique Thalès ou $d = c\\,\\Delta t$ avec les unités SI.",
+   "flash": [
+    {
+     "q": "Énonce le principe de propagation rectiligne.",
+     "r": "Dans un milieu transparent et homogène, la lumière se propage en ligne droite."
+    },
+    {
+     "q": "Valeur de c dans le vide ?",
+     "r": "$3{,}00 \\times 10^{8}$ m/s."
+    },
+    {
+     "q": "L'année-lumière est-elle une durée ?",
+     "r": "Non, c'est une distance (≈ $9{,}46 \\times 10^{15}$ m)."
+    },
+    {
+     "q": "Différence entre source primaire et objet diffusant ?",
+     "r": "La source primaire produit sa lumière ; l'objet diffusant renvoie la lumière reçue."
+    },
+    {
+     "q": "L'image d'une chambre noire est-elle droite ou renversée ?",
+     "r": "Renversée ; $h'/h = d'/d$."
+    },
+    {
+     "q": "Qu'est-ce qu'une éclipse de Lune ?",
+     "r": "La Lune passe dans l'ombre de la Terre."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C13-N1.svg",
+    "alt": "Un objet AB (flèche verte) devant une chambre noire percée d'un trou O ; deux rayons orange passent par O ; sur le fond de la boîte se forme l'image renversée A'B' (flèche rouge). Les distances d (objet–trou) et d' (profondeur) sont cotées.",
+    "legende": "Chambre noire : la propagation rectiligne donne une image renversée, h'/h = d'/d.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C13-N2",
+   "titre": "Réflexion de la lumière : lois et miroir plan",
+   "prerequis_notions": [
+    "PC-S2-C13-N1"
+   ],
+   "cours_md": "## 1. Vocabulaire\nQuand un rayon lumineux arrive sur une surface réfléchissante (miroir, eau calme), on appelle :\n- **point d'incidence** $I$ : le point où le rayon frappe la surface ;\n- **normale** : la droite perpendiculaire à la surface en $I$ ;\n- **angle d'incidence** $i$ : angle entre le rayon incident et la **normale** ;\n- **angle de réflexion** $i'$ : angle entre le rayon réfléchi et la **normale** ;\n- **plan d'incidence** : le plan qui contient le rayon incident et la normale.\n\n## 2. Lois de Descartes pour la réflexion\n:::propriete Lois de la réflexion\n1. Le rayon réfléchi est dans le **plan d'incidence**.\n2. L'angle de réflexion est égal à l'angle d'incidence : $i' = i$.\n:::\nUn rayon qui arrive **perpendiculairement** au miroir ($i = 0$) repart sur lui-même.\n\n:::attention Les angles se mesurent à partir de la normale\nSi l'énoncé donne l'angle $\\alpha$ entre le rayon et la **surface** du miroir, l'angle d'incidence est $i = 90° - \\alpha$.\n:::\n\n## 3. Image donnée par un miroir plan\n:::propriete Image d'un point\nL'image $A'$ d'un point $A$ donnée par un miroir plan est le **symétrique** de $A$ par rapport au plan du miroir. Les rayons réfléchis semblent provenir de $A'$ : l'image est **virtuelle** (on ne peut pas la recueillir sur un écran), de **même taille** que l'objet, à la même distance derrière le miroir.\n:::\nPour tracer le chemin d'un rayon de $A$ vers l'œil : on construit $A'$, on relie $A'$ à l'œil ; l'intersection avec le miroir donne le point d'incidence.\n\n:::remarque Rotation du miroir\nSi l'on fait tourner un miroir plan d'un angle $\\alpha$ (rayon incident fixe), le rayon réfléchi tourne de $2\\alpha$.\n:::\n\n## Exemple résolu\nUn rayon lumineux fait un angle de $30°$ avec la surface d'un miroir plan. Calcule l'angle d'incidence, l'angle de réflexion et l'angle entre le rayon incident et le rayon réfléchi.\n- Angle d'incidence (à partir de la normale) : $i = 90° - 30° = 60°$.\n- Loi de la réflexion : $i' = i = 60°$.\n- Angle entre les deux rayons : $i + i' = 120°$.",
+   "definition": "Lors d'une réflexion, le rayon réfléchi est dans le plan d'incidence et $i' = i$ (angles mesurés à partir de la normale) ; l'image donnée par un miroir plan est symétrique de l'objet.",
+   "formules": [
+    "$i' = i$",
+    "$i = 90° - \\alpha$ ($\\alpha$ : angle avec la surface)",
+    "Rotation du miroir de $\\alpha$ : le réfléchi tourne de $2\\alpha$"
+   ],
+   "niveaux": {
+    "phrase": "La lumière rebondit sur un miroir comme une bille sur un mur : angle d'arrivée = angle de départ.",
+    "simple": "Lance une balle de tennis contre un mur sans effet : elle repart avec le même angle qu'à l'arrivée, de l'autre côté de la perpendiculaire au mur. Le rayon lumineux fait pareil sur un miroir.",
+    "complete": "Les lois de Descartes de la réflexion : le rayon réfléchi appartient au plan d'incidence et $i' = i$, les angles étant repérés par rapport à la normale au point d'incidence. Un miroir plan donne d'un point A une image virtuelle A', symétrique de A par rapport au miroir ; l'image d'un objet étendu a la même taille que l'objet."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Deux miroirs plans sont perpendiculaires. Un rayon arrive sur le premier avec $i_1 = 35°$. Calcule l'angle d'incidence sur le second miroir et décris le rayon qui ressort.",
+     "etapes": [
+      "Sur le premier miroir : $i_1' = i_1 = 35°$.",
+      "Les normales des deux miroirs sont perpendiculaires : l'angle d'incidence sur le second est $i_2 = 90° - 35° = 55°$, et $i_2' = 55°$.",
+      "Le rayon ressort parallèle au rayon incident, en sens inverse (principe des catadioptres de vélo)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Mesurer l'angle à partir de la surface du miroir au lieu de la normale.",
+    "Placer l'image derrière le miroir à une distance différente de celle de l'objet.",
+    "Dire que l'image d'un miroir plan est réelle.",
+    "Oublier les flèches des rayons ou les orienter de l'œil vers l'objet."
+   ],
+   "astuces": [
+    "Trace toujours la normale en pointillés avant de mesurer un angle.",
+    "Pour un chemin de rayon, construis d'abord l'image symétrique, puis relie-la à l'œil."
+   ],
+   "mnemo": "« Normale d'abord, angles ensuite ; i' égale i. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as observé ton image dans un miroir : elle est inversée gauche-droite et semble derrière le miroir. En Seconde, on énonce les lois de la réflexion avec les angles."
+   },
+   "methode_redaction": "Fais un schéma propre : surface, normale en pointillés, rayons fléchés, angles marqués par des arcs. Énonce la loi ($i' = i$) puis donne les valeurs en degrés.",
+   "flash": [
+    {
+     "q": "Énonce les lois de la réflexion.",
+     "r": "Le rayon réfléchi est dans le plan d'incidence ; $i' = i$."
+    },
+    {
+     "q": "Par rapport à quoi mesure-t-on les angles ?",
+     "r": "Par rapport à la normale à la surface."
+    },
+    {
+     "q": "Rayon à 20° de la surface : angle d'incidence ?",
+     "r": "$i = 70°$."
+    },
+    {
+     "q": "Où se trouve l'image d'un point dans un miroir plan ?",
+     "r": "Au symétrique du point par rapport au miroir."
+    },
+    {
+     "q": "L'image d'un miroir plan est-elle réelle ?",
+     "r": "Non, virtuelle (on ne peut pas la recueillir sur un écran)."
+    },
+    {
+     "q": "Miroir tourné de 10° : de combien tourne le rayon réfléchi ?",
+     "r": "De 20°."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C13-N2.svg",
+    "alt": "À gauche : rayon incident et rayon réfléchi sur un miroir plan horizontal, de part et d'autre de la normale en pointillés, avec i = i' = 40°. À droite : un point A devant un miroir vertical, son image A' symétrique derrière le miroir et un rayon qui semble venir de A' jusqu'à l'œil.",
+    "legende": "Réflexion : i' = i ; image virtuelle symétrique de l'objet.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C13-N3",
+   "titre": "Réfraction de la lumière : indice et lois de Snell-Descartes",
+   "prerequis_notions": [
+    "PC-S2-C13-N2",
+    "M-3e-TRIGONOMETRIE"
+   ],
+   "cours_md": "## 1. Le phénomène de réfraction\nUne cuillère plongée dans un verre d'eau paraît **brisée** ; le fond d'un marigot paraît moins profond qu'il ne l'est. Ces illusions viennent de la **réfraction** : la lumière **change de direction** quand elle traverse la surface de séparation (le **dioptre**) entre deux milieux transparents différents.\n\n## 2. Indice de réfraction\n:::definition Indice de réfraction\nL'**indice de réfraction** $n$ d'un milieu transparent est le rapport de la célérité de la lumière dans le vide à sa célérité $v$ dans ce milieu :\n$$n = \\frac{c}{v} \\qquad (n \\geq 1, \\text{ sans unité})$$\n:::\n| Milieu | vide, air | eau | verre ordinaire | diamant |\n|---|---|---|---|---|\n| $n$ | 1,00 | 1,33 | 1,50 | 2,42 |\n\nUn milieu est d'autant plus **réfringent** que son indice est grand.\n\n## 3. Lois de Snell-Descartes pour la réfraction\nOn note $i_1$ l'angle d'incidence (dans le milieu 1) et $i_2$ l'angle de réfraction (dans le milieu 2), tous deux mesurés à partir de la **normale**.\n:::propriete Lois de la réfraction\n1. Le rayon réfracté est dans le **plan d'incidence**.\n2. $$n_1 \\sin i_1 = n_2 \\sin i_2$$\n:::\n\n:::propriete Conséquences\n- Si $n_2 > n_1$ (air → eau, air → verre) : $i_2 < i_1$, le rayon réfracté **se rapproche de la normale**.\n- Si $n_2 < n_1$ (verre → air) : $i_2 > i_1$, il **s'écarte de la normale**.\n- Un rayon qui arrive selon la normale ($i_1 = 0$) n'est **pas dévié**.\n:::\nUne partie de la lumière est toujours aussi **réfléchie** par le dioptre (rayon réfléchi plus faible).\n\n:::definition Angle limite de réfraction\nQuand la lumière passe dans un milieu **plus réfringent** ($n_2 > n_1$), l'angle de réfraction ne peut pas dépasser l'angle limite $\\lambda$ obtenu pour $i_1 = 90°$ : $\\sin \\lambda = \\dfrac{n_1}{n_2}$. Pour air → verre : $\\lambda = 41{,}8°$.\n:::\n\n:::methode Calculer un angle de réfraction\n1. Identifier le milieu 1 (d'où vient la lumière) et le milieu 2.\n2. Écrire $\\sin i_2 = \\dfrac{n_1 \\sin i_1}{n_2}$.\n3. Calculer $\\sin i_2$, puis $i_2$ avec la touche $\\sin^{-1}$ (calculatrice en **degrés**).\n4. Contrôler : le rayon se rapproche-t-il de la normale quand $n_2 > n_1$ ?\n:::\n\n## Exemple résolu\nUn rayon passe de l'air dans l'eau avec $i_1 = 50°$. Calcule $i_2$ et la vitesse de la lumière dans l'eau.\n- Formule : $\\sin i_2 = \\dfrac{n_1 \\sin i_1}{n_2}$.\n- Application numérique : $\\sin i_2 = \\dfrac{1{,}00 \\times \\sin 50°}{1{,}33} = \\dfrac{0{,}766}{1{,}33} = 0{,}576$.\n- Résultat : $i_2 = 35{,}2°$ (le rayon se rapproche de la normale ✔).\n- Vitesse : $v = \\dfrac{c}{n} = \\dfrac{3{,}00 \\times 10^{8}}{1{,}33} = 2{,}26 \\times 10^{8}\\ \\text{m/s}$.",
+   "definition": "La réfraction est le changement de direction de la lumière à la traversée d'un dioptre ; elle obéit à $n_1 \\sin i_1 = n_2 \\sin i_2$, avec $n = c/v$.",
+   "formules": [
+    "$n = \\dfrac{c}{v}$",
+    "$n_1 \\sin i_1 = n_2 \\sin i_2$",
+    "$\\sin \\lambda = \\dfrac{n_1}{n_2}$ (angle limite, $n_2 > n_1$)"
+   ],
+   "niveaux": {
+    "phrase": "En changeant de milieu, la lumière change de direction : elle se rapproche de la normale en entrant dans un milieu plus réfringent.",
+    "simple": "Imagine une file d'élèves qui marche en biais de la cour goudronnée vers le sable : ceux qui entrent les premiers dans le sable ralentissent, la file pivote. La lumière, qui ralentit dans l'eau ou le verre, pivote de la même façon vers la normale.",
+    "complete": "L'indice d'un milieu est $n = c/v$. À la traversée d'un dioptre, le rayon réfracté reste dans le plan d'incidence et vérifie $n_1 \\sin i_1 = n_2 \\sin i_2$ (Snell-Descartes). Vers un milieu plus réfringent, le rayon se rapproche de la normale et $i_2$ ne peut dépasser l'angle limite $\\lambda$ tel que $\\sin \\lambda = n_1/n_2$. Une incidence normale n'est pas déviée ; une partie de la lumière est toujours réfléchie."
+   },
+   "analogie": "Au bord du lac Togo, un pêcheur qui veut harponner un poisson vise sous l'endroit où il le voit : la réfraction relève l'image du poisson.",
+   "exemples_resolus": [
+    {
+     "enonce": "On mesure, pour un rayon passant de l'air dans un bloc de verre, $i_1 = 45°$ et $i_2 = 28°$. Calcule l'indice du verre puis la vitesse de la lumière dans ce verre.",
+     "etapes": [
+      "Formule : $n_2 = \\dfrac{n_1 \\sin i_1}{\\sin i_2}$.",
+      "Application numérique : $n_2 = \\dfrac{1{,}00 \\times \\sin 45°}{\\sin 28°} = \\dfrac{0{,}707}{0{,}469} = 1{,}51$.",
+      "Vitesse : $v = \\dfrac{c}{n} = \\dfrac{3{,}00 \\times 10^{8}}{1{,}51} = 1{,}99 \\times 10^{8}\\ \\text{m/s}$."
+     ]
+    },
+    {
+     "enonce": "Un rayon passe de l'air dans le verre ($n = 1{,}50$) avec $i_1 = 30°$. Calcule l'angle de réfraction.",
+     "etapes": [
+      "Formule : $\\sin i_2 = \\dfrac{n_1 \\sin i_1}{n_2}$.",
+      "Application numérique : $\\sin i_2 = \\dfrac{1{,}00 \\times 0{,}500}{1{,}50} = 0{,}333$.",
+      "Résultat : $i_2 = 19{,}5°$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Mesurer les angles par rapport à la surface du dioptre.",
+    "Calculatrice réglée en radians (on obtient des résultats absurdes).",
+    "Écrire $n_1 i_1 = n_2 i_2$ (oublier les sinus).",
+    "Inverser milieu 1 et milieu 2 : le milieu 1 est celui d'où vient la lumière."
+   ],
+   "astuces": [
+    "Vérifie le mode « DEG » de ta calculatrice avant chaque calcul d'angle.",
+    "Contrôle qualitatif : vers un milieu plus réfringent, l'angle diminue."
+   ],
+   "mnemo": "« n sinus i, d'un côté comme de l'autre. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as utilisé le sinus d'un angle dans un triangle rectangle (SOH-CAH-TOA) et la touche $\\sin^{-1}$ de la calculatrice. Ici, on s'en sert pour calculer la déviation de la lumière."
+   },
+   "methode_redaction": "Fais le schéma (dioptre, normale, rayons fléchés, angles marqués) ; écris la loi $n_1 \\sin i_1 = n_2 \\sin i_2$, isole $\\sin i_2$, donne sa valeur (3 chiffres) puis l'angle en degrés ; termine par un contrôle (rapprochement ou écartement de la normale).",
+   "flash": [
+    {
+     "q": "Définition de l'indice de réfraction ?",
+     "r": "$n = c/v$, sans unité, $n \\geq 1$."
+    },
+    {
+     "q": "Loi de Snell-Descartes ?",
+     "r": "$n_1 \\sin i_1 = n_2 \\sin i_2$."
+    },
+    {
+     "q": "Indice de l'eau ? du verre ?",
+     "r": "1,33 ; 1,50."
+    },
+    {
+     "q": "Air → verre : le rayon se rapproche ou s'écarte de la normale ?",
+     "r": "Il se rapproche (milieu plus réfringent)."
+    },
+    {
+     "q": "Un rayon arrive selon la normale : est-il dévié ?",
+     "r": "Non."
+    },
+    {
+     "q": "Vitesse de la lumière dans le verre (n = 1,50) ?",
+     "r": "$2{,}00 \\times 10^{8}$ m/s."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C13-N3.svg",
+    "alt": "Dioptre horizontal air (en haut) / eau (en bas) avec la normale en pointillés : le rayon incident à 50° est réfracté dans l'eau à 35,2°, plus près de la normale ; un rayon réfléchi faible repart dans l'air.",
+    "legende": "Réfraction air → eau : n₁ sin i₁ = n₂ sin i₂ ; le rayon se rapproche de la normale.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C13-N4",
+   "titre": "Réflexion totale et applications",
+   "prerequis_notions": [
+    "PC-S2-C13-N3"
+   ],
+   "cours_md": "## 1. Passage vers un milieu moins réfringent\nQuand la lumière passe d'un milieu 1 **plus réfringent** à un milieu 2 **moins réfringent** ($n_1 > n_2$, par exemple verre → air ou eau → air), le rayon réfracté **s'écarte de la normale** : $i_2 > i_1$.\n\nQuand $i_1$ augmente, $i_2$ atteint $90°$ (rayon réfracté **rasant**) pour une valeur particulière de $i_1$ : l'**angle limite** $\\lambda$.\n\n:::propriete Angle limite et réflexion totale\n$$\\sin \\lambda = \\frac{n_2}{n_1} \\qquad (n_1 > n_2)$$\n- Si $i_1 < \\lambda$ : il y a réfraction (et une réflexion partielle).\n- Si $i_1 > \\lambda$ : **il n'y a plus de rayon réfracté** ; toute la lumière est réfléchie : c'est la **réflexion totale**.\n:::\n\n| Passage | verre → air | eau → air | diamant → air |\n|---|---|---|---|\n| angle limite $\\lambda$ | 41,8° | 48,8° | 24,4° |\n\n:::methode Prévoir une réflexion totale\n1. Vérifier que la lumière va vers un milieu **moins** réfringent ($n_1 > n_2$) ; sinon la réflexion totale est impossible.\n2. Calculer $\\lambda$ avec $\\sin \\lambda = n_2/n_1$.\n3. Comparer $i_1$ et $\\lambda$. Autre méthode : calculer $\\dfrac{n_1 \\sin i_1}{n_2}$ ; s'il est **supérieur à 1**, aucun angle $i_2$ n'existe : réflexion totale.\n:::\n\n## 2. Applications\n- **Fibre optique** : un fil de verre très fin où la lumière se propage par réflexions totales successives sur la paroi ; elle transporte Internet et le téléphone sur de grandes distances (câbles sous-marins qui arrivent sur la côte ouest-africaine).\n- **Prisme à réflexion totale** : un prisme de verre dont les angles valent 45°, 90°, 45° renvoie la lumière à 90° (ou à 180°) sans perte : jumelles, périscopes.\n- **Éclat du diamant** : son petit angle limite piège la lumière, qui ressort après de nombreuses réflexions.\n- **Mirage** : réflexion totale « progressive » dans l'air chaud au-dessus du goudron.\n\n:::remarque Dispersion de la lumière blanche\nL'indice d'un verre dépend légèrement de la couleur de la lumière (il est plus grand pour le violet que pour le rouge). Un prisme **décompose** donc la lumière blanche en un spectre de couleurs (rouge, orangé, jaune, vert, bleu, indigo, violet) : c'est la **dispersion**, à l'origine de l'arc-en-ciel.\n:::\n\n## Exemple résolu\nUn rayon passe du verre ($n_1 = 1{,}50$) dans l'air. Calcule l'angle limite, puis l'angle de réfraction pour $i_1 = 30°$. Que se passe-t-il pour $i_1 = 60°$ ?\n- Angle limite : $\\sin \\lambda = \\dfrac{1{,}00}{1{,}50} = 0{,}667$, donc $\\lambda = 41{,}8°$.\n- $i_1 = 30° < \\lambda$ : $\\sin i_2 = \\dfrac{1{,}50 \\times \\sin 30°}{1{,}00} = 0{,}750$, donc $i_2 = 48{,}6°$ (le rayon s'écarte de la normale ✔).\n- $i_1 = 60° > \\lambda$ : $1{,}50 \\times \\sin 60° = 1{,}30 > 1$, aucun angle ne convient : **réflexion totale**.",
+   "definition": "La réflexion totale se produit quand la lumière va vers un milieu moins réfringent ($n_1 > n_2$) avec un angle d'incidence supérieur à l'angle limite $\\lambda$ tel que $\\sin \\lambda = n_2/n_1$.",
+   "formules": [
+    "$\\sin \\lambda = \\dfrac{n_2}{n_1}$ ($n_1 > n_2$)",
+    "Réflexion totale si $i_1 > \\lambda$"
+   ],
+   "niveaux": {
+    "phrase": "Au-delà d'un certain angle, la lumière qui veut sortir du verre ou de l'eau reste prisonnière : elle est entièrement réfléchie.",
+    "simple": "Quand tu es sous l'eau et que tu regardes la surface très en biais, elle brille comme un miroir : la lumière ne peut plus sortir de l'eau, elle est totalement réfléchie.",
+    "complete": "Pour $n_1 > n_2$, l'angle de réfraction dépasse l'angle d'incidence et vaut 90° pour $i_1 = \\lambda$, avec $\\sin \\lambda = n_2/n_1$. Pour $i_1 > \\lambda$, la loi de Snell-Descartes n'a plus de solution : toute la lumière est réfléchie (réflexion totale, sans perte). Applications : fibres optiques, prismes à réflexion totale, éclat du diamant, mirages. La dépendance de $n$ avec la couleur explique la dispersion par un prisme."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Une source est placée au fond d'une bassine d'eau ($n = 1{,}33$). Un rayon atteint la surface avec $i_1 = 55°$. Sort-il dans l'air ?",
+     "etapes": [
+      "Eau → air : $n_1 > n_2$, la réflexion totale est possible.",
+      "Angle limite : $\\sin \\lambda = \\dfrac{1{,}00}{1{,}33} = 0{,}752$, donc $\\lambda = 48{,}8°$.",
+      "$55° > 48{,}8°$ : le rayon ne sort pas, il subit une réflexion totale."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Chercher une réflexion totale quand la lumière va vers un milieu plus réfringent (air → eau) : c'est impossible.",
+    "Écrire $\\sin \\lambda = n_1/n_2$ avec $n_1 > n_2$ (on obtiendrait un sinus supérieur à 1).",
+    "Penser qu'une réflexion totale laisse passer un peu de lumière.",
+    "Confondre l'angle limite de réfraction (air → verre) et l'angle limite de réflexion totale (verre → air) : ils ont la même valeur mais pas le même rôle."
+   ],
+   "astuces": [
+    "Le sinus d'un angle ne dépasse jamais 1 : si ton calcul donne $\\sin i_2 > 1$, c'est une réflexion totale.",
+    "Retiens 41,8° pour verre/air et 48,8° pour eau/air."
+   ],
+   "mnemo": "« Du plus vers le moins, et trop penché : la lumière reste enfermée. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (notion précédente)",
+    "texte": "Tu te souviens de la loi $n_1 \\sin i_1 = n_2 \\sin i_2$ et de l'angle limite de réfraction ? La réflexion totale est le même calcul, mais dans le sens du milieu le plus réfringent vers le moins réfringent."
+   },
+   "methode_redaction": "Écris : « la lumière passe d'un milieu d'indice $n_1$ à un milieu d'indice $n_2 < n_1$, la réflexion totale est possible » ; calcule $\\lambda$ ; compare $i_1$ et $\\lambda$ ; conclus par une phrase ; fais un schéma avec le rayon réfléchi tracé selon $i' = i$.",
+   "flash": [
+    {
+     "q": "Condition 1 de la réflexion totale ?",
+     "r": "La lumière va vers un milieu moins réfringent ($n_1 > n_2$)."
+    },
+    {
+     "q": "Condition 2 de la réflexion totale ?",
+     "r": "L'angle d'incidence dépasse l'angle limite $\\lambda$."
+    },
+    {
+     "q": "Formule de l'angle limite ?",
+     "r": "$\\sin \\lambda = n_2/n_1$."
+    },
+    {
+     "q": "Angle limite verre/air ?",
+     "r": "41,8°."
+    },
+    {
+     "q": "Cite deux applications de la réflexion totale.",
+     "r": "Fibre optique, prisme à réflexion totale (jumelles, périscopes)."
+    },
+    {
+     "q": "Pourquoi un prisme décompose-t-il la lumière blanche ?",
+     "r": "Son indice dépend de la couleur : chaque couleur est déviée différemment (dispersion)."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C13-N4.svg",
+    "alt": "Une source S dans du verre envoie trois rayons vers la surface verre/air : à 30° le rayon sort réfracté à 48,6° ; à l'angle limite 41,8° il sort en rasant la surface ; à 60° il est totalement réfléchi dans le verre.",
+    "legende": "Du verre vers l'air : réfraction si i < 41,8°, rayon rasant à λ, réflexion totale au-delà.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S2-C13-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C13-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Dans un milieu transparent et homogène, la lumière se propage :",
+   "choix": [
+    "en ligne droite",
+    "en zigzag",
+    "en arc de cercle",
+    "seulement vers le bas"
+   ],
+   "bonne_reponse": 0,
+   "indices": [],
+   "corrige": [
+    "C'est le principe de propagation rectiligne.",
+    "Réponse : en ligne droite."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C13-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La distance Soleil–Terre vaut $1{,}5 \\times 10^{11}\\ \\text{m}$. Combien de secondes la lumière met-elle pour nous parvenir ? ($c = 3{,}0 \\times 10^{8}\\ \\text{m/s}$)",
+   "reponses_acceptees": [
+    "500",
+    "500s",
+    "5e2",
+    "5,0e2",
+    "5×10^2"
+   ],
+   "indices": [],
+   "corrige": [
+    "$\\Delta t = \\dfrac{d}{c}$.",
+    "$\\Delta t = \\dfrac{1{,}5 \\times 10^{11}}{3{,}0 \\times 10^{8}} = 500\\ \\text{s}$ (8 min 20 s)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C13-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un rayon arrive sur un miroir plan avec un angle d'incidence de $35°$. Quel est l'angle de réflexion (en degrés) ?",
+   "reponses_acceptees": [
+    "35",
+    "35°"
+   ],
+   "indices": [],
+   "corrige": [
+    "Loi de la réflexion : $i' = i$.",
+    "$i' = 35°$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C13-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un rayon lumineux fait un angle de $25°$ avec la **surface** d'un miroir plan. Quel est l'angle de réflexion (en degrés) ?",
+   "reponses_acceptees": [
+    "65",
+    "65°"
+   ],
+   "indices": [
+    "Trace la normale."
+   ],
+   "corrige": [
+    "Les angles se mesurent à partir de la normale : $i = 90° - 25° = 65°$.",
+    "Loi de la réflexion : $i' = i = 65°$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 25°.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C13-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calcule la vitesse de la lumière dans un verre d'indice $n = 1{,}50$ (en m/s, écriture scientifique). ($c = 3{,}00 \\times 10^{8}\\ \\text{m/s}$)",
+   "reponses_acceptees": [
+    "2,00e8",
+    "2e8",
+    "2,0e8",
+    "2,00×10^8",
+    "2×10^8",
+    "2,0×10^8",
+    "200000000",
+    "2.10^8"
+   ],
+   "indices": [],
+   "corrige": [
+    "$n = \\dfrac{c}{v}$, donc $v = \\dfrac{c}{n}$.",
+    "$v = \\dfrac{3{,}00 \\times 10^{8}}{1{,}50} = 2{,}00 \\times 10^{8}\\ \\text{m/s}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Multiplier par 1,50 (la lumière va moins vite dans le verre).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C13-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un rayon passe de l'air ($n_1 = 1{,}00$) dans l'eau ($n_2 = 1{,}33$) avec un angle d'incidence de $40°$. Calcule l'angle de réfraction (en degrés, au dixième).",
+   "reponses_acceptees": [
+    "28,9",
+    "28,9°",
+    "29",
+    "29°"
+   ],
+   "indices": [
+    "Calculatrice en degrés."
+   ],
+   "corrige": [
+    "Snell-Descartes : $\\sin i_2 = \\dfrac{n_1 \\sin i_1}{n_2} = \\dfrac{\\sin 40°}{1{,}33}$.",
+    "$\\sin i_2 = \\dfrac{0{,}643}{1{,}33} = 0{,}483$.",
+    "$i_2 = 28{,}9°$."
+   ],
+   "bareme": [
+    1,
+    0.5,
+    0.5
+   ],
+   "piege": "Calculer 40/1,33 = 30,1° (sans les sinus).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C13-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un arbre de $4{,}5\\ \\text{m}$ de haut est à $15\\ \\text{m}$ d'une chambre noire de profondeur $30\\ \\text{cm}$. Quelle est la hauteur de son image (en cm) ?",
+   "reponses_acceptees": [
+    "9",
+    "9,0",
+    "9cm",
+    "9,0cm"
+   ],
+   "indices": [
+    "Même unité pour d et d'."
+   ],
+   "corrige": [
+    "$h' = h \\times \\dfrac{d'}{d}$.",
+    "$h' = 4{,}5 \\times \\dfrac{0{,}30}{15} = 0{,}090\\ \\text{m} = 9{,}0\\ \\text{cm}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Mélanger cm et m (on trouverait 900 cm).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C13-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Dans quel cas peut-il y avoir réflexion totale ?",
+   "choix": [
+    "Air → eau avec $i = 60°$",
+    "Air → verre avec $i = 80°$",
+    "Verre → air avec $i = 60°$",
+    "Verre → air avec $i = 20°$"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "La réflexion totale exige un passage vers un milieu moins réfringent ($n_1 > n_2$).",
+    "Il faut aussi $i_1 > \\lambda$ : seul le passage verre → air avec $i_1 = 60°$ (> 41,8°) convient."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Choisir air → verre avec un grand angle : la réflexion totale est impossible vers un milieu plus réfringent.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C13-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calcule l'angle limite de réflexion totale pour le passage eau ($n = 1{,}33$) → air (en degrés, au dixième).",
+   "reponses_acceptees": [
+    "48,8",
+    "48,8°",
+    "49",
+    "49°",
+    "48,75"
+   ],
+   "indices": [],
+   "corrige": [
+    "$\\sin \\lambda = \\dfrac{n_2}{n_1} = \\dfrac{1{,}00}{1{,}33} = 0{,}752$.",
+    "$\\lambda = 48{,}8°$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire $\\sin \\lambda = 1{,}33$ (impossible, un sinus ne dépasse pas 1).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C13-N3",
+    "PC-S2-C13-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Pour un demi-cylindre en plexiglas, on mesure : angle d'incidence dans l'air $i_1 = 60{,}0°$, angle de réfraction $i_2 = 35{,}3°$.\n1. Calcule l'indice $n$ du plexiglas (2 décimales).\n2. Calcule la vitesse de la lumière dans le plexiglas.\n3. Calcule l'angle limite de réflexion totale plexiglas → air.",
+   "indices": [
+    "$n_{\\text{air}} = 1{,}00$."
+   ],
+   "corrige": [
+    "$n = \\dfrac{\\sin 60{,}0°}{\\sin 35{,}3°} = \\dfrac{0{,}866}{0{,}578} = 1{,}50$.",
+    "$v = \\dfrac{c}{n} = \\dfrac{3{,}00 \\times 10^{8}}{1{,}50} = 2{,}00 \\times 10^{8}\\ \\text{m/s}$.",
+    "$\\sin \\lambda = \\dfrac{1}{1{,}50} = 0{,}667$, donc $\\lambda = 41{,}8°$ (environ 42°)."
+   ],
+   "bareme": [
+    2,
+    1,
+    1.5
+   ],
+   "piege": "Diviser les angles au lieu des sinus (60/35,3 = 1,70).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C13-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C13-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Deux miroirs plans $M_1$ et $M_2$ forment un angle droit. Un rayon arrive sur $M_1$ avec un angle d'incidence de $30°$.\n1. Quel est l'angle de réflexion sur $M_1$ ?\n2. Montre que l'angle d'incidence sur $M_2$ vaut $60°$.\n3. Compare la direction du rayon qui sort à celle du rayon incident.",
+   "indices": [
+    "Fais un schéma précis avec les deux normales.",
+    "La somme des angles d'un triangle vaut 180°."
+   ],
+   "corrige": [
+    "Sur $M_1$ : $i_1' = i_1 = 30°$.",
+    "Le rayon réfléchi fait $90° - 30° = 60°$ avec la surface de $M_1$ ; dans le triangle formé avec le coin des miroirs, il fait $180° - 90° - 60° = 30°$ avec la surface de $M_2$, donc $i_2 = 90° - 30° = 60°$.",
+    "Sur $M_2$ : $i_2' = 60°$. Les deux réflexions font tourner le rayon de $(180° - 2 \\times 30°) + (180° - 2 \\times 60°) = 180°$ : le rayon ressort **parallèle** au rayon incident, en **sens inverse** (catadioptre)."
+   ],
+   "bareme": [
+    1,
+    2,
+    2
+   ],
+   "piege": "Prendre $i_2 = 30°$ en oubliant que la normale de $M_2$ est perpendiculaire à celle de $M_1$.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C13-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C13-N4",
+    "PC-S2-C13-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Un prisme en verre ($n = 1{,}50$) a pour section un triangle rectangle isocèle (angles 45°, 90°, 45°). Un rayon entre perpendiculairement à un petit côté, puis atteint l'hypoténuse.\n1. Le rayon est-il dévié en entrant ? Justifie.\n2. Montre que l'angle d'incidence sur l'hypoténuse vaut 45°.\n3. Le prisme est dans l'air : que se passe-t-il sur l'hypoténuse ?\n4. On plonge le prisme dans l'eau ($n = 1{,}33$). Calcule le nouvel angle limite et dis ce qui se passe ; calcule l'angle de réfraction éventuel.",
+   "indices": [
+    "Dans l'eau, le rapport $n_2/n_1$ est plus proche de 1."
+   ],
+   "corrige": [
+    "Incidence normale ($i = 0$) : $\\sin i_2 = 0$, le rayon n'est pas dévié.",
+    "Le rayon est parallèle à l'autre petit côté ; l'hypoténuse fait 45° avec les petits côtés, donc le rayon fait 45° avec l'hypoténuse et aussi 45° avec sa normale : $i = 45°$.",
+    "Verre → air : $\\lambda = 41{,}8°$ ; $45° > 41{,}8°$ : réflexion totale, le rayon est renvoyé à 90°.",
+    "Verre → eau : $\\sin \\lambda' = \\dfrac{1{,}33}{1{,}50} = 0{,}887$, donc $\\lambda' = 62{,}5°$ ; $45° < 62{,}5°$ : pas de réflexion totale, le rayon sort dans l'eau.",
+    "$\\sin r = \\dfrac{1{,}50 \\times \\sin 45°}{1{,}33} = 0{,}797$, donc $r = 52{,}9°$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1.5,
+    1.5
+   ],
+   "piege": "Garder l'angle limite verre/air (41,8°) quand le prisme est dans l'eau.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C13-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C13-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "1. Un laser envoyé vers un réflecteur posé sur la Lune revient $2{,}56\\ \\text{s}$ après son émission. Calcule la distance Terre–Lune ($c = 3{,}00 \\times 10^{8}$ m/s).\n2. Le diamètre de la Lune vaut $3{,}47 \\times 10^{6}\\ \\text{m}$ ; celui du Soleil $1{,}39 \\times 10^{9}\\ \\text{m}$, à $1{,}50 \\times 10^{11}\\ \\text{m}$ de la Terre. Calcule, pour chaque astre, le rapport diamètre / distance.\n3. En utilisant la propagation rectiligne, explique pourquoi la Lune peut cacher exactement le Soleil lors d'une éclipse totale.",
+   "indices": [
+    "Pense à l'aller-retour.",
+    "Diamètre apparent ≈ diamètre / distance."
+   ],
+   "corrige": [
+    "Aller-retour : $2d = c\\,\\Delta t$, donc $d = \\dfrac{3{,}00 \\times 10^{8} \\times 2{,}56}{2} = 3{,}84 \\times 10^{8}\\ \\text{m}$.",
+    "Lune : $\\dfrac{3{,}47 \\times 10^{6}}{3{,}84 \\times 10^{8}} = 9{,}04 \\times 10^{-3}$ ; Soleil : $\\dfrac{1{,}39 \\times 10^{9}}{1{,}50 \\times 10^{11}} = 9{,}27 \\times 10^{-3}$.",
+    "Les deux rapports sont presque égaux : vus de la Terre, les deux astres ont presque le même diamètre apparent. Les rayons allant en ligne droite des bords du Soleil à l'œil frôlent les bords de la Lune quand les trois astres sont alignés : la Lune cache tout juste le Soleil (éclipse totale, de courte durée)."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    2
+   ],
+   "piege": "Oublier de diviser par 2 la distance parcourue.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C13-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C13-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Un rayon lumineux passe de l'air dans le verre avec un angle d'incidence de 40°. Le rayon réfracté :",
+   "choix": [
+    "se rapproche de la normale",
+    "s'écarte de la normale",
+    "n'est pas dévié",
+    "est totalement réfléchi"
+   ],
+   "bonne_reponse": 0,
+   "indices": [],
+   "corrige": [
+    "Le verre est plus réfringent que l'air ($n_2 > n_1$).",
+    "Donc $i_2 < i_1$ : le rayon se rapproche de la normale."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Penser à la réflexion totale : impossible vers un milieu plus réfringent.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C13-E15",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C13-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Kossi mesure $1{,}70\\ \\text{m}$. Quelle hauteur minimale (en m) doit avoir un miroir plan vertical pour qu'il s'y voie en entier ?",
+   "reponses_acceptees": [
+    "0,85",
+    "0,85m",
+    "85cm"
+   ],
+   "indices": [
+    "Trace l'image de Kossi, symétrique par rapport au miroir, et les rayons qui vont de cette image à l'œil."
+   ],
+   "corrige": [
+    "Le rayon qui va des pieds à l'œil se réfléchit à mi-hauteur entre les pieds et les yeux ; celui qui vient du sommet de la tête se réfléchit à mi-hauteur entre la tête et les yeux (propriété de symétrie de l'image).",
+    "La portion utile du miroir mesure donc la moitié de la taille : $\\dfrac{1{,}70}{2} = 0{,}85\\ \\text{m}$, quelle que soit la distance au miroir."
+   ],
+   "bareme": [
+    1.5,
+    1.5
+   ],
+   "piege": "Croire qu'il faut un miroir aussi grand que la personne.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Angles mesurés à partir de la surface au lieu de la normale.",
+  "Calculatrice en mode radian ; loi écrite sans les sinus ($n_1 i_1 = n_2 i_2$).",
+  "Milieu 1 et milieu 2 inversés ; réflexion totale annoncée vers un milieu plus réfringent.",
+  "Aller-retour oublié dans les mesures de distance par la lumière (laser, écho lumineux).",
+  "Schéma sans normale, sans flèches sur les rayons, ou avec un rayon réfracté du mauvais côté de la normale.",
+  "Année-lumière présentée comme une durée ; unités mélangées dans la chambre noire (cm et m)."
+ ]
+}

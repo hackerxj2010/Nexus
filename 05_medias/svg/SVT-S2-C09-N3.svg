@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 670" width="600" height="670" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Le complexe argilo-humique</title>
+<desc id="desc">En haut, un agrégat d'argile et d'humus porte des charges négatives qui retiennent des cations (calcium, potassium, magnésium, ammonium, H+) ; le calcium fait le pont entre argile et humus. Un poil absorbant de racine échange un ion H+ contre un ion K+. En bas, expérience : le bleu de méthylène, cationique, est retenu par la terre (filtrat incolore), alors que l'éosine, anionique, traverse (filtrat rouge).</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker><marker id="flm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<rect x="0" y="0" width="600" height="670" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Le complexe argilo-humique retient les cations</text>
+<rect x="110" y="150" width="130" height="8" rx="3" fill="#d6d3d1" stroke="#78716c" stroke-width="1"/>
+<rect x="110" y="162" width="130" height="8" rx="3" fill="#d6d3d1" stroke="#78716c" stroke-width="1"/>
+<rect x="110" y="174" width="130" height="8" rx="3" fill="#d6d3d1" stroke="#78716c" stroke-width="1"/>
+<rect x="110" y="186" width="130" height="8" rx="3" fill="#d6d3d1" stroke="#78716c" stroke-width="1"/>
+<path d="M260,130 q40,-20 70,10 q30,30 0,60 q-30,35 -70,15 q-25,-30 0,-85 z" fill="#78350f" opacity="0.9"/>
+<text x="175" y="227" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">argile</text>
+<text x="298" y="182" font-size="15" text-anchor="middle" font-weight="bold" fill="#fffdf8">humus</text>
+<circle cx="105" cy="170" r="8" fill="#fffdf8" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="105" y="175" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d4ed8">−</text>
+<circle cx="105" cy="200" r="8" fill="#fffdf8" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="105" y="205" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d4ed8">−</text>
+<circle cx="140" cy="208" r="8" fill="#fffdf8" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="140" y="213" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d4ed8">−</text>
+<circle cx="190" cy="208" r="8" fill="#fffdf8" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="190" y="213" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d4ed8">−</text>
+<circle cx="170" cy="142" r="8" fill="#fffdf8" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="170" y="147" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d4ed8">−</text>
+<circle cx="335" cy="160" r="8" fill="#fffdf8" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="335" y="165" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d4ed8">−</text>
+<circle cx="340" cy="210" r="8" fill="#fffdf8" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="340" y="215" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d4ed8">−</text>
+<circle cx="290" cy="240" r="8" fill="#fffdf8" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="290" y="245" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d4ed8">−</text>
+<circle cx="255" cy="130" r="8" fill="#fffdf8" stroke="#1d4ed8" stroke-width="1.5"/>
+<text x="255" y="135" font-size="15" text-anchor="middle" font-weight="bold" fill="#1d4ed8">−</text>
+<circle cx="242" cy="192" r="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+<text x="227.3" y="197" font-size="14" font-weight="bold" fill="#1f2937"><tspan dy="0">Ca</tspan><tspan dy="-6" font-size="10">2+</tspan></text>
+<circle cx="80" cy="170" r="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+<text x="72.1" y="175" font-size="14" font-weight="bold" fill="#1f2937"><tspan dy="0">K</tspan><tspan dy="-6" font-size="10">+</tspan></text>
+<circle cx="135" cy="240" r="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+<text x="120.3" y="245" font-size="14" font-weight="bold" fill="#1f2937"><tspan dy="0">Mg</tspan><tspan dy="-6" font-size="10">2+</tspan></text>
+<circle cx="375" cy="215" r="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+<text x="359.2" y="220" font-size="14" font-weight="bold" fill="#1f2937"><tspan dy="0">NH</tspan><tspan dy="4" font-size="10">4</tspan><tspan dy="-10" font-size="10">+</tspan></text>
+<circle cx="370" cy="145" r="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+<text x="362.1" y="150" font-size="14" font-weight="bold" fill="#1f2937"><tspan dy="0">K</tspan><tspan dy="-6" font-size="10">+</tspan></text>
+<circle cx="195" cy="115" r="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+<text x="187.1" y="120" font-size="14" font-weight="bold" fill="#1f2937"><tspan dy="0">H</tspan><tspan dy="-6" font-size="10">+</tspan></text>
+<circle cx="300" cy="272" r="18" fill="#fde68a" stroke="#b45309" stroke-width="1.5"/>
+<text x="285.3" y="277" font-size="14" font-weight="bold" fill="#1f2937"><tspan dy="0">Ca</tspan><tspan dy="-6" font-size="10">2+</tspan></text>
+<line x1="242" y1="210" x2="150" y2="330" stroke="#374151" stroke-width="1.5"/>
+<text x="155.0" y="335" font-size="14" font-weight="normal" fill="#1f2937"><tspan dy="0">Ca</tspan><tspan dy="-6" font-size="10">2+</tspan><tspan dy="6"> : pont entre argile et humus</tspan></text>
+<path d="M560,90 L560,320" stroke="#a16207" stroke-width="22" stroke-linecap="round"/>
+<path d="M549,210 L470,230" stroke="#ca8a04" stroke-width="5" stroke-linecap="round"/>
+<text x="560" y="345" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">racine</text>
+<text x="470" y="255" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">poil absorbant</text>
+<line x1="430" y1="150" x2="500" y2="190" stroke="#b45309" stroke-width="2.5" marker-end="url(#flo)"/>
+<text x="433.9" y="135" font-size="14" font-weight="bold" fill="#b45309"><tspan dy="0">K</tspan><tspan dy="-6" font-size="10">+</tspan><tspan dy="6"> absorbé</tspan></text>
+<line x1="500" y1="238" x2="430" y2="285" stroke="#7c3aed" stroke-width="2.5" marker-end="url(#flm)"/>
+<text x="411.8" y="305" font-size="14" font-weight="bold" fill="#7c3aed"><tspan dy="0">H</tspan><tspan dy="-6" font-size="10">+</tspan><tspan dy="6"> libéré</tspan></text>
+<text x="300" y="370" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">Les cations fixés ne sont pas lessivés : ils restent disponibles pour la plante.</text>
+<line x1="30" y1="390" x2="570" y2="390" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="300" y="418" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Expérience : filtration de deux colorants à travers de la terre</text>
+<path d="M60,470 L180,470 L130,540 L130,570 L110,570 L110,540 Z" fill="#d6a35c" stroke="#475569" stroke-width="2.5"/>
+<rect x="65" y="460" width="110" height="10" fill="#2563eb"/>
+<text x="120" y="452" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2937">bleu de méthylène (cation)</text>
+<path d="M90,590 L90,640 Q90,648 98,648 L142,648 Q150,648 150,640 L150,590" fill="none" stroke="#475569" stroke-width="2.5"/>
+<rect x="92" y="615" width="56" height="31" fill="#f8fafc" opacity="0.9"/>
+<text x="165" y="620" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">filtrat incolore :</text>
+<text x="165" y="638" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">colorant retenu</text>
+<path d="M340,470 L460,470 L410,540 L410,570 L390,570 L390,540 Z" fill="#d6a35c" stroke="#475569" stroke-width="2.5"/>
+<rect x="345" y="460" width="110" height="10" fill="#e11d48"/>
+<text x="400" y="452" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2937">éosine (anion)</text>
+<path d="M370,590 L370,640 Q370,648 378,648 L422,648 Q430,648 430,640 L430,590" fill="none" stroke="#475569" stroke-width="2.5"/>
+<rect x="372" y="615" width="56" height="31" fill="#fda4af" opacity="0.9"/>
+<text x="445" y="620" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">filtrat rouge :</text>
+<text x="445" y="638" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">colorant non retenu</text>
+</svg>

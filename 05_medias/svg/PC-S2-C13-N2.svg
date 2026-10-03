@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" width="400" height="270" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Réflexion sur un miroir plan : angle d'incidence i = 40° égal à l'angle de réflexion i' ; image virtuelle symétrique</title>
+<rect x="0" y="0" width="400" height="270" rx="18" fill="#fffdf8"/>
+<rect x="20.0" y="190.0" width="180.0" height="8.0" rx="0" stroke="#1f2937" stroke-width="0" fill="#9ca3af"/>
+<line x1="24.0" y1="198.0" x2="18.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="34.0" y1="198.0" x2="28.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="44.0" y1="198.0" x2="38.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="54.0" y1="198.0" x2="48.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="64.0" y1="198.0" x2="58.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="74.0" y1="198.0" x2="68.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="84.0" y1="198.0" x2="78.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="94.0" y1="198.0" x2="88.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="104.0" y1="198.0" x2="98.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="114.0" y1="198.0" x2="108.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="124.0" y1="198.0" x2="118.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="134.0" y1="198.0" x2="128.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="144.0" y1="198.0" x2="138.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="154.0" y1="198.0" x2="148.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="164.0" y1="198.0" x2="158.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="174.0" y1="198.0" x2="168.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="184.0" y1="198.0" x2="178.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="194.0" y1="198.0" x2="188.0" y2="206.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="110.0" y1="190.0" x2="110.0" y2="50.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="110.0" y="44.0" font-size="11" text-anchor="middle" fill="#6b7280" font-weight="normal">normale</text>
+<line x1="26.4" y1="90.4" x2="110.0" y2="190.0" stroke="#c0262d" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="71.1,143.7 61.5,139.9 69.1,133.6" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<line x1="110.0" y1="190.0" x2="193.6" y2="90.4" stroke="#c0262d" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="158.9,131.8 156.9,141.9 149.3,135.5" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<path d="M 110.0 145.0 A 45.0 45.0 0 0 0 81.1 155.5" stroke="#1d4ed8" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 138.9 155.5 A 45.0 45.0 0 0 0 110.0 145.0" stroke="#1d4ed8" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="90.0" y="138.0" font-size="14" text-anchor="middle" fill="#1d4ed8" font-weight="bold" font-style="italic">i</text>
+<text x="132.0" y="138.0" font-size="14" text-anchor="middle" fill="#1d4ed8" font-weight="bold" font-style="italic">i'</text>
+<text x="110.0" y="232.0" font-size="14" text-anchor="middle" fill="#1d4ed8" font-weight="bold">i' = i = 40°</text>
+<text x="110.0" y="252.0" font-size="11" text-anchor="middle" fill="#6b7280" font-weight="normal">rayons et normale : même plan</text>
+<line x1="215.0" y1="30.0" x2="215.0" y2="255.0" stroke="#e5e7eb" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="296.0" y="60.0" width="8.0" height="150.0" rx="0" stroke="#1f2937" stroke-width="0" fill="#9ca3af"/>
+<line x1="304.0" y1="64.0" x2="312.0" y2="58.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="74.0" x2="312.0" y2="68.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="84.0" x2="312.0" y2="78.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="94.0" x2="312.0" y2="88.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="104.0" x2="312.0" y2="98.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="114.0" x2="312.0" y2="108.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="124.0" x2="312.0" y2="118.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="134.0" x2="312.0" y2="128.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="144.0" x2="312.0" y2="138.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="154.0" x2="312.0" y2="148.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="164.0" x2="312.0" y2="158.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="174.0" x2="312.0" y2="168.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="184.0" x2="312.0" y2="178.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="194.0" x2="312.0" y2="188.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="304.0" y1="204.0" x2="312.0" y2="198.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<circle cx="255.0" cy="80.0" r="4.0" stroke="#15803d" stroke-width="1" fill="#15803d"/>
+<text x="249.0" y="72.0" font-size="13" text-anchor="middle" fill="#15803d" font-weight="bold">A</text>
+<circle cx="345.0" cy="80.0" r="4.0" stroke="#15803d" stroke-width="1.5" fill="none"/>
+<text x="351.0" y="72.0" font-size="13" text-anchor="middle" fill="#15803d" font-weight="bold">A'</text>
+<line x1="255.0" y1="80.0" x2="345.0" y2="80.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<polyline points="296.0,72.0 288.0,72.0 288.0,80.0" stroke="#6b7280" stroke-width="1" fill="none" stroke-linejoin="round"/>
+<line x1="277.5" y1="75.0" x2="277.5" y2="85.0" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="322.5" y1="75.0" x2="322.5" y2="85.0" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="255.0" y1="80.0" x2="300.0" y2="133.8" stroke="#c0262d" stroke-width="2" stroke-linecap="round"/>
+<polygon points="280.4,110.3 270.8,106.6 278.4,100.3" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<line x1="300.0" y1="133.8" x2="232.0" y2="215.0" stroke="#c0262d" stroke-width="2" stroke-linecap="round"/>
+<polygon points="263.1,177.8 265.1,167.8 272.7,174.1" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<line x1="300.0" y1="133.8" x2="345.0" y2="80.0" stroke="#c0262d" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="228.0" y="222.0" font-size="12" text-anchor="end" fill="#6b7280" font-weight="normal">œil</text>
+<text x="305.0" y="238.0" font-size="12" text-anchor="middle" fill="#15803d" font-weight="normal">A' symétrique de A</text>
+<text x="305.0" y="254.0" font-size="12" text-anchor="middle" fill="#15803d" font-weight="normal">(image virtuelle)</text>
+</svg>

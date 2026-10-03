@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Le métamorphisme</title>
+<desc id="desc">Série de roches de plus en plus métamorphiques quand la température et la pression augmentent : argilite, schiste, micaschiste, gneiss, avec apparition de feuillets puis de bandes. En dessous : le calcaire devient du marbre (marbre de Pagala) et le grès devient du quartzite (monts du Togo). Le métamorphisme se fait sans fusion.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker><marker id="flm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<rect x="0" y="0" width="600" height="600" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Le métamorphisme transforme les roches à l'état solide</text>
+<rect x="18" y="70" width="120" height="96" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="30" y="80" width="96" height="52" fill="#e7e5e4"/>
+<circle cx="61.0" cy="86.5" r="1.2" fill="#78716c"/>
+<circle cx="60.5" cy="104.5" r="1.2" fill="#78716c"/>
+<circle cx="97.4" cy="99.5" r="1.2" fill="#78716c"/>
+<circle cx="94.8" cy="87.9" r="1.2" fill="#78716c"/>
+<circle cx="68.5" cy="104.2" r="1.2" fill="#78716c"/>
+<circle cx="120.0" cy="121.2" r="1.2" fill="#78716c"/>
+<circle cx="91.9" cy="83.6" r="1.2" fill="#78716c"/>
+<circle cx="66.9" cy="115.7" r="1.2" fill="#78716c"/>
+<circle cx="54.4" cy="108.9" r="1.2" fill="#78716c"/>
+<circle cx="74.2" cy="83.5" r="1.2" fill="#78716c"/>
+<circle cx="122.2" cy="119.8" r="1.2" fill="#78716c"/>
+<circle cx="51.6" cy="111.3" r="1.2" fill="#78716c"/>
+<circle cx="59.1" cy="100.3" r="1.2" fill="#78716c"/>
+<circle cx="81.6" cy="96.7" r="1.2" fill="#78716c"/>
+<circle cx="63.4" cy="101.0" r="1.2" fill="#78716c"/>
+<circle cx="93.0" cy="94.8" r="1.2" fill="#78716c"/>
+<circle cx="51.0" cy="116.6" r="1.2" fill="#78716c"/>
+<circle cx="62.6" cy="126.5" r="1.2" fill="#78716c"/>
+<circle cx="83.7" cy="116.3" r="1.2" fill="#78716c"/>
+<circle cx="62.8" cy="121.0" r="1.2" fill="#78716c"/>
+<circle cx="41.3" cy="89.5" r="1.2" fill="#78716c"/>
+<circle cx="41.5" cy="114.2" r="1.2" fill="#78716c"/>
+<circle cx="96.7" cy="91.3" r="1.2" fill="#78716c"/>
+<circle cx="69.2" cy="121.5" r="1.2" fill="#78716c"/>
+<circle cx="86.3" cy="87.1" r="1.2" fill="#78716c"/>
+<circle cx="53.4" cy="90.2" r="1.2" fill="#78716c"/>
+<circle cx="44.2" cy="101.7" r="1.2" fill="#78716c"/>
+<circle cx="39.5" cy="125.3" r="1.2" fill="#78716c"/>
+<circle cx="71.4" cy="106.5" r="1.2" fill="#78716c"/>
+<circle cx="91.3" cy="118.3" r="1.2" fill="#78716c"/>
+<circle cx="106.9" cy="100.8" r="1.2" fill="#78716c"/>
+<circle cx="62.8" cy="102.0" r="1.2" fill="#78716c"/>
+<circle cx="34.4" cy="101.4" r="1.2" fill="#78716c"/>
+<circle cx="96.0" cy="128.2" r="1.2" fill="#78716c"/>
+<circle cx="104.1" cy="113.4" r="1.2" fill="#78716c"/>
+<circle cx="87.8" cy="83.9" r="1.2" fill="#78716c"/>
+<circle cx="62.8" cy="98.7" r="1.2" fill="#78716c"/>
+<circle cx="91.6" cy="87.9" r="1.2" fill="#78716c"/>
+<circle cx="67.0" cy="106.4" r="1.2" fill="#78716c"/>
+<circle cx="104.0" cy="121.0" r="1.2" fill="#78716c"/>
+<circle cx="88.0" cy="90.3" r="1.2" fill="#78716c"/>
+<circle cx="102.0" cy="124.5" r="1.2" fill="#78716c"/>
+<circle cx="82.3" cy="99.2" r="1.2" fill="#78716c"/>
+<circle cx="78.0" cy="89.5" r="1.2" fill="#78716c"/>
+<circle cx="97.2" cy="128.4" r="1.2" fill="#78716c"/>
+<circle cx="79.4" cy="115.9" r="1.2" fill="#78716c"/>
+<circle cx="108.2" cy="92.1" r="1.2" fill="#78716c"/>
+<circle cx="118.0" cy="111.8" r="1.2" fill="#78716c"/>
+<circle cx="50.8" cy="86.8" r="1.2" fill="#78716c"/>
+<circle cx="55.0" cy="109.5" r="1.2" fill="#78716c"/>
+<circle cx="95.7" cy="98.1" r="1.2" fill="#78716c"/>
+<circle cx="116.6" cy="99.6" r="1.2" fill="#78716c"/>
+<circle cx="74.7" cy="88.7" r="1.2" fill="#78716c"/>
+<circle cx="120.6" cy="89.2" r="1.2" fill="#78716c"/>
+<circle cx="114.4" cy="108.0" r="1.2" fill="#78716c"/>
+<circle cx="83.5" cy="108.8" r="1.2" fill="#78716c"/>
+<circle cx="56.8" cy="124.8" r="1.2" fill="#78716c"/>
+<circle cx="122.3" cy="120.6" r="1.2" fill="#78716c"/>
+<circle cx="87.1" cy="88.6" r="1.2" fill="#78716c"/>
+<circle cx="107.2" cy="96.3" r="1.2" fill="#78716c"/>
+<text x="78" y="154" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">argilite</text>
+<line x1="140" y1="118" x2="161" y2="118" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#flr)"/>
+<rect x="163" y="70" width="120" height="96" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="175" y="80" width="96" height="52" fill="#e7e5e4"/>
+<line x1="175" y1="84.0" x2="271" y2="82.0" stroke="#57534e" stroke-width="1.3"/>
+<line x1="175" y1="89.5" x2="271" y2="87.5" stroke="#57534e" stroke-width="1.3"/>
+<line x1="175" y1="95.0" x2="271" y2="93.0" stroke="#57534e" stroke-width="1.3"/>
+<line x1="175" y1="100.5" x2="271" y2="98.5" stroke="#57534e" stroke-width="1.3"/>
+<line x1="175" y1="106.0" x2="271" y2="104.0" stroke="#57534e" stroke-width="1.3"/>
+<line x1="175" y1="111.5" x2="271" y2="109.5" stroke="#57534e" stroke-width="1.3"/>
+<line x1="175" y1="117.0" x2="271" y2="115.0" stroke="#57534e" stroke-width="1.3"/>
+<line x1="175" y1="122.5" x2="271" y2="120.5" stroke="#57534e" stroke-width="1.3"/>
+<line x1="175" y1="128.0" x2="271" y2="126.0" stroke="#57534e" stroke-width="1.3"/>
+<text x="223" y="154" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">schiste</text>
+<line x1="285" y1="118" x2="306" y2="118" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#flr)"/>
+<rect x="308" y="70" width="120" height="96" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="320" y="80" width="96" height="52" fill="#e7e5e4"/>
+<path d="M320,86 q12,-5 24,0 t24,0 t24,0 t24,0" fill="none" stroke="#44403c" stroke-width="1.6"/>
+<path d="M320,93 q12,-5 24,0 t24,0 t24,0 t24,0" fill="none" stroke="#44403c" stroke-width="1.6"/>
+<path d="M320,100 q12,-5 24,0 t24,0 t24,0 t24,0" fill="none" stroke="#44403c" stroke-width="1.6"/>
+<path d="M320,107 q12,-5 24,0 t24,0 t24,0 t24,0" fill="none" stroke="#44403c" stroke-width="1.6"/>
+<path d="M320,114 q12,-5 24,0 t24,0 t24,0 t24,0" fill="none" stroke="#44403c" stroke-width="1.6"/>
+<path d="M320,121 q12,-5 24,0 t24,0 t24,0 t24,0" fill="none" stroke="#44403c" stroke-width="1.6"/>
+<path d="M320,128 q12,-5 24,0 t24,0 t24,0 t24,0" fill="none" stroke="#44403c" stroke-width="1.6"/>
+<rect x="395.8" y="94.1" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<rect x="369.9" y="118.9" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<rect x="338.8" y="107.0" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<rect x="330.1" y="85.3" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<rect x="338.4" y="125.5" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<rect x="399.2" y="111.7" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<rect x="348.6" y="112.2" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<rect x="383.0" y="100.0" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<rect x="371.4" y="117.8" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<rect x="325.3" y="92.4" width="8" height="2.5" fill="#cbd5e1" stroke="#475569" stroke-width="0.6"/>
+<text x="368" y="154" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">micaschiste</text>
+<line x1="430" y1="118" x2="451" y2="118" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#flr)"/>
+<rect x="453" y="70" width="120" height="96" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="465" y="80" width="96" height="52" fill="#e7e5e4"/>
+<path d="M465,80.0 q24,-5 48,0 t48,0 L561,90.4 q-24,5 -48,0 t-48,0 Z" fill="#f5f5f4"/>
+<path d="M465,90.4 q24,-5 48,0 t48,0 L561,100.8 q-24,5 -48,0 t-48,0 Z" fill="#292524"/>
+<path d="M465,100.8 q24,-5 48,0 t48,0 L561,111.2 q-24,5 -48,0 t-48,0 Z" fill="#f5f5f4"/>
+<path d="M465,111.2 q24,-5 48,0 t48,0 L561,121.6 q-24,5 -48,0 t-48,0 Z" fill="#292524"/>
+<path d="M465,121.6 q24,-5 48,0 t48,0 L561,132.0 q-24,5 -48,0 t-48,0 Z" fill="#f5f5f4"/>
+<text x="513" y="154" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">gneiss</text>
+<line x1="30" y1="190" x2="570" y2="190" stroke="#b91c1c" stroke-width="4" marker-end="url(#flr)"/>
+<text x="300" y="215" font-size="15" text-anchor="middle" font-weight="bold" fill="#b91c1c">température et pression croissantes (enfouissement)</text>
+<text x="300" y="240" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">Apparition d'une foliation (feuillets) puis de bandes claires et sombres</text>
+<line x1="30" y1="260" x2="570" y2="260" stroke="#d1d5db" stroke-width="1.5"/>
+<rect x="60" y="285" width="120" height="96" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="72" y="295" width="96" height="52" fill="#e7e5e4"/>
+<circle cx="117.2" cy="305.3" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="110.0" cy="324.1" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="91.3" cy="321.9" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="99.2" cy="324.0" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="105.2" cy="327.2" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="79.3" cy="328.5" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="88.7" cy="341.2" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="128.8" cy="319.7" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="112.2" cy="326.4" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="136.7" cy="332.4" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="142.2" cy="320.4" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="163.5" cy="335.9" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="151.2" cy="317.0" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="114.2" cy="323.9" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="155.7" cy="322.1" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="122.2" cy="318.0" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="155.6" cy="313.1" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="80.8" cy="330.9" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="155.2" cy="331.2" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="128.6" cy="332.1" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="102.8" cy="325.1" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="82.1" cy="304.5" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="115.3" cy="321.1" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="110.9" cy="301.3" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="137.2" cy="322.2" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="97.0" cy="312.5" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="110.8" cy="309.4" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="82.0" cy="339.1" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="161.0" cy="328.3" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="152.3" cy="317.5" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="146.9" cy="308.8" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="141.7" cy="323.9" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="155.5" cy="303.3" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="145.7" cy="304.4" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="123.3" cy="340.8" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="76.1" cy="309.7" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="102.3" cy="313.3" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="81.5" cy="338.4" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="147.8" cy="316.5" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="107.4" cy="324.8" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="80.0" cy="300.4" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="155.1" cy="312.5" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="119.9" cy="340.1" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="162.0" cy="319.8" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="94.2" cy="312.0" r="3.2" fill="#fef3c7" stroke="#a8a29e" stroke-width="0.8"/>
+<path d="M102,325 a10,10 0 1,1 8,-8" fill="none" stroke="#78716c" stroke-width="2"/>
+<text x="120" y="369" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">calcaire</text>
+<line x1="184" y1="333" x2="260" y2="333" stroke="#b91c1c" stroke-width="3" marker-end="url(#flr)"/>
+<rect x="265" y="285" width="120" height="96" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="277" y="295" width="96" height="52" fill="#e7e5e4"/>
+<polygon points="277.0,295.0 297.0,295.0 294.1,309.9 277.0,315.0" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="277.0,315.0 294.1,309.9 296.0,326.1 277.0,329.4" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="277.0,329.4 296.0,326.1 289.8,347.0 277.0,347.0" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="297.0,295.0 307.5,295.0 312.0,314.0 294.1,309.9" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="294.1,309.9 312.0,314.0 306.1,331.2 296.0,326.1" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="296.0,326.1 306.1,331.2 312.5,347.0 289.8,347.0" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="307.5,295.0 321.6,295.0 323.5,314.0 312.0,314.0" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="312.0,314.0 323.5,314.0 322.6,327.1 306.1,331.2" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="306.1,331.2 322.6,327.1 322.9,347.0 312.5,347.0" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="321.6,295.0 343.3,295.0 342.3,315.4 323.5,314.0" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="323.5,314.0 342.3,315.4 341.7,327.5 322.6,327.1" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="322.6,327.1 341.7,327.5 339.4,347.0 322.9,347.0" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="343.3,295.0 358.3,295.0 358.1,309.1 342.3,315.4" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="342.3,315.4 358.1,309.1 360.9,329.2 341.7,327.5" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="341.7,327.5 360.9,329.2 357.2,347.0 339.4,347.0" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="358.3,295.0 373.0,295.0 373.0,310.3 358.1,309.1" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="358.1,309.1 373.0,310.3 373.0,326.4 360.9,329.2" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="360.9,329.2 373.0,326.4 373.0,347.0 357.2,347.0" fill="#ffffff" stroke="#a8a29e" stroke-width="1"/>
+<text x="325" y="369" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">marbre</text>
+<text x="400" y="320" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2937">marbre de Pagala :</text>
+<text x="400" y="340" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">cristaux de calcite</text>
+<text x="400" y="358" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">soudés, effervescence</text>
+<text x="400" y="376" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">à l'acide</text>
+<rect x="60" y="410" width="120" height="96" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="72" y="420" width="96" height="52" fill="#e7e5e4"/>
+<circle cx="97.6" cy="436.3" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="124.2" cy="432.2" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="154.9" cy="467.5" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="79.0" cy="444.3" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="142.1" cy="440.9" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="157.8" cy="446.0" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="91.8" cy="448.5" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="132.8" cy="439.8" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="133.9" cy="458.5" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="121.5" cy="446.2" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="150.4" cy="454.1" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="121.8" cy="465.9" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="91.3" cy="458.3" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="90.5" cy="450.8" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="96.7" cy="443.4" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="144.0" cy="458.6" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="145.6" cy="434.4" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="119.0" cy="433.7" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="127.0" cy="446.0" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="79.1" cy="450.3" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="138.9" cy="449.2" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="152.8" cy="431.9" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="89.4" cy="424.8" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="119.7" cy="443.1" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="114.9" cy="435.6" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="146.3" cy="427.2" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="155.8" cy="449.0" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="123.8" cy="458.8" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="96.9" cy="430.4" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="103.4" cy="425.9" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="103.7" cy="451.3" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="122.2" cy="435.6" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="127.8" cy="427.9" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="148.2" cy="431.6" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="98.4" cy="431.0" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="136.8" cy="460.6" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="145.2" cy="426.7" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="112.1" cy="440.0" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="95.0" cy="466.7" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="79.7" cy="445.5" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="143.0" cy="467.4" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="88.7" cy="444.0" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="141.6" cy="425.7" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="97.2" cy="463.2" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<circle cx="88.5" cy="441.3" r="3.2" fill="#fde68a" stroke="#a8a29e" stroke-width="0.8"/>
+<text x="120" y="494" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">grès</text>
+<line x1="184" y1="458" x2="260" y2="458" stroke="#b91c1c" stroke-width="3" marker-end="url(#flr)"/>
+<rect x="265" y="410" width="120" height="96" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<rect x="277" y="420" width="96" height="52" fill="#e7e5e4"/>
+<polygon points="277.0,420.0 291.0,420.0 290.9,437.0 277.0,433.6" fill="#fde68a" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="277.0,433.6 290.9,437.0 296.5,453.6 277.0,456.8" fill="#fef9c3" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="277.0,456.8 296.5,453.6 291.7,472.0 277.0,472.0" fill="#fde68a" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="291.0,420.0 309.9,420.0 308.2,438.5 290.9,437.0" fill="#fef9c3" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="290.9,437.0 308.2,438.5 305.5,453.4 296.5,453.6" fill="#fef9c3" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="296.5,453.6 305.5,453.4 310.6,472.0 291.7,472.0" fill="#fef3c7" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="309.9,420.0 325.7,420.0 324.7,436.5 308.2,438.5" fill="#fde68a" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="308.2,438.5 324.7,436.5 327.7,453.7 305.5,453.4" fill="#fef9c3" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="305.5,453.4 327.7,453.7 327.3,472.0 310.6,472.0" fill="#fef9c3" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="325.7,420.0 339.8,420.0 341.4,434.6 324.7,436.5" fill="#fef3c7" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="324.7,436.5 341.4,434.6 338.6,452.4 327.7,453.7" fill="#fef9c3" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="327.7,453.7 338.6,452.4 340.7,472.0 327.3,472.0" fill="#fef9c3" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="339.8,420.0 356.6,420.0 358.4,440.2 341.4,434.6" fill="#fde68a" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="341.4,434.6 358.4,440.2 354.6,453.7 338.6,452.4" fill="#fde68a" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="338.6,452.4 354.6,453.7 353.6,472.0 340.7,472.0" fill="#fde68a" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="356.6,420.0 373.0,420.0 373.0,434.8 358.4,440.2" fill="#fef9c3" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="358.4,440.2 373.0,434.8 373.0,453.8 354.6,453.7" fill="#fde68a" stroke="#a8a29e" stroke-width="1"/>
+<polygon points="354.6,453.7 373.0,453.8 373.0,472.0 353.6,472.0" fill="#fde68a" stroke="#a8a29e" stroke-width="1"/>
+<text x="325" y="494" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">quartzite</text>
+<text x="400" y="445" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2937">quartzites des</text>
+<text x="400" y="465" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2937">monts du Togo (Atakora) :</text>
+<text x="400" y="483" font-size="14" text-anchor="start" font-weight="normal" fill="#4b5563">très durs, rayent le verre</text>
+<rect x="30" y="525" width="540" height="55" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="300.0" y="548.6" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">Pas de fusion : les minéraux se transforment à l'état solide.</text>
+<text x="300.0" y="566.1" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">Au-delà, si la roche fond : magma (anatexie).</text>
+</svg>

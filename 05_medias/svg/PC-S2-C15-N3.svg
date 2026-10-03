@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 270" width="400" height="270" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Réactif limitant : 5 molécules de H2 et 2 molécules de O2 donnent 4 molécules d'eau ; il reste 1 molécule de H2 en excès, O2 est limitant</title>
+<rect x="0" y="0" width="400" height="270" rx="18" fill="#fffdf8"/>
+<text x="200.0" y="24.0" font-size="15" text-anchor="middle" fill="#1f2937" font-weight="bold">2 H₂ + O₂ → 2 H₂O</text>
+<rect x="15.0" y="40.0" width="170.0" height="165.0" rx="10" stroke="#1f2937" stroke-width="1.5" fill="#f9fafb"/>
+<rect x="215.0" y="40.0" width="170.0" height="165.0" rx="10" stroke="#1f2937" stroke-width="1.5" fill="#f9fafb"/>
+<text x="100.0" y="58.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="bold">état initial</text>
+<text x="300.0" y="58.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="bold">état final</text>
+<line x1="188.0" y1="122.0" x2="203.0" y2="122.0" stroke="#1f2937" stroke-width="2.5" stroke-linecap="butt"/>
+<polygon points="212.0,122.0 203.0,126.5 203.0,117.5" stroke="#1f2937" stroke-width="1" fill="#1f2937" stroke-linejoin="round"/>
+<circle cx="39.0" cy="85.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="51.0" cy="85.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="89.0" cy="85.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="101.0" cy="85.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="139.0" cy="85.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="151.0" cy="85.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="64.0" cy="115.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="76.0" cy="115.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="114.0" cy="115.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="126.0" cy="115.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="57.0" cy="160.0" r="10.0" stroke="#1f2937" stroke-width="1.2" fill="#f87171"/>
+<circle cx="73.0" cy="160.0" r="10.0" stroke="#1f2937" stroke-width="1.2" fill="#f87171"/>
+<circle cx="127.0" cy="160.0" r="10.0" stroke="#1f2937" stroke-width="1.2" fill="#f87171"/>
+<circle cx="143.0" cy="160.0" r="10.0" stroke="#1f2937" stroke-width="1.2" fill="#f87171"/>
+<text x="100.0" y="196.0" font-size="12" text-anchor="middle" fill="#1f2937" font-weight="bold">5 H₂ + 2 O₂</text>
+<circle cx="255.0" cy="90.0" r="10.0" stroke="#1f2937" stroke-width="1.2" fill="#f87171"/>
+<circle cx="244.0" cy="97.0" r="6.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="266.0" cy="97.0" r="6.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="345.0" cy="90.0" r="10.0" stroke="#1f2937" stroke-width="1.2" fill="#f87171"/>
+<circle cx="334.0" cy="97.0" r="6.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="356.0" cy="97.0" r="6.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="255.0" cy="140.0" r="10.0" stroke="#1f2937" stroke-width="1.2" fill="#f87171"/>
+<circle cx="244.0" cy="147.0" r="6.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="266.0" cy="147.0" r="6.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="345.0" cy="140.0" r="10.0" stroke="#1f2937" stroke-width="1.2" fill="#f87171"/>
+<circle cx="334.0" cy="147.0" r="6.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="356.0" cy="147.0" r="6.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="294.0" cy="165.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="306.0" cy="165.0" r="7.0" stroke="#1f2937" stroke-width="1.2" fill="#ffffff"/>
+<circle cx="300.0" cy="165.0" r="18.0" stroke="#c0262d" stroke-width="1.5" fill="none" stroke-dasharray="4 3"/>
+<text x="300.0" y="198.0" font-size="12" text-anchor="middle" fill="#1f2937" font-weight="bold">4 H₂O + 1 H₂ restant</text>
+<rect x="30.0" y="218.0" width="340.0" height="44.0" rx="8" stroke="#c0262d" stroke-width="1.5" fill="#fffdf8"/>
+<text x="200.0" y="236.0" font-size="12" text-anchor="middle" fill="#c0262d" font-weight="bold">O₂ est entièrement consommé : réactif limitant</text>
+<text x="200.0" y="254.0" font-size="12" text-anchor="middle" fill="#1f2937" font-weight="normal">H₂ est en excès</text>
+</svg>

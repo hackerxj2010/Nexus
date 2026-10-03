@@ -1,0 +1,689 @@
+{
+ "id": "SVT-S2-C10",
+ "matiere": "SVT",
+ "semestre": 2,
+ "ordre": 10,
+ "titre": "Les minéraux et les roches",
+ "objectifs": [
+  "L'élève doit être capable de définir minéral et roche et d'identifier les principaux minéraux par des tests simples (dureté, acide, clivage, masse volumique).",
+  "L'élève doit être capable de distinguer roches plutoniques et volcaniques et de relier leur structure à la vitesse de refroidissement du magma.",
+  "L'élève doit être capable d'expliquer le métamorphisme et de reconnaître une roche à l'aide d'une clé de détermination.",
+  "L'élève doit être capable de schématiser le cycle des roches et de citer les ressources minérales du Togo et les impacts de leur exploitation."
+ ],
+ "prerequis": [
+  "SVT-3e-ROCHES",
+  "SVT-S1-C05",
+  "SVT-S2-C09"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S2-C10-N1",
+   "titre": "Les minéraux : définition et identification",
+   "prerequis_notions": [
+    "SVT-3e-ROCHES"
+   ],
+   "cours_md": "### 1. Minéral et roche\n:::definition\n**Minéral** : solide naturel, de **composition chimique définie** (on peut écrire sa formule), dont les atomes sont rangés de façon **ordonnée et régulière** (structure **cristalline**). Quand il a pu se développer librement, il forme un **cristal** limité par des faces planes.\n**Roche** : matériau naturel qui constitue l'écorce terrestre, formé d'un **assemblage de minéraux** (le granite = quartz + feldspaths + micas), parfois d'un seul minéral (le marbre = calcite) ; elle peut être **cohérente** (dure) ou **meuble** (sable, argile).\n:::\n\nExemples de formes cristallines : le **quartz** forme des prismes à six faces terminés par une pyramide ; le **sel** (halite) des cubes ; la **calcite** se casse en rhomboèdres.\n\n:::remarque\nLe **verre volcanique** (obsidienne) n'est pas un minéral : ses atomes sont en désordre (pas de structure cristalline). Le **charbon** et le **pétrole**, d'origine organique, sont des roches mais pas des minéraux.\n:::\n\n### 2. Les critères d'identification d'un minéral\n| Critère | Comment l'observer | Exemples |\n|---|---|---|\n| **Couleur** | à l'œil (critère peu sûr, car des impuretés la modifient) | quartz incolore, rose, fumé… |\n| **Éclat** | aspect de la surface à la lumière | vitreux (quartz), métallique (pyrite, magnétite), nacré (mica) |\n| **Dureté** | test de rayure, échelle de **Mohs** | le quartz raye le verre ; le talc est rayé par l'ongle |\n| **Clivage** | le minéral se casse selon des plans réguliers | mica en fines feuilles, calcite en rhomboèdres ; le quartz n'a pas de clivage (cassure en éclats courbes) |\n| **Masse volumique** | masse ÷ volume (volume mesuré par déplacement d'eau) | quartz 2,65 g/cm³ ; magnétite 5,2 g/cm³ |\n| **Réaction à l'acide** | une goutte d'acide chlorhydrique dilué | la **calcite** fait **effervescence** ($\\ce{CO2}$) |\n| **Magnétisme** | approcher un aimant | la **magnétite** est attirée |\n\n:::propriete\n**Échelle de Mohs** (de 1 à 10) : talc 1, gypse 2, calcite 3, fluorine 4, apatite 5, orthose 6, **quartz 7**, topaze 8, corindon 9, diamant 10. Un minéral **raye** tous ceux qui sont plus tendres que lui et **est rayé** par ceux qui sont plus durs. Repères : ongle ≈ 2,5 ; pièce de cuivre ≈ 3,5 ; **verre** et lame de canif ≈ **5,5** ; lime d'acier ≈ 6,5.\n:::\n\n:::methode\n**Déterminer la dureté d'un minéral inconnu** : chercher le plus dur des objets qu'il raye et le plus tendre de ceux qui le rayent ; sa dureté est comprise entre les deux. Toujours vérifier qu'il s'agit d'une vraie rayure (sillon qui reste après avoir frotté) et non d'une trace de poudre.\n**Mesurer une masse volumique** : peser l'échantillon ($m$), le plonger dans une éprouvette graduée contenant de l'eau : la montée du niveau donne son volume $V$ ; $\\rho = m / V$.\n:::\n\n### 3. Les principaux minéraux des roches\n| Minéral | Formule simplifiée | Reconnaissance |\n|---|---|---|\n| **Quartz** | $\\ce{SiO2}$ | gris translucide, éclat gras, raye le verre, pas de clivage |\n| **Feldspaths** (orthose, plagioclases) | silicates d'aluminium et de K, Na ou Ca | blancs ou roses, opaques, clivages, rayent le verre |\n| **Micas** (biotite noire, muscovite blanche) | silicates en feuillets | paillettes brillantes qui se détachent en feuilles |\n| **Olivine** | silicate de Fe et Mg | grains vert bouteille (basalte) |\n| **Pyroxènes, amphiboles** | silicates de Fe, Mg, Ca | cristaux noirs ou vert sombre |\n| **Calcite** | $\\ce{CaCO3}$ | blanche, rayée par le canif, effervescence à l'acide |\n| **Argiles** (kaolinite…) | silicates d'aluminium hydratés | particules invisibles, toucher doux, pâte plastique mouillée |\n| **Hématite, magnétite** | oxydes de fer | rouge ou noir, lourds ; la magnétite est magnétique |\n| **Apatite** | phosphate de calcium | minéral des phosphates |\n\nLes **silicates** (minéraux contenant du silicium et de l'oxygène) forment plus de 90 % de la croûte terrestre.\n\n:::remarque\nAu Togo : l'**apatite** (phosphate de calcium) des phosphates de Hahotoé-Kpogamé, l'**hématite** et la **magnétite** du minerai de fer de Bangéli (région de Bassar, où l'on fondait le fer de façon traditionnelle depuis des siècles), la **calcite** des calcaires de Tabligbo et du marbre de Pagala, le **quartz** des sables, la **kaolinite** des argiles utilisées en poterie.\n:::\n\n:::attention\nLa couleur seule ne suffit jamais à identifier un minéral : utilise toujours plusieurs critères (dureté, clivage, acide, masse volumique).\n:::",
+   "definition": "Un minéral est un solide naturel de composition chimique définie et de structure cristalline ordonnée ; on l'identifie par plusieurs critères (dureté de Mohs, éclat, clivage, masse volumique, réaction à l'acide, magnétisme) ; les roches sont des assemblages de minéraux.",
+   "formules": [
+    "$\\rho = \\dfrac{m}{V}$ (en g/cm³)",
+    "Échelle de Mohs : talc 1 … quartz 7 … diamant 10 ; verre ≈ 5,5"
+   ],
+   "niveaux": {
+    "phrase": "Les roches sont faites de minéraux, des cristaux naturels que l'on reconnaît à leur dureté, leur éclat, leur clivage et leur réaction à l'acide.",
+    "simple": "Une roche est comme un plat de riz au haricot : on y reconnaît plusieurs ingrédients (les minéraux). Chaque ingrédient a sa « carte d'identité » : dur ou tendre, brillant ou mat, qui se casse en feuilles ou en éclats, qui mousse dans l'acide ou non.",
+    "complete": "Un minéral est un solide naturel à composition chimique définie et à structure cristalline (atomes ordonnés) ; une roche est un assemblage naturel de minéraux, cohérent ou meuble. Les minéraux s'identifient par un faisceau de critères : éclat, dureté (échelle de Mohs, verre ≈ 5,5, quartz 7), clivage ou cassure, masse volumique, effervescence à l'acide (calcite), magnétisme (magnétite). Les silicates (quartz, feldspaths, micas, olivine, pyroxènes, argiles) dominent la croûte ; calcite, oxydes de fer et apatite forment des roches exploitées au Togo."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Un minéral blanc-vert est rayé par une lame de canif mais raye un cristal de fluorine. Il ne fait pas effervescence à l'acide. Quelle est sa dureté et de quel minéral de l'échelle de Mohs s'agit-il ?",
+     "etapes": [
+      "Il est rayé par le canif (dureté ≈ 5,5) : sa dureté est inférieure à 5,5.",
+      "Il raye la fluorine (dureté 4) : sa dureté est supérieure à 4.",
+      "Dans l'échelle de Mohs, le seul minéral entre 4 et 5,5 est l'apatite (5).",
+      "L'absence d'effervescence confirme que ce n'est pas un carbonate. Conclusion : c'est probablement de l'apatite, de dureté 5."
+     ]
+    },
+    {
+     "enonce": "Un cristal incolore de 53 g est plongé dans une éprouvette contenant 40 mL d'eau ; le niveau monte à 60 mL. Calcule sa masse volumique et propose une identification sachant qu'il raye le verre.",
+     "etapes": [
+      "Volume du cristal = 60 − 40 = 20 mL = 20 cm³.",
+      "Masse volumique = 53 ÷ 20 = 2,65 g/cm³.",
+      "Un minéral incolore, de masse volumique 2,65 g/cm³, qui raye le verre (dureté supérieure à 5,5) : c'est le quartz.",
+      "Conclusion : le cristal est du quartz ($\\ce{SiO2}$)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre minéral et roche (le granite est une roche, le quartz un minéral).",
+    "Identifier un minéral par sa seule couleur.",
+    "Inverser le sens de la rayure : c'est le plus dur qui raye le plus tendre.",
+    "Prendre une trace de poudre pour une rayure.",
+    "Croire que tous les minéraux réagissent à l'acide (seuls les carbonates comme la calcite font effervescence)."
+   ],
+   "astuces": [
+    "Retiens deux repères : le verre (5,5) et le quartz (7). « Raye le verre » = dureté supérieure à 5,5.",
+    "Effervescence à l'acide = calcaire, marbre ou tout ce qui contient de la calcite.",
+    "Pour la masse volumique : 1 mL d'eau déplacée = 1 cm³ de volume."
+   ],
+   "mnemo": "Échelle de Mohs : « Ta Grande Cousine Fatou Arrive Ou Quoi ? Tu Connais Dakar ! » (Talc, Gypse, Calcite, Fluorine, Apatite, Orthose, Quartz, Topaze, Corindon, Diamant).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as observé des roches (granite, calcaire, argile, sable) et vu que l'acide fait mousser le calcaire. En seconde, on regarde de quoi ces roches sont faites : les minéraux."
+   },
+   "methode_redaction": "Pour identifier un minéral : 1) lister les observations (couleur, éclat, dureté, clivage, acide) ; 2) les comparer au tableau du cours ; 3) éliminer les minéraux incompatibles ; 4) conclure avec justification. Pour un calcul de masse volumique : formule, volume par déplacement d'eau, résultat en g/cm³.",
+   "flash": [
+    {
+     "q": "Définition d'un minéral ?",
+     "r": "Solide naturel, de composition chimique définie et de structure cristalline ordonnée."
+    },
+    {
+     "q": "Dureté du verre et du quartz dans l'échelle de Mohs ?",
+     "r": "Verre ≈ 5,5 ; quartz 7."
+    },
+    {
+     "q": "Quel minéral fait effervescence à l'acide chlorhydrique ?",
+     "r": "La calcite (CaCO3)."
+    },
+    {
+     "q": "Quel minéral se débite en fines feuilles brillantes ?",
+     "r": "Le mica."
+    },
+    {
+     "q": "Masse volumique du quartz ?",
+     "r": "2,65 g/cm³."
+    },
+    {
+     "q": "Minéraux du minerai de fer de Bangéli ?",
+     "r": "Hématite et magnétite (oxydes de fer)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C10-N1.svg",
+    "alt": "Échelle de dureté de Mohs avec les dix minéraux de référence et les outils de comparaison",
+    "legende": "Du talc (1) au diamant (10) ; repères : ongle 2,5, cuivre 3,5, verre et canif 5,5, lime 6,5.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C10-N2",
+   "titre": "Les roches magmatiques : plutoniques et volcaniques",
+   "prerequis_notions": [
+    "SVT-S2-C10-N1"
+   ],
+   "cours_md": "### 1. Le magma, origine des roches magmatiques\n:::definition\n**Magma** : roche fondue, formée en profondeur par la **fusion partielle** de roches du manteau ou de la croûte, à une température de 700 à 1 200 °C environ. C'est un liquide de silicates contenant des gaz dissous (vapeur d'eau, $\\ce{CO2}$) et parfois déjà quelques cristaux.\n**Roche magmatique** : roche formée par le **refroidissement et la cristallisation** d'un magma.\n:::\n\nLe magma, moins dense que les roches qui l'entourent, monte. Selon l'endroit où il refroidit, il donne deux types de roches.\n\n### 2. Les roches plutoniques : refroidissement lent en profondeur\nLe magma reste bloqué en profondeur (quelques kilomètres) et forme un **pluton**. Il refroidit **très lentement** (des milliers à des millions d'années) : tous les minéraux ont le temps de former des cristaux visibles à l'œil nu, jointifs : c'est la **structure grenue**.\n- **Granite** : roche claire, formée de **quartz** (gris translucide), de **feldspaths** (blancs ou roses) et de **micas** (paillettes noires de biotite). Riche en silice (environ 70 % de $\\ce{SiO2}$). C'est la roche principale des continents ; avec les gneiss, il forme le socle ancien d'une grande partie du sous-sol du Togo.\n- **Gabbro** : roche sombre, grenue, formée de feldspaths plagioclases et de pyroxènes (parfois d'olivine).\n\nOn voit les granites à la surface parce que l'**érosion** a enlevé, pendant des millions d'années, les roches qui les recouvraient.\n\n### 3. Les roches volcaniques : refroidissement rapide en surface\nLe magma arrive en surface (éruption) sous forme de **lave**, qui refroidit **très vite** (heures à années) au contact de l'air ou de l'eau.\n\n:::definition\n**Structure microlitique** : une **pâte** de **verre** (partie qui n'a pas eu le temps de cristalliser) contenant de nombreux petits cristaux en baguettes, les **microlites**, et quelques gros cristaux, les **phénocristaux**, formés lentement dans la chambre magmatique avant l'éruption.\n**Structure vitreuse** : roche entièrement faite de verre (obsidienne, ponce).\n:::\n\n- **Basalte** : roche noire, dense (≈ 2,9 g/cm³), microlitique, souvent avec des phénocristaux verts d'**olivine** ; pauvre en silice (environ 50 % de $\\ce{SiO2}$). C'est la roche des fonds océaniques et de nombreux volcans (presqu'île du Cap-Vert à Dakar, mont Cameroun).\n- **Rhyolite** : roche volcanique claire, de même composition chimique que le granite.\n- **Ponce** : lave mousseuse, pleine de bulles de gaz, si légère qu'elle flotte.\n\n:::propriete\nLa **taille des cristaux** dépend de la **vitesse de refroidissement** : refroidissement lent → grands cristaux (structure grenue, roche plutonique) ; refroidissement rapide → petits cristaux et verre (structure microlitique ou vitreuse, roche volcanique).\nUn même magma peut donner deux roches : **granite** (plutonique) et **rhyolite** (volcanique) ; **gabbro** (plutonique) et **basalte** (volcanique).\n:::\n\n### 4. Expérience modèle\n:::methode\nFaire fondre du **salol** (ou du soufre) dans un tube au bain-marie. Verser une goutte sur une lame **chaude** (refroidissement lent) et une goutte sur une lame **froide** posée sur de la glace (refroidissement rapide). Observer à la loupe : sur la lame chaude, peu de cristaux, **grands** ; sur la lame froide, de nombreux cristaux **petits**, et parfois une partie non cristallisée.\n:::\n\n:::attention\nNe dis pas qu'une roche volcanique « n'a pas de cristaux » : elle a des microlites et des phénocristaux, mais aussi du verre. Et « grenue » ne signifie pas « qui contient des grains de sable » : ce sont des cristaux jointifs.\n:::",
+   "definition": "Les roches magmatiques proviennent du refroidissement d'un magma : en profondeur, lentement, il donne des roches plutoniques à structure grenue (granite, gabbro) ; en surface, rapidement, des roches volcaniques à structure microlitique ou vitreuse (basalte, rhyolite).",
+   "formules": [
+    "refroidissement lent → structure grenue → roche plutonique",
+    "refroidissement rapide → structure microlitique ou vitreuse → roche volcanique"
+   ],
+   "niveaux": {
+    "phrase": "Un magma refroidi lentement en profondeur donne du granite à gros cristaux ; refroidi vite en surface, il donne du basalte à petits cristaux.",
+    "simple": "Pense à de l'huile de karité fondue : si tu la laisses refroidir doucement, il se forme de gros grains ; si tu la mets au frais d'un coup, elle devient lisse avec de tout petits grains. Le magma fait pareil : lentement sous terre (granite), vite à l'air libre (basalte).",
+    "complete": "Le magma, issu de la fusion partielle du manteau ou de la croûte, cristallise en roches magmatiques. Refroidi lentement en profondeur (pluton), il donne des roches plutoniques holocristallines à structure grenue : granite (quartz, feldspaths, micas, ≈ 70 % SiO2), gabbro. Refroidi rapidement en surface, il donne des roches volcaniques à structure microlitique (verre, microlites, phénocristaux hérités de la chambre magmatique) ou vitreuse : basalte (≈ 50 % SiO2), rhyolite, obsidienne, ponce. La taille des cristaux traduit la vitesse de refroidissement, comme le montre l'expérience du salol."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : un basalte de la presqu'île du Cap-Vert (Sénégal) montre des cristaux verts d'olivine de 3 mm dispersés dans une pâte noire contenant de minuscules baguettes de feldspath et du verre. Reconstitue l'histoire de cette roche.",
+     "etapes": [
+      "Les gros cristaux d'olivine (phénocristaux) ont eu le temps de grandir : ils se sont formés lentement, en profondeur, dans la chambre magmatique.",
+      "Les petites baguettes (microlites) se sont formées plus vite, pendant la montée du magma et au début du refroidissement de la lave.",
+      "Le verre correspond au liquide qui a refroidi trop vite pour cristalliser, à l'air libre.",
+      "Conclusion : la roche a cristallisé en deux temps (lentement en profondeur, puis très vite en surface) : c'est une roche volcanique à structure microlitique."
+     ]
+    },
+    {
+     "enonce": "Un granite et une rhyolite ont la même composition chimique (≈ 72 % de SiO2). Le granite montre des cristaux de 5 mm ; la rhyolite est une pâte claire avec quelques petits cristaux. Explique cette différence.",
+     "etapes": [
+      "Même composition chimique : les deux roches proviennent d'un magma semblable.",
+      "Le granite, à grands cristaux jointifs (structure grenue), a refroidi lentement en profondeur.",
+      "La rhyolite, à pâte et petits cristaux (structure microlitique), a refroidi rapidement en surface après une éruption.",
+      "Conclusion : c'est la vitesse de refroidissement, liée au lieu de cristallisation, qui explique la différence de structure."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que le granite s'est formé en surface parce qu'on le trouve en surface (il a été dégagé par l'érosion).",
+    "Confondre structure grenue (cristaux jointifs) et roche faite de grains cimentés (grès).",
+    "Croire qu'une roche volcanique ne contient aucun cristal.",
+    "Inverser : gros cristaux = refroidissement rapide.",
+    "Confondre basalte (volcanique) et gabbro (plutonique), qui ont la même composition."
+   ],
+   "astuces": [
+    "« Lent = Large » (gros cristaux) ; « Rapide = Réduits » (petits cristaux).",
+    "Couples à retenir : granite ↔ rhyolite (clairs, riches en silice) ; gabbro ↔ basalte (sombres, pauvres en silice)."
+   ],
+   "mnemo": "« PLUTON est un dieu des profondeurs : les roches PLUTONiques cristallisent en profondeur. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que les volcans émettent de la lave qui se refroidit en roche, et tu as observé du granite. On relie ici ces deux roches à un même phénomène : le refroidissement d'un magma."
+   },
+   "methode_redaction": "Pour identifier une roche magmatique : 1) décrire la structure (cristaux jointifs visibles ou pâte avec microlites) ; 2) nommer les minéraux ; 3) en déduire la vitesse et le lieu de refroidissement ; 4) nommer la roche. Pour comparer granite et basalte : tableau (couleur, structure, minéraux, % de silice, lieu de formation).",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un magma ?",
+     "r": "Une roche fondue (700 à 1 200 °C) formée par fusion partielle en profondeur."
+    },
+    {
+     "q": "Minéraux du granite ?",
+     "r": "Quartz, feldspaths, micas."
+    },
+    {
+     "q": "Structure du basalte ?",
+     "r": "Microlitique : verre + microlites + phénocristaux."
+    },
+    {
+     "q": "Pourquoi le granite a-t-il de gros cristaux ?",
+     "r": "Parce qu'il a refroidi lentement en profondeur."
+    },
+    {
+     "q": "Équivalent volcanique du granite ?",
+     "r": "La rhyolite."
+    },
+    {
+     "q": "Que montre l'expérience du salol ?",
+     "r": "Refroidissement lent → grands cristaux ; rapide → petits cristaux."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C10-N2.svg",
+    "alt": "Structures du granite et du basalte en lame mince et coupe montrant leurs lieux de refroidissement",
+    "legende": "Granite : cristaux jointifs (refroidissement lent en profondeur) ; basalte : verre, microlites et phénocristaux (refroidissement rapide en surface).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C10-N3",
+   "titre": "Les roches métamorphiques et la reconnaissance des roches",
+   "prerequis_notions": [
+    "SVT-S2-C10-N1",
+    "SVT-S2-C10-N2"
+   ],
+   "cours_md": "### 1. Le métamorphisme\n:::definition\n**Métamorphisme** : transformation d'une roche **à l'état solide** (sans fusion), sous l'effet d'une augmentation de **température** et/ou de **pression**. La roche obtenue est une **roche métamorphique**.\n:::\n\nCes conditions se rencontrent :\n- quand des roches sont **enfouies** profondément, par exemple lors de la formation d'une chaîne de montagnes par collision de plaques (métamorphisme **général**, sur de grandes régions) ;\n- au contact d'un **magma chaud** qui « cuit » les roches voisines (métamorphisme **de contact**).\n\nLes signes du métamorphisme :\n- apparition de **nouveaux minéraux** stables dans les nouvelles conditions (micas, grenats…) ;\n- **recristallisation** : les cristaux grossissent et s'engrènent ;\n- **foliation** (ou **schistosité**) : les minéraux s'alignent perpendiculairement à la pression ; la roche se débite en feuillets ou présente des bandes claires et sombres.\n\n### 2. Quelques transformations\n:::propriete\n- **Argile (argilite) → schiste → micaschiste → gneiss**, quand la température et la pression augmentent : la roche devient de plus en plus cristallisée ; le gneiss montre des bandes claires (quartz, feldspaths) et sombres (micas).\n- **Calcaire → marbre** : la calcite recristallise en cristaux soudés ; le marbre fait toujours effervescence à l'acide mais ne contient plus de fossiles.\n- **Grès → quartzite** : les grains de quartz recristallisent et se soudent ; la roche devient très dure et se casse à travers les grains.\n- Au-delà, si la température dépasse 650 à 700 °C environ en présence d'eau, la roche commence à **fondre** (anatexie) : on retourne au magma.\n:::\n\n**Au Togo**, la chaîne des **monts du Togo** (Atakora), qui traverse le pays du sud-ouest au nord-est, est une ancienne chaîne de montagnes : on y trouve des **quartzites** (qui forment les crêtes les plus résistantes) et des **micaschistes**. Le **marbre** de la région de **Pagala** est un calcaire métamorphisé, exploité comme pierre ornementale. Le socle comprend de nombreux **gneiss**.\n\n### 3. Reconnaître une roche : une démarche\n:::methode\n**Clé simplifiée** (à appliquer dans l'ordre, sur un échantillon et avec une loupe) :\n1. La roche est-elle **meuble** (s'effrite entre les doigts) ? → roche sédimentaire meuble : **sable** (grains visibles, crissent) ou **argile** (pâte plastique quand elle est mouillée, odeur de terre).\n2. Fait-elle **effervescence** à l'acide chlorhydrique ? Si oui : avec des fossiles ou des débris de coquilles, ou une pâte fine → **calcaire** (sédimentaire) ; en cristaux brillants soudés, sans fossiles → **marbre** (métamorphique).\n3. Sinon, observer la **structure** :\n   - grains arrondis **cimentés**, qui se détachent → **grès** (sédimentaire) ;\n   - cristaux **jointifs**, visibles, **non orientés** → roche **plutonique** : claire = **granite**, sombre = **gabbro** ;\n   - **pâte** sombre avec de petits cristaux (parfois des bulles) → roche **volcanique** : **basalte** ;\n   - cristaux **orientés**, roche en **feuillets** ou en **bandes** → roche **métamorphique** : schiste, micaschiste, gneiss ; roche claire très dure, sans effervescence, à grains soudés → **quartzite**.\n4. Confirmer par d'autres critères : dureté (raye le verre ?), masse volumique, couleur.\n:::\n\n| Famille | Origine | Structure typique | Exemples |\n|---|---|---|---|\n| Magmatique | refroidissement d'un magma | grenue ou microlitique, cristaux non orientés | granite, gabbro, basalte |\n| Sédimentaire | dépôt de particules ou précipitation, en surface | grains cimentés, strates, fossiles | grès, calcaire, argile |\n| Métamorphique | transformation à l'état solide (T, P) | foliation, minéraux orientés, recristallisés | schiste, gneiss, marbre, quartzite |\n\n:::attention\nLe métamorphisme se fait **sans fusion**. Si la roche fond, ce n'est plus du métamorphisme mais la formation d'un magma.\n:::",
+   "definition": "Le métamorphisme transforme une roche à l'état solide sous l'effet de la température et de la pression (argilite → schiste → micaschiste → gneiss ; calcaire → marbre ; grès → quartzite) ; une clé de détermination (cohésion, acide, structure) permet de reconnaître les roches des trois familles.",
+   "formules": [
+    "argilite → schiste → micaschiste → gneiss",
+    "calcaire → marbre ; grès → quartzite"
+   ],
+   "niveaux": {
+    "phrase": "Chauffée et comprimée sans fondre, une roche se transforme en une autre : c'est le métamorphisme.",
+    "simple": "C'est comme la cuisson d'une poterie : l'argile molle, chauffée sans fondre, devient dure et change d'aspect. Dans les profondeurs, la chaleur et le poids des roches au-dessus « cuisent » et « aplatissent » les roches : l'argile devient schiste puis gneiss, le calcaire devient marbre.",
+    "complete": "Le métamorphisme est la transformation à l'état solide d'une roche soumise à une élévation de température et/ou de pression (enfouissement lors d'une collision, contact d'un magma). Il se manifeste par de nouveaux minéraux, une recristallisation et une foliation perpendiculaire à la contrainte. Séries : argilite → schiste → micaschiste → gneiss ; calcaire → marbre ; grès → quartzite ; au-delà, l'anatexie produit un magma. Au Togo : quartzites et micaschistes des monts du Togo, marbre de Pagala, gneiss du socle. Une clé (cohésion, effervescence, structure, orientation des minéraux) permet de classer les roches dans les trois familles."
+   },
+   "analogie": "Le métamorphisme est comme le pressage du karité : sous la pression et la chaleur, la matière change d'aspect et s'organise en couches, sans passer par une flamme qui la ferait fondre.",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : en remontant une vallée vers le cœur d'une ancienne chaîne de montagnes, un géologue suit une même couche, d'abord argilite à grain très fin, puis schiste qui se débite en plaques, puis micaschiste brillant contenant de petits grenats. Interprète.",
+     "etapes": [
+      "La couche garde la même composition de départ (une argile) mais son aspect change progressivement.",
+      "Le débit en plaques (schistosité), puis l'apparition de micas visibles et de grenats, sont des signes de métamorphisme de plus en plus intense.",
+      "Ces roches ont donc subi des températures et des pressions de plus en plus fortes vers le cœur de la chaîne, où elles avaient été enfouies le plus profondément.",
+      "Conclusion : on observe une série métamorphique argilite → schiste → micaschiste, témoin de la formation de la chaîne."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que le métamorphisme fait fondre les roches.",
+    "Confondre calcaire (fossiles possibles, sédimentaire) et marbre (cristaux soudés, métamorphique) : les deux font effervescence.",
+    "Prendre la foliation d'un gneiss pour des strates sédimentaires.",
+    "Classer le quartzite parmi les roches magmatiques parce qu'il est dur et cristallisé.",
+    "Appliquer la clé dans le désordre (regarder la couleur avant l'acide ou la cohésion)."
+   ],
+   "astuces": [
+    "Trois couples à retenir : argile → schiste/gneiss ; calcaire → marbre ; grès → quartzite.",
+    "Cristaux orientés = métamorphique ; non orientés = magmatique."
+   ],
+   "mnemo": "« Méta = changement » : la roche change sans fondre.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris à reconnaître le granite, le calcaire, l'argile et le sable avec des tests simples (acide, rayure, eau). On ajoute ici une troisième famille : les roches transformées en profondeur."
+   },
+   "methode_redaction": "Pour reconnaître une roche : écrire les tests réalisés dans l'ordre de la clé, avec leurs résultats (« effervescence : non ; structure : cristaux jointifs non orientés »), puis conclure (« donc roche plutonique : granite »). Pour expliquer un métamorphisme : roche de départ, conditions (T, P), transformations observées, roche obtenue.",
+   "flash": [
+    {
+     "q": "Définition du métamorphisme ?",
+     "r": "Transformation d'une roche à l'état solide sous l'effet de la température et de la pression."
+    },
+    {
+     "q": "Que devient un calcaire métamorphisé ?",
+     "r": "Un marbre."
+    },
+    {
+     "q": "Que devient un grès métamorphisé ?",
+     "r": "Un quartzite."
+    },
+    {
+     "q": "Série métamorphique de l'argile ?",
+     "r": "Argilite → schiste → micaschiste → gneiss."
+    },
+    {
+     "q": "Comment distinguer calcaire et marbre ?",
+     "r": "Les deux font effervescence ; le marbre est fait de cristaux soudés brillants, sans fossiles."
+    },
+    {
+     "q": "Quelles roches forment les crêtes des monts du Togo ?",
+     "r": "Des quartzites (roches métamorphiques très dures)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C10-N3.svg",
+    "alt": "Séries métamorphiques : argilite, schiste, micaschiste, gneiss ; calcaire et marbre ; grès et quartzite",
+    "legende": "Avec la température et la pression, les roches se transforment sans fondre et acquièrent une foliation.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C10-N4",
+   "titre": "Le cycle des roches et les ressources minérales du Togo",
+   "prerequis_notions": [
+    "SVT-S2-C10-N2",
+    "SVT-S2-C10-N3",
+    "SVT-S1-C05-N3"
+   ],
+   "cours_md": "### 1. Les roches se transforment les unes en les autres\nLes trois familles de roches ne sont pas figées : au cours des temps géologiques (des millions d'années), une roche peut devenir une autre.\n\n:::propriete\n**Le cycle des roches** :\n1. Le **magma** refroidit et cristallise → **roches magmatiques** (en profondeur ou en surface).\n2. À la surface, toutes les roches subissent l'**altération** et l'**érosion** ; les particules sont **transportées** puis **déposées** → **sédiments**.\n3. Les sédiments enfouis sont compactés et cimentés (**diagenèse**) → **roches sédimentaires** (chapitre 11).\n4. Enfouies plus profondément (formation des chaînes de montagnes), les roches subissent le **métamorphisme** → **roches métamorphiques**.\n5. Si la température est suffisante, elles **fondent** → **magma**, et le cycle recommence.\nIl existe des **raccourcis** : un granite peut être métamorphisé en gneiss ; un gneiss qui affleure peut être érodé directement.\n:::\n\n### 2. Les moteurs du cycle\n- L'**énergie interne** de la Terre (chaleur venue des profondeurs) fait fondre les roches, produit les magmas, provoque le métamorphisme et soulève les montagnes (chapitre 12).\n- L'**énergie solaire** fait fonctionner le cycle de l'eau (pluie, rivières, vent) qui altère, érode et transporte ; la **gravité** fait descendre les sédiments vers les bassins.\n\n:::remarque\nUn grain de **quartz**, très résistant, peut faire plusieurs fois le tour du cycle : cristallisé dans un granite, libéré par l'altération, transporté par une rivière, déposé dans un sable, cimenté dans un grès, recristallisé dans un quartzite… puis à nouveau érodé.\n:::\n\n### 3. Les ressources minérales du Togo\n| Ressource | Lieu | Type de roche | Utilisation |\n|---|---|---|---|\n| **Phosphates** | Hahotoé-Kpogamé (bassin côtier), traitement à Kpémé | sédimentaire marine | engrais phosphatés, exportation |\n| **Calcaire** | Tabligbo | sédimentaire | fabrication du clinker et du ciment |\n| **Minerai de fer** | Bangéli (région de Bassar) | oxydes de fer | sidérurgie traditionnelle bassar ; projets d'exploitation |\n| **Marbre** | région de Pagala | métamorphique | pierre ornementale, carrelage |\n| **Argiles** | nombreuses régions | sédimentaire | briques, poterie, tuiles |\n| **Sables et graviers** | rivières, carrières | sédimentaire | construction, béton |\n| **Granites, gneiss, quartzites** | carrières du socle | magmatique, métamorphique | concassés pour routes et béton |\n\n:::attention\nL'exploitation des ressources minérales a des **impacts** sur l'environnement : paysages détruits par les mines à ciel ouvert, poussières des cimenteries, rejets de résidus de traitement des phosphates en mer, recul des plages quand on y prélève du sable (le prélèvement de sable marin sur les plages est interdit pour cette raison). La **gestion durable** impose de réhabiliter les sites et de limiter les pollutions (chapitre 5).\n:::\n\nCes ressources sont **non renouvelables** à l'échelle humaine : un gisement de phosphate ou de calcaire s'est formé en des millions d'années.",
+   "definition": "Le cycle des roches relie roches magmatiques, sédimentaires et métamorphiques par le refroidissement du magma, l'érosion, la sédimentation et la diagenèse, le métamorphisme et la fusion ; le Togo exploite des ressources issues de ce cycle (phosphates, calcaire, fer, marbre, argiles, granulats).",
+   "formules": [
+    "magma → (refroidissement) roches magmatiques → (érosion) sédiments → (diagenèse) roches sédimentaires → (métamorphisme) roches métamorphiques → (fusion) magma"
+   ],
+   "niveaux": {
+    "phrase": "Les roches se transforment sans cesse les unes en les autres, sur des millions d'années.",
+    "simple": "Les roches font un long voyage en boucle : le magma devient granite, la pluie use le granite en sable, le sable devient grès, le grès enfoui devient quartzite, et s'il fond, il redevient magma. La chaleur de la Terre et la pluie poussée par le soleil font tourner cette roue.",
+    "complete": "Le cycle des roches enchaîne cristallisation du magma (roches magmatiques), altération, érosion, transport et dépôt (sédiments), diagenèse (roches sédimentaires), métamorphisme (roches métamorphiques) et fusion (magma), avec des raccourcis. Il est entretenu par l'énergie interne du globe et par l'énergie solaire via le cycle de l'eau, avec la gravité. Le Togo exploite des produits de ce cycle (phosphates sédimentaires de Hahotoé-Kpogamé, calcaire de Tabligbo, fer de Bangéli, marbre de Pagala, argiles, granulats), ressources non renouvelables dont l'exploitation exige une gestion durable."
+   },
+   "analogie": "Le cycle des roches ressemble au recyclage des bouteilles au marché : on les casse, on les fond, on les remoule, puis elles s'usent et repartent pour un nouveau tour. Sauf qu'un tour prend des millions d'années.",
+   "exemples_resolus": [
+    {
+     "enonce": "Suis le parcours d'un grain de quartz depuis un granite du socle des Plateaux jusqu'à un quartzite, en nommant chaque étape du cycle des roches et le moteur de chacune.",
+     "etapes": [
+      "Le grain cristallise dans un magma refroidi lentement en profondeur : il fait partie d'un granite (énergie interne).",
+      "Le granite, mis à l'affleurement par l'érosion, est altéré par l'eau de pluie : les feldspaths deviennent argiles, le grain de quartz, résistant, est libéré (énergie solaire via le cycle de l'eau).",
+      "La rivière transporte le grain, qui s'arrondit, puis le dépose dans un sable (gravité, eau courante).",
+      "Le sable enfoui est compacté et cimenté : diagenèse → grès.",
+      "Enfoui plus profondément lors d'une collision de plaques, le grès est métamorphisé : les grains de quartz recristallisent et se soudent → quartzite (énergie interne)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que le cycle des roches se déroule à l'échelle d'une vie humaine.",
+    "Oublier les raccourcis (un granite peut être métamorphisé sans passer par l'état de sédiment).",
+    "Confondre diagenèse (transformation d'un sédiment en roche, près de la surface) et métamorphisme (à plus haute température et pression).",
+    "Dire que les ressources minérales sont renouvelables.",
+    "Attribuer l'érosion à l'énergie interne (elle dépend surtout de l'énergie solaire et de la gravité)."
+   ],
+   "astuces": [
+    "Dessine toujours le cycle avec 5 cases (magma, magmatiques, sédiments, sédimentaires, métamorphiques) et un verbe sur chaque flèche.",
+    "Énergie interne → magma, métamorphisme, montagnes ; énergie solaire → altération, érosion, transport."
+   ],
+   "mnemo": "« Refroidir, Éroder, Déposer-Cimenter, Métamorphiser, Fondre » : R.E.D.M.F., le tour complet.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris que l'eau use les roches et transporte les débris jusqu'à la mer. Le cycle des roches complète cette histoire en montrant comment de nouvelles roches se forment."
+   },
+   "methode_redaction": "Pour un schéma du cycle : cases nommées, flèches orientées avec le nom du processus, titre. Pour une question sur une ressource : nommer la roche, sa famille, son lieu, son utilisation, puis un impact et une mesure de gestion durable.",
+   "flash": [
+    {
+     "q": "Les cinq étapes du cycle des roches ?",
+     "r": "Cristallisation du magma, altération-érosion, dépôt et diagenèse, métamorphisme, fusion."
+    },
+    {
+     "q": "Quels moteurs font fonctionner le cycle ?",
+     "r": "L'énergie interne de la Terre et l'énergie solaire (cycle de l'eau), avec la gravité."
+    },
+    {
+     "q": "Où sont exploités les phosphates du Togo ?",
+     "r": "À Hahotoé-Kpogamé, avec traitement à Kpémé."
+    },
+    {
+     "q": "À quoi sert le calcaire de Tabligbo ?",
+     "r": "À fabriquer le clinker et le ciment."
+    },
+    {
+     "q": "Pourquoi interdit-on de prélever le sable des plages ?",
+     "r": "Parce que cela aggrave le recul de la côte (érosion côtière)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C10-N4.svg",
+    "alt": "Schéma du cycle des roches reliant magma, roches magmatiques, sédiments, roches sédimentaires et métamorphiques",
+    "legende": "Refroidissement, érosion, diagenèse, métamorphisme et fusion relient les trois familles de roches.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S2-C10-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C10-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Parmi ces matériaux, lequel est une roche et non un minéral ?",
+   "choix": [
+    "le quartz",
+    "la calcite",
+    "le granite",
+    "le mica"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Quartz, calcite et mica ont chacun une composition chimique définie : ce sont des minéraux.",
+    "Le granite est un assemblage de minéraux (quartz, feldspaths, micas) : c'est une roche (réponse C)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser qu'une matière dure et cristallisée est forcément un minéral.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C10-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C10-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Une goutte d'acide chlorhydrique dilué fait mousser un minéral blanc. Ce minéral est probablement :",
+   "choix": [
+    "du quartz",
+    "de la calcite",
+    "du feldspath",
+    "du mica"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "L'effervescence est un dégagement de CO2 caractéristique des carbonates.",
+    "La calcite (CaCO3) est le carbonate le plus courant : réponse B."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre « quartz » parce qu'il est souvent blanc.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C10-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C10-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un minéral raye le verre (dureté ≈ 5,5) mais il est rayé par le quartz (dureté 7). Quel minéral de l'échelle de Mohs a cette dureté ? (Donne son nom.)",
+   "reponses_acceptees": [
+    "orthose",
+    "l'orthose",
+    "feldspath",
+    "orthose (feldspath)",
+    "6"
+   ],
+   "indices": [
+    "Encadre la dureté entre deux valeurs."
+   ],
+   "corrige": [
+    "Sa dureté est comprise entre 5,5 et 7.",
+    "Le seul minéral de l'échelle de Mohs dans cet intervalle est l'orthose (feldspath), de dureté 6."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre « apatite » (5), qui ne raye pas le verre.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C10-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C10-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un échantillon de roche de 40,5 g est plongé dans une éprouvette contenant 50 mL d'eau ; le niveau monte à 65 mL. Calcule la masse volumique de la roche en g/cm³ (nombre seul).",
+   "reponses_acceptees": [
+    "2,7",
+    "2.7",
+    "2,70",
+    "2.70"
+   ],
+   "indices": [
+    "Le volume de la roche est la montée du niveau d'eau."
+   ],
+   "corrige": [
+    "Volume = 65 − 50 = 15 mL = 15 cm³.",
+    "Masse volumique = 40,5 ÷ 15 = 2,7 g/cm³."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par 65 mL (volume total) au lieu du volume déplacé.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C10-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C10-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Une roche formée d'un verre contenant de petits cristaux en baguettes (microlites) s'est formée :",
+   "choix": [
+    "par refroidissement lent d'un magma en profondeur",
+    "par refroidissement rapide d'une lave en surface",
+    "par cimentation de grains de sable",
+    "par transformation d'un calcaire"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Verre + microlites = structure microlitique : le refroidissement a été trop rapide pour que tout cristallise.",
+    "C'est une roche volcanique, refroidie en surface (réponse B)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre structure microlitique et structure grenue.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C10-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C10-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Un calcaire enfoui en profondeur et soumis à une forte température recristallise sans fondre. Il devient :",
+   "choix": [
+    "un granite",
+    "un marbre",
+    "un quartzite",
+    "un basalte"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Transformation à l'état solide sous l'effet de la température = métamorphisme.",
+    "Le calcaire métamorphisé donne du marbre (réponse B) ; le grès donnerait un quartzite."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre marbre (calcaire métamorphisé) et quartzite (grès métamorphisé).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C10-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C10-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution organisée des connaissances. Compare le granite et le basalte sous la forme d'un tableau selon cinq critères : couleur, structure, minéraux principaux, teneur en silice, lieu et vitesse de refroidissement.",
+   "indices": [],
+   "corrige": [
+    "Couleur : granite clair (gris, rose) ; basalte sombre (noir).",
+    "Structure : granite grenue (cristaux jointifs visibles) ; basalte microlitique (verre + microlites + phénocristaux).",
+    "Minéraux : granite = quartz, feldspaths, micas ; basalte = feldspaths plagioclases, pyroxènes, olivine (+ verre).",
+    "Silice : granite ≈ 70 % ; basalte ≈ 50 %.",
+    "Formation : granite = refroidissement lent en profondeur (roche plutonique) ; basalte = refroidissement rapide en surface (roche volcanique).",
+    "Présentation : tableau titré, mêmes critères pour les deux roches."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    0.5,
+    1.5,
+    1
+   ],
+   "piege": "Dire que le basalte ne contient pas de cristaux.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C10-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C10-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation d'expérience. Du soufre fondu est versé : A) dans un creuset placé dans un sable chaud (refroidissement en 30 min) ; B) dans un bécher d'eau froide (refroidissement en quelques secondes). Résultats : A donne de longues aiguilles de cristaux visibles à l'œil nu ; B donne une masse molle, élastique, sans cristaux visibles (soufre vitreux).\n1) Quel facteur l'expérience fait-elle varier ? 2) Interprète les résultats. 3) Applique ces résultats au granite et au basalte. 4) Un basalte contient de gros cristaux d'olivine : comment l'expliquer ?",
+   "indices": [
+    "Compare la taille des cristaux et la durée de refroidissement."
+   ],
+   "corrige": [
+    "1) La vitesse de refroidissement (lente en A, très rapide en B).",
+    "2) Refroidissement lent : les atomes ont le temps de s'ordonner, les cristaux grandissent ; refroidissement très rapide : pas le temps de cristalliser, il se forme un verre.",
+    "3) Le granite, à grands cristaux, a refroidi lentement en profondeur ; le basalte, avec verre et microlites, a refroidi rapidement en surface.",
+    "4) Les cristaux d'olivine (phénocristaux) se sont formés lentement dans la chambre magmatique, avant l'éruption ; le reste du magma a refroidi vite en surface."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Oublier que l'expérience modélise le magma : il faut faire le lien avec les roches.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C10-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C10-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de résultats de tests. Un élève a testé quatre roches ramassées au Togo.\n\n| Roche | Effervescence (HCl) | Raye le verre | Aspect |\n|---|---|---|---|\n| R1 | non | oui | cristaux jointifs gris, roses et noirs, non orientés |\n| R2 | oui | non | cristaux blancs brillants soudés, sans fossiles |\n| R3 | non | oui | grains de quartz arrondis cimentés, qui se détachent au grattage |\n| R4 | non | oui | bandes claires et sombres alternées, minéraux alignés |\n\nIdentifie chaque roche et sa famille en justifiant.",
+   "indices": [
+    "Applique la clé : acide, puis structure, puis orientation des minéraux."
+   ],
+   "corrige": [
+    "R1 : pas d'effervescence, raye le verre (quartz), cristaux jointifs non orientés : granite, roche magmatique plutonique.",
+    "R2 : effervescence (calcite), cristaux soudés sans fossiles : marbre, roche métamorphique (calcaire métamorphisé, comme à Pagala).",
+    "R3 : grains de quartz cimentés : grès, roche sédimentaire détritique.",
+    "R4 : bandes alternées, minéraux orientés (foliation) : gneiss, roche métamorphique."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    1.5
+   ],
+   "piege": "Classer R2 comme calcaire sédimentaire sans tenir compte de l'absence de fossiles et des cristaux soudés.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C10-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C10-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "L'analyse chimique de 250 g d'une roche magmatique claire à structure grenue indique 180 g de silice (SiO2). Calcule le pourcentage de silice de cette roche (nombre seul, arrondi à l'unité).",
+   "reponses_acceptees": [
+    "72",
+    "72%",
+    "72 %"
+   ],
+   "indices": [
+    "Pourcentage = partie ÷ total × 100."
+   ],
+   "corrige": [
+    "% SiO2 = 180 ÷ 250 × 100.",
+    "% SiO2 = 72 % : roche riche en silice, compatible avec un granite."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser 250 par 180.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C10-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S2-C10-N2",
+    "SVT-S2-C10-N3",
+    "SVT-S2-C10-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Problème de synthèse. Lors d'une sortie, une classe observe : au sommet d'une crête des monts du Togo, une roche claire très dure, à grains de quartz soudés, sans effervescence (roche A) ; dans une carrière du socle, une roche grenue à quartz, feldspaths roses et biotite (roche B) ; dans le lit d'une rivière en contrebas, un sable de grains de quartz arrondis (C).\n1) Identifie A, B et C et leur famille. 2) Montre, à l'aide du cycle des roches, comment C peut provenir de B. 3) Propose une histoire qui explique la formation de A à partir de C. 4) Pourquoi A forme-t-elle les crêtes alors que les roches voisines forment des vallées ?",
+   "indices": [],
+   "corrige": [
+    "1) A : quartzite (métamorphique) ; B : granite (magmatique plutonique) ; C : sable (sédiment meuble).",
+    "2) Le granite affleurant est altéré par l'eau : les feldspaths sont hydrolysés en argiles, les micas se dégradent, les grains de quartz résistants sont libérés ; la rivière les transporte, les arrondit et les dépose : c'est le sable C.",
+    "3) Le sable C, enfoui sous d'autres sédiments, est compacté et cimenté (diagenèse) en grès ; enfoui plus profondément lors de la formation d'une chaîne de montagnes, il est métamorphisé : les grains recristallisent et se soudent → quartzite A.",
+    "4) Le quartzite, fait de quartz soudé (dureté 7, insensible à l'altération chimique), résiste mieux à l'érosion que les schistes et les roches riches en feldspaths voisines : il reste en relief (crête) tandis que les roches tendres sont creusées en vallées."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    1.5
+   ],
+   "piege": "Classer le quartzite parmi les roches magmatiques parce qu'il est très dur.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre minéral et roche.",
+  "Inverser le sens de la rayure ou mal placer le verre (5,5) dans l'échelle de Mohs.",
+  "Associer grands cristaux et refroidissement rapide.",
+  "Dire que le granite s'est formé en surface parce qu'on l'observe en surface.",
+  "Écrire que le métamorphisme fait fondre les roches.",
+  "Confondre marbre et calcaire, ou quartzite et grès, sans justification par la structure.",
+  "Cycle des roches sans nom de processus sur les flèches."
+ ]
+}

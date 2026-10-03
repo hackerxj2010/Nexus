@@ -1,0 +1,723 @@
+{
+ "id": "FR-S2-C13",
+ "matiere": "FR",
+ "semestre": 2,
+ "ordre": 13,
+ "titre": "Œuvre intégrale et méthode de l'épreuve de français",
+ "objectifs": [
+  "L'élève doit être capable de lire une œuvre intégrale avec méthode et d'en construire une fiche de lecture complète.",
+  "L'élève doit être capable d'étudier une œuvre (structure, personnages, thèmes, contexte) et de réutiliser ces connaissances dans les questions, la dissertation et l'exposé oral.",
+  "L'élève doit être capable de connaître la structure de l'épreuve de français, de répondre efficacement aux questions de la partie A et de choisir son sujet de partie B.",
+  "L'élève doit être capable de gérer les 4 heures de l'épreuve (brouillon, rédaction, relecture) et de présenter une copie soignée."
+ ],
+ "prerequis": [
+  "FR-S1-C04",
+  "FR-S1-C05",
+  "FR-S1-C06",
+  "FR-S2-C09",
+  "FR-S2-C11",
+  "FR-S2-C12"
+ ],
+ "notions": [
+  {
+   "id": "FR-S2-C13-N1",
+   "titre": "Lire une œuvre intégrale et construire sa fiche de lecture",
+   "prerequis_notions": [
+    "FR-S1-C06-N3",
+    "FR-S1-C06-N5",
+    "FR-S2-C09-N4"
+   ],
+   "cours_md": "## 1. Qu'est-ce qu'une œuvre intégrale ?\n\n:::definition\nUne **œuvre intégrale** est un livre étudié **en entier** (roman, recueil de nouvelles ou de poèmes, pièce de théâtre, récit autobiographique), et non par extraits. On attend de l'élève qu'il la connaisse **précisément** : histoire, personnages, structure, thèmes, contexte et quelques passages clés.\n:::\n\nLes œuvres au programme varient selon les années, les séries et les établissements. D'après la presse, des œuvres d'auteurs togolais ont été inscrites en seconde (par exemple *Le Trône royal* de Mgr Nicodème Barrigah-Benissan ou *Le Cauchemar d'un immigré* de Ruben Atayi), mais la liste exacte de ta classe doit être **vérifiée auprès de ton professeur**. La méthode ci-dessous s'applique à **toutes** les œuvres.\n\n## 2. Lire en trois temps\n\n:::methode\n**Avant, pendant, après**\n1. **Avant la lecture** : observe la couverture, le titre, la quatrième de couverture, la préface, la date de parution, la biographie de l'auteur. Formule une hypothèse : « De quoi ce livre va-t-il parler ? »\n2. **Pendant la lecture** : lis crayon en main. À la fin de chaque chapitre (ou acte, ou nouvelle), note en **deux lignes** ce qui s'y passe, les personnages présents et une citation marquante **avec sa page**.\n3. **Après la lecture** : relis tes notes, remplis ta **fiche de lecture**, puis relis les passages les plus importants (début, fin, moments décisifs).\n:::\n\n:::remarque\nLis l'œuvre **dès qu'elle est annoncée**, pas la veille du devoir : à raison de 15 pages par jour, un roman de 200 pages se lit en deux semaines.\n:::\n\n## 3. La fiche de lecture\n\n| Rubrique | Contenu |\n|---|---|\n| **Identité** | titre, auteur (dates, nationalité), date de parution, genre, éditeur |\n| **Résumé** | l'histoire entière en 10 lignes maximum, au présent |\n| **Structure** | chapitres, parties, actes ; schéma narratif ; ordre chronologique ou retours en arrière |\n| **Personnages** | principaux et secondaires : identité, traits de caractère, rôle, évolution, relations |\n| **Cadre** | lieux, époque, milieu social |\n| **Narration et écriture** | narrateur, point de vue, registres dominants, particularités du style |\n| **Thèmes** | les grands sujets abordés et ce que l'œuvre en dit |\n| **Citations** | 5 à 10 courtes citations, avec la page, classées par thème |\n| **Contexte** | mouvement ou période littéraire, situation historique, place dans l'œuvre de l'auteur |\n| **Mon avis** | ce qui t'a marqué, justifié par un argument |\n\n:::attention\n- Le **résumé de la fiche** n'est pas un résumé de texte au quart : il raconte l'œuvre entière de façon synthétique, fin comprise.\n- Ne recopie pas un résumé trouvé sur Internet : il contient souvent des erreurs et tu n'en retiendras rien. La fiche doit venir de **ta** lecture.\n- Note toujours la **page** des citations : tu les retrouveras pour l'exposé ou le devoir.\n:::",
+   "definition": "Une œuvre intégrale est un livre étudié en entier ; on la lit en trois temps (avant, pendant, après) et on en tire une fiche de lecture : identité, résumé, structure, personnages, cadre, écriture, thèmes, citations, contexte, avis.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Lire le livre en entier, crayon en main, et tout ranger dans une fiche.",
+    "simple": "La fiche de lecture, c'est la carte d'identité du livre : avec elle, tu retrouves en cinq minutes ce que tu as mis deux semaines à lire.",
+    "complete": "L'étude d'une œuvre intégrale suppose une lecture active et documentée : exploration du paratexte, prise de notes par unités (chapitres, actes), relevé de citations localisées, puis synthèse organisée (données éditoriales, résumé, architecture de l'œuvre, système des personnages, cadre spatio-temporel, instance narrative et écriture, axes thématiques, contexte historique et littéraire, jugement argumenté)."
+   },
+   "analogie": "Après la récolte, on ne laisse pas le maïs en tas dans la cour : on l'égrène, on le sèche et on le range dans des sacs étiquetés. La fiche de lecture range ainsi ta lecture pour qu'elle te nourrisse toute l'année.",
+   "exemples_resolus": [
+    {
+     "enonce": "Remplis la rubrique « Identité » et rédige un résumé de trois phrases de L'Avare de Molière.",
+     "etapes": [
+      "Identité : L'Avare, comédie en cinq actes et en prose de Molière (1622-1673), créée en 1668.",
+      "Résumé (1) : Harpagon, riche bourgeois d'une avarice maladive, veut épouser la jeune Mariane, que son fils Cléante aime aussi, et marier sa fille Élise au vieil Anselme parce qu'il la prend « sans dot ».",
+      "Résumé (2) : le vol de sa cassette par La Flèche, valet de Cléante, le plonge dans le désespoir.",
+      "Résumé (3) : tout se dénoue quand Anselme reconnaît en Valère et Mariane ses enfants perdus ; Harpagon retrouve sa cassette et laisse les jeunes gens se marier."
+     ]
+    },
+    {
+     "enonce": "Transforme cette note de lecture vague en note utile : « Chapitre 3 : il se passe plein de choses, c'est intéressant. »",
+     "etapes": [
+      "Une note utile répond à quatre questions : que se passe-t-il ? qui ? quelle citation (avec la page) ? quel thème ?",
+      "Modèle : « Chapitre 3 : [ce qui se passe, en deux lignes] ; personnages : [noms] ; citation : « … » (p. …) ; thème : [un mot, par exemple la tradition]. »",
+      "Avec ce modèle, chaque chapitre tient en quatre lignes et la fiche finale se remplit presque seule."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Lire l'œuvre la veille du devoir ou se contenter d'un résumé trouvé sur Internet.",
+    "Ne pas noter les pages des citations.",
+    "Confondre l'auteur et le narrateur, surtout dans un récit à la première personne.",
+    "Faire un résumé qui s'attarde sur les détails et oublie la fin."
+   ],
+   "astuces": [
+    "15 pages par jour, c'est un roman de 200 pages en deux semaines.",
+    "Utilise des marque-pages ou des papiers de couleur : une couleur par thème.",
+    "Après chaque chapitre, demande-toi : « Qu'est-ce qui a changé pour le héros ? »"
+   ],
+   "mnemo": "« Avant, Pendant, Après » : je découvre, je note, je range.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as déjà lu des œuvres complètes et rempli des fiches de lecture simples (titre, auteur, personnages, résumé). En seconde, la fiche s'enrichit : structure, écriture, thèmes, citations avec pages et contexte."
+   },
+   "methode_redaction": "Dans un devoir, une référence à l'œuvre intégrale se présente ainsi : titre souligné, auteur, puis le passage précis (chapitre, acte et scène, ou page) ; une citation est recopiée exactement, entre guillemets.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'une œuvre intégrale ?",
+     "r": "Un livre étudié en entier, et non par extraits."
+    },
+    {
+     "q": "Les trois temps de la lecture ?",
+     "r": "Avant (paratexte, hypothèse), pendant (notes par chapitre), après (fiche de lecture)."
+    },
+    {
+     "q": "Qu'est-ce que le paratexte d'un livre ?",
+     "r": "Couverture, titre, quatrième de couverture, préface, notes, biographie de l'auteur."
+    },
+    {
+     "q": "Combien de citations dans une fiche ?",
+     "r": "5 à 10 courtes citations, avec leur page."
+    },
+    {
+     "q": "Le résumé de la fiche raconte-t-il la fin ?",
+     "r": "Oui : il résume l'œuvre entière."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C13-N1.svg",
+    "alt": "Carte mentale de la fiche de lecture : identité, résumé, structure, personnages, thèmes, citations, contexte et avis.",
+    "legende": "Les rubriques de la fiche de lecture d'une œuvre intégrale.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C13-N2",
+   "titre": "Étudier une œuvre intégrale : structure, personnages, thèmes, contexte",
+   "prerequis_notions": [
+    "FR-S2-C13-N1",
+    "FR-S1-C06-N1",
+    "FR-S2-C09-N3"
+   ],
+   "cours_md": "## 1. Quatre entrées pour étudier une œuvre\n\n:::definition\n**Étudier** une œuvre intégrale, c'est dépasser le résumé pour comprendre **comment elle est construite**, **ce que représentent ses personnages**, **quels thèmes** elle développe et **dans quel contexte** elle a été écrite. Ces quatre entrées fournissent les réponses aux questions sur l'œuvre, les idées d'une dissertation et le plan d'un exposé.\n:::\n\n:::methode\n**Quatre entrées, quatre questions**\n1. **Structure** : comment l'œuvre est-elle découpée (chapitres, parties, actes) ? Quelle progression (chronologique, retours en arrière, montée de la tension) ? Quels sont les moments clés (situation initiale, élément déclencheur, péripéties, dénouement) ?\n2. **Personnages** : qui sont-ils, que veulent-ils, comment évoluent-ils ? Que **représentent**-ils (un milieu, une valeur, une critique) ?\n3. **Thèmes** : de quoi parle l'œuvre ? Pour chaque thème, **ce qu'elle en dit** (une phrase) et **un passage** qui le montre.\n4. **Contexte** : quand, où, pourquoi l'œuvre a-t-elle été écrite ? À quelle période ou à quel mouvement appartient-elle ?\n:::\n\n## 2. Exemple : *L'Enfant noir* de Camara Laye (1953)\n\n**Structure.** Récit autobiographique en douze chapitres, qui suit l'ordre chronologique et s'organise autour de **départs successifs** :\n- l'enfance à **Kouroussa** (Haute-Guinée), dans la concession familiale et l'atelier du père, avec des séjours chez la grand-mère à **Tindican**, village de la moisson du riz ;\n- l'adolescence : l'école, les cérémonies d'initiation, puis les études à **Conakry** ;\n- le **départ pour la France**, qui clôt le livre.\n\n**Personnages.**\n\n| Personnage | Traits | Rôle et signification |\n|---|---|---|\n| Le narrateur | enfant curieux, puis élève brillant, déchiré à chaque départ | raconte, devenu adulte, son enfance ; incarne le passage de la tradition à l'école moderne |\n| Le père | forgeron et orfèvre respecté, protégé par un petit serpent noir | figure de la tradition et du savoir-faire ; accepte que son fils parte |\n| La mère | tendre, ferme, dotée de pouvoirs mystérieux | cœur affectif du livre ; souffre de chaque départ ; le livre lui est dédié |\n| La famille de Tindican et de Conakry | accueillante, protectrice | relais entre la campagne, la ville et l'école |\n\n**Thèmes.**\n\n| Thème | Ce que l'œuvre en dit |\n|---|---|\n| L'enfance | une enfance heureuse, que le narrateur exilé idéalise avec nostalgie |\n| La tradition et le sacré | rites, initiations et savoir-faire font partie d'un monde respecté, décrit de l'intérieur |\n| La mère | figure centrale de l'amour et de l'attachement à la terre natale (dédicace : « Femme noire, femme africaine, ô toi ma mère ») |\n| L'école et l'éloignement | chaque réussite scolaire éloigne un peu plus l'enfant de son monde d'origine |\n| Le départ et l'exil | le livre s'achève sur un arrachement : le départ pour la France |\n\n**Contexte.** Écrit à Paris par un jeune Guinéen alors étudiant et ouvrier, publié en 1953 pendant la période coloniale, le livre reçoit le prix Charles Veillon en 1954. Certains critiques de l'époque, dont Mongo Beti, lui reprochent de ne pas dénoncer la colonisation ; on le lit aujourd'hui comme un grand récit d'enfance et un témoignage précieux sur la culture malinké.\n\n:::attention\n- Ne confonds pas **thème** (« la mère ») et **idée** sur ce thème (« la mère est la figure qui retient l'enfant dans son monde et souffre de chacun de ses départs ») : les points vont aux idées.\n- Dans une autobiographie, distingue l'**auteur** (la personne réelle), le **narrateur** adulte qui se souvient et le **personnage** de l'enfant.\n:::",
+   "definition": "Étudier une œuvre intégrale, c'est analyser sa structure, ses personnages (traits, rôle, évolution, signification), ses thèmes (et ce qu'elle en dit) et son contexte de création, en appuyant chaque idée sur un passage précis.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Structure, personnages, thèmes, contexte : les quatre portes pour entrer dans une œuvre.",
+    "simple": "Lire, c'est connaître l'histoire ; étudier, c'est comprendre comment elle est construite, ce que les personnages représentent et ce que l'auteur veut dire.",
+    "complete": "L'analyse d'une œuvre intégrale articule l'étude de sa composition (découpage, progression, temporalité, nœuds dramatiques), de son système des personnages (fonctions, caractérisation, évolution, valeur représentative), de ses réseaux thématiques (traitement et portée de chaque thème) et de son inscription historique et littéraire (contexte de production et de réception). Chaque proposition interprétative s'appuie sur un passage localisé."
+   },
+   "analogie": "Connaître une famille, ce n'est pas seulement savoir combien elle compte de membres : c'est savoir qui fait quoi, qui s'entend avec qui, ce qui la rend unique et d'où elle vient. Une œuvre se connaît de la même façon.",
+   "exemples_resolus": [
+    {
+     "enonce": "Dégage deux thèmes de L'Avare de Molière et, pour chacun, ce que la pièce en dit.",
+     "etapes": [
+      "Thème 1, l'argent : la pièce montre que l'avarice détruit les liens familiaux ; Harpagon préfère sa cassette à ses enfants, comme le prouvent ses « Sans dot ! » répétés (acte I) et son désespoir quand on la lui vole (« Au voleur ! au voleur ! », acte IV).",
+      "Thème 2, le mariage et l'autorité du père : Harpagon veut imposer ses choix à ses enfants ; ceux-ci résistent et la comédie finit par donner raison à leur amour.",
+      "Chaque thème est formulé comme une idée et appuyé sur un passage précis."
+     ]
+    },
+    {
+     "enonce": "Dans Une vie de boy de Ferdinand Oyono (1956), que représente le personnage de Toundi ?",
+     "etapes": [
+      "Toundi, jeune Camerounais devenu « boy » (domestique) du commandant, raconte dans son journal intime ce qu'il voit chez les colons.",
+      "D'abord fasciné par les Blancs, il découvre peu à peu leur hypocrisie et leur mépris ; il représente le colonisé qui ouvre les yeux.",
+      "Sa naïveté apparente sert la satire : le lecteur comprend ce que Toundi ne dit pas, et la critique de la colonisation devient d'autant plus forte."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Raconter l'histoire au lieu d'analyser la structure, les personnages et les thèmes.",
+    "Citer un thème sans dire ce que l'œuvre en dit.",
+    "Confondre auteur, narrateur et personnage dans une autobiographie ou un récit à la première personne.",
+    "Ignorer le contexte (époque, mouvement, situation de l'auteur)."
+   ],
+   "astuces": [
+    "Pour chaque personnage, retiens un trait, un rôle et une citation.",
+    "Pour chaque thème, une phrase-idée et un passage précis : c'est déjà un paragraphe de dissertation.",
+    "Fais un tableau des personnages sur une double page de ton cahier : il te servira pour l'exposé."
+   ],
+   "mnemo": "« SPTC » : Structure, Personnages, Thèmes, Contexte, ou « Sans Plan, Tout Coule ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu connaissais le schéma narratif (situation initiale, élément déclencheur, péripéties, dénouement, situation finale). Il sert ici à décrire la structure de toute l'œuvre."
+   },
+   "methode_redaction": "Pour répondre à une question sur l'œuvre : une phrase qui contient une idée, un exemple précis (passage, scène, personnage) et, si possible, une courte citation ; jamais un récit de l'histoire.",
+   "flash": [
+    {
+     "q": "Les quatre entrées pour étudier une œuvre ?",
+     "r": "Structure, personnages, thèmes, contexte."
+    },
+    {
+     "q": "« La mère » : thème ou idée ?",
+     "r": "Un thème ; l'idée dit ce que l'œuvre en dit."
+    },
+    {
+     "q": "Qui raconte L'Enfant noir ?",
+     "r": "Un narrateur adulte qui se souvient de son enfance : c'est le récit autobiographique de Camara Laye."
+    },
+    {
+     "q": "Quand et dans quel contexte paraît L'Enfant noir ?",
+     "r": "En 1953, à Paris, pendant la période coloniale."
+    },
+    {
+     "q": "Que représente Toundi dans Une vie de boy ?",
+     "r": "Le colonisé naïf qui découvre l'hypocrisie des colons ; sa naïveté sert la satire."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C13-N2.svg",
+    "alt": "Tableau des quatre entrées d'étude appliquées à L'Enfant noir de Camara Laye : structure, personnages, thèmes, contexte.",
+    "legende": "Les quatre entrées pour étudier une œuvre intégrale, sur un exemple.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C13-N3",
+   "titre": "Exploiter l'œuvre intégrale à l'écrit et à l'oral",
+   "prerequis_notions": [
+    "FR-S2-C13-N2",
+    "FR-S2-C12-N3"
+   ],
+   "cours_md": "## 1. Les questions sur l'œuvre\n\nLes questions sur une œuvre intégrale sont de trois sortes :\n- **connaissance** : « Qui est… ? », « Où se passe… ? » ;\n- **analyse** : « Pourquoi… ? », « Comment… ? », « Que représente… ? » ;\n- **réflexion** : « Que pensez-vous de… ? », « Ce personnage vous paraît-il… ? ».\n\n:::methode\n**Répondre en trois temps : Réponse, Preuve, Explication**\n1. **Réponse** : une phrase complète qui reprend les mots de la question.\n2. **Preuve** : un passage précis de l'œuvre (scène, chapitre, personnage), avec si possible une courte citation.\n3. **Explication** : ce que ce passage montre, en lien avec la question.\n:::\n\n> Question : « Pourquoi le départ pour la France est-il douloureux à la fin de *L'Enfant noir* ? »\n> Réponse modèle : Le départ du narrateur pour la France est douloureux parce qu'il l'arrache à sa mère et au monde de son enfance. Sa mère, en effet, s'oppose de toutes ses forces à ce départ, qu'elle vit comme une perte, et le jeune homme lui-même éprouve un déchirement en quittant les siens. Ce dernier départ achève ainsi un éloignement progressif commencé avec l'école : chaque réussite scolaire l'a éloigné un peu plus de Kouroussa.\n\n## 2. La dissertation sur l'œuvre\n\nLe sujet porte sur un jugement à propos de l'œuvre étudiée. La méthode est celle de la dissertation, mais **tous les exemples viennent de l'œuvre** (passages, personnages, citations).\n\n> Sujet : « Certains lecteurs ne voient dans *L'Enfant noir* qu'un simple récit d'enfance heureuse. Partagez-vous ce point de vue ? »\n> - I. Un récit d'enfance heureuse : la tendresse familiale, les joies de la moisson à Tindican, le merveilleux du monde du père.\n> - II. Mais aussi un récit d'arrachement et de mémoire : les départs successifs, la nostalgie du narrateur exilé, le témoignage sur une culture.\n\n## 3. L'exposé oral sur l'œuvre\n\n:::methode\n**Préparer un exposé de 5 à 10 minutes**\n1. **Introduction** : présente l'auteur, l'œuvre (titre, genre, date) et annonce la question à laquelle tu réponds et ton plan.\n2. **Développement** : deux ou trois parties (par exemple : l'histoire et les personnages ; les thèmes ; ce que l'œuvre nous apprend aujourd'hui), chacune appuyée sur un passage lu ou cité.\n3. **Conclusion** : ton avis argumenté sur l'œuvre et une question ouverte au public.\n4. **Support** : une fiche de **mots-clés** (jamais un texte rédigé à lire), éventuellement une carte des personnages au tableau.\n:::\n\n:::propriete\n**À l'oral** : regarde la classe, parle fort et lentement, articule, ne lis pas tes notes, respecte le temps et réponds aux questions avec calme (« C'est une bonne question : dans le chapitre… »).\n:::\n\n## 4. Réinvestir l'œuvre partout\n\nUne œuvre bien connue sert dans tous les exercices : **exemple** dans une discussion ou une dissertation, **ouverture** dans un commentaire, matière d'un **exposé**.\n\n:::attention\n- Ne réponds pas aux questions en racontant l'histoire : elles demandent souvent **pourquoi** ou **comment**.\n- À l'oral, ne lis pas : écris seulement des **mots-clés** sur ta fiche.\n:::",
+   "definition": "Exploiter l'œuvre intégrale, c'est réutiliser sa connaissance précise de l'œuvre pour répondre aux questions (réponse, preuve, explication), construire une dissertation sur l'œuvre, présenter un exposé oral structuré et nourrir les exemples des autres exercices.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Une œuvre bien connue sert à l'écrit (questions, dissertation) et à l'oral (exposé).",
+    "simple": "Ta fiche de lecture est une réserve d'eau : tu y puises pour les questions, la dissertation, l'exposé et même la discussion.",
+    "complete": "Le réinvestissement de l'œuvre intégrale mobilise trois compétences : la réponse argumentée à des questions de connaissance, d'analyse ou de réflexion (assertion, justification par un passage localisé, explication) ; la dissertation sur l'œuvre (problématisation d'un jugement critique, plan illustré par l'œuvre elle-même) ; l'exposé oral (structure annoncée, expression non lue, gestion du temps, interaction avec l'auditoire)."
+   },
+   "analogie": "Un champ d'ignames bien entretenu nourrit la famille toute l'année : on y revient à chaque repas. Une œuvre bien étudiée nourrit de même tous tes devoirs de l'année.",
+   "exemples_resolus": [
+    {
+     "enonce": "Améliore cette réponse à la question « Que représente Harpagon dans L'Avare ? » : « Harpagon est un vieux qui aime l'argent. »",
+     "etapes": [
+      "Défauts : réponse vague, registre familier (« un vieux »), aucune preuve.",
+      "Réponse : « Harpagon représente l'avarice poussée jusqu'à la folie. »",
+      "Preuve : « Il veut marier sa fille au vieil Anselme parce qu'il la prend “sans dot”, et, quand on lui vole sa cassette, il soupçonne tout le monde, jusqu'à lui-même, dans son monologue “Au voleur ! au voleur !” (acte IV). »",
+      "Explication : « À travers ce personnage ridicule, Molière fait rire d'un vice pour mieux le dénoncer. »"
+     ]
+    },
+    {
+     "enonce": "Prépare la fiche de mots-clés d'un exposé de 5 minutes sur L'Avare de Molière.",
+     "etapes": [
+      "Introduction : Molière ; comédie, 1668 ; question : « Pourquoi rit-on d'Harpagon ? » ; plan en deux parties.",
+      "I. Un personnage ridicule : répétitions (« Sans dot ! »), monologue du vol, avarice exagérée.",
+      "II. Une critique sérieuse : l'avarice détruit la famille ; un père qui tyrannise ses enfants.",
+      "Conclusion : avis (une pièce toujours actuelle : l'argent peut-il passer avant les siens ?) et question au public."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Raconter l'histoire au lieu de répondre à la question posée.",
+    "Donner une réponse sans preuve tirée de l'œuvre.",
+    "Lire ses notes mot à mot pendant l'exposé.",
+    "Dépasser le temps de l'exposé ou finir sans conclusion."
+   ],
+   "astuces": [
+    "Pour une question sur l'œuvre, reprends les mots de la question dans ta première phrase.",
+    "Pour l'exposé, entraîne-toi à voix haute avec un chronomètre (celui d'un téléphone suffit, à la maison).",
+    "Une carte des personnages dessinée au tableau aide beaucoup ton public."
+   ],
+   "mnemo": "« Une lecture, quatre usages » : Questions, Dissertation, Exposé, Exemples.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as sans doute présenté un livre ou un exposé devant la classe. En seconde, l'exposé doit avoir une question de départ et un plan annoncé, comme un devoir écrit."
+   },
+   "methode_redaction": "Réponse écrite sur l'œuvre : 4 à 8 lignes, phrases complètes, titre souligné, passage situé (chapitre, acte, scène), citation courte entre guillemets. Exposé : une fiche de mots-clés, jamais un texte rédigé à lire.",
+   "flash": [
+    {
+     "q": "Structure d'une réponse sur l'œuvre ?",
+     "r": "Réponse (qui reprend la question), preuve (passage précis), explication."
+    },
+    {
+     "q": "Que mettre sur la fiche de l'exposé ?",
+     "r": "Le plan et des mots-clés, pas un texte à lire."
+    },
+    {
+     "q": "D'où viennent les exemples d'une dissertation sur l'œuvre ?",
+     "r": "De l'œuvre elle-même : passages, personnages, citations."
+    },
+    {
+     "q": "Où réutiliser l'œuvre intégrale ?",
+     "r": "Questions, dissertation, exposé, exemples de discussion, ouverture de commentaire."
+    },
+    {
+     "q": "Comment terminer un exposé ?",
+     "r": "Par un avis argumenté sur l'œuvre et une question ouverte au public."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C13-N3.svg",
+    "alt": "Schéma en quatre étapes : questions sur l'œuvre (réponse, preuve, explication), dissertation sur l'œuvre, exposé oral, réemploi dans les autres exercices.",
+    "legende": "Les quatre usages d'une œuvre intégrale bien étudiée.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C13-N4",
+   "titre": "L'épreuve de français : structure, questions de la partie A et choix du sujet",
+   "prerequis_notions": [
+    "FR-S1-C04-N1",
+    "FR-S1-C05-N1",
+    "FR-S2-C11-N1",
+    "FR-S2-C12-N1"
+   ],
+   "cours_md": "## 1. La structure de l'épreuve\n\n:::definition\nD'après les comptes rendus du **BAC I togolais** depuis 2024 (approche par compétences), l'épreuve de français dure **4 heures** et comprend une **partie A** obligatoire (environ **8 points**) de questions sur un texte et une **partie B** (environ **12 points**) où l'on traite **un seul** sujet au choix parmi trois : **contraction de texte** (résumé, explication de deux mots, discussion), **commentaire** ou **dissertation**. Les compositions de seconde s'en inspirent ; vérifie le format exact de ton établissement auprès de ton professeur.\n:::\n\n| Partie | Contenu | Points | Conseil |\n|---|---|---|---|\n| A (obligatoire) | questions de compréhension, de langue (grammaire, vocabulaire) et d'analyse sur un texte | environ 8 | réponses rédigées et justifiées par le texte |\n| B (au choix) | sujet 1 : contraction (résumé au quart ± 10 %, deux mots à expliquer, discussion) ; sujet 2 : commentaire ; sujet 3 : dissertation | environ 12 | un seul sujet, choisi en 10 minutes |\n\n## 2. Répondre aux questions de la partie A\n\n:::methode\n**Réponse, Preuve, Explication**\n1. **Lis la question** : souligne le verbe de consigne (relevez, identifiez, justifiez, expliquez…) et le nombre d'éléments demandés.\n2. **Réponds** par une phrase complète qui reprend les mots de la question.\n3. **Prouve** par une citation courte entre guillemets, avec sa ligne.\n4. **Explique** le lien entre la citation et ta réponse (obligatoire si la question dit « justifiez » ou « expliquez »).\n:::\n\n| Verbe de consigne | Ce qu'on attend |\n|---|---|\n| **Relevez** | recopier exactement les mots demandés, entre guillemets, et seulement eux |\n| **Identifiez, nommez** | donner le terme exact (« une métaphore », « le registre pathétique ») |\n| **Justifiez** | réponse, citation et explication |\n| **Expliquez** | dire le sens ou la raison, avec tes mots |\n| **Quel est l'effet, la valeur de… ?** | interpréter, comme dans un commentaire |\n| **Donnez votre avis** | une position, un argument, un exemple |\n\n**Exemple.** Phrase du texte (ligne 4) : « Je regardais s'éloigner les toits de mon village, la gorge serrée, sans pouvoir dire un mot. » (texte d'exemple)\n> Question : Quel est le sentiment dominant du narrateur ? Justifiez votre réponse.\n> Réponse modèle : Le sentiment dominant du narrateur est la tristesse de la séparation. L'expression « la gorge serrée » (l. 4) traduit une émotion si forte qu'elle l'empêche de parler, comme le confirme « sans pouvoir dire un mot ».\n\n## 3. Choisir le sujet de la partie B\n\n:::methode\n**Choisir en 10 minutes, pas plus**\n1. Lis les **trois** sujets en entier.\n2. Pour chacun, demande-toi : ai-je **compris** le texte ou la citation ? ai-je des **idées** et des **exemples** ?\n3. **Contraction** : bon choix si le texte argumentatif est clair pour toi et si tu comptes bien les mots ; elle demande deux productions (résumé et discussion).\n4. **Commentaire** : bon choix si le texte t'inspire et si tu repères vite des procédés.\n5. **Dissertation** : seulement si tu as des **exemples littéraires précis** sur la question posée.\n6. Une fois ton choix fait, **ne change plus** de sujet.\n:::\n\n:::attention\n- Ne traite **qu'un seul** sujet de la partie B et indique-le clairement (« Partie B — Sujet 2 : commentaire »).\n- Ne néglige pas la partie A : ses 8 points s'obtiennent souvent plus vite que ceux de la partie B.\n:::",
+   "definition": "L'épreuve de français dure 4 heures : une partie A obligatoire (questions sur un texte, environ 8 points) et une partie B au choix (contraction avec discussion, commentaire ou dissertation, environ 12 points) ; on répond aux questions par Réponse, Preuve, Explication et on choisit le sujet B selon ses idées et ses exemples. Le format des compositions de seconde est à vérifier dans chaque établissement.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Deux parties : A, des questions pour tous ; B, un seul sujet à choisir parmi trois.",
+    "simple": "La partie A, ce sont des marches faciles à monter si tu justifies chaque réponse ; la partie B, c'est le grand escalier : choisis celui que tu sais monter.",
+    "complete": "L'épreuve, conçue selon l'approche par compétences, évalue d'une part la compréhension et l'analyse d'un texte support au moyen de questions ciblées (compréhension, langue, interprétation), d'autre part une production écrite longue au choix (contraction et discussion, commentaire composé, dissertation littéraire). La réussite suppose la maîtrise des verbes de consigne, la justification textuelle systématique et un choix de sujet fondé sur ses ressources réelles. Le format exact des compositions de seconde varie selon les établissements et doit être vérifié."
+   },
+   "analogie": "Au marché, une bonne commerçante sait ce qu'elle a en stock avant de promettre quoi que ce soit au client. Avant de choisir ton sujet B, fais l'inventaire de ton stock : idées, exemples, temps.",
+   "exemples_resolus": [
+    {
+     "enonce": "Texte (exemple) : « La nuit tombait. Effrayée par chaque bruit, Ablavi pressait le pas ; l'angoisse lui serrait la gorge. » Question : « Relevez deux mots du champ lexical de la peur. » Une élève répond : « Il y a la peur car Ablavi a peur. » Corrige sa réponse.",
+     "etapes": [
+      "« Relevez » demande de recopier exactement des mots du texte, entre guillemets ; la réponse de l'élève ne cite rien.",
+      "Réponse correcte : « Les mots “Effrayée” et “angoisse” appartiennent au champ lexical de la peur. »"
+     ]
+    },
+    {
+     "enonce": "Trois sujets B sont proposés : une contraction sur le numérique, un commentaire d'un poème sur la mère, une dissertation sur le théâtre. Koffi n'a lu aucune pièce depuis la 3e et se trompe souvent en comptant les mots. Que lui conseilles-tu ?",
+     "etapes": [
+      "Dissertation risquée : sans exemples de pièces, il ne pourra pas illustrer ses arguments.",
+      "Contraction risquée : le comptage des mots est sa faiblesse.",
+      "Le commentaire du poème est le meilleur choix s'il repère les procédés (thème de la mère, registre lyrique) : conseil, le commentaire."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Répondre aux questions sans citer le texte.",
+    "Recopier toute une phrase quand on demande de relever un mot (ou l'inverse).",
+    "Traiter deux sujets de la partie B, ou changer de sujet au bout d'une heure.",
+    "Choisir la dissertation sans aucun exemple littéraire précis.",
+    "Négliger la partie A pour tout miser sur la partie B."
+   ],
+   "astuces": [
+    "Commence par la partie A : elle te fait entrer dans le texte et rapporte des points sûrs (limite-toi à 50 minutes environ).",
+    "Le verbe de consigne dicte la réponse : « relevez » = citer ; « justifiez » = citer et expliquer.",
+    "Écris en tête de la partie B le numéro et le type du sujet choisi."
+   ],
+   "mnemo": "Questions : « RPE », Réponse, Preuve, Explication.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au BEPC, tu répondais à des questions sur un texte puis tu rédigeais un sujet d'expression écrite. En seconde, les questions demandent davantage d'analyse et la rédaction devient un exercice au choix : contraction, commentaire ou dissertation."
+   },
+   "methode_redaction": "En tête de copie : « Partie A », puis les réponses numérotées comme dans le sujet (1, 2 a, 2 b…), chacune en phrases complètes, avec une ligne sautée entre les réponses. Puis « Partie B — Sujet n° … » avant le devoir rédigé.",
+   "flash": [
+    {
+     "q": "Combien de parties dans l'épreuve ?",
+     "r": "Deux : A (questions, environ 8 points) et B (un sujet au choix, environ 12 points)."
+    },
+    {
+     "q": "Les trois sujets possibles de la partie B ?",
+     "r": "Contraction de texte (avec discussion), commentaire, dissertation."
+    },
+    {
+     "q": "Que demande « relevez » ?",
+     "r": "Recopier exactement les mots demandés, entre guillemets."
+    },
+    {
+     "q": "Que demande « justifiez » ?",
+     "r": "Une réponse, une citation et une explication."
+    },
+    {
+     "q": "Combien de sujets B faut-il traiter ?",
+     "r": "Un seul."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C13-N4.svg",
+    "alt": "Tableau de l'épreuve de français de 4 heures : partie A obligatoire (questions, environ 8 points), partie B avec trois sujets au choix (contraction, commentaire, dissertation, environ 12 points), un seul à traiter.",
+    "legende": "La structure de l'épreuve de français.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C13-N5",
+   "titre": "Gérer son temps, son brouillon et présenter une copie soignée",
+   "prerequis_notions": [
+    "FR-S2-C13-N4",
+    "FR-S1-C07-N4"
+   ],
+   "cours_md": "## 1. Le plan de route des 4 heures\n\n| Moment | Durée | Ce que tu fais |\n|---|---|---|\n| 0 h 00 – 0 h 10 | 10 min | lire tout le sujet, choisir le sujet B |\n| 0 h 10 – 1 h 00 | 50 min | partie A (brouillon rapide puis rédaction au propre) |\n| 1 h 00 – 2 h 00 | 60 min | partie B au brouillon : analyse du sujet, idées, plan détaillé, introduction et conclusion rédigées |\n| 2 h 00 – 3 h 30 | 90 min | rédaction au propre de la partie B |\n| 3 h 30 – 3 h 50 | 20 min | relecture ciblée |\n| 3 h 50 – 4 h 00 | 10 min | marge de sécurité : présentation, numéros, nom |\n\nPour la **contraction**, le brouillon de la partie B comprend le résumé **entier** et le **comptage des mots** ; prévois environ 50 minutes pour le résumé et 70 minutes pour la discussion au propre.\n\n:::propriete\n**Ne rédige pas tout au brouillon** : tu n'aurais pas le temps de recopier. Au brouillon : le plan détaillé, l'introduction et la conclusion en entier (et le résumé en entier pour la contraction). Le développement se rédige directement au propre à partir du plan.\n:::\n\n## 2. Un brouillon efficace\n\n- Écris **d'un seul côté** de la feuille, assez gros, avec des **numéros** et des flèches.\n- Une feuille pour la partie A, une autre pour la partie B.\n- Les abréviations sont permises **au brouillon seulement** (pb = problématique, ex. = exemple).\n- Coche ce qui est recopié.\n\n## 3. Présenter la copie\n\n:::methode\n**Une copie qui donne envie d'être lue**\n1. **En-tête** complet (nom, classe, numéro, matière) selon les consignes de l'établissement.\n2. **Marge** respectée ; écriture **lisible** ; encre bleue ou noire.\n3. **Parties identifiées** : « Partie A », puis « Partie B — Sujet n° 2 : commentaire ».\n4. **Paragraphes** : un alinéa au début de chacun ; une **ligne sautée** entre introduction, parties et conclusion.\n5. **Titres d'œuvres soulignés**, citations entre guillemets.\n6. **Ratures** propres : un seul trait à la règle.\n:::\n\n## 4. La relecture ciblée (20 minutes)\n\n:::methode\n**Relis trois fois, avec un objectif à chaque fois**\n1. **Le sens** : chaque phrase est-elle complète, avec un verbe conjugué ?\n2. **Les accords** : sujet et verbe (« les élèves **écrivent** ») ; participe passé (avec être : accord avec le sujet ; avec avoir : accord avec le COD seulement s'il est placé avant) ; adjectifs.\n3. **Les homophones** : a / à, et / est, ou / où, son / sont, ces / ses / c'est / s'est, leur / leurs, -é / -er (remplace par « vendu / vendre » : « il a mangé » → « il a vendu » ; « il va manger » → « il va vendre »).\n:::\n\n:::attention\n- Ne recopie pas une citation du sujet avec des fautes : c'est la première chose qui se voit.\n- Ne rends jamais une copie sans conclusion : si le temps manque, écris au moins **deux phrases** (bilan et réponse à la problématique).\n:::",
+   "definition": "Réussir l'épreuve suppose un plan de route des 4 heures (lecture et choix, partie A, brouillon de la partie B, rédaction, relecture), un brouillon efficace (plan détaillé, introduction et conclusion rédigées), une copie présentée avec soin et une relecture ciblée (sens, accords, homophones).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Un horaire pour chaque étape, un brouillon utile, une copie propre, une relecture ciblée.",
+    "simple": "Comme un match de football de 90 minutes, l'épreuve se gère par périodes : on ne dépense pas toute son énergie dans les dix premières minutes et on garde des forces pour la fin.",
+    "complete": "La gestion de l'épreuve repose sur une planification explicite (répartition des 240 minutes selon les exigences de chaque partie), sur un usage sélectif du brouillon (seules les parties stratégiques, plan détaillé, introduction, conclusion et résumé, y sont rédigées), sur des normes de présentation qui facilitent la lecture du correcteur et sur une relecture méthodique par objectifs successifs (syntaxe, accords, homophones grammaticaux)."
+   },
+   "analogie": "Un taxi-moto qui part de Lomé pour Kpalimé fait le plein et connaît ses étapes ; s'il roule au hasard, il tombe en panne avant d'arriver. Ton plan de route t'évite la panne de temps.",
+   "exemples_resolus": [
+    {
+     "enonce": "Au bout de 3 h 15 d'épreuve, Akossiwa n'a rédigé que la première partie de sa dissertation. Que doit-elle faire ?",
+     "etapes": [
+      "Il reste 45 minutes : il faut terminer, pas perfectionner.",
+      "Rédiger la partie II plus brièvement (un paragraphe court par sous-partie) en 25 minutes environ.",
+      "Recopier la conclusion préparée au brouillon (10 minutes) et garder 10 minutes pour relire.",
+      "Ne surtout pas rendre une copie sans conclusion."
+     ]
+    },
+    {
+     "enonce": "Corrige les fautes : « Les élèves on finit leur devoir et il sont allé à la maison. »",
+     "etapes": [
+      "« on » → « ont » (verbe avoir : on peut dire « avaient »).",
+      "« finit » → « fini » : participe passé avec avoir ; le COD « leur devoir » est placé après, donc pas d'accord.",
+      "« il sont » → « ils sont » ; « allé » → « allés » : avec être, accord avec le sujet masculin pluriel.",
+      "Phrase corrigée : « Les élèves ont fini leur devoir et ils sont allés à la maison. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Tout rédiger au brouillon et manquer de temps pour recopier.",
+    "Passer plus d'une heure sur la partie A.",
+    "Rendre une copie sans conclusion.",
+    "Ne pas relire, ou relire sans objectif précis.",
+    "Oublier d'indiquer le numéro du sujet choisi."
+   ],
+   "astuces": [
+    "Dès le début, écris en haut de ton brouillon l'heure prévue pour chaque étape.",
+    "Pose une montre sur ta table : le téléphone est interdit en salle d'examen.",
+    "Remplace « -é / -er » par « vendu / vendre » pour choisir la bonne terminaison."
+   ],
+   "mnemo": "« 10-50-60-90-20-10 » : choisir, partie A, brouillon de B, rédaction de B, relecture, sécurité ; total 240 minutes.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Au BEPC, tu as appris à surveiller l'heure et à garder du temps pour te relire. En seconde, l'épreuve dure 4 heures : sans plan de route, on manque toujours de temps pour la conclusion."
+   },
+   "methode_redaction": "Mise en page finale : en-tête ; « Partie A » (réponses numérotées) ; ligne sautée ; « Partie B — Sujet n° … » ; introduction ; ligne sautée ; parties avec alinéas ; ligne sautée ; conclusion. Relis avec trois objectifs : sens, accords, homophones.",
+   "flash": [
+    {
+     "q": "Que rédige-t-on entièrement au brouillon ?",
+     "r": "Le plan détaillé, l'introduction, la conclusion (et le résumé pour la contraction)."
+    },
+    {
+     "q": "Combien de temps garder pour la relecture ?",
+     "r": "Environ 20 minutes."
+    },
+    {
+     "q": "Astuce pour choisir entre -é et -er ?",
+     "r": "Remplacer par « vendu / vendre »."
+    },
+    {
+     "q": "Comment raturer proprement ?",
+     "r": "D'un seul trait à la règle."
+    },
+    {
+     "q": "Il reste 10 minutes et pas de conclusion : que faire ?",
+     "r": "Écrire au moins deux phrases : bilan et réponse à la problématique."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C13-N5.svg",
+    "alt": "Frise du plan de route de l'épreuve de 4 heures : choix du sujet, partie A, brouillon de la partie B, rédaction au propre, relecture, marge de sécurité.",
+    "legende": "Le plan de route des 4 heures de l'épreuve.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S2-C13-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C13-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Dans l'épreuve de français, combien de sujets de la partie B dois-tu traiter ?",
+   "indices": [
+    "« Au choix » signifie qu'on choisit."
+   ],
+   "corrige": [
+    "La partie B propose trois sujets (contraction, commentaire, dissertation) ; on n'en traite qu'un seul, choisi au début de l'épreuve."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Traiter deux sujets n'apporte aucun point supplémentaire : on perd du temps et de la qualité.",
+   "verification": "double_resolution",
+   "choix": [
+    "Un seul",
+    "Deux",
+    "Les trois",
+    "Autant que le temps le permet"
+   ],
+   "bonne_reponse": 0
+  },
+  {
+   "id": "FR-S2-C13-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C13-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Comment appelle-t-on l'ensemble des éléments qui entourent le texte d'un livre (couverture, titre, préface, quatrième de couverture, notes) ? (un mot)",
+   "indices": [
+    "Le mot contient le préfixe « para- » (à côté de)."
+   ],
+   "corrige": [
+    "Ces éléments forment le paratexte : on les observe avant la lecture pour formuler une hypothèse sur l'œuvre."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Le « contexte » désigne l'époque et la situation de l'œuvre, pas les éléments du livre.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "paratexte",
+    "le paratexte",
+    "paratextes"
+   ]
+  },
+  {
+   "id": "FR-S2-C13-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C13-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Une question de la partie A dit : « Justifiez votre réponse par le texte. » Qu'attend le correcteur ?",
+   "indices": [
+    "Pense à RPE : Réponse, Preuve, Explication."
+   ],
+   "corrige": [
+    "« Justifiez » demande une réponse, une citation exacte du texte (avec sa ligne) et une explication du lien entre les deux.",
+    "La réponse C est la seule complète ; A oublie la citation, B oublie l'explication, D n'est pas une justification."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Une citation sans explication (B) ne prouve rien au correcteur : il faut dire ce qu'elle montre.",
+   "verification": "double_resolution",
+   "choix": [
+    "A. Une réponse avec mes propres mots, sans citation",
+    "B. Une citation seule, recopiée entre guillemets",
+    "C. Une réponse, une citation entre guillemets avec sa ligne, puis une explication",
+    "D. Un résumé du texte"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S2-C13-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C13-N5"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Corrige le participe passé : « Les filles sont arrivé en retard. » (écris seulement le participe corrigé)",
+   "indices": [
+    "Quel est l'auxiliaire ? Avec quoi s'accorde alors le participe ?"
+   ],
+   "corrige": [
+    "Avec l'auxiliaire être, le participe passé s'accorde avec le sujet « Les filles » (féminin pluriel) : « arrivées »."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Avec être, l'accord se fait avec le sujet ; avec avoir, jamais avec le sujet.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "arrivées",
+    "arrivees"
+   ]
+  },
+  {
+   "id": "FR-S2-C13-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C13-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Laquelle de ces phrases formule une idée sur un thème de L'Avare (et pas seulement un thème) ?",
+   "indices": [
+    "Cherche la phrase qui affirme quelque chose sur le thème."
+   ],
+   "corrige": [
+    "Un thème se dit en un mot ou deux (l'argent, le mariage) ; une idée dit ce que l'œuvre montre sur ce thème.",
+    "La réponse B affirme ce que la pièce montre : l'avarice détruit les liens familiaux."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "C nomme le thème sans rien en dire ; D est un fait, pas une idée.",
+   "verification": "double_resolution",
+   "choix": [
+    "A. L'argent.",
+    "B. La pièce montre que l'avarice détruit les liens familiaux : Harpagon préfère sa cassette à ses enfants.",
+    "C. Le thème de l'argent est présent.",
+    "D. Harpagon est un personnage de Molière."
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S2-C13-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C13-N5"
+   ],
+   "format": "reponse_courte",
+   "enonce": "L'épreuve dure 4 heures. Tu prévois 10 minutes pour choisir ton sujet, 50 minutes pour la partie A, 60 minutes pour le brouillon de la partie B, 20 minutes de relecture et 10 minutes de sécurité. Combien de minutes reste-t-il pour rédiger la partie B au propre ? (un nombre)",
+   "indices": [
+    "Convertis d'abord 4 heures en minutes."
+   ],
+   "corrige": [
+    "4 heures = 240 minutes ; temps déjà prévu : 10 + 50 + 60 + 20 + 10 = 150 minutes.",
+    "Temps de rédaction de la partie B : 240 − 150 = 90 minutes."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "N'oublie pas la marge de sécurité de 10 minutes dans la somme.",
+   "verification": "code",
+   "reponses_acceptees": [
+    "90",
+    "90 min",
+    "90 minutes",
+    "1 h 30",
+    "1h30"
+   ]
+  },
+  {
+   "id": "FR-S2-C13-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C13-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis ce texte, puis réponds aux questions comme dans la partie A de l'épreuve (8 points).\n\nMon grand-père ne savait ni lire ni écrire, mais il connaissait chaque arbre de la colline. Le soir, assis sur son tabouret devant la case, il me montrait les étoiles une à une et me racontait les contes que son propre grand-père lui avait confiés. « Un peuple qui oublie ses histoires, disait-il, est comme un arbre sans racines : le premier vent le couche. » J'écoutais, émerveillé, sans comprendre que je recevais un trésor. Aujourd'hui, mon grand-père n'est plus là, et je cherche en vain, dans les livres de la bibliothèque, ces histoires qu'il emportait avec lui. Alors j'écris, pour que ses paroles ne s'envolent pas avec le vent de l'harmattan.\n(texte d'exemple écrit pour la plateforme ; on considère les lignes numérotées de 1 à 10)\n\n1. Qui est le narrateur et de qui parle-t-il ? (1 point)\n2. Relevez deux expressions qui montrent que le grand-père possède un savoir, bien qu'il ne sache pas lire. (2 points)\n3. Identifiez la figure de style dans « est comme un arbre sans racines » et expliquez son sens. (2 points)\n4. Quel sentiment le narrateur éprouve-t-il aujourd'hui ? Justifiez votre réponse. (2 points)\n5. Pourquoi le narrateur écrit-il ? (1 point)",
+   "indices": [
+    "« Relevez » : recopie exactement, entre guillemets.",
+    "« Justifiez » : réponse, citation, explication."
+   ],
+   "corrige": [
+    "1. Le narrateur est le petit-fils, devenu adulte (« Mon grand-père », « je »), qui se souvient de son grand-père, conteur et connaisseur de la nature.",
+    "2. Par exemple : « il connaissait chaque arbre de la colline » ; « il me montrait les étoiles une à une » ; « les contes que son propre grand-père lui avait confiés ». Deux relevés exacts entre guillemets (1 point chacun).",
+    "3. C'est une comparaison (outil « comme ») : un peuple sans mémoire est aussi fragile qu'un arbre sans racines, que le moindre vent renverse ; les histoires transmises sont les racines qui donnent force et stabilité à un peuple.",
+    "4. Il éprouve de la tristesse et un sentiment de perte (de la nostalgie) : « mon grand-père n'est plus là » et « je cherche en vain » montrent qu'il regrette ce trésor disparu, que même les livres ne peuvent lui rendre.",
+    "5. Il écrit pour conserver les paroles et les histoires de son grand-père, afin qu'elles ne disparaissent pas : « pour que ses paroles ne s'envolent pas »."
+   ],
+   "bareme": [
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "piege": "Ne réponds pas à la question 4 sans citer le texte : sans preuve, la réponse vaut au mieux la moitié des points.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S2-C13-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C13-N3",
+    "FR-S2-C13-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Prépare la fiche d'un exposé oral de 5 à 7 minutes sur L'Enfant noir de Camara Laye (ou sur l'œuvre intégrale étudiée dans ta classe) : introduction avec une question de départ, plan en deux parties avec un passage à évoquer dans chacune, conclusion, et trois conseils d'expression orale.",
+   "indices": [
+    "Reprends les quatre entrées : structure, personnages, thèmes, contexte.",
+    "Une question de départ donne un fil à l'exposé."
+   ],
+   "corrige": [
+    "Introduction : Camara Laye, écrivain guinéen ; L'Enfant noir, récit autobiographique paru en 1953 ; question de départ : « Ce récit d'enfance est-il seulement un souvenir heureux ? » ; annonce des deux parties.",
+    "Partie I, une enfance heureuse dans un monde de traditions : la vie à Kouroussa, l'atelier du père et le petit serpent noir, les séjours et la moisson à Tindican.",
+    "Partie II, un récit d'arrachement : l'école qui éloigne peu à peu l'enfant, les départs successifs, le départ final pour la France et la douleur de la mère.",
+    "Conclusion : avis argumenté (un livre qui fait aimer une culture et montre le prix de la réussite scolaire) et question au public (« Faut-il toujours partir pour réussir ? »).",
+    "Expression orale : regarder la classe, parler fort et lentement, ne pas lire (fiche de mots-clés), respecter le temps ; une carte des personnages au tableau est un plus."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "Ne raconte pas le livre chapitre par chapitre : un exposé répond à une question, avec un plan.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S2-C13-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S2-C13-N2",
+    "FR-S2-C13-N3",
+    "FR-S2-C13-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Sujet (dissertation sur l'œuvre intégrale) : « Certains lecteurs ne voient dans L'Enfant noir de Camara Laye qu'un simple récit d'enfance heureuse. Partagez-vous ce point de vue ? »\n\n1. Écris ton plan de route horaire pour ce sujet dans une épreuve de 4 heures (partie A comprise).\n2. Construis le plan détaillé (deux parties, deux sous-parties chacune, un passage de l'œuvre par sous-partie).\n3. Rédige l'introduction et la conclusion.",
+   "indices": [
+    "Appuie-toi sur le tableau de la notion 2 (structure, personnages, thèmes, contexte).",
+    "« ne… que » et « simple » appellent une réponse nuancée."
+   ],
+   "corrige": [
+    "1. Plan de route : 0 h 00-0 h 10 lecture et choix ; 0 h 10-1 h 00 partie A ; 1 h 00-2 h 00 brouillon de la dissertation (analyse, plan détaillé, introduction, conclusion) ; 2 h 00-3 h 30 rédaction au propre ; 3 h 30-3 h 50 relecture ; 3 h 50-4 h 00 sécurité.",
+    "2. Analyse : « ne… que » et « simple » sont des restrictions ; problématique : « L'Enfant noir se réduit-il au souvenir d'une enfance heureuse, ou est-il aussi le récit d'un arrachement et un témoignage ? » Plan dialectique.",
+    "2 (partie I). Un récit d'enfance heureuse : I.1 la tendresse familiale et l'admiration pour les parents (le père orfèvre au travail, la mère protectrice) ; I.2 un monde de joies et de merveilleux (la moisson du riz à Tindican, le petit serpent noir du père).",
+    "2 (partie II). Mais un récit d'arrachement et de mémoire : II.1 l'école et les départs successifs éloignent l'enfant (Conakry, puis la France, la douleur de la mère) ; II.2 le livre d'un exilé qui témoigne d'une culture (écrit à Paris, il sauve de l'oubli les rites et les savoir-faire ; certains critiques de l'époque lui reprochaient de ne pas dénoncer la colonisation, mais ce témoignage reste précieux).",
+    "3. Introduction : « Publié en 1953, L'Enfant noir de Camara Laye raconte l'enfance de l'auteur en Haute-Guinée, de Kouroussa à Conakry. Certains lecteurs n'y voient qu'un simple récit d'enfance heureuse. Ce livre se réduit-il au souvenir d'un bonheur passé, ou est-il aussi le récit d'un arrachement et le témoignage d'une culture ? Nous verrons d'abord qu'il peint une enfance heureuse, puis qu'il raconte aussi un éloignement douloureux et sauve de l'oubli un monde disparu. »",
+    "3. Conclusion : « Ainsi, L'Enfant noir est bien le récit d'une enfance heureuse, entourée d'amour et de merveilleux ; mais ce bonheur est raconté par un exilé, et chaque étape de la réussite scolaire est aussi un arrachement. Ce n'est donc pas un simple récit d'enfance : c'est un livre de mémoire. Il invite à se demander ce que chacun de nous perd et gagne en quittant son village pour étudier. »",
+    "Qualité : passages exacts de l'œuvre, aucune invention, titre souligné, introduction et conclusion en un paragraphe chacune, réponse nette et nuancée."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "piege": "Ne raconte pas le livre : chaque sous-partie défend une idée, prouvée par un passage.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Passer trop de temps sur la partie A et bâcler la partie B, ou l'inverse.",
+  "Changer de sujet B en cours de route, ou traiter deux sujets.",
+  "Tout rédiger au brouillon et ne pas finir de recopier.",
+  "Répondre aux questions sans citer le texte, ou relever une phrase entière quand on demande un mot.",
+  "Raconter l'œuvre intégrale au lieu de répondre à la question posée.",
+  "Rendre une copie sans conclusion, sans numéro de sujet ou sans relecture."
+ ]
+}

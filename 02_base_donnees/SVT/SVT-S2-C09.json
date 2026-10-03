@@ -1,0 +1,706 @@
+{
+ "id": "SVT-S2-C09",
+ "matiere": "SVT",
+ "semestre": 2,
+ "ordre": 9,
+ "titre": "Le sol : formation, constituants, propriétés et fertilité",
+ "objectifs": [
+  "L'élève doit être capable de mettre en évidence les constituants du sol et de calculer leurs proportions.",
+  "L'élève doit être capable de décrire un profil pédologique et d'expliquer la formation d'un sol.",
+  "L'élève doit être capable d'expliquer la perméabilité, la rétention de l'eau, la structure et le rôle du complexe argilo-humique.",
+  "L'élève doit être capable d'identifier les causes de la baisse de fertilité des sols au Togo et de proposer des mesures de gestion durable justifiées."
+ ],
+ "prerequis": [
+  "SVT-3e-SOL",
+  "SVT-S1-C03",
+  "SVT-S1-C05",
+  "SVT-S1-C06",
+  "SVT-S2-C08"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S2-C09-N1",
+   "titre": "Les constituants du sol",
+   "prerequis_notions": [
+    "SVT-3e-SOL",
+    "SVT-S1-C03-N1"
+   ],
+   "cours_md": "### 1. Le sol, une couche vivante\n:::definition\n**Sol** : couche superficielle meuble de la croûte terrestre, épaisse de quelques centimètres à plusieurs mètres, formée par l'altération des roches et par l'apport de matière organique, et peuplée d'êtres vivants. C'est le support et le réservoir d'eau et d'ions minéraux des plantes.\n:::\n\nUn sol comprend une **phase solide** (matières minérales et organiques), une **phase liquide** (l'eau du sol, qui contient des ions dissous : la **solution du sol**), une **phase gazeuse** (l'air du sol) et des **êtres vivants**. Dans un sol cultivé de bonne qualité, on trouve en volume environ 45 % de matières minérales, 5 % de matière organique, 25 % d'eau et 25 % d'air.\n\n### 2. Mettre en évidence les constituants\n:::methode\n- **Eau** : peser un échantillon de terre fraîche ($m_1$), le sécher à l'**étuve à 105 °C** jusqu'à masse constante ($m_2$). Masse d'eau $= m_1 - m_2$.\n- **Matière organique** : **calciner** la terre sèche (chauffage au rouge dans un creuset) : la matière organique brûle ; la perte de masse correspond à la matière organique.\n- **Air** : verser un volume connu de terre sèche dans un volume connu d'eau ; des bulles s'échappent. Volume d'air = volume de terre − (volume final − volume d'eau).\n- **Calcaire** : quelques gouttes d'**acide chlorhydrique** dilué provoquent une **effervescence** (dégagement de $\\ce{CO2}$) si le sol contient du calcaire.\n- **Taille des particules** : agiter la terre dans une éprouvette d'eau puis laisser reposer (**sédimentation**), ou la passer dans une série de **tamis**.\n- **Êtres vivants** : l'**appareil de Berlese** (une lampe chauffe et assèche la terre posée sur un tamis ; les petits animaux fuient vers le bas et tombent dans un flacon d'alcool).\n:::\n\n:::propriete\n$$\\%\\ \\text{eau} = \\frac{m_{\\text{fraîche}} - m_{\\text{sèche}}}{m_{\\text{fraîche}}} \\times 100 \\qquad \\%\\ \\text{MO} = \\frac{m_{\\text{sèche}} - m_{\\text{calcinée}}}{m_{\\text{sèche}}} \\times 100$$\nToujours préciser **par rapport à quelle masse** on calcule le pourcentage.\n:::\n\n### 3. La fraction minérale et la texture\nAprès sédimentation, les particules se déposent de la plus grosse (au fond) à la plus fine (en haut) ; les argiles restent longtemps en suspension (eau trouble).\n\n| Classe | Diamètre | Propriétés |\n|---|---|---|\n| Graviers et cailloux | > 2 mm | ne font pas partie de la « terre fine » |\n| Sables | 50 µm à 2 mm | laissent passer l'eau et l'air, retiennent peu l'eau et les ions |\n| Limons | 2 à 50 µm | toucher doux, forment une croûte de battance quand ils sont seuls |\n| Argiles | < 2 µm | collantes, retiennent fortement l'eau et les ions, imperméables |\n\n:::definition\n**Texture d'un sol** : proportions de sables, de limons et d'argiles de sa terre fine. Un sol **sableux** est léger et filtrant ; un sol **argileux** est lourd, collant à l'état humide et dur à l'état sec ; un sol **équilibré** (par exemple environ 20 % d'argiles, 40 % de limons, 40 % de sables) est le plus favorable aux cultures.\n:::\n\n### 4. La fraction organique : de la litière à l'humus\n- La **litière** est formée des débris végétaux (feuilles, branches) et animaux tombés au sol.\n- Les **décomposeurs** (bactéries, champignons) et la **pédofaune** (vers de terre, termites, mille-pattes, collemboles) la fragmentent et la transforment.\n- Une partie est transformée en **humus**, matière organique stable, brun-noir, qui colore l'horizon supérieur : c'est l'**humification**.\n- L'humus est lentement dégradé en ions minéraux ($\\ce{NO3-}$, $\\ce{PO4^3-}$, $\\ce{K+}$…) utilisables par les plantes : c'est la **minéralisation**.\n\n:::remarque\nLes **vers de terre** brassent le sol et y creusent des galeries qui l'aèrent ; les **termites**, très nombreux dans les savanes du Togo, remontent de la terre fine et enfouissent de la matière organique. Charles Darwin estimait déjà en 1881 que les vers retournent chaque année des dizaines de tonnes de terre par hectare.\n:::\n\n:::attention\nNe confonds pas **texture** (proportions des particules, qu'on ne peut pas changer facilement) et **structure** (manière dont les particules sont assemblées en agrégats, que l'on peut améliorer par l'humus et le travail du sol).\n:::",
+   "definition": "Le sol est formé d'une fraction minérale (sables, limons, argiles), d'une fraction organique (litière, humus), d'eau, d'air et d'êtres vivants ; ses proportions de sables, de limons et d'argiles définissent sa texture.",
+   "formules": [
+    "$\\%\\ \\text{eau} = \\dfrac{m_f - m_s}{m_f} \\times 100$",
+    "$\\%\\ \\text{MO} = \\dfrac{m_s - m_c}{m_s} \\times 100$",
+    "argiles $< 2\\ \\mu\\text{m}$ ; limons $2$ à $50\\ \\mu\\text{m}$ ; sables $50\\ \\mu\\text{m}$ à $2\\ \\text{mm}$"
+   ],
+   "niveaux": {
+    "phrase": "Le sol est un mélange de grains minéraux, d'humus, d'eau, d'air et d'êtres vivants.",
+    "simple": "Le sol ressemble à une éponge de cuisine faite de grains de différentes tailles (sables, limons, argiles) collés par une « colle » brune, l'humus. Les trous de l'éponge sont remplis d'air et d'eau, et des milliers de petits ouvriers (vers, termites, bactéries) y travaillent.",
+    "complete": "Le sol comporte une phase solide minérale (graviers, sables de 50 µm à 2 mm, limons de 2 à 50 µm, argiles de moins de 2 µm) et organique (litière, humus issu de l'humification, minéralisé lentement en ions), une phase liquide (solution du sol), une phase gazeuse et une pédofaune et une microflore abondantes. On dose l'eau par séchage à 105 °C, la matière organique par calcination, l'air par déplacement d'eau ; la sédimentation et le tamisage révèlent la texture."
+   },
+   "analogie": "Le sol est comme une sauce gombo : les ingrédients solides (grains minéraux) sont liés par une partie gluante (argiles et humus), et il faut à la fois du liquide (eau) et des bulles d'air pour que tout soit bon.",
+   "exemples_resolus": [
+    {
+     "enonce": "Un élève prélève 200 g de terre fraîche dans un champ de maïs. Après séchage à 105 °C, elle pèse 170 g. Après calcination, la terre sèche pèse 161,5 g. Calcule le pourcentage d'eau (par rapport à la terre fraîche) et le pourcentage de matière organique (par rapport à la terre sèche).",
+     "etapes": [
+      "Masse d'eau = 200 − 170 = 30 g ; % eau = 30 ÷ 200 × 100 = 15 %.",
+      "Masse de matière organique = 170 − 161,5 = 8,5 g ; % MO = 8,5 ÷ 170 × 100 = 5 %.",
+      "Conclusion : la terre contient 15 % d'eau (masse fraîche) et 5 % de matière organique (masse sèche), une teneur en humus plutôt bonne pour un sol cultivé."
+     ]
+    },
+    {
+     "enonce": "Un tamisage de 500 g de terre fine sèche donne : sables 300 g, limons 100 g, argiles 100 g. Calcule les pourcentages et donne les avantages et inconvénients probables de ce sol.",
+     "etapes": [
+      "Sables : 300 ÷ 500 × 100 = 60 % ; limons : 100 ÷ 500 × 100 = 20 % ; argiles : 100 ÷ 500 × 100 = 20 %.",
+      "Le sol est à dominante sableuse mais contient assez d'argiles (20 %).",
+      "Avantages : bien aéré, facile à travailler, l'eau s'infiltre bien ; les argiles retiennent un peu d'eau et d'ions.",
+      "Inconvénient : risque de dessèchement et de lessivage en cas de fortes pluies ; il faut entretenir son humus (fumier, compost)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Calculer le pourcentage de matière organique par rapport à la terre fraîche au lieu de la terre sèche (ou ne pas préciser la référence).",
+    "Croire que les argiles sont des grains de sable très fins visibles à l'œil nu (elles mesurent moins de 2 µm).",
+    "Confondre litière (débris non décomposés) et humus (matière organique transformée, stable).",
+    "Oublier l'air et les êtres vivants parmi les constituants du sol.",
+    "Confondre texture et structure."
+   ],
+   "astuces": [
+    "Ordre de sédimentation : « le plus lourd tombe d'abord » : graviers, sables, limons, puis argiles.",
+    "Les seuils de taille : 2 µm, 50 µm, 2 mm (« 2 – 50 – 2 »).",
+    "Dans un calcul, écris toujours la masse de départ : « par rapport à la terre fraîche » ou « sèche »."
+   ],
+   "mnemo": "« Sable, Limon, Argile : du Gros au Petit » ; seuils « 2 mm, 50 µm, 2 µm ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que la plante prélève dans le sol l'eau et les sels minéraux, et que les décomposeurs recyclent la matière morte. Ici, on étudie le sol lui-même."
+   },
+   "methode_redaction": "Pour un protocole de mise en évidence : 1) nom du constituant ; 2) manipulation (étuve, calcination, acide…) ; 3) observation ; 4) conclusion. Pour un calcul : formule avec la masse de référence, application numérique, résultat en %, phrase de conclusion.",
+   "flash": [
+    {
+     "q": "Comment mesurer l'eau d'un sol ?",
+     "r": "Peser, sécher à l'étuve à 105 °C jusqu'à masse constante, repeser : la perte = eau."
+    },
+    {
+     "q": "Comment mesurer la matière organique ?",
+     "r": "Par calcination de la terre sèche : la perte de masse = matière organique."
+    },
+    {
+     "q": "Taille des argiles ? des limons ? des sables ?",
+     "r": "Argiles < 2 µm ; limons 2 à 50 µm ; sables 50 µm à 2 mm."
+    },
+    {
+     "q": "Différence litière / humus ?",
+     "r": "La litière : débris non décomposés ; l'humus : matière organique transformée et stable."
+    },
+    {
+     "q": "Qu'est-ce que la minéralisation ?",
+     "r": "La transformation lente de l'humus en ions minéraux utilisables par les plantes."
+    },
+    {
+     "q": "Que montre une effervescence à l'acide chlorhydrique ?",
+     "r": "La présence de calcaire dans le sol (dégagement de CO2)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C09-N1.svg",
+    "alt": "Éprouvette de sédimentation d'un sol, composition en volume d'un sol cultivé et classes granulométriques",
+    "legende": "Les particules se déposent par taille ; un bon sol contient environ 45 % de minéraux, 5 % de matière organique, 25 % d'eau et 25 % d'air.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C09-N2",
+   "titre": "La formation du sol (pédogenèse) et le profil pédologique",
+   "prerequis_notions": [
+    "SVT-S2-C09-N1",
+    "SVT-3e-ROCHES"
+   ],
+   "cours_md": "### 1. Le profil pédologique\nUne tranchée creusée dans le sol montre une succession de couches horizontales de couleur, de texture et de structure différentes : les **horizons**. Leur ensemble, de la surface à la roche, forme le **profil pédologique**.\n\n| Horizon | Description |\n|---|---|\n| **A0** | litière : débris végétaux peu décomposés |\n| **A** | horizon **humifère** : sombre (humus mêlé aux minéraux), riche en racines et en êtres vivants ; horizon **lessivé** (il perd des éléments vers le bas) |\n| **B** | horizon d'**accumulation** : il reçoit les argiles, les oxydes de fer et d'aluminium entraînés depuis A ; souvent rouge ou ocre |\n| **C** | **roche mère altérée** (altérite) : fragments et minéraux de la roche en cours de transformation |\n| **R** | **roche mère** saine |\n\n### 2. La formation d'un sol se fait en trois processus\n**a) L'altération de la roche mère** (désagrégation et décomposition) :\n- **physique** : alternances de chaleur le jour et de fraîcheur la nuit (dilatations et contractions qui fissurent la roche), pression des racines dans les fissures ;\n- **chimique** : l'eau de pluie, légèrement acide (elle contient du $\\ce{CO2}$ et des acides organiques de l'humus), transforme les minéraux. Le **feldspath** du granite est **hydrolysé** en **argile** (kaolinite) en libérant des ions $\\ce{K+}$ ; le quartz, très résistant, reste sous forme de grains de **sable** ;\n- **biologique** : racines, lichens, bactéries.\n\n:::propriete\nHydrolyse du feldspath potassique (orthose) en kaolinite, en milieu chaud et humide :\n$$\\ce{2KAlSi3O8 + 2H+ + 9H2O -> Al2Si2O5(OH)4 + 2K+ + 4H4SiO4}$$\nLe granite (quartz + feldspath + mica) donne ainsi une **arène** de sable de quartz et d'argile.\n:::\n\n**b) L'apport et la transformation de la matière organique** : chute de la litière, **humification** et **minéralisation** par les décomposeurs (voir notion précédente). Le mélange intime de l'humus et des argiles forme le **complexe argilo-humique**.\n\n**c) Les migrations** : l'eau de pluie qui s'infiltre **entraîne vers le bas** des ions et des particules fines (**lessivage**) qui s'accumulent dans l'horizon B ; en saison sèche, l'évaporation peut faire **remonter** certaines substances.\n\n:::definition\n**Pédogenèse** : ensemble des processus (altération de la roche mère, enrichissement en matière organique, migrations) qui forment et différencient un sol au cours du temps.\n:::\n\n### 3. Les facteurs de la pédogenèse\nLe type de sol dépend du **climat** (température, pluies), de la **roche mère**, de la **végétation** et des êtres vivants, du **relief** (sur une pente forte, le sol est décapé et reste mince) et du **temps** : il faut souvent plusieurs siècles pour former quelques centimètres de sol. L'**Homme** le modifie aussi (défrichement, cultures, feux).\n\n### 4. Les grands types de sols du Togo\n- **Sols ferrallitiques** (sud du pays, plateaux de la région Maritime et des Plateaux) : en climat chaud et humide, l'altération est **très profonde** (plusieurs mètres) et poussée ; les ions des bases ($\\ce{Ca^2+}$, $\\ce{K+}$, $\\ce{Mg^2+}$) et une grande partie de la silice sont lessivés ; restent des argiles **kaolinites** et des **oxydes de fer** (couleur rouge) et d'aluminium. La « **terre de barre** » du sud-Togo en est un exemple : profonde, facile à travailler, mais acide et vite appauvrie.\n- **Sols ferrugineux tropicaux** (centre et nord, climat à longue saison sèche) : moins profonds, souvent lessivés ; le fer peut s'y concentrer et durcir en **cuirasse latéritique** quand le sol est décapé par l'érosion.\n- **Vertisols** (« terres noires » de la dépression de la Lama) : très argileux, ils gonflent quand ils sont humides et se fendillent en saison sèche ; riches mais difficiles à travailler.\n- **Sols hydromorphes** (bas-fonds et vallées du Mono, de l'Oti, du Zio) : engorgés d'eau une partie de l'année, couleurs grises ; utilisés pour le riz et le maraîchage.\n- **Sols peu évolués et lithosols** (reliefs des monts du Togo) : minces, caillouteux, car l'érosion enlève le sol au fur et à mesure.\n\n:::attention\nLe sol se forme **très lentement** mais peut être détruit **très vite** par l'érosion : c'est une ressource **non renouvelable à l'échelle humaine**.\n:::",
+   "definition": "Un sol se forme par altération de la roche mère, enrichissement en matière organique et migrations d'éléments ; il se différencie en horizons (A0, A, B, C, R) dont la nature dépend du climat, de la roche, de la végétation, du relief et du temps.",
+   "formules": [
+    "$\\ce{2KAlSi3O8 + 2H+ + 9H2O -> Al2Si2O5(OH)4 + 2K+ + 4H4SiO4}$",
+    "Profil : A0 (litière) → A (humifère) → B (accumulation) → C (roche altérée) → R (roche mère)"
+   ],
+   "niveaux": {
+    "phrase": "Le sol naît de la roche, lentement transformée par l'eau, le climat et les êtres vivants, et s'organise en couches appelées horizons.",
+    "simple": "Imagine un morceau de granite qui « pourrit » lentement sous la pluie et le soleil : il devient sable et argile. Par-dessus, les feuilles mortes se transforment en humus. L'eau de pluie fait descendre certains éléments, comme une passoire. Après des siècles, on obtient un « mille-feuille » de couches : le profil du sol.",
+    "complete": "La pédogenèse associe l'altération physique, chimique (hydrolyse des feldspaths en kaolinite, quartz résiduel) et biologique de la roche mère, l'apport et la transformation de la matière organique (humification, minéralisation, complexe argilo-humique) et les migrations (lessivage de A vers B, remontées). Le profil comprend les horizons A0, A, B, C et R. Le climat, la roche mère, la végétation, le relief, le temps et l'Homme déterminent le type de sol : ferrallitique (terre de barre), ferrugineux tropical, vertisol, hydromorphe ou lithosol au Togo."
+   },
+   "analogie": "Le profil du sol est comme une marmite de sauce laissée sur le feu : en haut, les feuilles (litière) qui flottent ; au milieu, la sauce épaisse (horizon B) où se sont accumulés les morceaux tombés du haut ; au fond, ce qui n'a pas encore fondu (roche mère).",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : teneur en argile des horizons d'un sol ferrugineux tropical du nord du Togo : horizon A : 12 % ; horizon B : 38 % ; horizon C : 20 %. Interprète ces données.",
+     "etapes": [
+      "Je décris : l'horizon B est beaucoup plus riche en argile que A (38 % contre 12 %) et que C (20 %).",
+      "L'horizon C fournit des argiles par altération de la roche ; l'horizon A en a perdu.",
+      "Interprétation : l'eau de pluie infiltrée a entraîné les argiles fines de A vers le bas (lessivage) ; elles se sont accumulées en B.",
+      "Conclusion : A est un horizon lessivé (appauvri) et B un horizon d'accumulation."
+     ]
+    },
+    {
+     "enonce": "Document : sur une même colline des monts du Togo, on observe : au sommet et sur la pente forte, un sol de 15 cm d'épaisseur reposant sur la roche ; dans le bas-fond, un sol de plus de 2 m, gris et humide. Explique ces différences.",
+     "etapes": [
+      "Même climat et même roche : la différence vient du relief.",
+      "Sur la pente, le ruissellement enlève la terre au fur et à mesure qu'elle se forme : le sol reste mince (sol peu évolué).",
+      "Dans le bas-fond, les particules arrachées en amont s'accumulent et l'eau stagne : le sol est épais et hydromorphe (gris, engorgé d'eau).",
+      "Conclusion : le relief est un facteur important de la pédogenèse."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre l'horizon A (lessivé, humifère) et l'horizon B (d'accumulation).",
+    "Dire que la roche mère est « la mère » du sol uniquement : l'humus vient de la végétation, pas de la roche.",
+    "Oublier le rôle de l'eau dans l'altération chimique.",
+    "Croire qu'un sol se reforme en quelques années après l'érosion.",
+    "Écrire que la couleur rouge des sols ferrallitiques vient de l'humus (elle vient des oxydes de fer)."
+   ],
+   "astuces": [
+    "Retiens les trois processus : « Altérer, Enrichir, Déplacer » (altération, matière organique, migrations).",
+    "Rouge = fer oxydé ; noir/brun = humus ; gris = engorgement d'eau."
+   ],
+   "mnemo": "Les horizons de haut en bas : « Avec Amour, Bâtis Ce Rêve » : A0, A, B, C, R.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as observé des roches comme le granite et appris que l'eau et le vent peuvent les user. Le sol est justement le produit de cette usure, mélangé à la matière organique."
+   },
+   "methode_redaction": "Pour décrire un profil : nommer chaque horizon de haut en bas, avec sa couleur, sa texture, sa richesse en humus et en êtres vivants. Pour expliquer la formation d'un sol : présenter les trois processus dans l'ordre et les relier au climat. Schéma : colonne verticale, horizons délimités, légendes à la règle, titre.",
+   "flash": [
+    {
+     "q": "Les horizons d'un profil, de haut en bas ?",
+     "r": "A0 (litière), A (humifère), B (accumulation), C (roche altérée), R (roche mère)."
+    },
+    {
+     "q": "Que devient le feldspath du granite par hydrolyse ?",
+     "r": "De l'argile (kaolinite), avec libération d'ions K+ ; le quartz reste sous forme de sable."
+    },
+    {
+     "q": "Qu'est-ce que le lessivage ?",
+     "r": "L'entraînement vers le bas d'ions et de particules fines par l'eau d'infiltration."
+    },
+    {
+     "q": "Les facteurs de la pédogenèse ?",
+     "r": "Climat, roche mère, végétation et êtres vivants, relief, temps (et l'Homme)."
+    },
+    {
+     "q": "D'où vient la couleur rouge de la terre de barre ?",
+     "r": "Des oxydes de fer accumulés dans ce sol ferrallitique."
+    },
+    {
+     "q": "Où trouve-t-on des vertisols au Togo ?",
+     "r": "Dans la dépression de la Lama (terres noires argileuses)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C09-N2.svg",
+    "alt": "Profil d'un sol ferrallitique du sud du Togo avec ses horizons",
+    "legende": "Litière, horizon humifère, épais horizon rouge d'accumulation, roche altérée et roche mère ; lessivage et altération.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C09-N3",
+   "titre": "Les propriétés du sol : eau, air, structure et complexe argilo-humique",
+   "prerequis_notions": [
+    "SVT-S2-C09-N1",
+    "SVT-S1-C06-N2",
+    "SVT-S1-C02-N3"
+   ],
+   "cours_md": "### 1. Perméabilité et rétention de l'eau\n:::methode\n**Expérience** : placer la même masse de sable, de terre de jardin et d'argile dans trois entonnoirs garnis de coton ; verser 100 mL d'eau sur chacun ; mesurer le volume recueilli en 10 minutes.\n:::\n\nRésultats typiques : le **sable** laisse passer l'eau très vite et en retient peu ; l'**argile** la laisse passer très lentement et en retient beaucoup ; la **terre de jardin** est intermédiaire.\n\n:::definition\n**Perméabilité** : aptitude d'un sol à se laisser traverser par l'eau.\n**Capacité de rétention** : quantité d'eau qu'un sol peut retenir après que l'eau en excès s'est écoulée (en g d'eau pour 100 g de sol sec).\n:::\n\nL'eau du sol se présente sous plusieurs formes :\n- l'**eau de gravité**, qui s'écoule vers la profondeur après la pluie ;\n- l'**eau capillaire**, retenue dans les petits pores : c'est l'**eau utilisable** par les racines ;\n- l'**eau liée** (hygroscopique), collée aux particules d'argile et d'humus, que les racines ne peuvent pas extraire.\nQuand il ne reste que l'eau liée, la plante se fane : c'est le **point de flétrissement**.\n\n### 2. Porosité, aération et structure\n:::propriete\n$$\\text{porosité} = \\frac{\\text{volume des vides}}{\\text{volume total du sol}} \\times 100$$\nLes vides (pores) sont occupés par l'air et l'eau. Les racines et les êtres vivants du sol ont besoin du dioxygène de l'air du sol pour **respirer** (chapitre 8).\n:::\n\nLa **structure** est la façon dont les particules sont assemblées :\n- **grumeleuse** : petits agrégats arrondis, avec des pores de toutes tailles ; c'est la meilleure (air, eau et racines circulent) ;\n- **particulaire** : grains libres, comme le sable de plage ;\n- **compacte** (massive) : bloc sans pores, asphyxiant (sol argileux piétiné, tassé par les engins).\nL'**humus** et le **calcium** favorisent la structure grumeleuse.\n\n### 3. Le complexe argilo-humique (CAH)\nLes argiles et l'humus sont des particules très fines chargées **négativement** en surface. Ils s'associent grâce à des ions calcium $\\ce{Ca^2+}$ qui font **pont** entre eux : c'est le **complexe argilo-humique**.\n\n:::methode\n**Expérience** : filtrer à travers de la terre une solution de **bleu de méthylène** (colorant chargé positivement, un cation) et une solution d'**éosine** (colorant chargé négativement, un anion). Le filtrat du bleu de méthylène sort **incolore** : le colorant est **retenu** ; le filtrat d'éosine sort **rouge** : il n'est **pas retenu**.\nVariante : une solution de chlorure de potassium filtrée sur de la terre ressort moins riche en ions $\\ce{K+}$ qu'au départ, mais plus riche en ions $\\ce{Ca^2+}$ : il y a eu **échange**.\n:::\n\n:::propriete\nLe CAH **retient les cations** ($\\ce{Ca^2+}$, $\\ce{Mg^2+}$, $\\ce{K+}$, $\\ce{NH4+}$, $\\ce{H+}$) à sa surface et les **échange** avec ceux de la solution du sol. Il joue le rôle d'un **garde-manger** : les cations fixés ne sont pas entraînés par les pluies (lessivage) et restent disponibles pour les racines, qui libèrent des $\\ce{H+}$ en échange des cations qu'elles absorbent. Les **anions** ($\\ce{NO3-}$) ne sont pas retenus : ils sont facilement lessivés.\n:::\n\n:::remarque\n**Floculation** : en présence d'ions $\\ce{Ca^2+}$ (chaux), les argiles en suspension s'agglomèrent et se déposent (l'eau trouble s'éclaircit) ; c'est la base de la structure grumeleuse. Les ions $\\ce{Na+}$ font au contraire disperser les argiles.\n:::\n\n### 4. Le pH du sol\nLe **pH** de la solution du sol (mesuré au papier pH ou au pH-mètre sur une suspension de terre dans l'eau) indique son acidité. Quand le CAH perd ses cations nutritifs et se charge de $\\ce{H+}$ (lessivage intense, cultures répétées sans restitution), le sol s'**acidifie** (pH < 5,5), ce qui gêne l'absorption de certains éléments. On le corrige par le **chaulage** (apport de chaux ou de calcaire broyé) et par la fumure organique.\n\n:::attention\nUn sol très perméable n'est pas forcément un bon sol : il sèche vite et perd ses ions. Le sol idéal combine bonne perméabilité, bonne rétention et un CAH bien garni.\n:::",
+   "definition": "Le sol est caractérisé par sa perméabilité, sa capacité de rétention en eau, sa porosité, sa structure et son pH ; son complexe argilo-humique, chargé négativement, retient et échange les cations nutritifs.",
+   "formules": [
+    "$\\text{porosité} = \\dfrac{V_{\\text{vides}}}{V_{\\text{total}}} \\times 100$",
+    "$\\text{capacité de rétention} = \\dfrac{m_{\\text{eau retenue}}}{m_{\\text{sol sec}}} \\times 100$"
+   ],
+   "niveaux": {
+    "phrase": "Un bon sol laisse passer l'eau sans la perdre toute, contient de l'air, et retient les ions nutritifs grâce à l'argile et à l'humus.",
+    "simple": "Le complexe argilo-humique est comme une ardoise aimantée : il colle les ions positifs (calcium, potassium) pour qu'ils ne partent pas avec la pluie, et la racine vient les décrocher quand elle en a besoin en donnant un ion H+ en échange.",
+    "complete": "Les propriétés physiques du sol (perméabilité, capacité de rétention, porosité, structure grumeleuse, particulaire ou compacte) dépendent de sa texture et de son humus. L'eau utilisable est l'eau capillaire, entre la capacité de rétention et le point de flétrissement. Le complexe argilo-humique, formé d'argiles et d'humus chargés négativement reliés par Ca2+, adsorbe et échange les cations (K+, Ca2+, Mg2+, NH4+, H+), ce que montre la rétention du bleu de méthylène et non de l'éosine ; les anions comme NO3- sont lessivés. L'appauvrissement du CAH en bases acidifie le sol ; le chaulage le corrige."
+   },
+   "analogie": "Le CAH fonctionne comme une tontine : les ions déposés y sont gardés en sécurité au lieu de partir avec la pluie, et la plante vient retirer sa part quand elle en a besoin.",
+   "exemples_resolus": [
+    {
+     "enonce": "On sature d'eau 100 g de terre sèche puis on laisse égoutter : la terre retient 35 g d'eau. Une plante y fane quand il ne reste que 15 g d'eau pour 100 g de terre. 1) Quelle est la capacité de rétention ? 2) Quelle quantité d'eau est utilisable par les plantes ? 3) Pourquoi la plante fane-t-elle alors qu'il reste de l'eau ?",
+     "etapes": [
+      "1) Capacité de rétention = 35 ÷ 100 × 100 = 35 g d'eau pour 100 g de sol sec, soit 35 %.",
+      "2) Eau utilisable = 35 − 15 = 20 g pour 100 g de sol sec.",
+      "3) Les 15 g restants sont de l'eau liée, retenue trop fortement par les argiles et l'humus : les racines ne peuvent plus l'absorber (point de flétrissement).",
+      "Conclusion : seule une partie de l'eau du sol est utilisable par les plantes."
+     ]
+    },
+    {
+     "enonce": "Document : on verse dans deux tubes la même eau argileuse trouble. On ajoute de l'eau de chaux (riche en Ca2+) dans le tube 1 et de l'eau distillée dans le tube 2. Après 15 min, le tube 1 est clair avec un dépôt ; le tube 2 reste trouble. Interprète et donne l'intérêt pratique.",
+     "etapes": [
+      "Le tube 2 est le témoin : sans Ca2+, les argiles restent dispersées en suspension.",
+      "Dans le tube 1, les ions Ca2+ ont fait s'agglomérer les fines particules d'argile, qui se sont déposées : c'est la floculation.",
+      "Dans le sol, cette floculation permet de former des agrégats (structure grumeleuse) qui laissent circuler l'air et l'eau.",
+      "Intérêt : le chaulage d'un sol argileux ou acide améliore sa structure et corrige son acidité."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que le sol le plus perméable est le meilleur pour les cultures.",
+    "Dire que le CAH retient les nitrates (anions) : il retient les cations.",
+    "Inverser bleu de méthylène (cation, retenu) et éosine (anion, non retenu).",
+    "Oublier que les racines ont besoin d'air (respiration) : un sol engorgé ou tassé asphyxie les racines.",
+    "Confondre capacité de rétention et eau utilisable."
+   ],
+   "astuces": [
+    "Le CAH est négatif : « les contraires s'attirent », il retient les ions positifs.",
+    "Sable = « passoire » ; argile = « éponge qui garde tout » ; humus = « colle et garde-manger »."
+   ],
+   "mnemo": "« CAH négatif, Cations captifs ; Anions en vadrouille (lessivés). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que les plantes absorbent l'eau et les sels minéraux par les poils absorbants des racines. Ici, on voit comment le sol garde ces sels pour qu'ils ne soient pas emportés par la pluie."
+   },
+   "methode_redaction": "Pour exploiter une expérience de perméabilité : comparer les volumes recueillis et retenus avec les chiffres, relier à la taille des particules, conclure sur la qualité agricole. Pour le CAH : définir, expliquer l'expérience des colorants (cation retenu / anion non retenu), conclure sur le rôle de réserve et d'échange.",
+   "flash": [
+    {
+     "q": "Sol le plus perméable : sableux ou argileux ?",
+     "r": "Sableux (grosses particules, gros pores)."
+    },
+    {
+     "q": "Qu'est-ce que l'eau utilisable ?",
+     "r": "L'eau capillaire, comprise entre la capacité de rétention et le point de flétrissement."
+    },
+    {
+     "q": "De quoi est formé le complexe argilo-humique ?",
+     "r": "D'argiles et d'humus chargés négativement, reliés par des ions Ca2+."
+    },
+    {
+     "q": "Que retient le CAH ?",
+     "r": "Les cations (Ca2+, Mg2+, K+, NH4+, H+), qu'il échange avec la solution du sol."
+    },
+    {
+     "q": "Pourquoi le bleu de méthylène est-il retenu par la terre ?",
+     "r": "C'est un cation, attiré par les charges négatives du CAH."
+    },
+    {
+     "q": "Comment corriger un sol trop acide ?",
+     "r": "Par le chaulage (chaux, calcaire broyé) et la fumure organique."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C09-N3.svg",
+    "alt": "Le complexe argilo-humique avec ses cations échangeables et l'expérience de filtration du bleu de méthylène et de l'éosine",
+    "legende": "Argiles et humus chargés négativement retiennent les cations ; le bleu de méthylène (cation) est retenu, l'éosine (anion) traverse.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C09-N4",
+   "titre": "La fertilité du sol et sa gestion durable",
+   "prerequis_notions": [
+    "SVT-S2-C09-N3",
+    "SVT-S1-C05-N1",
+    "SVT-S1-C06-N3"
+   ],
+   "cours_md": "### 1. Qu'est-ce qu'un sol fertile ?\n:::definition\n**Fertilité d'un sol** : aptitude d'un sol à produire des récoltes abondantes et régulières. Elle résulte de trois composantes liées :\n- **physique** : profondeur, structure grumeleuse, bonne aération, bonne réserve en eau utilisable ;\n- **chimique** : ions nutritifs (N, P, K, Ca, Mg…) en quantité suffisante, CAH bien garni, pH proche de la neutralité ;\n- **biologique** : humus abondant, vie du sol active (vers, termites, bactéries fixatrices d'azote, champignons).\n:::\n\nL'**humus** agit sur les trois composantes : il améliore la structure et la rétention d'eau, fournit des ions par minéralisation, garnit le CAH et nourrit les êtres vivants du sol.\n\n### 2. Comment les sols togolais perdent leur fertilité\n- **Érosion hydrique** : sur sol nu ou en pente, les grosses pluies arrachent l'horizon humifère, le plus riche ; il se forme des ravines (chapitre 5).\n- **Érosion éolienne** : dans le nord, en saison sèche, le vent (harmattan) emporte la terre fine des champs dénudés.\n- **Feux de brousse** tardifs : ils détruisent la litière et l'humus, laissent le sol nu au début des pluies.\n- **Lessivage** : les fortes pluies entraînent les ions, surtout dans les sols ferrallitiques sableux du sud ; le sol s'acidifie.\n- **Cultures répétées sans restitution** (monoculture de maïs ou de coton sans engrais ni jachère) : les récoltes exportent les éléments minéraux (chapitre 6).\n- **Raccourcissement des jachères** à cause de la pression démographique, défrichement des pentes, surpâturage, tassement du sol.\n- Dans les cas extrêmes, le sol est décapé jusqu'à l'horizon B, qui durcit en **cuirasse** stérile.\n\n### 3. Les techniques de conservation et de restauration\n:::propriete\n**Lutter contre l'érosion** :\n- couvrir le sol : **paillage** (résidus de récolte laissés en surface), plantes de couverture ;\n- freiner le ruissellement : **cordons pierreux** et **haies vives** le long des courbes de niveau, **labour perpendiculaire à la pente**, **terrasses** (comme les terrasses traditionnelles des montagnes kabyè, région de la Kara) ;\n- **reboiser** les pentes et les berges, lutter contre les feux tardifs.\n:::\n\n:::propriete\n**Entretenir et restaurer la fertilité** :\n- **jachère** : laisser le sol se reposer sous une végétation naturelle, qui reconstitue l'humus ;\n- **jachère améliorée** avec une légumineuse de couverture comme le **mucuna**, utilisé au Togo et au Bénin pour restaurer la terre de barre épuisée et étouffer les mauvaises herbes ;\n- **rotation** des cultures et **association** céréale-légumineuse (maïs + niébé, sorgho + arachide) : les légumineuses enrichissent le sol en azote grâce aux bactéries *Rhizobium* de leurs nodosités ;\n- **fumure organique** (fumier, compost, déchets de récolte) et engrais minéraux bien dosés (chapitre 6) ;\n- **chaulage** des sols acides ;\n- **agroforesterie** : garder dans les champs des arbres utiles (karité, néré, baobab) dont les racines profondes remontent les ions et dont les feuilles enrichissent la litière.\n:::\n\n:::methode\n**Comparer l'efficacité d'une technique** : utiliser des **parcelles d'érosion** identiques (même sol, même pente, même pluie), l'une protégée, l'autre témoin, et mesurer la terre perdue (en tonnes par hectare et par an) ou le rendement obtenu.\n:::\n\n:::remarque\nCes techniques relèvent de la **gestion durable** des sols : produire aujourd'hui sans compromettre la production des générations futures (chapitre 5). Un sol perdu par l'érosion met des siècles à se reconstituer.\n:::\n\n:::attention\nL'engrais minéral seul ne suffit pas : sans humus, les ions apportés sont vite lessivés et la structure du sol se dégrade. Il faut associer fumure organique et fumure minérale.\n:::",
+   "definition": "La fertilité d'un sol, aptitude à produire des récoltes abondantes et régulières, dépend de ses qualités physiques, chimiques et biologiques ; on la préserve par la lutte contre l'érosion et on la restaure par la jachère, la rotation, les légumineuses, la fumure organique et l'agroforesterie.",
+   "formules": [
+    "$\\text{réduction de l'érosion} = \\dfrac{\\text{perte témoin} - \\text{perte protégée}}{\\text{perte témoin}} \\times 100$"
+   ],
+   "niveaux": {
+    "phrase": "Un sol fertile produit bien et longtemps ; il faut le protéger de l'érosion et lui rendre ce que les récoltes lui prennent.",
+    "simple": "Le sol est comme un compte en banque : chaque récolte retire de l'argent (les ions), l'érosion vole une partie du capital (l'horizon humifère). Le fumier, le compost, la jachère et les légumineuses sont des dépôts ; les cordons pierreux et les haies sont les serrures qui protègent le coffre.",
+    "complete": "La fertilité résulte de composantes physiques (structure, eau, air), chimiques (ions nutritifs, CAH, pH) et biologiques (humus, vie du sol). Elle se dégrade par érosion hydrique et éolienne, feux de brousse, lessivage et acidification, exportations sans restitution et raccourcissement des jachères. Sa gestion durable associe la lutte antiérosive (paillage, cordons pierreux, haies vives, terrasses, labour selon les courbes de niveau, reboisement) et la restauration (jachère, mucuna, rotations et associations avec des légumineuses fixatrices d'azote, fumure organique et minérale, chaulage, agroforesterie)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : dans un village de la région Maritime, un champ de maïs sur terre de barre épuisée produit 0,8 t/ha. Après deux ans de jachère à mucuna, le même champ produit 2,0 t/ha sans engrais. 1) Calcule l'augmentation de rendement en %. 2) Explique l'effet du mucuna.",
+     "etapes": [
+      "1) Augmentation = (2,0 − 0,8) ÷ 0,8 × 100 = 150 % : le rendement a été multiplié par 2,5.",
+      "2) Le mucuna est une légumineuse : ses nodosités abritent des bactéries qui fixent l'azote de l'air ; en se décomposant, ses feuilles enrichissent le sol en azote et en humus.",
+      "Sa couverture protège aussi le sol de l'érosion et étouffe les mauvaises herbes ; l'humus améliore la structure et la rétention d'eau.",
+      "Conclusion : la jachère améliorée restaure les composantes chimique, physique et biologique de la fertilité."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Réduire la fertilité aux seuls engrais (composante chimique) en oubliant la structure et la vie du sol.",
+    "Proposer de labourer dans le sens de la pente (cela accélère le ruissellement).",
+    "Croire que brûler les résidus de récolte « enrichit » durablement le sol (les cendres sont vite lessivées et l'humus est perdu).",
+    "Oublier le rôle des légumineuses et de leurs bactéries fixatrices d'azote.",
+    "Donner des mesures sans les justifier (« planter des haies » sans dire qu'elles freinent le ruissellement)."
+   ],
+   "astuces": [
+    "Pour toute mesure de conservation, dis ce qu'elle protège : la terre (érosion), l'eau (infiltration), les ions (lessivage) ou l'humus.",
+    "Associe chaque région à un problème : pentes des Plateaux et de la Kara → érosion hydrique ; nord → érosion éolienne et feux ; sud → lessivage de la terre de barre."
+   ],
+   "mnemo": "« Couvrir, Freiner, Nourrir » : couvrir le sol, freiner l'eau, nourrir le sol.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris que les activités humaines (déforestation, feux de brousse) dégradent l'environnement. Le sol en est une des premières victimes, et sa protection est une mesure de gestion durable."
+   },
+   "methode_redaction": "Pour une question « proposer des solutions » : 1) identifier le problème dans le document (pente, sol nu, rendement en baisse) ; 2) proposer 2 ou 3 mesures précises ; 3) justifier chacune (« les cordons pierreux freinent le ruissellement, donc… ») ; 4) conclure sur la durabilité.",
+   "flash": [
+    {
+     "q": "Les trois composantes de la fertilité ?",
+     "r": "Physique, chimique et biologique."
+    },
+    {
+     "q": "Rôle d'un cordon pierreux ?",
+     "r": "Freiner le ruissellement et retenir la terre le long des courbes de niveau."
+    },
+    {
+     "q": "Pourquoi associer maïs et niébé ?",
+     "r": "Le niébé, légumineuse, enrichit le sol en azote grâce aux bactéries de ses nodosités."
+    },
+    {
+     "q": "Qu'est-ce qu'une jachère ?",
+     "r": "Une période de repos du sol sous végétation, qui reconstitue l'humus et la fertilité."
+    },
+    {
+     "q": "Quel est le rôle du mucuna au Togo ?",
+     "r": "Légumineuse de couverture utilisée en jachère améliorée pour restaurer la terre de barre."
+    },
+    {
+     "q": "Pourquoi les feux tardifs nuisent-ils au sol ?",
+     "r": "Ils détruisent litière et humus et laissent le sol nu face aux premières pluies."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C09-N4.svg",
+    "alt": "Comparaison d'une pente nue érodée et d'une pente aménagée, et les trois composantes de la fertilité",
+    "legende": "Cordons pierreux, haies vives et paillage retiennent la terre ; la fertilité est physique, chimique et biologique.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S2-C09-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C09-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Des particules de 30 µm de diamètre appartiennent à la classe :",
+   "choix": [
+    "des argiles",
+    "des limons",
+    "des sables",
+    "des graviers"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Classes : argiles < 2 µm ; limons 2 à 50 µm ; sables 50 µm à 2 mm.",
+    "30 µm est compris entre 2 et 50 µm : ce sont des limons (réponse B)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre µm et mm et répondre « graviers ».",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C09-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C09-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Dans un profil de sol, l'horizon sombre, riche en humus, en racines et en êtres vivants est l'horizon :",
+   "choix": [
+    "A",
+    "B",
+    "C",
+    "R"
+   ],
+   "bonne_reponse": 0,
+   "indices": [],
+   "corrige": [
+    "L'horizon A est l'horizon humifère, coloré par l'humus.",
+    "B est l'horizon d'accumulation, C la roche altérée, R la roche mère : réponse A."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre A (humifère) et B (accumulation).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C09-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C09-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "150 g de terre fraîche pèsent 120 g après séchage à l'étuve à 105 °C. Calcule le pourcentage d'eau par rapport à la terre fraîche (nombre seul).",
+   "reponses_acceptees": [
+    "20",
+    "20%",
+    "20 %"
+   ],
+   "indices": [
+    "Masse d'eau = masse fraîche − masse sèche."
+   ],
+   "corrige": [
+    "Masse d'eau = 150 − 120 = 30 g.",
+    "% eau = 30 ÷ 150 × 100 = 20 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par 120 (terre sèche) au lieu de 150 (terre fraîche).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C09-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C09-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Les 120 g de terre sèche de l'exercice précédent pèsent 114 g après calcination. Calcule le pourcentage de matière organique par rapport à la terre sèche (nombre seul).",
+   "reponses_acceptees": [
+    "5",
+    "5%",
+    "5 %"
+   ],
+   "indices": [
+    "La calcination fait brûler la matière organique."
+   ],
+   "corrige": [
+    "Masse de matière organique = 120 − 114 = 6 g.",
+    "% MO = 6 ÷ 120 × 100 = 5 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par 150 (terre fraîche).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C09-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C09-N3"
+   ],
+   "format": "qcm",
+   "enonce": "On verse 100 mL d'eau sur trois entonnoirs contenant du sable, de la terre de jardin et de l'argile. En 10 min, on recueille 85 mL, 60 mL et 15 mL. Quelle affirmation est exacte ?",
+   "choix": [
+    "L'argile est le matériau le plus perméable.",
+    "Le sable retient 85 mL d'eau.",
+    "L'argile retient 85 mL d'eau, le sable 15 mL.",
+    "La terre de jardin ne retient pas d'eau."
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Volume retenu = 100 − volume recueilli : sable 15 mL, terre 40 mL, argile 85 mL.",
+    "L'argile, très peu perméable, retient le plus d'eau ; le sable laisse passer l'eau : réponse C."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre volume recueilli et volume retenu.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C09-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C09-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On verse 50 cm³ de terre sèche dans une éprouvette contenant 100 mL d'eau. Après la sortie des bulles d'air, le niveau se stabilise à 130 mL. Calcule la porosité (pourcentage du volume de terre occupé par l'air), nombre seul.",
+   "reponses_acceptees": [
+    "40",
+    "40%",
+    "40 %"
+   ],
+   "indices": [
+    "L'augmentation du niveau d'eau correspond au volume des particules solides."
+   ],
+   "corrige": [
+    "Volume des particules solides = 130 − 100 = 30 cm³.",
+    "Volume des vides (air) = 50 − 30 = 20 cm³.",
+    "Porosité = 20 ÷ 50 × 100 = 40 %."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Prendre 30 cm³ (volume solide) pour le volume d'air.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C09-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C09-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution organisée des connaissances. Explique comment un sol se forme à partir d'une roche mère comme le granite, en climat chaud et humide. Ton texte présentera les trois grands processus de la pédogenèse et l'origine des horizons A, B et C.",
+   "indices": [],
+   "corrige": [
+    "Altération de la roche mère : physique (dilatation-contraction, racines) et surtout chimique : l'eau de pluie hydrolyse les feldspaths en argile (kaolinite) ; le quartz reste sous forme de sable.",
+    "Enrichissement en matière organique : la litière est transformée par les décomposeurs en humus (humification), lui-même minéralisé ; l'humus s'associe aux argiles (complexe argilo-humique).",
+    "Migrations : l'eau d'infiltration entraîne ions et argiles vers le bas (lessivage).",
+    "Origine des horizons : A = horizon humifère lessivé ; B = horizon d'accumulation des argiles et oxydes de fer ; C = roche altérée ; dessous, R = roche mère.",
+    "Présentation : introduction, paragraphes organisés, conclusion (le sol se forme lentement : ressource à protéger)."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1.5,
+    0.5
+   ],
+   "piege": "Oublier l'apport de la matière organique ou les migrations.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C09-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C09-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation d'expérience. On filtre sur trois colonnes de terre identiques : A, une solution de bleu de méthylène (cation) ; B, une solution d'éosine (anion) ; C, une solution de chlorure de potassium (KCl). Résultats : filtrat A incolore ; filtrat B rouge ; filtrat C moins riche en K+ que la solution de départ mais contenant des ions Ca2+ absents au départ.\n1) Interprète les résultats A et B. 2) Interprète le résultat C. 3) Quel est l'intérêt de cette propriété pour la nutrition des plantes ? 4) Pourquoi les engrais azotés nitriques (NO3-) sont-ils facilement perdus par lessivage ?",
+   "indices": [
+    "Pense aux charges électriques : le CAH est chargé négativement."
+   ],
+   "corrige": [
+    "1) Le bleu de méthylène (cation) est retenu par la terre ; l'éosine (anion) ne l'est pas : la terre retient les cations, grâce aux charges négatives du complexe argilo-humique.",
+    "2) Les ions K+ ont été fixés par le CAH, qui a libéré en échange des ions Ca2+ : le CAH échange ses cations avec ceux de la solution du sol.",
+    "3) Le CAH stocke les cations nutritifs (K+, Ca2+, Mg2+, NH4+) sans qu'ils soient emportés par les pluies et les restitue aux racines par échange (contre des H+).",
+    "4) Les nitrates sont des anions, non retenus par le CAH chargé négativement : ils restent dans la solution du sol et sont entraînés par l'eau d'infiltration."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Penser que la terre « filtre » simplement les colorants comme un tamis, quelle que soit leur charge.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C09-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C09-N3",
+    "SVT-S2-C09-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Un sol ferrallitique très lessivé du sud du Togo a un pH de 4,8 et un complexe argilo-humique pauvre en Ca2+ et en K+. La mesure la plus adaptée pour améliorer durablement ce sol est :",
+   "choix": [
+    "brûler les résidus de récolte chaque année",
+    "apporter de la chaux et de la fumure organique (fumier, compost)",
+    "labourer profondément dans le sens de la pente",
+    "apporter uniquement de l'urée"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Le sol est acide et son CAH est appauvri en cations : la chaux apporte du Ca2+ et relève le pH ; la matière organique reconstitue l'humus, qui retient les cations.",
+    "Le brûlis détruit l'humus, le labour dans la pente favorise l'érosion, l'urée seule n'apporte que de l'azote : réponse B."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Choisir l'urée, en oubliant que le problème est l'acidité et la pauvreté du CAH.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C09-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C09-N1",
+    "SVT-S2-C09-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données. Analyse de deux sols de la région des Plateaux :\n\n| | Sol X | Sol Y |\n|---|---|---|\n| Sables | 80 % | 35 % |\n| Limons | 12 % | 40 % |\n| Argiles | 8 % | 25 % |\n| Matière organique | 0,8 % | 3,5 % |\n| Eau retenue (g pour 100 g de sol sec) | 9 | 32 |\n\n1) Compare la texture des deux sols. 2) Explique la différence de rétention en eau. 3) Lequel retient le mieux les ions K+ apportés par un engrais ? Justifie. 4) Quel sol est le plus fertile et que conseilles-tu pour améliorer l'autre ?",
+   "indices": [],
+   "corrige": [
+    "1) X est un sol sableux (80 % de sables, 8 % d'argiles) ; Y est un sol équilibré (35 % de sables, 40 % de limons, 25 % d'argiles).",
+    "2) Y retient 32 g d'eau contre 9 g pour X : ses argiles et son humus, abondants, retiennent l'eau ; les gros pores du sol sableux X la laissent s'écouler.",
+    "3) Y : ses argiles (25 %) et son humus (3,5 %) forment un complexe argilo-humique abondant, chargé négativement, qui fixe les cations K+ ; dans X, ils seraient lessivés.",
+    "4) Y est le plus fertile. Pour X : apports réguliers de matière organique (fumier, compost, paillage, jachère à légumineuses) pour augmenter l'humus, la rétention d'eau et la fixation des ions ; fractionner les engrais."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Conclure que le sol sableux est meilleur parce qu'il est plus perméable.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C09-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S2-C09-N2",
+    "SVT-S2-C09-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Problème. Sur des parcelles d'érosion en pente dans la région de la Kara, on mesure la terre perdue chaque année : parcelle nue labourée dans la pente : 20 t/ha/an ; parcelle avec cordons pierreux et haies vives : 5 t/ha/an. La terre a une masse volumique apparente de 1,3 t/m³ et 1 ha = 10 000 m².\n1) Calcule le pourcentage de réduction de l'érosion obtenu grâce aux aménagements. 2) Calcule l'épaisseur de sol (en mm) perdue en un an sur la parcelle nue. 3) L'horizon humifère mesure 20 cm. En combien d'années disparaîtrait-il sur la parcelle nue ? 4) Sachant qu'il faut en moyenne plusieurs siècles pour former 1 cm de sol, conclus et propose deux autres mesures de protection en les justifiant.",
+   "indices": [
+    "Volume = masse ÷ masse volumique.",
+    "Épaisseur = volume ÷ surface."
+   ],
+   "corrige": [
+    "1) Réduction = (20 − 5) ÷ 20 × 100 = 75 %.",
+    "2) Volume perdu = 20 t ÷ 1,3 t/m³ ≈ 15,4 m³ par hectare ; épaisseur = 15,4 m³ ÷ 10 000 m² ≈ 0,00154 m ≈ 1,5 mm par an.",
+    "3) 20 cm = 200 mm ; 200 ÷ 1,54 ≈ 130 ans.",
+    "4) L'horizon humifère, formé en des milliers d'années, peut disparaître en environ 130 ans : à l'échelle humaine, le sol n'est pas renouvelable ; il faut le protéger.",
+    "Autres mesures justifiées (deux parmi) : paillage ou plantes de couverture (le sol couvert reçoit les gouttes sans être arraché) ; labour et billons selon les courbes de niveau (l'eau est freinée et s'infiltre) ; terrasses (la pente est cassée) ; reboisement et lutte contre les feux tardifs (les racines retiennent la terre)."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Oublier de convertir les tonnes en m³ (masse volumique) puis les m en mm.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Calculer un pourcentage d'eau ou de matière organique sans préciser la masse de référence (fraîche ou sèche).",
+  "Confondre volume d'eau recueilli et volume d'eau retenu dans l'expérience de perméabilité.",
+  "Inverser les horizons A (humifère, lessivé) et B (accumulation).",
+  "Dire que le complexe argilo-humique retient les nitrates (anions).",
+  "Oublier l'unité ou les conversions (µm, mm ; t, m³, m²) dans les calculs.",
+  "Proposer des mesures de protection sans les justifier, ou proposer le labour dans le sens de la pente."
+ ]
+}

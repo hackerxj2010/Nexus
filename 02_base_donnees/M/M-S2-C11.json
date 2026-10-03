@@ -1,0 +1,887 @@
+{
+ "id": "M-S2-C11",
+ "matiere": "M",
+ "semestre": 2,
+ "ordre": 11,
+ "titre": "Étude de fonctions (fonctions de référence)",
+ "objectifs": [
+  "Connaître les variations et l'allure des courbes des fonctions de référence : affine, valeur absolue, carré, inverse, racine carrée, cube.",
+  "Étudier une fonction trinôme à l'aide de sa forme canonique (sommet, axe, extremum).",
+  "Étudier une fonction homographique (forme réduite, centre de symétrie, asymptotes, variations).",
+  "Étudier une fonction affine par morceaux définie avec des valeurs absolues.",
+  "Construire une courbe associée (translation, symétrie, |f|) à partir d'une courbe connue.",
+  "Démontrer qu'une droite est un axe de symétrie ou qu'un point est un centre de symétrie d'une courbe."
+ ],
+ "prerequis": [
+  "M-3e-FONCTIONS-AFFINES",
+  "M-S1-C01",
+  "M-S1-C03",
+  "M-S1-C05",
+  "M-S1-C07"
+ ],
+ "notions": [
+  {
+   "id": "M-S2-C11-N1",
+   "titre": "Fonctions affines et fonction valeur absolue",
+   "prerequis_notions": [
+    "M-3e-FONCTIONS-AFFINES",
+    "M-S1-C01-N3",
+    "M-S1-C07-N2"
+   ],
+   "cours_md": "## 1. Fonctions affines\n\n:::definition\nUne **fonction affine** est une fonction définie sur $\\mathbb{R}$ par $f(x)=ax+b$ ($a$ et $b$ réels). Sa courbe est une **droite** de **coefficient directeur** $a$ et d'**ordonnée à l'origine** $b$.\nSi $b=0$, $f$ est **linéaire** ; si $a=0$, $f$ est **constante**.\n:::\n\n:::propriete Coefficient directeur et sens de variation\n- Pour deux réels distincts $x_1$ et $x_2$ : $a=\\dfrac{f(x_2)-f(x_1)}{x_2-x_1}$.\n- Si $a>0$, $f$ est strictement croissante sur $\\mathbb{R}$ ; si $a<0$, strictement décroissante ; si $a=0$, constante.\n\n*Démonstration.* Si $x_1<x_2$ : $f(x_2)-f(x_1)=a(x_2-x_1)$ a le signe de $a$, car $x_2-x_1>0$.\n:::\n\n## 2. Fonction valeur absolue\n\n:::definition\nLa fonction **valeur absolue** est définie sur $\\mathbb{R}$ par $|x|=x$ si $x\\ge0$ et $|x|=-x$ si $x<0$.\n:::\n\n:::propriete\nLa fonction $x\\mapsto|x|$ est **paire**, décroissante sur $]-\\infty\\,;0]$ et croissante sur $[0\\,;+\\infty[$ ; son minimum est $0$, atteint en $0$. Sa courbe est formée de deux demi-droites (forme de « V ») symétriques par rapport à l'axe des ordonnées.\n:::\n\n:::methode Étudier une fonction avec des valeurs absolues\n1. Chercher où s'annule chaque expression entre barres.\n2. Sur chaque intervalle ainsi délimité, écrire $f(x)$ **sans** valeur absolue (tableau de signes) : $f$ est affine par morceaux.\n3. Tracer chaque morceau sur son intervalle ; la courbe est une ligne brisée.\n:::\n\n:::attention\n$|x-3|$ ne vaut $x-3$ que si $x\\ge3$ ; pour $x<3$, $|x-3|=3-x$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDéterminer la fonction affine $f$ telle que $f(-1)=5$ et $f(2)=-1$, puis donner son sens de variation.\n\n1. $a=\\dfrac{f(2)-f(-1)}{2-(-1)}=\\dfrac{-1-5}{3}=-2$.\n2. $f(x)=-2x+b$ et $f(-1)=5$ : $2+b=5$, donc $b=3$.\n3. $f(x)=-2x+3$ ; $a=-2<0$ donc $f$ est strictement décroissante sur $\\mathbb{R}$.\n:::\n\n:::exemple Exemple 2\nÉtudier la fonction $g(x)=|2x-4|$.\n\n1. $2x-4\\ge0\\iff x\\ge2$.\n2. Si $x\\ge2$ : $g(x)=2x-4$ ; si $x<2$ : $g(x)=-2x+4$.\n3. $g$ est décroissante sur $]-\\infty\\,;2]$, croissante sur $[2\\,;+\\infty[$ ; minimum $g(2)=0$.\n4. La courbe est un « V » de sommet $(2\\,;0)$.\n:::",
+   "definition": "Une fonction affine $x\\mapsto ax+b$ a pour courbe une droite et varie selon le signe de $a$ ; la valeur absolue donne des fonctions affines par morceaux.",
+   "formules": [
+    "$f(x)=ax+b$",
+    "$a=\\dfrac{f(x_2)-f(x_1)}{x_2-x_1}$",
+    "$|x|=x$ si $x\\ge0$, $|x|=-x$ si $x<0$"
+   ],
+   "niveaux": {
+    "phrase": "Une fonction affine augmente toujours de la même quantité a quand x augmente de 1.",
+    "simple": "Avec une fonction affine, chaque pas de 1 vers la droite fait monter (a > 0) ou descendre (a < 0) la droite d'une hauteur a, toujours la même : c'est une pente régulière.",
+    "complete": "$f(x)=ax+b$ : la droite passe par $(0\\,;b)$ et le taux d'accroissement $\\frac{f(x_2)-f(x_1)}{x_2-x_1}$ vaut toujours $a$ ; $f$ est strictement monotone si $a\\neq0$. Une fonction de la forme $\\sum|a_ix+b_i|$ est affine sur chacun des intervalles délimités par les $-\\frac{b_i}{a_i}$ : sa courbe est une ligne brisée."
+   },
+   "analogie": "Si une course coûte 200 F de prise en charge plus 100 F par kilomètre, le prix est une fonction affine de la distance : f(x) = 100x + 200.",
+   "exemples_resolus": [
+    {
+     "enonce": "Une course coûte $200$ F de prise en charge plus $100$ F par kilomètre. Exprimer le prix $f(x)$ pour $x$ km, calculer le prix pour $7$ km, puis la distance pour $1\\,500$ F.",
+     "etapes": [
+      "$f(x)=100x+200$ (fonction affine, $a=100$, $b=200$).",
+      "$f(7)=700+200=900$ F.",
+      "$100x+200=1500\\iff100x=1300\\iff x=13$ km."
+     ]
+    },
+    {
+     "enonce": "Écrire sans valeur absolue $h(x)=|x+1|+|x-2|$ et donner son minimum.",
+     "etapes": [
+      "$x+1$ s'annule en $-1$ et $x-2$ en $2$.",
+      "Si $x\\le-1$ : $h(x)=-(x+1)-(x-2)=-2x+1$.",
+      "Si $-1\\le x\\le2$ : $h(x)=(x+1)-(x-2)=3$.",
+      "Si $x\\ge2$ : $h(x)=(x+1)+(x-2)=2x-1$.",
+      "$h$ décroît, est constante égale à $3$ sur $[-1\\,;2]$, puis croît : son minimum est $3$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Calculer le coefficient directeur à l'envers : $\\dfrac{x_2-x_1}{f(x_2)-f(x_1)}$.",
+    "Écrire $|x-3|=x-3$ sans regarder le signe.",
+    "Oublier de préciser l'intervalle de chaque morceau d'une fonction affine par morceaux.",
+    "Confondre ordonnée à l'origine (b) et abscisse du point où la droite coupe l'axe des abscisses."
+   ],
+   "astuces": [
+    "Pour tracer une droite, deux points suffisent ; prends-en un troisième pour contrôler.",
+    "Pour une valeur absolue, fais un tableau avec une ligne par expression et une ligne pour f(x).",
+    "Les morceaux d'une fonction affine par morceaux se raccordent : calcule la valeur aux points de jonction pour vérifier."
+   ],
+   "mnemo": "« a positif, ça monte ; a négatif, ça descend. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu lisais le coefficient directeur sur un graphique en comptant « de combien on monte quand on avance de 1 ». La formule $a=\\dfrac{f(x_2)-f(x_1)}{x_2-x_1}$ fait le même calcul sans dessin."
+   },
+   "methode_redaction": "Pour trouver f, écris « f est affine donc f(x) = ax + b », calcule a avec la formule, puis b. Pour une valeur absolue, présente le tableau de signes puis l'expression de f sur chaque intervalle, et conclus par le tableau de variations.",
+   "flash": [
+    {
+     "q": "Sens de variation de $f(x)=-3x+5$ ?",
+     "r": "Strictement décroissante ($a=-3<0$)."
+    },
+    {
+     "q": "Coefficient directeur de la droite passant par $A(1\\,;2)$ et $B(3\\,;8)$ ?",
+     "r": "$a=\\dfrac{8-2}{3-1}=3$"
+    },
+    {
+     "q": "Écrire $|x-3|$ sans barres pour $x<3$.",
+     "r": "$3-x$"
+    },
+    {
+     "q": "Sur quel intervalle $x\\mapsto|x|$ est-elle décroissante ?",
+     "r": "$]-\\infty\\,;0]$"
+    },
+    {
+     "q": "Ordonnée à l'origine de $f(x)=4x-7$ ?",
+     "r": "$-7$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C11-N1.svg",
+    "alt": "Repère : droite bleue d'équation y = −2x + 3 avec un triangle de pente (+1 en abscisse, −2 en ordonnée) et l'ordonnée à l'origine 3 ; courbe rouge en V de g(x) = |2x − 4| de sommet (2 ; 0).",
+    "legende": "Une fonction affine a une courbe droite ; une valeur absolue donne une ligne brisée.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C11-N2",
+   "titre": "Fonction carré et fonctions trinômes du second degré",
+   "prerequis_notions": [
+    "M-S1-C05-N3",
+    "M-S1-C07-N2"
+   ],
+   "cours_md": "## 1. La fonction carré\n\n:::propriete Fonction $x\\mapsto x^2$\nElle est définie sur $\\mathbb{R}$, **paire**, **décroissante** sur $]-\\infty\\,;0]$ et **croissante** sur $[0\\,;+\\infty[$ ; son minimum est $0$, atteint en $0$. Sa courbe est une **parabole** de sommet $O$ et d'axe de symétrie l'axe des ordonnées.\n\n*Démonstration (croissance sur $[0\\,;+\\infty[$).* Si $0\\le u<v$ : $v^2-u^2=(v-u)(v+u)>0$, donc $u^2<v^2$.\n:::\n\n:::propriete Fonction $x\\mapsto ax^2$ ($a\\neq0$)\nSi $a>0$, mêmes variations que $x\\mapsto x^2$ (parabole « tournée vers le haut ») ; si $a<0$, variations contraires (parabole « tournée vers le bas »).\n:::\n\n## 2. Fonctions trinômes $f(x)=ax^2+bx+c$ ($a\\neq0$)\n\n:::propriete Forme canonique et variations\n$$f(x)=a(x-\\alpha)^2+\\beta\\qquad\\text{avec } \\alpha=-\\frac{b}{2a}\\ \\text{ et }\\ \\beta=f(\\alpha).$$\n- La courbe est une **parabole** de **sommet** $S(\\alpha\\,;\\beta)$ et d'**axe de symétrie** la droite $x=\\alpha$ : c'est l'image de la parabole $y=ax^2$ par la translation de vecteur $\\vec u(\\alpha\\,;\\beta)$.\n- Si $a>0$ : $f$ décroît sur $]-\\infty\\,;\\alpha]$, croît sur $[\\alpha\\,;+\\infty[$ ; **minimum** $\\beta$ en $\\alpha$.\n- Si $a<0$ : $f$ croît sur $]-\\infty\\,;\\alpha]$, décroît sur $[\\alpha\\,;+\\infty[$ ; **maximum** $\\beta$ en $\\alpha$.\n:::\n\n:::methode Étudier une fonction trinôme\n1. Calculer $\\alpha=-\\dfrac b{2a}$ puis $\\beta=f(\\alpha)$ ; écrire la forme canonique.\n2. Dresser le tableau de variations selon le signe de $a$.\n3. Calculer des points utiles : $f(0)=c$, les racines éventuelles (discriminant ou factorisation), des points symétriques par rapport à $x=\\alpha$.\n4. Tracer la parabole en respectant la symétrie.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nÉtudier $f(x)=x^2-4x+3$.\n\n1. $\\alpha=-\\dfrac{-4}{2}=2$ et $\\beta=f(2)=4-8+3=-1$ : $f(x)=(x-2)^2-1$.\n2. $a=1>0$ : $f$ décroît sur $]-\\infty\\,;2]$, croît sur $[2\\,;+\\infty[$ ; minimum $-1$ en $2$.\n3. $f(0)=3$ ; $f(x)=0\\iff(x-2)^2=1\\iff x=1$ ou $x=3$.\n4. Parabole de sommet $S(2\\,;-1)$, d'axe $x=2$, passant par $(0\\,;3)$, $(1\\,;0)$, $(3\\,;0)$ et $(4\\,;3)$.\n:::\n\n:::exemple Exemple 2\nÉtudier $g(x)=-2x^2+4x+6$.\n\n1. $\\alpha=-\\dfrac{4}{2\\times(-2)}=1$ et $\\beta=g(1)=-2+4+6=8$ : $g(x)=-2(x-1)^2+8$.\n2. $a=-2<0$ : $g$ croît sur $]-\\infty\\,;1]$ et décroît sur $[1\\,;+\\infty[$ ; maximum $8$ en $1$.\n3. $g(x)=-2(x^2-2x-3)=-2(x+1)(x-3)$ : racines $-1$ et $3$ ; $g(0)=6$.\n:::",
+   "definition": "Une fonction trinôme $ax^2+bx+c$ s'écrit $a(x-\\alpha)^2+\\beta$ ; sa courbe est une parabole de sommet $S(\\alpha\\,;\\beta)$, avec un minimum si $a>0$ et un maximum si $a<0$.",
+   "formules": [
+    "$\\alpha=-\\dfrac{b}{2a},\\ \\beta=f(\\alpha)$",
+    "$f(x)=a(x-\\alpha)^2+\\beta$",
+    "Axe de symétrie : $x=\\alpha$"
+   ],
+   "niveaux": {
+    "phrase": "La courbe d'un trinôme est une parabole dont le sommet donne le minimum (a > 0) ou le maximum (a < 0).",
+    "simple": "Une parabole, c'est la trajectoire d'un ballon : il monte, atteint un point le plus haut (le sommet), puis redescend de façon symétrique.",
+    "complete": "$x\\mapsto x^2$ est décroissante sur $\\mathbb{R}_-$, croissante sur $\\mathbb{R}_+$. Pour $a\\neq0$, $ax^2+bx+c=a(x-\\alpha)^2+\\beta$ avec $\\alpha=-\\frac b{2a}$ et $\\beta=f(\\alpha)=-\\frac{\\Delta}{4a}$ ; la courbe est l'image de $y=ax^2$ par la translation de vecteur $(\\alpha\\,;\\beta)$ ; extremum $\\beta$ atteint en $\\alpha$."
+   },
+   "analogie": "Le ballon frappé par un joueur des Éperviers monte, atteint une hauteur maximale puis redescend : sa hauteur en fonction du temps est un trinôme avec a < 0.",
+   "exemples_resolus": [
+    {
+     "enonce": "Un ballon frappé vers le haut a pour hauteur $h(t)=-5t^2+20t$ (en m, $t$ en s). Quand atteint-il sa hauteur maximale, et laquelle ? Quand retombe-t-il ?",
+     "etapes": [
+      "$\\alpha=-\\dfrac{20}{2\\times(-5)}=2$ et $h(2)=-20+40=20$.",
+      "$a=-5<0$ : la hauteur est maximale à $t=2$ s ; elle vaut $20$ m.",
+      "$h(t)=-5t(t-4)=0$ pour $t=0$ ou $t=4$ : le ballon retombe au bout de $4$ s."
+     ]
+    },
+    {
+     "enonce": "Comparer $(-3{,}2)^2$ et $(-2{,}7)^2$ sans calcul.",
+     "etapes": [
+      "$-3{,}2$ et $-2{,}7$ sont dans $]-\\infty\\,;0]$, où la fonction carré est décroissante.",
+      "$-3{,}2<-2{,}7$, donc $(-3{,}2)^2>(-2{,}7)^2$ (l'ordre est renversé)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $\\alpha=\\dfrac{b}{2a}$ : il y a un signe moins, $\\alpha=-\\dfrac{b}{2a}$.",
+    "Lire le sommet de $(x+2)^2-1$ comme $(2\\,;-1)$ : c'est $(-2\\,;-1)$.",
+    "Inverser les variations quand $a<0$.",
+    "Tracer une parabole non symétrique ou pointue au sommet."
+   ],
+   "astuces": [
+    "Vérifie ta forme canonique en la développant.",
+    "Les points d'abscisses α − 1 et α + 1 ont la même ordonnée : pratique pour tracer.",
+    "Pour un problème de maximum (aire, bénéfice, hauteur), cherche le sommet de la parabole."
+   ],
+   "mnemo": "« Alpha = moins b sur deux a ; bêta = f(alpha). »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens du chapitre sur le trinôme ? Tu as appris la forme canonique $a(x-\\alpha)^2+\\beta$ pour résoudre des équations. Ici elle sert à trouver le sommet de la parabole et le sens de variation."
+   },
+   "methode_redaction": "Écris α et β avec leurs calculs, puis la forme canonique. Dresse un tableau de variations complet (flèches, valeur de l'extremum en α). Pour le tracé, donne un tableau de valeurs symétrique autour de α.",
+   "flash": [
+    {
+     "q": "Sommet de la parabole $y=(x-3)^2+2$ ?",
+     "r": "$S(3\\,;2)$"
+    },
+    {
+     "q": "$\\alpha$ pour $f(x)=2x^2-8x+1$ ?",
+     "r": "$\\alpha=-\\dfrac{-8}{4}=2$"
+    },
+    {
+     "q": "$f(x)=-x^2+4$ : minimum ou maximum ?",
+     "r": "Maximum $4$ en $x=0$ ($a<0$)."
+    },
+    {
+     "q": "Variations de $x\\mapsto x^2$ sur $]-\\infty\\,;0]$ ?",
+     "r": "Décroissante."
+    },
+    {
+     "q": "Axe de symétrie de la courbe de $ax^2+bx+c$ ?",
+     "r": "La droite d'équation $x=-\\dfrac{b}{2a}$."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C11-N2.svg",
+    "alt": "Repère : parabole y = x² en pointillés gris et parabole y = x² − 4x + 3 en bleu, de sommet S(2 ; −1), d'axe x = 2, coupant l'axe des abscisses en 1 et 3 ; une flèche verte représente la translation de vecteur (2 ; −1).",
+    "legende": "La parabole y = (x − 2)² − 1 est l'image de y = x² par la translation de vecteur (2 ; −1).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C11-N3",
+   "titre": "Fonction inverse et fonctions homographiques",
+   "prerequis_notions": [
+    "M-S1-C03-N3",
+    "M-S1-C07-N2"
+   ],
+   "cours_md": "## 1. La fonction inverse\n\n:::propriete Fonction $x\\mapsto\\dfrac1x$\nElle est définie sur $\\mathbb{R}^*=]-\\infty\\,;0[\\cup]0\\,;+\\infty[$, **impaire**, strictement **décroissante sur $]-\\infty\\,;0[$** et strictement **décroissante sur $]0\\,;+\\infty[$**. Sa courbe est une **hyperbole** de centre de symétrie $O$ ; elle se rapproche des axes sans les toucher (les axes sont ses **asymptotes**).\n\n*Démonstration (sur $]0\\,;+\\infty[$).* Si $0<u<v$ : $\\dfrac1v-\\dfrac1u=\\dfrac{u-v}{uv}<0$.\n:::\n\n:::attention\nLa fonction inverse n'est **pas** décroissante sur $\\mathbb{R}^*$ : $-1<1$ et pourtant $\\dfrac1{-1}<\\dfrac11$. On donne toujours les variations **sur chaque intervalle séparément**.\n:::\n\n## 2. Fonctions homographiques\n\n:::definition\nUne **fonction homographique** est une fonction de la forme $f(x)=\\dfrac{ax+b}{cx+d}$ avec $c\\neq0$ et $ad-bc\\neq0$. Elle est définie sur $\\mathbb{R}\\setminus\\left\\{-\\dfrac dc\\right\\}$.\n:::\n\n:::propriete Forme réduite\nOn peut écrire $f(x)=\\beta+\\dfrac{k}{x-\\alpha}$ avec $\\alpha=-\\dfrac dc$, $\\beta=\\dfrac ac$ et $k$ un réel non nul.\n- La courbe est une **hyperbole** de **centre de symétrie** $\\Omega(\\alpha\\,;\\beta)$, d'asymptotes les droites $x=\\alpha$ et $y=\\beta$ ; c'est l'image de l'hyperbole $y=\\dfrac kx$ par la translation de vecteur $(\\alpha\\,;\\beta)$.\n- Si $k>0$ : $f$ est décroissante sur chacun des intervalles $]-\\infty\\,;\\alpha[$ et $]\\alpha\\,;+\\infty[$ ; si $k<0$ : croissante sur chacun d'eux.\n:::\n\n:::methode Étudier $f(x)=\\dfrac{ax+b}{cx+d}$\n1. Ensemble de définition : $cx+d\\neq0$.\n2. Forme réduite : écrire le numérateur à l'aide du dénominateur (exemple : $2x+1=2(x-1)+3$).\n3. Variations selon le signe de $k$, sur chaque intervalle.\n4. Centre de symétrie $\\Omega(\\alpha\\,;\\beta)$ et asymptotes.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nÉtudier $f(x)=\\dfrac{2x+1}{x-1}$.\n\n1. $x-1\\neq0$ : $D_f=\\mathbb{R}\\setminus\\{1\\}$.\n2. $2x+1=2(x-1)+3$, donc $f(x)=\\dfrac{2(x-1)+3}{x-1}=2+\\dfrac{3}{x-1}$.\n3. $k=3>0$ : $f$ est décroissante sur $]-\\infty\\,;1[$ et sur $]1\\,;+\\infty[$.\n4. La courbe est une hyperbole de centre $\\Omega(1\\,;2)$, d'asymptotes $x=1$ et $y=2$.\n:::\n\n:::exemple Exemple 2\nDonner le sens de variation de $g(x)=\\dfrac{x-3}{x+1}$.\n\n1. $D_g=\\mathbb{R}\\setminus\\{-1\\}$.\n2. $x-3=(x+1)-4$, donc $g(x)=1-\\dfrac{4}{x+1}$ : $k=-4<0$.\n3. $g$ est croissante sur $]-\\infty\\,;-1[$ et sur $]-1\\,;+\\infty[$ ; centre $\\Omega(-1\\,;1)$.\n:::",
+   "definition": "La fonction inverse est décroissante sur chacun des intervalles $]-\\infty\\,;0[$ et $]0\\,;+\\infty[$ ; une fonction homographique $\\frac{ax+b}{cx+d}$ s'écrit $\\beta+\\frac{k}{x-\\alpha}$ et sa courbe est une hyperbole de centre $\\Omega(\\alpha\\,;\\beta)$.",
+   "formules": [
+    "$f(x)=\\dfrac{ax+b}{cx+d}=\\beta+\\dfrac{k}{x-\\alpha}$",
+    "$\\alpha=-\\dfrac dc,\\ \\beta=\\dfrac ac$",
+    "$0<u<v\\Rightarrow\\dfrac1u>\\dfrac1v$"
+   ],
+   "niveaux": {
+    "phrase": "Plus un nombre positif est grand, plus son inverse est petit.",
+    "simple": "Si l'on partage un sac de 10 kg de riz entre de plus en plus de familles, chaque part devient de plus en plus petite : la fonction inverse est décroissante.",
+    "complete": "$x\\mapsto\\frac1x$ est impaire, strictement décroissante sur $\\mathbb{R}_-^*$ et sur $\\mathbb{R}_+^*$ ; son hyperbole a pour asymptotes les axes. Pour $c\\neq0$ et $ad-bc\\neq0$, $\\frac{ax+b}{cx+d}=\\frac ac+\\frac{k}{x+\\frac dc}$ avec $k=\\frac{bc-ad}{c^2}$ ; la courbe est l'image de $y=\\frac kx$ par la translation de vecteur $\\left(-\\frac dc\\,;\\frac ac\\right)$."
+   },
+   "analogie": "Partager une somme fixe entre plus de personnes donne à chacune une part plus petite : la part est une fonction inverse du nombre de personnes.",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre dans $\\mathbb{R}^*$ l'inéquation $\\dfrac1x>2$.",
+     "etapes": [
+      "Si $x<0$ : $\\dfrac1x<0<2$, aucune solution.",
+      "Si $x>0$ : on multiplie par $x>0$ : $1>2x$, soit $x<\\dfrac12$.",
+      "$S=\\left]0\\,;\\dfrac12\\right[$."
+     ]
+    },
+    {
+     "enonce": "Sachant que $2\\le x\\le5$, encadrer $\\dfrac1x$.",
+     "etapes": [
+      "Les nombres sont strictement positifs et la fonction inverse est décroissante sur $]0\\,;+\\infty[$ : l'ordre est renversé.",
+      "$\\dfrac15\\le\\dfrac1x\\le\\dfrac12$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que $x\\mapsto\\dfrac1x$ est décroissante sur $\\mathbb{R}^*$.",
+    "Oublier la valeur interdite dans l'ensemble de définition.",
+    "Multiplier une inéquation par $x$ sans connaître son signe.",
+    "Inverser les coordonnées du centre de symétrie."
+   ],
+   "astuces": [
+    "Pour la forme réduite, écris le numérateur comme « (nombre) × (dénominateur) + reste ».",
+    "Le centre de l'hyperbole est à l'intersection des deux asymptotes : x = valeur interdite, y = quotient des coefficients de x.",
+    "Pour une inéquation avec 1/x, sépare les cas x < 0 et x > 0."
+   ],
+   "mnemo": "« Inverse : plus grand devient plus petit, mais seulement du même côté de zéro. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens des fractions rationnelles ? Tu cherchais les valeurs interdites et tu simplifiais. Ici, la même technique transforme $\\dfrac{2x+1}{x-1}$ en $2+\\dfrac{3}{x-1}$."
+   },
+   "methode_redaction": "Commence par Df. Montre la transformation du numérateur, puis écris f(x) = β + k/(x − α). Donne les variations « sur ]−∞ ; α[ et sur ]α ; +∞[ » (deux flèches séparées par une double barre dans le tableau). Nomme le centre Ω et les asymptotes.",
+   "flash": [
+    {
+     "q": "Ensemble de définition de $x\\mapsto\\dfrac1x$ ?",
+     "r": "$\\mathbb{R}^*=]-\\infty\\,;0[\\cup]0\\,;+\\infty[$"
+    },
+    {
+     "q": "Variations de $x\\mapsto\\dfrac1x$ ?",
+     "r": "Décroissante sur $]-\\infty\\,;0[$ et sur $]0\\,;+\\infty[$."
+    },
+    {
+     "q": "Centre de symétrie de la courbe de $y=2+\\dfrac3{x-1}$ ?",
+     "r": "$\\Omega(1\\,;2)$"
+    },
+    {
+     "q": "Si $2\\le x\\le4$, encadrer $\\dfrac1x$.",
+     "r": "$\\dfrac14\\le\\dfrac1x\\le\\dfrac12$"
+    },
+    {
+     "q": "Asymptotes de la courbe de $y=\\dfrac{2x+1}{x-1}$ ?",
+     "r": "Les droites $x=1$ et $y=2$."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C11-N3.svg",
+    "alt": "Repère : hyperbole y = 1/x en pointillés gris et hyperbole y = 2 + 3/(x − 1) en bleu, avec ses asymptotes rouges x = 1 et y = 2 qui se coupent au centre Ω(1 ; 2).",
+    "legende": "L'hyperbole y = 2 + 3/(x − 1) a pour centre Ω(1 ; 2) et pour asymptotes x = 1 et y = 2.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C11-N4",
+   "titre": "Fonction racine carrée et fonction cube",
+   "prerequis_notions": [
+    "M-S1-C01-N2",
+    "M-S1-C07-N3"
+   ],
+   "cours_md": "## 1. La fonction racine carrée\n\n:::propriete Fonction $x\\mapsto\\sqrt x$\nElle est définie sur $[0\\,;+\\infty[$ et **strictement croissante** sur cet intervalle. Sa courbe est une demi-parabole : la symétrique de la partie de $y=x^2$ ($x\\ge0$) par rapport à la droite $y=x$.\n\n*Démonstration.* Si $0\\le u<v$ : $\\sqrt v-\\sqrt u=\\dfrac{v-u}{\\sqrt v+\\sqrt u}>0$ (quantité conjuguée).\n:::\n\n:::propriete Comparaison de $x$, $x^2$ et $\\sqrt x$\n- Si $0\\le x\\le1$ : $x^2\\le x\\le\\sqrt x$.\n- Si $x\\ge1$ : $\\sqrt x\\le x\\le x^2$.\n\n*Démonstration.* $x-x^2=x(1-x)$ et $\\sqrt x-x=\\sqrt x(1-\\sqrt x)$ sont positifs sur $[0\\,;1]$ et négatifs sur $[1\\,;+\\infty[$.\n:::\n\n:::methode Ensemble de définition d'une racine\n$x\\mapsto\\sqrt{u(x)}$ est définie lorsque $u(x)\\ge0$ : on résout cette inéquation.\n:::\n\n## 2. La fonction cube\n\n:::propriete Fonction $x\\mapsto x^3$\nElle est définie sur $\\mathbb{R}$, **impaire** (sa courbe est symétrique par rapport à $O$) et **strictement croissante** sur $\\mathbb{R}$. Sa courbe passe par $(-1\\,;-1)$, $(0\\,;0)$, $(1\\,;1)$, $(2\\,;8)$.\n\n*Démonstration.* $v^3-u^3=(v-u)(u^2+uv+v^2)$ et $u^2+uv+v^2=\\left(u+\\frac v2\\right)^2+\\frac{3v^2}4>0$ si $u\\neq v$.\n:::\n\n:::remarque\nComme $x\\mapsto x^3$ est strictement croissante sur $\\mathbb{R}$, l'équation $x^3=k$ a **une seule** solution pour tout réel $k$ (par exemple $x^3=-27\\iff x=-3$), et $u^3<v^3\\iff u<v$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nÉtudier $f(x)=\\sqrt{x-2}+1$.\n\n1. $x-2\\ge0\\iff x\\ge2$ : $D_f=[2\\,;+\\infty[$.\n2. Si $2\\le u<v$ : $0\\le u-2<v-2$, donc $\\sqrt{u-2}<\\sqrt{v-2}$ (racine croissante), puis $f(u)<f(v)$ : $f$ est strictement croissante sur $D_f$.\n3. La courbe de $f$ est celle de $x\\mapsto\\sqrt x$ translatée de vecteur $(2\\,;1)$ ; elle part du point $(2\\,;1)$.\n:::\n\n:::exemple Exemple 2\nRanger dans l'ordre croissant $0{,}3$ ; $0{,}3^2$ ; $\\sqrt{0{,}3}$, puis résoudre $x^3=8$.\n\n1. $0{,}3\\in[0\\,;1]$ donc $0{,}3^2\\le0{,}3\\le\\sqrt{0{,}3}$ (soit $0{,}09\\le0{,}3\\le0{,}547\\dots$).\n2. $x^3=8=2^3$ et la fonction cube est strictement croissante : la seule solution est $x=2$.\n:::",
+   "definition": "$x\\mapsto\\sqrt x$ est strictement croissante sur $[0\\,;+\\infty[$ ; $x\\mapsto x^3$ est impaire et strictement croissante sur $\\mathbb{R}$ ; sur $[0\\,;1]$, $x^2\\le x\\le\\sqrt x$.",
+   "formules": [
+    "$0\\le u<v\\Rightarrow\\sqrt u<\\sqrt v$",
+    "$u<v\\iff u^3<v^3$",
+    "$0\\le x\\le1\\Rightarrow x^2\\le x\\le\\sqrt x$"
+   ],
+   "niveaux": {
+    "phrase": "La racine carrée et le cube sont deux fonctions qui ne font que monter.",
+    "simple": "√x monte de moins en moins vite (comme une colline qui s'aplatit), alors que x³ monte de plus en plus vite pour x > 1.",
+    "complete": "$\\sqrt{\\ }$ est strictement croissante sur $\\mathbb{R}_+$ (quantité conjuguée), sa courbe est symétrique de la demi-parabole $y=x^2$, $x\\ge0$, par rapport à la première bissectrice. $x\\mapsto x^3$ est impaire et strictement croissante sur $\\mathbb{R}$ (factorisation de $v^3-u^3$), donc bijective : $x^3=k$ a une unique solution réelle."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre $\\sqrt x=3$, puis $\\sqrt x<2$.",
+     "etapes": [
+      "$\\sqrt x=3\\iff x=9$ (avec $x\\ge0$).",
+      "$\\sqrt x<2$ : sur $[0\\,;+\\infty[$, la racine est croissante et $\\sqrt4=2$, donc $\\sqrt x<\\sqrt4\\iff0\\le x<4$.",
+      "$S=[0\\,;4[$."
+     ]
+    },
+    {
+     "enonce": "Résoudre dans $\\mathbb{R}$ l'inéquation $x^3\\le-8$.",
+     "etapes": [
+      "$-8=(-2)^3$.",
+      "La fonction cube est strictement croissante : $x^3\\le(-2)^3\\iff x\\le-2$.",
+      "$S=]-\\infty\\,;-2]$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier que $\\sqrt x$ n'est définie que pour $x\\ge0$.",
+    "Croire que $x^2\\ge x$ pour tout $x$ : c'est faux sur $]0\\,;1[$.",
+    "Écrire que $x^3=8$ a deux solutions $\\pm2$ (confusion avec $x^2=4$).",
+    "Oublier la condition $x\\ge0$ dans $\\sqrt x<2$ et répondre $]-\\infty\\,;4[$."
+   ],
+   "astuces": [
+    "Teste avec x = 0,5 et x = 4 pour retrouver l'ordre entre x², x et √x.",
+    "Pour √(u(x)), résous d'abord u(x) ≥ 0.",
+    "Cube : les signes sont conservés ((−2)³ = −8), contrairement au carré."
+   ],
+   "mnemo": "« Entre 0 et 1, le carré rapetisse et la racine grandit. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? $\\sqrt{16}=4$ car $4^2=16$ et $4\\ge0$. En Seconde on étudie la **fonction** $x\\mapsto\\sqrt x$ : plus $x$ est grand, plus $\\sqrt x$ est grand."
+   },
+   "methode_redaction": "Pour un sens de variation, prends deux réels u < v de l'intervalle et enchaîne les inégalités en citant la fonction utilisée (« la fonction racine carrée est croissante sur [0 ; +∞[ »). Pour x³ = k, cite la stricte croissance pour justifier l'unicité.",
+   "flash": [
+    {
+     "q": "Ensemble de définition de $x\\mapsto\\sqrt x$ ?",
+     "r": "$[0\\,;+\\infty[$"
+    },
+    {
+     "q": "Variations de $x\\mapsto x^3$ ?",
+     "r": "Strictement croissante sur $\\mathbb{R}$."
+    },
+    {
+     "q": "Comparer $x^2$, $x$ et $\\sqrt x$ pour $x\\in[0\\,;1]$.",
+     "r": "$x^2\\le x\\le\\sqrt x$"
+    },
+    {
+     "q": "Résoudre $x^3=-8$.",
+     "r": "$x=-2$"
+    },
+    {
+     "q": "La fonction cube est-elle paire ou impaire ?",
+     "r": "Impaire : $(-x)^3=-x^3$."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C11-N4.svg",
+    "alt": "Repère orthonormé : courbes de y = √x (bleu), y = x² (vert, pour x ≥ 0), y = x³ (rouge) et droite y = x (pointillés gris), passant toutes par (1 ; 1).",
+    "legende": "Sur [0 ; 1], la courbe de √x est au-dessus de y = x, elle-même au-dessus de y = x².",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C11-N5",
+   "titre": "Courbes associées et éléments de symétrie",
+   "prerequis_notions": [
+    "M-S1-C07-N3",
+    "M-S1-C02-N1"
+   ],
+   "cours_md": "## 1. Courbes associées\n\n:::propriete Transformations de la courbe $\\mathscr{C}_f$ (repère $(O\\,;\\vec i,\\vec j)$)\n| Fonction | Courbe obtenue à partir de $\\mathscr{C}_f$ |\n|---|---|\n| $y=f(x)+b$ | translation de vecteur $b\\vec j$ (vers le haut si $b>0$) |\n| $y=f(x-a)$ | translation de vecteur $a\\vec i$ (vers la droite si $a>0$) |\n| $y=f(x-a)+b$ | translation de vecteur $a\\vec i+b\\vec j$ |\n| $y=-f(x)$ | symétrie par rapport à l'axe des abscisses |\n| $y=f(-x)$ | symétrie par rapport à l'axe des ordonnées |\n| $y=\\lvert f(x)\\rvert$ | on garde la partie au-dessus de l'axe des abscisses et on retourne (symétrie d'axe $(Ox)$) la partie en dessous |\n:::\n\n:::attention\n$y=f(x-3)$ correspond à un déplacement de $3$ unités vers la **droite** (et non vers la gauche) : le point d'abscisse $x$ de la nouvelle courbe a la hauteur que $\\mathscr{C}_f$ avait en $x-3$.\n:::\n\n## 2. Axe et centre de symétrie\n\n:::propriete Dans un repère orthogonal\n- La droite d'équation $x=a$ est un **axe de symétrie** de $\\mathscr{C}_f$ si et seulement si, pour tout $x\\in D_f$ : $2a-x\\in D_f$ et $f(2a-x)=f(x)$.\n- Le point $\\Omega(a\\,;b)$ est un **centre de symétrie** de $\\mathscr{C}_f$ si et seulement si, pour tout $x\\in D_f$ : $2a-x\\in D_f$ et $f(2a-x)+f(x)=2b$.\n:::\n\n:::remarque\nAvec $a=0$ on retrouve la parité : axe $x=0$ pour une fonction paire, centre $O$ pour une fonction impaire.\n:::\n\n:::methode Démontrer un élément de symétrie\n1. Vérifier que $D_f$ est symétrique par rapport à $a$ (si $x\\in D_f$ alors $2a-x\\in D_f$).\n2. Calculer $f(2a-x)$ et simplifier.\n3. Comparer avec $f(x)$ (axe) ou calculer $f(2a-x)+f(x)$ (centre).\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nMontrer que la droite $x=2$ est un axe de symétrie de la courbe de $f(x)=x^2-4x+3$.\n\n1. $D_f=\\mathbb{R}$ est symétrique par rapport à $2$.\n2. $f(4-x)=(4-x)^2-4(4-x)+3=16-8x+x^2-16+4x+3=x^2-4x+3$.\n3. $f(4-x)=f(x)$ pour tout réel $x$ : la droite $x=2$ est un axe de symétrie.\n:::\n\n:::exemple Exemple 2\nMontrer que $\\Omega(1\\,;2)$ est un centre de symétrie de la courbe de $f(x)=\\dfrac{2x+1}{x-1}$.\n\n1. $D_f=\\mathbb{R}\\setminus\\{1\\}$ : si $x\\neq1$ alors $2-x\\neq1$ ; $D_f$ est symétrique par rapport à $1$.\n2. $f(2-x)=\\dfrac{2(2-x)+1}{(2-x)-1}=\\dfrac{5-2x}{1-x}=-\\dfrac{5-2x}{x-1}$.\n3. $f(x)+f(2-x)=\\dfrac{2x+1-5+2x}{x-1}=\\dfrac{4x-4}{x-1}=4=2\\times2$ : $\\Omega(1\\,;2)$ est centre de symétrie.\n:::",
+   "definition": "À partir de la courbe de $f$, on obtient celles de $f(x-a)+b$, $-f(x)$, $f(-x)$, $|f(x)|$ par translations et symétries ; $x=a$ est axe de symétrie si $f(2a-x)=f(x)$, $\\Omega(a\\,;b)$ est centre si $f(2a-x)+f(x)=2b$.",
+   "formules": [
+    "$y=f(x-a)+b$ : translation de vecteur $(a\\,;b)$",
+    "Axe $x=a$ : $f(2a-x)=f(x)$",
+    "Centre $\\Omega(a\\,;b)$ : $f(2a-x)+f(x)=2b$"
+   ],
+   "niveaux": {
+    "phrase": "On peut fabriquer de nouvelles courbes en déplaçant ou en retournant une courbe connue.",
+    "simple": "Une courbe est comme un dessin sur du papier calque : le faire glisser, c'est une translation ; le retourner autour d'un axe, c'est une symétrie. Pas besoin de tout recalculer.",
+    "complete": "$\\mathscr C_{f(x-a)+b}=t_{a\\vec i+b\\vec j}(\\mathscr C_f)$ ; $\\mathscr C_{-f}=s_{(Ox)}(\\mathscr C_f)$ ; $\\mathscr C_{f(-x)}=s_{(Oy)}(\\mathscr C_f)$ ; $\\mathscr C_{|f|}$ coïncide avec $\\mathscr C_f$ là où $f\\ge0$ et avec $\\mathscr C_{-f}$ là où $f<0$. En posant $X=x-a$, $Y=y-b$, la droite $x=a$ (resp. le point $\\Omega(a\\,;b)$) est axe (resp. centre) de symétrie si et seulement si la fonction $X\\mapsto f(a+X)-b$ est paire (resp. impaire)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "À partir de la parabole $y=x^2$, tracer la courbe de $g(x)=x^2+2x-2$.",
+     "etapes": [
+      "Forme canonique : $g(x)=(x+1)^2-3$.",
+      "$g(x)=f(x-(-1))+(-3)$ avec $f(x)=x^2$ : translation de vecteur $(-1\\,;-3)$.",
+      "On déplace la parabole $y=x^2$ d'une unité vers la gauche et de $3$ vers le bas : sommet $(-1\\,;-3)$."
+     ]
+    },
+    {
+     "enonce": "Tracer la courbe de $h(x)=|x^2-4|$ à partir de celle de $f(x)=x^2-4$.",
+     "etapes": [
+      "$f(x)\\ge0$ pour $x\\le-2$ ou $x\\ge2$ : là, la courbe de $h$ est celle de $f$.",
+      "$f(x)<0$ pour $-2<x<2$ : on remplace cette partie par sa symétrique par rapport à l'axe des abscisses.",
+      "Le sommet $(0\\,;-4)$ devient $(0\\,;4)$ ; la courbe touche l'axe des abscisses en $-2$ et $2$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Déplacer vers la gauche pour $f(x-3)$ : c'est vers la droite.",
+    "Confondre $y=-f(x)$ (symétrie d'axe $(Ox)$) et $y=f(-x)$ (symétrie d'axe $(Oy)$).",
+    "Vérifier $f(2a-x)=f(x)$ sur un seul exemple numérique : il faut une preuve pour tout $x$.",
+    "Oublier de vérifier que l'ensemble de définition est symétrique."
+   ],
+   "astuces": [
+    "Retiens « f(x − a) : on va vers a ».",
+    "Pour |f(x)|, dessine d'abord la courbe de f en pointillés puis retourne ce qui est sous l'axe.",
+    "Pour un centre de symétrie d'une homographique, Ω est le point d'intersection des asymptotes."
+   ],
+   "mnemo": "« À l'intérieur des parenthèses, on fait le contraire ; à l'extérieur, on fait ce qui est écrit. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens de la parité ? Une fonction paire vérifie $f(-x)=f(x)$ : sa courbe est symétrique par rapport à l'axe des ordonnées. Ici on généralise : un axe $x=a$ quelconque ou un centre $\\Omega(a\\,;b)$ quelconque."
+   },
+   "methode_redaction": "Écris la condition à démontrer (« montrons que pour tout x ∈ Df, 4 − x ∈ Df et f(4 − x) = f(x) »), fais le calcul complet de f(2a − x), puis conclus par une phrase qui nomme l'axe ou le centre.",
+   "flash": [
+    {
+     "q": "Courbe de $y=f(x-3)$ à partir de $\\mathscr C_f$ ?",
+     "r": "Translation de vecteur $3\\vec i$ (3 unités vers la droite)."
+    },
+    {
+     "q": "Courbe de $y=f(x)+2$ ?",
+     "r": "Translation de vecteur $2\\vec j$ (2 unités vers le haut)."
+    },
+    {
+     "q": "Condition pour que $x=a$ soit axe de symétrie ?",
+     "r": "$f(2a-x)=f(x)$ pour tout $x$ de $D_f$ (avec $D_f$ symétrique par rapport à $a$)."
+    },
+    {
+     "q": "Condition pour que $\\Omega(a\\,;b)$ soit centre de symétrie ?",
+     "r": "$f(2a-x)+f(x)=2b$ pour tout $x$ de $D_f$."
+    },
+    {
+     "q": "Courbe de $y=-f(x)$ ?",
+     "r": "Symétrique de $\\mathscr C_f$ par rapport à l'axe des abscisses."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C11-N5.svg",
+    "alt": "Deux repères. En haut : parabole y = x² en pointillés et parabole y = (x − 2)² + 1 en bleu, avec des flèches vertes représentant la translation de vecteur (2 ; 1). En bas : courbe de y = x² − 4 en pointillés et courbe rouge de y = |x² − 4| dont la partie située sous l'axe des abscisses a été retournée.",
+    "legende": "Translater ou retourner une courbe connue évite de refaire toute l'étude.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S2-C11-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C11-N1"
+   ],
+   "format": "qcm",
+   "enonce": "La fonction $f(x)=-3x+2$ est :",
+   "choix": [
+    "strictement décroissante sur $\\mathbb{R}$",
+    "strictement croissante sur $\\mathbb{R}$",
+    "constante",
+    "décroissante puis croissante"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Regarde le signe du coefficient de x."
+   ],
+   "corrige": [
+    "$f$ est affine de coefficient directeur $a=-3$.",
+    "$a<0$ : $f$ est strictement décroissante sur $\\mathbb{R}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Regarder le signe de b = 2 au lieu de celui de a.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C11-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C11-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Donner les coordonnées du sommet de la parabole d'équation $y=(x-1)^2+4$.",
+   "reponses_acceptees": [
+    "(1;4)",
+    "S(1;4)",
+    "(1,4)"
+   ],
+   "indices": [
+    "Lis α et β dans la forme canonique."
+   ],
+   "corrige": [
+    "La forme canonique $a(x-\\alpha)^2+\\beta$ donne $\\alpha=1$ et $\\beta=4$.",
+    "Le sommet est $S(1\\,;4)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Lire α = −1 à cause du signe moins.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C11-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C11-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Déterminer l'ensemble de définition de $f(x)=\\dfrac{3x-1}{x+2}$.",
+   "reponses_acceptees": [
+    "R\\{-2}",
+    "ℝ\\{-2}",
+    "]-∞;-2[∪]-2;+∞[",
+    "R-{-2}",
+    "ℝ-{-2}",
+    "]-inf;-2[U]-2;+inf["
+   ],
+   "indices": [
+    "Le dénominateur ne doit pas s'annuler."
+   ],
+   "corrige": [
+    "Il faut $x+2\\neq0$, c'est-à-dire $x\\neq-2$.",
+    "$D_f=\\mathbb{R}\\setminus\\{-2\\}=]-\\infty\\,;-2[\\cup]-2\\,;+\\infty[$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Exclure 1/3 (valeur qui annule le numérateur) au lieu de −2.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C11-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C11-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Déterminer la fonction affine $f$ telle que $f(1)=4$ et $f(3)=10$. Donner $f(x)$.",
+   "reponses_acceptees": [
+    "3x+1",
+    "f(x)=3x+1",
+    "1+3x",
+    "y=3x+1"
+   ],
+   "indices": [
+    "Calcule d'abord le coefficient directeur."
+   ],
+   "corrige": [
+    "$a=\\dfrac{10-4}{3-1}=3$.",
+    "$f(1)=3+b=4$ donc $b=1$ : $f(x)=3x+1$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer (3 − 1)/(10 − 4) au lieu de (10 − 4)/(3 − 1).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C11-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C11-N2"
+   ],
+   "format": "qcm",
+   "enonce": "On considère $f(x)=-x^2+6x-5$. Quelle affirmation est vraie ?",
+   "choix": [
+    "$f$ admet un maximum égal à $4$, atteint en $3$",
+    "$f$ admet un minimum égal à $4$, atteint en $3$",
+    "$f$ admet un maximum égal à $-5$, atteint en $0$",
+    "$f$ admet un minimum égal à $-4$, atteint en $3$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Calcule α = −b/(2a), puis f(α).",
+    "a < 0 : parabole tournée vers le bas."
+   ],
+   "corrige": [
+    "$\\alpha=-\\dfrac{6}{2\\times(-1)}=3$ et $f(3)=-9+18-5=4$.",
+    "$a=-1<0$ : $f$ admet un maximum $4$, atteint en $3$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Annoncer un minimum alors que a < 0.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C11-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C11-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Écrire $f(x)=\\dfrac{3x-2}{x-1}$ sous la forme $\\beta+\\dfrac{k}{x-1}$, puis donner les coordonnées du centre de symétrie $\\Omega$ de sa courbe.",
+   "reponses_acceptees": [
+    "(1;3)",
+    "Ω(1;3)",
+    "(1,3)"
+   ],
+   "indices": [
+    "Écris 3x − 2 = 3(x − 1) + …"
+   ],
+   "corrige": [
+    "$3x-2=3(x-1)+1$, donc $f(x)=3+\\dfrac1{x-1}$.",
+    "Asymptotes $x=1$ et $y=3$ : $\\Omega(1\\,;3)$."
+   ],
+   "bareme": [
+    1.5,
+    1
+   ],
+   "piege": "Écrire Ω(3 ; 1) en inversant les coordonnées.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C11-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C11-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre dans $\\mathbb{R}$ l'équation $x^3=-64$.",
+   "reponses_acceptees": [
+    "-4",
+    "x=-4",
+    "{-4}",
+    "S={-4}"
+   ],
+   "indices": [
+    "Cherche un entier dont le cube vaut 64."
+   ],
+   "corrige": [
+    "$-64=(-4)^3$.",
+    "La fonction cube est strictement croissante sur $\\mathbb{R}$ : la seule solution est $x=-4$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre ±4 par confusion avec x² = 16.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C11-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C11-N5"
+   ],
+   "format": "qcm",
+   "enonce": "La courbe de $g(x)=(x-3)^2+1$ est l'image de la parabole $y=x^2$ par la translation de vecteur :",
+   "choix": [
+    "$(3\\,;1)$",
+    "$(-3\\,;1)$",
+    "$(3\\,;-1)$",
+    "$(1\\,;3)$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "y = f(x − a) + b : vecteur (a ; b)."
+   ],
+   "corrige": [
+    "$g(x)=f(x-3)+1$ avec $f(x)=x^2$.",
+    "C'est la translation de vecteur $3\\vec i+\\vec j$, de coordonnées $(3\\,;1)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Choisir (−3 ; 1) en lisant le signe moins.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C11-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C11-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $f(x)=2x^2+4x-6$.\n\n1. Écrire $f(x)$ sous forme canonique.\n2. Dresser le tableau de variations de $f$.\n3. Déterminer les points d'intersection de la courbe avec les axes.\n4. Donner l'axe de symétrie et tracer l'allure de la courbe.",
+   "indices": [
+    "Factorise par 2 avant de compléter le carré, ou utilise α = −b/(2a)."
+   ],
+   "corrige": [
+    "1. $\\alpha=-\\dfrac{4}{4}=-1$ et $\\beta=f(-1)=2-4-6=-8$ : $f(x)=2(x+1)^2-8$.",
+    "2. $a=2>0$ : $f$ décroît sur $]-\\infty\\,;-1]$, croît sur $[-1\\,;+\\infty[$ ; minimum $-8$ en $-1$.",
+    "3. $f(0)=-6$ : point $(0\\,;-6)$. $f(x)=0\\iff(x+1)^2=4\\iff x=1$ ou $x=-3$ : points $(-3\\,;0)$ et $(1\\,;0)$.",
+    "4. Axe $x=-1$ ; parabole tournée vers le haut, de sommet $(-1\\,;-8)$, passant par $(-3\\,;0)$, $(1\\,;0)$, $(0\\,;-6)$ et $(-2\\,;-6)$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    0.5
+   ],
+   "piege": "Oublier le coefficient 2 devant (x + 1)² dans la forme canonique.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C11-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C11-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $f(x)=|x+1|+|x-2|$.\n\n1. Écrire $f(x)$ sans valeur absolue sur chacun des intervalles $]-\\infty\\,;-1]$, $[-1\\,;2]$ et $[2\\,;+\\infty[$.\n2. Dresser le tableau de variations de $f$ et donner son minimum.\n3. Résoudre l'équation $f(x)=5$.",
+   "indices": [
+    "x + 1 change de signe en −1 et x − 2 en 2.",
+    "Vérifie que chaque solution est dans l'intervalle étudié."
+   ],
+   "corrige": [
+    "1. Si $x\\le-1$ : $f(x)=-2x+1$ ; si $-1\\le x\\le2$ : $f(x)=3$ ; si $x\\ge2$ : $f(x)=2x-1$.",
+    "2. $f$ est décroissante sur $]-\\infty\\,;-1]$, constante égale à $3$ sur $[-1\\,;2]$, croissante sur $[2\\,;+\\infty[$ ; minimum $3$.",
+    "3. Sur $]-\\infty\\,;-1]$ : $-2x+1=5\\iff x=-2$, qui convient. Sur $[-1\\,;2]$ : $3=5$ impossible.",
+    "Sur $[2\\,;+\\infty[$ : $2x-1=5\\iff x=3$, qui convient. $S=\\{-2\\,;3\\}$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Garder une solution qui n'appartient pas à l'intervalle où l'expression est valable.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C11-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C11-N3",
+    "M-S2-C11-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $f(x)=\\dfrac{-x+4}{x-2}$.\n\n1. Donner $D_f$ et écrire $f(x)$ sous la forme $\\beta+\\dfrac{k}{x-2}$.\n2. En déduire le sens de variation de $f$.\n3. Démontrer que $\\Omega(2\\,;-1)$ est un centre de symétrie de sa courbe.\n4. Résoudre $f(x)=1$.",
+   "indices": [
+    "−x + 4 = −(x − 2) + 2.",
+    "Pour le centre, calcule f(4 − x)."
+   ],
+   "corrige": [
+    "1. $D_f=\\mathbb{R}\\setminus\\{2\\}$. $-x+4=-(x-2)+2$, donc $f(x)=-1+\\dfrac{2}{x-2}$.",
+    "2. $k=2>0$ : $f$ est décroissante sur $]-\\infty\\,;2[$ et sur $]2\\,;+\\infty[$.",
+    "3. Si $x\\neq2$ alors $4-x\\neq2$. $f(4-x)=-1+\\dfrac{2}{2-x}=-1-\\dfrac2{x-2}$, donc $f(x)+f(4-x)=-2=2\\times(-1)$ : $\\Omega(2\\,;-1)$ est centre de symétrie.",
+    "4. $-1+\\dfrac2{x-2}=1\\iff\\dfrac2{x-2}=2\\iff x-2=1\\iff x=3$ (et $3\\neq2$). $S=\\{3\\}$."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Dire que f est décroissante sur ℝ∖{2} en une seule fois.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C11-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C11-N2",
+    "M-S2-C11-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Soit $f(x)=x^2-2|x|-3$, définie sur $\\mathbb{R}$.\n\n1. Montrer que $f$ est paire.\n2. Pour $x\\ge0$, écrire $f(x)$ sous forme canonique et en déduire les variations de $f$ sur $[0\\,;+\\infty[$.\n3. Dresser le tableau de variations de $f$ sur $\\mathbb{R}$.\n4. Résoudre $f(x)=0$.\n5. Selon les valeurs du réel $m$, donner le nombre de solutions de l'équation $f(x)=m$.",
+   "indices": [
+    "|−x| = |x|.",
+    "Pour x ≥ 0, |x| = x.",
+    "Trace une droite horizontale y = m sur l'allure de la courbe."
+   ],
+   "corrige": [
+    "1. $D_f=\\mathbb{R}$ et $f(-x)=(-x)^2-2|-x|-3=x^2-2|x|-3=f(x)$ : $f$ est paire.",
+    "2. Pour $x\\ge0$ : $f(x)=x^2-2x-3=(x-1)^2-4$. Sur $[0\\,;+\\infty[$, $f$ décroît sur $[0\\,;1]$ et croît sur $[1\\,;+\\infty[$ ; $f(0)=-3$, $f(1)=-4$.",
+    "3. Par parité (symétrie d'axe $(Oy)$) : $f$ décroît sur $]-\\infty\\,;-1]$, croît sur $[-1\\,;0]$, décroît sur $[0\\,;1]$, croît sur $[1\\,;+\\infty[$ ; minimum $-4$ en $-1$ et en $1$, maximum local $-3$ en $0$.",
+    "4. Pour $x\\ge0$ : $(x-1)^2=4\\iff x=3$ (car $x=-1<0$ est exclu). Par parité, $S=\\{-3\\,;3\\}$.",
+    "5. Lecture du tableau : $m<-4$ : aucune solution ; $m=-4$ : deux ($\\pm1$) ; $-4<m<-3$ : quatre ; $m=-3$ : trois ($0$ et $\\pm2$) ; $m>-3$ : deux."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Oublier la solution x = 0 quand m = −3, ou garder x = −1 dans la question 4.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C11-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C11-N4",
+    "M-S2-C11-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, on considère la courbe $\\mathscr C$ de la fonction racine carrée et le point $A(2\\,;0)$. Pour $x\\ge0$, on note $M(x\\,;\\sqrt x)$ le point de $\\mathscr C$ d'abscisse $x$.\n\n1. Montrer que $AM^2=x^2-3x+4$.\n2. Écrire $x^2-3x+4$ sous forme canonique.\n3. En déduire la distance minimale $AM$ et les coordonnées du point $M_0$ de $\\mathscr C$ le plus proche de $A$.",
+   "indices": [
+    "(√x)² = x pour x ≥ 0.",
+    "Minimiser AM revient à minimiser AM²."
+   ],
+   "corrige": [
+    "1. $AM^2=(x-2)^2+(\\sqrt x-0)^2=x^2-4x+4+x=x^2-3x+4$.",
+    "2. $\\alpha=\\dfrac32$ et $\\beta=\\dfrac94-\\dfrac92+4=\\dfrac74$ : $AM^2=\\left(x-\\dfrac32\\right)^2+\\dfrac74$.",
+    "3. $AM^2\\ge\\dfrac74$, avec égalité seulement pour $x=\\dfrac32$ (qui est bien $\\ge0$).",
+    "$AM$ est positive et la racine carrée est croissante : la distance minimale est $\\sqrt{\\dfrac74}=\\dfrac{\\sqrt7}2$, atteinte en $M_0\\left(\\dfrac32\\,;\\sqrt{\\dfrac32}\\right)=\\left(\\dfrac32\\,;\\dfrac{\\sqrt6}2\\right)$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Minimiser AM² puis oublier de prendre la racine carrée pour donner AM.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C11-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C11-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre dans $\\mathbb{R}^*$ l'inéquation $\\dfrac1x<-2$. Donner l'ensemble des solutions sous forme d'intervalle.",
+   "reponses_acceptees": [
+    "]-1/2;0[",
+    "]-0,5;0[",
+    "]-0.5;0["
+   ],
+   "indices": [
+    "Sépare les cas x > 0 et x < 0.",
+    "Multiplier par un négatif renverse l'inégalité."
+   ],
+   "corrige": [
+    "Si $x>0$ : $\\dfrac1x>0>-2$, aucune solution.",
+    "Si $x<0$ : on multiplie par $x<0$ (l'ordre change) : $1>-2x$, soit $x>-\\dfrac12$.",
+    "$S=\\left]-\\dfrac12\\,;0\\right[$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    0.5
+   ],
+   "piege": "Multiplier par x sans changer le sens alors que x < 0.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Dire que $x\\mapsto\\frac1x$ (ou une homographique) est décroissante sur $\\mathbb{R}^*$ en une seule fois.",
+  "Se tromper de sens de translation pour $f(x-a)$ : c'est vers la droite si $a>0$.",
+  "Oublier le signe moins dans $\\alpha=-\\frac b{2a}$, ou lire le sommet de $(x+2)^2-1$ comme $(2\\,;-1)$.",
+  "Oublier l'ensemble de définition (racine : expression positive ; quotient : dénominateur non nul).",
+  "Enlever une valeur absolue sans étudier le signe de l'expression.",
+  "Pour un axe ou un centre de symétrie, oublier de vérifier que l'ensemble de définition est symétrique.",
+  "Tableau de variations incomplet : sans valeurs aux bornes ni double barre pour une valeur interdite."
+ ]
+}

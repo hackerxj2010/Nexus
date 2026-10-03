@@ -1,0 +1,745 @@
+{
+ "id": "FR-S2-C12",
+ "matiere": "FR",
+ "semestre": 2,
+ "ordre": 12,
+ "titre": "La dissertation littéraire",
+ "objectifs": [
+  "L'élève doit être capable d'analyser un sujet de dissertation (citation, consigne, mots-clés) et d'en formuler la problématique.",
+  "L'élève doit être capable de choisir le plan adapté à la consigne (dialectique, explicatif, thématique) et d'organiser ses arguments.",
+  "L'élève doit être capable de choisir des exemples littéraires exacts et précis, et de les exploiter.",
+  "L'élève doit être capable de rédiger une dissertation complète : introduction en trois temps, paragraphes illustrés, transitions, conclusion.",
+  "L'élève doit être capable de mobiliser les grandes questions littéraires (fonctions de la littérature, genres, engagement, lecture)."
+ ],
+ "prerequis": [
+  "FR-S1-C03",
+  "FR-S1-C05",
+  "FR-S2-C08",
+  "FR-S2-C09",
+  "FR-S2-C10",
+  "FR-S2-C11"
+ ],
+ "notions": [
+  {
+   "id": "FR-S2-C12-N1",
+   "titre": "Analyser le sujet de dissertation et formuler la problématique",
+   "prerequis_notions": [
+    "FR-S1-C05-N1",
+    "FR-S1-C03-N1"
+   ],
+   "cours_md": "## 1. Qu'est-ce que la dissertation littéraire ?\n\n:::definition\nLa **dissertation littéraire** est une réflexion organisée sur une **question de littérature** (le rôle du poète, la fonction du roman, le théâtre, la lecture, l'engagement de l'écrivain…), le plus souvent posée à partir d'une **citation**. L'élève répond par un devoir rédigé (introduction, développement en deux ou trois parties, conclusion), en s'appuyant sur des **arguments** et des **exemples tirés des œuvres** qu'il a lues.\n:::\n\n| | Discussion (après le résumé) | Dissertation littéraire |\n|---|---|---|\n| Point de départ | une idée du texte résumé | une citation ou une question sur la littérature |\n| Domaine | tous les thèmes (société, école, environnement…) | la littérature : genres, auteurs, œuvres, rôle de l'écrivain et du lecteur |\n| Exemples | expérience, actualité, histoire, lectures | surtout des **œuvres littéraires** précises (titre, auteur, passage) |\n\n## 2. Les formes de sujets\n\n- **Citation + « Commentez » ou « Discutez »** : examiner l'opinion, la justifier, puis la nuancer.\n- **« Expliquez et illustrez »** : montrer pourquoi la citation est juste, avec des exemples ; aucune critique n'est attendue.\n- **« Pensez-vous que… ? », « Partagez-vous ce point de vue ? »** : prendre position de façon nuancée.\n- **« Dans quelle mesure… ? »** : évaluer jusqu'où l'affirmation est vraie, et où elle s'arrête.\n\n## 3. Analyser le sujet\n\n:::methode\n**Cinq opérations au brouillon**\n1. **Recopie** le sujet et **souligne** les mots-clés, y compris les petits mots qui orientent le sens : « seulement », « toujours », « surtout », « ne… que », « doit ».\n2. **Définis** chaque mot-clé dans le domaine de la littérature (que veut dire ici « plaire » ? « instruire » ? « miroir » ?).\n3. **Reformule** la thèse de la citation avec tes mots, en une phrase.\n4. **Repère la consigne** : elle décide du type de plan.\n5. **Formule la problématique** : une question qui met en tension la thèse et ses limites.\n:::\n\n## 4. Exemple d'analyse\n\n> Sujet : Dans « Le Pâtre et le Lion » (Fables, livre VI), La Fontaine écrit : « Une morale nue apporte de l'ennui ; / Le conte fait passer le précepte avec lui. » Expliquez et discutez cette affirmation en vous appuyant sur des exemples précis.\n\n- **Mots-clés** : « morale nue » (une leçon donnée seule, sans histoire) ; « ennui » (le lecteur se lasse) ; « conte » (le récit plaisant) ; « fait passer » (rend acceptable, comme on fait avaler un remède) ; « précepte » (la leçon, la règle de conduite).\n- **Reformulation** : une leçon est mieux reçue quand elle est enveloppée dans une histoire agréable.\n- **Consigne** : « Expliquez et discutez » : expliquer d'abord, puis nuancer, donc plan dialectique.\n- **Problématique** : *Le récit plaisant est-il vraiment le meilleur moyen de transmettre une leçon, ou risque-t-il parfois de la cacher, voire de la faire oublier ?*\n\n:::attention\n- Ne réduis pas le sujet à un **thème** (« les fables ») : on te demande de réfléchir à une **thèse** précise (la leçon passe mieux par le récit).\n- N'oublie aucun mot-clé : « nue » est essentiel, il oppose la leçon seule à la leçon racontée.\n- Ne récite pas la biographie de l'auteur de la citation : on attend une **réflexion**.\n:::",
+   "definition": "La dissertation littéraire est une réflexion argumentée, illustrée d'exemples tirés des œuvres, sur une question de littérature ; elle commence par l'analyse du sujet (mots-clés, reformulation, consigne) et par la formulation d'une problématique.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "On réfléchit sur une phrase à propos de la littérature, en s'appuyant sur des livres lus.",
+    "simple": "La dissertation, c'est une discussion dont les témoins sont des livres : pour prouver ce que tu dis, tu cites des œuvres et des auteurs.",
+    "complete": "La dissertation littéraire problématise une thèse portant sur la littérature (nature et fonctions des genres, statut de l'écrivain, rapport au lecteur, rapport au réel). L'analyse du libellé (mots-clés, présupposés, modalisateurs, consigne) permet de reformuler la thèse, d'en délimiter le champ et de dégager une problématique qui commande un plan démonstratif illustré par des références littéraires précises."
+   },
+   "analogie": "Sous l'arbre à palabres, avant de donner son avis, le sage fait répéter la question pour être sûr de l'avoir bien comprise. L'analyse du sujet, c'est ce moment : comprendre exactement ce qu'on te demande avant de répondre.",
+   "exemples_resolus": [
+    {
+     "enonce": "Analyse le sujet : « Le théâtre n'est qu'un divertissement. » Discutez.",
+     "etapes": [
+      "Mots-clés : « théâtre » (genre écrit pour être joué devant un public) ; « n'est qu'un » (restriction : seulement) ; « divertissement » (ce qui amuse et fait oublier les soucis).",
+      "Reformulation : le théâtre servirait uniquement à amuser, sans autre utilité.",
+      "Consigne : « Discutez » : plan dialectique.",
+      "Problématique : « Le théâtre se limite-t-il à divertir le public, ou peut-il aussi l'instruire et le faire réfléchir ? »"
+     ]
+    },
+    {
+     "enonce": "Améliore cette problématique pour le sujet « Le roman doit-il refléter la réalité ? » : « Le roman doit-il refléter la réalité ? »",
+     "etapes": [
+      "Défaut : la problématique recopie le sujet ; elle ne montre pas les deux réponses possibles.",
+      "Problématique améliorée : « Le roman a-t-il pour mission de montrer le monde tel qu'il est, ou sa force tient-elle aussi à l'imagination qui transforme ce monde ? »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre la dissertation avec une discussion sur un thème de société, sans exemples littéraires.",
+    "Négliger un mot-clé ou une restriction (« ne… que », « seulement », « doit »).",
+    "Recopier le sujet à la place de la problématique.",
+    "Réciter la biographie de l'auteur de la citation.",
+    "Traiter tout un thème (« la poésie ») au lieu de la thèse précise du sujet."
+   ],
+   "astuces": [
+    "Les restrictions (« ne… que », « seulement ») et les obligations (« doit ») sont presque toujours la clé du débat.",
+    "Pour définir un mot-clé, cherche son contraire : « plaire » s'oppose à « ennuyer », « instruire » à « laisser ignorant ».",
+    "Ta problématique est bonne si l'on peut y répondre de deux façons différentes."
+   ],
+   "mnemo": "« Souligne, Définis, Reformule, Questionne » : comme pour la discussion, les quatre gestes de l'analyse du sujet.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Le sujet de rédaction argumentative te demandait déjà ton avis sur une question. En seconde, la question porte sur la littérature, et tes preuves sont des œuvres lues."
+   },
+   "methode_redaction": "L'analyse du sujet reste au brouillon (10 à 15 minutes). Sur la copie, elle se voit dans l'introduction : citation recopiée exactement, reformulée, puis problématique sous forme de question.",
+   "flash": [
+    {
+     "q": "Différence entre discussion et dissertation ?",
+     "r": "La dissertation porte sur une question de littérature et s'appuie surtout sur des œuvres."
+    },
+    {
+     "q": "Que demande « Expliquez et illustrez » ?",
+     "r": "Montrer pourquoi la citation est juste, avec des exemples, sans la critiquer."
+    },
+    {
+     "q": "Que demande « Dans quelle mesure… ? »",
+     "r": "Évaluer jusqu'où l'affirmation est vraie et où elle s'arrête."
+    },
+    {
+     "q": "Pourquoi souligner « ne… que » dans un sujet ?",
+     "r": "C'est une restriction qui oriente tout le débat."
+    },
+    {
+     "q": "Qu'est-ce qu'une bonne problématique ?",
+     "r": "Une question qui reformule le sujet et admet deux réponses possibles."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C12-N1.svg",
+    "alt": "Schéma en cinq étapes : souligner les mots-clés, les définir, reformuler la thèse, lire la consigne, formuler la problématique.",
+    "legende": "Méthode d'analyse d'un sujet de dissertation.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C12-N2",
+   "titre": "Choisir le plan et organiser les arguments",
+   "prerequis_notions": [
+    "FR-S2-C12-N1",
+    "FR-S1-C05-N3"
+   ],
+   "cours_md": "## 1. La consigne commande le plan\n\n| Consigne | Plan | Structure |\n|---|---|---|\n| « Discutez », « Partagez-vous… ? », « Pensez-vous que… ? », « Dans quelle mesure… ? » | **dialectique** | I. La thèse est juste (expliquer, justifier) – II. Mais elle a des limites (nuancer) – (III. Dépassement) |\n| « Expliquez et illustrez », « Justifiez » | **explicatif** (ou analytique) | I. Premier aspect de la citation – II. Second aspect (– III. Troisième), chacun illustré |\n| « Quelles sont les fonctions… ? », « Montrez les différents aspects… » | **thématique** | I. Aspect 1 – II. Aspect 2 – III. Aspect 3 |\n\n:::propriete\nDans le plan dialectique, la partie I **explique et justifie** la citation (on lui donne raison avec de bons arguments) ; la partie II **nuance** ou montre ses **limites** ; la partie III, facultative en seconde, **dépasse** l'opposition (« les deux à la fois », « à condition que… »).\n:::\n\n## 2. Trouver et classer les arguments\n\n:::methode\n**Le brouillon en trois temps**\n1. **Remue-méninges** : pour chaque mot-clé, note tout ce que tu sais (genres, œuvres, auteurs, souvenirs de lecture). Demande-toi : pourquoi l'auteur de la citation a-t-il raison ? dans quels cas a-t-il tort ? qu'en disent d'autres écrivains ?\n2. **Classement** : range les idées dans les parties (I : arguments pour ; II : limites ; III : dépassement).\n3. **Plan détaillé** : pour chaque sous-partie, une **idée-phrase** et un **exemple littéraire précis**.\n:::\n\n## 3. Exemple de plan détaillé\n\n> Sujet : La Fontaine, « Une morale nue apporte de l'ennui ; / Le conte fait passer le précepte avec lui. » Expliquez et discutez.\n>\n> **I. Le récit rend la leçon agréable et efficace**\n> 1. L'histoire captive le lecteur et chasse l'ennui : suspense, personnages, dialogue (le petit procès de « Le Loup et l'Agneau »).\n> 2. Le lecteur découvre lui-même la leçon et la retient mieux : les contes africains instruisent les enfants en les amusant (les ruses de Leuk-le-Lièvre chez Senghor et Abdoulaye Sadji ; Kacou Ananzè l'araignée dans *Le Pagne noir* de Bernard Dadié).\n> 3. Le récit permet de critiquer sans danger : les animaux de La Fontaine désignent les puissants de son temps sans les nommer.\n>\n> **II. Mais le récit ne suffit pas toujours, et la leçon « nue » a sa force**\n> 1. Le lecteur peut s'arrêter au plaisir de l'histoire et passer à côté de la leçon (on retient la ruse amusante, pas la morale).\n> 2. Certaines leçons gagnent à être dites directement : les proverbes frappent par leur brièveté.\n> 3. Quand l'enjeu est grave, le texte argumentatif direct (essai, discours) convainc par la raison.\n>\n> **III. L'idéal : unir le plaisir et la leçon**\n> « Il faut instruire et plaire », écrit La Fontaine dans la même fable : la leçon la plus forte est celle que le plaisir rend inoubliable.\n\n:::attention\n- Une partie II qui dit seulement « non, c'est faux » contredit la partie I : elle doit **nuancer** (« pas toujours », « pas seulement », « à condition que »).\n- Un exemple doit **prouver l'idée** de sa sous-partie : ne le place pas au hasard.\n- Équilibre les parties : deux ou trois sous-parties chacune.\n:::",
+   "definition": "Le plan de la dissertation dépend de la consigne : dialectique (thèse, limites, dépassement) pour discuter, explicatif pour « expliquez et illustrez », thématique pour présenter des aspects successifs ; chaque sous-partie associe une idée et un exemple littéraire précis.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Le plan dépend de la consigne : discuter, expliquer ou présenter des aspects.",
+    "simple": "Discuter = « oui… mais… » ; expliquer = « voici pourquoi c'est vrai » ; énumérer = « voici les différents aspects ».",
+    "complete": "Le plan dialectique éprouve une thèse en la justifiant, en marquant ses limites, puis en proposant éventuellement une synthèse qui dépasse l'opposition ; le plan explicatif développe les composantes de la citation en les illustrant ; le plan thématique inventorie les aspects d'une question. Dans tous les cas, la progression doit être démonstrative, sans redondance, et chaque idée directrice est étayée par une référence littéraire précise."
+   },
+   "analogie": "Avant de lancer la navette, le tisserand de kenté tend ses fils dans le bon ordre : c'est son plan. Si les fils sont mal tendus, le motif sera brouillé, quelle que soit la beauté des couleurs.",
+   "exemples_resolus": [
+    {
+     "enonce": "Quel plan pour : « Expliquez et illustrez ce jugement : “La poésie est un chant de l'âme.” » ?",
+     "etapes": [
+      "Consigne « Expliquez et illustrez » : on justifie la citation, on ne la conteste pas.",
+      "Plan explicatif : I. La poésie est un chant (rythme, rimes, sonorités, lien avec le chant dans la tradition orale) – II. Elle exprime l'âme (sentiments personnels du lyrisme : amour, deuil, nostalgie)."
+     ]
+    },
+    {
+     "enonce": "Corrige cette partie II maladroite (sujet de La Fontaine) : « II. La Fontaine a tort, les contes sont inutiles. »",
+     "etapes": [
+      "Cette partie contredit brutalement la partie I et rend le devoir incohérent.",
+      "Partie II corrigée : « II. Pourtant, le plaisir du récit ne garantit pas toujours que la leçon soit comprise. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Choisir un plan dialectique pour « Expliquez et illustrez ».",
+    "Faire une partie II qui contredit simplement la partie I.",
+    "Écrire des idées sans exemple, ou des exemples sans idée.",
+    "Répéter le même argument dans deux parties.",
+    "Commencer à rédiger sans plan détaillé."
+   ],
+   "astuces": [
+    "Commence la partie II par « Pourtant », « Toutefois » ou « Cependant » : tu seras obligé de nuancer.",
+    "Ta position personnelle se place à la fin : dans la dernière partie et dans la conclusion.",
+    "Garde l'argument le plus fort pour la fin de chaque partie."
+   ],
+   "mnemo": "« Discutez → Dialectique ; Expliquez → Explicatif ; Énumérez → Thématique » : la consigne choisit le plan.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu savais déjà opposer le « pour » et le « contre ». Au premier semestre, la discussion t'a appris les trois types de plans : en dissertation, ils s'appliquent à des questions littéraires."
+   },
+   "methode_redaction": "Le plan détaillé reste au brouillon (20 minutes environ). Sur la copie, aucun titre ni numéro : chaque partie commence par une phrase qui annonce son idée directrice, et chaque sous-partie est un paragraphe avec alinéa.",
+   "flash": [
+    {
+     "q": "Quel plan pour « Discutez » ?",
+     "r": "Le plan dialectique."
+    },
+    {
+     "q": "Quel plan pour « Expliquez et illustrez » ?",
+     "r": "Le plan explicatif : on justifie la citation."
+    },
+    {
+     "q": "Rôle de la partie II d'un plan dialectique ?",
+     "r": "Nuancer, montrer les limites de la thèse, sans la contredire bêtement."
+    },
+    {
+     "q": "Qu'est-ce que le dépassement (partie III) ?",
+     "r": "Une partie qui concilie les deux points de vue (« les deux à la fois », « à condition que… »)."
+    },
+    {
+     "q": "Combien de sous-parties par partie ?",
+     "r": "Deux ou trois."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C12-N2.svg",
+    "alt": "Plan dialectique détaillé du sujet de La Fontaine : introduction avec problématique, partie I en deux sous-parties, transition, partie II en deux sous-parties, partie III de dépassement, conclusion.",
+    "legende": "Un plan dialectique en trois parties sur la fonction du conte.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C12-N3",
+   "titre": "Choisir et exploiter les exemples littéraires",
+   "prerequis_notions": [
+    "FR-S2-C12-N2",
+    "FR-S1-C05-N2",
+    "FR-S2-C09-N3"
+   ],
+   "cours_md": "## 1. Un exemple littéraire, c'est quoi ?\n\n:::definition\nUn **exemple littéraire** est une référence **précise** à une œuvre (titre, auteur, éventuellement date, personnage, passage ou courte citation) qui **prouve** l'argument qu'il accompagne. Il doit être **exact**, **pertinent** et **exploité** : on explique en une ou deux phrases en quoi il prouve l'idée.\n:::\n\n| Exemple faible | Exemple efficace |\n|---|---|\n| « Beaucoup de poètes parlent de l'Afrique. » | « Dans *Cahier d'un retour au pays natal* (1939), Aimé Césaire revendique avec force son identité noire : la poésie devient un cri de révolte. » |\n| « Dans un roman, un enfant raconte sa vie. » | « Dans *L'Enfant noir* (1953), Camara Laye se souvient de son enfance à Kouroussa et rend hommage à sa mère : l'écriture sauve de l'oubli un monde qu'il a quitté. » |\n| « Molière se moque des gens. » | « Dans *L'Avare* (1668), Molière ridiculise Harpagon, prêt à sacrifier le bonheur de ses enfants à son argent : le rire dénonce un vice. » |\n\n## 2. Un réservoir d'œuvres\n\nQuelques œuvres souvent utiles en seconde (vérifie avec ton professeur celles qui sont au programme de ta classe) :\n\n| Genre | Œuvres | Questions qu'elles illustrent |\n|---|---|---|\n| Roman africain | Camara Laye, *L'Enfant noir* (1953) ; Ferdinand Oyono, *Une vie de boy* (1956) ; Cheikh Hamidou Kane, *L'Aventure ambiguë* (1961) ; Ahmadou Kourouma, *Les Soleils des indépendances* (1968) | souvenir et identité ; satire de la colonisation ; tradition et modernité ; désillusions après les indépendances |\n| Poésie | Victor Hugo, *Les Contemplations* (1856) ; Léopold Sédar Senghor, *Chants d'ombre* (1945) ; Aimé Césaire, *Cahier d'un retour au pays natal* (1939) ; David Diop, *Coups de pilon* (1956) | lyrisme ; Négritude ; poésie engagée |\n| Théâtre | Molière, *L'Avare* (1668) ; Guillaume Oyônô Mbia, *Trois prétendants… un mari* (1964) | comédie qui corrige les mœurs ; satire de la dot et du mariage forcé |\n| Contes et fables | La Fontaine, *Fables* (1668-1694) ; Birago Diop, *Les Contes d'Amadou Koumba* (1947) ; Bernard Dadié, *Le Pagne noir* (1955) | plaire et instruire ; sagesse de la tradition orale |\n| Littérature togolaise | Félix Couchoro, *L'Esclave* (1929), considéré comme le premier roman togolais ; les œuvres togolaises au programme de ta classe | naissance du roman au Togo ; réalités sociales |\n\n## 3. Bien rédiger un exemple\n\n:::methode\n**Annoncer, présenter, exploiter**\n1. **Annonce** : un connecteur d'illustration (« Ainsi », « Par exemple », « C'est le cas de… »).\n2. **Présentation précise** : titre (souligné sur la copie), auteur, date si tu en es sûr, la situation ou le passage.\n3. **Exploitation** : une ou deux phrases qui montrent **en quoi** l'exemple prouve l'idée, avec si possible une courte citation exacte.\n:::\n\n> Idée : le récit rend la leçon plus frappante.\n> Exemple rédigé : Ainsi, dans « Le Loup et l'Agneau », la morale est annoncée dès le premier vers : « La raison du plus fort est toujours la meilleure. » Mais c'est le récit qui lui donne sa force : le lecteur, captivé par ce petit procès où l'agneau, poli et logique, réfute un à un les reproches du loup, ressent l'injustice de sa mort bien plus vivement qu'avec une leçon abstraite.\n\n:::attention\n- **N'invente jamais** un titre, un auteur ou une citation : un exemple faux coûte plus de points qu'il n'en rapporte. Si tu doutes d'une date, ne l'écris pas.\n- Ne **raconte** pas toute l'œuvre : seuls comptent les éléments qui prouvent ton idée.\n- **Varie** les exemples : genres, époques, littérature africaine et française.\n:::",
+   "definition": "Un exemple littéraire est une référence exacte et précise à une œuvre (titre, auteur, passage) qui prouve un argument ; on l'annonce, on le présente précisément, puis on l'exploite en expliquant en quoi il prouve l'idée.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Un exemple littéraire, c'est un livre précis qui prouve ton idée, et tu dis comment.",
+    "simple": "Dans un procès, le témoin doit être réel et dire ce qu'il a vu. Ton exemple est ce témoin : une vraie œuvre, un passage précis et une explication.",
+    "complete": "La référence littéraire fonctionne comme une preuve inductive : elle doit être exacte (titre, auteur, contexte), circonscrite (personnage, scène, vers) et commentée de manière à établir le lien logique avec l'idée directrice. La variété des références (genres, époques, aires culturelles) et leur intégration syntaxique soignée témoignent d'une culture littéraire maîtrisée."
+   },
+   "analogie": "Un exemple sans explication, c'est comme montrer un reçu sans dire ce qu'on a acheté : la preuve existe, mais personne ne sait ce qu'elle prouve.",
+   "exemples_resolus": [
+    {
+     "enonce": "Améliore cet exemple : « Par exemple, dans un livre africain, un jeune domestique raconte sa vie chez des Blancs. »",
+     "etapes": [
+      "Défauts : ni titre ni auteur, et aucune exploitation (qu'est-ce que l'exemple prouve ?).",
+      "Version efficace : « C'est le cas d'Une vie de boy (1956), où Ferdinand Oyono donne la parole à Toundi, jeune domestique d'un commandant colonial, à travers son journal intime : la naïveté apparente du narrateur rend la satire de la colonisation d'autant plus mordante. »"
+     ]
+    },
+    {
+     "enonce": "Sujet : « Le théâtre n'est qu'un divertissement. » Discutez. Dans quelle partie utiliser L'Avare de Molière ?",
+     "etapes": [
+      "Molière fait rire (Harpagon et ses « Sans dot ! » répétés) : l'exemple peut illustrer la partie I (le théâtre divertit).",
+      "Mais ce rire dénonce l'avarice et l'autorité abusive d'un père : l'exemple prouve surtout la partie II (le théâtre instruit aussi).",
+      "Un même exemple peut servir deux fois s'il est exploité sous deux angles différents, mais il vaut mieux varier les œuvres."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Donner des exemples vagues (« un poète a dit », « dans un roman »).",
+    "Inventer un titre, une date ou une citation.",
+    "Raconter toute l'histoire de l'œuvre au lieu d'en tirer une preuve.",
+    "Ne citer que des exemples d'un seul genre ou d'une seule époque.",
+    "Ne pas souligner les titres d'œuvres sur la copie."
+   ],
+   "astuces": [
+    "Apprends par cœur deux ou trois citations courtes par œuvre étudiée : elles font gagner beaucoup de points.",
+    "Un même livre sert dans plusieurs sujets : L'Enfant noir parle d'enfance, de tradition, d'école, d'exil et de la mère.",
+    "Si tu doutes d'une date, écris seulement le titre et l'auteur : mieux vaut moins, mais juste."
+   ],
+   "mnemo": "« TAP » : Titre, Auteur, Preuve (en quoi l'exemple prouve l'idée).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as lu des œuvres intégrales en classe. Ce sont tes premières munitions pour la dissertation : reprends tes notes et commence un carnet de lectures."
+   },
+   "methode_redaction": "Sur la copie manuscrite, souligne les titres d'œuvres (romans, recueils, pièces) ; mets entre guillemets les titres de poèmes, de fables ou de chapitres (« Le Loup et l'Agneau ») et les citations, recopiées exactement.",
+   "flash": [
+    {
+     "q": "Les trois qualités d'un bon exemple littéraire ?",
+     "r": "Exact, précis, exploité (on dit en quoi il prouve l'idée)."
+    },
+    {
+     "q": "Que fait-on du titre d'un roman sur la copie ?",
+     "r": "On le souligne."
+    },
+    {
+     "q": "Que faire si l'on doute d'une date ?",
+     "r": "Ne pas l'écrire : le titre et l'auteur suffisent."
+    },
+    {
+     "q": "Qui a écrit L'Enfant noir ?",
+     "r": "Camara Laye (1953)."
+    },
+    {
+     "q": "Qui a écrit Une vie de boy ?",
+     "r": "Ferdinand Oyono (1956)."
+    },
+    {
+     "q": "Que signifie « TAP » ?",
+     "r": "Titre, Auteur, Preuve."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C12-N3.svg",
+    "alt": "Carte mentale des sources d'exemples littéraires : roman, poésie, théâtre, contes et fables, avec deux œuvres pour chacun, et la règle d'or : ne jamais inventer.",
+    "legende": "Des œuvres à mobiliser comme exemples, par genre.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C12-N4",
+   "titre": "Rédiger la dissertation : introduction, développement, transitions, conclusion",
+   "prerequis_notions": [
+    "FR-S2-C12-N2",
+    "FR-S2-C12-N3",
+    "FR-S1-C05-N4",
+    "FR-S1-C05-N5"
+   ],
+   "cours_md": "## 1. L'introduction en trois temps\n\n:::methode\n**Amener, Poser, Annoncer**\n1. **Amener le sujet** : pars d'une idée générale **littéraire** liée au sujet (un constat sur un genre, une époque, une tradition), en une ou deux phrases. Jamais « Depuis la nuit des temps ».\n2. **Poser le sujet** : cite la phrase **exactement** (avec son auteur), **reformule-la** brièvement, puis formule la **problématique**.\n3. **Annoncer le plan** : les deux ou trois parties, dans l'ordre, en une phrase.\n:::\n\n**Exemple** (sujet de La Fontaine sur la morale et le conte) :\n> Des fables d'Ésope aux contes que les grands-mères racontent encore le soir dans nos villages, les hommes ont souvent choisi de transmettre la sagesse à travers des histoires. La Fontaine justifie ce choix dans une de ses fables : « Une morale nue apporte de l'ennui ; / Le conte fait passer le précepte avec lui. » Selon lui, une leçon n'est bien reçue que si elle est enveloppée dans un récit plaisant. Le récit est-il vraiment le meilleur moyen de transmettre une leçon, ou peut-il parfois la cacher ? Nous montrerons d'abord que le conte rend la leçon agréable et efficace, puis que le plaisir du récit ne suffit pas toujours, avant de voir que la meilleure œuvre sait à la fois instruire et plaire.\n\n## 2. Le développement\n\n- Chaque **partie** s'ouvre par une phrase qui annonce son idée directrice.\n- Chaque **sous-partie** est un **paragraphe argumentatif** : **I**dée, **A**rgument (explication), **E**xemple littéraire présenté et exploité, **C**onclusion partielle (IAEC, comme dans la discussion).\n- Entre les parties, une **transition** : bilan de la partie achevée et annonce de la suivante.\n\n**Exemple de paragraphe** (I.2) :\n> De plus, le récit permet au lecteur de découvrir lui-même la leçon, ce qui la rend plus durable. En effet, une vérité que l'on trouve seul s'oublie moins qu'une règle imposée. C'est ce que montrent les contes de la tradition orale africaine : dans *Le Pagne noir*, Bernard Dadié met en scène les ruses et les mésaventures de Kacou Ananzè l'araignée, souvent puni pour sa gourmandise et sa malhonnêteté ; l'enfant qui rit de ses déboires comprend, sans qu'on ait besoin de le lui dire, que la tromperie finit par se retourner contre celui qui l'emploie. Le conte transforme ainsi le plaisir de l'écoute en apprentissage de la sagesse.\n\n**Exemple de transition** (entre I et II) :\n> Si le conte rend la leçon agréable et durable, ce plaisir n'est pourtant pas sans risque : il arrive que l'histoire fasse oublier la morale.\n\n## 3. La conclusion en trois temps\n\n:::methode\n**Bilan, Réponse, Ouverture**\n1. **Bilan** : reprends brièvement l'idée de chaque partie.\n2. **Réponse** nette à la problématique (ta position nuancée).\n3. **Ouverture** : élargis vers une question littéraire voisine (un autre genre, une autre époque, la création d'aujourd'hui).\n:::\n\n> Ainsi, le conte rend la leçon plus agréable et plus durable, mais le plaisir du récit peut aussi la faire oublier, et certaines vérités gagnent à être dites directement. La Fontaine a donc raison, à condition que le récit reste au service de la leçon : instruire et plaire vont ensemble. On peut d'ailleurs se demander si le cinéma et les séries, qui sont un peu les contes d'aujourd'hui, transmettent encore des leçons à leur public.\n\n## 4. Présentation de la copie\n\n:::propriete\n- Introduction : un paragraphe ; **ligne sautée** ; partie I (2 ou 3 paragraphes avec alinéas) et transition ; **ligne sautée** ; partie II ; **ligne sautée** ; conclusion : un paragraphe.\n- Aucun titre, aucun numéro (I, A, 1) sur la copie : tout est rédigé.\n- Titres d'œuvres soulignés, citations entre guillemets, écriture lisible ; une rature se fait d'un seul trait à la règle.\n:::\n\n:::attention\n- Recopie la citation du sujet **sans erreur** : c'est la première chose que le correcteur vérifie.\n- Pas de « je » envahissant : préfère « nous » ou des tournures impersonnelles (« on peut penser que… ») ; le « je » est toléré en conclusion pour affirmer ta position.\n- Garde du temps pour la conclusion : une copie sans conclusion perd des points précieux.\n:::",
+   "definition": "La dissertation rédigée comprend une introduction en trois temps (amener, poser le sujet avec la citation et la problématique, annoncer le plan), un développement en parties faites de paragraphes argumentatifs illustrés et reliées par des transitions, et une conclusion (bilan, réponse, ouverture).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Amener, poser, annoncer ; puis prouver partie par partie ; enfin conclure et ouvrir.",
+    "simple": "Ta copie est un exposé écrit : tu dis ce que tu vas montrer, tu le montres partie par partie avec des preuves, puis tu dis ce que tu as montré.",
+    "complete": "La rédaction actualise le plan détaillé : l'introduction contextualise, cite et reformule le libellé, problématise et annonce le parcours ; le développement enchaîne des paragraphes argumentatifs (idée directrice, justification, exemple littéraire exploité, conclusion partielle) articulés par des connecteurs et des transitions ; la conclusion synthétise, répond explicitement à la problématique et ouvre sur une question connexe. La lisibilité matérielle (paragraphes, alinéas, lignes sautées, soulignement des titres) participe de l'évaluation."
+   },
+   "analogie": "Dans le car de Lomé à Kara, on annonce l'itinéraire au départ (introduction), on traverse les villes étapes dans l'ordre (parties), on signale chaque arrêt (transitions) et, à l'arrivée, on résume le voyage en deux phrases (conclusion).",
+   "exemples_resolus": [
+    {
+     "enonce": "Corrige cette annonce de plan (sujet : « Le théâtre n'est qu'un divertissement. » Discutez) : « Dans une première partie nous allons voir la première partie et dans une deuxième partie nous allons voir la deuxième partie. »",
+     "etapes": [
+      "Défauts : l'annonce est vide (elle ne dit pas le contenu des parties) et répétitive.",
+      "Annonce corrigée : « Nous verrons d'abord que le théâtre est bien un art du divertissement, puis qu'il est aussi une école de réflexion pour le spectateur. »"
+     ]
+    },
+    {
+     "enonce": "Rédige une transition entre la partie I « La poésie exprime les sentiments personnels du poète » et la partie II « La poésie peut aussi servir un combat collectif ».",
+     "etapes": [
+      "Une transition résume la partie I et annonce la partie II, en montrant le lien logique (ici, une concession).",
+      "Transition : « Si la poésie est d'abord le chant intime d'un “je” qui confie ses joies et ses peines, elle ne se limite pas à cette voix personnelle : elle peut aussi porter la révolte de tout un peuple. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Recopier la citation du sujet avec des fautes, ou l'oublier dans l'introduction.",
+    "Annoncer un plan différent de celui qu'on développe.",
+    "Écrire les titres des parties (I, A, 1) sur la copie.",
+    "Juxtaposer les parties sans transition.",
+    "Bâcler la conclusion ou y ajouter un argument nouveau."
+   ],
+   "astuces": [
+    "Écris l'introduction et la conclusion en entier au brouillon ; le développement se rédige directement à partir du plan détaillé.",
+    "Vérifie que l'annonce du plan et les phrases d'ouverture des parties disent la même chose.",
+    "Commence chaque paragraphe par un connecteur : d'abord, de plus, en outre, enfin ; cependant, toutefois ; ainsi."
+   ],
+   "mnemo": "Introduction « APA » : Amener, Poser, Annoncer. Paragraphe « IAEC » : Idée, Argument, Exemple, Conclusion partielle. Conclusion « BRO » : Bilan, Réponse, Ouverture.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Ta rédaction avait une introduction, un développement et une conclusion. La dissertation garde ce squelette, mais chaque partie est construite, reliée par des transitions et prouvée par des œuvres."
+   },
+   "methode_redaction": "Mise en page type : introduction (6 à 10 lignes) / ligne sautée / partie I : 2 ou 3 paragraphes avec alinéas, puis la transition / ligne sautée / partie II / ligne sautée / conclusion (5 à 8 lignes). Longueur visée en seconde : 3 à 4 pages.",
+   "flash": [
+    {
+     "q": "Les trois temps de l'introduction de dissertation ?",
+     "r": "Amener le sujet ; poser le sujet (citation, reformulation, problématique) ; annoncer le plan."
+    },
+    {
+     "q": "Où place-t-on la citation du sujet ?",
+     "r": "Dans l'introduction, au moment de poser le sujet, recopiée exactement."
+    },
+    {
+     "q": "Structure d'un paragraphe de dissertation ?",
+     "r": "IAEC : Idée, Argument, Exemple littéraire exploité, Conclusion partielle."
+    },
+    {
+     "q": "Que fait une transition ?",
+     "r": "Elle résume la partie achevée et annonce la suivante."
+    },
+    {
+     "q": "Écrit-on « I. », « A. » sur la copie ?",
+     "r": "Non, tout est rédigé, sans titres."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C12-N4.svg",
+    "alt": "Schéma en cinq étapes de la rédaction : amener, poser (citation, reformulation, problématique), annoncer, développer en paragraphes IAEC avec transitions, conclure (bilan, réponse, ouverture).",
+    "legende": "Les étapes de la rédaction d'une dissertation.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C12-N5",
+   "titre": "Les grandes questions littéraires : un réservoir d'idées",
+   "prerequis_notions": [
+    "FR-S2-C12-N3",
+    "FR-S1-C03-N4",
+    "FR-S2-C08-N4",
+    "FR-S2-C09-N1"
+   ],
+   "cours_md": "## 1. À quoi sert la littérature ?\n\n:::definition\nLes sujets de dissertation reviennent souvent aux mêmes **grandes questions** : à quoi sert la littérature ? que peut chaque genre (poésie, roman, théâtre) ? l'écrivain doit-il s'engager ? pourquoi lire ? Connaître les **réponses classiques** et quelques **exemples** pour chacune te donne des idées prêtes à adapter au sujet.\n:::\n\n| Fonction | Idée | Exemples |\n|---|---|---|\n| **Plaire** (divertir) | la littérature procure du plaisir : histoires, émotions, beauté de la langue | contes, comédies, romans d'aventures |\n| **Instruire** | elle transmet une sagesse, une leçon, une connaissance du monde | *Fables* de La Fontaine, contes africains, proverbes |\n| **Émouvoir** | elle fait partager des sentiments universels | Hugo, « Demain, dès l'aube… » (le deuil d'un père) |\n| **Témoigner** | elle garde la mémoire d'une époque, d'un peuple | Camara Laye, *L'Enfant noir* ; romans des indépendances |\n| **Dénoncer, s'engager** | elle combat les injustices | Voltaire, *Candide* (1759) ; Ferdinand Oyono, *Une vie de boy* ; poésie de la Négritude |\n\nLa formule classique **« instruire et plaire »** remonte au poète latin Horace ; La Fontaine et Molière la reprennent.\n\n## 2. Les questions propres à chaque genre\n\n- **Poésie** : jeu sur les mots et les sons, ou expression de l'âme ? chant personnel (lyrisme) ou chant collectif (engagement) ? Le poète est-il un rêveur isolé ou un guide ? Victor Hugo répond dans « Fonction du poète » (*Les Rayons et les Ombres*, 1840) : « Peuples ! écoutez le poète ! »\n- **Roman** : miroir de la réalité ou œuvre d'imagination ? Stendhal : « Un roman : c'est un miroir qu'on promène le long d'un chemin » (*Le Rouge et le Noir*, 1830). Pourquoi s'attache-t-on à des personnages qui n'existent pas ?\n- **Théâtre** : simple divertissement ou école de réflexion ? Molière : « Le devoir de la comédie étant de corriger les hommes en les divertissant… » (premier placet au roi sur *Tartuffe*, 1664). Le théâtre se lit-il ou se voit-il ?\n- **Littérature orale** : contes, épopées et proverbes transmettent la mémoire d'un peuple ; le griot en est le gardien. On cite souvent la formule d'Amadou Hampâté Bâ : « En Afrique, quand un vieillard meurt, c'est une bibliothèque qui brûle. »\n\n## 3. L'engagement de l'écrivain\n\n- **Pour** : l'écrivain a une responsabilité, sa parole peut éveiller les consciences : la Négritude (Césaire, Senghor) contre le mépris colonial ; Voltaire contre le fanatisme ; Hugo contre la misère dans *Les Misérables* (1862).\n- **Limites** : une œuvre qui ne sert qu'une cause risque de devenir un tract et de vieillir avec elle ; l'art a aussi le droit d'exister pour la beauté (« l'art pour l'art », défendu par Théophile Gautier).\n- **Dépassement** : les grandes œuvres engagées le sont **par leur beauté même** : c'est la force poétique du *Cahier d'un retour au pays natal* qui donne sa puissance à la révolte.\n\n## 4. Pourquoi lire ?\n\n- Lire, c'est **dialoguer** avec les auteurs du passé : Descartes compare la lecture des bons livres à « une conversation avec les plus honnêtes gens des siècles passés » (*Discours de la méthode*, 1637).\n- C'est **vivre d'autres vies**, voyager, comprendre l'autre.\n- C'est **enrichir sa langue** et exercer son esprit critique.\n- Limite : la lecture ne remplace pas l'expérience ; elle peut enfermer dans le rêve, comme Don Quichotte, qui se prend pour un chevalier à force de lire des romans de chevalerie.\n\n:::methode\n**Utiliser ce réservoir sans réciter**\n1. Repère à quelle grande question se rattache ton sujet.\n2. Reprends les arguments classiques, mais **adapte-les** aux mots exacts du sujet.\n3. Choisis des exemples que tu **connais vraiment** (œuvres étudiées en classe).\n4. N'insère jamais un paragraphe appris par cœur qui ne répond pas exactement au sujet.\n:::\n\n:::attention\nLes citations d'écrivains **appuient** ton raisonnement, elles ne le remplacent pas. Recopie-les exactement, avec leur auteur ; si tu n'es pas sûr des mots, reformule l'idée **sans guillemets** en l'attribuant à son auteur.\n:::",
+   "definition": "Les sujets de dissertation de seconde reviennent à quelques grandes questions : fonctions de la littérature (plaire, instruire, émouvoir, témoigner, dénoncer), pouvoirs de chaque genre, engagement de l'écrivain, rôle de la lecture ; connaître leurs arguments classiques et des exemples précis permet de réfléchir vite et juste.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Les sujets tournent autour de quelques grandes questions : prépare tes idées et tes exemples pour chacune.",
+    "simple": "Comme un footballeur qui répète ses gestes à l'entraînement avant le match, tu prépares pendant l'année tes idées sur la poésie, le roman, le théâtre et l'engagement.",
+    "complete": "La culture littéraire mobilisable en dissertation s'organise autour de problématiques récurrentes : finalités de la littérature (instruire, plaire, émouvoir), rapport au réel (imitation et imagination), statut et responsabilité de l'écrivain (engagement, autonomie de l'art), fonctions de la lecture et de la transmission orale. Ces lieux communs fournissent des cadres argumentatifs qu'il faut toujours ajuster au libellé précis du sujet et illustrer par des références maîtrisées."
+   },
+   "analogie": "Le griot connaît par cœur les généalogies et les grands récits, mais il les adapte à chaque cérémonie. Ton réservoir d'idées fonctionne de la même façon : la matière est prête, la manière s'adapte au sujet.",
+   "exemples_resolus": [
+    {
+     "enonce": "À quelle grande question se rattache le sujet « Le romancier doit-il peindre la réalité telle qu'elle est ? » Donne une idée pour chaque partie d'un plan dialectique.",
+     "etapes": [
+      "Grande question : le roman, miroir du réel ou œuvre d'imagination ?",
+      "I. Le roman peint la réalité : Stendhal le compare à un miroir ; Kourouma, dans Les Soleils des indépendances, montre les désillusions de l'Afrique après 1960.",
+      "II. Mais il la transforme : le romancier choisit, grossit, invente ; c'est souvent en imaginant qu'il fait mieux voir le réel."
+     ]
+    },
+    {
+     "enonce": "Tu ne te souviens plus des mots exacts de Victor Hugo sur la mission du poète. Comment utiliser quand même son idée ?",
+     "etapes": [
+      "Ne jamais inventer une citation entre guillemets.",
+      "Reformuler l'idée en l'attribuant : « Pour Victor Hugo, dans “Fonction du poète”, le poète a une mission : éclairer le peuple et le guider vers des jours meilleurs. »"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Réciter un paragraphe appris par cœur qui ne correspond pas exactement au sujet.",
+    "Attribuer une citation au mauvais auteur ou la déformer entre guillemets.",
+    "Aligner des citations d'écrivains sans développer d'argument personnel.",
+    "Croire qu'une œuvre engagée ne peut pas être belle, ou qu'une œuvre belle ne dit rien."
+   ],
+   "astuces": [
+    "Pour chaque genre, retiens une citation, deux œuvres et deux arguments : c'est suffisant pour bien démarrer n'importe quel sujet.",
+    "« Instruire et plaire » ouvre de nombreux sujets : pense au dépassement « les deux à la fois ».",
+    "Associe si possible une œuvre africaine et une œuvre française : le correcteur apprécie la variété."
+   ],
+   "mnemo": "Les cinq pouvoirs de la littérature tiennent sur une main : Plaire, Instruire, Émouvoir, Témoigner, Dénoncer, un doigt pour chacun.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as étudié des contes, des fables, des poèmes et des pièces de théâtre. Chaque genre que tu connais déjà répond à une grande question : à quoi sert-il, que peut-il ?"
+   },
+   "methode_redaction": "Pour intégrer une citation d'écrivain : ton idée d'abord, puis la citation exacte avec son auteur et son œuvre (« Comme l'écrit Stendhal dans Le Rouge et le Noir, “un roman : c'est un miroir qu'on promène le long d'un chemin” »), enfin une phrase qui explique le lien entre la citation et ton idée.",
+   "flash": [
+    {
+     "q": "Les cinq fonctions de la littérature ?",
+     "r": "Plaire, instruire, émouvoir, témoigner, dénoncer."
+    },
+    {
+     "q": "Qui a comparé le roman à un miroir promené le long d'un chemin ?",
+     "r": "Stendhal, dans Le Rouge et le Noir (1830)."
+    },
+    {
+     "q": "Selon Molière, quel est le devoir de la comédie ?",
+     "r": "Corriger les hommes en les divertissant."
+    },
+    {
+     "q": "Qu'est-ce que « l'art pour l'art » ?",
+     "r": "L'idée que l'œuvre vaut par sa beauté, sans devoir servir une cause (Théophile Gautier)."
+    },
+    {
+     "q": "Quelle formule célèbre attribuée à Amadou Hampâté Bâ résume l'importance de la tradition orale ?",
+     "r": "« En Afrique, quand un vieillard meurt, c'est une bibliothèque qui brûle. »"
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C12-N5.svg",
+    "alt": "Carte mentale des grandes questions littéraires : poésie, roman, théâtre, engagement de l'écrivain, lecture, tradition orale, autour de la question « À quoi sert la littérature ? ».",
+    "legende": "Les grandes questions qui reviennent dans les sujets de dissertation.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S2-C12-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C12-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Sujet : « Expliquez et illustrez cette affirmation : la poésie est un chant. » Quel type de plan convient ?",
+   "indices": [
+    "La consigne demande-t-elle de discuter ou de justifier ?"
+   ],
+   "corrige": [
+    "La consigne « Expliquez et illustrez » demande de justifier la citation, pas de la contester.",
+    "Le plan explicatif convient : chaque partie explique et illustre un aspect de l'affirmation."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Le plan dialectique serait un contresens : on ne te demande pas de critiquer l'affirmation.",
+   "verification": "double_resolution",
+   "choix": [
+    "Plan dialectique",
+    "Plan explicatif",
+    "Plan chronologique",
+    "Aucun plan, un seul bloc"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S2-C12-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C12-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans le sujet « Le théâtre n'est qu'un divertissement », quelle tournure exprime une restriction ? (écris-la)",
+   "indices": [
+    "Remplace la tournure par « seulement » : laquelle disparaît ?"
+   ],
+   "corrige": [
+    "« ne… que » (ici « n'est qu'un ») signifie « seulement » : le sujet affirme que le théâtre sert uniquement à divertir, ce qui ouvre le débat."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Négliger la restriction fait perdre le sens du sujet : on ne demande pas si le théâtre divertit, mais s'il ne fait que divertir.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "ne… que",
+    "ne...que",
+    "ne ... que",
+    "ne que",
+    "n'… que",
+    "n'...qu'",
+    "n'est qu'",
+    "n'est qu'un",
+    "n’est qu’un",
+    "n’est qu’",
+    "ne…que",
+    "n'…qu'",
+    "n’…qu’"
+   ]
+  },
+  {
+   "id": "FR-S2-C12-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C12-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Sujet : Stendhal écrit : « Un roman : c'est un miroir qu'on promène le long d'un chemin. » Expliquez et discutez. Quelle problématique est la meilleure ?",
+   "indices": [
+    "Laquelle montre deux réponses possibles sans recopier le sujet ?"
+   ],
+   "corrige": [
+    "Une problématique reformule le sujet et fait apparaître une tension entre deux réponses possibles.",
+    "La réponse C oppose le roman reflet du réel et le roman qui transforme ce réel par l'imagination."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "A recopie le sujet ; B réclame une biographie ; D n'est pas une question.",
+   "verification": "double_resolution",
+   "choix": [
+    "A. Un roman est-il un miroir qu'on promène le long d'un chemin ?",
+    "B. Qui était Stendhal et pourquoi a-t-il écrit Le Rouge et le Noir ?",
+    "C. Le roman se contente-t-il de refléter fidèlement la réalité, ou la transforme-t-il pour mieux nous la faire comprendre ?",
+    "D. Je vais parler des romans et des miroirs."
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S2-C12-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C12-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Idée : « Le théâtre peut corriger les défauts des hommes en les faisant rire. » Quel exemple est le plus efficace ?",
+   "indices": [
+    "Cherche titre + auteur + preuve."
+   ],
+   "corrige": [
+    "Un bon exemple est précis (titre, auteur, personnage), exact et exploité (on dit en quoi il prouve l'idée).",
+    "La réponse B nomme l'œuvre, l'auteur, le personnage et montre le lien entre le rire et la critique de l'avarice."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "C est exact mais ne prouve rien ; D est trop vague (quel auteur ? quelle œuvre ?).",
+   "verification": "double_resolution",
+   "choix": [
+    "A. Par exemple, au théâtre, on rit beaucoup.",
+    "B. Ainsi, dans L'Avare (1668), Molière rend Harpagon ridicule : en riant de cet homme qui préfère sa cassette à ses enfants, le spectateur prend en horreur l'avarice.",
+    "C. Molière a écrit beaucoup de pièces au XVIIe siècle.",
+    "D. Un célèbre auteur a dit que le théâtre corrige les hommes."
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S2-C12-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C12-N5"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quel auteur de comédies a écrit que « le devoir de la comédie » est de « corriger les hommes en les divertissant » ? (nom de l'auteur)",
+   "indices": [
+    "Il est l'auteur de L'Avare et du Malade imaginaire."
+   ],
+   "corrige": [
+    "C'est Molière, dans son premier placet au roi à propos de Tartuffe (1664) ; L'Avare illustre bien cette idée."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Ne confonds pas avec La Fontaine, qui parle de la fable (« instruire et plaire »).",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "Molière",
+    "moliere",
+    "Jean-Baptiste Poquelin",
+    "Poquelin"
+   ]
+  },
+  {
+   "id": "FR-S2-C12-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C12-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "En combien de temps se construit l'introduction de la dissertation présentée dans ce chapitre ? (un nombre)",
+   "indices": [
+    "Pense au sigle APA."
+   ],
+   "corrige": [
+    "Trois temps : amener le sujet, poser le sujet (citation, reformulation, problématique), annoncer le plan."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "La problématique n'est pas un temps séparé ici : elle fait partie de « poser le sujet ».",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "3",
+    "trois",
+    "3 temps",
+    "trois temps"
+   ]
+  },
+  {
+   "id": "FR-S2-C12-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C12-N1",
+    "FR-S2-C12-N2",
+    "FR-S2-C12-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Sujet : « Le théâtre n'est qu'un divertissement. » Discutez cette affirmation en vous appuyant sur des exemples précis.\n\n1. Analyse le sujet (mots-clés, reformulation, consigne) et formule la problématique.\n2. Construis le plan détaillé : deux parties, deux sous-parties par partie, chacune avec un exemple littéraire précis.\n3. Rédige la transition entre les deux parties.",
+   "indices": [
+    "« n'est qu'un » : la restriction est la clé du débat.",
+    "La partie II doit nuancer, pas dire « le théâtre est ennuyeux »."
+   ],
+   "corrige": [
+    "1. Analyse : « théâtre » (genre écrit pour être joué devant un public) ; « n'est qu'un » (restriction : seulement) ; « divertissement » (ce qui amuse, détend). Reformulation : le théâtre servirait uniquement à amuser. Consigne « Discutez » : plan dialectique.",
+    "1 (suite). Problématique : « Le théâtre se limite-t-il à divertir le public, ou peut-il aussi l'instruire et le faire réfléchir ? »",
+    "2. Partie I : Le théâtre est bien un art du divertissement. I.1 Il fait rire grâce aux ressorts comiques (exemple : dans L'Avare de Molière, les « Sans dot ! » répétés d'Harpagon et son monologue « Au voleur ! au voleur ! »). I.2 C'est un spectacle vivant et une fête partagée (exemple : le concert-party togolais mêle musique, danse et comédie devant un public qui réagit).",
+    "2 (suite). Partie II : Mais le théâtre ne fait pas que divertir : il instruit et fait réfléchir. II.1 Le rire corrige les mœurs (exemple : Molière ridiculise l'avarice et l'autorité abusive d'un père ; selon lui, la comédie doit « corriger les hommes en les divertissant »). II.2 Il dénonce les injustices de la société (exemple : Trois prétendants… un mari de Guillaume Oyônô Mbia fait rire de la dot pour critiquer le mariage forcé).",
+    "3. Transition : « Si le théâtre est d'abord un divertissement qui fait rire et rassemble le public, ce rire n'est pourtant pas gratuit : il sert souvent à faire réfléchir le spectateur. »",
+    "Qualité des exemples : œuvres réelles, titres et auteurs exacts, chaque exemple placé dans la sous-partie qu'il prouve (tout exemple juste et exploité est accepté : Le Malade imaginaire, Tartuffe, une pièce togolaise étudiée en classe…)."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    2.5,
+    2.5,
+    1,
+    1.5
+   ],
+   "piege": "Ne fais pas une partie II qui affirme que le théâtre ne divertit pas : elle doit montrer qu'il fait autre chose en plus de divertir.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S2-C12-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C12-N4",
+    "FR-S2-C12-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Sujet : Stendhal écrit dans Le Rouge et le Noir : « Un roman : c'est un miroir qu'on promène le long d'un chemin. » Expliquez et discutez cette définition du roman.\n\nLe plan retenu est : I. Le roman reflète la réalité ; II. Mais il la transforme par l'imagination et le regard de l'écrivain.\nRédige l'introduction complète et la conclusion.",
+   "indices": [
+    "APA pour l'introduction, BRO pour la conclusion.",
+    "Reformule le mot « miroir » : refléter fidèlement."
+   ],
+   "corrige": [
+    "Amener : « Depuis ses débuts, le roman entretient un lien étroit avec la réalité : il raconte des vies, des lieux, des époques que le lecteur reconnaît. » (idée générale littéraire, sans cliché)",
+    "Poser (citation exacte et reformulation) : « Stendhal en propose une image célèbre dans Le Rouge et le Noir : “Un roman : c'est un miroir qu'on promène le long d'un chemin.” Selon lui, le romancier se contenterait de refléter fidèlement le monde qu'il traverse. »",
+    "Poser (problématique) : « Le roman n'est-il qu'un reflet fidèle de la réalité, ou la transforme-t-il pour mieux nous la faire comprendre ? »",
+    "Annoncer : « Nous verrons d'abord que le roman reflète bien la réalité de son temps, puis qu'il la transforme par l'imagination et le regard de l'écrivain. »",
+    "Conclusion (bilan et réponse) : « Ainsi, le roman reflète la société de son époque, comme le montrent les romans africains des indépendances, mais ce miroir choisit, grossit et invente : c'est le regard de l'écrivain qui donne sens au réel. Le roman est donc moins un miroir passif qu'un miroir qui éclaire. »",
+    "Conclusion (ouverture) : « On peut se demander si le cinéma, qui filme le réel, n'est pas devenu à son tour ce miroir promené le long du chemin. » (toute ouverture littéraire pertinente est acceptée)",
+    "Forme : citation recopiée sans erreur, titre souligné, deux paragraphes avec alinéa, pas de « je vais », aucun argument nouveau en conclusion."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1,
+    1.5,
+    0.5,
+    1
+   ],
+   "piege": "Ne donne pas ta réponse dans l'introduction : elle vient en conclusion.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S2-C12-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S2-C12-N1",
+    "FR-S2-C12-N2",
+    "FR-S2-C12-N3",
+    "FR-S2-C12-N4",
+    "FR-S2-C12-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Rédige une dissertation complète (devoir noté sur 12, comme la partie B de l'épreuve).\n\nSujet : Un critique affirme : « L'écrivain africain ne peut pas se contenter de raconter de belles histoires ; il doit éclairer son peuple. » Partagez-vous ce point de vue ? Vous appuierez votre réflexion sur des exemples précis tirés de vos lectures. (citation d'exemple)",
+   "indices": [
+    "« ne peut pas se contenter de » et « doit » : repère l'obligation et la restriction.",
+    "Partie II : montre que raconter de belles histoires est déjà une façon d'éclairer."
+   ],
+   "corrige": [
+    "Introduction : « Née en grande partie pendant la colonisation, la littérature africaine d'expression française a souvent été une littérature de combat. Un critique affirme ainsi : “L'écrivain africain ne peut pas se contenter de raconter de belles histoires ; il doit éclairer son peuple.” Selon lui, l'écrivain aurait un devoir d'engagement. Faut-il vraiment opposer la belle histoire et la mission d'éclairer, ou un récit peut-il éclairer par sa beauté même ? Nous verrons d'abord que l'écrivain africain a souvent joué ce rôle d'éclaireur, puis que la belle histoire est elle-même une manière d'éclairer. » (critères : amener, citation exacte, reformulation, problématique, annonce)",
+    "I.1 Dénoncer l'injustice coloniale : « D'abord, de nombreux écrivains ont mis leur plume au service de la dignité de leur peuple. Aimé Césaire, dans Cahier d'un retour au pays natal (1939), transforme la poésie en cri de révolte contre le mépris colonial. De même, Ferdinand Oyono, dans Une vie de boy (1956), montre à travers le journal naïf de Toundi l'hypocrisie et la brutalité des colons. Ces œuvres ont aidé leurs lecteurs à prendre conscience d'une domination injuste. »",
+    "I.2 Critiquer la société africaine elle-même : « De plus, après les indépendances, les écrivains ont tourné leur regard critique vers leur propre société. Ahmadou Kourouma, dans Les Soleils des indépendances (1968), montre les désillusions de ceux qui attendaient tout de la fin de la colonisation. Au théâtre, Guillaume Oyônô Mbia, dans Trois prétendants… un mari (1964), fait rire de la dot pour dénoncer le mariage forcé. Éclairer son peuple, c'est donc aussi lui montrer ses propres défauts. »",
+    "Transition : « Si l'écrivain africain a souvent été un éclaireur, faut-il pour autant condamner celui qui raconte simplement de belles histoires ? »",
+    "II.1 La belle histoire a sa valeur propre : « Pourtant, une œuvre n'a pas besoin d'être un tract pour être précieuse. L'Enfant noir (1953) de Camara Laye, qui raconte une enfance heureuse en Haute-Guinée, a été reproché par certains critiques de l'époque, dont Mongo Beti, parce qu'il ne dénonçait pas la colonisation. Or ce récit sauve de l'oubli une culture, ses rites et ses savoir-faire : en racontant, il témoigne. »",
+    "II.2 Raconter, c'est déjà éclairer : « Enfin, la belle histoire est souvent la meilleure façon d'éclairer. Les contes de Birago Diop ou de Bernard Dadié transmettent une sagesse à travers le plaisir du récit, comme La Fontaine disait qu'il faut “instruire et plaire”. La beauté de l'histoire fait passer la leçon : opposer les deux est donc artificiel. »",
+    "Conclusion : « En définitive, l'écrivain africain a souvent éclairé son peuple en dénonçant la colonisation puis les dérives des indépendances. Mais raconter de belles histoires n'est pas une faute : c'est souvent par la beauté du récit que l'écrivain éclaire le mieux. Je pense donc que les deux missions ne s'opposent pas. Reste à savoir si l'écrivain d'aujourd'hui, face aux réseaux sociaux, peut encore être entendu de son peuple. » (bilan, réponse nette, ouverture)",
+    "Langue et présentation : orthographe et syntaxe correctes, connecteurs variés, titres d'œuvres soulignés, citation recopiée exactement, alinéas, une ligne sautée entre les grandes parties, aucun titre ni numéro apparent."
+   ],
+   "bareme": [
+    2,
+    1.5,
+    1.5,
+    0.5,
+    1.5,
+    1.5,
+    1.5,
+    2
+   ],
+   "piege": "Ne transforme pas le devoir en exposé sur la colonisation : chaque argument doit s'appuyer sur une œuvre littéraire précise.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Traiter le thème général au lieu de la thèse précise de la citation (oublier « ne… que », « doit », « seulement »).",
+  "Recopier la citation avec des erreurs, ou ne pas la reformuler.",
+  "Choisir un plan dialectique pour « Expliquez et illustrez », ou faire une partie II qui contredit sans nuancer.",
+  "Donner des exemples vagues ou inventés (titre, auteur, citation).",
+  "Raconter les œuvres au lieu d'en tirer une preuve.",
+  "Réciter un développement appris par cœur qui ne répond pas exactement au sujet.",
+  "Oublier les transitions ou bâcler la conclusion faute de temps."
+ ]
+}

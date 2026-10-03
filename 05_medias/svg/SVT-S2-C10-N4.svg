@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 630" width="600" height="630" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Le cycle des roches</title>
+<desc id="desc">Cycle : le magma refroidi donne les roches magmatiques ; leur altération et leur érosion produisent des sédiments ; le dépôt et la diagenèse forment les roches sédimentaires ; le métamorphisme les transforme en roches métamorphiques ; leur fusion redonne du magma. Raccourcis en pointillés : métamorphisme des roches magmatiques, érosion des roches métamorphiques et sédimentaires.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker><marker id="flm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<rect x="0" y="0" width="600" height="630" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Le cycle des roches</text>
+<rect x="235.0" y="519" width="130" height="52" rx="10" fill="#fecaca" stroke="#b91c1c" stroke-width="1.5"/>
+<text x="300.0" y="550.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Magma</text>
+<rect x="2.5" y="334" width="215" height="52" rx="10" fill="#fbcfe8" stroke="#9d174d" stroke-width="1.5"/>
+<text x="110.0" y="365.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Roches magmatiques</text>
+<rect x="235.0" y="84" width="130" height="52" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="1.5"/>
+<text x="300.0" y="115.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Sédiments</text>
+<rect x="364.5" y="204" width="215" height="52" rx="10" fill="#fde68a" stroke="#a16207" stroke-width="1.5"/>
+<text x="472.0" y="235.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Roches sédimentaires</text>
+<rect x="364.5" y="394" width="215" height="52" rx="10" fill="#e0e7ff" stroke="#4338ca" stroke-width="1.5"/>
+<text x="472.0" y="425.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Roches métamorphiques</text>
+<path d="M205,535 C150,510 110,460 110,388" fill="none" stroke="#b91c1c" stroke-width="3" marker-end="url(#flr)"/>
+<text x="122" y="492" font-size="14" text-anchor="end" font-weight="bold" fill="#b91c1c">refroidissement</text>
+<text x="122" y="510" font-size="14" text-anchor="end" font-weight="normal" fill="#b91c1c">cristallisation</text>
+<path d="M110,333 C110,220 160,130 232,112" fill="none" stroke="#b45309" stroke-width="3" marker-end="url(#flo)"/>
+<text x="128" y="180" font-size="14" text-anchor="end" font-weight="bold" fill="#b45309">altération,</text>
+<text x="128" y="198" font-size="14" text-anchor="end" font-weight="normal" fill="#b45309">érosion,</text>
+<text x="128" y="216" font-size="14" text-anchor="end" font-weight="normal" fill="#b45309">transport</text>
+<path d="M368,112 C430,120 465,150 470,202" fill="none" stroke="#a16207" stroke-width="3" marker-end="url(#flo)"/>
+<text x="450" y="135" font-size="14" text-anchor="start" font-weight="bold" fill="#a16207">dépôt, diagenèse</text>
+<path d="M472,257 L472,392" fill="none" stroke="#4338ca" stroke-width="3" marker-end="url(#flm)"/>
+<text x="462" y="330" font-size="14" text-anchor="end" font-weight="bold" fill="#4338ca">métamorphisme</text>
+<path d="M460,447 C440,510 400,535 368,542" fill="none" stroke="#b91c1c" stroke-width="3" marker-end="url(#flr)"/>
+<text x="440" y="520" font-size="14" text-anchor="start" font-weight="bold" fill="#b91c1c">fusion</text>
+<path d="M220,370 C300,380 330,410 362,418" fill="none" stroke="#4338ca" stroke-width="2" marker-end="url(#flm)" stroke-dasharray="6 4"/>
+<text x="250" y="400" font-size="13" text-anchor="middle" font-weight="normal" fill="#4338ca">métamorphisme</text>
+<path d="M380,222 C350,215 335,180 325,138" fill="none" stroke="#b45309" stroke-width="2" marker-end="url(#flo)" stroke-dasharray="6 4"/>
+<text x="300" y="175" font-size="13" text-anchor="end" font-weight="normal" fill="#b45309">érosion</text>
+<text x="300" y="594" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">Flèches pleines : grand cycle ; pointillés : raccourcis possibles.</text>
+<text x="300" y="611" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">Toute roche qui affleure peut être altérée et érodée.</text>
+</svg>

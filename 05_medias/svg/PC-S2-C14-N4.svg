@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" width="400" height="280" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Relations autour de la quantité de matière n : masse m, nombre d'entités N, volume d'un gaz V et volume d'un liquide via la masse volumique</title>
+<rect x="0" y="0" width="400" height="280" rx="18" fill="#fffdf8"/>
+<rect x="150.0" y="114.0" width="100.0" height="52.0" rx="12" stroke="#c0262d" stroke-width="2.5" fill="#fff1f2"/>
+<text x="200.0" y="138.0" font-size="20" text-anchor="middle" fill="#c0262d" font-weight="bold">n</text>
+<text x="200.0" y="158.0" font-size="12" text-anchor="middle" fill="#c0262d" font-weight="normal">(mol)</text>
+<rect x="18.0" y="28.0" width="104.0" height="44.0" rx="10" stroke="#1f2937" stroke-width="2" fill="#fffdf8"/>
+<text x="70.0" y="48.0" font-size="15" text-anchor="middle" fill="#1f2937" font-weight="bold">N</text>
+<text x="70.0" y="65.0" font-size="11" text-anchor="middle" fill="#6b7280" font-weight="normal">entités</text>
+<rect x="278.0" y="28.0" width="104.0" height="44.0" rx="10" stroke="#1f2937" stroke-width="2" fill="#fffdf8"/>
+<text x="330.0" y="48.0" font-size="15" text-anchor="middle" fill="#1f2937" font-weight="bold">m</text>
+<text x="330.0" y="65.0" font-size="11" text-anchor="middle" fill="#6b7280" font-weight="normal">masse (g)</text>
+<rect x="18.0" y="210.0" width="104.0" height="44.0" rx="10" stroke="#1f2937" stroke-width="2" fill="#fffdf8"/>
+<text x="70.0" y="230.0" font-size="15" text-anchor="middle" fill="#1f2937" font-weight="bold">V</text>
+<text x="70.0" y="247.0" font-size="11" text-anchor="middle" fill="#6b7280" font-weight="normal">gaz (L)</text>
+<rect x="278.0" y="210.0" width="104.0" height="44.0" rx="10" stroke="#1f2937" stroke-width="2" fill="#fffdf8"/>
+<text x="330.0" y="230.0" font-size="15" text-anchor="middle" fill="#1f2937" font-weight="bold">V<tspan dy="4" font-size="11">liq</tspan><tspan dy="-4">​</tspan></text>
+<text x="330.0" y="247.0" font-size="11" text-anchor="middle" fill="#6b7280" font-weight="normal">liquide (mL)</text>
+<line x1="118.0" y1="64.0" x2="145.3" y2="108.3" stroke="#1d4ed8" stroke-width="2" stroke-linecap="butt"/>
+<polygon points="150.0,116.0 141.5,110.7 149.1,106.0" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round"/>
+<text x="98.0" y="104.0" font-size="12" text-anchor="middle" fill="#1d4ed8" font-weight="bold">n = N / N<tspan dy="4" font-size="9">A</tspan><tspan dy="-4">​</tspan></text>
+<line x1="282.0" y1="64.0" x2="254.7" y2="108.3" stroke="#1d4ed8" stroke-width="2" stroke-linecap="butt"/>
+<polygon points="250.0,116.0 250.9,106.0 258.5,110.7" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round"/>
+<text x="305.0" y="104.0" font-size="12" text-anchor="middle" fill="#1d4ed8" font-weight="bold">n = m / M</text>
+<line x1="118.0" y1="218.0" x2="145.4" y2="171.7" stroke="#1d4ed8" stroke-width="2" stroke-linecap="butt"/>
+<polygon points="150.0,164.0 149.3,174.0 141.5,169.4" stroke="#1d4ed8" stroke-width="1" fill="#1d4ed8" stroke-linejoin="round"/>
+<text x="95.0" y="186.0" font-size="12" text-anchor="middle" fill="#1d4ed8" font-weight="bold">n = V / V<tspan dy="4" font-size="9">m</tspan><tspan dy="-4">​</tspan></text>
+<line x1="362.0" y1="210.0" x2="362.0" y2="85.0" stroke="#b45309" stroke-width="2" stroke-linecap="butt"/>
+<polygon points="362.0,76.0 366.5,85.0 357.5,85.0" stroke="#b45309" stroke-width="1" fill="#b45309" stroke-linejoin="round"/>
+<text x="354.0" y="160.0" font-size="12" text-anchor="end" fill="#b45309" font-weight="bold">m = ρ V</text>
+<text x="200.0" y="270.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal">V<tspan dy="4" font-size="9">m</tspan><tspan dy="-4">​</tspan> = 24,0 L/mol (20 °C) ; 22,4 L/mol (0 °C)</text>
+</svg>

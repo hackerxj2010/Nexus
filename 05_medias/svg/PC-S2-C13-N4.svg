@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" width="400" height="290" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Du verre vers l'air : réfraction pour i = 30°, émergence rasante à l'angle limite 41,8°, réflexion totale pour i = 60°</title>
+<rect x="0" y="0" width="400" height="290" rx="18" fill="#fffdf8"/>
+<rect x="12.0" y="130.0" width="376.0" height="148.0" rx="0" stroke="#eef2f7" stroke-width="0" fill="#e6eef7"/>
+<line x1="12.0" y1="130.0" x2="388.0" y2="130.0" stroke="#1d4ed8" stroke-width="2" stroke-linecap="round"/>
+<text x="20.0" y="40.0" font-size="13" text-anchor="start" fill="#1f2937" font-weight="normal">air (n = 1,00)</text>
+<text x="380.0" y="268.0" font-size="13" text-anchor="end" fill="#1d4ed8" font-weight="normal">verre (n = 1,50)</text>
+<circle cx="60.0" cy="252.0" r="4.5" stroke="#1f2937" stroke-width="1" fill="#1f2937"/>
+<text x="52.0" y="257.0" font-size="13" text-anchor="end" fill="#1f2937" font-weight="bold">S</text>
+<line x1="60.0" y1="252.0" x2="130.4" y2="130.0" stroke="#15803d" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="101.0,181.0 100.8,191.3 92.2,186.3" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<line x1="130.4" y1="90.0" x2="130.4" y2="170.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="130.4" y1="130.0" x2="194.2" y2="73.8" stroke="#15803d" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="165.7,98.9 162.2,108.6 155.7,101.2" stroke="#15803d" stroke-width="1" fill="#15803d" stroke-linejoin="round"/>
+<text x="124.4" y="90.0" font-size="12" text-anchor="end" fill="#15803d" font-weight="bold">30° → 48,6°</text>
+<line x1="60.0" y1="252.0" x2="169.1" y2="130.0" stroke="#b45309" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="123.0,181.5 120.7,191.6 113.3,185.0" stroke="#b45309" stroke-width="1" fill="#b45309" stroke-linejoin="round"/>
+<line x1="169.1" y1="90.0" x2="169.1" y2="170.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="169.1" y1="130.0" x2="249.1" y2="130.0" stroke="#b45309" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="213.6,130.0 204.6,134.9 204.6,125.0" stroke="#b45309" stroke-width="1" fill="#b45309" stroke-linejoin="round"/>
+<text x="173.1" y="120.0" font-size="12" text-anchor="start" fill="#b45309" font-weight="bold">i = λ = 41,8° → rasant</text>
+<line x1="60.0" y1="252.0" x2="271.3" y2="130.0" stroke="#c0262d" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="180.1,182.6 174.8,191.4 169.8,182.9" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<line x1="271.3" y1="90.0" x2="271.3" y2="170.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="271.3" y1="130.0" x2="340.6" y2="170.0" stroke="#c0262d" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="309.8,152.2 299.6,152.0 304.5,143.5" stroke="#c0262d" stroke-width="1" fill="#c0262d" stroke-linejoin="round"/>
+<text x="340.0" y="215.0" font-size="12" text-anchor="middle" fill="#c0262d" font-weight="bold">60° : réflexion</text>
+<text x="340.0" y="230.0" font-size="12" text-anchor="middle" fill="#c0262d" font-weight="bold">totale</text>
+<text x="250.0" y="30.0" font-size="13" text-anchor="middle" fill="#1d4ed8" font-weight="bold">sin λ = n<tspan dy="4" font-size="9">air</tspan><tspan dy="-4">​</tspan> / n<tspan dy="4" font-size="9">verre</tspan><tspan dy="-4">​</tspan></text>
+</svg>
