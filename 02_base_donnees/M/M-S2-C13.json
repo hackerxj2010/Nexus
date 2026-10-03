@@ -1,0 +1,865 @@
+{
+ "id": "M-S2-C13",
+ "matiere": "M",
+ "semestre": 2,
+ "ordre": 13,
+ "titre": "Droites et cercles dans le plan",
+ "objectifs": [
+  "Déterminer une équation cartésienne, une équation réduite ou une représentation paramétrique d'une droite.",
+  "Reconnaître des droites parallèles ou perpendiculaires et calculer leur point d'intersection.",
+  "Utiliser un vecteur normal et calculer la distance d'un point à une droite.",
+  "Écrire l'équation d'un cercle et reconnaître un cercle à partir d'une équation développée.",
+  "Étudier la position relative d'une droite et d'un cercle ; déterminer une tangente."
+ ],
+ "prerequis": [
+  "M-3e-REPERE",
+  "M-S1-C02",
+  "M-S2-C09",
+  "M-S2-C12"
+ ],
+ "notions": [
+  {
+   "id": "M-S2-C13-N1",
+   "titre": "Équations cartésiennes et réduites d'une droite",
+   "prerequis_notions": [
+    "M-S1-C02-N3",
+    "M-S2-C09-N1"
+   ],
+   "cours_md": "## 1. Vecteur directeur et équation cartésienne\n\n:::definition\nUn **vecteur directeur** d'une droite $(D)$ est un vecteur non nul $\\vec u$ colinéaire à $\\overrightarrow{AB}$, où $A$ et $B$ sont deux points distincts de $(D)$.\n:::\n\n:::propriete Équation cartésienne\nSoit $(D)$ la droite passant par $A(x_A\\,;y_A)$ et de vecteur directeur $\\vec u(\\alpha\\,;\\beta)$. Alors\n$$M(x\\,;y)\\in(D)\\iff\\overrightarrow{AM}\\text{ et }\\vec u\\text{ colinéaires}\\iff\\begin{vmatrix}x-x_A&\\alpha\\\\y-y_A&\\beta\\end{vmatrix}=0.$$\nToute droite a une équation de la forme $ax+by+c=0$ avec $(a\\,;b)\\neq(0\\,;0)$, et $\\vec u(-b\\,;a)$ est un vecteur directeur. Réciproquement, une telle équation est celle d'une droite.\n:::\n\n## 2. Équation réduite\n\n:::propriete\n- Si $(D)$ n'est pas parallèle à l'axe des ordonnées, elle a une unique **équation réduite** $y=mx+p$ : $m$ est le **coefficient directeur** (ou pente), $p$ l'**ordonnée à l'origine**, et $\\vec u(1\\,;m)$ est un vecteur directeur. Pour deux points de $(D)$ : $m=\\dfrac{y_B-y_A}{x_B-x_A}$.\n- Si $(D)$ est parallèle à l'axe des ordonnées, son équation est $x=k$.\n:::\n\n:::propriete Droites parallèles\n$(D) : ax+by+c=0$ et $(D') : a'x+b'y+c'=0$ sont parallèles $\\iff ab'-a'b=0$. Avec les équations réduites : $(D)\\parallel(D')\\iff m=m'$.\nSi elles ne sont pas parallèles, leur point d'intersection s'obtient en résolvant le système formé par les deux équations.\n:::\n\n:::attention\nUne droite a une infinité d'équations cartésiennes (on peut tout multiplier par un même réel non nul), mais une seule équation réduite.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDéterminer une équation cartésienne puis l'équation réduite de la droite $(AB)$ avec $A(1\\,;2)$ et $B(4\\,;-1)$.\n\n1. $\\overrightarrow{AB}(3\\,;-3)$ est un vecteur directeur.\n2. $M(x\\,;y)\\in(AB)\\iff\\begin{vmatrix}x-1&3\\\\y-2&-3\\end{vmatrix}=0\\iff-3(x-1)-3(y-2)=0$.\n3. Soit $-3x-3y+9=0$, ou encore $x+y-3=0$.\n4. Équation réduite : $y=-x+3$.\n:::\n\n:::exemple Exemple 2\nDéterminer une équation de la droite $(\\Delta)$ passant par $C(2\\,;1)$ et parallèle à $(D') : 2x-y+1=0$.\n\n1. $(\\Delta)$ est parallèle à $(D')$ : elle a une équation de la forme $2x-y+c=0$.\n2. $C\\in(\\Delta)$ : $2\\times2-1+c=0$, donc $c=-3$.\n3. $(\\Delta) : 2x-y-3=0$.\n:::",
+   "definition": "Une droite de vecteur directeur $\\vec u(-b\\,;a)$ a une équation cartésienne $ax+by+c=0$ ; si elle n'est pas verticale, elle a une équation réduite $y=mx+p$ où $m$ est le coefficient directeur.",
+   "formules": [
+    "$ax+by+c=0$, $\\vec u(-b\\,;a)$",
+    "$y=mx+p$, $m=\\dfrac{y_B-y_A}{x_B-x_A}$",
+    "$(D)\\parallel(D')\\iff ab'-a'b=0\\iff m=m'$"
+   ],
+   "niveaux": {
+    "phrase": "Une droite se décrit par une équation ax + by + c = 0, que vérifient exactement les coordonnées de ses points.",
+    "simple": "L'équation d'une droite est comme un « mot de passe » : un point est sur la droite si et seulement si ses coordonnées vérifient l'équation.",
+    "complete": "$M\\in(D)\\iff\\det(\\overrightarrow{AM},\\vec u)=0$ donne une équation $ax+by+c=0$, $(a\\,;b)\\neq(0\\,;0)$, définie à un facteur non nul près ; $\\vec u(-b\\,;a)$ dirige $(D)$. Si $b\\neq0$, $y=mx+p$ avec $m=-\\frac ab$. Deux droites sont parallèles si et seulement si leurs vecteurs directeurs sont colinéaires ($ab'-a'b=0$) ; sinon, elles sont sécantes en un point donné par le système."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Les droites $(D_1) : 3x-2y+1=0$ et $(D_2) : -6x+4y+5=0$ sont-elles parallèles ? confondues ?",
+     "etapes": [
+      "$ab'-a'b=3\\times4-(-6)\\times(-2)=12-12=0$ : elles sont parallèles.",
+      "Le point $\\left(0\\,;\\dfrac12\\right)$ est sur $(D_1)$ car $0-1+1=0$ ; sur $(D_2)$ : $0+2+5=7\\neq0$.",
+      "Les droites sont strictement parallèles."
+     ]
+    },
+    {
+     "enonce": "Déterminer le point d'intersection des droites $y=2x-1$ et $x+y=5$.",
+     "etapes": [
+      "On remplace $y$ dans la seconde : $x+2x-1=5$, donc $3x=6$ et $x=2$.",
+      "$y=2\\times2-1=3$. Le point d'intersection est $(2\\,;3)$ (vérification : $2+3=5$)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Prendre $(a\\,;b)$ comme vecteur directeur de $ax+by+c=0$ : c'est $(-b\\,;a)$.",
+    "Calculer $m=\\dfrac{x_B-x_A}{y_B-y_A}$ (à l'envers).",
+    "Chercher une équation réduite pour une droite verticale (x = k).",
+    "Oublier de vérifier que le point donné vérifie l'équation trouvée."
+   ],
+   "astuces": [
+    "Vérifie toujours ton équation avec les deux points de départ.",
+    "Pour une parallèle, garde les mêmes a et b et cherche seulement c.",
+    "Une équation cartésienne se simplifie : −3x − 3y + 9 = 0 devient x + y − 3 = 0."
+   ],
+   "mnemo": "« ax + by + c = 0 : directeur (−b ; a). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? La droite représentant $x\\mapsto mx+p$ a pour coefficient directeur $m$ et passe par $(0\\,;p)$. En Seconde, on ajoute les équations cartésiennes, qui décrivent aussi les droites verticales."
+   },
+   "methode_redaction": "Écris : « M(x ; y) ∈ (AB) ⇔ AM et AB sont colinéaires ⇔ det(AM, AB) = 0 », développe, simplifie, puis vérifie avec B. Termine par « Une équation de (AB) est x + y − 3 = 0 ».",
+   "flash": [
+    {
+     "q": "Un vecteur directeur de $2x+5y-1=0$ ?",
+     "r": "$\\vec u(-5\\,;2)$"
+    },
+    {
+     "q": "Coefficient directeur de $y=-3x+4$ ?",
+     "r": "$m=-3$"
+    },
+    {
+     "q": "Condition de parallélisme de $ax+by+c=0$ et $a'x+b'y+c'=0$ ?",
+     "r": "$ab'-a'b=0$"
+    },
+    {
+     "q": "Équation d'une droite parallèle à l'axe des ordonnées ?",
+     "r": "$x=k$"
+    },
+    {
+     "q": "Coefficient directeur de la droite passant par $(0\\,;1)$ et $(2\\,;5)$ ?",
+     "r": "$\\dfrac{5-1}{2-0}=2$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C13-N1.svg",
+    "alt": "Repère : droite (AB) d'équation x + y − 3 = 0 avec le vecteur AB, et deux droites parallèles d'équations 2x − y + 1 = 0 et 2x − y − 3 = 0 (cette dernière passe par C(2 ; 1)), de vecteur directeur commun u(1 ; 2).",
+    "legende": "Deux droites de même vecteur directeur sont parallèles.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C13-N2",
+   "titre": "Représentation paramétrique d'une droite",
+   "prerequis_notions": [
+    "M-S2-C13-N1"
+   ],
+   "cours_md": ":::propriete Représentation paramétrique\nSoit $(D)$ la droite passant par $A(x_A\\,;y_A)$ et de vecteur directeur $\\vec u(\\alpha\\,;\\beta)$.\n$$M(x\\,;y)\\in(D)\\iff\\text{il existe }t\\in\\mathbb{R}\\text{ tel que }\\overrightarrow{AM}=t\\vec u\\iff\\begin{cases}x=x_A+t\\alpha\\\\ y=y_A+t\\beta\\end{cases}\\ (t\\in\\mathbb{R})$$\nC'est une **représentation paramétrique** de $(D)$ ; $t$ est le **paramètre**. À chaque valeur de $t$ correspond un point de $(D)$, et réciproquement.\n:::\n\n:::remarque\n- Une droite a une infinité de représentations paramétriques (on peut changer de point et de vecteur directeur).\n- En limitant le paramètre à $[0\\,;1]$, on décrit le **segment** $[AB]$ (avec $\\vec u=\\overrightarrow{AB}$).\n:::\n\n:::methode Passer d'une écriture à l'autre\n- **Paramétrique → cartésienne** : exprimer $t$ à l'aide d'une équation, puis remplacer dans l'autre (on « élimine » $t$).\n- **Cartésienne → paramétrique** : trouver un point de la droite et un vecteur directeur $(-b\\,;a)$, puis écrire le système.\n- **Un point appartient-il à $(D)$ ?** Chercher $t$ avec la première équation, puis vérifier la seconde avec ce même $t$.\n:::\n\n:::attention\nPour tester un point, il faut la **même** valeur de $t$ dans les deux équations.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDonner une représentation paramétrique de la droite passant par $A(2\\,;-1)$ de vecteur directeur $\\vec u(3\\,;2)$. Le point $B(8\\,;3)$ appartient-il à cette droite ?\n\n1. $\\begin{cases}x=2+3t\\\\ y=-1+2t\\end{cases}$, $t\\in\\mathbb{R}$. (Pour $t=1$ on obtient le point $(5\\,;1)$.)\n2. Pour $B$ : $8=2+3t$ donne $t=2$.\n3. Avec $t=2$ : $y=-1+4=3$, c'est bien l'ordonnée de $B$. Donc $B$ appartient à la droite.\n:::\n\n:::exemple Exemple 2\nDéterminer une équation cartésienne de la droite $\\begin{cases}x=1+2t\\\\ y=3-t\\end{cases}$, $t\\in\\mathbb{R}$.\n\n1. De la seconde équation : $t=3-y$.\n2. Dans la première : $x=1+2(3-y)=7-2y$.\n3. Une équation cartésienne est $x+2y-7=0$.\n:::",
+   "definition": "Une représentation paramétrique de la droite passant par $A$ et dirigée par $\\vec u(\\alpha\\,;\\beta)$ est $x=x_A+t\\alpha$, $y=y_A+t\\beta$, $t\\in\\mathbb{R}$.",
+   "formules": [
+    "$\\begin{cases}x=x_A+t\\alpha\\\\y=y_A+t\\beta\\end{cases},\\ t\\in\\mathbb{R}$",
+    "$\\overrightarrow{AM}=t\\vec u$",
+    "$t\\in[0\\,;1]$ : segment $[AB]$"
+   ],
+   "niveaux": {
+    "phrase": "Une représentation paramétrique décrit chaque point d'une droite à l'aide d'un nombre t.",
+    "simple": "Imagine un taxi-moto qui part de A et roule tout droit dans la direction de u : au « temps » t, il est au point A + t u. Les t négatifs correspondent aux positions avant le départ.",
+    "complete": "$(D)=\\{A+t\\vec u,\\ t\\in\\mathbb{R}\\}$. Le passage à l'équation cartésienne se fait par élimination du paramètre ; la réciproque, en choisissant un point et un vecteur directeur. Restreindre $t$ à un intervalle décrit une demi-droite ou un segment."
+   },
+   "analogie": "Un taxi-moto qui roule en ligne droite à vitesse constante depuis le carrefour A : sa position au temps t est A + t u, où u est son déplacement en une unité de temps.",
+   "exemples_resolus": [
+    {
+     "enonce": "Écrire la droite $(D) : 2x-3y+6=0$ à l'aide d'une représentation paramétrique.",
+     "etapes": [
+      "Un point de $(D)$ : pour $x=0$, $-3y+6=0$ donc $y=2$ ; d'où $A(0\\,;2)$.",
+      "Un vecteur directeur : $\\vec u(-b\\,;a)=(3\\,;2)$.",
+      "$\\begin{cases}x=3t\\\\ y=2+2t\\end{cases}$, $t\\in\\mathbb{R}$. Contrôle : $2(3t)-3(2+2t)+6=0$."
+     ]
+    },
+    {
+     "enonce": "On donne $A(1\\,;1)$ et $B(5\\,;3)$. Décrire le segment $[AB]$ par une représentation paramétrique et retrouver son milieu.",
+     "etapes": [
+      "$\\overrightarrow{AB}(4\\,;2)$ : $\\begin{cases}x=1+4t\\\\ y=1+2t\\end{cases}$ avec $t\\in[0\\,;1]$.",
+      "$t=0$ donne $A$, $t=1$ donne $B$ ; le milieu correspond à $t=\\dfrac12$ : $(3\\,;2)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Tester un point avec deux valeurs de t différentes.",
+    "Oublier « t ∈ ℝ » à la fin de la représentation.",
+    "Prendre pour vecteur directeur les coordonnées du point A.",
+    "Se tromper de signe en éliminant t."
+   ],
+   "astuces": [
+    "Pour éliminer t, utilise l'équation où t a le coefficient le plus simple (1 ou −1).",
+    "Contrôle ta représentation en prenant t = 0 : tu dois retrouver le point choisi.",
+    "Une représentation paramétrique est très pratique pour trouver l'intersection avec une autre droite : remplace x et y dans l'équation de l'autre droite."
+   ],
+   "mnemo": "« Point de départ + t × direction. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens de la colinéarité ? $\\overrightarrow{AM}$ et $\\vec u$ sont colinéaires s'il existe un réel $t$ tel que $\\overrightarrow{AM}=t\\vec u$. C'est exactement ce que traduit la représentation paramétrique."
+   },
+   "methode_redaction": "Écris « M(x ; y) ∈ (D) ⇔ il existe t ∈ ℝ tel que AM = t u », puis le système avec l'accolade et « t ∈ ℝ ». Pour tester un point, montre le calcul de t puis la vérification de la seconde coordonnée.",
+   "flash": [
+    {
+     "q": "Représentation paramétrique de la droite passant par $A(1\\,;0)$ dirigée par $\\vec u(2\\,;5)$ ?",
+     "r": "$x=1+2t$, $y=5t$, $t\\in\\mathbb{R}$"
+    },
+    {
+     "q": "Quel point obtient-on pour $t=0$ ?",
+     "r": "Le point de départ A."
+    },
+    {
+     "q": "Un vecteur directeur de $\\begin{cases}x=3-t\\\\y=2+4t\\end{cases}$ ?",
+     "r": "$\\vec u(-1\\,;4)$"
+    },
+    {
+     "q": "Comment décrire le segment [AB] ?",
+     "r": "$\\overrightarrow{AM}=t\\overrightarrow{AB}$ avec $t\\in[0\\,;1]$."
+    },
+    {
+     "q": "Une droite a-t-elle une seule représentation paramétrique ?",
+     "r": "Non, une infinité."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C13-N2.svg",
+    "alt": "Repère : droite passant par A(2 ; −1) de vecteur directeur u(3 ; 2) ; les points obtenus pour t = −1, 0, 1, 2 sont marqués sur la droite.",
+    "legende": "Chaque valeur du paramètre t donne un point de la droite.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C13-N3",
+   "titre": "Vecteur normal, perpendicularité et distance d'un point à une droite",
+   "prerequis_notions": [
+    "M-S2-C13-N1",
+    "M-S2-C12-N3"
+   ],
+   "cours_md": "*Dans toute cette notion, le repère est **orthonormé**.*\n\n:::definition\nUn **vecteur normal** à une droite $(D)$ est un vecteur non nul orthogonal à un vecteur directeur de $(D)$.\n:::\n\n:::propriete\n- La droite $(D) : ax+by+c=0$ a pour vecteur normal $\\vec n(a\\,;b)$.\n- La droite passant par $A$ et de vecteur normal $\\vec n(a\\,;b)$ a pour équation $a(x-x_A)+b(y-y_A)=0$ (car $\\overrightarrow{AM}\\cdot\\vec n=0$).\n:::\n\n:::propriete Droites perpendiculaires\n$(D) : ax+by+c=0$ et $(D') : a'x+b'y+c'=0$ sont perpendiculaires $\\iff aa'+bb'=0$.\nAvec les équations réduites $y=mx+p$ et $y=m'x+p'$ : $(D)\\perp(D')\\iff mm'=-1$.\n:::\n\n:::propriete Distance d'un point à une droite\nLa distance du point $A(x_A\\,;y_A)$ à la droite $(D) : ax+by+c=0$ est\n$$d(A,(D))=\\frac{|ax_A+by_A+c|}{\\sqrt{a^2+b^2}}.$$\nC'est la longueur $AH$, où $H$ est le projeté orthogonal de $A$ sur $(D)$ ; c'est la plus courte distance entre $A$ et un point de $(D)$.\n:::\n\n:::methode Médiatrice d'un segment $[AB]$\nC'est la droite passant par le milieu $I$ de $[AB]$ et de vecteur normal $\\overrightarrow{AB}$ : $\\overrightarrow{IM}\\cdot\\overrightarrow{AB}=0$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDéterminer une équation de la droite $(\\Delta)$ passant par $A(3\\,;-1)$ et perpendiculaire à $(D) : 2x-5y+1=0$.\n\n1. $\\vec u(5\\,;2)$ dirige $(D)$ ; comme $(\\Delta)\\perp(D)$, $\\vec u$ est un vecteur normal à $(\\Delta)$.\n2. $(\\Delta) : 5(x-3)+2(y+1)=0$, soit $5x+2y-13=0$.\n3. Contrôle : $2\\times5+(-5)\\times2=0$ : les droites sont bien perpendiculaires.\n:::\n\n:::exemple Exemple 2\nCalculer la distance du point $A(1\\,;2)$ à la droite $(D) : 3x+4y-1=0$.\n\n1. $d(A,(D))=\\dfrac{|3\\times1+4\\times2-1|}{\\sqrt{3^2+4^2}}=\\dfrac{|10|}{5}$.\n2. $d(A,(D))=2$.\n:::",
+   "definition": "Dans un repère orthonormé, $\\vec n(a\\,;b)$ est normal à $ax+by+c=0$ ; deux droites sont perpendiculaires si $aa'+bb'=0$ ; la distance de $A$ à la droite est $\\frac{|ax_A+by_A+c|}{\\sqrt{a^2+b^2}}$.",
+   "formules": [
+    "$\\vec n(a\\,;b)\\perp(D) : ax+by+c=0$",
+    "$(D)\\perp(D')\\iff aa'+bb'=0\\iff mm'=-1$",
+    "$d(A,(D))=\\dfrac{|ax_A+by_A+c|}{\\sqrt{a^2+b^2}}$"
+   ],
+   "niveaux": {
+    "phrase": "Le vecteur normal est perpendiculaire à la droite ; il sert à écrire des perpendiculaires et à calculer des distances.",
+    "simple": "Si la droite est une route, le vecteur normal indique la direction « tout droit vers le bord de la route ». La distance d'une maison à la route se mesure en suivant cette direction : c'est le plus court chemin.",
+    "complete": "Dans un repère orthonormé, $(a\\,;b)\\cdot(-b\\,;a)=0$ donc $\\vec n(a\\,;b)$ est normal à $ax+by+c=0$. Perpendicularité : $\\vec n\\cdot\\vec n'=0$. Si $H$ est le projeté orthogonal de $A$ sur $(D)$, $\\overrightarrow{HA}$ est colinéaire à $\\vec n$ et $|\\overrightarrow{HA}\\cdot\\vec n|=|ax_A+by_A+c|$, d'où $AH=\\frac{|ax_A+by_A+c|}{\\|\\vec n\\|}$."
+   },
+   "analogie": "Pour relier une maison à une route rectiligne par le chemin le plus court, on trace un chemin perpendiculaire à la route : sa longueur est la distance de la maison à la route.",
+   "exemples_resolus": [
+    {
+     "enonce": "Déterminer les coordonnées du projeté orthogonal $H$ de $A(1\\,;2)$ sur $(D) : 3x+4y-1=0$ et vérifier que $AH=2$.",
+     "etapes": [
+      "$\\overrightarrow{AH}$ est colinéaire à $\\vec n(3\\,;4)$ : $H(1-3k\\,;2-4k)$ pour un réel $k$.",
+      "$H\\in(D)$ : $3(1-3k)+4(2-4k)-1=0$, soit $10-25k=0$, $k=\\dfrac25$.",
+      "$H\\left(-\\dfrac15\\,;\\dfrac25\\right)$ et $AH=\\sqrt{\\left(\\dfrac65\\right)^2+\\left(\\dfrac85\\right)^2}=\\sqrt{\\dfrac{100}{25}}=2$."
+     ]
+    },
+    {
+     "enonce": "Déterminer une équation de la médiatrice de $[AB]$ avec $A(1\\,;3)$ et $B(5\\,;-1)$.",
+     "etapes": [
+      "Milieu $I(3\\,;1)$ ; $\\overrightarrow{AB}(4\\,;-4)$ est normal à la médiatrice.",
+      "$4(x-3)-4(y-1)=0$, soit $x-y-2=0$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Utiliser $\\vec n(a\\,;b)$ ou la formule de distance dans un repère non orthonormé.",
+    "Oublier la valeur absolue ou la racine carrée dans la formule de distance.",
+    "Écrire $mm'=1$ au lieu de $mm'=-1$ pour des droites perpendiculaires.",
+    "Confondre vecteur normal (a ; b) et vecteur directeur (−b ; a)."
+   ],
+   "astuces": [
+    "Pour une perpendiculaire à (D), le vecteur directeur de (D) devient le vecteur normal de la nouvelle droite.",
+    "Contrôle une perpendicularité avec aa' + bb' = 0.",
+    "La distance est toujours positive : si tu trouves un nombre négatif, tu as oublié la valeur absolue."
+   ],
+   "mnemo": "« Normal : (a ; b) ; directeur : (−b ; a). Pentes perpendiculaires : produit −1. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? La distance d'un point à une droite est la longueur du segment perpendiculaire qui les relie. La formule $\\dfrac{|ax_A+by_A+c|}{\\sqrt{a^2+b^2}}$ calcule cette longueur sans construire le point $H$."
+   },
+   "methode_redaction": "Précise que le repère est orthonormé. Pour une perpendiculaire, écris « n(5 ; 2) est normal à (Δ) donc (Δ) : 5(x − 3) + 2(y + 1) = 0 », développe et contrôle. Pour une distance, écris la formule avant de remplacer.",
+   "flash": [
+    {
+     "q": "Vecteur normal à $4x-y+2=0$ ?",
+     "r": "$\\vec n(4\\,;-1)$"
+    },
+    {
+     "q": "$y=2x+1$ et $y=-\\frac12x+3$ sont-elles perpendiculaires ?",
+     "r": "Oui : $2\\times\\left(-\\frac12\\right)=-1$."
+    },
+    {
+     "q": "Formule de la distance d'un point A à ax + by + c = 0 ?",
+     "r": "$\\dfrac{|ax_A+by_A+c|}{\\sqrt{a^2+b^2}}$"
+    },
+    {
+     "q": "Distance de $O$ à $3x+4y-10=0$ ?",
+     "r": "$\\dfrac{10}{5}=2$"
+    },
+    {
+     "q": "Vecteur normal à la médiatrice de [AB] ?",
+     "r": "$\\overrightarrow{AB}$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C13-N3.svg",
+    "alt": "Repère orthonormé : droite (D) d'équation 3x + 4y − 1 = 0, point A(1 ; 2), projeté orthogonal H et segment [AH] en pointillés, vecteur normal n(3 ; 4) ; la formule donne d(A, D) = 2.",
+    "legende": "La distance de A à (D) est la longueur AH, mesurée perpendiculairement à la droite.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C13-N4",
+   "titre": "Équation d'un cercle",
+   "prerequis_notions": [
+    "M-S2-C13-N3",
+    "M-S2-C12-N5"
+   ],
+   "cours_md": "*Le repère est **orthonormé**.*\n\n:::propriete Équation d'un cercle\nLe cercle de centre $\\Omega(a\\,;b)$ et de rayon $r>0$ a pour équation\n$$(x-a)^2+(y-b)^2=r^2$$\ncar $M\\in\\mathscr C\\iff\\Omega M=r\\iff\\Omega M^2=r^2$. En développant : $x^2+y^2-2ax-2by+c=0$ avec $c=a^2+b^2-r^2$.\n:::\n\n:::propriete Réciproque\nL'ensemble des points $M(x\\,;y)$ tels que $x^2+y^2-2ax-2by+c=0$ vérifie $(x-a)^2+(y-b)^2=a^2+b^2-c$. C'est :\n- le cercle de centre $\\Omega(a\\,;b)$ et de rayon $\\sqrt{a^2+b^2-c}$ si $a^2+b^2-c>0$ ;\n- le point $\\Omega$ seul si $a^2+b^2-c=0$ ;\n- l'ensemble vide si $a^2+b^2-c<0$.\n:::\n\n:::propriete Cercle de diamètre $[AB]$\n$M\\in\\mathscr C\\iff\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0\\iff(x-x_A)(x-x_B)+(y-y_A)(y-y_B)=0$. Son centre est le milieu de $[AB]$ et son rayon $\\dfrac{AB}2$.\n:::\n\n:::methode Reconnaître un cercle : compléter les carrés\nÉcrire $x^2-2ax=(x-a)^2-a^2$ et $y^2-2by=(y-b)^2-b^2$, regrouper les constantes à droite, puis discuter le signe du second membre.\n:::\n\n:::attention\n$(x+3)^2$ correspond à $a=-3$ : le centre a une abscisse **négative**. Et $(x-a)^2+(y-b)^2=9$ donne un rayon $3$, pas $9$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nÉcrire une équation du cercle de centre $\\Omega(2\\,;-1)$ et de rayon $3$.\n\n1. $(x-2)^2+(y+1)^2=9$.\n2. Forme développée : $x^2-4x+4+y^2+2y+1-9=0$, soit $x^2+y^2-4x+2y-4=0$.\n:::\n\n:::exemple Exemple 2\nDéterminer l'ensemble des points $M(x\\,;y)$ tels que $x^2+y^2+6x-4y+4=0$.\n\n1. $x^2+6x=(x+3)^2-9$ et $y^2-4y=(y-2)^2-4$.\n2. L'équation devient $(x+3)^2-9+(y-2)^2-4+4=0$, soit $(x+3)^2+(y-2)^2=9$.\n3. $9>0$ : c'est le cercle de centre $\\Omega(-3\\,;2)$ et de rayon $3$.\n:::",
+   "definition": "Le cercle de centre $\\Omega(a\\,;b)$ et de rayon $r$ a pour équation $(x-a)^2+(y-b)^2=r^2$ ; une équation $x^2+y^2-2ax-2by+c=0$ définit un cercle, un point ou l'ensemble vide.",
+   "formules": [
+    "$(x-a)^2+(y-b)^2=r^2$",
+    "$x^2+y^2-2ax-2by+c=0$, $r^2=a^2+b^2-c$",
+    "Diamètre $[AB]$ : $(x-x_A)(x-x_B)+(y-y_A)(y-y_B)=0$"
+   ],
+   "niveaux": {
+    "phrase": "Un cercle est l'ensemble des points situés à la même distance r du centre : son équation traduit ΩM² = r².",
+    "simple": "Un cercle, c'est une corde de longueur r attachée à un piquet Ω : toutes les positions de l'autre bout forment le cercle. L'équation dit simplement « la distance au piquet vaut r ».",
+    "complete": "Dans un repère orthonormé, $\\Omega M^2=(x-a)^2+(y-b)^2$ ; d'où l'équation du cercle. Une équation $x^2+y^2-2ax-2by+c=0$ se met sous forme canonique $(x-a)^2+(y-b)^2=a^2+b^2-c$, ce qui donne sa nature selon le signe de $a^2+b^2-c$."
+   },
+   "analogie": "Pour tracer un cercle sur le terrain de football du quartier, on attache une ficelle à un piquet planté au centre et on tourne en gardant la ficelle tendue : tous les points tracés sont à la même distance du piquet.",
+   "exemples_resolus": [
+    {
+     "enonce": "Quel est l'ensemble des points $M(x\\,;y)$ tels que $x^2+y^2-2x+4y+10=0$ ?",
+     "etapes": [
+      "$x^2-2x=(x-1)^2-1$ et $y^2+4y=(y+2)^2-4$.",
+      "L'équation devient $(x-1)^2+(y+2)^2=1+4-10=-5$.",
+      "Une somme de carrés ne peut pas être négative : l'ensemble est vide."
+     ]
+    },
+    {
+     "enonce": "Déterminer une équation du cercle de diamètre $[AB]$ avec $A(-1\\,;2)$ et $B(3\\,;4)$.",
+     "etapes": [
+      "Centre : milieu $(1\\,;3)$. Rayon : $\\dfrac{AB}2=\\dfrac{\\sqrt{16+4}}2=\\dfrac{\\sqrt{20}}2=\\sqrt5$.",
+      "Équation : $(x-1)^2+(y-3)^2=5$.",
+      "Contrôle avec $A$ : $(-2)^2+(-1)^2=5$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Se tromper de signe pour le centre : $(x+3)^2+(y-2)^2=9$ a pour centre $(-3\\,;2)$.",
+    "Confondre $r$ et $r^2$.",
+    "Oublier de discuter le signe de $a^2+b^2-c$.",
+    "Oublier de retrancher a² et b² en complétant les carrés."
+   ],
+   "astuces": [
+    "Pour compléter le carré de x² + 6x, prends la moitié de 6 : (x + 3)² − 9.",
+    "Vérifie ton équation avec un point connu du cercle.",
+    "Une équation de cercle a toujours x² et y² avec le même coefficient et pas de terme en xy."
+   ],
+   "mnemo": "« Centre : on change les signes dans les parenthèses ; rayon : racine du second membre. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? La distance entre deux points est $AB=\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}$. Écrire « $\\Omega M=r$ » et élever au carré donne directement l'équation du cercle."
+   },
+   "methode_redaction": "Pour reconnaître un cercle, écris chaque complétion de carré sur une ligne, regroupe les constantes, puis conclus : « c'est le cercle de centre Ω(−3 ; 2) et de rayon 3 » (en justifiant que le second membre est positif).",
+   "flash": [
+    {
+     "q": "Équation du cercle de centre $O$ et de rayon $2$ ?",
+     "r": "$x^2+y^2=4$"
+    },
+    {
+     "q": "Centre et rayon de $(x-1)^2+(y+5)^2=16$ ?",
+     "r": "Centre $(1\\,;-5)$, rayon $4$."
+    },
+    {
+     "q": "Compléter : $x^2-8x=(x-4)^2-\\,?$",
+     "r": "$16$"
+    },
+    {
+     "q": "$(x-2)^2+y^2=-1$ : quel ensemble ?",
+     "r": "L'ensemble vide."
+    },
+    {
+     "q": "Centre du cercle de diamètre [AB] ?",
+     "r": "Le milieu de [AB]."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C13-N4.svg",
+    "alt": "Repère orthonormé : cercle bleu de centre Ω(−3 ; 2) et de rayon 3, avec un rayon rouge [ΩM] jusqu'à un point M(x ; y) du cercle.",
+    "legende": "M(x ; y) est sur le cercle si et seulement si ΩM = 3, c'est-à-dire (x + 3)² + (y − 2)² = 9.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C13-N5",
+   "titre": "Positions relatives d'une droite et d'un cercle, tangente",
+   "prerequis_notions": [
+    "M-S2-C13-N4",
+    "M-S2-C13-N3"
+   ],
+   "cours_md": ":::propriete Position d'une droite et d'un cercle\nSoit $\\mathscr C$ un cercle de centre $\\Omega$ et de rayon $r$, $(D)$ une droite et $d=d(\\Omega,(D))$.\n- Si $d>r$ : $(D)$ et $\\mathscr C$ n'ont **aucun** point commun ($(D)$ est extérieure).\n- Si $d=r$ : un **seul** point commun $T$ ; $(D)$ est **tangente** à $\\mathscr C$ en $T$, et $T$ est le projeté orthogonal de $\\Omega$ sur $(D)$.\n- Si $d<r$ : **deux** points communs ; $(D)$ est **sécante** au cercle.\n:::\n\n:::propriete Tangente en un point\nLa tangente au cercle $\\mathscr C$ en un point $T$ du cercle est la droite passant par $T$ et **perpendiculaire au rayon** $[\\Omega T]$ : c'est l'ensemble des points $M$ tels que $\\overrightarrow{TM}\\cdot\\overrightarrow{T\\Omega}=0$. Le vecteur $\\overrightarrow{\\Omega T}$ en est un vecteur normal.\n:::\n\n:::methode Calculer les points d'intersection\n1. Exprimer une inconnue à l'aide de l'équation de la droite (par exemple $y=x+3$).\n2. Remplacer dans l'équation du cercle : on obtient une équation du second degré.\n3. Le nombre de solutions ($\\Delta>0$, $\\Delta=0$, $\\Delta<0$) donne le nombre de points communs ; calculer les coordonnées.\n:::\n\n:::remarque Deux cercles\nDeux cercles de centres $\\Omega$, $\\Omega'$ et de rayons $r$, $r'$ sont sécants si $|r-r'|<\\Omega\\Omega'<r+r'$, tangents si $\\Omega\\Omega'=r+r'$ ou $\\Omega\\Omega'=|r-r'|$ (avec $\\Omega\\neq\\Omega'$), et sans point commun sinon.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$\\mathscr C$ est le cercle de centre $\\Omega(1\\,;2)$ et de rayon $\\sqrt5$. Vérifier que $T(3\\,;3)\\in\\mathscr C$ et déterminer la tangente en $T$.\n\n1. $(3-1)^2+(3-2)^2=4+1=5$ : $T\\in\\mathscr C$.\n2. $\\overrightarrow{\\Omega T}(2\\,;1)$ est un vecteur normal à la tangente.\n3. Tangente : $2(x-3)+1(y-3)=0$, soit $2x+y-9=0$.\n:::\n\n:::exemple Exemple 2\nÉtudier la position de $(D) : x-y+3=0$ et du cercle $\\mathscr C : x^2+y^2=9$, puis calculer les points communs.\n\n1. Centre $O$, rayon $3$ ; $d(O,(D))=\\dfrac{|3|}{\\sqrt2}=\\dfrac{3\\sqrt2}2\\approx2{,}12<3$ : la droite est sécante.\n2. $y=x+3$ ; dans l'équation du cercle : $x^2+(x+3)^2=9$, soit $2x^2+6x=0$, donc $2x(x+3)=0$.\n3. $x=0$ (alors $y=3$) ou $x=-3$ (alors $y=0$) : les points communs sont $(0\\,;3)$ et $(-3\\,;0)$.\n:::",
+   "definition": "La position d'une droite par rapport à un cercle se lit en comparant la distance $d$ du centre à la droite avec le rayon $r$ ; la tangente en $T$ est perpendiculaire au rayon $[\\Omega T]$.",
+   "formules": [
+    "$d>r$ : aucun point ; $d=r$ : tangente ; $d<r$ : deux points",
+    "Tangente en $T$ : $\\overrightarrow{TM}\\cdot\\overrightarrow{T\\Omega}=0$"
+   ],
+   "niveaux": {
+    "phrase": "On compare la distance du centre à la droite avec le rayon : plus loin, la droite rate le cercle ; égal, elle le touche ; plus près, elle le coupe.",
+    "simple": "Pose une règle sur une assiette ronde : loin du centre elle ne touche pas l'assiette, à la bonne distance elle la frôle en un seul point (tangente), plus près elle la traverse.",
+    "complete": "Avec $d=d(\\Omega,(D))$ et $H$ projeté orthogonal de $\\Omega$ sur $(D)$, pour $M\\in(D)$ : $\\Omega M^2=d^2+HM^2$. Donc $M\\in\\mathscr C\\iff HM^2=r^2-d^2$, qui a 0, 1 ou 2 solutions selon le signe de $r^2-d^2$. La tangente en $T$ est la droite de vecteur normal $\\overrightarrow{\\Omega T}$ passant par $T$."
+   },
+   "analogie": "Une roue de vélo posée sur une route plate ne la touche qu'en un seul point : la route est tangente à la roue, et le rayon qui va à ce point est perpendiculaire à la route.",
+   "exemples_resolus": [
+    {
+     "enonce": "Déterminer les réels $m$ pour lesquels la droite $y=x+m$ est tangente au cercle $x^2+y^2=8$.",
+     "etapes": [
+      "La droite s'écrit $x-y+m=0$ ; centre $O$, rayon $\\sqrt8=2\\sqrt2$.",
+      "$d(O,(D))=\\dfrac{|m|}{\\sqrt2}$. Tangente $\\iff\\dfrac{|m|}{\\sqrt2}=2\\sqrt2\\iff|m|=4$.",
+      "$m=4$ ou $m=-4$."
+     ]
+    },
+    {
+     "enonce": "Déterminer une équation du cercle de centre $\\Omega(2\\,;1)$ tangent à la droite $(D) : 3x-4y+8=0$.",
+     "etapes": [
+      "Le rayon est la distance du centre à la tangente : $r=\\dfrac{|6-4+8|}{\\sqrt{9+16}}=\\dfrac{10}5=2$.",
+      "Équation : $(x-2)^2+(y-1)^2=4$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Prendre le vecteur ΩT comme vecteur directeur de la tangente : c'est un vecteur normal.",
+    "Comparer d² avec r, ou d avec r².",
+    "Oublier de vérifier que le point T est bien sur le cercle avant d'écrire la tangente.",
+    "Perdre une solution en divisant par x lors du calcul des intersections."
+   ],
+   "astuces": [
+    "Pour une question « tangente ? sécante ? », calcule d(Ω, D) et compare avec r : c'est plus rapide que le calcul des intersections.",
+    "Pour les points communs, remplace l'inconnue la plus simple et factorise si possible.",
+    "Un rayon et la tangente au bout de ce rayon forment toujours un angle droit."
+   ],
+   "mnemo": "« Distance > rayon : dehors ; = rayon : tangente ; < rayon : coupe. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? La tangente à un cercle en un point $T$ est la droite perpendiculaire au rayon $[OT]$ en $T$. Avec les coordonnées, cela se traduit par un produit scalaire nul."
+   },
+   "methode_redaction": "Calcule d(Ω, D) avec la formule, compare avec r par une phrase (« d = 3√2/2 < 3 = r, donc (D) est sécante à 𝒞 »). Pour une tangente, écris « ΩT est normal à la tangente » puis l'équation.",
+   "flash": [
+    {
+     "q": "Que vaut la distance du centre à une tangente ?",
+     "r": "Le rayon."
+    },
+    {
+     "q": "$d(\\Omega,(D))=5$ et $r=3$ : position ?",
+     "r": "La droite est extérieure au cercle (aucun point commun)."
+    },
+    {
+     "q": "Vecteur normal à la tangente en T ?",
+     "r": "$\\overrightarrow{\\Omega T}$"
+    },
+    {
+     "q": "Combien de points communs si d < r ?",
+     "r": "Deux."
+    },
+    {
+     "q": "Tangente au cercle $x^2+y^2=25$ en $T(3\\,;4)$ ?",
+     "r": "$3x+4y-25=0$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C13-N5.svg",
+    "alt": "Un cercle de centre Ω et trois droites horizontales : une à une distance supérieure au rayon (aucun point commun), une tangente en T (distance égale au rayon), une sécante en deux points (distance inférieure au rayon).",
+    "legende": "La position d'une droite par rapport à un cercle dépend de la comparaison entre d(Ω, D) et r.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S2-C13-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C13-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel de ces vecteurs est un vecteur directeur de la droite $(D) : 2x-3y+1=0$ ?",
+   "choix": [
+    "$\\vec u(3\\,;2)$",
+    "$\\vec u(2\\,;-3)$",
+    "$\\vec u(-3\\,;2)$",
+    "$\\vec u(2\\,;3)$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Vecteur directeur : (−b ; a)."
+   ],
+   "corrige": [
+    "Un vecteur directeur de $ax+by+c=0$ est $(-b\\,;a)$.",
+    "Ici $a=2$, $b=-3$ : $\\vec u(3\\,;2)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Choisir (2 ; −3), qui est un vecteur normal (repère orthonormé).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C13-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C13-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer le coefficient directeur de la droite passant par $A(1\\,;3)$ et $B(3\\,;7)$.",
+   "reponses_acceptees": [
+    "2",
+    "m=2"
+   ],
+   "indices": [
+    "Différence des ordonnées sur différence des abscisses."
+   ],
+   "corrige": [
+    "$m=\\dfrac{y_B-y_A}{x_B-x_A}=\\dfrac{7-3}{3-1}$.",
+    "$m=\\dfrac42=2$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer (3 − 1)/(7 − 3) = 1/2.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C13-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C13-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quel est le rayon du cercle d'équation $(x-1)^2+(y+4)^2=25$ ?",
+   "reponses_acceptees": [
+    "5",
+    "r=5"
+   ],
+   "indices": [
+    "Le second membre est r²."
+   ],
+   "corrige": [
+    "L'équation est de la forme $(x-a)^2+(y-b)^2=r^2$ avec $r^2=25$.",
+    "$r=5$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 25 (c'est r²).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C13-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C13-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Déterminer l'équation réduite de la droite $(AB)$ avec $A(-1\\,;4)$ et $B(2\\,;-2)$.",
+   "reponses_acceptees": [
+    "y=-2x+2",
+    "y=2-2x",
+    "y=−2x+2"
+   ],
+   "indices": [
+    "Calcule m, puis p avec un des deux points."
+   ],
+   "corrige": [
+    "$m=\\dfrac{-2-4}{2-(-1)}=\\dfrac{-6}{3}=-2$.",
+    "$y=-2x+p$ et $A\\in(AB)$ : $4=2+p$, donc $p=2$.",
+    "$(AB) : y=-2x+2$."
+   ],
+   "bareme": [
+    1,
+    1,
+    0.5
+   ],
+   "piege": "Oublier la double négation : −2 × (−1) = +2.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C13-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C13-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Dans un repère orthonormé, quelle droite est perpendiculaire à $(D) : y=3x+1$ ?",
+   "choix": [
+    "$y=-\\dfrac13x+2$",
+    "$y=3x-2$",
+    "$y=-3x+1$",
+    "$y=\\dfrac13x$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Produit des coefficients directeurs = −1."
+   ],
+   "corrige": [
+    "Deux droites non verticales sont perpendiculaires si $mm'=-1$.",
+    "$3\\times\\left(-\\dfrac13\\right)=-1$ : c'est $y=-\\dfrac13x+2$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Choisir y = −3x + 1 (on a pris l'opposé au lieu de l'opposé de l'inverse).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C13-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C13-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Déterminer les coordonnées du centre du cercle d'équation $x^2+y^2-4x+6y-3=0$.",
+   "reponses_acceptees": [
+    "(2;-3)",
+    "Ω(2;-3)",
+    "(2,-3)",
+    "(2;−3)"
+   ],
+   "indices": [
+    "Complète les carrés."
+   ],
+   "corrige": [
+    "$x^2-4x=(x-2)^2-4$ et $y^2+6y=(y+3)^2-9$.",
+    "$(x-2)^2+(y+3)^2=3+4+9=16$ : centre $(2\\,;-3)$, rayon $4$."
+   ],
+   "bareme": [
+    1.5,
+    1
+   ],
+   "piege": "Donner le centre (−2 ; 3) en se trompant de signes.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C13-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C13-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère orthonormé, calculer la distance du point $A(2\\,;-1)$ à la droite $(D) : 5x-12y+4=0$.",
+   "reponses_acceptees": [
+    "2",
+    "d=2"
+   ],
+   "indices": [
+    "√(25 + 144) = 13."
+   ],
+   "corrige": [
+    "$d=\\dfrac{|5\\times2-12\\times(-1)+4|}{\\sqrt{5^2+12^2}}=\\dfrac{|26|}{\\sqrt{169}}$.",
+    "$d=\\dfrac{26}{13}=2$."
+   ],
+   "bareme": [
+    1.5,
+    1
+   ],
+   "piege": "Oublier que −12 × (−1) = +12.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C13-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C13-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La droite $(D)$ a pour représentation paramétrique $\\begin{cases}x=1+2t\\\\ y=-3+t\\end{cases}$, $t\\in\\mathbb{R}$. Elle a une équation de la forme $x-2y+c=0$. Déterminer $c$.",
+   "reponses_acceptees": [
+    "-7",
+    "c=-7",
+    "−7"
+   ],
+   "indices": [
+    "Exprime t en fonction de y."
+   ],
+   "corrige": [
+    "De la seconde équation : $t=y+3$.",
+    "$x=1+2(y+3)=2y+7$, donc $x-2y-7=0$ : $c=-7$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier de multiplier 3 par 2 (on trouverait c = −4).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C13-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C13-N1",
+    "M-S2-C13-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, on donne $A(-1\\,;1)$, $B(5\\,;3)$ et $C(1\\,;-3)$.\n\n1. Déterminer une équation cartésienne de la droite $(BC)$.\n2. Déterminer une équation de la hauteur $(\\Delta)$ issue de $A$ dans le triangle $ABC$.\n3. Calculer les coordonnées du pied $H$ de cette hauteur.\n4. Calculer la distance $AH$, puis l'aire du triangle $ABC$.",
+   "indices": [
+    "La hauteur issue de A est perpendiculaire à (BC) : BC est un vecteur normal.",
+    "AH est la distance de A à (BC)."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{BC}(-4\\,;-6)$, colinéaire à $(2\\,;3)$ : $(BC) : 3x-2y+c=0$ ; $B$ donne $15-6+c=0$, $c=-9$. $(BC) : 3x-2y-9=0$ (contrôle avec $C$ : $3+6-9=0$).",
+    "2. $(\\Delta)$ passe par $A$ et a pour vecteur normal $(2\\,;3)$ : $2(x+1)+3(y-1)=0$, soit $2x+3y-1=0$.",
+    "3. $H$ vérifie $\\begin{cases}3x-2y=9\\\\2x+3y=1\\end{cases}$ : $D=3\\times3-2\\times(-2)=13$, $x=\\dfrac{9\\times3-1\\times(-2)}{13}=\\dfrac{29}{13}$, $y=\\dfrac{3\\times1-2\\times9}{13}=-\\dfrac{15}{13}$.",
+    "4. $AH=d(A,(BC))=\\dfrac{|-3-2-9|}{\\sqrt{13}}=\\dfrac{14}{\\sqrt{13}}$ ; $BC=\\sqrt{16+36}=2\\sqrt{13}$.",
+    "Aire $=\\dfrac12\\times BC\\times AH=\\dfrac12\\times2\\sqrt{13}\\times\\dfrac{14}{\\sqrt{13}}=14$ (unités d'aire)."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Prendre (2 ; 3) comme vecteur directeur de la hauteur au lieu de vecteur normal.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C13-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C13-N4",
+    "M-S2-C13-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, on donne $A(1\\,;1)$, $B(5\\,;1)$ et $C(5\\,;5)$.\n\n1. Déterminer une équation de la médiatrice de $[AB]$ et de celle de $[BC]$.\n2. En déduire le centre $\\Omega$ et le rayon du cercle circonscrit au triangle $ABC$.\n3. Écrire une équation de ce cercle sous forme développée.",
+   "indices": [
+    "Le centre du cercle circonscrit est le point de concours des médiatrices."
+   ],
+   "corrige": [
+    "1. Médiatrice de $[AB]$ : milieu $(3\\,;1)$, vecteur normal $\\overrightarrow{AB}(4\\,;0)$ : $4(x-3)=0$, soit $x=3$. Médiatrice de $[BC]$ : milieu $(5\\,;3)$, vecteur normal $\\overrightarrow{BC}(0\\,;4)$ : $y=3$.",
+    "2. $\\Omega$ est leur intersection : $\\Omega(3\\,;3)$. Rayon : $\\Omega A=\\sqrt{(1-3)^2+(1-3)^2}=\\sqrt8=2\\sqrt2$.",
+    "3. $(x-3)^2+(y-3)^2=8$, soit $x^2+y^2-6x-6y+10=0$. Contrôle avec $B$ : $25+1-30-6+10=0$."
+   ],
+   "bareme": [
+    2,
+    1.5,
+    1.5
+   ],
+   "piege": "Oublier de vérifier le résultat avec les trois points.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C13-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C13-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, $\\mathscr C$ est l'ensemble des points $M(x\\,;y)$ tels que $x^2+y^2-2x-4y-20=0$.\n\n1. Montrer que $\\mathscr C$ est un cercle dont on donnera le centre $\\Omega$ et le rayon.\n2. Vérifier que $T(4\\,;6)\\in\\mathscr C$ et déterminer une équation de la tangente à $\\mathscr C$ en $T$.\n3. Étudier la position de $\\mathscr C$ par rapport aux droites $(D_1) : 3x+4y+14=0$ et $(D_2) : x=7$.",
+   "indices": [
+    "Complète les carrés.",
+    "Distance de Ω(1 ; 2) à la droite x = 7 : |1 − 7|."
+   ],
+   "corrige": [
+    "1. $(x-1)^2-1+(y-2)^2-4-20=0$, soit $(x-1)^2+(y-2)^2=25$ : cercle de centre $\\Omega(1\\,;2)$ et de rayon $5$.",
+    "2. $(4-1)^2+(6-2)^2=9+16=25$ : $T\\in\\mathscr C$. $\\overrightarrow{\\Omega T}(3\\,;4)$ est normal à la tangente : $3(x-4)+4(y-6)=0$, soit $3x+4y-36=0$.",
+    "3. $d(\\Omega,(D_1))=\\dfrac{|3+8+14|}{5}=5=r$ : $(D_1)$ est tangente à $\\mathscr C$.",
+    "$d(\\Omega,(D_2))=|1-7|=6>5$ : $(D_2)$ n'a aucun point commun avec $\\mathscr C$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Comparer d avec r² = 25 au lieu de r = 5.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C13-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C13-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, on considère le cercle $\\mathscr C : x^2+y^2=25$ et la droite $(D) : x+2y=5$.\n\n1. Calculer les coordonnées des points d'intersection $A$ et $B$ de $(D)$ et de $\\mathscr C$ ($A$ d'ordonnée nulle).\n2. Déterminer une équation de la tangente à $\\mathscr C$ en $A$ et de la tangente en $B$.\n3. Ces tangentes se coupent en $P$. Calculer les coordonnées de $P$ et vérifier que $PA=PB$.",
+   "indices": [
+    "Exprime x en fonction de y grâce à la droite.",
+    "La tangente en un point du cercle de centre O a pour vecteur normal OA."
+   ],
+   "corrige": [
+    "1. $x=5-2y$ ; $(5-2y)^2+y^2=25\\iff5y^2-20y=0\\iff5y(y-4)=0$. $y=0$ donne $A(5\\,;0)$ ; $y=4$ donne $B(-3\\,;4)$.",
+    "2. En $A$ : $\\overrightarrow{OA}(5\\,;0)$ est normal, tangente $5(x-5)=0$, soit $x=5$.",
+    "En $B$ : $\\overrightarrow{OB}(-3\\,;4)$ est normal, tangente $-3(x+3)+4(y-4)=0$, soit $-3x+4y-25=0$.",
+    "3. $x=5$ dans la seconde : $-15+4y=25$, $y=10$ : $P(5\\,;10)$.",
+    "$PA=\\sqrt{0+100}=10$ et $PB=\\sqrt{8^2+6^2}=\\sqrt{100}=10$ : $PA=PB$."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    1,
+    0.5
+   ],
+   "piege": "Diviser 5y² − 20y = 0 par y et perdre la solution y = 0.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C13-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C13-N5",
+    "M-S2-C13-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, $\\mathscr C$ est le cercle de centre $O$ et de rayon $1$. Pour tout réel $m$, $(D_m)$ est la droite d'équation $y=mx+2$.\n\n1. Calculer la distance de $O$ à $(D_m)$ en fonction de $m$.\n2. Pour quelles valeurs de $m$ la droite $(D_m)$ est-elle tangente à $\\mathscr C$ ?\n3. Selon $m$, donner le nombre de points communs à $(D_m)$ et $\\mathscr C$.",
+   "indices": [
+    "Écris (D_m) sous la forme ax + by + c = 0.",
+    "Compare d et 1 en comparant √(m² + 1) et 2."
+   ],
+   "corrige": [
+    "1. $(D_m) : mx-y+2=0$, donc $d(O,(D_m))=\\dfrac{|2|}{\\sqrt{m^2+1}}=\\dfrac{2}{\\sqrt{m^2+1}}$.",
+    "2. Tangente $\\iff\\dfrac{2}{\\sqrt{m^2+1}}=1\\iff\\sqrt{m^2+1}=2\\iff m^2=3\\iff m=\\sqrt3$ ou $m=-\\sqrt3$.",
+    "3. $d<1\\iff\\sqrt{m^2+1}>2\\iff m^2>3$ : deux points communs si $m<-\\sqrt3$ ou $m>\\sqrt3$.",
+    "Un seul point (tangente) si $m=\\pm\\sqrt3$ ; aucun point commun si $-\\sqrt3<m<\\sqrt3$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Inverser les inégalités : d < r correspond à √(m² + 1) > 2.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C13-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C13-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La droite $(D)$ a pour représentation paramétrique $\\begin{cases}x=2+t\\\\ y=1-t\\end{cases}$, $t\\in\\mathbb{R}$. Donner les coordonnées de son point d'intersection avec l'axe des abscisses.",
+   "reponses_acceptees": [
+    "(3;0)",
+    "(3,0)"
+   ],
+   "indices": [
+    "L'axe des abscisses a pour équation y = 0."
+   ],
+   "corrige": [
+    "Sur l'axe des abscisses, $y=0$ : $1-t=0$, donc $t=1$.",
+    "Alors $x=2+1=3$ : le point est $(3\\,;0)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Poser x = 0 au lieu de y = 0.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre vecteur directeur (−b ; a) et vecteur normal (a ; b) de la droite ax + by + c = 0.",
+  "Calculer le coefficient directeur à l'envers, ou chercher une équation réduite pour une droite verticale.",
+  "Utiliser les formules du vecteur normal, de la perpendicularité ou de la distance dans un repère non orthonormé.",
+  "Cercle : se tromper de signe pour le centre, confondre r et r², oublier la discussion quand le second membre est négatif.",
+  "Distance point–droite sans valeur absolue ou sans racine carrée.",
+  "Tangente : prendre le rayon ΩT comme vecteur directeur au lieu de vecteur normal.",
+  "Représentation paramétrique : tester un point avec deux valeurs différentes de t."
+ ]
+}

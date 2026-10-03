@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 740" width="600" height="740" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Structure interne du globe et vitesse des ondes sismiques</title>
+<desc id="desc">En haut, demi-coupe de la Terre : croûte (5 à 70 km, épaisseur exagérée), manteau supérieur et inférieur solides, noyau externe liquide de fer et de nickel à partir de 2 900 km (discontinuité de Gutenberg), graine solide à partir de 5 150 km (discontinuité de Lehmann), centre à 6 371 km. En bas, vitesse des ondes P et S en fonction de la profondeur : elles augmentent dans le manteau ; à 2 900 km, les ondes P ralentissent brusquement et les ondes S disparaissent dans le noyau externe liquide, puis réapparaissent dans la graine.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker><marker id="flm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<rect x="0" y="0" width="600" height="740" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">La structure interne du globe</text>
+<path d="M25.0,300 A200.0,200.0 0 0,1 425.0,300 Z" fill="#a16207" stroke="#57534e" stroke-width="1.5"/>
+<path d="M35.0,300 A190.0,190.0 0 0,1 415.0,300 Z" fill="#fdba74" stroke="#57534e" stroke-width="1.5"/>
+<path d="M46.0,300 A179.0,179.0 0 0,1 404.0,300 Z" fill="#fb923c" stroke="#57534e" stroke-width="1.5"/>
+<path d="M116.0,300 A109.0,109.0 0 0,1 334.0,300 Z" fill="#fde047" stroke="#57534e" stroke-width="1.5"/>
+<path d="M186.7,300 A38.3,38.3 0 0,1 263.3,300 Z" fill="#f1f5f9" stroke="#57534e" stroke-width="1.5"/>
+<line x1="20" y1="300" x2="430" y2="300" stroke="#374151" stroke-width="2"/>
+<line x1="322.5" y1="131.1" x2="436" y2="80" stroke="#374151" stroke-width="1.5"/><circle cx="322.5" cy="131.1" r="2.6" fill="#374151"/>
+<text x="440" y="85" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2937">croûte (5 à 70 km)</text>
+<text x="440" y="102" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">épaisseur exagérée</text>
+<line x1="366.0" y1="181.7" x2="436" y2="130" stroke="#374151" stroke-width="1.5"/><circle cx="366.0" cy="181.7" r="2.6" fill="#374151"/>
+<text x="440" y="135" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2937">manteau supérieur</text>
+<text x="440" y="152" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">solide (péridotite)</text>
+<line x1="356.4" y1="238.7" x2="436" y2="180" stroke="#374151" stroke-width="1.5"/><circle cx="356.4" cy="238.7" r="2.6" fill="#374151"/>
+<text x="440" y="185" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2937">manteau inférieur</text>
+<text x="440" y="202" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">solide</text>
+<line x1="295.5" y1="274.3" x2="436" y2="230" stroke="#374151" stroke-width="1.5"/><circle cx="295.5" cy="274.3" r="2.6" fill="#374151"/>
+<text x="440" y="235" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2937">noyau externe</text>
+<text x="440" y="252" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">liquide (fer, nickel)</text>
+<line x1="244.7" y1="296.5" x2="436" y2="278" stroke="#374151" stroke-width="1.5"/><circle cx="244.7" cy="296.5" r="2.6" fill="#374151"/>
+<text x="440" y="283" font-size="14" text-anchor="start" font-weight="bold" fill="#1f2937">graine</text>
+<text x="440" y="300" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">solide (fer, nickel)</text>
+<line x1="25.0" y1="300" x2="25.0" y2="308" stroke="#374151" stroke-width="2"/>
+<line x1="116.0" y1="300" x2="116.0" y2="308" stroke="#374151" stroke-width="2"/>
+<line x1="186.7" y1="300" x2="186.7" y2="308" stroke="#374151" stroke-width="2"/>
+<line x1="225.0" y1="300" x2="225.0" y2="308" stroke="#374151" stroke-width="2"/>
+<text x="25" y="324" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">0</text>
+<text x="116.0" y="324" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">2 900 km (Gutenberg)</text>
+<text x="186.7" y="342" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">5 150 km (Lehmann)</text>
+<text x="233" y="324" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">centre : 6 371 km</text>
+<text x="25" y="362" font-size="13" text-anchor="start" font-weight="bold" fill="#4b5563">Moho (base de la croûte) : 5 à 70 km de profondeur</text>
+<line x1="30" y1="385" x2="570" y2="385" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="300" y="410" font-size="16" text-anchor="middle" font-weight="bold" fill="#1f2937">Vitesse des ondes sismiques selon la profondeur</text>
+<line x1="80" y1="680" x2="570" y2="680" stroke="#374151" stroke-width="2" marker-end="url(#fl)"/>
+<line x1="80" y1="680" x2="80" y2="445" stroke="#374151" stroke-width="2" marker-end="url(#fl)"/>
+<text x="72" y="685.0" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563">0</text>
+<text x="72" y="622.1" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563">4</text>
+<line x1="80" y1="617.1" x2="560" y2="617.1" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="559.3" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563">8</text>
+<line x1="80" y1="554.3" x2="560" y2="554.3" stroke="#e5e7eb" stroke-width="1"/>
+<text x="72" y="496.4" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563">12</text>
+<line x1="80" y1="491.4" x2="560" y2="491.4" stroke="#e5e7eb" stroke-width="1"/>
+<text x="86" y="440" font-size="13" text-anchor="start" font-weight="normal" fill="#4b5563">vitesse (km/s)</text>
+<text x="80.0" y="700" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">0</text>
+<text x="298.5" y="700" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">2 900</text>
+<text x="468.0" y="700" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">5 150</text>
+<text x="560.0" y="700" font-size="13" text-anchor="middle" font-weight="normal" fill="#4b5563">6 371</text>
+<text x="570" y="718" font-size="13" text-anchor="end" font-weight="normal" fill="#4b5563">profondeur (km)</text>
+<line x1="298.5" y1="680" x2="298.5" y2="460" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+<line x1="468.0" y1="680" x2="468.0" y2="460" stroke="#9ca3af" stroke-width="1.2" stroke-dasharray="5 4"/>
+<polyline points="80.0,588.9 82.6,573.1 82.6,554.3 96.6,554.3 110.1,538.6 130.5,519.7 130.5,510.3 297.8,464.7 297.8,553.3 468.0,517.2 468.0,506.7 560.0,503.1" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="80.0,626.6 82.6,618.7 82.6,609.3 96.6,610.9 110.1,603.0 130.5,592.0 130.5,585.7 297.8,565.9" fill="none" stroke="#eb6834" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5"/>
+<polyline points="468.0,625.0 560.0,622.3" fill="none" stroke="#eb6834" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="193.01208601475435" y="475.71428571428567" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2937">ondes P</text>
+<text x="193.01208601475435" y="593.5714285714286" font-size="14" text-anchor="middle" font-weight="bold" fill="#1f2937">ondes S</text>
+<text x="382.8723905195417" y="629.7142857142857" font-size="13" text-anchor="middle" font-weight="normal" fill="#1f2937">pas d'ondes S :</text>
+<text x="382.8723905195417" y="646.7142857142857" font-size="13" text-anchor="middle" font-weight="normal" fill="#1f2937">noyau externe liquide</text>
+<text x="382.8723905195417" y="482.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#1f2937">les ondes P</text>
+<text x="382.8723905195417" y="499.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#1f2937">ralentissent</text>
+</svg>

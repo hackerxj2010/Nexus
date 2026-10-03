@@ -1,0 +1,697 @@
+{
+ "id": "SVT-S2-C11",
+ "matiere": "SVT",
+ "semestre": 2,
+ "ordre": 11,
+ "titre": "Érosion, sédimentation, roches sédimentaires et fossiles",
+ "objectifs": [
+  "L'élève doit être capable d'expliquer l'altération des roches, l'érosion et les modes de transport des particules.",
+  "L'élève doit être capable d'expliquer la sédimentation et la diagenèse et de calculer une durée de dépôt.",
+  "L'élève doit être capable de classer les roches sédimentaires et de citer celles exploitées au Togo.",
+  "L'élève doit être capable d'utiliser les fossiles et les principes de datation relative pour établir la chronologie d'une coupe géologique."
+ ],
+ "prerequis": [
+  "SVT-3e-ROCHES",
+  "SVT-S1-C05",
+  "SVT-S2-C09",
+  "SVT-S2-C10"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S2-C11-N1",
+   "titre": "Altération, érosion et transport : la destruction des reliefs",
+   "prerequis_notions": [
+    "SVT-S2-C10-N4",
+    "SVT-S2-C09-N2",
+    "SVT-S1-C05-N1"
+   ],
+   "cours_md": "### 1. Les roches de surface sont altérées\nToute roche qui arrive à la surface est soumise à l'action de l'eau, de l'air, des variations de température et des êtres vivants.\n\n:::definition\n**Altération** : modification physique ou chimique d'une roche **sur place**, à la surface de la Terre.\n- **Altération physique** (désagrégation) : la roche se fragmente sans changer de composition. Sous les tropiques, les fortes **variations de température** entre le jour et la nuit dilatent et contractent les minéraux, qui se fissurent ; les **racines** élargissent les fissures.\n- **Altération chimique** (décomposition) : les minéraux réagissent avec l'eau, surtout quand elle contient du $\\ce{CO2}$ dissous (eau légèrement acide). Elle est très intense en climat chaud et humide.\n:::\n\n:::propriete\n**Dissolution du calcaire** par l'eau chargée de dioxyde de carbone :\n$$\\ce{CaCO3 + CO2 + H2O <=> Ca^2+ + 2HCO3^-}$$\nLe calcaire disparaît en solution : c'est ainsi que se creusent les grottes et les fissures des régions calcaires. La réaction inverse (dégazage du $\\ce{CO2}$) fait précipiter du calcaire (stalactites).\n**Hydrolyse des feldspaths** en argiles (chapitre 9) : le granite devient une arène de sable et d'argile.\n:::\n\n### 2. L'érosion arrache les matériaux\n:::definition\n**Érosion** : ensemble des processus qui **arrachent** les matériaux de la surface (roches altérées, sol) et les **déplacent**.\n:::\n\nLes **agents d'érosion** :\n- l'**eau de ruissellement** : sur les pentes déboisées des monts du Togo, les orages creusent des **ravines** ;\n- les **cours d'eau** (Mono, Oti, Zio, Haho) : ils creusent leur lit et leurs berges, surtout en crue ;\n- la **mer** : les vagues et les courants attaquent le littoral. Sur la côte togolaise, à l'est du port de Lomé, la plage recule de plusieurs mètres par an par endroits : la jetée du port bloque le transport naturel du sable le long de la côte (dérive littorale, d'ouest en est) et les plages situées à l'est ne sont plus alimentées ; le prélèvement de sable aggrave le problème ;\n- le **vent** : dans le nord, l'**harmattan** soulève les poussières des sols nus en saison sèche et transporte des poussières venues du Sahara ;\n- les **glaciers**, absents au Togo, sont très efficaces dans les montagnes froides.\n\nLes **facteurs** qui favorisent l'érosion : la **pente**, l'**intensité des pluies**, l'absence de **couverture végétale** (déforestation, feux, sol nu), la nature de la roche (les roches tendres et altérées s'érodent plus vite).\n\n### 3. Le transport des particules\n| Mode de transport | Particules concernées | Description |\n|---|---|---|\n| **Traction** (roulement) | galets, graviers | roulés ou traînés sur le fond |\n| **Saltation** | sables | petits bonds successifs |\n| **Suspension** | limons, argiles | maintenus dans l'eau (eau boueuse) |\n| **Dissolution** | ions ($\\ce{Ca^2+}$, $\\ce{Na+}$, $\\ce{HCO3^-}$…) | invisibles, dissous dans l'eau |\n\n:::propriete\nPlus le courant est **rapide**, plus il peut **arracher et transporter de grosses particules**. Quand la vitesse diminue (pente plus faible, entrée dans un lac ou dans la mer), les particules se **déposent**, les plus grosses en premier. Au cours du transport, les grains s'**usent** et s'**arrondissent** : un galet bien rond a voyagé longtemps.\n:::\n\n:::remarque\nLes **barrages** piègent les sédiments : la retenue de Nangbéto, sur le Mono, se remplit peu à peu de sédiments, et la côte en aval reçoit moins de sable.\n:::\n\n:::attention\nNe confonds pas **altération** (transformation sur place) et **érosion** (arrachement et déplacement). L'altération prépare l'érosion.\n:::",
+   "definition": "L'altération transforme les roches sur place (désagrégation physique, décomposition chimique comme la dissolution du calcaire) ; l'érosion arrache les matériaux, qui sont transportés par traction, saltation, suspension ou dissolution selon leur taille et la vitesse de l'agent de transport.",
+   "formules": [
+    "$\\ce{CaCO3 + CO2 + H2O <=> Ca^2+ + 2HCO3^-}$"
+   ],
+   "niveaux": {
+    "phrase": "La pluie, la chaleur et le vent usent les roches, puis l'eau et le vent emportent les débris.",
+    "simple": "Pense à une termitière abandonnée sous la pluie : elle se fissure au soleil (altération physique), se ramollit avec l'eau (altération chimique), puis la pluie emporte la terre vers le bas (érosion) et le ruisseau la transporte plus loin (transport). Les montagnes subissent la même chose, très lentement.",
+    "complete": "Les roches de surface sont altérées physiquement (thermoclastie, racines) et chimiquement (dissolution du calcaire par l'eau chargée de CO2, hydrolyse des silicates), surtout en climat chaud et humide. L'érosion, par le ruissellement, les cours d'eau, la mer, le vent et les glaciers, arrache les matériaux ; elle dépend de la pente, des pluies, de la couverture végétale et de la roche. Le transport se fait par traction, saltation, suspension et dissolution ; la compétence d'un courant croît avec sa vitesse, et le dépôt commence quand elle diminue."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : une rivière transporte, à la vitesse de 1 m/s, des galets, des sables et des argiles. En arrivant dans la plaine, sa vitesse tombe à 0,2 m/s, puis à presque 0 dans la lagune. Où se déposent les différentes particules ? Justifie.",
+     "etapes": [
+      "À 1 m/s, le courant est assez rapide pour rouler les galets, faire sauter les sables et garder les argiles en suspension.",
+      "À 0,2 m/s, il n'a plus assez d'énergie pour déplacer les galets et les gros sables : ils se déposent dans le lit, au pied des reliefs et dans la plaine.",
+      "Les argiles, très fines, restent en suspension et ne se déposent que dans l'eau calme de la lagune.",
+      "Conclusion : les dépôts sont triés selon la taille : grossiers en amont, fins en aval, dans les eaux calmes."
+     ]
+    },
+    {
+     "enonce": "Document : on place 20 g de calcaire concassé dans deux flacons : A, eau gazeuse (riche en CO2) ; B, eau pure. Après une semaine, il reste 18,6 g de calcaire dans A et 19,9 g dans B. Calcule les masses dissoutes et interprète.",
+     "etapes": [
+      "Masse dissoute dans A : 20 − 18,6 = 1,4 g ; dans B : 20 − 19,9 = 0,1 g.",
+      "L'eau chargée de CO2 a dissous 14 fois plus de calcaire que l'eau pure (1,4 ÷ 0,1).",
+      "Interprétation : le CO2 dissous rend l'eau acide et permet la réaction CaCO3 + CO2 + H2O → Ca2+ + 2 HCO3-.",
+      "Conclusion : l'altération chimique du calcaire est due surtout à l'eau de pluie chargée de CO2 (de l'air et du sol)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre altération (sur place) et érosion (arrachement et transport).",
+    "Croire que seuls les gros cours d'eau érodent : le ruissellement sur les pentes nues est très efficace.",
+    "Dire que l'eau transporte toutes les particules de la même façon.",
+    "Oublier le rôle du CO2 dans la dissolution du calcaire.",
+    "Attribuer l'érosion côtière uniquement à la montée de la mer, sans parler du blocage du transport de sable."
+   ],
+   "astuces": [
+    "Retiens l'enchaînement « altérer → éroder → transporter → déposer ».",
+    "Taille et transport : galets = traction ; sables = saltation ; argiles = suspension ; ions = dissolution."
+   ],
+   "mnemo": "« T.S.S.D. » : Traction, Saltation, Suspension, Dissolution, du plus gros au plus petit.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que l'eau qui ruisselle sur un sol nu emporte la terre et que la végétation protège le sol. On élargit ici aux roches et aux paysages entiers."
+   },
+   "methode_redaction": "Pour expliquer la formation d'un paysage d'érosion : 1) nommer l'agent (eau, vent, mer) ; 2) décrire l'action (altération puis arrachement) ; 3) préciser les facteurs favorables (pente, sol nu, pluies) ; 4) relier au document. Pour l'équation de dissolution : l'écrire équilibrée avec CO2 et H2O.",
+   "flash": [
+    {
+     "q": "Différence entre altération et érosion ?",
+     "r": "L'altération transforme la roche sur place ; l'érosion arrache et déplace les matériaux."
+    },
+    {
+     "q": "Équation de la dissolution du calcaire ?",
+     "r": "$\\ce{CaCO3 + CO2 + H2O <=> Ca^2+ + 2HCO3^-}$"
+    },
+    {
+     "q": "Les quatre modes de transport ?",
+     "r": "Traction, saltation, suspension, dissolution."
+    },
+    {
+     "q": "Pourquoi les plages à l'est du port de Lomé reculent-elles ?",
+     "r": "La jetée du port bloque la dérive littorale du sable ; ces plages ne sont plus alimentées (et le prélèvement de sable aggrave)."
+    },
+    {
+     "q": "Que nous apprend un galet très arrondi ?",
+     "r": "Qu'il a été longtemps transporté (usé par le transport)."
+    },
+    {
+     "q": "Trois facteurs qui favorisent l'érosion ?",
+     "r": "La pente, les pluies intenses, l'absence de végétation (aussi : roche tendre)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C11-N1.svg",
+    "alt": "Profil d'un relief à la mer avec altération, érosion, transport et dépôt, et les modes de transport dans une rivière",
+    "legende": "La roche est altérée en montagne, érodée, transportée par la rivière (traction, saltation, suspension, dissolution) puis déposée.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C11-N2",
+   "titre": "Sédimentation et diagenèse : la formation des roches sédimentaires",
+   "prerequis_notions": [
+    "SVT-S2-C11-N1"
+   ],
+   "cours_md": "### 1. Où se déposent les sédiments ?\n:::definition\n**Sédiment** : dépôt de particules (débris de roches, restes d'êtres vivants) ou de substances précipitées, accumulé à la surface de la Terre, surtout dans l'eau.\n**Sédimentation** : ensemble des processus de dépôt des sédiments.\n:::\n\nLes **bassins de sédimentation** :\n- **continentaux** : lit et plaine d'inondation des rivières (sables, graviers, limons), lacs, deltas et estuaires (embouchure du Mono), **lagunes** (lac Togo, lagune de Lomé : vases riches en matière organique) ;\n- **marins** : plages (sables), plateau continental (sables, vases, calcaires coquilliers), grands fonds (argiles très fines, boues de microfossiles).\n\nC'est surtout dans les **mers** que se forment les grandes séries sédimentaires.\n\n### 2. Les caractères des dépôts\n:::methode\n**Expérience** : verser dans un grand bocal d'eau un mélange de graviers, de sable et d'argile, laisser reposer, puis recommencer avec un deuxième mélange.\n- Dans chaque dépôt, les **gros grains** sont **en bas** et les fins en haut : c'est le **granoclassement** (les grosses particules tombent plus vite).\n- Chaque apport forme une couche : une **strate**, séparée de la suivante par un **joint de stratification**.\n:::\n\n:::propriete\n**Principe de superposition** : dans une série de strates non déformées, une strate est **plus récente** que celle qu'elle recouvre.\n**Principe de l'horizontalité originelle** : les sédiments se déposent en couches **horizontales** ; des strates inclinées ou plissées ont été déformées après leur dépôt.\n**Principe de continuité** : une même strate a le même âge sur toute son étendue.\n:::\n\n:::remarque\n**Actualisme** : « le présent est la clé du passé ». En observant les dépôts actuels (sables de plage, vases de lagune, récifs de corail), on reconstitue les **milieux de dépôt anciens** (paléoenvironnements) à partir des roches et des fossiles.\n:::\n\n### 3. La diagenèse : du sédiment meuble à la roche cohérente\n:::definition\n**Diagenèse** : ensemble des transformations qui changent un sédiment meuble en roche sédimentaire cohérente, après son enfouissement, à faible profondeur et à température modérée.\n:::\n\n1. **Compaction** : le poids des couches qui s'accumulent au-dessus tasse les sédiments ; l'eau entre les grains est chassée ; le volume diminue (une vase peut perdre plus de la moitié de son épaisseur).\n2. **Cimentation** : des substances dissoutes dans l'eau qui circule (calcaire, silice, oxydes de fer) précipitent entre les grains et les soudent : c'est le **ciment**.\n3. **Recristallisation** de certains minéraux (une boue calcaire devient un calcaire compact).\n\n:::propriete\n- sable → (compaction + cimentation) → **grès**\n- graviers et galets → **conglomérat**\n- vase argileuse → **argilite**\n- boue calcaire → **calcaire**\n:::\n\n### 4. Une formation très lente\nLa vitesse de sédimentation est souvent de l'ordre de **0,01 à 1 mm par an**. Une série de plusieurs centaines de mètres représente donc des **millions d'années**.\n\n$$\\text{durée de dépôt} = \\frac{\\text{épaisseur}}{\\text{vitesse de sédimentation}}$$\n\n:::attention\nDiagenèse et métamorphisme sont différents : la diagenèse se fait près de la surface, à basse température ; le métamorphisme à forte température et forte pression, et il transforme profondément les minéraux (chapitre 10).\n:::",
+   "definition": "Les sédiments se déposent en strates horizontales, granoclassées, surtout dans les mers et les lagunes ; la diagenèse (compaction, cimentation, recristallisation) les transforme lentement en roches sédimentaires cohérentes (sable → grès, vase → argilite, boue calcaire → calcaire).",
+   "formules": [
+    "$\\text{durée} = \\dfrac{\\text{épaisseur}}{\\text{vitesse de sédimentation}}$",
+    "sable → grès ; galets → conglomérat ; vase → argilite ; boue calcaire → calcaire"
+   ],
+   "niveaux": {
+    "phrase": "Les débris se déposent en couches au fond de l'eau, puis se tassent et se cimentent pour devenir des roches.",
+    "simple": "Imagine des sacs de sable entassés les uns sur les autres : le premier posé est en bas. Avec le temps et le poids, le sable du fond se tasse, l'eau s'en va, et une « colle » naturelle (le ciment) soude les grains : le sable devient un grès.",
+    "complete": "Les sédiments se déposent dans des bassins continentaux (rivières, lacs, deltas, lagunes) et surtout marins, en strates horizontales granoclassées. Les principes de superposition, d'horizontalité originelle et de continuité permettent de les interpréter, et l'actualisme de reconstituer les paléoenvironnements. La diagenèse (compaction avec expulsion d'eau, cimentation par calcaire, silice ou oxydes de fer, recristallisation) transforme le sédiment meuble en roche cohérente. Les vitesses de sédimentation (0,01 à 1 mm/an) impliquent des durées de millions d'années."
+   },
+   "analogie": "Les strates sont comme une pile d'assiettes sales au bord du puits : la première posée est tout en bas, la dernière tout en haut. Pour savoir laquelle a été posée en premier, on regarde en dessous.",
+   "exemples_resolus": [
+    {
+     "enonce": "Une couche d'argilite de 1,5 m s'est déposée dans une lagune à la vitesse moyenne de 0,05 mm par an. Combien de temps son dépôt a-t-il duré ?",
+     "etapes": [
+      "Je convertis l'épaisseur dans la même unité que la vitesse : 1,5 m = 1 500 mm.",
+      "Durée = épaisseur ÷ vitesse = 1 500 ÷ 0,05 = 30 000 ans.",
+      "Conclusion : le dépôt de cette couche a duré environ 30 000 ans (en supposant une vitesse constante et sans tenir compte de la compaction)."
+     ]
+    },
+    {
+     "enonce": "Document : dans une falaise, on observe des strates dont les grains sont fins en bas et gros en haut. Que peut-on en déduire ?",
+     "etapes": [
+      "Dans un dépôt normal, le granoclassement place les gros grains en bas et les fins en haut.",
+      "Ici, l'ordre est inversé : les couches ont donc été retournées après leur dépôt (par une déformation, un plissement).",
+      "Conséquence : le principe de superposition doit être appliqué « à l'envers » : les couches du bas de la falaise sont ici les plus récentes.",
+      "Conclusion : le granoclassement permet de retrouver le haut et le bas originels d'une série (sa polarité)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Appliquer le principe de superposition à des couches retournées ou recoupées sans vérification.",
+    "Confondre diagenèse et métamorphisme.",
+    "Oublier la conversion m → mm dans un calcul de durée de sédimentation.",
+    "Croire qu'un grès se forme en quelques années.",
+    "Dire que les gros grains se déposent en haut d'une strate."
+   ],
+   "astuces": [
+    "Diagenèse en deux mots : « tasser » (compaction) et « coller » (cimentation).",
+    "Dans un calcul, mets épaisseur et vitesse dans la même unité (mm et mm/an)."
+   ],
+   "mnemo": "« Le premier arrivé est en bas » : superposition.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que les rivières déposent du sable et de la vase, et que des roches comme le grès sont faites de grains de sable. Ici, on comprend comment le sable devient roche."
+   },
+   "methode_redaction": "Pour expliquer la formation d'une roche sédimentaire : 1) origine des particules (altération, érosion) ; 2) transport ; 3) dépôt (lieu, granoclassement, strates) ; 4) diagenèse (compaction, cimentation) ; 5) nom de la roche. Pour un calcul de durée : formule, conversion, résultat avec unité, hypothèse (vitesse constante).",
+   "flash": [
+    {
+     "q": "Qu'est-ce que le granoclassement ?",
+     "r": "Dans une strate, les gros grains en bas et les fins en haut."
+    },
+    {
+     "q": "Principe de superposition ?",
+     "r": "Une strate est plus récente que celle qu'elle recouvre (si la série n'est pas retournée)."
+    },
+    {
+     "q": "Les étapes de la diagenèse ?",
+     "r": "Compaction, cimentation, recristallisation."
+    },
+    {
+     "q": "Que devient un sable par diagenèse ?",
+     "r": "Un grès."
+    },
+    {
+     "q": "Que signifie « le présent est la clé du passé » ?",
+     "r": "C'est l'actualisme : on interprète les roches anciennes en observant les dépôts actuels."
+    },
+    {
+     "q": "Ordre de grandeur de la vitesse de sédimentation ?",
+     "r": "De 0,01 à 1 mm par an environ."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C11-N2.svg",
+    "alt": "Expérience de sédimentation en deux apports montrant strates et granoclassement, et étapes de la diagenèse d'un sable en grès",
+    "legende": "Deux strates superposées et granoclassées ; compaction puis cimentation transforment le sable en grès.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C11-N3",
+   "titre": "Les grandes familles de roches sédimentaires",
+   "prerequis_notions": [
+    "SVT-S2-C11-N2",
+    "SVT-S2-C10-N3"
+   ],
+   "cours_md": "### 1. Les roches détritiques\n:::definition\n**Roche détritique** : roche formée de **débris** (détritus) d'autres roches, issus de l'érosion. On la classe d'après la **taille** de ses éléments.\n:::\n\n| Taille des éléments | Roche meuble | Roche cohérente |\n|---|---|---|\n| > 2 mm | graviers, galets | **conglomérat** : **poudingue** (galets arrondis, longuement transportés) ou **brèche** (éléments anguleux, peu transportés) |\n| 50 µm à 2 mm | **sable** | **grès** (raye le verre s'il est formé de quartz) |\n| < 2 µm (et limons) | **argile**, vase | **argilite** (et schiste argileux) |\n\nL'argile humide est **plastique** (on la façonne en poterie) et **imperméable** ; le sable est **perméable**.\n\n### 2. Les roches d'origine biochimique et organique\nElles sont formées par des **êtres vivants** ou à partir de leurs restes.\n- **Calcaires** : accumulation de coquilles et de squelettes calcaires ($\\ce{CaCO3}$) d'animaux marins (calcaire coquillier, calcaire à nummulites), de coraux (calcaires **récifaux**, en mer chaude peu profonde) ou d'algues microscopiques (**craie**). Ils font **effervescence** à l'acide.\n- **Phosphates** : roches riches en phosphate de calcium, formées sur les plateaux marins riches en vie (os, dents, excréments d'animaux marins et précipitation). Ceux de **Hahotoé-Kpogamé** se sont formés dans une mer qui recouvrait le sud du Togo à l'**Éocène** (il y a environ 45 millions d'années).\n- **Charbon** : accumulation de **végétaux** dans des marécages, enfouis rapidement à l'abri de l'air, puis transformés par la chaleur et la pression ; il brûle.\n- **Pétrole et gaz naturel** : formés à partir du **plancton** accumulé au fond de mers ou de lacs pauvres en $\\ce{O2}$, transformé lentement en profondeur ; ils migrent ensuite vers des roches poreuses (« réservoirs »). Le golfe de Guinée en contient (gisement de Sèmè au Bénin, exploitations au Ghana et au Nigeria).\n\n:::remarque\nCharbon et pétrole sont des **combustibles fossiles** : ils stockent l'énergie solaire captée par photosynthèse il y a des millions d'années (chapitre 7). Leur combustion libère du $\\ce{CO2}$ (effet de serre, chapitre 5).\n:::\n\n### 3. Les roches d'origine chimique\n:::definition\n**Roche chimique** : roche formée par **précipitation** de substances dissoutes dans l'eau.\n:::\n- **Évaporites** : dans une lagune ou un lac salé qui s'**évapore** sous un climat chaud, les sels précipitent : **gypse** (rayé par l'ongle), puis **sel gemme** (halite, goût salé).\n- **Travertins** et certains calcaires : précipitation de calcaire quand l'eau perd son $\\ce{CO2}$ (sources, grottes).\n\n### 4. Les roches sédimentaires au Togo\nLe sud du Togo est occupé par un **bassin sédimentaire côtier** : des couches de sables, d'argiles, de calcaires et de phosphates déposées par la mer et par les cours d'eau, souvent recouvertes par les sables argileux du « Continental terminal » sur lesquels se développe la terre de barre. On y exploite les **phosphates** (Hahotoé-Kpogamé), le **calcaire** (Tabligbo : clinker et ciment), des **argiles** et des **sables**. Le reste du pays repose surtout sur un **socle** de roches magmatiques et métamorphiques (chapitre 10).\n\n:::methode\n**Reconnaître une roche sédimentaire** : présence de **strates**, de **fossiles**, de grains **cimentés** ; tests : acide (calcaire), rayure du verre (grès quartzeux), plasticité à l'eau (argile), goût salé (sel gemme), combustion (charbon), masse volumique faible (charbon).\n:::\n\n:::attention\nLe **sable** et l'**argile** meubles sont aussi des roches (roches meubles). Et un calcaire n'est pas forcément blanc : la couleur dépend des impuretés.\n:::",
+   "definition": "Les roches sédimentaires se classent en détritiques (débris classés par taille : conglomérats, grès, argilites), biochimiques et organiques (calcaires, phosphates, charbon, pétrole) et chimiques (évaporites, travertins) ; le bassin côtier du sud du Togo fournit phosphates, calcaire, argiles et sables.",
+   "formules": [
+    "détritiques : > 2 mm conglomérat ; 50 µm à 2 mm grès ; < 2 µm argilite",
+    "calcaire : $\\ce{CaCO3}$ (effervescence à l'acide)"
+   ],
+   "niveaux": {
+    "phrase": "Les roches sédimentaires sont faites de débris, de restes d'êtres vivants ou de sels précipités.",
+    "simple": "Trois recettes pour faire une roche sédimentaire : coller des débris d'autres roches (grès, conglomérat) ; entasser des coquilles, des os ou des plantes (calcaire, phosphate, charbon) ; laisser sécher de l'eau salée jusqu'à ce que le sel se dépose (sel gemme, gypse).",
+    "complete": "Les roches détritiques se classent par la taille de leurs éléments (conglomérats poudingues ou brèches, sables et grès, argiles et argilites). Les roches biochimiques et organiques résultent de l'accumulation de squelettes calcaires (calcaires coquilliers, récifaux, craie), de phosphates d'origine marine, de végétaux (charbon) ou de plancton (pétrole, gaz). Les roches chimiques précipitent de solutions (évaporites : gypse, halite ; travertins). Au Togo, le bassin sédimentaire côtier (phosphates éocènes de Hahotoé-Kpogamé, calcaire de Tabligbo, argiles, sables) s'oppose au socle cristallin du reste du pays."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : un élève teste trois roches du bassin côtier. Roche X : pâte claire, effervescence à l'acide, nombreuses empreintes de coquilles. Roche Y : grains de quartz visibles soudés, raye le verre, pas d'effervescence. Roche Z : douce au toucher, forme une pâte qui se modèle quand on la mouille, odeur de terre. Identifie-les.",
+     "etapes": [
+      "X : effervescence = carbonate de calcium ; coquilles = origine biochimique : calcaire coquillier.",
+      "Y : grains de quartz cimentés, rayent le verre : grès (roche détritique).",
+      "Z : plastique quand elle est mouillée, toucher doux : argile (roche détritique fine, meuble).",
+      "Conclusion : X calcaire coquillier (biochimique), Y grès et Z argile (détritiques)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Classer le sable ou l'argile hors des roches parce qu'ils sont meubles.",
+    "Confondre poudingue (galets arrondis) et brèche (éléments anguleux).",
+    "Dire que le calcaire est toujours d'origine chimique (beaucoup sont biochimiques).",
+    "Placer le charbon parmi les roches magmatiques parce qu'il est noir.",
+    "Oublier que pétrole et charbon viennent de matière organique ancienne."
+   ],
+   "astuces": [
+    "Classement détritique par taille : « Gros = Conglomérat, Moyen = Grès, Fin = Argile ».",
+    "Poudingue = galets « Polis » (ronds) ; Brèche = « Bords » anguleux."
+   ],
+   "mnemo": "« D.B.C. » : Détritiques (débris), Biochimiques (êtres vivants), Chimiques (précipitation).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris que le calcaire fait effervescence et que le pétrole et le charbon sont des énergies fossiles. On les classe ici parmi les roches sédimentaires."
+   },
+   "methode_redaction": "Pour identifier une roche sédimentaire : décrire, tester (acide, rayure, eau), comparer au tableau, conclure avec la famille (détritique, biochimique, chimique). Pour expliquer l'origine d'une roche : milieu de dépôt, matériau d'origine, diagenèse.",
+   "flash": [
+    {
+     "q": "Trois familles de roches sédimentaires ?",
+     "r": "Détritiques, biochimiques (et organiques), chimiques."
+    },
+    {
+     "q": "Différence entre poudingue et brèche ?",
+     "r": "Poudingue : galets arrondis ; brèche : éléments anguleux."
+    },
+    {
+     "q": "Origine du calcaire récifal ?",
+     "r": "Squelettes de coraux, en mer chaude peu profonde."
+    },
+    {
+     "q": "Comment se forme le sel gemme ?",
+     "r": "Par évaporation d'une eau salée (lagune, lac salé) : c'est une évaporite."
+    },
+    {
+     "q": "Âge et milieu des phosphates de Hahotoé-Kpogamé ?",
+     "r": "Formés dans une mer, à l'Éocène (environ 45 millions d'années)."
+    },
+    {
+     "q": "À partir de quoi se forme le pétrole ?",
+     "r": "Du plancton accumulé au fond de mers ou de lacs pauvres en O2, transformé en profondeur."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C11-N3.svg",
+    "alt": "Classification des roches sédimentaires en trois familles avec exemples du Togo et tests d'identification",
+    "legende": "Roches détritiques, biochimiques et chimiques ; phosphates, calcaire, argiles et sables du bassin côtier du Togo.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C11-N4",
+   "titre": "Les fossiles et la datation relative",
+   "prerequis_notions": [
+    "SVT-S2-C11-N2",
+    "SVT-S2-C11-N3"
+   ],
+   "cours_md": "### 1. Qu'est-ce qu'un fossile ?\n:::definition\n**Fossile** : reste (coquille, os, dent, bois) ou trace (empreinte, moulage, terrier, pas) d'un être vivant ancien, conservé dans une roche, le plus souvent sédimentaire.\n**Fossilisation** : ensemble des transformations qui permettent la conservation de ces restes.\n:::\n\n**Conditions favorables** : un **enfouissement rapide** dans un sédiment fin, à l'**abri du dioxygène** et des décomposeurs ; des **parties dures** (coquilles, os, dents). C'est pourquoi les fossiles sont rares et surtout marins.\n\n**Types de fossilisation** :\n- conservation des parties dures, parfois **minéralisées** (le bois devient de la silice : bois pétrifié) ;\n- **moulages** : la coquille dissoute laisse un creux (moule externe) ou est remplie de sédiment (moule interne) ;\n- **empreintes** de feuilles, de pas ; **traces** d'activité (terriers) ;\n- rarement, organisme entier (insecte dans l'ambre).\n\n### 2. Ce que les fossiles nous apprennent\n- **Fossiles de faciès** : ils indiquent le **milieu de vie** (et donc de dépôt). Des coraux → mer chaude, claire et peu profonde ; des dents de requins et de poissons marins → milieu marin ; des feuilles et troncs → milieu continental.\n- **Fossiles stratigraphiques** : ils permettent de **dater** les couches. Un bon fossile stratigraphique : espèce ayant vécu **peu de temps** (évolution rapide), largement **répandue** sur le globe et **abondante**. Exemples : **trilobites** (ère primaire), **ammonites** (ère secondaire), **nummulites** (ère tertiaire).\n\n:::remarque\nLes phosphates de Hahotoé-Kpogamé contiennent de nombreux fossiles de vertébrés marins (dents de requins et de raies, os de poissons), ainsi que des restes d'une **baleine primitive** encore pourvue de pattes arrière, décrite par des paléontologues en 2014 sous le nom de *Togocetus*. Ils confirment que le sud du Togo était sous la mer à l'Éocène.\n:::\n\n### 3. Les principes de la datation relative\n:::definition\n**Datation relative** : placer des événements géologiques **les uns par rapport aux autres** (plus ancien / plus récent), sans donner d'âge en années.\n:::\n\n:::propriete\n- **Superposition** : une couche est plus récente que celle qu'elle recouvre.\n- **Continuité** : une même couche a le même âge sur toute son étendue.\n- **Recoupement** : une structure (faille, filon, surface d'érosion) qui recoupe des couches est **plus récente** que ces couches.\n- **Inclusion** : des fragments d'une roche inclus dans une autre sont **plus anciens** que la roche qui les contient.\n- **Identité paléontologique** : deux couches qui contiennent les **mêmes fossiles stratigraphiques** ont le **même âge**, même si elles sont éloignées.\n:::\n\n:::methode\n**Établir la chronologie d'une coupe géologique** :\n1. numéroter les couches de bas en haut (superposition), en vérifiant qu'elles ne sont pas retournées (granoclassement) ;\n2. repérer les structures qui recoupent (failles, filons) et les **surfaces d'érosion** (discordances) ;\n3. placer chaque structure **après** la plus récente des couches qu'elle recoupe et **avant** la plus ancienne couche qui la recouvre sans être recoupée ;\n4. utiliser les fossiles pour donner une ère ;\n5. rédiger la chronologie du plus ancien au plus récent.\n:::\n\n### 4. L'échelle des temps géologiques\n| Ère | Âge (millions d'années, Ma) | Quelques fossiles caractéristiques |\n|---|---|---|\n| Précambrien | de 4 600 à 541 Ma | rares fossiles d'êtres simples |\n| Primaire (Paléozoïque) | de 541 à 252 Ma | trilobites, premiers poissons, fougères géantes (charbon) |\n| Secondaire (Mésozoïque) | de 252 à 66 Ma | ammonites, dinosaures |\n| Tertiaire et Quaternaire (Cénozoïque) | de 66 Ma à aujourd'hui | nummulites, mammifères variés, *Homo* (Quaternaire, depuis 2,6 Ma) |\n\nLes limites entre ères correspondent à de grandes **crises biologiques** : il y a 66 Ma, les dinosaures (non aviens) et les ammonites disparaissent.\n\n:::remarque\nLa **datation absolue** (âge en années) utilise la désintégration d'éléments radioactifs contenus dans les roches (radiochronologie) ; elle est étudiée dans les classes supérieures.\n:::\n\n:::attention\nUn fossile de faciès (corail) ne date pas une couche avec précision ; un fossile stratigraphique (ammonite d'une espèce donnée) ne suffit pas toujours à préciser le milieu. Ne confonds pas leurs usages.\n:::",
+   "definition": "Un fossile est un reste ou une trace d'être vivant ancien conservé dans une roche ; les fossiles de faciès renseignent sur le milieu, les fossiles stratigraphiques permettent de dater ; les principes de superposition, continuité, recoupement, inclusion et identité paléontologique établissent une chronologie relative.",
+   "formules": [
+    "Primaire : 541 à 252 Ma ; Secondaire : 252 à 66 Ma ; Tertiaire et Quaternaire : depuis 66 Ma"
+   ],
+   "niveaux": {
+    "phrase": "Les fossiles racontent quels êtres vivaient autrefois, dans quel milieu, et permettent de ranger les roches de la plus ancienne à la plus récente.",
+    "simple": "Les couches de roches sont comme les pages d'un vieux cahier d'école : la première page est tout en dessous. Les fossiles sont les dessins sur les pages : un même dessin sur deux cahiers éloignés indique qu'ils ont été remplis à la même époque. Une faille, c'est une déchirure faite après avoir écrit les pages qu'elle traverse.",
+    "complete": "Les fossiles (restes minéralisés, moules, empreintes, traces) se forment surtout lors d'un enfouissement rapide à l'abri de l'oxygène. Les fossiles de faciès indiquent le paléoenvironnement ; les fossiles stratigraphiques (courte durée, large répartition, abondance : trilobites, ammonites, nummulites) permettent la corrélation et la datation. La datation relative repose sur les principes de superposition, de continuité, de recoupement, d'inclusion et d'identité paléontologique ; l'échelle des temps géologiques est découpée en ères séparées par des crises biologiques. Les phosphates éocènes du Togo, riches en vertébrés marins, en sont un exemple."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : à Hahotoé (Togo) et à 300 km de là, au Nigeria, deux couches de calcaire contiennent la même espèce de nummulite, qui n'a vécu qu'environ 2 millions d'années. Que peut-on dire de l'âge de ces deux couches ? Quel principe utilises-tu ?",
+     "etapes": [
+      "La nummulite est un fossile stratigraphique : espèce de courte durée et largement répandue.",
+      "Les deux couches contiennent la même espèce : d'après le principe d'identité paléontologique, elles ont le même âge (à environ 2 millions d'années près).",
+      "Les nummulites étant caractéristiques de l'ère tertiaire, ces couches datent du Tertiaire.",
+      "Conclusion : les deux couches sont contemporaines, bien qu'éloignées de 300 km."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Appliquer la superposition sans tenir compte d'une faille ou d'un filon.",
+    "Dire qu'une faille est plus ancienne que les couches qu'elle coupe.",
+    "Confondre fossile de faciès (milieu) et fossile stratigraphique (âge).",
+    "Croire que tous les êtres vivants morts deviennent des fossiles.",
+    "Donner un âge en années à partir de la seule datation relative."
+   ],
+   "astuces": [
+    "« Ce qui coupe est plus jeune que ce qui est coupé. »",
+    "Un bon fossile stratigraphique : « Court, Partout, Beaucoup » (courte durée, large répartition, abondant).",
+    "Dates à retenir : 541, 252 et 66 millions d'années."
+   ],
+   "mnemo": "Ères dans l'ordre : « Pré-Pri-Se-Ter » : Précambrien, Primaire, Secondaire, Tertiaire (+ Quaternaire).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que les êtres vivants ont changé au cours des temps géologiques et que les fossiles en sont la preuve. Ici, on apprend à s'en servir pour dater les roches."
+   },
+   "methode_redaction": "Pour une chronologie : rédiger une liste ordonnée du plus ancien au plus récent, et justifier chaque position par un principe nommé (« la faille F est postérieure à la couche 4 qu'elle recoupe : principe de recoupement »). Pour un fossile : préciser s'il est utilisé comme fossile de faciès ou stratigraphique.",
+   "flash": [
+    {
+     "q": "Conditions favorables à la fossilisation ?",
+     "r": "Enfouissement rapide, à l'abri du O2 et des décomposeurs, parties dures."
+    },
+    {
+     "q": "Qualités d'un bon fossile stratigraphique ?",
+     "r": "Courte durée d'existence, large répartition, abondance."
+    },
+    {
+     "q": "Principe de recoupement ?",
+     "r": "Une structure qui recoupe des couches est plus récente qu'elles."
+    },
+    {
+     "q": "Principe d'identité paléontologique ?",
+     "r": "Des couches qui contiennent les mêmes fossiles stratigraphiques ont le même âge."
+    },
+    {
+     "q": "Fossiles typiques du Primaire, du Secondaire, du Tertiaire ?",
+     "r": "Trilobites ; ammonites ; nummulites."
+    },
+    {
+     "q": "Que s'est-il passé il y a 66 millions d'années ?",
+     "r": "Une crise biologique : disparition des dinosaures non aviens et des ammonites (fin du Secondaire)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C11-N4.svg",
+    "alt": "Coupe géologique avec couches numérotées, faille, filon, surface d'érosion et fossiles, et principes de datation relative",
+    "legende": "Superposition, recoupement et identité paléontologique permettent d'ordonner les événements d'une coupe.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S2-C11-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C11-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Dans une rivière, les particules d'argile sont transportées surtout :",
+   "choix": [
+    "par traction (roulement sur le fond)",
+    "par saltation (petits bonds)",
+    "en suspension dans l'eau",
+    "elles ne sont jamais transportées"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Les argiles sont très fines (< 2 µm) : elles restent en suspension et rendent l'eau boueuse.",
+    "Réponse C."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre suspension (argiles) et saltation (sables).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C11-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C11-N2",
+    "SVT-S2-C11-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Un sable dont les grains ont été tassés puis soudés par un ciment devient :",
+   "choix": [
+    "une argilite",
+    "un grès",
+    "un calcaire",
+    "un marbre"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Compaction + cimentation d'un sable = diagenèse.",
+    "Le sable devient un grès (réponse B)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre « marbre » en confondant diagenèse et métamorphisme.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C11-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C11-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Un bon fossile stratigraphique doit appartenir à une espèce :",
+   "choix": [
+    "ayant vécu très longtemps dans une seule région",
+    "ayant vécu peu de temps et largement répandue",
+    "vivant encore aujourd'hui",
+    "uniquement terrestre"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Pour dater précisément, l'espèce doit avoir existé peu de temps ; pour comparer des régions éloignées, elle doit être largement répandue (et abondante).",
+    "Réponse B."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Penser qu'une espèce qui a vécu longtemps est un meilleur repère.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C11-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C11-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une série de calcaires de 12 m d'épaisseur s'est déposée à la vitesse moyenne de 0,04 mm par an. Calcule la durée du dépôt en années (nombre seul).",
+   "reponses_acceptees": [
+    "300000",
+    "300 000",
+    "300000ans",
+    "3x10^5",
+    "3.10^5"
+   ],
+   "indices": [
+    "Mets l'épaisseur en mm."
+   ],
+   "corrige": [
+    "Conversion : 12 m = 12 000 mm.",
+    "Durée = 12 000 ÷ 0,04 = 300 000 ans."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier de convertir les mètres en millimètres.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C11-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C11-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une vase de 5 m d'épaisseur ne mesure plus que 2 m après compaction. Calcule le pourcentage de diminution d'épaisseur (nombre seul).",
+   "reponses_acceptees": [
+    "60",
+    "60%",
+    "60 %"
+   ],
+   "indices": [
+    "Pourcentage de diminution = perte ÷ valeur initiale × 100."
+   ],
+   "corrige": [
+    "Diminution = 5 − 2 = 3 m.",
+    "Pourcentage = 3 ÷ 5 × 100 = 60 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 2 ÷ 5 = 40 % (ce qui reste, et non ce qui a été perdu).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C11-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C11-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Dans une coupe, une faille recoupe les couches 1, 2 et 3 (de bas en haut) mais pas la couche 4 qui les recouvre. On peut affirmer que la faille est :",
+   "choix": [
+    "plus ancienne que la couche 1",
+    "plus récente que la couche 4",
+    "plus récente que la couche 3 et plus ancienne que la couche 4",
+    "du même âge que la couche 2"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Recoupement : la faille coupe 3, donc elle est plus récente que 3.",
+    "La couche 4 n'est pas coupée : elle s'est déposée après la faille. Réponse C."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier que la couche non recoupée est postérieure à la faille.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C11-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C11-N1",
+    "SVT-S2-C11-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution organisée des connaissances. Un grès du bassin côtier du Togo contient des grains de quartz arrondis. Raconte l'histoire de ces grains depuis un granite des monts du Togo jusqu'à ce grès, en nommant les étapes et les processus.",
+   "indices": [],
+   "corrige": [
+    "Altération du granite : chimique (feldspaths hydrolysés en argiles) et physique (fissuration) ; les grains de quartz, résistants, sont libérés.",
+    "Érosion : le ruissellement arrache les grains.",
+    "Transport par les cours d'eau (saltation) : les grains s'usent et s'arrondissent.",
+    "Dépôt (sédimentation) dans la mer ou une lagune quand le courant ralentit, en strates granoclassées : un sable.",
+    "Diagenèse : enfouissement, compaction (eau chassée) et cimentation : le sable devient un grès."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "Oublier la diagenèse, ou dire que les grains s'arrondissent pendant l'altération.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C11-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C11-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de données. Sur la côte à l'est du port de Lomé, des mesures montrent que la ligne de rivage a reculé en moyenne de 8 m par an pendant 10 ans dans un village, alors qu'à l'ouest du port la plage a avancé.\n1) Calcule le recul total sur 10 ans. 2) Le sable est transporté le long de la côte d'ouest en est par les vagues obliques (dérive littorale). Explique pourquoi la plage avance à l'ouest de la jetée et recule à l'est. 3) Pourquoi le prélèvement de sable de plage pour la construction aggrave-t-il le problème ? 4) Propose deux mesures de protection.",
+   "indices": [],
+   "corrige": [
+    "1) Recul total = 8 × 10 = 80 m.",
+    "2) La jetée du port barre le transport du sable : le sable s'accumule contre la jetée côté ouest (la plage avance), et les plages de l'est ne reçoivent plus de sable alors que les vagues continuent d'emporter le leur : elles reculent.",
+    "3) Prélever le sable retire encore des sédiments à une côte déjà déficitaire : les vagues attaquent plus vite le rivage.",
+    "4) Deux mesures parmi : construire des épis ou des brise-lames qui retiennent le sable ; recharger les plages en sable ; interdire et contrôler le prélèvement de sable marin ; ne pas construire trop près du rivage ; replanter la végétation des dunes."
+   ],
+   "bareme": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "piege": "Expliquer le recul uniquement par la « force des vagues » sans parler du manque d'apport de sable.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C11-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C11-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation d'une coupe géologique. Description de la coupe, de bas en haut : couche A (grès à trilobites), couche B (argilite), couche C (calcaire à ammonites). Une faille F décale A, B et C. Un filon de basalte G traverse A, B, C et la faille F, sans être décalé. Une surface d'érosion tronque le tout ; elle est recouverte par une couche D (calcaire à nummulites), non affectée par la faille ni par le filon.\nÉtablis la chronologie des événements en justifiant chaque étape par un principe, puis indique à quelle ère appartiennent A, C et D.",
+   "indices": [
+    "Une structure qui en coupe une autre sans être déplacée est plus récente qu'elle."
+   ],
+   "corrige": [
+    "Dépôt de A, puis B, puis C (principe de superposition).",
+    "Faille F : elle décale A, B et C, donc elle est postérieure à C (principe de recoupement).",
+    "Filon G : il traverse la faille sans être décalé, donc il est postérieur à F (recoupement).",
+    "Érosion : la surface d'érosion tronque les couches, la faille et le filon : elle est postérieure à G ; puis dépôt de D, qui recouvre le tout sans être affecté (superposition).",
+    "Ères : A (trilobites) ère primaire ; C (ammonites) ère secondaire ; D (nummulites) ère tertiaire.",
+    "Chronologie : A → B → C → F → G → érosion → D."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "Placer le filon avant la faille sans vérifier s'il est décalé par elle.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C11-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C11-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Une roche noire, légère, qui brûle en dégageant de la chaleur et contient des empreintes de feuilles de fougères est :",
+   "choix": [
+    "un basalte",
+    "du charbon",
+    "une argilite",
+    "un calcaire récifal"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Une roche qui brûle et contient des restes de végétaux est d'origine organique.",
+    "C'est du charbon, formé à partir de végétaux enfouis (réponse B) ; le basalte est noir mais lourd et ne brûle pas."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre « basalte » à cause de la couleur noire.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C11-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S2-C11-N2",
+    "SVT-S2-C11-N3",
+    "SVT-S2-C11-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Problème : les phosphates du Togo. Dans les carrières de Hahotoé-Kpogamé, sous un recouvrement de sables argileux, on exploite une couche de phosphate d'environ 10 m d'épaisseur. On y trouve de très nombreuses dents de requins, des os de poissons marins et des nummulites ; à la base, des argiles contenant les mêmes espèces de nummulites qu'au Nigeria, dans des couches datées de l'Éocène.\n1) Dans quel milieu le phosphate s'est-il déposé ? Justifie avec le type de fossiles utilisé. 2) Quel est l'âge de la couche ? Quel principe utilises-tu ? 3) Si la vitesse de dépôt était de 0,02 mm par an, combien de temps aurait duré le dépôt de la couche de phosphate ? 4) Ces dépôts marins se trouvent aujourd'hui sur la terre ferme, à l'intérieur des terres, loin du rivage actuel. Propose une explication. 5) À quelle famille de roches sédimentaires appartient ce phosphate ?",
+   "indices": [
+    "Distingue fossiles de faciès et fossiles stratigraphiques.",
+    "Durée = épaisseur ÷ vitesse."
+   ],
+   "corrige": [
+    "1) Les dents de requins et les os de poissons marins sont des fossiles de faciès : ils indiquent un milieu marin.",
+    "2) Les nummulites sont des fossiles stratigraphiques du Tertiaire ; les mêmes espèces qu'au Nigeria indiquent le même âge, l'Éocène (principe d'identité paléontologique).",
+    "3) 10 m = 10 000 mm ; durée = 10 000 ÷ 0,02 = 500 000 ans.",
+    "4) La mer recouvrait alors le sud du Togo ; elle s'est ensuite retirée (régression marine due à une baisse du niveau de la mer et/ou à un soulèvement du continent), laissant ces dépôts à l'air libre, ensuite recouverts par des sables continentaux.",
+    "5) Roche sédimentaire d'origine biochimique (formée à partir de restes d'êtres vivants marins et de précipitation de phosphate de calcium)."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Confondre l'usage des fossiles : dents de requins = milieu (faciès) ; nummulites = âge (stratigraphique).",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Confondre altération (sur place) et érosion (arrachement et transport).",
+  "Confondre diagenèse et métamorphisme.",
+  "Oublier les conversions (m en mm) dans les calculs de durée de sédimentation.",
+  "Dans une chronologie, placer une faille avant les couches qu'elle recoupe ou oublier la surface d'érosion.",
+  "Confondre fossile de faciès et fossile stratigraphique.",
+  "Chronologie sans justification par les principes nommés."
+ ]
+}

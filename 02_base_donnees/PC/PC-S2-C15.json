@@ -1,0 +1,792 @@
+{
+ "id": "PC-S2-C15",
+ "matiere": "PC",
+ "semestre": 2,
+ "ordre": 15,
+ "titre": "La réaction chimique et l'équation-bilan",
+ "objectifs": [
+  "Distinguer transformation physique et transformation chimique ; décrire un système dans ses états initial et final.",
+  "Identifier $\\ce{CO2}$, $\\ce{O2}$, $\\ce{H2}$, $\\ce{H2O}$ et quelques ions par des tests caractéristiques.",
+  "Appliquer la conservation des éléments, des charges et de la masse.",
+  "Écrire et équilibrer une équation-bilan ; l'interpréter en moles.",
+  "Déterminer le réactif limitant et faire un bilan de matière (quantités, masses, volumes).",
+  "Exploiter les équations de combustion ; connaître le danger du monoxyde de carbone."
+ ],
+ "prerequis": [
+  "PC-3e-COMBUSTIONS",
+  "PC-S1-C08",
+  "PC-S2-C14"
+ ],
+ "notions": [
+  {
+   "id": "PC-S2-C15-N1",
+   "titre": "La transformation chimique : réactifs, produits, conservation",
+   "prerequis_notions": [
+    "PC-3e-COMBUSTIONS",
+    "PC-S1-C05-N3",
+    "PC-S1-C07-N1"
+   ],
+   "cours_md": "## 1. Transformation chimique\n:::definition Transformation chimique\nUne **transformation chimique** est une transformation au cours de laquelle des **espèces chimiques disparaissent** (les **réactifs**) et de **nouvelles espèces apparaissent** (les **produits**). On décrit le **système chimique** dans son **état initial** et dans son **état final** (espèces présentes, quantités, état physique, température, pression).\n:::\nOn la reconnaît à des signes visibles : dégagement de gaz (effervescence), changement de couleur, apparition d'un solide (**précipité**), dégagement ou absorption de chaleur, flamme.\n\n:::remarque Physique ou chimique ?\nLa fusion de la glace ou la dissolution du sucre dans l'eau sont des transformations **physiques** : l'eau et le sucre restent les mêmes espèces. La cuisson d'un œuf, la combustion du charbon ou la rouille du fer sont des transformations **chimiques**.\n:::\n\n## 2. Identifier les espèces : tests caractéristiques\n| Espèce | Test | Résultat positif |\n|---|---|---|\n| dioxyde de carbone $\\ce{CO2}$ | barboter dans l'eau de chaux | l'eau de chaux se **trouble** |\n| dioxygène $\\ce{O2}$ | bûchette incandescente | elle se **rallume** |\n| dihydrogène $\\ce{H2}$ | flamme à l'entrée du tube | petite **détonation** (« pop ») |\n| eau $\\ce{H2O}$ | sulfate de cuivre anhydre (blanc) | il devient **bleu** |\n| ions $\\ce{Cu^2+}$ | solution de soude | précipité **bleu** |\n| ions $\\ce{Fe^2+}$ / $\\ce{Fe^3+}$ | solution de soude | précipité **vert** / **rouille** |\n| ions chlorure $\\ce{Cl-}$ | nitrate d'argent | précipité **blanc** qui noircit à la lumière |\n\n## 3. Lois de conservation\n:::propriete Conservation des éléments et de la masse\nAu cours d'une transformation chimique :\n- les **éléments chimiques** se conservent (les atomes se réarrangent : ils ne sont ni créés ni détruits) ;\n- les **charges électriques** se conservent ;\n- la **masse totale** se conserve : masse des réactifs consommés = masse des produits formés (loi de **Lavoisier** : « Rien ne se perd, rien ne se crée, tout se transforme »).\n:::\n:::attention Système ouvert\nSi un gaz s'échappe (ou si le dioxygène de l'air intervient), la balance semble indiquer une perte (ou un gain) de masse : il faut compter **toutes** les espèces, y compris les gaz.\n:::\n\n## Exemple résolu\nOn chauffe un mélange de $5{,}6\\ \\text{g}$ de fer et de $3{,}2\\ \\text{g}$ de soufre : les deux réactifs disparaissent entièrement et il se forme du sulfure de fer $\\ce{FeS}$. Quelle masse de sulfure de fer obtient-on ?\n- Loi de conservation de la masse : $m(\\ce{FeS}) = m(\\ce{Fe}) + m(\\ce{S})$.\n- Application numérique : $m(\\ce{FeS}) = 5{,}6 + 3{,}2$.\n- Résultat : $m(\\ce{FeS}) = 8{,}8\\ \\text{g}$.",
+   "definition": "Une transformation chimique fait disparaître des réactifs et apparaître des produits ; les éléments, les charges et la masse totale se conservent.",
+   "formules": [
+    "$\\sum m_{\\text{réactifs consommés}} = \\sum m_{\\text{produits formés}}$"
+   ],
+   "niveaux": {
+    "phrase": "En chimie, les atomes changent de partenaires mais ne disparaissent jamais.",
+    "simple": "Avec les mêmes briques de Lego, tu peux démonter une maison et construire une voiture : les briques (les atomes) sont les mêmes, seul l'assemblage (les molécules) change. Le nombre et la masse des briques ne changent pas.",
+    "complete": "Une transformation chimique fait passer un système d'un état initial à un état final : des réactifs sont consommés, des produits formés. On identifie les espèces par des tests caractéristiques ($\\ce{CO2}$ : eau de chaux ; $\\ce{O2}$ : bûchette ; $\\ce{H2}$ : détonation ; $\\ce{H2O}$ : sulfate de cuivre anhydre ; ions : précipités). Les atomes se réarrangent : éléments, charges et masse totale sont conservés (loi de Lavoisier)."
+   },
+   "analogie": "La forgeronne qui fond du métal au village le transforme physiquement ; le charbon qui brûle dans son foyer subit, lui, une transformation chimique : il disparaît en donnant du dioxyde de carbone.",
+   "exemples_resolus": [
+    {
+     "enonce": "On brûle $2{,}4\\ \\text{g}$ de magnésium dans l'air ; on recueille $4{,}0\\ \\text{g}$ d'oxyde de magnésium. Quelle masse de dioxygène a réagi ?",
+     "etapes": [
+      "Conservation de la masse : $m(\\ce{Mg}) + m(\\ce{O2}) = m(\\ce{MgO})$.",
+      "Donc $m(\\ce{O2}) = 4{,}0 - 2{,}4$.",
+      "Résultat : $m(\\ce{O2}) = 1{,}6\\ \\text{g}$ (le solide est plus lourd que le métal de départ car il a fixé du dioxygène de l'air)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire que la masse diminue quand le charbon brûle (le dioxyde de carbone formé s'échappe, mais sa masse existe).",
+    "Confondre transformation physique (fusion, dissolution) et transformation chimique.",
+    "Confondre les tests : la bûchette incandescente pour $\\ce{O2}$, la flamme qui « fait pop » pour $\\ce{H2}$.",
+    "Dire que les molécules se conservent (ce sont les atomes qui se conservent)."
+   ],
+   "astuces": [
+    "Pour décrire une transformation, fais deux colonnes : « état initial » et « état final ».",
+    "Les tests se retiennent par paires : CO₂–eau de chaux, O₂–bûchette, H₂–pop, H₂O–sulfate de cuivre."
+   ],
+   "mnemo": "« Rien ne se perd, rien ne se crée, tout se transforme » (Lavoisier).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as étudié les combustions du carbone et du butane et tu as identifié le dioxyde de carbone avec l'eau de chaux. En Seconde, on généralise à toute transformation chimique et on écrit son équation."
+   },
+   "methode_redaction": "Nomme les réactifs et les produits, cite le test qui a permis de les identifier (« l'eau de chaux se trouble : il s'est formé du dioxyde de carbone »), puis applique la conservation de la masse avec une relation littérale avant le calcul.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un réactif ?",
+     "r": "Une espèce chimique consommée au cours de la transformation."
+    },
+    {
+     "q": "Test du dioxyde de carbone ?",
+     "r": "Il trouble l'eau de chaux."
+    },
+    {
+     "q": "Test du dioxygène ?",
+     "r": "Il rallume une bûchette incandescente."
+    },
+    {
+     "q": "Test du dihydrogène ?",
+     "r": "Petite détonation (« pop ») au contact d'une flamme."
+    },
+    {
+     "q": "Test de l'eau ?",
+     "r": "Le sulfate de cuivre anhydre blanc devient bleu."
+    },
+    {
+     "q": "Énonce la loi de Lavoisier.",
+     "r": "La masse totale se conserve : masse des réactifs consommés = masse des produits formés."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C15-N1.svg",
+    "alt": "Quatre tests d'identification : l'eau de chaux se trouble (dioxyde de carbone) ; une bûchette incandescente se rallume (dioxygène) ; une flamme provoque une petite détonation à l'entrée d'un tube (dihydrogène) ; une goutte d'eau bleuit le sulfate de cuivre anhydre blanc (eau).",
+    "legende": "Tests caractéristiques de CO₂, O₂, H₂ et H₂O.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C15-N2",
+   "titre": "L'équation-bilan : écrire et équilibrer",
+   "prerequis_notions": [
+    "PC-S2-C15-N1",
+    "PC-S2-C14-N1"
+   ],
+   "cours_md": "## 1. Écriture symbolique\n:::definition Équation-bilan\nL'**équation-bilan** (équation chimique) représente une réaction : les formules des **réactifs** à gauche, celles des **produits** à droite, séparées par une flèche. Chaque formule est précédée d'un **coefficient stœchiométrique** (le coefficient 1 ne s'écrit pas).\n$$\\ce{CH4 + 2O2 -> CO2 + 2H2O}$$\n:::\nOn peut préciser l'état physique : (s) solide, (l) liquide, (g) gaz, (aq) dissous dans l'eau.\n\n:::propriete Règles d'équilibrage\nUne équation est **équilibrée** quand :\n- chaque **élément** est présent en **même nombre d'atomes** à gauche et à droite ;\n- la **charge électrique totale** est la même à gauche et à droite (équations avec des ions).\nOn ne modifie **jamais les indices** d'une formule (ce serait changer d'espèce) : on n'ajuste que les **coefficients**.\n:::\n\n:::methode Équilibrer une équation\n1. Écrire les formules correctes des réactifs et des produits.\n2. Équilibrer d'abord les éléments présents dans **une seule** espèce de chaque côté (souvent C, puis H) ; garder **O** (et H si $\\ce{H2O}$ et $\\ce{H2}$ apparaissent) pour la fin.\n3. Si un coefficient fractionnaire apparaît (par exemple $\\tfrac{13}{2}$), **multiplier tous** les coefficients par le dénominateur.\n4. Vérifier élément par élément (et la charge), avec les plus petits entiers possibles.\n:::\n\nExemples :\n- $\\ce{2H2 + O2 -> 2H2O}$ ; $\\ce{4Al + 3O2 -> 2Al2O3}$ ; $\\ce{Fe + S -> FeS}$ ;\n- avec des ions : $\\ce{Cu^2+ + 2OH- -> Cu(OH)2}$ (précipité bleu) ; $\\ce{Zn + 2H+ -> Zn^2+ + H2}$ (charge : $+2$ de chaque côté).\n\n## 2. Signification des coefficients\n:::propriete Lecture molaire\nLes coefficients indiquent les **proportions** dans lesquelles les espèces réagissent et se forment, à l'échelle des entités **et à l'échelle des moles**. $\\ce{CH4 + 2O2 -> CO2 + 2H2O}$ se lit : « 1 mol de méthane réagit avec 2 mol de dioxygène pour donner 1 mol de dioxyde de carbone et 2 mol d'eau ».\n:::\n:::attention Pas de proportion de masse\nLes coefficients ne donnent **pas** les proportions en masse : 1 mol de $\\ce{CH4}$ (16 g) réagit avec 2 mol de $\\ce{O2}$ (64 g).\n:::\n\n## Exemple résolu\nÉquilibre la combustion complète du butane : $\\ce{C4H10 + O2 -> CO2 + H2O}$.\n- Carbone : 4 atomes à gauche, donc $\\ce{4CO2}$.\n- Hydrogène : 10 atomes à gauche, donc $\\ce{5H2O}$.\n- Oxygène à droite : $4 \\times 2 + 5 \\times 1 = 13$ atomes, donc $\\tfrac{13}{2}\\,\\ce{O2}$ à gauche.\n- On multiplie tout par 2 : $\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$. Vérification : C 8 = 8 ; H 20 = 20 ; O 26 = 16 + 10 ✔.",
+   "definition": "L'équation-bilan écrit les réactifs et les produits avec des coefficients stœchiométriques choisis pour conserver les éléments et les charges ; ces coefficients donnent les proportions en moles.",
+   "formules": [
+    "$\\ce{CH4 + 2O2 -> CO2 + 2H2O}$",
+    "$\\ce{2H2 + O2 -> 2H2O}$",
+    "$\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$"
+   ],
+   "niveaux": {
+    "phrase": "Équilibrer, c'est faire en sorte qu'il y ait autant d'atomes de chaque sorte avant et après la flèche.",
+    "simple": "Une recette de cuisine : « 2 mesures de farine pour 1 œuf ». L'équation-bilan est la recette de la réaction : elle dit dans quelles proportions (en moles) les ingrédients réagissent.",
+    "complete": "L'équation-bilan modélise une réaction : réactifs → produits, chaque espèce affectée d'un coefficient stœchiométrique. Elle doit conserver chaque élément et la charge ; on n'ajuste que les coefficients, jamais les indices. Les coefficients traduisent les proportions en quantité de matière (moles), pas en masse."
+   },
+   "analogie": "La recette de la pâte de maïs (akoumé) : « tant de mesures de farine pour tant de mesures d'eau ». L'équation-bilan est la recette de la réaction, en moles.",
+   "exemples_resolus": [
+    {
+     "enonce": "Équilibre l'équation de la combustion de l'éthanol : $\\ce{C2H6O + O2 -> CO2 + H2O}$.",
+     "etapes": [
+      "Carbone : 2 → $\\ce{2CO2}$ ; hydrogène : 6 → $\\ce{3H2O}$.",
+      "Oxygène à droite : $2 \\times 2 + 3 = 7$ atomes ; à gauche, l'éthanol en apporte déjà 1 : il faut 6 atomes, donc $\\ce{3O2}$.",
+      "Équation : $\\ce{C2H6O + 3O2 -> 2CO2 + 3H2O}$ ; vérification : C 2 = 2 ; H 6 = 6 ; O 1 + 6 = 4 + 3 ✔."
+     ]
+    },
+    {
+     "enonce": "Le fer brûle dans le dioxygène en donnant l'oxyde magnétique $\\ce{Fe3O4}$. Écris l'équation équilibrée.",
+     "etapes": [
+      "Fer : $\\ce{Fe3O4}$ contient 3 Fe, donc $\\ce{3Fe}$.",
+      "Oxygène : 4 atomes O, donc $\\ce{2O2}$.",
+      "Équation : $\\ce{3Fe + 2O2 -> Fe3O4}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Changer un indice ($\\ce{H2O}$ → $\\ce{H2O2}$) pour équilibrer : on écrit une autre espèce.",
+    "Oublier de compter les atomes O apportés par un réactif qui en contient déjà (éthanol).",
+    "Laisser un coefficient fractionnaire dans la réponse finale quand l'énoncé demande des entiers.",
+    "Oublier de vérifier la conservation de la charge dans une équation ionique."
+   ],
+   "astuces": [
+    "Fais un petit tableau « élément / à gauche / à droite » pour vérifier.",
+    "Dans une combustion d'hydrocarbure, équilibre C, puis H, puis O en dernier."
+   ],
+   "mnemo": "« C, puis H, puis O : l'oxygène toujours en dernier. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu écrivais déjà $\\ce{C + O2 -> CO2}$ et $\\ce{CH4 + 2O2 -> CO2 + 2H2O}$. En Seconde, tu apprends à équilibrer n'importe quelle équation et à lire les coefficients en moles."
+   },
+   "methode_redaction": "Écris l'équation avec les formules correctes, place les coefficients, puis montre la vérification (nombre d'atomes de chaque élément de part et d'autre, et charges). Lis ensuite l'équation en moles si la question le demande.",
+   "flash": [
+    {
+     "q": "Que représente un coefficient stœchiométrique ?",
+     "r": "Le nombre d'entités (ou de moles) de l'espèce dans les proportions de la réaction."
+    },
+    {
+     "q": "Peut-on modifier un indice pour équilibrer ?",
+     "r": "Non, seulement les coefficients."
+    },
+    {
+     "q": "Que doit-on conserver dans une équation ionique ?",
+     "r": "Les éléments et la charge totale."
+    },
+    {
+     "q": "Équation de la combustion du méthane ?",
+     "r": "$\\ce{CH4 + 2O2 -> CO2 + 2H2O}$."
+    },
+    {
+     "q": "Coefficients de $\\ce{Al + O2 -> Al2O3}$ ?",
+     "r": "4, 3, 2."
+    },
+    {
+     "q": "Les coefficients donnent-ils les proportions en masse ?",
+     "r": "Non, en quantité de matière (moles)."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C15-N2.svg",
+    "alt": "Modèles moléculaires de la réaction CH4 + 2 O2 → CO2 + 2 H2O et tableau de comptage : 1 atome C, 4 atomes H et 4 atomes O de chaque côté.",
+    "legende": "Une équation équilibrée conserve chaque élément.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C15-N3",
+   "titre": "Bilan de matière : proportions stœchiométriques et réactif limitant",
+   "prerequis_notions": [
+    "PC-S2-C15-N2",
+    "PC-S2-C14-N2",
+    "PC-S2-C14-N3"
+   ],
+   "cours_md": "## 1. Proportions stœchiométriques\nPour la réaction $\\ce{aA + bB -> cC + dD}$, les quantités de matière consommées et formées sont **proportionnelles aux coefficients** :\n$$\\frac{n_{\\text{cons}}(\\ce{A})}{a} = \\frac{n_{\\text{cons}}(\\ce{B})}{b} = \\frac{n_{\\text{form}}(\\ce{C})}{c} = \\frac{n_{\\text{form}}(\\ce{D})}{d}$$\n\n:::definition Mélange stœchiométrique\nLes réactifs sont introduits dans les **proportions stœchiométriques** si $\\dfrac{n_i(\\ce{A})}{a} = \\dfrac{n_i(\\ce{B})}{b}$ ($n_i$ : quantités initiales). Ils sont alors **tous entièrement consommés**.\n:::\n\n## 2. Réactif limitant\n:::definition Réactif limitant\nSi les proportions ne sont pas stœchiométriques, la réaction s'arrête quand l'un des réactifs est **épuisé** : c'est le **réactif limitant** (ou en défaut). L'autre réactif est **en excès** : il en reste à la fin.\n:::\n\n:::methode Trouver le réactif limitant et faire le bilan\n1. Écrire l'équation **équilibrée**.\n2. Calculer les quantités initiales $n_i$ (en mol) de chaque réactif ($n = m/M$, $n = V/V_m$…).\n3. Calculer pour chaque réactif le rapport $\\dfrac{n_i}{\\text{coefficient}}$ : le **plus petit** rapport désigne le réactif limitant.\n4. Les quantités formées et consommées se calculent **à partir du réactif limitant** avec les coefficients.\n5. Quantité restante du réactif en excès : $n_{\\text{reste}} = n_i - n_{\\text{consommé}}$.\n6. Convertir en masses ou en volumes et vérifier la conservation de la masse.\n:::\n\n:::remarque Tableau d'avancement\nOn peut présenter le bilan dans un tableau avec l'**avancement** $x$ (en mol) : pour $\\ce{2H2 + O2 -> 2H2O}$, à l'état final : $n(\\ce{H2}) = n_i(\\ce{H2}) - 2x_{\\max}$ ; $n(\\ce{O2}) = n_i(\\ce{O2}) - x_{\\max}$ ; $n(\\ce{H2O}) = 2x_{\\max}$. L'avancement maximal $x_{\\max}$ est la plus petite valeur qui annule un réactif : c'est exactement le « plus petit rapport » de la méthode.\n:::\n\n## Exemple résolu\nOn fait réagir $0{,}50\\ \\text{mol}$ de dihydrogène et $0{,}20\\ \\text{mol}$ de dioxygène : $\\ce{2H2 + O2 -> 2H2O}$. Bilan de matière ?\n- Rapports : $\\dfrac{n_i(\\ce{H2})}{2} = \\dfrac{0{,}50}{2} = 0{,}25$ ; $\\dfrac{n_i(\\ce{O2})}{1} = 0{,}20$. Le plus petit : $\\ce{O2}$ est **limitant**.\n- $\\ce{O2}$ consommé : $0{,}20\\ \\text{mol}$ ; $\\ce{H2}$ consommé : $2 \\times 0{,}20 = 0{,}40\\ \\text{mol}$.\n- Eau formée : $n(\\ce{H2O}) = 2 \\times 0{,}20 = 0{,}40\\ \\text{mol}$.\n- Il reste $0{,}50 - 0{,}40 = 0{,}10\\ \\text{mol}$ de $\\ce{H2}$ (en excès).",
+   "definition": "Les quantités de matière qui réagissent sont proportionnelles aux coefficients ; le réactif limitant, épuisé en premier, fixe les quantités de produits formés.",
+   "formules": [
+    "$\\dfrac{n(\\ce{A})}{a} = \\dfrac{n(\\ce{B})}{b} = \\dfrac{n(\\ce{C})}{c}$",
+    "Limitant : plus petit rapport $\\dfrac{n_i}{\\text{coefficient}}$",
+    "$n_{\\text{reste}} = n_i - n_{\\text{consommé}}$"
+   ],
+   "niveaux": {
+    "phrase": "Le réactif limitant, c'est celui qui manque en premier : il décide de la quantité de produit.",
+    "simple": "Pour faire des sandwichs, il faut 2 tranches de pain et 1 tranche de fromage par sandwich. Avec 10 tranches de pain et 3 tranches de fromage, tu fais 3 sandwichs : le fromage est « limitant », il reste 4 tranches de pain.",
+    "complete": "Pour $\\ce{aA + bB -> cC + dD}$, les quantités transformées sont proportionnelles aux coefficients. Le réactif limitant est celui pour lequel $n_i/\\text{coefficient}$ est le plus petit ; il est entièrement consommé et détermine l'avancement maximal $x_{\\max}$. Les quantités formées valent $c\\,x_{\\max}$, $d\\,x_{\\max}$ ; le réactif en excès reste en quantité $n_i - b\\,x_{\\max}$. En proportions stœchiométriques, tous les réactifs disparaissent."
+   },
+   "analogie": "La vendeuse de pain-sardine du marché : 1 pain pour 2 sardines. Avec 20 pains et 30 sardines, elle ne peut faire que 15 sandwichs : les sardines sont limitantes, il reste 5 pains.",
+   "exemples_resolus": [
+    {
+     "enonce": "On chauffe $2{,}79\\ \\text{g}$ de fer et $3{,}21\\ \\text{g}$ de soufre : $\\ce{Fe + S -> FeS}$. Bilan de matière ? ($M(\\ce{Fe}) = 55{,}8$ ; $M(\\ce{S}) = 32{,}1$ g/mol)",
+     "etapes": [
+      "$n_i(\\ce{Fe}) = \\dfrac{2{,}79}{55{,}8} = 0{,}0500\\ \\text{mol}$ ; $n_i(\\ce{S}) = \\dfrac{3{,}21}{32{,}1} = 0{,}100\\ \\text{mol}$.",
+      "Coefficients égaux à 1 : le plus petit rapport est celui du fer : **Fe est limitant**.",
+      "$n(\\ce{FeS}) = 0{,}0500\\ \\text{mol}$, soit $m = 0{,}0500 \\times 87{,}9 = 4{,}40\\ \\text{g}$ ; reste de soufre : $0{,}0500\\ \\text{mol}$, soit $1{,}61\\ \\text{g}$.",
+      "Contrôle : $4{,}40 + 1{,}61 = 6{,}01 \\approx 2{,}79 + 3{,}21 = 6{,}00\\ \\text{g}$ ✔ (écart d'arrondi)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Comparer directement les quantités de matière sans les diviser par les coefficients.",
+    "Comparer les **masses** des réactifs pour trouver le limitant.",
+    "Calculer la quantité de produit à partir du réactif en excès.",
+    "Utiliser une équation non équilibrée."
+   ],
+   "astuces": [
+    "Écris toujours l'équation équilibrée en premier : sans elle, aucun bilan n'est juste.",
+    "Contrôle final : la masse totale doit se conserver."
+   ],
+   "mnemo": "« Le plus petit n/coefficient gagne le titre de limitant. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (chapitre précédent)",
+    "texte": "Tu te souviens des relations $n = m/M$ et $n = V/V_m$ ? Un bilan de matière commence toujours par convertir les masses ou volumes des réactifs en moles."
+   },
+   "methode_redaction": "Présente : 1) l'équation équilibrée ; 2) les quantités initiales avec leurs calculs ; 3) les rapports et la conclusion « le réactif limitant est… » ; 4) les quantités formées et restantes ; 5) les conversions en masse ou volume, avec unités.",
+   "flash": [
+    {
+     "q": "Qu'est-ce que le réactif limitant ?",
+     "r": "Le réactif entièrement consommé en premier ; il arrête la réaction."
+    },
+    {
+     "q": "Comment le trouve-t-on ?",
+     "r": "C'est celui qui a le plus petit rapport $n_i$/coefficient."
+    },
+    {
+     "q": "Qu'est-ce qu'un mélange stœchiométrique ?",
+     "r": "Des réactifs dans les proportions des coefficients : tous sont entièrement consommés."
+    },
+    {
+     "q": "$\\ce{2H2 + O2}$ avec 1,0 mol de $\\ce{H2}$ et 1,0 mol de $\\ce{O2}$ : limitant ?",
+     "r": "$\\ce{H2}$ (rapport 0,5 contre 1,0)."
+    },
+    {
+     "q": "À partir de quel réactif calcule-t-on les produits ?",
+     "r": "Du réactif limitant."
+    },
+    {
+     "q": "Que reste-t-il à la fin ?",
+     "r": "Les produits et le réactif en excès."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C15-N3.svg",
+    "alt": "Réaction 2 H2 + O2 → 2 H2O représentée par des modèles moléculaires : à l'état initial, 5 molécules de dihydrogène et 2 de dioxygène ; à l'état final, 4 molécules d'eau et 1 molécule de dihydrogène restante. Le dioxygène est le réactif limitant.",
+    "legende": "Le réactif limitant (ici O₂) est entièrement consommé ; l'autre est en excès.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C15-N4",
+   "titre": "Combustions : calculs et sécurité",
+   "prerequis_notions": [
+    "PC-S2-C15-N3",
+    "PC-S2-C14-N3"
+   ],
+   "cours_md": "## 1. Combustion complète\n:::definition Combustion\nUne **combustion** est une réaction chimique entre un **combustible** (charbon, butane, essence, alcool, bois) et un **comburant**, le plus souvent le **dioxygène** de l'air. Elle libère de l'énergie thermique (chaleur) et lumineuse (flamme).\n:::\n:::propriete Combustion complète d'un composé C, H (O)\nAvec assez de dioxygène, un combustible formé de C, H (et éventuellement O) donne uniquement du **dioxyde de carbone** et de l'**eau** :\n- carbone : $\\ce{C + O2 -> CO2}$ ;\n- méthane (biogaz) : $\\ce{CH4 + 2O2 -> CO2 + 2H2O}$ ;\n- butane (gaz domestique) : $\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$ ;\n- éthanol (alcool) : $\\ce{C2H6O + 3O2 -> 2CO2 + 3H2O}$.\n:::\nLa flamme d'un réchaud bien réglé est **bleue**.\n\n## 2. Combustion incomplète : danger du monoxyde de carbone\nQuand le dioxygène **manque** (pièce fermée, foyer mal aéré, réchaud déréglé), il se forme aussi du **monoxyde de carbone** $\\ce{CO}$ et du **carbone** (suie, fumée noire) : $\\ce{2C + O2 -> 2CO}$. La flamme devient **jaune** et fumante.\n\n:::attention Le monoxyde de carbone tue\nLe $\\ce{CO}$ est **incolore, inodore et très toxique** : il se fixe sur l'hémoglobine du sang à la place du dioxygène. Ne jamais laisser un **fourneau à charbon de bois** allumé dans une chambre fermée, ni faire tourner un groupe électrogène dans une pièce close.\n:::\n\n## 3. Calculs sur les gaz\n:::propriete Volumes de gaz et coefficients\nPour des gaz mesurés dans les **mêmes conditions** de température et de pression, les **volumes** sont proportionnels aux quantités de matière, donc aux coefficients : pour $\\ce{CH4 + 2O2}$, il faut un volume de dioxygène **double** de celui du méthane.\n:::\nL'air contient environ **21 %** de dioxygène en volume (environ un cinquième) : $V_{\\text{air}} = \\dfrac{V(\\ce{O2})}{0{,}21}$.\n\n## Exemple résolu\nOn brûle complètement $58\\ \\text{g}$ de butane ($M = 58{,}0$ g/mol) à $20\\ °\\text{C}$ ($V_m = 24{,}0$ L/mol). Volume de dioxygène nécessaire, masse et volume de $\\ce{CO2}$ formés ?\n- $n(\\ce{C4H10}) = \\dfrac{58}{58{,}0} = 1{,}0\\ \\text{mol}$.\n- D'après $\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$ : $n(\\ce{O2}) = \\dfrac{13}{2} \\times 1{,}0 = 6{,}5\\ \\text{mol}$, donc $V(\\ce{O2}) = 6{,}5 \\times 24{,}0 = 156\\ \\text{L}$.\n- $n(\\ce{CO2}) = \\dfrac{8}{2} \\times 1{,}0 = 4{,}0\\ \\text{mol}$ : $m = 4{,}0 \\times 44{,}0 = 176\\ \\text{g}$ ; $V = 4{,}0 \\times 24{,}0 = 96\\ \\text{L}$.",
+   "definition": "Une combustion complète d'un combustible carboné donne du dioxyde de carbone et de l'eau ; incomplète (manque de dioxygène), elle produit aussi du monoxyde de carbone, gaz mortel.",
+   "formules": [
+    "$\\ce{CH4 + 2O2 -> CO2 + 2H2O}$",
+    "$\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$",
+    "$\\ce{C2H6O + 3O2 -> 2CO2 + 3H2O}$",
+    "$V_{\\text{air}} \\approx \\dfrac{V(\\ce{O2})}{0{,}21}$"
+   ],
+   "niveaux": {
+    "phrase": "Brûler, c'est réagir avec le dioxygène ; sans assez d'air, on fabrique du CO, un poison invisible.",
+    "simple": "Un feu a besoin de « respirer ». Si on l'étouffe, il « tousse » : il fume noir et rejette un gaz invisible et dangereux, le monoxyde de carbone.",
+    "complete": "La combustion est une oxydation rapide d'un combustible par un comburant (le dioxygène). Complète, celle d'un composé C, H, O ne donne que $\\ce{CO2}$ et $\\ce{H2O}$ ; incomplète, elle produit aussi $\\ce{CO}$ (toxique, inodore) et du carbone (suie). Les coefficients de l'équation donnent les proportions en moles, donc en volumes pour des gaz pris dans les mêmes conditions ; l'air contient environ 21 % de dioxygène."
+   },
+   "analogie": "Le fourneau à charbon de bois rentré dans la chambre pour avoir chaud pendant l'harmattan : la combustion devient incomplète et produit du monoxyde de carbone, qui peut tuer pendant le sommeil.",
+   "exemples_resolus": [
+    {
+     "enonce": "On brûle complètement $9{,}2\\ \\text{g}$ d'éthanol ($M = 46{,}0$ g/mol) à $20\\ °\\text{C}$. Volume de dioxygène consommé et masse d'eau formée ?",
+     "etapes": [
+      "$n(\\ce{C2H6O}) = \\dfrac{9{,}2}{46{,}0} = 0{,}20\\ \\text{mol}$.",
+      "D'après $\\ce{C2H6O + 3O2 -> 2CO2 + 3H2O}$ : $n(\\ce{O2}) = 3 \\times 0{,}20 = 0{,}60\\ \\text{mol}$, donc $V = 0{,}60 \\times 24{,}0 = 14{,}4\\ \\text{L}$.",
+      "$n(\\ce{H2O}) = 3 \\times 0{,}20 = 0{,}60\\ \\text{mol}$, soit $m = 0{,}60 \\times 18{,}0 = 10{,}8\\ \\text{g}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier d'équilibrer l'équation de combustion avant le calcul.",
+    "Utiliser le volume d'air au lieu du volume de dioxygène (ou l'inverse).",
+    "Appliquer $V_m$ à l'eau formée alors qu'elle est liquide à 20 °C.",
+    "Croire que le monoxyde de carbone se sent ou se voit."
+   ],
+   "astuces": [
+    "Pour les gaz dans les mêmes conditions, tu peux raisonner directement sur les volumes avec les coefficients.",
+    "Flamme bleue : combustion complète ; flamme jaune qui fume : combustion incomplète."
+   ],
+   "mnemo": "« Flamme bleue, tout va bien ; flamme jaune, attention au CO. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Les combustions du carbone, du butane et du méthane produisent du dioxyde de carbone et de l'eau ; une combustion incomplète produit du monoxyde de carbone. En Seconde, on fait les calculs de quantités et de volumes."
+   },
+   "methode_redaction": "Écris l'équation équilibrée, calcule la quantité du combustible, utilise les coefficients pour les autres espèces (« d'après l'équation, $n(\\ce{O2}) = 3\\,n(\\ce{C2H6O})$ »), puis convertis en volume ou en masse ; termine, si on le demande, par une phrase de sécurité.",
+   "flash": [
+    {
+     "q": "Produits d'une combustion complète du butane ?",
+     "r": "Dioxyde de carbone et eau."
+    },
+    {
+     "q": "Quel gaz dangereux forme une combustion incomplète ?",
+     "r": "Le monoxyde de carbone CO."
+    },
+    {
+     "q": "Pourquoi le CO est-il si dangereux ?",
+     "r": "Il est incolore, inodore et prend la place du dioxygène dans le sang."
+    },
+    {
+     "q": "Équation de la combustion de l'éthanol ?",
+     "r": "$\\ce{C2H6O + 3O2 -> 2CO2 + 3H2O}$."
+    },
+    {
+     "q": "Proportion de dioxygène dans l'air ?",
+     "r": "Environ 21 % en volume (un cinquième)."
+    },
+    {
+     "q": "Couleur de la flamme d'une combustion complète ?",
+     "r": "Bleue."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C15-N4.svg",
+    "alt": "Deux brûleurs : à gauche, combustion complète avec beaucoup d'air, flamme bleue, produits CO2 et H2O ; à droite, combustion incomplète par manque d'air, flamme jaune et fumée, produits CO, carbone (suie) et H2O.",
+    "legende": "Combustion complète : CO₂ + H₂O ; incomplète : CO et suie, danger.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S2-C15-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C15-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Un gaz qui trouble l'eau de chaux est :",
+   "choix": [
+    "le dioxygène",
+    "le dihydrogène",
+    "le dioxyde de carbone",
+    "la vapeur d'eau"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "L'eau de chaux est le test caractéristique du dioxyde de carbone.",
+    "Réponse : le dioxyde de carbone $\\ce{CO2}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C15-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Laquelle de ces équations est correctement équilibrée ?",
+   "choix": [
+    "$\\ce{H2 + O2 -> H2O}$",
+    "$\\ce{2H2 + O2 -> 2H2O}$",
+    "$\\ce{H2 + O2 -> 2H2O}$",
+    "$\\ce{H2 + O -> H2O2}$"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "On compte les atomes de chaque côté.",
+    "$\\ce{2H2 + O2 -> 2H2O}$ : H 4 = 4, O 2 = 2 ✔ ; les autres ne conservent pas O ou H."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C15-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "$4{,}0\\ \\text{g}$ d'un réactif A réagissent entièrement avec $6{,}0\\ \\text{g}$ d'un réactif B ; un seul produit se forme et rien ne s'échappe. Quelle est la masse de produit (en g) ?",
+   "reponses_acceptees": [
+    "10",
+    "10,0",
+    "10g"
+   ],
+   "indices": [],
+   "corrige": [
+    "Conservation de la masse (Lavoisier).",
+    "$m = 4{,}0 + 6{,}0 = 10\\ \\text{g}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C15-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Équilibre la combustion du propane : $\\ce{C3H8 + ?O2 -> 3CO2 + 4H2O}$. Quel coefficient faut-il devant $\\ce{O2}$ ?",
+   "reponses_acceptees": [
+    "5"
+   ],
+   "indices": [],
+   "corrige": [
+    "Atomes O à droite : $3 \\times 2 + 4 \\times 1 = 10$.",
+    "Il faut 10 atomes O à gauche, soit $\\ce{5O2}$ : $\\ce{C3H8 + 5O2 -> 3CO2 + 4H2O}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Compter seulement les O de $\\ce{CO2}$.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C15-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Quels coefficients équilibrent $\\ce{Al + O2 -> Al2O3}$ (dans l'ordre) ?",
+   "choix": [
+    "1 ; 1 ; 1",
+    "2 ; 3 ; 1",
+    "4 ; 3 ; 2",
+    "2 ; 1 ; 2"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "O : 2 à gauche, 3 à droite ; plus petit multiple commun 6 : $\\ce{3O2}$ et $\\ce{2Al2O3}$.",
+    "Al : 4 à droite, donc $\\ce{4Al}$ : $\\ce{4Al + 3O2 -> 2Al2O3}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Équilibrer Al d'abord (2 ; 3/2 ; 1) puis oublier de multiplier par 2.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C15-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "D'après $\\ce{CH4 + 2O2 -> CO2 + 2H2O}$, quelle quantité de dioxygène (en mol) faut-il pour brûler complètement $0{,}30\\ \\text{mol}$ de méthane ?",
+   "reponses_acceptees": [
+    "0,6",
+    "0,60",
+    "0,6mol",
+    "0,60mol"
+   ],
+   "indices": [],
+   "corrige": [
+    "Proportions : $\\dfrac{n(\\ce{CH4})}{1} = \\dfrac{n(\\ce{O2})}{2}$.",
+    "$n(\\ce{O2}) = 2 \\times 0{,}30 = 0{,}60\\ \\text{mol}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C15-N1",
+    "PC-S2-C15-N2"
+   ],
+   "format": "qcm",
+   "enonce": "On verse de la soude (ions $\\ce{OH-}$) dans une solution de sulfate de cuivre (ions $\\ce{Cu^2+}$). Quelle équation et quelle observation conviennent ?",
+   "choix": [
+    "$\\ce{Cu^2+ + OH- -> Cu(OH)2}$, précipité bleu",
+    "$\\ce{Cu^2+ + 2OH- -> Cu(OH)2}$, précipité bleu",
+    "$\\ce{Cu^2+ + 2OH- -> Cu(OH)2}$, précipité vert",
+    "$\\ce{Cu + 2OH- -> Cu(OH)2}$, dégagement gazeux"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Les ions $\\ce{Cu^2+}$ donnent avec $\\ce{OH-}$ un précipité bleu d'hydroxyde de cuivre.",
+    "Charges : $+2 + 2 \\times (-1) = 0$ à gauche, 0 à droite : $\\ce{Cu^2+ + 2OH- -> Cu(OH)2}$."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Oublier la conservation de la charge.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C15-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Pour la réaction $\\ce{2H2 + O2 -> 2H2O}$, on introduit $0{,}40\\ \\text{mol}$ de $\\ce{H2}$ et $0{,}20\\ \\text{mol}$ de $\\ce{O2}$. Que peut-on dire ?",
+   "choix": [
+    "$\\ce{H2}$ est limitant",
+    "$\\ce{O2}$ est limitant",
+    "le mélange est stœchiométrique",
+    "il ne se forme pas d'eau"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Rapports : $0{,}40/2 = 0{,}20$ et $0{,}20/1 = 0{,}20$ : ils sont égaux.",
+    "Mélange stœchiométrique : les deux réactifs sont entièrement consommés."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Comparer 0,40 et 0,20 sans diviser par les coefficients.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C15-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "On chauffe un mélange de $2{,}79\\ \\text{g}$ de fer et de $3{,}21\\ \\text{g}$ de soufre. Il se forme du sulfure de fer $\\ce{FeS}$. Masses molaires (g/mol) : H = 1,0 ; C = 12,0 ; O = 16,0 ; S = 32,1 ; Fe = 55,8 ; Zn = 65,4.\n1. Écris l'équation-bilan.\n2. Calcule les quantités de matière initiales.\n3. Détermine le réactif limitant.\n4. Calcule la masse de sulfure de fer formé et la masse du réactif en excès restant.\n5. Vérifie la conservation de la masse.",
+   "indices": [
+    "Compare les quantités de matière, pas les masses."
+   ],
+   "corrige": [
+    "$\\ce{Fe + S -> FeS}$.",
+    "$n_i(\\ce{Fe}) = \\dfrac{2{,}79}{55{,}8} = 0{,}0500\\ \\text{mol}$ ; $n_i(\\ce{S}) = \\dfrac{3{,}21}{32{,}1} = 0{,}100\\ \\text{mol}$.",
+    "Coefficients 1 et 1 : $0{,}0500 < 0{,}100$, le fer est limitant.",
+    "$n(\\ce{FeS}) = 0{,}0500\\ \\text{mol}$ ; $M(\\ce{FeS}) = 87{,}9\\ \\text{g/mol}$ ; $m(\\ce{FeS}) = 4{,}40\\ \\text{g}$. Soufre restant : $0{,}0500\\ \\text{mol}$, soit $0{,}0500 \\times 32{,}1 = 1{,}61\\ \\text{g}$.",
+    "Total final : $4{,}40 + 1{,}61 = 6{,}01\\ \\text{g}$ ; total initial : $6{,}00\\ \\text{g}$ ; l'écart vient des arrondis : la masse est conservée."
+   ],
+   "bareme": [
+    0.5,
+    1,
+    1,
+    2,
+    0.5
+   ],
+   "piege": "Dire que le fer est en excès parce que sa masse (2,79 g) est proche de celle du soufre.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C15-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C15-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Une lampe à alcool brûle complètement $4{,}6\\ \\text{g}$ d'éthanol $\\ce{C2H6O}$ ($M = 46{,}0$ g/mol) à $20\\ °\\text{C}$ ($V_m = 24{,}0$ L/mol).\n1. Écris l'équation de la combustion complète.\n2. Calcule la quantité d'éthanol brûlé.\n3. Calcule le volume de dioxygène consommé, puis le volume d'air correspondant (21 % de dioxygène).\n4. Calcule la masse de dioxyde de carbone formé.",
+   "indices": [
+    "Équilibre C, puis H, puis O (sans oublier l'O de l'éthanol)."
+   ],
+   "corrige": [
+    "$\\ce{C2H6O + 3O2 -> 2CO2 + 3H2O}$.",
+    "$n = \\dfrac{4{,}6}{46{,}0} = 0{,}10\\ \\text{mol}$.",
+    "$n(\\ce{O2}) = 3 \\times 0{,}10 = 0{,}30\\ \\text{mol}$ ; $V(\\ce{O2}) = 0{,}30 \\times 24{,}0 = 7{,}2\\ \\text{L}$ ; $V_{\\text{air}} = \\dfrac{7{,}2}{0{,}21} = 34\\ \\text{L}$.",
+    "$n(\\ce{CO2}) = 2 \\times 0{,}10 = 0{,}20\\ \\text{mol}$ ; $m = 0{,}20 \\times 44{,}0 = 8{,}8\\ \\text{g}$."
+   ],
+   "bareme": [
+    1,
+    0.5,
+    2,
+    1.5
+   ],
+   "piege": "Prendre le volume d'air égal au volume de dioxygène.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C15-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C15-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Équilibre avec les plus petits nombres entiers la combustion complète du butane : $\\ce{C4H10 + O2 -> CO2 + H2O}$. Quel est alors le coefficient de $\\ce{O2}$ ?",
+   "reponses_acceptees": [
+    "13"
+   ],
+   "indices": [
+    "Un coefficient fractionnaire apparaît : multiplie tout par 2."
+   ],
+   "corrige": [
+    "C : $\\ce{4CO2}$ ; H : $\\ce{5H2O}$ ; O à droite : $8 + 5 = 13$, donc $\\tfrac{13}{2}\\,\\ce{O2}$.",
+    "On multiplie tout par 2 : $\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$ : coefficient 13."
+   ],
+   "bareme": [
+    1.5,
+    1.5
+   ],
+   "piege": "Répondre 13/2 ou 6,5 (pas un entier).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C15-N3",
+    "PC-S2-C15-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "On plonge $1{,}31\\ \\text{g}$ de zinc dans une solution d'acide chlorhydrique contenant $0{,}050\\ \\text{mol}$ d'ions $\\ce{H+}$. Il se dégage du dihydrogène et il se forme des ions $\\ce{Zn^2+}$. Masses molaires (g/mol) : H = 1,0 ; C = 12,0 ; O = 16,0 ; S = 32,1 ; Fe = 55,8 ; Zn = 65,4. $V_m = 24{,}0$ L/mol.\n1. Écris l'équation-bilan et vérifie la conservation des charges.\n2. Détermine le réactif limitant.\n3. Calcule le volume de dihydrogène dégagé.\n4. Quelle quantité d'ions $\\ce{H+}$ reste-t-il ? Comment identifier le gaz ?",
+   "indices": [
+    "N'oublie pas le coefficient 2 devant $\\ce{H+}$."
+   ],
+   "corrige": [
+    "$\\ce{Zn + 2H+ -> Zn^2+ + H2}$ ; charges : $2 \\times (+1) = +2$ à gauche, $+2$ à droite ✔.",
+    "$n_i(\\ce{Zn}) = \\dfrac{1{,}31}{65{,}4} = 0{,}0200\\ \\text{mol}$ ; rapports : Zn $0{,}0200/1 = 0{,}0200$ ; $\\ce{H+}$ $0{,}050/2 = 0{,}025$ : le zinc est limitant.",
+    "$n(\\ce{H2}) = n_i(\\ce{Zn}) = 0{,}0200\\ \\text{mol}$ ; $V = 0{,}0200 \\times 24{,}0 = 0{,}48\\ \\text{L}$.",
+    "$\\ce{H+}$ consommé : $2 \\times 0{,}0200 = 0{,}040\\ \\text{mol}$ ; reste $0{,}050 - 0{,}040 = 0{,}010\\ \\text{mol}$. Test : une flamme approchée de l'entrée du tube provoque une petite détonation."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1.5
+   ],
+   "piege": "Oublier le coefficient 2 devant $\\ce{H+}$ : on trouverait un reste de 0,030 mol au lieu de 0,010 mol.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C15-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C15-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans une pièce mal aérée, on brûle $24\\ \\text{g}$ de charbon de bois (assimilé à du carbone pur, $M = 12{,}0$ g/mol). La moitié du carbone donne du dioxyde de carbone, l'autre moitié du monoxyde de carbone. $V_m = 24{,}0$ L/mol.\n1. Écris les deux équations.\n2. Calcule la quantité de chaque gaz formé.\n3. Calcule le volume total de dioxygène consommé.\n4. Calcule le volume de monoxyde de carbone formé et explique le danger.",
+   "indices": [
+    "Fais deux bilans séparés, un pour chaque moitié du carbone."
+   ],
+   "corrige": [
+    "$\\ce{C + O2 -> CO2}$ et $\\ce{2C + O2 -> 2CO}$.",
+    "$n(\\ce{C}) = \\dfrac{24}{12{,}0} = 2{,}0\\ \\text{mol}$ : 1,0 mol donne 1,0 mol de $\\ce{CO2}$ ; 1,0 mol donne 1,0 mol de $\\ce{CO}$.",
+    "$n(\\ce{O2}) = 1{,}0 + \\dfrac{1{,}0}{2} = 1{,}5\\ \\text{mol}$ ; $V = 1{,}5 \\times 24{,}0 = 36\\ \\text{L}$.",
+    "$V(\\ce{CO}) = 1{,}0 \\times 24{,}0 = 24\\ \\text{L}$ de gaz incolore, inodore et très toxique : il peut provoquer une intoxication mortelle pendant le sommeil ; il faut aérer et ne jamais utiliser de fourneau dans une pièce fermée."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1.5
+   ],
+   "piege": "Utiliser $\\ce{C + O2 -> CO}$ (non équilibrée).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C15-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C15-N1"
+   ],
+   "format": "qcm",
+   "enonce": "On approche une flamme de l'entrée d'un tube contenant un gaz : on entend une petite détonation. Le gaz est :",
+   "choix": [
+    "du dioxygène",
+    "du dihydrogène",
+    "du dioxyde de carbone",
+    "du diazote"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "La détonation (« pop ») est le test du dihydrogène.",
+    "Réponse : $\\ce{H2}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Confondre avec le dioxygène, qui rallume une bûchette incandescente.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C15-E15",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C15-N4",
+    "PC-S2-C15-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une famille consomme $290\\ \\text{g}$ de butane ($M = 58{,}0$ g/mol) par jour pour la cuisine. Quelle masse de dioxyde de carbone (en g) rejette-t-elle chaque jour ? ($M(\\ce{CO2}) = 44{,}0$ g/mol)",
+   "reponses_acceptees": [
+    "880",
+    "880g",
+    "8,8e2",
+    "8,8×10^2"
+   ],
+   "indices": [
+    "8/2 = 4 moles de CO₂ par mole de butane."
+   ],
+   "corrige": [
+    "$n(\\ce{C4H10}) = \\dfrac{290}{58{,}0} = 5{,}0\\ \\text{mol}$.",
+    "D'après $\\ce{2C4H10 + 13O2 -> 8CO2 + 10H2O}$ : $n(\\ce{CO2}) = 4 \\times 5{,}0 = 20\\ \\text{mol}$.",
+    "$m = 20 \\times 44{,}0 = 880\\ \\text{g}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Prendre 1 mol de CO₂ par mole de butane.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Indices modifiés pour équilibrer ; coefficients fractionnaires laissés quand on demande des entiers.",
+  "Conservation de la charge oubliée dans les équations ioniques.",
+  "Réactif limitant choisi en comparant les masses ou les quantités sans diviser par les coefficients.",
+  "Produits calculés à partir du réactif en excès.",
+  "Volume d'air confondu avec le volume de dioxygène ; $V_m$ appliqué à l'eau liquide.",
+  "Tests caractéristiques inversés (bûchette incandescente pour $\\ce{H2}$, détonation pour $\\ce{O2}$)."
+ ]
+}

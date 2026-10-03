@@ -1,0 +1,793 @@
+{
+ "id": "M-S2-C14",
+ "matiere": "M",
+ "semestre": 2,
+ "ordre": 14,
+ "titre": "Transformations du plan : translation, homothétie, rotation",
+ "objectifs": [
+  "Construire et calculer l'image d'un point, d'une droite, d'un cercle par une translation, une homothétie ou une rotation.",
+  "Utiliser les expressions analytiques d'une translation, d'une homothétie et d'un quart de tour.",
+  "Connaître et utiliser les propriétés de conservation (distances, angles, parallélisme, milieux) et l'effet d'une homothétie sur les longueurs et les aires.",
+  "Retrouver le centre et le rapport d'une homothétie.",
+  "Utiliser une transformation pour démontrer une propriété (égalité de longueurs, triangle isocèle rectangle).",
+  "Déterminer un lieu de points à l'aide d'une transformation."
+ ],
+ "prerequis": [
+  "M-3e-TRANSLATION",
+  "M-3e-SYMETRIES",
+  "M-3e-THALES",
+  "M-S1-C02",
+  "M-S2-C10"
+ ],
+ "notions": [
+  {
+   "id": "M-S2-C14-N1",
+   "titre": "Translation",
+   "prerequis_notions": [
+    "M-3e-TRANSLATION",
+    "M-S1-C02-N1"
+   ],
+   "cours_md": ":::definition\nSoit $\\vec u$ un vecteur. La **translation de vecteur $\\vec u$**, notée $t_{\\vec u}$, est la transformation qui à tout point $M$ associe le point $M'$ tel que\n$$\\overrightarrow{MM'}=\\vec u.$$\n:::\n\n:::propriete Propriété fondamentale\nSi $M'=t_{\\vec u}(M)$ et $N'=t_{\\vec u}(N)$, alors $\\overrightarrow{M'N'}=\\overrightarrow{MN}$ ($MNN'M'$ est un parallélogramme, éventuellement aplati).\nConséquences : une translation **conserve les distances**, l'alignement, le parallélisme, les angles (géométriques et orientés), les milieux et les barycentres.\n- L'image d'une droite est une droite **parallèle** (la même si $\\vec u$ dirige cette droite).\n- L'image d'un cercle de centre $\\Omega$ et de rayon $r$ est le cercle de centre $t_{\\vec u}(\\Omega)$ et de même rayon $r$.\n:::\n\n:::propriete Expression analytique\nDans un repère, si $\\vec u(a\\,;b)$, $M(x\\,;y)$ et $M'(x'\\,;y')=t_{\\vec u}(M)$ :\n$$\\begin{cases}x'=x+a\\\\ y'=y+b\\end{cases}$$\n:::\n\n:::remarque\n- La transformation réciproque de $t_{\\vec u}$ est $t_{-\\vec u}$.\n- Enchaîner $t_{\\vec u}$ puis $t_{\\vec v}$ revient à appliquer $t_{\\vec u+\\vec v}$.\n:::\n\n:::methode Image d'une figure ou d'une droite\n- Pour une figure polygonale : construire l'image de chaque sommet.\n- Pour une droite d'équation donnée : exprimer $x$ et $y$ en fonction de $x'$ et $y'$ ($x=x'-a$, $y=y'-b$) et remplacer dans l'équation.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nOn donne $\\vec u(3\\,;-1)$ et $A(-2\\,;4)$. Calculer les coordonnées de $A'=t_{\\vec u}(A)$, puis du point $B$ dont l'image est l'origine $O$.\n\n1. $A'(-2+3\\,;4-1)$, soit $A'(1\\,;3)$.\n2. $t_{\\vec u}(B)=O$ signifie $\\overrightarrow{BO}=\\vec u$, donc $B=O-\\vec u$ : $B(-3\\,;1)$.\n:::\n\n:::exemple Exemple 2\n$ABCD$ est un parallélogramme. Déterminer l'image de $A$ et de $B$ par $t_{\\overrightarrow{BC}}$, puis l'image de la droite $(AB)$.\n\n1. $ABCD$ est un parallélogramme : $\\overrightarrow{AD}=\\overrightarrow{BC}$, donc $t_{\\overrightarrow{BC}}(A)=D$.\n2. $\\overrightarrow{BC}=\\overrightarrow{BC}$, donc $t_{\\overrightarrow{BC}}(B)=C$.\n3. L'image de la droite $(AB)$ est la droite $(DC)$, qui lui est bien parallèle.\n:::",
+   "definition": "La translation de vecteur $\\vec u$ envoie $M$ sur $M'$ tel que $\\overrightarrow{MM'}=\\vec u$ ; elle conserve les distances et transforme une droite en une droite parallèle.",
+   "formules": [
+    "$\\overrightarrow{MM'}=\\vec u$",
+    "$x'=x+a,\\ y'=y+b$",
+    "$\\overrightarrow{M'N'}=\\overrightarrow{MN}$"
+   ],
+   "niveaux": {
+    "phrase": "Une translation fait glisser toute la figure dans la même direction, du même sens et de la même longueur.",
+    "simple": "Pousse une feuille de papier posée sur la table sans la tourner : chaque point se déplace exactement du même vecteur. C'est une translation.",
+    "complete": "$t_{\\vec u}$ est une isométrie (déplacement) qui conserve aussi les vecteurs : $\\overrightarrow{M'N'}=\\overrightarrow{MN}$. Elle transforme une droite en une droite parallèle, un cercle en un cercle de même rayon. Analytiquement, $M'=M+\\vec u$. $t_{\\vec v}\\circ t_{\\vec u}=t_{\\vec u+\\vec v}$ et $t_{\\vec u}^{-1}=t_{-\\vec u}$."
+   },
+   "analogie": "Les tables d'une rangée de classe que l'on pousse toutes d'un mètre vers le tableau : chaque table subit le même déplacement, sans tourner.",
+   "exemples_resolus": [
+    {
+     "enonce": "Déterminer l'image du cercle $\\mathscr C : (x-1)^2+(y+2)^2=4$ par la translation de vecteur $\\vec u(-3\\,;5)$.",
+     "etapes": [
+      "$\\mathscr C$ a pour centre $\\Omega(1\\,;-2)$ et pour rayon $2$.",
+      "$t_{\\vec u}(\\Omega)=(1-3\\,;-2+5)=(-2\\,;3)$, et le rayon est conservé.",
+      "L'image est le cercle d'équation $(x+2)^2+(y-3)^2=4$."
+     ]
+    },
+    {
+     "enonce": "Déterminer une équation de l'image de la droite $(D) : 2x-y+1=0$ par la translation de vecteur $\\vec u(2\\,;0)$.",
+     "etapes": [
+      "Si $M'(x'\\,;y')$ est l'image de $M(x\\,;y)$ : $x'=x+2$ et $y'=y$, donc $x=x'-2$ et $y=y'$.",
+      "$M\\in(D)\\iff2(x'-2)-y'+1=0\\iff2x'-y'-3=0$.",
+      "L'image est la droite $2x-y-3=0$, parallèle à $(D)$. (Avec $\\vec u(1\\,;2)$, qui dirige $(D)$, on retrouverait $(D)$ elle-même.)"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $\\overrightarrow{M'M}=\\vec u$ au lieu de $\\overrightarrow{MM'}=\\vec u$ (on part de $M$ pour arriver à $M'$).",
+    "Ajouter les coordonnées de u à celles de l'image au lieu de celles du point de départ.",
+    "Croire qu'une translation change le rayon d'un cercle.",
+    "Pour l'image d'une droite, remplacer x par x' + a au lieu de x' − a."
+   ],
+   "astuces": [
+    "Dessine une flèche du point vers son image : elle doit être identique à u.",
+    "L'image d'un polygone par une translation est un polygone superposable.",
+    "Pour l'image d'un cercle, il suffit de déplacer le centre."
+   ],
+   "mnemo": "« Translation : tout le monde glisse de u. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? L'image d'un point $M$ par la translation qui envoie $A$ sur $B$ est le point $M'$ tel que $ABM'M$ soit un parallélogramme. C'est exactement $\\overrightarrow{MM'}=\\overrightarrow{AB}$."
+   },
+   "methode_redaction": "Écris la définition (« A' = t(A) ⇔ AA' = u »), puis les coordonnées : « x' = −2 + 3 = 1 ; y' = 4 − 1 = 3 ». Pour l'image d'une figure, cite la propriété de conservation utilisée.",
+   "flash": [
+    {
+     "q": "$t_{\\vec u}(M)=M'$ signifie ?",
+     "r": "$\\overrightarrow{MM'}=\\vec u$"
+    },
+    {
+     "q": "Image de $A(1\\,;2)$ par la translation de vecteur $\\vec u(3\\,;-5)$ ?",
+     "r": "$A'(4\\,;-3)$"
+    },
+    {
+     "q": "Image d'une droite par une translation ?",
+     "r": "Une droite parallèle (ou la même)."
+    },
+    {
+     "q": "Une translation conserve-t-elle les longueurs ?",
+     "r": "Oui, c'est une isométrie."
+    },
+    {
+     "q": "Réciproque de $t_{\\vec u}$ ?",
+     "r": "$t_{-\\vec u}$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C14-N1.svg",
+    "alt": "Triangle bleu ABC et son image verte A'B'C' par la translation de vecteur u ; les flèches rouges en pointillés AA', BB', CC' sont toutes égales au vecteur u.",
+    "legende": "Une translation fait glisser chaque point du même vecteur u.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C14-N2",
+   "titre": "Homothétie",
+   "prerequis_notions": [
+    "M-S1-C02-N2",
+    "M-3e-THALES"
+   ],
+   "cours_md": ":::definition\nSoient $O$ un point et $k$ un réel non nul. L'**homothétie de centre $O$ et de rapport $k$**, notée $h(O\\,;k)$, est la transformation qui à tout point $M$ associe le point $M'$ tel que\n$$\\overrightarrow{OM'}=k\\,\\overrightarrow{OM}.$$\n- $O$ est sa propre image ; $O$, $M$ et $M'$ sont alignés.\n- Si $k>0$, $M'$ est sur la demi-droite $[OM)$ ; si $k<0$, sur la demi-droite opposée.\n- $h(O\\,;1)$ est l'identité et $h(O\\,;-1)$ est la symétrie de centre $O$.\n:::\n\n:::propriete Propriété fondamentale\nSi $M'=h(M)$ et $N'=h(N)$, alors $\\overrightarrow{M'N'}=k\\,\\overrightarrow{MN}$.\nConséquences :\n- les **longueurs** sont multipliées par $|k|$ et les **aires** par $k^2$ ;\n- l'alignement, le parallélisme, les angles (géométriques et orientés), les milieux et les barycentres sont conservés ;\n- l'image d'une droite est une droite **parallèle** ; l'image d'un cercle de centre $\\Omega$ et de rayon $r$ est le cercle de centre $h(\\Omega)$ et de rayon $|k|r$.\n:::\n\n:::propriete Expression analytique\nSi le centre est $\\Omega(a\\,;b)$ : $\\begin{cases}x'-a=k(x-a)\\\\ y'-b=k(y-b)\\end{cases}$. Si le centre est l'origine : $x'=kx$, $y'=ky$.\n:::\n\n:::methode Retrouver le centre et le rapport\nSi $\\overrightarrow{A'B'}=k\\overrightarrow{AB}$ avec $k\\neq1$, l'homothétie de rapport $k$ qui envoie $A$ sur $A'$ et $B$ sur $B'$ a pour centre le point $\\Omega$ tel que $\\overrightarrow{\\Omega A'}=k\\overrightarrow{\\Omega A}$ ; c'est le point d'intersection des droites $(AA')$ et $(BB')$.\n:::\n\n:::attention\nLes longueurs sont multipliées par $|k|$ (positif) et non par $k$ : une homothétie de rapport $-3$ triple les longueurs.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nCalculer l'image de $A(1\\,;3)$ par $h(O\\,;-2)$, puis l'image de $B(2\\,;-1)$ par l'homothétie de centre $\\Omega(1\\,;1)$ et de rapport $3$.\n\n1. $A'(-2\\times1\\,;-2\\times3)=(-2\\,;-6)$.\n2. $x'-1=3(2-1)=3$, donc $x'=4$ ; $y'-1=3(-1-1)=-6$, donc $y'=-5$. $B'(4\\,;-5)$.\n:::\n\n:::exemple Exemple 2\n$G$ est le centre de gravité du triangle $ABC$ et $I$ le milieu de $[BC]$. Montrer que $I$ est l'image de $A$ par $h\\left(G\\,;-\\dfrac12\\right)$.\n\n1. $G$ est situé aux deux tiers de la médiane $[AI]$ à partir de $A$ : $\\overrightarrow{AG}=\\dfrac23\\overrightarrow{AI}$.\n2. Donc $\\overrightarrow{GA}=-\\dfrac23\\overrightarrow{AI}$ et $\\overrightarrow{GI}=\\overrightarrow{GA}+\\overrightarrow{AI}=\\dfrac13\\overrightarrow{AI}$.\n3. Ainsi $\\overrightarrow{GI}=-\\dfrac12\\overrightarrow{GA}$ : $I=h\\left(G\\,;-\\dfrac12\\right)(A)$.\n:::",
+   "definition": "L'homothétie de centre $O$ et de rapport $k$ envoie $M$ sur $M'$ tel que $\\overrightarrow{OM'}=k\\overrightarrow{OM}$ ; elle multiplie les longueurs par $|k|$, les aires par $k^2$, et conserve les angles et le parallélisme.",
+   "formules": [
+    "$\\overrightarrow{OM'}=k\\overrightarrow{OM}$",
+    "$\\overrightarrow{M'N'}=k\\overrightarrow{MN}$",
+    "Longueurs $\\times|k|$, aires $\\times k^2$",
+    "$x'-a=k(x-a),\\ y'-b=k(y-b)$"
+   ],
+   "niveaux": {
+    "phrase": "Une homothétie agrandit ou réduit une figure à partir d'un centre, en gardant sa forme.",
+    "simple": "C'est comme une photo que l'on agrandit ou réduit : la forme reste la même, les angles aussi, seules les longueurs sont multipliées. Avec un rapport négatif, l'image passe de l'autre côté du centre, comme dans une chambre noire.",
+    "complete": "$h(O\\,;k)$, $k\\neq0$ : $\\overrightarrow{OM'}=k\\overrightarrow{OM}$. Elle vérifie $\\overrightarrow{M'N'}=k\\overrightarrow{MN}$, donc conserve l'alignement, le parallélisme, les angles orientés, les barycentres ; elle multiplie les distances par $|k|$ et les aires par $k^2$. Ses points invariants : $O$ seul (si $k\\neq1$). Le théorème de Thalès est la traduction de cette propriété."
+   },
+   "analogie": "Le projecteur d'une salle de cinéma ou d'une veillée au village : l'image projetée sur le drap est un agrandissement de la diapositive, avec le projecteur pour centre.",
+   "exemples_resolus": [
+    {
+     "enonce": "Un triangle a une aire de $12$ cm². Quelle est l'aire de son image par une homothétie de rapport $-3$ ?",
+     "etapes": [
+      "Les aires sont multipliées par $k^2=(-3)^2=9$.",
+      "Aire de l'image : $12\\times9=108$ cm²."
+     ]
+    },
+    {
+     "enonce": "Une homothétie envoie $A(1\\,;1)$ sur $A'(3\\,;5)$ et $B(2\\,;0)$ sur $B'(5\\,;3)$. Déterminer son rapport et son centre.",
+     "etapes": [
+      "$\\overrightarrow{AB}(1\\,;-1)$ et $\\overrightarrow{A'B'}(2\\,;-2)=2\\overrightarrow{AB}$ : le rapport est $k=2$.",
+      "Le centre $\\Omega(a\\,;b)$ vérifie $3-a=2(1-a)$ et $5-b=2(1-b)$, donc $a=-1$ et $b=-3$.",
+      "Contrôle avec $B$ : $5+1=2(2+1)$ et $3+3=2(0+3)$. Centre $\\Omega(-1\\,;-3)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Multiplier les longueurs par $k$ négatif : on multiplie par $|k|$.",
+    "Multiplier les aires par $k$ au lieu de $k^2$.",
+    "Avec un centre différent de l'origine, oublier de soustraire les coordonnées du centre.",
+    "Placer l'image du même côté que M alors que k < 0."
+   ],
+   "astuces": [
+    "Trace toujours la droite (OM) : l'image est dessus.",
+    "Pour contrôler, vérifie que OM' = |k| × OM.",
+    "Rapport −1 : c'est la symétrie centrale que tu connais déjà."
+   ],
+   "mnemo": "« Homothétie : même forme, longueurs × |k|, aires × k². »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Avec le théorème de Thalès, si $(MN)\\parallel(M'N')$ avec $O$, $M$, $M'$ alignés et $O$, $N$, $N'$ alignés, alors $\\dfrac{OM'}{OM}=\\dfrac{ON'}{ON}=\\dfrac{M'N'}{MN}$. C'est la situation d'une homothétie de centre $O$."
+   },
+   "methode_redaction": "Écris la relation vectorielle (« A' = h(A) ⇔ ΩA' = k ΩA »), puis le système de coordonnées. Pour une longueur ou une aire, écris la propriété utilisée (« les aires sont multipliées par k² »).",
+   "flash": [
+    {
+     "q": "$h(O\\,;k)(M)=M'$ signifie ?",
+     "r": "$\\overrightarrow{OM'}=k\\overrightarrow{OM}$"
+    },
+    {
+     "q": "Image de $A(2\\,;-1)$ par $h(O\\,;3)$ ?",
+     "r": "$A'(6\\,;-3)$"
+    },
+    {
+     "q": "Par quoi sont multipliées les aires ?",
+     "r": "Par $k^2$."
+    },
+    {
+     "q": "$h(O\\,;-1)$ est… ?",
+     "r": "La symétrie de centre O."
+    },
+    {
+     "q": "Image d'un cercle de rayon $2$ par une homothétie de rapport $-3$ ?",
+     "r": "Un cercle de rayon $6$."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C14-N2.svg",
+    "alt": "Centre O, triangle bleu ABC, son image verte A'B'C' par l'homothétie de rapport 2 (deux fois plus grande, du même côté) et son image rouge par l'homothétie de rapport −1/2 (deux fois plus petite, de l'autre côté de O).",
+    "legende": "Rapport 2 : agrandissement ; rapport −1/2 : réduction de l'autre côté du centre.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C14-N3",
+   "titre": "Rotation",
+   "prerequis_notions": [
+    "M-S2-C10-N2",
+    "M-3e-SYMETRIES"
+   ],
+   "cours_md": ":::definition\nSoient $O$ un point et $\\theta$ un réel. La **rotation de centre $O$ et d'angle $\\theta$**, notée $r(O\\,;\\theta)$, est la transformation qui laisse $O$ fixe et qui à tout point $M\\neq O$ associe le point $M'$ tel que\n$$OM'=OM\\quad\\text{et}\\quad(\\overrightarrow{OM},\\overrightarrow{OM'})=\\theta\\ [2\\pi].$$\n- $r(O\\,;0)$ est l'identité ; $r(O\\,;\\pi)$ est la symétrie de centre $O$.\n- $r\\left(O\\,;\\dfrac\\pi2\\right)$ est le **quart de tour direct**, $r\\left(O\\,;-\\dfrac\\pi2\\right)$ le quart de tour indirect.\n:::\n\n:::propriete Propriétés\nSi $M'=r(M)$ et $N'=r(N)$ : $M'N'=MN$ et $(\\overrightarrow{MN},\\overrightarrow{M'N'})=\\theta\\ [2\\pi]$ (si $M\\neq N$).\nUne rotation **conserve les distances**, l'alignement, le parallélisme, les angles orientés, les milieux et les barycentres. L'image d'une droite est une droite qui fait l'angle $\\theta$ avec elle ; l'image d'un cercle de centre $\\Omega$ et de rayon $\\rho$ est le cercle de centre $r(\\Omega)$ et de même rayon $\\rho$.\n:::\n\n:::propriete Expressions analytiques (centre $O$, repère orthonormé direct)\n- Quart de tour direct $r\\left(O\\,;\\frac\\pi2\\right)$ : $x'=-y$, $y'=x$.\n- Quart de tour indirect $r\\left(O\\,;-\\frac\\pi2\\right)$ : $x'=y$, $y'=-x$.\n- Demi-tour $r(O\\,;\\pi)$ : $x'=-x$, $y'=-y$.\n:::\n\n:::remarque\nPour un angle $\\theta$ quelconque et le centre $O$, on admet que $x'=x\\cos\\theta-y\\sin\\theta$ et $y'=x\\sin\\theta+y\\cos\\theta$ (on retrouve les cas ci-dessus avec $\\theta=\\pm\\frac\\pi2$ ou $\\pi$).\n:::\n\n:::methode Utiliser une rotation dans une démonstration\nPour montrer que deux segments ont la même longueur, ou qu'un triangle est isocèle rectangle ou équilatéral, chercher une rotation (souvent d'angle $\\pm\\frac\\pi2$ ou $\\pm\\frac\\pi3$) qui envoie l'un des segments sur l'autre.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nDéterminer l'image de $A(3\\,;1)$ par le quart de tour direct de centre $O$ et vérifier le résultat.\n\n1. $x'=-y=-1$ et $y'=x=3$ : $A'(-1\\,;3)$.\n2. $OA=\\sqrt{10}=OA'$ et $\\overrightarrow{OA}\\cdot\\overrightarrow{OA'}=3\\times(-1)+1\\times3=0$ : angle droit.\n3. Le sens est direct : on tourne dans le sens inverse des aiguilles d'une montre.\n:::\n\n:::exemple Exemple 2\n$ABC$ est un triangle direct. On construit à l'extérieur les triangles équilatéraux $ABD$ et $ACE$. Montrer que $DC=BE$.\n\n1. $ABD$ est équilatéral et $D$ est de l'autre côté de $(AB)$ par rapport à $C$ : $(\\overrightarrow{AD},\\overrightarrow{AB})=\\dfrac\\pi3$ et $AD=AB$, donc $r\\left(A\\,;\\dfrac\\pi3\\right)(D)=B$.\n2. $ACE$ est équilatéral et extérieur : $(\\overrightarrow{AC},\\overrightarrow{AE})=\\dfrac\\pi3$ et $AC=AE$, donc $r\\left(A\\,;\\dfrac\\pi3\\right)(C)=E$.\n3. La rotation envoie le segment $[DC]$ sur $[BE]$ ; elle conserve les longueurs : $DC=BE$ (et l'angle $(\\overrightarrow{DC},\\overrightarrow{BE})$ vaut $\\dfrac\\pi3$).\n:::",
+   "definition": "La rotation de centre $O$ et d'angle $\\theta$ envoie $M$ sur $M'$ tel que $OM'=OM$ et $(\\overrightarrow{OM},\\overrightarrow{OM'})=\\theta$ ; elle conserve les distances et les angles orientés.",
+   "formules": [
+    "$OM'=OM,\\ (\\overrightarrow{OM},\\overrightarrow{OM'})=\\theta\\ [2\\pi]$",
+    "Quart de tour direct : $x'=-y,\\ y'=x$",
+    "$(\\overrightarrow{MN},\\overrightarrow{M'N'})=\\theta$"
+   ],
+   "niveaux": {
+    "phrase": "Une rotation fait tourner toute la figure autour d'un point fixe, d'un même angle.",
+    "simple": "Les aiguilles d'une montre ou les rayons d'une roue de vélo : chaque point tourne autour du centre en restant à la même distance de lui.",
+    "complete": "$r(O\\,;\\theta)$ est un déplacement : elle conserve les distances et les angles orientés, et vérifie $(\\overrightarrow{MN},\\overrightarrow{M'N'})=\\theta$. Son seul point fixe est $O$ si $\\theta\\not\\equiv0\\ [2\\pi]$. Dans un repère orthonormé direct de centre $O$ : $x'=x\\cos\\theta-y\\sin\\theta$, $y'=x\\sin\\theta+y\\cos\\theta$."
+   },
+   "analogie": "Le manège de la foire de Lomé tourne autour de son axe : chaque siège garde sa distance au centre et tous tournent du même angle.",
+   "exemples_resolus": [
+    {
+     "enonce": "$ABCD$ est un carré direct de centre $O$. Déterminer l'image de $A$, de $B$ et du segment $[AB]$ par $r\\left(O\\,;\\dfrac\\pi2\\right)$.",
+     "etapes": [
+      "Les diagonales d'un carré sont perpendiculaires, de même longueur, et se coupent en leur milieu : $OA=OB=OC=OD$.",
+      "Le carré est direct : $(\\overrightarrow{OA},\\overrightarrow{OB})=\\dfrac\\pi2$, donc $r(A)=B$ ; de même $r(B)=C$.",
+      "L'image du segment $[AB]$ est le segment $[BC]$."
+     ]
+    },
+    {
+     "enonce": "Déterminer l'image de la droite $(D) : y=2x+1$ par le quart de tour direct de centre $O$.",
+     "etapes": [
+      "$x'=-y$ et $y'=x$ donnent $x=y'$ et $y=-x'$.",
+      "$M\\in(D)\\iff-x'=2y'+1\\iff x'+2y'+1=0$.",
+      "Contrôle : $(0\\,;1)\\in(D)$ a pour image $(-1\\,;0)$, et $-1+0+1=0$. L'image, $x+2y+1=0$, est bien perpendiculaire à $(D)$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Tourner dans le mauvais sens (le sens direct est le sens inverse des aiguilles d'une montre).",
+    "Écrire $x'=y$, $y'=-x$ pour le quart de tour direct (c'est l'indirect).",
+    "Oublier que la rotation conserve les distances au centre : OM' = OM.",
+    "Confondre l'angle de la rotation et un angle du triangle."
+   ],
+   "astuces": [
+    "Contrôle un quart de tour par un produit scalaire nul et des longueurs égales.",
+    "Dans une figure avec des triangles équilatéraux, pense à une rotation d'angle ±π/3 ; avec des carrés, à ±π/2.",
+    "Pour l'image d'une droite, il suffit de deux points images."
+   ],
+   "mnemo": "« Quart de tour direct : (x ; y) devient (−y ; x). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu construisais l'image d'un point par une rotation avec le compas (même distance au centre) et le rapporteur (angle). Les angles orientés de ce semestre permettent de préciser le sens."
+   },
+   "methode_redaction": "Pour utiliser une rotation, justifie les deux conditions : « AD = AB et (AD, AB) = π/3, donc B est l'image de D par la rotation de centre A et d'angle π/3 ». Puis cite la propriété de conservation (« une rotation conserve les longueurs »).",
+   "flash": [
+    {
+     "q": "$r(O\\,;\\theta)(M)=M'$ signifie ?",
+     "r": "$OM'=OM$ et $(\\overrightarrow{OM},\\overrightarrow{OM'})=\\theta\\ [2\\pi]$"
+    },
+    {
+     "q": "Image de $(2\\,;5)$ par le quart de tour direct de centre $O$ ?",
+     "r": "$(-5\\,;2)$"
+    },
+    {
+     "q": "$r(O\\,;\\pi)$ est… ?",
+     "r": "La symétrie de centre O."
+    },
+    {
+     "q": "Une rotation conserve-t-elle les angles orientés ?",
+     "r": "Oui."
+    },
+    {
+     "q": "Image d'un cercle de rayon 3 par une rotation ?",
+     "r": "Un cercle de rayon 3 (centre = image du centre)."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C14-N3.svg",
+    "alt": "Repère : triangle bleu ABC et son image violette A'B'C' par la rotation de centre O et d'angle π/2 ; un arc rouge fléché indique le sens direct entre OA et OA', qui forment un angle droit.",
+    "legende": "Le quart de tour direct de centre O : (x ; y) ↦ (−y ; x).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C14-N4",
+   "titre": "Utilisation des transformations : propriétés, composées, lieux",
+   "prerequis_notions": [
+    "M-S2-C14-N1",
+    "M-S2-C14-N2",
+    "M-S2-C14-N3"
+   ],
+   "cours_md": "## 1. Tableau récapitulatif\n\n| | Translation $t_{\\vec u}$ | Homothétie $h(O\\,;k)$ | Rotation $r(O\\,;\\theta)$ |\n|---|---|---|---|\n| Définition | $\\overrightarrow{MM'}=\\vec u$ | $\\overrightarrow{OM'}=k\\overrightarrow{OM}$ | $OM'=OM$, $(\\overrightarrow{OM},\\overrightarrow{OM'})=\\theta$ |\n| Longueurs | conservées | $\\times\\lvert k\\rvert$ | conservées |\n| Aires | conservées | $\\times k^2$ | conservées |\n| Image d'une droite | parallèle | parallèle | tournée de $\\theta$ |\n\n:::propriete Ce que conservent les trois transformations\nL'alignement, le parallélisme, les angles géométriques, les milieux et les barycentres (avec les mêmes coefficients). L'image d'un segment est un segment, celle d'un cercle est un cercle (de rayon $|k|r$ pour une homothétie, $r$ sinon).\n:::\n\n## 2. Composées simples\n\n:::propriete\n- $t_{\\vec v}\\circ t_{\\vec u}=t_{\\vec u+\\vec v}$ (deux translations successives).\n- $h(O\\,;k')\\circ h(O\\,;k)=h(O\\,;kk')$ (même centre).\n- $r(O\\,;\\theta')\\circ r(O\\,;\\theta)=r(O\\,;\\theta+\\theta')$ (même centre).\n- La symétrie centrale $s_O=h(O\\,;-1)=r(O\\,;\\pi)$ vérifie $s_O\\circ s_O=$ identité.\n:::\n\n## 3. Problèmes de lieux et de constructions\n\n:::methode Trouver un lieu de points\nSi un point $M$ décrit une figure $\\mathscr F$ et si $M'$ est l'image de $M$ par une transformation $f$ fixe, alors $M'$ décrit l'image $f(\\mathscr F)$.\n1. Traduire la construction de $M'$ par une égalité vectorielle ($\\overrightarrow{AI}=\\frac12\\overrightarrow{AM}$, $\\overrightarrow{MM'}=\\vec u$…).\n2. Reconnaître la transformation.\n3. Conclure : $M'$ décrit l'image de $\\mathscr F$ (préciser centre et rayon pour un cercle).\n:::\n\n:::attention\nLa transformation doit être **la même** pour toutes les positions de $M$ (centre, rapport, vecteur ou angle **fixes**).\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$A$ est un point fixe et $\\mathscr C$ un cercle de centre $\\Omega$ et de rayon $4$. Le point $M$ décrit $\\mathscr C$ et $I$ est le milieu de $[AM]$. Quel est le lieu de $I$ ?\n\n1. $I$ milieu de $[AM]$ : $\\overrightarrow{AI}=\\dfrac12\\overrightarrow{AM}$, donc $I=h\\left(A\\,;\\dfrac12\\right)(M)$.\n2. L'image de $\\mathscr C$ par cette homothétie est le cercle de centre $\\Omega'=h\\left(A\\,;\\dfrac12\\right)(\\Omega)$, milieu de $[A\\Omega]$, et de rayon $\\dfrac12\\times4=2$.\n3. Le lieu de $I$ est le cercle de centre $\\Omega'$ et de rayon $2$.\n:::\n\n:::exemple Exemple 2\nOn applique $h(O\\,;2)$ puis $h(O\\,;-3)$. Quelle transformation obtient-on ?\n\n1. $\\overrightarrow{OM'}=2\\overrightarrow{OM}$ puis $\\overrightarrow{OM''}=-3\\overrightarrow{OM'}$.\n2. $\\overrightarrow{OM''}=-3\\times2\\,\\overrightarrow{OM}=-6\\overrightarrow{OM}$.\n3. C'est l'homothétie de centre $O$ et de rapport $-6$.\n:::",
+   "definition": "Translations, homothéties et rotations conservent l'alignement, le parallélisme, les angles et les milieux ; on les utilise pour démontrer, construire et trouver des lieux de points (si $M$ décrit $\\mathscr F$, $f(M)$ décrit $f(\\mathscr F)$).",
+   "formules": [
+    "$t_{\\vec v}\\circ t_{\\vec u}=t_{\\vec u+\\vec v}$",
+    "$h(O\\,;k')\\circ h(O\\,;k)=h(O\\,;kk')$",
+    "$r(O\\,;\\theta')\\circ r(O\\,;\\theta)=r(O\\,;\\theta+\\theta')$",
+    "$s_O=h(O\\,;-1)=r(O\\,;\\pi)$"
+   ],
+   "niveaux": {
+    "phrase": "Si un point se déplace sur une figure, son image par une transformation se déplace sur l'image de cette figure.",
+    "simple": "Si tu marches autour d'un manguier en restant à 4 m du tronc, ton ombre « réduite de moitié vers une lampe » fait elle aussi un cercle, deux fois plus petit : c'est un lieu par homothétie.",
+    "complete": "Les trois familles de transformations sont des bijections affines conservant le parallélisme et le barycentre ; translations et rotations sont des isométries, l'homothétie de rapport $k$ multiplie les distances par $|k|$. La composée de deux homothéties de même centre (resp. deux rotations de même centre, deux translations) est du même type. Image d'une figure : $f(\\mathscr F)=\\{f(M),\\ M\\in\\mathscr F\\}$."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Quelles transformations du chapitre sont à la fois une homothétie et une rotation ?",
+     "etapes": [
+      "Une homothétie conserve les longueurs seulement si $|k|=1$ : $k=1$ (identité) ou $k=-1$ (symétrie centrale).",
+      "La symétrie centrale $h(O\\,;-1)$ est aussi la rotation $r(O\\,;\\pi)$ ; l'identité est $h(O\\,;1)=r(O\\,;0)$.",
+      "Ce sont donc l'identité et les symétries centrales."
+     ]
+    },
+    {
+     "enonce": "Dans un repère orthonormé, $M$ décrit la droite $(D) : x=2$ et $M'$ est l'image de $M$ par le quart de tour direct de centre $O$. Quel est le lieu de $M'$ ?",
+     "etapes": [
+      "$M(2\\,;t)$ avec $t\\in\\mathbb{R}$ ; son image est $M'(-t\\,;2)$.",
+      "Toutes les images ont pour ordonnée $2$ et leur abscisse $-t$ prend toutes les valeurs réelles.",
+      "Le lieu de $M'$ est la droite d'équation $y=2$ (perpendiculaire à $(D)$, comme prévu pour un quart de tour)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Utiliser une transformation dont le centre ou le rapport dépend de M (ce n'est plus une transformation fixe).",
+    "Oublier de multiplier le rayon par |k| pour l'image d'un cercle par une homothétie.",
+    "Additionner les rapports au lieu de les multiplier pour deux homothéties de même centre.",
+    "Décrire un lieu sans préciser le centre et le rayon (ou un point et une direction)."
+   ],
+   "astuces": [
+    "Un milieu, un point « aux deux tiers » ou un point « symétrique » se traduisent souvent par une homothétie.",
+    "Un triangle équilatéral fait penser à une rotation de ±π/3, un carré à ±π/2.",
+    "Pour un lieu, cherche d'abord la position de deux ou trois points particuliers pour deviner la forme."
+   ],
+   "mnemo": "« Ce que fait M sur sa figure, M' le fait sur l'image. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens du barycentre ? Le milieu $I$ de $[AM]$ vérifie $\\overrightarrow{AI}=\\dfrac12\\overrightarrow{AM}$ : c'est exactement une homothétie de centre $A$ et de rapport $\\dfrac12$."
+   },
+   "methode_redaction": "Pour un lieu : « I est le milieu de [AM] donc AI = ½ AM ; I est l'image de M par l'homothétie h de centre A et de rapport ½. M décrit 𝒞, donc I décrit h(𝒞), le cercle de centre Ω' (milieu de [AΩ]) et de rayon 2. »",
+   "flash": [
+    {
+     "q": "Quelles transformations conservent les longueurs ?",
+     "r": "Les translations et les rotations (et les homothéties de rapport ±1)."
+    },
+    {
+     "q": "$h(O\\,;2)$ puis $h(O\\,;5)$ donne ?",
+     "r": "$h(O\\,;10)$"
+    },
+    {
+     "q": "$r\\left(O\\,;\\frac\\pi3\\right)$ puis $r\\left(O\\,;\\frac\\pi6\\right)$ donne ?",
+     "r": "$r\\left(O\\,;\\frac\\pi2\\right)$"
+    },
+    {
+     "q": "$s_O\\circ s_O=\\,?$",
+     "r": "L'identité."
+    },
+    {
+     "q": "M décrit un cercle de rayon 6 ; I = h(A ; 1/3)(M). Rayon du lieu de I ?",
+     "r": "2"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C14-N4.svg",
+    "alt": "Point A, cercle bleu 𝒞 de centre Ω sur lequel se déplace M, et cercle vert en pointillés 𝒞' de centre Ω' (milieu de [AΩ]) et de rayon deux fois plus petit, décrit par le milieu I de [AM].",
+    "legende": "Si M décrit 𝒞, le milieu I de [AM] décrit l'image de 𝒞 par l'homothétie de centre A et de rapport 1/2.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S2-C14-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C14-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle est l'image du point $A(1\\,;1)$ par la translation de vecteur $\\vec u(2\\,;-3)$ ?",
+   "choix": [
+    "$(3\\,;-2)$",
+    "$(-1\\,;4)$",
+    "$(3\\,;4)$",
+    "$(2\\,;-3)$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "On ajoute les coordonnées de u."
+   ],
+   "corrige": [
+    "$x'=x+a=1+2=3$ et $y'=y+b=1-3=-2$.",
+    "$A'(3\\,;-2)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Soustraire au lieu d'ajouter : (−1 ; 4).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C14-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C14-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Donner les coordonnées de l'image de $A(-1\\,;2)$ par l'homothétie de centre $O$ (origine) et de rapport $3$.",
+   "reponses_acceptees": [
+    "(-3;6)",
+    "A'(-3;6)",
+    "(-3,6)",
+    "(−3;6)"
+   ],
+   "indices": [
+    "Centre O : x' = kx, y' = ky."
+   ],
+   "corrige": [
+    "$x'=3x=-3$ et $y'=3y=6$.",
+    "$A'(-3\\,;6)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Ajouter 3 au lieu de multiplier par 3.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C14-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C14-N3"
+   ],
+   "format": "qcm",
+   "enonce": "La rotation de centre $O$ et d'angle $\\pi$ est :",
+   "choix": [
+    "la symétrie de centre $O$",
+    "une symétrie axiale",
+    "une translation",
+    "l'homothétie de centre $O$ et de rapport $2$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Un demi-tour autour de O."
+   ],
+   "corrige": [
+    "Avec $\\theta=\\pi$, $M'$ est tel que $OM'=OM$ et $O$, $M$, $M'$ alignés avec $O$ entre $M$ et $M'$ : $O$ est le milieu de $[MM']$.",
+    "C'est la symétrie de centre O."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre avec la symétrie axiale.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C14-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C14-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un triangle a une aire de $5$ cm². Quelle est l'aire (en cm²) de son image par une homothétie de rapport $-2$ ?",
+   "reponses_acceptees": [
+    "20",
+    "20cm²",
+    "20cm2"
+   ],
+   "indices": [
+    "Aires × k²."
+   ],
+   "corrige": [
+    "Les aires sont multipliées par $k^2=(-2)^2=4$.",
+    "Aire : $5\\times4=20$ cm²."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Multiplier par −2 (aire négative) ou par 2.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C14-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C14-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Dans un repère orthonormé direct, donner l'image de $A(2\\,;5)$ par la rotation de centre $O$ et d'angle $\\dfrac\\pi2$.",
+   "reponses_acceptees": [
+    "(-5;2)",
+    "A'(-5;2)",
+    "(-5,2)",
+    "(−5;2)"
+   ],
+   "indices": [
+    "(x ; y) ↦ (−y ; x)."
+   ],
+   "corrige": [
+    "Quart de tour direct : $x'=-y=-5$ et $y'=x=2$.",
+    "$A'(-5\\,;2)$ (contrôle : $\\overrightarrow{OA}\\cdot\\overrightarrow{OA'}=-10+10=0$)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Utiliser la formule du quart de tour indirect : (5 ; −2).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C14-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C14-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Donner les coordonnées du centre de l'image du cercle $\\mathscr C : (x-2)^2+(y+1)^2=9$ par la translation de vecteur $\\vec u(-1\\,;4)$.",
+   "reponses_acceptees": [
+    "(1;3)",
+    "Ω'(1;3)",
+    "(1,3)"
+   ],
+   "indices": [
+    "Il suffit de translater le centre."
+   ],
+   "corrige": [
+    "Le centre de $\\mathscr C$ est $\\Omega(2\\,;-1)$ ; son image est $\\Omega'(2-1\\,;-1+4)=(1\\,;3)$.",
+    "L'image est le cercle $(x-1)^2+(y-3)^2=9$ (même rayon $3$)."
+   ],
+   "bareme": [
+    1.5,
+    0.5
+   ],
+   "piege": "Lire le centre (−2 ; 1) dans l'équation.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C14-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C14-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Une homothétie de centre $\\Omega$ envoie $A$ sur $A'$ avec $\\overrightarrow{\\Omega A'}=-\\dfrac12\\overrightarrow{\\Omega A}$. Son rapport est :",
+   "choix": [
+    "$-\\dfrac12$",
+    "$\\dfrac12$",
+    "$-2$",
+    "$2$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Compare avec la définition."
+   ],
+   "corrige": [
+    "Par définition, $\\overrightarrow{\\Omega A'}=k\\overrightarrow{\\Omega A}$.",
+    "Donc $k=-\\dfrac12$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre −2 en inversant le rôle de A et A'.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C14-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C14-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Donner l'image de $B(3\\,;-1)$ par l'homothétie de centre $\\Omega(1\\,;2)$ et de rapport $2$.",
+   "reponses_acceptees": [
+    "(5;-4)",
+    "B'(5;-4)",
+    "(5,-4)",
+    "(5;−4)"
+   ],
+   "indices": [
+    "ΩB' = 2 ΩB."
+   ],
+   "corrige": [
+    "$x'-1=2(3-1)=4$, donc $x'=5$.",
+    "$y'-2=2(-1-2)=-6$, donc $y'=-4$. $B'(5\\,;-4)$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 2 × (3 ; −1) = (6 ; −2) comme si le centre était O.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C14-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C14-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Une homothétie $h$ envoie $A(2\\,;1)$ sur $A'(5\\,;7)$ et $B(4\\,;0)$ sur $B'(11\\,;4)$.\n\n1. Déterminer le rapport $k$ de $h$.\n2. Déterminer les coordonnées de son centre $\\Omega$.\n3. Quelle est l'image par $h$ du cercle de centre $A$ et de rayon $2$ ?",
+   "indices": [
+    "A'B' = k AB.",
+    "Le rayon est multiplié par |k|."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{AB}(2\\,;-1)$ et $\\overrightarrow{A'B'}(6\\,;-3)=3\\overrightarrow{AB}$, donc $k=3$.",
+    "2. $\\overrightarrow{\\Omega A'}=3\\overrightarrow{\\Omega A}$ : $5-a=3(2-a)$ et $7-b=3(1-b)$, donc $2a=1$ et $2b=-4$ : $\\Omega\\left(\\dfrac12\\,;-2\\right)$.",
+    "Contrôle avec $B$ : $11-\\frac12=3\\left(4-\\frac12\\right)$ et $4+2=3(0+2)$.",
+    "3. L'image est le cercle de centre $h(A)=A'(5\\,;7)$ et de rayon $|3|\\times2=6$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    0.5,
+    1.5
+   ],
+   "piege": "Garder le rayon 2 pour l'image ou oublier de vérifier avec B.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C14-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C14-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABC$ est un triangle direct. On construit à l'extérieur de $ABC$ les triangles équilatéraux $ABD$ (avec $D$ de l'autre côté de $(AB)$ par rapport à $C$) et $ACE$ (avec $E$ de l'autre côté de $(AC)$ par rapport à $B$). On note $r$ la rotation de centre $A$ et d'angle $\\dfrac\\pi3$.\n\n1. Montrer que $r(D)=B$ et $r(C)=E$.\n2. En déduire que $DC=BE$.\n3. Déterminer une mesure de l'angle $(\\overrightarrow{DC},\\overrightarrow{BE})$.",
+   "indices": [
+    "Fais une figure : dans quel sens tourne-t-on pour aller de AD à AB ?",
+    "Une rotation d'angle θ fait tourner tous les vecteurs de θ."
+   ],
+   "corrige": [
+    "1. $ABD$ est équilatéral et $D$ est du côté opposé à $C$ : $AD=AB$ et $(\\overrightarrow{AD},\\overrightarrow{AB})=\\dfrac\\pi3$, donc $r(D)=B$.",
+    "$ACE$ est équilatéral et extérieur : $AC=AE$ et $(\\overrightarrow{AC},\\overrightarrow{AE})=\\dfrac\\pi3$, donc $r(C)=E$.",
+    "2. $r$ envoie $D$ sur $B$ et $C$ sur $E$ ; une rotation conserve les distances, donc $BE=DC$.",
+    "3. Pour une rotation d'angle $\\theta$, $(\\overrightarrow{MN},\\overrightarrow{M'N'})=\\theta$ : ici $(\\overrightarrow{DC},\\overrightarrow{BE})=\\dfrac\\pi3\\ [2\\pi]$."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Se tromper de sens : (AB, AD) vaut −π/3, c'est (AD, AB) qui vaut π/3.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C14-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C14-N1",
+    "M-S2-C14-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé direct, $(D)$ est la droite d'équation $x-2y+4=0$.\n\n1. Déterminer une équation de l'image de $(D)$ par le quart de tour direct de centre $O$.\n2. Déterminer une équation de l'image de $(D)$ par la translation de vecteur $\\vec u(1\\,;1)$.",
+   "indices": [
+    "Exprime x et y en fonction de x' et y', puis remplace dans l'équation de (D).",
+    "Contrôle avec un point de (D)."
+   ],
+   "corrige": [
+    "1. Si $M'(x'\\,;y')$ est l'image de $M(x\\,;y)$ : $x'=-y$, $y'=x$, donc $x=y'$ et $y=-x'$.",
+    "$M\\in(D)\\iff y'-2(-x')+4=0\\iff2x'+y'+4=0$. Image : $2x+y+4=0$ (contrôle : $(0\\,;2)\\in(D)$ a pour image $(-2\\,;0)$ et $-4+0+4=0$).",
+    "2. $x=x'-1$ et $y=y'-1$ : $(x'-1)-2(y'-1)+4=0\\iff x'-2y'+5=0$.",
+    "Image : $x-2y+5=0$, parallèle à $(D)$ (contrôle : $(0\\,;2)$ a pour image $(1\\,;3)$ et $1-6+5=0$)."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Remplacer x par x' + 1 au lieu de x' − 1 dans la translation.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C14-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C14-N4",
+    "M-S2-C14-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Dans un repère orthonormé, $A$ est l'origine et $\\mathscr C$ le cercle de centre $\\Omega(4\\,;0)$ et de rayon $2$. Le point $M$ décrit $\\mathscr C$.\n\n1. $I$ est le milieu de $[AM]$. Déterminer le lieu de $I$.\n2. $P$ est le point tel que $\\overrightarrow{AP}=-2\\overrightarrow{AM}$. Déterminer le lieu de $P$.\n3. Écrire une équation de chacun de ces lieux.",
+   "indices": [
+    "Traduis chaque construction par une homothétie de centre A.",
+    "Le rayon est multiplié par |k|."
+   ],
+   "corrige": [
+    "1. $\\overrightarrow{AI}=\\dfrac12\\overrightarrow{AM}$ : $I=h\\left(A\\,;\\dfrac12\\right)(M)$. $I$ décrit l'image de $\\mathscr C$ : le cercle de centre $h(\\Omega)=(2\\,;0)$ et de rayon $\\dfrac12\\times2=1$.",
+    "2. $P=h(A\\,;-2)(M)$ : $P$ décrit le cercle de centre $h(\\Omega)=(-8\\,;0)$ et de rayon $|-2|\\times2=4$.",
+    "3. Lieu de $I$ : $(x-2)^2+y^2=1$. Lieu de $P$ : $(x+8)^2+y^2=16$."
+   ],
+   "bareme": [
+    2,
+    2,
+    1
+   ],
+   "piege": "Oublier la valeur absolue (rayon −4) ou mettre le centre du second cercle en (8 ; 0).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C14-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C14-N3",
+    "M-S2-C14-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABCD$ est un carré direct de centre $O$. Les points $M\\in[AB]$ et $N\\in[BC]$ vérifient $AM=BN$. On note $r$ la rotation de centre $O$ et d'angle $\\dfrac\\pi2$.\n\n1. Déterminer $r(A)$ et $r(B)$.\n2. Montrer que $r(M)=N$.\n3. En déduire la nature du triangle $OMN$.",
+   "indices": [
+    "Une rotation envoie un segment sur un segment de même longueur.",
+    "Sur le segment [BC], un seul point est à la distance AM de B."
+   ],
+   "corrige": [
+    "1. Les diagonales du carré ont même milieu $O$, même longueur et sont perpendiculaires : $OA=OB$ et $(\\overrightarrow{OA},\\overrightarrow{OB})=\\dfrac\\pi2$ (carré direct), donc $r(A)=B$ ; de même $r(B)=C$.",
+    "2. $r$ envoie le segment $[AB]$ sur $[BC]$ et conserve les distances : $M'=r(M)$ est sur $[BC]$ avec $BM'=AM$.",
+    "Or $N\\in[BC]$ et $BN=AM$ : $M'$ et $N$ sont le même point, donc $r(M)=N$.",
+    "3. $ON=OM$ et $(\\overrightarrow{OM},\\overrightarrow{ON})=\\dfrac\\pi2$ : le triangle $OMN$ est rectangle isocèle en $O$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1,
+    1
+   ],
+   "piege": "Affirmer r(M) = N sans justifier que l'image de M est sur [BC] à la bonne distance de B.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C14-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C14-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On applique à un point l'homothétie $h(O\\,;2)$, puis l'homothétie $h(O\\,;-3)$. La transformation obtenue est une homothétie de centre $O$. Quel est son rapport ?",
+   "reponses_acceptees": [
+    "-6",
+    "k=-6",
+    "−6"
+   ],
+   "indices": [
+    "Enchaîne les deux égalités vectorielles."
+   ],
+   "corrige": [
+    "$\\overrightarrow{OM'}=2\\overrightarrow{OM}$ et $\\overrightarrow{OM''}=-3\\overrightarrow{OM'}$.",
+    "$\\overrightarrow{OM''}=-6\\overrightarrow{OM}$ : le rapport est $-6$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Additionner les rapports (2 + (−3) = −1).",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Homothétie : multiplier les longueurs par k au lieu de |k|, ou les aires par k au lieu de k².",
+  "Homothétie de rapport négatif : placer l'image du même côté du centre.",
+  "Expression analytique avec un centre autre que O : oublier de soustraire les coordonnées du centre.",
+  "Rotation : se tromper de sens (le sens direct est le sens inverse des aiguilles d'une montre) ou confondre les formules des quarts de tour direct et indirect.",
+  "Translation : confondre $\\overrightarrow{MM'}=\\vec u$ et $\\overrightarrow{M'M}=\\vec u$.",
+  "Image d'une droite ou d'un cercle par le calcul : remplacer x par x' + a au lieu de x' − a.",
+  "Lieu de points : ne pas préciser le centre et le rayon de l'image, ou utiliser une transformation qui n'est pas fixe."
+ ]
+}

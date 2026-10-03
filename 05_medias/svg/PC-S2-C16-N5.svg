@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" width="400" height="290" role="img" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif">
+<title>Réaction acide-base : on verse une solution de soude contenue dans une burette dans une solution d'acide chlorhydrique additionnée de bleu de bromothymol</title>
+<rect x="0" y="0" width="400" height="290" rx="18" fill="#fffdf8"/>
+<rect x="30.0" y="268.0" width="140.0" height="10.0" rx="2" stroke="#1f2937" stroke-width="1.5" fill="#9ca3af"/>
+<line x1="45.0" y1="268.0" x2="45.0" y2="20.0" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+<line x1="45.0" y1="60.0" x2="92.0" y2="60.0" stroke="#1f2937" stroke-width="3" stroke-linecap="round"/>
+<rect x="92.0" y="20.0" width="16.0" height="165.0" rx="0" stroke="#1f2937" stroke-width="1.5" fill="#ffffff"/>
+<rect x="94.0" y="40.0" width="12.0" height="143.0" rx="0" stroke="#e0e7ff" stroke-width="0" fill="#e0e7ff"/>
+<line x1="92.0" y1="40.0" x2="99.0" y2="40.0" stroke="#1f2937" stroke-width="1" stroke-linecap="round"/>
+<line x1="92.0" y1="56.0" x2="99.0" y2="56.0" stroke="#1f2937" stroke-width="1" stroke-linecap="round"/>
+<line x1="92.0" y1="72.0" x2="99.0" y2="72.0" stroke="#1f2937" stroke-width="1" stroke-linecap="round"/>
+<line x1="92.0" y1="88.0" x2="99.0" y2="88.0" stroke="#1f2937" stroke-width="1" stroke-linecap="round"/>
+<line x1="92.0" y1="104.0" x2="99.0" y2="104.0" stroke="#1f2937" stroke-width="1" stroke-linecap="round"/>
+<line x1="92.0" y1="120.0" x2="99.0" y2="120.0" stroke="#1f2937" stroke-width="1" stroke-linecap="round"/>
+<line x1="92.0" y1="136.0" x2="99.0" y2="136.0" stroke="#1f2937" stroke-width="1" stroke-linecap="round"/>
+<line x1="92.0" y1="152.0" x2="99.0" y2="152.0" stroke="#1f2937" stroke-width="1" stroke-linecap="round"/>
+<line x1="92.0" y1="168.0" x2="99.0" y2="168.0" stroke="#1f2937" stroke-width="1" stroke-linecap="round"/>
+<path d="M 92 185 L 108 185 L 102 200 L 98 200 Z" stroke="#1f2937" stroke-width="1.5" fill="#ffffff" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="98.0" y1="200.0" x2="98.0" y2="212.0" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+<line x1="102.0" y1="200.0" x2="102.0" y2="212.0" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+<rect x="86.0" y="188.0" width="28.0" height="6.0" rx="2" stroke="#1f2937" stroke-width="1" fill="#6b7280"/>
+<text x="118.0" y="70.0" font-size="12" text-anchor="start" fill="#1f2937" font-weight="normal">soude</text>
+<text x="118.0" y="85.0" font-size="12" text-anchor="start" fill="#1d4ed8" font-weight="bold">Na⁺ + OH⁻</text>
+<path d="M 65 215 L 65 255 Q 65 262 72 262 L 128 262 Q 135 262 135 255 L 135 215" stroke="#1f2937" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="67.0" y="228.0" width="66.0" height="32.0" rx="0" stroke="#facc15" stroke-width="0" fill="#facc15"/>
+<rect x="85.0" y="248.0" width="30.0" height="5.0" rx="2" stroke="#1f2937" stroke-width="0" fill="#374151"/>
+<text x="150.0" y="232.0" font-size="12" text-anchor="start" fill="#1f2937" font-weight="normal">acide chlorhydrique</text>
+<text x="150.0" y="247.0" font-size="12" text-anchor="start" fill="#c0262d" font-weight="bold">H₃O⁺ + Cl⁻ + BBT</text>
+<text x="150.0" y="262.0" font-size="11" text-anchor="start" fill="#6b7280" font-weight="normal">(agitateur magnétique)</text>
+<text x="300.0" y="30.0" font-size="13" text-anchor="middle" fill="#1f2937" font-weight="bold">Couleur du BBT</text>
+<rect x="240.0" y="46.0" width="26.0" height="26.0" rx="4" stroke="#1f2937" stroke-width="1" fill="#facc15"/>
+<text x="274.0" y="59.0" font-size="12" text-anchor="start" fill="#1f2937" font-weight="bold">jaune</text>
+<text x="274.0" y="73.0" font-size="11" text-anchor="start" fill="#6b7280" font-weight="normal">acide en excès</text>
+<rect x="240.0" y="88.0" width="26.0" height="26.0" rx="4" stroke="#1f2937" stroke-width="1" fill="#4ade80"/>
+<text x="274.0" y="101.0" font-size="12" text-anchor="start" fill="#1f2937" font-weight="bold">vert</text>
+<text x="274.0" y="115.0" font-size="11" text-anchor="start" fill="#6b7280" font-weight="normal">neutre : équivalence</text>
+<rect x="240.0" y="130.0" width="26.0" height="26.0" rx="4" stroke="#1f2937" stroke-width="1" fill="#3b82f6"/>
+<text x="274.0" y="143.0" font-size="12" text-anchor="start" fill="#1f2937" font-weight="bold">bleu</text>
+<text x="274.0" y="157.0" font-size="11" text-anchor="start" fill="#6b7280" font-weight="normal">base en excès</text>
+<text x="300.0" y="172.0" font-size="13" text-anchor="middle" fill="#1d4ed8" font-weight="bold">H₃O⁺ + OH⁻ → 2 H₂O</text>
+<text x="300.0" y="190.0" font-size="12" text-anchor="middle" fill="#1f2937" font-weight="normal">équivalence :</text>
+<text x="300.0" y="207.0" font-size="13" text-anchor="middle" fill="#1f2937" font-weight="bold">C<tspan dy="4" font-size="9">a</tspan><tspan dy="-4">​</tspan>V<tspan dy="4" font-size="9">a</tspan><tspan dy="-4">​</tspan> = C<tspan dy="4" font-size="9">b</tspan><tspan dy="-4">​</tspan>V<tspan dy="4" font-size="9">b</tspan><tspan dy="-4">​</tspan></text>
+</svg>

@@ -1,0 +1,919 @@
+{
+ "id": "PC-S2-C16",
+ "matiere": "PC",
+ "semestre": 2,
+ "ordre": 16,
+ "titre": "Solutions aqueuses, acides, bases et pH",
+ "objectifs": [
+  "Définir solution, solvant, soluté ; décrire la dissolution d'un composé ionique et écrire son équation.",
+  "Calculer concentrations molaire et massique ($C = n/V$, $C_m = m/V$, $C_m = CM$) et concentrations des ions.",
+  "Rédiger le protocole de préparation d'une solution par dissolution et par dilution ($C_0V_0 = C_1V_1$).",
+  "Utiliser l'échelle de pH et la relation $[\\ce{H3O+}] = 10^{-\\text{pH}}$ ; choisir et lire un indicateur coloré.",
+  "Écrire la réaction entre un acide et une base et exploiter l'équivalence $C_aV_a = C_bV_b$.",
+  "Appliquer les règles de sécurité liées aux acides et aux bases."
+ ],
+ "prerequis": [
+  "PC-3e-PH",
+  "PC-S1-C08",
+  "PC-S2-C14",
+  "PC-S2-C15"
+ ],
+ "notions": [
+  {
+   "id": "PC-S2-C16-N1",
+   "titre": "Solutions aqueuses et dissolution des composés ioniques",
+   "prerequis_notions": [
+    "PC-S1-C05-N1",
+    "PC-S1-C08-N3",
+    "PC-S2-C15-N2"
+   ],
+   "cours_md": "## 1. Vocabulaire\n:::definition Solution\nUne **solution** est un mélange **homogène** obtenu en dissolvant une ou plusieurs espèces chimiques, les **solutés** (solides, liquides ou gaz), dans un liquide majoritaire, le **solvant**. Si le solvant est l'**eau**, la solution est dite **aqueuse**.\n:::\nExemples : l'eau salée (soluté : chlorure de sodium), l'eau sucrée, le vinaigre, la boisson de bissap sucrée, les sels de réhydratation orale (SRO).\n\n:::definition Solubilité et saturation\nLa **solubilité** d'un soluté est la masse maximale que l'on peut dissoudre par litre de solution à une température donnée (environ $360\\ \\text{g/L}$ pour le sel de cuisine à 20 °C). Au-delà, le soluté ne se dissout plus : la solution est **saturée**.\n:::\n\n## 2. La molécule d'eau, un solvant polaire\nDans la molécule $\\ce{H2O}$ (coudée), l'oxygène attire plus les électrons des liaisons que l'hydrogène : l'atome O porte une charge partielle négative ($\\delta^-$), les atomes H une charge partielle positive ($\\delta^+$). L'eau est un solvant **polaire**, capable d'attirer les ions.\n\n## 3. Dissolution d'un composé ionique\nUn solide ionique (sel de cuisine, sulfate de cuivre) est un empilement régulier de cations et d'anions. Sa dissolution dans l'eau se fait en trois étapes :\n1. **dissociation** : les molécules d'eau séparent les ions du cristal ;\n2. **hydratation** (solvatation) : chaque ion s'entoure de molécules d'eau (l'oxygène tourné vers les cations, les hydrogènes vers les anions) ;\n3. **dispersion** : les ions hydratés se répartissent dans toute la solution.\n\n:::propriete Équation de dissolution\nOn l'écrit en respectant la conservation des éléments et des charges ; (aq) signifie « hydraté » :\n$$\\ce{NaCl(s) -> Na+(aq) + Cl-(aq)}$$\n$$\\ce{Na2SO4(s) -> 2Na+(aq) + SO4^2-(aq)}$$\n$$\\ce{CuSO4(s) -> Cu^2+(aq) + SO4^2-(aq)}$$\n:::\n:::propriete Électroneutralité\nUne solution est toujours **électriquement neutre** : la charge apportée par les cations compense exactement celle des anions.\n:::\n\n:::remarque Solutés moléculaires\nLe sucre (saccharose) se dissout sans former d'ions : les **molécules** se dispersent. La solution ne conduit pas le courant. Certaines molécules, comme le chlorure d'hydrogène $\\ce{HCl}$, réagissent avec l'eau et donnent des ions ($\\ce{H3O+}$ et $\\ce{Cl-}$).\n:::\n\n## Exemple résolu\nÉcris l'équation de dissolution du chlorure de calcium $\\ce{CaCl2}$ et vérifie l'électroneutralité.\n- Ions : $\\ce{Ca^2+}$ et $\\ce{Cl-}$ ; la formule indique 2 ions chlorure pour 1 ion calcium.\n- Équation : $\\ce{CaCl2(s) -> Ca^2+(aq) + 2Cl-(aq)}$.\n- Électroneutralité : $(+2) + 2 \\times (-1) = 0$ ✔.",
+   "definition": "Une solution aqueuse est un mélange homogène d'un ou plusieurs solutés dans l'eau ; un solide ionique s'y dissout en se dissociant en ions hydratés.",
+   "formules": [
+    "$\\ce{NaCl(s) -> Na+(aq) + Cl-(aq)}$",
+    "$\\ce{Na2SO4(s) -> 2Na+(aq) + SO4^2-(aq)}$"
+   ],
+   "niveaux": {
+    "phrase": "Dissoudre du sel, c'est séparer ses ions et les entourer de molécules d'eau.",
+    "simple": "Le cristal de sel est comme un rang d'élèves bien serrés ; l'eau arrive, sépare chaque élève et l'entoure d'un petit groupe de « gardes du corps » (les molécules d'eau), puis tout le monde se disperse dans la cour.",
+    "complete": "Une solution aqueuse résulte de la dissolution de solutés dans l'eau, solvant polaire. Un composé ionique se dissout par dissociation, hydratation (solvatation) et dispersion des ions ; l'équation de dissolution conserve éléments et charges, et la solution reste électriquement neutre. Au-delà de la solubilité, la solution est saturée. Un soluté moléculaire (sucre) se disperse sans former d'ions."
+   },
+   "analogie": "Quand on prépare la bouillie avec du sucre ou l'eau salée pour la cuisine, le sucre et le sel « disparaissent » : ils sont dispersés dans l'eau sous forme de molécules (sucre) ou d'ions (sel).",
+   "exemples_resolus": [
+    {
+     "enonce": "Écris l'équation de dissolution du sulfate d'aluminium $\\ce{Al2(SO4)3}$.",
+     "etapes": [
+      "Ions : $\\ce{Al^3+}$ et $\\ce{SO4^2-}$ ; la formule indique 2 Al et 3 groupes $\\ce{SO4}$.",
+      "Équation : $\\ce{Al2(SO4)3(s) -> 2Al^3+(aq) + 3SO4^2-(aq)}$.",
+      "Électroneutralité : $2 \\times (+3) + 3 \\times (-2) = 0$ ✔."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier les coefficients des ions : $\\ce{Na2SO4 -> Na+ + SO4^2-}$ ne conserve ni Na ni la charge.",
+    "Écrire $\\ce{Cl2-}$ au lieu de $\\ce{2Cl-}$ (on ne crée pas de « molécule » d'ions chlorure).",
+    "Confondre « dissoudre » et « fondre ».",
+    "Croire que le sucre dissous forme des ions."
+   ],
+   "astuces": [
+    "Vérifie toujours la charge totale à droite : elle doit être nulle.",
+    "Les indices de la formule du solide deviennent les coefficients des ions."
+   ],
+   "mnemo": "« Dissocier, hydrater, disperser. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens des ions et des composés ioniques ? La formule $\\ce{CaCl2}$ signifie « 1 ion $\\ce{Ca^2+}$ pour 2 ions $\\ce{Cl-}$ », de façon à être neutre. Ce sont ces ions qui se séparent dans l'eau."
+   },
+   "methode_redaction": "Écris l'équation avec les états physiques (s) et (aq), puis la vérification des éléments et de l'électroneutralité. Pour décrire la dissolution, cite les trois étapes dans l'ordre.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'une solution aqueuse ?",
+     "r": "Un mélange homogène dont le solvant est l'eau."
+    },
+    {
+     "q": "Différence entre soluté et solvant ?",
+     "r": "Le soluté est l'espèce dissoute ; le solvant est le liquide majoritaire."
+    },
+    {
+     "q": "Trois étapes de la dissolution d'un solide ionique ?",
+     "r": "Dissociation, hydratation (solvatation), dispersion."
+    },
+    {
+     "q": "Équation de dissolution de $\\ce{Na2SO4}$ ?",
+     "r": "$\\ce{Na2SO4(s) -> 2Na+(aq) + SO4^2-(aq)}$."
+    },
+    {
+     "q": "Que signifie (aq) ?",
+     "r": "Que l'espèce est dissoute et hydratée dans l'eau."
+    },
+    {
+     "q": "Qu'est-ce qu'une solution saturée ?",
+     "r": "Une solution qui ne peut plus dissoudre de soluté."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C16-N1.svg",
+    "alt": "À gauche, un cristal de chlorure de sodium (empilement régulier d'ions Na+ et Cl-). À droite, après dissolution, un ion Na+ entouré de molécules d'eau orientées oxygène vers l'ion, et un ion Cl- entouré de molécules d'eau orientées hydrogène vers l'ion. Équation : NaCl(s) → Na+(aq) + Cl-(aq).",
+    "legende": "Dissolution du sel : les ions se séparent et s'entourent de molécules d'eau.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C16-N2",
+   "titre": "Concentrations et préparation d'une solution par dissolution",
+   "prerequis_notions": [
+    "PC-S2-C16-N1",
+    "PC-S2-C14-N2"
+   ],
+   "cours_md": "## 1. Concentration molaire et massique\n:::definition Concentrations d'une espèce dissoute\nPour un soluté de quantité $n$ (masse $m$) dissous dans un volume $V$ de solution :\n$$C = \\frac{n}{V} \\quad (\\text{mol/L}) \\qquad \\qquad C_m = \\frac{m}{V} \\quad (\\text{g/L})$$\n:::\n:::propriete Relation entre les deux\nComme $m = n \\times M$ :\n$$C_m = C \\times M$$\n:::\n:::attention V est le volume de la solution\n$V$ est le volume **final de solution**, pas le volume d'eau ajouté. Convertir les mL en L : $250\\ \\text{mL} = 0{,}250\\ \\text{L}$.\n:::\n\n## 2. Concentration des ions en solution\nPour un soluté ionique de concentration apportée $C$, on lit les concentrations des ions sur l'équation de dissolution. On note $[\\ce{X}]$ la concentration de l'ion X.\n- $\\ce{NaCl -> Na+ + Cl-}$ : $[\\ce{Na+}] = [\\ce{Cl-}] = C$ ;\n- $\\ce{Na2SO4 -> 2Na+ + SO4^2-}$ : $[\\ce{Na+}] = 2C$ ; $[\\ce{SO4^2-}] = C$ ;\n- $\\ce{CaCl2 -> Ca^2+ + 2Cl-}$ : $[\\ce{Ca^2+}] = C$ ; $[\\ce{Cl-}] = 2C$.\n\n## 3. Préparer une solution par dissolution\n:::methode Protocole (exemple : 250,0 mL de solution)\n1. **Calculer** la masse à peser : $m = C \\times V \\times M$.\n2. **Peser** le soluté dans une coupelle sur une balance (tarée).\n3. L'**introduire** dans une **fiole jaugée** de 250,0 mL à l'aide d'un entonnoir ; **rincer** coupelle et entonnoir avec de l'eau distillée, en recueillant l'eau de rinçage dans la fiole.\n4. Remplir la fiole aux **deux tiers** d'eau distillée, boucher et **agiter** jusqu'à dissolution complète.\n5. **Compléter** avec de l'eau distillée jusqu'au **trait de jauge** (le bas du ménisque doit être sur le trait, l'œil à sa hauteur), boucher et retourner plusieurs fois pour **homogénéiser**.\n:::\nLa fiole jaugée est précise ; un bécher ou une éprouvette ne le sont pas assez pour préparer une solution de concentration connue.\n\n## Exemples résolus\n**Exemple 1.** Quelle masse de chlorure de sodium faut-il peser pour préparer $250{,}0\\ \\text{mL}$ de solution à $C = 0{,}100\\ \\text{mol/L}$ ? ($M(\\ce{NaCl}) = 58{,}5$ g/mol)\n- Quantité : $n = C \\times V = 0{,}100 \\times 0{,}2500 = 2{,}50 \\times 10^{-2}\\ \\text{mol}$.\n- Masse : $m = n \\times M = 0{,}0250 \\times 58{,}5$.\n- Résultat : $m = 1{,}46\\ \\text{g}$.\n\n**Exemple 2.** On dissout $5{,}0\\ \\text{g}$ de saccharose ($M = 342$ g/mol) pour obtenir $200\\ \\text{mL}$ de solution. Concentrations massique et molaire ?\n- $C_m = \\dfrac{m}{V} = \\dfrac{5{,}0}{0{,}200} = 25\\ \\text{g/L}$.\n- $C = \\dfrac{C_m}{M} = \\dfrac{25}{342} = 7{,}3 \\times 10^{-2}\\ \\text{mol/L}$.",
+   "definition": "La concentration molaire est $C = n/V$ (mol/L), la concentration massique $C_m = m/V$ (g/L), avec $C_m = C \\times M$ ; on prépare une solution précise dans une fiole jaugée.",
+   "formules": [
+    "$C = \\dfrac{n}{V}$",
+    "$C_m = \\dfrac{m}{V}$",
+    "$C_m = C \\times M$",
+    "$m = C \\times V \\times M$"
+   ],
+   "niveaux": {
+    "phrase": "La concentration dit combien de soluté il y a dans chaque litre de solution.",
+    "simple": "Deux verres de bissap : l'un avec 2 cuillères de sucre, l'autre avec 4 cuillères pour le même volume. Le second est deux fois plus concentré : il y a deux fois plus de sucre par litre.",
+    "complete": "La concentration molaire d'un soluté est $C = n/V$ et sa concentration massique $C_m = m/V$, liées par $C_m = CM$, où $V$ est le volume de solution. Pour un soluté ionique, les concentrations des ions se déduisent de l'équation de dissolution (par exemple $[\\ce{Na+}] = 2C$ pour $\\ce{Na2SO4}$). Une solution de concentration précise se prépare par pesée, dissolution dans une fiole jaugée et ajustement au trait de jauge."
+   },
+   "analogie": "Les sachets de SRO distribués dans les centres de santé se dissolvent dans un litre d'eau potable mesuré avec soin : trop ou pas assez d'eau change la concentration et l'efficacité.",
+   "exemples_resolus": [
+    {
+     "enonce": "On dissout du sulfate de sodium à $C = 0{,}10\\ \\text{mol/L}$. Quelles sont les concentrations des ions ?",
+     "etapes": [
+      "Équation : $\\ce{Na2SO4(s) -> 2Na+(aq) + SO4^2-(aq)}$.",
+      "Chaque mole de soluté donne 2 mol de $\\ce{Na+}$ et 1 mol de $\\ce{SO4^2-}$.",
+      "$[\\ce{Na+}] = 2C = 0{,}20\\ \\text{mol/L}$ ; $[\\ce{SO4^2-}] = C = 0{,}10\\ \\text{mol/L}$."
+     ]
+    },
+    {
+     "enonce": "Quelle masse de glucose ($M = 180$ g/mol) faut-il pour préparer $100{,}0\\ \\text{mL}$ de solution à $0{,}20\\ \\text{mol/L}$ ?",
+     "etapes": [
+      "Formule : $m = C \\times V \\times M$.",
+      "Application numérique : $m = 0{,}20 \\times 0{,}1000 \\times 180$.",
+      "Résultat : $m = 3{,}6\\ \\text{g}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Garder V en mL dans $C = n/V$.",
+    "Prendre le volume d'eau ajouté au lieu du volume final de solution.",
+    "Oublier le coefficient 2 pour $[\\ce{Na+}]$ dans $\\ce{Na2SO4}$.",
+    "Compléter au trait de jauge avant que le solide soit entièrement dissous, ou lire le haut du ménisque."
+   ],
+   "astuces": [
+    "Analyse dimensionnelle : mol/L × L × g/mol = g.",
+    "Matériel précis : balance, fiole jaugée ; matériel approximatif : bécher, éprouvette."
+   ],
+   "mnemo": "« C = n sur V : des moles par litre. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (chapitre sur la mole)",
+    "texte": "Tu te souviens de $n = m/M$ ? La concentration ajoute une seule idée : on divise la quantité de soluté par le volume de solution."
+   },
+   "methode_redaction": "Écris la relation littérale, convertis le volume en litres, fais l'application numérique et donne le résultat avec l'unité (mol/L ou g/L). Pour un protocole, numérote les étapes et nomme la verrerie précise (fiole jaugée de … mL).",
+   "flash": [
+    {
+     "q": "Définition de la concentration molaire ?",
+     "r": "$C = n/V$, en mol/L."
+    },
+    {
+     "q": "Définition de la concentration massique ?",
+     "r": "$C_m = m/V$, en g/L."
+    },
+    {
+     "q": "Relation entre $C_m$ et $C$ ?",
+     "r": "$C_m = C \\times M$."
+    },
+    {
+     "q": "$[\\ce{Cl-}]$ dans une solution de $\\ce{CaCl2}$ à C ?",
+     "r": "$2C$."
+    },
+    {
+     "q": "Quelle verrerie pour préparer une solution précise ?",
+     "r": "Une fiole jaugée."
+    },
+    {
+     "q": "Où doit se trouver le ménisque ?",
+     "r": "Le bas du ménisque sur le trait de jauge, l'œil à la même hauteur."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C16-N2.svg",
+    "alt": "Quatre étapes numérotées : 1 peser le soluté sur une balance (1,46 g) ; 2 l'introduire dans la fiole jaugée avec un entonnoir et rincer ; 3 remplir d'eau aux deux tiers et agiter ; 4 compléter jusqu'au trait de jauge, boucher et agiter.",
+    "legende": "Préparer une solution par dissolution dans une fiole jaugée.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C16-N3",
+   "titre": "Dilution d'une solution",
+   "prerequis_notions": [
+    "PC-S2-C16-N2"
+   ],
+   "cours_md": "## 1. Principe\n:::definition Dilution\n**Diluer** une solution, c'est lui ajouter du **solvant** : on obtient une solution **fille** moins concentrée que la solution **mère**.\n:::\n:::propriete Conservation de la quantité de soluté\nAu cours d'une dilution, la quantité de matière de soluté **ne change pas** (on ajoute seulement de l'eau) :\n$$n = C_0 \\times V_0 = C_1 \\times V_1$$\n$C_0$, $V_0$ : concentration et volume de solution mère **prélevée** ; $C_1$, $V_1$ : concentration et volume de solution fille.\n:::\n:::definition Facteur de dilution\n$$F = \\frac{C_0}{C_1} = \\frac{V_1}{V_0} \\qquad (F > 1)$$\nDiluer « 10 fois », c'est diviser la concentration par 10 ($F = 10$).\n:::\n\n## 2. Protocole\n:::methode Préparer une solution fille par dilution\n1. Calculer le volume à prélever : $V_0 = \\dfrac{C_1 \\times V_1}{C_0}$ (ou $V_0 = V_1/F$).\n2. Verser un peu de solution mère dans un **bécher** (on ne pipette jamais directement dans le flacon).\n3. Prélever $V_0$ avec une **pipette jaugée** munie d'une **propipette** (jamais à la bouche).\n4. Verser dans une **fiole jaugée** de volume $V_1$.\n5. Ajouter de l'eau distillée aux deux tiers, agiter, compléter jusqu'au **trait de jauge**, homogénéiser.\n:::\n:::attention Sécurité\nPour diluer un acide concentré, on verse toujours **l'acide dans l'eau**, lentement, jamais l'eau dans l'acide (projections brûlantes). Lunettes et gants obligatoires.\n:::\n\n## Exemple résolu\nOn dispose d'une solution mère $S_0$ à $C_0 = 0{,}50\\ \\text{mol/L}$. On veut préparer $V_1 = 100{,}0\\ \\text{mL}$ de solution fille à $C_1 = 0{,}050\\ \\text{mol/L}$. Quel volume prélever ?\n- Conservation : $C_0 V_0 = C_1 V_1$, donc $V_0 = \\dfrac{C_1 V_1}{C_0}$.\n- Application numérique : $V_0 = \\dfrac{0{,}050 \\times 100{,}0}{0{,}50}$.\n- Résultat : $V_0 = 10{,}0\\ \\text{mL}$ (pipette jaugée de 10,0 mL, fiole jaugée de 100,0 mL) ; facteur de dilution $F = 10$.",
+   "definition": "Diluer, c'est ajouter du solvant : la quantité de soluté se conserve, donc $C_0 V_0 = C_1 V_1$.",
+   "formules": [
+    "$C_0 V_0 = C_1 V_1$",
+    "$F = \\dfrac{C_0}{C_1} = \\dfrac{V_1}{V_0}$",
+    "$V_0 = \\dfrac{C_1 V_1}{C_0}$"
+   ],
+   "niveaux": {
+    "phrase": "Quand on ajoute de l'eau, il y a toujours autant de soluté, mais réparti dans plus de volume.",
+    "simple": "Un sirop de grenadine trop sucré : tu en mets un fond de verre et tu complètes avec de l'eau. Le sucre ne disparaît pas, il est seulement réparti dans un plus grand volume : la boisson est moins concentrée.",
+    "complete": "Lors d'une dilution, la quantité de soluté prélevée dans la solution mère se retrouve entièrement dans la solution fille : $C_0V_0 = C_1V_1$. Le facteur de dilution est $F = C_0/C_1 = V_1/V_0$. On prélève $V_0$ à la pipette jaugée (avec propipette) et on complète au trait de jauge d'une fiole jaugée de volume $V_1$."
+   },
+   "analogie": "Le sirop de bissap concentré que l'on dilue avant de le servir : la quantité de sucre ne change pas, seul le volume augmente.",
+   "exemples_resolus": [
+    {
+     "enonce": "On verse $20\\ \\text{mL}$ de sirop à $400\\ \\text{g/L}$ de sucre dans un verre et on complète à $250\\ \\text{mL}$ avec de l'eau. Concentration massique en sucre de la boisson ?",
+     "etapes": [
+      "Conservation de la masse de sucre : $C_{m0} V_0 = C_{m1} V_1$.",
+      "Application numérique : $C_{m1} = \\dfrac{400 \\times 20}{250}$.",
+      "Résultat : $C_{m1} = 32\\ \\text{g/L}$ (facteur de dilution 12,5)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $C_0 V_1 = C_1 V_0$ (indices croisés).",
+    "Confondre le volume d'eau ajouté ($V_1 - V_0$) et le volume final $V_1$.",
+    "Prélever avec une éprouvette graduée au lieu d'une pipette jaugée pour une dilution précise.",
+    "Verser l'eau dans l'acide concentré."
+   ],
+   "astuces": [
+    "Contrôle : la solution fille est toujours moins concentrée et plus volumineuse que le prélèvement.",
+    "Si $F$ est un entier simple (2, 5, 10, 20), le choix de la verrerie est immédiat : $V_0 = V_1/F$."
+   ],
+   "mnemo": "« Ce qui est prélevé se retrouve : C₀V₀ = C₁V₁. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Diluer un jus ou un acide diminue sa concentration et, pour un acide, rapproche son pH de 7. En Seconde, on calcule exactement la nouvelle concentration."
+   },
+   "methode_redaction": "Énonce la conservation (« la quantité de soluté se conserve lors de la dilution »), écris $C_0V_0 = C_1V_1$, isole l'inconnue, calcule avec des unités homogènes (mL et mL, ou L et L), puis indique la verrerie choisie.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qui se conserve lors d'une dilution ?",
+     "r": "La quantité de matière de soluté."
+    },
+    {
+     "q": "Relation de dilution ?",
+     "r": "$C_0V_0 = C_1V_1$."
+    },
+    {
+     "q": "Définition du facteur de dilution ?",
+     "r": "$F = C_0/C_1 = V_1/V_0$."
+    },
+    {
+     "q": "Avec quoi prélève-t-on la solution mère ?",
+     "r": "Une pipette jaugée munie d'une propipette."
+    },
+    {
+     "q": "Diluer 10 fois 100 mL à préparer : volume à prélever ?",
+     "r": "10 mL."
+    },
+    {
+     "q": "Règle de sécurité pour diluer un acide ?",
+     "r": "Verser l'acide dans l'eau, jamais l'inverse."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C16-N3.svg",
+    "alt": "Une pipette jaugée prélève un volume V0 de solution mère (bleu foncé) dans un bécher ; on le verse dans une fiole jaugée et on complète avec de l'eau jusqu'au trait : la solution fille est plus claire. Encadré : n conservée, C0V0 = C1V1, F = C0/C1.",
+    "legende": "Dilution : C₀V₀ = C₁V₁.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C16-N4",
+   "titre": "Le pH : solutions acides, neutres et basiques",
+   "prerequis_notions": [
+    "PC-S2-C16-N1",
+    "M-3e-PUISSANCES"
+   ],
+   "cours_md": "## 1. Les ions $\\ce{H3O+}$ et $\\ce{OH-}$\nToute solution aqueuse contient des ions **oxonium** $\\ce{H3O+}$ et des ions **hydroxyde** $\\ce{OH-}$, en quantités plus ou moins grandes. Même l'eau pure en contient très peu (à 25 °C, $[\\ce{H3O+}] = [\\ce{OH-}] = 1{,}0 \\times 10^{-7}\\ \\text{mol/L}$).\n- Solution **acide** : $[\\ce{H3O+}] > [\\ce{OH-}]$ (jus de citron, vinaigre, soda).\n- Solution **neutre** : $[\\ce{H3O+}] = [\\ce{OH-}]$ (eau pure, eau salée).\n- Solution **basique** : $[\\ce{OH-}] > [\\ce{H3O+}]$ (eau savonneuse, eau de Javel, soude).\n\n## 2. Le pH\n:::definition pH\nLe **pH** est un nombre sans unité, compris (le plus souvent) entre 0 et 14 à 25 °C, lié à la concentration des ions oxonium par :\n$$[\\ce{H3O+}] = 10^{-\\text{pH}}\\ \\text{mol/L} \\qquad \\Longleftrightarrow \\qquad \\text{pH} = -\\log [\\ce{H3O+}]$$\n:::\n:::propriete Échelle de pH à 25 °C\n- pH $< 7$ : solution **acide** ; plus le pH est petit, plus elle est acide.\n- pH $= 7$ : solution **neutre**.\n- pH $> 7$ : solution **basique** ; plus le pH est grand, plus elle est basique.\nQuand le pH diminue de 1, $[\\ce{H3O+}]$ est multipliée par 10.\n:::\n\n| Solution | pH environ |\n|---|---|\n| jus de citron | 2,5 |\n| vinaigre, soda | 3 |\n| eau de pluie | 5,6 |\n| eau pure | 7 |\n| sang | 7,4 |\n| eau savonneuse | 9 à 10 |\n| eau de Javel | 11,5 |\n| soude (déboucheur) | 13 à 14 |\n\n## 3. Mesurer le pH\n- **Papier pH** (indicateur universel) : on dépose une goutte de solution avec un agitateur, on compare la couleur à l'échelle de teintes ; précision d'environ une unité.\n- **pH-mètre** : électrode plongée dans la solution, après **étalonnage** ; précision au dixième.\n- **Indicateurs colorés** : leur couleur change dans une **zone de virage**.\n\n| Indicateur | Couleur acide | Zone de virage | Couleur basique |\n|---|---|---|---|\n| hélianthine | rouge | 3,1 – 4,4 | jaune |\n| bleu de bromothymol (BBT) | jaune | 6,0 – 7,6 (vert) | bleu |\n| phénolphtaléine | incolore | 8,2 – 10 | rose |\n\n:::propriete Effet de la dilution\nDiluer une solution acide fait **augmenter** son pH ; diluer une solution basique le fait **diminuer**. Dans les deux cas, le pH se rapproche de 7 **sans jamais le dépasser**.\n:::\n\n## Exemple résolu\nUn vinaigre a un pH de $3{,}0$. Calcule $[\\ce{H3O+}]$. Quelle est la couleur du BBT dans ce vinaigre ?\n- Définition : $[\\ce{H3O+}] = 10^{-\\text{pH}}$.\n- Application numérique : $[\\ce{H3O+}] = 10^{-3{,}0}$.\n- Résultat : $[\\ce{H3O+}] = 1{,}0 \\times 10^{-3}\\ \\text{mol/L}$. pH $< 6{,}0$ : le BBT est **jaune**.",
+   "definition": "Le pH mesure l'acidité d'une solution aqueuse : $[\\ce{H3O+}] = 10^{-\\text{pH}}$ ; à 25 °C, une solution est acide si pH < 7, neutre si pH = 7, basique si pH > 7.",
+   "formules": [
+    "$[\\ce{H3O+}] = 10^{-\\text{pH}}$",
+    "$\\text{pH} = -\\log [\\ce{H3O+}]$",
+    "Eau pure à 25 °C : pH $= 7$"
+   ],
+   "niveaux": {
+    "phrase": "Le pH dit si une solution est acide (moins de 7), neutre (7) ou basique (plus de 7).",
+    "simple": "Le pH est comme le classement d'un championnat inversé : plus le numéro est petit, plus l'équipe (la solution) est « forte » en acidité. Le 7 est au milieu, neutre.",
+    "complete": "Toute solution aqueuse contient des ions $\\ce{H3O+}$ et $\\ce{OH-}$ ; elle est acide, neutre ou basique selon que $[\\ce{H3O+}]$ est supérieure, égale ou inférieure à $[\\ce{OH-}]$. Le pH est défini par $[\\ce{H3O+}] = 10^{-\\text{pH}}$ (pH $= -\\log[\\ce{H3O+}]$) ; à 25 °C, l'eau pure a un pH de 7. Une unité de pH correspond à un facteur 10 sur $[\\ce{H3O+}]$. On le mesure au papier pH, au pH-mètre ou avec des indicateurs colorés (zones de virage). La dilution rapproche le pH de 7."
+   },
+   "analogie": "Le jus de citron vert que l'on presse sur le poisson braisé est acide (pH ≈ 2,5) ; la potasse utilisée pour cuire certaines sauces rend l'eau basique.",
+   "exemples_resolus": [
+    {
+     "enonce": "Un pH-mètre indique $\\text{pH} = 9{,}0$ pour une eau savonneuse. La solution est-elle acide ou basique ? Calcule $[\\ce{H3O+}]$ et donne la couleur du BBT et de la phénolphtaléine.",
+     "etapes": [
+      "pH $= 9{,}0 > 7$ : la solution est basique.",
+      "$[\\ce{H3O+}] = 10^{-9{,}0} = 1{,}0 \\times 10^{-9}\\ \\text{mol/L}$.",
+      "BBT : pH > 7,6, donc bleu. Phénolphtaléine : pH dans la zone de virage (8,2 – 10), donc rose pâle."
+     ]
+    },
+    {
+     "enonce": "La concentration en ions oxonium d'une solution vaut $1{,}0 \\times 10^{-5}\\ \\text{mol/L}$. Quel est son pH ?",
+     "etapes": [
+      "Définition : $[\\ce{H3O+}] = 10^{-\\text{pH}}$.",
+      "$10^{-5} = 10^{-\\text{pH}}$, donc pH $= 5{,}0$.",
+      "pH $< 7$ : la solution est acide."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Croire qu'un pH élevé signifie « très acide ».",
+    "Penser qu'en diluant un acide, son pH peut devenir supérieur à 7.",
+    "Oublier qu'une unité de pH correspond à un facteur 10 (et non 1) sur $[\\ce{H3O+}]$.",
+    "Tremper le papier pH dans la solution au lieu d'y déposer une goutte."
+   ],
+   "astuces": [
+    "Sur la calculatrice : $[\\ce{H3O+}]$ = 10^(−pH) ; pH = −log(concentration).",
+    "BBT : Jaune = acide, Bleu = basique, Vert = neutre."
+   ],
+   "mnemo": "« Sous 7 l'acide, 7 c'est neutre, au-dessus la base. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as mesuré le pH avec du papier pH, classé les solutions en acides, neutres et basiques, et appris que la dilution rapproche le pH de 7. En Seconde, on relie le pH à la concentration des ions $\\ce{H3O+}$."
+   },
+   "methode_redaction": "Donne la valeur du pH et conclus par une phrase (« pH < 7, la solution est acide ») ; pour un calcul, écris $[\\ce{H3O+}] = 10^{-\\text{pH}}$ puis le résultat en écriture scientifique avec l'unité mol/L ; pour un indicateur, compare le pH à la zone de virage.",
+   "flash": [
+    {
+     "q": "pH d'une solution neutre à 25 °C ?",
+     "r": "7."
+    },
+    {
+     "q": "Une solution de pH 4 est-elle acide ou basique ?",
+     "r": "Acide."
+    },
+    {
+     "q": "Relation entre pH et $[\\ce{H3O+}]$ ?",
+     "r": "$[\\ce{H3O+}] = 10^{-\\text{pH}}$ mol/L."
+    },
+    {
+     "q": "Couleurs du BBT ?",
+     "r": "Jaune en milieu acide, vert vers la neutralité, bleu en milieu basique."
+    },
+    {
+     "q": "Quand le pH diminue de 1, que devient $[\\ce{H3O+}]$ ?",
+     "r": "Elle est multipliée par 10."
+    },
+    {
+     "q": "Effet de la dilution sur le pH d'un acide ?",
+     "r": "Il augmente et se rapproche de 7 sans le dépasser."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C16-N4.svg",
+    "alt": "Échelle de pH de 0 à 14 en couleurs, du rouge (acide) au violet (basique), avec des repères : citron vers 2,5, vinaigre 3, eau pure 7, sang 7,4, eau de Javel 11,5, soude vers 13,5. En dessous, les couleurs du bleu de bromothymol : jaune jusqu'à 6,0, vert de 6,0 à 7,6, bleu au-delà.",
+    "legende": "Échelle de pH à 25 °C et couleurs du BBT.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C16-N5",
+   "titre": "Acides, bases et réaction acide-base",
+   "prerequis_notions": [
+    "PC-S2-C16-N4",
+    "PC-S2-C16-N2",
+    "PC-S2-C15-N3"
+   ],
+   "cours_md": "## 1. Acides et bases\n:::definition Acide et base\n- Un **acide** est une espèce chimique capable de **céder un proton** $\\ce{H+}$. Dans l'eau, il forme des ions oxonium $\\ce{H3O+}$.\n- Une **base** est une espèce chimique capable de **capter un proton** $\\ce{H+}$. Dans l'eau, elle fait apparaître des ions hydroxyde $\\ce{OH-}$.\n:::\nExemples :\n- le chlorure d'hydrogène se dissout dans l'eau en réagissant totalement : $\\ce{HCl(g) + H2O(l) -> H3O+(aq) + Cl-(aq)}$. La solution obtenue est l'**acide chlorhydrique** ;\n- l'hydroxyde de sodium (soude) est un solide ionique : $\\ce{NaOH(s) -> Na+(aq) + OH-(aq)}$ ; la solution est la **solution de soude**, basique ;\n- l'acide éthanoïque du vinaigre et l'ammoniac sont un acide et une base qui réagissent **partiellement** avec l'eau.\n\n:::propriete Acide fort, base forte (cas simples)\nPour l'acide chlorhydrique de concentration $C$ : $[\\ce{H3O+}] = C$, donc pH $= -\\log C$. Pour une solution de soude de concentration $C$ : $[\\ce{OH-}] = C$.\n:::\n\n## 2. Réaction entre un acide et une base\n:::propriete Réaction acide-base (neutralisation)\nQuand on mélange de l'acide chlorhydrique et de la soude, les ions $\\ce{H3O+}$ et $\\ce{OH-}$ réagissent :\n$$\\ce{H3O+ + OH- -> 2H2O}$$\nLes ions $\\ce{Na+}$ et $\\ce{Cl-}$ ne réagissent pas (ions **spectateurs**). La réaction est rapide et **dégage de la chaleur** (exothermique).\n:::\n:::definition Équivalence\nOn atteint l'**équivalence** quand les réactifs ont été mélangés dans les proportions de l'équation : $n(\\ce{H3O+})_{\\text{initial}} = n(\\ce{OH-})_{\\text{versé}}$. Pour l'acide chlorhydrique et la soude :\n$$C_a V_a = C_b V_b$$\nÀ l'équivalence, la solution est **neutre** (pH = 7) : c'est de l'eau salée ($\\ce{Na+}$, $\\ce{Cl-}$). Avec du BBT, la couleur passe du **jaune** au **vert** puis au **bleu**.\n:::\n\n:::attention Sécurité et pictogrammes\nLes acides et bases concentrés sont **corrosifs** (pictogramme « corrosion ») : ils brûlent la peau et les yeux. Blouse, lunettes et gants ; rinçage abondant à l'eau en cas de projection. Ne jamais mélanger eau de Javel et acide (dégagement de dichlore toxique).\n:::\n\n## Exemple résolu\nOn veut neutraliser $V_a = 20{,}0\\ \\text{mL}$ d'acide chlorhydrique à $C_a = 0{,}10\\ \\text{mol/L}$ avec une solution de soude à $C_b = 0{,}080\\ \\text{mol/L}$. Quel volume de soude faut-il verser ? Quel est le pH initial de l'acide ?\n- Équivalence : $C_a V_a = C_b V_b$, donc $V_b = \\dfrac{C_a V_a}{C_b}$.\n- Application numérique : $V_b = \\dfrac{0{,}10 \\times 20{,}0}{0{,}080} = 25{,}0\\ \\text{mL}$.\n- pH initial : $[\\ce{H3O+}] = C_a = 0{,}10 = 10^{-1}\\ \\text{mol/L}$, donc pH $= 1{,}0$.",
+   "definition": "Un acide cède un proton (dans l'eau, il donne $\\ce{H3O+}$), une base en capte un (elle donne $\\ce{OH-}$) ; ils réagissent selon $\\ce{H3O+ + OH- -> 2H2O}$, et à l'équivalence $C_aV_a = C_bV_b$.",
+   "formules": [
+    "$\\ce{HCl + H2O -> H3O+ + Cl-}$",
+    "$\\ce{H3O+ + OH- -> 2H2O}$",
+    "$C_a V_a = C_b V_b$ (équivalence)",
+    "pH $= -\\log C$ (acide chlorhydrique)"
+   ],
+   "niveaux": {
+    "phrase": "Un acide et une base se neutralisent en formant de l'eau.",
+    "simple": "Quand tu as des brûlures d'estomac (trop d'acide), le médicament antiacide est une base : il neutralise l'excès d'ions $\\ce{H3O+}$, comme la soude neutralise l'acide chlorhydrique dans le bécher.",
+    "complete": "Selon Brønsted, un acide est un donneur de proton et une base un accepteur. L'acide chlorhydrique ($\\ce{H3O+ + Cl-}$) et la soude ($\\ce{Na+ + OH-}$) sont un acide et une base forts : $[\\ce{H3O+}] = C_a$, $[\\ce{OH-}] = C_b$. Leur réaction, $\\ce{H3O+ + OH- -> 2H2O}$, est rapide, totale et exothermique ; à l'équivalence $C_aV_a = C_bV_b$ et la solution est neutre (ions spectateurs $\\ce{Na+}$ et $\\ce{Cl-}$). Les solutions concentrées sont corrosives."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "On dissout $0{,}40\\ \\text{g}$ d'hydroxyde de sodium ($M = 40{,}0$ g/mol) pour obtenir $100\\ \\text{mL}$ de solution. Concentration en ions hydroxyde ?",
+     "etapes": [
+      "$n = \\dfrac{m}{M} = \\dfrac{0{,}40}{40{,}0} = 1{,}0 \\times 10^{-2}\\ \\text{mol}$.",
+      "$C = \\dfrac{n}{V} = \\dfrac{0{,}010}{0{,}100} = 0{,}10\\ \\text{mol/L}$.",
+      "D'après $\\ce{NaOH(s) -> Na+(aq) + OH-(aq)}$ : $[\\ce{OH-}] = C = 0{,}10\\ \\text{mol/L}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire la neutralisation $\\ce{H+ + OH- -> H2O}$ sans conserver les éléments (avec $\\ce{H3O+}$, il se forme 2 molécules d'eau).",
+    "Faire réagir les ions spectateurs $\\ce{Na+}$ et $\\ce{Cl-}$.",
+    "Écrire $C_a V_b = C_b V_a$.",
+    "Mélanger eau de Javel et acide pour « mieux nettoyer » : dégagement de dichlore toxique."
+   ],
+   "astuces": [
+    "À l'équivalence avec le BBT : la teinte verte indique la neutralité.",
+    "Volumes dans la même unité de part et d'autre de $C_aV_a = C_bV_b$ (mL et mL)."
+   ],
+   "mnemo": "« Acide donne H⁺, base le prend ; ensemble, ils font de l'eau. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (chapitre précédent)",
+    "texte": "Tu te souviens de la recherche du réactif limitant ? L'équivalence est simplement le moment où acide et base sont dans les proportions stœchiométriques de $\\ce{H3O+ + OH- -> 2H2O}$ : aucun des deux n'est en excès."
+   },
+   "methode_redaction": "Écris l'équation de la réaction, la condition d'équivalence ($n(\\ce{H3O+}) = n(\\ce{OH-})$, puis $C_aV_a = C_bV_b$), isole l'inconnue et donne le résultat avec l'unité ; indique la couleur de l'indicateur avant, à et après l'équivalence.",
+   "flash": [
+    {
+     "q": "Définition d'un acide (Brønsted) ?",
+     "r": "Une espèce capable de céder un proton $\\ce{H+}$."
+    },
+    {
+     "q": "Définition d'une base ?",
+     "r": "Une espèce capable de capter un proton $\\ce{H+}$."
+    },
+    {
+     "q": "Ions présents dans l'acide chlorhydrique ?",
+     "r": "$\\ce{H3O+}$ et $\\ce{Cl-}$."
+    },
+    {
+     "q": "Équation de la réaction entre acide chlorhydrique et soude ?",
+     "r": "$\\ce{H3O+ + OH- -> 2H2O}$."
+    },
+    {
+     "q": "Relation à l'équivalence ?",
+     "r": "$C_aV_a = C_bV_b$."
+    },
+    {
+     "q": "pH d'un acide chlorhydrique à $1{,}0 \\times 10^{-2}$ mol/L ?",
+     "r": "2,0."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C16-N5.svg",
+    "alt": "Montage : une burette remplie de soude (Na+ + OH-) au-dessus d'un bécher d'acide chlorhydrique additionné de BBT, sur un agitateur magnétique. Légende des couleurs du BBT : jaune (acide en excès), vert (neutre, équivalence), bleu (base en excès). Équation H3O+ + OH- → 2 H2O et relation CaVa = CbVb.",
+    "legende": "Réaction acide-base suivie au BBT : jaune, vert à l'équivalence, puis bleu.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S2-C16-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C16-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Dans une solution aqueuse de sel de cuisine, le solvant est :",
+   "choix": [
+    "le sel",
+    "l'eau",
+    "les ions chlorure",
+    "l'air dissous"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Une solution aqueuse a pour solvant l'eau.",
+    "Le sel (chlorure de sodium) est le soluté."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C16-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Une solution a un pH de 3 à 25 °C. Elle est :",
+   "choix": [
+    "acide",
+    "neutre",
+    "basique",
+    "on ne peut pas savoir"
+   ],
+   "bonne_reponse": 0,
+   "indices": [],
+   "corrige": [
+    "pH < 7 à 25 °C : solution acide.",
+    "Exemple : vinaigre."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C16-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On dissout $0{,}020\\ \\text{mol}$ de glucose pour obtenir $250\\ \\text{mL}$ de solution. Calcule la concentration molaire (en mol/L).",
+   "reponses_acceptees": [
+    "0,08",
+    "0,080",
+    "0,08mol/L",
+    "0,080mol/L",
+    "8e-2",
+    "8,0e-2"
+   ],
+   "indices": [],
+   "corrige": [
+    "$C = \\dfrac{n}{V}$ avec $V = 0{,}250\\ \\text{L}$.",
+    "$C = \\dfrac{0{,}020}{0{,}250} = 0{,}080\\ \\text{mol/L}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Diviser par 250 (mL) : 8,0 × 10⁻⁵.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C16-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle est l'équation correcte de la dissolution du sulfate de sodium dans l'eau ?",
+   "choix": [
+    "$\\ce{Na2SO4(s) -> Na2+(aq) + SO4^2-(aq)}$",
+    "$\\ce{Na2SO4(s) -> 2Na+(aq) + SO4^2-(aq)}$",
+    "$\\ce{Na2SO4(s) -> Na+(aq) + SO4-(aq)}$",
+    "$\\ce{Na2SO4(s) -> 2Na(aq) + SO4(aq)}$"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "La formule $\\ce{Na2SO4}$ contient 2 ions $\\ce{Na+}$ pour 1 ion $\\ce{SO4^2-}$.",
+    "Éléments et charges conservés : $\\ce{Na2SO4(s) -> 2Na+(aq) + SO4^2-(aq)}$."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Écrire un ion « Na₂⁺ » qui n'existe pas.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C16-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quelle masse (en g) de chlorure de sodium faut-il peser pour préparer $500\\ \\text{mL}$ de solution à $0{,}20\\ \\text{mol/L}$ ? Masses molaires (g/mol) : H = 1,0 ; C = 12,0 ; O = 16,0 ; Na = 23,0 ; Cl = 35,5 ; Ca = 40,1.",
+   "reponses_acceptees": [
+    "5,85",
+    "5,9",
+    "5,85g",
+    "5,9g"
+   ],
+   "indices": [
+    "$m = C \\times V \\times M$."
+   ],
+   "corrige": [
+    "$n = C\\,V = 0{,}20 \\times 0{,}500 = 0{,}10\\ \\text{mol}$.",
+    "$M(\\ce{NaCl}) = 58{,}5\\ \\text{g/mol}$ ; $m = n\\,M = 0{,}10 \\times 58{,}5 = 5{,}85\\ \\text{g}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Oublier de convertir 500 mL en 0,500 L.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C16-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On prélève $10{,}0\\ \\text{mL}$ d'une solution à $0{,}50\\ \\text{mol/L}$ et on complète à $250{,}0\\ \\text{mL}$ avec de l'eau distillée. Concentration de la solution obtenue (en mol/L) ?",
+   "reponses_acceptees": [
+    "0,02",
+    "0,020",
+    "0,020mol/L",
+    "2e-2",
+    "2,0e-2"
+   ],
+   "indices": [],
+   "corrige": [
+    "Conservation : $C_0 V_0 = C_1 V_1$, donc $C_1 = \\dfrac{C_0 V_0}{V_1}$.",
+    "$C_1 = \\dfrac{0{,}50 \\times 10{,}0}{250{,}0} = 0{,}020\\ \\text{mol/L}$ (facteur de dilution 25)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Multiplier au lieu de diviser (12,5 mol/L : plus concentrée que la mère !).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C16-N4"
+   ],
+   "format": "qcm",
+   "enonce": "On ajoute quelques gouttes de bleu de bromothymol (BBT) dans du vinaigre (pH ≈ 3). La couleur obtenue est :",
+   "choix": [
+    "bleue",
+    "verte",
+    "jaune",
+    "rose"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Zone de virage du BBT : 6,0 – 7,6.",
+    "pH = 3 < 6,0 : forme acide, couleur jaune."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Confondre avec la phénolphtaléine (incolore en milieu acide, rose en milieu basique).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C16-N2",
+    "PC-S2-C16-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On dissout du chlorure de calcium $\\ce{CaCl2}$ ; sa concentration apportée vaut $C = 0{,}15\\ \\text{mol/L}$. Quelle est la concentration des ions chlorure $[\\ce{Cl-}]$ (en mol/L) ?",
+   "reponses_acceptees": [
+    "0,3",
+    "0,30",
+    "0,30mol/L",
+    "0,3mol/L"
+   ],
+   "indices": [],
+   "corrige": [
+    "$\\ce{CaCl2(s) -> Ca^2+(aq) + 2Cl-(aq)}$.",
+    "$[\\ce{Cl-}] = 2C = 2 \\times 0{,}15 = 0{,}30\\ \\text{mol/L}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 0,15 mol/L (oubli du coefficient 2).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C16-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une eau de pluie acide a un pH de $4{,}0$. Calcule $[\\ce{H3O+}]$ (en mol/L, écriture scientifique).",
+   "reponses_acceptees": [
+    "1,0e-4",
+    "1e-4",
+    "1,0×10^-4",
+    "1×10^-4",
+    "10^-4",
+    "0,0001",
+    "1,0x10^-4",
+    "1.10^-4"
+   ],
+   "indices": [],
+   "corrige": [
+    "$[\\ce{H3O+}] = 10^{-\\text{pH}}$.",
+    "$[\\ce{H3O+}] = 10^{-4{,}0} = 1{,}0 \\times 10^{-4}\\ \\text{mol/L}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C16-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Un sachet de sels de réhydratation orale (SRO) se dissout dans $1{,}0\\ \\text{L}$ d'eau potable. La solution obtenue contient notamment $13{,}5\\ \\text{g}$ de glucose $\\ce{C6H12O6}$ et $2{,}6\\ \\text{g}$ de chlorure de sodium par litre. Masses molaires (g/mol) : H = 1,0 ; C = 12,0 ; O = 16,0 ; Na = 23,0 ; Cl = 35,5 ; Ca = 40,1.\n1. Donne les concentrations massiques du glucose et du chlorure de sodium.\n2. Calcule leurs concentrations molaires.\n3. Quelle est la concentration des ions $\\ce{Na+}$ apportés par le chlorure de sodium ?\n4. Pourquoi faut-il mesurer exactement 1 L d'eau, et non « un grand verre » ?",
+   "indices": [
+    "$C = C_m / M$."
+   ],
+   "corrige": [
+    "$C_m(\\text{glucose}) = 13{,}5\\ \\text{g/L}$ ; $C_m(\\ce{NaCl}) = 2{,}6\\ \\text{g/L}$.",
+    "$M(\\text{glucose}) = 180\\ \\text{g/mol}$ : $C = \\dfrac{13{,}5}{180} = 7{,}5 \\times 10^{-2}\\ \\text{mol/L}$ ; $M(\\ce{NaCl}) = 58{,}5$ : $C = \\dfrac{2{,}6}{58{,}5} = 4{,}4 \\times 10^{-2}\\ \\text{mol/L}$.",
+    "$\\ce{NaCl -> Na+ + Cl-}$ : $[\\ce{Na+}] = 4{,}4 \\times 10^{-2}\\ \\text{mol/L}$ (apport du NaCl seul).",
+    "La concentration dépend du volume : avec moins d'eau, la solution serait trop concentrée (trop salée) ; avec plus d'eau, trop diluée et moins efficace."
+   ],
+   "bareme": [
+    1,
+    2,
+    1,
+    1
+   ],
+   "piege": "Confondre g/L et mol/L.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C16-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C16-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "On veut préparer $100{,}0\\ \\text{mL}$ d'une solution de sulfate de cuivre à $2{,}0 \\times 10^{-2}\\ \\text{mol/L}$ à partir d'une solution mère à $0{,}10\\ \\text{mol/L}$.\n1. Calcule le facteur de dilution et le volume de solution mère à prélever.\n2. Choisis la verrerie parmi : éprouvettes de 10 et 100 mL, pipettes jaugées de 10,0 et 20,0 mL, fioles jaugées de 50,0 et 100,0 mL, bécher.\n3. Rédige le protocole.",
+   "indices": [
+    "$V_0 = C_1V_1/C_0$."
+   ],
+   "corrige": [
+    "$F = \\dfrac{C_0}{C_1} = \\dfrac{0{,}10}{0{,}020} = 5$ ; $V_0 = \\dfrac{V_1}{F} = \\dfrac{100{,}0}{5} = 20{,}0\\ \\text{mL}$.",
+    "Pipette jaugée de 20,0 mL (avec propipette), fiole jaugée de 100,0 mL, bécher pour la solution mère ; les éprouvettes ne sont pas assez précises.",
+    "Verser un peu de solution mère dans le bécher ; prélever 20,0 mL à la pipette jaugée ; les verser dans la fiole jaugée de 100,0 mL ; ajouter de l'eau distillée aux 2/3, agiter ; compléter jusqu'au trait de jauge ; boucher et homogénéiser."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    2
+   ],
+   "piege": "Prélever directement dans le flacon de solution mère ou utiliser une éprouvette.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C16-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C16-N5"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On neutralise exactement $V_a = 15{,}0\\ \\text{mL}$ d'acide chlorhydrique à $C_a = 0{,}20\\ \\text{mol/L}$ par une solution de soude à $C_b = 0{,}10\\ \\text{mol/L}$. Quel volume de soude (en mL) a-t-on versé à l'équivalence ?",
+   "reponses_acceptees": [
+    "30",
+    "30,0",
+    "30mL",
+    "30,0mL"
+   ],
+   "indices": [],
+   "corrige": [
+    "Équivalence : $C_a V_a = C_b V_b$.",
+    "$V_b = \\dfrac{C_a V_a}{C_b} = \\dfrac{0{,}20 \\times 15{,}0}{0{,}10}$.",
+    "$V_b = 30{,}0\\ \\text{mL}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Écrire $V_b = C_b V_a / C_a$ (7,5 mL).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C16-N5",
+    "PC-S2-C16-N4",
+    "PC-S2-C16-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "On dispose d'acide chlorhydrique $S_a$ à $C_a = 1{,}0 \\times 10^{-2}\\ \\text{mol/L}$.\n1. Écris l'équation de la réaction du chlorure d'hydrogène avec l'eau et calcule le pH de $S_a$.\n2. On dilue $S_a$ 10 fois. Nouveau pH ? On dilue encore un très grand nombre de fois : le pH peut-il dépasser 7 ? Justifie.\n3. On mélange $50\\ \\text{mL}$ de $S_a$ et $50\\ \\text{mL}$ de soude à $1{,}0 \\times 10^{-2}\\ \\text{mol/L}$. Écris l'équation de la réaction, montre que le mélange est à l'équivalence et donne son pH ainsi que la concentration des ions $\\ce{Na+}$ et $\\ce{Cl-}$.",
+   "indices": [
+    "Après le mélange, le volume total est 100 mL."
+   ],
+   "corrige": [
+    "$\\ce{HCl + H2O -> H3O+ + Cl-}$ ; $[\\ce{H3O+}] = C_a = 10^{-2}\\ \\text{mol/L}$, donc pH $= 2{,}0$.",
+    "Dilution par 10 : $[\\ce{H3O+}] = 10^{-3}\\ \\text{mol/L}$, pH $= 3{,}0$. En diluant beaucoup, la solution tend vers de l'eau pure : le pH se rapproche de 7 mais une solution d'acide reste acide, il ne dépasse pas 7.",
+    "$\\ce{H3O+ + OH- -> 2H2O}$ ; $n(\\ce{H3O+}) = 0{,}010 \\times 0{,}050 = 5{,}0 \\times 10^{-4}\\ \\text{mol} = n(\\ce{OH-})$ : proportions stœchiométriques, c'est l'équivalence ; la solution est neutre, pH $= 7$.",
+    "Ions spectateurs dans 100 mL : $[\\ce{Na+}] = [\\ce{Cl-}] = \\dfrac{5{,}0 \\times 10^{-4}}{0{,}100} = 5{,}0 \\times 10^{-3}\\ \\text{mol/L}$."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    1
+   ],
+   "piege": "Garder 1,0 × 10⁻² mol/L pour les ions spectateurs (le volume a doublé).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C16-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C16-N2",
+    "PC-S2-C16-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "L'étiquette d'un flacon d'acide chlorhydrique commercial indique : « 37 % en masse de HCl ; densité 1,19 ». ($M(\\ce{HCl}) = 36{,}5$ g/mol)\n1. Calcule la masse d'un litre de solution commerciale, puis la masse de HCl qu'il contient.\n2. Déduis-en la concentration molaire $C_0$ de la solution commerciale.\n3. Quel volume de solution commerciale faut-il pour préparer $1{,}0\\ \\text{L}$ d'acide à $0{,}10\\ \\text{mol/L}$ ?\n4. Quelle précaution de sécurité est indispensable lors de cette dilution ?",
+   "indices": [
+    "Densité 1,19 → masse volumique 1,19 g/mL.",
+    "37 % de la masse de la solution est du HCl."
+   ],
+   "corrige": [
+    "$\\rho = 1{,}19\\ \\text{g/mL}$ : 1 L de solution a une masse de $1190\\ \\text{g}$ ; masse de HCl : $0{,}37 \\times 1190 = 440\\ \\text{g}$.",
+    "$C_0 = \\dfrac{n}{V} = \\dfrac{440/36{,}5}{1{,}0} = 12\\ \\text{mol/L}$ (12,1).",
+    "$V_0 = \\dfrac{C_1 V_1}{C_0} = \\dfrac{0{,}10 \\times 1{,}0}{12{,}1} = 8{,}3 \\times 10^{-3}\\ \\text{L} = 8{,}3\\ \\text{mL}$.",
+    "Travailler sous hotte avec gants et lunettes ; verser l'acide dans l'eau (fiole déjà à moitié remplie d'eau), jamais l'eau dans l'acide concentré."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    1.5,
+    0.5
+   ],
+   "piege": "Utiliser 37 % comme une concentration en mol/L, ou oublier la densité.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C16-E15",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C16-N4"
+   ],
+   "format": "qcm",
+   "enonce": "On dilue 100 fois une solution d'acide chlorhydrique de pH 2. Le pH de la nouvelle solution est :",
+   "choix": [
+    "0",
+    "2",
+    "4",
+    "102"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Diluer 100 fois divise $[\\ce{H3O+}]$ par 100 = $10^{2}$ (acide fort).",
+    "Le pH augmente de 2 : pH = 4 ; il reste inférieur à 7."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Croire que le pH diminue quand on dilue un acide.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C16-E16",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C16-N5"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle équation représente la réaction entre l'acide chlorhydrique et la soude ?",
+   "choix": [
+    "$\\ce{Na+ + Cl- -> NaCl}$",
+    "$\\ce{H3O+ + OH- -> 2H2O}$",
+    "$\\ce{H3O+ + OH- -> H2O}$",
+    "$\\ce{HCl + NaOH -> H2 + NaClO}$"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Les ions qui réagissent sont $\\ce{H3O+}$ (acide) et $\\ce{OH-}$ (base) ; $\\ce{Na+}$ et $\\ce{Cl-}$ sont spectateurs.",
+    "Équation équilibrée : $\\ce{H3O+ + OH- -> 2H2O}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Oublier le coefficient 2 devant l'eau.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Volume laissé en mL dans $C = n/V$ ; volume d'eau ajoutée confondu avec le volume de solution.",
+  "Coefficients oubliés dans les équations de dissolution et dans les concentrations d'ions ($[\\ce{Na+}] = 2C$ pour $\\ce{Na2SO4}$).",
+  "Relation de dilution écrite avec des indices croisés ; verrerie imprécise (éprouvette) pour une dilution.",
+  "Croire que diluer un acide peut rendre son pH supérieur à 7 ; confondre pH élevé et forte acidité.",
+  "Neutralisation mal équilibrée ($\\ce{H3O+ + OH- -> H2O}$) ; ions spectateurs qu'on fait réagir ; volume total oublié après mélange.",
+  "Règle de sécurité oubliée : verser l'acide dans l'eau."
+ ]
+}
