@@ -46,7 +46,14 @@
     "epreuves": [
      "EP-M-S1-0001",
      "EP-M-S1-0002",
-     "EP-M-S1-0003"
+     "EP-M-S1-0003",
+     "EP-M-S1-0004",
+     "EP-M-S1-0005",
+     "EP-M-S1-0006",
+     "EP-M-S1-0007",
+     "EP-M-S1-0008",
+     "EP-M-S1-0009",
+     "EP-M-S1-0010"
     ]
    }
   ]
@@ -93,7 +100,12 @@
     "epreuves": [
      "EP-M-S1-0001",
      "EP-M-S1-0002",
-     "EP-M-S1-0003"
+     "EP-M-S1-0003",
+     "EP-M-S1-0004",
+     "EP-M-S1-0005",
+     "EP-M-S1-0006",
+     "EP-M-S1-0007",
+     "EP-M-S1-0008"
     ]
    }
   ]
@@ -140,7 +152,13 @@
     "epreuves": [
      "EP-M-S1-0001",
      "EP-M-S1-0002",
-     "EP-M-S1-0003"
+     "EP-M-S1-0003",
+     "EP-M-S1-0004",
+     "EP-M-S1-0005",
+     "EP-M-S1-0006",
+     "EP-M-S1-0007",
+     "EP-M-S1-0008",
+     "EP-M-S1-0009"
     ]
    }
   ]
@@ -185,7 +203,322 @@
    },
    {
     "epreuves": [
-     "EP-M-S1-0001"
+     "EP-M-S1-0001",
+     "EP-M-S1-0007"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "M",
+  "semestre": 1,
+  "chapitre": "M-S1-C05",
+  "titre": "Équations et inéquations dans ℝ",
+  "ordre": 5,
+  "parcours": [
+   {
+    "notion": "M-S1-C05-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C05-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C05-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C05-N4",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S1-C05-E01",
+     "M-S1-C05-E02",
+     "M-S1-C05-E03",
+     "M-S1-C05-E04",
+     "M-S1-C05-E05",
+     "M-S1-C05-E06",
+     "M-S1-C05-E07",
+     "M-S1-C05-E08",
+     "M-S1-C05-E09",
+     "M-S1-C05-E10",
+     "M-S1-C05-E11",
+     "M-S1-C05-E12",
+     "M-S1-C05-E13",
+     "M-S1-C05-E14"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-M-S1-0001",
+     "EP-M-S1-0002",
+     "EP-M-S1-0003",
+     "EP-M-S1-0004",
+     "EP-M-S1-0005",
+     "EP-M-S1-0006",
+     "EP-M-S1-0007",
+     "EP-M-S1-0008"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "M",
+  "semestre": 1,
+  "chapitre": "M-S1-C06",
+  "titre": "Angles inscrits",
+  "ordre": 6,
+  "parcours": [
+   {
+    "notion": "M-S1-C06-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C06-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C06-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S1-C06-E01",
+     "M-S1-C06-E02",
+     "M-S1-C06-E03",
+     "M-S1-C06-E04",
+     "M-S1-C06-E05",
+     "M-S1-C06-E06",
+     "M-S1-C06-E07",
+     "M-S1-C06-E08",
+     "M-S1-C06-E09",
+     "M-S1-C06-E10",
+     "M-S1-C06-E11",
+     "M-S1-C06-E12"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-M-S1-0003",
+     "EP-M-S1-0006",
+     "EP-M-S1-0008",
+     "EP-M-S1-0009",
+     "EP-M-S1-0010"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "M",
+  "semestre": 1,
+  "chapitre": "M-S1-C07",
+  "titre": "Généralités sur les fonctions",
+  "ordre": 7,
+  "parcours": [
+   {
+    "notion": "M-S1-C07-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C07-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C07-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S1-C07-E01",
+     "M-S1-C07-E02",
+     "M-S1-C07-E03",
+     "M-S1-C07-E04",
+     "M-S1-C07-E05",
+     "M-S1-C07-E06",
+     "M-S1-C07-E07",
+     "M-S1-C07-E08",
+     "M-S1-C07-E09",
+     "M-S1-C07-E10",
+     "M-S1-C07-E11",
+     "M-S1-C07-E12"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-M-S1-0002",
+     "EP-M-S1-0007"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "M",
+  "semestre": 1,
+  "chapitre": "M-S1-C08",
+  "titre": "Géométrie dans l'espace",
+  "ordre": 8,
+  "parcours": [
+   {
+    "notion": "M-S1-C08-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C08-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S1-C08-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S1-C08-E01",
+     "M-S1-C08-E02",
+     "M-S1-C08-E03",
+     "M-S1-C08-E04",
+     "M-S1-C08-E05",
+     "M-S1-C08-E06",
+     "M-S1-C08-E07",
+     "M-S1-C08-E08",
+     "M-S1-C08-E09",
+     "M-S1-C08-E10",
+     "M-S1-C08-E11",
+     "M-S1-C08-E12"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-M-S1-0004",
+     "EP-M-S1-0006",
+     "EP-M-S1-0009"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "M",
+  "semestre": 2,
+  "chapitre": "M-S2-C09",
+  "titre": "Équations et inéquations dans ℝ×ℝ (systèmes)",
+  "ordre": 9,
+  "parcours": [
+   {
+    "notion": "M-S2-C09-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S2-C09-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S2-C09-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S2-C09-N4",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S2-C09-E01",
+     "M-S2-C09-E02",
+     "M-S2-C09-E03",
+     "M-S2-C09-E04",
+     "M-S2-C09-E05",
+     "M-S2-C09-E06",
+     "M-S2-C09-E07",
+     "M-S2-C09-E08",
+     "M-S2-C09-E09",
+     "M-S2-C09-E10",
+     "M-S2-C09-E11",
+     "M-S2-C09-E12",
+     "M-S2-C09-E13"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-M-S1-0006",
+     "EP-M-S1-0008",
+     "EP-M-S1-0010"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "M",
+  "semestre": 2,
+  "chapitre": "M-S2-C10",
+  "titre": "Angles orientés et trigonométrie",
+  "ordre": 10,
+  "parcours": [
+   {
+    "notion": "M-S2-C10-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S2-C10-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S2-C10-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S2-C10-N4",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "M-S2-C10-N5",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "M-S2-C10-E01",
+     "M-S2-C10-E02",
+     "M-S2-C10-E03",
+     "M-S2-C10-E04",
+     "M-S2-C10-E05",
+     "M-S2-C10-E06",
+     "M-S2-C10-E07",
+     "M-S2-C10-E08",
+     "M-S2-C10-E09",
+     "M-S2-C10-E10",
+     "M-S2-C10-E11",
+     "M-S2-C10-E12",
+     "M-S2-C10-E13"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-M-S1-0001",
+     "EP-M-S1-0002",
+     "EP-M-S1-0006",
+     "EP-M-S1-0009",
+     "EP-M-S1-0010"
     ]
    }
   ]
@@ -278,7 +611,13 @@
    },
    {
     "epreuves": [
-     "EP-PC-S1-0002"
+     "EP-PC-S1-0001",
+     "EP-PC-S1-0002",
+     "EP-PC-S1-0003",
+     "EP-PC-S1-0005",
+     "EP-PC-S1-0007",
+     "EP-PC-S1-0009",
+     "EP-PC-S1-0010"
     ]
    }
   ]
@@ -323,7 +662,399 @@
     ]
    },
    {
+    "epreuves": [
+     "EP-PC-S1-0001",
+     "EP-PC-S1-0002",
+     "EP-PC-S1-0003",
+     "EP-PC-S1-0005",
+     "EP-PC-S1-0007"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 1,
+  "chapitre": "PC-S1-C04",
+  "titre": "Équilibre d'un solide mobile autour d'un axe fixe",
+  "ordre": 4,
+  "parcours": [
+   {
+    "notion": "PC-S1-C04-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C04-N2",
+    "cours": true,
+    "exemples": 3
+   },
+   {
+    "notion": "PC-S1-C04-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "PC-S1-C04-E01",
+     "PC-S1-C04-E02",
+     "PC-S1-C04-E03",
+     "PC-S1-C04-E04",
+     "PC-S1-C04-E05",
+     "PC-S1-C04-E06",
+     "PC-S1-C04-E07",
+     "PC-S1-C04-E12",
+     "PC-S1-C04-E08",
+     "PC-S1-C04-E09",
+     "PC-S1-C04-E10",
+     "PC-S1-C04-E13",
+     "PC-S1-C04-E11"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-PC-S1-0010"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 1,
+  "chapitre": "PC-S1-C05",
+  "titre": "Corps purs et mélanges",
+  "ordre": 5,
+  "parcours": [
+   {
+    "notion": "PC-S1-C05-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C05-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C05-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "PC-S1-C05-E01",
+     "PC-S1-C05-E02",
+     "PC-S1-C05-E03",
+     "PC-S1-C05-E05",
+     "PC-S1-C05-E04",
+     "PC-S1-C05-E06",
+     "PC-S1-C05-E07",
+     "PC-S1-C05-E10",
+     "PC-S1-C05-E12",
+     "PC-S1-C05-E08",
+     "PC-S1-C05-E09",
+     "PC-S1-C05-E13",
+     "PC-S1-C05-E11"
+    ]
+   },
+   {
     "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 1,
+  "chapitre": "PC-S1-C06",
+  "titre": "L'atome",
+  "ordre": 6,
+  "parcours": [
+   {
+    "notion": "PC-S1-C06-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C06-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C06-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "PC-S1-C06-E01",
+     "PC-S1-C06-E02",
+     "PC-S1-C06-E03",
+     "PC-S1-C06-E06",
+     "PC-S1-C06-E04",
+     "PC-S1-C06-E05",
+     "PC-S1-C06-E07",
+     "PC-S1-C06-E12",
+     "PC-S1-C06-E14",
+     "PC-S1-C06-E08",
+     "PC-S1-C06-E09",
+     "PC-S1-C06-E10",
+     "PC-S1-C06-E11",
+     "PC-S1-C06-E13"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 1,
+  "chapitre": "PC-S1-C07",
+  "titre": "Élément chimique et classification périodique",
+  "ordre": 7,
+  "parcours": [
+   {
+    "notion": "PC-S1-C07-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C07-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C07-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "PC-S1-C07-E01",
+     "PC-S1-C07-E02",
+     "PC-S1-C07-E03",
+     "PC-S1-C07-E08",
+     "PC-S1-C07-E04",
+     "PC-S1-C07-E05",
+     "PC-S1-C07-E06",
+     "PC-S1-C07-E07",
+     "PC-S1-C07-E11",
+     "PC-S1-C07-E14",
+     "PC-S1-C07-E09",
+     "PC-S1-C07-E10",
+     "PC-S1-C07-E12",
+     "PC-S1-C07-E13"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 1,
+  "chapitre": "PC-S1-C08",
+  "titre": "Ions et molécules : les liaisons chimiques",
+  "ordre": 8,
+  "parcours": [
+   {
+    "notion": "PC-S1-C08-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C08-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S1-C08-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "PC-S1-C08-E01",
+     "PC-S1-C08-E02",
+     "PC-S1-C08-E03",
+     "PC-S1-C08-E14",
+     "PC-S1-C08-E04",
+     "PC-S1-C08-E05",
+     "PC-S1-C08-E06",
+     "PC-S1-C08-E07",
+     "PC-S1-C08-E13",
+     "PC-S1-C08-E08",
+     "PC-S1-C08-E09",
+     "PC-S1-C08-E10",
+     "PC-S1-C08-E11",
+     "PC-S1-C08-E12"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-PC-S1-0002",
+     "EP-PC-S1-0005",
+     "EP-PC-S1-0006",
+     "EP-PC-S1-0009"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 2,
+  "chapitre": "PC-S2-C09",
+  "titre": "Électrisation et courant électrique",
+  "ordre": 9,
+  "parcours": [
+   {
+    "notion": "PC-S2-C09-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S2-C09-N2",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "PC-S2-C09-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S2-C09-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "PC-S2-C09-E01",
+     "PC-S2-C09-E02",
+     "PC-S2-C09-E03",
+     "PC-S2-C09-E04",
+     "PC-S2-C09-E05",
+     "PC-S2-C09-E06",
+     "PC-S2-C09-E07",
+     "PC-S2-C09-E08",
+     "PC-S2-C09-E09",
+     "PC-S2-C09-E10",
+     "PC-S2-C09-E11",
+     "PC-S2-C09-E14",
+     "PC-S2-C09-E12",
+     "PC-S2-C09-E13"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 2,
+  "chapitre": "PC-S2-C10",
+  "titre": "La tension électrique",
+  "ordre": 10,
+  "parcours": [
+   {
+    "notion": "PC-S2-C10-N1",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "PC-S2-C10-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S2-C10-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "PC-S2-C10-E01",
+     "PC-S2-C10-E02",
+     "PC-S2-C10-E03",
+     "PC-S2-C10-E14",
+     "PC-S2-C10-E04",
+     "PC-S2-C10-E05",
+     "PC-S2-C10-E06",
+     "PC-S2-C10-E07",
+     "PC-S2-C10-E08",
+     "PC-S2-C10-E09",
+     "PC-S2-C10-E10",
+     "PC-S2-C10-E11",
+     "PC-S2-C10-E12",
+     "PC-S2-C10-E13"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-PC-S1-0006",
+     "EP-PC-S1-0008"
+    ]
+   }
+  ]
+ },
+ {
+  "matiere": "PC",
+  "semestre": 2,
+  "chapitre": "PC-S2-C11",
+  "titre": "Dipôles passifs : loi d'Ohm, associations, effet Joule",
+  "ordre": 11,
+  "parcours": [
+   {
+    "notion": "PC-S2-C11-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S2-C11-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "PC-S2-C11-N3",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "PC-S2-C11-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "PC-S2-C11-E01",
+     "PC-S2-C11-E02",
+     "PC-S2-C11-E03",
+     "PC-S2-C11-E04",
+     "PC-S2-C11-E05",
+     "PC-S2-C11-E06",
+     "PC-S2-C11-E07",
+     "PC-S2-C11-E08",
+     "PC-S2-C11-E15",
+     "PC-S2-C11-E09",
+     "PC-S2-C11-E10",
+     "PC-S2-C11-E11",
+     "PC-S2-C11-E13",
+     "PC-S2-C11-E12",
+     "PC-S2-C11-E14"
+    ]
+   },
+   {
+    "epreuves": [
+     "EP-PC-S1-0001",
+     "EP-PC-S1-0003",
+     "EP-PC-S1-0004",
+     "EP-PC-S1-0005",
+     "EP-PC-S1-0007",
+     "EP-PC-S1-0008"
+    ]
    }
   ]
  },
@@ -402,6 +1133,269 @@
      "SVT-S1-C02-E08",
      "SVT-S1-C02-E09",
      "SVT-S1-C02-E10"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "SVT",
+  "semestre": 1,
+  "chapitre": "SVT-S1-C03",
+  "titre": "L'écosystème : composantes et facteurs écologiques",
+  "ordre": 3,
+  "parcours": [
+   {
+    "notion": "SVT-S1-C03-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C03-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C03-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "SVT-S1-C03-E01",
+     "SVT-S1-C03-E02",
+     "SVT-S1-C03-E03",
+     "SVT-S1-C03-E04",
+     "SVT-S1-C03-E05",
+     "SVT-S1-C03-E06",
+     "SVT-S1-C03-E07",
+     "SVT-S1-C03-E08",
+     "SVT-S1-C03-E09",
+     "SVT-S1-C03-E10",
+     "SVT-S1-C03-E11"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "SVT",
+  "semestre": 1,
+  "chapitre": "SVT-S1-C04",
+  "titre": "Les relations entre les êtres vivants et la circulation de la matière et de l'énergie",
+  "ordre": 4,
+  "parcours": [
+   {
+    "notion": "SVT-S1-C04-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C04-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C04-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "SVT-S1-C04-E01",
+     "SVT-S1-C04-E02",
+     "SVT-S1-C04-E03",
+     "SVT-S1-C04-E04",
+     "SVT-S1-C04-E05",
+     "SVT-S1-C04-E06",
+     "SVT-S1-C04-E07",
+     "SVT-S1-C04-E08",
+     "SVT-S1-C04-E09",
+     "SVT-S1-C04-E10",
+     "SVT-S1-C04-E11"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "SVT",
+  "semestre": 1,
+  "chapitre": "SVT-S1-C05",
+  "titre": "L'Homme et son environnement : impacts des activités humaines et gestion durable",
+  "ordre": 5,
+  "parcours": [
+   {
+    "notion": "SVT-S1-C05-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C05-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C05-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "SVT-S1-C05-E01",
+     "SVT-S1-C05-E02",
+     "SVT-S1-C05-E03",
+     "SVT-S1-C05-E04",
+     "SVT-S1-C05-E05",
+     "SVT-S1-C05-E06",
+     "SVT-S1-C05-E07",
+     "SVT-S1-C05-E08",
+     "SVT-S1-C05-E09",
+     "SVT-S1-C05-E10",
+     "SVT-S1-C05-E11"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "SVT",
+  "semestre": 1,
+  "chapitre": "SVT-S1-C06",
+  "titre": "La nutrition minérale des plantes vertes et le rendement agricole",
+  "ordre": 6,
+  "parcours": [
+   {
+    "notion": "SVT-S1-C06-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C06-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S1-C06-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "SVT-S1-C06-E01",
+     "SVT-S1-C06-E02",
+     "SVT-S1-C06-E03",
+     "SVT-S1-C06-E04",
+     "SVT-S1-C06-E05",
+     "SVT-S1-C06-E06",
+     "SVT-S1-C06-E07",
+     "SVT-S1-C06-E08",
+     "SVT-S1-C06-E09",
+     "SVT-S1-C06-E10",
+     "SVT-S1-C06-E12",
+     "SVT-S1-C06-E11"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "SVT",
+  "semestre": 2,
+  "chapitre": "SVT-S2-C07",
+  "titre": "La photosynthèse : nutrition carbonée des plantes vertes",
+  "ordre": 7,
+  "parcours": [
+   {
+    "notion": "SVT-S2-C07-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S2-C07-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S2-C07-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S2-C07-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "SVT-S2-C07-E01",
+     "SVT-S2-C07-E02",
+     "SVT-S2-C07-E03",
+     "SVT-S2-C07-E04",
+     "SVT-S2-C07-E05",
+     "SVT-S2-C07-E06",
+     "SVT-S2-C07-E08",
+     "SVT-S2-C07-E07",
+     "SVT-S2-C07-E09",
+     "SVT-S2-C07-E10",
+     "SVT-S2-C07-E11"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "SVT",
+  "semestre": 2,
+  "chapitre": "SVT-S2-C08",
+  "titre": "La respiration et les fermentations : la cellule produit son énergie",
+  "ordre": 8,
+  "parcours": [
+   {
+    "notion": "SVT-S2-C08-N1",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S2-C08-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S2-C08-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "SVT-S2-C08-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "SVT-S2-C08-E01",
+     "SVT-S2-C08-E02",
+     "SVT-S2-C08-E03",
+     "SVT-S2-C08-E04",
+     "SVT-S2-C08-E05",
+     "SVT-S2-C08-E06",
+     "SVT-S2-C08-E07",
+     "SVT-S2-C08-E08",
+     "SVT-S2-C08-E09",
+     "SVT-S2-C08-E10",
+     "SVT-S2-C08-E11"
     ]
    },
    {
@@ -494,6 +1488,377 @@
      "FR-S1-C02-E06",
      "FR-S1-C02-E07",
      "FR-S1-C02-E08"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 1,
+  "chapitre": "FR-S1-C03",
+  "titre": "Le texte argumentatif",
+  "ordre": 3,
+  "parcours": [
+   {
+    "notion": "FR-S1-C03-N1",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C03-N2",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C03-N3",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C03-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "FR-S1-C03-E01",
+     "FR-S1-C03-E02",
+     "FR-S1-C03-E03",
+     "FR-S1-C03-E04",
+     "FR-S1-C03-E05",
+     "FR-S1-C03-E06",
+     "FR-S1-C03-E07"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 1,
+  "chapitre": "FR-S1-C04",
+  "titre": "Le résumé de texte (contraction)",
+  "ordre": 4,
+  "parcours": [
+   {
+    "notion": "FR-S1-C04-N1",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C04-N2",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C04-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C04-N4",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C04-N5",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "FR-S1-C04-E01",
+     "FR-S1-C04-E02",
+     "FR-S1-C04-E03",
+     "FR-S1-C04-E04",
+     "FR-S1-C04-E05",
+     "FR-S1-C04-E06",
+     "FR-S1-C04-E07"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 1,
+  "chapitre": "FR-S1-C05",
+  "titre": "La discussion",
+  "ordre": 5,
+  "parcours": [
+   {
+    "notion": "FR-S1-C05-N1",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C05-N2",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C05-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C05-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C05-N5",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "FR-S1-C05-E01",
+     "FR-S1-C05-E02",
+     "FR-S1-C05-E03",
+     "FR-S1-C05-E04",
+     "FR-S1-C05-E05",
+     "FR-S1-C05-E06",
+     "FR-S1-C05-E07"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 1,
+  "chapitre": "FR-S1-C06",
+  "titre": "Le récit et le roman",
+  "ordre": 6,
+  "parcours": [
+   {
+    "notion": "FR-S1-C06-N1",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C06-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C06-N3",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C06-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C06-N5",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "FR-S1-C06-E01",
+     "FR-S1-C06-E02",
+     "FR-S1-C06-E03",
+     "FR-S1-C06-E04",
+     "FR-S1-C06-E05",
+     "FR-S1-C06-E06",
+     "FR-S1-C06-E07"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 1,
+  "chapitre": "FR-S1-C07",
+  "titre": "Grammaire et vocabulaire au service de l'étude de texte",
+  "ordre": 7,
+  "parcours": [
+   {
+    "notion": "FR-S1-C07-N1",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S1-C07-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C07-N3",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C07-N4",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S1-C07-N5",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "exercices": [
+     "FR-S1-C07-E01",
+     "FR-S1-C07-E02",
+     "FR-S1-C07-E03",
+     "FR-S1-C07-E04",
+     "FR-S1-C07-E05",
+     "FR-S1-C07-E06",
+     "FR-S1-C07-E07",
+     "FR-S1-C07-E08"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 2,
+  "chapitre": "FR-S2-C08",
+  "titre": "La poésie",
+  "ordre": 8,
+  "parcours": [
+   {
+    "notion": "FR-S2-C08-N1",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S2-C08-N2",
+    "cours": true,
+    "exemples": 2
+   },
+   {
+    "notion": "FR-S2-C08-N3",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S2-C08-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "FR-S2-C08-E01",
+     "FR-S2-C08-E02",
+     "FR-S2-C08-E03",
+     "FR-S2-C08-E04",
+     "FR-S2-C08-E05",
+     "FR-S2-C08-E06",
+     "FR-S2-C08-E07"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 2,
+  "chapitre": "FR-S2-C09",
+  "titre": "Histoire littéraire : littérature africaine, Négritude et grands mouvements",
+  "ordre": 9,
+  "parcours": [
+   {
+    "notion": "FR-S2-C09-N1",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S2-C09-N2",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S2-C09-N3",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S2-C09-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S2-C09-N5",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "FR-S2-C09-E01",
+     "FR-S2-C09-E02",
+     "FR-S2-C09-E03",
+     "FR-S2-C09-E04",
+     "FR-S2-C09-E05",
+     "FR-S2-C09-E06",
+     "FR-S2-C09-E07",
+     "FR-S2-C09-E08"
+    ]
+   },
+   {
+    "epreuves": []
+   }
+  ]
+ },
+ {
+  "matiere": "FR",
+  "semestre": 2,
+  "chapitre": "FR-S2-C10",
+  "titre": "Le théâtre",
+  "ordre": 10,
+  "parcours": [
+   {
+    "notion": "FR-S2-C10-N1",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S2-C10-N2",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S2-C10-N3",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "notion": "FR-S2-C10-N4",
+    "cours": true,
+    "exemples": 1
+   },
+   {
+    "exercices": [
+     "FR-S2-C10-E01",
+     "FR-S2-C10-E02",
+     "FR-S2-C10-E03",
+     "FR-S2-C10-E04",
+     "FR-S2-C10-E05",
+     "FR-S2-C10-E06",
+     "FR-S2-C10-E07"
     ]
    },
    {

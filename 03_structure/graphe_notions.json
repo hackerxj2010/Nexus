@@ -99,6 +99,168 @@
    "chapitre": "M-S1-C04"
   },
   {
+   "id": "M-S1-C05",
+   "type": "chapitre",
+   "titre": "Équations et inéquations dans ℝ"
+  },
+  {
+   "id": "M-S1-C05-N1",
+   "type": "notion",
+   "titre": "Équations du premier degré, équations produit et quotient",
+   "chapitre": "M-S1-C05"
+  },
+  {
+   "id": "M-S1-C05-N2",
+   "type": "notion",
+   "titre": "Signe de ax + b et inéquations produit ou quotient",
+   "chapitre": "M-S1-C05"
+  },
+  {
+   "id": "M-S1-C05-N3",
+   "type": "notion",
+   "titre": "Trinôme du second degré : forme canonique et discriminant",
+   "chapitre": "M-S1-C05"
+  },
+  {
+   "id": "M-S1-C05-N4",
+   "type": "notion",
+   "titre": "Signe du trinôme, inéquations et équations se ramenant au second degré",
+   "chapitre": "M-S1-C05"
+  },
+  {
+   "id": "M-S1-C06",
+   "type": "chapitre",
+   "titre": "Angles inscrits"
+  },
+  {
+   "id": "M-S1-C06-N1",
+   "type": "notion",
+   "titre": "Angle inscrit et angle au centre",
+   "chapitre": "M-S1-C06"
+  },
+  {
+   "id": "M-S1-C06-N2",
+   "type": "notion",
+   "titre": "Points cocycliques et quadrilatère inscriptible",
+   "chapitre": "M-S1-C06"
+  },
+  {
+   "id": "M-S1-C06-N3",
+   "type": "notion",
+   "titre": "Polygones réguliers inscrits",
+   "chapitre": "M-S1-C06"
+  },
+  {
+   "id": "M-S1-C07",
+   "type": "chapitre",
+   "titre": "Généralités sur les fonctions"
+  },
+  {
+   "id": "M-S1-C07-N1",
+   "type": "notion",
+   "titre": "Fonction, ensemble de définition, image et antécédent",
+   "chapitre": "M-S1-C07"
+  },
+  {
+   "id": "M-S1-C07-N2",
+   "type": "notion",
+   "titre": "Sens de variation, tableau de variations et extremums",
+   "chapitre": "M-S1-C07"
+  },
+  {
+   "id": "M-S1-C07-N3",
+   "type": "notion",
+   "titre": "Parité et résolutions graphiques",
+   "chapitre": "M-S1-C07"
+  },
+  {
+   "id": "M-S1-C08",
+   "type": "chapitre",
+   "titre": "Géométrie dans l'espace"
+  },
+  {
+   "id": "M-S1-C08-N1",
+   "type": "notion",
+   "titre": "Règles d'incidence et positions relatives",
+   "chapitre": "M-S1-C08"
+  },
+  {
+   "id": "M-S1-C08-N2",
+   "type": "notion",
+   "titre": "Parallélisme dans l'espace",
+   "chapitre": "M-S1-C08"
+  },
+  {
+   "id": "M-S1-C08-N3",
+   "type": "notion",
+   "titre": "Orthogonalité et calculs dans l'espace",
+   "chapitre": "M-S1-C08"
+  },
+  {
+   "id": "M-S2-C09",
+   "type": "chapitre",
+   "titre": "Équations et inéquations dans ℝ×ℝ (systèmes)"
+  },
+  {
+   "id": "M-S2-C09-N1",
+   "type": "notion",
+   "titre": "Équations du premier degré à deux inconnues",
+   "chapitre": "M-S2-C09"
+  },
+  {
+   "id": "M-S2-C09-N2",
+   "type": "notion",
+   "titre": "Systèmes de deux équations à deux inconnues",
+   "chapitre": "M-S2-C09"
+  },
+  {
+   "id": "M-S2-C09-N3",
+   "type": "notion",
+   "titre": "Inéquations et systèmes d'inéquations dans ℝ×ℝ",
+   "chapitre": "M-S2-C09"
+  },
+  {
+   "id": "M-S2-C09-N4",
+   "type": "notion",
+   "titre": "Systèmes de trois équations et mise en équation de problèmes",
+   "chapitre": "M-S2-C09"
+  },
+  {
+   "id": "M-S2-C10",
+   "type": "chapitre",
+   "titre": "Angles orientés et trigonométrie"
+  },
+  {
+   "id": "M-S2-C10-N1",
+   "type": "notion",
+   "titre": "Le radian et le cercle trigonométrique",
+   "chapitre": "M-S2-C10"
+  },
+  {
+   "id": "M-S2-C10-N2",
+   "type": "notion",
+   "titre": "Angles orientés de vecteurs",
+   "chapitre": "M-S2-C10"
+  },
+  {
+   "id": "M-S2-C10-N3",
+   "type": "notion",
+   "titre": "Cosinus, sinus et tangente d'un réel",
+   "chapitre": "M-S2-C10"
+  },
+  {
+   "id": "M-S2-C10-N4",
+   "type": "notion",
+   "titre": "Angles associés",
+   "chapitre": "M-S2-C10"
+  },
+  {
+   "id": "M-S2-C10-N5",
+   "type": "notion",
+   "titre": "Équations trigonométriques élémentaires",
+   "chapitre": "M-S2-C10"
+  },
+  {
    "id": "PC-S1-C01",
    "type": "chapitre",
    "titre": "Généralités sur le mouvement"
@@ -168,6 +330,202 @@
    "chapitre": "PC-S1-C03"
   },
   {
+   "id": "PC-S1-C04",
+   "type": "chapitre",
+   "titre": "Équilibre d'un solide mobile autour d'un axe fixe"
+  },
+  {
+   "id": "PC-S1-C04-N1",
+   "type": "notion",
+   "titre": "Moment d'une force par rapport à un axe fixe",
+   "chapitre": "PC-S1-C04"
+  },
+  {
+   "id": "PC-S1-C04-N2",
+   "type": "notion",
+   "titre": "Théorème des moments : équilibre d'un solide mobile autour d'un axe",
+   "chapitre": "PC-S1-C04"
+  },
+  {
+   "id": "PC-S1-C04-N3",
+   "type": "notion",
+   "titre": "Couple de forces",
+   "chapitre": "PC-S1-C04"
+  },
+  {
+   "id": "PC-S1-C05",
+   "type": "chapitre",
+   "titre": "Corps purs et mélanges"
+  },
+  {
+   "id": "PC-S1-C05-N1",
+   "type": "notion",
+   "titre": "Corps purs, mélanges et caractéristiques physiques",
+   "chapitre": "PC-S1-C05"
+  },
+  {
+   "id": "PC-S1-C05-N2",
+   "type": "notion",
+   "titre": "Séparer les constituants d'un mélange",
+   "chapitre": "PC-S1-C05"
+  },
+  {
+   "id": "PC-S1-C05-N3",
+   "type": "notion",
+   "titre": "Corps purs simples et corps purs composés : électrolyse et synthèse de l'eau",
+   "chapitre": "PC-S1-C05"
+  },
+  {
+   "id": "PC-S1-C06",
+   "type": "chapitre",
+   "titre": "L'atome"
+  },
+  {
+   "id": "PC-S1-C06-N1",
+   "type": "notion",
+   "titre": "Constitution de l'atome",
+   "chapitre": "PC-S1-C06"
+  },
+  {
+   "id": "PC-S1-C06-N2",
+   "type": "notion",
+   "titre": "Représentation symbolique du noyau et isotopes",
+   "chapitre": "PC-S1-C06"
+  },
+  {
+   "id": "PC-S1-C06-N3",
+   "type": "notion",
+   "titre": "Répartition des électrons en couches",
+   "chapitre": "PC-S1-C06"
+  },
+  {
+   "id": "PC-S1-C07",
+   "type": "chapitre",
+   "titre": "Élément chimique et classification périodique"
+  },
+  {
+   "id": "PC-S1-C07-N1",
+   "type": "notion",
+   "titre": "L'élément chimique et sa conservation",
+   "chapitre": "PC-S1-C07"
+  },
+  {
+   "id": "PC-S1-C07-N2",
+   "type": "notion",
+   "titre": "La classification périodique des éléments",
+   "chapitre": "PC-S1-C07"
+  },
+  {
+   "id": "PC-S1-C07-N3",
+   "type": "notion",
+   "titre": "Règles du duet et de l'octet ; ions monoatomiques",
+   "chapitre": "PC-S1-C07"
+  },
+  {
+   "id": "PC-S1-C08",
+   "type": "chapitre",
+   "titre": "Ions et molécules : les liaisons chimiques"
+  },
+  {
+   "id": "PC-S1-C08-N1",
+   "type": "notion",
+   "titre": "Liaison covalente et formules des molécules",
+   "chapitre": "PC-S1-C08"
+  },
+  {
+   "id": "PC-S1-C08-N2",
+   "type": "notion",
+   "titre": "Représentation de Lewis des molécules",
+   "chapitre": "PC-S1-C08"
+  },
+  {
+   "id": "PC-S1-C08-N3",
+   "type": "notion",
+   "titre": "Liaison ionique et composés ioniques",
+   "chapitre": "PC-S1-C08"
+  },
+  {
+   "id": "PC-S2-C09",
+   "type": "chapitre",
+   "titre": "Électrisation et courant électrique"
+  },
+  {
+   "id": "PC-S2-C09-N1",
+   "type": "notion",
+   "titre": "Électrisation et charges électriques",
+   "chapitre": "PC-S2-C09"
+  },
+  {
+   "id": "PC-S2-C09-N2",
+   "type": "notion",
+   "titre": "Le courant électrique : nature, sens et effets",
+   "chapitre": "PC-S2-C09"
+  },
+  {
+   "id": "PC-S2-C09-N3",
+   "type": "notion",
+   "titre": "Intensité du courant et mesure à l'ampèremètre",
+   "chapitre": "PC-S2-C09"
+  },
+  {
+   "id": "PC-S2-C09-N4",
+   "type": "notion",
+   "titre": "Lois des intensités : circuit série et loi des nœuds",
+   "chapitre": "PC-S2-C09"
+  },
+  {
+   "id": "PC-S2-C10",
+   "type": "chapitre",
+   "titre": "La tension électrique"
+  },
+  {
+   "id": "PC-S2-C10-N1",
+   "type": "notion",
+   "titre": "Tension électrique : définition, représentation et mesure",
+   "chapitre": "PC-S2-C10"
+  },
+  {
+   "id": "PC-S2-C10-N2",
+   "type": "notion",
+   "titre": "Lois des tensions : additivité, maille et dérivation",
+   "chapitre": "PC-S2-C10"
+  },
+  {
+   "id": "PC-S2-C10-N3",
+   "type": "notion",
+   "titre": "Tensions continues et variables : l'oscilloscope",
+   "chapitre": "PC-S2-C10"
+  },
+  {
+   "id": "PC-S2-C11",
+   "type": "chapitre",
+   "titre": "Dipôles passifs : loi d'Ohm, associations, effet Joule"
+  },
+  {
+   "id": "PC-S2-C11-N1",
+   "type": "notion",
+   "titre": "Caractéristique d'un dipôle et loi d'Ohm",
+   "chapitre": "PC-S2-C11"
+  },
+  {
+   "id": "PC-S2-C11-N2",
+   "type": "notion",
+   "titre": "Associations de conducteurs ohmiques",
+   "chapitre": "PC-S2-C11"
+  },
+  {
+   "id": "PC-S2-C11-N3",
+   "type": "notion",
+   "titre": "Puissance, énergie électrique et effet Joule",
+   "chapitre": "PC-S2-C11"
+  },
+  {
+   "id": "PC-S2-C11-N4",
+   "type": "notion",
+   "titre": "Dipôles passifs non linéaires : lampe, diode, diode Zener",
+   "chapitre": "PC-S2-C11"
+  },
+  {
    "id": "SVT-S1-C01",
    "type": "chapitre",
    "titre": "La cellule, unité structurale et fonctionnelle du vivant"
@@ -212,6 +570,156 @@
    "type": "notion",
    "titre": "Absorption sélective et transport actif",
    "chapitre": "SVT-S1-C02"
+  },
+  {
+   "id": "SVT-S1-C03",
+   "type": "chapitre",
+   "titre": "L'écosystème : composantes et facteurs écologiques"
+  },
+  {
+   "id": "SVT-S1-C03-N1",
+   "type": "notion",
+   "titre": "Les composantes d'un écosystème",
+   "chapitre": "SVT-S1-C03"
+  },
+  {
+   "id": "SVT-S1-C03-N2",
+   "type": "notion",
+   "titre": "Les facteurs écologiques et les adaptations",
+   "chapitre": "SVT-S1-C03"
+  },
+  {
+   "id": "SVT-S1-C03-N3",
+   "type": "notion",
+   "titre": "Les méthodes d'étude d'un écosystème",
+   "chapitre": "SVT-S1-C03"
+  },
+  {
+   "id": "SVT-S1-C04",
+   "type": "chapitre",
+   "titre": "Les relations entre les êtres vivants et la circulation de la matière et de l'énergie"
+  },
+  {
+   "id": "SVT-S1-C04-N1",
+   "type": "notion",
+   "titre": "Les relations entre les êtres vivants",
+   "chapitre": "SVT-S1-C04"
+  },
+  {
+   "id": "SVT-S1-C04-N2",
+   "type": "notion",
+   "titre": "Chaînes, réseaux trophiques et pyramides écologiques",
+   "chapitre": "SVT-S1-C04"
+  },
+  {
+   "id": "SVT-S1-C04-N3",
+   "type": "notion",
+   "titre": "Flux d'énergie et cycle de la matière",
+   "chapitre": "SVT-S1-C04"
+  },
+  {
+   "id": "SVT-S1-C05",
+   "type": "chapitre",
+   "titre": "L'Homme et son environnement : impacts des activités humaines et gestion durable"
+  },
+  {
+   "id": "SVT-S1-C05-N1",
+   "type": "notion",
+   "titre": "La dégradation des milieux : déforestation, feux de brousse, érosion",
+   "chapitre": "SVT-S1-C05"
+  },
+  {
+   "id": "SVT-S1-C05-N2",
+   "type": "notion",
+   "titre": "Les pollutions et le renforcement de l'effet de serre",
+   "chapitre": "SVT-S1-C05"
+  },
+  {
+   "id": "SVT-S1-C05-N3",
+   "type": "notion",
+   "titre": "La gestion durable des écosystèmes",
+   "chapitre": "SVT-S1-C05"
+  },
+  {
+   "id": "SVT-S1-C06",
+   "type": "chapitre",
+   "titre": "La nutrition minérale des plantes vertes et le rendement agricole"
+  },
+  {
+   "id": "SVT-S1-C06-N1",
+   "type": "notion",
+   "titre": "Les besoins nutritifs de la plante verte",
+   "chapitre": "SVT-S1-C06"
+  },
+  {
+   "id": "SVT-S1-C06-N2",
+   "type": "notion",
+   "titre": "L'absorption de l'eau et des ions par la racine",
+   "chapitre": "SVT-S1-C06"
+  },
+  {
+   "id": "SVT-S1-C06-N3",
+   "type": "notion",
+   "titre": "Fertilisation et amélioration du rendement agricole",
+   "chapitre": "SVT-S1-C06"
+  },
+  {
+   "id": "SVT-S2-C07",
+   "type": "chapitre",
+   "titre": "La photosynthèse : nutrition carbonée des plantes vertes"
+  },
+  {
+   "id": "SVT-S2-C07-N1",
+   "type": "notion",
+   "titre": "Mise en évidence de la photosynthèse : la plante verte fabrique de la matière organique",
+   "chapitre": "SVT-S2-C07"
+  },
+  {
+   "id": "SVT-S2-C07-N2",
+   "type": "notion",
+   "titre": "Les échanges gazeux chlorophylliens et les facteurs qui influencent la photosynthèse",
+   "chapitre": "SVT-S2-C07"
+  },
+  {
+   "id": "SVT-S2-C07-N3",
+   "type": "notion",
+   "titre": "Le chloroplaste, siège de la photosynthèse, et les pigments chlorophylliens",
+   "chapitre": "SVT-S2-C07"
+  },
+  {
+   "id": "SVT-S2-C07-N4",
+   "type": "notion",
+   "titre": "Le bilan de la photosynthèse : équation, origine du dioxygène et devenir des produits",
+   "chapitre": "SVT-S2-C07"
+  },
+  {
+   "id": "SVT-S2-C08",
+   "type": "chapitre",
+   "titre": "La respiration et les fermentations : la cellule produit son énergie"
+  },
+  {
+   "id": "SVT-S2-C08-N1",
+   "type": "notion",
+   "titre": "Mise en évidence de la respiration : les échanges gazeux respiratoires",
+   "chapitre": "SVT-S2-C08"
+  },
+  {
+   "id": "SVT-S2-C08-N2",
+   "type": "notion",
+   "titre": "La mitochondrie et les étapes de la respiration cellulaire",
+   "chapitre": "SVT-S2-C08"
+  },
+  {
+   "id": "SVT-S2-C08-N3",
+   "type": "notion",
+   "titre": "Les fermentations : produire de l'énergie sans dioxygène",
+   "chapitre": "SVT-S2-C08"
+  },
+  {
+   "id": "SVT-S2-C08-N4",
+   "type": "notion",
+   "titre": "Respiration et fermentation : comparaison et rendement énergétique",
+   "chapitre": "SVT-S2-C08"
   },
   {
    "id": "FR-S1-C01",
@@ -276,6 +784,268 @@
    "type": "notion",
    "titre": "Les figures de sonorité et la méthode d'analyse d'une figure",
    "chapitre": "FR-S1-C02"
+  },
+  {
+   "id": "FR-S1-C03",
+   "type": "chapitre",
+   "titre": "Le texte argumentatif"
+  },
+  {
+   "id": "FR-S1-C03-N1",
+   "type": "notion",
+   "titre": "Thème, thèse et thèse réfutée",
+   "chapitre": "FR-S1-C03"
+  },
+  {
+   "id": "FR-S1-C03-N2",
+   "type": "notion",
+   "titre": "Les arguments et les exemples",
+   "chapitre": "FR-S1-C03"
+  },
+  {
+   "id": "FR-S1-C03-N3",
+   "type": "notion",
+   "titre": "Les connecteurs logiques et les types de raisonnement",
+   "chapitre": "FR-S1-C03"
+  },
+  {
+   "id": "FR-S1-C03-N4",
+   "type": "notion",
+   "titre": "Convaincre, persuader, délibérer : stratégies et genres argumentatifs",
+   "chapitre": "FR-S1-C03"
+  },
+  {
+   "id": "FR-S1-C04",
+   "type": "chapitre",
+   "titre": "Le résumé de texte (contraction)"
+  },
+  {
+   "id": "FR-S1-C04-N1",
+   "type": "notion",
+   "titre": "Les règles du résumé de texte",
+   "chapitre": "FR-S1-C04"
+  },
+  {
+   "id": "FR-S1-C04-N2",
+   "type": "notion",
+   "titre": "La lecture préparatoire : dégager la structure du texte",
+   "chapitre": "FR-S1-C04"
+  },
+  {
+   "id": "FR-S1-C04-N3",
+   "type": "notion",
+   "titre": "Reformuler et condenser : les techniques",
+   "chapitre": "FR-S1-C04"
+  },
+  {
+   "id": "FR-S1-C04-N4",
+   "type": "notion",
+   "titre": "Compter les mots et présenter le résumé",
+   "chapitre": "FR-S1-C04"
+  },
+  {
+   "id": "FR-S1-C04-N5",
+   "type": "notion",
+   "titre": "Les questions de vocabulaire : expliquer un mot ou une expression en contexte",
+   "chapitre": "FR-S1-C04"
+  },
+  {
+   "id": "FR-S1-C05",
+   "type": "chapitre",
+   "titre": "La discussion"
+  },
+  {
+   "id": "FR-S1-C05-N1",
+   "type": "notion",
+   "titre": "Analyser le sujet de discussion et formuler la problématique",
+   "chapitre": "FR-S1-C05"
+  },
+  {
+   "id": "FR-S1-C05-N2",
+   "type": "notion",
+   "titre": "Chercher les idées et les exemples",
+   "chapitre": "FR-S1-C05"
+  },
+  {
+   "id": "FR-S1-C05-N3",
+   "type": "notion",
+   "titre": "Construire le plan de la discussion",
+   "chapitre": "FR-S1-C05"
+  },
+  {
+   "id": "FR-S1-C05-N4",
+   "type": "notion",
+   "titre": "Rédiger l'introduction et la conclusion",
+   "chapitre": "FR-S1-C05"
+  },
+  {
+   "id": "FR-S1-C05-N5",
+   "type": "notion",
+   "titre": "Rédiger le développement : paragraphe argumentatif et transitions",
+   "chapitre": "FR-S1-C05"
+  },
+  {
+   "id": "FR-S1-C06",
+   "type": "chapitre",
+   "titre": "Le récit et le roman"
+  },
+  {
+   "id": "FR-S1-C06-N1",
+   "type": "notion",
+   "titre": "Le narrateur et la focalisation (point de vue)",
+   "chapitre": "FR-S1-C06"
+  },
+  {
+   "id": "FR-S1-C06-N2",
+   "type": "notion",
+   "titre": "Le temps du récit : temps verbaux, ordre et rythme",
+   "chapitre": "FR-S1-C06"
+  },
+  {
+   "id": "FR-S1-C06-N3",
+   "type": "notion",
+   "titre": "Le schéma narratif et le schéma actantiel",
+   "chapitre": "FR-S1-C06"
+  },
+  {
+   "id": "FR-S1-C06-N4",
+   "type": "notion",
+   "titre": "La description et le portrait dans le récit",
+   "chapitre": "FR-S1-C06"
+  },
+  {
+   "id": "FR-S1-C06-N5",
+   "type": "notion",
+   "titre": "Les genres du récit : conte, nouvelle, roman",
+   "chapitre": "FR-S1-C06"
+  },
+  {
+   "id": "FR-S1-C07",
+   "type": "chapitre",
+   "titre": "Grammaire et vocabulaire au service de l'étude de texte"
+  },
+  {
+   "id": "FR-S1-C07-N1",
+   "type": "notion",
+   "titre": "La phrase complexe et les propositions subordonnées",
+   "chapitre": "FR-S1-C07"
+  },
+  {
+   "id": "FR-S1-C07-N2",
+   "type": "notion",
+   "titre": "Les valeurs des temps et des modes",
+   "chapitre": "FR-S1-C07"
+  },
+  {
+   "id": "FR-S1-C07-N3",
+   "type": "notion",
+   "titre": "Le sens des mots : champ lexical, connotation, polysémie",
+   "chapitre": "FR-S1-C07"
+  },
+  {
+   "id": "FR-S1-C07-N4",
+   "type": "notion",
+   "titre": "La formation des mots et les registres de langue",
+   "chapitre": "FR-S1-C07"
+  },
+  {
+   "id": "FR-S1-C07-N5",
+   "type": "notion",
+   "titre": "Les types et les formes de phrases",
+   "chapitre": "FR-S1-C07"
+  },
+  {
+   "id": "FR-S2-C08",
+   "type": "chapitre",
+   "titre": "La poésie"
+  },
+  {
+   "id": "FR-S2-C08-N1",
+   "type": "notion",
+   "titre": "La versification : compter les syllabes, les vers, la césure",
+   "chapitre": "FR-S2-C08"
+  },
+  {
+   "id": "FR-S2-C08-N2",
+   "type": "notion",
+   "titre": "Les rimes, les strophes et les formes poétiques",
+   "chapitre": "FR-S2-C08"
+  },
+  {
+   "id": "FR-S2-C08-N3",
+   "type": "notion",
+   "titre": "Le rythme, les sonorités et les images en poésie",
+   "chapitre": "FR-S2-C08"
+  },
+  {
+   "id": "FR-S2-C08-N4",
+   "type": "notion",
+   "titre": "Les registres et les fonctions de la poésie",
+   "chapitre": "FR-S2-C08"
+  },
+  {
+   "id": "FR-S2-C09",
+   "type": "chapitre",
+   "titre": "Histoire littéraire : littérature africaine, Négritude et grands mouvements"
+  },
+  {
+   "id": "FR-S2-C09-N1",
+   "type": "notion",
+   "titre": "La littérature orale africaine",
+   "chapitre": "FR-S2-C09"
+  },
+  {
+   "id": "FR-S2-C09-N2",
+   "type": "notion",
+   "titre": "La Négritude",
+   "chapitre": "FR-S2-C09"
+  },
+  {
+   "id": "FR-S2-C09-N3",
+   "type": "notion",
+   "titre": "Le roman africain francophone : de la période coloniale à nos jours",
+   "chapitre": "FR-S2-C09"
+  },
+  {
+   "id": "FR-S2-C09-N4",
+   "type": "notion",
+   "titre": "La littérature togolaise",
+   "chapitre": "FR-S2-C09"
+  },
+  {
+   "id": "FR-S2-C09-N5",
+   "type": "notion",
+   "titre": "Repères : les grands mouvements littéraires français",
+   "chapitre": "FR-S2-C09"
+  },
+  {
+   "id": "FR-S2-C10",
+   "type": "chapitre",
+   "titre": "Le théâtre"
+  },
+  {
+   "id": "FR-S2-C10-N1",
+   "type": "notion",
+   "titre": "Le texte théâtral et la double énonciation",
+   "chapitre": "FR-S2-C10"
+  },
+  {
+   "id": "FR-S2-C10-N2",
+   "type": "notion",
+   "titre": "La structure de la pièce et les règles du théâtre classique",
+   "chapitre": "FR-S2-C10"
+  },
+  {
+   "id": "FR-S2-C10-N3",
+   "type": "notion",
+   "titre": "Les genres théâtraux : tragédie, comédie, drame, théâtre africain",
+   "chapitre": "FR-S2-C10"
+  },
+  {
+   "id": "FR-S2-C10-N4",
+   "type": "notion",
+   "titre": "Analyser une scène de théâtre",
+   "chapitre": "FR-S2-C10"
   }
  ],
  "aretes": [
@@ -404,6 +1174,250 @@
    "vers": "M-S1-C04-N3"
   },
   {
+   "de": "M-3e-EQUATIONS",
+   "vers": "M-S1-C05"
+  },
+  {
+   "de": "M-3e-INEQUATIONS",
+   "vers": "M-S1-C05"
+  },
+  {
+   "de": "M-S1-C03",
+   "vers": "M-S1-C05"
+  },
+  {
+   "de": "M-3e-EQUATIONS",
+   "vers": "M-S1-C05-N1"
+  },
+  {
+   "de": "M-S1-C03-N1",
+   "vers": "M-S1-C05-N1"
+  },
+  {
+   "de": "M-S1-C05-N1",
+   "vers": "M-S1-C05-N2"
+  },
+  {
+   "de": "M-S1-C01-N4",
+   "vers": "M-S1-C05-N2"
+  },
+  {
+   "de": "M-S1-C05-N1",
+   "vers": "M-S1-C05-N3"
+  },
+  {
+   "de": "M-S1-C03-N2",
+   "vers": "M-S1-C05-N3"
+  },
+  {
+   "de": "M-S1-C05-N3",
+   "vers": "M-S1-C05-N4"
+  },
+  {
+   "de": "M-S1-C05-N2",
+   "vers": "M-S1-C05-N4"
+  },
+  {
+   "de": "M-3e-CERCLE",
+   "vers": "M-S1-C06"
+  },
+  {
+   "de": "M-3e-TRIGONOMETRIE",
+   "vers": "M-S1-C06"
+  },
+  {
+   "de": "M-3e-CERCLE",
+   "vers": "M-S1-C06-N1"
+  },
+  {
+   "de": "M-3e-TRIANGLE-ISOCELE",
+   "vers": "M-S1-C06-N1"
+  },
+  {
+   "de": "M-S1-C06-N1",
+   "vers": "M-S1-C06-N2"
+  },
+  {
+   "de": "M-S1-C06-N1",
+   "vers": "M-S1-C06-N3"
+  },
+  {
+   "de": "M-3e-FONCTIONS",
+   "vers": "M-S1-C07"
+  },
+  {
+   "de": "M-S1-C03",
+   "vers": "M-S1-C07"
+  },
+  {
+   "de": "M-S1-C05",
+   "vers": "M-S1-C07"
+  },
+  {
+   "de": "M-3e-FONCTIONS",
+   "vers": "M-S1-C07-N1"
+  },
+  {
+   "de": "M-S1-C01-N1",
+   "vers": "M-S1-C07-N1"
+  },
+  {
+   "de": "M-S1-C03-N3",
+   "vers": "M-S1-C07-N1"
+  },
+  {
+   "de": "M-S1-C07-N1",
+   "vers": "M-S1-C07-N2"
+  },
+  {
+   "de": "M-S1-C01-N4",
+   "vers": "M-S1-C07-N2"
+  },
+  {
+   "de": "M-S1-C07-N1",
+   "vers": "M-S1-C07-N3"
+  },
+  {
+   "de": "M-S1-C07-N2",
+   "vers": "M-S1-C07-N3"
+  },
+  {
+   "de": "M-3e-SOLIDES",
+   "vers": "M-S1-C08"
+  },
+  {
+   "de": "M-3e-PYTHAGORE",
+   "vers": "M-S1-C08"
+  },
+  {
+   "de": "M-3e-THALES",
+   "vers": "M-S1-C08"
+  },
+  {
+   "de": "M-3e-SOLIDES",
+   "vers": "M-S1-C08-N1"
+  },
+  {
+   "de": "M-3e-PERSPECTIVE",
+   "vers": "M-S1-C08-N1"
+  },
+  {
+   "de": "M-S1-C08-N1",
+   "vers": "M-S1-C08-N2"
+  },
+  {
+   "de": "M-3e-THALES",
+   "vers": "M-S1-C08-N2"
+  },
+  {
+   "de": "M-S1-C08-N2",
+   "vers": "M-S1-C08-N3"
+  },
+  {
+   "de": "M-3e-PYTHAGORE",
+   "vers": "M-S1-C08-N3"
+  },
+  {
+   "de": "M-3e-SYSTEMES",
+   "vers": "M-S2-C09"
+  },
+  {
+   "de": "M-3e-FONCTIONS-AFFINES",
+   "vers": "M-S2-C09"
+  },
+  {
+   "de": "M-S1-C02",
+   "vers": "M-S2-C09"
+  },
+  {
+   "de": "M-S1-C05",
+   "vers": "M-S2-C09"
+  },
+  {
+   "de": "M-3e-FONCTIONS-AFFINES",
+   "vers": "M-S2-C09-N1"
+  },
+  {
+   "de": "M-S1-C02-N3",
+   "vers": "M-S2-C09-N1"
+  },
+  {
+   "de": "M-S2-C09-N1",
+   "vers": "M-S2-C09-N2"
+  },
+  {
+   "de": "M-3e-SYSTEMES",
+   "vers": "M-S2-C09-N2"
+  },
+  {
+   "de": "M-S1-C02-N3",
+   "vers": "M-S2-C09-N2"
+  },
+  {
+   "de": "M-S2-C09-N1",
+   "vers": "M-S2-C09-N3"
+  },
+  {
+   "de": "M-S1-C05-N2",
+   "vers": "M-S2-C09-N3"
+  },
+  {
+   "de": "M-S2-C09-N2",
+   "vers": "M-S2-C09-N4"
+  },
+  {
+   "de": "M-3e-TRIGONOMETRIE",
+   "vers": "M-S2-C10"
+  },
+  {
+   "de": "M-3e-CERCLE",
+   "vers": "M-S2-C10"
+  },
+  {
+   "de": "M-S1-C02",
+   "vers": "M-S2-C10"
+  },
+  {
+   "de": "M-S1-C06",
+   "vers": "M-S2-C10"
+  },
+  {
+   "de": "M-S1-C05",
+   "vers": "M-S2-C10"
+  },
+  {
+   "de": "M-3e-CERCLE",
+   "vers": "M-S2-C10-N1"
+  },
+  {
+   "de": "M-S1-C06-N1",
+   "vers": "M-S2-C10-N1"
+  },
+  {
+   "de": "M-S2-C10-N1",
+   "vers": "M-S2-C10-N2"
+  },
+  {
+   "de": "M-S1-C02-N2",
+   "vers": "M-S2-C10-N2"
+  },
+  {
+   "de": "M-S2-C10-N1",
+   "vers": "M-S2-C10-N3"
+  },
+  {
+   "de": "M-3e-TRIGONOMETRIE",
+   "vers": "M-S2-C10-N3"
+  },
+  {
+   "de": "M-S2-C10-N3",
+   "vers": "M-S2-C10-N4"
+  },
+  {
+   "de": "M-S2-C10-N4",
+   "vers": "M-S2-C10-N5"
+  },
+  {
    "de": "PC-3e-MOUVEMENT",
    "vers": "PC-S1-C01"
   },
@@ -472,6 +1486,214 @@
    "vers": "PC-S1-C03-N3"
   },
   {
+   "de": "PC-S1-C03",
+   "vers": "PC-S1-C04"
+  },
+  {
+   "de": "PC-S1-C03-N1",
+   "vers": "PC-S1-C04-N1"
+  },
+  {
+   "de": "PC-S1-C04-N1",
+   "vers": "PC-S1-C04-N2"
+  },
+  {
+   "de": "PC-S1-C04-N2",
+   "vers": "PC-S1-C04-N3"
+  },
+  {
+   "de": "PC-3e-MELANGES",
+   "vers": "PC-S1-C05"
+  },
+  {
+   "de": "PC-3e-ETATS",
+   "vers": "PC-S1-C05"
+  },
+  {
+   "de": "PC-3e-MELANGES",
+   "vers": "PC-S1-C05-N1"
+  },
+  {
+   "de": "PC-S1-C05-N1",
+   "vers": "PC-S1-C05-N2"
+  },
+  {
+   "de": "PC-S1-C05-N1",
+   "vers": "PC-S1-C05-N3"
+  },
+  {
+   "de": "PC-3e-ATOME",
+   "vers": "PC-S1-C06"
+  },
+  {
+   "de": "PC-3e-ATOME",
+   "vers": "PC-S1-C06-N1"
+  },
+  {
+   "de": "PC-S1-C06-N1",
+   "vers": "PC-S1-C06-N2"
+  },
+  {
+   "de": "PC-S1-C06-N2",
+   "vers": "PC-S1-C06-N3"
+  },
+  {
+   "de": "PC-S1-C06",
+   "vers": "PC-S1-C07"
+  },
+  {
+   "de": "PC-S1-C06-N2",
+   "vers": "PC-S1-C07-N1"
+  },
+  {
+   "de": "PC-S1-C07-N1",
+   "vers": "PC-S1-C07-N2"
+  },
+  {
+   "de": "PC-S1-C06-N3",
+   "vers": "PC-S1-C07-N2"
+  },
+  {
+   "de": "PC-S1-C07-N2",
+   "vers": "PC-S1-C07-N3"
+  },
+  {
+   "de": "PC-S1-C07",
+   "vers": "PC-S1-C08"
+  },
+  {
+   "de": "PC-S1-C07-N3",
+   "vers": "PC-S1-C08-N1"
+  },
+  {
+   "de": "PC-S1-C06-N3",
+   "vers": "PC-S1-C08-N1"
+  },
+  {
+   "de": "PC-S1-C08-N1",
+   "vers": "PC-S1-C08-N2"
+  },
+  {
+   "de": "PC-S1-C08-N1",
+   "vers": "PC-S1-C08-N3"
+  },
+  {
+   "de": "PC-S1-C07-N3",
+   "vers": "PC-S1-C08-N3"
+  },
+  {
+   "de": "PC-3e-ELECTRICITE",
+   "vers": "PC-S2-C09"
+  },
+  {
+   "de": "PC-3e-CIRCUIT",
+   "vers": "PC-S2-C09"
+  },
+  {
+   "de": "PC-S1-C06",
+   "vers": "PC-S2-C09"
+  },
+  {
+   "de": "PC-S1-C08",
+   "vers": "PC-S2-C09"
+  },
+  {
+   "de": "PC-3e-ELECTRICITE",
+   "vers": "PC-S2-C09-N1"
+  },
+  {
+   "de": "PC-S1-C06",
+   "vers": "PC-S2-C09-N1"
+  },
+  {
+   "de": "PC-S2-C09-N1",
+   "vers": "PC-S2-C09-N2"
+  },
+  {
+   "de": "PC-3e-CIRCUIT",
+   "vers": "PC-S2-C09-N2"
+  },
+  {
+   "de": "PC-S2-C09-N2",
+   "vers": "PC-S2-C09-N3"
+  },
+  {
+   "de": "PC-S2-C09-N3",
+   "vers": "PC-S2-C09-N4"
+  },
+  {
+   "de": "PC-3e-TENSION",
+   "vers": "PC-S2-C10"
+  },
+  {
+   "de": "PC-S2-C09",
+   "vers": "PC-S2-C10"
+  },
+  {
+   "de": "PC-3e-TENSION",
+   "vers": "PC-S2-C10-N1"
+  },
+  {
+   "de": "PC-S2-C09-N2",
+   "vers": "PC-S2-C10-N1"
+  },
+  {
+   "de": "PC-S2-C10-N1",
+   "vers": "PC-S2-C10-N2"
+  },
+  {
+   "de": "PC-S2-C10-N1",
+   "vers": "PC-S2-C10-N3"
+  },
+  {
+   "de": "PC-S2-C09",
+   "vers": "PC-S2-C11"
+  },
+  {
+   "de": "PC-S2-C10",
+   "vers": "PC-S2-C11"
+  },
+  {
+   "de": "PC-3e-LOI-OHM",
+   "vers": "PC-S2-C11"
+  },
+  {
+   "de": "M-3e-PROPORTIONNALITE",
+   "vers": "PC-S2-C11"
+  },
+  {
+   "de": "PC-S2-C09-N3",
+   "vers": "PC-S2-C11-N1"
+  },
+  {
+   "de": "PC-S2-C10-N1",
+   "vers": "PC-S2-C11-N1"
+  },
+  {
+   "de": "M-3e-PROPORTIONNALITE",
+   "vers": "PC-S2-C11-N1"
+  },
+  {
+   "de": "PC-S2-C11-N1",
+   "vers": "PC-S2-C11-N2"
+  },
+  {
+   "de": "PC-S2-C09-N4",
+   "vers": "PC-S2-C11-N2"
+  },
+  {
+   "de": "PC-S2-C10-N2",
+   "vers": "PC-S2-C11-N2"
+  },
+  {
+   "de": "PC-S2-C11-N1",
+   "vers": "PC-S2-C11-N3"
+  },
+  {
+   "de": "PC-S2-C11-N1",
+   "vers": "PC-S2-C11-N4"
+  },
+  {
    "de": "SVT-3e-CELLULE",
    "vers": "SVT-S1-C01"
   },
@@ -514,6 +1736,238 @@
   {
    "de": "SVT-S1-C02-N2",
    "vers": "SVT-S1-C02-N3"
+  },
+  {
+   "de": "SVT-3e-MILIEU",
+   "vers": "SVT-S1-C03"
+  },
+  {
+   "de": "SVT-3e-CHAINE-ALIMENTAIRE",
+   "vers": "SVT-S1-C03"
+  },
+  {
+   "de": "SVT-3e-MILIEU",
+   "vers": "SVT-S1-C03-N1"
+  },
+  {
+   "de": "SVT-S1-C03-N1",
+   "vers": "SVT-S1-C03-N2"
+  },
+  {
+   "de": "SVT-S1-C03-N1",
+   "vers": "SVT-S1-C03-N3"
+  },
+  {
+   "de": "SVT-S1-C03-N2",
+   "vers": "SVT-S1-C03-N3"
+  },
+  {
+   "de": "SVT-S1-C03",
+   "vers": "SVT-S1-C04"
+  },
+  {
+   "de": "SVT-3e-CHAINE-ALIMENTAIRE",
+   "vers": "SVT-S1-C04"
+  },
+  {
+   "de": "SVT-S1-C03-N1",
+   "vers": "SVT-S1-C04-N1"
+  },
+  {
+   "de": "SVT-S1-C04-N1",
+   "vers": "SVT-S1-C04-N2"
+  },
+  {
+   "de": "SVT-3e-CHAINE-ALIMENTAIRE",
+   "vers": "SVT-S1-C04-N2"
+  },
+  {
+   "de": "SVT-S1-C04-N2",
+   "vers": "SVT-S1-C04-N3"
+  },
+  {
+   "de": "SVT-S1-C03",
+   "vers": "SVT-S1-C05"
+  },
+  {
+   "de": "SVT-S1-C04",
+   "vers": "SVT-S1-C05"
+  },
+  {
+   "de": "SVT-S1-C03-N1",
+   "vers": "SVT-S1-C05-N1"
+  },
+  {
+   "de": "SVT-S1-C04-N3",
+   "vers": "SVT-S1-C05-N1"
+  },
+  {
+   "de": "SVT-S1-C05-N1",
+   "vers": "SVT-S1-C05-N2"
+  },
+  {
+   "de": "SVT-S1-C04-N2",
+   "vers": "SVT-S1-C05-N2"
+  },
+  {
+   "de": "SVT-S1-C04-N3",
+   "vers": "SVT-S1-C05-N2"
+  },
+  {
+   "de": "SVT-S1-C05-N1",
+   "vers": "SVT-S1-C05-N3"
+  },
+  {
+   "de": "SVT-S1-C05-N2",
+   "vers": "SVT-S1-C05-N3"
+  },
+  {
+   "de": "SVT-S1-C02",
+   "vers": "SVT-S1-C06"
+  },
+  {
+   "de": "SVT-S1-C04",
+   "vers": "SVT-S1-C06"
+  },
+  {
+   "de": "SVT-S1-C05",
+   "vers": "SVT-S1-C06"
+  },
+  {
+   "de": "SVT-S1-C02-N3",
+   "vers": "SVT-S1-C06-N1"
+  },
+  {
+   "de": "SVT-3e-NUTRITION-PLANTE",
+   "vers": "SVT-S1-C06-N1"
+  },
+  {
+   "de": "SVT-S1-C06-N1",
+   "vers": "SVT-S1-C06-N2"
+  },
+  {
+   "de": "SVT-S1-C02-N2",
+   "vers": "SVT-S1-C06-N2"
+  },
+  {
+   "de": "SVT-S1-C02-N3",
+   "vers": "SVT-S1-C06-N2"
+  },
+  {
+   "de": "SVT-S1-C06-N1",
+   "vers": "SVT-S1-C06-N3"
+  },
+  {
+   "de": "SVT-S1-C06-N2",
+   "vers": "SVT-S1-C06-N3"
+  },
+  {
+   "de": "SVT-S1-C04-N3",
+   "vers": "SVT-S1-C06-N3"
+  },
+  {
+   "de": "SVT-S1-C05-N2",
+   "vers": "SVT-S1-C06-N3"
+  },
+  {
+   "de": "SVT-3e-NUTRITION-VEGETALE",
+   "vers": "SVT-S2-C07"
+  },
+  {
+   "de": "SVT-S1-C01",
+   "vers": "SVT-S2-C07"
+  },
+  {
+   "de": "SVT-S1-C04",
+   "vers": "SVT-S2-C07"
+  },
+  {
+   "de": "SVT-S1-C06",
+   "vers": "SVT-S2-C07"
+  },
+  {
+   "de": "SVT-3e-NUTRITION-VEGETALE",
+   "vers": "SVT-S2-C07-N1"
+  },
+  {
+   "de": "SVT-S1-C01-N2",
+   "vers": "SVT-S2-C07-N1"
+  },
+  {
+   "de": "SVT-S2-C07-N1",
+   "vers": "SVT-S2-C07-N2"
+  },
+  {
+   "de": "SVT-S1-C03-N2",
+   "vers": "SVT-S2-C07-N2"
+  },
+  {
+   "de": "SVT-S2-C07-N1",
+   "vers": "SVT-S2-C07-N3"
+  },
+  {
+   "de": "SVT-S1-C01-N2",
+   "vers": "SVT-S2-C07-N3"
+  },
+  {
+   "de": "SVT-S2-C07-N2",
+   "vers": "SVT-S2-C07-N4"
+  },
+  {
+   "de": "SVT-S2-C07-N3",
+   "vers": "SVT-S2-C07-N4"
+  },
+  {
+   "de": "SVT-S1-C04",
+   "vers": "SVT-S2-C07-N4"
+  },
+  {
+   "de": "SVT-3e-RESPIRATION",
+   "vers": "SVT-S2-C08"
+  },
+  {
+   "de": "SVT-S1-C01",
+   "vers": "SVT-S2-C08"
+  },
+  {
+   "de": "SVT-S1-C02",
+   "vers": "SVT-S2-C08"
+  },
+  {
+   "de": "SVT-S2-C07",
+   "vers": "SVT-S2-C08"
+  },
+  {
+   "de": "SVT-3e-RESPIRATION",
+   "vers": "SVT-S2-C08-N1"
+  },
+  {
+   "de": "SVT-S2-C07-N2",
+   "vers": "SVT-S2-C08-N1"
+  },
+  {
+   "de": "SVT-S2-C08-N1",
+   "vers": "SVT-S2-C08-N2"
+  },
+  {
+   "de": "SVT-S1-C01-N2",
+   "vers": "SVT-S2-C08-N2"
+  },
+  {
+   "de": "SVT-S2-C08-N2",
+   "vers": "SVT-S2-C08-N3"
+  },
+  {
+   "de": "SVT-S2-C08-N2",
+   "vers": "SVT-S2-C08-N4"
+  },
+  {
+   "de": "SVT-S2-C08-N3",
+   "vers": "SVT-S2-C08-N4"
+  },
+  {
+   "de": "SVT-S2-C07-N4",
+   "vers": "SVT-S2-C08-N4"
   },
   {
    "de": "FR-3e-COMMUNICATION",
@@ -582,6 +2036,278 @@
   {
    "de": "FR-S1-C02-N3",
    "vers": "FR-S1-C02-N5"
+  },
+  {
+   "de": "FR-3e-ARGUMENTATION",
+   "vers": "FR-S1-C03"
+  },
+  {
+   "de": "FR-S1-C01",
+   "vers": "FR-S1-C03"
+  },
+  {
+   "de": "FR-S1-C02",
+   "vers": "FR-S1-C03"
+  },
+  {
+   "de": "FR-3e-ARGUMENTATION",
+   "vers": "FR-S1-C03-N1"
+  },
+  {
+   "de": "FR-S1-C03-N1",
+   "vers": "FR-S1-C03-N2"
+  },
+  {
+   "de": "FR-S1-C03-N2",
+   "vers": "FR-S1-C03-N3"
+  },
+  {
+   "de": "FR-S1-C03-N2",
+   "vers": "FR-S1-C03-N4"
+  },
+  {
+   "de": "FR-S1-C03-N3",
+   "vers": "FR-S1-C03-N4"
+  },
+  {
+   "de": "FR-3e-IDEES",
+   "vers": "FR-S1-C04"
+  },
+  {
+   "de": "FR-S1-C03",
+   "vers": "FR-S1-C04"
+  },
+  {
+   "de": "FR-3e-IDEES",
+   "vers": "FR-S1-C04-N1"
+  },
+  {
+   "de": "FR-S1-C03-N1",
+   "vers": "FR-S1-C04-N1"
+  },
+  {
+   "de": "FR-S1-C04-N1",
+   "vers": "FR-S1-C04-N2"
+  },
+  {
+   "de": "FR-S1-C03-N3",
+   "vers": "FR-S1-C04-N2"
+  },
+  {
+   "de": "FR-S1-C04-N2",
+   "vers": "FR-S1-C04-N3"
+  },
+  {
+   "de": "FR-S1-C04-N3",
+   "vers": "FR-S1-C04-N4"
+  },
+  {
+   "de": "FR-S1-C04-N3",
+   "vers": "FR-S1-C04-N5"
+  },
+  {
+   "de": "FR-S1-C03",
+   "vers": "FR-S1-C05"
+  },
+  {
+   "de": "FR-S1-C04",
+   "vers": "FR-S1-C05"
+  },
+  {
+   "de": "FR-S1-C03-N1",
+   "vers": "FR-S1-C05-N1"
+  },
+  {
+   "de": "FR-S1-C04-N2",
+   "vers": "FR-S1-C05-N1"
+  },
+  {
+   "de": "FR-S1-C05-N1",
+   "vers": "FR-S1-C05-N2"
+  },
+  {
+   "de": "FR-S1-C05-N2",
+   "vers": "FR-S1-C05-N3"
+  },
+  {
+   "de": "FR-S1-C05-N3",
+   "vers": "FR-S1-C05-N4"
+  },
+  {
+   "de": "FR-S1-C05-N3",
+   "vers": "FR-S1-C05-N5"
+  },
+  {
+   "de": "FR-3e-RECIT",
+   "vers": "FR-S1-C06"
+  },
+  {
+   "de": "FR-S1-C01",
+   "vers": "FR-S1-C06"
+  },
+  {
+   "de": "FR-S1-C02",
+   "vers": "FR-S1-C06"
+  },
+  {
+   "de": "FR-3e-RECIT",
+   "vers": "FR-S1-C06-N1"
+  },
+  {
+   "de": "FR-S1-C01-N2",
+   "vers": "FR-S1-C06-N1"
+  },
+  {
+   "de": "FR-S1-C06-N1",
+   "vers": "FR-S1-C06-N2"
+  },
+  {
+   "de": "FR-S1-C06-N2",
+   "vers": "FR-S1-C06-N3"
+  },
+  {
+   "de": "FR-S1-C06-N2",
+   "vers": "FR-S1-C06-N4"
+  },
+  {
+   "de": "FR-S1-C06-N3",
+   "vers": "FR-S1-C06-N5"
+  },
+  {
+   "de": "FR-3e-PHRASE-COMPLEXE",
+   "vers": "FR-S1-C07"
+  },
+  {
+   "de": "FR-3e-VOCABULAIRE",
+   "vers": "FR-S1-C07"
+  },
+  {
+   "de": "FR-S1-C01",
+   "vers": "FR-S1-C07"
+  },
+  {
+   "de": "FR-3e-PHRASE-COMPLEXE",
+   "vers": "FR-S1-C07-N1"
+  },
+  {
+   "de": "FR-S1-C07-N1",
+   "vers": "FR-S1-C07-N2"
+  },
+  {
+   "de": "FR-S1-C06-N2",
+   "vers": "FR-S1-C07-N2"
+  },
+  {
+   "de": "FR-3e-VOCABULAIRE",
+   "vers": "FR-S1-C07-N3"
+  },
+  {
+   "de": "FR-S1-C07-N3",
+   "vers": "FR-S1-C07-N4"
+  },
+  {
+   "de": "FR-S1-C07-N1",
+   "vers": "FR-S1-C07-N5"
+  },
+  {
+   "de": "FR-3e-POESIE",
+   "vers": "FR-S2-C08"
+  },
+  {
+   "de": "FR-S1-C02",
+   "vers": "FR-S2-C08"
+  },
+  {
+   "de": "FR-3e-POESIE",
+   "vers": "FR-S2-C08-N1"
+  },
+  {
+   "de": "FR-S2-C08-N1",
+   "vers": "FR-S2-C08-N2"
+  },
+  {
+   "de": "FR-S2-C08-N1",
+   "vers": "FR-S2-C08-N3"
+  },
+  {
+   "de": "FR-S1-C02-N5",
+   "vers": "FR-S2-C08-N3"
+  },
+  {
+   "de": "FR-S2-C08-N3",
+   "vers": "FR-S2-C08-N4"
+  },
+  {
+   "de": "FR-S1-C06",
+   "vers": "FR-S2-C09"
+  },
+  {
+   "de": "FR-S2-C08",
+   "vers": "FR-S2-C09"
+  },
+  {
+   "de": "FR-S1-C06-N5",
+   "vers": "FR-S2-C09-N1"
+  },
+  {
+   "de": "FR-S2-C09-N1",
+   "vers": "FR-S2-C09-N2"
+  },
+  {
+   "de": "FR-S2-C08-N4",
+   "vers": "FR-S2-C09-N2"
+  },
+  {
+   "de": "FR-S2-C09-N2",
+   "vers": "FR-S2-C09-N3"
+  },
+  {
+   "de": "FR-S1-C06-N5",
+   "vers": "FR-S2-C09-N3"
+  },
+  {
+   "de": "FR-S2-C09-N3",
+   "vers": "FR-S2-C09-N4"
+  },
+  {
+   "de": "FR-3e-HISTOIRE-LITTERAIRE",
+   "vers": "FR-S2-C09-N5"
+  },
+  {
+   "de": "FR-3e-THEATRE",
+   "vers": "FR-S2-C10"
+  },
+  {
+   "de": "FR-S1-C01",
+   "vers": "FR-S2-C10"
+  },
+  {
+   "de": "FR-S1-C02",
+   "vers": "FR-S2-C10"
+  },
+  {
+   "de": "FR-3e-THEATRE",
+   "vers": "FR-S2-C10-N1"
+  },
+  {
+   "de": "FR-S1-C01-N1",
+   "vers": "FR-S2-C10-N1"
+  },
+  {
+   "de": "FR-S2-C10-N1",
+   "vers": "FR-S2-C10-N2"
+  },
+  {
+   "de": "FR-S2-C10-N2",
+   "vers": "FR-S2-C10-N3"
+  },
+  {
+   "de": "FR-S2-C10-N1",
+   "vers": "FR-S2-C10-N4"
+  },
+  {
+   "de": "FR-S2-C10-N3",
+   "vers": "FR-S2-C10-N4"
   }
  ]
 }

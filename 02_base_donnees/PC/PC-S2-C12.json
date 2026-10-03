@@ -1,0 +1,765 @@
+{
+ "id": "PC-S2-C12",
+ "matiere": "PC",
+ "semestre": 2,
+ "ordre": 12,
+ "titre": "Dipôles actifs : générateurs et récepteurs",
+ "objectifs": [
+  "Tracer et exploiter la caractéristique d'un générateur : $U_{PN} = E - rI$ ; déterminer $E$, $r$ et $I_{cc}$.",
+  "Écrire et exploiter la loi d'un récepteur actif : $U = E' + r'I$.",
+  "Établir le bilan de puissance et calculer le rendement d'un générateur et d'un récepteur.",
+  "Déterminer un point de fonctionnement graphiquement et par la loi de Pouillet.",
+  "Déterminer le générateur équivalent à des générateurs en série ou à des générateurs identiques en dérivation."
+ ],
+ "prerequis": [
+  "PC-S2-C10",
+  "PC-S2-C11"
+ ],
+ "notions": [
+  {
+   "id": "PC-S2-C12-N1",
+   "titre": "Le générateur : caractéristique et bilan de puissance",
+   "prerequis_notions": [
+    "PC-S2-C11-N1",
+    "PC-S2-C11-N3"
+   ],
+   "cours_md": "## 1. Dipôle actif\nUn dipôle est **actif** si une tension existe à ses bornes même quand il n'est traversé par aucun courant : sa caractéristique **ne passe pas par l'origine**. Les piles, batteries et accumulateurs (générateurs), mais aussi les moteurs et électrolyseurs en fonctionnement (récepteurs actifs), sont des dipôles actifs.\n\n## 2. Caractéristique d'une pile\n:::methode Protocole\nOn branche la pile en série avec un **rhéostat** (résistance réglable) et un ampèremètre ; un voltmètre mesure la tension $U_{PN}$ entre ses bornes. On fait varier l'intensité avec le rhéostat et on relève les couples $(I\\,;\\,U_{PN})$. Les mesures doivent être rapides pour ne pas user la pile.\n:::\n\n:::propriete Loi d'Ohm pour un générateur\nLa caractéristique d'une pile est (pour des intensités pas trop grandes) une **droite décroissante** :\n$$U_{PN} = E - r\\,I$$\n- $E$ : **force électromotrice** (f.é.m.), en volts : c'est la tension à vide ($I = 0$) ;\n- $r$ : **résistance interne**, en ohms : c'est l'opposé de la pente de la droite.\n:::\nLe générateur est équivalent à un générateur « parfait » de tension $E$ en série avec un conducteur ohmique de résistance $r$. Plus il débite, plus la tension à ses bornes diminue (une partie de la tension « se perd » dans la résistance interne).\n\n:::definition Intensité de court-circuit\nSi l'on relie directement les deux bornes ($U_{PN} = 0$), l'intensité est maximale : $I_{cc} = \\dfrac{E}{r}$. C'est dangereux : la pile s'échauffe et s'abîme.\n:::\n\n## 3. Bilan de puissance d'un générateur\nOn multiplie $U_{PN} = E - rI$ par $I$ :\n$$E\\,I = U_{PN}\\,I + r\\,I^{2}$$\n| Terme | Signification |\n|---|---|\n| $P_{\\text{tot}} = E\\,I$ | puissance électrique totale produite (à partir d'énergie chimique pour une pile) |\n| $P_{\\text{u}} = U_{PN}\\,I$ | puissance électrique fournie au reste du circuit |\n| $P_{J} = r\\,I^{2}$ | puissance perdue par effet Joule dans la pile (elle chauffe) |\n\n:::propriete Rendement du générateur\n$$\\eta = \\frac{P_{\\text{u}}}{P_{\\text{tot}}} = \\frac{U_{PN}}{E} \\qquad (0 < \\eta < 1)$$\n:::\n\n## Exemple résolu\nUne pile plate a pour f.é.m. $E = 4{,}5\\ \\text{V}$ et pour résistance interne $r = 1{,}5\\ \\Omega$. Elle débite $I = 0{,}40\\ \\text{A}$.\n- Tension à ses bornes : $U_{PN} = E - rI = 4{,}5 - 1{,}5 \\times 0{,}40 = 3{,}9\\ \\text{V}$.\n- Intensité de court-circuit : $I_{cc} = \\dfrac{E}{r} = \\dfrac{4{,}5}{1{,}5} = 3{,}0\\ \\text{A}$.\n- Puissances : $P_{\\text{tot}} = EI = 4{,}5 \\times 0{,}40 = 1{,}8\\ \\text{W}$ ; $P_{\\text{u}} = U_{PN}I = 3{,}9 \\times 0{,}40 = 1{,}56\\ \\text{W}$ ; $P_J = rI^{2} = 1{,}5 \\times 0{,}40^{2} = 0{,}24\\ \\text{W}$.\n- Rendement : $\\eta = \\dfrac{3{,}9}{4{,}5} = 0{,}87$, soit $87\\ \\%$.",
+   "definition": "Une pile est un générateur de caractéristique $U_{PN} = E - rI$ : $E$ est sa force électromotrice (tension à vide) et $r$ sa résistance interne.",
+   "formules": [
+    "$U_{PN} = E - r\\,I$",
+    "$I_{cc} = \\dfrac{E}{r}$",
+    "$E\\,I = U_{PN}\\,I + r\\,I^{2}$",
+    "$\\eta = \\dfrac{U_{PN}}{E}$"
+   ],
+   "niveaux": {
+    "phrase": "Plus une pile débite de courant, plus la tension à ses bornes baisse : $U = E - rI$.",
+    "simple": "Une pile, c'est un générateur parfait de tension $E$ caché derrière une petite résistance $r$ : plus tu tires de courant, plus cette résistance « mange » de tension, comme une grosse file d'attente qui ralentit tout le monde.",
+    "complete": "Un générateur réel (pile, batterie) est un dipôle actif linéaire dont la caractéristique est $U_{PN} = E - rI$, où $E$ (f.é.m., V) est la tension à vide et $r$ (Ω) la résistance interne. Son intensité de court-circuit est $I_{cc} = E/r$. Le bilan de puissance s'écrit $EI = U_{PN}I + rI^2$ : puissance totale = puissance fournie au circuit + pertes Joule internes ; le rendement est $\\eta = U_{PN}/E$."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Une pile de f.é.m. $E = 9{,}0\\ \\text{V}$ a une tension $U_{PN} = 8{,}4\\ \\text{V}$ quand elle débite $0{,}30\\ \\text{A}$. Calcule sa résistance interne.",
+     "etapes": [
+      "Formule : $U_{PN} = E - rI$, donc $r = \\dfrac{E - U_{PN}}{I}$.",
+      "Application numérique : $r = \\dfrac{9{,}0 - 8{,}4}{0{,}30}$.",
+      "Résultat : $r = 2{,}0\\ \\Omega$."
+     ]
+    },
+    {
+     "enonce": "On relève à vide $U_{PN} = 4{,}5\\ \\text{V}$, puis $U_{PN} = 3{,}75\\ \\text{V}$ pour $I = 0{,}50\\ \\text{A}$. Détermine $E$ et $r$.",
+     "etapes": [
+      "À vide ($I = 0$) : $U_{PN} = E$, donc $E = 4{,}5\\ \\text{V}$.",
+      "$r = \\dfrac{E - U_{PN}}{I} = \\dfrac{4{,}5 - 3{,}75}{0{,}50}$.",
+      "Résultat : $r = 1{,}5\\ \\Omega$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $U_{PN} = E + rI$ pour un générateur (c'est la loi d'un récepteur).",
+    "Croire que la tension aux bornes d'une pile est toujours égale à l'indication portée sur l'étiquette.",
+    "Confondre puissance totale $EI$ et puissance fournie $U_{PN}I$.",
+    "Lire $r$ comme l'ordonnée à l'origine (c'est $E$) au lieu de l'opposé de la pente."
+   ],
+   "astuces": [
+    "Lis $E$ là où la droite coupe l'axe des tensions, et $I_{cc}$ là où elle coupe l'axe des intensités : $r = E/I_{cc}$.",
+    "Contrôle : $U_{PN}$ doit être inférieure à $E$ quand la pile débite."
+   ],
+   "mnemo": "« Générateur : E moins rI (il donne, donc il perd). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Une pile « 4,5 V » ne donne pas toujours exactement 4,5 V : la tension baisse quand on branche beaucoup de lampes. En Seconde, on explique cette baisse par la résistance interne $r$."
+   },
+   "methode_redaction": "Écris la loi du générateur ($U_{PN} = E - rI$), isole l'inconnue, fais l'application numérique avec l'unité. Pour un graphe, indique les points lus ($E$ sur l'axe des tensions, $I_{cc}$ sur l'axe des intensités). Pour un bilan, écris les trois puissances puis vérifie que $EI = U_{PN}I + rI^{2}$.",
+   "flash": [
+    {
+     "q": "Loi d'un générateur (pile) ?",
+     "r": "$U_{PN} = E - rI$."
+    },
+    {
+     "q": "Que représente E ?",
+     "r": "La force électromotrice : la tension aux bornes à vide ($I = 0$)."
+    },
+    {
+     "q": "Intensité de court-circuit ?",
+     "r": "$I_{cc} = E/r$."
+    },
+    {
+     "q": "Bilan de puissance d'un générateur ?",
+     "r": "$EI = U_{PN}I + rI^{2}$."
+    },
+    {
+     "q": "Rendement d'un générateur ?",
+     "r": "$\\eta = U_{PN}/E$."
+    },
+    {
+     "q": "Pourquoi la tension d'une pile baisse-t-elle quand elle débite ?",
+     "r": "À cause de la chute de tension $rI$ dans sa résistance interne."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C12-N1.svg",
+    "alt": "Graphe U en fonction de I : droite décroissante partant de E = 4,5 V sur l'axe des tensions et coupant l'axe des intensités en Icc = 3,0 A ; le point (0,40 A ; 3,9 V) est marqué. À droite, modèle du générateur : source de tension E en série avec la résistance interne r entre les bornes P et N.",
+    "legende": "Caractéristique d'une pile : U = E − rI, droite de pente −r.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C12-N2",
+   "titre": "Récepteurs actifs : électrolyseur et moteur",
+   "prerequis_notions": [
+    "PC-S2-C12-N1"
+   ],
+   "cours_md": "## 1. Récepteur actif\nUn **électrolyseur** (cuve à électrolyse) et un **moteur** en rotation sont des **récepteurs actifs** : ils reçoivent de l'énergie électrique et en convertissent la plus grande partie en une autre forme **utile** (énergie chimique pour l'électrolyseur, énergie mécanique pour le moteur), le reste étant perdu par effet Joule.\n\n## 2. Caractéristique\n:::propriete Loi d'Ohm pour un récepteur\nAu-delà d'une certaine tension, la caractéristique d'un récepteur actif est une **droite croissante qui ne passe pas par l'origine** :\n$$U = E' + r'\\,I$$\n- $E'$ : **force contre-électromotrice** (f.c.é.m.), en volts ;\n- $r'$ : **résistance interne**, en ohms : c'est la **pente** de la droite.\n:::\nPour un électrolyseur, tant que $U < E'$, aucun courant ne passe ($I = 0$) : l'électrolyse ne démarre pas.\n\n:::remarque Moteur bloqué\nUn moteur **bloqué** (qui ne tourne pas) ne convertit plus d'énergie mécanique : sa f.c.é.m. est nulle ($E' = 0$) et il se comporte comme un simple conducteur ohmique de résistance $r'$. L'intensité devient alors très grande : le moteur chauffe et peut brûler (un ventilateur dont les pales sont coincées « sent le brûlé »).\n:::\n\n## 3. Bilan de puissance d'un récepteur actif\nOn multiplie $U = E' + r'I$ par $I$ :\n$$U\\,I = E'\\,I + r'\\,I^{2}$$\n| Terme | Signification |\n|---|---|\n| $P_{\\text{reçue}} = U\\,I$ | puissance électrique reçue |\n| $P_{\\text{u}} = E'\\,I$ | puissance utile (chimique ou mécanique) |\n| $P_{J} = r'\\,I^{2}$ | puissance perdue par effet Joule |\n\n:::propriete Rendement du récepteur\n$$\\eta = \\frac{P_{\\text{u}}}{P_{\\text{reçue}}} = \\frac{E'}{U}$$\n:::\n\n## Exemple résolu\nUn petit moteur de f.c.é.m. $E' = 9{,}0\\ \\text{V}$ et de résistance interne $r' = 2{,}0\\ \\Omega$ est traversé par $I = 0{,}50\\ \\text{A}$.\n- Tension à ses bornes : $U = E' + r'I = 9{,}0 + 2{,}0 \\times 0{,}50 = 10\\ \\text{V}$.\n- Puissance reçue : $P = UI = 10 \\times 0{,}50 = 5{,}0\\ \\text{W}$.\n- Puissance utile (mécanique) : $P_{\\text{u}} = E'I = 9{,}0 \\times 0{,}50 = 4{,}5\\ \\text{W}$ ; pertes Joule : $P_J = r'I^{2} = 2{,}0 \\times 0{,}25 = 0{,}50\\ \\text{W}$.\n- Rendement : $\\eta = \\dfrac{E'}{U} = \\dfrac{9{,}0}{10} = 0{,}90$, soit $90\\ \\%$.",
+   "definition": "Un récepteur actif (électrolyseur, moteur) a pour caractéristique $U = E' + r'I$, où $E'$ est sa force contre-électromotrice et $r'$ sa résistance interne.",
+   "formules": [
+    "$U = E' + r'\\,I$",
+    "$U\\,I = E'\\,I + r'\\,I^{2}$",
+    "$\\eta = \\dfrac{E'}{U}$"
+   ],
+   "niveaux": {
+    "phrase": "Un moteur ou un électrolyseur « résiste » au courant avec une tension $E'$ en plus de sa résistance : $U = E' + r'I$.",
+    "simple": "Pour faire monter une charge au troisième étage, il faut d'abord un minimum d'effort pour la soulever ($E'$), puis un effort supplémentaire qui grandit si l'on va plus vite ($r'I$).",
+    "complete": "Un récepteur actif convertit l'énergie électrique reçue en énergie utile non thermique (chimique, mécanique) et en chaleur. Sa caractéristique est linéaire, $U = E' + r'I$ (f.c.é.m. $E'$, résistance interne $r'$) ; elle ne passe pas par l'origine. Son bilan de puissance est $UI = E'I + r'I^2$ et son rendement $\\eta = E'/U$. Un moteur bloqué a $E' = 0$ : il ne se comporte plus que comme une résistance $r'$."
+   },
+   "analogie": "Le moulin à maïs du quartier : son moteur électrique transforme l'énergie reçue en travail utile (moudre) et en chaleur (le carter chauffe) ; s'il est bloqué par des grains durs, il chauffe dangereusement.",
+   "exemples_resolus": [
+    {
+     "enonce": "Pour un électrolyseur, on mesure $U = 2{,}4\\ \\text{V}$ pour $I = 0{,}10\\ \\text{A}$ et $U = 3{,}0\\ \\text{V}$ pour $I = 0{,}40\\ \\text{A}$. Détermine $r'$ puis $E'$.",
+     "etapes": [
+      "$r'$ est la pente : $r' = \\dfrac{\\Delta U}{\\Delta I} = \\dfrac{3{,}0 - 2{,}4}{0{,}40 - 0{,}10} = 2{,}0\\ \\Omega$.",
+      "$E' = U - r'I = 2{,}4 - 2{,}0 \\times 0{,}10$.",
+      "Résultat : $E' = 2{,}2\\ \\text{V}$ (contrôle : $2{,}2 + 2{,}0 \\times 0{,}40 = 3{,}0$ V ✔)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $U = E' - r'I$ pour un récepteur.",
+    "Appliquer $U = RI$ à un moteur qui tourne (il faut tenir compte de $E'$).",
+    "Croire qu'un électrolyseur conduit dès que $U > 0$.",
+    "Oublier que la puissance utile d'un moteur est $E'I$ et non $UI$."
+   ],
+   "astuces": [
+    "Générateur : $E - rI$ ; récepteur : $E' + r'I$. Le « prime » ($'$) désigne le récepteur.",
+    "Rendement toujours inférieur à 1 : si tu trouves plus de 100 %, tu as inversé le rapport."
+   ],
+   "mnemo": "« Le récepteur reçoit, donc il ajoute : E' plus r'I. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Un moteur convertit l'énergie électrique en énergie mécanique et chauffe un peu ; l'électrolyse décompose une solution grâce au courant. En Seconde, on écrit leur loi $U = E' + r'I$."
+   },
+   "methode_redaction": "Écris la loi du récepteur, puis les trois puissances avec leur nom ; vérifie que $UI = E'I + r'I^{2}$ ; donne le rendement en pourcentage.",
+   "flash": [
+    {
+     "q": "Loi d'un récepteur actif ?",
+     "r": "$U = E' + r'I$."
+    },
+    {
+     "q": "Que représente $E'$ ?",
+     "r": "La force contre-électromotrice du récepteur."
+    },
+    {
+     "q": "Bilan de puissance d'un récepteur actif ?",
+     "r": "$UI = E'I + r'I^{2}$."
+    },
+    {
+     "q": "Rendement d'un récepteur actif ?",
+     "r": "$\\eta = E'/U$."
+    },
+    {
+     "q": "Que vaut $E'$ pour un moteur bloqué ?",
+     "r": "Zéro : il se comporte comme une résistance $r'$."
+    },
+    {
+     "q": "Un électrolyseur conduit-il si $U < E'$ ?",
+     "r": "Non, $I = 0$."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C12-N2.svg",
+    "alt": "Graphe U en fonction de I d'un électrolyseur : segment vertical de 0 à E' = 2,2 V sur l'axe des tensions (aucun courant), puis droite croissante de pente r' passant par les points (0,10 A ; 2,4 V) et (0,40 A ; 3,0 V). À droite, une cuve à électrolyse et le symbole du moteur.",
+    "legende": "Caractéristique d'un récepteur actif : U = E' + r'I, droite qui ne passe pas par l'origine.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C12-N3",
+   "titre": "Point de fonctionnement et loi de Pouillet",
+   "prerequis_notions": [
+    "PC-S2-C12-N1",
+    "PC-S2-C12-N2",
+    "PC-S2-C10-N2"
+   ],
+   "cours_md": "## 1. Point de fonctionnement\nQuand on branche un récepteur aux bornes d'un générateur, la tension $U$ et l'intensité $I$ doivent vérifier **à la fois** la loi du générateur et celle du récepteur.\n\n:::definition Point de fonctionnement\nLe **point de fonctionnement** $F$ d'un circuit {générateur + récepteur} est le point d'**intersection** de leurs caractéristiques tracées dans le même repère. Ses coordonnées donnent l'intensité et la tension réelles du circuit.\n:::\n\n## 2. Loi de Pouillet\nPour un générateur $(E, r)$ alimentant un conducteur ohmique $R$ : $U = E - rI$ et $U = RI$, donc $RI = E - rI$ :\n$$I = \\frac{E}{R + r}$$\n\nAvec un récepteur actif $(E', r')$ en plus, la loi d'additivité donne $E - rI = E' + r'I + RI$ :\n$$I = \\frac{E - E'}{R + r + r'}$$\n\n:::propriete Loi de Pouillet (circuit série)\n$$I = \\frac{\\sum E_{\\text{générateurs}} - \\sum E'_{\\text{récepteurs}}}{\\sum R_{\\text{toutes les résistances}}}$$\nSi l'on trouve $I \\leq 0$ avec un électrolyseur, c'est que $E < E'$ : aucun courant ne passe.\n:::\n\n:::methode Résoudre un circuit série\n1. Faire le schéma, flécher le courant (sortant par la borne + du générateur).\n2. Écrire la loi de Pouillet et calculer $I$.\n3. Calculer ensuite chaque tension avec la loi de chaque dipôle ($U_{PN} = E - rI$, $U = E' + r'I$, $U_R = RI$).\n4. Contrôler par l'additivité : $U_{PN} = U_{\\text{récepteur}} + U_R$, et par le bilan de puissance.\n:::\n\n## Exemple résolu\nUn générateur ($E = 6{,}0\\ \\text{V}$ ; $r = 2{,}0\\ \\Omega$) alimente un conducteur ohmique $R = 10\\ \\Omega$.\n- Loi de Pouillet : $I = \\dfrac{E}{R + r} = \\dfrac{6{,}0}{10 + 2{,}0}$.\n- Résultat : $I = 0{,}50\\ \\text{A}$.\n- Tension : $U = RI = 10 \\times 0{,}50 = 5{,}0\\ \\text{V}$ (contrôle : $E - rI = 6{,}0 - 1{,}0 = 5{,}0\\ \\text{V}$ ✔). Le point de fonctionnement est $F(0{,}50\\ \\text{A}\\ ;\\ 5{,}0\\ \\text{V})$.",
+   "definition": "Le point de fonctionnement est l'intersection des caractéristiques du générateur et du récepteur ; en série, la loi de Pouillet donne $I = (\\sum E - \\sum E')/\\sum R$.",
+   "formules": [
+    "$I = \\dfrac{E}{R + r}$",
+    "$I = \\dfrac{E - E'}{R + r + r'}$",
+    "$I = \\dfrac{\\sum E - \\sum E'}{\\sum R}$"
+   ],
+   "niveaux": {
+    "phrase": "Le circuit « choisit » le seul couple $(I, U)$ qui convient à la fois au générateur et au récepteur.",
+    "simple": "Le générateur dit « plus tu me demandes de courant, moins je donne de tension » ; la résistance dit « plus tu me donnes de tension, plus je laisse passer de courant ». Ils se mettent d'accord en un seul point : le point de fonctionnement.",
+    "complete": "En régime permanent, le couple $(I, U)$ d'un circuit générateur–récepteur vérifie simultanément les deux caractéristiques : c'est leur intersection (point de fonctionnement). Pour un circuit série comportant des générateurs, des récepteurs actifs et des conducteurs ohmiques, l'additivité des tensions conduit à la loi de Pouillet $I = (\\sum E - \\sum E')/\\sum R$, où $\\sum R$ inclut les résistances internes."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Une batterie ($E = 12\\ \\text{V}$, $r = 1{,}0\\ \\Omega$) alimente un moteur ($E' = 8{,}0\\ \\text{V}$, $r' = 3{,}0\\ \\Omega$). Calcule l'intensité et la tension aux bornes de la batterie.",
+     "etapes": [
+      "Loi de Pouillet : $I = \\dfrac{E - E'}{r + r'} = \\dfrac{12 - 8{,}0}{1{,}0 + 3{,}0}$.",
+      "Résultat : $I = 1{,}0\\ \\text{A}$.",
+      "Tension : $U_{PN} = E - rI = 12 - 1{,}0 \\times 1{,}0 = 11\\ \\text{V}$ (contrôle : $E' + r'I = 8{,}0 + 3{,}0 = 11$ V ✔)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier la résistance interne $r$ du générateur au dénominateur.",
+    "Ajouter $E'$ au lieu de le soustraire.",
+    "Lire le point de fonctionnement sur une seule des deux caractéristiques.",
+    "Utiliser la loi de Pouillet pour un circuit qui contient des dérivations (elle s'applique à un circuit série)."
+   ],
+   "astuces": [
+    "Au dénominateur : **toutes** les résistances du circuit, internes comprises.",
+    "Contrôle : la tension calculée avec la loi du générateur doit être égale à celle calculée avec la loi du récepteur."
+   ],
+   "mnemo": "« Pouillet : les forces en haut, les résistances en bas. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (chapitre précédent)",
+    "texte": "Tu te souviens de la loi d'additivité des tensions et de la loi d'Ohm $U = RI$ ? La loi de Pouillet n'est que leur combinaison avec la loi du générateur."
+   },
+   "methode_redaction": "Écris la loi de Pouillet littérale adaptée au circuit (en nommant chaque $E$, $E'$, $R$), fais l'application numérique, puis calcule les tensions et vérifie par l'additivité. Pour la méthode graphique, trace les deux droites avec soin et lis les coordonnées du point d'intersection.",
+   "flash": [
+    {
+     "q": "Qu'est-ce que le point de fonctionnement ?",
+     "r": "L'intersection des caractéristiques du générateur et du récepteur."
+    },
+    {
+     "q": "Loi de Pouillet pour un générateur et un résistor ?",
+     "r": "$I = E/(R + r)$."
+    },
+    {
+     "q": "Loi de Pouillet avec un récepteur actif ?",
+     "r": "$I = (E - E')/(R + r + r')$."
+    },
+    {
+     "q": "Que faut-il mettre au dénominateur ?",
+     "r": "Toutes les résistances du circuit série, internes comprises."
+    },
+    {
+     "q": "$E = 9$ V, $r = 1\\ \\Omega$, $R = 8\\ \\Omega$ : $I$ ?",
+     "r": "$I = 1{,}0$ A."
+    },
+    {
+     "q": "Pourquoi aucun courant ne passe-t-il si $E < E'$ ?",
+     "r": "Le générateur ne peut pas vaincre la f.c.é.m. du récepteur."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C12-N3.svg",
+    "alt": "Graphe U en fonction de I : la droite décroissante du générateur (U = 6 − 2I) coupe la droite croissante du conducteur ohmique (U = 10 I) au point F (0,50 A ; 5,0 V).",
+    "legende": "Le point de fonctionnement F est l'intersection des deux caractéristiques ; il vérifie la loi de Pouillet.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C12-N4",
+   "titre": "Associations de générateurs",
+   "prerequis_notions": [
+    "PC-S2-C12-N1",
+    "PC-S2-C12-N3"
+   ],
+   "cours_md": "## 1. Générateurs en série\n:::propriete Association en série (même sens)\nDes générateurs branchés en série, la borne $+$ de l'un reliée à la borne $-$ du suivant, sont équivalents à un générateur unique :\n$$E = E_1 + E_2 + \\dots \\qquad r = r_1 + r_2 + \\dots$$\n:::\nC'est le cas des trois piles de $1{,}5\\ \\text{V}$ d'une lampe torche : $E = 4{,}5\\ \\text{V}$. On augmente la tension, mais aussi la résistance interne.\n\n:::attention Pile retournée (opposition)\nSi une pile est montée **à l'envers** (bornes de même signe reliées), sa f.é.m. se **soustrait** : $E = E_1 - E_2$. La résistance interne, elle, s'additionne toujours. Une pile mal placée dans une torche la fait briller beaucoup moins (ou pas du tout).\n:::\n\n## 2. Générateurs identiques en dérivation\n:::propriete Association en dérivation (générateurs identiques)\n$n$ générateurs identiques $(E, r)$ montés en dérivation (toutes les bornes $+$ ensemble, toutes les bornes $-$ ensemble) sont équivalents à :\n$$E_{\\text{éq}} = E \\qquad r_{\\text{éq}} = \\frac{r}{n}$$\n:::\nLa tension ne change pas, mais chaque générateur ne débite qu'une fraction du courant : l'ensemble dure plus longtemps et peut fournir une intensité plus grande.\n\n:::remarque Ne pas mélanger\nOn ne met en dérivation que des générateurs **identiques** : sinon, le plus fort se décharge dans le plus faible même quand rien n'est branché.\n:::\n\n## Exemple résolu\nQuatre piles identiques ($E_0 = 1{,}5\\ \\text{V}$ ; $r_0 = 0{,}50\\ \\Omega$) sont montées en série et alimentent un conducteur ohmique $R = 10\\ \\Omega$.\n- Générateur équivalent : $E = 4 \\times 1{,}5 = 6{,}0\\ \\text{V}$ ; $r = 4 \\times 0{,}50 = 2{,}0\\ \\Omega$.\n- Loi de Pouillet : $I = \\dfrac{E}{R + r} = \\dfrac{6{,}0}{12}$.\n- Résultat : $I = 0{,}50\\ \\text{A}$.",
+   "definition": "En série, les f.é.m. et les résistances internes s'additionnent ; $n$ générateurs identiques en dérivation équivalent à un générateur de même f.é.m. $E$ et de résistance interne $r/n$.",
+   "formules": [
+    "Série : $E = \\sum E_k$ ; $r = \\sum r_k$",
+    "Opposition : $E = E_1 - E_2$",
+    "Dérivation ($n$ identiques) : $E_{\\text{éq}} = E$ ; $r_{\\text{éq}} = \\dfrac{r}{n}$"
+   ],
+   "niveaux": {
+    "phrase": "Piles en série : on ajoute les tensions ; piles identiques en dérivation : même tension, mais plus d'endurance.",
+    "simple": "En série, les piles se passent le relais et chacune ajoute sa poussée ; en dérivation, elles poussent côte à côte : la poussée ne change pas, mais chacune se fatigue moins.",
+    "complete": "Pour des générateurs en série dans le même sens, $E = \\sum E_k$ et $r = \\sum r_k$ ; un générateur monté en opposition retranche sa f.é.m. mais ajoute sa résistance. Pour $n$ générateurs identiques en dérivation, $E_{\\text{éq}} = E$ et $r_{\\text{éq}} = r/n$ : la tension reste la même, l'intensité disponible et la durée de fonctionnement augmentent."
+   },
+   "analogie": "La lampe torche du veilleur de nuit : trois piles de 1,5 V placées bout à bout (+ contre −) donnent 4,5 V ; une seule pile retournée et la lampe ne brille presque plus.",
+   "exemples_resolus": [
+    {
+     "enonce": "Deux piles identiques ($E = 1{,}5\\ \\text{V}$ ; $r = 0{,}60\\ \\Omega$) sont montées en dérivation. Donne le générateur équivalent et son intensité de court-circuit.",
+     "etapes": [
+      "Dérivation de 2 générateurs identiques : $E_{\\text{éq}} = 1{,}5\\ \\text{V}$ ; $r_{\\text{éq}} = \\dfrac{0{,}60}{2} = 0{,}30\\ \\Omega$.",
+      "Formule : $I_{cc} = \\dfrac{E_{\\text{éq}}}{r_{\\text{éq}}}$.",
+      "Application numérique : $I_{cc} = \\dfrac{1{,}5}{0{,}30} = 5{,}0\\ \\text{A}$ (une seule pile : 2,5 A)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Additionner les f.é.m. de générateurs en dérivation.",
+    "Oublier d'additionner les résistances internes en série.",
+    "Additionner la f.é.m. d'une pile montée à l'envers.",
+    "Mettre en dérivation des piles différentes (une neuve et une usée)."
+   ],
+   "astuces": [
+    "Série : regarde l'ordre des bornes (+ − + − …) pour repérer une pile retournée.",
+    "Dérivation : la tension ne change pas, seule $r$ est divisée."
+   ],
+   "mnemo": "« En série, ça s'additionne ; en dérivation, ça se partage. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans une lampe torche, les piles sont placées les unes derrière les autres, la borne + de l'une contre la borne − de la suivante. En Seconde, on calcule le générateur équivalent."
+   },
+   "methode_redaction": "Annonce le type d'association, écris $E_{\\text{éq}}$ et $r_{\\text{éq}}$ avec la formule, puis utilise ce générateur équivalent dans la loi de Pouillet.",
+   "flash": [
+    {
+     "q": "Trois piles de 1,5 V en série (même sens) : E ?",
+     "r": "4,5 V."
+    },
+    {
+     "q": "Résistance interne de piles en série ?",
+     "r": "La somme des résistances internes."
+    },
+    {
+     "q": "Une pile de 1,5 V retournée dans une série de trois : E ?",
+     "r": "$1{,}5 + 1{,}5 - 1{,}5 = 1{,}5$ V."
+    },
+    {
+     "q": "$n$ piles identiques en dérivation : $E$ et $r$ ?",
+     "r": "$E$ inchangée, $r/n$."
+    },
+    {
+     "q": "Intérêt des piles en dérivation ?",
+     "r": "Plus d'intensité disponible, durée de fonctionnement plus longue."
+    },
+    {
+     "q": "Peut-on mettre en dérivation une pile neuve et une pile usée ?",
+     "r": "Non : la neuve se décharge dans l'usée."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C12-N4.svg",
+    "alt": "En haut : trois piles de 1,5 V en série, borne + de l'une reliée à la borne − de la suivante, E = 4,5 V. En bas : deux piles identiques en dérivation entre deux nœuds, même f.é.m. E et résistance interne r/2.",
+    "legende": "Générateurs en série : E et r s'additionnent ; identiques en dérivation : E inchangée, r divisée.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S2-C12-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C12-N1"
+   ],
+   "format": "qcm",
+   "enonce": "La force électromotrice $E$ d'une pile est :",
+   "choix": [
+    "l'intensité maximale qu'elle peut débiter",
+    "la tension à ses bornes quand elle ne débite aucun courant",
+    "sa résistance interne",
+    "la puissance qu'elle fournit"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "La loi $U_{PN} = E - rI$ donne $U_{PN} = E$ pour $I = 0$.",
+    "$E$ est donc la tension aux bornes de la pile quand elle ne débite pas (à vide)."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Confondre $E$ avec l'intensité de court-circuit.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C12-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C12-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une pile ($E = 9{,}0\\ \\text{V}$ ; $r = 2{,}0\\ \\Omega$) débite un courant de $0{,}50\\ \\text{A}$. Calcule la tension $U_{PN}$ à ses bornes (en V).",
+   "reponses_acceptees": [
+    "8",
+    "8,0",
+    "8V",
+    "8,0V"
+   ],
+   "indices": [],
+   "corrige": [
+    "Loi du générateur : $U_{PN} = E - rI$.",
+    "$U_{PN} = 9{,}0 - 2{,}0 \\times 0{,}50 = 8{,}0\\ \\text{V}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Écrire $E + rI = 10$ V.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C12-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C12-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Quatre piles de $1{,}5\\ \\text{V}$ sont montées en série dans le même sens. Quelle est la f.é.m. de l'ensemble (en V) ?",
+   "reponses_acceptees": [
+    "6",
+    "6,0",
+    "6V",
+    "6,0V"
+   ],
+   "indices": [],
+   "corrige": [
+    "En série dans le même sens, les f.é.m. s'additionnent.",
+    "$E = 4 \\times 1{,}5 = 6{,}0\\ \\text{V}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C12-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C12-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calcule l'intensité de court-circuit (en A) d'une pile plate de f.é.m. $4{,}5\\ \\text{V}$ et de résistance interne $1{,}5\\ \\Omega$.",
+   "reponses_acceptees": [
+    "3",
+    "3,0",
+    "3A",
+    "3,0A"
+   ],
+   "indices": [],
+   "corrige": [
+    "En court-circuit, $U_{PN} = 0$, donc $I_{cc} = \\dfrac{E}{r}$.",
+    "$I_{cc} = \\dfrac{4{,}5}{1{,}5} = 3{,}0\\ \\text{A}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C12-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C12-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un électrolyseur a pour f.c.é.m. $E' = 2{,}0\\ \\text{V}$ et pour résistance interne $r' = 5{,}0\\ \\Omega$. Il est traversé par un courant de $0{,}30\\ \\text{A}$. Calcule la tension à ses bornes (en V).",
+   "reponses_acceptees": [
+    "3,5",
+    "3,5V"
+   ],
+   "indices": [],
+   "corrige": [
+    "Loi du récepteur : $U = E' + r'I$.",
+    "$U = 2{,}0 + 5{,}0 \\times 0{,}30 = 3{,}5\\ \\text{V}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Écrire $E' - r'I = 0{,}5$ V.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C12-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C12-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une batterie ($E = 12\\ \\text{V}$ ; $r = 0{,}50\\ \\Omega$) alimente un conducteur ohmique de résistance $R = 5{,}5\\ \\Omega$. Calcule l'intensité du courant (en A).",
+   "reponses_acceptees": [
+    "2",
+    "2,0",
+    "2A",
+    "2,0A"
+   ],
+   "indices": [
+    "N'oublie pas la résistance interne."
+   ],
+   "corrige": [
+    "Loi de Pouillet : $I = \\dfrac{E}{R + r}$.",
+    "$I = \\dfrac{12}{5{,}5 + 0{,}50} = \\dfrac{12}{6{,}0} = 2{,}0\\ \\text{A}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 12/5,5 = 2,2 A.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C12-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C12-N2"
+   ],
+   "format": "qcm",
+   "enonce": "La caractéristique $U = f(I)$ d'un électrolyseur en fonctionnement est :",
+   "choix": [
+    "une droite décroissante",
+    "une droite passant par l'origine",
+    "une droite croissante d'ordonnée à l'origine $E'$",
+    "une droite horizontale"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "$U = E' + r'I$ : c'est une droite croissante de pente $r'$.",
+    "Pour $I = 0$, elle donne $U = E'$ : elle ne passe pas par l'origine."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Confondre avec la caractéristique d'un générateur (décroissante).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C12-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C12-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Une pile de $9{,}0\\ \\text{V}$ et une pile de $4{,}5\\ \\text{V}$ sont montées en série **en opposition** (borne + reliée à borne +). La f.é.m. de l'ensemble vaut :",
+   "choix": [
+    "13,5 V",
+    "4,5 V",
+    "0 V",
+    "9,0 V"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "En opposition, les f.é.m. se soustraient.",
+    "$E = 9{,}0 - 4{,}5 = 4{,}5\\ \\text{V}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Additionner les f.é.m. sans regarder le sens des piles.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C12-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C12-N1"
+   ],
+   "format": "ouverte",
+   "enonce": "On mesure la tension aux bornes d'une pile : $U_1 = 4{,}2\\ \\text{V}$ quand elle débite $I_1 = 0{,}20\\ \\text{A}$, et $U_2 = 3{,}4\\ \\text{V}$ quand elle débite $I_2 = 0{,}60\\ \\text{A}$.\n1. Détermine sa résistance interne $r$ et sa f.é.m. $E$.\n2. Calcule son intensité de court-circuit.\n3. Pour $I = 0{,}60\\ \\text{A}$, calcule la puissance totale, la puissance fournie au circuit, les pertes Joule et le rendement.",
+   "indices": [
+    "Écris la loi du générateur pour les deux mesures et soustrais."
+   ],
+   "corrige": [
+    "$U_1 - U_2 = r(I_2 - I_1)$, donc $r = \\dfrac{4{,}2 - 3{,}4}{0{,}60 - 0{,}20} = \\dfrac{0{,}8}{0{,}40} = 2{,}0\\ \\Omega$.",
+    "$E = U_1 + rI_1 = 4{,}2 + 2{,}0 \\times 0{,}20 = 4{,}6\\ \\text{V}$.",
+    "$I_{cc} = \\dfrac{E}{r} = \\dfrac{4{,}6}{2{,}0} = 2{,}3\\ \\text{A}$.",
+    "$P_{\\text{tot}} = EI = 4{,}6 \\times 0{,}60 = 2{,}76\\ \\text{W}$ ; $P_{\\text{u}} = U_2 I = 3{,}4 \\times 0{,}60 = 2{,}04\\ \\text{W}$ ; $P_J = rI^{2} = 2{,}0 \\times 0{,}36 = 0{,}72\\ \\text{W}$ (contrôle : $2{,}04 + 0{,}72 = 2{,}76$ ✔).",
+    "$\\eta = \\dfrac{U}{E} = \\dfrac{3{,}4}{4{,}6} = 0{,}74$, soit 74 %."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    0.5,
+    1.5,
+    0.5
+   ],
+   "piege": "Prendre $E = 4{,}2$ V (la tension mesurée quand la pile débite n'est pas $E$).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C12-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C12-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Un moteur de ventilateur alimenté sous $U = 12\\ \\text{V}$ est traversé par $I = 1{,}5\\ \\text{A}$ ; sa résistance interne vaut $r' = 1{,}2\\ \\Omega$.\n1. Calcule sa f.c.é.m. $E'$.\n2. Calcule la puissance reçue, les pertes Joule et la puissance mécanique utile.\n3. Calcule le rendement.\n4. Les pales se coincent : le moteur est bloqué sous la même tension. Calcule la nouvelle intensité et commente.",
+   "indices": [
+    "Moteur bloqué : il ne tourne plus, donc $E' = 0$."
+   ],
+   "corrige": [
+    "$E' = U - r'I = 12 - 1{,}2 \\times 1{,}5 = 10{,}2\\ \\text{V}$.",
+    "$P_{\\text{reçue}} = UI = 18\\ \\text{W}$ ; $P_J = r'I^{2} = 1{,}2 \\times 2{,}25 = 2{,}7\\ \\text{W}$ ; $P_{\\text{u}} = E'I = 10{,}2 \\times 1{,}5 = 15{,}3\\ \\text{W}$.",
+    "$\\eta = \\dfrac{E'}{U} = \\dfrac{10{,}2}{12} = 0{,}85$, soit 85 %.",
+    "Bloqué : $E' = 0$, donc $I = \\dfrac{U}{r'} = \\dfrac{12}{1{,}2} = 10\\ \\text{A}$ : intensité près de 7 fois plus grande ; toute la puissance ($120\\ \\text{W}$) est dissipée en chaleur, le bobinage risque de brûler."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    0.5,
+    2
+   ],
+   "piege": "Calculer le rendement avec $r'$ au lieu de $E'$, ou garder $E'$ quand le moteur est bloqué.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C12-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C12-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Un générateur ($E = 6{,}0\\ \\text{V}$ ; $r = 2{,}0\\ \\Omega$) alimente un conducteur ohmique $R = 4{,}0\\ \\Omega$.\n1. Écris l'équation de chaque caractéristique ($U$ en fonction de $I$).\n2. Détermine par le calcul les coordonnées du point de fonctionnement.\n3. Calcule la puissance reçue par le conducteur ohmique et le rendement du générateur.",
+   "indices": [
+    "Au point de fonctionnement, les deux expressions de U sont égales."
+   ],
+   "corrige": [
+    "Générateur : $U = 6{,}0 - 2{,}0\\,I$ ; conducteur ohmique : $U = 4{,}0\\,I$.",
+    "Intersection : $4{,}0\\,I = 6{,}0 - 2{,}0\\,I \\Rightarrow 6{,}0\\,I = 6{,}0 \\Rightarrow I = 1{,}0\\ \\text{A}$ ; $U = 4{,}0\\ \\text{V}$. Point $F(1{,}0\\ \\text{A}\\ ;\\ 4{,}0\\ \\text{V})$.",
+    "$P_R = UI = 4{,}0 \\times 1{,}0 = 4{,}0\\ \\text{W}$ ; $\\eta = \\dfrac{U}{E} = \\dfrac{4{,}0}{6{,}0} = 0{,}67$, soit 67 %."
+   ],
+   "bareme": [
+    1,
+    2,
+    1
+   ],
+   "piege": "Oublier r et trouver I = 1,5 A.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C12-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C12-N3",
+    "PC-S2-C12-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Un circuit série comprend une batterie ($E = 12\\ \\text{V}$ ; $r = 0{,}50\\ \\Omega$), un moteur ($E' = 9{,}0\\ \\text{V}$ ; $r' = 1{,}0\\ \\Omega$) et un conducteur ohmique $R = 4{,}5\\ \\Omega$.\n1. Calcule l'intensité du courant.\n2. Calcule la tension aux bornes de chaque dipôle et vérifie la loi d'additivité.\n3. Fais le bilan des puissances : puissance totale du générateur, puissance utile du moteur, pertes Joule totales. Vérifie la conservation.",
+   "indices": [
+    "Au dénominateur : toutes les résistances, internes comprises."
+   ],
+   "corrige": [
+    "Loi de Pouillet : $I = \\dfrac{E - E'}{r + r' + R} = \\dfrac{12 - 9{,}0}{0{,}50 + 1{,}0 + 4{,}5} = \\dfrac{3{,}0}{6{,}0} = 0{,}50\\ \\text{A}$.",
+    "$U_{PN} = E - rI = 11{,}75\\ \\text{V}$ ; $U_M = E' + r'I = 9{,}5\\ \\text{V}$ ; $U_R = RI = 2{,}25\\ \\text{V}$.",
+    "Additivité : $U_M + U_R = 9{,}5 + 2{,}25 = 11{,}75\\ \\text{V} = U_{PN}$ ✔.",
+    "$P_{\\text{tot}} = EI = 6{,}0\\ \\text{W}$ ; $P_{\\text{u}} = E'I = 4{,}5\\ \\text{W}$ ; $P_J = (r + r' + R)I^{2} = 6{,}0 \\times 0{,}25 = 1{,}5\\ \\text{W}$.",
+    "Conservation : $4{,}5 + 1{,}5 = 6{,}0\\ \\text{W}$ ✔."
+   ],
+   "bareme": [
+    1.5,
+    1.5,
+    0.5,
+    1.5,
+    1
+   ],
+   "piege": "Ajouter $E'$ à $E$, ou oublier $r$ et $r'$.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C12-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C12-N4",
+    "PC-S2-C12-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une lampe de poche contient trois piles identiques ($E_0 = 1{,}5\\ \\text{V}$ ; $r_0 = 0{,}50\\ \\Omega$) en série dans le même sens. Sa lampe est assimilée à un conducteur ohmique de $6{,}0\\ \\Omega$. Calcule l'intensité du courant (en A).",
+   "reponses_acceptees": [
+    "0,6",
+    "0,60",
+    "0,6A",
+    "0,60A",
+    "600mA"
+   ],
+   "indices": [
+    "Additionne aussi les résistances internes."
+   ],
+   "corrige": [
+    "Générateur équivalent : $E = 3 \\times 1{,}5 = 4{,}5\\ \\text{V}$ ; $r = 3 \\times 0{,}50 = 1{,}5\\ \\Omega$.",
+    "Loi de Pouillet : $I = \\dfrac{E}{R + r} = \\dfrac{4{,}5}{6{,}0 + 1{,}5}$.",
+    "$I = 0{,}60\\ \\text{A}$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Oublier les résistances internes (on trouverait 0,75 A).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C12-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C12-N4",
+    "PC-S2-C12-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Deux piles identiques ($E = 1{,}5\\ \\text{V}$ ; $r = 0{,}60\\ \\Omega$) sont montées en dérivation et alimentent un conducteur ohmique de $2{,}7\\ \\Omega$. Calcule l'intensité dans le conducteur ohmique (en A).",
+   "reponses_acceptees": [
+    "0,5",
+    "0,50",
+    "0,5A",
+    "0,50A",
+    "500mA"
+   ],
+   "indices": [],
+   "corrige": [
+    "Générateur équivalent : $E_{\\text{éq}} = 1{,}5\\ \\text{V}$ ; $r_{\\text{éq}} = 0{,}60/2 = 0{,}30\\ \\Omega$.",
+    "$I = \\dfrac{1{,}5}{2{,}7 + 0{,}30} = \\dfrac{1{,}5}{3{,}0} = 0{,}50\\ \\text{A}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Additionner les f.é.m. (3,0 V) alors que les piles sont en dérivation.",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Signes inversés : générateur $U = E - rI$, récepteur $U = E' + r'I$.",
+  "Résistances internes oubliées dans la loi de Pouillet.",
+  "Puissance utile d'un moteur prise égale à $UI$ au lieu de $E'I$ ; rendement supérieur à 100 % non détecté.",
+  "Moteur bloqué traité avec $E' \\neq 0$.",
+  "F.é.m. de piles en dérivation additionnées ; pile en opposition comptée positivement.",
+  "Point de fonctionnement lu sur une seule caractéristique, ou graphes tracés sans échelle."
+ ]
+}
