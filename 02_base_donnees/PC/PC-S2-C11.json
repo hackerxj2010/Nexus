@@ -1,0 +1,807 @@
+{
+ "id": "PC-S2-C11",
+ "matiere": "PC",
+ "semestre": 2,
+ "ordre": 11,
+ "titre": "Dipôles passifs : loi d'Ohm, associations, effet Joule",
+ "objectifs": [
+  "Tracer et exploiter la caractéristique $U = f(I)$ d'un dipôle (protocole, tableau, graphe).",
+  "Énoncer et appliquer la loi d'Ohm $U = RI$ ; déterminer $R$ comme pente d'une caractéristique.",
+  "Calculer la résistance équivalente d'associations en série, en dérivation et mixtes ; utiliser le diviseur de tension.",
+  "Calculer puissance et énergie électriques ($P = UI$, $W = P\\Delta t$, kWh) et appliquer la loi de Joule $P = RI^2$.",
+  "Décrire le comportement d'une lampe, d'une diode et d'une diode Zener ; calculer une résistance de protection."
+ ],
+ "prerequis": [
+  "PC-S2-C09",
+  "PC-S2-C10",
+  "PC-3e-LOI-OHM",
+  "M-3e-PROPORTIONNALITE"
+ ],
+ "notions": [
+  {
+   "id": "PC-S2-C11-N1",
+   "titre": "Caractéristique d'un dipôle et loi d'Ohm",
+   "prerequis_notions": [
+    "PC-S2-C09-N3",
+    "PC-S2-C10-N1",
+    "M-3e-PROPORTIONNALITE"
+   ],
+   "cours_md": "## 1. Caractéristique d'un dipôle\n:::definition Caractéristique\nLa **caractéristique** d'un dipôle est la courbe qui représente la tension $U$ à ses bornes en fonction de l'intensité $I$ du courant qui le traverse : $U = f(I)$ (on trace parfois $I = g(U)$).\n:::\n\n:::methode Tracer une caractéristique (protocole)\n1. Monter en série : un générateur de tension réglable, le dipôle étudié et un **ampèremètre** ; brancher un **voltmètre en dérivation** aux bornes du dipôle.\n2. Faire varier la tension du générateur et relever, pour chaque réglage, le couple $(I\\,;\\,U)$ dans un tableau.\n3. Tracer $U$ en fonction de $I$ sur papier millimétré avec une échelle adaptée, et relier les points par une courbe moyenne (ne pas relier point par point).\n:::\n\nUn dipôle est **passif** si la tension à ses bornes est nulle quand il n'est traversé par aucun courant : sa caractéristique passe par l'**origine**. Lampe, conducteur ohmique, diode sont des dipôles passifs ; une pile est un dipôle **actif** (chapitre suivant).\n\n## 2. Le conducteur ohmique et la loi d'Ohm\n:::propriete Loi d'Ohm\nLa caractéristique d'un **conducteur ohmique** (appelé couramment « résistance ») est une **droite passant par l'origine** : $U$ et $I$ sont proportionnelles.\n$$U = R\\,I$$\n$U$ en volts (V), $I$ en ampères (A), $R$ (la **résistance**) en **ohms ($\\Omega$)**. Multiples : $1\\ \\text{k}\\Omega = 10^{3}\\ \\Omega$ ; $1\\ \\text{M}\\Omega = 10^{6}\\ \\Omega$.\n:::\nLe dipôle se comporte de la même façon dans les deux sens : sa caractéristique est **symétrique** par rapport à l'origine. La grandeur $G = \\dfrac{1}{R}$ s'appelle la **conductance** (en siemens, S).\n\n:::methode Déterminer R à partir d'un graphe\n$R$ est le **coefficient directeur** (la pente) de la droite : on choisit deux points éloignés de la droite (pas forcément des points de mesure) :\n$$R = \\frac{\\Delta U}{\\Delta I}$$\nAttention aux unités : convertir les mA en A avant de diviser.\n:::\n\n:::remarque Mesurer R directement\nUn **ohmmètre** (multimètre en position $\\Omega$) mesure $R$ **hors circuit** (dipôle débranché). Sur les résistances, la valeur est aussi indiquée par des anneaux de couleur (noir 0, marron 1, rouge 2, orange 3, jaune 4, vert 5, bleu 6, violet 7, gris 8, blanc 9) : jaune-violet-rouge signifie $47 \\times 10^{2}\\ \\Omega = 4{,}7\\ \\text{k}\\Omega$.\n:::\n\n## Exemples résolus\n**Exemple 1.** Un conducteur ohmique de résistance $R = 120\\ \\Omega$ est soumis à une tension $U = 6{,}0\\ \\text{V}$. Calcule l'intensité.\n- Formule : $U = R\\,I$, donc $I = \\dfrac{U}{R}$.\n- Application numérique : $I = \\dfrac{6{,}0}{120}$.\n- Résultat : $I = 0{,}050\\ \\text{A} = 50\\ \\text{mA}$.\n\n**Exemple 2.** Mesures : $I$ (mA) = 0 ; 10 ; 20 ; 30 ; 40 et $U$ (V) = 0 ; 2,2 ; 4,4 ; 6,6 ; 8,8. Le dipôle est-il ohmique ? Que vaut $R$ ?\n- $U/I$ est constant (0,22 V/mA) : la caractéristique est une droite passant par l'origine, le dipôle est **ohmique**.\n- Pente : $R = \\dfrac{\\Delta U}{\\Delta I} = \\dfrac{8{,}8 - 2{,}2}{0{,}040 - 0{,}010} = \\dfrac{6{,}6}{0{,}030}$.\n- Résultat : $R = 220\\ \\Omega$.",
+   "definition": "La caractéristique d'un dipôle est la courbe $U = f(I)$ ; celle d'un conducteur ohmique est une droite passant par l'origine : $U = RI$ (loi d'Ohm), $R$ en ohms.",
+   "formules": [
+    "$U = R\\,I$",
+    "$R = \\dfrac{\\Delta U}{\\Delta I}$ (pente de la caractéristique)",
+    "$G = \\dfrac{1}{R}$"
+   ],
+   "niveaux": {
+    "phrase": "Pour un conducteur ohmique, la tension est proportionnelle à l'intensité : $U = RI$.",
+    "simple": "La résistance, c'est la « difficulté » que le courant a à passer : une ruelle étroite du grand marché laisse passer moins de monde qu'une large avenue pour la même poussée. Plus $R$ est grand, plus il faut de tension pour faire passer le même courant.",
+    "complete": "La caractéristique $U = f(I)$ d'un dipôle se trace point par point avec un ampèremètre en série et un voltmètre en dérivation. Un dipôle passif a une caractéristique passant par l'origine. Le conducteur ohmique est un dipôle passif linéaire et symétrique : $U = RI$, où la résistance $R$ (Ω) est la pente de la droite. $R$ se mesure aussi à l'ohmmètre, hors circuit."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Un conducteur ohmique de $47\\ \\Omega$ est traversé par un courant de $0{,}15\\ \\text{A}$. Calcule la tension à ses bornes.",
+     "etapes": [
+      "Formule : $U = R\\,I$.",
+      "Application numérique : $U = 47 \\times 0{,}15$.",
+      "Résultat : $U = 7{,}05\\ \\text{V} \\approx 7{,}1\\ \\text{V}$."
+     ]
+    },
+    {
+     "enonce": "La caractéristique d'un conducteur ohmique passe par le point $(I = 0{,}25\\ \\text{A}\\ ;\\ U = 5{,}0\\ \\text{V})$. Calcule $R$.",
+     "etapes": [
+      "La droite passe par l'origine : $R = \\dfrac{U}{I}$.",
+      "Application numérique : $R = \\dfrac{5{,}0}{0{,}25}$.",
+      "Résultat : $R = 20\\ \\Omega$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Calculer $R = U/I$ avec $I$ en mA : on trouve un résultat 1000 fois trop petit.",
+    "Relier les points de mesure par une ligne brisée au lieu de tracer la droite moyenne.",
+    "Appliquer $U = RI$ à une lampe ou à une diode (ce ne sont pas des conducteurs ohmiques).",
+    "Mesurer $R$ à l'ohmmètre alors que le dipôle est encore branché dans le circuit alimenté."
+   ],
+   "astuces": [
+    "Pour la pente, prends deux points de la droite éloignés l'un de l'autre : l'erreur de lecture compte moins.",
+    "Triangle magique : U en haut, R et I en bas ; cache la grandeur cherchée."
+   ],
+   "mnemo": "« URI » : U = R × I (on lit le mot « Uri » comme un prénom).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as vu que la résistance s'oppose au passage du courant et tu as découvert la loi d'Ohm $U = RI$. En Seconde, on la retrouve par la caractéristique et on calcule $R$ comme une pente."
+   },
+   "methode_redaction": "Écris : « Le dipôle est un conducteur ohmique, donc d'après la loi d'Ohm $U = RI$ », isole la grandeur cherchée, convertis en unités SI (A, V, Ω), puis fais l'application numérique. Pour un graphe, montre les deux points choisis et le calcul de la pente.",
+   "flash": [
+    {
+     "q": "Qu'est-ce que la caractéristique d'un dipôle ?",
+     "r": "La courbe $U = f(I)$ (tension en fonction de l'intensité)."
+    },
+    {
+     "q": "Énonce la loi d'Ohm.",
+     "r": "Pour un conducteur ohmique, $U = RI$."
+    },
+    {
+     "q": "Forme de la caractéristique d'un conducteur ohmique ?",
+     "r": "Une droite passant par l'origine, de pente R."
+    },
+    {
+     "q": "Unité de la résistance ?",
+     "r": "L'ohm (Ω)."
+    },
+    {
+     "q": "Comment mesure-t-on R avec un ohmmètre ?",
+     "r": "Dipôle débranché du circuit (hors tension)."
+    },
+    {
+     "q": "Qu'est-ce qu'un dipôle passif ?",
+     "r": "Un dipôle dont la tension est nulle quand l'intensité est nulle."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C11-N1.svg",
+    "alt": "Graphe U en fonction de I : quatre points de mesure alignés sur une droite passant par l'origine ; un triangle de pente montre ΔI = 30 mA et ΔU = 6,6 V, d'où R = 220 Ω. À droite, montage : générateur G, ampèremètre A en série, conducteur ohmique R et voltmètre V en dérivation.",
+    "legende": "La caractéristique d'un conducteur ohmique est une droite passant par l'origine ; sa pente est R.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C11-N2",
+   "titre": "Associations de conducteurs ohmiques",
+   "prerequis_notions": [
+    "PC-S2-C11-N1",
+    "PC-S2-C09-N4",
+    "PC-S2-C10-N2"
+   ],
+   "cours_md": "## 1. Résistance équivalente\n:::definition Résistance équivalente\nLa **résistance équivalente** d'une association de conducteurs ohmiques est la résistance $R_{\\text{éq}}$ d'un conducteur ohmique **unique** qui, soumis à la **même tension**, serait traversé par le **même courant**.\n:::\n\n## 2. Association en série\n:::propriete Série\n$$R_{\\text{éq}} = R_1 + R_2 + \\dots + R_n$$\n:::\n*Démonstration* : même intensité $I$ ; additivité des tensions : $U = U_1 + U_2 = R_1 I + R_2 I = (R_1 + R_2)\\,I$.\n\nLa résistance équivalente est **plus grande** que chacune des résistances. Pour $n$ résistances identiques : $R_{\\text{éq}} = n\\,R$.\n\n## 3. Association en dérivation (en parallèle)\n:::propriete Dérivation\n$$\\frac{1}{R_{\\text{éq}}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\dots \\qquad \\text{pour deux : } R_{\\text{éq}} = \\frac{R_1\\,R_2}{R_1 + R_2}$$\n:::\n*Démonstration* : même tension $U$ ; loi des nœuds : $I = I_1 + I_2 = \\dfrac{U}{R_1} + \\dfrac{U}{R_2} = U\\left(\\dfrac{1}{R_1} + \\dfrac{1}{R_2}\\right)$.\n\nLa résistance équivalente est **plus petite** que la plus petite des résistances. Pour $n$ résistances identiques : $R_{\\text{éq}} = \\dfrac{R}{n}$. En dérivation, ce sont les **conductances** qui s'additionnent : $G = G_1 + G_2$.\n\n## 4. Le diviseur de tension\n:::propriete Diviseur de tension\nDeux conducteurs ohmiques $R_1$ et $R_2$ en série sous la tension $U$ (rien n'est branché en plus aux bornes de $R_2$) :\n$$U_2 = U \\times \\frac{R_2}{R_1 + R_2}$$\n:::\nLa tension se partage **proportionnellement aux résistances**. Ce montage permet d'obtenir une tension plus faible que celle du générateur.\n\n:::methode Association mixte\n1. Repérer les groupes « simples » (deux résistances strictement en série, ou strictement en dérivation).\n2. Remplacer chaque groupe par sa résistance équivalente et redessiner le schéma.\n3. Recommencer jusqu'à n'avoir qu'une résistance ; puis « remonter » le schéma pour calculer intensités et tensions.\n:::\n\n## Exemples résolus\n**Exemple 1.** $R_1 = 100\\ \\Omega$ et $R_2 = 150\\ \\Omega$. Résistance équivalente en série, puis en dérivation.\n- Série : $R_{\\text{éq}} = R_1 + R_2 = 100 + 150 = 250\\ \\Omega$.\n- Dérivation : $R_{\\text{éq}} = \\dfrac{R_1 R_2}{R_1 + R_2} = \\dfrac{100 \\times 150}{250} = 60\\ \\Omega$ (plus petit que $100\\ \\Omega$ : cohérent).\n\n**Exemple 2.** $R_1 = 20\\ \\Omega$ est en série avec l'ensemble ($R_2 = 30\\ \\Omega$ en dérivation avec $R_3 = 60\\ \\Omega$). L'ensemble est soumis à $U = 12\\ \\text{V}$.\n- $R_{23} = \\dfrac{30 \\times 60}{30 + 60} = 20\\ \\Omega$ ; $R_{\\text{éq}} = 20 + 20 = 40\\ \\Omega$.\n- Intensité principale : $I = \\dfrac{U}{R_{\\text{éq}}} = \\dfrac{12}{40} = 0{,}30\\ \\text{A}$.\n- Tension aux bornes du groupe : $U_{23} = R_{23}\\,I = 20 \\times 0{,}30 = 6{,}0\\ \\text{V}$.\n- $I_2 = \\dfrac{6{,}0}{30} = 0{,}20\\ \\text{A}$ ; $I_3 = \\dfrac{6{,}0}{60} = 0{,}10\\ \\text{A}$ ; contrôle : $0{,}20 + 0{,}10 = 0{,}30\\ \\text{A}$.",
+   "definition": "En série les résistances s'additionnent ($R = R_1 + R_2$) ; en dérivation les inverses s'additionnent ($1/R = 1/R_1 + 1/R_2$).",
+   "formules": [
+    "Série : $R_{\\text{éq}} = R_1 + R_2$",
+    "Dérivation : $\\dfrac{1}{R_{\\text{éq}}} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2}$",
+    "$R_{\\text{éq}} = \\dfrac{R_1 R_2}{R_1 + R_2}$",
+    "$U_2 = U\\,\\dfrac{R_2}{R_1 + R_2}$"
+   ],
+   "niveaux": {
+    "phrase": "Mettre des résistances en série augmente la résistance ; les mettre en dérivation la diminue.",
+    "simple": "En série, le courant doit franchir les obstacles l'un après l'autre : c'est plus difficile. En dérivation, il a plusieurs chemins possibles : c'est plus facile, comme quand on ouvre un deuxième guichet à la banque.",
+    "complete": "Une association de conducteurs ohmiques équivaut à un seul conducteur ohmique de résistance $R_{\\text{éq}}$. En série (même intensité, tensions additives), $R_{\\text{éq}} = \\sum R_k$. En dérivation (même tension, intensités additives), $1/R_{\\text{éq}} = \\sum 1/R_k$, et $R_{\\text{éq}}$ est inférieure à la plus petite résistance. Deux résistances en série forment un diviseur de tension : $U_2 = U R_2/(R_1 + R_2)$."
+   },
+   "analogie": "À la banque, ouvrir un deuxième guichet (dérivation) fait passer plus de clients par minute : la « résistance » de la file diminue. Mettre deux contrôles l'un après l'autre (série) la ralentit.",
+   "exemples_resolus": [
+    {
+     "enonce": "On dispose d'une pile de $12\\ \\text{V}$ et de deux conducteurs ohmiques $R_1 = 1{,}0\\ \\text{k}\\Omega$ et $R_2 = 2{,}0\\ \\text{k}\\Omega$ en série. Quelle tension obtient-on aux bornes de $R_2$ ?",
+     "etapes": [
+      "Diviseur de tension : $U_2 = U \\times \\dfrac{R_2}{R_1 + R_2}$.",
+      "Application numérique : $U_2 = 12 \\times \\dfrac{2{,}0}{1{,}0 + 2{,}0}$.",
+      "Résultat : $U_2 = 8{,}0\\ \\text{V}$."
+     ]
+    },
+    {
+     "enonce": "Trois conducteurs ohmiques identiques de $90\\ \\Omega$ sont montés en dérivation. Résistance équivalente ?",
+     "etapes": [
+      "Pour $n$ résistances identiques en dérivation : $R_{\\text{éq}} = \\dfrac{R}{n}$.",
+      "Application numérique : $R_{\\text{éq}} = \\dfrac{90}{3}$.",
+      "Résultat : $R_{\\text{éq}} = 30\\ \\Omega$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Additionner les résistances montées en dérivation.",
+    "Oublier d'inverser à la fin : $1/R_{\\text{éq}} = 0{,}025$ ne veut pas dire $R_{\\text{éq}} = 0{,}025\\ \\Omega$.",
+    "Appliquer la formule du diviseur de tension alors qu'un autre dipôle est branché aux bornes de $R_2$.",
+    "Trouver une résistance équivalente en dérivation plus grande que l'une des résistances sans se méfier."
+   ],
+   "astuces": [
+    "Contrôle rapide : en dérivation, $R_{\\text{éq}}$ est plus petite que la plus petite résistance.",
+    "Pour deux résistances en dérivation : « produit sur somme »."
+   ],
+   "mnemo": "« Série : Somme ; Dérivation : produit sur somme. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans un circuit série, ajouter une lampe fait baisser l'intensité ; en dérivation, chaque branche ajoutée fait augmenter l'intensité principale. Les formules de ce chapitre expliquent ces observations."
+   },
+   "methode_redaction": "Fais un schéma, indique les groupes que tu remplaces (« $R_2$ et $R_3$ sont en dérivation, donc… »), écris la formule, l'application numérique et le résultat avec l'unité ; vérifie avec la loi des nœuds ou l'additivité des tensions.",
+   "flash": [
+    {
+     "q": "Résistance équivalente de deux résistances en série ?",
+     "r": "$R = R_1 + R_2$."
+    },
+    {
+     "q": "Résistance équivalente de deux résistances en dérivation ?",
+     "r": "$R = \\dfrac{R_1 R_2}{R_1 + R_2}$ (produit sur somme)."
+    },
+    {
+     "q": "$n$ résistances identiques $R$ en dérivation ?",
+     "r": "$R_{\\text{éq}} = R/n$."
+    },
+    {
+     "q": "En dérivation, $R_{\\text{éq}}$ est-elle plus grande ou plus petite que chaque résistance ?",
+     "r": "Plus petite que la plus petite."
+    },
+    {
+     "q": "Formule du diviseur de tension ?",
+     "r": "$U_2 = U\\,R_2/(R_1 + R_2)$."
+    },
+    {
+     "q": "40 Ω en dérivation avec 40 Ω ?",
+     "r": "20 Ω."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C11-N2.svg",
+    "alt": "En haut : deux conducteurs ohmiques R1 = 100 Ω et R2 = 150 Ω en série, résistance équivalente 250 Ω. En bas : les mêmes en dérivation entre deux nœuds, résistance équivalente 60 Ω.",
+    "legende": "Série : R = R₁ + R₂ ; dérivation : 1/R = 1/R₁ + 1/R₂.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C11-N3",
+   "titre": "Puissance, énergie électrique et effet Joule",
+   "prerequis_notions": [
+    "PC-S2-C11-N1"
+   ],
+   "cours_md": "## 1. Puissance électrique reçue par un dipôle\n:::definition Puissance électrique\nUn dipôle soumis à la tension $U$ et traversé par un courant continu d'intensité $I$ reçoit la **puissance électrique** :\n$$P = U\\,I$$\n$P$ en **watts (W)**, $U$ en volts, $I$ en ampères.\n:::\nLes appareils portent des **indications nominales** (par exemple « 220 V – 1000 W ») : c'est la puissance qu'ils reçoivent quand ils sont alimentés sous leur tension nominale.\n\n## 2. Énergie électrique\n:::propriete Énergie\nPendant la durée $\\Delta t$, le dipôle reçoit l'énergie :\n$$W = P\\,\\Delta t = U\\,I\\,\\Delta t$$\n$W$ en **joules (J)**, $\\Delta t$ en secondes. Unité pratique : le **kilowattheure** : $1\\ \\text{kWh} = 1000\\ \\text{W} \\times 3600\\ \\text{s} = 3{,}6 \\times 10^{6}\\ \\text{J}$.\n:::\nLe compteur de la CEET mesure l'énergie consommée en kWh ; la facture est proportionnelle à ce nombre de kWh.\n\n## 3. L'effet Joule\n:::definition Effet Joule\nUn conducteur parcouru par un courant **s'échauffe** : l'énergie électrique est convertie en **chaleur** (énergie thermique). C'est l'**effet Joule**. Pour un conducteur ohmique, **toute** l'énergie reçue est convertie en chaleur.\n:::\n\n:::propriete Loi de Joule (conducteur ohmique)\nAvec $U = RI$ :\n$$P = R\\,I^{2} = \\frac{U^{2}}{R} \\qquad W = R\\,I^{2}\\,\\Delta t$$\n:::\n\n**Applications utiles** : fer à repasser, chauffe-eau, plaque chauffante, ampoule à incandescence (le filament chauffé à plus de 2000 °C émet de la lumière), **fusible** (un fil fin qui fond et coupe le circuit si l'intensité devient trop grande).\n\n**Inconvénients** : pertes d'énergie dans les fils et les lignes électriques, échauffement des moteurs et des chargeurs.\n\n:::attention Multiprises surchargées\nBrancher sur une seule multiprise fer à repasser, bouilloire et climatiseur fait passer une grande intensité dans le même fil : $P = RI^{2}$ croît comme le **carré** de $I$. Le fil chauffe, l'isolant fond : risque d'incendie.\n:::\n\n## Exemple résolu\nUn fer à repasser porte « 220 V – 1000 W ». Il fonctionne 30 min. Calcule l'intensité, sa résistance, l'énergie consommée (en kWh et en J) et le coût si le kWh coûte 100 FCFA (prix fictif choisi pour l'exercice).\n- Intensité : $I = \\dfrac{P}{U} = \\dfrac{1000}{220} = 4{,}5\\ \\text{A}$.\n- Résistance : $R = \\dfrac{U^{2}}{P} = \\dfrac{220^{2}}{1000} = 48{,}4\\ \\Omega$.\n- Énergie : $W = P\\,\\Delta t = 1{,}000\\ \\text{kW} \\times 0{,}50\\ \\text{h} = 0{,}50\\ \\text{kWh}$, soit $0{,}50 \\times 3{,}6 \\times 10^{6} = 1{,}8 \\times 10^{6}\\ \\text{J}$.\n- Coût : $0{,}50 \\times 100 = 50\\ \\text{FCFA}$.",
+   "definition": "Un dipôle reçoit la puissance $P = UI$ et l'énergie $W = UI\\Delta t$ ; dans un conducteur ohmique, cette énergie est entièrement convertie en chaleur (effet Joule) : $P = RI^2$.",
+   "formules": [
+    "$P = U\\,I$",
+    "$W = P\\,\\Delta t$",
+    "$P = R\\,I^{2} = \\dfrac{U^{2}}{R}$",
+    "$1\\ \\text{kWh} = 3{,}6 \\times 10^{6}\\ \\text{J}$"
+   ],
+   "niveaux": {
+    "phrase": "Le courant qui traverse une résistance la chauffe : c'est l'effet Joule.",
+    "simple": "Quand tu te frottes vigoureusement les mains, elles chauffent. Les porteurs de charge qui traversent un conducteur « frottent » de la même façon : l'énergie électrique devient de la chaleur.",
+    "complete": "La puissance électrique reçue par un dipôle est $P = UI$ et l'énergie reçue pendant $\\Delta t$ est $W = UI\\Delta t$ (J ; 1 kWh = 3,6 MJ). Dans un conducteur ohmique, cette énergie est intégralement dissipée sous forme thermique (effet Joule) : $P = RI^2 = U^2/R$. L'effet Joule est utile (chauffage, éclairage par incandescence, fusibles) ou nuisible (pertes en ligne, échauffement des câbles)."
+   },
+   "analogie": "La plaque chauffante électrique d'une vendeuse de beignets : l'énergie électrique y est entièrement transformée en chaleur, comme dans le fer à repasser.",
+   "exemples_resolus": [
+    {
+     "enonce": "Un conducteur ohmique de $100\\ \\Omega$ est traversé par un courant de $0{,}20\\ \\text{A}$ pendant $10\\ \\text{min}$. Calcule la puissance dissipée et l'énergie thermique produite.",
+     "etapes": [
+      "Formule : $P = R\\,I^{2}$.",
+      "Application numérique : $P = 100 \\times 0{,}20^{2} = 4{,}0\\ \\text{W}$.",
+      "Énergie : $W = P\\,\\Delta t = 4{,}0 \\times 600 = 2{,}4 \\times 10^{3}\\ \\text{J}$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier le carré dans $P = RI^{2}$.",
+    "Garder $\\Delta t$ en minutes dans $W = P\\Delta t$ (en joules il faut des secondes).",
+    "Confondre puissance (W) et énergie (J ou kWh) : « le fer consomme 1000 W par heure » est faux.",
+    "Calculer en kWh avec $P$ en W : il faut $P$ en kW et $\\Delta t$ en h."
+   ],
+   "astuces": [
+    "Deux systèmes cohérents : (W, s) → J, ou (kW, h) → kWh.",
+    "Si $U$ est connue mais pas $I$, utilise $P = U^{2}/R$."
+   ],
+   "mnemo": "« Puissance = U fois I ; énergie = puissance fois durée. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as calculé $P = UI$ et l'énergie $E = P \\times t$ en kWh, et tu as lu une facture d'électricité. En Seconde, on y ajoute la loi de Joule $P = RI^{2}$."
+   },
+   "methode_redaction": "Écris la formule littérale adaptée (P = UI, P = RI², W = PΔt), annonce le système d'unités choisi (W et s, ou kW et h), fais l'application numérique puis donne le résultat avec l'unité. Termine par une phrase de conclusion (coût, comparaison).",
+   "flash": [
+    {
+     "q": "Formule de la puissance électrique reçue ?",
+     "r": "$P = UI$."
+    },
+    {
+     "q": "Loi de Joule pour un conducteur ohmique ?",
+     "r": "$P = RI^{2}$ (ou $U^{2}/R$)."
+    },
+    {
+     "q": "Combien de joules dans 1 kWh ?",
+     "r": "$3{,}6 \\times 10^{6}$ J."
+    },
+    {
+     "q": "Qu'est-ce que l'effet Joule ?",
+     "r": "L'échauffement d'un conducteur parcouru par un courant (énergie électrique → chaleur)."
+    },
+    {
+     "q": "Cite deux applications utiles de l'effet Joule.",
+     "r": "Fer à repasser, fusible (aussi chauffe-eau, ampoule à incandescence)."
+    },
+    {
+     "q": "Si $I$ double dans une résistance, que devient $P$ ?",
+     "r": "Elle est multipliée par 4."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C11-N3.svg",
+    "alt": "Chaîne énergétique : le générateur fournit de l'énergie électrique au conducteur ohmique, qui la cède entièrement au milieu extérieur sous forme de chaleur ; formules W = UIΔt = RI²Δt et P = UI = RI² = U²/R ; encadré 1 kWh = 3,6 × 10⁶ J.",
+    "legende": "Effet Joule : dans un conducteur ohmique, toute l'énergie électrique devient chaleur.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "PC-S2-C11-N4",
+   "titre": "Dipôles passifs non linéaires : lampe, diode, diode Zener",
+   "prerequis_notions": [
+    "PC-S2-C11-N1"
+   ],
+   "cours_md": "## 1. Dipôle non linéaire\nUn dipôle est **non linéaire** si sa caractéristique n'est **pas une droite** : $U$ et $I$ ne sont pas proportionnelles, et on ne peut pas lui appliquer $U = RI$ avec un $R$ constant.\n\n- **Lampe à incandescence** : la caractéristique s'incurve ; quand l'intensité augmente, le filament chauffe et sa résistance **augmente** (le rapport $U/I$ n'est pas constant).\n- **Thermistance (CTN)** : sa résistance diminue quand la température augmente (thermomètres électroniques).\n- **Photorésistance** : sa résistance diminue quand elle est éclairée (lampadaires automatiques).\n\n## 2. La diode à jonction\n:::definition Diode\nUne **diode** est un dipôle **non symétrique** qui laisse passer le courant pratiquement dans **un seul sens**, de l'**anode** vers la **cathode** (la barre du symbole) : c'est le **sens passant**. Dans l'autre sens (**sens bloqué**), l'intensité est pratiquement nulle.\n:::\n:::propriete Caractéristique d'une diode au silicium\n- En sens passant, le courant ne circule notablement que lorsque la tension dépasse la **tension de seuil** $U_S \\approx 0{,}6\\ \\text{V}$ à $0{,}7\\ \\text{V}$ ; au-delà, $I$ augmente très vite.\n- En sens bloqué, $I \\approx 0$.\n:::\nUtilisations : protection contre les inversions de polarité, **redressement** du courant alternatif (chargeurs). Les **DEL** (diodes électroluminescentes) éclairent dans le sens passant ; leur seuil est plus élevé (environ $1{,}6\\ \\text{V}$ à $2\\ \\text{V}$ pour une DEL rouge, $3\\ \\text{V}$ pour une blanche).\n\n:::attention Résistance de protection\nUne diode ou une DEL ne se branche **jamais seule** aux bornes d'un générateur : l'intensité deviendrait trop grande et la détruirait. On ajoute un conducteur ohmique **en série** qui limite l'intensité.\n:::\n\n:::methode Calculer une résistance de protection\nPour une DEL de tension $U_D$ parcourue par l'intensité $I$ souhaitée, alimentée sous la tension $E$ :\n1. Additivité des tensions : $E = U_R + U_D$, donc $U_R = E - U_D$.\n2. Loi d'Ohm : $R = \\dfrac{E - U_D}{I}$ ($I$ en ampères).\n:::\n\n## 3. La diode Zener\n:::propriete Diode Zener\nEn sens direct, elle se comporte comme une diode ordinaire. En sens **inverse**, elle reste bloquée tant que la tension inverse est inférieure à sa **tension Zener** $U_Z$ ; quand elle atteint $U_Z$, elle conduit et la tension à ses bornes reste pratiquement égale à $U_Z$, quelle que soit l'intensité.\n:::\nUtilisation : **stabiliser une tension** (régulateurs de tension des chargeurs et alimentations).\n\n## Exemple résolu\nUne DEL rouge doit fonctionner sous $U_D = 2{,}0\\ \\text{V}$ avec $I = 20\\ \\text{mA}$, alimentée par une pile de $9{,}0\\ \\text{V}$. Calcule la résistance de protection.\n- Formule : $R = \\dfrac{E - U_D}{I}$.\n- Application numérique : $R = \\dfrac{9{,}0 - 2{,}0}{0{,}020}$.\n- Résultat : $R = 350\\ \\Omega$ (on choisit en pratique la valeur normalisée un peu supérieure, $390\\ \\Omega$, pour ne pas dépasser 20 mA).",
+   "definition": "Un dipôle non linéaire a une caractéristique qui n'est pas une droite ; la diode ne laisse passer le courant que dans un sens, au-delà d'une tension de seuil, et la diode Zener conduit en inverse à la tension $U_Z$.",
+   "formules": [
+    "Diode passante : $U \\approx U_S \\approx 0{,}6\\ \\text{V}$ à $0{,}7\\ \\text{V}$",
+    "Protection : $R = \\dfrac{E - U_D}{I}$",
+    "Zener en inverse : $U \\approx -U_Z$"
+   ],
+   "niveaux": {
+    "phrase": "La diode est un « sens unique » pour le courant.",
+    "simple": "La diode, c'est le tourniquet d'entrée d'un stade : on passe dans un sens si l'on pousse assez fort (tension de seuil), jamais dans l'autre. La Zener est un tourniquet qui cède dans l'autre sens seulement au-delà d'une poussée précise.",
+    "complete": "Les dipôles non linéaires (lampe, thermistance, photorésistance, diodes) n'obéissent pas à la loi d'Ohm. La diode à jonction est passante de l'anode vers la cathode au-delà de la tension de seuil (≈ 0,6–0,7 V pour le silicium) et bloquée en sens inverse ; elle doit être protégée par un conducteur ohmique en série, $R = (E - U_D)/I$. La diode Zener, en inverse, conduit à tension pratiquement constante $U_Z$ : elle sert à stabiliser une tension."
+   },
+   "analogie": "Le sens unique d'une rue du quartier Bè : les véhicules passent dans un sens, jamais dans l'autre ; la diode fait de même avec le courant.",
+   "exemples_resolus": [
+    {
+     "enonce": "Une diode au silicium (seuil $0{,}7\\ \\text{V}$), en sens passant, est montée en série avec un conducteur ohmique de $100\\ \\Omega$ sous $5{,}0\\ \\text{V}$. Calcule l'intensité, puis dis ce qui se passe si l'on retourne la diode.",
+     "etapes": [
+      "Additivité : $U_R = E - U_D = 5{,}0 - 0{,}7 = 4{,}3\\ \\text{V}$.",
+      "Loi d'Ohm : $I = \\dfrac{U_R}{R} = \\dfrac{4{,}3}{100} = 0{,}043\\ \\text{A} = 43\\ \\text{mA}$.",
+      "Diode retournée : sens bloqué, $I \\approx 0$ ; $U_R = 0$ et la diode supporte toute la tension (5,0 V en inverse)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Appliquer $U = RI$ avec un $R$ constant à une lampe ou à une diode.",
+    "Brancher une DEL directement sur une pile sans résistance de protection.",
+    "Inverser anode et cathode (la barre du symbole indique la cathode).",
+    "Oublier de convertir les mA en A dans $R = (E - U_D)/I$."
+   ],
+   "astuces": [
+    "Sur le symbole, le triangle « pointe » dans le sens passant du courant.",
+    "Sur une DEL réelle, la patte la plus longue est l'anode (+)."
+   ],
+   "mnemo": "« Le triangle montre le chemin, la barre ferme le retour. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Une DEL ne s'allume que si elle est branchée dans le bon sens ; sinon le circuit se comporte comme s'il était ouvert. En Seconde, on trace sa caractéristique et on calcule la résistance qui la protège."
+   },
+   "methode_redaction": "Dis d'abord si la diode est passante ou bloquée (en regardant le sens du triangle par rapport au courant), puis écris l'additivité des tensions et la loi d'Ohm pour le conducteur ohmique ; donne le résultat avec l'unité.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un dipôle non linéaire ?",
+     "r": "Un dipôle dont la caractéristique n'est pas une droite."
+    },
+    {
+     "q": "Sens passant d'une diode ?",
+     "r": "De l'anode vers la cathode (sens du triangle)."
+    },
+    {
+     "q": "Tension de seuil d'une diode au silicium ?",
+     "r": "Environ 0,6 à 0,7 V."
+    },
+    {
+     "q": "Pourquoi met-on une résistance en série avec une DEL ?",
+     "r": "Pour limiter l'intensité et ne pas la détruire."
+    },
+    {
+     "q": "À quoi sert une diode Zener ?",
+     "r": "À stabiliser une tension (elle conduit en inverse à $U_Z$)."
+    },
+    {
+     "q": "Comment évolue la résistance d'un filament de lampe quand il chauffe ?",
+     "r": "Elle augmente."
+    }
+   ],
+   "image": {
+    "fichier": "PC-S2-C11-N4.svg",
+    "alt": "Graphe I en fonction de U : la diode (courbe bleue) a une intensité nulle jusqu'à 0,6 V puis une montée très raide ; en inverse, la diode Zener (courbe rouge) conduit brusquement à −5,6 V. En haut à gauche, les symboles de la diode et de la diode Zener.",
+    "legende": "Diode : passante au-delà du seuil, bloquée en inverse ; Zener : conduit en inverse à −U_Z.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "PC-S2-C11-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C11-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un conducteur ohmique de résistance $R = 150\\ \\Omega$ est traversé par un courant $I = 0{,}040\\ \\text{A}$. Calcule la tension à ses bornes (en V).",
+   "reponses_acceptees": [
+    "6",
+    "6,0",
+    "6V",
+    "6,0V"
+   ],
+   "indices": [],
+   "corrige": [
+    "Loi d'Ohm : $U = R\\,I$.",
+    "$U = 150 \\times 0{,}040 = 6{,}0\\ \\text{V}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Diviser au lieu de multiplier.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C11-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Deux conducteurs ohmiques de $100\\ \\Omega$ et $220\\ \\Omega$ sont montés en série. Leur résistance équivalente vaut :",
+   "choix": [
+    "69 Ω",
+    "120 Ω",
+    "320 Ω",
+    "22 000 Ω"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "En série, les résistances s'additionnent.",
+    "$R = 100 + 220 = 320\\ \\Omega$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "69 Ω est le résultat en dérivation.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "PC-S2-C11-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Combien de joules vaut $1\\ \\text{kWh}$ ?",
+   "choix": [
+    "1000 J",
+    "3600 J",
+    "$3{,}6 \\times 10^{6}$ J",
+    "$3{,}6 \\times 10^{3}$ J"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "$1\\ \\text{kWh} = 1000\\ \\text{W} \\times 3600\\ \\text{s}$.",
+    "$= 3{,}6 \\times 10^{6}\\ \\text{J}$."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Oublier le facteur 1000 du « kilo ».",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C11-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Un conducteur ohmique soumis à $4{,}5\\ \\text{V}$ est traversé par un courant de $30\\ \\text{mA}$. Calcule sa résistance (en Ω).",
+   "reponses_acceptees": [
+    "150",
+    "150Ω",
+    "150ohms",
+    "150 ohm"
+   ],
+   "indices": [
+    "Convertis les mA en A."
+   ],
+   "corrige": [
+    "$R = \\dfrac{U}{I}$ avec $I = 30\\ \\text{mA} = 0{,}030\\ \\text{A}$.",
+    "$R = \\dfrac{4{,}5}{0{,}030} = 150\\ \\Omega$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 4,5/30 = 0,15 Ω.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C11-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calcule la résistance équivalente (en Ω) de deux conducteurs ohmiques de $40\\ \\Omega$ et $60\\ \\Omega$ montés en dérivation.",
+   "reponses_acceptees": [
+    "24",
+    "24Ω",
+    "24ohms"
+   ],
+   "indices": [
+    "Produit sur somme."
+   ],
+   "corrige": [
+    "Dérivation : $R = \\dfrac{R_1 R_2}{R_1 + R_2}$.",
+    "$R = \\dfrac{40 \\times 60}{100} = 24\\ \\Omega$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Additionner (100 Ω).",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C11-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La lampe du feu stop d'une moto porte l'indication « 12 V – 21 W ». Calcule l'intensité qui la traverse en fonctionnement normal (en A).",
+   "reponses_acceptees": [
+    "1,75",
+    "1,8",
+    "1,75A",
+    "1,8A"
+   ],
+   "indices": [],
+   "corrige": [
+    "$P = U\\,I$, donc $I = \\dfrac{P}{U}$.",
+    "$I = \\dfrac{21}{12} = 1{,}75\\ \\text{A}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Multiplier 21 × 12.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C11-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Une pile, une lampe et une diode sont montées en série. La diode est branchée en **sens bloqué**. Que se passe-t-il ?",
+   "choix": [
+    "La lampe brille normalement",
+    "La lampe brille faiblement",
+    "La lampe reste éteinte",
+    "La diode est détruite"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "En sens bloqué, la diode ne laisse pratiquement pas passer de courant.",
+    "Le circuit se comporte comme s'il était ouvert : la lampe ne s'allume pas."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Croire que la diode « ralentit » seulement le courant.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C11-N1",
+    "PC-S2-C11-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Lequel de ces dipôles a une caractéristique $U = f(I)$ qui est une droite passant par l'origine ?",
+   "choix": [
+    "Une lampe à incandescence",
+    "Une diode",
+    "Un conducteur ohmique",
+    "Une pile"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Seul le conducteur ohmique vérifie $U = RI$ avec $R$ constant.",
+    "La lampe (résistance qui varie) et la diode (seuil, sens unique) sont non linéaires ; la pile n'est pas passive."
+   ],
+   "bareme": [
+    0.5,
+    1
+   ],
+   "piege": "Choisir la lampe : sa résistance augmente quand le filament chauffe.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C11-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Un conducteur ohmique $R_1 = 47\\ \\Omega$ est monté en série avec l'ensemble formé par $R_2 = 100\\ \\Omega$ et $R_3 = 150\\ \\Omega$ en dérivation. L'ensemble est soumis à $U = 10\\ \\text{V}$.\n1. Calcule la résistance équivalente du montage.\n2. Calcule l'intensité principale $I$.\n3. Calcule la tension aux bornes de $R_2$ puis les intensités $I_2$ et $I_3$. Vérifie la loi des nœuds.",
+   "indices": [
+    "Commence par le groupe en dérivation."
+   ],
+   "corrige": [
+    "$R_{23} = \\dfrac{100 \\times 150}{250} = 60\\ \\Omega$ ; $R_{\\text{éq}} = 47 + 60 = 107\\ \\Omega$.",
+    "$I = \\dfrac{U}{R_{\\text{éq}}} = \\dfrac{10}{107} = 0{,}093\\ \\text{A}$ (93 mA).",
+    "$U_{23} = R_{23}\\,I = 60 \\times 0{,}0935 = 5{,}6\\ \\text{V}$.",
+    "$I_2 = \\dfrac{5{,}61}{100} = 0{,}056\\ \\text{A}$ ; $I_3 = \\dfrac{5{,}61}{150} = 0{,}037\\ \\text{A}$ ; $I_2 + I_3 = 0{,}093\\ \\text{A} = I$ : la loi des nœuds est vérifiée."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Calculer $U_{23}$ avec 10 V : la tension se partage entre $R_1$ et le groupe.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C11-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C11-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Un fer à repasser porte l'indication « 220 V – 1100 W ». Akossiwa l'utilise 45 min.\n1. Calcule l'intensité du courant qui le traverse.\n2. Calcule sa résistance (on le considère comme un conducteur ohmique).\n3. Calcule l'énergie consommée en kWh puis en joules.\n4. Quel est le coût de ce repassage si le kWh coûte 100 FCFA (prix fictif) ?",
+   "indices": [
+    "45 min = 0,75 h.",
+    "1 kWh = 3,6 × 10⁶ J."
+   ],
+   "corrige": [
+    "$I = \\dfrac{P}{U} = \\dfrac{1100}{220} = 5{,}0\\ \\text{A}$.",
+    "$R = \\dfrac{U}{I} = \\dfrac{220}{5{,}0} = 44\\ \\Omega$.",
+    "$W = P\\,\\Delta t = 1{,}1\\ \\text{kW} \\times 0{,}75\\ \\text{h} = 0{,}825\\ \\text{kWh}$ ; $W = 0{,}825 \\times 3{,}6 \\times 10^{6} = 2{,}97 \\times 10^{6}\\ \\text{J}$.",
+    "Coût : $0{,}825 \\times 100 = 82{,}5$, soit environ 83 FCFA."
+   ],
+   "bareme": [
+    1,
+    1,
+    2,
+    1
+   ],
+   "piege": "Écrire 45 min = 0,45 h.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C11-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C11-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une DEL doit être traversée par un courant de $16\\ \\text{mA}$ ; la tension à ses bornes vaut alors $1{,}8\\ \\text{V}$. Elle est alimentée sous $5{,}0\\ \\text{V}$ avec un conducteur ohmique de protection en série. Calcule la résistance de protection (en Ω).",
+   "reponses_acceptees": [
+    "200",
+    "200Ω",
+    "200ohms"
+   ],
+   "indices": [
+    "La tension du générateur se partage entre la DEL et la résistance."
+   ],
+   "corrige": [
+    "Additivité : $U_R = E - U_D = 5{,}0 - 1{,}8 = 3{,}2\\ \\text{V}$.",
+    "Loi d'Ohm : $R = \\dfrac{U_R}{I} = \\dfrac{3{,}2}{0{,}016}$.",
+    "$R = 200\\ \\Omega$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Calculer 5,0/0,016 = 312 Ω en oubliant la tension de la DEL.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C11-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "On veut obtenir $3{,}0\\ \\text{V}$ à partir d'une pile de $9{,}0\\ \\text{V}$ avec un diviseur de tension formé de $R_1$ et $R_2$ en série, avec $R_1 + R_2 = 1{,}2\\ \\text{k}\\Omega$ ; la tension utile est prise aux bornes de $R_2$.\n1. Calcule $R_2$ puis $R_1$.\n2. On branche aux bornes de $R_2$ une petite charge assimilable à un conducteur ohmique de $400\\ \\Omega$. Calcule la nouvelle tension aux bornes de $R_2$.\n3. Conclus sur l'utilisation du diviseur de tension.",
+   "indices": [
+    "La charge est en dérivation avec $R_2$.",
+    "Remplace ce groupe par sa résistance équivalente avant d'appliquer le diviseur."
+   ],
+   "corrige": [
+    "$U_2 = U\\dfrac{R_2}{R_1 + R_2}$, donc $R_2 = (R_1 + R_2)\\dfrac{U_2}{U} = 1200 \\times \\dfrac{3{,}0}{9{,}0} = 400\\ \\Omega$.",
+    "$R_1 = 1200 - 400 = 800\\ \\Omega$.",
+    "Charge en dérivation sur $R_2$ : $R' = \\dfrac{400 \\times 400}{800} = 200\\ \\Omega$.",
+    "$U_2' = 9{,}0 \\times \\dfrac{200}{800 + 200} = 1{,}8\\ \\text{V}$.",
+    "La tension chute de 3,0 V à 1,8 V : la formule du diviseur n'est valable que si l'on ne branche rien (ou une très grande résistance) aux bornes de $R_2$."
+   ],
+   "bareme": [
+    1.5,
+    0.5,
+    1,
+    1.5,
+    0.5
+   ],
+   "piege": "Garder 3,0 V après branchement de la charge.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C11-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "PC-S2-C11-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Une rallonge de résistance totale $0{,}50\\ \\Omega$ alimente un appareil qui absorbe un courant de $10\\ \\text{A}$. Quelle puissance (en W) est perdue par effet Joule dans la rallonge ?",
+   "reponses_acceptees": [
+    "50",
+    "50W"
+   ],
+   "indices": [
+    "Utilise le carré de l'intensité."
+   ],
+   "corrige": [
+    "Loi de Joule : $P = R\\,I^{2}$.",
+    "$P = 0{,}50 \\times 10^{2} = 50\\ \\text{W}$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer $0{,}50 \\times 10 = 5$ W.",
+   "verification": "code"
+  },
+  {
+   "id": "PC-S2-C11-E14",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "PC-S2-C11-N1",
+    "PC-S2-C11-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "On relève pour un dipôle $D$ : $I$ (mA) = 0 ; 10 ; 20 ; 30 ; 40 et $U$ (V) = 0 ; 1,5 ; 3,0 ; 4,5 ; 6,0.\n1. Montre que $D$ est un conducteur ohmique et calcule sa résistance $R_1$.\n2. On l'associe à $R_2 = 100\\ \\Omega$ et on alimente l'ensemble sous $6{,}0\\ \\text{V}$ (tension constante). Calcule l'intensité débitée si $D$ et $R_2$ sont en série.\n3. Même question s'ils sont en dérivation ; donne aussi l'intensité dans chaque branche.",
+   "indices": [
+    "Calcule U/I pour chaque mesure."
+   ],
+   "corrige": [
+    "$U/I = 1{,}5/0{,}010 = 3{,}0/0{,}020 = \\dots = 150\\ \\Omega$ constant : caractéristique droite passant par l'origine, donc conducteur ohmique, $R_1 = 150\\ \\Omega$.",
+    "Série : $R = 150 + 100 = 250\\ \\Omega$ ; $I = \\dfrac{6{,}0}{250} = 0{,}024\\ \\text{A} = 24\\ \\text{mA}$.",
+    "Dérivation : $R = \\dfrac{150 \\times 100}{250} = 60\\ \\Omega$ ; $I = \\dfrac{6{,}0}{60} = 0{,}10\\ \\text{A}$.",
+    "Branches : $I_1 = \\dfrac{6{,}0}{150} = 0{,}040\\ \\text{A}$ ; $I_2 = \\dfrac{6{,}0}{100} = 0{,}060\\ \\text{A}$ ; somme $0{,}10\\ \\text{A}$ ✔."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Conclure « ohmique » à partir d'un seul point de mesure.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "PC-S2-C11-E15",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "PC-S2-C11-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Une diode Zener de tension Zener $U_Z = 5{,}6\\ \\text{V}$ est branchée en sens **inverse**. Elle se met à conduire lorsque :",
+   "choix": [
+    "la tension dépasse 0,6 V",
+    "la tension inverse atteint 5,6 V",
+    "elle ne conduit jamais en inverse",
+    "l'intensité dépasse 5,6 A"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "En inverse, la Zener reste bloquée tant que la tension inverse est inférieure à $U_Z$.",
+    "Elle conduit quand la tension inverse atteint 5,6 V, et la tension reste alors pratiquement constante."
+   ],
+   "bareme": [
+    0.5,
+    0.5
+   ],
+   "piege": "Confondre la tension de seuil (sens direct) et la tension Zener (sens inverse).",
+   "verification": "code"
+  }
+ ],
+ "pieges_composition": [
+  "Intensité laissée en mA dans $U = RI$ ou $R = U/I$ (résultat 1000 fois faux).",
+  "Résistances en dérivation additionnées ; oubli d'inverser $1/R_{\\text{éq}}$.",
+  "Diviseur de tension appliqué alors qu'une charge est branchée aux bornes de $R_2$.",
+  "Puissance et énergie confondues ; minutes non converties ; kW et W mélangés dans un calcul en kWh.",
+  "Loi d'Ohm appliquée à une lampe ou à une diode ; diode non protégée par une résistance.",
+  "Pente calculée avec deux points trop proches ou avec des points mal lus sur le graphe ; caractéristique tracée en ligne brisée."
+ ]
+}

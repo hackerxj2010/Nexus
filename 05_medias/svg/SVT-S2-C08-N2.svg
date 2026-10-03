@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 660" width="600" height="660" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Les deux étapes de la respiration cellulaire</title>
+<desc id="desc">Dans le cytoplasme, la glycolyse transforme le glucose en deux acides pyruviques et produit 2 ATP sans dioxygène. Dans la mitochondrie (membrane externe, membrane interne repliée en crêtes, matrice), l'acide pyruvique est oxydé grâce au dioxygène en CO2 et H2O avec production d'environ 36 ATP. Équation bilan et énergie libérée en bas.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker><marker id="flm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<rect x="0" y="0" width="600" height="660" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">Les deux étapes de la respiration cellulaire</text>
+<rect x="20" y="55" width="560" height="440" rx="40" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+<text x="40" y="85" font-size="16" text-anchor="start" font-weight="bold" fill="#854d0e">cytoplasme (hyaloplasme)</text>
+<rect x="40" y="110" width="130" height="44" rx="10" fill="#ffffff" stroke="#ca8a04" stroke-width="1.5"/>
+<text x="105.0" y="137.9" font-size="17" text-anchor="middle" font-weight="bold" fill="#1f2937">glucose</text>
+<line x1="105" y1="156" x2="105" y2="222" stroke="#374151" stroke-width="3" marker-end="url(#fl)"/>
+<text x="115" y="195" font-size="16" text-anchor="start" font-weight="bold" fill="#1f2937">glycolyse</text>
+<rect x="30" y="226" width="150" height="60" rx="10" fill="#ffffff" stroke="#ca8a04" stroke-width="1.5"/>
+<text x="105.0" y="251.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">2 acides</text>
+<text x="105.0" y="271.6" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">pyruviques</text>
+<text x="105" y="315" font-size="16" text-anchor="middle" font-weight="bold" fill="#b45309">+ 2 ATP</text>
+<text x="105" y="335" font-size="14" text-anchor="middle" font-weight="normal" fill="#4b5563">(sans O₂)</text>
+<ellipse cx="395" cy="238" rx="165" ry="112" fill="#fecaca" stroke="#b91c1c" stroke-width="3"/>
+<ellipse cx="395" cy="238" rx="151" ry="98" fill="#fee2e2" stroke="#991b1b" stroke-width="2.5"/>
+<path d="M284.0,168.6 L284.0,253.0 Q290.0,265.0 296.0,253.0 L296.0,168.6" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
+<path d="M326.0,326.1 L326.0,223.0 Q332.0,211.0 338.0,223.0 L338.0,326.1" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
+<path d="M368.0,142.0 L368.0,253.0 Q374.0,265.0 380.0,253.0 L380.0,142.0" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
+<path d="M410.0,334.0 L410.0,223.0 Q416.0,211.0 422.0,223.0 L422.0,334.0" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
+<path d="M452.0,149.9 L452.0,253.0 Q458.0,265.0 464.0,253.0 L464.0,149.9" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
+<path d="M494.0,307.4 L494.0,223.0 Q500.0,211.0 506.0,223.0 L506.0,307.4" fill="#fecaca" stroke="#991b1b" stroke-width="2.5"/>
+<line x1="515" y1="156" x2="470" y2="112" stroke="#374151" stroke-width="1.5"/><circle cx="515" cy="156" r="2.6" fill="#374151"/><text x="470" y="106" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">membrane externe</text>
+<line x1="269" y1="288" x2="290" y2="378" stroke="#374151" stroke-width="1.5"/><circle cx="269" cy="288" r="2.6" fill="#374151"/><text x="290" y="395" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">membrane interne</text>
+<line x1="332" y1="258" x2="400" y2="378" stroke="#374151" stroke-width="1.5"/><circle cx="332" cy="258" r="2.6" fill="#374151"/><text x="400" y="395" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">crête</text>
+<line x1="435" y1="278" x2="515" y2="378" stroke="#374151" stroke-width="1.5"/><circle cx="435" cy="278" r="2.6" fill="#374151"/><text x="515" y="395" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">matrice</text>
+<line x1="182" y1="256" x2="248" y2="256" stroke="#374151" stroke-width="3" marker-end="url(#fl)"/>
+<text x="385" y="428" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">pyruvate + O₂ → CO₂ + H₂O</text>
+<text x="385" y="450" font-size="16" text-anchor="middle" font-weight="bold" fill="#b45309">+ environ 36 ATP</text>
+<line x1="560" y1="175" x2="525" y2="200" stroke="#2a78d6" stroke-width="2.5" marker-end="url(#flb)"/>
+<text x="565" y="168" font-size="16" text-anchor="end" font-weight="normal" fill="#1f2937">O₂</text>
+<line x1="530" y1="285" x2="562" y2="312" stroke="#eb6834" stroke-width="2.5" marker-end="url(#flo)"/>
+<text x="568" y="335" font-size="16" text-anchor="end" font-weight="normal" fill="#1f2937">CO₂</text>
+<text x="385" y="478" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">mitochondrie (1 à 2 µm de long)</text>
+<rect x="20" y="515" width="560" height="125" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<text x="300" y="550" font-size="20" text-anchor="middle" font-weight="bold" fill="#1f2937">C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O</text>
+<text x="300" y="578" font-size="16" text-anchor="middle" font-weight="normal" fill="#1f2937">+ énergie : environ 2 860 kJ par mole de glucose</text>
+<text x="300" y="603" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">dont une partie (≈ 40 %) est stockée dans 36 à 38 ATP,</text>
+<text x="300" y="623" font-size="15" text-anchor="middle" font-weight="normal" fill="#4b5563">le reste est perdu sous forme de chaleur</text>
+</svg>

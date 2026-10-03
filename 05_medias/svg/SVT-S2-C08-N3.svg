@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620" width="600" height="620" role="img" aria-labelledby="titre desc" font-family="Arial, Helvetica, sans-serif">
+<title id="titre">Montage de fermentation alcoolique</title>
+<desc id="desc">Un erlenmeyer contient des levures dans de l'eau sucrée recouverte d'une couche d'huile qui empêche l'entrée d'air ; le gaz produit passe par un tube dans de l'eau de chaux, qui se trouble : c'est du CO2. Le liquide sent l'alcool. En bas, équations des fermentations alcoolique et lactique.</desc>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker><marker id="flb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1d4ed8"/></marker><marker id="flr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker><marker id="flv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#15803d"/></marker><marker id="flo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c2410c"/></marker><marker id="flm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker></defs>
+<rect x="0" y="0" width="600" height="620" rx="22" ry="22" fill="#fffdf8"/>
+<text x="300.0" y="36" font-size="22" text-anchor="middle" font-weight="bold" fill="#1f2937">La fermentation alcoolique des levures</text>
+<path d="M140,130 L140,210 L60,330 Q55,342 70,342 L270,342 Q285,342 280,330 L200,210 L200,130" fill="#ffffff" stroke="#475569" stroke-width="3"/>
+<path d="M84,295 L256,295 L280,330 Q285,342 270,342 L70,342 Q55,342 60,330 Z" fill="#fde68a" stroke="none"/>
+<path d="M72,278 L268,278 L256,295 L84,295 Z" fill="#facc15" opacity="0.9"/>
+<path d="M72,278 L60,296" stroke="none"/>
+<circle cx="150" cy="300" r="5" fill="#fef3c7" stroke="#92400e" stroke-width="1.5"/>
+<circle cx="190" cy="315" r="5" fill="#fef3c7" stroke="#92400e" stroke-width="1.5"/>
+<circle cx="130" cy="320" r="5" fill="#fef3c7" stroke="#92400e" stroke-width="1.5"/>
+<circle cx="210" cy="300" r="5" fill="#fef3c7" stroke="#92400e" stroke-width="1.5"/>
+<circle cx="170" cy="292" r="5" fill="#fef3c7" stroke="#92400e" stroke-width="1.5"/>
+<circle cx="110" cy="330" r="5" fill="#fef3c7" stroke="#92400e" stroke-width="1.5"/>
+<circle cx="230" cy="330" r="5" fill="#fef3c7" stroke="#92400e" stroke-width="1.5"/>
+<circle cx="160" cy="268" r="3.5" fill="none" stroke="#475569" stroke-width="1.2"/>
+<circle cx="185" cy="245" r="3.5" fill="none" stroke="#475569" stroke-width="1.2"/>
+<circle cx="172" cy="205" r="3.5" fill="none" stroke="#475569" stroke-width="1.2"/>
+<circle cx="178" cy="160" r="3.5" fill="none" stroke="#475569" stroke-width="1.2"/>
+<rect x="134" y="116" width="72" height="22" rx="4" fill="#78716c"/>
+<path d="M178,116 L178,80 L420,80 L420,235" fill="none" stroke="#475569" stroke-width="5"/>
+<path d="M178,116 L178,80 L420,80 L420,235" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+<path d="M392,160 L392,320 Q420,350 448,320 L448,160" fill="#ffffff" stroke="#475569" stroke-width="3"/>
+<path d="M392,220 L392,320 Q420,350 448,320 L448,220 Z" fill="#e5e7eb"/>
+<circle cx="412" cy="260" r="4" fill="none" stroke="#475569" stroke-width="1.2"/>
+<circle cx="426" cy="285" r="4" fill="none" stroke="#475569" stroke-width="1.2"/>
+<circle cx="418" cy="310" r="4" fill="none" stroke="#475569" stroke-width="1.2"/>
+<circle cx="430" cy="245" r="4" fill="none" stroke="#475569" stroke-width="1.2"/>
+<line x1="262" y1="286" x2="330" y2="360" stroke="#374151" stroke-width="1.5"/><circle cx="262" cy="286" r="2.6" fill="#374151"/><text x="330" y="377" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937">couche d'huile (empêche l'entrée d'air)</text>
+<line x1="110" y1="320" x2="40" y2="395" stroke="#374151" stroke-width="1.5"/><circle cx="110" cy="320" r="2.6" fill="#374151"/><text x="35" y="400" font-size="14" text-anchor="end" font-weight="normal" fill="#1f2937"></text>
+<text x="30" y="412" font-size="14" text-anchor="start" font-weight="normal" fill="#1f2937">levures + eau sucrée (glucose)</text>
+<line x1="448" y1="270" x2="458" y2="215" stroke="#374151" stroke-width="1.5"/><circle cx="448" cy="270" r="2.6" fill="#374151"/><text x="463" y="220" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">eau de chaux</text>
+<text x="463" y="235" font-size="15" text-anchor="start" font-weight="normal" fill="#1f2937">troublée</text>
+<text x="300" y="68" font-size="15" text-anchor="middle" font-weight="normal" fill="#1f2937">CO₂ dégagé</text>
+<text x="170" y="102" font-size="14" text-anchor="middle" font-weight="normal" fill="#1f2937"></text>
+<text x="300" y="445" font-size="15" text-anchor="middle" font-weight="bold" fill="#1f2937">Le liquide sent l'alcool : il s'est formé de l'éthanol.</text>
+<rect x="20" y="462" width="560" height="140" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.5"/>
+<text x="40" y="490" font-size="15" text-anchor="start" font-weight="bold" fill="#1f2937">Fermentation alcoolique (levures) :</text>
+<text x="300" y="516" font-size="18" text-anchor="middle" font-weight="normal" fill="#1f2937">C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP</text>
+<text x="40" y="548" font-size="15" text-anchor="start" font-weight="bold" fill="#1f2937">Fermentation lactique (bactéries du yaourt, muscle sans O₂) :</text>
+<text x="300" y="576" font-size="18" text-anchor="middle" font-weight="normal" fill="#1f2937">C₆H₁₂O₆ → 2 C₃H₆O₃ (acide lactique) + 2 ATP</text>
+</svg>

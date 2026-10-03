@@ -1,0 +1,618 @@
+{
+ "id": "FR-S2-C09",
+ "matiere": "FR",
+ "semestre": 2,
+ "ordre": 9,
+ "titre": "Histoire littéraire : littérature africaine, Négritude et grands mouvements",
+ "objectifs": [
+  "L'élève doit être capable de caractériser la littérature orale africaine, ses genres et le rôle du griot.",
+  "L'élève doit être capable de présenter la Négritude : contexte, fondateurs, œuvres datées, thèmes et critiques.",
+  "L'élève doit être capable de situer les grands romans africains francophones dans leurs périodes (coloniale, contestation, désenchantement, contemporaine).",
+  "L'élève doit être capable de citer des auteurs et œuvres togolais et de situer un texte dans un mouvement littéraire français."
+ ],
+ "prerequis": [
+  "FR-S1-C06",
+  "FR-S2-C08"
+ ],
+ "notions": [
+  {
+   "id": "FR-S2-C09-N1",
+   "titre": "La littérature orale africaine",
+   "prerequis_notions": [
+    "FR-S1-C06-N5"
+   ],
+   "cours_md": "## 1. Une littérature de la parole\n\n:::definition\nLa **littérature orale** est l'ensemble des œuvres transmises **de bouche à oreille**, de génération en génération : contes, mythes, légendes, épopées, proverbes, devinettes, chants, louanges. Elle existait bien avant l'écriture en français et reste vivante aujourd'hui.\n:::\n\n## 2. Les principaux genres\n\n| Genre | Définition | Fonction |\n|---|---|---|\n| **Conte** | récit court, souvent merveilleux, avec des animaux ou des personnages types | divertir et enseigner une morale |\n| **Mythe** | récit des origines (du monde, d'un peuple, d'un rite) | expliquer et fonder |\n| **Légende** | récit d'un fait ou d'un héros, embelli par la tradition | garder la mémoire d'un lieu, d'un clan |\n| **Épopée** | long récit des exploits d'un héros fondateur | célébrer, transmettre l'histoire |\n| **Proverbe** | phrase brève et imagée qui exprime une sagesse | conseiller, argumenter |\n| **Devinette** | question imagée à résoudre | exercer l'esprit, divertir |\n| **Chants** (travail, louange, deuil) | parole rythmée et chantée | accompagner la vie sociale |\n\n> L'épopée mandingue de **Soundjata**, fondateur de l'empire du Mali au XIIIe siècle, a été transcrite en français par Djibril Tamsir Niane (*Soundjata ou l'épopée mandingue*, 1960) à partir du récit d'un griot.\n\n## 3. Le griot et le conteur\n\n:::definition\nLe **griot** (en Afrique de l'Ouest) est à la fois **conteur, musicien, généalogiste et gardien de la mémoire** d'une famille ou d'un peuple. Le **conteur** de veillée transmet les contes au village.\n:::\n\n## 4. Les caractéristiques de l'oralité\n\n- **Formules** d'ouverture et de clôture ; dialogue avec l'auditoire qui répond, approuve, reprend les chants.\n- **Répétitions**, énumérations, parallélismes : ils aident la mémoire.\n- **Personnages types** : le lièvre rusé, l'araignée (Ananse dans les contes akan), la hyène gloutonne, l'orphelin maltraité, le roi injuste.\n- **Morale** ou leçon, souvent sous forme de proverbe.\n- **Performance** : la voix, les gestes, la musique font partie de l'œuvre ; chaque conteur adapte le récit.\n\n:::propriete\nLes écrivains africains écrivant en français ont souvent **réutilisé** l'oralité : Birago Diop (*Les Contes d'Amadou Koumba*, 1947) réécrit des contes que lui racontait un griot ; Senghor et Abdoulaye Sadji, *La Belle Histoire de Leuk-le-Lièvre* (1953). Les romans de Kourouma imitent la parole malinké.\n:::\n\n:::methode\n**Reconnaître l'oralité dans un texte écrit**\n1. Le narrateur s'adresse-t-il à un auditoire (« écoutez », « mes enfants ») ?\n2. Y a-t-il des formules, des répétitions, des chants, des proverbes ?\n3. Les personnages sont-ils des types (animaux, rois, orphelins) ?\n4. Y a-t-il une morale ? Conclus sur l'effet : vivacité, sagesse transmise, lien avec la tradition.\n:::\n\n:::attention\n« Oral » ne veut pas dire « simple » ou « primitif » : la littérature orale est un art exigeant (mémoire, improvisation, maîtrise du rythme et de l'image).\n:::",
+   "definition": "La littérature orale africaine regroupe les œuvres transmises de bouche à oreille (contes, mythes, légendes, épopées, proverbes, devinettes, chants) ; portée par le griot ou le conteur, elle repose sur la performance, les formules, les répétitions et la transmission d'une sagesse.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Avant les livres, il y avait la parole : contes, épopées et proverbes portés par les griots.",
+    "simple": "La littérature orale est comme une bibliothèque vivante : chaque vieux conteur est un livre, et l'on connaît le proverbe attribué à Amadou Hampâté Bâ : en Afrique, un vieillard qui meurt, c'est une bibliothèque qui brûle.",
+    "complete": "La littérature orale se définit par son mode de production et de transmission (performance, mémoire, variation) et par une poétique propre (formules, parallélismes, répétitions, participation de l'auditoire, alternance récit/chant). Ses genres remplissent des fonctions sociales (divertissement, éducation, mémoire généalogique et historique, régulation morale). La littérature écrite africaine francophone s'en nourrit par transcription, réécriture et stylisation."
+   },
+   "analogie": "Aux veillées, dans les villages du Togo, le conte commence souvent par un échange rituel entre le conteur et l'assistance, et les enfants reprennent en chœur le refrain : c'est cette participation qui distingue l'oral de l'écrit.",
+   "exemples_resolus": [
+    {
+     "enonce": "Quel genre ? « Le chien a quatre pattes, mais il ne suit qu'un seul chemin. »",
+     "etapes": [
+      "Phrase brève, imagée, qui exprime une sagesse générale (choisir une voie).",
+      "Genre : proverbe (ici, exemple inventé pour l'exercice)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre conte (récit court à morale) et mythe (récit des origines).",
+    "Réduire le griot à un simple chanteur.",
+    "Considérer la littérature orale comme inférieure à l'écrit.",
+    "Citer des proverbes « africains » inventés comme s'ils étaient authentiques."
+   ],
+   "astuces": [
+    "Pour l'épopée, retiens Soundjata (empire du Mali) : c'est l'exemple le plus connu.",
+    "Un proverbe bien choisi peut servir d'amorce dans une discussion, à condition d'être exact."
+   ],
+   "mnemo": "« Conte, Mythe, Légende, Épopée, Proverbe, Devinette » : « Ce Matin, Le Griot Éveille Par Des chants. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as lu des contes africains et étudié leurs formules. En seconde, tu situes l'oralité dans l'histoire de la littérature africaine et tu repères son influence sur les écrivains."
+   },
+   "methode_redaction": "Dans une dissertation ou une discussion, cite une œuvre précise : « Birago Diop, Les Contes d'Amadou Koumba (1947), réécrit des contes entendus d'un griot. »",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'un griot ?",
+     "r": "Un conteur, musicien, généalogiste et gardien de la mémoire en Afrique de l'Ouest."
+    },
+    {
+     "q": "Qu'est-ce qu'une épopée ?",
+     "r": "Un long récit des exploits d'un héros fondateur (ex. Soundjata)."
+    },
+    {
+     "q": "Qui a transcrit l'épopée de Soundjata en français ?",
+     "r": "Djibril Tamsir Niane (1960)."
+    },
+    {
+     "q": "Quel écrivain a réécrit les contes d'Amadou Koumba ?",
+     "r": "Birago Diop (1947)."
+    },
+    {
+     "q": "Cite deux traits de l'oralité.",
+     "r": "Formules et dialogue avec l'auditoire ; répétitions ; morale ; personnages types."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C09-N1.svg",
+    "alt": "Carte mentale de la littérature orale africaine : conte, mythe et légende, épopée, proverbe et devinette, le griot, caractéristiques de l'oralité.",
+    "legende": "Genres et acteurs de la littérature orale.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C09-N2",
+   "titre": "La Négritude",
+   "prerequis_notions": [
+    "FR-S2-C09-N1",
+    "FR-S2-C08-N4"
+   ],
+   "cours_md": "## 1. Naissance d'un mouvement\n\n:::definition\nLa **Négritude** est un mouvement littéraire et culturel né à **Paris dans les années 1930** parmi des étudiants noirs d'Afrique et des Antilles. Il revendique la **fierté d'être noir**, la valeur des **civilisations africaines** et refuse l'**assimilation** culturelle imposée par la colonisation.\n:::\n\n- **Fondateurs** : **Léopold Sédar Senghor** (Sénégal, 1906-2001), **Aimé Césaire** (Martinique, 1913-2008), **Léon-Gontran Damas** (Guyane, 1912-1978).\n- **La revue *L'Étudiant noir*** (Paris, 1934-1935) les réunit.\n- Le mot « négritude » apparaît sous la plume de **Césaire** dans les années 1930 et s'impose avec le ***Cahier d'un retour au pays natal*** (1939).\n\n## 2. Les influences\n\n- La **Renaissance de Harlem** (poètes noirs américains des années 1920 : Langston Hughes, Claude McKay).\n- René Maran, ***Batouala*** (1921), premier prix Goncourt attribué à un écrivain noir, dont la préface dénonce les abus coloniaux.\n- L'Haïtien Jean Price-Mars, *Ainsi parla l'oncle* (1928), qui valorise la culture populaire haïtienne d'origine africaine.\n- Les revues *La Revue du monde noir* (1931-1932) et *Légitime Défense* (1932) ; le surréalisme (pour Césaire).\n\n## 3. Œuvres et repères\n\n| Date | Œuvre / événement |\n|---|---|\n| 1937 | Damas, *Pigments* (poèmes) |\n| 1939 | Césaire, *Cahier d'un retour au pays natal* |\n| 1945 | Senghor, *Chants d'ombre* |\n| 1947 | Alioune Diop fonde la revue et la maison d'édition *Présence africaine* |\n| 1948 | Senghor, *Anthologie de la nouvelle poésie nègre et malgache de langue française*, préface de Jean-Paul Sartre, « Orphée noir » |\n| 1950 | Césaire, *Discours sur le colonialisme* |\n| 1956 | Premier Congrès des écrivains et artistes noirs, à Paris |\n\n## 4. Les thèmes\n\n- **Dénonciation** de l'esclavage, de la colonisation et du racisme.\n- **Réhabilitation** de l'Afrique : son histoire, ses valeurs, sa beauté (« Femme nue, femme noire », Senghor, 1945).\n- **Retour aux sources**, nostalgie de l'enfance africaine, place des ancêtres.\n- **Rythme** et musicalité inspirés de l'oralité et des instruments.\n\n:::propriete\nTrois tempéraments : **Césaire**, la révolte et la violence des images (influence surréaliste) ; **Senghor**, la célébration et le dialogue des cultures (« la civilisation de l'universel », le métissage culturel) ; **Damas**, la colère ironique et le rythme proche du jazz.\n:::\n\n## 5. Les critiques\n\n- Le Nigérian **Wole Soyinka** (prix Nobel 1986) lui oppose une formule restée célèbre, qu'on lui attribue : « Le tigre ne proclame pas sa tigritude, il bondit sur sa proie » (vers 1962) : l'Africain n'a pas besoin de proclamer son identité, il doit agir.\n- D'autres (le Béninois Stanislas Adotevi, *Négritude et négrologues*, 1972 ; le Camerounais Marcien Towa, 1971) lui reprochent de figer une « essence » noire et d'avoir accompagné des pouvoirs post-coloniaux.\n- La phrase de Senghor « l'émotion est nègre, comme la raison hellène » (1939) a été très discutée.\n\n:::attention\nLa Négritude n'est **pas un racisme inversé** : elle répond au mépris colonial en affirmant la dignité des cultures noires, et Senghor la conçoit comme une contribution au dialogue universel.\n:::",
+   "definition": "La Négritude est un mouvement littéraire et culturel né à Paris dans les années 1930 (Senghor, Césaire, Damas) qui revendique la fierté d'être noir, réhabilite les civilisations africaines et dénonce la colonisation et l'assimilation.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Dire avec fierté : « Je suis noir, et ma culture a de la valeur. »",
+    "simple": "Quand on se moque de l'accent ou du pagne d'un élève, la meilleure réponse est de montrer la richesse de sa langue et de sa culture : c'est l'esprit de la Négritude.",
+    "complete": "La Négritude, élaborée par des intellectuels colonisés formés en France, est à la fois une prise de conscience identitaire, une réponse au discours colonial dévalorisant et une poétique (lyrisme, rythme, images, héritage oral). Elle se diversifie selon ses auteurs (révolte césairienne, humanisme senghorien, ironie de Damas), se diffuse par les revues et anthologies (Présence africaine, Anthologie de 1948) et suscite des critiques (essentialisme, inefficacité politique) après les indépendances."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Qui sont les trois fondateurs de la Négritude et d'où viennent-ils ?",
+     "etapes": [
+      "Léopold Sédar Senghor : Sénégal.",
+      "Aimé Césaire : Martinique.",
+      "Léon-Gontran Damas : Guyane.",
+      "Ils se rencontrent à Paris, étudiants, dans les années 1930."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que la Négritude est née en Afrique (elle naît à Paris).",
+    "Confondre Césaire (Martinique) et Senghor (Sénégal).",
+    "Présenter la Négritude comme un racisme inversé.",
+    "Inventer des citations : cite seulement des formules courtes et sûres."
+   ],
+   "astuces": [
+    "Retiens la date-clé : 1939, Cahier d'un retour au pays natal.",
+    "Pour la critique, retiens la formule de la « tigritude » attribuée à Soyinka."
+   ],
+   "mnemo": "« Trois S-C-D à Paris : Senghor, Césaire, Damas ; 1934 L'Étudiant noir ; 1939 le Cahier ; 1948 l'Anthologie. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as peut-être lu « Femme noire » de Senghor ou un poème de David Diop. En seconde, tu dois situer la Négritude dans l'histoire, connaître ses fondateurs, ses thèmes et ses critiques."
+   },
+   "methode_redaction": "Dans un devoir, présente le mouvement en trois temps : contexte (colonisation, étudiants à Paris), fondateurs et œuvres datées, thèmes ; puis ajoute une critique pour nuancer.",
+   "flash": [
+    {
+     "q": "Où et quand naît la Négritude ?",
+     "r": "À Paris, dans les années 1930."
+    },
+    {
+     "q": "Les trois fondateurs ?",
+     "r": "Senghor, Césaire, Damas."
+    },
+    {
+     "q": "Œuvre de Césaire de 1939 ?",
+     "r": "Cahier d'un retour au pays natal."
+    },
+    {
+     "q": "Qui préface l'Anthologie de Senghor (1948) ?",
+     "r": "Jean-Paul Sartre (« Orphée noir »)."
+    },
+    {
+     "q": "Quelle formule critique est attribuée à Soyinka ?",
+     "r": "« Le tigre ne proclame pas sa tigritude, il bondit sur sa proie. »"
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C09-N2.svg",
+    "alt": "Frise chronologique de la Négritude de 1921 (Batouala) à 1962 (critique de Soyinka), avec les revues, œuvres et congrès principaux.",
+    "legende": "Les dates-clés de la Négritude.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C09-N3",
+   "titre": "Le roman africain francophone : de la période coloniale à nos jours",
+   "prerequis_notions": [
+    "FR-S2-C09-N2",
+    "FR-S1-C06-N5"
+   ],
+   "cours_md": "## 1. Les premiers romans (années 1920-1940)\n\n- Les premiers récits africains en français paraissent pendant la colonisation, souvent dans un esprit de témoignage ou d'acceptation de l'ordre colonial : Bakary Diallo, *Force-Bonté* (1926) ; Félix Couchoro, ***L'Esclave*** (1929), considéré comme le premier roman togolais ; Ousmane Socé, *Karim* (1935) ; Paul Hazoumé, *Doguicimi* (1938, Dahomey), roman historique sur le royaume d'Abomey.\n\n## 2. Le roman de la contestation coloniale (années 1950)\n\n:::definition\nDans les années 1950, à la veille des indépendances, le roman africain devient **critique** : il dénonce l'injustice coloniale, le racisme, l'action des missionnaires et de l'administration.\n:::\n\n- Mongo Beti (Cameroun), *Ville cruelle* (1954, sous le nom d'Eza Boto), ***Le Pauvre Christ de Bomba*** (1956).\n- Ferdinand Oyono (Cameroun), ***Une vie de boy*** (1956), *Le Vieux Nègre et la Médaille* (1956).\n- Camara Laye (Guinée), ***L'Enfant noir*** (1953) : récit autobiographique d'une enfance en Haute-Guinée, plus nostalgique que polémique.\n- Ousmane Sembène (Sénégal), ***Les Bouts de bois de Dieu*** (1960) : la grève des cheminots du Dakar-Niger (1947-1948).\n- Cheikh Hamidou Kane (Sénégal), ***L'Aventure ambiguë*** (1961) : le déchirement entre culture traditionnelle et école occidentale.\n\n## 3. Le roman du désenchantement (après les indépendances)\n\n:::definition\nAprès 1960, beaucoup de romanciers dénoncent les **dérives des nouveaux États** : partis uniques, corruption, dictatures, misère : c'est le roman du **désenchantement** (ou de la désillusion).\n:::\n\n- Ahmadou Kourouma (Côte d'Ivoire), ***Les Soleils des indépendances*** (1968) : un prince malinké déchu dans l'Afrique indépendante ; une langue française « malinkisée ».\n- Yambo Ouologuem (Mali), *Le Devoir de violence* (1968).\n- Sony Labou Tansi (Congo), *La Vie et demie* (1979) : satire d'une dictature imaginaire.\n- Mariama Bâ (Sénégal), ***Une si longue lettre*** (1979) : roman épistolaire sur la condition féminine et la polygamie.\n\n## 4. Les écritures contemporaines (depuis les années 1980)\n\n- Diversité des thèmes : l'**immigration** et l'exil (Fatou Diome, *Le Ventre de l'Atlantique*, 2003), la ville, les guerres, la condition des femmes (Ken Bugul, *Le Baobab fou*, 1982), l'humour et la satire (Alain Mabanckou, *Verre Cassé*, 2005).\n- Écrivains togolais contemporains : Kossi Efoui, Sami Tchak, Kangni Alem (voir la notion suivante).\n\n:::propriete\n**Trois grandes étapes à retenir** : contestation coloniale (années 1950) → désenchantement des indépendances (à partir de 1968) → diversité contemporaine (exil, femmes, ville, mondialisation). Chaque étape répond à une situation historique.\n:::\n\n:::methode\n**Situer un roman africain dans un devoir**\n1. Titre (souligné), auteur, pays, date.\n2. Période et contexte historique (colonisation, indépendances, aujourd'hui).\n3. Thème principal et ce qu'il dénonce ou célèbre.\n4. Lien avec ton argument.\n:::\n\n:::attention\nNe mélange pas les dates : *L'Enfant noir* (1953) est **avant** les indépendances ; *Les Soleils des indépendances* (1968) est **après**. Si tu n'es pas sûr d'une date, donne seulement la décennie ou la période.\n:::",
+   "definition": "Le roman africain francophone évolue des premiers récits de la période coloniale (Couchoro, L'Esclave, 1929) au roman de contestation des années 1950 (Mongo Beti, Oyono, Camara Laye), puis au roman du désenchantement après les indépendances (Kourouma, 1968) et aux écritures contemporaines (exil, femmes, ville).",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Le roman africain a d'abord critiqué la colonisation, puis les nouveaux pouvoirs, puis exploré l'exil et la société d'aujourd'hui.",
+    "simple": "C'est comme l'histoire d'une famille racontée par trois générations : le grand-père parle de la colonisation, le père des indépendances, et toi de l'exil et des réseaux sociaux.",
+    "complete": "L'histoire du roman africain francophone se périodise selon son rapport au contexte politique : récits ethnographiques ou assimilationnistes de l'entre-deux-guerres, roman anticolonial des années 1950 (satire, témoignage, autobiographie), roman du désenchantement post-colonial (critique des États indépendants, renouvellement de la langue, satire du pouvoir), puis diversification contemporaine (migrations, écritures féminines, urbanité, transnationalisme)."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Classe dans l'ordre chronologique : Les Soleils des indépendances ; L'Esclave ; Une vie de boy.",
+     "etapes": [
+      "L'Esclave (Couchoro, 1929) : période coloniale.",
+      "Une vie de boy (Oyono, 1956) : contestation coloniale.",
+      "Les Soleils des indépendances (Kourouma, 1968) : désenchantement."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre l'époque coloniale et l'époque des indépendances.",
+    "Donner des dates fausses : mieux vaut une période sûre qu'une date inventée.",
+    "Citer un roman sans dire ce qu'il dénonce ou montre.",
+    "Oublier les romancières (Mariama Bâ, Ken Bugul, Fatou Diome)."
+   ],
+   "astuces": [
+    "Apprends 6 romans avec auteur, pays et date : ils te serviront en dissertation et en discussion.",
+    "1953-1956 : les grands romans critiques ; 1968 : le désenchantement."
+   ],
+   "mnemo": "« Esclave (1929), Enfant noir (1953), Boy (1956), Soleils (1968), Lettre (1979) » : E-E-B-S-L, « Écris En Bon Style, Lycéen ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as peut-être lu L'Enfant noir ou Une vie de boy. En seconde, tu dois les situer dans l'histoire du roman africain et les relier à leur contexte."
+   },
+   "methode_redaction": "Quand tu cites un roman dans une copie, souligne le titre à la main ; donne l'auteur et, si tu en es sûr, la date entre parenthèses.",
+   "flash": [
+    {
+     "q": "Premier roman togolais ?",
+     "r": "L'Esclave de Félix Couchoro (1929)."
+    },
+    {
+     "q": "Auteur d'Une vie de boy (1956) ?",
+     "r": "Ferdinand Oyono (Cameroun)."
+    },
+    {
+     "q": "Qu'est-ce que le roman du désenchantement ?",
+     "r": "Le roman qui dénonce les dérives des États africains après les indépendances."
+    },
+    {
+     "q": "Auteur des Soleils des indépendances (1968) ?",
+     "r": "Ahmadou Kourouma (Côte d'Ivoire)."
+    },
+    {
+     "q": "Quel roman épistolaire de Mariama Bâ (1979) ?",
+     "r": "Une si longue lettre."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C09-N3.svg",
+    "alt": "Frise chronologique du roman africain francophone de 1929 (L'Esclave) à 2003 (Le Ventre de l'Atlantique).",
+    "legende": "Les grandes étapes du roman africain francophone.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C09-N4",
+   "titre": "La littérature togolaise",
+   "prerequis_notions": [
+    "FR-S2-C09-N3"
+   ],
+   "cours_md": "## 1. Des débuts au roman-feuilleton\n\n:::definition\nLa **littérature togolaise d'expression française** naît pendant la colonisation et se développe surtout après l'indépendance (27 avril 1960). Elle compte des romanciers, des dramaturges, des poètes et des conteurs.\n:::\n\n- **Félix Couchoro** (1900-1968), né à Ouidah (Dahomey, actuel Bénin) et installé au Togo : ***L'Esclave*** (1929), considéré comme le **premier roman togolais**. Il a ensuite publié de nombreux romans en feuilleton dans la presse togolaise.\n- **David Ananou**, ***Le Fils du fétiche*** (1955) : un roman qui oppose la religion traditionnelle et le christianisme, dans un esprit moralisateur.\n\n## 2. Le théâtre togolais\n\n- Une forte tradition de théâtre populaire, le **concert-party**, mêlant musique, comédie et satire sociale.\n- **Senouvo Agbota Zinsou**, *On joue la comédie* (pièce primée au Concours théâtral interafricain en 1972).\n- **Kossi Efoui** (né en 1962), *Le Carrefour* (1989) : un théâtre poétique et énigmatique.\n- **Mgr Nicodème Barrigah-Benissan**, ***Le Trône royal*** (théâtre), Grand Prix de la littérature togolaise 2020 (d'après la presse), signalé comme œuvre au programme de seconde (voir les sources du programme).\n\n## 3. Le roman contemporain\n\n- **Kossi Efoui**, *La Polka* (1998).\n- **Sami Tchak** (né en 1960), *Place des fêtes* (2001).\n- **Kangni Alem** (né en 1966), *Cola Cola Jazz* (2002).\n- **Edem Awumey** (né en 1975 à Lomé), *Port-Mélo* (2006).\n- **Tété-Michel Kpomassie**, ***L'Africain du Groenland*** (1981) : récit autobiographique d'un jeune Togolais parti vivre chez les Inuit.\n\n:::propriete\nDepuis la réforme des programmes (à partir de 2018-2019 selon la presse), les **auteurs togolais** entrent davantage dans les programmes scolaires, alors qu'auparavant on étudiait surtout des auteurs d'autres pays africains et des auteurs français.\n:::\n\n:::remarque\n**Œuvres signalées pour la seconde** (source : article de Global Voices, 2023, **non vérifié** sur un document officiel) : *Le Trône royal* (Barrigah-Benissan), *Le Cauchemar d'un immigré* (Ruben Atayi), *Le chien qui parle* (Charles Olince), *L'Arbre fétiche* (Jean Pliya, écrivain béninois). Demande à ton professeur la liste exacte de ton établissement.\n:::\n\n:::methode\n**Préparer une fiche sur un auteur togolais**\n1. Nom, dates (si connues), genre pratiqué.\n2. Une ou deux œuvres avec leur date.\n3. Thèmes principaux (tradition et modernité, ville, exil, pouvoir…).\n4. Une phrase personnelle sur ce que l'œuvre t'a appris.\n:::\n\n:::attention\nLes informations sur les auteurs contemporains circulent parfois de façon approximative : vérifie les titres et les dates dans le livre lui-même (page de titre, quatrième de couverture) avant de les citer.\n:::",
+   "definition": "La littérature togolaise d'expression française commence avec L'Esclave de Félix Couchoro (1929) et Le Fils du fétiche de David Ananou (1955), se développe au théâtre (concert-party, Zinsou, Efoui) et dans le roman contemporain (Efoui, Tchak, Alem, Awumey) ; des auteurs togolais entrent aujourd'hui dans les programmes scolaires.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Le Togo a ses propres écrivains, de Couchoro (1929) à Kangni Alem et Sami Tchak.",
+    "simple": "Comme les Éperviers représentent le Togo au football, ces écrivains représentent le Togo dans la littérature : il faut les connaître.",
+    "complete": "La littérature togolaise francophone se constitue avec le roman de Couchoro (1929) et se structure après l'indépendance : roman-feuilleton, roman moral, théâtre populaire (concert-party) et théâtre d'auteur (Zinsou, Efoui), puis un roman contemporain largement publié et primé à l'étranger (Efoui, Tchak, Alem, Awumey). Son entrée récente dans les programmes nationaux traduit une volonté de valorisation du patrimoine littéraire national."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Cite deux œuvres togolaises antérieures à l'indépendance.",
+     "etapes": [
+      "L'Esclave de Félix Couchoro (1929).",
+      "Le Fils du fétiche de David Ananou (1955)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que Couchoro est né au Togo (il est né à Ouidah, au Dahomey, et a vécu au Togo).",
+    "Inventer des titres ou des dates pour les auteurs contemporains.",
+    "Présenter la liste des œuvres au programme comme certaine sans vérifier auprès du professeur.",
+    "Oublier le théâtre, très vivant au Togo."
+   ],
+   "astuces": [
+    "Retiens au moins trois auteurs togolais avec un titre chacun.",
+    "Utilise un auteur togolais comme exemple dans tes discussions : c'est original et apprécié."
+   ],
+   "mnemo": "« Couchoro 1929, Ananou 1955 : avant 1960 ; Zinsou, Efoui : la scène ; Tchak, Alem, Awumey : le roman d'aujourd'hui. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as peut-être étudié un conte ou une pièce d'un auteur togolais. En seconde, tu dois situer ces auteurs dans l'histoire littéraire."
+   },
+   "methode_redaction": "Dans un devoir, une référence togolaise précise et exacte (« Kangni Alem, Cola Cola Jazz, 2002 ») vaut mieux qu'une liste approximative.",
+   "flash": [
+    {
+     "q": "Premier roman togolais ?",
+     "r": "L'Esclave (1929), de Félix Couchoro."
+    },
+    {
+     "q": "Qui a écrit Le Fils du fétiche (1955) ?",
+     "r": "David Ananou."
+    },
+    {
+     "q": "Qu'est-ce que le concert-party ?",
+     "r": "Un théâtre populaire mêlant musique, comédie et satire sociale."
+    },
+    {
+     "q": "Quel Togolais a raconté sa vie chez les Inuit ?",
+     "r": "Tété-Michel Kpomassie, L'Africain du Groenland (1981)."
+    },
+    {
+     "q": "Cite un romancier togolais contemporain et une œuvre.",
+     "r": "Kangni Alem, Cola Cola Jazz (2002) ; ou Sami Tchak, Place des fêtes (2001)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C09-N4.svg",
+    "alt": "Tableau de huit repères de la littérature togolaise : auteur, œuvre avec date, genre.",
+    "legende": "Quelques auteurs togolais et leurs œuvres.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C09-N5",
+   "titre": "Repères : les grands mouvements littéraires français",
+   "prerequis_notions": [
+    "FR-3e-HISTOIRE-LITTERAIRE"
+   ],
+   "cours_md": "## 1. Pourquoi connaître les mouvements ?\n\n:::definition\nUn **mouvement littéraire** regroupe des écrivains d'une même époque qui partagent une vision du monde et des choix d'écriture. Le connaître permet de **situer un texte** (commentaire) et de **trouver des exemples** (dissertation).\n:::\n\n## 2. Les repères essentiels\n\n| Siècle / dates | Mouvement | Idées-forces | Auteurs |\n|---|---|---|---|\n| XVIe | **Humanisme** et Renaissance ; la Pléiade | confiance en l'homme, redécouverte de l'Antiquité, défense de la langue française | Rabelais, Montaigne ; Ronsard, Du Bellay |\n| XVIIe | **Classicisme** | raison, ordre, règles (trois unités au théâtre), imitation des Anciens, « plaire et instruire » | Molière, Racine, Corneille, La Fontaine |\n| XVIIIe | **Lumières** | esprit critique, combat contre l'intolérance et l'injustice, *Encyclopédie* | Voltaire, Montesquieu, Diderot, Rousseau |\n| vers 1820-1850 | **Romantisme** | le « moi », les sentiments, la nature, la liberté, le refus des règles classiques | Hugo, Lamartine, Musset, Vigny |\n| vers 1850-1890 | **Réalisme** et **naturalisme** | peindre fidèlement la société, y compris les milieux pauvres ; le naturalisme ajoute l'hérédité et le milieu | Balzac (précurseur), Flaubert, Maupassant, Zola |\n| 1857-1900 | Baudelaire, puis le **symbolisme** | suggérer plutôt que décrire, correspondances, musicalité | Baudelaire, Verlaine, Rimbaud, Mallarmé |\n| 1920-1940 | **Surréalisme** | libérer l'inconscient, le rêve, l'écriture automatique (*Manifeste* d'André Breton, 1924) | Breton, Éluard, Aragon ; influence sur Césaire |\n| années 1930-1950 | **Négritude** | fierté noire, refus de l'assimilation | Senghor, Césaire, Damas |\n| années 1950 | **Théâtre de l'absurde** | la vie sans sens, le langage qui tourne à vide | Ionesco, Beckett |\n\n:::propriete\nChaque mouvement **réagit** souvent au précédent : le romantisme rejette les règles classiques ; le réalisme réagit contre les excès sentimentaux du romantisme ; le symbolisme s'oppose à la description réaliste.\n:::\n\n:::methode\n**Situer un texte dans un mouvement**\n1. Repère l'auteur et la date (paratexte).\n2. Rattache-les au mouvement correspondant.\n3. Cherche dans le texte les **traits** du mouvement (ex. romantisme : « je » lyrique, nature, mélancolie).\n4. Utilise-le dans ton introduction de commentaire : « Victor Hugo, chef de file du romantisme… »\n:::\n\n:::attention\nLes dates sont des **repères**, pas des frontières : un auteur peut appartenir à plusieurs mouvements (Hugo est romantique mais écrit jusqu'en 1885). Ne plaque pas une étiquette sans la justifier par le texte.\n:::",
+   "definition": "Les grands mouvements littéraires français (Humanisme, Classicisme, Lumières, Romantisme, Réalisme et naturalisme, Symbolisme, Surréalisme, absurde) et la Négritude permettent de situer un texte et de trouver des exemples, chacun réagissant souvent au précédent.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Chaque siècle a son « style » : la règle au XVIIe, la critique au XVIIIe, le cœur au XIXe romantique, la société avec le réalisme.",
+    "simple": "Comme les styles de musique (highlife, afrobeat, coupé-décalé…) qui se succèdent et se répondent, les mouvements littéraires naissent souvent en réaction au précédent.",
+    "complete": "La périodisation de la littérature française par mouvements (Humanisme, Classicisme, Lumières, Romantisme, Réalisme-naturalisme, Symbolisme, Surréalisme, absurde) repose sur des esthétiques et des visions du monde partagées, souvent formulées dans des manifestes ou des préfaces, et définies par réaction aux esthétiques antérieures. Elle sert d'outil de contextualisation, à manier avec souplesse."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Situe ce texte : un poème de 1820 où le poète dit « je », parle d'un lac, de la fuite du temps et de son amour perdu.",
+     "etapes": [
+      "Date 1820 et thèmes : « je » lyrique, nature, fuite du temps, amour perdu.",
+      "Mouvement : romantisme (Lamartine, « Le Lac », Méditations poétiques, 1820)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre Lumières (XVIIIe) et Classicisme (XVIIe).",
+    "Coller une étiquette sans relever les traits du texte.",
+    "Croire que les mouvements sont des frontières strictes.",
+    "Oublier que la Négritude a dialogué avec le surréalisme (Césaire)."
+   ],
+   "astuces": [
+    "Associe à chaque mouvement un auteur et une œuvre que tu connais.",
+    "XVIIe = règles ; XVIIIe = raison critique ; XIXe = cœur puis société."
+   ],
+   "mnemo": "« Humains Classés Lumineux Romantiques Réalistes Symbolisent Sur l'Absurde » : Humanisme, Classicisme, Lumières, Romantisme, Réalisme, Symbolisme, Surréalisme, Absurde.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as rencontré des auteurs comme Molière, La Fontaine, Hugo ou Maupassant. En seconde, tu les ranges dans leur mouvement pour mieux comprendre leurs textes."
+   },
+   "methode_redaction": "En introduction de commentaire : une phrase de situation suffit (« Figure majeure du romantisme, Lamartine publie en 1820… ») ; pas de longue biographie.",
+   "flash": [
+    {
+     "q": "Siècle des Lumières ?",
+     "r": "Le XVIIIe siècle (Voltaire, Montesquieu, Diderot, Rousseau)."
+    },
+    {
+     "q": "Mouvement de Racine et Molière ?",
+     "r": "Le Classicisme (XVIIe siècle)."
+    },
+    {
+     "q": "Idées-forces du romantisme ?",
+     "r": "Le « moi », les sentiments, la nature, la liberté."
+    },
+    {
+     "q": "Qui écrit le Manifeste du surréalisme (1924) ?",
+     "r": "André Breton."
+    },
+    {
+     "q": "Mouvement de Zola ?",
+     "r": "Le naturalisme."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C09-N5.svg",
+    "alt": "Frise chronologique des mouvements littéraires du XVIe siècle au théâtre de l'absurde, avec les auteurs principaux.",
+    "legende": "Les mouvements littéraires à connaître.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S2-C09-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C09-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Qui sont les trois fondateurs de la Négritude ?",
+   "indices": [
+    "L'un est sénégalais, l'autre martiniquais, le troisième guyanais."
+   ],
+   "corrige": [
+    "Senghor (Sénégal), Césaire (Martinique) et Damas (Guyane) se rencontrent à Paris dans les années 1930 et fondent L'Étudiant noir."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Sartre a préfacé l'Anthologie de Senghor, mais n'est pas un fondateur.",
+   "verification": "double_resolution",
+   "choix": [
+    "Senghor, Césaire, Damas",
+    "Senghor, Kourouma, Oyono",
+    "Césaire, Hugo, Sartre",
+    "Camara Laye, Mongo Beti, Sembène"
+   ],
+   "bonne_reponse": 0
+  },
+  {
+   "id": "FR-S2-C09-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C09-N4",
+    "FR-S2-C09-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "En quelle année paraît L'Esclave de Félix Couchoro, considéré comme le premier roman togolais ? (un nombre)",
+   "indices": [
+    "C'est avant les indépendances, à la fin des années 1920."
+   ],
+   "corrige": [
+    "L'Esclave paraît en 1929."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Ne confonds pas avec Le Fils du fétiche de David Ananou (1955).",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "1929"
+   ]
+  },
+  {
+   "id": "FR-S2-C09-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C09-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Qui est l'auteur du Cahier d'un retour au pays natal (1939) ?",
+   "indices": [
+    "Pense au poète martiniquais."
+   ],
+   "corrige": [
+    "Le Cahier est l'œuvre d'Aimé Césaire, poète martiniquais ; le mot « négritude » s'y impose."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Senghor est l'auteur de Chants d'ombre (1945), pas du Cahier.",
+   "verification": "double_resolution",
+   "choix": [
+    "Léopold Sédar Senghor",
+    "Aimé Césaire",
+    "Léon-Gontran Damas",
+    "René Maran"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S2-C09-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C09-N5"
+   ],
+   "format": "qcm",
+   "enonce": "Un texte du début du XIXe siècle exprime les sentiments du « je », célèbre la nature et refuse les règles classiques. À quel mouvement appartient-il ?",
+   "indices": [
+    "Pense à Lamartine et Hugo."
+   ],
+   "corrige": [
+    "Expression du « moi », nature, refus des règles : traits du romantisme (vers 1820-1850)."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Le Classicisme est justement le mouvement des règles que le romantisme rejette.",
+   "verification": "double_resolution",
+   "choix": [
+    "Classicisme",
+    "Lumières",
+    "Romantisme",
+    "Naturalisme"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S2-C09-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C09-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Comment appelle-t-on, en Afrique de l'Ouest, le conteur-musicien, généalogiste et gardien de la mémoire d'un peuple ? (un mot)",
+   "indices": [
+    "C'est grâce à lui que l'épopée de Soundjata a été transmise."
+   ],
+   "corrige": [
+    "C'est le griot."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "« conteur » est trop général : le griot a aussi un rôle de mémoire et de musique.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "griot",
+    "le griot",
+    "un griot"
+   ]
+  },
+  {
+   "id": "FR-S2-C09-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C09-N2"
+   ],
+   "format": "qcm",
+   "enonce": "« Le tigre ne proclame pas sa tigritude, il bondit sur sa proie » (formule attribuée à Wole Soyinka). Quelle critique de la Négritude exprime-t-elle ?",
+   "indices": [
+    "Que fait le tigre au lieu de parler ?"
+   ],
+   "corrige": [
+    "Le tigre n'a pas besoin de dire qu'il est tigre : il agit.",
+    "Soyinka reproche à la Négritude de proclamer l'identité noire au lieu d'agir concrètement."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "La formule est une image (métaphore animale) : il faut l'interpréter, pas la prendre au pied de la lettre.",
+   "verification": "double_resolution",
+   "choix": [
+    "La Négritude n'est pas assez poétique",
+    "L'identité n'a pas besoin d'être proclamée, il faut agir",
+    "La Négritude oublie les animaux de la brousse",
+    "Les Africains doivent imiter l'Europe"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S2-C09-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C09-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Rédige un paragraphe d'une douzaine de lignes qui présente la Négritude : contexte de naissance, fondateurs, deux œuvres datées, thèmes principaux, et une critique.",
+   "indices": [
+    "Suis l'ordre : contexte, fondateurs, œuvres, thèmes, critique.",
+    "Deux dates sûres : 1939 et 1945."
+   ],
+   "corrige": [
+    "Contexte : « La Négritude naît à Paris dans les années 1930, parmi des étudiants noirs venus d'Afrique et des Antilles, à l'époque où la colonisation méprise les cultures africaines et impose l'assimilation. »",
+    "Fondateurs et revue : « Ses fondateurs sont le Sénégalais Léopold Sédar Senghor, le Martiniquais Aimé Césaire et le Guyanais Léon-Gontran Damas, réunis autour de la revue L'Étudiant noir (1934-1935). »",
+    "Œuvres datées : « Césaire publie le Cahier d'un retour au pays natal (1939), où s'impose le mot \"négritude\" ; Senghor, Chants d'ombre (1945), puis son Anthologie de la nouvelle poésie nègre et malgache (1948), préfacée par Sartre. »",
+    "Thèmes : « Ces poètes dénoncent l'esclavage, la colonisation et le racisme, réhabilitent l'histoire et la beauté de l'Afrique et cherchent un retour aux sources, dans une écriture rythmée héritée de l'oralité. »",
+    "Critique et conclusion : « Après les indépendances, des écrivains comme Wole Soyinka (\"le tigre ne proclame pas sa tigritude\") lui reprochent de proclamer une identité au lieu d'agir. La Négritude reste néanmoins un moment fondateur de la fierté culturelle africaine. »"
+   ],
+   "bareme": [
+    1,
+    1,
+    2,
+    2,
+    2
+   ],
+   "piege": "Ne pas inventer de citations longues de Senghor ou de Césaire : cite peu, mais juste.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S2-C09-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S2-C09-N3",
+    "FR-S2-C09-N4",
+    "FR-S2-C09-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "1) Classe ces œuvres dans l'ordre chronologique et rattache chacune à une période du roman africain : Une si longue lettre ; L'Enfant noir ; L'Esclave ; Les Soleils des indépendances ; Le Pauvre Christ de Bomba.\n2) Rédige ensuite un paragraphe (10 à 12 lignes) qui explique comment le roman africain francophone a évolué avec l'histoire du continent, en t'appuyant sur trois de ces œuvres.",
+   "indices": [
+    "Trois périodes : colonisation, années 1950, après les indépendances.",
+    "Pour chaque œuvre : auteur, date, ce qu'elle dénonce."
+   ],
+   "corrige": [
+    "Classement : L'Esclave (Couchoro, 1929) : premiers romans de la période coloniale ; L'Enfant noir (Camara Laye, 1953) et Le Pauvre Christ de Bomba (Mongo Beti, 1956) : années 1950, veille des indépendances (souvenir de l'Afrique traditionnelle chez Laye, satire coloniale chez Mongo Beti) ; Les Soleils des indépendances (Kourouma, 1968) : désenchantement ; Une si longue lettre (Mariama Bâ, 1979) : critique sociale, condition féminine.",
+    "Paragraphe, début : « Le roman africain francophone suit de près l'histoire du continent. Pendant la colonisation, les premiers romanciers, comme le Togolais Félix Couchoro avec L'Esclave (1929), écrivent souvent dans le cadre imposé par l'ordre colonial. »",
+    "Paragraphe, milieu : « Dans les années 1950, à la veille des indépendances, le roman devient une arme : Mongo Beti, dans Le Pauvre Christ de Bomba (1956), fait la satire de la mission et de l'administration coloniales. »",
+    "Paragraphe, fin : « Après 1960, les espoirs déçus nourrissent le roman du désenchantement : dans Les Soleils des indépendances (1968), Kourouma montre un prince déchu, victime du parti unique et de la misère. Le roman africain passe ainsi de la dénonciation de l'oppresseur étranger à la critique des nouveaux pouvoirs, avant d'explorer, avec Mariama Bâ, la condition des femmes. »",
+    "Qualité : dates exactes, titres soulignés, connecteurs chronologiques (pendant, dans les années 1950, après 1960), lien constant entre œuvre et contexte."
+   ],
+   "bareme": [
+    3,
+    1.5,
+    1.5,
+    2,
+    2
+   ],
+   "piege": "Ne pas placer L'Enfant noir après les indépendances : il paraît en 1953.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Inventer ou approximer des dates, des titres ou des citations : cite peu, mais exactement.",
+  "Confondre les fondateurs de la Négritude ou leurs œuvres (Cahier = Césaire ; Chants d'ombre = Senghor).",
+  "Placer une œuvre dans la mauvaise période (L'Enfant noir avant les indépendances, Les Soleils des indépendances après).",
+  "Plaquer une étiquette de mouvement sans la justifier par les traits du texte.",
+  "Présenter la liste des œuvres au programme comme certaine sans l'avoir vérifiée auprès du professeur."
+ ]
+}

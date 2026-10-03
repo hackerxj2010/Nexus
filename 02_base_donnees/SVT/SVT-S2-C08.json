@@ -1,0 +1,710 @@
+{
+ "id": "SVT-S2-C08",
+ "matiere": "SVT",
+ "semestre": 2,
+ "ordre": 8,
+ "titre": "La respiration et les fermentations : la cellule produit son énergie",
+ "objectifs": [
+  "L'élève doit être capable de mettre en évidence la respiration chez différents êtres vivants et d'exploiter des mesures (ExAO, respiromètre).",
+  "L'élève doit être capable de calculer et d'interpréter un quotient respiratoire et une intensité respiratoire.",
+  "L'élève doit être capable de décrire la mitochondrie et les deux étapes de la respiration cellulaire, et d'écrire son équation bilan.",
+  "L'élève doit être capable de mettre en évidence les fermentations alcoolique et lactique, d'écrire leurs équations et d'en citer des applications locales.",
+  "L'élève doit être capable de comparer respiration et fermentation et de calculer un rendement énergétique."
+ ],
+ "prerequis": [
+  "SVT-3e-RESPIRATION",
+  "SVT-S1-C01",
+  "SVT-S1-C02",
+  "SVT-S2-C07"
+ ],
+ "notions": [
+  {
+   "id": "SVT-S2-C08-N1",
+   "titre": "Mise en évidence de la respiration : les échanges gazeux respiratoires",
+   "prerequis_notions": [
+    "SVT-3e-RESPIRATION",
+    "SVT-S2-C07-N2"
+   ],
+   "cours_md": "### 1. Tous les êtres vivants respirent\nAu collège, tu as étudié la respiration de l'Homme (poumons), des poissons (branchies) et des insectes (trachées). Ces organes ne font qu'**échanger les gaz** avec le milieu : la consommation réelle de dioxygène a lieu **dans les cellules**.\n\n:::methode\n**Expérience des graines en germination** : placer des graines de maïs ou de haricot en germination dans un bocal fermé, et des graines **bouillies** (mortes) dans un second bocal (**témoin**). Après 24 h :\n- une bougie allumée introduite dans le bocal des graines vivantes **s'éteint** (le $\\ce{O2}$ a été consommé) ; elle continue de brûler dans le bocal témoin ;\n- de l'eau de chaux versée dans le bocal des graines vivantes **se trouble** (du $\\ce{CO2}$ a été rejeté) ; elle reste limpide dans le témoin.\n:::\n\nOn obtient les mêmes résultats avec un petit animal (criquet), un champignon, des feuilles placées **à l'obscurité** (pour supprimer la photosynthèse) ou une suspension de **levures**.\n\n### 2. La respiration des levures mesurée par ExAO\nLes **levures** (champignons unicellulaires, *Saccharomyces cerevisiae*) sont placées dans un bioréacteur bien aéré, avec une sonde à dioxygène et une sonde à dioxyde de carbone.\n- Sans glucose : la concentration en $\\ce{O2}$ baisse très lentement.\n- Après **injection de glucose** : le $\\ce{O2}$ diminue rapidement et le $\\ce{CO2}$ augmente.\n\n:::propriete\nLes cellules **absorbent du dioxygène** et **rejettent du dioxyde de carbone** en dégradant des **molécules organiques** (surtout le glucose). Le glucose est le « carburant » (métabolite) de la respiration.\n:::\n\n:::definition\n**Respiration cellulaire** : ensemble des réactions par lesquelles une cellule dégrade complètement une matière organique (glucose) en présence de dioxygène, en produisant du $\\ce{CO2}$ et de l'eau et en libérant de l'énergie utilisable par la cellule.\n:::\n\n### 3. Mesurer la respiration\n- **Intensité respiratoire (IR)** : volume (ou masse) de $\\ce{O2}$ absorbé par unité de masse d'organisme et par unité de temps (par exemple en mL de $\\ce{O2}$ par heure et par gramme). Elle est plus forte chez les êtres actifs, les graines en germination, et augmente avec la température (jusqu'à un optimum).\n- **Quotient respiratoire (QR)** :\n\n:::propriete\n$$QR = \\frac{\\text{volume de } \\ce{CO2} \\text{ rejeté}}{\\text{volume de } \\ce{O2} \\text{ absorbé}}$$\n- $QR = 1$ : le métabolite respiré est un **glucide** (glucose, amidon : graines de maïs, de riz) ;\n- $QR \\approx 0{,}7$ : ce sont des **lipides** (graines d'arachide, de ricin, de coton en germination) ;\n- $QR \\approx 0{,}8$ : ce sont des **protides**.\n:::\n\nPour le glucose : $\\ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O}$, donc 6 volumes de $\\ce{CO2}$ pour 6 volumes de $\\ce{O2}$ : $QR = 6 / 6 = 1$.\n\n:::attention\nLes plantes respirent **jour et nuit**. Pour mettre en évidence la respiration d'une plante verte, il faut la placer **à l'obscurité** ; sinon la photosynthèse masque les échanges respiratoires.\n:::\n\n:::remarque\n« Respiration » a deux sens : au niveau de l'organisme, ce sont les échanges gazeux avec le milieu (ventilation pulmonaire…) ; au niveau de la **cellule**, c'est la dégradation du glucose avec production d'énergie. En seconde, on étudie surtout la respiration **cellulaire**.\n:::",
+   "definition": "La respiration se manifeste par une absorption de dioxygène et un rejet de dioxyde de carbone par toutes les cellules vivantes, qui dégradent ainsi du glucose ; on la mesure par l'intensité respiratoire et le quotient respiratoire.",
+   "formules": [
+    "$QR = \\dfrac{V_{\\ce{CO2}\\ \\text{rejeté}}}{V_{\\ce{O2}\\ \\text{absorbé}}}$",
+    "$IR = \\dfrac{V_{\\ce{O2}}}{\\text{masse} \\times \\text{durée}}$"
+   ],
+   "niveaux": {
+    "phrase": "Toutes les cellules vivantes respirent : elles consomment du O2 et rejettent du CO2 en brûlant du glucose.",
+    "simple": "Chaque cellule est comme un petit fourneau : elle « brûle » lentement le glucose avec le dioxygène et rejette du CO2, comme le feu de bois rejette de la fumée. Les poumons ne sont que la cheminée et la prise d'air : le vrai feu est dans les cellules.",
+    "complete": "La respiration cellulaire est mise en évidence par la disparition du O2 et l'apparition de CO2 (bougie, eau de chaux, ExAO) chez tous les êtres vivants, végétaux compris (à l'obscurité). L'injection de glucose à des levures accélère ces échanges : le glucose est le métabolite respiratoire. L'intensité respiratoire mesure la vitesse de la respiration ; le quotient respiratoire (V CO2 / V O2) indique la nature du métabolite : 1 pour les glucides, environ 0,7 pour les lipides et 0,8 pour les protides."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Document : on mesure les gaz échangés par 10 g de graines d'arachide en germination pendant 1 h : O2 absorbé = 28,5 mL ; CO2 rejeté = 20 mL. 1) Calcule le QR. 2) Quel type de réserve ces graines utilisent-elles ? 3) Calcule l'intensité respiratoire en mL de O2 par heure et par gramme.",
+     "etapes": [
+      "1) QR = V CO2 / V O2 = 20 ÷ 28,5 ≈ 0,70.",
+      "2) Un QR voisin de 0,7 correspond à la respiration de lipides : c'est cohérent, la graine d'arachide est riche en huile.",
+      "3) IR = 28,5 mL ÷ (10 g × 1 h) = 2,85 mL de O2 par heure et par gramme.",
+      "Conclusion : la graine d'arachide en germination respire activement en utilisant ses réserves lipidiques."
+     ]
+    },
+    {
+     "enonce": "Document : un criquet est placé dans un flacon fermé relié à un manomètre ; un petit récipient de potasse absorbe le CO2 rejeté. Au bout de 30 min, la pression dans le flacon a diminué. Explique pourquoi.",
+     "etapes": [
+      "Le criquet absorbe du O2 : la quantité de gaz du flacon diminue.",
+      "Il rejette du CO2, mais la potasse absorbe ce CO2 : il ne remplace donc pas le O2 consommé.",
+      "Le volume de gaz diminue, donc la pression baisse : la baisse de pression mesure le O2 consommé.",
+      "Conclusion : le criquet respire ; ce montage (respiromètre) permet de mesurer le volume de O2 absorbé."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que seuls les animaux respirent, ou que les plantes respirent seulement la nuit.",
+    "Oublier le témoin (graines bouillies) dans la description de l'expérience.",
+    "Inverser le QR (O2 / CO2 au lieu de CO2 / O2).",
+    "Confondre respiration (organisme : ventilation) et respiration cellulaire (dégradation du glucose).",
+    "Mesurer la respiration d'une plante verte à la lumière sans tenir compte de la photosynthèse."
+   ],
+   "astuces": [
+    "QR : « C sur O » comme dans « CO2 » : le CO2 est au numérateur.",
+    "QR = 1 → glucides ; QR < 1 → lipides (graines oléagineuses : arachide, karité, coton).",
+    "Pour toute expérience de respiration chez une plante verte : « à l'obscurité »."
+   ],
+   "mnemo": "« Toute cellule vivante brûle son sucre : O₂ entre, CO₂ sort. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris que l'air expiré contient plus de CO2 et moins de O2 que l'air inspiré, et que le sang apporte le O2 et le glucose aux organes. En seconde, on descend au niveau de la cellule."
+   },
+   "methode_redaction": "Pour exploiter une expérience de respiration : 1) identifier l'essai et le témoin ; 2) décrire les résultats (bougie, eau de chaux, courbes avec valeurs) ; 3) interpréter (O2 consommé, CO2 rejeté) ; 4) conclure (« les graines respirent »). Pour un QR : formule, calcul, valeur arrondie, interprétation du métabolite.",
+   "flash": [
+    {
+     "q": "Deux preuves que des graines en germination respirent ?",
+     "r": "Une bougie s'éteint dans leur bocal (O2 consommé) et l'eau de chaux s'y trouble (CO2 rejeté)."
+    },
+    {
+     "q": "Rôle des graines bouillies ?",
+     "r": "C'est le témoin : des graines mortes ne respirent pas."
+    },
+    {
+     "q": "Formule du quotient respiratoire ?",
+     "r": "QR = volume de CO2 rejeté ÷ volume de O2 absorbé."
+    },
+    {
+     "q": "QR d'une graine d'arachide en germination ?",
+     "r": "Environ 0,7 (respiration de lipides)."
+    },
+    {
+     "q": "Effet de l'injection de glucose sur des levures aérées ?",
+     "r": "La consommation de O2 et le rejet de CO2 augmentent : le glucose est respiré."
+    },
+    {
+     "q": "Pourquoi place-t-on une plante verte à l'obscurité pour étudier sa respiration ?",
+     "r": "Pour supprimer la photosynthèse, qui masque les échanges respiratoires."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C08-N1.svg",
+    "alt": "Courbes ExAO des concentrations en dioxygène et en dioxyde de carbone d'une suspension de levures avant et après injection de glucose",
+    "legende": "Après l'injection de glucose, les levures consomment le O2 et rejettent du CO2 : elles respirent.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C08-N2",
+   "titre": "La mitochondrie et les étapes de la respiration cellulaire",
+   "prerequis_notions": [
+    "SVT-S2-C08-N1",
+    "SVT-S1-C01-N2"
+   ],
+   "cours_md": "### 1. La mitochondrie, organite de la respiration\n:::definition\n**Mitochondrie** : organite de 1 à 2 µm de long (environ 0,5 µm de large), limité par une **membrane externe** lisse et une **membrane interne** repliée en **crêtes**, qui délimitent un espace intérieur, la **matrice**. Elle contient de l'ADN et des ribosomes.\n:::\n\n- Les cellules très actives en contiennent beaucoup : une cellule de muscle cardiaque en possède des milliers ; la pièce intermédiaire du spermatozoïde en est garnie (énergie pour le flagelle).\n- Les cellules végétales en ont aussi : **les plantes respirent**.\n\n### 2. Expérience : que consomment les mitochondries ?\nOn isole des mitochondries de cellules de foie (par broyage puis centrifugation) et on les place dans un milieu riche en $\\ce{O2}$ muni d'une sonde.\n\n| Substance ajoutée | Consommation de $\\ce{O2}$ |\n|---|---|\n| glucose | **nulle** |\n| acide pyruvique | **forte**, avec rejet de $\\ce{CO2}$ |\n\nMais des **cellules entières** consomment du $\\ce{O2}$ quand on leur donne du glucose.\n\n:::propriete\nLe glucose n'entre pas directement dans la mitochondrie : il est d'abord transformé dans le **cytoplasme** (hyaloplasme) en **acide pyruvique**, et c'est l'acide pyruvique qui est oxydé dans la mitochondrie.\n:::\n\n### 3. Les deux étapes de la respiration\n1. **La glycolyse**, dans le **cytoplasme**, **sans dioxygène** : une molécule de glucose (6 carbones) est coupée en **deux molécules d'acide pyruvique** (3 carbones chacune). Elle fournit seulement **2 ATP**.\n2. **L'oxydation complète dans la mitochondrie**, **avec dioxygène** : dans la **matrice**, l'acide pyruvique est démantelé et son carbone est libéré sous forme de $\\ce{CO2}$ ; sur la **membrane interne** (crêtes), le dioxygène est utilisé et se combine à l'hydrogène pour former de l'**eau**. Cette étape fournit la plus grande partie de l'énergie : environ **36 ATP**.\n\n:::propriete\n**Bilan de la respiration cellulaire** :\n$$\\ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O}$$\nL'énergie libérée est d'environ **2 860 kJ par mole de glucose** ; environ 40 % est conservée sous forme d'**ATP** (36 à 38 ATP par glucose), le reste est dissipé en **chaleur** (c'est elle qui maintient notre corps à 37 °C).\n:::\n\n### 4. L'ATP, monnaie énergétique de la cellule\n:::definition\n**ATP** (adénosine triphosphate) : molécule qui stocke temporairement l'énergie. Son hydrolyse libère de l'énergie directement utilisable :\n$$\\ce{ATP + H2O -> ADP + P_i} \\quad (\\text{environ } 30{,}5\\ \\text{kJ/mol})$$\n:::\n\nLa cellule utilise l'ATP pour : la **contraction musculaire**, le **transport actif** à travers la membrane (chapitre 2), les **synthèses** (protéines…), la division cellulaire, la conduction nerveuse. L'ATP n'est pas stocké en grande quantité : il est **recyclé** en permanence (ADP + Pi → ATP grâce à la respiration).\n\n:::attention\nLa mitochondrie ne « fabrique » pas d'énergie : elle **transfère** l'énergie chimique du glucose dans l'ATP. Et ne confonds pas : chloroplaste = photosynthèse ; mitochondrie = respiration.\n:::\n\n:::remarque\nLes valeurs de 36 à 38 ATP sont les valeurs théoriques des manuels ; des mesures récentes donnent plutôt 30 à 32 ATP par glucose. Cela ne change pas l'idée essentielle : la respiration est de loin le mode de production d'énergie le plus efficace.\n:::",
+   "definition": "La respiration cellulaire se fait en deux étapes : la glycolyse dans le cytoplasme (glucose → 2 acides pyruviques, 2 ATP) puis l'oxydation complète de l'acide pyruvique dans la mitochondrie avec consommation de O2 (CO2 + H2O, environ 36 ATP).",
+   "formules": [
+    "$\\ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O}$ + 2 860 kJ/mol",
+    "$\\ce{ATP + H2O -> ADP + P_i}$ + 30,5 kJ/mol",
+    "$\\text{glucose} \\xrightarrow{\\text{glycolyse}} 2\\ \\text{acides pyruviques} + 2\\ \\text{ATP}$"
+   ],
+   "niveaux": {
+    "phrase": "Le glucose est d'abord coupé en deux dans le cytoplasme, puis brûlé complètement dans la mitochondrie, ce qui fournit beaucoup d'ATP.",
+    "simple": "Pense à un fagot de bois : on le coupe d'abord en deux morceaux devant la case (glycolyse, dans le cytoplasme), puis on les brûle dans le foyer (mitochondrie) qui a besoin d'air (O2). Le foyer donne bien plus de chaleur que la coupe. L'énergie est ensuite rangée dans de petites « piles rechargeables » : l'ATP.",
+    "complete": "La mitochondrie (membrane externe, membrane interne à crêtes, matrice) est le siège de l'étape aérobie de la respiration. Des mitochondries isolées n'oxydent pas le glucose mais l'acide pyruvique : la glycolyse cytoplasmique (glucose → 2 pyruvates + 2 ATP, sans O2) précède l'oxydation mitochondriale (libération de CO2 dans la matrice, réduction du O2 en H2O sur la membrane interne, environ 36 ATP). Bilan : C6H12O6 + 6 O2 → 6 CO2 + 6 H2O, 2 860 kJ/mol, dont environ 40 % stockés dans l'ATP, molécule énergétique universelle recyclée en permanence."
+   },
+   "analogie": "L'ATP est comme une batterie de téléphone rechargeable : la respiration la recharge (ADP → ATP), et chaque activité de la cellule (muscle, transport, synthèse) la décharge (ATP → ADP).",
+   "exemples_resolus": [
+    {
+     "enonce": "Calcule la masse et le volume de dioxygène nécessaires pour respirer complètement 5 g de glucose (M glucose = 180 g/mol ; M O2 = 32 g/mol ; volume molaire des gaz : 24 L/mol).",
+     "etapes": [
+      "n(glucose) = 5 ÷ 180 ≈ 0,0278 mol.",
+      "D'après l'équation, il faut 6 mol de O2 par mol de glucose : n(O2) = 6 × 0,0278 ≈ 0,167 mol.",
+      "Masse de O2 = 0,167 × 32 ≈ 5,3 g ; volume = 0,167 × 24 = 4,0 L.",
+      "Conclusion : respirer 5 g de glucose demande environ 5,3 g, soit 4 L, de dioxygène."
+     ]
+    },
+    {
+     "enonce": "Document : nombre moyen de mitochondries par cellule. Cellule de muscle cardiaque : environ 5 000 ; cellule de foie : 1 000 à 2 000 ; cellule de peau (épiderme) : quelques centaines. Interprète ces différences.",
+     "etapes": [
+      "Je décris : les cellules du muscle cardiaque possèdent beaucoup plus de mitochondries que celles de la peau.",
+      "Les mitochondries sont le siège de l'étape de la respiration qui produit le plus d'ATP.",
+      "Le cœur se contracte sans arrêt : ses cellules ont des besoins énergétiques très élevés ; le foie réalise de nombreuses synthèses ; la peau est moins active.",
+      "Conclusion : le nombre de mitochondries d'une cellule est en rapport avec ses besoins en énergie."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Placer la glycolyse dans la mitochondrie (elle a lieu dans le cytoplasme).",
+    "Dire que la glycolyse a besoin de dioxygène.",
+    "Écrire que la respiration « produit » de l'énergie à partir de rien : elle libère l'énergie chimique du glucose.",
+    "Oublier la chaleur : 60 % de l'énergie du glucose n'est pas stockée dans l'ATP.",
+    "Confondre crêtes (mitochondrie) et thylakoïdes (chloroplaste)."
+   ],
+   "astuces": [
+    "Pour retenir les lieux : « Glycolyse = Gare de départ dans le cytoplasme ; Mitochondrie = Moteur qui a besoin d'air ».",
+    "Bilan atomique facile : 6 carbones du glucose → 6 CO2 ; 12 hydrogènes → 6 H2O."
+   ],
+   "mnemo": "« 1 glucose → 2 pyruvates → 6 CO₂ » et « 2 ATP dehors, 36 ATP dedans ».",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Le sang apporte aux organes le glucose (digestion) et le dioxygène (poumons) dont ils ont besoin, surtout pendant l'effort. Ici, on voit ce que la cellule en fait, à l'intérieur de ses mitochondries."
+   },
+   "methode_redaction": "Pour un schéma de mitochondrie : titre, membrane externe, membrane interne avec crêtes, matrice, légendes à la règle. Pour expliquer les étapes : nommer chaque étape, son lieu, ses conditions (avec/sans O2), ses produits et son rendement en ATP, puis écrire l'équation bilan équilibrée.",
+   "flash": [
+    {
+     "q": "Les trois parties de la mitochondrie ?",
+     "r": "Membrane externe, membrane interne repliée en crêtes, matrice."
+    },
+    {
+     "q": "Où a lieu la glycolyse et que produit-elle ?",
+     "r": "Dans le cytoplasme : 2 acides pyruviques et 2 ATP, sans O2."
+    },
+    {
+     "q": "Équation bilan de la respiration ?",
+     "r": "$\\ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O}$ + énergie."
+    },
+    {
+     "q": "Énergie libérée par la respiration d'une mole de glucose ?",
+     "r": "Environ 2 860 kJ, dont environ 40 % stockés dans 36 à 38 ATP."
+    },
+    {
+     "q": "Que consomment des mitochondries isolées : glucose ou acide pyruvique ?",
+     "r": "L'acide pyruvique (pas le glucose)."
+    },
+    {
+     "q": "Trois utilisations de l'ATP ?",
+     "r": "Contraction musculaire, transport actif, synthèse de molécules (aussi : conduction nerveuse, division)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C08-N2.svg",
+    "alt": "Schéma des deux étapes de la respiration : glycolyse dans le cytoplasme et oxydation de l'acide pyruvique dans la mitochondrie",
+    "legende": "Glycolyse (cytoplasme, 2 ATP) puis oxydation mitochondriale (O2 consommé, CO2 et H2O rejetés, environ 36 ATP).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C08-N3",
+   "titre": "Les fermentations : produire de l'énergie sans dioxygène",
+   "prerequis_notions": [
+    "SVT-S2-C08-N2"
+   ],
+   "cours_md": "### 1. Les levures peuvent vivre sans air\nEn **1857-1876, Louis Pasteur** montre que les levures transforment le sucre du jus de raisin en alcool **en l'absence d'air**. Il résume : « la fermentation est la vie sans air ».\n\n:::methode\n**Expérience** : dans un erlenmeyer, mélanger de l'eau sucrée (glucose) et de la levure de boulanger, recouvrir d'une **couche d'huile** (qui empêche l'air d'entrer), fermer avec un bouchon traversé d'un tube qui plonge dans de l'**eau de chaux**. Placer au chaud (environ 30 °C).\n:::\n\n- **Résultats** : des bulles se dégagent ; l'eau de chaux **se trouble** ($\\ce{CO2}$) ; le liquide prend une **odeur d'alcool** (éthanol) ; le glucose disparaît peu à peu.\n- **ExAO en milieu privé de dioxygène** : $[\\ce{O2}]$ reste nulle, $[\\ce{CO2}]$ augmente et une sonde à éthanol montre que l'**éthanol** s'accumule.\n\n:::definition\n**Fermentation** : dégradation **incomplète** d'une matière organique (glucose), **sans dioxygène**, qui produit un déchet organique encore riche en énergie (éthanol, acide lactique…) et seulement une petite quantité d'énergie utilisable (2 ATP par glucose).\n:::\n\n### 2. La fermentation alcoolique\n:::propriete\n$$\\ce{C6H12O6 -> 2C2H5OH + 2CO2}$$\nglucose → éthanol + dioxyde de carbone, avec production de **2 ATP** par molécule de glucose.\n:::\n\nElle se déroule entièrement dans le **cytoplasme** : la glycolyse fournit 2 acides pyruviques, qui sont transformés en éthanol et $\\ce{CO2}$ **sans entrer dans la mitochondrie**. La levure est un **anaérobie facultatif** : elle respire quand il y a du $\\ce{O2}$ et fermente quand il en manque.\n\n**Au Togo**, la fermentation alcoolique sert à fabriquer :\n- le **tchoukoutou**, bière traditionnelle de sorgho des régions de la Kara et des Savanes ;\n- le **vin de palme**, obtenu par fermentation naturelle de la sève sucrée du palmier, puis distillé pour donner le **sodabi** ;\n- la **bière industrielle** (orge et maïs) ;\n- le **pain** et l'**ablo** : le $\\ce{CO2}$ produit par les levures fait **gonfler la pâte** ; l'éthanol s'évapore à la cuisson.\n\n### 3. La fermentation lactique\n:::propriete\n$$\\ce{C6H12O6 -> 2C3H6O3}$$\nglucose → **acide lactique**, avec **2 ATP** par glucose, sans dégagement de $\\ce{CO2}$.\n:::\n\n- Elle est réalisée par des **bactéries lactiques** : elles transforment le lait en **yaourt** et en **lait caillé**, et interviennent dans la fermentation de la pâte de manioc (**gari**, **agbéli**) et de la pâte de maïs (**akpan**, pâte aigre). L'acidité produite empêche le développement de nombreux microbes : la fermentation **conserve** les aliments. Pour le manioc, le trempage et la fermentation aident aussi à éliminer ses composés toxiques (cyanogènes).\n- Les **cellules musculaires** humaines la réalisent lors d'un **effort intense et bref** (sprint, lever une lourde charge), quand le dioxygène apporté par le sang ne suffit plus : l'acide lactique s'accumule et est associé à la **fatigue musculaire** ; il est ensuite recyclé, surtout par le foie, au repos.\n\n:::attention\nDans une fermentation, le glucose **n'est pas dégradé jusqu'au $\\ce{CO2}$ et à l'eau** : il reste un déchet organique. L'éthanol, par exemple, contient encore beaucoup d'énergie : il **brûle** (on l'utilise comme carburant).\n:::\n\n:::remarque\nD'autres fermentations existent : la fermentation **méthanique** des déchets organiques par des bactéries produit du **biogaz** (méthane), source d'énergie pour la cuisine ; c'est aussi elle qui se produit dans la panse des ruminants.\n:::",
+   "definition": "Une fermentation est une dégradation incomplète du glucose sans dioxygène, dans le cytoplasme : la fermentation alcoolique (levures) donne de l'éthanol et du CO2, la fermentation lactique (bactéries, muscle) donne de l'acide lactique, avec seulement 2 ATP par glucose.",
+   "formules": [
+    "$\\ce{C6H12O6 -> 2C2H5OH + 2CO2}$ (+ 2 ATP)",
+    "$\\ce{C6H12O6 -> 2C3H6O3}$ (+ 2 ATP)"
+   ],
+   "niveaux": {
+    "phrase": "Sans dioxygène, certaines cellules dégradent le glucose à moitié : c'est la fermentation, qui donne de l'alcool ou de l'acide lactique et peu d'énergie.",
+    "simple": "Sans air, la levure ne peut pas allumer son « foyer » (la mitochondrie) : elle se contente de couper le glucose et rejette les morceaux (l'éthanol et le CO2). Elle gagne très peu d'énergie, mais c'est grâce à ce « gaspillage » qu'on obtient le tchoukoutou, le pain qui gonfle et le yaourt.",
+    "complete": "En anaérobiose, les levures (anaérobies facultatives) réalisent la fermentation alcoolique : C6H12O6 → 2 C2H5OH + 2 CO2, avec 2 ATP issus de la glycolyse. Les bactéries lactiques et les cellules musculaires en manque de O2 réalisent la fermentation lactique : C6H12O6 → 2 C3H6O3. Ces dégradations incomplètes ont lieu dans le cytoplasme, sans mitochondrie, et laissent un déchet organique riche en énergie. Elles sont utilisées en panification, en brasserie (tchoukoutou, vin de palme), pour les produits laitiers et pour la transformation et la conservation du manioc et du maïs."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Un boulanger de Kara pétrit une pâte contenant de la levure. Pendant la levée, 4,5 g de glucose sont fermentés. 1) Calcule le volume de CO2 produit (M glucose = 180 g/mol ; volume molaire = 24 L/mol). 2) Pourquoi la pâte gonfle-t-elle ? 3) Pourquoi le pain cuit ne contient-il presque pas d'alcool ?",
+     "etapes": [
+      "1) n(glucose) = 4,5 ÷ 180 = 0,025 mol ; d'après l'équation, n(CO2) = 2 × 0,025 = 0,05 mol ; V = 0,05 × 24 = 1,2 L.",
+      "2) Le CO2 produit par la fermentation alcoolique reste emprisonné dans la pâte élastique sous forme de bulles : la pâte gonfle.",
+      "3) L'éthanol formé est volatil : il s'évapore pendant la cuisson au four.",
+      "Conclusion : la levée de la pâte est une application directe de la fermentation alcoolique."
+     ]
+    },
+    {
+     "enonce": "Document : un lait frais laissé à 30 °C se conserve 1 jour ; transformé en yaourt (ensemencé de bactéries lactiques), il se conserve plusieurs jours, devient acide (pH 4,5) et épais. Explique.",
+     "etapes": [
+      "Les bactéries lactiques fermentent le lactose (sucre du lait) en acide lactique : le lait devient acide.",
+      "L'acidité fait coaguler les protéines du lait : le yaourt est épais.",
+      "La plupart des microbes qui altèrent le lait ne se développent pas en milieu acide : le yaourt se conserve plus longtemps.",
+      "Conclusion : la fermentation lactique transforme et conserve le lait."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire que la fermentation lactique dégage du CO2 (elle n'en dégage pas).",
+    "Placer la fermentation dans la mitochondrie (elle a lieu dans le cytoplasme).",
+    "Dire que la fermentation ne produit pas d'énergie : elle en produit peu (2 ATP).",
+    "Oublier que l'éthanol et l'acide lactique sont encore riches en énergie.",
+    "Équation non équilibrée : il se forme 2 éthanol et 2 CO2 par glucose."
+   ],
+   "astuces": [
+    "Fermentation alcoolique : « 1 → 2 + 2 » (1 glucose → 2 éthanol + 2 CO2).",
+    "Fermentation lactique : « 1 → 2 » (1 glucose → 2 acides lactiques), et pas de gaz.",
+    "Vérifie l'équilibre des carbones : 6 = 2 × 2 + 2 × 1 (alcoolique) ; 6 = 2 × 3 (lactique)."
+   ],
+   "mnemo": "« Sans air, la levure fait la fête : alcool et bulles ! »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as appris que certains micro-organismes sont utiles à l'Homme (fabrication du pain, du yaourt, des boissons). En seconde, on comprend comment ils produisent leur énergie."
+   },
+   "methode_redaction": "Pour décrire une fermentation : 1) les conditions (sans O2) ; 2) l'organisme (levure, bactérie, muscle) ; 3) l'équation équilibrée ; 4) le lieu (cytoplasme) ; 5) l'énergie (2 ATP) ; 6) une application. Pour un protocole : préciser comment on supprime l'air (huile, flacon plein et fermé) et comment on identifie les produits (eau de chaux, odeur, sonde à éthanol).",
+   "flash": [
+    {
+     "q": "Équation de la fermentation alcoolique ?",
+     "r": "$\\ce{C6H12O6 -> 2C2H5OH + 2CO2}$ (+ 2 ATP)."
+    },
+    {
+     "q": "Équation de la fermentation lactique ?",
+     "r": "$\\ce{C6H12O6 -> 2C3H6O3}$ (+ 2 ATP)."
+    },
+    {
+     "q": "Où se déroulent les fermentations dans la cellule ?",
+     "r": "Dans le cytoplasme (hyaloplasme)."
+    },
+    {
+     "q": "Pourquoi la pâte à pain gonfle-t-elle ?",
+     "r": "Le CO2 produit par la fermentation alcoolique des levures forme des bulles dans la pâte."
+    },
+    {
+     "q": "Que signifie « anaérobie facultatif » ?",
+     "r": "Capable de vivre avec O2 (respiration) ou sans O2 (fermentation), comme la levure."
+    },
+    {
+     "q": "Deux boissons togolaises issues de la fermentation alcoolique ?",
+     "r": "Le tchoukoutou (sorgho) et le vin de palme (puis le sodabi par distillation)."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C08-N3.svg",
+    "alt": "Montage de fermentation alcoolique de levures avec eau de chaux, et équations des fermentations",
+    "legende": "Sans air, les levures produisent du CO2 (eau de chaux troublée) et de l'éthanol ; équations alcoolique et lactique.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "SVT-S2-C08-N4",
+   "titre": "Respiration et fermentation : comparaison et rendement énergétique",
+   "prerequis_notions": [
+    "SVT-S2-C08-N2",
+    "SVT-S2-C08-N3",
+    "SVT-S2-C07-N4"
+   ],
+   "cours_md": "### 1. Tableau comparatif\n| Critère | Respiration | Fermentation |\n|---|---|---|\n| Dioxygène | nécessaire (aérobie) | absent (anaérobie) |\n| Lieu | cytoplasme **puis mitochondrie** | cytoplasme seulement |\n| Dégradation du glucose | **complète** | **incomplète** |\n| Déchets | $\\ce{CO2}$ et $\\ce{H2O}$ (minéraux, sans énergie utilisable) | éthanol + $\\ce{CO2}$, ou acide lactique (organiques, riches en énergie) |\n| ATP par glucose | **36 à 38** | **2** |\n| Rendement énergétique | environ **40 %** | environ **2 %** |\n\n### 2. Calcul d'un rendement\n:::propriete\n$$\\text{rendement} = \\frac{\\text{énergie stockée dans l'ATP}}{\\text{énergie contenue dans le glucose}} \\times 100$$\nAvec 30,5 kJ par mole d'ATP et 2 860 kJ par mole de glucose :\n- respiration : $\\dfrac{38 \\times 30{,}5}{2860} \\times 100 \\approx 40{,}5\\ \\%$ ;\n- fermentation : $\\dfrac{2 \\times 30{,}5}{2860} \\times 100 \\approx 2{,}1\\ \\%$.\n:::\n\nLa respiration fournit donc **19 fois plus d'ATP** ($38 \\div 2$) par molécule de glucose. Pour obtenir la même quantité d'énergie, une cellule qui fermente doit consommer environ **19 fois plus de glucose**. Dans la fermentation alcoolique, l'éthanol formé garde encore **plus de 90 %** de l'énergie du glucose de départ.\n\n### 3. Conséquence : l'effet Pasteur\n:::definition\n**Effet Pasteur** : en présence de dioxygène, les levures respirent, consomment peu de glucose par unité d'énergie, **se multiplient beaucoup** et produisent peu d'alcool ; sans dioxygène, elles fermentent, consomment beaucoup de glucose, se multiplient peu et produisent beaucoup d'alcool.\n:::\n\nApplication : le brasseur **aère d'abord** le moût pour que les levures se multiplient, puis **ferme la cuve** pour qu'elles fermentent et produisent l'alcool. La préparatrice de tchoukoutou couvre son canari pour la même raison.\n\n### 4. Photosynthèse et respiration, deux processus complémentaires\n:::propriete\n- La **photosynthèse** transforme de la matière minérale ($\\ce{CO2}$, $\\ce{H2O}$) en matière organique (glucose) et rejette du $\\ce{O2}$ : elle **stocke** l'énergie lumineuse sous forme chimique.\n- La **respiration** transforme la matière organique en matière minérale en consommant du $\\ce{O2}$ : elle **libère** cette énergie chimique sous forme d'ATP et de chaleur.\n:::\n\nLa matière **circule en cycle** (le carbone passe du $\\ce{CO2}$ de l'air aux êtres vivants puis retourne à l'air), alors que l'énergie **traverse** les êtres vivants en un **flux** à sens unique : lumière → énergie chimique → ATP → chaleur perdue. C'est ce que tu as vu à l'échelle des écosystèmes au chapitre 4.\n\n:::attention\nLes végétaux chlorophylliens font **les deux** : photosynthèse dans les chloroplastes (le jour) et respiration dans les mitochondries (jour et nuit). Les animaux et les champignons ne font que la respiration (et parfois la fermentation).\n:::",
+   "definition": "La respiration dégrade complètement le glucose avec O2 et fournit 36 à 38 ATP (rendement d'environ 40 %), alors que la fermentation le dégrade incomplètement sans O2 et ne fournit que 2 ATP (environ 2 %) ; photosynthèse et respiration sont complémentaires.",
+   "formules": [
+    "$\\text{rendement} = \\dfrac{n_{\\text{ATP}} \\times 30{,}5}{2860} \\times 100$",
+    "$\\dfrac{38}{2} = 19$"
+   ],
+   "niveaux": {
+    "phrase": "La respiration tire 19 fois plus d'énergie du glucose que la fermentation.",
+    "simple": "Respirer, c'est presser une orange jusqu'à la dernière goutte ; fermenter, c'est en boire une gorgée et jeter le reste. La levure qui fermente « gaspille » son sucre : il reste plein d'énergie dans l'alcool qu'elle rejette.",
+    "complete": "La respiration (aérobie, cytoplasme et mitochondrie, dégradation complète en CO2 et H2O) fournit 36 à 38 ATP par glucose, soit un rendement d'environ 40 % (38 × 30,5 / 2 860). La fermentation (anaérobie, cytoplasme, dégradation incomplète en éthanol + CO2 ou en acide lactique) n'en fournit que 2, soit environ 2 %. D'où l'effet Pasteur chez la levure (croissance forte en aérobiose, production d'alcool en anaérobiose). Photosynthèse et respiration sont complémentaires : cycle de la matière, flux d'énergie."
+   },
+   "analogie": "Avec un même sac de charbon de bois, un foyer bien ventilé (respiration) cuit toute la marmite ; un foyer étouffé (fermentation) ne fait que tiédir l'eau et laisse des morceaux de charbon à moitié brûlés.",
+   "exemples_resolus": [
+    {
+     "enonce": "Une cellule a besoin de 76 ATP. Combien de molécules de glucose doit-elle dégrader si elle respire ? Et si elle fermente ? (On prend 38 ATP par glucose en respiration.)",
+     "etapes": [
+      "Respiration : 76 ÷ 38 = 2 molécules de glucose.",
+      "Fermentation : 76 ÷ 2 = 38 molécules de glucose.",
+      "Comparaison : 38 ÷ 2 = 19 fois plus de glucose en fermentation.",
+      "Conclusion : la fermentation est un mode de production d'énergie très peu économe en glucose."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Dire que la fermentation a un meilleur rendement parce qu'elle « produit de l'alcool ».",
+    "Calculer le rendement avec 2 860 au numérateur (le rapport est inversé).",
+    "Oublier de multiplier par 100 pour obtenir un pourcentage.",
+    "Croire que les plantes vertes ne respirent pas puisqu'elles font la photosynthèse.",
+    "Dire que l'énergie « circule en cycle » : c'est la matière qui forme un cycle, l'énergie forme un flux."
+   ],
+   "astuces": [
+    "Retiens deux nombres : 38 ATP (respiration) et 2 ATP (fermentation) : rapport 19.",
+    "Rendement : toujours « ce qu'on récupère ÷ ce qu'on avait au départ × 100 »."
+   ],
+   "mnemo": "« Avec O₂ : 38, sans O₂ : 2 ; respirer rapporte 19 fois plus. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? En physique, tu as vu que l'énergie se conserve mais se dégrade en chaleur, et qu'un rendement se calcule en pourcentage. On applique ces idées aux cellules."
+   },
+   "methode_redaction": "Pour une comparaison : un tableau avec les mêmes critères dans les deux colonnes (O2, lieu, dégradation, déchets, ATP, rendement). Pour un calcul de rendement : formule, application numérique avec unités, résultat en %, phrase de conclusion. Pour expliquer l'effet Pasteur : relier la croissance des levures à la quantité d'ATP disponible.",
+   "flash": [
+    {
+     "q": "Nombre d'ATP par glucose : respiration et fermentation ?",
+     "r": "36 à 38 pour la respiration, 2 pour la fermentation."
+    },
+    {
+     "q": "Rendement énergétique de la respiration ?",
+     "r": "Environ 40 % (38 × 30,5 ÷ 2 860)."
+    },
+    {
+     "q": "Rendement de la fermentation ?",
+     "r": "Environ 2 % (2 × 30,5 ÷ 2 860)."
+    },
+    {
+     "q": "Qu'est-ce que l'effet Pasteur ?",
+     "r": "En présence de O2, les levures respirent et se multiplient beaucoup ; sans O2, elles fermentent et produisent de l'alcool."
+    },
+    {
+     "q": "Matière et énergie dans le monde vivant ?",
+     "r": "La matière circule en cycle ; l'énergie passe en flux et finit en chaleur."
+    }
+   ],
+   "image": {
+    "fichier": "SVT-S2-C08-N4.svg",
+    "alt": "Comparaison du nombre d'ATP produits par la respiration et par la fermentation, et complémentarité photosynthèse-respiration",
+    "legende": "Respiration : 36 à 38 ATP par glucose (≈ 40 %) ; fermentation : 2 ATP (≈ 2 %) ; photosynthèse et respiration sont complémentaires.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "SVT-S2-C08-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C08-N2"
+   ],
+   "format": "qcm",
+   "enonce": "L'organite où se déroule l'étape de la respiration qui consomme le dioxygène est :",
+   "choix": [
+    "le chloroplaste",
+    "la mitochondrie",
+    "le noyau",
+    "la vacuole"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "La consommation de O2 et la production de la plupart des ATP ont lieu dans la mitochondrie.",
+    "Réponse B. (Le chloroplaste est le siège de la photosynthèse.)"
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre mitochondrie et chloroplaste.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C08-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C08-N3"
+   ],
+   "format": "qcm",
+   "enonce": "La fermentation alcoolique du glucose par les levures produit :",
+   "choix": [
+    "du dioxygène et de l'eau",
+    "de l'acide lactique seulement",
+    "de l'éthanol et du dioxyde de carbone",
+    "du dioxyde de carbone et de l'eau"
+   ],
+   "bonne_reponse": 2,
+   "indices": [],
+   "corrige": [
+    "Équation : $\\ce{C6H12O6 -> 2C2H5OH + 2CO2}$.",
+    "Réponse C : éthanol et CO2."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre « CO2 et eau » (ce sont les produits de la respiration).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C08-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "SVT-S2-C08-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Des graines en germination absorbent 50 mL de O2 et rejettent 35 mL de CO2. Calcule leur quotient respiratoire (nombre seul).",
+   "reponses_acceptees": [
+    "0,7",
+    "0.7",
+    "0,70",
+    "0.70",
+    "QR=0,7"
+   ],
+   "indices": [
+    "Le CO2 est au numérateur."
+   ],
+   "corrige": [
+    "$QR = \\dfrac{V_{\\ce{CO2}}}{V_{\\ce{O2}}} = \\dfrac{35}{50}$.",
+    "$QR = 0{,}7$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Calculer 50 ÷ 35 ≈ 1,43 (rapport inversé).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C08-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C08-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Un lot de graines en germination a un QR de 0,7. Il s'agit plutôt de graines :",
+   "choix": [
+    "de maïs, riches en amidon",
+    "d'arachide, riches en lipides",
+    "de riz, riches en amidon",
+    "de n'importe quelle plante : le QR ne dépend pas des réserves"
+   ],
+   "bonne_reponse": 1,
+   "indices": [],
+   "corrige": [
+    "Un QR d'environ 0,7 correspond à la respiration de lipides ; un QR de 1 à celle de glucides.",
+    "Les graines d'arachide sont riches en huile : réponse B."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Associer QR = 0,7 aux glucides.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C08-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C08-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "ExAO : dans une suspension de levures aérée, après injection de glucose, la concentration en O2 passe de 7,8 mg/L à 2,2 mg/L en 8 minutes. Calcule la vitesse moyenne de consommation du O2 en mg·L⁻¹·min⁻¹ (nombre seul).",
+   "reponses_acceptees": [
+    "0,7",
+    "0.7",
+    "0,70",
+    "0.70"
+   ],
+   "indices": [
+    "Vitesse = variation de concentration ÷ durée."
+   ],
+   "corrige": [
+    "Variation : 7,8 − 2,2 = 5,6 mg/L.",
+    "Vitesse = 5,6 ÷ 8 = 0,7 mg·L⁻¹·min⁻¹."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser par 2,2 ou oublier de diviser par la durée.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C08-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C08-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Pour préparer du tchoukoutou, des levures fermentent 36 g de glucose. Quelle masse d'éthanol (en g) peut-on obtenir au maximum ? Données : $\\ce{C6H12O6 -> 2C2H5OH + 2CO2}$ ; M(glucose) = 180 g/mol ; M(éthanol) = 46 g/mol. Nombre seul.",
+   "reponses_acceptees": [
+    "18,4",
+    "18.4",
+    "18,4g",
+    "18,4 g"
+   ],
+   "indices": [
+    "1 mol de glucose donne 2 mol d'éthanol."
+   ],
+   "corrige": [
+    "n(glucose) = 36 ÷ 180 = 0,2 mol.",
+    "n(éthanol) = 2 × 0,2 = 0,4 mol.",
+    "m(éthanol) = 0,4 × 46 = 18,4 g."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Oublier le coefficient 2 de l'équation (on trouverait 9,2 g).",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C08-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "SVT-S2-C08-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Restitution organisée des connaissances. Compare la respiration et la fermentation alcoolique sous la forme d'un tableau, selon cinq critères : besoin en dioxygène, lieu dans la cellule, produits (déchets), nombre d'ATP par glucose, caractère complet ou incomplet de la dégradation.",
+   "indices": [],
+   "corrige": [
+    "Dioxygène : nécessaire pour la respiration ; absent pour la fermentation.",
+    "Lieu : cytoplasme puis mitochondrie (respiration) ; cytoplasme seulement (fermentation).",
+    "Déchets : CO2 + H2O (respiration) ; éthanol + CO2 (fermentation alcoolique).",
+    "ATP : 36 à 38 par glucose (respiration) ; 2 (fermentation).",
+    "Dégradation : complète, déchets minéraux (respiration) ; incomplète, déchet organique encore riche en énergie (fermentation).",
+    "Présentation : tableau avec titre et les mêmes critères pour les deux colonnes."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "Écrire que la fermentation produit de l'eau, ou qu'elle se fait dans la mitochondrie.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C08-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C08-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation d'expérience. Des cellules de levure sont broyées puis centrifugées : on sépare les mitochondries (culot) du hyaloplasme, partie liquide du cytoplasme (surnageant). On prépare trois tubes riches en O2, contenant chacun du glucose, et on mesure la consommation de O2 et la présence d'acide pyruvique au bout de 20 min.\n\n| Tube | Contenu | Consommation de O2 | Acide pyruvique |\n|---|---|---|---|\n| 1 | mitochondries + glucose | non | absent |\n| 2 | hyaloplasme + glucose | non | présent |\n| 3 | mitochondries + hyaloplasme + glucose | oui | présent puis consommé |\n\n1) Que montre le tube 1 ? 2) Que montre le tube 2 ? 3) Explique le résultat du tube 3 et déduis-en les deux étapes de la respiration, leur lieu et leur besoin en O2.",
+   "indices": [
+    "Repère dans quel tube l'acide pyruvique apparaît, et dans quel tube il disparaît."
+   ],
+   "corrige": [
+    "1) Les mitochondries seules n'utilisent pas le glucose : elles ne peuvent pas le dégrader directement.",
+    "2) Le hyaloplasme transforme le glucose en acide pyruvique sans consommer de O2 : c'est la glycolyse.",
+    "3) Dans le tube 3, l'acide pyruvique formé par le hyaloplasme est ensuite utilisé par les mitochondries, qui consomment alors du O2.",
+    "Conclusion : étape 1, glycolyse dans le hyaloplasme (glucose → acide pyruvique, sans O2, 2 ATP) ; étape 2, oxydation de l'acide pyruvique dans la mitochondrie avec consommation de O2 (CO2 + H2O, environ 36 ATP)."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1.5
+   ],
+   "piege": "Conclure que les mitochondries ne respirent pas parce qu'elles n'utilisent pas le glucose (tube 1).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C08-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C08-N1",
+    "SVT-S2-C08-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Exploitation de courbes. Des levures sont placées dans un bioréacteur fermé contenant du glucose. Les sondes donnent :\n- de 0 à 10 min : [O2] passe de 8 à 0 mg/L ; [CO2] augmente ; [éthanol] reste nulle ;\n- de 10 à 30 min : [O2] reste nulle ; [CO2] continue d'augmenter, plus lentement ; [éthanol] augmente.\n1) Identifie le processus réalisé par les levures dans chaque phase. Justifie. 2) Écris l'équation de chaque processus. 3) Pourquoi les levures changent-elles de processus à 10 min ?",
+   "indices": [],
+   "corrige": [
+    "1) Phase 1 (0-10 min) : consommation de O2 et rejet de CO2 sans éthanol : c'est la respiration.",
+    "Phase 2 (10-30 min) : sans O2, production de CO2 et d'éthanol : c'est la fermentation alcoolique.",
+    "2) Respiration : $\\ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O}$ ; fermentation : $\\ce{C6H12O6 -> 2C2H5OH + 2CO2}$.",
+    "3) Le bioréacteur est fermé : les levures ont épuisé le O2 en 10 min. Anaérobies facultatives, elles passent alors à la fermentation, qui ne nécessite pas de O2."
+   ],
+   "bareme": [
+    1,
+    1,
+    1.5,
+    1.5
+   ],
+   "piege": "Penser que les levures fermentent dès le début parce qu'il y a du glucose.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "SVT-S2-C08-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "SVT-S2-C08-N4"
+   ],
+   "format": "reponse_courte",
+   "enonce": "La respiration d'une mole de glucose libère 2 860 kJ et permet de former 38 moles d'ATP. L'hydrolyse d'une mole d'ATP libère 30,5 kJ. Calcule le rendement énergétique de la respiration en % (arrondi au dixième, nombre seul).",
+   "reponses_acceptees": [
+    "40,5",
+    "40.5",
+    "40,5%",
+    "40,5 %"
+   ],
+   "indices": [
+    "Rendement = énergie récupérée ÷ énergie disponible × 100."
+   ],
+   "corrige": [
+    "Énergie stockée dans l'ATP : 38 × 30,5 = 1 159 kJ.",
+    "Rendement = 1 159 ÷ 2 860 × 100 ≈ 40,5 %."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Diviser 2 860 par 1 159, ou oublier de multiplier par 100.",
+   "verification": "code"
+  },
+  {
+   "id": "SVT-S2-C08-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "SVT-S2-C08-N3",
+    "SVT-S2-C08-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Problème (inspiré des expériences de Pasteur). Deux cultures de levures reçoivent chacune 100 g de glucose, qui est entièrement consommé.\n\n| | Culture aérée | Culture sans air |\n|---|---|---|\n| Masse de levures formée | 25 g | 2 g |\n| Éthanol produit | 0 g | 48 g |\n\n1) Calcule la masse maximale d'éthanol que peuvent produire 100 g de glucose (M glucose = 180 g/mol ; M éthanol = 46 g/mol). Compare avec 48 g. 2) Explique la différence de croissance des levures entre les deux cultures en utilisant les nombres d'ATP. 3) Une préparatrice de tchoukoutou veut beaucoup de levures au début puis beaucoup d'alcool : quelle conduite lui conseiller ?",
+   "indices": [
+    "1 mol de glucose → 2 mol d'éthanol.",
+    "Plus d'ATP = plus de synthèses = plus de croissance."
+   ],
+   "corrige": [
+    "1) n(glucose) = 100 ÷ 180 ≈ 0,556 mol ; n(éthanol) max = 2 × 0,556 ≈ 1,11 mol ; m = 1,11 × 46 ≈ 51,1 g.",
+    "48 g représentent environ 94 % du maximum (48 ÷ 51,1) : dans la culture sans air, presque tout le glucose a été fermenté (le reste a servi à former les 2 g de levures).",
+    "2) En aérobiose, les levures respirent : 36 à 38 ATP par glucose ; en anaérobiose, elles fermentent : 2 ATP par glucose, soit environ 19 fois moins d'énergie pour la même masse de glucose.",
+    "Avec beaucoup plus d'énergie disponible, les levures aérées fabriquent beaucoup plus de matière et se multiplient (25 g contre 2 g) : c'est l'effet Pasteur.",
+    "3) Laisser d'abord le moût au contact de l'air (remuer, canari ouvert) pour que les levures respirent et se multiplient, puis couvrir le canari pour priver les levures d'air : elles fermentent alors et produisent l'alcool."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Croire que la culture aérée produit plus d'alcool parce qu'elle a plus de levures.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Inverser le quotient respiratoire (O2/CO2) ou l'associer au mauvais métabolite.",
+  "Placer la glycolyse ou la fermentation dans la mitochondrie.",
+  "Écrire que la fermentation lactique dégage du CO2, ou que la fermentation alcoolique produit de l'eau.",
+  "Équations non équilibrées (oublier les coefficients 6 ou 2).",
+  "Dire que les plantes ne respirent pas, ou seulement la nuit.",
+  "Calcul de rendement inversé ou sans multiplier par 100.",
+  "Expérience sans témoin (graines bouillies) ou plante verte étudiée à la lumière."
+ ]
+}

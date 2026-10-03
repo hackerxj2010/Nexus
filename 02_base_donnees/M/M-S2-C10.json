@@ -1,0 +1,869 @@
+{
+ "id": "M-S2-C10",
+ "matiere": "M",
+ "semestre": 2,
+ "ordre": 10,
+ "titre": "Angles orientés et trigonométrie",
+ "objectifs": [
+  "Convertir une mesure d'angle de degrés en radians et inversement ; calculer la longueur d'un arc.",
+  "Placer le point image d'un réel sur le cercle trigonométrique et déterminer une mesure principale.",
+  "Utiliser la relation de Chasles et les propriétés des angles orientés de vecteurs.",
+  "Connaître les valeurs remarquables de cos, sin, tan et utiliser cos²x + sin²x = 1.",
+  "Utiliser les angles associés pour calculer ou simplifier des expressions trigonométriques.",
+  "Résoudre des équations trigonométriques du type cos x = cos a et sin x = sin a dans ℝ ou dans un intervalle."
+ ],
+ "prerequis": [
+  "M-3e-TRIGONOMETRIE",
+  "M-3e-CERCLE",
+  "M-S1-C02",
+  "M-S1-C06",
+  "M-S1-C05"
+ ],
+ "notions": [
+  {
+   "id": "M-S2-C10-N1",
+   "titre": "Le radian et le cercle trigonométrique",
+   "prerequis_notions": [
+    "M-3e-CERCLE",
+    "M-S1-C06-N1"
+   ],
+   "cours_md": "## 1. Le radian\n\n:::definition\nSur un cercle de rayon $1$, un angle au centre de **1 radian** (noté rad) intercepte un arc de longueur $1$. Un tour complet mesure donc $2\\pi$ rad.\n:::\n\n:::propriete Conversion degrés ↔ radians\n$$180^\\circ=\\pi\\ \\text{rad}$$\nLes mesures en degrés ($d$) et en radians ($\\alpha$) sont proportionnelles : $\\alpha=\\dfrac{\\pi}{180}\\times d$ et $d=\\dfrac{180}{\\pi}\\times\\alpha$.\n\n| Degrés | $0$ | $30$ | $45$ | $60$ | $90$ | $120$ | $135$ | $150$ | $180$ | $360$ |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Radians | $0$ | $\\frac\\pi6$ | $\\frac\\pi4$ | $\\frac\\pi3$ | $\\frac\\pi2$ | $\\frac{2\\pi}3$ | $\\frac{3\\pi}4$ | $\\frac{5\\pi}6$ | $\\pi$ | $2\\pi$ |\n:::\n\n:::propriete Longueur d'un arc\nSur un cercle de rayon $R$, l'arc intercepté par un angle au centre de $\\alpha$ **radians** a pour longueur $\\ell=R\\alpha$.\n:::\n\n## 2. Le cercle trigonométrique\n\n:::definition\nDans un repère orthonormé $(O\\,;I,J)$, le **cercle trigonométrique** est le cercle de centre $O$ et de rayon $1$, orienté dans le **sens direct** (sens inverse des aiguilles d'une montre).\n:::\n\n:::propriete Point image d'un réel\nÀ tout réel $x$ on associe un unique point $M$ du cercle : on parcourt depuis $I$ un arc de longueur $|x|$, dans le sens direct si $x>0$, dans le sens indirect si $x<0$. $M$ est le **point image** de $x$.\nLes réels $x$ et $x+2k\\pi$ ($k\\in\\mathbb{Z}$) ont le **même point image** (on a fait $k$ tours de plus).\n:::\n\n:::definition Mesure principale\nParmi tous les réels $x+2k\\pi$ associés à un même point, un seul appartient à l'intervalle $]-\\pi\\,;\\pi]$ : c'est la **mesure principale**.\n:::\n\n:::methode Trouver la mesure principale de $\\dfrac{p\\pi}{q}$\nAjouter ou retrancher des multiples de $2\\pi=\\dfrac{2q\\pi}{q}$ jusqu'à obtenir un numérateur compris entre $-q$ (exclu) et $q$ (inclus).\n:::\n\n:::attention\nEn trigonométrie, la calculatrice doit être réglée en mode **radian** (RAD), et non en degrés (DEG).\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nConvertir $75^\\circ$ en radians, puis calculer la longueur de l'arc intercepté par cet angle sur un cercle de rayon $6$ cm.\n\n1. $\\alpha=\\dfrac{\\pi}{180}\\times75=\\dfrac{75\\pi}{180}=\\dfrac{5\\pi}{12}$ rad.\n2. $\\ell=R\\alpha=6\\times\\dfrac{5\\pi}{12}=\\dfrac{5\\pi}{2}$ cm, soit environ $7{,}85$ cm.\n:::\n\n:::exemple Exemple 2\nDéterminer la mesure principale de $\\dfrac{29\\pi}{6}$ et de $-\\dfrac{17\\pi}{4}$.\n\n1. $2\\pi=\\dfrac{12\\pi}{6}$ : $\\dfrac{29\\pi}{6}-2\\times\\dfrac{12\\pi}{6}=\\dfrac{5\\pi}{6}$, et $\\dfrac{5\\pi}6\\in]-\\pi\\,;\\pi]$.\n2. $2\\pi=\\dfrac{8\\pi}{4}$ : $-\\dfrac{17\\pi}{4}+2\\times\\dfrac{8\\pi}{4}=-\\dfrac{\\pi}{4}$, et $-\\dfrac\\pi4\\in]-\\pi\\,;\\pi]$.\n:::",
+   "definition": "Le radian mesure un angle par la longueur de l'arc qu'il intercepte sur un cercle de rayon 1 ($180^\\circ=\\pi$ rad) ; sur le cercle trigonométrique, chaque réel $x$ a un point image, le même que $x+2k\\pi$.",
+   "formules": [
+    "$180^\\circ=\\pi\\ \\text{rad}$",
+    "$\\ell=R\\alpha$ ($\\alpha$ en radians)",
+    "$x$ et $x+2k\\pi$ ont le même point image",
+    "Mesure principale $\\in]-\\pi\\,;\\pi]$"
+   ],
+   "niveaux": {
+    "phrase": "Le radian mesure un angle par une longueur d'arc ; un tour complet vaut 2π.",
+    "simple": "Imagine un fil de longueur x que l'on enroule autour d'une roue de rayon 1 à partir du point I : l'endroit où le fil s'arrête est le point image de x. Chaque tour complet ajoute 2π.",
+    "complete": "$1$ rad est l'angle au centre interceptant un arc de longueur $1$ sur un cercle de rayon $1$ ; d'où $180^\\circ=\\pi$ rad et $\\ell=R\\alpha$. L'enroulement de la droite réelle sur le cercle trigonométrique (centre $O$, rayon $1$, sens direct) associe à $x$ un point $M$ ; $x$ et $x'$ ont le même image si et seulement si $x'-x\\in2\\pi\\mathbb{Z}$. La mesure principale est l'unique représentant dans $]-\\pi\\,;\\pi]$."
+   },
+   "analogie": "Un zémidjan qui fait le tour complet du rond-point de la Colombe de la Paix revient à son point de départ : faire un tour de plus (2π) ne change pas la position, seulement la distance parcourue.",
+   "exemples_resolus": [
+    {
+     "enonce": "Placer sur le cercle trigonométrique les points images de $\\dfrac\\pi3$, $-\\dfrac\\pi2$, $\\dfrac{3\\pi}4$ et $\\dfrac{7\\pi}3$.",
+     "etapes": [
+      "$\\dfrac\\pi3$ : on tourne de $60^\\circ$ dans le sens direct à partir de $I$.",
+      "$-\\dfrac\\pi2$ : un quart de tour dans le sens indirect : c'est le point $J'(0\\,;-1)$.",
+      "$\\dfrac{3\\pi}4$ : $135^\\circ$ dans le sens direct (au milieu entre $J$ et $I'$).",
+      "$\\dfrac{7\\pi}3=\\dfrac\\pi3+2\\pi$ : même point image que $\\dfrac\\pi3$."
+     ]
+    },
+    {
+     "enonce": "Déterminer la mesure principale de $\\dfrac{100\\pi}{3}$.",
+     "etapes": [
+      "$2\\pi=\\dfrac{6\\pi}{3}$. Le multiple de $6$ le plus proche de $100$ est $102$.",
+      "$\\dfrac{100\\pi}{3}-17\\times2\\pi=\\dfrac{100\\pi-102\\pi}{3}=-\\dfrac{2\\pi}{3}$.",
+      "$-\\dfrac{2\\pi}3\\in]-\\pi\\,;\\pi]$ : c'est la mesure principale. (Avec $96$, on obtiendrait $\\dfrac{4\\pi}{3}>\\pi$ : ce n'est pas la mesure principale.)"
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Utiliser $\\ell=R\\alpha$ avec $\\alpha$ en degrés.",
+    "Donner $\\dfrac{4\\pi}{3}$ comme mesure principale : elle doit être dans $]-\\pi\\,;\\pi]$, ici c'est $-\\dfrac{2\\pi}{3}$.",
+    "Tourner dans le mauvais sens pour un réel négatif.",
+    "Laisser la calculatrice en mode degrés."
+   ],
+   "astuces": [
+    "Retiens π/6 = 30°, π/4 = 45°, π/3 = 60° : tous les autres s'en déduisent.",
+    "Pour la mesure principale de pπ/q, cherche le multiple de 2q le plus proche de p.",
+    "Fais toujours un petit cercle au brouillon pour situer le point."
+   ],
+   "mnemo": "« π, c'est un demi-tour : 180°. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? La longueur d'un cercle de rayon $R$ est $2\\pi R$ et un arc de $90^\\circ$ en est le quart, soit $\\dfrac{\\pi R}{2}$. Le radian rend ce calcul direct : $\\ell=R\\times\\dfrac\\pi2$."
+   },
+   "methode_redaction": "Pour une conversion, écris la proportion (« 180° ↔ π rad ») et simplifie la fraction. Pour une mesure principale, écris l'égalité complète (29π/6 = 5π/6 + 2×2π) puis « et 5π/6 ∈ ]−π ; π], donc la mesure principale est 5π/6 ».",
+   "flash": [
+    {
+     "q": "$180^\\circ$ en radians ?",
+     "r": "$\\pi$ rad"
+    },
+    {
+     "q": "$\\dfrac\\pi6$ rad en degrés ?",
+     "r": "$30^\\circ$"
+    },
+    {
+     "q": "Mesure principale de $\\dfrac{7\\pi}4$ ?",
+     "r": "$-\\dfrac\\pi4$"
+    },
+    {
+     "q": "Longueur d'un arc d'angle α (en radians) sur un cercle de rayon R ?",
+     "r": "$\\ell=R\\alpha$"
+    },
+    {
+     "q": "$\\dfrac\\pi5$ et $\\dfrac{11\\pi}5$ ont-ils le même point image ?",
+     "r": "Oui : ils diffèrent de $2\\pi$."
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C10-N1.svg",
+    "alt": "Cercle trigonométrique de centre O avec les points I, J, I', J' et les points images de 0, π/6, π/4, π/3, π/2, 2π/3, 3π/4, 5π/6, π et de leurs opposés ; une flèche verte indique le sens direct.",
+    "legende": "Les réels remarquables et leurs points images sur le cercle trigonométrique.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C10-N2",
+   "titre": "Angles orientés de vecteurs",
+   "prerequis_notions": [
+    "M-S2-C10-N1",
+    "M-S1-C02-N2"
+   ],
+   "cours_md": "## 1. Définition\n\n:::definition Angle orienté de deux vecteurs non nuls\nSoient $\\vec u$ et $\\vec v$ deux vecteurs non nuls, et $M$, $N$ les points du cercle trigonométrique tels que $\\overrightarrow{OM}$ ait la même direction et le même sens que $\\vec u$, et $\\overrightarrow{ON}$ la même direction et le même sens que $\\vec v$. Si $x$ est un réel associé à $M$ et $y$ un réel associé à $N$, alors $y-x$ est **une mesure de l'angle orienté** $(\\vec u,\\vec v)$.\nSi $\\alpha$ est une mesure, toutes les mesures sont les $\\alpha+2k\\pi$ ($k\\in\\mathbb{Z}$). On écrit $(\\vec u,\\vec v)=\\alpha\\ [2\\pi]$ (« modulo $2\\pi$ »).\n:::\n\n:::remarque\nLa **mesure principale** de $(\\vec u,\\vec v)$ est celle qui appartient à $]-\\pi\\,;\\pi]$. Sa valeur absolue est l'angle géométrique entre $\\vec u$ et $\\vec v$ ; son **signe** dit dans quel sens on tourne pour aller de $\\vec u$ vers $\\vec v$ ($+$ : sens direct). Un triangle $ABC$ est dit **direct** si $(\\overrightarrow{AB},\\overrightarrow{AC})$ a une mesure principale positive.\n:::\n\n## 2. Propriétés\n\n:::propriete Règles de calcul (vecteurs non nuls)\n- **Relation de Chasles** : $(\\vec u,\\vec v)+(\\vec v,\\vec w)=(\\vec u,\\vec w)\\ [2\\pi]$.\n- $(\\vec v,\\vec u)=-(\\vec u,\\vec v)\\ [2\\pi]$ ; $(\\vec u,\\vec u)=0\\ [2\\pi]$ ; $(\\vec u,-\\vec u)=\\pi\\ [2\\pi]$.\n- $(-\\vec u,\\vec v)=(\\vec u,-\\vec v)=(\\vec u,\\vec v)+\\pi\\ [2\\pi]$ et $(-\\vec u,-\\vec v)=(\\vec u,\\vec v)\\ [2\\pi]$.\n- Si $k>0$ et $k'>0$ : $(k\\vec u,k'\\vec v)=(\\vec u,\\vec v)\\ [2\\pi]$.\n:::\n\n:::propriete Colinéarité, orthogonalité, alignement\n- $\\vec u$ et $\\vec v$ sont colinéaires $\\iff(\\vec u,\\vec v)=0\\ [\\pi]$ (mesure $0$ ou $\\pi$ modulo $2\\pi$).\n- $\\vec u$ et $\\vec v$ sont orthogonaux $\\iff(\\vec u,\\vec v)=\\dfrac\\pi2\\ [\\pi]$.\n- Trois points distincts $A$, $B$, $C$ sont alignés $\\iff(\\overrightarrow{AB},\\overrightarrow{AC})=0\\ [\\pi]$.\n:::\n\n:::methode Calculer un angle orienté\n1. Repérer sur la figure les angles connus (triangle équilatéral : $\\frac\\pi3$, carré : $\\frac\\pi2$ et $\\frac\\pi4$…) avec leur **signe**.\n2. Utiliser la relation de Chasles pour « passer » par un vecteur intermédiaire.\n3. Utiliser $(-\\vec u,\\vec v)=(\\vec u,\\vec v)+\\pi$ pour retourner un vecteur ($\\overrightarrow{BA}=-\\overrightarrow{AB}$).\n4. Donner la mesure principale.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\n$ABC$ est un triangle équilatéral direct. Déterminer la mesure principale de $(\\overrightarrow{AB},\\overrightarrow{AC})$, $(\\overrightarrow{AC},\\overrightarrow{AB})$, $(\\overrightarrow{BA},\\overrightarrow{BC})$ et $(\\overrightarrow{AB},\\overrightarrow{BC})$.\n\n1. Le triangle est équilatéral et direct : $(\\overrightarrow{AB},\\overrightarrow{AC})=\\dfrac\\pi3$.\n2. $(\\overrightarrow{AC},\\overrightarrow{AB})=-(\\overrightarrow{AB},\\overrightarrow{AC})=-\\dfrac\\pi3$.\n3. $BCA$ est aussi direct (permutation circulaire), donc $(\\overrightarrow{BC},\\overrightarrow{BA})=\\dfrac\\pi3$ et $(\\overrightarrow{BA},\\overrightarrow{BC})=-\\dfrac\\pi3$.\n4. $(\\overrightarrow{AB},\\overrightarrow{BC})=(-\\overrightarrow{BA},\\overrightarrow{BC})=(\\overrightarrow{BA},\\overrightarrow{BC})+\\pi=-\\dfrac\\pi3+\\pi=\\dfrac{2\\pi}3$.\n:::\n\n:::exemple Exemple 2\nOn sait que $(\\vec u,\\vec v)=\\dfrac\\pi5$ et $(\\vec u,\\vec w)=-\\dfrac{3\\pi}4$. Déterminer la mesure principale de $(\\vec v,\\vec w)$.\n\n1. Chasles : $(\\vec v,\\vec w)=(\\vec v,\\vec u)+(\\vec u,\\vec w)=-\\dfrac\\pi5-\\dfrac{3\\pi}4$.\n2. $-\\dfrac{4\\pi}{20}-\\dfrac{15\\pi}{20}=-\\dfrac{19\\pi}{20}$, qui appartient à $]-\\pi\\,;\\pi]$ : c'est la mesure principale.\n:::",
+   "definition": "L'angle orienté $(\\vec u,\\vec v)$ mesure de combien et dans quel sens on tourne pour passer de la direction de $\\vec u$ à celle de $\\vec v$ ; ses mesures sont définies à $2k\\pi$ près.",
+   "formules": [
+    "$(\\vec u,\\vec v)+(\\vec v,\\vec w)=(\\vec u,\\vec w)\\ [2\\pi]$",
+    "$(\\vec v,\\vec u)=-(\\vec u,\\vec v)\\ [2\\pi]$",
+    "$(-\\vec u,\\vec v)=(\\vec u,\\vec v)+\\pi\\ [2\\pi]$",
+    "$\\vec u,\\vec v$ colinéaires $\\iff(\\vec u,\\vec v)=0\\ [\\pi]$"
+   ],
+   "niveaux": {
+    "phrase": "Un angle orienté dit de combien on tourne, et dans quel sens, pour aller d'un vecteur à l'autre.",
+    "simple": "Un angle géométrique dit seulement « 60° » ; un angle orienté dit « 60° en tournant vers la gauche » (+π/3) ou « 60° vers la droite » (−π/3). Faire le chemin inverse change le signe.",
+    "complete": "Pour $\\vec u,\\vec v$ non nuls, $(\\vec u,\\vec v)$ est défini modulo $2\\pi$ ; sa mesure principale appartient à $]-\\pi\\,;\\pi]$. Propriétés : Chasles, $(\\vec v,\\vec u)=-(\\vec u,\\vec v)$, $(-\\vec u,\\vec v)=(\\vec u,\\vec v)+\\pi$, invariance par multiplication par des réels strictement positifs. Colinéarité $\\iff(\\vec u,\\vec v)=0\\ [\\pi]$ ; orthogonalité $\\iff(\\vec u,\\vec v)=\\frac\\pi2\\ [\\pi]$."
+   },
+   "analogie": "Un gardien de but qui pivote sur lui-même : tourner d'un quart de tour vers sa gauche (+π/2) ou vers sa droite (−π/2) ne le fait pas regarder dans la même direction. Le signe compte.",
+   "exemples_resolus": [
+    {
+     "enonce": "$ABCD$ est un carré direct. Donner la mesure principale de $(\\overrightarrow{AB},\\overrightarrow{AD})$, $(\\overrightarrow{AB},\\overrightarrow{AC})$ et $(\\overrightarrow{AD},\\overrightarrow{CB})$.",
+     "etapes": [
+      "Le carré est direct : $(\\overrightarrow{AB},\\overrightarrow{AD})=\\dfrac\\pi2$.",
+      "La diagonale $[AC]$ partage l'angle droit en deux : $(\\overrightarrow{AB},\\overrightarrow{AC})=\\dfrac\\pi4$.",
+      "$\\overrightarrow{CB}=-\\overrightarrow{AD}$ (car $\\overrightarrow{AD}=\\overrightarrow{BC}$), donc $(\\overrightarrow{AD},\\overrightarrow{CB})=(\\overrightarrow{AD},-\\overrightarrow{AD})=\\pi$."
+     ]
+    },
+    {
+     "enonce": "On donne $(\\vec u,\\vec v)=\\dfrac{2\\pi}3$. Déterminer la mesure principale de $(-\\vec u,2\\vec v)$.",
+     "etapes": [
+      "$2>0$ donc $(-\\vec u,2\\vec v)=(-\\vec u,\\vec v)$.",
+      "$(-\\vec u,\\vec v)=(\\vec u,\\vec v)+\\pi=\\dfrac{2\\pi}3+\\pi=\\dfrac{5\\pi}3$.",
+      "$\\dfrac{5\\pi}3-2\\pi=-\\dfrac\\pi3\\in]-\\pi\\,;\\pi]$ : la mesure principale est $-\\dfrac\\pi3$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier le signe : $(\\vec v,\\vec u)$ n'est pas égal à $(\\vec u,\\vec v)$ mais à son opposé.",
+    "Écrire $(-\\vec u,\\vec v)=-(\\vec u,\\vec v)$ : c'est $(\\vec u,\\vec v)+\\pi$.",
+    "Donner une mesure hors de $]-\\pi\\,;\\pi]$ quand on demande la mesure principale.",
+    "Écrire « $=$ » sans le « $[2\\pi]$ »."
+   ],
+   "astuces": [
+    "Dessine une petite flèche courbe du premier vecteur vers le second : si elle tourne dans le sens inverse des aiguilles d'une montre, la mesure est positive.",
+    "Pour un vecteur « retourné » ($\\overrightarrow{BA}$ au lieu de $\\overrightarrow{AB}$), ajoute π.",
+    "La relation de Chasles des angles ressemble à celle des vecteurs : le vecteur du milieu « s'efface »."
+   ],
+   "mnemo": "« Retourner un vecteur, c'est ajouter π ; échanger les deux, c'est changer le signe. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens du 1er semestre ? La relation de Chasles $\\overrightarrow{AB}+\\overrightarrow{BC}=\\overrightarrow{AC}$ « enchaîne » les vecteurs. Pour les angles orientés, c'est pareil : $(\\vec u,\\vec v)+(\\vec v,\\vec w)=(\\vec u,\\vec w)$."
+   },
+   "methode_redaction": "Justifie chaque égalité par la règle utilisée (« d'après la relation de Chasles », « car BA = −AB »), garde « [2π] » à chaque ligne et termine par « la mesure principale est … car elle appartient à ]−π ; π] ».",
+   "flash": [
+    {
+     "q": "$(\\vec v,\\vec u)=\\,?$",
+     "r": "$-(\\vec u,\\vec v)\\ [2\\pi]$"
+    },
+    {
+     "q": "$(-\\vec u,\\vec v)=\\,?$",
+     "r": "$(\\vec u,\\vec v)+\\pi\\ [2\\pi]$"
+    },
+    {
+     "q": "Relation de Chasles pour les angles orientés ?",
+     "r": "$(\\vec u,\\vec v)+(\\vec v,\\vec w)=(\\vec u,\\vec w)\\ [2\\pi]$"
+    },
+    {
+     "q": "$\\vec u$ et $\\vec v$ colinéaires équivaut à ?",
+     "r": "$(\\vec u,\\vec v)=0\\ [\\pi]$"
+    },
+    {
+     "q": "$(-\\vec u,-\\vec v)=\\,?$",
+     "r": "$(\\vec u,\\vec v)\\ [2\\pi]$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C10-N2.svg",
+    "alt": "Deux vecteurs u et v de même origine O formant un angle de 60° ; un arc vert orienté de u vers v marque +π/3 et un arc rouge de v vers u marque −π/3 ; un encadré rappelle les règles de calcul.",
+    "legende": "(u, v) et (v, u) ont des mesures opposées.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C10-N3",
+   "titre": "Cosinus, sinus et tangente d'un réel",
+   "prerequis_notions": [
+    "M-S2-C10-N1",
+    "M-3e-TRIGONOMETRIE"
+   ],
+   "cours_md": "## 1. Définitions\n\n:::definition\nSoit $x$ un réel et $M$ son point image sur le cercle trigonométrique. Le **cosinus** de $x$ est l'abscisse de $M$ et le **sinus** de $x$ est son ordonnée :\n$$M(\\cos x\\,;\\sin x).$$\nSi $\\cos x\\neq0$, la **tangente** de $x$ est $\\tan x=\\dfrac{\\sin x}{\\cos x}$.\n:::\n\n:::propriete Pour tout réel $x$ et tout entier relatif $k$\n- $-1\\le\\cos x\\le1$ et $-1\\le\\sin x\\le1$ ;\n- $\\cos^2x+\\sin^2x=1$ (car $OM=1$) ;\n- $\\cos(x+2k\\pi)=\\cos x$ et $\\sin(x+2k\\pi)=\\sin x$ ;\n- si $\\cos x\\neq0$ : $1+\\tan^2x=\\dfrac{1}{\\cos^2x}$.\n:::\n\n:::propriete Valeurs remarquables (à connaître par cœur)\n| $x$ | $0$ | $\\frac\\pi6$ | $\\frac\\pi4$ | $\\frac\\pi3$ | $\\frac\\pi2$ |\n|---|---|---|---|---|---|\n| $\\cos x$ | $1$ | $\\frac{\\sqrt3}2$ | $\\frac{\\sqrt2}2$ | $\\frac12$ | $0$ |\n| $\\sin x$ | $0$ | $\\frac12$ | $\\frac{\\sqrt2}2$ | $\\frac{\\sqrt3}2$ | $1$ |\n| $\\tan x$ | $0$ | $\\frac{\\sqrt3}3$ | $1$ | $\\sqrt3$ | non définie |\n:::\n\n:::propriete Signes\n$\\cos x>0$ quand $M$ est à droite de l'axe des ordonnées ; $\\sin x>0$ quand $M$ est au-dessus de l'axe des abscisses. Par exemple, si $x\\in\\left]\\frac\\pi2\\,;\\pi\\right[$, alors $\\cos x<0$ et $\\sin x>0$.\n:::\n\n:::remarque Lien avec la 3e\nSi $0<x<\\dfrac\\pi2$, le triangle $OHM$ ($H$ projeté de $M$ sur l'axe des abscisses) est rectangle en $H$ avec $OM=1$ : on retrouve $\\cos x=\\dfrac{OH}{OM}$ et $\\sin x=\\dfrac{HM}{OM}$.\n:::\n\n:::methode Calculer $\\sin x$ connaissant $\\cos x$ (ou l'inverse)\n1. Écrire $\\sin^2x=1-\\cos^2x$.\n2. On obtient deux valeurs opposées : choisir le **signe** grâce à l'intervalle qui contient $x$.\n3. En déduire $\\tan x=\\dfrac{\\sin x}{\\cos x}$ si on le demande.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nSachant que $\\cos x=\\dfrac35$ et $x\\in\\left]-\\dfrac\\pi2\\,;0\\right[$, calculer $\\sin x$ et $\\tan x$.\n\n1. $\\sin^2x=1-\\left(\\dfrac35\\right)^2=1-\\dfrac{9}{25}=\\dfrac{16}{25}$, donc $\\sin x=\\dfrac45$ ou $\\sin x=-\\dfrac45$.\n2. $x\\in\\left]-\\dfrac\\pi2\\,;0\\right[$ : le point image est sous l'axe des abscisses, donc $\\sin x<0$ et $\\sin x=-\\dfrac45$.\n3. $\\tan x=\\dfrac{-4/5}{3/5}=-\\dfrac43$.\n:::\n\n:::exemple Exemple 2\nMontrer que pour tout réel $x$ : $(\\cos x+\\sin x)^2+(\\cos x-\\sin x)^2=2$.\n\n1. On développe : $\\cos^2x+2\\cos x\\sin x+\\sin^2x+\\cos^2x-2\\cos x\\sin x+\\sin^2x$.\n2. Les doubles produits s'éliminent : il reste $2(\\cos^2x+\\sin^2x)$.\n3. Comme $\\cos^2x+\\sin^2x=1$, l'expression vaut $2$.\n:::",
+   "definition": "Le cosinus et le sinus d'un réel $x$ sont l'abscisse et l'ordonnée de son point image sur le cercle trigonométrique ; ils vérifient $\\cos^2x+\\sin^2x=1$.",
+   "formules": [
+    "$M(\\cos x\\,;\\sin x)$",
+    "$\\cos^2x+\\sin^2x=1$",
+    "$\\tan x=\\dfrac{\\sin x}{\\cos x}$",
+    "$-1\\le\\cos x\\le1,\\ -1\\le\\sin x\\le1$"
+   ],
+   "niveaux": {
+    "phrase": "Le cosinus est l'abscisse du point image, le sinus son ordonnée.",
+    "simple": "Sur le cercle de rayon 1, le point M a deux « ombres » : son ombre sur l'axe horizontal donne cos x, son ombre sur l'axe vertical donne sin x.",
+    "complete": "Pour $x\\in\\mathbb{R}$, $M(\\cos x\\,;\\sin x)$ est le point image de $x$ ; $\\cos$ et $\\sin$ sont $2\\pi$-périodiques, à valeurs dans $[-1\\,;1]$, et $\\cos^2x+\\sin^2x=1$. Pour $\\cos x\\neq0$, $\\tan x=\\frac{\\sin x}{\\cos x}$ (ordonnée du point d'intersection de $(OM)$ avec la tangente au cercle en $I$) et $1+\\tan^2x=\\frac1{\\cos^2x}$."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Calculer $\\sin x$ sachant que $\\cos x=-\\dfrac13$ et $x\\in[0\\,;\\pi]$.",
+     "etapes": [
+      "$\\sin^2x=1-\\dfrac19=\\dfrac89$.",
+      "Sur $[0\\,;\\pi]$, le point image est au-dessus de l'axe des abscisses : $\\sin x\\ge0$.",
+      "$\\sin x=\\sqrt{\\dfrac89}=\\dfrac{2\\sqrt2}{3}$."
+     ]
+    },
+    {
+     "enonce": "Montrer que pour tout réel $x$ : $\\cos^4x-\\sin^4x=\\cos^2x-\\sin^2x$.",
+     "etapes": [
+      "$\\cos^4x-\\sin^4x=(\\cos^2x)^2-(\\sin^2x)^2=(\\cos^2x-\\sin^2x)(\\cos^2x+\\sin^2x)$ (identité $a^2-b^2$).",
+      "Or $\\cos^2x+\\sin^2x=1$, donc $\\cos^4x-\\sin^4x=\\cos^2x-\\sin^2x$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier de choisir le signe : $\\sin x=\\pm\\dfrac45$ n'est pas une réponse.",
+    "Écrire $\\cos^2x$ pour $\\cos(x^2)$ : $\\cos^2x$ signifie $(\\cos x)^2$.",
+    "Confondre $\\cos\\frac\\pi3=\\frac12$ et $\\sin\\frac\\pi3=\\frac{\\sqrt3}2$.",
+    "Calculer avec la calculatrice en mode degrés."
+   ],
+   "astuces": [
+    "Pour retenir le tableau : les sinus de 0, π/6, π/4, π/3, π/2 sont √0/2, √1/2, √2/2, √3/2, √4/2 ; les cosinus sont dans l'ordre inverse.",
+    "Dessine le cercle et place le point : le signe de cos et de sin se lit tout de suite.",
+    "cos²x + sin²x = 1 sert presque dans chaque exercice : pense à lui dès que tu vois des carrés."
+   ],
+   "mnemo": "« Cos sur l'axe des abscisses (couché), sin sur l'axe des ordonnées (debout). »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans un triangle rectangle, $\\cos=\\dfrac{\\text{adjacent}}{\\text{hypoténuse}}$, $\\sin=\\dfrac{\\text{opposé}}{\\text{hypoténuse}}$ et $\\cos^2+\\sin^2=1$. Le cercle trigonométrique prolonge ces définitions à tous les réels, même négatifs ou plus grands que $\\frac\\pi2$."
+   },
+   "methode_redaction": "Écris d'abord la relation (« cos²x + sin²x = 1, donc sin²x = 1 − 9/25 = 16/25 »), puis justifie le signe par l'intervalle (« x ∈ ]−π/2 ; 0[ donc sin x < 0 »), et seulement ensuite la valeur. Encadre la réponse finale.",
+   "flash": [
+    {
+     "q": "$\\cos\\dfrac\\pi3=\\,?$",
+     "r": "$\\dfrac12$"
+    },
+    {
+     "q": "$\\sin\\dfrac\\pi4=\\,?$",
+     "r": "$\\dfrac{\\sqrt2}2$"
+    },
+    {
+     "q": "$\\cos^2x+\\sin^2x=\\,?$",
+     "r": "$1$"
+    },
+    {
+     "q": "$\\tan\\dfrac\\pi6=\\,?$",
+     "r": "$\\dfrac{\\sqrt3}3$"
+    },
+    {
+     "q": "Signe de $\\sin x$ si $x\\in]-\\pi\\,;0[$ ?",
+     "r": "Négatif : le point image est sous l'axe des abscisses."
+    },
+    {
+     "q": "Coordonnées du point image de x ?",
+     "r": "$M(\\cos x\\,;\\sin x)$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C10-N3.svg",
+    "alt": "Cercle trigonométrique : le point M image de x a pour projection sur l'axe des abscisses le segment bleu cos x et sur l'axe des ordonnées le segment rouge sin x ; la droite (OM) coupe la tangente en I au point T d'ordonnée tan x.",
+    "legende": "cos x et sin x sont les coordonnées de M ; tan x se lit sur la tangente en I.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C10-N4",
+   "titre": "Angles associés",
+   "prerequis_notions": [
+    "M-S2-C10-N3"
+   ],
+   "cours_md": ":::propriete Formules des angles associés (pour tout réel $x$)\nElles se lisent sur le cercle par des symétries :\n\n| Angle | Symétrie | $\\cos$ | $\\sin$ |\n|---|---|---|---|\n| $-x$ | axe des abscisses | $\\cos(-x)=\\cos x$ | $\\sin(-x)=-\\sin x$ |\n| $\\pi-x$ | axe des ordonnées | $\\cos(\\pi-x)=-\\cos x$ | $\\sin(\\pi-x)=\\sin x$ |\n| $\\pi+x$ | centre $O$ | $\\cos(\\pi+x)=-\\cos x$ | $\\sin(\\pi+x)=-\\sin x$ |\n| $\\frac\\pi2-x$ | droite $y=x$ | $\\cos\\left(\\frac\\pi2-x\\right)=\\sin x$ | $\\sin\\left(\\frac\\pi2-x\\right)=\\cos x$ |\n| $\\frac\\pi2+x$ | quart de tour | $\\cos\\left(\\frac\\pi2+x\\right)=-\\sin x$ | $\\sin\\left(\\frac\\pi2+x\\right)=\\cos x$ |\n\nOn en déduit : $\\tan(-x)=-\\tan x$, $\\tan(\\pi+x)=\\tan x$, $\\tan(\\pi-x)=-\\tan x$.\n:::\n\n:::remarque\nLa fonction cosinus est **paire** ($\\cos(-x)=\\cos x$) et la fonction sinus est **impaire** ($\\sin(-x)=-\\sin x$).\n:::\n\n:::methode Calculer $\\cos\\dfrac{5\\pi}{6}$, $\\sin\\dfrac{7\\pi}{4}$…\n1. Écrire l'angle sous la forme $\\pi-a$, $\\pi+a$, $-a$, $2\\pi-a$… avec $a$ remarquable ($\\frac\\pi6$, $\\frac\\pi4$, $\\frac\\pi3$).\n2. Appliquer la formule correspondante.\n3. Contrôler le **signe** en plaçant le point sur le cercle.\n:::\n\n:::attention\n$\\cos(a+b)\\neq\\cos a+\\cos b$ : on ne « distribue » jamais un cosinus ou un sinus. Seules les formules du tableau sont utilisables.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nCalculer $\\cos\\dfrac{5\\pi}6$, $\\sin\\dfrac{5\\pi}6$, $\\cos\\left(-\\dfrac{2\\pi}3\\right)$ et $\\sin\\dfrac{7\\pi}4$.\n\n1. $\\dfrac{5\\pi}6=\\pi-\\dfrac\\pi6$ : $\\cos\\dfrac{5\\pi}6=-\\cos\\dfrac\\pi6=-\\dfrac{\\sqrt3}2$ et $\\sin\\dfrac{5\\pi}6=\\sin\\dfrac\\pi6=\\dfrac12$.\n2. $\\cos\\left(-\\dfrac{2\\pi}3\\right)=\\cos\\dfrac{2\\pi}3=\\cos\\left(\\pi-\\dfrac\\pi3\\right)=-\\cos\\dfrac\\pi3=-\\dfrac12$.\n3. $\\dfrac{7\\pi}4=2\\pi-\\dfrac\\pi4$ : $\\sin\\dfrac{7\\pi}4=\\sin\\left(-\\dfrac\\pi4\\right)=-\\dfrac{\\sqrt2}2$.\n:::\n\n:::exemple Exemple 2\nSimplifier $A=\\sin(\\pi-x)+\\cos\\left(\\dfrac\\pi2-x\\right)-2\\sin(\\pi+x)$.\n\n1. $\\sin(\\pi-x)=\\sin x$ et $\\cos\\left(\\dfrac\\pi2-x\\right)=\\sin x$.\n2. $\\sin(\\pi+x)=-\\sin x$, donc $-2\\sin(\\pi+x)=2\\sin x$.\n3. $A=\\sin x+\\sin x+2\\sin x=4\\sin x$.\n:::",
+   "definition": "Les angles associés ($-x$, $\\pi-x$, $\\pi+x$, $\\frac\\pi2-x$, $\\frac\\pi2+x$) ont des cosinus et sinus égaux ou opposés à ceux de $x$, ou échangés ; on les lit par symétrie sur le cercle.",
+   "formules": [
+    "$\\cos(-x)=\\cos x,\\ \\sin(-x)=-\\sin x$",
+    "$\\cos(\\pi-x)=-\\cos x,\\ \\sin(\\pi-x)=\\sin x$",
+    "$\\cos(\\pi+x)=-\\cos x,\\ \\sin(\\pi+x)=-\\sin x$",
+    "$\\cos\\left(\\frac\\pi2-x\\right)=\\sin x,\\ \\sin\\left(\\frac\\pi2-x\\right)=\\cos x$"
+   ],
+   "niveaux": {
+    "phrase": "Les angles associés se lisent par symétrie sur le cercle trigonométrique.",
+    "simple": "Le point de π − x est le reflet de celui de x dans un miroir vertical : même hauteur (même sinus), abscisse opposée (cosinus opposé).",
+    "complete": "Les points images de $-x$, $\\pi-x$, $\\pi+x$, $\\frac\\pi2-x$ sont les images de celui de $x$ par les symétries d'axe $(OI)$, d'axe $(OJ)$, de centre $O$ et d'axe la première bissectrice ; celui de $\\frac\\pi2+x$ est son image par le quart de tour direct. D'où les formules, qui permettent de ramener tout calcul à un angle de $\\left[0\\,;\\frac\\pi2\\right]$."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Calculer $S=\\cos\\dfrac\\pi7+\\cos\\dfrac{2\\pi}7+\\cos\\dfrac{3\\pi}7+\\cos\\dfrac{4\\pi}7+\\cos\\dfrac{5\\pi}7+\\cos\\dfrac{6\\pi}7$.",
+     "etapes": [
+      "$\\dfrac{6\\pi}7=\\pi-\\dfrac\\pi7$ donc $\\cos\\dfrac{6\\pi}7=-\\cos\\dfrac\\pi7$.",
+      "De même $\\cos\\dfrac{5\\pi}7=-\\cos\\dfrac{2\\pi}7$ et $\\cos\\dfrac{4\\pi}7=-\\cos\\dfrac{3\\pi}7$.",
+      "Les termes s'annulent deux à deux : $S=0$."
+     ]
+    },
+    {
+     "enonce": "Calculer $\\tan\\dfrac{3\\pi}4$ et $\\tan\\left(-\\dfrac\\pi3\\right)$.",
+     "etapes": [
+      "$\\tan\\dfrac{3\\pi}4=\\tan\\left(\\pi-\\dfrac\\pi4\\right)=-\\tan\\dfrac\\pi4=-1$.",
+      "$\\tan\\left(-\\dfrac\\pi3\\right)=-\\tan\\dfrac\\pi3=-\\sqrt3$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Écrire $\\cos(\\pi-x)=\\cos x$ : le cosinus change de signe.",
+    "Confondre $\\cos\\left(\\frac\\pi2-x\\right)=\\sin x$ et $\\cos\\left(\\frac\\pi2+x\\right)=-\\sin x$.",
+    "Appliquer une formule sans contrôler le signe sur le cercle.",
+    "Écrire $\\cos\\left(\\pi+\\frac\\pi3\\right)=\\cos\\pi+\\cos\\frac\\pi3$."
+   ],
+   "astuces": [
+    "Dessine toujours le cercle avec le point de x et celui de l'angle associé : le signe se voit.",
+    "π − x garde le sinus ; −x garde le cosinus ; π + x change les deux.",
+    "Avec π/2, le cosinus et le sinus s'échangent."
+   ],
+   "mnemo": "« π − x : le sinus reste, le cosinus s'en va (change de signe) ; π/2 − x : cos et sin échangent leurs places. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Dans un triangle rectangle, le cosinus d'un angle aigu est égal au sinus de l'autre angle aigu : $\\cos\\widehat B=\\sin\\widehat C$ car $\\widehat B+\\widehat C=90^\\circ$. C'est la formule $\\cos\\left(\\frac\\pi2-x\\right)=\\sin x$."
+   },
+   "methode_redaction": "Écris l'étape de transformation (« 5π/6 = π − π/6 »), puis la formule utilisée (« cos(π − x) = −cos x »), puis la valeur. Une ligne par étape : le correcteur donne les points de méthode même si tu te trompes à la fin.",
+   "flash": [
+    {
+     "q": "$\\cos(\\pi-x)=\\,?$",
+     "r": "$-\\cos x$"
+    },
+    {
+     "q": "$\\sin(\\pi+x)=\\,?$",
+     "r": "$-\\sin x$"
+    },
+    {
+     "q": "$\\cos\\left(\\frac\\pi2-x\\right)=\\,?$",
+     "r": "$\\sin x$"
+    },
+    {
+     "q": "$\\cos\\dfrac{2\\pi}3=\\,?$",
+     "r": "$-\\dfrac12$"
+    },
+    {
+     "q": "$\\sin\\left(-\\dfrac\\pi6\\right)=\\,?$",
+     "r": "$-\\dfrac12$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C10-N4.svg",
+    "alt": "Cercle trigonométrique : le point image de x et ses symétriques, −x (par rapport à l'axe des abscisses), π − x (axe des ordonnées), π + x (centre O) et π/2 − x (droite y = x), reliés par des pointillés de couleur.",
+    "legende": "Chaque angle associé correspond à une symétrie du cercle.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "M-S2-C10-N5",
+   "titre": "Équations trigonométriques élémentaires",
+   "prerequis_notions": [
+    "M-S2-C10-N4"
+   ],
+   "cours_md": ":::propriete Équations fondamentales ($a$ réel donné, $k\\in\\mathbb{Z}$)\n- $\\cos x=\\cos a\\iff x=a+2k\\pi$ **ou** $x=-a+2k\\pi$.\n- $\\sin x=\\sin a\\iff x=a+2k\\pi$ **ou** $x=\\pi-a+2k\\pi$.\n- $\\tan x=\\tan a\\iff x=a+k\\pi$ (pour $x$ et $a$ où la tangente est définie).\n:::\n\n:::methode Résoudre $\\cos x=c$ ou $\\sin x=c$\n1. Si $c<-1$ ou $c>1$ : aucune solution.\n2. Trouver un réel remarquable $a$ tel que $\\cos a=c$ (ou $\\sin a=c$), avec le tableau des valeurs et les angles associés.\n3. Écrire les deux familles de solutions dans $\\mathbb{R}$.\n4. Si l'on demande les solutions dans un intervalle ($]-\\pi\\,;\\pi]$, $[0\\,;2\\pi[$…), donner à $k$ des valeurs entières et ne garder que celles qui tombent dans l'intervalle.\n5. Contrôler en plaçant les points sur le cercle (droite verticale $x=c$ pour le cosinus, horizontale $y=c$ pour le sinus).\n:::\n\n:::attention\nLes solutions viennent en général **par deux** sur un tour : n'oublie pas la seconde famille ($-a$ pour le cosinus, $\\pi-a$ pour le sinus). Exception : $\\cos x=\\pm1$ ou $\\sin x=\\pm1$, où les deux familles se confondent.\n:::\n\n:::remarque Inéquations simples\nLe cercle permet aussi de résoudre une inéquation : $\\cos x\\ge\\dfrac12$ sur $]-\\pi\\,;\\pi]$ correspond aux points du cercle d'abscisse au moins $\\dfrac12$, soit $x\\in\\left[-\\dfrac\\pi3\\,;\\dfrac\\pi3\\right]$.\n:::\n\n## Exemples résolus pas à pas\n\n:::exemple Exemple 1\nRésoudre $\\cos x=\\dfrac12$ dans $\\mathbb{R}$, puis dans $]-\\pi\\,;\\pi]$.\n\n1. $\\dfrac12=\\cos\\dfrac\\pi3$ : l'équation s'écrit $\\cos x=\\cos\\dfrac\\pi3$.\n2. Dans $\\mathbb{R}$ : $x=\\dfrac\\pi3+2k\\pi$ ou $x=-\\dfrac\\pi3+2k\\pi$, $k\\in\\mathbb{Z}$.\n3. Dans $]-\\pi\\,;\\pi]$ (avec $k=0$) : $S=\\left\\{-\\dfrac\\pi3\\,;\\dfrac\\pi3\\right\\}$.\n:::\n\n:::exemple Exemple 2\nRésoudre $\\sin x=-\\dfrac{\\sqrt2}2$ dans $[0\\,;2\\pi[$.\n\n1. $-\\dfrac{\\sqrt2}2=\\sin\\left(-\\dfrac\\pi4\\right)$.\n2. $x=-\\dfrac\\pi4+2k\\pi$ ou $x=\\pi+\\dfrac\\pi4+2k\\pi=\\dfrac{5\\pi}4+2k\\pi$.\n3. Dans $[0\\,;2\\pi[$ : $-\\dfrac\\pi4+2\\pi=\\dfrac{7\\pi}4$ ($k=1$) et $\\dfrac{5\\pi}4$ ($k=0$).\n4. $S=\\left\\{\\dfrac{5\\pi}4\\,;\\dfrac{7\\pi}4\\right\\}$.\n:::",
+   "definition": "$\\cos x=\\cos a$ donne $x=\\pm a+2k\\pi$ ; $\\sin x=\\sin a$ donne $x=a+2k\\pi$ ou $x=\\pi-a+2k\\pi$ ; on sélectionne ensuite les solutions de l'intervalle demandé.",
+   "formules": [
+    "$\\cos x=\\cos a\\iff x=\\pm a+2k\\pi$",
+    "$\\sin x=\\sin a\\iff x=a+2k\\pi$ ou $x=\\pi-a+2k\\pi$",
+    "$\\tan x=\\tan a\\iff x=a+k\\pi$"
+   ],
+   "niveaux": {
+    "phrase": "Sur un tour de cercle, une équation cos x = c ou sin x = c a en général deux solutions, symétriques.",
+    "simple": "Une droite verticale (pour le cosinus) ou horizontale (pour le sinus) coupe le cercle en deux points : ce sont les deux solutions sur un tour. Chaque tour supplémentaire ajoute 2π.",
+    "complete": "Pour $c\\in[-1\\,;1]$, $\\cos x=c$ a pour solutions $\\pm a+2k\\pi$ où $a\\in[0\\,;\\pi]$ vérifie $\\cos a=c$ ; $\\sin x=c$ a pour solutions $a+2k\\pi$ et $\\pi-a+2k\\pi$ où $a\\in\\left[-\\frac\\pi2\\,;\\frac\\pi2\\right]$ vérifie $\\sin a=c$. Les inéquations se résolvent en lisant des arcs du cercle trigonométrique."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Résoudre dans $]-\\pi\\,;\\pi]$ l'équation $2\\cos x+\\sqrt3=0$.",
+     "etapes": [
+      "$\\cos x=-\\dfrac{\\sqrt3}2=\\cos\\dfrac{5\\pi}6$ (car $\\cos\\left(\\pi-\\frac\\pi6\\right)=-\\frac{\\sqrt3}2$).",
+      "$x=\\dfrac{5\\pi}6+2k\\pi$ ou $x=-\\dfrac{5\\pi}6+2k\\pi$.",
+      "Dans $]-\\pi\\,;\\pi]$ : $S=\\left\\{-\\dfrac{5\\pi}6\\,;\\dfrac{5\\pi}6\\right\\}$."
+     ]
+    },
+    {
+     "enonce": "Résoudre dans $]-\\pi\\,;\\pi]$ l'inéquation $\\sin x\\ge\\dfrac12$.",
+     "etapes": [
+      "Les solutions de $\\sin x=\\dfrac12$ dans $]-\\pi\\,;\\pi]$ sont $\\dfrac\\pi6$ et $\\dfrac{5\\pi}6$.",
+      "Sur le cercle, les points d'ordonnée au moins $\\dfrac12$ forment l'arc qui va de $\\dfrac\\pi6$ à $\\dfrac{5\\pi}6$ en passant par $J$.",
+      "$S=\\left[\\dfrac\\pi6\\,;\\dfrac{5\\pi}6\\right]$."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Oublier la seconde famille de solutions.",
+    "Pour le sinus, écrire $x=-a+2k\\pi$ au lieu de $x=\\pi-a+2k\\pi$.",
+    "Garder des solutions hors de l'intervalle demandé.",
+    "Chercher des solutions à $\\cos x=2$ : il n'y en a pas."
+   ],
+   "astuces": [
+    "Trace la droite x = c (ou y = c) sur un cercle au brouillon : tu vois combien il y a de solutions et où.",
+    "Pour sélectionner dans un intervalle, essaie k = −1, 0, 1 et garde ce qui convient.",
+    "Vérifie une solution avec la calculatrice (en radians)."
+   ],
+   "mnemo": "« Cosinus : plus ou moins a. Sinus : a ou π moins a. »",
+   "rappel_anterieur": {
+    "classe": "Seconde (1er semestre)",
+    "texte": "Tu te souviens des équations dans ℝ ? On isolait l'inconnue. Ici aussi on commence par isoler $\\cos x$ ou $\\sin x$ (par exemple $2\\cos x+\\sqrt3=0$ donne $\\cos x=-\\frac{\\sqrt3}2$), puis on utilise le cercle."
+   },
+   "methode_redaction": "Isole d'abord cos x ou sin x, écris « cos x = cos(π/3) », puis l'équivalence avec les deux familles et « k ∈ ℤ ». Pour un intervalle, montre les valeurs de k testées, puis écris S = {…} dans l'ordre croissant.",
+   "flash": [
+    {
+     "q": "$\\cos x=\\cos a\\iff\\,?$",
+     "r": "$x=a+2k\\pi$ ou $x=-a+2k\\pi$, $k\\in\\mathbb{Z}$"
+    },
+    {
+     "q": "$\\sin x=\\sin a\\iff\\,?$",
+     "r": "$x=a+2k\\pi$ ou $x=\\pi-a+2k\\pi$, $k\\in\\mathbb{Z}$"
+    },
+    {
+     "q": "Solutions de $\\cos x=2$ ?",
+     "r": "Aucune : $\\cos x\\le1$."
+    },
+    {
+     "q": "Solution de $\\sin x=1$ dans $]-\\pi\\,;\\pi]$ ?",
+     "r": "$x=\\dfrac\\pi2$"
+    },
+    {
+     "q": "Solutions de $\\cos x=0$ dans $]-\\pi\\,;\\pi]$ ?",
+     "r": "$-\\dfrac\\pi2$ et $\\dfrac\\pi2$"
+    }
+   ],
+   "image": {
+    "fichier": "M-S2-C10-N5.svg",
+    "alt": "Cercle trigonométrique coupé par la droite verticale x = 1/2 aux points π/3 et −π/3, et par la droite horizontale y = 1/2 aux points π/6 et 5π/6.",
+    "legende": "Les solutions se lisent comme les intersections du cercle avec une droite verticale (cosinus) ou horizontale (sinus).",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "M-S2-C10-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C10-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Quelle est la mesure en radians d'un angle de $135^\\circ$ ?",
+   "choix": [
+    "$\\dfrac{3\\pi}4$",
+    "$\\dfrac{2\\pi}3$",
+    "$\\dfrac{5\\pi}6$",
+    "$\\dfrac{3\\pi}2$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "180° = π rad."
+   ],
+   "corrige": [
+    "$\\alpha=\\dfrac{\\pi}{180}\\times135=\\dfrac{135\\pi}{180}$.",
+    "On simplifie par $45$ : $\\alpha=\\dfrac{3\\pi}4$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre 135° (3π/4) et 120° (2π/3).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C10-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C10-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Calculer $A=\\cos\\dfrac\\pi3+\\sin\\dfrac\\pi6$.",
+   "reponses_acceptees": [
+    "1",
+    "A=1"
+   ],
+   "indices": [
+    "Utilise le tableau des valeurs remarquables."
+   ],
+   "corrige": [
+    "$\\cos\\dfrac\\pi3=\\dfrac12$ et $\\sin\\dfrac\\pi6=\\dfrac12$.",
+    "$A=\\dfrac12+\\dfrac12=1$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Confondre cos(π/3) et sin(π/3).",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C10-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "M-S2-C10-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Donner la mesure principale de $\\dfrac{13\\pi}6$.",
+   "reponses_acceptees": [
+    "π/6",
+    "pi/6",
+    "\\frac{\\pi}{6}",
+    "\\dfrac{\\pi}{6}"
+   ],
+   "indices": [
+    "Retire 2π = 12π/6."
+   ],
+   "corrige": [
+    "$\\dfrac{13\\pi}6=\\dfrac\\pi6+\\dfrac{12\\pi}6=\\dfrac\\pi6+2\\pi$.",
+    "$\\dfrac\\pi6\\in]-\\pi\\,;\\pi]$ : la mesure principale est $\\dfrac\\pi6$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Retirer seulement π au lieu de 2π.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C10-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C10-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Sur un cercle de rayon $4$ cm, quelle est la longueur exacte (en cm) de l'arc intercepté par un angle au centre de $\\dfrac{2\\pi}3$ rad ?",
+   "reponses_acceptees": [
+    "8π/3",
+    "8pi/3",
+    "8π/3cm",
+    "(8π)/3",
+    "8/3π",
+    "(8/3)π"
+   ],
+   "indices": [
+    "ℓ = R × α."
+   ],
+   "corrige": [
+    "$\\ell=R\\alpha$ avec $\\alpha$ en radians.",
+    "$\\ell=4\\times\\dfrac{2\\pi}3=\\dfrac{8\\pi}3$ cm (environ $8{,}38$ cm)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Utiliser 120 (degrés) au lieu de 2π/3 dans la formule.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C10-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C10-N4"
+   ],
+   "format": "qcm",
+   "enonce": "Que vaut $\\sin\\dfrac{5\\pi}6$ ?",
+   "choix": [
+    "$\\dfrac12$",
+    "$-\\dfrac12$",
+    "$\\dfrac{\\sqrt3}2$",
+    "$-\\dfrac{\\sqrt3}2$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "5π/6 = π − π/6."
+   ],
+   "corrige": [
+    "$\\dfrac{5\\pi}6=\\pi-\\dfrac\\pi6$ et $\\sin(\\pi-x)=\\sin x$.",
+    "$\\sin\\dfrac{5\\pi}6=\\sin\\dfrac\\pi6=\\dfrac12$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Changer le signe : c'est le cosinus qui change de signe avec π − x, pas le sinus.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C10-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C10-N3"
+   ],
+   "format": "reponse_courte",
+   "enonce": "On sait que $\\cos x=-\\dfrac45$ et $x\\in\\left[\\dfrac\\pi2\\,;\\pi\\right]$. Calculer $\\sin x$.",
+   "reponses_acceptees": [
+    "3/5",
+    "0,6",
+    "0.6"
+   ],
+   "indices": [
+    "cos²x + sin²x = 1.",
+    "Le signe de sin x dépend de l'intervalle."
+   ],
+   "corrige": [
+    "$\\sin^2x=1-\\dfrac{16}{25}=\\dfrac9{25}$.",
+    "Sur $\\left[\\dfrac\\pi2\\,;\\pi\\right]$, $\\sin x\\ge0$.",
+    "Donc $\\sin x=\\dfrac35$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1
+   ],
+   "piege": "Répondre −3/5 ou ±3/5.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C10-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C10-N2"
+   ],
+   "format": "qcm",
+   "enonce": "On sait que $(\\vec u,\\vec v)=\\dfrac\\pi3\\ [2\\pi]$. Quelle est la mesure principale de $(-\\vec u,\\vec v)$ ?",
+   "choix": [
+    "$-\\dfrac{2\\pi}3$",
+    "$\\dfrac{4\\pi}3$",
+    "$-\\dfrac\\pi3$",
+    "$\\dfrac{2\\pi}3$"
+   ],
+   "bonne_reponse": 0,
+   "indices": [
+    "Retourner un vecteur ajoute π."
+   ],
+   "corrige": [
+    "$(-\\vec u,\\vec v)=(\\vec u,\\vec v)+\\pi=\\dfrac\\pi3+\\pi=\\dfrac{4\\pi}3$.",
+    "$\\dfrac{4\\pi}3-2\\pi=-\\dfrac{2\\pi}3\\in]-\\pi\\,;\\pi]$."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Répondre 4π/3, qui n'est pas dans ]−π ; π].",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C10-E08",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "M-S2-C10-N5"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Résoudre dans $]-\\pi\\,;\\pi]$ l'équation $\\cos x=-\\dfrac12$. Donner l'ensemble des solutions.",
+   "reponses_acceptees": [
+    "{-2π/3;2π/3}",
+    "-2π/3;2π/3",
+    "{2π/3;-2π/3}",
+    "2π/3;-2π/3",
+    "{-2pi/3;2pi/3}",
+    "-2pi/3;2pi/3",
+    "±2π/3",
+    "x=±2π/3"
+   ],
+   "indices": [
+    "cos(π − π/3) = −1/2."
+   ],
+   "corrige": [
+    "$-\\dfrac12=\\cos\\dfrac{2\\pi}3$, donc $x=\\dfrac{2\\pi}3+2k\\pi$ ou $x=-\\dfrac{2\\pi}3+2k\\pi$.",
+    "Dans $]-\\pi\\,;\\pi]$ : $S=\\left\\{-\\dfrac{2\\pi}3\\,;\\dfrac{2\\pi}3\\right\\}$."
+   ],
+   "bareme": [
+    1.5,
+    1
+   ],
+   "piege": "Oublier la solution négative −2π/3.",
+   "verification": "code"
+  },
+  {
+   "id": "M-S2-C10-E09",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C10-N2"
+   ],
+   "format": "ouverte",
+   "enonce": "$ABCD$ est un carré de sens direct et $ABE$ un triangle équilatéral de sens direct ($E$ est à l'intérieur du carré). Déterminer la mesure principale de :\n\n1. $(\\overrightarrow{AB},\\overrightarrow{AE})$ ;\n2. $(\\overrightarrow{AD},\\overrightarrow{AE})$ ;\n3. $(\\overrightarrow{EA},\\overrightarrow{EB})$ ;\n4. $(\\overrightarrow{BC},\\overrightarrow{BE})$.",
+   "indices": [
+    "Fais une figure soignée et marque le sens de chaque angle.",
+    "(AD, AB) = −π/2 car le carré est direct."
+   ],
+   "corrige": [
+    "1. $ABE$ est équilatéral direct : $(\\overrightarrow{AB},\\overrightarrow{AE})=\\dfrac\\pi3$.",
+    "2. Chasles : $(\\overrightarrow{AD},\\overrightarrow{AE})=(\\overrightarrow{AD},\\overrightarrow{AB})+(\\overrightarrow{AB},\\overrightarrow{AE})=-\\dfrac\\pi2+\\dfrac\\pi3=-\\dfrac\\pi6$.",
+    "3. $EAB$ est direct (permutation circulaire de $ABE$) et équilatéral : $(\\overrightarrow{EA},\\overrightarrow{EB})=\\dfrac\\pi3$.",
+    "4. $BEA$ est direct, donc $(\\overrightarrow{BE},\\overrightarrow{BA})=\\dfrac\\pi3$ et $(\\overrightarrow{BA},\\overrightarrow{BE})=-\\dfrac\\pi3$ ; de plus $(\\overrightarrow{BC},\\overrightarrow{BA})=\\dfrac\\pi2$ (le carré $BCDA$ est direct).",
+    "Chasles : $(\\overrightarrow{BC},\\overrightarrow{BE})=(\\overrightarrow{BC},\\overrightarrow{BA})+(\\overrightarrow{BA},\\overrightarrow{BE})=\\dfrac\\pi2-\\dfrac\\pi3=\\dfrac\\pi6$."
+   ],
+   "bareme": [
+    1,
+    1.5,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Oublier le signe : (AD, AB) vaut −π/2, pas π/2.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C10-E10",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C10-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "1. Simplifier $A(x)=\\cos(\\pi-x)+\\sin\\left(\\dfrac\\pi2+x\\right)-2\\cos(-x)+\\cos(\\pi+x)$.\n2. Calculer $B=\\sin^2\\dfrac\\pi8+\\sin^2\\dfrac{3\\pi}8+\\sin^2\\dfrac{5\\pi}8+\\sin^2\\dfrac{7\\pi}8$.",
+   "indices": [
+    "Remplace chaque terme grâce au tableau des angles associés.",
+    "3π/8 = π/2 − π/8."
+   ],
+   "corrige": [
+    "1. $\\cos(\\pi-x)=-\\cos x$ ; $\\sin\\left(\\frac\\pi2+x\\right)=\\cos x$ ; $\\cos(-x)=\\cos x$ ; $\\cos(\\pi+x)=-\\cos x$.",
+    "$A(x)=-\\cos x+\\cos x-2\\cos x-\\cos x=-3\\cos x$.",
+    "2. $\\sin\\dfrac{7\\pi}8=\\sin\\left(\\pi-\\dfrac\\pi8\\right)=\\sin\\dfrac\\pi8$ et $\\sin\\dfrac{5\\pi}8=\\sin\\left(\\pi-\\dfrac{3\\pi}8\\right)=\\sin\\dfrac{3\\pi}8$.",
+    "$\\sin\\dfrac{3\\pi}8=\\sin\\left(\\dfrac\\pi2-\\dfrac\\pi8\\right)=\\cos\\dfrac\\pi8$.",
+    "$B=2\\sin^2\\dfrac\\pi8+2\\cos^2\\dfrac\\pi8=2\\left(\\sin^2\\dfrac\\pi8+\\cos^2\\dfrac\\pi8\\right)=2$."
+   ],
+   "bareme": [
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "piege": "Écrire sin(π/2 + x) = −cos x (c'est le cosinus de π/2 + x qui vaut −sin x).",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C10-E11",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "M-S2-C10-N5"
+   ],
+   "format": "ouverte",
+   "enonce": "Résoudre dans $]-\\pi\\,;\\pi]$ :\n1. $2\\sin x-\\sqrt3=0$ ;\n2. $\\cos 2x=\\dfrac12$.",
+   "indices": [
+    "Pour le 2, l'inconnue de l'équation de référence est 2x : divise par 2 à la fin (2kπ devient kπ).",
+    "Teste k = −1, 0 et 1."
+   ],
+   "corrige": [
+    "1. $\\sin x=\\dfrac{\\sqrt3}2=\\sin\\dfrac\\pi3$, donc $x=\\dfrac\\pi3+2k\\pi$ ou $x=\\pi-\\dfrac\\pi3+2k\\pi=\\dfrac{2\\pi}3+2k\\pi$.",
+    "Dans $]-\\pi\\,;\\pi]$ : $S_1=\\left\\{\\dfrac\\pi3\\,;\\dfrac{2\\pi}3\\right\\}$.",
+    "2. $\\cos2x=\\cos\\dfrac\\pi3\\iff2x=\\dfrac\\pi3+2k\\pi$ ou $2x=-\\dfrac\\pi3+2k\\pi\\iff x=\\dfrac\\pi6+k\\pi$ ou $x=-\\dfrac\\pi6+k\\pi$.",
+    "Avec $k\\in\\{-1\\,;0\\,;1\\}$ : $\\dfrac\\pi6$, $\\dfrac\\pi6-\\pi=-\\dfrac{5\\pi}6$, $-\\dfrac\\pi6$, $-\\dfrac\\pi6+\\pi=\\dfrac{5\\pi}6$ ($\\frac{7\\pi}6$ et $-\\frac{7\\pi}6$ sont hors de l'intervalle).",
+    "$S_2=\\left\\{-\\dfrac{5\\pi}6\\,;-\\dfrac\\pi6\\,;\\dfrac\\pi6\\,;\\dfrac{5\\pi}6\\right\\}$."
+   ],
+   "bareme": [
+    1,
+    0.5,
+    1.5,
+    1.5,
+    0.5
+   ],
+   "piege": "Diviser 2kπ par 2 et oublier que la période devient π : on perd deux solutions.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C10-E12",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C10-N3",
+    "M-S2-C10-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "On admet que $\\cos\\dfrac\\pi5=\\dfrac{1+\\sqrt5}4$.\n\n1. Calculer la valeur exacte de $\\sin\\dfrac\\pi5$.\n2. En déduire les valeurs exactes de $\\cos\\dfrac{4\\pi}5$, $\\cos\\dfrac{6\\pi}5$ et $\\sin\\dfrac{3\\pi}{10}$.",
+   "indices": [
+    "(1 + √5)² = 6 + 2√5.",
+    "3π/10 = π/2 − π/5."
+   ],
+   "corrige": [
+    "1. $\\sin^2\\dfrac\\pi5=1-\\left(\\dfrac{1+\\sqrt5}4\\right)^2=1-\\dfrac{6+2\\sqrt5}{16}=\\dfrac{10-2\\sqrt5}{16}$.",
+    "$\\dfrac\\pi5\\in\\left]0\\,;\\dfrac\\pi2\\right[$ donc $\\sin\\dfrac\\pi5>0$ : $\\sin\\dfrac\\pi5=\\dfrac{\\sqrt{10-2\\sqrt5}}4$.",
+    "2. $\\cos\\dfrac{4\\pi}5=\\cos\\left(\\pi-\\dfrac\\pi5\\right)=-\\cos\\dfrac\\pi5=-\\dfrac{1+\\sqrt5}4$.",
+    "$\\cos\\dfrac{6\\pi}5=\\cos\\left(\\pi+\\dfrac\\pi5\\right)=-\\cos\\dfrac\\pi5=-\\dfrac{1+\\sqrt5}4$.",
+    "$\\sin\\dfrac{3\\pi}{10}=\\sin\\left(\\dfrac\\pi2-\\dfrac\\pi5\\right)=\\cos\\dfrac\\pi5=\\dfrac{1+\\sqrt5}4$."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1,
+    1,
+    1.5
+   ],
+   "piege": "Développer (1 + √5)² en 1 + 5 = 6 en oubliant le double produit 2√5.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "M-S2-C10-E13",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "M-S2-C10-N5",
+    "M-S2-C10-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "1. Résoudre dans $\\mathbb{R}$ l'équation $2X^2-X-1=0$.\n2. En déduire les solutions dans $]-\\pi\\,;\\pi]$ de l'équation $2\\cos^2x-\\cos x-1=0$.\n3. Montrer que l'équation $2\\sin^2x+\\cos x-1=0$ a les mêmes solutions.",
+   "indices": [
+    "Pose X = cos x : c'est une équation du second degré.",
+    "Remplace sin²x par 1 − cos²x."
+   ],
+   "corrige": [
+    "1. $X=1$ est racine évidente ($2-1-1=0$) ; le produit des racines vaut $-\\dfrac12$, donc l'autre racine est $-\\dfrac12$. Ainsi $2X^2-X-1=(X-1)(2X+1)$.",
+    "2. On pose $X=\\cos x$ : $\\cos x=1$ ou $\\cos x=-\\dfrac12$.",
+    "$\\cos x=1$ donne $x=0$ dans $]-\\pi\\,;\\pi]$ ; $\\cos x=-\\dfrac12$ donne $x=\\pm\\dfrac{2\\pi}3$. $S=\\left\\{-\\dfrac{2\\pi}3\\,;0\\,;\\dfrac{2\\pi}3\\right\\}$.",
+    "3. $\\sin^2x=1-\\cos^2x$ : l'équation devient $2-2\\cos^2x+\\cos x-1=0$, soit $-2\\cos^2x+\\cos x+1=0$, c'est-à-dire $2\\cos^2x-\\cos x-1=0$ : mêmes solutions."
+   ],
+   "bareme": [
+    1.5,
+    1,
+    1.5,
+    1
+   ],
+   "piege": "Oublier de vérifier que les valeurs trouvées pour cos x sont dans [−1 ; 1], ou oublier la solution x = 0.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Calculatrice en mode degrés au lieu de radians.",
+  "Donner $\\frac{4\\pi}{3}$ comme mesure principale : elle doit appartenir à $]-\\pi\\,;\\pi]$.",
+  "Oublier une des deux familles de solutions ($-a$ pour le cosinus, $\\pi-a$ pour le sinus).",
+  "Se tromper de signe dans les angles associés faute d'avoir dessiné le cercle.",
+  "Confondre angle orienté et angle géométrique : $(\\vec v,\\vec u)=-(\\vec u,\\vec v)$.",
+  "Écrire $\\sin x=\\pm\\frac45$ sans choisir le signe grâce à l'intervalle.",
+  "Distribuer le cosinus : $\\cos(a+b)\\neq\\cos a+\\cos b$."
+ ]
+}

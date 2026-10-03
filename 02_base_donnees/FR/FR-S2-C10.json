@@ -1,0 +1,531 @@
+{
+ "id": "FR-S2-C10",
+ "matiere": "FR",
+ "semestre": 2,
+ "ordre": 10,
+ "titre": "Le théâtre",
+ "objectifs": [
+  "L'élève doit être capable d'identifier les composantes du texte théâtral (répliques, didascalies, tirade, monologue, aparté, stichomythie) et la double énonciation.",
+  "L'élève doit être capable de situer une scène dans la structure de la pièce et de connaître les règles du théâtre classique.",
+  "L'élève doit être capable de distinguer tragédie, comédie, drame romantique et théâtre africain, et de reconnaître les formes du comique.",
+  "L'élève doit être capable d'analyser une scène : enjeu, rapports de force, registre, mise en scène, visée."
+ ],
+ "prerequis": [
+  "FR-3e-THEATRE",
+  "FR-S1-C01",
+  "FR-S1-C02"
+ ],
+ "notions": [
+  {
+   "id": "FR-S2-C10-N1",
+   "titre": "Le texte théâtral et la double énonciation",
+   "prerequis_notions": [
+    "FR-3e-THEATRE",
+    "FR-S1-C01-N1"
+   ],
+   "cours_md": "## 1. Un texte écrit pour être joué\n\n:::definition\nLe **texte théâtral** est écrit pour être **représenté** sur une scène par des comédiens devant un public. Il se compose de deux parties :\n- les **répliques** : les paroles des personnages, précédées du nom de celui qui parle ;\n- les **didascalies** : les indications de l'auteur (en italique ou entre parenthèses) sur les lieux, les gestes, les entrées et sorties, le ton, les costumes.\n:::\n\n## 2. Les formes de la parole théâtrale\n\n| Forme | Définition |\n|---|---|\n| **Réplique** | ce que dit un personnage quand vient son tour de parler |\n| **Tirade** | longue réplique d'un personnage, sans interruption |\n| **Monologue** | personnage **seul** en scène qui parle (il exprime ses pensées, hésite, décide) |\n| **Aparté** | paroles qu'un personnage dit **pour lui-même** en présence d'autres personnages, qui sont censés ne pas les entendre ; le public, lui, les entend |\n| **Stichomythie** | échange rapide de répliques très courtes (souvent un vers ou une ligne chacune) : tension, dispute, comique |\n| **Dialogue** | échange de répliques entre plusieurs personnages |\n\n## 3. La double énonciation\n\n:::definition\nAu théâtre, chaque réplique a **deux destinataires** : le **personnage** à qui elle s'adresse sur scène, et le **public** dans la salle. C'est la **double énonciation**.\n:::\n\n- L'**aparté** et le **monologue** existent grâce à elle : ils informent le public de ce que les autres personnages ignorent.\n- Elle crée l'**ironie dramatique** : le spectateur en sait plus qu'un personnage (il connaît un secret, un piège), ce qui provoque le rire ou l'angoisse.\n\n> Exemple (scène d'exemple) : DOVI, *à part*. — « Avec elle, je rajeunirai de vingt ans. » / AKOSSIWA, *à part*. — « Avec lui, je vieillirai de quarante. » Les deux apartés ne sont entendus que du public : il rit du décalage entre les deux personnages.\n\n:::methode\n**Analyser l'énonciation dans une scène**\n1. Qui parle à qui ? (nom des personnages, apostrophes, didascalies « à part », « à Kodjo »)\n2. Repère les formes : tirade, stichomythie, aparté, monologue.\n3. Qu'apprend le public que les personnages ignorent ?\n4. Quel effet : comique, tension, pitié ?\n:::\n\n:::attention\nLes didascalies ne sont **pas prononcées** par les comédiens : elles guident la mise en scène. Mais elles font partie du texte et s'**analysent** (elles révèlent le caractère, l'ambiance, le comique de gestes).\n:::\n\n:::remarque\nAu théâtre, il n'y a en général **pas de narrateur** : tout passe par les paroles des personnages et par ce que montre la scène.\n:::",
+   "definition": "Le texte théâtral se compose de répliques (paroles des personnages : tirade, monologue, aparté, stichomythie) et de didascalies (indications de jeu) ; chaque réplique s'adresse à la fois au personnage et au public : c'est la double énonciation.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Au théâtre, les personnages se parlent, mais ils parlent aussi au public.",
+    "simple": "Dans un match de lutte traditionnelle, les lutteurs s'affrontent entre eux, mais tous leurs gestes sont aussi faits pour la foule qui regarde : c'est la double énonciation.",
+    "complete": "Le texte dramatique combine un texte dialogué (répliques) et un texte didascalique (indications scéniques), tous deux destinés à la représentation. La communication théâtrale est fondée sur la double énonciation : l'énoncé d'un personnage vise un interlocuteur fictif et, au-delà, le spectateur. Les formes conventionnelles (monologue, aparté, adresse au public) et l'ironie dramatique exploitent ce second circuit."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "« HARPAGON, seul. — Au voleur ! au voleur ! à l'assassin ! au meurtrier ! » (Molière, L'Avare, 1668). Quelle forme de parole ?",
+     "etapes": [
+      "Didascalie « seul » : personne d'autre en scène.",
+      "C'est un monologue (célèbre monologue d'Harpagon après le vol de sa cassette).",
+      "La double énonciation permet au public de rire de son désespoir excessif."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre monologue (seul en scène) et tirade (longue réplique devant d'autres personnages).",
+    "Ignorer les didascalies dans l'analyse.",
+    "Oublier le public, second destinataire de chaque réplique.",
+    "Chercher un narrateur au théâtre."
+   ],
+   "astuces": [
+    "« à part » dans une didascalie = aparté.",
+    "Des répliques d'une ligne qui s'enchaînent = stichomythie : cherche la tension ou le comique."
+   ],
+   "mnemo": "« Tirade = Très long ; Monologue = Mono, tout seul ; Aparté = À part ; Stichomythie = Échange en Salves. »",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu connaissais les répliques, les didascalies et le monologue. En seconde, tu ajoutes l'aparté, la stichomythie et surtout la double énonciation."
+   },
+   "methode_redaction": "Cite une réplique avec le nom du personnage et la scène : « Dans l'aparté de Dovi (\"Avec elle, je rajeunirai de vingt ans\"), le public découvre… ». Les didascalies se citent aussi, entre guillemets.",
+   "flash": [
+    {
+     "q": "Qu'est-ce qu'une didascalie ?",
+     "r": "Une indication de l'auteur sur les lieux, les gestes, le ton (non prononcée)."
+    },
+    {
+     "q": "Qu'est-ce qu'un aparté ?",
+     "r": "Paroles dites pour soi devant d'autres personnages, entendues seulement du public."
+    },
+    {
+     "q": "Différence entre tirade et monologue ?",
+     "r": "Tirade : longue réplique devant d'autres ; monologue : personnage seul en scène."
+    },
+    {
+     "q": "Qu'est-ce que la double énonciation ?",
+     "r": "Chaque réplique s'adresse au personnage et au public."
+    },
+    {
+     "q": "Qu'est-ce qu'une stichomythie ?",
+     "r": "Un échange rapide de répliques très courtes."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C10-N1.svg",
+    "alt": "Carte mentale du texte théâtral : didascalies, tirade, monologue, aparté, stichomythie, double énonciation.",
+    "legende": "Les formes de la parole au théâtre.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C10-N2",
+   "titre": "La structure de la pièce et les règles du théâtre classique",
+   "prerequis_notions": [
+    "FR-S2-C10-N1"
+   ],
+   "cours_md": "## 1. Actes et scènes\n\n:::definition\nUne pièce se divise en **actes** (grandes parties : 5 dans la tragédie classique, 3 ou 5 dans la comédie) et en **scènes**. Traditionnellement, on change de scène quand un personnage **entre** ou **sort**.\n:::\n\n## 2. Les étapes de l'action\n\n1. **L'exposition** (souvent l'acte I) : elle présente les personnages, le lieu, l'époque, la situation et le **conflit**. La **scène d'exposition** doit informer le public tout en restant naturelle.\n2. **Le nœud** : le conflit se met en place ; les obstacles s'opposent aux désirs des personnages.\n3. **Les péripéties** : les rebondissements qui changent la situation (révélation, quiproquo, retournement).\n4. **Le dénouement** (dernier acte) : le conflit se résout ; heureux en comédie (souvent des mariages), malheureux en tragédie (souvent la mort).\n\n## 3. Les règles du théâtre classique (XVIIe siècle)\n\n:::definition\nLes auteurs classiques (Corneille, Racine, Molière) suivent des règles inspirées d'Aristote :\n- **unité de temps** : l'action dure au plus **24 heures** ;\n- **unité de lieu** : un **seul lieu** ;\n- **unité d'action** : une **seule intrigue** principale ;\n- **vraisemblance** : ce qui est montré doit paraître possible ;\n- **bienséance** : ne pas choquer le public (pas de mort ni de violence montrée sur scène ; on la **raconte** dans un récit).\n:::\n\n> Le vers de Boileau (*L'Art poétique*, 1674) résume les trois unités : « Qu'en un lieu, qu'en un jour, un seul fait accompli / Tienne jusqu'à la fin le théâtre rempli. »\n\n:::propriete\nLes **romantiques** (Hugo, préface de *Cromwell*, 1827 ; *Hernani*, 1830) rejettent ces règles : ils mélangent les genres (le sublime et le grotesque), changent de lieu, étendent le temps de l'action. Le théâtre africain contemporain se libère aussi de ces contraintes et mêle souvent chant, danse, conte et dialogue.\n:::\n\n:::methode\n**Situer et analyser une scène dans la pièce**\n1. Où se trouve la scène (acte, moment de l'action : exposition, nœud, dénouement) ?\n2. Quels personnages sont présents ? Qui entre, qui sort ?\n3. Qu'est-ce qui change à la fin de la scène (information, décision, retournement) ?\n4. Quel rôle joue-t-elle dans l'ensemble de la pièce ?\n:::\n\n:::attention\nNe confonds pas le **dénouement** (fin de la pièce, résolution du conflit) et une simple **péripétie** (rebondissement en cours d'action).\n:::",
+   "definition": "Une pièce se divise en actes et en scènes et suit une progression : exposition, nœud, péripéties, dénouement ; le théâtre classique impose les unités de temps, de lieu et d'action, la vraisemblance et la bienséance, que les romantiques rejetteront.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Une pièce présente un conflit (exposition), le complique (nœud, péripéties) puis le résout (dénouement).",
+    "simple": "C'est comme un match : présentation des équipes (exposition), le jeu se tend (nœud), les buts et retournements (péripéties), le coup de sifflet final (dénouement).",
+    "complete": "La dramaturgie classique organise l'action en exposition, nœud, péripéties et dénouement, découpés en actes et scènes (scènes liées par la présence d'un personnage). Elle se soumet aux unités de temps, de lieu et d'action, aux exigences de vraisemblance et de bienséance, conformément à une lecture normative d'Aristote. Le drame romantique, puis les dramaturgies modernes et africaines, rompent ces normes au profit du mélange des genres et de la liberté spatio-temporelle."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Quel est le rôle d'une scène d'exposition ?",
+     "etapes": [
+      "Présenter les personnages principaux, le lieu, l'époque.",
+      "Exposer la situation et le conflit.",
+      "Le faire de manière naturelle, dans le dialogue (souvent entre un personnage et son confident)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Confondre dénouement et péripétie.",
+    "Croire que toutes les pièces respectent les trois unités.",
+    "Oublier la bienséance pour expliquer pourquoi une mort est racontée et non montrée.",
+    "Analyser une scène sans la situer dans la pièce."
+   ],
+   "astuces": [
+    "Repère toujours qui entre et qui sort : c'est le squelette de la scène.",
+    "Bienséance = « bien se tenir » devant le public du XVIIe siècle."
+   ],
+   "mnemo": "« Un lieu, un jour, une action » : les trois unités (Boileau).",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as étudié une comédie (peut-être de Molière) et ses actes et scènes. En seconde, tu ajoutes les étapes de l'action et les règles classiques."
+   },
+   "methode_redaction": "En introduction d'un commentaire de scène, situe-la précisément : « Cette scène, placée à la fin de l'acte I, achève l'exposition et lance le conflit… »",
+   "flash": [
+    {
+     "q": "Combien d'actes dans une tragédie classique ?",
+     "r": "Cinq."
+    },
+    {
+     "q": "Quelles sont les trois unités ?",
+     "r": "Temps, lieu, action."
+    },
+    {
+     "q": "Qu'est-ce que la bienséance ?",
+     "r": "La règle qui interdit de choquer le public (pas de violence montrée sur scène)."
+    },
+    {
+     "q": "Qu'est-ce que le dénouement ?",
+     "r": "La fin de la pièce, où le conflit se résout."
+    },
+    {
+     "q": "Qui rejette les règles classiques au XIXe siècle ?",
+     "r": "Les romantiques (Hugo)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C10-N2.svg",
+    "alt": "Schéma en quatre étapes de la structure d'une pièce : exposition, nœud, péripéties, dénouement, avec rappel des trois unités.",
+    "legende": "La progression de l'action dramatique.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C10-N3",
+   "titre": "Les genres théâtraux : tragédie, comédie, drame, théâtre africain",
+   "prerequis_notions": [
+    "FR-S2-C10-N2"
+   ],
+   "cours_md": "## 1. La tragédie\n\n:::definition\nLa **tragédie** met en scène des personnages **nobles** (rois, héros) pris dans un **conflit** sans issue (passion contre devoir, homme contre destin) qui les mène à la **mort** ou au malheur. Elle vise à susciter la **terreur** et la **pitié** et, selon Aristote, à purifier les passions du spectateur (la **catharsis**).\n:::\n\n> Racine, *Andromaque* (1667), *Phèdre* (1677) ; Corneille, *Le Cid* (1637, tragi-comédie où triomphe finalement l'espoir).\n\n## 2. La comédie\n\n:::definition\nLa **comédie** met en scène des personnages souvent ordinaires, dans des situations de la vie quotidienne (mariage, argent, famille), et se termine **bien**. Elle cherche à **faire rire** et souvent à **corriger les mœurs** par le rire (« castigat ridendo mores »).\n:::\n\n**Les formes du comique** :\n| Comique | Principe | Exemple |\n|---|---|---|\n| **de mots** | jeux de mots, quiproquos verbaux, répétitions, langage déformé | « Sans dot ! » répété par Harpagon (Molière, *L'Avare*, 1668) |\n| **de gestes** | coups, chutes, grimaces, poursuites | les coups de bâton dans *Les Fourberies de Scapin* (1671) |\n| **de situation** | quiproquo, personnage caché, retournement | un personnage pris à son propre piège |\n| **de caractère** | un défaut poussé à l'excès | l'avarice d'Harpagon, l'hypocondrie d'Argan (*Le Malade imaginaire*, 1673) |\n| **de mœurs** | satire d'un milieu, d'une époque | la satire des médecins, des faux dévots |\n| **de répétition** | une même réplique ou action revient | « Et la dot ? » dans la scène d'exemple |\n\n## 3. Le drame romantique et le théâtre moderne\n\n- Le **drame romantique** (Hugo, *Hernani*, 1830 ; *Ruy Blas*, 1838) mélange le tragique et le comique, le sublime et le grotesque, refuse les unités.\n- Le **théâtre de l'absurde** (Ionesco, *La Cantatrice chauve*, 1950 ; Beckett, *En attendant Godot*) montre l'absurdité de la condition humaine et du langage.\n\n## 4. Le théâtre africain francophone\n\n- Il puise dans les **rituels**, le **conte**, le chant et la danse, et la figure du **griot**.\n- Il pratique beaucoup la **satire sociale et politique** : Bernard Dadié (Côte d'Ivoire), *Monsieur Thôgô-gnini* (1970), satire d'un parvenu ; Guillaume Oyônô Mbia (Cameroun), *Trois prétendants… un mari* (1964), comédie sur la dot et le mariage arrangé.\n- Au **Togo** : le **concert-party** populaire ; Senouvo Agbota Zinsou, *On joue la comédie* (1972) ; Kossi Efoui, *Le Carrefour* (1989) ; *Le Trône royal* de Mgr Barrigah-Benissan, signalé au programme.\n\n:::methode\n**Identifier le genre et le registre d'une scène**\n1. Qui sont les personnages (rang social) ? Quel est l'enjeu (vie, amour, argent, honneur) ?\n2. Quelle issue se prépare (heureuse, malheureuse) ?\n3. Quels procédés (comiques, tragiques, pathétiques) ?\n4. Quelle visée (faire rire, émouvoir, dénoncer) ?\n:::\n\n:::attention\n« Comique » ne veut pas dire « sans sérieux » : la comédie dénonce souvent de vrais défauts (l'avarice, l'hypocrisie, le mariage forcé). Le rire est une arme critique.\n:::",
+   "definition": "La tragédie montre des personnages nobles pris dans un conflit sans issue qui suscite terreur et pitié ; la comédie fait rire (comique de mots, de gestes, de situation, de caractère, de mœurs) pour corriger les mœurs ; le drame romantique mêle les genres ; le théâtre africain puise dans le rituel, le conte et la satire.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Tragédie = on pleure et ça finit mal ; comédie = on rit et ça finit bien, mais on réfléchit.",
+    "simple": "Les sketches de la télévision qui se moquent du fonctionnaire paresseux ou du commerçant tricheur continuent la comédie de mœurs : on rit, mais on reconnaît un défaut réel.",
+    "complete": "La tragédie classique repose sur la fatalité, le rang élevé des personnages, le registre tragique et la visée cathartique ; la comédie, sur des personnages communs, un dénouement heureux et des ressorts comiques (verbaux, gestuels, situationnels, caractériels, satiriques) au service d'une visée morale. Le drame romantique fusionne les registres ; le théâtre de l'absurde déconstruit l'action et le langage ; le théâtre africain francophone intègre performance rituelle, oralité et satire sociopolitique."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Quel comique ? Un vieillard avare répète « Et la dot ? » à chaque argument de sa fille.",
+     "etapes": [
+      "Une même réplique revient : comique de répétition (comique de mots).",
+      "Elle révèle un défaut poussé à l'excès : comique de caractère.",
+      "Visée : critique du mariage réduit à une affaire d'argent."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Réduire la comédie au simple divertissement.",
+    "Confondre registre tragique (fatalité) et registre pathétique (pitié devant la souffrance).",
+    "Nommer un type de comique sans citer le passage.",
+    "Ignorer le théâtre africain et togolais dans ses exemples."
+   ],
+   "astuces": [
+    "Pour le comique, demande-toi : « De quoi rit-on exactement ? Des mots, des gestes, de la situation, du caractère ? »",
+    "Retiens une comédie de Molière et une comédie africaine sur le mariage (Oyônô Mbia) : elles se répondent."
+   ],
+   "mnemo": "« Les 5 comiques : M-G-S-C-M » : Mots, Gestes, Situation, Caractère, Mœurs.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu as étudié les formes du comique chez Molière. En seconde, tu découvres la tragédie, le drame romantique et le théâtre africain."
+   },
+   "methode_redaction": "Rédige : « Le comique de répétition (\"Et la dot ?\") souligne l'obsession de l'argent de Kodjo et transforme le mariage en marchandage : le rire devient une critique. »",
+   "flash": [
+    {
+     "q": "Qu'est-ce que la catharsis ?",
+     "r": "La purification des passions du spectateur par la terreur et la pitié (Aristote)."
+    },
+    {
+     "q": "Les cinq formes du comique ?",
+     "r": "Mots, gestes, situation, caractère, mœurs (et répétition)."
+    },
+    {
+     "q": "Qu'est-ce qu'un quiproquo ?",
+     "r": "Une méprise : un personnage prend une chose ou une personne pour une autre."
+    },
+    {
+     "q": "Cite un drame romantique de Hugo.",
+     "r": "Hernani (1830) ou Ruy Blas (1838)."
+    },
+    {
+     "q": "Cite une comédie africaine sur la dot.",
+     "r": "Trois prétendants… un mari, de Guillaume Oyônô Mbia (1964)."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C10-N3.svg",
+    "alt": "Tableau comparant tragédie, comédie, drame romantique et théâtre africain : personnages, issue, visée.",
+    "legende": "Les grands genres théâtraux.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  },
+  {
+   "id": "FR-S2-C10-N4",
+   "titre": "Analyser une scène de théâtre",
+   "prerequis_notions": [
+    "FR-S2-C10-N1",
+    "FR-S2-C10-N3"
+   ],
+   "cours_md": "## 1. Que cherche-t-on dans une scène ?\n\n:::definition\nAnalyser une scène, c'est montrer **comment** le dialogue fait avancer l'**action**, révèle les **personnages** et leurs **rapports de force**, et produit un **effet** sur le public (rire, émotion, réflexion).\n:::\n\n## 2. La grille d'analyse\n\n1. **Situation** : place dans la pièce, personnages présents, lieu (didascalies).\n2. **Enjeu** : qu'est-ce qui est en jeu (un mariage, un secret, le pouvoir, l'honneur, l'argent) ?\n3. **Rapports de force** : qui domine la parole (nombre et longueur des répliques, impératifs, questions, interruptions) ? Le rapport change-t-il au cours de la scène ?\n4. **Formes de la parole** : tirades, stichomythies, apartés, monologues.\n5. **Registre** : comique (quels ressorts ?), tragique, pathétique, satirique.\n6. **Mise en scène** : didascalies (gestes, objets, tons), ce que le spectateur voit.\n7. **Visée** : que dénonce, montre ou célèbre la scène ?\n\n## 3. Exemple : la scène d'exemple « La dot »\n\n> Didascalie initiale : « KODJO, assis sur un tabouret, compte des billets » : le geste révèle d'emblée son obsession de l'argent.\n> Rapport de force : le père impose (impératifs « Pose ce seau et écoute-moi »), la fille résiste par des répliques courtes ; la **stichomythie** et la répétition « Et la dot ? » montrent le dialogue de sourds.\n> Apartés symétriques de Dovi et d'Akossiwa (« je rajeunirai de vingt ans » / « je vieillirai de quarante ») : **antithèse** comique, **double énonciation**.\n> Comique de gestes : la canne, l'essoufflement, la toux de Dovi contredisent ses rêves de jeunesse.\n> Visée : **satire** du mariage arrangé et de la dot vue comme une affaire d'argent, dans la lignée de Molière et d'Oyônô Mbia.\n\n:::methode\n**Rédiger l'analyse d'une scène (paragraphe)**\n1. Idée directrice (« Le dialogue révèle un conflit entre l'argent et l'amour »).\n2. Citations précises (répliques et didascalies) avec le procédé nommé.\n3. Interprétation de chaque procédé (effet sur le public, sens).\n4. Lien avec la visée de la pièce.\n:::\n\n:::attention\n- Ne **résume** pas la scène réplique par réplique : organise ton analyse par **idées**.\n- Pense au **spectacle** : une didascalie (une toux, une canne, des billets) peut être plus parlante qu'une longue réplique.\n:::\n\n:::remarque\nPour une **œuvre intégrale** de théâtre (par exemple une pièce au programme), prépare une fiche par personnage (rôle, caractère, évolution) et repère les scènes-clés (exposition, nœud, dénouement).\n:::",
+   "definition": "Analyser une scène de théâtre, c'est montrer comment le dialogue (répliques, didascalies, formes de parole) fait avancer l'action, révèle les personnages et leurs rapports de force, et produit un effet (comique, tragique, satirique) au service d'une visée.",
+   "formules": [],
+   "niveaux": {
+    "phrase": "Qui parle, qui domine, que se joue-t-il, et pourquoi le public rit ou s'émeut.",
+    "simple": "Analyser une scène, c'est comme commenter un match de lutte : qui attaque, qui résiste, quand le rapport de force bascule, et comment réagit le public.",
+    "complete": "L'analyse dramaturgique d'une scène articule l'étude de la situation d'énonciation (double énonciation, apartés), de la dynamique interactionnelle (répartition et longueur des répliques, actes de langage, rapports de places), des registres et des virtualités scéniques inscrites dans les didascalies, pour dégager la fonction de la scène dans l'économie de la pièce et sa visée."
+   },
+   "analogie": "",
+   "exemples_resolus": [
+    {
+     "enonce": "Comment montrer qu'un personnage domine la parole ?",
+     "etapes": [
+      "Il a les répliques les plus nombreuses ou les plus longues.",
+      "Il utilise des impératifs, des questions, il interrompt les autres.",
+      "Les autres répondent brièvement ou se taisent.",
+      "Exemple : Kodjo (« Pose ce seau et écoute-moi », « Et la dot, te dis-je ? »)."
+     ]
+    }
+   ],
+   "erreurs_frequentes": [
+    "Résumer la scène au lieu de l'analyser.",
+    "Oublier les didascalies.",
+    "Ne pas étudier l'évolution du rapport de force.",
+    "Nommer le registre sans expliquer d'où vient le rire ou l'émotion."
+   ],
+   "astuces": [
+    "Compte les répliques de chaque personnage : c'est un indice simple du rapport de force.",
+    "Imagine la scène jouée : que voit et entend le spectateur ?"
+   ],
+   "mnemo": "« S-E-R-F-R-M-V » : Situation, Enjeu, Rapports de force, Formes, Registre, Mise en scène, Visée.",
+   "rappel_anterieur": {
+    "classe": "3e",
+    "texte": "Tu te souviens de la 3e ? Tu lisais des scènes de Molière en relevant le comique. En seconde, tu analyses aussi les rapports de force, la double énonciation et la visée."
+   },
+   "methode_redaction": "Organise ton analyse en deux axes (par exemple : I. Un dialogue de sourds entre l'argent et l'amour ; II. Une satire comique du mariage arrangé), chacun avec citations et procédés.",
+   "flash": [
+    {
+     "q": "Cite trois indices d'un rapport de force dans une scène.",
+     "r": "Nombre et longueur des répliques, impératifs, interruptions."
+    },
+    {
+     "q": "Pourquoi analyser les didascalies ?",
+     "r": "Elles révèlent gestes, caractère et comique visibles par le spectateur."
+    },
+    {
+     "q": "Faut-il résumer la scène dans l'analyse ?",
+     "r": "Non, on l'analyse par idées."
+    },
+    {
+     "q": "Qu'est-ce qu'un dialogue de sourds ?",
+     "r": "Un échange où les personnages ne s'écoutent pas (répétitions, réponses à côté)."
+    },
+    {
+     "q": "Quelle est la visée de la scène « La dot » ?",
+     "r": "La satire du mariage arrangé et de la dot vue comme une affaire d'argent."
+    }
+   ],
+   "image": {
+    "fichier": "FR-S2-C10-N4.svg",
+    "alt": "Schéma en cinq étapes pour analyser une scène : situation, enjeu, rapports de force, formes et registre, mise en scène et visée.",
+    "legende": "Grille d'analyse d'une scène de théâtre.",
+    "licence": "Création originale, CC0"
+   },
+   "videos": []
+  }
+ ],
+ "exercices": [
+  {
+   "id": "FR-S2-C10-E01",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C10-N1"
+   ],
+   "format": "qcm",
+   "enonce": "Qu'est-ce qu'une didascalie ?",
+   "indices": [
+    "Pense aux passages en italique."
+   ],
+   "corrige": [
+    "La didascalie est une indication de l'auteur (lieu, gestes, ton, entrées, sorties), non prononcée par les comédiens."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "La longue réplique est une tirade.",
+   "verification": "double_resolution",
+   "choix": [
+    "Une longue réplique d'un personnage",
+    "Une indication de l'auteur sur le jeu, les gestes ou le décor",
+    "Un échange rapide de répliques",
+    "La fin heureuse d'une comédie"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S2-C10-E02",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 1,
+   "notions": [
+    "FR-S2-C10-N1"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Comment appelle-t-on les paroles qu'un personnage prononce pour lui-même en présence d'autres personnages, que le public entend mais pas les autres personnages ? (un mot)",
+   "indices": [
+    "La didascalie indique « à part »."
+   ],
+   "corrige": [
+    "C'est un aparté (souvent signalé par la didascalie « à part »)."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Le monologue suppose que le personnage est seul en scène.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "aparté",
+    "un aparté",
+    "l'aparté",
+    "l’aparté",
+    "apartés"
+   ]
+  },
+  {
+   "id": "FR-S2-C10-E03",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C10-N3"
+   ],
+   "format": "qcm",
+   "enonce": "Dans L'Avare de Molière, Harpagon répète « Sans dot ! » à chaque objection qu'on lui fait sur le mariage de sa fille. Quels ressorts comiques sont principalement utilisés ?",
+   "indices": [
+    "De quoi rit-on : d'un geste, ou d'une phrase qui revient et révèle un défaut ?"
+   ],
+   "corrige": [
+    "La même réplique revient sans cesse : comique de répétition (de mots).",
+    "Elle révèle un défaut poussé à l'excès, l'avarice : comique de caractère."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Il n'y a pas de coup ni de chute ici : ce n'est pas un comique de gestes.",
+   "verification": "double_resolution",
+   "choix": [
+    "Comique de gestes et de situation",
+    "Comique de répétition et de caractère",
+    "Comique de mœurs uniquement",
+    "Aucun : c'est une scène tragique"
+   ],
+   "bonne_reponse": 1
+  },
+  {
+   "id": "FR-S2-C10-E04",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C10-N2"
+   ],
+   "format": "qcm",
+   "enonce": "Laquelle de ces règles ne fait PAS partie des règles du théâtre classique ?",
+   "indices": [
+    "Quel mouvement a revendiqué le mélange des genres ?"
+   ],
+   "corrige": [
+    "Les règles classiques : unités de temps, de lieu, d'action ; vraisemblance ; bienséance.",
+    "Le mélange du sublime et du grotesque est au contraire une revendication du drame romantique (Hugo)."
+   ],
+   "bareme": [
+    1,
+    1
+   ],
+   "piege": "Hugo défend ce mélange dans la préface de Cromwell (1827), contre les classiques.",
+   "verification": "double_resolution",
+   "choix": [
+    "L'unité de temps (24 heures)",
+    "La bienséance",
+    "Le mélange du sublime et du grotesque",
+    "L'unité d'action"
+   ],
+   "bonne_reponse": 2
+  },
+  {
+   "id": "FR-S2-C10-E05",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 2,
+   "notions": [
+    "FR-S2-C10-N1",
+    "FR-S2-C10-N2"
+   ],
+   "format": "reponse_courte",
+   "enonce": "Combien d'heures dure au maximum l'action d'une tragédie classique selon la règle de l'unité de temps ? (un nombre)",
+   "indices": [
+    "« Qu'en un lieu, qu'en un jour… » (Boileau)."
+   ],
+   "corrige": [
+    "L'unité de temps limite l'action à une journée : 24 heures au plus."
+   ],
+   "bareme": [
+    1
+   ],
+   "piege": "Il s'agit de la durée de l'histoire représentée, pas de la durée du spectacle.",
+   "verification": "double_resolution",
+   "reponses_acceptees": [
+    "24",
+    "24 heures",
+    "vingt-quatre",
+    "vingt-quatre heures",
+    "24h"
+   ]
+  },
+  {
+   "id": "FR-S2-C10-E06",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 3,
+   "notions": [
+    "FR-S2-C10-N1",
+    "FR-S2-C10-N3",
+    "FR-S2-C10-N4"
+   ],
+   "format": "ouverte",
+   "enonce": "Lis cette scène, puis réponds.\n\n*La cour d'une maison familiale, à Aného. KODJO, assis sur un tabouret, compte des billets. AKOSSIWA entre, un seau d'eau sur la tête.*\n\nKODJO. — Akossiwa ! Pose ce seau et écoute-moi. Le grand Dovi vient demander ta main.\nAKOSSIWA, *posant le seau*. — Le grand Dovi ? Mais, papa, il a l'âge de grand-père !\nKODJO. — Il a surtout trois camions et deux boutiques au grand marché.\nAKOSSIWA. — Et moi, j'aime Komi, le maître d'école.\nKODJO. — Un maître d'école ! Et la dot ?\nAKOSSIWA. — Komi est honnête et travailleur.\nKODJO. — Et la dot ?\nAKOSSIWA. — Il m'apprend à lire les journaux…\nKODJO. — Et la dot, te dis-je ?\n*Entre DOVI, essoufflé, appuyé sur une canne.*\nDOVI, *à part*. — Quelle belle enfant ! Avec elle, je rajeunirai de vingt ans.\nAKOSSIWA, *à part*. — Avec lui, je vieillirai de quarante.\nDOVI, *à Kodjo, solennel*. — Mon frère, j'apporte les présents.\n*Il tousse longuement.*\n\n(scène d'exemple écrite pour l'exercice)\n\n1. Relève deux didascalies et dis ce qu'elles révèlent des personnages.\n2. Identifie deux formes particulières de la parole théâtrale dans cette scène et explique leur effet.\n3. Relève trois ressorts comiques différents.\n4. Quelle est la visée de cette scène ?",
+   "indices": [
+    "Les didascalies sont en italique.",
+    "Compte combien de fois Kodjo dit « Et la dot ? »."
+   ],
+   "corrige": [
+    "1. « KODJO… compte des billets » : son obsession de l'argent apparaît avant même qu'il parle. « DOVI, essoufflé, appuyé sur une canne » et « Il tousse longuement » : sa vieillesse et sa faiblesse, qui contredisent son rôle de prétendant.",
+    "2. La stichomythie (répliques courtes de Kodjo et Akossiwa) traduit un dialogue de sourds et accélère le rythme ; les apartés de Dovi et d'Akossiwa, entendus du seul public (double énonciation), révèlent leurs pensées opposées et créent la complicité du spectateur.",
+    "3. Comique de répétition (« Et la dot ? » trois fois, avec gradation « te dis-je ») ; comique de mots (antithèse des apartés « rajeunirai de vingt ans » / « vieillirai de quarante ») ; comique de gestes (canne, essoufflement, toux) ; comique de caractère (le père avare).",
+    "4. Visée satirique : la scène dénonce le mariage arrangé et la dot transformée en affaire d'argent, au détriment des sentiments de la jeune fille ; elle prend le parti d'Akossiwa (l'amour, l'instruction : « Il m'apprend à lire les journaux »)."
+   ],
+   "bareme": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "piege": "Ne pas oublier que les apartés ne sont pas entendus par les autres personnages : c'est ce qui les rend comiques.",
+   "verification": "double_resolution"
+  },
+  {
+   "id": "FR-S2-C10-E07",
+   "type": "exercice_type_inspire",
+   "authentique": false,
+   "difficulte": 4,
+   "notions": [
+    "FR-S2-C10-N1",
+    "FR-S2-C10-N2",
+    "FR-S2-C10-N3"
+   ],
+   "format": "ouverte",
+   "enonce": "Écris la suite de cette scène (10 à 14 répliques) en respectant les codes du théâtre : noms des personnages, didascalies, au moins un aparté et une stichomythie. Komi, le maître d'école, doit entrer et un retournement doit se produire. Puis explique en trois phrases les procédés que tu as utilisés.\n\n*La cour d'une maison familiale, à Aného. KODJO, assis sur un tabouret, compte des billets. AKOSSIWA entre, un seau d'eau sur la tête.*\n\nKODJO. — Akossiwa ! Pose ce seau et écoute-moi. Le grand Dovi vient demander ta main.\nAKOSSIWA, *posant le seau*. — Le grand Dovi ? Mais, papa, il a l'âge de grand-père !\nKODJO. — Il a surtout trois camions et deux boutiques au grand marché.\nAKOSSIWA. — Et moi, j'aime Komi, le maître d'école.\nKODJO. — Un maître d'école ! Et la dot ?\nAKOSSIWA. — Komi est honnête et travailleur.\nKODJO. — Et la dot ?\nAKOSSIWA. — Il m'apprend à lire les journaux…\nKODJO. — Et la dot, te dis-je ?\n*Entre DOVI, essoufflé, appuyé sur une canne.*\nDOVI, *à part*. — Quelle belle enfant ! Avec elle, je rajeunirai de vingt ans.\nAKOSSIWA, *à part*. — Avec lui, je vieillirai de quarante.\nDOVI, *à Kodjo, solennel*. — Mon frère, j'apporte les présents.\n*Il tousse longuement.*\n\n(scène d'exemple écrite pour l'exercice)",
+   "indices": [
+    "Commence par une didascalie d'entrée.",
+    "Un journal, une lettre ou un messager peuvent provoquer le retournement.",
+    "Garde le défaut de Kodjo jusqu'au bout : c'est le ressort comique."
+   ],
+   "corrige": [
+    "Début (modèle) : « KODJO, se levant, à Dovi. — Sois le bienvenu, mon frère ! Akossiwa, apporte de l'eau fraîche. / AKOSSIWA, à part. — De l'eau fraîche… et un peu de courage. / Entre KOMI, un journal à la main. / KOMI. — Bonjour, papa Kodjo. Bonjour, Akossiwa. / KODJO. — Le maître d'école ! Que viens-tu faire ici ? »",
+    "Retournement (modèle) : « KOMI, montrant le journal. — Vous apporter une nouvelle : les camions de M. Dovi ont été saisis ce matin pour dettes. / DOVI, toussant. — Calomnie ! / KOMI. — C'est écrit ici. / DOVI. — Mensonge ! / KOMI. — Page trois. / KODJO, arrachant le journal. — Montre ! (Il tient le journal à l'envers.) Akossiwa, lis-moi ça. »",
+    "Dénouement de la scène (modèle) : « AKOSSIWA, lisant. — \"Le commerçant Dovi poursuivi par ses créanciers…\" / KODJO, à part. — Plus de camions, plus de dot… / Haut, à Komi. — Et toi, maître, as-tu de quoi payer une dot ? / KOMI. — J'ai mon salaire, mon courage, et une fiancée qui sait lire. / Dovi sort en boitant. Akossiwa sourit. »",
+    "Respect des codes : noms en majuscules, didascalies en italique (entrées, sorties, gestes, ton), au moins un aparté (« à part »), une stichomythie (« Calomnie ! / C'est écrit ici. / Mensonge ! / Page trois. »).",
+    "Explication des procédés : l'entrée de Komi provoque un retournement de situation (la richesse de Dovi s'effondre) ; la stichomythie crée la tension et le rire ; l'aparté de Kodjo (« Plus de camions, plus de dot… ») montre que son avarice ne change pas, ce qui prolonge la satire, tandis que l'instruction (la lecture du journal) triomphe."
+   ],
+   "bareme": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "piege": "Ne pas écrire un récit (« Komi entra et dit que… ») : tout doit passer par des répliques et des didascalies.",
+   "verification": "double_resolution"
+  }
+ ],
+ "pieges_composition": [
+  "Résumer la scène réplique par réplique au lieu de l'analyser par idées.",
+  "Oublier les didascalies et le spectacle (gestes, objets, entrées, sorties).",
+  "Confondre tirade et monologue, aparté et monologue.",
+  "Nommer « le comique » sans préciser sa forme (mots, gestes, situation, caractère, mœurs) ni ce qu'il dénonce.",
+  "Écrire un récit au lieu d'un dialogue théâtral dans les exercices d'écriture."
+ ]
+}
