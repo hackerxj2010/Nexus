@@ -15,8 +15,6 @@
 <text x="208.0" y="188.0" font-size="11" text-anchor="middle" fill="#6b7280" font-weight="normal">−2</text>
 <line x1="312.0" y1="166.0" x2="312.0" y2="174.0" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
 <text x="312.0" y="188.0" font-size="11" text-anchor="middle" fill="#6b7280" font-weight="normal">2</text>
-<line x1="364.0" y1="166.0" x2="364.0" y2="174.0" stroke="#1f2937" stroke-width="1.5" stroke-linecap="round"/>
-<text x="364.0" y="188.0" font-size="11" text-anchor="middle" fill="#6b7280" font-weight="normal">4</text>
 <polyline points="26.0,170.0 275.6,170.0 275.6,170.0 276.2,169.0 276.9,167.0 277.6,164.2 278.2,160.9 278.9,156.9 279.5,152.5 280.1,147.6 280.8,142.3 281.4,136.6 282.1,130.4 282.8,123.9 283.4,117.0 284.1,109.8 284.7,102.2 285.4,94.3 286.0,86.0 286.6,77.5 287.3,68.6 287.9,59.5 288.6,50.0" stroke="#1d4ed8" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
 <text x="279.6" y="202.0" font-size="11" text-anchor="middle" fill="#1d4ed8" font-weight="normal">0,6</text>
 <line x1="275.6" y1="170.0" x2="275.6" y2="190.0" stroke="#1d4ed8" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
